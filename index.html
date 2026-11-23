@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ancient World Genealogy Atlas — Interactive Comparative Explorer</title>
-  <meta name="description" content="Interactive comparative ancient genealogy tree uniting Biblical, Extra-Biblical (Jubilees, 1 Enoch, Book of Jasher), Mesopotamian, Iranian/Zoroastrian, Egyptian/Phoenician, Arabian, Vedic/Puranic Indian, Chinese, Korean, Japanese, and Eurasian Steppe lineages." />
+  <meta name="description" content="Exhaustive interactive ancient genealogy tree uniting Biblical, Book of Jasher, Book of Jubilees, 1 Enoch, Egyptian, Mesopotamian, Iranian/Zoroastrian, Arabian, Vedic/Puranic Indian, Chinese, Korean, Japanese, and Eurasian Steppe lineages." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :root {
@@ -39,16 +39,11 @@
     }
     * { box-sizing: border-box; }
     html, body { height: 100%; margin: 0; padding: 0; overflow: hidden; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-    .node-card {
-      cursor: pointer;
-      transition: transform 0.15s ease, opacity 0.2s ease, filter 0.2s ease;
-    }
-    .node-card:hover { filter: brightness(1.09); }
-    .edge-path {
-      fill: none;
-      transition: opacity 0.2s ease, stroke-width 0.2s ease;
-      cursor: pointer;
-    }
+    .node-card { cursor: pointer; transition: opacity 0.18s ease, filter 0.15s ease; }
+    .node-card:hover { filter: brightness(1.1); }
+    .expand-pill { cursor: pointer; }
+    .expand-pill:hover rect { filter: brightness(1.2); }
+    .edge-path { fill: none; transition: opacity 0.18s ease, stroke-width 0.18s ease; cursor: pointer; }
     .edge-path:hover { stroke-width: 3.5px !important; opacity: 1 !important; }
     .thin-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
     .thin-scroll::-webkit-scrollbar-track { background: transparent; }
@@ -58,44 +53,72 @@
 </head>
 <body class="bg-[var(--background)] text-[var(--foreground)] antialiased flex flex-col h-screen">
 
-  <!-- Top Navigation & Controls -->
-  <header class="shrink-0 border-b border-[var(--border)] bg-[var(--card)] px-4 py-2.5 flex flex-wrap items-center justify-between gap-3">
-    <div class="flex items-center gap-3">
-      <div class="w-8 h-8 rounded-lg bg-[var(--primary)] text-[var(--primary-foreground)] flex items-center justify-center font-bold text-sm shadow-sm">
-        WG
-      </div>
+  <!-- Top Header -->
+  <header class="shrink-0 border-b border-[var(--border)] bg-[var(--card)] px-4 py-2 flex flex-wrap items-center justify-between gap-2.5">
+    <div class="flex items-center gap-2.5">
+      <div class="w-8 h-8 rounded-lg bg-[var(--primary)] text-[var(--primary-foreground)] flex items-center justify-center font-bold text-sm shadow-sm">WG</div>
       <div>
-        <h1 class="text-sm font-semibold leading-tight">Ancient World Genealogy Atlas <span class="text-xs font-normal text-[var(--muted-foreground)]">• Phase 1 Comparative Tree</span></h1>
-        <p class="text-xs text-[var(--muted-foreground)]">Biblical &amp; Extra-Biblical • Mesopotamia • Iran • Egypt/Levant • Arabia • Vedic India • China • Korea/Japan • Steppe</p>
+        <div class="flex items-center gap-2">
+          <h1 class="text-sm font-semibold leading-tight">Ancient World Genealogy Atlas</h1>
+          <span id="versionBadge" class="text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono">Loading…</span>
+        </div>
+        <p class="text-[11px] text-[var(--muted-foreground)]">Bible • Book of Jasher • Jubilees • 1 Enoch • Egypt • Mesopotamia • Iran • Arabia • India • China • Japan/Korea • Steppe</p>
       </div>
     </div>
 
+    <!-- Search & Quick Views -->
     <div class="flex flex-wrap items-center gap-2">
-      <input id="searchInput" type="text" placeholder="Search figure, text (e.g. Enoch, Manu, Jasher)..."
-        class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] w-60 focus:outline-none focus:ring-1 focus:ring-[var(--primary)]" />
+      <input id="searchInput" type="text" placeholder="Search person, Egyptian name, Jasher 7, Manu..."
+        class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] w-64 focus:outline-none focus:ring-1 focus:ring-[var(--primary)]" />
 
-      <div class="flex items-center gap-1 border border-[var(--border)] rounded-md p-0.5 bg-[var(--background)]">
-        <button onclick="applyPreset('all')" id="preset-all" class="preset-btn text-xs px-2 py-1 rounded font-medium">Full Atlas</button>
-        <button onclick="applyPreset('strict')" id="preset-strict" class="preset-btn text-xs px-2 py-1 rounded font-medium">Strict + Cognates</button>
-        <button onclick="applyPreset('flood')" id="preset-flood" class="preset-btn text-xs px-2 py-1 rounded font-medium">Flood Horizon</button>
-        <button onclick="applyPreset('indo_iran')" id="preset-indo_iran" class="preset-btn text-xs px-2 py-1 rounded font-medium">Near East ↔ India</button>
-        <button onclick="applyPreset('east_asia')" id="preset-east_asia" class="preset-btn text-xs px-2 py-1 rounded font-medium">East Asia ↔ Steppe</button>
+      <!-- View Switcher -->
+      <div class="flex items-center gap-0.5 border border-[var(--border)] rounded-md p-0.5 bg-[var(--background)]">
+        <button onclick="setMainView('tree')" id="view-tree" class="text-xs px-2.5 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]">Tree Map</button>
+        <button onclick="setMainView('directory')" id="view-directory" class="text-xs px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]">People Directory</button>
+      </div>
+
+      <!-- Density / Expand Toggle -->
+      <div class="flex items-center gap-0.5 border border-[var(--border)] rounded-md p-0.5 bg-[var(--background)]">
+        <button onclick="setExpandMode('landmarks')" id="mode-landmarks" class="text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]">Landmarks</button>
+        <button onclick="setExpandMode('all')" id="mode-all" class="text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]">Expand All</button>
       </div>
 
       <div class="flex items-center gap-1">
-        <button onclick="zoomBy(1.18)" title="Zoom In" class="text-xs px-2 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">+</button>
-        <button onclick="zoomBy(0.84)" title="Zoom Out" class="text-xs px-2 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">−</button>
-        <button onclick="fitView()" title="Reset View" class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">Fit</button>
+        <button onclick="zoomBy(1.2)" title="Zoom In" class="text-xs px-2 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">+</button>
+        <button onclick="zoomBy(0.83)" title="Zoom Out" class="text-xs px-2 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">−</button>
+        <button onclick="fitView()" title="Fit to Screen" class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">Fit</button>
         <button onclick="toggleTheme()" id="themeBtn" title="Toggle Light/Dark Theme" class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">Light</button>
       </div>
     </div>
   </header>
 
+  <!-- Quick Spotlight Bar -->
+  <div class="shrink-0 border-b border-[var(--border)] bg-[var(--sidebar)] px-4 py-1.5 flex items-center gap-1.5 overflow-x-auto thin-scroll text-xs">
+    <span class="text-[var(--muted-foreground)] font-medium shrink-0 mr-1">Spotlights:</span>
+    <button onclick="applyPreset('all')" id="preset-all" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Full World Atlas</button>
+    <button onclick="applyPreset('strict')" id="preset-strict" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Strict Textual + Cognates</button>
+    <button onclick="focusSubtree('bib_abraham')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Abraham's Full Tree (All 8 Sons)</button>
+    <button onclick="focusSubtree('bib_noah')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Noah &amp; Table of Nations (Jasher 7/10)</button>
+    <button onclick="focusSubtree('bib_jacob')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Jacob &amp; 12 Tribes (Gen 46)</button>
+    <button onclick="focusSubtree('bib_esau')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Esau → Edom → Zepho/Rome</button>
+    <button onclick="focusSubtree('bib_moses')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Moses, Egypt &amp; Cush</button>
+    <button onclick="focusSubtree('bib_enoch')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Enoch, Thoth &amp; Watchers</button>
+    <button onclick="applyPreset('indo_iran')" id="preset-indo_iran" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Near East ↔ Iran ↔ India</button>
+    <button onclick="applyPreset('east_asia')" id="preset-east_asia" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">China ↔ Steppe ↔ Japheth</button>
+  </div>
+
   <!-- Main Workspace -->
   <div class="flex-1 flex min-h-0 overflow-hidden">
 
-    <!-- Left Sidebar: Pathfinder & Filters -->
+    <!-- Left Sidebar -->
     <aside class="w-64 shrink-0 border-r border-[var(--border)] bg-[var(--sidebar)] flex flex-col overflow-y-auto thin-scroll p-3 space-y-4">
+
+      <!-- Active Focus Banner (hidden unless in Focus Subtree mode) -->
+      <div id="focusBanner" class="hidden rounded-lg border border-[var(--primary)] bg-[var(--card)] p-2.5 space-y-1.5">
+        <div class="text-[11px] uppercase tracking-wide font-semibold text-[var(--primary)]">Focus Family Tree</div>
+        <div id="focusTitle" class="text-xs font-bold"></div>
+        <button onclick="exitFocus()" class="w-full text-xs py-1 px-2 rounded bg-[var(--accent)] hover:opacity-90 font-medium">← Return to Full World Atlas</button>
+      </div>
 
       <!-- Pathfinder -->
       <section class="rounded-lg border border-[var(--border)] bg-[var(--card)] p-2.5 space-y-2">
@@ -108,17 +131,17 @@
         <button onclick="runPathfinder()" class="w-full text-xs py-1.5 px-2.5 rounded-md bg-[var(--primary)] text-[var(--primary-foreground)] font-medium hover:opacity-90">
           Trace Connection
         </button>
-        <div id="pathSummary" class="text-xs text-[var(--muted-foreground)] hidden pt-1 border-t border-[var(--card-border)]"></div>
+        <div id="pathSummary" class="text-xs text-[var(--muted-foreground)] hidden pt-1 border-t border-[var(--card-border)] max-h-48 overflow-y-auto thin-scroll"></div>
       </section>
 
-      <!-- Evidence / Link-Type Toggles -->
-      <section class="space-y-1.5">
+      <!-- Link Provenance Tiers -->
+      <section class="space-y-1">
         <h2 class="text-xs font-semibold uppercase tracking-wide text-[var(--muted-foreground)] px-1">Link Provenance Tiers</h2>
         <div id="linkTypeFilters" class="space-y-1"></div>
       </section>
 
       <!-- Traditions -->
-      <section class="space-y-1.5">
+      <section class="space-y-1">
         <div class="flex items-center justify-between px-1">
           <h2 class="text-xs font-semibold uppercase tracking-wide text-[var(--muted-foreground)]">Traditions</h2>
           <button onclick="toggleAllTraditions()" class="text-xs text-[var(--link)] hover:underline">All / None</button>
@@ -126,277 +149,125 @@
         <div id="traditionFilters" class="space-y-1"></div>
       </section>
 
-      <!-- Stats -->
       <div id="statsBox" class="text-xs text-[var(--muted-foreground)] pt-2 border-t border-[var(--border)] px-1"></div>
     </aside>
 
-    <!-- Center Interactive SVG Canvas -->
+    <!-- Center Panel: SVG Tree OR People Directory -->
     <main class="flex-1 relative bg-[var(--background)] overflow-hidden" id="canvasWrap">
-      <!-- Floating Hover Tooltip -->
-      <div id="edgeTooltip" class="pointer-events-none hidden absolute z-20 max-w-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--card)] text-xs shadow-md"></div>
+      <!-- Hover Tooltip -->
+      <div id="edgeTooltip" class="pointer-events-none hidden absolute z-30 max-w-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--card)] text-xs shadow-lg"></div>
 
-      <!-- Bottom Hint -->
-      <div class="absolute bottom-3 left-3 z-10 flex items-center gap-3 px-3 py-1.5 rounded-full border border-[var(--border)] bg-[var(--card)]/90 backdrop-blur text-xs text-[var(--muted-foreground)] shadow-sm">
-        <span>Drag to pan • Scroll to zoom • Click any node for primary texts &amp; matriarchs</span>
+      <!-- Tree SVG -->
+      <div id="treeContainer" class="w-full h-full relative">
+        <div class="absolute bottom-3 left-3 z-10 flex items-center gap-2 px-3 py-1.5 rounded-full border border-[var(--border)] bg-[var(--card)]/90 backdrop-blur text-xs text-[var(--muted-foreground)] shadow-sm">
+          <span>Drag to pan • Scroll to zoom • Click <strong class="text-[var(--foreground)]">+N</strong> badges to unfold children • Click any person for details</span>
+        </div>
+        <svg id="treeSvg" class="w-full h-full cursor-grab active:cursor-grabbing">
+          <defs>
+            <marker id="arrow-direct" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b" />
+            </marker>
+            <marker id="arrow-cognate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
+            </marker>
+            <marker id="arrow-active" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b" />
+            </marker>
+          </defs>
+          <g id="viewport">
+            <g id="tierBands"></g>
+            <g id="edgesLayer"></g>
+            <g id="nodesLayer"></g>
+          </g>
+        </svg>
       </div>
 
-      <svg id="treeSvg" class="w-full h-full cursor-grab active:cursor-grabbing">
-        <defs>
-          <marker id="arrow-direct" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-            <path d="M 0 1 L 10 5 L 0 9 z" fill="var(--muted-foreground)" />
-          </marker>
-          <marker id="arrow-cognate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-            <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
-          </marker>
-          <marker id="arrow-active" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-            <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b" />
-          </marker>
-        </defs>
-        <g id="viewport">
-          <g id="tierBands"></g>
-          <g id="edgesLayer"></g>
-          <g id="nodesLayer"></g>
-        </g>
-      </svg>
+      <!-- Directory View -->
+      <div id="directoryContainer" class="hidden w-full h-full flex flex-col overflow-hidden">
+        <div class="shrink-0 px-4 py-2.5 border-b border-[var(--border)] bg-[var(--card)] flex items-center justify-between text-xs">
+          <span id="dirCount" class="font-medium">Showing all individuals</span>
+          <span class="text-[var(--muted-foreground)]">Click any row to inspect &amp; jump to tree • Use top search bar or left tradition filters to narrow</span>
+        </div>
+        <div class="flex-1 overflow-y-auto thin-scroll">
+          <table class="w-full text-left border-collapse text-xs">
+            <thead class="sticky top-0 bg-[var(--sidebar)] border-b border-[var(--border)] text-[var(--muted-foreground)]">
+              <tr>
+                <th class="py-2 px-3 font-semibold">Person / Lineage</th>
+                <th class="py-2 px-3 font-semibold">Alt / Egyptian Names</th>
+                <th class="py-2 px-3 font-semibold">Tradition</th>
+                <th class="py-2 px-3 font-semibold">Era / Horizon</th>
+                <th class="py-2 px-3 font-semibold">Sources</th>
+                <th class="py-2 px-3 font-semibold text-right">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="dirBody" class="divide-y divide-[var(--card-border)]"></tbody>
+          </table>
+        </div>
+      </div>
     </main>
 
     <!-- Right Inspector Sidebar -->
     <aside class="w-80 shrink-0 border-l border-[var(--border)] bg-[var(--card)] flex flex-col overflow-y-auto thin-scroll p-4" id="inspector">
-      <div class="text-xs text-[var(--muted-foreground)]">Select a node on the tree to inspect its textual citations, matriarchs, variants, and cross-tradition bridges.</div>
+      <div class="text-xs text-[var(--muted-foreground)]">Loading genealogy database…</div>
     </aside>
 
   </div>
 
 <script>
 const LINK_META = {
-  direct:    { label: "Direct Textual Lineage",         color: "#64748b", dash: "",         width: 1.8, desc: "Explicit parent-child descent inside primary texts" },
-  expansion: { label: "Extra-Biblical / Chronicle",     color: "#0ea5e9", dash: "6,3",      width: 1.8, desc: "Supplied by Jubilees, 1 Enoch, Jasher, Shiji, Puranas" },
-  cognate:   { label: "Historical / Linguistic Cognate", color: "#10b981", dash: "",         width: 2.8, desc: "Verified shared ancestral figures or ethnonyms across corpora" },
-  parallel:  { label: "Archetypal / Structural Parallel", color: "#818cf8", dash: "3,4",     width: 1.6, desc: "Independent parallel motifs (Flood survivors, 7th sage, 3 sons)" },
-  syncretic: { label: "Traditional Chronicler Bridge",  color: "#f59e0b", dash: "8,3,2,3",  width: 2.0, desc: "Classical/medieval universal histories (al-Tabari, Rashid al-Din, Jasher)" }
+  direct:    { label: "Direct Textual Lineage",         color: "#64748b", dash: "",         width: 1.7 },
+  expansion: { label: "Extra-Biblical / Jasher / Chronicle", color: "#0ea5e9", dash: "6,3", width: 1.8 },
+  cognate:   { label: "Historical / Linguistic Cognate", color: "#10b981", dash: "",         width: 2.7 },
+  parallel:  { label: "Archetypal / Structural Parallel", color: "#818cf8", dash: "3,4",     width: 1.6 },
+  syncretic: { label: "Cross-Cultural / Egyptian / Chronicler", color: "#f59e0b", dash: "8,3,2,3", width: 2.1 }
 };
 
-const TRADITIONS = {
-  archetype:    { label: "Global Convergence Hubs",       color: "#6366f1" },
-  levant_egypt: { label: "Egyptian & Phoenician",         color: "#0d9488" },
-  biblical:     { label: "Biblical & Extra-Biblical",     color: "#d97706" },
-  arabian:      { label: "Arabian (Adnan & Qahtan)",      color: "#ca8a04" },
-  mesopotamian: { label: "Mesopotamian (Sumer/Akkad)",    color: "#2563eb" },
-  iranian:      { label: "Iranian / Zoroastrian",         color: "#9333ea" },
-  vedic:        { label: "Vedic & Puranic Indian",        color: "#ea580c" },
-  steppe:       { label: "Eurasian Steppe / Turkic",      color: "#059669" },
-  chinese:      { label: "Ancient Chinese (Sinitic)",     color: "#dc2626" },
-  japan_korea:  { label: "Ancient Japanese & Korean",     color: "#db2777" }
+const TIER_NAMES = {
+  0: "Global Comparative Archetypes",
+  1: "Primordial Creation & First Couples",
+  2: "Early Antediluvian Generations (Seth, Cain, Enosh, Kenan)",
+  3: "Watchers, Enoch (7th), Enmeduranki, Thoth & Indo-Iranian Vivanghant/Vivasvan",
+  4: "Great Flood / Cataclysm Bottleneck (Noah, Ziusudra, Manu, Yima, Yu)",
+  5: "Post-Flood World Division (Shem, Ham, Japheth, Fereydun, Yayati)",
+  6: "Table of Nations — Gen 2 (Cush, Mizraim, Canaan, Elam, Madai, Javan, Gomer, etc.)",
+  7: "Table of Nations — Gen 3 (All Gen 10 & Jasher 7 Grandchildren, Nimrod, Eber)",
+  8: "Post-Flood Gen 4–9 (Togarmah's 10, Peleg -> Terah, Joktan, Medes, Akkad)",
+  9: "Patriarchal Horizon (Terah, Abraham, Nahor II, Haran, 13 Sons of Joktan)",
+  10: "Abraham's 8 Sons (Isaac, Ishmael, Keturah's 6) + Lot & Nahor's 12",
+  11: "Esau, Jacob, 12 Princes of Ishmael & Keturah's Grandchildren (Jasher 25)",
+  12: "12 Tribes of Israel, Esau's 5 Sons, Imhotep & Adnanite Arabs",
+  13: "Genesis 46 Grandchildren (70 Souls), Eliphaz's Sons (Zepho, Amalek), Kohath",
+  14: "Amram, Perez -> Boaz/Jesse, Zepho -> Janeus (Italy)",
+  15: "Moses (Osarseph / Musaeus / King of Cush), Aaron & King David",
+  16: "King Solomon, Gershom & Eliezer",
+  17: "Menelik I (Solomonic Dynasty of Ethiopia)"
 };
 
-const TIER_LABELS = [
-  "Tier 0 • Global Comparative Archetypes",
-  "Tier 1 • Primordial Creation & First Couples",
-  "Tier 2 • Antediluvian Patriarchs, Kings & Sages",
-  "Tier 3 • Great Flood / Cataclysm Bottleneck",
-  "Tier 4 • Post-Flood Division of the Earth",
-  "Tier 5 • Bronze Age Ethnogenesis & Early Kingdoms",
-  "Tier 6 • Patriarchal & Classical Dynasties",
-  "Tier 7 • Tribal, Prophetic & Imperial Houses"
-];
+// Runtime State
+let DATA = null;
+let NODES = [];
+let EDGES = [];
+let TRADITIONS = {};
+let nodesById = {};
+let childrenMap = {};   // parent -> [childIds] (direct/expansion)
+let parentsMap = {};    // child -> [parentIds] (direct/expansion)
+let allAdjMap = {};     // id -> [{other, edge, idx, isOut}]
 
-const NODES = [
-  { id:"hub_primordial", name:"Primordial Human Ancestors", altNames:["First Couple Archetype"], tradition:"archetype", era:"Primordial / Creation", tier:0, x:1380, y:55, role:"Comparative Convergence Hub", sources:["Comparative Mythology"], notes:"Structural convergence hub linking the primordial first humans fashioned from clay/earth/cosmic life across Near Eastern, Indo-Iranian, and East Asian texts." },
-  { id:"hub_flood", name:"Great Flood Survivors Hub", altNames:["Diluvial Bottleneck Motif"], tradition:"archetype", era:"Flood Horizon", tier:3, x:1380, y:520, role:"Comparative Convergence Hub", sources:["Genesis 6-9","Atrahasis","Gilgamesh XI","Shatapatha Brahmana 1.8.1","Vendidad 2","Shangshu"], notes:"Independent ancient texts describe a righteous survivor preserving humanity through a world-shattering deluge or cataclysm." },
-  { id:"hub_world_division", name:"Post-Flood World Division", altNames:["Ancient Tables of Nations"], tradition:"archetype", era:"Early Post-Flood", tier:4, x:1380, y:700, role:"Comparative Convergence Hub", sources:["Genesis 10","Jubilees 8-9","Shahnameh","Mahabharata","Shiji Ch. 1"], notes:"Genealogical maps dividing humanity across continents through sons of a universal ancestor (Shem/Ham/Japheth; Salm/Tur/Iraj; Yayati's 5 sons; Huangdi's 25 sons)." },
-
-  { id:"le_ennead", name:"Atum → Osiris/Isis → Horus", altNames:["Heliopolitan Great Ennead"], tradition:"levant_egypt", era:"Old Kingdom (c. 2400 BCE)", tier:1, x:110, y:190, role:"Divine Ancestors of Pharaohs", sources:["Pyramid Texts","Turin King List","Manetho"], notes:"Egyptian king lists trace historical kingship from the Ennead and Horus through the Shemsu-Hor ('Followers of Horus') to Menes/Narmer." },
-  { id:"le_menes", name:"Menes / Narmer (1st Dynasty)", altNames:["Unifier of Egypt (Mizraim)"], tradition:"levant_egypt", era:"c. 3100 BCE", tier:5, x:90, y:870, role:"First Historical Pharaoh", sources:["Narmer Palette","Abydos King List","Manetho"], notes:"Historical anchor for Biblical Mizraim (Egypt). Later Coptic/Arabic traditions syncretically equate Egypt's first post-Flood king with Misr/Mizraim." },
-  { id:"le_sanchuniathon", name:"Misor & Sydyk → Taaut (Thoth)", altNames:["Phoenician Sanchuniathon"], tradition:"levant_egypt", era:"Bronze/Iron Age Levant", tier:5, x:285, y:870, role:"Phoenician-Canaanite Lineage", sources:["Philo of Byblos / Sanchuniathon (via Eusebius)"], notes:"Explicitly names Misor (exact cognate of Biblical Mizraim!) as brother of Sydyk (cf. Melchizedek) and father of Taaut (Thoth), alongside Chna (Canaan)." },
-
-  { id:"bib_adam_eve", name:"Adam & Eve (Hawwah)", altNames:["First Man & Mother of All Living"], tradition:"biblical", era:"Creation (Gen 1-5)", tier:1, x:580, y:190, role:"Primeval Progenitors", sources:["Genesis 2-5","Jubilees 3-4","Book of Jasher 1"], notes:"Progenitors of humanity. The Book of Jubilees (ch. 4) preserves the names of their daughters Awan (wife of Cain) and Azura (wife of Seth)." },
-  { id:"bib_cain", name:"Cain & Awan", altNames:["Qayin"], tradition:"biblical", era:"Antediluvian Gen 2", tier:2, x:380, y:330, role:"Cainite Branch / City of Enoch", sources:["Genesis 4:1-17","Jubilees 4:9","Jasher 1"], notes:"Founder of the Cainite lineage; Jubilees 4:9 names his wife Awan. Genesis 4 credits his descendants with cities, tents, music, and metallurgy." },
-  { id:"bib_cain_lamech", name:"Lamech (Cainite) & Naamah", altNames:["Jabal, Jubal, Tubal-cain"], tradition:"biblical", era:"Antediluvian Gen 7", tier:2, x:380, y:430, role:"Patriarch of Crafts & Music", sources:["Genesis 4:18-24","Jasher 5:15"], notes:"Father of Jabal, Jubal, Tubal-cain, and Naamah—whom the Book of Jasher (5:15) and Genesis Rabbah identify as Noah's wife, bridging Cainite and Sethite lines!" },
-  { id:"bib_seth", name:"Seth & Azura", altNames:["Shet"], tradition:"biblical", era:"Antediluvian Gen 2", tier:1, x:580, y:275, role:"Sethite Patriarch", sources:["Genesis 4:25, 5:3","Jubilees 4:11","Josephus Ant. 1.2"], notes:"Jubilees 4:11 names his wife Azura. Josephus credits Seth's line with inventing astronomy and inscribing wisdom on stone and brick pillars." },
-  { id:"bib_enosh_mahalalel", name:"Enosh → Kenan → Mahalalel", altNames:["Wives: Noam, Mualeleth, Dinah"], tradition:"biblical", era:"Antediluvian Gens 3-5", tier:2, x:580, y:350, role:"Antediluvian Patriarchs", sources:["Genesis 5:6-17","Jubilees 4:13-15","Jasher 2"], notes:"Jubilees supplies the matriarchs omitted in Genesis: Noam (wife of Enosh), Mualeleth (wife of Kenan), and Dinah (wife of Mahalalel)." },
-  { id:"bib_jared", name:"Jared & Baraka", altNames:["Yered ('Descent')"], tradition:"biblical", era:"Antediluvian Gen 6", tier:2, x:770, y:350, role:"Era of the Watchers", sources:["Genesis 5:18","1 Enoch 6:6","Jubilees 4:15"], notes:"1 Enoch 6 and Jubilees 4:15 connect Jared's name ('descent') to the descent of the 200 Watchers onto Mount Hermon." },
-  { id:"bib_watchers", name:"Watchers (Semyaza) → Nephilim", altNames:["Grigori","Ohya & Hahya (Qumran)"], tradition:"biblical", era:"Antediluvian Gen 6-8", tier:2, x:960, y:350, role:"Extra-Biblical Angelic Intermarriage", sources:["Genesis 6:1-4","1 Enoch 6-16","Qumran Book of Giants (4Q530)"], notes:"Watchers take human wives and sire the Nephilim/Giants (Ohya, Hahya, Mahaway in Dead Sea Scrolls), triggering the Flood judgment." },
-  { id:"bib_enoch", name:"Enoch (7th) & Edni", altNames:["Khanokh","Idris"], tradition:"biblical", era:"Antediluvian Gen 7 (365 yrs)", tier:2, x:770, y:435, role:"Scribe of Righteousness / Solar 7th", sources:["Genesis 5:21-24","1 Enoch","Jubilees 4:17-25","Jasher 3"], notes:"7th from Adam; lives 365 years and ascends to heaven. Jubilees credits him with writing, calendars, and astronomy. Widely compared to Enmeduranki, 7th Sumerian king of Sippar!" },
-  { id:"bib_methuselah_lamech", name:"Methuselah & Lamech (Sethite)", altNames:["Wives: Edna & Betenos"], tradition:"biblical", era:"Antediluvian Gens 8-9", tier:2, x:580, y:435, role:"Custodians of Enoch's Books", sources:["Genesis 5:25-31","1 Enoch 106","Genesis Apocryphon (1Q20)"], notes:"1 Enoch 106 and the Genesis Apocryphon recount Lamech consulting Methuselah and Enoch over Noah's radiant birth." },
-  { id:"bib_noah", name:"Noah (10th) & Emzara / Naamah", altNames:["Noach","Nuh"], tradition:"biblical", era:"Great Flood Horizon", tier:3, x:580, y:540, role:"Universal Post-Flood Ancestor", sources:["Genesis 6-9","Jubilees 4-10","1 Enoch 106","Jasher 5-6"], notes:"10th patriarch from Adam. Jubilees 4:33 names his wife Emzara; Jasher 5:15 names her Naamah. Father of Shem, Ham, and Japheth." },
-
-  { id:"bib_ham", name:"Ham & Na'eltama'uk", altNames:["Cham (Southern/African Zone)"], tradition:"biblical", era:"Post-Flood Gen 1", tier:4, x:320, y:690, role:"Progenitor of Cush, Mizraim, Phut, Canaan", sources:["Genesis 10:6-20","Jubilees 7:16, 8:22"], notes:"Assigned Africa and southern lands in Jubilees 8. Father of Cush, Mizraim (Egypt), Phut (Libya), and Canaan." },
-  { id:"bib_shem", name:"Shem & Sedeqetelebab", altNames:["Sam (Central/Asian Zone)"], tradition:"biblical", era:"Post-Flood Gen 1", tier:4, x:620, y:690, role:"Progenitor of Semitic & Near Eastern Nations", sources:["Genesis 10:21-31","Jubilees 7:16, 8:12"], notes:"Assigned the central temperate zone of Asia (from Mediterranean to India/Tinas) in Jubilees 8. Father of Elam, Asshur, Arphaxad, Lud, Aram." },
-  { id:"bib_japheth", name:"Japheth & Adataneses", altNames:["Yefet / Yafith (Northern Zone)"], tradition:"biblical", era:"Post-Flood Gen 1", tier:4, x:920, y:690, role:"Progenitor of Northern Eurasian Nations", sources:["Genesis 10:2-5","Jubilees 7:16, 8:25"], notes:"Assigned Europe, Anatolia, Iranian highlands, and the northern steppes in Jubilees 8. Father of Gomer, Magog, Madai, Javan, Tubal, Meshech, Tiras." },
-
-  { id:"bib_mizraim_canaan", name:"Mizraim, Phut & Canaan", altNames:["Egypt, Libya, Phoenicia/Heth/Sinites"], tradition:"biblical", era:"Post-Flood Gen 2", tier:5, x:240, y:790, role:"Eponyms of Egypt & Levant", sources:["Genesis 10:6, 13-19","Jubilees 9:1-3","Jasher 7"], notes:"Direct historical cognates: Mizraim = Egypt, Sidon = Phoenicia, Heth = Hittites. Sinites (coastal Phoenicia) were later speculated by early writers as China." },
-  { id:"bib_cush_nimrod", name:"Cush → Nimrod of Shinar", altNames:["Builder of Babel, Erech, Accad"], tradition:"biblical", era:"Post-Flood Gens 2-3", tier:5, x:435, y:790, role:"Biblical-Mesopotamian Bridge", sources:["Genesis 10:6-12","Book of Jasher 7:23-48","Josephus Ant. 1.4"], notes:"Explicitly links Genesis 10 to Sumer/Shinar, Babel (Babylon), Erech (Uruk), Accad (Akkad), and Nineveh. Jasher 7 says Nimrod inherited Adam's garments." },
-  { id:"bib_arphaxad_eber", name:"Arphaxad → (Cainan) → Eber", altNames:["Eponym of Hebrews & Hud"], tradition:"biblical", era:"Post-Flood Gens 2-5", tier:5, x:620, y:810, role:"Ancestor of Hebrews & Southern Arabs", sources:["Genesis 10:24, 11:10-17","Jubilees 8:1-7","Luke 3:36"], notes:"Jubilees 8 and LXX include Cainan son of Arphaxad (who finds Watcher inscriptions). Eber's sons Peleg and Joktan divide Hebrew and Arabian Qahtanite lines." },
-  { id:"bib_elam_asshur_aram", name:"Elam, Asshur, Lud & Aram", altNames:["Elamites, Assyrians, Lydians, Arameans"], tradition:"biblical", era:"Post-Flood Gen 2", tier:5, x:810, y:810, role:"Near Eastern Kingdom Eponyms", sources:["Genesis 10:22-23","Jubilees 9:4-6"], notes:"Direct historical cognates for Elam (SW Iran/Susa), Assyria (Ashur), Lydia, and Aram (Syria)." },
-  { id:"bib_javan", name:"Javan (Ionians / Kittim)", altNames:["Elishah, Tarshish, Kittim, Dodanim"], tradition:"biblical", era:"Post-Flood Gen 2", tier:5, x:980, y:810, role:"Aegean & Mediterranean Bridge", sources:["Genesis 10:2-4","Jubilees 9:10","Jasher 7:6"], notes:"Cognate of Greek Ionians (Iawones). Kittim (Cyprus/West) is where Jasher 61 places Esau's grandson Zepho as king of Italy/Rome." },
-  { id:"bib_gomer_magog", name:"Gomer, Magog, Tubal & Meshech", altNames:["Cimmerians, Scythians, Anatolians"], tradition:"biblical", era:"Post-Flood Gen 2", tier:5, x:1140, y:810, role:"Anatolian & Steppe Bridge", sources:["Genesis 10:2-3","Ezekiel 38","Jubilees 9:7-13"], notes:"Gomer (Cimmerians) fathers Ashkenaz (Scythians/Ashkuza) and Togarmah (Armenia). Magog becomes the chronicler anchor for Northern Eurasian steppe peoples." },
-  { id:"bib_madai", name:"Madai (Medes)", altNames:["Old Persian Mada"], tradition:"biblical", era:"Post-Flood Gen 2", tier:5, x:1300, y:810, role:"Biblical Bridge to Iran", sources:["Genesis 10:2","Jubilees 9:9, 10:35"], notes:"Exact historical cognate of the Iranian Medes. Jubilees 10:35 says Madai married a daughter of Shem and settled the Iranian highlands." },
-
-  { id:"bib_peleg_terah", name:"Peleg → Reu → Serug → Terah", altNames:["Babel Dispersion to Ur"], tradition:"biblical", era:"Post-Flood Gens 6-10", tier:6, x:620, y:930, role:"Mesopotamian Patriarchal Chain", sources:["Genesis 11:16-32","Jubilees 10-11","Jasher 7-12"], notes:"Peleg marks the Babel division. Jasher portrays Terah as a captain under Nimrod in Ur/Shinar before Abraham departs for Haran and Canaan." },
-  { id:"bib_abraham", name:"Abraham (Ibrahim)", altNames:["Wives: Sarah, Hagar, Keturah"], tradition:"biblical", era:"c. 2000-1800 BCE trad.", tier:6, x:620, y:1035, role:"Patriarch of Abrahamic Nations", sources:["Genesis 11-25","Jubilees 11-23","Jasher 9-26"], notes:"Common ancestor of Israelites (via Isaac/Jacob), Edomites (via Isaac/Esau), Northern Arabs/Ishmaelites (via Hagar), and Midianites (via Keturah)." },
-  { id:"bib_isaac_jacob", name:"Isaac → Jacob → 12 Tribes of Israel", altNames:["Levi (Moses), Judah (David), Joseph"], tradition:"biblical", era:"Patriarchal → Monarchy", tier:7, x:580, y:1165, role:"Israelite & Davidic Line", sources:["Genesis 25-49","1 Chronicles 2-8","Jubilees 24-45"], notes:"Branches into Levi (-> Moses & Aaron), Judah (-> Perez -> Boaz -> Jesse -> King David -> Solomon), Joseph (-> Ephraim, Manasseh), and the 12 tribes." },
-  { id:"bib_esau_zepho", name:"Esau (Edom) → Eliphaz → Zepho", altNames:["Edomites; Zepho King of Kittim"], tradition:"biblical", era:"Patriarchal → Iron Age", tier:7, x:780, y:1165, role:"Edom & Jasher Bridge to Rome", sources:["Genesis 36","Book of Jasher 57, 61"], notes:"Book of Jasher ch. 61 narrates Esau's grandson Zepho becoming king over Kittim (Italy)—a classic traditional bridge connecting Edom to Rome." },
-  { id:"bib_midian", name:"Midian & Keturah's 6 Sons", altNames:["Jethro / Reuel / Zipporah"], tradition:"biblical", era:"Patriarchal Era", tier:7, x:390, y:1165, role:"NW Arabian & Sinai Line", sources:["Genesis 25:1-6","Exodus 2-3","Jasher 25"], notes:"Links Abraham to Midianite tribes of NW Arabia/Sinai, including Moses's father-in-law Jethro (Reuel)." },
-
-  { id:"ar_qahtan", name:"Joktan (Qahtan) → Saba (Sheba)", altNames:["Southern Arabs: Himyar & Kahlan"], tradition:"arabian", era:"Post-Flood → Sabaean Era", tier:6, x:425, y:930, role:"Southern Arabian Progenitor", sources:["Genesis 10:25-30","Ibn al-Kalbi","al-Tabari"], notes:"Arabian genealogy identifies Qahtan with Biblical Joktan son of Eber (Hud), ancestor of Sheba/Saba, Himyar, and Kahlan." },
-  { id:"ar_ishmael_adnan", name:"Ishmael → Kedar/Adnan → Quraysh", altNames:["Northern Arabs -> Muhammad"], tradition:"arabian", era:"Patriarchal → Late Antiquity", tier:7, x:185, y:1165, role:"Northern Arabian & Prophetic Line", sources:["Genesis 25:12-18","Assyrian Annals (Qidri)","Ibn Ishaq Sirah"], notes:"Ishmael's sons Kedar and Nebaioth appear in Neo-Assyrian records. Classical Arab lineage traces Adnan -> Mudar -> Quraysh -> Hashim -> Muhammad." },
-
-  { id:"mes_enuma", name:"Apsu/Tiamat → Anu → Enki → Marduk", altNames:["Mesopotamian Creation (Lullu)"], tradition:"mesopotamian", era:"c. 1800-1100 BCE texts", tier:1, x:1180, y:190, role:"Creation of Humanity from Clay", sources:["Enuma Elish","Atrahasis Tablet I"], notes:"Enki (Ea) and Nintu shape the first humans (Lullu) from clay mixed with divine blood—closely paralleling Genesis's creation of Adam from dust." },
-  { id:"mes_alulim", name:"Alulim of Eridu → Antediluvian Kings", altNames:["Aloros (Berossus 10-King List)"], tradition:"mesopotamian", era:"Antediluvian", tier:2, x:1180, y:315, role:"Sumerian Pre-Flood Dynasty", sources:["Sumerian King List (WB 444)","Berossus Babyloniaca"], notes:"8 kings in the Sumerian King List (10 in Berossus), reigning immense lifespans before the Flood—paralleling Genesis 5's 10 long-lived patriarchs." },
-  { id:"mes_enmeduranki", name:"En-men-dur-ana (7th King, Sippar)", altNames:["Enmeduranki / Euedorachos"], tradition:"mesopotamian", era:"Antediluvian Gen 7", tier:2, x:1180, y:435, role:"7th King / Heavenly Ascent & Divination", sources:["Sumerian King List","Enmeduranki Text (K 2486)","Berossus"], notes:"7th antediluvian king, ruler of Sippar (city of sun god Shamash), admitted to heaven to receive cosmic tablets—major scholarly parallel to Enoch (7th patriarch, 365 yrs)." },
-  { id:"mes_ziusudra", name:"Ziusudra / Utnapishtim / Atrahasis", altNames:["Xisouthros (Berossus)"], tradition:"mesopotamian", era:"Flood Horizon", tier:3, x:1180, y:540, role:"Mesopotamian Flood Survivor", sources:["Eridu Genesis","Atrahasis","Epic of Gilgamesh XI"], notes:"Son of Ubara-Tutu of Shuruppak. Warned by Enki/Ea, builds a vessel preserving family and animals, releases dove/swallow/raven, lands on Mt. Nimush." },
-  { id:"mes_uruk_gilgamesh", name:"Enmerkar → Lugalbanda → Gilgamesh", altNames:["First Dynasty of Uruk (Erech)"], tradition:"mesopotamian", era:"c. 2700 BCE", tier:5, x:1050, y:945, role:"Hero-Kings of Uruk (Erech)", sources:["Sumerian King List","Epic of Gilgamesh"], notes:"Gilgamesh visits flood survivor Utnapishtim. Uruk is explicitly named 'Erech' in Genesis 10:10 as part of Nimrod's kingdom." },
-  { id:"mes_sargon", name:"Sargon of Akkad → Enheduanna", altNames:["Sharru-kin & Naram-Sin"], tradition:"mesopotamian", era:"c. 2334-2154 BCE", tier:6, x:1220, y:1055, role:"Akkadian Empire (Biblical Accad)", sources:["Sumerian King List","Sargon Birth Legend"], notes:"Founder of Akkad (Biblical 'Accad' in Gen 10:10). Daughter Enheduanna is history's earliest named author." },
-
-  { id:"ir_gayomart", name:"Gayomart → Mashya & Mashyana", altNames:["Keyumars (First Mortal)"], tradition:"iranian", era:"Primordial (Avesta/Bundahishn)", tier:1, x:1600, y:190, role:"Primeval Iranian Progenitors", sources:["Avesta (Yasht 13)","Bundahishn Ch. 14","Shahnameh"], notes:"From Gayomart's seed grows a rhubarb plant dividing into Mashya & Mashyana, who bear 7 twin pairs populating the 7 climes of the earth." },
-  { id:"ir_vivanghant", name:"Hushang → Tahmuras → Vivanghant", altNames:["Vivanhao (Pishdadian Line)"], tradition:"iranian", era:"Mythic Pishdadian Era", tier:2, x:1600, y:350, role:"Exact Proto-Indo-Iranian Bridge", sources:["Avesta (Yasna 9.4, Vendidad 2)","Bundahishn"], notes:"EXACT linguistic and genealogical cognate of Vedic Vivasvan (Surya)! Proves a shared ancestral lineage predating the split of Iranian and Indian branches (~2000 BCE)." },
-  { id:"ir_yima", name:"Yima Khshaeta (Jamshid)", altNames:["Builder of the Vara Enclosure"], tradition:"iranian", era:"Cataclysm / Golden Age", tier:3, x:1600, y:540, role:"Cataclysm Survivor & Cognate of Yama", sources:["Avesta (Vendidad 2)","Shahnameh"], notes:"Son of Vivanghant (exact cognate of Vedic Yama!). Builds the subterranean Vara ark to preserve humans, animals, and seeds against the great cosmic winter/meltwater deluge." },
-  { id:"ir_fereydun", name:"Fereydun (Thraetaona)", altNames:["Faridun"], tradition:"iranian", era:"Post-Cataclysm Pishdadian", tier:4, x:1600, y:700, role:"Divider of the Earth into Three", sources:["Avesta (Yasht 5, 19)","Bundahishn","Shahnameh"], notes:"Divides the world among his three sons Salm, Tur, and Iraj—striking tripartite parallel to Noah dividing the earth among Shem, Ham, and Japheth." },
-  { id:"ir_three_sons", name:"Salm (West), Tur (Turan) & Iraj (Iran)", altNames:["Kayanian Royal Ancestors"], tradition:"iranian", era:"Pishdadian → Kayanian", tier:5, x:1600, y:835, role:"Tripartite Eurasian Ethnogenesis", sources:["Bundahishn Ch. 35","Shahnameh"], notes:"Salm receives the West (Rum), Tur receives Central Asia/Steppe (Turan), and Iraj receives Iran (producing the Kayanian kings: Manuchehr, Kay Kavus, Kay Khosrow)." },
-  { id:"ir_medes_achaemenids", name:"Medes (Mada) & Cyrus (Achaemenids)", altNames:["Historical Iranian Empires"], tradition:"iranian", era:"8th-6th c. BCE", tier:6, x:1475, y:1035, role:"Bridge to Biblical Madai & Elam", sources:["Behistun Inscription","Cyrus Cylinder","Ezra / Daniel"], notes:"Historical Medes directly match Biblical Madai (Gen 10:2); Cyrus ruled as King of Anshan in Elam (Gen 10:22)." },
-
-  { id:"ved_brahma_manu", name:"Brahma → Svayambhuva Manu & Shatarupa", altNames:["First Manu & Saptarishis (Marichi, Atri)"], tradition:"vedic", era:"Satya Yuga / Rigvedic", tier:1, x:1960, y:190, role:"Vedic Primordial Ancestors", sources:["Manusmriti Ch. 1","Vishnu Purana I","Bhagavata Purana"], notes:"Brahma manifests Svayambhuva Manu and Shatarupa as the primordial couple, plus the Seven Sages (Marichi, Atri, etc.) who anchor the Solar and Lunar lineages." },
-  { id:"ved_kashyapa", name:"Marichi → Kashyapa (+ Aditi/Diti)", altNames:["Universal Prajapati"], tradition:"vedic", era:"Vedic Primordial Era", tier:2, x:1875, y:305, role:"Father of Adityas, Asuras & Nagas", sources:["Mahabharata Adi Parva","Vishnu Purana I.15"], notes:"Through Daksha's daughters, Kashyapa sires Vivasvan/Surya (via Aditi) and diverse cosmic lineages—a foundational common ancestor across Hindu cosmology." },
-  { id:"ved_vivasvan", name:"Vivasvan (Surya)", altNames:["Vivasvant"], tradition:"vedic", era:"Vedic Antediluvian", tier:2, x:1875, y:410, role:"Exact Cognate of Iranian Vivanghant", sources:["Rigveda 10.14, 10.17","Shatapatha Brahmana"], notes:"Identical Proto-Indo-Iranian ancestor to Avestan Vivanghant! Fathers both Yama (Avestan Yima) and Vaivasvata Manu (Great Flood survivor)." },
-  { id:"ved_yama", name:"Yama & Yami", altNames:["Twin First Mortals"], tradition:"vedic", era:"Vedic Primordial", tier:3, x:1795, y:540, role:"Exact Cognate of Iranian Yima", sources:["Rigveda 10.10, 10.14"], notes:"Son of Vivasvan; exact linguistic & genealogical twin of Avestan Yima (Jamshid) son of Vivanghant." },
-  { id:"ved_vaivasvata_manu", name:"Vaivasvata Manu (7th Manu)", altNames:["Shraddhadeva (Matsya Flood Survivor)"], tradition:"vedic", era:"Vedic Flood Horizon", tier:3, x:1995, y:540, role:"Vedic Great Flood Survivor", sources:["Shatapatha Brahmana 1.8.1","Mahabharata Vana Parva","Matsya Purana"], notes:"Saved by Matsya the Fish during the universal Flood; ship moored to the Northern Mountains (Himalayas). Common ancestor of humanity (Manava) in this age." },
-  { id:"ved_chandra_pururavas", name:"Atri → Soma → Budha + Ila → Yayati", altNames:["Chandra Vamsha (Lunar Dynasty)"], tradition:"vedic", era:"Early Vedic Royal Era", tier:4, x:2125, y:695, role:"Union of Lunar & Manu Lines", sources:["Rigveda 10.95","Mahabharata Adi Parva 75-85"], notes:"Budha (grandson of Rishi Atri via Soma) weds Ila (child of Vaivasvata Manu), birthing Pururavas -> Ayu -> Nahusha -> Yayati." },
-  { id:"ved_surya_vamsha", name:"Ikshvaku → Raghu → Rama & Buddha", altNames:["Surya Vamsha (Solar) & Shakya Line"], tradition:"vedic", era:"Treta Yuga → 6th c. BCE", tier:5, x:1900, y:860, role:"Solar Dynasty (Ramayana & Shakya)", sources:["Valmiki Ramayana","Vishnu Purana IV","Mahavamsa / Pali Canon"], notes:"Son of Vaivasvata Manu. Leads to Harishchandra, Bhagiratha, Raghu, and Rama. Buddhist texts (Mahavamsa, Ambattha Sutta) trace Siddhartha Gautama's Shakya clan to King Okkaka = Ikshvaku!" },
-  { id:"ved_yayati_five", name:"Yayati's 5 Sons (Panchajana)", altNames:["Yadu, Turvasu, Druhyu, Anu, Puru"], tradition:"vedic", era:"Rigvedic Horizon (c. 1500 BCE)", tier:5, x:2125, y:860, role:"Vedic Table of Nations", sources:["Rigveda 1.108.8","Mahabharata Adi Parva 85","Vishnu Purana IV"], notes:"Yadu -> Yadavas (Krishna); Puru -> Bharatas/Kurus; Anu -> East/North; Turvasu -> South/West; Druhyu -> NW Gandhara & trans-Indus Central Asian peoples." },
-  { id:"ved_bharata_kuru", name:"Puru → Bharata → Kuru → Pandavas", altNames:["Eponym of Bharatavarsha (India)"], tradition:"vedic", era:"c. 1200-900 BCE", tier:6, x:2125, y:1035, role:"Mahabharata & Kuru Dynasty", sources:["Mahabharata","Vishnu Purana IV.19-21"], notes:"Emperor Bharata gives India its classical name. Descends through Kuru to the Pandavas & Kauravas, interacting with cousins Krishna & Balarama (from Yadu)." },
-
-  { id:"stp_xiongnu", name:"Chunwei → Xiongnu (Modu Chanyu)", altNames:["Steppe Confederacy (Shiji Ch. 110)"], tradition:"steppe", era:"Bronze Age → 3rd c. BCE", tier:5, x:2385, y:860, role:"Sima Qian's China-Steppe Bridge", sources:["Sima Qian Shiji Ch. 110"], notes:"Sima Qian records the ancient tradition that the Xiongnu descended from Chunwei, a prince of the Chinese Xia Dynasty who moved north into the steppes." },
-  { id:"stp_oghuz", name:"Turk (Oljai) → Oghuz Khagan", altNames:["6 Sons / 24 Oghuz Tribes"], tradition:"steppe", era:"Mythic / Medieval Synthesis", tier:6, x:2385, y:1035, role:"Turkic-Mongol Eurasian Bridge", sources:["Oghuzname","Rashid al-Din Jami al-Tawarikh (1307)","Abulghazi"], notes:"Medieval chroniclers grafted Turkic/Mongol genealogy onto Biblical Japheth (Yafith -> Oljai -> Tatar & Mongol -> Kara Khan -> Oghuz Khagan) and Iranian Turan." },
-
-  { id:"chn_fuxi_nuwa", name:"Fuxi & Nüwa (Three Sovereigns)", altNames:["Clay Creators & Flood Motif"], tradition:"chinese", era:"Primordial / Three Sovereigns", tier:1, x:2660, y:190, role:"Primordial Sibling-Consorts", sources:["Shan Hai Jing","Huainanzi","Fengsu Tongyi"], notes:"Serpent-tailed creators who mend heaven after Gonggong's flood and mold humans from yellow clay; preserved in SW Chinese lore as Great Flood survivors." },
-  { id:"chn_yandi", name:"Yandi (Flame Emperor / Shennong)", altNames:["Divine Farmer (Jiang Clan)"], tradition:"chinese", era:"Three Sovereigns", tier:2, x:2555, y:335, role:"Co-Ancestor of Huaxia (Yan-Huang)", sources:["Shiji Ch. 1","Guoyu","Yijing"], notes:"Guoyu makes Yandi and Huangdi half-brothers born of Shaodian. Their alliance forms the enduring 'Yan-Huang Zisun' (Descendants of Yan and Huang) identity." },
-  { id:"chn_huangdi", name:"Huangdi (Yellow Emperor) & Leizu", altNames:["Xuanyuan (25 Sons / 14 Surnames)"], tradition:"chinese", era:"c. 2697 BCE trad.", tier:2, x:2755, y:335, role:"Universal Chinese Ancestor (Shiji)", sources:["Sima Qian Shiji Ch. 1","Bamboo Annals","Da Dai Liji"], notes:"Sima Qian traces ALL Five Emperors, all Three Dynasties (Xia, Shang, Zhou), Qin, Chu, and the Xiongnu back to Huangdi's descendants." },
-  { id:"chn_zhuanxu", name:"Changyi → Zhuanxu (Gaoyang)", altNames:["Separator of Heaven & Earth"], tradition:"chinese", era:"Five Emperors Era", tier:3, x:2615, y:455, role:"Ancestor of Xia, Shun, Chu & Qin", sources:["Shiji Ch. 1, 2, 5","Shan Hai Jing"], notes:"Grandson of Huangdi; progenitor of Gun -> Yu the Great (Xia), Emperor Shun, and the House of Ying (Qin Shi Huang)." },
-  { id:"chn_yu_xia", name:"Gun → Yu the Great → Xia Dynasty", altNames:["Da Yu (Great Flood Tamer)"], tradition:"chinese", era:"c. 2070-1600 BCE", tier:3, x:2565, y:570, role:"Chinese Great Flood Hero & Xia", sources:["Shangshu (Yu Gong)","Shiji Ch. 2","Bamboo Annals"], notes:"Tames the catastrophic Gun-Yu Flood by dredging rivers across the Nine Provinces; establishes China's first hereditary dynasty (Xia)." },
-  { id:"chn_ku_yao_shun", name:"Emperor Ku (Di Ku) → Yao & Shun", altNames:["Sage Emperors"], tradition:"chinese", era:"c. 2350-2200 BCE trad.", tier:4, x:2805, y:695, role:"Sage Emperors & Shang/Zhou Root", sources:["Shiji Ch. 1, 3, 4","Shangshu"], notes:"Great-grandson of Huangdi via Xuanxiao -> Jiaoji. Fathers Emperor Yao, Xie (Shang ancestor), and Hou Ji (Zhou ancestor)." },
-  { id:"chn_shang_zhou", name:"Xie (Shang) & Hou Ji (Zhou)", altNames:["Oracle Bone Shang & Classical Zhou"], tradition:"chinese", era:"c. 1600-256 BCE", tier:5, x:2805, y:860, role:"Bronze Age Chinese Dynasties", sources:["Anyang Oracle Bones","Shiji Ch. 3-4","Shijing"], notes:"Shang (historically attested by oracle bones; Confucius traced descent to Shang via Song) and Zhou (King Wen, King Wu, Duke of Zhou)." },
-
-  { id:"jk_izanagi_amaterasu", name:"Izanagi & Izanami → Amaterasu", altNames:["Creators of Japan / Sun Goddess"], tradition:"japan_korea", era:"Age of the Gods (Kamiyo)", tier:1, x:3075, y:190, role:"Japanese Primordial Couple", sources:["Kojiki (712 CE)","Nihon Shoki (720 CE)"], notes:"Stir the primordial ocean to create the Japanese archipelago and birth Amaterasu (Sun), Tsukuyomi (Moon), and Susanoo (Storm)." },
-  { id:"jk_dangun", name:"Hwanin → Hwanung → Dangun", altNames:["Founder of Gojoseon (Korea)"], tradition:"japan_korea", era:"2333 BCE trad.", tier:4, x:3015, y:700, role:"Korean Progenitor", sources:["Samguk Yusa","Jewang Ungi"], notes:"Born of heavenly prince Hwanung and Ungnyeo. Later annals also record Shang prince Jizi (Gija) migrating to Joseon after 1046 BCE." },
-  { id:"jk_jimmu", name:"Ninigi → Hoori → Emperor Jimmu", altNames:["Imperial House of Japan"], tradition:"japan_korea", era:"660 BCE trad.", tier:5, x:3100, y:860, role:"Founder of Japan's Imperial Line", sources:["Kojiki Book II","Nihon Shoki Book III"], notes:"Descendant of Amaterasu through Ninigi's descent to Mount Takachiho; traditional founder of the world's oldest continuous hereditary monarchy." }
-];
-
-const EDGES = [
-  { from:"hub_primordial", to:"bib_adam_eve", type:"parallel", label:"Primeval couple from dust/earth" },
-  { from:"hub_primordial", to:"mes_enuma", type:"parallel", label:"Humans shaped from clay + divine blood" },
-  { from:"hub_primordial", to:"ir_gayomart", type:"parallel", label:"Gayomart -> Mashya & Mashyana" },
-  { from:"hub_primordial", to:"ved_brahma_manu", type:"parallel", label:"Svayambhuva Manu & Shatarupa" },
-  { from:"hub_primordial", to:"chn_fuxi_nuwa", type:"parallel", label:"Nüwa molds humans from yellow clay" },
-  { from:"hub_primordial", to:"jk_izanagi_amaterasu", type:"parallel", label:"Primordial island-creator couple" },
-  { from:"hub_primordial", to:"le_ennead", type:"parallel", label:"Heliopolitan primeval divine pairs" },
-
-  { from:"bib_adam_eve", to:"bib_cain", type:"direct", label:"Firstborn son (Gen 4:1); wife Awan (Jub 4:9)" },
-  { from:"bib_cain", to:"bib_cain_lamech", type:"direct", label:"Enoch -> Irad -> Mehujael -> Methushael -> Lamech" },
-  { from:"bib_cain_lamech", to:"bib_noah", type:"expansion", label:"Jasher 5:15: Naamah (Cainite) = wife of Noah" },
-  { from:"bib_adam_eve", to:"bib_seth", type:"direct", label:"Son (Gen 4:25); wife Azura (Jub 4:11)" },
-  { from:"bib_seth", to:"bib_enosh_mahalalel", type:"direct", label:"Enosh -> Kenan -> Mahalalel (Gen 5)" },
-  { from:"bib_enosh_mahalalel", to:"bib_jared", type:"direct", label:"Son (Gen 5:15)" },
-  { from:"bib_jared", to:"bib_enoch", type:"direct", label:"Son (Gen 5:18)" },
-  { from:"bib_jared", to:"bib_watchers", type:"expansion", label:"1 Enoch 6: Watchers descend on Mt. Hermon in Jared's days" },
-  { from:"bib_enoch", to:"bib_methuselah_lamech", type:"direct", label:"Methuselah -> Lamech (Gen 5:21-25)" },
-  { from:"bib_methuselah_lamech", to:"bib_noah", type:"direct", label:"Son (Gen 5:28-29; 1 Enoch 106)" },
-
-  { from:"bib_noah", to:"bib_shem", type:"direct", label:"Son; wife Sedeqetelebab (Jub 7:16)" },
-  { from:"bib_noah", to:"bib_ham", type:"direct", label:"Son; wife Na'eltama'uk (Jub 7:16)" },
-  { from:"bib_noah", to:"bib_japheth", type:"direct", label:"Son; wife Adataneses (Jub 7:16)" },
-  { from:"bib_shem", to:"bib_elam_asshur_aram", type:"direct", label:"Elam, Asshur, Lud, Aram (Gen 10:22)" },
-  { from:"bib_shem", to:"bib_arphaxad_eber", type:"direct", label:"Arphaxad -> (Cainan, Jub 8) -> Salah -> Eber" },
-  { from:"bib_arphaxad_eber", to:"bib_peleg_terah", type:"direct", label:"Peleg -> Reu -> Serug -> Nahor -> Terah (Gen 11)" },
-  { from:"bib_arphaxad_eber", to:"ar_qahtan", type:"cognate", label:"Eber -> Joktan = Arabian Qahtan (Gen 10:25)" },
-  { from:"bib_peleg_terah", to:"bib_abraham", type:"direct", label:"Son (Gen 11:26; Jasher 9)" },
-  { from:"bib_abraham", to:"bib_isaac_jacob", type:"direct", label:"Via Sarah -> Isaac -> Jacob/Israel" },
-  { from:"bib_abraham", to:"bib_esau_zepho", type:"direct", label:"Via Sarah -> Isaac -> Esau (Gen 36)" },
-  { from:"bib_abraham", to:"ar_ishmael_adnan", type:"direct", label:"Via Hagar -> Ishmael (Gen 25 / Arab Sirah)" },
-  { from:"bib_abraham", to:"bib_midian", type:"direct", label:"Via Keturah -> Midian & 5 brothers (Gen 25)" },
-  { from:"bib_ham", to:"bib_cush_nimrod", type:"direct", label:"Cush -> Nimrod (Gen 10:6-8; Jasher 7)" },
-  { from:"bib_ham", to:"bib_mizraim_canaan", type:"direct", label:"Mizraim, Phut, Canaan (Gen 10:6)" },
-  { from:"bib_japheth", to:"bib_gomer_magog", type:"direct", label:"Gomer, Magog, Tubal, Meshech, Tiras" },
-  { from:"bib_japheth", to:"bib_madai", type:"direct", label:"Son (Gen 10:2); marries into Shem's line (Jub 10:35)" },
-  { from:"bib_japheth", to:"bib_javan", type:"direct", label:"Son (Gen 10:2)" },
-  { from:"bib_esau_zepho", to:"bib_javan", type:"syncretic", label:"Jasher 61: Esau's grandson Zepho becomes King of Kittim (Italy)" },
-
-  { from:"mes_enuma", to:"mes_alulim", type:"direct", label:"Kingship descends to Eridu (Sumerian King List)" },
-  { from:"mes_alulim", to:"mes_enmeduranki", type:"direct", label:"Antediluvian succession to 7th king" },
-  { from:"mes_enmeduranki", to:"mes_ziusudra", type:"direct", label:"Succession to Ubara-Tutu -> Ziusudra" },
-  { from:"mes_ziusudra", to:"mes_uruk_gilgamesh", type:"expansion", label:"Post-Flood kingship restored at Kish & Uruk" },
-  { from:"mes_uruk_gilgamesh", to:"mes_sargon", type:"expansion", label:"Sumerian King List: Uruk -> Akkad" },
-
-  { from:"bib_enoch", to:"mes_enmeduranki", type:"parallel", label:"7th antediluvian sage; solar/heavenly ascent & cosmic tablets" },
-  { from:"bib_cush_nimrod", to:"mes_uruk_gilgamesh", type:"cognate", label:"Gen 10:10 explicitly names Shinar, Babel & Erech (Uruk)" },
-  { from:"bib_cush_nimrod", to:"mes_sargon", type:"cognate", label:"Gen 10:10 explicitly names Accad (Akkad) & Nineveh" },
-  { from:"bib_elam_asshur_aram", to:"mes_sargon", type:"cognate", label:"Asshur = Assyria (Mesopotamian sphere)" },
-  { from:"le_ennead", to:"le_menes", type:"expansion", label:"Turin King List: Horus -> Shemsu-Hor -> Menes" },
-  { from:"bib_mizraim_canaan", to:"le_menes", type:"cognate", label:"Biblical Mizraim = Egypt" },
-  { from:"bib_mizraim_canaan", to:"le_sanchuniathon", type:"cognate", label:"Mizraim = Phoenician Misor; Canaan = Chna" },
-
-  { from:"ir_gayomart", to:"ir_vivanghant", type:"direct", label:"Mashya & Mashyana -> Siamak -> Hushang -> Tahmuras -> Vivanghant" },
-  { from:"ir_vivanghant", to:"ir_yima", type:"direct", label:"Son (Avesta Yasna 9.4)" },
-  { from:"ir_yima", to:"ir_fereydun", type:"direct", label:"Pishdadian lineage via Abtin/Athwya (Shahnameh)" },
-  { from:"ir_fereydun", to:"ir_three_sons", type:"direct", label:"Divides earth among Salm, Tur & Iraj" },
-  { from:"ir_three_sons", to:"ir_medes_achaemenids", type:"expansion", label:"Iraj -> Kayanians -> Historical Medes & Persians" },
-
-  { from:"bib_madai", to:"ir_medes_achaemenids", type:"cognate", label:"Madai (Gen 10:2) = Historical Medes (Old Persian Mada)" },
-  { from:"bib_elam_asshur_aram", to:"ir_medes_achaemenids", type:"cognate", label:"Elam (Gen 10:22) = SW Iran / Cyrus King of Anshan" },
-  { from:"bib_noah", to:"ir_gayomart", type:"syncretic", label:"al-Tabari & medieval chronicles link Gayomart to Adam/Noah" },
-
-  { from:"ved_brahma_manu", to:"ved_kashyapa", type:"direct", label:"Brahma -> Marichi -> Kashyapa" },
-  { from:"ved_kashyapa", to:"ved_vivasvan", type:"direct", label:"Kashyapa + Aditi -> Vivasvan (Surya)" },
-  { from:"ved_vivasvan", to:"ved_yama", type:"direct", label:"Son (Rigveda 10.14)" },
-  { from:"ved_vivasvan", to:"ved_vaivasvata_manu", type:"direct", label:"Son (Shatapatha Brahmana)" },
-  { from:"ved_vaivasvata_manu", to:"ved_surya_vamsha", type:"direct", label:"Ikshvaku -> Rama & Buddha's Shakya lineage" },
-  { from:"ved_vaivasvata_manu", to:"ved_chandra_pururavas", type:"direct", label:"Via Ila + Budha -> Pururavas -> Yayati" },
-  { from:"ved_brahma_manu", to:"ved_chandra_pururavas", type:"direct", label:"Brahma -> Atri -> Soma -> Budha" },
-  { from:"ved_chandra_pururavas", to:"ved_yayati_five", type:"direct", label:"Yayati -> 5 Sons (Panchajana)" },
-  { from:"ved_yayati_five", to:"ved_bharata_kuru", type:"direct", label:"Puru -> Bharata -> Kuru -> Pandavas & Kauravas" },
-
-  { from:"ir_vivanghant", to:"ved_vivasvan", type:"cognate", label:"EXACT Proto-Indo-Iranian cognate: Vivanghant = Vivasvan" },
-  { from:"ir_yima", to:"ved_yama", type:"cognate", label:"EXACT Proto-Indo-Iranian cognate: Yima = Yama" },
-  { from:"ved_yayati_five", to:"ir_three_sons", type:"parallel", label:"Druhyu/NW migrations & Turan/Iran ethnography" },
-
-  { from:"chn_fuxi_nuwa", to:"chn_yandi", type:"expansion", label:"Three Sovereigns succession (Fuxi -> Shennong)" },
-  { from:"chn_yandi", to:"chn_huangdi", type:"expansion", label:"Guoyu: Half-brothers from Shaodian (Yan-Huang)" },
-  { from:"chn_huangdi", to:"chn_zhuanxu", type:"direct", label:"Huangdi -> Changyi -> Zhuanxu (Shiji Ch. 1)" },
-  { from:"chn_zhuanxu", to:"chn_yu_xia", type:"direct", label:"Zhuanxu -> Gun -> Yu the Great -> Xia (Shiji Ch. 2)" },
-  { from:"chn_huangdi", to:"chn_ku_yao_shun", type:"direct", label:"Huangdi -> Xuanxiao -> Jiaoji -> Di Ku -> Yao" },
-  { from:"chn_zhuanxu", to:"chn_ku_yao_shun", type:"direct", label:"Zhuanxu -> ... -> Emperor Shun (Shiji Ch. 1)" },
-  { from:"chn_ku_yao_shun", to:"chn_shang_zhou", type:"direct", label:"Di Ku -> Xie (Shang) & Hou Ji (Zhou)" },
-  { from:"jk_izanagi_amaterasu", to:"jk_jimmu", type:"direct", label:"Amaterasu -> Ninigi -> Hoori -> Emperor Jimmu" },
-  { from:"chn_shang_zhou", to:"jk_dangun", type:"expansion", label:"Shang prince Jizi (Gija) migrates to Gojoseon" },
-
-  { from:"chn_yu_xia", to:"stp_xiongnu", type:"expansion", label:"Shiji Ch. 110: Xiongnu descend from Chunwei of Xia" },
-  { from:"bib_japheth", to:"stp_oghuz", type:"syncretic", label:"Rashid al-Din (1307): Yafith (Japheth) -> Turk -> Oghuz Khagan" },
-  { from:"ir_three_sons", to:"stp_oghuz", type:"syncretic", label:"Tur (Turan) equated in Persian/Turkic lore with Steppe" },
-  { from:"stp_xiongnu", to:"stp_oghuz", type:"expansion", label:"Steppe continuity: Modu Chanyu often linked to Oghuz legend" },
-  { from:"bib_noah", to:"chn_fuxi_nuwa", type:"syncretic", label:"17th-c. Figurists compared Noah to Fuxi" },
-
-  { from:"hub_flood", to:"bib_noah", type:"parallel", label:"Ark on Ararat (Genesis / Jubilees)" },
-  { from:"hub_flood", to:"mes_ziusudra", type:"parallel", label:"Vessel on Mt. Nimush (Gilgamesh XI)" },
-  { from:"hub_flood", to:"ved_vaivasvata_manu", type:"parallel", label:"Ship towed by Matsya to Himalayas" },
-  { from:"hub_flood", to:"ir_yima", type:"parallel", label:"Vara enclosure against cataclysmic winter/melt" },
-  { from:"hub_flood", to:"chn_yu_xia", type:"parallel", label:"Gun-Yu Great Flood & channeling of rivers" },
-
-  { from:"hub_world_division", to:"bib_shem", type:"parallel", label:"Table of Nations: Shem / Ham / Japheth" },
-  { from:"hub_world_division", to:"bib_japheth", type:"parallel", label:"Table of Nations: Northern Eurasian zone" },
-  { from:"hub_world_division", to:"ir_three_sons", type:"parallel", label:"Fereydun's Tripartite Division: Salm / Tur / Iraj" },
-  { from:"hub_world_division", to:"ved_yayati_five", type:"parallel", label:"Yayati's 5 Sons (Panchajana)" },
-  { from:"hub_world_division", to:"chn_huangdi", type:"parallel", label:"Huangdi's 25 Sons -> Xia, Shang, Zhou, Xiongnu" }
-];
-
-const nodesById = Object.fromEntries(NODES.map(n => [n.id, n]));
 let activeLinkTypes = new Set(Object.keys(LINK_META));
-let activeTraditions = new Set(Object.keys(TRADITIONS));
-let selectedNodeId = "bib_noah";
+let activeTraditions = new Set();
+let expandedParents = new Set(); // parents explicitly unfolded in landmarks mode
+let expandMode = "landmarks";    // 'landmarks' | 'all'
+let mainView = "tree";           // 'tree' | 'directory'
+let focusRootId = null;          // null or nodeId
+let selectedNodeId = "bib_abraham";
 let searchQuery = "";
+let activePreset = "all";
 let activePathNodes = new Set();
 let activePathEdges = new Set();
-let activePreset = "all";
 
-let panX = 30, panY = 20, scale = 0.52;
+// Layout & Pan/Zoom
+let layoutPos = {}; // id -> {x, y}
+let panX = 40, panY = 30, scale = 0.65;
 let isPanning = false, startX = 0, startY = 0;
 
 function toggleTheme() {
@@ -405,30 +276,59 @@ function toggleTheme() {
   render();
 }
 
+async function boot() {
+  try {
+    const res = await fetch("./data/world_genealogy.json");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    DATA = await res.json();
+    NODES = DATA.nodes;
+    EDGES = DATA.edges;
+    TRADITIONS = DATA.traditions;
+    activeTraditions = new Set(Object.keys(TRADITIONS));
+
+    nodesById = Object.fromEntries(NODES.map(n => [n.id, n]));
+    NODES.forEach(n => { childrenMap[n.id] = []; parentsMap[n.id] = []; allAdjMap[n.id] = []; });
+    EDGES.forEach((e, idx) => {
+      allAdjMap[e.from].push({ other: e.to, edge: e, idx, isOut: true });
+      allAdjMap[e.to].push({ other: e.from, edge: e, idx, isOut: false });
+      if (e.type === "direct" || e.type === "expansion") {
+        if (!childrenMap[e.from].includes(e.to)) childrenMap[e.from].push(e.to);
+        if (!parentsMap[e.to].includes(e.from)) parentsMap[e.to].push(e.from);
+      }
+    });
+
+    document.getElementById("versionBadge").textContent = `${NODES.length} People • ${EDGES.length} Links`;
+    initUI();
+  } catch (err) {
+    document.getElementById("inspector").innerHTML = `<div class="text-xs text-red-400">Failed to load data/world_genealogy.json: ${err.message}</div>`;
+  }
+}
+
 function initUI() {
-  const sortedNodes = [...NODES].filter(n => n.tradition !== "archetype").sort((a,b) => a.name.localeCompare(b.name));
+  // Pathfinder selects
+  const sorted = [...NODES].filter(n => n.tradition !== "archetype").sort((a, b) => a.name.localeCompare(b.name));
   const selFrom = document.getElementById("pathFrom");
   const selTo = document.getElementById("pathTo");
-  sortedNodes.forEach(n => {
+  sorted.forEach(n => {
     const o1 = document.createElement("option");
-    o1.value = n.id; o1.textContent = `${n.name} (${TRADITIONS[n.tradition].label.split(" ")[0]})`;
+    o1.value = n.id;
+    o1.textContent = `${n.name} (${TRADITIONS[n.tradition].label.split(" ")[0]})`;
     selFrom.appendChild(o1);
     selTo.appendChild(o1.cloneNode(true));
   });
-  selFrom.value = "bib_isaac_jacob";
+  selFrom.value = "bib_moses";
   selTo.value = "ved_bharata_kuru";
 
+  // Link filters
   const lf = document.getElementById("linkTypeFilters");
   Object.entries(LINK_META).forEach(([k, m]) => {
     const row = document.createElement("label");
     row.className = "flex items-start gap-2 px-1.5 py-1 rounded hover:bg-[var(--accent)] cursor-pointer text-xs";
     row.innerHTML = `
       <input type="checkbox" checked data-link="${k}" class="mt-0.5 accent-[var(--primary)]" />
-      <span class="flex-1">
-        <span class="flex items-center gap-1.5 font-medium">
-          <svg width="22" height="8" class="shrink-0"><line x1="0" y1="4" x2="22" y2="4" stroke="${m.color}" stroke-width="${m.width}" stroke-dasharray="${m.dash}" /></svg>
-          ${m.label}
-        </span>
+      <span class="flex-1 flex items-center gap-1.5 font-medium">
+        <svg width="20" height="8" class="shrink-0"><line x1="0" y1="4" x2="20" y2="4" stroke="${m.color}" stroke-width="${m.width}" stroke-dasharray="${m.dash}" /></svg>
+        <span class="leading-tight">${m.label}</span>
       </span>`;
     row.querySelector("input").addEventListener("change", (e) => {
       if (e.target.checked) activeLinkTypes.add(k); else activeLinkTypes.delete(k);
@@ -437,6 +337,7 @@ function initUI() {
     lf.appendChild(row);
   });
 
+  // Tradition filters
   const tf = document.getElementById("traditionFilters");
   Object.entries(TRADITIONS).forEach(([k, t]) => {
     const count = NODES.filter(n => n.tradition === k).length;
@@ -454,14 +355,17 @@ function initUI() {
     tf.appendChild(row);
   });
 
+  // Search
   document.getElementById("searchInput").addEventListener("input", (e) => {
     searchQuery = e.target.value.trim().toLowerCase();
     render();
+    if (mainView === "directory") renderDirectory();
   });
 
+  // Pan & Zoom
   const svg = document.getElementById("treeSvg");
   svg.addEventListener("mousedown", (e) => {
-    if (e.target.closest(".node-card")) return;
+    if (e.target.closest(".node-card") || e.target.closest(".expand-pill")) return;
     isPanning = true;
     startX = e.clientX - panX;
     startY = e.clientY - panY;
@@ -478,8 +382,8 @@ function initUI() {
     const rect = svg.getBoundingClientRect();
     const mx = e.clientX - rect.left;
     const my = e.clientY - rect.top;
-    const factor = e.deltaY < 0 ? 1.12 : 0.89;
-    const nextScale = Math.max(0.22, Math.min(2.2, scale * factor));
+    const factor = e.deltaY < 0 ? 1.13 : 0.88;
+    const nextScale = Math.max(0.12, Math.min(2.4, scale * factor));
     panX = mx - (mx - panX) * (nextScale / scale);
     panY = my - (my - panY) * (nextScale / scale);
     scale = nextScale;
@@ -487,8 +391,159 @@ function initUI() {
   }, { passive: false });
 
   applyPreset("all");
-  selectNode("bib_noah");
-  setTimeout(fitView, 40);
+  selectNode("bib_abraham");
+  setTimeout(fitView, 50);
+}
+
+function setMainView(v) {
+  mainView = v;
+  document.getElementById("treeContainer").classList.toggle("hidden", v !== "tree");
+  document.getElementById("directoryContainer").classList.toggle("hidden", v !== "directory");
+  document.getElementById("view-tree").className = `text-xs px-2.5 py-1 rounded font-medium ${v === "tree" ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
+  document.getElementById("view-directory").className = `text-xs px-2.5 py-1 rounded font-medium ${v === "directory" ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
+  if (v === "directory") renderDirectory();
+  else { render(); setTimeout(fitView, 30); }
+}
+
+function setExpandMode(mode) {
+  expandMode = mode;
+  if (mode === "landmarks") expandedParents.clear();
+  document.getElementById("mode-landmarks").className = `text-xs px-2 py-1 rounded font-medium ${mode === "landmarks" ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
+  document.getElementById("mode-all").className = `text-xs px-2 py-1 rounded font-medium ${mode === "all" ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
+  render();
+  fitView();
+}
+
+function toggleExpandParent(id) {
+  if (expandedParents.has(id)) expandedParents.delete(id);
+  else expandedParents.add(id);
+  render();
+}
+
+function focusSubtree(rootId) {
+  focusRootId = rootId;
+  activePreset = "";
+  setMainView("tree");
+  document.getElementById("focusBanner").classList.remove("hidden");
+  document.getElementById("focusTitle").textContent = nodesById[rootId]?.name || rootId;
+  activeTraditions = new Set(Object.keys(TRADITIONS));
+  activeLinkTypes = new Set(Object.keys(LINK_META));
+  syncCheckboxes();
+  selectNode(rootId);
+  render();
+  fitView();
+}
+
+function exitFocus() {
+  focusRootId = null;
+  document.getElementById("focusBanner").classList.add("hidden");
+  applyPreset("all");
+}
+
+function getFocusNodeSet(rootId) {
+  const keep = new Set([rootId]);
+  // Walk UP all ancestors (direct/expansion)
+  const upQ = [rootId];
+  while (upQ.length) {
+    const c = upQ.shift();
+    (parentsMap[c] || []).forEach(p => {
+      if (!keep.has(p)) { keep.add(p); upQ.push(p); }
+    });
+  }
+  // Walk DOWN all descendants (direct/expansion)
+  const downQ = [rootId];
+  while (downQ.length) {
+    const c = downQ.shift();
+    (childrenMap[c] || []).forEach(ch => {
+      if (!keep.has(ch)) { keep.add(ch); downQ.push(ch); }
+    });
+  }
+  // Include 1-hop cross-tradition bridges (cognate/parallel/syncretic) touching anyone in the family
+  const snapshot = [...keep];
+  snapshot.forEach(nid => {
+    (allAdjMap[nid] || []).forEach(({ other, edge }) => {
+      if (edge.type === "cognate" || edge.type === "syncretic" || (edge.type === "parallel" && nodesById[other].tradition !== "archetype")) {
+        keep.add(other);
+      }
+    });
+  });
+  return keep;
+}
+
+function getVisibleNodes() {
+  if (focusRootId) {
+    const fset = getFocusNodeSet(focusRootId);
+    return NODES.filter(n => fset.has(n.id) && activeTraditions.has(n.tradition));
+  }
+  return NODES.filter(n => {
+    if (!activeTraditions.has(n.tradition)) return false;
+    if (expandMode === "all") return true;
+    if (n.major) return true;
+    if (activePathNodes.has(n.id)) return true;
+    if (n.id === selectedNodeId) return true;
+    if (searchQuery && matchesSearch(n)) return true;
+    // Show if any parent is explicitly expanded
+    const pars = parentsMap[n.id] || [];
+    return pars.some(p => expandedParents.has(p));
+  });
+}
+
+function matchesSearch(n) {
+  if (!searchQuery) return true;
+  const hay = [n.name, ...(n.altNames || []), n.role, n.era, ...(n.sources || []), n.notes].join(" ").toLowerCase();
+  return hay.includes(searchQuery);
+}
+
+// Smart Non-Overlapping Layered Layout Engine
+function computeLayout(visNodes) {
+  layoutPos = {};
+  const byTier = {};
+  visNodes.forEach(n => {
+    const t = n.tier ?? 0;
+    if (!byTier[t]) byTier[t] = [];
+    byTier[t].push(n);
+  });
+
+  const sortedTiers = Object.keys(byTier).map(Number).sort((a, b) => a - b);
+  const CARD_W = 196;
+  const GAP_X = 28;
+  const ROW_H = 128;
+
+  // Assign preliminary horizontal order by tradition, then parent barycenter for clean tree flow
+  sortedTiers.forEach((tier, rowIdx) => {
+    const list = byTier[tier];
+    list.sort((a, b) => {
+      // Compute average parent X if parents already positioned
+      const pa = (parentsMap[a.id] || []).filter(p => layoutPos[p]);
+      const pb = (parentsMap[b.id] || []).filter(p => layoutPos[p]);
+      const ta = TRADITIONS[a.tradition]?.order ?? 99;
+      const tb = TRADITIONS[b.tradition]?.order ?? 99;
+      if (focusRootId) {
+        if (pa.length && pb.length) {
+          const ax = pa.reduce((s, p) => s + layoutPos[p].x, 0) / pa.length;
+          const bx = pb.reduce((s, p) => s + layoutPos[p].x, 0) / pb.length;
+          if (Math.abs(ax - bx) > 1) return ax - bx;
+        }
+        return ta - tb || a.name.localeCompare(b.name);
+      }
+      if (ta !== tb) return ta - tb;
+      if (pa.length && pb.length) {
+        const ax = pa.reduce((s, p) => s + layoutPos[p].x, 0) / pa.length;
+        const bx = pb.reduce((s, p) => s + layoutPos[p].x, 0) / pb.length;
+        if (Math.abs(ax - bx) > 1) return ax - bx;
+      }
+      return (b.major ? 1 : 0) - (a.major ? 1 : 0) || a.name.localeCompare(b.name);
+    });
+
+    const totalW = list.length * (CARD_W + GAP_X) - GAP_X;
+    const startX = -totalW / 2 + CARD_W / 2;
+    const y = rowIdx * ROW_H + 60;
+    list.forEach((n, i) => {
+      layoutPos[n.id] = { x: startX + i * (CARD_W + GAP_X), y, rowIdx, tier };
+    });
+  });
+
+  return sortedTiers;
 }
 
 function updateTransform() {
@@ -498,7 +553,7 @@ function updateTransform() {
 function zoomBy(factor) {
   const wrap = document.getElementById("canvasWrap");
   const cx = wrap.clientWidth / 2, cy = wrap.clientHeight / 2;
-  const nextScale = Math.max(0.22, Math.min(2.2, scale * factor));
+  const nextScale = Math.max(0.12, Math.min(2.4, scale * factor));
   panX = cx - (cx - panX) * (nextScale / scale);
   panY = cy - (cy - panY) * (nextScale / scale);
   scale = nextScale;
@@ -506,19 +561,31 @@ function zoomBy(factor) {
 }
 
 function fitView() {
-  const visNodes = getVisibleNodes();
-  if (!visNodes.length) return;
+  const ids = Object.keys(layoutPos);
+  if (!ids.length) return;
   const wrap = document.getElementById("canvasWrap");
   const w = wrap.clientWidth || 900, h = wrap.clientHeight || 600;
   let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
-  visNodes.forEach(n => {
-    minX = Math.min(minX, n.x - 105); maxX = Math.max(maxX, n.x + 105);
-    minY = Math.min(minY, n.y - 36);  maxY = Math.max(maxY, n.y + 36);
+  ids.forEach(id => {
+    const p = layoutPos[id];
+    minX = Math.min(minX, p.x - 110); maxX = Math.max(maxX, p.x + 110);
+    minY = Math.min(minY, p.y - 40);  maxY = Math.max(maxY, p.y + 40);
   });
-  const bw = (maxX - minX) + 80, bh = (maxY - minY) + 80;
-  scale = Math.max(0.24, Math.min(1.15, Math.min(w / bw, h / bh)));
+  const bw = (maxX - minX) + 100, bh = (maxY - minY) + 100;
+  scale = Math.max(0.14, Math.min(1.05, Math.min(w / bw, h / bh)));
   panX = (w - (maxX + minX) * scale) / 2;
   panY = (h - (maxY + minY) * scale) / 2;
+  updateTransform();
+}
+
+function centerOnNode(id) {
+  const p = layoutPos[id];
+  if (!p) return;
+  const wrap = document.getElementById("canvasWrap");
+  const w = wrap.clientWidth || 900, h = wrap.clientHeight || 600;
+  scale = Math.max(scale, 0.85);
+  panX = w / 2 - p.x * scale;
+  panY = h / 2 - p.y * scale;
   updateTransform();
 }
 
@@ -527,11 +594,13 @@ function syncCheckboxes() {
   document.querySelectorAll("input[data-trad]").forEach(cb => cb.checked = activeTraditions.has(cb.dataset.trad));
   document.querySelectorAll(".preset-btn").forEach(btn => {
     const on = btn.id === `preset-${activePreset}`;
-    btn.className = `preset-btn text-xs px-2 py-1 rounded font-medium ${on ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
+    btn.className = `preset-btn shrink-0 px-2 py-0.5 rounded border ${on ? "bg-[var(--primary)] text-[var(--primary-foreground)] border-[var(--primary)] font-semibold" : "border-[var(--border)] hover:bg-[var(--accent)]"}`;
   });
 }
 
 function applyPreset(name) {
+  focusRootId = null;
+  document.getElementById("focusBanner").classList.add("hidden");
   activePreset = name;
   clearPath(false);
   if (name === "all") {
@@ -540,9 +609,6 @@ function applyPreset(name) {
   } else if (name === "strict") {
     activeLinkTypes = new Set(["direct", "expansion", "cognate"]);
     activeTraditions = new Set(Object.keys(TRADITIONS).filter(k => k !== "archetype"));
-  } else if (name === "flood") {
-    activeLinkTypes = new Set(["direct", "parallel", "cognate", "expansion"]);
-    activeTraditions = new Set(["archetype", "biblical", "mesopotamian", "iranian", "vedic", "chinese"]);
   } else if (name === "indo_iran") {
     activeLinkTypes = new Set(["direct", "expansion", "cognate", "parallel"]);
     activeTraditions = new Set(["biblical", "mesopotamian", "iranian", "vedic", "arabian"]);
@@ -562,16 +628,6 @@ function toggleAllTraditions() {
   render();
 }
 
-function getVisibleNodes() {
-  return NODES.filter(n => activeTraditions.has(n.tradition));
-}
-
-function matchesSearch(n) {
-  if (!searchQuery) return true;
-  const hay = [n.name, ...n.altNames, n.role, n.era, ...n.sources, n.notes].join(" ").toLowerCase();
-  return hay.includes(searchQuery);
-}
-
 function runPathfinder() {
   const fromId = document.getElementById("pathFrom").value;
   const toId = document.getElementById("pathTo").value;
@@ -581,7 +637,6 @@ function runPathfinder() {
   NODES.forEach(n => adj[n.id] = []);
   EDGES.forEach((e, idx) => {
     if (!activeLinkTypes.has(e.type)) return;
-    if (!activeTraditions.has(nodesById[e.from].tradition) || !activeTraditions.has(nodesById[e.to].tradition)) return;
     adj[e.from].push({ next: e.to, edge: e, idx });
     adj[e.to].push({ next: e.from, edge: e, idx });
   });
@@ -606,26 +661,30 @@ function runPathfinder() {
   box.classList.remove("hidden");
 
   if (!found) {
-    box.innerHTML = `<span class="text-[var(--warning)] font-medium">No path under current link filters.</span> Try enabling <em>Archetypal Parallel</em> or <em>Chronicler Bridge</em> links.`;
+    box.innerHTML = `<span class="text-[var(--warning)] font-medium">No path under active link tiers.</span> Try enabling <em>Archetypal Parallel</em> or <em>Cross-Cultural</em> links.`;
     render();
     return;
   }
 
   found.forEach(s => {
     activePathNodes.add(s.nodeId);
+    activeTraditions.add(nodesById[s.nodeId].tradition);
     if (s.edgeIdx !== null) activePathEdges.add(s.edgeIdx);
   });
+  syncCheckboxes();
 
   const hops = found.length - 1;
   box.innerHTML = `<div class="font-medium text-[var(--foreground)] mb-1">Connected in ${hops} step${hops===1?"":"s"}:</div>` +
     found.map((s, i) => {
       const n = nodesById[s.nodeId];
       const badge = s.edge ? `<div class="text-[11px] pl-2 border-l-2 border-[var(--primary)] my-0.5 text-[var(--muted-foreground)]"><span class="font-semibold" style="color:${LINK_META[s.edge.type].color}">${s.edge.type}</span>: ${s.edge.label}</div>` : "";
-      return `${badge}<button onclick="selectNode('${n.id}')" class="block text-left text-[var(--link)] hover:underline font-medium">${i+1}. ${n.name}</button>`;
+      return `${badge}<button onclick="jumpToNode('${n.id}')" class="block text-left text-[var(--link)] hover:underline font-medium">${i+1}. ${n.name}</button>`;
     }).join("");
 
+  if (focusRootId) { focusRootId = null; document.getElementById("focusBanner").classList.add("hidden"); }
+  setMainView("tree");
   render();
-  renderInspector(selectedNodeId);
+  fitView();
 }
 
 function clearPath(doRender = true) {
@@ -636,10 +695,23 @@ function clearPath(doRender = true) {
   if (doRender) render();
 }
 
+function jumpToNode(id) {
+  activeTraditions.add(nodesById[id].tradition);
+  (parentsMap[id] || []).forEach(p => expandedParents.add(p));
+  syncCheckboxes();
+  setMainView("tree");
+  selectNode(id);
+  setTimeout(() => centerOnNode(id), 40);
+}
+
 function selectNode(id) {
   selectedNodeId = id;
   render();
   renderInspector(id);
+}
+
+function setPathEndpoint(which, id) {
+  document.getElementById(which === "from" ? "pathFrom" : "pathTo").value = id;
 }
 
 function renderInspector(id) {
@@ -647,58 +719,73 @@ function renderInspector(id) {
   const insp = document.getElementById("inspector");
   if (!n) return;
   const trad = TRADITIONS[n.tradition];
-  const neighbors = EDGES.map((e, idx) => ({ e, idx })).filter(({ e }) => e.from === id || e.to === id);
+  const neighbors = allAdjMap[id] || [];
+  const childCount = (childrenMap[id] || []).length;
+  const isExpanded = expandedParents.has(id) || expandMode === "all" || !!focusRootId;
 
   insp.innerHTML = `
-    <div class="space-y-4">
+    <div class="space-y-3.5">
       <div>
-        <div class="flex items-center gap-2 mb-1.5">
-          <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-xs font-medium border border-[var(--border)]">
+        <div class="flex items-center justify-between gap-2 mb-1.5">
+          <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-[11px] font-medium border border-[var(--border)]">
             <span class="w-2 h-2 rounded-full" style="background:${trad.color}"></span>
             ${trad.label}
           </span>
+          <span class="text-[11px] font-mono text-[var(--muted-foreground)]">Tier ${n.tier}</span>
         </div>
         <h2 class="text-base font-bold leading-snug">${n.name}</h2>
-        ${n.altNames.length ? `<p class="text-xs text-[var(--muted-foreground)] mt-0.5">Also known as: ${n.altNames.join(" • ")}</p>` : ""}
+        ${n.altNames && n.altNames.length ? `<p class="text-xs text-[var(--muted-foreground)] mt-1">Also known as: <span class="text-[var(--foreground)]">${n.altNames.join(" • ")}</span></p>` : ""}
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="grid grid-cols-2 gap-1.5">
+        <button onclick="focusSubtree('${n.id}')" class="col-span-2 text-xs py-1.5 px-2.5 rounded-md bg-[var(--primary)] text-[var(--primary-foreground)] font-semibold hover:opacity-90">
+          Focus Family Tree (${childCount} direct/text children)
+        </button>
+        ${childCount > 0 && !focusRootId && expandMode === "landmarks" ? `
+          <button onclick="toggleExpandParent('${n.id}')" class="col-span-2 text-xs py-1 px-2 rounded border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">
+            ${isExpanded ? "Collapse" : "Unfold"} ${childCount} Children on Atlas
+          </button>` : ""}
+        <button onclick="setPathEndpoint('from','${n.id}')" class="text-[11px] py-1 px-2 rounded border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">Set Pathfinder Start</button>
+        <button onclick="setPathEndpoint('to','${n.id}')" class="text-[11px] py-1 px-2 rounded border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">Set Pathfinder End</button>
       </div>
 
       <div class="grid grid-cols-2 gap-2 text-xs">
         <div class="p-2 rounded-md bg-[var(--background)] border border-[var(--card-border)]">
-          <div class="text-[var(--muted-foreground)]">Horizon / Era</div>
+          <div class="text-[var(--muted-foreground)] text-[11px]">Horizon / Era</div>
           <div class="font-medium mt-0.5">${n.era}</div>
         </div>
         <div class="p-2 rounded-md bg-[var(--background)] border border-[var(--card-border)]">
-          <div class="text-[var(--muted-foreground)]">Role</div>
+          <div class="text-[var(--muted-foreground)] text-[11px]">Role</div>
           <div class="font-medium mt-0.5">${n.role}</div>
         </div>
       </div>
 
       <div>
-        <h3 class="text-xs font-semibold uppercase tracking-wide text-[var(--muted-foreground)] mb-1.5">Primary &amp; Ancient Sources</h3>
+        <h3 class="text-[11px] font-semibold uppercase tracking-wide text-[var(--muted-foreground)] mb-1.5">Primary &amp; Ancient Texts</h3>
         <div class="flex flex-wrap gap-1.5">
-          ${n.sources.map(s => `<span class="text-xs px-2 py-0.5 rounded bg-[var(--background)] border border-[var(--border)]">${s}</span>`).join("")}
+          ${(n.sources || []).map(s => `<span class="text-[11px] px-2 py-0.5 rounded bg-[var(--background)] border border-[var(--border)]">${s}</span>`).join("")}
         </div>
       </div>
 
       <div>
-        <h3 class="text-xs font-semibold uppercase tracking-wide text-[var(--muted-foreground)] mb-1">Comparative Notes</h3>
+        <h3 class="text-[11px] font-semibold uppercase tracking-wide text-[var(--muted-foreground)] mb-1">Genealogical &amp; Cross-Cultural Notes</h3>
         <p class="text-xs leading-relaxed text-[var(--foreground)]">${n.notes}</p>
       </div>
 
       <div>
-        <h3 class="text-xs font-semibold uppercase tracking-wide text-[var(--muted-foreground)] mb-2">Lineage &amp; Cross-Tradition Links (${neighbors.length})</h3>
+        <h3 class="text-[11px] font-semibold uppercase tracking-wide text-[var(--muted-foreground)] mb-2">All Connections (${neighbors.length})</h3>
         <div class="space-y-1.5">
-          ${neighbors.map(({ e }) => {
-            const isOut = e.from === id;
-            const other = nodesById[isOut ? e.to : e.from];
-            const lm = LINK_META[e.type];
+          ${neighbors.map(({ other, edge, isOut }) => {
+            const on = nodesById[other];
+            const lm = LINK_META[edge.type];
             return `
-              <button onclick="selectNode('${other.id}')" class="w-full text-left p-2 rounded-md border border-[var(--card-border)] bg-[var(--background)] hover:border-[var(--primary)] transition">
+              <button onclick="jumpToNode('${on.id}')" class="w-full text-left p-2 rounded-md border border-[var(--card-border)] bg-[var(--background)] hover:border-[var(--primary)] transition">
                 <div class="flex items-center justify-between gap-2 text-xs">
-                  <span class="font-semibold truncate">${isOut ? "→" : "←"} ${other.name}</span>
-                  <span class="shrink-0 text-[11px] font-medium px-1.5 py-0.5 rounded" style="color:${lm.color}; border:1px solid ${lm.color}44">${e.type}</span>
+                  <span class="font-semibold truncate">${isOut ? "→" : "←"} ${on.name}</span>
+                  <span class="shrink-0 text-[10px] font-medium px-1.5 py-0.5 rounded" style="color:${lm.color}; border:1px solid ${lm.color}44">${edge.type}</span>
                 </div>
-                <div class="text-[11px] text-[var(--muted-foreground)] mt-0.5">${e.label}</div>
+                <div class="text-[11px] text-[var(--muted-foreground)] mt-0.5">${edge.label}</div>
               </button>`;
           }).join("")}
         </div>
@@ -706,21 +793,52 @@ function renderInspector(id) {
     </div>`;
 }
 
+function renderDirectory() {
+  const filtered = NODES.filter(n => activeTraditions.has(n.tradition) && matchesSearch(n))
+    .sort((a, b) => a.tier - b.tier || a.name.localeCompare(b.name));
+  document.getElementById("dirCount").textContent = `Showing ${filtered.length} of ${NODES.length} individuals`;
+  const tbody = document.getElementById("dirBody");
+  tbody.innerHTML = filtered.map(n => {
+    const t = TRADITIONS[n.tradition];
+    return `
+      <tr class="hover:bg-[var(--accent)] cursor-pointer" onclick="selectNode('${n.id}')">
+        <td class="py-2 px-3 font-medium">${escapeHtml(n.name)}</td>
+        <td class="py-2 px-3 text-[var(--muted-foreground)]">${escapeHtml((n.altNames || []).join(", ") || "—")}</td>
+        <td class="py-2 px-3"><span class="inline-flex items-center gap-1.5"><span class="w-2 h-2 rounded-full" style="background:${t.color}"></span>${escapeHtml(t.label.split(" ")[0])}</span></td>
+        <td class="py-2 px-3 text-[var(--muted-foreground)]">${escapeHtml(n.era)}</td>
+        <td class="py-2 px-3 text-[var(--muted-foreground)]">${escapeHtml((n.sources || []).slice(0,2).join(", "))}</td>
+        <td class="py-2 px-3 text-right whitespace-nowrap space-x-1">
+          <button onclick="event.stopPropagation(); jumpToNode('${n.id}')" class="px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--card)] text-[var(--link)]">Locate</button>
+          <button onclick="event.stopPropagation(); focusSubtree('${n.id}')" class="px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--card)] text-[var(--primary)]">Tree</button>
+        </td>
+      </tr>`;
+  }).join("");
+}
+
 function render() {
+  if (!NODES.length) return;
   const visNodes = getVisibleNodes();
   const visIds = new Set(visNodes.map(n => n.id));
   const visEdges = EDGES.map((e, idx) => ({ e, idx }))
     .filter(({ e }) => activeLinkTypes.has(e.type) && visIds.has(e.from) && visIds.has(e.to));
 
-  document.getElementById("statsBox").textContent = `Showing ${visNodes.length} nodes & ${visEdges.length} links across ${activeTraditions.size} traditions`;
+  const sortedTiers = computeLayout(visNodes);
+  document.getElementById("statsBox").textContent = `Showing ${visNodes.length} of ${NODES.length} people • ${visEdges.length} visible links`;
+
+  // Compute span for tier guide lines
+  let minX = -600, maxX = 600;
+  Object.values(layoutPos).forEach(p => { minX = Math.min(minX, p.x - 160); maxX = Math.max(maxX, p.x + 160); });
 
   const bandsG = document.getElementById("tierBands");
-  const tierYs = [55, 190, 365, 540, 700, 845, 1020, 1165];
-  bandsG.innerHTML = tierYs.map((y, i) => `
-    <g opacity="0.55">
-      <line x1="-40" y1="${y}" x2="3320" y2="${y}" stroke="var(--border)" stroke-width="1" stroke-dasharray="4,8" />
-      <text x="-25" y="${y - 10}" fill="var(--muted-foreground)" font-size="11" font-weight="600">${TIER_LABELS[i]}</text>
-    </g>`).join("");
+  bandsG.innerHTML = sortedTiers.map((tier, rowIdx) => {
+    const y = rowIdx * 128 + 60;
+    const label = TIER_NAMES[tier] || `Generation Tier ${tier}`;
+    return `
+      <g opacity="0.52">
+        <line x1="${minX}" y1="${y}" x2="${maxX}" y2="${y}" stroke="var(--border)" stroke-width="1" stroke-dasharray="4,8" />
+        <text x="${minX + 6}" y="${y - 30}" fill="var(--muted-foreground)" font-size="11" font-weight="600">Tier ${tier} • ${escapeXml(label)}</text>
+      </g>`;
+  }).join("");
 
   const selNeighbors = new Set([selectedNodeId]);
   visEdges.forEach(({ e }) => {
@@ -731,35 +849,39 @@ function render() {
   const hasPath = activePathNodes.size > 0;
   const hasSearch = searchQuery.length > 0;
 
+  // Render Edges
   const edgesG = document.getElementById("edgesLayer");
   edgesG.innerHTML = "";
   const tooltip = document.getElementById("edgeTooltip");
 
   visEdges.forEach(({ e, idx }) => {
-    const a = nodesById[e.from], b = nodesById[e.to];
+    const pa = layoutPos[e.from], pb = layoutPos[e.to];
+    if (!pa || !pb) return;
     const lm = LINK_META[e.type];
     const inPath = activePathEdges.has(idx);
     const touchesSel = (e.from === selectedNodeId || e.to === selectedNodeId);
 
-    const dx = b.x - a.x, dy = b.y - a.y;
+    const dx = pb.x - pa.x, dy = pb.y - pa.y;
     let d;
-    if (Math.abs(dy) < 40) {
-      const midX = (a.x + b.x) / 2;
-      const arch = Math.min(95, Math.max(35, Math.abs(dx) * 0.12));
-      d = `M ${a.x} ${a.y} Q ${midX} ${Math.min(a.y, b.y) - arch} ${b.x} ${b.y}`;
+    if (Math.abs(dy) < 20) {
+      const midX = (pa.x + pb.x) / 2;
+      const arch = Math.min(85, Math.max(32, Math.abs(dx) * 0.08));
+      d = `M ${pa.x} ${pa.y} Q ${midX} ${pa.y - arch} ${pb.x} ${pb.y}`;
     } else {
-      const cy = a.y + dy * 0.52;
-      d = `M ${a.x} ${a.y + 22} C ${a.x} ${cy}, ${b.x} ${cy}, ${b.x} ${b.y - 24}`;
+      const y1 = pa.y + (dy > 0 ? 24 : -24);
+      const y2 = pb.y + (dy > 0 ? -24 : 24);
+      const cy = y1 + (y2 - y1) * 0.52;
+      d = `M ${pa.x} ${y1} C ${pa.x} ${cy}, ${pb.x} ${cy}, ${pb.x} ${y2}`;
     }
 
-    let opacity = 0.72;
+    let opacity = 0.62;
     let width = lm.width;
     let stroke = lm.color;
     if (hasPath) {
-      opacity = inPath ? 1 : 0.14;
+      opacity = inPath ? 1 : 0.1;
       if (inPath) { width = 4; stroke = "#f59e0b"; }
     } else if (selectedNodeId) {
-      opacity = touchesSel ? 1 : 0.34;
+      opacity = touchesSel ? 1 : 0.25;
       if (touchesSel) width = Math.max(width + 0.9, 2.8);
     }
 
@@ -778,57 +900,81 @@ function render() {
       const rect = document.getElementById("canvasWrap").getBoundingClientRect();
       tooltip.style.left = (ev.clientX - rect.left + 14) + "px";
       tooltip.style.top = (ev.clientY - rect.top + 14) + "px";
-      tooltip.innerHTML = `<div class="font-semibold" style="color:${lm.color}">${lm.label}</div><div class="font-medium mt-0.5">${a.name} ↔ ${b.name}</div><div class="text-[var(--muted-foreground)] mt-0.5">${e.label}</div>`;
+      tooltip.innerHTML = `<div class="font-semibold" style="color:${lm.color}">${lm.label}</div><div class="font-medium mt-0.5">${escapeHtml(nodesById[e.from].name)} ↔ ${escapeHtml(nodesById[e.to].name)}</div><div class="text-[var(--muted-foreground)] mt-0.5">${escapeHtml(e.label)}</div>`;
       tooltip.classList.remove("hidden");
     });
     pathEl.addEventListener("mouseleave", () => tooltip.classList.add("hidden"));
     edgesG.appendChild(pathEl);
   });
 
+  // Render Nodes
   const nodesG = document.getElementById("nodesLayer");
   nodesG.innerHTML = "";
   visNodes.forEach(n => {
+    const p = layoutPos[n.id];
+    if (!p) return;
     const trad = TRADITIONS[n.tradition];
     const isSel = n.id === selectedNodeId;
     const inPath = activePathNodes.has(n.id);
     const isMatch = matchesSearch(n);
     let opacity = 1;
-    if (hasSearch && !isMatch) opacity = 0.2;
-    else if (hasPath && !inPath) opacity = 0.25;
-    else if (!hasPath && !hasSearch && selectedNodeId && !selNeighbors.has(n.id)) opacity = 0.68;
+    if (hasSearch && !isMatch) opacity = 0.16;
+    else if (hasPath && !inPath) opacity = 0.22;
+    else if (!hasPath && !hasSearch && selectedNodeId && !selNeighbors.has(n.id)) opacity = 0.72;
 
-    const w = n.tradition === "archetype" ? 210 : 186;
-    const h = 48;
+    const w = 194, h = 48;
     const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
     g.setAttribute("class", "node-card");
-    g.setAttribute("transform", `translate(${n.x - w/2}, ${n.y - h/2})`);
+    g.setAttribute("transform", `translate(${p.x - w/2}, ${p.y - h/2})`);
     g.setAttribute("opacity", opacity);
 
     const strokeColor = inPath ? "#f59e0b" : (isSel ? "var(--primary)" : trad.color);
-    const strokeW = (isSel || inPath) ? 2.8 : 1.4;
+    const strokeW = (isSel || inPath) ? 2.8 : (n.major ? 1.6 : 1.1);
+
+    // Count hidden children for +N expand pill
+    const allKids = childrenMap[n.id] || [];
+    const hiddenKids = allKids.filter(cid => !visIds.has(cid)).length;
 
     g.innerHTML = `
       <rect width="${w}" height="${h}" rx="9" fill="var(--card)" stroke="${strokeColor}" stroke-width="${strokeW}" />
       <rect width="6" height="${h}" rx="3" fill="${trad.color}" />
-      <text x="14" y="20" fill="var(--foreground)" font-size="11.5" font-weight="650">${escapeXml(truncate(n.name, 26))}</text>
-      <text x="14" y="36" fill="var(--muted-foreground)" font-size="10">${escapeXml(truncate(n.era, 29))}</text>
+      <text x="13" y="20" fill="var(--foreground)" font-size="11.5" font-weight="650">${escapeXml(truncate(n.name, 25))}</text>
+      <text x="13" y="36" fill="var(--muted-foreground)" font-size="9.8">${escapeXml(truncate(n.era, 29))}</text>
     `;
+
     g.addEventListener("click", (ev) => {
       ev.stopPropagation();
       selectNode(n.id);
     });
+    g.addEventListener("dblclick", (ev) => {
+      ev.stopPropagation();
+      if (allKids.length) toggleExpandParent(n.id);
+    });
+
+    if (hiddenKids > 0 && !focusRootId) {
+      const pill = document.createElementNS("http://www.w3.org/2000/svg", "g");
+      pill.setAttribute("class", "expand-pill");
+      pill.setAttribute("transform", `translate(${w - 34}, ${h - 11})`);
+      pill.innerHTML = `
+        <rect width="30" height="17" rx="8.5" fill="var(--primary)" />
+        <text x="15" y="12" text-anchor="middle" fill="var(--primary-foreground)" font-size="9.5" font-weight="700">+${hiddenKids}</text>
+      `;
+      pill.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        toggleExpandParent(n.id);
+      });
+      g.appendChild(pill);
+    }
+
     nodesG.appendChild(g);
   });
 }
 
-function truncate(str, max) {
-  return str.length > max ? str.slice(0, max - 1) + "…" : str;
-}
-function escapeXml(s) {
-  return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
-}
+function truncate(str, max) { return str.length > max ? str.slice(0, max - 1) + "…" : str; }
+function escapeXml(s) { return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"); }
+function escapeHtml(s) { return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
 
-initUI();
+boot();
 </script>
 </body>
 </html>

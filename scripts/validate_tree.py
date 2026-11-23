@@ -2,7 +2,7 @@ import json
 from collections import Counter, deque
 from pathlib import Path
 
-DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "genealogy_core.json"
+DATA_PATH = Path(__file__).resolve().parent.parent / "data" / "world_genealogy.json"
 
 
 def load_data():
@@ -49,7 +49,7 @@ def main():
     trad_counts = Counter(n["tradition"] for n in nodes)
     edge_counts = Counter(e["type"] for e in edges)
 
-    print(f"VALIDATED OK: {len(nodes)} nodes, {len(edges)} edges")
+    print(f"VALIDATED OK: {len(nodes)} individuals/nodes, {len(edges)} edges")
     print("\nNodes by tradition:")
     for k, v in trad_counts.most_common():
         print(f"  - {traditions[k]['label']}: {v}")
@@ -57,14 +57,13 @@ def main():
     for k, v in edge_counts.most_common():
         print(f"  - {k}: {v}")
 
-    # Test cross-tradition paths
     tests = [
-        ("bib_isaac_jacob", "ved_bharata_kuru", {"direct", "expansion", "cognate"}, "Israelites -> Pandavas (Strict Textual + Historical Cognate Only)"),
-        ("bib_isaac_jacob", "chn_shang_zhou", {"direct", "expansion", "cognate", "syncretic"}, "Israelites -> Shang/Zhou China (Incl. Chronicler Bridges)"),
-        ("ar_ishmael_adnan", "mes_uruk_gilgamesh", {"direct", "expansion", "cognate"}, "Arabian Adnanites -> Gilgamesh of Uruk (Strict Textual + Cognate)"),
-        ("ir_yima", "ved_surya_vamsha", {"direct", "expansion", "cognate"}, "Iranian Jamshid -> Rama/Buddha Solar Dynasty (Proto-Indo-Iranian Cognate)"),
-        ("chn_yu_xia", "stp_oghuz", {"direct", "expansion", "cognate", "syncretic"}, "Chinese Xia Dynasty -> Turkic Oghuz Khagan"),
-        ("bib_abraham", "le_sanchuniathon", {"direct", "expansion", "cognate"}, "Abraham -> Phoenician Misor/Thoth (Strict Textual + Cognate)"),
+        ("bib_moses", "eg_osarseph_bithiah", {"direct", "expansion", "cognate", "syncretic"}, "Moses -> Egyptian Osarseph / Musaeus / King of Cush"),
+        ("bib_enoch", "eg_thoth_saurid", {"direct", "expansion", "cognate", "syncretic"}, "Enoch -> Egyptian Thoth / King Saurid"),
+        ("jas_shu_bildad", "ved_bharata_kuru", {"direct", "expansion", "cognate"}, "Bildad (Abraham->Shuah, Jasher 25) -> Pandavas (Strict Textual + Cognates Only)"),
+        ("jas_tog_tarki", "chn_yu_xia", {"direct", "expansion", "cognate", "syncretic"}, "Tarki (Japheth->Togarmah, Jasher 10) -> Chinese Xia Dynasty"),
+        ("jud_solomon", "eth_menelik", {"direct", "expansion"}, "King Solomon + Sheba -> Menelik I of Ethiopia"),
+        ("jas_janeus", "bib_kittim", {"direct", "expansion", "syncretic"}, "Janeus (Esau->Eliphaz->Zepho, Jasher 62) -> Kittim (Italy/Rome)"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

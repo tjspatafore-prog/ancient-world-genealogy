@@ -1,0 +1,583 @@
+{
+  "module": "04_near_east_egypt",
+  "title": "Egyptian Cross-Traditions, Mesopotamia, Phoenicia & Iran",
+  "nodes": [
+    {
+      "id": "eg_ennead",
+      "name": "Atum → Shu/Tefnut → Geb/Nut → Osiris & Isis → Horus",
+      "altNames": [
+        "Heliopolitan Ennead",
+        "Nun (Primeval Waters)"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 1,
+      "era": "Old Kingdom Pyramid Texts (c. 2400 BCE)",
+      "role": "Heliopolitan Great Ennead",
+      "sources": [
+        "Pyramid Texts",
+        "Turin King List",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Egyptian royal king lists trace historical pharaohs directly from the Ennead and Horus through the Shemsu-Hor ('Followers of Horus'). Osiris placed in a chest/ark on the Nile was later compared by syncretists to Noah.",
+      "major": true
+    },
+    {
+      "id": "eg_thoth_saurid",
+      "name": "Thoth (Djehuty / Hermes) & King Saurid (Surid)",
+      "altNames": [
+        "Djehuty",
+        "Hermes Trismegistus",
+        "Surid / Saurid",
+        "Idris = Enoch"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 3,
+      "era": "Egyptian / Greco-Egyptian & Coptic-Arabic Lore",
+      "role": "Egyptian Scribe of the Gods / Antediluvian Pyramid Builder",
+      "sources": [
+        "Pseudo-Eupolemus (2nd c. BCE)",
+        "Corpus Hermeticum",
+        "Akhbar al-Zaman",
+        "al-Maqrizi Khitat",
+        "Bar Hebraeus"
+      ],
+      "notes": "Greco-Egyptian, Hermetic, Coptic, and Arabic histories explicitly identify Biblical Enoch (Idris) with Egyptian Thoth / Hermes Trismegistus and the antediluvian Egyptian King Saurid (Surid), who foresaw the Flood and built the Pyramids to preserve astronomy and sacred wisdom!",
+      "major": true
+    },
+    {
+      "id": "eg_menes",
+      "name": "Menes / Narmer (1st Dynasty) & Baysar (Misrayim)",
+      "altNames": [
+        "Narmer",
+        "Misr / Baysar (Coptic-Arabic lore)",
+        "Rikayon (Jasher 14)"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "First Dynasty (c. 3100 BCE)",
+      "role": "First Historical Pharaoh of Egypt (Mizraim)",
+      "sources": [
+        "Narmer Palette",
+        "Turin King List",
+        "Manetho",
+        "al-Maqrizi Khitat"
+      ],
+      "notes": "Historical unifier of Egypt. Medieval Coptic/Arabic chronicles (al-Maqrizi) trace post-Flood Egyptian kings from Ham -> Baysar -> Misrayim (Mizraim), while Book of Jasher 14 recounts Rikayon establishing the royal title 'Pharaoh'!",
+      "major": true
+    },
+    {
+      "id": "eg_imhotep",
+      "name": "Imhotep (Vizier of Djoser / 7-Year Famine)",
+      "altNames": [
+        "Compared to Joseph (Zaphenath-Paneah)"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 12,
+      "era": "Old Kingdom (3rd Dynasty) / Ptolemaic Famine Stela",
+      "role": "Egyptian Sage, Architect & Famine Vizier",
+      "sources": [
+        "Famine Stela (Sehel Island)",
+        "Manetho"
+      ],
+      "notes": "Master architect of the Step Pyramid and high priest of Heliopolis (On). The Sehel Island Famine Stela credits Imhotep with ending a 7-year Nile famine—frequently compared in cross-cultural lore with Joseph (Zaphenath-Paneah), who wed the daughter of the Priest of On!",
+      "major": false
+    },
+    {
+      "id": "eg_osarseph_bithiah",
+      "name": "Osarseph (Manetho) / Musaeus (Artapanus) / Bithiah & Adoniah",
+      "altNames": [
+        "Osarseph",
+        "Musaeus",
+        "Queen Adoniah of Cush (Jasher 73)",
+        "Princess Bithiah (Jasher 68)"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "Greco-Egyptian Chronicles (3rd-2nd c. BCE) & Jasher",
+      "role": "Egyptian & Cushite Names/Traditions of Moses",
+      "sources": [
+        "Manetho (via Josephus Against Apion 1.26)",
+        "Artapanus (via Eusebius)",
+        "Book of Jasher 68, 72-76"
+      ],
+      "notes": "Manetho preserves an Egyptian tradition of a Heliopolitan priest named Osarseph who took the name Moses; Artapanus calls Moses 'Musaeus' (teacher of Orpheus) and Egyptian 'Hermes', leading an expedition into Cush/Ethiopia — strikingly echoing Book of Jasher 72-76 where Moses rules Cush with Queen Adoniah!",
+      "major": true
+    },
+    {
+      "id": "le_sanchuniathon",
+      "name": "Protogonos → Misor & Sydyk → Taaut (Thoth) & Chna (Canaan)",
+      "altNames": [
+        "Misor = Mizraim",
+        "Taaut = Thoth",
+        "Chna = Canaan"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "Phoenician-Canaanite Lore",
+      "role": "Phoenician Genealogy Bridging Egypt & Levant",
+      "sources": [
+        "Philo of Byblos / Sanchuniathon (via Eusebius Praep. Ev. I.10)"
+      ],
+      "notes": "Explicitly names Misor (direct cognate of Biblical Mizraim!) as brother of Sydyk (Righteousness, cf. Melchizedek) and father of Taaut (Egyptian Thoth, inventor of writing), alongside Chna (Canaan).",
+      "major": true
+    },
+    {
+      "id": "mes_enuma",
+      "name": "Apsu & Tiamat → Anu → Enki (Ea) → Marduk",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 1,
+      "era": "c. 1800-1100 BCE texts",
+      "role": "Creation of Humanity (Lullu) from Clay",
+      "sources": [
+        "Enuma Elish",
+        "Atrahasis Tablet I"
+      ],
+      "notes": "Enki (Ea) and Nintu shape the first humans (Lullu) from clay mixed with divine blood, paralleling Genesis's creation of Adam from dust.",
+      "major": true
+    },
+    {
+      "id": "mes_alulim",
+      "name": "Alulim of Eridu → Antediluvian Kings (1-6)",
+      "altNames": [
+        "Aloros (Berossus)"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Antediluvian (Sumerian King List)",
+      "role": "Sumerian Pre-Flood Dynasty",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca"
+      ],
+      "notes": "8 kings in the Sumerian King List (10 in Berossus: Aloros -> Alaparos -> Amelon -> Ammenon -> Megalaros -> Daonos), reigning vast lifespans before the Flood — paralleling Genesis 5's 10 patriarchs.",
+      "major": true
+    },
+    {
+      "id": "mes_enmeduranki",
+      "name": "En-men-dur-ana (Enmeduranki, 7th King of Sippar)",
+      "altNames": [
+        "Euedorachos (Berossus)"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 3,
+      "era": "Antediluvian Gen 7",
+      "role": "7th King / Initiated into Heavenly Secrets by Shamash",
+      "sources": [
+        "Sumerian King List",
+        "Enmeduranki Text (K 2486)",
+        "Berossus"
+      ],
+      "notes": "7th antediluvian king, ruler of Sippar (city of sun god Shamash), admitted to heaven to learn celestial tablets and divination — widely recognized parallel to Enoch (7th patriarch, 365 solar years).",
+      "major": true
+    },
+    {
+      "id": "mes_ziusudra",
+      "name": "Ubara-Tutu → Ziusudra / Utnapishtim / Atrahasis",
+      "altNames": [
+        "Xisouthros (Berossus)"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 4,
+      "era": "Flood Horizon",
+      "role": "Mesopotamian Great Flood Survivor",
+      "sources": [
+        "Eridu Genesis",
+        "Atrahasis",
+        "Epic of Gilgamesh XI",
+        "Berossus"
+      ],
+      "notes": "King/sage of Shuruppak warned by Enki/Ea; builds a vessel preserving family and animals, sends out dove/swallow/raven, lands on Mt. Nimush.",
+      "major": true
+    },
+    {
+      "id": "mes_uruk_gilgamesh",
+      "name": "Meskiaggasher → Enmerkar → Lugalbanda → Gilgamesh",
+      "altNames": [
+        "Erech (Gen 10:10)",
+        "Gilgamesh in Qumran 4Q530"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "Early Dynastic II (c. 2700 BCE)",
+      "role": "Hero-Kings of Uruk (Biblical Erech)",
+      "sources": [
+        "Sumerian King List",
+        "Epic of Gilgamesh",
+        "Qumran Book of Giants (4Q530)"
+      ],
+      "notes": "Gilgamesh journeys to Flood survivor Utnapishtim. Uruk is explicitly named 'Erech' in Gen 10:10 — and remarkably, 'Gilgamesh' is ALSO named as one of the Giants in the Dead Sea Scrolls Book of Giants (4Q530)!",
+      "major": true
+    },
+    {
+      "id": "mes_sargon",
+      "name": "Sargon of Akkad → Enheduanna & Naram-Sin",
+      "altNames": [
+        "Sharru-kin",
+        "Accad (Gen 10:10)"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Akkadian Empire (c. 2334-2154 BCE)",
+      "role": "First Imperial Dynasty of Mesopotamia (Accad)",
+      "sources": [
+        "Sumerian King List",
+        "Birth Legend of Sargon"
+      ],
+      "notes": "Founder of Akkad (Biblical 'Accad' in Gen 10:10). Note also the striking 'basket in the river sealed with bitumen' motif in Sargon's Birth Legend paralleling Moses in Exodus 2!",
+      "major": true
+    },
+    {
+      "id": "ir_gayomart",
+      "name": "Gayomart (Keyumars) → Mashya & Mashyana",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 1,
+      "era": "Primordial (Avesta / Bundahishn)",
+      "role": "First Mortal & Primeval Iranian Couple",
+      "sources": [
+        "Avesta (Yasht 13)",
+        "Bundahishn Ch. 14",
+        "Shahnameh"
+      ],
+      "notes": "Created by Ahura Mazda. From Gayomart's seed grew a rhubarb plant splitting into Mashya & Mashyana, bearing 7 twin pairs populating the 7 climes of the world.",
+      "major": true
+    },
+    {
+      "id": "ir_vivanghant",
+      "name": "Siamak → Hushang → Tahmuras → Vivanghant",
+      "altNames": [
+        "Vivanhao"
+      ],
+      "tradition": "iranian",
+      "tier": 3,
+      "era": "Mythic Pishdadian Era",
+      "role": "Father of Yima / Exact Proto-Indo-Iranian Bridge",
+      "sources": [
+        "Avesta (Yasna 9.4, Vendidad 2)",
+        "Bundahishn"
+      ],
+      "notes": "EXACT linguistic & genealogical cognate of Vedic Vivasvan (Surya)! One of the strongest academically verified prehistoric ancestral bridges between Iran and India.",
+      "major": true
+    },
+    {
+      "id": "ir_yima",
+      "name": "Yima Khshaeta (Jamshid)",
+      "altNames": [
+        "Jamshid"
+      ],
+      "tradition": "iranian",
+      "tier": 4,
+      "era": "Cataclysm / Golden Age Horizon",
+      "role": "Golden Age King & Vara Ark Builder",
+      "sources": [
+        "Avesta (Vendidad 2, Yasna 9)",
+        "Shahnameh"
+      ],
+      "notes": "Son of Vivanghant — exact Proto-Indo-Iranian cognate of Vedic Yama. Warned by Ahura Mazda of a world-destroying winter/meltwater cataclysm, builds the subterranean Vara preserving pairs of humans, animals, and seeds.",
+      "major": true
+    },
+    {
+      "id": "ir_fereydun",
+      "name": "Fereydun (Thraetaona)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 5,
+      "era": "Post-Cataclysm Pishdadian Era",
+      "role": "Divider of the World Among Three Sons",
+      "sources": [
+        "Avesta (Yasht 5, 19)",
+        "Bundahishn",
+        "Shahnameh"
+      ],
+      "notes": "Divides the earth into three realms among his sons Salm (West), Tur (Turan/Steppe), and Iraj (Iran) — striking tripartite parallel to Noah.",
+      "major": true
+    },
+    {
+      "id": "ir_salm",
+      "name": "Salm (West / Rum)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 6,
+      "era": "Tripartite Division (Shahnameh)",
+      "role": "Ancestor of Western Realms",
+      "sources": [
+        "Bundahishn Ch. 35",
+        "Shahnameh"
+      ],
+      "notes": "Eldest son of Fereydun; receives Anatolia and the West (Rum).",
+      "major": false
+    },
+    {
+      "id": "ir_tur",
+      "name": "Tur (Turan / Central Asia)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 6,
+      "era": "Tripartite Division (Shahnameh)",
+      "role": "Ancestor of Turan / Steppe",
+      "sources": [
+        "Bundahishn Ch. 35",
+        "Shahnameh"
+      ],
+      "notes": "Second son of Fereydun; receives Turan (Central Asian steppes to China's borders).",
+      "major": false
+    },
+    {
+      "id": "ir_iraj",
+      "name": "Iraj (Iran → Manuchehr → Kayanians)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 6,
+      "era": "Tripartite Division (Shahnameh)",
+      "role": "Ancestor of Iranian Royal Line",
+      "sources": [
+        "Bundahishn Ch. 35",
+        "Shahnameh"
+      ],
+      "notes": "Youngest son of Fereydun; receives Iran (Eranshahr), producing Manuchehr and the Kayanian dynasty (Kay Kavad, Kay Kavus, Siyavash, Kay Khosrow).",
+      "major": true
+    },
+    {
+      "id": "ir_medes_achaemenids",
+      "name": "Medes (Mada) & Cyrus the Great (Achaemenids)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Iron Age (8th-6th c. BCE)",
+      "role": "Historical Iranian Empires",
+      "sources": [
+        "Behistun Inscription",
+        "Cyrus Cylinder",
+        "Herodotus",
+        "Ezra / Daniel"
+      ],
+      "notes": "Historical Medes directly match Biblical Madai (Gen 10:2); Cyrus ruled as King of Anshan in Elam (Gen 10:22).",
+      "major": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "hub_primordial",
+      "to": "eg_ennead",
+      "type": "parallel",
+      "label": "Heliopolitan primeval divine pairs & Nun"
+    },
+    {
+      "from": "eg_ennead",
+      "to": "eg_menes",
+      "type": "expansion",
+      "label": "Turin King List: Horus -> Shemsu-Hor -> Menes"
+    },
+    {
+      "from": "bib_enoch",
+      "to": "eg_thoth_saurid",
+      "type": "syncretic",
+      "label": "Pseudo-Eupolemus, Hermetic & Coptic-Arabic lore equate Enoch (Idris) with Thoth / King Saurid"
+    },
+    {
+      "from": "eg_ennead",
+      "to": "bib_noah",
+      "type": "syncretic",
+      "label": "Syncretic comparison: Osiris's Nile ark / primeval waters of Nun <-> Noah"
+    },
+    {
+      "from": "bib_mizraim",
+      "to": "eg_menes",
+      "type": "cognate",
+      "label": "Biblical Mizraim = Egypt (land of Menes / Coptic Misrayim)"
+    },
+    {
+      "from": "bib_mizraim",
+      "to": "le_sanchuniathon",
+      "type": "cognate",
+      "label": "Biblical Mizraim = Phoenician Misor"
+    },
+    {
+      "from": "bib_canaan",
+      "to": "le_sanchuniathon",
+      "type": "cognate",
+      "label": "Biblical Canaan = Phoenician Chna"
+    },
+    {
+      "from": "le_sanchuniathon",
+      "to": "eg_thoth_saurid",
+      "type": "cognate",
+      "label": "Phoenician Taaut = Egyptian Thoth"
+    },
+    {
+      "from": "tri_joseph",
+      "to": "eg_imhotep",
+      "type": "parallel",
+      "label": "7-year famine vizier linked to On/Heliopolis (Famine Stela <-> Gen 41)"
+    },
+    {
+      "from": "bib_moses",
+      "to": "eg_osarseph_bithiah",
+      "type": "syncretic",
+      "label": "Manetho's Osarseph, Artapanus's Musaeus & Jasher's King of Cush"
+    },
+    {
+      "from": "bib_cush",
+      "to": "eg_osarseph_bithiah",
+      "type": "expansion",
+      "label": "Jasher 72-76 & Josephus Ant. 2.10: Moses rules Cush & marries Queen Adoniah"
+    },
+    {
+      "from": "hub_primordial",
+      "to": "mes_enuma",
+      "type": "parallel",
+      "label": "Humans fashioned from clay + divine blood"
+    },
+    {
+      "from": "mes_enuma",
+      "to": "mes_alulim",
+      "type": "direct",
+      "label": "Kingship descends to Eridu (Sumerian King List)"
+    },
+    {
+      "from": "mes_alulim",
+      "to": "mes_enmeduranki",
+      "type": "direct",
+      "label": "Antediluvian royal succession to 7th king"
+    },
+    {
+      "from": "mes_enmeduranki",
+      "to": "mes_ziusudra",
+      "type": "direct",
+      "label": "Succession to Ubara-Tutu -> Ziusudra"
+    },
+    {
+      "from": "mes_ziusudra",
+      "to": "mes_uruk_gilgamesh",
+      "type": "expansion",
+      "label": "Post-Flood kingship restored at Kish & Uruk"
+    },
+    {
+      "from": "mes_uruk_gilgamesh",
+      "to": "mes_sargon",
+      "type": "expansion",
+      "label": "Sumerian King List: Uruk -> Akkad"
+    },
+    {
+      "from": "bib_enoch",
+      "to": "mes_enmeduranki",
+      "type": "parallel",
+      "label": "7th antediluvian figure; solar/heavenly ascent & tablets"
+    },
+    {
+      "from": "hub_flood",
+      "to": "mes_ziusudra",
+      "type": "parallel",
+      "label": "Vessel on Mt. Nimush (Atrahasis / Gilgamesh XI)"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "mes_uruk_gilgamesh",
+      "type": "cognate",
+      "label": "Gen 10:10 explicitly names Shinar, Babel & Erech (Uruk)"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "mes_sargon",
+      "type": "cognate",
+      "label": "Gen 10:10 explicitly names Accad (Akkad) & Nineveh"
+    },
+    {
+      "from": "bib_asshur",
+      "to": "mes_sargon",
+      "type": "cognate",
+      "label": "Asshur = Assyria (Mesopotamian sphere)"
+    },
+    {
+      "from": "eno_ohya_hahya",
+      "to": "mes_uruk_gilgamesh",
+      "type": "expansion",
+      "label": "Qumran Book of Giants (4Q530/4Q531) literally names Gilgamesh as one of the Giants!"
+    },
+    {
+      "from": "bib_moses",
+      "to": "mes_sargon",
+      "type": "parallel",
+      "label": "Reed basket sealed with bitumen placed in river (Exod 2 <-> Sargon Birth Legend)"
+    },
+    {
+      "from": "hub_primordial",
+      "to": "ir_gayomart",
+      "type": "parallel",
+      "label": "First mortal -> Mashya & Mashyana"
+    },
+    {
+      "from": "ir_gayomart",
+      "to": "ir_vivanghant",
+      "type": "direct",
+      "label": "Siamak -> Hushang -> Tahmuras -> Vivanghant"
+    },
+    {
+      "from": "ir_vivanghant",
+      "to": "ir_yima",
+      "type": "direct",
+      "label": "Son (Avesta Yasna 9.4)"
+    },
+    {
+      "from": "ir_yima",
+      "to": "ir_fereydun",
+      "type": "direct",
+      "label": "Pishdadian lineage via Abtin/Athwya (Shahnameh)"
+    },
+    {
+      "from": "ir_fereydun",
+      "to": "ir_salm",
+      "type": "direct",
+      "label": "1st son (West / Rum)"
+    },
+    {
+      "from": "ir_fereydun",
+      "to": "ir_tur",
+      "type": "direct",
+      "label": "2nd son (Turan / Steppe)"
+    },
+    {
+      "from": "ir_fereydun",
+      "to": "ir_iraj",
+      "type": "direct",
+      "label": "3rd son (Iran / Eranshahr)"
+    },
+    {
+      "from": "ir_iraj",
+      "to": "ir_medes_achaemenids",
+      "type": "expansion",
+      "label": "Iraj -> Kayanian -> Historical Medes & Persians"
+    },
+    {
+      "from": "hub_flood",
+      "to": "ir_yima",
+      "type": "parallel",
+      "label": "Vara enclosure against cataclysmic winter/melt"
+    },
+    {
+      "from": "hub_world_division",
+      "to": "ir_fereydun",
+      "type": "parallel",
+      "label": "Tripartite division: Salm / Tur / Iraj"
+    },
+    {
+      "from": "bib_madai",
+      "to": "ir_medes_achaemenids",
+      "type": "cognate",
+      "label": "Madai (Gen 10:2) = Historical Medes (Old Persian Mada)"
+    },
+    {
+      "from": "bib_elam",
+      "to": "ir_medes_achaemenids",
+      "type": "cognate",
+      "label": "Elam (Gen 10:22) = SW Iran / Cyrus King of Anshan"
+    },
+    {
+      "from": "bib_noah",
+      "to": "ir_gayomart",
+      "type": "syncretic",
+      "label": "al-Tabari & medieval chronicles equate Gayomart with Adam/Noah's kin"
+    }
+  ]
+}
