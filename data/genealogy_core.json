@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Ancient World Genealogy Atlas — Exhaustive Multi-Tradition Database (Phase 2)",
-    "version": "2.0.0",
+    "title": "Ancient World Genealogy Atlas — Exhaustive Multi-Tradition Database (Phase 3)",
+    "version": "3.0.0",
     "modules": [
       {
         "file": "01_antediluvian",
@@ -22,23 +22,35 @@
         "edges": 181
       },
       {
-        "file": "04_near_east_egypt",
-        "title": "Egyptian Cross-Traditions, Mesopotamia, Phoenicia & Iran",
-        "nodes": 20,
-        "edges": 37
+        "file": "04_egypt_levant",
+        "title": "Egyptian Cross-Traditions & Phoenician-Canaanite Lineages",
+        "nodes": 6,
+        "edges": 11
       },
       {
-        "file": "05_asia_steppe",
+        "file": "05_mesopotamia",
+        "title": "Exhaustive Mesopotamian Genealogy (Enuma Elish, All 10 Antediluvian Kings, All Kish I, All Uruk I, Akkad, Ur III, Babylon & Assyria)",
+        "nodes": 75,
+        "edges": 91
+      },
+      {
+        "file": "06_iranian_zoroastrian",
+        "title": "Exhaustive Iranian & Zoroastrian Genealogy (Avesta, Bundahishn Ch. 14 & 35, Shahnameh, Sistan, Zarathustra, Medes & Achaemenids)",
+        "nodes": 70,
+        "edges": 87
+      },
+      {
+        "file": "07_asia_steppe",
         "title": "Vedic/Puranic India, China, Korea, Japan & Eurasian Steppe",
-        "nodes": 26,
-        "edges": 39
+        "nodes": 27,
+        "edges": 42
       }
     ],
     "linkTypes": {
       "direct": "Explicit parent-child or biological descent within primary canonical/ancient texts",
-      "expansion": "Matriarchs, additional children, intermediate links, or migrations supplied by extra-biblical or secondary chronicles (Book of Jasher, Jubilees, 1 Enoch, Qumran, Shiji, Puranas)",
-      "cognate": "Linguistically or historically attested cross-tradition identity/ethnonym bridge (e.g., Vedic Vivasvan = Avestan Vivanghant; Biblical Madai = Medes; Mizraim = Phoenician Misor/Egypt)",
-      "parallel": "Independent structural/archetypal parallel across ancient corpora (Great Flood survivors, 7th antediluvian sage, tripartite world division)",
+      "expansion": "Matriarchs, additional children, royal successions, or migrations supplied by extra-biblical or secondary chronicles (Book of Jasher, Jubilees, 1 Enoch, Sumerian King List, Bundahishn, Shahnameh, Shiji, Puranas)",
+      "cognate": "Linguistically or historically attested cross-tradition identity/ethnonym bridge (e.g., Vedic Vivasvan/Yama/Aptya = Avestan Vivanghant/Yima/Athwya; Biblical Madai = Medes; Mizraim = Phoenician Misor/Egypt)",
+      "parallel": "Independent structural/archetypal parallel across ancient corpora (Great Flood survivors, 7th antediluvian sage, Adapa/Adam, Sargon/Moses basket, tripartite world division)",
       "syncretic": "Ancient, Greco-Egyptian, or medieval chronicler identification bridging figures across cultures (e.g., Enoch = Thoth/Saurid; Moses = Osarseph/Musaeus; Japheth = Oghuz Khagan; Zepho = King of Kittim/Rome)"
     }
   },
@@ -5136,238 +5148,2240 @@
       "major": true
     },
     {
-      "id": "mes_enuma",
-      "name": "Apsu & Tiamat → Anu → Enki (Ea) → Marduk",
+      "id": "mes_apsu_tiamat",
+      "name": "Apsu & Tiamat",
+      "altNames": [
+        "Abzu & Tiamat"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 1,
+      "era": "Cosmic Primordial (Enuma Elish I)",
+      "role": "Primordial Freshwater & Saltwater Parents",
+      "sources": [
+        "Enuma Elish Tablet I"
+      ],
+      "notes": "Primordial cosmic waters whose mingling generates the elder gods Lahmu and Lahamu.",
+      "major": true
+    },
+    {
+      "id": "mes_lahmu_lahamu",
+      "name": "Lahmu & Lahamu",
       "altNames": [],
       "tradition": "mesopotamian",
       "tier": 1,
-      "era": "c. 1800-1100 BCE texts",
-      "role": "Creation of Humanity (Lullu) from Clay",
+      "era": "Cosmic Gen 2 (Enuma Elish I)",
+      "role": "First Divine Pair",
+      "sources": [
+        "Enuma Elish Tablet I"
+      ],
+      "notes": "Born of Apsu & Tiamat; parents of Anshar & Kishar.",
+      "major": false
+    },
+    {
+      "id": "mes_anshar_kishar",
+      "name": "Anshar & Kishar",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 1,
+      "era": "Cosmic Gen 3 (Enuma Elish I)",
+      "role": "Heavenly & Earthly Horizons",
+      "sources": [
+        "Enuma Elish Tablet I"
+      ],
+      "notes": "Parents of the Sky Father Anu.",
+      "major": false
+    },
+    {
+      "id": "mes_anu",
+      "name": "Anu (An) & Antu / Ki",
+      "altNames": [
+        "An"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 1,
+      "era": "Sky Father (Sumerian/Babylonian)",
+      "role": "King of Heaven",
       "sources": [
         "Enuma Elish",
-        "Atrahasis Tablet I"
+        "Sumerian Myths"
       ],
-      "notes": "Enki (Ea) and Nintu shape the first humans (Lullu) from clay mixed with divine blood, paralleling Genesis's creation of Adam from dust.",
+      "notes": "Supreme sky deity of Uruk; father of Enki (Ea) and Enlil.",
       "major": true
     },
     {
-      "id": "mes_alulim",
-      "name": "Alulim of Eridu → Antediluvian Kings (1-6)",
+      "id": "mes_enki",
+      "name": "Enki (Ea) & Damkina (Ninhursag)",
       "altNames": [
-        "Aloros (Berossus)"
+        "Ea",
+        "Nudimmud"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 1,
+      "era": "God of Wisdom, Waters & Eridu",
+      "role": "Creator of Humanity & Protector of Flood Survivor",
+      "sources": [
+        "Enuma Elish",
+        "Atrahasis",
+        "Eridu Genesis"
+      ],
+      "notes": "Patron of Eridu; with Nintu/Belet-ili fashions the first humans (Lullu) from clay mixed with divine blood, and secretly warns Ziusudra/Atrahasis of the Flood.",
+      "major": true
+    },
+    {
+      "id": "mes_enlil",
+      "name": "Enlil & Ninlil",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 1,
+      "era": "Lord of Wind & Nippur",
+      "role": "Ruler of Divine Assembly",
+      "sources": [
+        "Atrahasis",
+        "Enlil and Ninlil"
+      ],
+      "notes": "Father of Nanna (Sin) and Ninurta; decrees the Deluge in Atrahasis.",
+      "major": true
+    },
+    {
+      "id": "mes_marduk",
+      "name": "Marduk (Bel)",
+      "altNames": [
+        "Bel"
       ],
       "tradition": "mesopotamian",
       "tier": 2,
-      "era": "Antediluvian (Sumerian King List)",
-      "role": "Sumerian Pre-Flood Dynasty",
+      "era": "Patron God of Babylon",
+      "role": "Slayer of Tiamat & Cosmic Architect",
       "sources": [
-        "Sumerian King List (WB 444)",
-        "Berossus Babyloniaca"
+        "Enuma Elish IV-VI"
       ],
-      "notes": "8 kings in the Sumerian King List (10 in Berossus: Aloros -> Alaparos -> Amelon -> Ammenon -> Megalaros -> Daonos), reigning vast lifespans before the Flood — paralleling Genesis 5's 10 patriarchs.",
+      "notes": "Son of Enki (Ea) & Damkina; slays Tiamat, builds Babylon, and fashions humanity from Qingu's blood.",
       "major": true
     },
     {
-      "id": "mes_enmeduranki",
-      "name": "En-men-dur-ana (Enmeduranki, 7th King of Sippar)",
+      "id": "mes_nabu",
+      "name": "Nabu (Scribe God of Borsippa)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Babylonian Patron of Writing",
+      "role": "Son of Marduk & Sarpanit",
+      "sources": [
+        "Babylonian Pantheon"
+      ],
+      "notes": "Son of Marduk; keeper of the Tablets of Destiny and patron of scribes.",
+      "major": false
+    },
+    {
+      "id": "mes_ninurta",
+      "name": "Ninurta (Ningirsu)",
       "altNames": [
-        "Euedorachos (Berossus)"
+        "Ningirsu",
+        "Possible root of Nimrod"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Warrior-Hunter Deity of Nippur",
+      "role": "Son of Enlil (Compared to Nimrod)",
+      "sources": [
+        "Lugal-e",
+        "Anzu Myth"
+      ],
+      "notes": "Mythic hunter and champion of the gods — widely proposed by Assyriologists as a mythological source for Biblical Nimrod ('mighty hunter')!",
+      "major": false
+    },
+    {
+      "id": "mes_nanna",
+      "name": "Nanna (Sin — Moon God of Ur)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Patron of Ur",
+      "role": "Son of Enlil & Ninlil",
+      "sources": [
+        "Sumerian Hymns"
+      ],
+      "notes": "Moon god of Ur; marries Ningal and fathers Utu (Shamash) and Inanna (Ishtar).",
+      "major": false
+    },
+    {
+      "id": "mes_shamash",
+      "name": "Utu (Shamash — Sun God of Sippar/Larsa)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "God of Sun & Justice",
+      "role": "Father of Meskiaggasher (Founder of Uruk)",
+      "sources": [
+        "Sumerian King List",
+        "Enmeduranki Text"
+      ],
+      "notes": "Son of Nanna; reveals celestial tablets to 7th king Enmeduranki at Sippar and fathers Meskiaggasher of Uruk!",
+      "major": false
+    },
+    {
+      "id": "mes_inanna",
+      "name": "Inanna (Ishtar — Queen of Heaven)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Goddess of Uruk",
+      "role": "Daughter of Nanna / Anu",
+      "sources": [
+        "Descent of Inanna",
+        "Epic of Gilgamesh"
+      ],
+      "notes": "Patron goddess of Uruk (Eanna) and consort of Dumuzid.",
+      "major": false
+    },
+    {
+      "id": "mes_lullu_adapa",
+      "name": "Lullu (First Humans) & Adapa / Uanna (1st Apkallu)",
+      "altNames": [
+        "Oannes (Berossus)",
+        "Adapa <-> Adam Parallel"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Primordial Eridu (Atrahasis / Adapa Myth)",
+      "role": "First Humans & 1st Antediluvian Sage",
+      "sources": [
+        "Atrahasis Tablet I",
+        "Myth of Adapa",
+        "Berossus Babyloniaca"
+      ],
+      "notes": "Lullu is fashioned from clay + divine blood of We-ilu/Qingu. Adapa (1st Apkallu sage under Alulim, called Oannes by Berossus) ascends to heaven and forfeits eternal life — widely compared to Adam!",
+      "major": true
+    },
+    {
+      "id": "mes_k1_alulim",
+      "name": "1. Alulim (Aloros of Eridu)",
+      "altNames": [
+        "Aloros"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Antediluvian SKL • 28,800 yrs (Eridu)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "1st Antediluvian King of Eridu; advised by 1st Apkallu sage Uanna/Adapa.",
+      "major": true
+    },
+    {
+      "id": "mes_k2_alalngar",
+      "name": "2. Alalngar (Alaparos of Eridu)",
+      "altNames": [
+        "Alaparos"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Antediluvian SKL • 36,000 yrs (Eridu)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "2nd Antediluvian King of Eridu; sage Uannedugga.",
+      "major": false
+    },
+    {
+      "id": "mes_k3_enmenluana",
+      "name": "3. En-men-lu-ana (Amelon of Bad-tibira)",
+      "altNames": [
+        "Amelon"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Antediluvian SKL • 43,200 yrs (Bad-tibira)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "3rd Antediluvian King; kingship moves to Bad-tibira; sage Enmedugga.",
+      "major": false
+    },
+    {
+      "id": "mes_k4_enmengalana",
+      "name": "4. En-men-gal-ana (Ammenon of Bad-tibira)",
+      "altNames": [
+        "Ammenon"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Antediluvian SKL • 28,800 yrs (Bad-tibira)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "4th Antediluvian King of Bad-tibira; sage Enmegalamma.",
+      "major": false
+    },
+    {
+      "id": "mes_k5_dumuzid",
+      "name": "5. Dumuzid the Shepherd (Daonos)",
+      "altNames": [
+        "Daonos"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Antediluvian SKL • 36,000 yrs (Bad-tibira)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "5th Antediluvian King of Bad-tibira; sage Enmebulugga.",
+      "major": false
+    },
+    {
+      "id": "mes_k6_ensipadzidana",
+      "name": "6. En-sipad-zid-ana (Amempsinos of Larak)",
+      "altNames": [
+        "Amempsinos"
       ],
       "tradition": "mesopotamian",
       "tier": 3,
-      "era": "Antediluvian Gen 7",
-      "role": "7th King / Initiated into Heavenly Secrets by Shamash",
+      "era": "Antediluvian SKL • 28,800 yrs (Larak)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
       "sources": [
-        "Sumerian King List",
-        "Enmeduranki Text (K 2486)",
-        "Berossus"
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
       ],
-      "notes": "7th antediluvian king, ruler of Sippar (city of sun god Shamash), admitted to heaven to learn celestial tablets and divination — widely recognized parallel to Enoch (7th patriarch, 365 solar years).",
+      "notes": "6th Antediluvian King; kingship moves to Larak; sage An-Enlilda.",
+      "major": false
+    },
+    {
+      "id": "mes_enmeduranki",
+      "name": "7. En-men-dur-ana (Enmeduranki of Sippar)",
+      "altNames": [
+        "Euedorachos",
+        "7th Sage: Utuabzu"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 3,
+      "era": "Antediluvian SKL • 21,000 yrs (Sippar)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "7th Antediluvian King (Euedorachos in Berossus); ruler of sun-city Sippar, initiated by Shamash & Adad into heavenly secrets and divination alongside 7th sage Utuabzu (who ascends to heaven) — exact structural parallel to Enoch (7th patriarch, 365 solar years)!",
+      "major": true
+    },
+    {
+      "id": "mes_k8_megalaros",
+      "name": "8. Megalaros / Amegalaros (Berossus)",
+      "altNames": [
+        "Amegalaros"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 3,
+      "era": "Antediluvian SKL • Berossus 10-King List",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "Included in Berossus's 10-king antediluvian list (matching Genesis 5's 10 patriarchs).",
+      "major": false
+    },
+    {
+      "id": "mes_k9_ubaratutu",
+      "name": "9. Ubara-Tutu (Otiartes of Shuruppak)",
+      "altNames": [
+        "Otiartes",
+        "Ardates"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 3,
+      "era": "Antediluvian SKL • 18,600 yrs (Shuruppak)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "Last king of Shuruppak before the Deluge; father of Ziusudra / Utnapishtim!",
       "major": true
     },
     {
       "id": "mes_ziusudra",
-      "name": "Ubara-Tutu → Ziusudra / Utnapishtim / Atrahasis",
+      "name": "10. Ziusudra / Utnapishtim / Atrahasis",
       "altNames": [
-        "Xisouthros (Berossus)"
+        "Xisouthros",
+        "Utnapishtim",
+        "Atrahasis"
       ],
       "tradition": "mesopotamian",
       "tier": 4,
-      "era": "Flood Horizon",
-      "role": "Mesopotamian Great Flood Survivor",
+      "era": "Antediluvian SKL • Flood Horizon (Shuruppak)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
       "sources": [
-        "Eridu Genesis",
-        "Atrahasis",
-        "Epic of Gilgamesh XI",
-        "Berossus"
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
       ],
-      "notes": "King/sage of Shuruppak warned by Enki/Ea; builds a vessel preserving family and animals, sends out dove/swallow/raven, lands on Mt. Nimush.",
+      "notes": "10th Antediluvian ruler (Xisouthros in Berossus). Warned by Enki/Ea of the Deluge; builds a vessel preserving family and animals; releases dove, swallow, and raven; lands on Mt. Nimush.",
       "major": true
     },
     {
-      "id": "mes_uruk_gilgamesh",
-      "name": "Meskiaggasher → Enmerkar → Lugalbanda → Gilgamesh",
+      "id": "mes_utuabzu",
+      "name": "Utuabzu (7th Apkallu Sage Who Ascended to Heaven)",
       "altNames": [
+        "7th Apkallu"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 3,
+      "era": "Antediluvian Sippar",
+      "role": "7th Sage under Enmeduranki",
+      "sources": [
+        "Uruk List of Kings & Sages",
+        "Bit Meseri"
+      ],
+      "notes": "The 7th antediluvian sage, counselor to 7th king Enmeduranki, explicitly recorded as 'having ascended to heaven' — a stunning Mesopotamian parallel to Enoch (7th from Adam, taken to heaven)!",
+      "major": false
+    },
+    {
+      "id": "mes_kish_jushur",
+      "name": "Jushur (1st Post-Flood King of Kish)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 1,200 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "First king after the Flood swept over and kingship descended from heaven anew at Kish.",
+      "major": true
+    },
+    {
+      "id": "mes_kish_kullassinabel",
+      "name": "Kullassina-bel",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 960 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "2nd king of Kish I ('All of them were lord').",
+      "major": false
+    },
+    {
+      "id": "mes_kish_nangishlishma",
+      "name": "Nangishlishma",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 670 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "3rd king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_entarahana",
+      "name": "En-tarah-ana",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 420 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "4th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_babum",
+      "name": "Babum",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 300 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "5th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_puannum",
+      "name": "Puannum",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 840 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "6th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_kalibum",
+      "name": "Kalibum",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 960 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "7th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_kalumum",
+      "name": "Kalumum",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 840 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "8th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_zuqaqip",
+      "name": "Zuqaqip ('Scorpion')",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 900 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "9th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_atab",
+      "name": "Atab",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 600 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "10th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_mashda",
+      "name": "Mashda (son of Atab)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 840 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "11th king of Kish I; son of Atab.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_arwium",
+      "name": "Arwium (son of Mashda)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 720 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "12th king of Kish I; son of Mashda.",
+      "major": false
+    },
+    {
+      "id": "mes_etana",
+      "name": "Etana of Kish (Ascended on an Eagle)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 1,500 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "13th king of Kish I; 'the shepherd who ascended to heaven and consolidated all foreign countries' on an eagle's back to obtain the Plant of Birth.",
+      "major": true
+    },
+    {
+      "id": "mes_balih",
+      "name": "Balih (son of Etana)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 400 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "14th king of Kish I; son of Etana.",
+      "major": false
+    },
+    {
+      "id": "mes_enmenuna",
+      "name": "En-me-nuna",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 660 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "15th king of Kish I; father of Melem-Kish and Barsal-nuna.",
+      "major": false
+    },
+    {
+      "id": "mes_melemkish",
+      "name": "Melem-Kish (son of En-me-nuna)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 900 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "16th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_barsalnuna",
+      "name": "Barsal-nuna (son of En-me-nuna)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 1,200 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "17th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_zamug",
+      "name": "Zamug (son of Barsal-nuna)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 140 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "18th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_tizqar",
+      "name": "Tizqar (son of Zamug)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 305 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "19th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_ilku",
+      "name": "Ilku",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 900 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "20th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_iltasadum",
+      "name": "Iltasadum",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 1,200 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "21st king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_enmebaragesi",
+      "name": "Enmebaragesi of Kish (Conqueror of Elam)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "First Dynasty of Kish • c. 2600 BCE",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "22nd king of Kish I; earliest Sumerian king confirmed by contemporary inscriptions! 'Carried away as spoil the weapons of Elam'.",
+      "major": true
+    },
+    {
+      "id": "mes_aga_kish",
+      "name": "Aga (Agga) of Kish",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "First Dynasty of Kish • c. 2600 BCE",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "23rd and final king of Kish I; son of Enmebaragesi, besieged Uruk and clashed with Gilgamesh.",
+      "major": false
+    },
+    {
+      "id": "mes_meskiaggasher",
+      "name": "Meskiaggasher (Founder of Uruk / Erech)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "Early Dynastic I (Eanna / Uruk)",
+      "role": "Son of Sun God Utu (Shamash) / 1st King of Uruk",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "High priest and king of Eanna; 'entered the sea and ascended to the mountains'. Father of Enmerkar.",
+      "major": true
+    },
+    {
+      "id": "mes_enmerkar",
+      "name": "Enmerkar (Builder of Uruk / Erech)",
+      "altNames": [
+        "Enmer the Hunter",
+        "Compared to Nimrod"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "Early Dynastic II (c. 2800 BCE)",
+      "role": "2nd King of Uruk / Inventor of Cuneiform",
+      "sources": [
+        "Sumerian King List",
+        "Enmerkar and the Lord of Aratta"
+      ],
+      "notes": "Son of Meskiaggasher; built Uruk (Biblical Erech, Gen 10:10) and invented cuneiform clay tablets in rivalry with Aratta (Iranian plateau!). Widely compared to Nimrod ('Enmer the Hunter').",
+      "major": true
+    },
+    {
+      "id": "mes_lugalbanda",
+      "name": "Lugalbanda & Goddess Ninsun",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "Early Dynastic II (Uruk I)",
+      "role": "3rd King of Uruk / Father of Gilgamesh",
+      "sources": [
+        "Sumerian King List",
+        "Lugalbanda Epics",
+        "Epic of Gilgamesh"
+      ],
+      "notes": "Companion of Enmerkar; weds goddess Ninsun and fathers Gilgamesh.",
+      "major": true
+    },
+    {
+      "id": "mes_dumuzid_fisherman",
+      "name": "Dumuzid the Fisherman (of Kuara)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "Early Dynastic II (Uruk I)",
+      "role": "4th King of Uruk I",
+      "sources": [
+        "Sumerian King List"
+      ],
+      "notes": "Captured Enmebaragesi of Kish single-handedly before Gilgamesh.",
+      "major": false
+    },
+    {
+      "id": "mes_uruk_gilgamesh",
+      "name": "Gilgamesh (Bilgamesh of Uruk / Erech)",
+      "altNames": [
+        "Bilgamesh",
         "Erech (Gen 10:10)",
         "Gilgamesh in Qumran 4Q530"
       ],
       "tradition": "mesopotamian",
       "tier": 7,
       "era": "Early Dynastic II (c. 2700 BCE)",
-      "role": "Hero-Kings of Uruk (Biblical Erech)",
+      "role": "5th King of Uruk / Builder of Uruk's Walls / Qumran Giant",
       "sources": [
         "Sumerian King List",
         "Epic of Gilgamesh",
         "Qumran Book of Giants (4Q530)"
       ],
-      "notes": "Gilgamesh journeys to Flood survivor Utnapishtim. Uruk is explicitly named 'Erech' in Gen 10:10 — and remarkably, 'Gilgamesh' is ALSO named as one of the Giants in the Dead Sea Scrolls Book of Giants (4Q530)!",
+      "notes": "Son of Lugalbanda & Ninsun; visits Flood survivor Utnapishtim. Uruk is explicitly 'Erech' in Gen 10:10 — and 'Gilgamesh' is literally named as a Giant in Qumran Book of Giants (4Q530)!",
       "major": true
     },
     {
+      "id": "mes_urnungal",
+      "name": "Ur-Nungal (son of Gilgamesh)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "6th king of Uruk I; son of Gilgamesh (reigned 30 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_udulkalama",
+      "name": "Udul-kalama (son of Ur-Nungal)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "7th king of Uruk I; grandson of Gilgamesh (15 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_labashum",
+      "name": "La-ba'shum",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "8th king of Uruk I (9 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_ennuntarahana",
+      "name": "En-nun-tarah-ana",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "9th king of Uruk I (8 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_meshhe",
+      "name": "Mesh-he",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "10th king of Uruk I (36 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_melemana",
+      "name": "Melem-ana",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "11th king of Uruk I (6 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_lugalkitun",
+      "name": "Lugal-kitun",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "12th and final king of Uruk I (36 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_mesannepada",
+      "name": "Mesannepada (Founder of Ur I)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic III (c. 2550 BCE)",
+      "role": "1st King of First Dynasty of Ur",
+      "sources": [
+        "Sumerian King List",
+        "Royal Cemetery of Ur"
+      ],
+      "notes": "Overthrew Uruk I; attested by royal seals from Ur.",
+      "major": true
+    },
+    {
+      "id": "mes_meshkiangnanna",
+      "name": "Mesh-ki-ang-nanna (son of Mesannepada)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Ur I",
+      "role": "2nd King of Ur I",
+      "sources": [
+        "Sumerian King List"
+      ],
+      "notes": "Son of Mesannepada; followed by Elulu and Balulu.",
+      "major": false
+    },
+    {
       "id": "mes_sargon",
-      "name": "Sargon of Akkad → Enheduanna & Naram-Sin",
+      "name": "Sargon of Akkad (Sharru-kin)",
       "altNames": [
         "Sharru-kin",
         "Accad (Gen 10:10)"
       ],
       "tradition": "mesopotamian",
       "tier": 8,
-      "era": "Akkadian Empire (c. 2334-2154 BCE)",
-      "role": "First Imperial Dynasty of Mesopotamia (Accad)",
+      "era": "Akkadian Empire (c. 2334-2279 BCE)",
+      "role": "Founder of Akkad (Biblical Accad)",
       "sources": [
         "Sumerian King List",
         "Birth Legend of Sargon"
       ],
-      "notes": "Founder of Akkad (Biblical 'Accad' in Gen 10:10). Note also the striking 'basket in the river sealed with bitumen' motif in Sargon's Birth Legend paralleling Moses in Exodus 2!",
+      "notes": "Cupbearer of Ur-Zababa of Kish who founded the world's first empire (Biblical Accad, Gen 10:10). His Birth Legend ('reed basket sealed with bitumen on the river') parallels Moses in Exodus 2!",
+      "major": true
+    },
+    {
+      "id": "mes_enheduanna",
+      "name": "Enheduanna (High Priestess of Ur)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2285-2250 BCE",
+      "role": "Daughter of Sargon / Earliest Named Author in History",
+      "sources": [
+        "Exaltation of Inanna",
+        "Temple Hymns",
+        "Disk of Enheduanna"
+      ],
+      "notes": "Daughter of Sargon of Akkad appointed High Priestess of Nanna at Ur; world's earliest known named author!",
+      "major": true
+    },
+    {
+      "id": "mes_rimush",
+      "name": "Rimush (son of Sargon)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2279-2270 BCE",
+      "role": "2nd King of Akkad",
+      "sources": [
+        "Sumerian King List"
+      ],
+      "notes": "Son of Sargon; campaigned against rebellious Sumerian cities and Elam.",
+      "major": false
+    },
+    {
+      "id": "mes_manishtushu",
+      "name": "Manishtushu (son of Sargon)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2270-2255 BCE",
+      "role": "3rd King of Akkad",
+      "sources": [
+        "Sumerian King List",
+        "Manishtushu Obelisk"
+      ],
+      "notes": "Son of Sargon; father of Naram-Sin.",
+      "major": false
+    },
+    {
+      "id": "mes_naramsin",
+      "name": "Naram-Sin ('King of the Four Quarters')",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2254-2218 BCE",
+      "role": "4th King of Akkad (Grandson of Sargon)",
+      "sources": [
+        "Victory Stele of Naram-Sin",
+        "Curse of Agade"
+      ],
+      "notes": "Son of Manishtushu; peak of Akkadian Empire.",
+      "major": true
+    },
+    {
+      "id": "mes_sharkalisharri",
+      "name": "Shar-Kali-Sharri (son of Naram-Sin)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2217-2193 BCE",
+      "role": "5th King of Akkad",
+      "sources": [
+        "Sumerian King List"
+      ],
+      "notes": "Son of Naram-Sin; reigned as the Akkadian Empire faced Gutian invasions.",
+      "major": false
+    },
+    {
+      "id": "mes_urnammu",
+      "name": "Ur-Nammu (Founder of Ur III — Ur of the Chaldees)",
+      "altNames": [
+        "Ur of the Chaldees Horizon"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "Neo-Sumerian Empire (c. 2112-2095 BCE)",
+      "role": "Builder of Great Ziggurat / Oldest Law Code",
+      "sources": [
+        "Code of Ur-Nammu",
+        "Sumerian King List"
+      ],
+      "notes": "Founded Ur III and issued history's oldest surviving law code — the exact historical era of Ur of the Chaldees before Terah & Abraham's migration (Gen 11:31)!",
+      "major": true
+    },
+    {
+      "id": "mes_shulgi",
+      "name": "Shulgi (son of Ur-Nammu)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2094-2047 BCE",
+      "role": "2nd King of Ur III",
+      "sources": [
+        "Sumerian King List",
+        "Shulgi Hymns"
+      ],
+      "notes": "Son of Ur-Nammu; reigned 48 years, standardized weights, measures, and scribal academies.",
+      "major": false
+    },
+    {
+      "id": "mes_amarsin",
+      "name": "Amar-Sin (son of Shulgi)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2046-2038 BCE",
+      "role": "3rd King of Ur III",
+      "sources": [
+        "Sumerian King List"
+      ],
+      "notes": "Son of Shulgi.",
+      "major": false
+    },
+    {
+      "id": "mes_shusin",
+      "name": "Shu-Sin (brother/son of Amar-Sin)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2037-2029 BCE",
+      "role": "4th King of Ur III",
+      "sources": [
+        "Sumerian King List"
+      ],
+      "notes": "Built the Martu Wall to hold back western Amorite tribes.",
+      "major": false
+    },
+    {
+      "id": "mes_ibbisin",
+      "name": "Ibbi-Sin (Last King of Ur III)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2028-2004 BCE",
+      "role": "5th King of Ur III (Fall of Ur to Elam)",
+      "sources": [
+        "Lament for Ur",
+        "Sumerian King List"
+      ],
+      "notes": "Ur fell to Elamite and Shimashki invaders in 2004 BCE — matching the historical backdrop of Terah & Abraham leaving Ur!",
+      "major": false
+    },
+    {
+      "id": "mes_sumuabum",
+      "name": "Sumu-abum → Sumu-la-El → Sin-Muballit (Early Babylon)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "Old Babylonian Dynasty (c. 1894-1793 BCE)",
+      "role": "Amorite Founders of Babylon",
+      "sources": [
+        "Babylonian King List"
+      ],
+      "notes": "Amorite chieftains who established the First Dynasty of Babylon: Sumu-abum -> Sumu-la-El -> Sabium -> Apil-Sin -> Sin-Muballit (father of Hammurabi).",
+      "major": false
+    },
+    {
+      "id": "mes_hammurabi",
+      "name": "Hammurabi of Babylon (→ Samsu-iluna)",
+      "altNames": [
+        "Amraphel? (Traditional comparison)"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "Old Babylonian Empire (c. 1792-1750 BCE)",
+      "role": "Amorite Lawgiver King of Babylon (Babel)",
+      "sources": [
+        "Code of Hammurabi",
+        "Babylonian King List"
+      ],
+      "notes": "6th king of the Amorite Dynasty of Babylon; unified Mesopotamia and issued the Code of Hammurabi. Father of Samsu-iluna.",
+      "major": true
+    },
+    {
+      "id": "mes_assyria_kings",
+      "name": "Tudiya → Ushpia → Shamshi-Adad I → Tukulti-Ninurta I → Ashurbanipal",
+      "altNames": [
+        "Asshur (Gen 10:11, 22)",
+        "Tukulti-Ninurta I <-> Nimrod"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "Assyrian King List (c. 2100-627 BCE)",
+      "role": "Kings of Assyria (Biblical Asshur / Nineveh)",
+      "sources": [
+        "Assyrian King List",
+        "Library of Ashurbanipal"
+      ],
+      "notes": "Begins with '17 Kings Who Lived in Tents' (Tudiya -> Ushpia) and leads to Tukulti-Ninurta I (often cited as a historical prototype for Nimrod!), Sennacherib, and Ashurbanipal (whose library preserved Gilgamesh & Enuma Elish!).",
       "major": true
     },
     {
       "id": "ir_gayomart",
-      "name": "Gayomart (Keyumars) → Mashya & Mashyana",
-      "altNames": [],
+      "name": "Gayomart (Gaya Maretan / Keyumars)",
+      "altNames": [
+        "Keyumars",
+        "Gaya Maretan"
+      ],
       "tradition": "iranian",
       "tier": 1,
-      "era": "Primordial (Avesta / Bundahishn)",
-      "role": "First Mortal & Primeval Iranian Couple",
+      "era": "Primordial Creation (Avesta / Bundahishn 14)",
+      "role": "First Mortal Human & First Pishdadian King",
       "sources": [
-        "Avesta (Yasht 13)",
+        "Avesta (Yasht 13.87)",
         "Bundahishn Ch. 14",
         "Shahnameh"
       ],
-      "notes": "Created by Ahura Mazda. From Gayomart's seed grew a rhubarb plant splitting into Mashya & Mashyana, bearing 7 twin pairs populating the 7 climes of the world.",
+      "notes": "Created by Ahura Mazda ('Mortal Life'). From his seed purified in the earth grew a rhubarb plant splitting into Mashya and Mashyana.",
       "major": true
     },
     {
-      "id": "ir_vivanghant",
-      "name": "Siamak → Hushang → Tahmuras → Vivanghant",
+      "id": "ir_mashya_mashyana",
+      "name": "Mashya & Mashyana",
       "altNames": [
-        "Vivanhao"
+        "Mahrya & Mahryana"
+      ],
+      "tradition": "iranian",
+      "tier": 2,
+      "era": "Primordial Gen 2 (Bundahishn 14)",
+      "role": "First Human Couple (7 Pairs of Twins)",
+      "sources": [
+        "Bundahishn Ch. 14"
+      ],
+      "notes": "Twin first man and woman who bore 7 pairs of twins, including Siamak & Nashak (ancestors of Iran) and Fravak & Fravakain (ancestors of all 15 human races!).",
+      "major": true
+    },
+    {
+      "id": "ir_fravak",
+      "name": "Fravak & Fravakain (Zoroastrian Table of Nations)",
+      "altNames": [
+        "15 Races of 7 Climes"
       ],
       "tradition": "iranian",
       "tier": 3,
-      "era": "Mythic Pishdadian Era",
-      "role": "Father of Yima / Exact Proto-Indo-Iranian Bridge",
+      "era": "Bundahishn Ch. 14 Ethnogenesis",
+      "role": "Progenitors of the 15 Races Across 7 Climes",
+      "sources": [
+        "Bundahishn Ch. 14:36-39"
+      ],
+      "notes": "Bundahishn Ch. 14 traces 15 distinct human nations across the 7 climes (karshvars) to Fravak & Fravakain — including Iranians (Hoshang), Arabs (Taz), Mazandaran, India, Turan, China (Chin), and the West (Rum)!",
+      "major": true
+    },
+    {
+      "id": "ir_taz",
+      "name": "Taz & Tazag (Arabs / Taziks)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 4,
+      "era": "Bundahishn Ch. 14 (15 Races / Climes)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Bundahishn Ch. 14, 35"
+      ],
+      "notes": "Son of Fravak; eponym of the Arabian peoples (Middle Persian Tazig) and ancestor of Merdas -> Zahhak!",
+      "major": true
+    },
+    {
+      "id": "ir_bund_mazandaran",
+      "name": "Mazandarani (Caspian Lineage)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 4,
+      "era": "Bundahishn Ch. 14 (15 Races / Climes)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Bundahishn Ch. 14"
+      ],
+      "notes": "One of the races descended from Fravak in Bundahishn Ch. 14.",
+      "major": false
+    },
+    {
+      "id": "ir_bund_hindug",
+      "name": "Hindug (Indians in Bundahishn)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 4,
+      "era": "Bundahishn Ch. 14 (15 Races / Climes)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Bundahishn Ch. 14"
+      ],
+      "notes": "Branch of humanity settling India from Fravak's 15 pairs.",
+      "major": false
+    },
+    {
+      "id": "ir_bund_chin",
+      "name": "Chin (China in Bundahishn)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 4,
+      "era": "Bundahishn Ch. 14 (15 Races / Climes)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Bundahishn Ch. 14"
+      ],
+      "notes": "Branch of humanity settling East Asia/China in Zoroastrian ethnography.",
+      "major": false
+    },
+    {
+      "id": "ir_bund_rum",
+      "name": "Arum / Rum (Western Peoples)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 4,
+      "era": "Bundahishn Ch. 14 (15 Races / Climes)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Bundahishn Ch. 14"
+      ],
+      "notes": "Branch settling the western Mediterranean/Anatolian clime.",
+      "major": false
+    },
+    {
+      "id": "ir_merdas",
+      "name": "Merdas (Arabian King, desc. of Taz)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 4,
+      "era": "Pishdadian Era",
+      "role": "Father of Zahhak",
+      "sources": [
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Pious Arabian king descended from Taz, slain by his own son Zahhak under Ahriman's deception.",
+      "major": false
+    },
+    {
+      "id": "ir_zahhak",
+      "name": "Zahhak (Azi Dahaka)",
+      "altNames": [
+        "Azi Dahaka",
+        "Bivar-asp"
+      ],
+      "tradition": "iranian",
+      "tier": 4,
+      "era": "Pishdadian Interregnum",
+      "role": "Dragon Usurper King of Babylon & Iran",
+      "sources": [
+        "Avesta (Yasht 5, 9)",
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Son of Merdas; overthrows Jamshid and rules 1,000 years from Bawri (Babylon!) before being bound on Mt. Damavand by Fereydun. Ancestor of Mehrab Kaboli -> Rudabeh (mother of Rostam!).",
+      "major": true
+    },
+    {
+      "id": "ir_siamak",
+      "name": "Siamak & Nashak",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 2,
+      "era": "Pishdadian Gen 2",
+      "role": "Son of Keyumars / Mashya",
+      "sources": [
+        "Bundahishn 14, 35",
+        "Shahnameh"
+      ],
+      "notes": "Slain by the Black Div; avenged by his son Hushang.",
+      "major": false
+    },
+    {
+      "id": "ir_hushang",
+      "name": "Hushang (Haoshyangha) & Guzak",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 3,
+      "era": "Pishdadian King 2",
+      "role": "Discoverer of Fire & Iron",
+      "sources": [
+        "Avesta (Yasht 5, 19)",
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Founder of the Pishdadian ('First Lawgivers') dynasty; establishes Sadeh upon discovering fire.",
+      "major": true
+    },
+    {
+      "id": "ir_tahmuras",
+      "name": "Tahmuras (Takhma Urupi)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 3,
+      "era": "Pishdadian King 3 ('Binder of Demons')",
+      "role": "Teacher of 30 Scripts & Weaving",
+      "sources": [
+        "Avesta (Yasht 15, 19)",
+        "Shahnameh"
+      ],
+      "notes": "Binds Ahriman for 30 years and learns 30 scripts from captive demons to teach humanity.",
+      "major": false
+    },
+    {
+      "id": "ir_vivanghant",
+      "name": "Vivanghant (Vivanhao)",
+      "altNames": [
+        "Vivanhao",
+        "Cognate: Vedic Vivasvan"
+      ],
+      "tradition": "iranian",
+      "tier": 3,
+      "era": "Avestan Antediluvian Horizon",
+      "role": "Exact Cognate of Vedic Vivasvan",
       "sources": [
         "Avesta (Yasna 9.4, Vendidad 2)",
-        "Bundahishn"
+        "Bundahishn 35"
       ],
-      "notes": "EXACT linguistic & genealogical cognate of Vedic Vivasvan (Surya)! One of the strongest academically verified prehistoric ancestral bridges between Iran and India.",
+      "notes": "EXACT Proto-Indo-Iranian linguistic & genealogical cognate of Vedic Vivasvan (Surya)! Strongest verified prehistoric ancestral bridge between Iran and India.",
       "major": true
     },
     {
       "id": "ir_yima",
-      "name": "Yima Khshaeta (Jamshid)",
+      "name": "Yima Khshaeta (Jamshid) & Yimak",
       "altNames": [
-        "Jamshid"
+        "Jamshid",
+        "Cognate: Vedic Yama",
+        "Twin: Yimak"
       ],
       "tradition": "iranian",
       "tier": 4,
-      "era": "Cataclysm / Golden Age Horizon",
-      "role": "Golden Age King & Vara Ark Builder",
+      "era": "Golden Age / Cataclysm Horizon",
+      "role": "4th Pishdadian King & Builder of the Vara",
       "sources": [
         "Avesta (Vendidad 2, Yasna 9)",
+        "Bundahishn 35",
         "Shahnameh"
       ],
-      "notes": "Son of Vivanghant — exact Proto-Indo-Iranian cognate of Vedic Yama. Warned by Ahura Mazda of a world-destroying winter/meltwater cataclysm, builds the subterranean Vara preserving pairs of humans, animals, and seeds.",
+      "notes": "Son of Vivanghant — exact cognate of Vedic Yama! Builds the subterranean Vara preserving pairs of humans, animals, and seeds against the great cosmic winter/meltwater cataclysm.",
+      "major": true
+    },
+    {
+      "id": "ir_shahrnaz_arnavaz",
+      "name": "Shahrnaz & Arnavaz (Daughters of Jamshid)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 4,
+      "era": "Pishdadian Princesses",
+      "role": "Wives of Fereydun / Mothers of Salm, Tur & Iraj",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Daughters/sisters of Jamshid rescued from Zahhak by Fereydun; Shahrnaz bears Salm & Tur, and Arnavaz bears Iraj!",
+      "major": false
+    },
+    {
+      "id": "ir_athwya",
+      "name": "Athwya (Abtin) & Faranak",
+      "altNames": [
+        "Abtin",
+        "Cognate: Vedic Aptya"
+      ],
+      "tradition": "iranian",
+      "tier": 4,
+      "era": "Pishdadian Descent from Jamshid",
+      "role": "Father of Fereydun / Exact Cognate of Vedic Aptya",
+      "sources": [
+        "Avesta (Yasna 9.7)",
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Descendant of Jamshid (via Pur-Tora/Sog-Tora in Bundahishn 35); EXACT Proto-Indo-Iranian cognate of Vedic Aptya (father of Trita Aptya)!",
       "major": true
     },
     {
       "id": "ir_fereydun",
       "name": "Fereydun (Thraetaona)",
-      "altNames": [],
+      "altNames": [
+        "Thraetaona",
+        "Faridun",
+        "Cognate: Vedic Trita"
+      ],
       "tradition": "iranian",
       "tier": 5,
-      "era": "Post-Cataclysm Pishdadian Era",
-      "role": "Divider of the World Among Three Sons",
+      "era": "Post-Cataclysm Pishdadian King 6",
+      "role": "Binder of Zahhak & Divider of the World Into Three",
       "sources": [
         "Avesta (Yasht 5, 19)",
-        "Bundahishn",
+        "Bundahishn 35",
         "Shahnameh"
       ],
-      "notes": "Divides the earth into three realms among his sons Salm (West), Tur (Turan/Steppe), and Iraj (Iran) — striking tripartite parallel to Noah.",
+      "notes": "Son of Athwya (Abtin) & Faranak — cognate of Vedic Trita! Weds Shahrnaz & Arnavaz, binds Zahhak on Mt. Damavand, and divides the world among Salm, Tur, and Iraj.",
       "major": true
     },
     {
       "id": "ir_salm",
-      "name": "Salm (West / Rum)",
+      "name": "Salm (Ruler of the West / Rum)",
       "altNames": [],
       "tradition": "iranian",
       "tier": 6,
-      "era": "Tripartite Division (Shahnameh)",
-      "role": "Ancestor of Western Realms",
+      "era": "Tripartite Division",
+      "role": "1st Son of Fereydun (West / Anatolia / Europe)",
       "sources": [
-        "Bundahishn Ch. 35",
+        "Bundahishn 35",
         "Shahnameh"
       ],
-      "notes": "Eldest son of Fereydun; receives Anatolia and the West (Rum).",
-      "major": false
+      "notes": "Eldest son of Fereydun & Shahrnaz; receives Rum/West.",
+      "major": true
     },
     {
       "id": "ir_tur",
-      "name": "Tur (Turan / Central Asia)",
+      "name": "Tur (Ruler of Turan / Central Asia)",
       "altNames": [],
       "tradition": "iranian",
       "tier": 6,
-      "era": "Tripartite Division (Shahnameh)",
-      "role": "Ancestor of Turan / Steppe",
+      "era": "Tripartite Division",
+      "role": "2nd Son of Fereydun (Turan / Steppe)",
       "sources": [
-        "Bundahishn Ch. 35",
+        "Bundahishn 35",
         "Shahnameh"
       ],
-      "notes": "Second son of Fereydun; receives Turan (Central Asian steppes to China's borders).",
+      "notes": "Second son of Fereydun & Shahrnaz; receives Central Asia & Steppe.",
+      "major": true
+    },
+    {
+      "id": "ir_zadsham",
+      "name": "Zadsham (son of Tur)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 6,
+      "era": "Turanian Line",
+      "role": "Son of Tur",
+      "sources": [
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Father of Pashang.",
+      "major": false
+    },
+    {
+      "id": "ir_pashang",
+      "name": "Pashang (King of Turan)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 7,
+      "era": "Turanian Line",
+      "role": "Father of Afrasiab, Garsivaz & Aghriras",
+      "sources": [
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Son of Zadsham; launches the great Iran-Turan wars.",
+      "major": false
+    },
+    {
+      "id": "ir_afrasiab",
+      "name": "Afrasiab (Franrasyan)",
+      "altNames": [
+        "Franrasyan"
+      ],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Turanian Emperor",
+      "role": "Great King of Turan / Grandfather of Kay Khosrow",
+      "sources": [
+        "Avesta (Yasht 5, 19)",
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Son of Pashang; legendary rival of Iran whose daughter Farangis marries Siyavash, uniting Iran and Turan in Kay Khosrow!",
+      "major": true
+    },
+    {
+      "id": "ir_garsivaz_aghriras",
+      "name": "Garsivaz & Aghriras (Brothers of Afrasiab)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Turanian Princes",
+      "role": "Sons of Pashang",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Aghriras (noble brother who saved Iranian captives) and Garsivaz (instigator of Siyavash's murder).",
+      "major": false
+    },
+    {
+      "id": "ir_farangis",
+      "name": "Farangis (Turanian Princess)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "Daughter of Afrasiab",
+      "role": "Wife of Siyavash / Mother of Kay Khosrow",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Daughter of Afrasiab; marries Iranian prince Siyavash and gives birth to Kay Khosrow, uniting Turan and Iran!",
       "major": false
     },
     {
       "id": "ir_iraj",
-      "name": "Iraj (Iran → Manuchehr → Kayanians)",
+      "name": "Iraj (Ruler of Iran / Eranshahr)",
       "altNames": [],
       "tradition": "iranian",
       "tier": 6,
-      "era": "Tripartite Division (Shahnameh)",
-      "role": "Ancestor of Iranian Royal Line",
+      "era": "Tripartite Division",
+      "role": "3rd Son of Fereydun / Eponym of Iran",
       "sources": [
-        "Bundahishn Ch. 35",
+        "Bundahishn 35",
         "Shahnameh"
       ],
-      "notes": "Youngest son of Fereydun; receives Iran (Eranshahr), producing Manuchehr and the Kayanian dynasty (Kay Kavad, Kay Kavus, Siyavash, Kay Khosrow).",
+      "notes": "Youngest son of Fereydun & Arnavaz; receives Iran. Slain by Salm & Tur.",
       "major": true
     },
     {
-      "id": "ir_medes_achaemenids",
-      "name": "Medes (Mada) & Cyrus the Great (Achaemenids)",
+      "id": "ir_mahafarid",
+      "name": "Mah-Afarid (Daughter of Iraj)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 6,
+      "era": "House of Iraj",
+      "role": "Grandmother/Mother of Manuchehr",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Daughter of Iraj wed to Pashang (nephew of Fereydun), preserving Iraj's bloodline into Manuchehr.",
+      "major": false
+    },
+    {
+      "id": "ir_manuchehr",
+      "name": "Manuchehr (Manushchihr)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 7,
+      "era": "Pishdadian King 7",
+      "role": "Avenger of Iraj / Ancestor of Kayanians & Zoroaster",
+      "sources": [
+        "Avesta (Yasht 13)",
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Avenges Iraj against Salm & Tur; defines Iran's border via Arash the Archer's legendary shot!",
+      "major": true
+    },
+    {
+      "id": "ir_nowzar",
+      "name": "Nowzar (son of Manuchehr)",
       "altNames": [],
       "tradition": "iranian",
       "tier": 8,
-      "era": "Iron Age (8th-6th c. BCE)",
-      "role": "Historical Iranian Empires",
+      "era": "Pishdadian King 8",
+      "role": "Father of Heroes Tus & Gostaham",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Slain by Afrasiab; his sons Tus and Gostaham become leading Iranian generals.",
+      "major": false
+    },
+    {
+      "id": "ir_tus_gostaham",
+      "name": "Tus & Gostaham (Sons of Nowzar)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Pishdadian Princes",
+      "role": "Iranian Commanders",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Sons of Nowzar who serve the Kayanian kings.",
+      "major": false
+    },
+    {
+      "id": "ir_zav",
+      "name": "Zav (Uzava, son of Tahmasp)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Pishdadian King 9",
+      "role": "Restorer of Iran's Canals",
+      "sources": [
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Descendant of Manuchehr who restores agriculture after Afrasiab's drought.",
+      "major": false
+    },
+    {
+      "id": "ir_garshasp",
+      "name": "Garshasp (Keresaspa — Dragon-Slayer)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Final Pishdadian / Avestan Hero",
+      "role": "Slayer of Azi Sruvara",
+      "sources": [
+        "Avesta (Yasna 9.10)",
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Avestan champion and final Pishdadian ruler; ancestor of the Sistan paladins (Nariman -> Sam -> Zal -> Rostam).",
+      "major": false
+    },
+    {
+      "id": "ir_nariman",
+      "name": "Nariman (son of Garshasp)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Sistan Heroic Line",
+      "role": "Father of Sam",
+      "sources": [
+        "Shahnameh",
+        "Garshaspnameh"
+      ],
+      "notes": "Warrior ancestor of the House of Sistan.",
+      "major": false
+    },
+    {
+      "id": "ir_sam",
+      "name": "Sam (Paladin of Iran)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Sistan Heroic Line",
+      "role": "Father of Zal",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Champion under Manuchehr; initially abandoned his white-haired infant Zal on Mt. Alborz before reclaiming him from the Simurgh.",
+      "major": false
+    },
+    {
+      "id": "ir_zal",
+      "name": "Zal (Dastan — Raised by the Simurgh)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Sistan Heroic Line",
+      "role": "Father of Rostam",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "White-haired sage-warrior raised by the mythical Simurgh; weds Rudabeh of Kabul.",
+      "major": true
+    },
+    {
+      "id": "ir_mehrab",
+      "name": "Mehrab Kaboli (King of Kabul)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 7,
+      "era": "Kabul / Indo-Iranian Frontier",
+      "role": "Descendant of Zahhak / Father of Rudabeh",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Ruler of Kabul descended from Zahhak; father of Rudabeh.",
+      "major": false
+    },
+    {
+      "id": "ir_rudabeh",
+      "name": "Rudabeh (Princess of Kabul)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Kabul / Sistan",
+      "role": "Wife of Zal / Mother of Rostam",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Her union with Zal bridges Kabul/Zahhak's line with Iran's greatest heroic house!",
+      "major": false
+    },
+    {
+      "id": "ir_rostam",
+      "name": "Rostam (Champion of Iran)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "Sistan Heroic Era",
+      "role": "Greatest Hero of the Shahnameh",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Son of Zal & Rudabeh; serves the Kayanian kings for centuries. Marries Tahmineh of Samangan (Turan) -> Sohrab, plus Faramarz and warrior daughter Banu Goshasp.",
+      "major": true
+    },
+    {
+      "id": "ir_shaghad",
+      "name": "Shaghad (Half-Brother of Rostam)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "Sistan / Kabul",
+      "role": "Son of Zal",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Rostam's treacherous half-brother who conspires with the King of Kabul.",
+      "major": false
+    },
+    {
+      "id": "ir_sohrab",
+      "name": "Sohrab (son of Rostam & Tahmineh)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 10,
+      "era": "Shahnameh",
+      "role": "Son of Rostam & Turanian Princess Tahmineh",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Born in Samangan (Turan); tragically slain in single combat by his father Rostam before they recognize one another.",
+      "major": false
+    },
+    {
+      "id": "ir_faramarz",
+      "name": "Faramarz & Banu Goshasp (Children of Rostam)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 10,
+      "era": "Shahnameh / Faramarznameh",
+      "role": "Warrior Children of Rostam",
+      "sources": [
+        "Shahnameh",
+        "Banu Goshaspnameh"
+      ],
+      "notes": "Faramarz leads expeditions into India and avenges Rostam; Banu Goshasp is a celebrated Iranian warrior heroine.",
+      "major": false
+    },
+    {
+      "id": "ir_kay_kavad",
+      "name": "Kay Kavad (Kavi Kavata)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Founder of Kayanian Dynasty",
+      "role": "1st Kayanian King",
+      "sources": [
+        "Avesta (Yasht 19)",
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Descendant of Manuchehr brought from Mt. Alborz by Rostam; father of Kay Kavus and Kay Apiveh.",
+      "major": true
+    },
+    {
+      "id": "ir_kay_apiveh",
+      "name": "Kay Apiveh → Kay Arash & Kay Pishin",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Kayanian Branch",
+      "role": "Sons of Kay Kavad",
+      "sources": [
+        "Bundahishn 35",
+        "Avesta (Yasht 19)"
+      ],
+      "notes": "Branch of Kay Kavad leading to Kay Lohrasp and Kay Goshtasp (patron of Zoroaster).",
+      "major": false
+    },
+    {
+      "id": "ir_kay_kavus",
+      "name": "Kay Kavus (Kavi Usan)",
+      "altNames": [
+        "Kavi Usan",
+        "Cognate: Vedic Kavi Ushanas"
+      ],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "2nd Kayanian King",
+      "role": "Cognate: Vedic Kavi Ushanas",
+      "sources": [
+        "Avesta (Yasht 14, 19)",
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Linguistic cognate of Vedic sage Kavi Ushanas! Father of Prince Siyavash.",
+      "major": true
+    },
+    {
+      "id": "ir_siyavash",
+      "name": "Siyavash (Syavarshan)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "Martyred Kayanian Prince",
+      "role": "Son of Kay Kavus / Husband of Farangis",
+      "sources": [
+        "Avesta (Yasht 19)",
+        "Shahnameh"
+      ],
+      "notes": "Passes through fire unscathed; weds Afrasiab's daughter Farangis in Turan; father of Kay Khosrow and Farud.",
+      "major": false
+    },
+    {
+      "id": "ir_farud",
+      "name": "Farud (son of Siyavash & Jarireh)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 10,
+      "era": "Shahnameh",
+      "role": "Half-Brother of Kay Khosrow",
+      "sources": [
+        "Shahnameh"
+      ],
+      "notes": "Son of Siyavash and Jarireh (daughter of Turanian sage Piran Viseh).",
+      "major": false
+    },
+    {
+      "id": "ir_kay_khosrow",
+      "name": "Kay Khosrow (Kavi Husravah)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 10,
+      "era": "3rd Kayanian King (Unifier of Iran & Turan)",
+      "role": "Ideal Sacred King of Avesta & Shahnameh",
+      "sources": [
+        "Avesta (Yasht 9, 19)",
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Son of Siyavash (Iran) & Farangis (Turan); unites both houses, defeats Afrasiab, and passes the crown to Kay Lohrasp.",
+      "major": true
+    },
+    {
+      "id": "ir_kay_lohrasp",
+      "name": "Kay Lohrasp (Aurvat-aspa)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 10,
+      "era": "4th Kayanian King",
+      "role": "Father of Kay Goshtasp",
+      "sources": [
+        "Avesta",
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Descended from Kay Apiveh -> Kay Pishin -> Kay Lohrasp; builds the fire temple at Balkh.",
+      "major": false
+    },
+    {
+      "id": "ir_kay_goshtasp",
+      "name": "Kay Goshtasp (Kavi Vishtaspa)",
+      "altNames": [
+        "Kavi Vishtaspa"
+      ],
+      "tradition": "iranian",
+      "tier": 10,
+      "era": "5th Kayanian King",
+      "role": "Royal Patron of Prophet Zarathustra",
+      "sources": [
+        "Avesta (Yasna 46, 51)",
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Champions Prophet Zarathustra's religion; father of hero Esfandiyar and brother Zarir.",
+      "major": true
+    },
+    {
+      "id": "ir_esfandiyar",
+      "name": "Esfandiyar (Spento-data)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 11,
+      "era": "Kayanian Champion",
+      "role": "Son of Kay Goshtasp / Father of Bahman",
+      "sources": [
+        "Avesta",
+        "Shahnameh"
+      ],
+      "notes": "Bronze-bodied champion of Zoroastrianism slain by Rostam's tamarisk arrow; father of Kay Bahman.",
+      "major": false
+    },
+    {
+      "id": "ir_bahman",
+      "name": "Kay Bahman → Queen Homai → Darab → Dara",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 11,
+      "era": "Late Kayanian Kings",
+      "role": "Bridge to Historical Artaxerxes & Darius III",
+      "sources": [
+        "Bundahishn 35",
+        "Shahnameh"
+      ],
+      "notes": "Kay Bahman (equated in Persian lore with Artaxerxes Longimanus) -> Queen Homai -> Darab -> Dara (Darius III, rival of Alexander!).",
+      "major": false
+    },
+    {
+      "id": "ir_pourushaspa",
+      "name": "Spitama → Haechataspa → Pourushaspa & Dughdova",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "Bundahishn Ch. 35:50-55",
+      "role": "Parents & Clan of Zarathustra",
+      "sources": [
+        "Avesta (Yasna 9.13)",
+        "Bundahishn Ch. 35"
+      ],
+      "notes": "Bundahishn traces Spitama (descended from Manuchehr) -> Haechataspa -> Pourushaspa, who marries Dughdova to birth Zarathustra.",
+      "major": false
+    },
+    {
+      "id": "ir_zoroaster",
+      "name": "Prophet Zarathustra (Zoroaster) & Hvovi",
+      "altNames": [
+        "Zoroaster",
+        "Zartosht"
+      ],
+      "tradition": "iranian",
+      "tier": 10,
+      "era": "c. 1500-1000 BCE (or 6th c. BCE trad.)",
+      "role": "Founder of Zoroastrianism",
+      "sources": [
+        "Avesta (Gathas)",
+        "Bundahishn Ch. 35:50-56"
+      ],
+      "notes": "Author of the Gathas; weds Hvovi (of the Hvova clan, kin of Frashaoshtra & Jamaspa) and fathers 3 sons and 3 daughters.",
+      "major": true
+    },
+    {
+      "id": "ir_zor_isatvastra",
+      "name": "Isatvastra (son of Zarathustra)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 11,
+      "era": "Children of Zarathustra (Bundahishn 35:56)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Bundahishn 35:56",
+        "Yasht 13.98"
+      ],
+      "notes": "Eldest son of Zarathustra; head of the priestly estate (Athornan).",
+      "major": false
+    },
+    {
+      "id": "ir_zor_urvatatnara",
+      "name": "Urvatatnara (son of Zarathustra)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 11,
+      "era": "Children of Zarathustra (Bundahishn 35:56)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Bundahishn 35:56"
+      ],
+      "notes": "Son of Zarathustra; head of the pastoral/agricultural estate.",
+      "major": false
+    },
+    {
+      "id": "ir_zor_hvarechithra",
+      "name": "Hvarechithra (son of Zarathustra)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 11,
+      "era": "Children of Zarathustra (Bundahishn 35:56)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Bundahishn 35:56"
+      ],
+      "notes": "Son of Zarathustra; head of the warrior estate.",
+      "major": false
+    },
+    {
+      "id": "ir_zor_freni",
+      "name": "Freni (dau. of Zarathustra)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 11,
+      "era": "Children of Zarathustra (Bundahishn 35:56)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Bundahishn 35:56",
+        "Yasht 13.139"
+      ],
+      "notes": "1st daughter of Zarathustra.",
+      "major": false
+    },
+    {
+      "id": "ir_zor_thriti",
+      "name": "Thriti (dau. of Zarathustra)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 11,
+      "era": "Children of Zarathustra (Bundahishn 35:56)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Bundahishn 35:56",
+        "Yasht 13.139"
+      ],
+      "notes": "2nd daughter of Zarathustra.",
+      "major": false
+    },
+    {
+      "id": "ir_zor_pouruchista",
+      "name": "Pouruchista (+ Jamaspa)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 11,
+      "era": "Children of Zarathustra (Bundahishn 35:56)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Avesta (Yasna 53)",
+        "Bundahishn 35:56"
+      ],
+      "notes": "Youngest daughter of Zarathustra celebrated in Gatha Yasna 53; marries sage Jamaspa (counselor of King Vishtaspa).",
+      "major": false
+    },
+    {
+      "id": "ir_deioces",
+      "name": "Deioces → Phraortes (Early Medes)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "c. 700-625 BCE",
+      "role": "Founders of the Median Kingdom (Biblical Madai)",
+      "sources": [
+        "Herodotus I.96-102"
+      ],
+      "notes": "Deioces (Dayukku) unifies the Median tribes at Ecbatana; followed by his son Phraortes.",
+      "major": false
+    },
+    {
+      "id": "ir_cyaxares",
+      "name": "Cyaxares (Uvakhshatra) → Astyages",
+      "altNames": [
+        "Madai (Gen 10:2)"
+      ],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "c. 625-550 BCE",
+      "role": "Conquerors of Nineveh / Kings of Media",
+      "sources": [
+        "Herodotus I",
+        "Babylonian Chronicle"
+      ],
+      "notes": "Cyaxares destroys Nineveh (612 BCE) in alliance with Babylon; his son Astyages fathers Princess Mandane (mother of Cyrus the Great!).",
+      "major": true
+    },
+    {
+      "id": "ir_mandane",
+      "name": "Mandane (Median Princess)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "c. 600 BCE",
+      "role": "Daughter of Astyages / Mother of Cyrus the Great",
+      "sources": [
+        "Herodotus I.107"
+      ],
+      "notes": "Unites the Median (Madai) and Persian/Elamite (Anshan) royal houses!",
+      "major": false
+    },
+    {
+      "id": "ir_achaemenes",
+      "name": "Achaemenes (Hakhamanish) → Teispes",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "c. 700-640 BCE",
+      "role": "Founders of Achaemenid Dynasty (Anshan in Elam)",
       "sources": [
         "Behistun Inscription",
-        "Cyrus Cylinder",
-        "Herodotus",
-        "Ezra / Daniel"
+        "Cyrus Cylinder"
       ],
-      "notes": "Historical Medes directly match Biblical Madai (Gen 10:2); Cyrus ruled as King of Anshan in Elam (Gen 10:22).",
+      "notes": "Achaemenes -> Teispes (Chishpish), who divides his kingdom between Cyrus I (Anshan/Elam) and Ariaramnes (Persia).",
+      "major": false
+    },
+    {
+      "id": "ir_cambyses1",
+      "name": "Cyrus I → Cambyses I (Kings of Anshan)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "c. 640-559 BCE",
+      "role": "Kings of Anshan (Elam) / Father of Cyrus the Great",
+      "sources": [
+        "Cyrus Cylinder"
+      ],
+      "notes": "Cambyses I marries Median princess Mandane and fathers Cyrus the Great.",
+      "major": false
+    },
+    {
+      "id": "ir_cyrus",
+      "name": "Cyrus the Great (Koresh)",
+      "altNames": [
+        "Koresh (Hebrew)",
+        "Kurush"
+      ],
+      "tradition": "iranian",
+      "tier": 10,
+      "era": "Achaemenid Empire (559-530 BCE)",
+      "role": "Founder of Persian Empire / Liberator of Judah",
+      "sources": [
+        "Cyrus Cylinder",
+        "Ezra 1:1-4",
+        "Isaiah 45:1",
+        "Herodotus"
+      ],
+      "notes": "Son of Cambyses I (Anshan/Elam) & Mandane (Media/Madai). Conquers Babylon (539 BCE) and decrees the return of Judean exiles to rebuild Jerusalem! Father of Cambyses II, Bardiya, and Atossa.",
       "major": true
+    },
+    {
+      "id": "ir_cambyses2_atossa",
+      "name": "Cambyses II, Bardiya & Queen Atossa",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 10,
+      "era": "530-475 BCE",
+      "role": "Children of Cyrus the Great",
+      "sources": [
+        "Behistun Inscription",
+        "Herodotus III"
+      ],
+      "notes": "Cambyses II conquers Egypt (525 BCE); Queen Atossa marries Darius I and becomes mother of Xerxes I (Ahasuerus)!",
+      "major": false
+    },
+    {
+      "id": "ir_hystaspes",
+      "name": "Ariaramnes → Arsames → Hystaspes (Vishtaspa)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "c. 640-522 BCE",
+      "role": "Junior Achaemenid Branch",
+      "sources": [
+        "Behistun Inscription"
+      ],
+      "notes": "Line from Teispes to Hystaspes, father of Darius I.",
+      "major": false
+    },
+    {
+      "id": "ir_darius1",
+      "name": "Darius I the Great (Darayavahush)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 10,
+      "era": "522-486 BCE",
+      "role": "3rd Achaemenid Emperor (Ezra 4-6)",
+      "sources": [
+        "Behistun Inscription",
+        "Ezra 6"
+      ],
+      "notes": "Son of Hystaspes; marries Cyrus's daughter Atossa, uniting both Achaemenid lines, and confirms Cyrus's decree to complete the Second Temple in Jerusalem.",
+      "major": true
+    },
+    {
+      "id": "ir_xerxes1",
+      "name": "Xerxes I (Ahasuerus of Book of Esther)",
+      "altNames": [
+        "Ahasuerus (Esther)",
+        "Khshayarsha"
+      ],
+      "tradition": "iranian",
+      "tier": 11,
+      "era": "486-465 BCE",
+      "role": "4th Achaemenid Emperor",
+      "sources": [
+        "Persepolis Inscriptions",
+        "Book of Esther",
+        "Herodotus VII"
+      ],
+      "notes": "Son of Darius I & Atossa; widely identified with King Ahasuerus (Achashverosh) in the Book of Esther!",
+      "major": true
+    },
+    {
+      "id": "ir_artaxerxes1",
+      "name": "Artaxerxes I → Darius III",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 11,
+      "era": "465-330 BCE",
+      "role": "Patron of Ezra & Nehemiah → Final Achaemenid",
+      "sources": [
+        "Ezra 7",
+        "Nehemiah 2"
+      ],
+      "notes": "Son of Xerxes I; commissions Ezra and Nehemiah to rebuild Jerusalem; dynasty continues down to Darius III (Shahnameh's Dara).",
+      "major": false
     },
     {
       "id": "ved_brahma_manu",
@@ -5428,6 +7442,24 @@
       ],
       "notes": "Son of Vivasvan; exact linguistic and genealogical twin of Iranian Yima (Jamshid) son of Vivanghant.",
       "major": true
+    },
+    {
+      "id": "ved_trita_aptya",
+      "name": "Aptya → Trita Aptya & Kavi Ushanas",
+      "altNames": [
+        "Trita = Fereydun",
+        "Aptya = Abtin",
+        "Kavi Ushanas = Kay Kavus"
+      ],
+      "tradition": "vedic",
+      "tier": 4,
+      "era": "Rigvedic Mythic Horizon",
+      "role": "Exact Proto-Indo-Iranian Cognates of Athwya/Thraetaona & Kavi Usan",
+      "sources": [
+        "Rigveda 1.105, 10.8, 10.99"
+      ],
+      "notes": "Vedic dragon-slayer Trita son of Aptya is the exact linguistic cognate of Avestan Thraetaona (Fereydun) son of Athwya (Abtin), while sage Kavi Ushanas is the exact cognate of Iranian King Kavi Usan (Kay Kavus)!",
+      "major": false
     },
     {
       "id": "ved_vaivasvata_manu",
@@ -5499,7 +7531,7 @@
       "tradition": "vedic",
       "tier": 6,
       "era": "Rigvedic Panchajana (5 Sons of Yayati)",
-      "role": "Individual / Tribal Eponym",
+      "role": "Individual / Lineage Member",
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
@@ -5515,7 +7547,7 @@
       "tradition": "vedic",
       "tier": 6,
       "era": "Rigvedic Panchajana (5 Sons of Yayati)",
-      "role": "Individual / Tribal Eponym",
+      "role": "Individual / Lineage Member",
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
@@ -5531,7 +7563,7 @@
       "tradition": "vedic",
       "tier": 6,
       "era": "Rigvedic Panchajana (5 Sons of Yayati)",
-      "role": "Individual / Tribal Eponym",
+      "role": "Individual / Lineage Member",
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
@@ -5547,7 +7579,7 @@
       "tradition": "vedic",
       "tier": 6,
       "era": "Rigvedic Panchajana (5 Sons of Yayati)",
-      "role": "Individual / Tribal Eponym",
+      "role": "Individual / Lineage Member",
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
@@ -5563,7 +7595,7 @@
       "tradition": "vedic",
       "tier": 6,
       "era": "Rigvedic Panchajana (5 Sons of Yayati)",
-      "role": "Individual / Tribal Eponym",
+      "role": "Individual / Lineage Member",
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
@@ -7912,51 +9944,369 @@
     },
     {
       "from": "hub_primordial",
-      "to": "mes_enuma",
+      "to": "mes_apsu_tiamat",
       "type": "parallel",
-      "label": "Humans fashioned from clay + divine blood"
+      "label": "Primordial cosmic creation"
     },
     {
-      "from": "mes_enuma",
-      "to": "mes_alulim",
+      "from": "hub_primordial",
+      "to": "mes_lullu_adapa",
+      "type": "parallel",
+      "label": "Humans fashioned from clay + divine blood; Adapa <-> Adam"
+    },
+    {
+      "from": "bib_adam",
+      "to": "mes_lullu_adapa",
+      "type": "parallel",
+      "label": "Adapa of Eridu forfeits eternal life in heaven <-> Adam"
+    },
+    {
+      "from": "mes_apsu_tiamat",
+      "to": "mes_lahmu_lahamu",
       "type": "direct",
-      "label": "Kingship descends to Eridu (Sumerian King List)"
+      "label": "First divine pair (Enuma Elish I)"
     },
     {
-      "from": "mes_alulim",
+      "from": "mes_lahmu_lahamu",
+      "to": "mes_anshar_kishar",
+      "type": "direct",
+      "label": "Second divine pair (Enuma Elish I)"
+    },
+    {
+      "from": "mes_anshar_kishar",
+      "to": "mes_anu",
+      "type": "direct",
+      "label": "Son (Enuma Elish I)"
+    },
+    {
+      "from": "mes_anu",
+      "to": "mes_enki",
+      "type": "direct",
+      "label": "Son (Enuma Elish I)"
+    },
+    {
+      "from": "mes_anu",
+      "to": "mes_enlil",
+      "type": "direct",
+      "label": "Son (Sumerian tradition)"
+    },
+    {
+      "from": "mes_enki",
+      "to": "mes_marduk",
+      "type": "direct",
+      "label": "Enki + Damkina -> Marduk (Enuma Elish)"
+    },
+    {
+      "from": "mes_marduk",
+      "to": "mes_nabu",
+      "type": "direct",
+      "label": "Son (Babylonian pantheon)"
+    },
+    {
+      "from": "mes_enki",
+      "to": "mes_lullu_adapa",
+      "type": "direct",
+      "label": "Enki fashions Lullu & creates sage Adapa"
+    },
+    {
+      "from": "mes_enlil",
+      "to": "mes_ninurta",
+      "type": "direct",
+      "label": "Son (Sumerian pantheon)"
+    },
+    {
+      "from": "mes_enlil",
+      "to": "mes_nanna",
+      "type": "direct",
+      "label": "Enlil + Ninlil -> Nanna/Sin"
+    },
+    {
+      "from": "mes_nanna",
+      "to": "mes_shamash",
+      "type": "direct",
+      "label": "Nanna + Ningal -> Utu/Shamash"
+    },
+    {
+      "from": "mes_nanna",
+      "to": "mes_inanna",
+      "type": "direct",
+      "label": "Nanna + Ningal -> Inanna/Ishtar"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "mes_ninurta",
+      "type": "parallel",
+      "label": "Scholars compare Nimrod ('mighty hunter') to Mesopotamian hunter-warrior Ninurta"
+    },
+    {
+      "from": "mes_lullu_adapa",
+      "to": "mes_k1_alulim",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k1_alulim",
+      "to": "mes_k2_alalngar",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k2_alalngar",
+      "to": "mes_k3_enmenluana",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k3_enmenluana",
+      "to": "mes_k4_enmengalana",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k4_enmengalana",
+      "to": "mes_k5_dumuzid",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k5_dumuzid",
+      "to": "mes_k6_ensipadzidana",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k6_ensipadzidana",
       "to": "mes_enmeduranki",
-      "type": "direct",
-      "label": "Antediluvian royal succession to 7th king"
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
     },
     {
       "from": "mes_enmeduranki",
+      "to": "mes_k8_megalaros",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k8_megalaros",
+      "to": "mes_k9_ubaratutu",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k9_ubaratutu",
       "to": "mes_ziusudra",
       "type": "direct",
-      "label": "Succession to Ubara-Tutu -> Ziusudra"
+      "label": "Son of Ubara-Tutu (Gilgamesh XI / Eridu Genesis)"
     },
     {
-      "from": "mes_ziusudra",
-      "to": "mes_uruk_gilgamesh",
+      "from": "mes_enmeduranki",
+      "to": "mes_utuabzu",
       "type": "expansion",
-      "label": "Post-Flood kingship restored at Kish & Uruk"
-    },
-    {
-      "from": "mes_uruk_gilgamesh",
-      "to": "mes_sargon",
-      "type": "expansion",
-      "label": "Sumerian King List: Uruk -> Akkad"
+      "label": "7th Apkallu sage serving 7th king Enmeduranki"
     },
     {
       "from": "bib_enoch",
       "to": "mes_enmeduranki",
       "type": "parallel",
-      "label": "7th antediluvian figure; solar/heavenly ascent & tablets"
+      "label": "7th antediluvian figure; sun/365 association; heavenly ascent & tablets"
+    },
+    {
+      "from": "bib_enoch",
+      "to": "mes_utuabzu",
+      "type": "parallel",
+      "label": "7th antediluvian sage who ascended to heaven (Bit Meseri <-> Gen 5:24)"
     },
     {
       "from": "hub_flood",
       "to": "mes_ziusudra",
       "type": "parallel",
-      "label": "Vessel on Mt. Nimush (Atrahasis / Gilgamesh XI)"
+      "label": "Boat on Mt. Nimush; dove/swallow/raven (Gilgamesh XI / Atrahasis)"
+    },
+    {
+      "from": "mes_ziusudra",
+      "to": "mes_kish_jushur",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_jushur",
+      "to": "mes_kish_kullassinabel",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_kullassinabel",
+      "to": "mes_kish_nangishlishma",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_nangishlishma",
+      "to": "mes_kish_entarahana",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_entarahana",
+      "to": "mes_kish_babum",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_babum",
+      "to": "mes_kish_puannum",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_puannum",
+      "to": "mes_kish_kalibum",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_kalibum",
+      "to": "mes_kish_kalumum",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_kalumum",
+      "to": "mes_kish_zuqaqip",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_zuqaqip",
+      "to": "mes_kish_atab",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_atab",
+      "to": "mes_kish_mashda",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_kish_mashda",
+      "to": "mes_kish_arwium",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_kish_arwium",
+      "to": "mes_etana",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_etana",
+      "to": "mes_balih",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_balih",
+      "to": "mes_enmenuna",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_enmenuna",
+      "to": "mes_melemkish",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_enmenuna",
+      "to": "mes_barsalnuna",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_barsalnuna",
+      "to": "mes_zamug",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_zamug",
+      "to": "mes_tizqar",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_tizqar",
+      "to": "mes_ilku",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_ilku",
+      "to": "mes_iltasadum",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_iltasadum",
+      "to": "mes_enmebaragesi",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_enmebaragesi",
+      "to": "mes_aga_kish",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_enmebaragesi",
+      "to": "bib_elam",
+      "type": "cognate",
+      "label": "Historical warfare between Kish and Elam (SKL)"
+    },
+    {
+      "from": "mes_shamash",
+      "to": "mes_meskiaggasher",
+      "type": "direct",
+      "label": "Son of Utu/Shamash (Sumerian King List)"
+    },
+    {
+      "from": "mes_meskiaggasher",
+      "to": "mes_enmerkar",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_enmerkar",
+      "to": "mes_lugalbanda",
+      "type": "expansion",
+      "label": "Succession at Uruk (SKL)"
+    },
+    {
+      "from": "mes_lugalbanda",
+      "to": "mes_dumuzid_fisherman",
+      "type": "expansion",
+      "label": "Succession at Uruk (SKL)"
+    },
+    {
+      "from": "mes_lugalbanda",
+      "to": "mes_uruk_gilgamesh",
+      "type": "direct",
+      "label": "Lugalbanda + Ninsun -> Gilgamesh (Epic of Gilgamesh)"
+    },
+    {
+      "from": "mes_uruk_gilgamesh",
+      "to": "mes_ziusudra",
+      "type": "expansion",
+      "label": "Epic of Gilgamesh XI: Gilgamesh visits Flood survivor Utnapishtim"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "mes_enmerkar",
+      "type": "parallel",
+      "label": "Enmerkar ('Enmer the Hunter', builder of Erech/Uruk) <-> Nimrod (Gen 10:10)"
     },
     {
       "from": "bib_nimrod",
@@ -7965,22 +10315,172 @@
       "label": "Gen 10:10 explicitly names Shinar, Babel & Erech (Uruk)"
     },
     {
+      "from": "eno_ohya_hahya",
+      "to": "mes_uruk_gilgamesh",
+      "type": "expansion",
+      "label": "Qumran Book of Giants (4Q530/4Q531) literally names Gilgamesh as a Giant!"
+    },
+    {
+      "from": "mes_uruk_gilgamesh",
+      "to": "mes_urnungal",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_urnungal",
+      "to": "mes_udulkalama",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_udulkalama",
+      "to": "mes_labashum",
+      "type": "expansion",
+      "label": "Uruk I succession (SKL)"
+    },
+    {
+      "from": "mes_labashum",
+      "to": "mes_ennuntarahana",
+      "type": "expansion",
+      "label": "Uruk I succession (SKL)"
+    },
+    {
+      "from": "mes_ennuntarahana",
+      "to": "mes_meshhe",
+      "type": "expansion",
+      "label": "Uruk I succession (SKL)"
+    },
+    {
+      "from": "mes_meshhe",
+      "to": "mes_melemana",
+      "type": "expansion",
+      "label": "Uruk I succession (SKL)"
+    },
+    {
+      "from": "mes_melemana",
+      "to": "mes_lugalkitun",
+      "type": "expansion",
+      "label": "Uruk I succession (SKL)"
+    },
+    {
+      "from": "mes_lugalkitun",
+      "to": "mes_mesannepada",
+      "type": "expansion",
+      "label": "Kingship passes from Uruk I to Ur I (SKL)"
+    },
+    {
+      "from": "mes_mesannepada",
+      "to": "mes_meshkiangnanna",
+      "type": "direct",
+      "label": "Son (SKL)"
+    },
+    {
+      "from": "mes_meshkiangnanna",
+      "to": "mes_sargon",
+      "type": "expansion",
+      "label": "Sumerian King List succession to Akkad"
+    },
+    {
+      "from": "mes_sargon",
+      "to": "mes_enheduanna",
+      "type": "direct",
+      "label": "Daughter of Sargon (Disk of Enheduanna)"
+    },
+    {
+      "from": "mes_sargon",
+      "to": "mes_rimush",
+      "type": "direct",
+      "label": "Son of Sargon (SKL)"
+    },
+    {
+      "from": "mes_sargon",
+      "to": "mes_manishtushu",
+      "type": "direct",
+      "label": "Son of Sargon (SKL)"
+    },
+    {
+      "from": "mes_manishtushu",
+      "to": "mes_naramsin",
+      "type": "direct",
+      "label": "Son of Manishtushu (SKL)"
+    },
+    {
+      "from": "mes_naramsin",
+      "to": "mes_sharkalisharri",
+      "type": "direct",
+      "label": "Son of Naram-Sin (SKL)"
+    },
+    {
+      "from": "mes_sharkalisharri",
+      "to": "mes_urnammu",
+      "type": "expansion",
+      "label": "Ur III restores Sumer after Gutian interlude (SKL)"
+    },
+    {
+      "from": "mes_urnammu",
+      "to": "mes_shulgi",
+      "type": "direct",
+      "label": "Son (SKL)"
+    },
+    {
+      "from": "mes_shulgi",
+      "to": "mes_amarsin",
+      "type": "direct",
+      "label": "Son (SKL)"
+    },
+    {
+      "from": "mes_amarsin",
+      "to": "mes_shusin",
+      "type": "direct",
+      "label": "Brother/Son (SKL)"
+    },
+    {
+      "from": "mes_shusin",
+      "to": "mes_ibbisin",
+      "type": "direct",
+      "label": "Son (SKL)"
+    },
+    {
+      "from": "mes_ibbisin",
+      "to": "bib_terah",
+      "type": "cognate",
+      "label": "Fall of Ur III (c. 2004 BCE) = historical horizon of Terah & Abraham leaving Ur of the Chaldees (Gen 11:31)"
+    },
+    {
+      "from": "mes_ibbisin",
+      "to": "mes_sumuabum",
+      "type": "expansion",
+      "label": "Fall of Ur III gives rise to Amorite Dynasty of Babylon"
+    },
+    {
+      "from": "mes_sumuabum",
+      "to": "mes_hammurabi",
+      "type": "direct",
+      "label": "Sin-Muballit -> Hammurabi (Babylonian King List)"
+    },
+    {
+      "from": "bib_amorite",
+      "to": "mes_sumuabum",
+      "type": "cognate",
+      "label": "First Dynasty of Babylon was ethnically Amorite (Amurru)"
+    },
+    {
       "from": "bib_nimrod",
       "to": "mes_sargon",
       "type": "cognate",
       "label": "Gen 10:10 explicitly names Accad (Akkad) & Nineveh"
     },
     {
-      "from": "bib_asshur",
-      "to": "mes_sargon",
-      "type": "cognate",
-      "label": "Asshur = Assyria (Mesopotamian sphere)"
+      "from": "bib_nimrod",
+      "to": "mes_assyria_kings",
+      "type": "parallel",
+      "label": "Assyriologists compare Nimrod to Tukulti-Ninurta I, conqueror of Babylon"
     },
     {
-      "from": "eno_ohya_hahya",
-      "to": "mes_uruk_gilgamesh",
-      "type": "expansion",
-      "label": "Qumran Book of Giants (4Q530/4Q531) literally names Gilgamesh as one of the Giants!"
+      "from": "bib_asshur",
+      "to": "mes_assyria_kings",
+      "type": "cognate",
+      "label": "Biblical Asshur = historical Assyria (Ashur & Nineveh)"
     },
     {
       "from": "bib_moses",
@@ -7989,16 +10489,118 @@
       "label": "Reed basket sealed with bitumen placed in river (Exod 2 <-> Sargon Birth Legend)"
     },
     {
+      "from": "ir_fravak",
+      "to": "ir_taz",
+      "type": "direct",
+      "label": "Child (Bundahishn Ch. 14, 35)"
+    },
+    {
+      "from": "ir_fravak",
+      "to": "ir_bund_mazandaran",
+      "type": "direct",
+      "label": "Child (Bundahishn Ch. 14)"
+    },
+    {
+      "from": "ir_fravak",
+      "to": "ir_bund_hindug",
+      "type": "direct",
+      "label": "Child (Bundahishn Ch. 14)"
+    },
+    {
+      "from": "ir_fravak",
+      "to": "ir_bund_chin",
+      "type": "direct",
+      "label": "Child (Bundahishn Ch. 14)"
+    },
+    {
+      "from": "ir_fravak",
+      "to": "ir_bund_rum",
+      "type": "direct",
+      "label": "Child (Bundahishn Ch. 14)"
+    },
+    {
       "from": "hub_primordial",
       "to": "ir_gayomart",
       "type": "parallel",
-      "label": "First mortal -> Mashya & Mashyana"
+      "label": "First mortal human created by Ahura Mazda"
     },
     {
       "from": "ir_gayomart",
-      "to": "ir_vivanghant",
+      "to": "ir_mashya_mashyana",
       "type": "direct",
-      "label": "Siamak -> Hushang -> Tahmuras -> Vivanghant"
+      "label": "Rhubarb plant from Gayomart's seed -> Mashya & Mashyana (Bundahishn 14)"
+    },
+    {
+      "from": "ir_mashya_mashyana",
+      "to": "ir_fravak",
+      "type": "direct",
+      "label": "Twin offspring -> Fravak & Fravakain (Bundahishn 14)"
+    },
+    {
+      "from": "ir_taz",
+      "to": "ir_merdas",
+      "type": "direct",
+      "label": "Descendant of Taz (Bundahishn 35 / Shahnameh)"
+    },
+    {
+      "from": "ir_merdas",
+      "to": "ir_zahhak",
+      "type": "direct",
+      "label": "Son (Shahnameh)"
+    },
+    {
+      "from": "hub_world_division",
+      "to": "ir_fravak",
+      "type": "parallel",
+      "label": "Bundahishn Ch. 14: 15 Races across 7 Climes"
+    },
+    {
+      "from": "bib_noah",
+      "to": "ir_gayomart",
+      "type": "syncretic",
+      "label": "al-Tabari & medieval chronicles equate Gayomart with Adam or Noah's kin"
+    },
+    {
+      "from": "ir_taz",
+      "to": "bib_joktan",
+      "type": "parallel",
+      "label": "Bundahishn's Taz (Arabia) <-> Arabian Qahtan/Ishmael ethnography"
+    },
+    {
+      "from": "ir_bund_hindug",
+      "to": "ved_vaivasvata_manu",
+      "type": "parallel",
+      "label": "Zoroastrian Bundahishn ethnographic link to India"
+    },
+    {
+      "from": "ir_bund_chin",
+      "to": "chn_huangdi",
+      "type": "parallel",
+      "label": "Zoroastrian Bundahishn ethnographic link to China (Chin)"
+    },
+    {
+      "from": "ir_mashya_mashyana",
+      "to": "ir_siamak",
+      "type": "direct",
+      "label": "Siamak & Nashak (Bundahishn 14; son of Keyumars in Shahnameh)"
+    },
+    {
+      "from": "ir_siamak",
+      "to": "ir_hushang",
+      "type": "direct",
+      "label": "Son (Shahnameh / Bundahishn 35)"
+    },
+    {
+      "from": "ir_hushang",
+      "to": "ir_tahmuras",
+      "type": "direct",
+      "label": "Son/Descendant (Shahnameh / Bundahishn)"
+    },
+    {
+      "from": "ir_tahmuras",
+      "to": "ir_vivanghant",
+      "type": "expansion",
+      "label": "Pishdadian lineage to Vivanghant (Bundahishn 35)"
     },
     {
       "from": "ir_vivanghant",
@@ -8008,9 +10610,39 @@
     },
     {
       "from": "ir_yima",
+      "to": "ir_shahrnaz_arnavaz",
+      "type": "direct",
+      "label": "Daughters/sisters of Jamshid (Shahnameh)"
+    },
+    {
+      "from": "ir_shahrnaz_arnavaz",
       "to": "ir_fereydun",
       "type": "direct",
-      "label": "Pishdadian lineage via Abtin/Athwya (Shahnameh)"
+      "label": "Wives of Fereydun (mothers of Salm, Tur & Iraj)"
+    },
+    {
+      "from": "ir_yima",
+      "to": "ir_athwya",
+      "type": "direct",
+      "label": "Descendant of Jamshid via Pur-Tora -> Abtin/Athwya (Bundahishn 35)"
+    },
+    {
+      "from": "ir_athwya",
+      "to": "ir_fereydun",
+      "type": "direct",
+      "label": "Son (Avesta Yasna 9.7; Shahnameh)"
+    },
+    {
+      "from": "hub_flood",
+      "to": "ir_yima",
+      "type": "parallel",
+      "label": "Vara enclosure against cataclysmic winter/meltwater"
+    },
+    {
+      "from": "hub_world_division",
+      "to": "ir_fereydun",
+      "type": "parallel",
+      "label": "Tripartite division of Eurasia: Salm, Tur, Iraj"
     },
     {
       "from": "ir_fereydun",
@@ -8022,7 +10654,7 @@
       "from": "ir_fereydun",
       "to": "ir_tur",
       "type": "direct",
-      "label": "2nd son (Turan / Steppe)"
+      "label": "2nd son (Turan / Central Asia)"
     },
     {
       "from": "ir_fereydun",
@@ -8031,40 +10663,352 @@
       "label": "3rd son (Iran / Eranshahr)"
     },
     {
+      "from": "ir_tur",
+      "to": "ir_zadsham",
+      "type": "direct",
+      "label": "Son (Bundahishn 35)"
+    },
+    {
+      "from": "ir_zadsham",
+      "to": "ir_pashang",
+      "type": "direct",
+      "label": "Son (Bundahishn 35)"
+    },
+    {
+      "from": "ir_pashang",
+      "to": "ir_afrasiab",
+      "type": "direct",
+      "label": "Son (Shahnameh)"
+    },
+    {
+      "from": "ir_pashang",
+      "to": "ir_garsivaz_aghriras",
+      "type": "direct",
+      "label": "Sons (Shahnameh)"
+    },
+    {
+      "from": "ir_afrasiab",
+      "to": "ir_farangis",
+      "type": "direct",
+      "label": "Daughter (Shahnameh)"
+    },
+    {
       "from": "ir_iraj",
-      "to": "ir_medes_achaemenids",
+      "to": "ir_mahafarid",
+      "type": "direct",
+      "label": "Daughter (Shahnameh)"
+    },
+    {
+      "from": "ir_mahafarid",
+      "to": "ir_manuchehr",
+      "type": "direct",
+      "label": "Descendant of Iraj -> Manuchehr (Shahnameh)"
+    },
+    {
+      "from": "ir_manuchehr",
+      "to": "ir_nowzar",
+      "type": "direct",
+      "label": "Son (Shahnameh)"
+    },
+    {
+      "from": "ir_nowzar",
+      "to": "ir_tus_gostaham",
+      "type": "direct",
+      "label": "Sons (Shahnameh)"
+    },
+    {
+      "from": "ir_manuchehr",
+      "to": "ir_zav",
       "type": "expansion",
-      "label": "Iraj -> Kayanian -> Historical Medes & Persians"
+      "label": "Descendant of Manuchehr (Bundahishn 35)"
     },
     {
-      "from": "hub_flood",
-      "to": "ir_yima",
-      "type": "parallel",
-      "label": "Vara enclosure against cataclysmic winter/melt"
+      "from": "ir_zav",
+      "to": "ir_garshasp",
+      "type": "direct",
+      "label": "Son/Successor (Shahnameh)"
     },
     {
-      "from": "hub_world_division",
-      "to": "ir_fereydun",
-      "type": "parallel",
-      "label": "Tripartite division: Salm / Tur / Iraj"
+      "from": "ir_garshasp",
+      "to": "ir_nariman",
+      "type": "direct",
+      "label": "Sistan heroic descent"
+    },
+    {
+      "from": "ir_nariman",
+      "to": "ir_sam",
+      "type": "direct",
+      "label": "Son (Shahnameh)"
+    },
+    {
+      "from": "ir_sam",
+      "to": "ir_zal",
+      "type": "direct",
+      "label": "Son (Shahnameh)"
+    },
+    {
+      "from": "ir_zahhak",
+      "to": "ir_mehrab",
+      "type": "direct",
+      "label": "Descendant ruling Kabul (Shahnameh)"
+    },
+    {
+      "from": "ir_mehrab",
+      "to": "ir_rudabeh",
+      "type": "direct",
+      "label": "Daughter (Shahnameh)"
+    },
+    {
+      "from": "ir_zal",
+      "to": "ir_rostam",
+      "type": "direct",
+      "label": "Son via Rudabeh (Shahnameh)"
+    },
+    {
+      "from": "ir_rudabeh",
+      "to": "ir_rostam",
+      "type": "direct",
+      "label": "Mother of Rostam"
+    },
+    {
+      "from": "ir_zal",
+      "to": "ir_shaghad",
+      "type": "direct",
+      "label": "Son (Shahnameh)"
+    },
+    {
+      "from": "ir_rostam",
+      "to": "ir_sohrab",
+      "type": "direct",
+      "label": "Son via Tahmineh of Samangan (Turan)"
+    },
+    {
+      "from": "ir_rostam",
+      "to": "ir_faramarz",
+      "type": "direct",
+      "label": "Children of Rostam"
+    },
+    {
+      "from": "ir_zoroaster",
+      "to": "ir_zor_isatvastra",
+      "type": "direct",
+      "label": "Child (Bundahishn 35:56, Yasht 13.98)"
+    },
+    {
+      "from": "ir_zoroaster",
+      "to": "ir_zor_urvatatnara",
+      "type": "direct",
+      "label": "Child (Bundahishn 35:56)"
+    },
+    {
+      "from": "ir_zoroaster",
+      "to": "ir_zor_hvarechithra",
+      "type": "direct",
+      "label": "Child (Bundahishn 35:56)"
+    },
+    {
+      "from": "ir_zoroaster",
+      "to": "ir_zor_freni",
+      "type": "direct",
+      "label": "Child (Bundahishn 35:56, Yasht 13.139)"
+    },
+    {
+      "from": "ir_zoroaster",
+      "to": "ir_zor_thriti",
+      "type": "direct",
+      "label": "Child (Bundahishn 35:56, Yasht 13.139)"
+    },
+    {
+      "from": "ir_zoroaster",
+      "to": "ir_zor_pouruchista",
+      "type": "direct",
+      "label": "Child (Avesta (Yasna 53), Bundahishn 35:56)"
+    },
+    {
+      "from": "ir_manuchehr",
+      "to": "ir_kay_kavad",
+      "type": "expansion",
+      "label": "Descendant of Manuchehr (Bundahishn 35)"
+    },
+    {
+      "from": "ir_kay_kavad",
+      "to": "ir_kay_apiveh",
+      "type": "direct",
+      "label": "Son (Bundahishn 35)"
+    },
+    {
+      "from": "ir_kay_kavad",
+      "to": "ir_kay_kavus",
+      "type": "direct",
+      "label": "Son (Shahnameh / Bundahishn)"
+    },
+    {
+      "from": "ir_kay_kavus",
+      "to": "ir_siyavash",
+      "type": "direct",
+      "label": "Son (Shahnameh)"
+    },
+    {
+      "from": "ir_siyavash",
+      "to": "ir_farud",
+      "type": "direct",
+      "label": "Son via Jarireh (Shahnameh)"
+    },
+    {
+      "from": "ir_siyavash",
+      "to": "ir_kay_khosrow",
+      "type": "direct",
+      "label": "Son via Farangis (Shahnameh)"
+    },
+    {
+      "from": "ir_farangis",
+      "to": "ir_kay_khosrow",
+      "type": "direct",
+      "label": "Mother of Kay Khosrow (uniting Turan & Iran!)"
+    },
+    {
+      "from": "ir_kay_apiveh",
+      "to": "ir_kay_lohrasp",
+      "type": "direct",
+      "label": "Kay Apiveh -> Kay Pishin -> Kay Lohrasp (Bundahishn 35)"
+    },
+    {
+      "from": "ir_kay_khosrow",
+      "to": "ir_kay_lohrasp",
+      "type": "expansion",
+      "label": "Kay Khosrow passes throne to Kay Lohrasp"
+    },
+    {
+      "from": "ir_kay_lohrasp",
+      "to": "ir_kay_goshtasp",
+      "type": "direct",
+      "label": "Son (Shahnameh / Bundahishn)"
+    },
+    {
+      "from": "ir_kay_goshtasp",
+      "to": "ir_esfandiyar",
+      "type": "direct",
+      "label": "Son (Shahnameh)"
+    },
+    {
+      "from": "ir_esfandiyar",
+      "to": "ir_bahman",
+      "type": "direct",
+      "label": "Son Bahman -> Homai -> Darab -> Dara"
+    },
+    {
+      "from": "ir_manuchehr",
+      "to": "ir_pourushaspa",
+      "type": "expansion",
+      "label": "Bundahishn 35: Manuchehr -> ... -> Spitama -> Pourushaspa"
+    },
+    {
+      "from": "ir_pourushaspa",
+      "to": "ir_zoroaster",
+      "type": "direct",
+      "label": "Pourushaspa + Dughdova -> Zarathustra (Yasna 9.13)"
+    },
+    {
+      "from": "ir_kay_goshtasp",
+      "to": "ir_zoroaster",
+      "type": "expansion",
+      "label": "Kavi Vishtaspa (Goshtasp) champions Zarathustra"
     },
     {
       "from": "bib_madai",
-      "to": "ir_medes_achaemenids",
+      "to": "ir_deioces",
       "type": "cognate",
-      "label": "Madai (Gen 10:2) = Historical Medes (Old Persian Mada)"
+      "label": "Biblical Madai (Gen 10:2) = Historical Medes (Old Persian Mada)"
+    },
+    {
+      "from": "ir_deioces",
+      "to": "ir_cyaxares",
+      "type": "direct",
+      "label": "Phraortes -> Cyaxares -> Astyages (Herodotus)"
+    },
+    {
+      "from": "ir_cyaxares",
+      "to": "ir_mandane",
+      "type": "direct",
+      "label": "Daughter of Astyages (Herodotus)"
     },
     {
       "from": "bib_elam",
-      "to": "ir_medes_achaemenids",
+      "to": "ir_achaemenes",
       "type": "cognate",
-      "label": "Elam (Gen 10:22) = SW Iran / Cyrus King of Anshan"
+      "label": "Achaemenids ruled as Kings of Anshan in Elam (Gen 10:22)"
     },
     {
-      "from": "bib_noah",
-      "to": "ir_gayomart",
-      "type": "syncretic",
-      "label": "al-Tabari & medieval chronicles equate Gayomart with Adam/Noah's kin"
+      "from": "ir_iraj",
+      "to": "ir_achaemenes",
+      "type": "expansion",
+      "label": "Iranian royal continuity from Eranshahr to historical Persia"
+    },
+    {
+      "from": "ir_achaemenes",
+      "to": "ir_cambyses1",
+      "type": "direct",
+      "label": "Teispes -> Cyrus I -> Cambyses I (Cyrus Cylinder)"
+    },
+    {
+      "from": "ir_achaemenes",
+      "to": "ir_hystaspes",
+      "type": "direct",
+      "label": "Teispes -> Ariaramnes -> Arsames -> Hystaspes (Behistun)"
+    },
+    {
+      "from": "ir_cambyses1",
+      "to": "ir_cyrus",
+      "type": "direct",
+      "label": "Son (Cyrus Cylinder)"
+    },
+    {
+      "from": "ir_mandane",
+      "to": "ir_cyrus",
+      "type": "direct",
+      "label": "Mother of Cyrus (uniting Medes/Madai & Persia/Elam!)"
+    },
+    {
+      "from": "ir_cyrus",
+      "to": "ir_cambyses2_atossa",
+      "type": "direct",
+      "label": "Children of Cyrus the Great"
+    },
+    {
+      "from": "ir_hystaspes",
+      "to": "ir_darius1",
+      "type": "direct",
+      "label": "Son (Behistun Inscription)"
+    },
+    {
+      "from": "ir_cambyses2_atossa",
+      "to": "ir_darius1",
+      "type": "direct",
+      "label": "Queen Atossa marries Darius I (uniting both Achaemenid lines)"
+    },
+    {
+      "from": "ir_darius1",
+      "to": "ir_xerxes1",
+      "type": "direct",
+      "label": "Darius I + Atossa -> Xerxes I (Ahasuerus)"
+    },
+    {
+      "from": "ir_xerxes1",
+      "to": "ir_artaxerxes1",
+      "type": "direct",
+      "label": "Son Artaxerxes I -> ... -> Darius III"
+    },
+    {
+      "from": "ir_bahman",
+      "to": "ir_artaxerxes1",
+      "type": "cognate",
+      "label": "Shahnameh's Bahman/Darab/Dara preserves historical memory of Artaxerxes & Darius III"
+    },
+    {
+      "from": "jud_solomon",
+      "to": "ir_cyrus",
+      "type": "cognate",
+      "label": "Ezra 1: Cyrus King of Persia decrees return of Judah's Davidic exiles to Jerusalem"
     },
     {
       "from": "ved_yayati",
@@ -8127,6 +11071,12 @@
       "label": "Son (Shatapatha Brahmana)"
     },
     {
+      "from": "ved_brahma_manu",
+      "to": "ved_trita_aptya",
+      "type": "expansion",
+      "label": "Rigvedic mythic heroes Trita Aptya & Kavi Ushanas"
+    },
+    {
       "from": "ved_vaivasvata_manu",
       "to": "ved_surya_vamsha",
       "type": "direct",
@@ -8161,6 +11111,18 @@
       "to": "ved_yama",
       "type": "cognate",
       "label": "EXACT Proto-Indo-Iranian cognate: Yima = Yama"
+    },
+    {
+      "from": "ir_athwya",
+      "to": "ved_trita_aptya",
+      "type": "cognate",
+      "label": "EXACT Proto-Indo-Iranian cognate: Athwya/Thraetaona = Aptya/Trita"
+    },
+    {
+      "from": "ir_kay_kavus",
+      "to": "ved_trita_aptya",
+      "type": "cognate",
+      "label": "EXACT Proto-Indo-Iranian cognate: Kavi Usan (Kay Kavus) = Kavi Ushanas"
     },
     {
       "from": "hub_flood",

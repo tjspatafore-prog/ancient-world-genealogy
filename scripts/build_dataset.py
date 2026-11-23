@@ -1,13 +1,13 @@
 """
-Modular Ancient World Genealogy Dataset Builder & Validator (Phase 2).
+Modular Ancient World Genealogy Dataset Builder & Validator (Phase 3).
 
 Generates clean modular JSON files under data/modules/ and compiles them into
 data/world_genealogy.json for the interactive web explorer, ensuring zero broken
-links, full provenance tagging, and exhaustive individual person accounting.
+links, full provenance tagging, and exhaustive person-by-person accounting.
 """
 
 import json
-from collections import Counter, deque
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -30,9 +30,9 @@ TRADITIONS = {
 
 LINK_TYPES = {
     "direct":    "Explicit parent-child or biological descent within primary canonical/ancient texts",
-    "expansion": "Matriarchs, additional children, intermediate links, or migrations supplied by extra-biblical or secondary chronicles (Book of Jasher, Jubilees, 1 Enoch, Qumran, Shiji, Puranas)",
-    "cognate":   "Linguistically or historically attested cross-tradition identity/ethnonym bridge (e.g., Vedic Vivasvan = Avestan Vivanghant; Biblical Madai = Medes; Mizraim = Phoenician Misor/Egypt)",
-    "parallel":  "Independent structural/archetypal parallel across ancient corpora (Great Flood survivors, 7th antediluvian sage, tripartite world division)",
+    "expansion": "Matriarchs, additional children, royal successions, or migrations supplied by extra-biblical or secondary chronicles (Book of Jasher, Jubilees, 1 Enoch, Sumerian King List, Bundahishn, Shahnameh, Shiji, Puranas)",
+    "cognate":   "Linguistically or historically attested cross-tradition identity/ethnonym bridge (e.g., Vedic Vivasvan/Yama/Aptya = Avestan Vivanghant/Yima/Athwya; Biblical Madai = Medes; Mizraim = Phoenician Misor/Egypt)",
+    "parallel":  "Independent structural/archetypal parallel across ancient corpora (Great Flood survivors, 7th antediluvian sage, Adapa/Adam, Sargon/Moses basket, tripartite world division)",
     "syncretic": "Ancient, Greco-Egyptian, or medieval chronicler identification bridging figures across cultures (e.g., Enoch = Thoth/Saurid; Moses = Osarseph/Musaeus; Japheth = Oghuz Khagan; Zepho = King of Kittim/Rome)"
 }
 
@@ -57,21 +57,17 @@ def E(src, dst, typ, label):
 
 
 def add_children(nodes, edges, parent_id, tradition, tier, era, items, default_edge="direct", default_sources=None):
-    """Helper to register a batch of individual children under a parent node cleanly."""
     for item in items:
-        if isinstance(item, tuple):
-            cid, cname = item[0], item[1]
-            extra = item[2] if len(item) > 2 else {}
-        else:
-            raise ValueError("Item must be tuple")
+        cid, cname = item[0], item[1]
+        extra = item[2] if len(item) > 2 else {}
         nodes.append(N(
             cid,
             cname,
             extra.get("tradition", tradition),
             extra.get("tier", tier),
             extra.get("era", era),
-            extra.get("role", "Individual / Tribal Eponym"),
-            extra.get("sources", default_sources or ["Genesis"]),
+            extra.get("role", "Individual / Lineage Member"),
+            extra.get("sources", default_sources or ["Primary Text"]),
             extra.get("notes", f"Listed descendant of {parent_id}."),
             altNames=extra.get("altNames", []),
             major=extra.get("major", False),
@@ -80,753 +76,18 @@ def add_children(nodes, edges, parent_id, tradition, tier, era, items, default_e
             parent_id,
             cid,
             extra.get("edge_type", default_edge),
-            extra.get("edge_label", f"Child ({', '.join(extra.get('sources', default_sources or ['Genesis']))})"),
+            extra.get("edge_label", f"Child ({', '.join(extra.get('sources', default_sources or ['Primary Text']))})"),
         ))
 
 
-def build_module_01_antediluvian():
-    nodes, edges = [], []
+def load_existing_module(filename):
+    path = MODULES_DIR / f"{filename}.json"
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
-    # Global Archetype Hubs
-    nodes += [
-        N("hub_primordial", "Primordial Human Ancestors", "archetype", 0, "Primordial / Creation",
-          "Comparative Convergence Hub", ["Comparative Mythology"],
-          "Structural hub linking the first humans fashioned from clay, earth, or cosmic life across Near Eastern, Indo-Iranian, and East Asian texts.",
-          ["First Couple Archetype"], major=True),
-        N("hub_flood", "Great Flood / Cataclysm Survivors", "archetype", 4, "Flood Horizon",
-          "Comparative Convergence Hub", ["Genesis 6-9", "Atrahasis", "Gilgamesh XI", "Shatapatha Brahmana 1.8.1", "Vendidad 2", "Shangshu"],
-          "Global ancestral bottleneck motif where a righteous survivor preserves humanity and restarts post-cataclysm lineages.",
-          ["Diluvial Bottleneck"], major=True),
-        N("hub_world_division", "Post-Flood Division of Nations", "archetype", 5, "Early Post-Flood",
-          "Comparative Convergence Hub", ["Genesis 10", "Jubilees 8-9", "Book of Jasher 7 & 10", "Shahnameh", "Mahabharata", "Shiji Ch. 1"],
-          "Genealogical maps dividing humanity across Eurasia and Africa through sons of a universal ancestor.",
-          ["Ancient Tables of Nations"], major=True),
-    ]
 
-    # Adam, Eve & Children
-    nodes += [
-        N("bib_adam", "Adam & Eve (Hawwah)", "biblical", 1, "Creation (Gen 1-5)",
-          "Primeval Progenitors", ["Genesis 2-5", "Jubilees 3-4", "Book of Jasher 1"],
-          "First human couple. Book of Jasher 1:12-13 notes they bore two sons (Cain, Abel) and three daughters; Jubilees 4 explicitly names their daughters Awan and Azura.",
-          ["Adamah", "Hawwah"], major=True),
-        N("bib_abel", "Abel (Hevel)", "biblical", 2, "Antediluvian Gen 2",
-          "Second Son of Adam & Eve", ["Genesis 4:2-8", "Jubilees 4:1-4", "Book of Jasher 1:12-25"],
-          "Shepherd slain by Cain. In Jasher 1:13-25 the conflict involves the division of fields, flocks, and twin sisters.",
-          ["Hevel", "Habil"]),
-        N("bib_cain", "Cain (Qayin) & Awan", "biblical", 2, "Antediluvian Gen 2",
-          "Firstborn / Builder of City of Enoch", ["Genesis 4:1-17", "Jubilees 4:9", "Book of Jasher 1"],
-          "Founder of the Cainite line. Jubilees 4:9 names his wife Awan (his sister). Jasher 2:26-27 recounts his accidental death by blind Lamech's arrow.",
-          ["Qayin", "Wife: Awan (Jub 4:9)"], major=True),
-        N("bib_seth", "Seth (Shet) & Azura", "biblical", 2, "Antediluvian Gen 2",
-          "Sethite Patriarch", ["Genesis 4:25, 5:3", "Jubilees 4:11", "Book of Jasher 2:1", "Josephus Ant. 1.2.3"],
-          "Appointed in place of Abel. Jubilees 4:11 names his wife Azura. Josephus credits Seth's descendants with inventing astronomy and inscribing it on two pillars to survive flood and fire.",
-          ["Shet", "Wife: Azura (Jub 4:11)"], major=True),
-    ]
-    edges += [
-        E("hub_primordial", "bib_adam", "parallel", "Primeval couple from dust/adamah"),
-        E("bib_adam", "bib_cain", "direct", "Firstborn son (Gen 4:1); wife Awan (Jub 4:9)"),
-        E("bib_adam", "bib_abel", "direct", "Second son (Gen 4:2)"),
-        E("bib_adam", "bib_seth", "direct", "Son (Gen 4:25); wife Azura (Jub 4:11)"),
-    ]
-
-    # Full Cainite Line (individual nodes!)
-    cain_chain = [
-        ("bib_cain_enoch", "Enoch (son of Cain)", "bib_cain", "Gen 4:17; Jasher 1:35", "Eponym of the first city built by Cain."),
-        ("bib_irad", "Irad", "bib_cain_enoch", "Gen 4:18; Jasher 2:16", "Son of Cainite Enoch."),
-        ("bib_mehujael", "Mehujael", "bib_irad", "Gen 4:18; Jasher 2:16", "Son of Irad."),
-        ("bib_methushael", "Methushael", "bib_mehujael", "Gen 4:18; Jasher 2:17", "Son of Mehujael; father of Cainite Lamech."),
-        ("bib_cain_lamech", "Lamech (Cainite)", "bib_methushael", "Gen 4:18-24; Jasher 2:17-37", "Marries Adah and Zillah (daughters of Sethite Cainan in Jasher 2:18!). Father of Jabal, Jubal, Tubal-cain, and Naamah."),
-    ]
-    for cid, cname, pid, src, note in cain_chain:
-        nodes.append(N(cid, cname, "biblical", 3, "Antediluvian Cainite Line", "Cainite Descendant", src.split("; "), note, major=(cid == "bib_cain_lamech")))
-        edges.append(E(pid, cid, "direct", f"Son ({src})"))
-
-    add_children(nodes, edges, "bib_cain_lamech", "biblical", 3, "Antediluvian Gen 8 (Cainite)", [
-        ("bib_jabal", "Jabal", {"sources": ["Genesis 4:20", "Book of Jasher 2:20"], "role": "Father of Nomadic Herders", "notes": "Son of Lamech & Adah; father of those who dwell in tents and keep livestock."}),
-        ("bib_jubal", "Jubal", {"sources": ["Genesis 4:21", "Book of Jasher 2:20"], "role": "Father of Musicians", "notes": "Son of Lamech & Adah; inventor of harp and flute/organ."}),
-        ("bib_tubalcain", "Tubal-cain", {"sources": ["Genesis 4:22", "Book of Jasher 2:25-27"], "role": "Master of Bronze & Iron Metallurgy", "notes": "Son of Lamech & Zillah. Jasher 2:26-27 relates how he guided blind Lamech's bow, accidentally killing Cain before being slain by Lamech."}),
-        ("bib_naamah_cain", "Naamah (dau. of Lamech)", {"sources": ["Genesis 4:22", "Genesis Rabbah 23:3"], "role": "Sister of Tubal-cain", "notes": "Named in Genesis 4:22. Rabbinic tradition (Genesis Rabbah 23:3) identifies her as Noah's wife (while Book of Jasher 5:15 names Noah's wife as Naamah daughter of Enoch)."}),
-    ])
-
-    # Full Sethite Antediluvian Line (individual nodes + ALL Jasher children!)
-    nodes += [
-        N("bib_enosh", "Enosh & Noam", "biblical", 2, "Antediluvian Gen 3", "3rd Patriarch",
-          ["Genesis 5:6-11", "Jubilees 4:13", "Book of Jasher 2:2-7"],
-          "Jubilees 4:13 names his wife Noam. Jasher 2:4-7 says idol worship began in his days and the sea (Gihon) flooded a third of the earth.",
-          ["Enos", "Wife: Noam (Jub 4:13)"]),
-        N("bib_kenan", "Kenan (Cainan) & Mualeleth", "biblical", 2, "Antediluvian Gen 4", "4th Patriarch",
-          ["Genesis 5:9-14", "Jubilees 4:14", "Book of Jasher 2:8-15"],
-          "Jubilees 4:14 names his wife Mualeleth. Book of Jasher 2:11-12 says Kenan ruled wisely, inscribed prophecies of the Flood on stone tablets, and fathered 3 sons (Mahalalel, Enan, Mered) and 2 daughters (Adah, Zillah).",
-          ["Cainan", "Wife: Mualeleth (Jub 4:14)"], major=True),
-        N("bib_mahalalel", "Mahalalel & Dinah", "biblical", 3, "Antediluvian Gen 5", "5th Patriarch",
-          ["Genesis 5:12-17", "Jubilees 4:15", "Book of Jasher 2:11-15"],
-          "Jubilees 4:15 names his wife Dinah, daughter of Barakiel.",
-          ["Maleleel", "Wife: Dinah (Jub 4:15)"]),
-        N("bib_jared", "Jared (Yered) & Baraka", "biblical", 3, "Antediluvian Gen 6", "6th Patriarch",
-          ["Genesis 5:15-20", "1 Enoch 6:6", "Jubilees 4:15-16", "Book of Jasher 2:37"],
-          "Jubilees 4:16 names his wife Baraka (dau. of Rasujal). 1 Enoch 6 and Jubilees 4:15 connect his name ('descent') to the descent of the Watchers on Mount Hermon.",
-          ["Yered", "Wife: Baraka (Jub 4:16)"], major=True),
-        N("bib_enoch", "Enoch (Khanokh) & Edni", "biblical", 3, "Antediluvian Gen 7 (365 yrs)", "7th Patriarch / Scribe of Righteousness",
-          ["Genesis 5:21-24", "1 Enoch 1-108", "Jubilees 4:17-25", "Book of Jasher 3"],
-          "7th from Adam; lived 365 years and ascended to heaven. Jubilees 4:17 credits him as first to learn writing, calendar, and astronomy. Book of Jasher 3:1 names his 3 sons (Methuselah, Elisha, Elimelech) and 2 daughters (Melca, Nahmah/Naamah). Widely equated in Greco-Egyptian & Arabic lore with Thoth/Hermes/King Saurid and compared to 7th Sumerian king Enmeduranki!",
-          ["Idris (Arabic)", "Thoth / Hermes (Syncretic)", "King Saurid (Egyptian-Arabic lore)", "Wife: Edni (Jub 4:20)"], major=True),
-        N("bib_methuselah", "Methuselah & Edna", "biblical", 3, "Antediluvian Gen 8 (969 yrs)", "8th Patriarch / Longest-Lived",
-          ["Genesis 5:25-27", "1 Enoch 82 & 106", "Jubilees 4:27", "Book of Jasher 3-5"],
-          "Custodian of Enoch's books. Jubilees 4:27 names his wife Edna. Jasher 5:35 also names his son Eliakim, whose 3 daughters marry Noah's 3 sons!",
-          ["Metushelach", "Wife: Edna (Jub 4:27)"], major=True),
-        N("bib_lamech_seth", "Lamech (Sethite) & Betenos / Ashmua", "biblical", 3, "Antediluvian Gen 9", "9th Patriarch / Father of Noah",
-          ["Genesis 5:28-31", "1 Enoch 106", "Genesis Apocryphon (1Q20)", "Jubilees 4:28", "Book of Jasher 4:11-14"],
-          "Jubilees 4:28 names his wife Betenos; Book of Jasher 4:11 names her Ashmua, daughter of Elisha son of Enoch! 1 Enoch 106 & Qumran 1Q20 recount his awe at Noah's luminous birth.",
-          ["Wife: Betenos (Jub)", "Wife: Ashmua (Jasher 4:11)"]),
-        N("bib_noah", "Noah (Noach) & Emzara / Naamah", "biblical", 4, "Flood Horizon (Gen 6-9)", "10th Patriarch / Universal Post-Flood Ancestor",
-          ["Genesis 5:29-9:29", "Jubilees 4:33, 5-10", "1 Enoch 106", "Book of Jasher 4-6"],
-          "Called Noah by Lamech and Menahem by Methuselah (Jasher 4:14). Jubilees 4:33 names his wife Emzara; Jasher 5:15 names her Naamah daughter of Enoch (while Genesis Rabbah identifies her with Cainite Naamah). Father of Japheth, Ham, and Shem.",
-          ["Nuh (Arabic)", "Menahem (Jasher 4:14)", "Wife: Emzara (Jub) / Naamah (Jasher)"], major=True),
-    ]
-    edges += [
-        E("bib_seth", "bib_enosh", "direct", "Son (Gen 4:26; 5:6)"),
-        E("bib_enosh", "bib_kenan", "direct", "Son (Gen 5:9)"),
-        E("bib_kenan", "bib_mahalalel", "direct", "Son (Gen 5:12; Jasher 2:11)"),
-        E("bib_mahalalel", "bib_jared", "direct", "Son (Gen 5:15)"),
-        E("bib_jared", "bib_enoch", "direct", "Son (Gen 5:18)"),
-        E("bib_enoch", "bib_methuselah", "direct", "Son (Gen 5:21; Jasher 3:1)"),
-        E("bib_methuselah", "bib_lamech_seth", "direct", "Son (Gen 5:25; Jasher 4:1)"),
-        E("bib_lamech_seth", "bib_noah", "direct", "Son (Gen 5:28-29; Jasher 4:14)"),
-        E("bib_naamah_cain", "bib_noah", "expansion", "Genesis Rabbah 23:3 identifies Cainite Naamah as Noah's wife"),
-        E("hub_flood", "bib_noah", "parallel", "Ark on Ararat (Genesis / Jubilees / Jasher)"),
-    ]
-
-    # Extra-Biblical children of Kenan (Jasher 2:11)
-    add_children(nodes, edges, "bib_kenan", "biblical", 3, "Antediluvian Gen 5 (Jasher)", [
-        ("jas_enan", "Enan (son of Kenan)", {"edge_type": "expansion", "sources": ["Book of Jasher 2:11"], "notes": "Listed in Book of Jasher 2:11 as one of Kenan's three sons alongside Mahalalel and Mered."}),
-        ("jas_mered", "Mered (son of Kenan)", {"edge_type": "expansion", "sources": ["Book of Jasher 2:11"], "notes": "Listed in Book of Jasher 2:11 as one of Kenan's three sons."}),
-        ("jas_adah_kenan", "Adah (dau. of Kenan)", {"edge_type": "expansion", "sources": ["Book of Jasher 2:11, 2:18"], "notes": "In Book of Jasher 2:18, Adah daughter of Sethite Kenan marries Cainite Lamech (mother of Jabal & Jubal), bridging the Sethite and Cainite lines!"}),
-        ("jas_zillah_kenan", "Zillah (dau. of Kenan)", {"edge_type": "expansion", "sources": ["Book of Jasher 2:11, 2:18"], "notes": "In Book of Jasher 2:18, Zillah daughter of Sethite Kenan marries Cainite Lamech (mother of Tubal-cain & Naamah)."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 2:11"])
-    edges += [
-        E("jas_adah_kenan", "bib_cain_lamech", "expansion", "Jasher 2:18: marries Cainite Lamech (Sethite-Cainite union)"),
-        E("jas_zillah_kenan", "bib_cain_lamech", "expansion", "Jasher 2:18: marries Cainite Lamech (Sethite-Cainite union)"),
-    ]
-
-    # Extra-Biblical children of Enoch (Jasher 3:1) & Methuselah (Jasher 5:35)
-    add_children(nodes, edges, "bib_enoch", "biblical", 3, "Antediluvian Gen 8 (Jasher)", [
-        ("jas_elisha_enoch", "Elisha (son of Enoch)", {"sources": ["Book of Jasher 3:1, 4:11"], "notes": "Son of Enoch in Jasher 3:1; father of Ashmua, who marries Lamech and births Noah (Jasher 4:11)!"}),
-        ("jas_elimelech_enoch", "Elimelech (son of Enoch)", {"sources": ["Book of Jasher 3:1"], "notes": "One of three sons of Enoch named in Book of Jasher 3:1."}),
-        ("jas_melca_enoch", "Melca (dau. of Enoch)", {"sources": ["Book of Jasher 3:1"], "notes": "Daughter of Enoch named in Book of Jasher 3:1."}),
-        ("jas_naamah_enoch", "Naamah (dau. of Enoch)", {"sources": ["Book of Jasher 3:1, 5:15"], "notes": "Named in Book of Jasher 3:1 & 5:15 as daughter of Enoch who marries Noah (at age 580) and becomes mother of Shem, Ham, and Japheth!"}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 3:1"])
-    edges += [
-        E("jas_naamah_enoch", "bib_noah", "expansion", "Jasher 5:15: Wife of Noah"),
-        E("jas_elisha_enoch", "bib_lamech_seth", "expansion", "Jasher 4:11: Daughter Ashmua marries Lamech"),
-    ]
-
-    add_children(nodes, edges, "bib_methuselah", "biblical", 3, "Antediluvian Gen 9 (Jasher)", [
-        ("jas_eliakim", "Eliakim (son of Methuselah)", {"sources": ["Book of Jasher 5:35"], "notes": "Named in Book of Jasher 5:35 as son of Methuselah whose three daughters Noah chose as wives for Shem, Ham, and Japheth."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 5:35"])
-
-    # 1 Enoch Watchers & Qumran Book of Giants
-    nodes += [
-        N("eno_watchers", "The Watchers (Semyaza & Azazel)", "biblical", 3, "Antediluvian Gen 6 (1 Enoch)",
-          "Angelic Watchers (Grigori)", ["Genesis 6:1-4", "1 Enoch 6-16", "Jubilees 5:1-10"],
-          "200 Watchers descend on Mount Hermon in the days of Jared; chiefs include Semyaza, Azazel (metallurgy/weapons), Araqiel, Kokabiel, Baraqiel, Armaros, Penemue, and Gadreel.",
-          ["Grigori", "Bene Elohim"], major=True),
-        N("eno_ohya_hahya", "Ohya & Hahya (Nephilim Giants)", "biblical", 3, "Antediluvian (Book of Giants)",
-          "Sons of Semyaza", ["Qumran Book of Giants (4Q530, 4Q531)", "1 Enoch 7"],
-          "Named Giant brothers in the Dead Sea Scrolls Book of Giants who dream of the impending Flood and send Mahaway to ask Enoch to interpret it.",
-          ["Ohyah & Hahyah", "Nephilim"]),
-        N("eno_mahaway", "Mahaway (Giant Messenger)", "biblical", 3, "Antediluvian (Book of Giants)",
-          "Son of Watcher Baraqiel", ["Qumran Book of Giants (4Q530)"],
-          "Winged Giant son of Baraqiel who flies across the world to consult Enoch on behalf of the Nephilim."),
-    ]
-    edges += [
-        E("bib_jared", "eno_watchers", "expansion", "1 Enoch 6:6: Watchers descend on Mt. Hermon in Jared's days"),
-        E("eno_watchers", "eno_ohya_hahya", "expansion", "Semyaza + human wives -> Nephilim/Giants (4Q530)"),
-        E("eno_watchers", "eno_mahaway", "expansion", "Baraqiel -> Mahaway (Qumran Book of Giants)"),
-        E("eno_mahaway", "bib_enoch", "expansion", "Consults Enoch to interpret the Giants' Flood dreams (4Q530)"),
-    ]
-
-    return {"module": "01_antediluvian", "title": "Primordial Hubs & Biblical/Extra-Biblical Antediluvian Era", "nodes": nodes, "edges": edges}
-
-
-def build_module_02_table_of_nations():
-    nodes, edges = [], []
-
-    # Three Sons of Noah
-    nodes += [
-        N("bib_ham", "Ham (Cham) & Na'eltama'uk", "biblical", 5, "Post-Flood Gen 1", "Progenitor of Cush, Mizraim, Phut, Canaan",
-          ["Genesis 10:6-20", "Jubilees 7:16, 8:22-24", "Book of Jasher 7:10-13"],
-          "Assigned Africa and southern lands in Jubilees 8. Father of Cush, Mizraim (Egypt), Phut (Libya/Punt), and Canaan.",
-          ["Cham", "Wife: Na'eltama'uk (Jub 7:16)"], major=True),
-        N("bib_shem", "Shem (Sem) & Sedeqetelebab", "biblical", 5, "Post-Flood Gen 1", "Progenitor of Semitic & Near Eastern Nations",
-          ["Genesis 10:21-31", "Jubilees 7:16, 8:12-21", "Book of Jasher 7:14-22"],
-          "Assigned central Asia from the Mediterranean to India (Tinas) in Jubilees 8. Father of Elam, Asshur, Arphaxad, Lud, and Aram.",
-          ["Sam (Arabic)", "Wife: Sedeqetelebab (Jub 7:16)"], major=True),
-        N("bib_japheth", "Japheth (Yefet) & Adataneses", "biblical", 5, "Post-Flood Gen 1", "Progenitor of Northern Eurasian Nations",
-          ["Genesis 10:2-5", "Jubilees 7:16, 8:25-30", "Book of Jasher 7:3-9, 10"],
-          "Assigned Europe, Anatolia, Iranian highlands, and Northern Eurasia in Jubilees 8. Father of Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras.",
-          ["Yefet", "Yafith (Arabic)", "Wife: Adataneses (Jub 7:16)"], major=True),
-    ]
-    edges += [
-        E("bib_noah", "bib_ham", "direct", "Son (Gen 9:18); wife Na'eltama'uk (Jub 7:16)"),
-        E("bib_noah", "bib_shem", "direct", "Son (Gen 9:18); wife Sedeqetelebab (Jub 7:16)"),
-        E("bib_noah", "bib_japheth", "direct", "Son (Gen 9:18); wife Adataneses (Jub 7:16)"),
-        E("jas_eliakim", "bib_shem", "expansion", "Jasher 5:35: Noah's sons marry 3 daughters of Eliakim"),
-        E("hub_world_division", "bib_ham", "parallel", "Table of Nations: Southern/African Zone"),
-        E("hub_world_division", "bib_shem", "parallel", "Table of Nations: Central/Near Eastern Zone"),
-        E("hub_world_division", "bib_japheth", "parallel", "Table of Nations: Northern Eurasian Zone"),
-    ]
-
-    # ---------------- JAPHETH (ALL 7 SONS + ALL GENESIS & JASHER 7/10 CHILDREN) ----------------
-    add_children(nodes, edges, "bib_japheth", "biblical", 6, "Post-Flood Gen 2 (Japheth)", [
-        ("bib_gomer", "Gomer", {"major": True, "sources": ["Genesis 10:2-3", "Book of Jasher 7:3, 10:8"], "role": "Eponym of Cimmerians (Gimirrai)", "notes": "Father of Ashkenaz, Riphath, and Togarmah. Jasher 10:8 locates his descendants along the Franca/European rivers."}),
-        ("bib_magog", "Magog", {"major": True, "sources": ["Genesis 10:2", "Ezekiel 38", "Book of Jasher 7:4"], "role": "Northern Steppe / Scythian Anchor", "notes": "Josephus identifies Magog with the Scythians; Jasher 7:4 names his sons Elichanaf and Lubal."}),
-        ("bib_madai", "Madai (Medes)", {"major": True, "sources": ["Genesis 10:2", "Jubilees 9:9, 10:35", "Book of Jasher 7:5"], "role": "Eponym of Iranian Medes (Mada)", "notes": "Direct historical cognate of the Medes. Jubilees 10:35 says Madai married a daughter of Shem and settled the Iranian plateau. Jasher 7:5 lists his 4 sons: Achon, Zeelo, Chazoni, Lot."}),
-        ("bib_javan", "Javan (Ionians / Greeks)", {"major": True, "sources": ["Genesis 10:2-4", "Book of Jasher 7:6, 10:15"], "role": "Eponym of Greeks (Iawones)", "notes": "Linguistic cognate of Ionia. Father of Elishah, Tarshish, Kittim, and Dodanim."}),
-        ("bib_tubal", "Tubal", {"sources": ["Genesis 10:2", "Book of Jasher 7:7, 10:12"], "role": "Anatolian Tabal / Iberia", "notes": "Jasher 7:7 names his 3 sons: Ariphi, Kesed, Taari (Jasher 10:12 places Tubal in Tuscany/Pisa)."}),
-        ("bib_meshech", "Meshech", {"sources": ["Genesis 10:2", "Book of Jasher 7:8"], "role": "Anatolian Mushki / Phrygia", "notes": "Jasher 7:8 names his 3 sons: Dedon, Zaron, Shebashni."}),
-        ("bib_tiras", "Tiras", {"sources": ["Genesis 10:2", "Book of Jasher 7:9, 10:14"], "role": "Thracians / Tyrsenians", "notes": "Jasher 7:9 names his 4 sons: Benib, Gera, Lupirion, Gilak (Jasher 10:14 links Tiras to Rushash/Kushni/Ongolis)."}),
-    ])
-
-    # Children of Gomer + Togarmah's 10 Jasher sons!
-    add_children(nodes, edges, "bib_gomer", "biblical", 7, "Post-Flood Gen 3 (Gomer)", [
-        ("bib_ashkenaz", "Ashkenaz", {"sources": ["Genesis 10:3", "Book of Jasher 7:3, 10:9"], "role": "Scythians (Ashkuza) / Ashkenaz", "notes": "Assyrian Ashkuza (Scythians); later medieval Jewish name for Rhineland/Germany."}),
-        ("bib_riphath", "Riphath (Rephath)", {"sources": ["Genesis 10:3", "Book of Jasher 7:3, 10:9"], "role": "Son of Gomer", "notes": "Associated by Josephus with Paphlagonia; Jasher 10:9 connects Rephath with Western Europe (Bartonim/Bretons)."}),
-        ("bib_togarmah", "Togarmah", {"major": True, "sources": ["Genesis 10:3", "Book of Jasher 7:3, 10:10"], "role": "Armenian & Turkic-Steppe Ancestor (Jasher 10)", "notes": "Armenian chronicles (Moses of Chorene) trace Armenians to Togarmah; Book of Jasher 10:10 (via Josippon) lists 10 sons representing Turkic, Bulgar, Khazar, Pecheneg, and Hungarian steppe tribes!"}),
-    ])
-    add_children(nodes, edges, "bib_togarmah", "biblical", 8, "Post-Flood Gen 4 (Jasher 10:10)", [
-        ("jas_tog_buzar", "Buzar (Cozar / Khazars)", {"notes": "Son of Togarmah in Book of Jasher 10:10; linked to the Khazars."}),
-        ("jas_tog_parzunac", "Parzunac (Pechenegs)", {"notes": "Son of Togarmah in Book of Jasher 10:10."}),
-        ("jas_tog_balgar", "Balgar (Bulgars)", {"notes": "Son of Togarmah in Book of Jasher 10:10; linked to the Volga/Danube Bulgars."}),
-        ("jas_tog_elicanum", "Elicanum", {"notes": "Son of Togarmah in Book of Jasher 10:10."}),
-        ("jas_tog_ragbib", "Ragbib", {"notes": "Son of Togarmah in Book of Jasher 10:10."}),
-        ("jas_tog_tarki", "Tarki (Turks)", {"major": True, "notes": "Son of Togarmah in Book of Jasher 10:10 — explicit Jasher/Josippon bridge from Japheth to the Turkic peoples of the Eurasian Steppe!"}),
-        ("jas_tog_bid", "Bid", {"notes": "Son of Togarmah in Book of Jasher 10:10."}),
-        ("jas_tog_zebuc", "Zebuc", {"notes": "Son of Togarmah in Book of Jasher 10:10."}),
-        ("jas_tog_ongal", "Ongal (Onogurs / Hungarians)", {"notes": "Son of Togarmah in Book of Jasher 10:10."}),
-        ("jas_tog_tilmaz", "Tilmaz", {"notes": "Son of Togarmah in Book of Jasher 10:10."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 10:10"])
-
-    # Jasher 7 children of Magog, Madai, Tubal, Meshech, Tiras
-    add_children(nodes, edges, "bib_magog", "biblical", 7, "Post-Flood Gen 3 (Jasher 7:4)", [
-        ("jas_mag_elichanaf", "Elichanaf", {"notes": "Son of Magog listed in Book of Jasher 7:4."}),
-        ("jas_mag_lubal", "Lubal", {"notes": "Son of Magog listed in Book of Jasher 7:4."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 7:4"])
-
-    add_children(nodes, edges, "bib_madai", "biblical", 7, "Post-Flood Gen 3 (Jasher 7:5)", [
-        ("jas_mad_achon", "Achon", {"notes": "Son of Madai listed in Book of Jasher 7:5."}),
-        ("jas_mad_zeelo", "Zeelo", {"notes": "Son of Madai listed in Book of Jasher 7:5."}),
-        ("jas_mad_chazoni", "Chazoni", {"notes": "Son of Madai listed in Book of Jasher 7:5."}),
-        ("jas_mad_lot", "Lot (son of Madai)", {"notes": "Son of Madai listed in Book of Jasher 7:5."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 7:5"])
-
-    add_children(nodes, edges, "bib_javan", "biblical", 7, "Post-Flood Gen 3 (Javan)", [
-        ("bib_elishah", "Elishah", {"sources": ["Genesis 10:4", "Book of Jasher 7:6, 10:15"], "notes": "Historically Alashiya (Cyprus); Jasher 10:15 links his descendants to the Almanim/Lombards."}),
-        ("bib_tarshish", "Tarshish", {"sources": ["Genesis 10:4", "Book of Jasher 7:6"], "notes": "Mediterranean maritime center (Tartessos in Spain or Tarsus in Cilicia)."}),
-        ("bib_kittim", "Kittim (Chittim)", {"major": True, "sources": ["Genesis 10:4", "Book of Jasher 7:6, 10:16, 61"], "notes": "Historically Kition (Cyprus) and western Mediterranean islands. In Book of Jasher 10:16 & 61, Kittim settles Italy/Rome (Romim), where Esau's grandson Zepho becomes king!"}),
-        ("bib_dodanim", "Dodanim (Rodanim)", {"sources": ["Genesis 10:4", "1 Chronicles 1:7", "Book of Jasher 7:6, 10:17"], "notes": "Historically Rhodes (Rodanim in 1 Chr 1:7/LXX); Jasher 10:17 links them to Mediterranean coastal peoples."}),
-    ])
-
-    add_children(nodes, edges, "bib_tubal", "biblical", 7, "Post-Flood Gen 3 (Jasher 7:7)", [
-        ("jas_tub_ariphi", "Ariphi", {"notes": "Son of Tubal in Book of Jasher 7:7."}),
-        ("jas_tub_kesed", "Kesed", {"notes": "Son of Tubal in Book of Jasher 7:7."}),
-        ("jas_tub_taari", "Taari", {"notes": "Son of Tubal in Book of Jasher 7:7."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 7:7"])
-
-    add_children(nodes, edges, "bib_meshech", "biblical", 7, "Post-Flood Gen 3 (Jasher 7:8)", [
-        ("jas_mes_dedon", "Dedon", {"notes": "Son of Meshech in Book of Jasher 7:8."}),
-        ("jas_mes_zaron", "Zaron", {"notes": "Son of Meshech in Book of Jasher 7:8."}),
-        ("jas_mes_shebashni", "Shebashni", {"notes": "Son of Meshech in Book of Jasher 7:8."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 7:8"])
-
-    add_children(nodes, edges, "bib_tiras", "biblical", 7, "Post-Flood Gen 3 (Jasher 7:9)", [
-        ("jas_tir_benib", "Benib", {"notes": "Son of Tiras in Book of Jasher 7:9."}),
-        ("jas_tir_gera", "Gera", {"notes": "Son of Tiras in Book of Jasher 7:9."}),
-        ("jas_tir_lupirion", "Lupirion", {"notes": "Son of Tiras in Book of Jasher 7:9."}),
-        ("jas_tir_gilak", "Gilak", {"notes": "Son of Tiras in Book of Jasher 7:9."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 7:9"])
-
-    # ---------------- HAM (ALL 4 SONS + ALL GENESIS & JASHER 7 CHILDREN) ----------------
-    add_children(nodes, edges, "bib_ham", "biblical", 6, "Post-Flood Gen 2 (Ham)", [
-        ("bib_cush", "Cush (Kush)", {"major": True, "sources": ["Genesis 10:6-8", "Book of Jasher 7:10, 23"], "role": "Eponym of Nubia/Ethiopia & Father of Nimrod", "notes": "Progenitor of Seba, Havilah, Sabtah, Raamah, Sabteca, and Nimrod. Jasher 7:24 says Cush inherited Adam's garments from Ham and gave them to Nimrod."}),
-        ("bib_mizraim", "Mizraim (Egypt)", {"major": True, "sources": ["Genesis 10:6, 13-14", "Book of Jasher 7:11, 10:25"], "role": "Eponym of Egypt (Misor)", "notes": "Hebrew/Semitic name for Egypt, cognate with Phoenician Misor (Sanchuniathon) and Coptic/Arabic Misrayim/Baysar."}),
-        ("bib_phut", "Phut (Put)", {"sources": ["Genesis 10:6", "Book of Jasher 7:12"], "role": "Eponym of Libya / Punt", "notes": "Jasher 7:12 names his 4 sons: Gebul, Hadan, Benah, and Adan."}),
-        ("bib_canaan", "Canaan", {"major": True, "sources": ["Genesis 10:6, 15-19", "Book of Jasher 7:13"], "role": "Eponym of Levantine & Phoenician Peoples", "notes": "Father of 11 Levantine nations including Sidon (Phoenicia), Heth (Hittites), and the Sinites."}),
-    ])
-
-    add_children(nodes, edges, "bib_cush", "biblical", 7, "Post-Flood Gen 3 (Cush)", [
-        ("bib_seba", "Seba", {"sources": ["Genesis 10:7", "Book of Jasher 7:10"], "notes": "Son of Cush; linked to Upper Nile / Meroe / Red Sea coast."}),
-        ("bib_havilah_cush", "Havilah (son of Cush)", {"sources": ["Genesis 10:7", "Book of Jasher 7:10"], "notes": "Son of Cush; associated with Red Sea / SW Arabian-African gold lands."}),
-        ("bib_sabtah", "Sabtah", {"sources": ["Genesis 10:7", "Book of Jasher 7:10"], "notes": "Son of Cush (often linked to Shabwah in Hadhramaut)."}),
-        ("bib_raamah", "Raamah", {"sources": ["Genesis 10:7", "Book of Jasher 7:10"], "notes": "Son of Cush; father of Sheba and Dedan."}),
-        ("bib_sabteca", "Sabteca", {"sources": ["Genesis 10:7", "Book of Jasher 7:10"], "notes": "Son of Cush."}),
-        ("bib_nimrod", "Nimrod (Mighty Hunter of Shinar)", {"major": True, "sources": ["Genesis 10:8-12", "Book of Jasher 7:23-48, 11-12", "Josephus Ant. 1.4"], "role": "King of Babel, Erech (Uruk), Accad & Nineveh", "notes": "Crucial Biblical-Mesopotamian bridge: Gen 10:10 links him to Shinar (Sumer), Babel, Erech (Uruk), Accad (Akkad), and Nineveh. Jasher 7:47 names his son Mardon, and Jasher 27 narrates Esau slaying Nimrod!"}),
-    ])
-    add_children(nodes, edges, "bib_raamah", "biblical", 8, "Post-Flood Gen 4 (Raamah)", [
-        ("bib_sheba_raamah", "Sheba (son of Raamah)", {"sources": ["Genesis 10:7"], "notes": "Grandson of Cush via Raamah; Arabian/Red Sea trade lineage."}),
-        ("bib_dedan_raamah", "Dedan (son of Raamah)", {"sources": ["Genesis 10:7"], "notes": "Grandson of Cush via Raamah; NW Arabian oasis of Dedan (Al-Ula)."}),
-    ])
-    add_children(nodes, edges, "bib_nimrod", "biblical", 8, "Post-Flood Gen 4 (Jasher 7:47)", [
-        ("jas_mardon", "Mardon (son of Nimrod)", {"sources": ["Book of Jasher 7:47-48"], "notes": "Named in Book of Jasher 7:47 as Nimrod's son, 'more wicked than his father', origin of the proverb 'from the wicked goeth forth wickedness'."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 7:47"])
-
-    add_children(nodes, edges, "bib_mizraim", "biblical", 7, "Post-Flood Gen 3 (Mizraim)", [
-        ("bib_ludim", "Ludim", {"sources": ["Genesis 10:13", "Book of Jasher 7:11"], "notes": "Descendant of Mizraim; Egyptian/North African archer peoples."}),
-        ("bib_anamim", "Anamim", {"sources": ["Genesis 10:13", "Book of Jasher 7:11, 10:25"], "notes": "Descendant of Mizraim; Jasher 10:25 places Anamim in Alexandria/coastal Egypt."}),
-        ("bib_lehabim", "Lehabim", {"sources": ["Genesis 10:13", "Book of Jasher 7:11"], "notes": "Libyans / western Nile delta peoples."}),
-        ("bib_naphtuhim", "Naphtuhim", {"sources": ["Genesis 10:13", "Book of Jasher 7:11"], "notes": "Lower Egypt / Memphis ('People of Ptah' — Na-Ptah!)."}),
-        ("bib_pathrusim", "Pathrusim", {"sources": ["Genesis 10:14", "Book of Jasher 7:11"], "notes": "Upper Egypt (Egyptian Pa-to-ris, 'the Southland')."}),
-        ("bib_casluhim", "Casluhim (→ Philistines)", {"sources": ["Genesis 10:14", "Book of Jasher 7:11"], "notes": "Genesis 10:14 notes 'from whom came the Philistines'."}),
-        ("bib_caphtorim", "Caphtorim (Crete)", {"sources": ["Genesis 10:14", "Book of Jasher 7:11"], "notes": "Historically Keftiu / Minoan Crete, linked to Sea Peoples / Philistines."}),
-    ])
-
-    add_children(nodes, edges, "bib_phut", "biblical", 7, "Post-Flood Gen 3 (Jasher 7:12)", [
-        ("jas_phut_gebul", "Gebul", {"notes": "Son of Phut listed in Book of Jasher 7:12."}),
-        ("jas_phut_hadan", "Hadan", {"notes": "Son of Phut listed in Book of Jasher 7:12."}),
-        ("jas_phut_benah", "Benah", {"notes": "Son of Phut listed in Book of Jasher 7:12."}),
-        ("jas_phut_adan", "Adan", {"notes": "Son of Phut listed in Book of Jasher 7:12."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 7:12"])
-
-    add_children(nodes, edges, "bib_canaan", "biblical", 7, "Post-Flood Gen 3 (Canaan)", [
-        ("bib_sidon", "Sidon (Zidon)", {"sources": ["Genesis 10:15", "Book of Jasher 7:13"], "notes": "Firstborn of Canaan; eponym of Phoenician Sidon."}),
-        ("bib_heth", "Heth (Hittites)", {"sources": ["Genesis 10:15", "Book of Jasher 7:13"], "notes": "Eponym of the Hittites / Children of Heth (from whom Abraham purchased Machpelah)."}),
-        ("bib_jebusite", "Jebusite (Jebusi)", {"sources": ["Genesis 10:16", "Book of Jasher 7:13"], "notes": "Pre-Israelite inhabitants of Jerusalem (Jebus)."}),
-        ("bib_amorite", "Amorite (Emori)", {"sources": ["Genesis 10:16", "Book of Jasher 7:13"], "notes": "Western Semitic Amurru peoples of Syria and Canaan."}),
-        ("bib_girgashite", "Girgashite (Girgashi)", {"sources": ["Genesis 10:16", "Book of Jasher 7:13"], "notes": "Canaanite nation listed in Genesis 10:16."}),
-        ("bib_hivite", "Hivite (Hivi)", {"sources": ["Genesis 10:17", "Book of Jasher 7:13"], "notes": "Inhabitants of Shechem, Gibeon, and Mt. Hermon foothills."}),
-        ("bib_arkite", "Arkite (Arki)", {"sources": ["Genesis 10:17", "Book of Jasher 7:13"], "notes": "Ancient city of Arqa in northern Lebanon."}),
-        ("bib_sinite", "Sinite (Sini)", {"sources": ["Genesis 10:17", "Book of Jasher 7:13"], "notes": "Coastal Phoenician city of Sinna/Siannu (later speculated by early European writers as China/Sinim, though historically Levantine)."}),
-        ("bib_arvadite", "Arvadite (Arvadi)", {"sources": ["Genesis 10:18", "Book of Jasher 7:13"], "notes": "Phoenician island city of Arwad (Syria)."}),
-        ("bib_zemarite", "Zemarite (Zemari)", {"sources": ["Genesis 10:18", "Book of Jasher 7:13"], "notes": "Ancient Syrian coastal city of Sumur/Simyra."}),
-        ("bib_hamathite", "Hamathite (Hamathi)", {"sources": ["Genesis 10:18", "Book of Jasher 7:13"], "notes": "Ancient Syrian kingdom of Hamath (Hama) on the Orontes."}),
-    ])
-
-    # ---------------- SHEM (ALL 5 SONS + ALL GENESIS, JUBILEES & JASHER 7 CHILDREN) ----------------
-    add_children(nodes, edges, "bib_shem", "biblical", 6, "Post-Flood Gen 2 (Shem)", [
-        ("bib_elam", "Elam", {"major": True, "sources": ["Genesis 10:22", "Book of Jasher 7:15"], "role": "Eponym of Elam (SW Iran / Susa)", "notes": "Historical kingdom of Elam in SW Iran. Book of Jasher 7:15 names his 3 sons: Shushan (Susa!), Machul, and Harmon."}),
-        ("bib_asshur", "Asshur", {"major": True, "sources": ["Genesis 10:22", "Book of Jasher 7:16"], "role": "Eponym of Assyria (Ashur)", "notes": "Historical Assyria. Book of Jasher 7:16 names his 2 sons: Mirus and Mokil."}),
-        ("bib_arphaxad", "Arphaxad (Arpachshad)", {"major": True, "sources": ["Genesis 10:22-24", "Jubilees 8:1", "Book of Jasher 7:17"], "role": "Ancestor of Eber, Hebrews & Arabs", "notes": "Father of Shelach (and Cainan in LXX/Jubilees 8:1). Book of Jasher 7:17 also names his sons Anar and Ashcol."}),
-        ("bib_lud", "Lud", {"sources": ["Genesis 10:22", "Book of Jasher 7:18"], "role": "Eponym of Lydia (Anatolia)", "notes": "Book of Jasher 7:18 names his 2 sons: Pethor and Bizayon."}),
-        ("bib_aram", "Aram", {"major": True, "sources": ["Genesis 10:22-23", "Book of Jasher 7:19"], "role": "Eponym of Arameans / Syria", "notes": "Father of Uz, Hul, Gether, and Mash."}),
-    ])
-
-    add_children(nodes, edges, "bib_elam", "biblical", 7, "Post-Flood Gen 3 (Jasher 7:15)", [
-        ("jas_elam_shushan", "Shushan (Susa)", {"notes": "Son of Elam in Book of Jasher 7:15 — eponym of the historical Elamite capital Susa!"}),
-        ("jas_elam_machul", "Machul", {"notes": "Son of Elam in Book of Jasher 7:15."}),
-        ("jas_elam_harmon", "Harmon", {"notes": "Son of Elam in Book of Jasher 7:15."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 7:15"])
-
-    add_children(nodes, edges, "bib_asshur", "biblical", 7, "Post-Flood Gen 3 (Jasher 7:16)", [
-        ("jas_ass_mirus", "Mirus", {"notes": "Son of Asshur in Book of Jasher 7:16."}),
-        ("jas_ass_mokil", "Mokil", {"notes": "Son of Asshur in Book of Jasher 7:16."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 7:16"])
-
-    add_children(nodes, edges, "bib_lud", "biblical", 7, "Post-Flood Gen 3 (Jasher 7:18)", [
-        ("jas_lud_pethor", "Pethor", {"notes": "Son of Lud in Book of Jasher 7:18."}),
-        ("jas_lud_bizayon", "Bizayon", {"notes": "Son of Lud in Book of Jasher 7:18."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 7:18"])
-
-    add_children(nodes, edges, "bib_aram", "biblical", 7, "Post-Flood Gen 3 (Aram)", [
-        ("bib_uz_aram", "Uz (son of Aram)", {"sources": ["Genesis 10:23", "Book of Jasher 7:19"], "notes": "Often connected with the Land of Uz (Book of Job) / Damascus region."}),
-        ("bib_hul", "Hul", {"sources": ["Genesis 10:23", "Book of Jasher 7:19"], "notes": "Son of Aram; linked to Huleh valley or Armenia (Josephus)."}),
-        ("bib_gether", "Gether", {"sources": ["Genesis 10:23", "Book of Jasher 7:19"], "notes": "Son of Aram; linked in Arab tradition to Thamud/Jadhis."}),
-        ("bib_mash", "Mash (Meshech)", {"sources": ["Genesis 10:23", "Book of Jasher 7:19"], "notes": "Son of Aram; associated with Mount Masius in Upper Mesopotamia."}),
-    ])
-
-    # Arphaxad -> Cainan (LXX/Jub) -> Shelah -> Eber -> Peleg & ALL 13 sons of Joktan!
-    add_children(nodes, edges, "bib_arphaxad", "biblical", 7, "Post-Flood Gen 3 (Arphaxad)", [
-        ("jub_cainan_post", "Cainan (son of Arphaxad)", {"edge_type": "expansion", "sources": ["Jubilees 8:1-4", "Septuagint Gen 10:24", "Luke 3:36"], "notes": "Present in Jubilees and Septuagint; Jubilees 8:3 says he discovered an antediluvian rock inscription of the Watchers' astrological teachings."}),
-        ("bib_shelah", "Shelah (Salah)", {"major": True, "sources": ["Genesis 10:24, 11:12", "Book of Jasher 7:17"], "notes": "Father of Eber (son of Arphaxad in Masoretic/Jasher; son of Cainan in Jubilees/LXX)."}),
-        ("jas_anar", "Anar (son of Arphaxad)", {"edge_type": "expansion", "sources": ["Book of Jasher 7:17"], "notes": "Additional son of Arphaxad listed in Book of Jasher 7:17."}),
-        ("jas_ashcol", "Ashcol (son of Arphaxad)", {"edge_type": "expansion", "sources": ["Book of Jasher 7:17"], "notes": "Additional son of Arphaxad listed in Book of Jasher 7:17."}),
-    ])
-    edges.append(E("jub_cainan_post", "bib_shelah", "expansion", "Father of Shelah in Jubilees 8:5 & LXX"))
-
-    nodes += [
-        N("bib_eber", "Eber (Hud)", "biblical", 7, "Post-Flood Gen 5", "Eponym of Hebrews ('Ivrim) & Southern Arabs",
-          ["Genesis 10:24-25, 11:14-17", "Jubilees 8:7", "Book of Jasher 7:20-21"],
-          "Eponym of the Hebrews and identified in Arabian tradition with Prophet Hud. Father of Peleg and Joktan (Qahtan).",
-          ["Hud (Arabian)", "Heber"], major=True),
-        N("bib_peleg", "Peleg", "biblical", 8, "Post-Flood Gen 6 (Babel Division)", "Patriarch of the Division of the Earth",
-          ["Genesis 10:25, 11:16-19", "Jubilees 8:8", "Book of Jasher 7:21-22"],
-          "'In his days the earth was divided' (Tower of Babel). Father of Reu (and Yen in Jasher 7:22).", major=True),
-        N("bib_joktan", "Joktan (Qahtan)", "arabian", 8, "Post-Flood Gen 6 (Arabia)", "Progenitor of Southern Arabs (13 Sons)",
-          ["Genesis 10:25-30", "Book of Jasher 7:21", "Ibn al-Kalbi", "al-Tabari"],
-          "Brother of Peleg; father of 13 Arabian tribes spanning from Mesha to Sephar (Yemen/Hadhramaut/Oman). Identified in Arabian genealogy with Qahtan.",
-          ["Qahtan (Arabic)"], major=True),
-    ]
-    edges += [
-        E("bib_shelah", "bib_eber", "direct", "Son (Gen 10:24; 11:14)"),
-        E("bib_eber", "bib_peleg", "direct", "Son (Gen 10:25; Jasher 7:21)"),
-        E("bib_eber", "bib_joktan", "direct", "Son (Gen 10:25; Arabian Qahtan)"),
-    ]
-
-    # ALL 13 Sons of Joktan (Gen 10:26-29; Jasher 7:21)
-    add_children(nodes, edges, "bib_joktan", "arabian", 9, "Post-Flood Gen 7 (13 Sons of Joktan)", [
-        ("bib_almodad", "Almodad", {"notes": "1st of 13 sons of Joktan (Gen 10:26; Jasher 7:21)."}),
-        ("bib_sheleph", "Sheleph", {"notes": "2nd son of Joktan; linked to Sulaf tribe of Yemen."}),
-        ("bib_hazarmaveth", "Hazarmaveth (Hadhramaut)", {"notes": "3rd son of Joktan; exact historical cognate of Hadhramaut in southern Yemen!"}),
-        ("bib_jerah", "Jerah", {"notes": "4th son of Joktan; linked to South Arabian lunar sanctuary/tribe."}),
-        ("bib_hadoram", "Hadoram", {"notes": "5th son of Joktan."}),
-        ("bib_uzal", "Uzal (Sana'a)", {"notes": "6th son of Joktan; classical ancient name of Sana'a, Yemen!"}),
-        ("bib_diklah", "Diklah", {"notes": "7th son of Joktan."}),
-        ("bib_obal", "Obal (Ebal)", {"notes": "8th son of Joktan (Ebal in 1 Chr 1:22)."}),
-        ("bib_abimael", "Abimael", {"notes": "9th son of Joktan."}),
-        ("bib_sheba_joktan", "Sheba / Saba (son of Joktan)", {"major": True, "notes": "10th son of Joktan; linked to the Sabaean Kingdom of Yemen (Queen of Sheba / Makeda!)."}),
-        ("bib_ophir", "Ophir", {"notes": "11th son of Joktan; famed ancient source of gold (1 Kings 9:28)."}),
-        ("bib_havilah_joktan", "Havilah (son of Joktan)", {"notes": "12th son of Joktan; Arabian gold/myrrh region."}),
-        ("bib_jobab", "Jobab", {"notes": "13th son of Joktan."}),
-    ], default_sources=["Genesis 10:26-29", "Book of Jasher 7:21"])
-
-    # Peleg -> Reu -> Serug -> Nahor I -> Terah
-    nodes += [
-        N("jas_yen", "Yen (son of Peleg)", "biblical", 8, "Post-Flood Gen 7 (Jasher 7:22)", "Son of Peleg",
-          ["Book of Jasher 7:22"], "Additional son of Peleg listed alongside Reu in Book of Jasher 7:22."),
-        N("bib_reu", "Reu & Ora", "biblical", 8, "Post-Flood Gen 7", "Patriarch",
-          ["Genesis 11:18-21", "Jubilees 11:1", "Book of Jasher 7:22"], "Jubilees 11:1 names his wife Ora, daughter of Ur (founder of Ur of the Chaldees!)."),
-        N("bib_serug", "Serug & Milka", "biblical", 8, "Post-Flood Gen 8", "Patriarch",
-          ["Genesis 11:20-23", "Jubilees 11:6-7", "Book of Jasher 7:22"], "Jubilees 11:6 notes his original name Seroh and wife Milka; Ur/Haran region (Saruj)."),
-        N("bib_nahor1", "Nahor I & Iyaska", "biblical", 8, "Post-Flood Gen 9", "Father of Terah",
-          ["Genesis 11:22-25", "Jubilees 11:8-9", "Book of Jasher 7:49"], "Jubilees 11:9 names his wife Iyaska, daughter of Nestag of the Chaldeans."),
-        N("bib_terah", "Terah & Amthelo / Edna", "biblical", 9, "Post-Flood Gen 10 (Ur of the Chaldees)", "Father of Abraham, Nahor II & Haran",
-          ["Genesis 11:24-32", "Jubilees 11:14", "Book of Jasher 7:49-51, 8-12"],
-          "Jasher 7:49 names his wife Amthelo daughter of Cornebo (Jubilees 11:14 names Edna). Jasher portrays Terah as captain of Nimrod's host in Shinar before departing Ur for Haran.",
-          ["Wife: Amthelo (Jasher) / Edna (Jub)"], major=True),
-    ]
-    edges += [
-        E("bib_peleg", "jas_yen", "expansion", "Son (Book of Jasher 7:22)"),
-        E("bib_peleg", "bib_reu", "direct", "Son (Gen 11:18)"),
-        E("bib_reu", "bib_serug", "direct", "Son (Gen 11:20)"),
-        E("bib_serug", "bib_nahor1", "direct", "Son (Gen 11:22)"),
-        E("bib_nahor1", "bib_terah", "direct", "Son (Gen 11:24)"),
-    ]
-
-    return {"module": "02_table_of_nations", "title": "Complete Table of Nations (Genesis 10, Jubilees 8-9 & Jasher 7/10)", "nodes": nodes, "edges": edges}
-
-
-def build_module_03_abraham_all_nations():
-    nodes, edges = [], []
-
-    # Terah's 3 Sons: Abraham, Nahor II, Haran
-    nodes += [
-        N("bib_abraham", "Abraham (Abram)", "biblical", 9, "Patriarchal Era (c. 2000-1800 BCE trad.)",
-          "Common Patriarch of Israelites, Ishmaelites, Edomites & Midianites",
-          ["Genesis 11-25", "Jubilees 11-23", "Book of Jasher 8-26", "Josephus Ant. 1.8"],
-          "Fathers 8 sons across three wives: Isaac (Sarah), Ishmael (Hagar), and Zimran, Jokshan, Medan, Midian, Ishbak, Shuah (Keturah). Josephus & Artapanus say Abraham taught astronomy and mathematics in Egypt.",
-          ["Ibrahim (Arabic)", "Wives: Sarah, Hagar, Keturah"], major=True),
-        N("bib_nahor2", "Nahor II & Milcah / Reumah", "biblical", 9, "Patriarchal Era (Haran / Paddan-Aram)",
-          "Brother of Abraham / Grandfather of Rebekah, Leah & Rachel",
-          ["Genesis 11:26, 22:20-24", "Book of Jasher 9:1"],
-          "Fathers 8 sons by Milcah (including Bethuel -> Rebekah & Laban) and 4 children by Reumah.", major=True),
-        N("bib_haran", "Haran (brother of Abraham)", "biblical", 9, "Patriarchal Era (Ur)",
-          "Father of Lot, Milcah & Sarai/Iscah",
-          ["Genesis 11:27-29", "Book of Jasher 9:2-3, 12:37"],
-          "Died in Ur of the Chaldees (Jasher 12 says he died in Nimrod's furnace). Father of Lot, Milcah, and Sarai/Iscah (Jasher 9:3).", major=True),
-    ]
-    edges += [
-        E("bib_terah", "bib_abraham", "direct", "Son (Gen 11:26; Jasher 8)"),
-        E("bib_terah", "bib_nahor2", "direct", "Son (Gen 11:26; Jasher 7:50)"),
-        E("bib_terah", "bib_haran", "direct", "Son (Gen 11:26; Jasher 7:50)"),
-    ]
-
-    # Haran -> Lot -> Moab & Ammon; + Milcah & Sarah
-    add_children(nodes, edges, "bib_haran", "biblical", 10, "Patriarchal Era (Haran)", [
-        ("bib_lot", "Lot", {"major": True, "sources": ["Genesis 11:27, 19:30-38", "Book of Jasher 19"], "role": "Ancestor of Moab & Ammon", "notes": "Nephew of Abraham; rescued from Sodom. Father of Moab and Ben-Ammi (Ammon)."}),
-        ("bib_milcah", "Milcah", {"sources": ["Genesis 11:29, 22:20"], "notes": "Daughter of Haran; marries her uncle Nahor II (mother of Bethuel)."}),
-        ("bib_sarah", "Sarah (Sarai / Iscah)", {"major": True, "sources": ["Genesis 11:29, 20:12", "Book of Jasher 9:3"], "role": "Matriarch / Wife of Abraham", "notes": "Wife of Abraham and mother of Isaac. Book of Jasher 9:3 and Talmud Megillah 14a identify her as Haran's daughter Iscah."}),
-    ])
-    edges += [
-        E("bib_milcah", "bib_nahor2", "direct", "Wife of Nahor II (Gen 11:29)"),
-        E("bib_sarah", "bib_abraham", "direct", "Wife of Abraham (Gen 11:29; Jasher 9:3)"),
-    ]
-    add_children(nodes, edges, "bib_lot", "biblical", 11, "Post-Sodom Transjordan", [
-        ("bib_moab", "Moab (Moabites)", {"major": True, "sources": ["Genesis 19:37", "Book of Jasher 19:60"], "role": "Eponym of Kingdom of Moab", "notes": "Progenitor of the Moabites (ancestors of Ruth, great-grandmother of King David!)."}),
-        ("bib_ammon", "Ben-Ammi (Ammonites)", {"major": True, "sources": ["Genesis 19:38", "Book of Jasher 19:61"], "role": "Eponym of Kingdom of Ammon", "notes": "Progenitor of the Ammonites (centered at Rabbah / modern Amman)."}),
-    ])
-
-    # Nahor II -> ALL 12 Children (Gen 22:20-24) -> Bethuel -> Laban & Rebekah
-    add_children(nodes, edges, "bib_nahor2", "biblical", 10, "Patriarchal Era (Aram-Naharaim)", [
-        ("bib_uz_nahor", "Uz (son of Nahor)", {"notes": "Firstborn of Nahor II & Milcah (Gen 22:21)."}),
-        ("bib_buz", "Buz", {"notes": "Son of Nahor II & Milcah; eponym of Elihu the Buzite in Job."}),
-        ("bib_kemuel", "Kemuel (father of Aram)", {"notes": "Son of Nahor II & Milcah; father of Aram (Gen 22:21)."}),
-        ("bib_chesed", "Chesed (Chaldeans?)", {"notes": "Son of Nahor II & Milcah; often linked to the Kasdim/Chaldeans."}),
-        ("bib_hazo", "Hazo", {"notes": "Son of Nahor II & Milcah."}),
-        ("bib_pildash", "Pildash", {"notes": "Son of Nahor II & Milcah."}),
-        ("bib_jidlaph", "Jidlaph", {"notes": "Son of Nahor II & Milcah."}),
-        ("bib_bethuel", "Bethuel", {"major": True, "notes": "Son of Nahor II & Milcah; father of Rebekah (wife of Isaac) and Laban (father of Leah & Rachel)."}),
-        ("bib_tebah", "Tebah", {"notes": "Son of Nahor II & Reumah (Gen 22:24)."}),
-        ("bib_gaham", "Gaham", {"notes": "Son of Nahor II & Reumah (Gen 22:24)."}),
-        ("bib_tahash", "Tahash", {"notes": "Son of Nahor II & Reumah (Gen 22:24)."}),
-        ("bib_maacah_nahor", "Maacah (child of Nahor)", {"notes": "Child of Nahor II & Reumah (Gen 22:24); eponym of Aramean Maacah."}),
-    ], default_sources=["Genesis 22:20-24"])
-    add_children(nodes, edges, "bib_bethuel", "biblical", 11, "Patriarchal Era (Haran)", [
-        ("bib_rebekah", "Rebekah (Rivkah)", {"sources": ["Genesis 24", "Book of Jasher 24"], "notes": "Marries Isaac; mother of Esau and Jacob."}),
-        ("bib_laban", "Laban", {"sources": ["Genesis 24, 29", "Book of Jasher 28-31"], "notes": "Father of Leah and Rachel (wives of Jacob)."}),
-    ])
-
-    # ================= ABRAHAM'S 8 SONS =================
-    # 1. ISHMAEL (via Hagar) -> ALL 12 PRINCES + MAHALATH
-    nodes.append(N("bib_ishmael", "Ishmael (Isma'il)", "arabian", 10, "Patriarchal Era (Arabia)",
-                   "Firstborn of Abraham (via Hagar) / Father of 12 Princes",
-                   ["Genesis 16, 25:12-18", "Book of Jasher 21 & 25", "Ibn Ishaq Sirah"],
-                   "Jasher 21 names his wives Meribah (divorced) and Malchuth of Egypt. Fathers 12 Arabian tribal princes and daughter Mahalath/Basemath (who marries Esau).",
-                   ["Isma'il", "Wives: Meribah & Malchuth (Jasher 21)"], major=True))
-    edges.append(E("bib_abraham", "bib_ishmael", "direct", "Firstborn son via Hagar (Gen 16:15)"))
-
-    add_children(nodes, edges, "bib_ishmael", "arabian", 11, "12 Princes of Ishmael (Gen 25:13-16)", [
-        ("ish_nebaioth", "Nebaioth (Nabit)", {"major": True, "notes": "1st son of Ishmael; attested as Nabayati in Neo-Assyrian inscriptions and linked to Nabataeans / Adnanite lineage."}),
-        ("ish_kedar", "Kedar (Qaydar)", {"major": True, "notes": "2nd son of Ishmael; attested as the Qedarite Kingdom (Qidri) in Neo-Assyrian records; traditional ancestor of Adnan & Quraysh."}),
-        ("ish_adbeel", "Adbeel", {"notes": "3rd son of Ishmael; attested as Idibi'ilu in Tiglath-Pileser III annals."}),
-        ("ish_mibsam", "Mibsam", {"notes": "4th son of Ishmael."}),
-        ("ish_mishma", "Mishma", {"notes": "5th son of Ishmael."}),
-        ("ish_dumah", "Dumah", {"notes": "6th son of Ishmael; oasis of Dumat al-Jandal (Adummatu) in Northern Arabia."}),
-        ("ish_massa", "Massa", {"notes": "7th son of Ishmael; North Arabian tribe of Mas'a."}),
-        ("ish_hadad", "Hadad (Hadar)", {"notes": "8th son of Ishmael."}),
-        ("ish_tema", "Tema (Tayma)", {"notes": "9th son of Ishmael; famous NW Arabian caravan oasis of Tayma."}),
-        ("ish_jetur", "Jetur (Ituraeans)", {"notes": "10th son of Ishmael; Ituraean tribes of northern Transjordan/Lebanon."}),
-        ("ish_naphish", "Naphish", {"notes": "11th son of Ishmael."}),
-        ("ish_kedemah", "Kedemah", {"notes": "12th son of Ishmael."}),
-        ("ish_mahalath", "Mahalath / Basemath (dau. of Ishmael)", {"sources": ["Genesis 28:9, 36:3"], "notes": "Sister of Nebaioth; marries her cousin Esau, uniting Ishmaelite and Edomite lines!"}),
-    ], default_sources=["Genesis 25:13-16", "Book of Jasher 25:14"])
-
-    # Adnanite Lineage from Kedar/Nebaioth
-    nodes.append(N("ar_adnan_quraysh", "Adnan → Ma'add → Nizar → Quraysh → Muhammad", "arabian", 12, "Classical Arabia → 7th c. CE",
-                   "Northern Arabian (Adnanite) & Prophetic Lineage",
-                   ["Ibn Ishaq Sirah", "al-Tabari History", "Ibn al-Kalbi"],
-                   "Classical Arabian genealogies trace the Northern Arabs from Ishmael (via Kedar/Nebaioth) through Adnan -> Ma'add -> Nizar -> Mudar -> Fihr (Quraysh) -> Qusayy -> Abd Manaf -> Hashim -> Abd al-Muttalib -> Abdullah -> Muhammad.",
-                   ["Adnanites", "Banu Hashim"], major=True))
-    edges += [
-        E("ish_kedar", "ar_adnan_quraysh", "expansion", "Arabian genealogical bridge via Qaydar/Adnan"),
-        E("ish_nebaioth", "ar_adnan_quraysh", "expansion", "Alternate Arabian tradition via Nabit/Adnan"),
-    ]
-
-    # 2. KETURAH'S 6 SONS + ALL GRANDCHILDREN (Gen 25:1-4 & Book of Jasher 25:1-6!!)
-    add_children(nodes, edges, "bib_abraham", "biblical", 10, "Patriarchal Era (Keturah's 6 Sons)", [
-        ("ket_zimran", "Zimran", {"major": True, "sources": ["Genesis 25:2", "Book of Jasher 25:2-3"], "notes": "1st son of Abraham & Keturah. Jasher 25:3 names his 3 sons: Abihen, Molich, Narim."}),
-        ("ket_jokshan", "Jokshan", {"major": True, "sources": ["Genesis 25:2-3", "Book of Jasher 25:2"], "notes": "2nd son of Abraham & Keturah; father of Sheba and Dedan."}),
-        ("ket_medan", "Medan", {"major": True, "sources": ["Genesis 25:2", "Book of Jasher 25:2, 25:4"], "notes": "3rd son of Abraham & Keturah. Jasher 25:4 names his 5 sons: Amida, Joab, Gochi, Elisha, Nothach."}),
-        ("ket_midian", "Midian", {"major": True, "sources": ["Genesis 25:2-4", "Exodus 2-3", "Book of Jasher 25:2"], "role": "Progenitor of Midianites (Jethro & Zipporah)", "notes": "4th son of Abraham & Keturah; father of Ephah, Epher, Hanoch, Abida, Eldaah. Ancestor of Reuel/Jethro and Moses's wife Zipporah."}),
-        ("ket_ishbak", "Ishbak", {"major": True, "sources": ["Genesis 25:2", "Book of Jasher 25:2, 25:5"], "notes": "5th son of Abraham & Keturah. Jasher 25:5 names his 3 sons: Makiro, Beydod, Tator."}),
-        ("ket_shuah", "Shuah", {"major": True, "sources": ["Genesis 25:2", "Book of Jasher 25:2, 25:5"], "notes": "6th son of Abraham & Keturah; eponym of Shuhites (Bildad in Job). Jasher 25:5 names his 4 sons: Bildad, Mamdad, Munan, Meban."}),
-    ], default_edge="direct", default_sources=["Genesis 25:1-4", "Book of Jasher 25"])
-
-    # Jasher 25 & Gen 25 Grandchildren of Keturah!
-    add_children(nodes, edges, "ket_zimran", "biblical", 11, "Jasher 25:3 (Zimran's Sons)", [
-        ("jas_zim_abihen", "Abihen", {"notes": "Son of Zimran in Book of Jasher 25:3."}),
-        ("jas_zim_molich", "Molich", {"notes": "Son of Zimran in Book of Jasher 25:3."}),
-        ("jas_zim_narim", "Narim", {"notes": "Son of Zimran in Book of Jasher 25:3."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 25:3"])
-
-    add_children(nodes, edges, "ket_jokshan", "biblical", 11, "Gen 25:3 (Jokshan's Sons)", [
-        ("ket_sheba", "Sheba (son of Jokshan)", {"sources": ["Genesis 25:3"], "notes": "Grandson of Abraham via Jokshan (Northern Sabaean trade network)."}),
-        ("ket_dedan", "Dedan (son of Jokshan)", {"sources": ["Genesis 25:3"], "notes": "Grandson of Abraham via Jokshan; father of Asshurim, Letushim, Leummim."}),
-    ], default_sources=["Genesis 25:3"])
-    add_children(nodes, edges, "ket_dedan", "biblical", 12, "Gen 25:3 (Dedan's Sons)", [
-        ("ket_asshurim", "Asshurim", {"notes": "Descendant tribe of Abraham via Jokshan -> Dedan (Gen 25:3)."}),
-        ("ket_letushim", "Letushim", {"notes": "Descendant tribe of Abraham via Jokshan -> Dedan (Gen 25:3)."}),
-        ("ket_leummim", "Leummim", {"notes": "Descendant tribe of Abraham via Jokshan -> Dedan (Gen 25:3)."}),
-    ], default_sources=["Genesis 25:3"])
-
-    add_children(nodes, edges, "ket_medan", "biblical", 11, "Jasher 25:4 (Medan's Sons)", [
-        ("jas_med_amida", "Amida", {"notes": "Son of Medan in Book of Jasher 25:4."}),
-        ("jas_med_joab", "Joab (son of Medan)", {"notes": "Son of Medan in Book of Jasher 25:4."}),
-        ("jas_med_gochi", "Gochi", {"notes": "Son of Medan in Book of Jasher 25:4."}),
-        ("jas_med_elisha", "Elisha (son of Medan)", {"notes": "Son of Medan in Book of Jasher 25:4."}),
-        ("jas_med_nothach", "Nothach", {"notes": "Son of Medan in Book of Jasher 25:4."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 25:4"])
-
-    add_children(nodes, edges, "ket_midian", "biblical", 11, "Gen 25:4 (Midian's 5 Sons + Jethro)", [
-        ("mid_ephah", "Ephah", {"notes": "1st son of Midian (Gen 25:4; attested as Khayappa in Assyrian annals)."}),
-        ("mid_epher", "Epher", {"notes": "2nd son of Midian (Gen 25:4)."}),
-        ("mid_hanoch", "Hanoch (son of Midian)", {"notes": "3rd son of Midian (Gen 25:4)."}),
-        ("mid_abida", "Abida", {"notes": "4th son of Midian (Gen 25:4)."}),
-        ("mid_eldaah", "Eldaah", {"notes": "5th son of Midian (Gen 25:4)."}),
-        ("mid_jethro", "Reuel / Jethro (Priest of Midian) → Zipporah", {"major": True, "edge_type": "expansion", "sources": ["Exodus 2:18, 3:1", "Book of Jasher 76"], "notes": "Midianite priest (Shu'ayb in Islamic tradition) who shelters Moses after his reign in Cush (Jasher 76) and gives him his daughter Zipporah."}),
-    ], default_sources=["Genesis 25:4", "Book of Jasher 25:4"])
-
-    add_children(nodes, edges, "ket_ishbak", "biblical", 11, "Jasher 25:5 (Ishbak's Sons)", [
-        ("jas_ishb_makiro", "Makiro", {"notes": "Son of Ishbak in Book of Jasher 25:5."}),
-        ("jas_ishb_beydod", "Beydod", {"notes": "Son of Ishbak in Book of Jasher 25:5."}),
-        ("jas_ishb_tator", "Tator", {"notes": "Son of Ishbak in Book of Jasher 25:5."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 25:5"])
-
-    add_children(nodes, edges, "ket_shuah", "biblical", 11, "Jasher 25:5 (Shuah's Sons)", [
-        ("jas_shu_bildad", "Bildad (son of Shuah)", {"notes": "Son of Shuah in Book of Jasher 25:5 — connects Shuah to Bildad the Shuhite in the Book of Job!"}),
-        ("jas_shu_mamdad", "Mamdad", {"notes": "Son of Shuah in Book of Jasher 25:5."}),
-        ("jas_shu_munan", "Munan", {"notes": "Son of Shuah in Book of Jasher 25:5."}),
-        ("jas_shu_meban", "Meban", {"notes": "Son of Shuah in Book of Jasher 25:5."}),
-    ], default_edge="expansion", default_sources=["Book of Jasher 25:5"])
-
-    # 3. ISAAC (via Sarah) -> ESAU & JACOB
-    nodes.append(N("bib_isaac", "Isaac (Yitzhak) & Rebekah", "biblical", 10, "Patriarchal Era",
-                   "Son of Abraham & Sarah", ["Genesis 21-35", "Jubilees 16-36", "Book of Jasher 22-35"],
-                   "Marries Rebekah (daughter of Bethuel, granddaughter of Nahor II). Father of twin sons Esau (Edom) and Jacob (Israel).",
-                   ["Yitzhak", "Ishaq"], major=True))
-    edges += [
-        E("bib_abraham", "bib_isaac", "direct", "Son via Sarah (Gen 21:3)"),
-        E("bib_rebekah", "bib_isaac", "direct", "Wife of Isaac (Gen 24:67)"),
-    ]
-
-    # ---------------- ESAU (EDOM) — ALL SONS, GRANDSONS & JASHER ROME BRIDGE ----------------
-    nodes.append(N("bib_esau", "Esau (Edom)", "biblical", 11, "Patriarchal Era (Mount Seir / Edom)",
-                   "Progenitor of the Edomites & Amalekites", ["Genesis 25, 36", "Book of Jasher 27, 36, 57, 61"],
-                   "Marries Adah (Hittite), Oholibamah (Hivite/Horite), and Basemath/Mahalath (daughter of Ishmael). Jasher 27 narrates Esau slaying Nimrod and taking Adam's garments!",
-                   ["Edom"], major=True))
-    edges += [
-        E("bib_isaac", "bib_esau", "direct", "Firstborn twin (Gen 25:25)"),
-        E("ish_mahalath", "bib_esau", "direct", "Wife of Esau (Gen 28:9; 36:3)"),
-    ]
-
-    add_children(nodes, edges, "bib_esau", "biblical", 12, "Genesis 36 (Esau's 5 Sons)", [
-        ("esa_eliphaz", "Eliphaz", {"major": True, "sources": ["Genesis 36:4, 11-12", "Book of Jasher 36, 57"], "notes": "Firstborn of Esau (via Adah); father of Teman, Omar, Zepho, Gatam, Kenaz, and Amalek (via Timna)."}),
-        ("esa_reuel", "Reuel (son of Esau)", {"major": True, "sources": ["Genesis 36:4, 13", "Book of Jasher 36"], "notes": "Son of Esau & Basemath (daughter of Ishmael) — uniting Edom and Ishmael! Father of Nahath, Zerah, Shammah, Mizzah."}),
-        ("esa_jeush", "Jeush", {"sources": ["Genesis 36:5"], "notes": "Son of Esau & Oholibamah (daughter of Anah the Horite)."}),
-        ("esa_jalam", "Jalam", {"sources": ["Genesis 36:5"], "notes": "Son of Esau & Oholibamah."}),
-        ("esa_korah", "Korah (son of Esau)", {"sources": ["Genesis 36:5"], "notes": "Son of Esau & Oholibamah."}),
-    ])
-    add_children(nodes, edges, "esa_eliphaz", "biblical", 13, "Gen 36:11-12 (Eliphaz's Sons)", [
-        ("esa_teman", "Teman", {"notes": "Eponym of Teman in Edom (linked to Eliphaz the Temanite in Job)."}),
-        ("esa_omar", "Omar", {"notes": "Son of Eliphaz (Gen 36:11)."}),
-        ("esa_zepho", "Zepho (King of Kittim / Italy)", {"major": True, "sources": ["Genesis 36:11", "Book of Jasher 57, 61"], "role": "Traditional Jasher Bridge from Edom to Italy/Rome", "notes": "In Book of Jasher ch. 57-61, Zepho escapes Joseph's prison in Egypt, flees to Kittim (Italy), slays a beast and defeats Angeas king of Africa, and becomes King of Chittim (father of Janeus/Janus)!"}),
-        ("esa_gatam", "Gatam", {"notes": "Son of Eliphaz (Gen 36:11)."}),
-        ("esa_kenaz", "Kenaz", {"notes": "Son of Eliphaz (Gen 36:11); linked to the Kenizzites."}),
-        ("esa_amalek", "Amalek (Amalekites)", {"major": True, "sources": ["Genesis 36:12", "Exodus 17"], "notes": "Son of Eliphaz & Timna (sister of Lotan the Horite); ancestor of the Amalekites."}),
-    ], default_sources=["Genesis 36:11-12"])
-    add_children(nodes, edges, "esa_reuel", "biblical", 13, "Gen 36:13 (Reuel's Sons)", [
-        ("esa_nahath", "Nahath", {"notes": "Son of Reuel (Gen 36:13)."}),
-        ("esa_zerah", "Zerah (son of Reuel)", {"notes": "Son of Reuel (Gen 36:13); father of Jobab king of Edom (Gen 36:33)."}),
-        ("esa_shammah", "Shammah", {"notes": "Son of Reuel (Gen 36:13)."}),
-        ("esa_mizzah", "Mizzah", {"notes": "Son of Reuel (Gen 36:13)."}),
-    ], default_sources=["Genesis 36:13"])
-    add_children(nodes, edges, "esa_zepho", "biblical", 14, "Jasher 61-62 (Kittim/Italy)", [
-        ("jas_janeus", "Janeus (Janus of Italy)", {"sources": ["Book of Jasher 62:25", "Book of Jasher 64"], "notes": "Son of Zepho in Book of Jasher 62:25, succeeding him as king over Kittim (Italy) — echoing Roman Janus!"}),
-    ], default_edge="syncretic", default_sources=["Book of Jasher 62:25"])
-    edges.append(E("esa_zepho", "bib_kittim", "syncretic", "Jasher 61: Zepho becomes first King of Kittim (Italy/Rome)"))
-
-    # ---------------- JACOB (ISRAEL) — ALL 12 SONS, DINAH, ALL GRANDCHILDREN, MOSES & DAVID ----------------
-    nodes.append(N("bib_jacob", "Jacob (Israel)", "biblical", 11, "Patriarchal Era",
-                   "Father of the 12 Tribes of Israel & Dinah",
-                   ["Genesis 25-49", "Jubilees 24-45", "Book of Jasher 28-56"],
-                   "Marries Leah and Rachel (daughters of Laban) plus Bilhah and Zilpah. Fathers 12 sons and daughter Dinah, with all 70 household members enumerated in Genesis 46 & Jasher 59.",
-                   ["Yaakov", "Yisrael"], major=True))
-    edges += [
-        E("bib_isaac", "bib_jacob", "direct", "Second twin (Gen 25:26)"),
-        E("bib_laban", "bib_jacob", "direct", "Daughters Leah & Rachel marry Jacob (Gen 29)"),
-    ]
-
-    # All 12 Tribes + Dinah
-    tribes = [
-        ("tri_reuben", "Reuben", "Leah", ["Hanoch", "Pallu", "Hezron", "Carmi"]),
-        ("tri_simeon", "Simeon", "Leah", ["Jemuel", "Jamin", "Ohad", "Jachin", "Zohar", "Shaul"]),
-        ("tri_levi", "Levi", "Leah", []),  # Expanded deeply to Moses & Aaron below!
-        ("tri_judah", "Judah", "Leah", []), # Expanded deeply to David & Solomon below!
-        ("tri_dan", "Dan", "Bilhah", ["Hushim"]),
-        ("tri_naphtali", "Naphtali", "Bilhah", ["Jahzeel", "Guni", "Jezer", "Shillem"]),
-        ("tri_gad", "Gad", "Zilpah", ["Ziphion", "Haggi", "Shuni", "Ezbon", "Eri", "Arodi", "Areli"]),
-        ("tri_asher", "Asher", "Zilpah", ["Imnah", "Ishvah", "Ishvi", "Beriah", "Serah (dau.)"]),
-        ("tri_issachar", "Issachar", "Leah", ["Tola", "Puvah", "Job (Jashub)", "Shimron"]),
-        ("tri_zebulun", "Zebulun", "Leah", ["Sered", "Elon", "Jahleel"]),
-        ("tri_dinah", "Dinah (dau. of Jacob)", "Leah", []),
-        ("tri_joseph", "Joseph (Zaphenath-Paneah)", "Rachel", []), # Expanded below!
-        ("tri_benjamin", "Benjamin", "Rachel", ["Bela", "Becher", "Ashbel", "Gera", "Naaman", "Ehi", "Rosh", "Muppim", "Huppim", "Ard"]),
-    ]
-
-    for tid, tname, mother, kids in tribes:
-        is_maj = tid in {"tri_levi", "tri_judah", "tri_joseph", "tri_reuben", "tri_benjamin"}
-        extra_notes = f"Child of Jacob & {mother} (Gen 29-30, 46; Jasher 45, 59)."
-        alts = []
-        if tid == "tri_joseph":
-            extra_notes = "Vizier of Egypt under Pharaoh; given the Egyptian name Zaphenath-Paneah (Gen 41:45; Jasher 49:18) and wed to Asenath daughter of Poti-phera, Priest of On/Heliopolis. Often compared to Imhotep (vizier of Djoser during a 7-year famine)."
-            alts = ["Zaphenath-Paneah (Egyptian name)", "Yusuf (Arabic)", "Compared to Imhotep"]
-        elif tid == "tri_dinah":
-            extra_notes = "Daughter of Jacob & Leah. Book of Jasher 49:16-18 (and Pirkei de-Rabbi Eliezer) famously states that Asenath (Joseph's Egyptian wife) was Dinah's daughter adopted by Poti-phera in Egypt!"
-        nodes.append(N(tid, tname, "biblical", 12, "12 Tribes of Israel (Gen 46)", f"Tribal Patriarch / Child of {mother}",
-                       ["Genesis 29-30, 46:8-27", "Book of Jasher 45, 59"], extra_notes, altNames=alts, major=is_maj))
-        edges.append(E("bib_jacob", tid, "direct", f"Via {mother} (Gen 46)"))
-        for k in kids:
-            slug = k.lower().replace(" ", "_").replace("(", "").replace(")", "").replace(".", "")
-            kid_id = f"{tid}_{slug}"
-            knote = f"Child of {tname} listed in Genesis 46 & Book of Jasher 59."
-            if "Serah" in k:
-                knote = "Daughter of Asher; celebrated in Book of Jasher 54:35 as the harp-playing maiden who broke the news to Jacob that Joseph was alive in Egypt!"
-            nodes.append(N(kid_id, k, "biblical", 13, "70 Souls Entering Egypt (Gen 46)", f"Child of {tname}",
-                           ["Genesis 46:8-27", "Book of Jasher 59"], knote))
-            edges.append(E(tid, kid_id, "direct", f"Child of {tname} (Gen 46)"))
-
-    # Levi -> Gershon, Kohath, Merari -> Amram + Jochebed -> Miriam, Aaron, Moses -> Gershom & Eliezer
-    add_children(nodes, edges, "tri_levi", "biblical", 13, "Levitical Lineage (Exod 6)", [
-        ("lev_gershon", "Gershon", {"notes": "1st son of Levi (Gen 46:11; Exod 6:16)."}),
-        ("lev_kohath", "Kohath", {"major": True, "notes": "2nd son of Levi; grandfather of Moses, Aaron & Miriam."}),
-        ("lev_merari", "Merari", {"notes": "3rd son of Levi (Gen 46:11; Exod 6:16)."}),
-        ("lev_jochebed", "Jochebed (dau. of Levi)", {"sources": ["Exodus 6:20", "Numbers 26:59", "Book of Jasher 67:2"], "notes": "Daughter of Levi born in Egypt; wife of Amram and mother of Miriam, Aaron, and Moses."}),
-    ], default_sources=["Genesis 46:11", "Exodus 6:16-20"])
-    add_children(nodes, edges, "lev_kohath", "biblical", 14, "Egypt Sojourn (Exod 6)", [
-        ("lev_amram", "Amram", {"major": True, "sources": ["Exodus 6:18-20", "Book of Jasher 67"], "notes": "Father of Miriam, Aaron, and Moses."}),
-        ("lev_izhar", "Izhar", {"notes": "Son of Kohath; father of Korah (Exod 6:21)."}),
-        ("lev_hebron", "Hebron (son of Kohath)", {"notes": "Son of Kohath (Exod 6:18)."}),
-        ("lev_uzziel", "Uzziel", {"notes": "Son of Kohath (Exod 6:18)."}),
-    ], default_sources=["Exodus 6:18"])
-    edges.append(E("lev_jochebed", "lev_amram", "direct", "Wife of Amram (Exod 6:20)"))
-
-    add_children(nodes, edges, "lev_amram", "biblical", 15, "Exodus Era (c. 15th-13th c. BCE)", [
-        ("lev_miriam", "Miriam", {"sources": ["Exodus 15:20", "Book of Jasher 67:12"], "notes": "Prophetess, sister of Moses and Aaron."}),
-        ("lev_aaron", "Aaron (High Priest)", {"major": True, "sources": ["Exodus 6:20-23"], "notes": "First High Priest of Israel; marries Elisheba (father of Nadab, Abihu, Eleazar, Ithamar)."}),
-        ("bib_moses", "Moses (Moshe)", {"major": True, "sources": ["Exodus 2-40", "Book of Jasher 68-87", "Artapanus", "Josephus Against Apion 1.26"], "role": "Lawgiver / Prince of Egypt / King of Cush (Jasher)", "altNames": ["Jekuthiel / Heber / Jered (Jasher 68:32)", "Osarseph (Manetho)", "Musaeus (Artapanus)", "Mose (Egyptian root)"], "notes": "Raised by Pharaoh's daughter Bithiah (1 Chr 4:18; Jasher 68). Book of Jasher 72-76 (and Josephus Ant. 2.10) recounts Moses serving as King of Cush (Ethiopia) for 40 years with Queen Adoniah before marrying Zipporah in Midian! Identified in Manetho as Egyptian priest Osarseph and in Artapanus as Musaeus/Hermes."}),
-    ])
-    add_children(nodes, edges, "bib_moses", "biblical", 16, "Wilderness / Midian", [
-        ("mos_gershom", "Gershom (son of Moses)", {"sources": ["Exodus 2:22, 18:3", "Book of Jasher 77"], "notes": "Firstborn son of Moses & Zipporah (daughter of Jethro of Midian)."}),
-        ("mos_eliezer", "Eliezer (son of Moses)", {"sources": ["Exodus 18:4", "Book of Jasher 77"], "notes": "Second son of Moses & Zipporah."}),
-    ])
-    edges.append(E("mid_jethro", "bib_moses", "direct", "Daughter Zipporah marries Moses (Exod 2:21; Jasher 76)"))
-
-    # Judah -> Er, Onan, Shelah, Zerah, Perez -> Boaz (+ Ruth) -> Jesse -> David -> Solomon -> Menelik I!
-    add_children(nodes, edges, "tri_judah", "biblical", 13, "Judahite Line (Gen 38, 46)", [
-        ("jud_er", "Er", {"notes": "1st son of Judah & Shua's daughter (Gen 38:3)."}),
-        ("jud_onan", "Onan", {"notes": "2nd son of Judah (Gen 38:4)."}),
-        ("jud_shelah", "Shelah (son of Judah)", {"notes": "3rd son of Judah (Gen 38:5)."}),
-        ("jud_zerah", "Zerah (son of Judah)", {"notes": "Twin son of Judah & Tamar (Gen 38:30); linked in some classical/Irish traditions to Mediterranean migrations."}),
-        ("jud_perez", "Perez (Pharez)", {"major": True, "sources": ["Genesis 38:29", "Ruth 4:18-22"], "notes": "Twin son of Judah & Tamar; direct ancestor of Boaz, King David, and the royal Davidic line."}),
-    ], default_sources=["Genesis 38", "Genesis 46:12"])
-
-    nodes += [
-        N("jud_boaz_jesse", "Hezron → Ram → Nahshon → Boaz (+ Ruth) → Jesse", "biblical", 14, "Judges Era (Ruth 4)",
-          "Bridge from Perez to Davidic Dynasty (Uniting Judah & Moab)", ["Ruth 4:18-22", "1 Chronicles 2:5-15"],
-          "Boaz marries Ruth the Moabitess (descendant of Lot!), uniting the Israelite line of Judah with the Moabite line of Lot."),
-        N("jud_david", "King David", "biblical", 15, "United Monarchy (c. 1010-970 BCE)",
-          "King of Israel & Founder of Davidic Dynasty", ["1-2 Samuel", "1 Chronicles 3"],
-          "Son of Jesse; father of Solomon, Absalom, Adonijah, Nathan, and Tamar.", major=True),
-        N("jud_solomon", "King Solomon (Shlomo)", "biblical", 16, "United Monarchy (c. 970-931 BCE)",
-          "Builder of the First Temple", ["1 Kings 1-11", "Kebra Nagast"],
-          "Father of Rehoboam (Judah). In Ethiopia's national epic Kebra Nagast, Solomon and Makeda (Queen of Sheba) parent Menelik I, bridging Israel, Arabia/Sheba, and Ethiopia!",
-          ["Shlomo", "Sulayman"], major=True),
-        N("eth_menelik", "Menelik I (Solomonic Dynasty of Ethiopia)", "levant_egypt", 17, "c. 10th c. BCE trad. (Kebra Nagast)",
-          "Founder of Ethiopia's Solomonic Dynasty", ["Kebra Nagast (Ethiopian National Epic)"],
-          "Son of King Solomon and Queen Makeda of Sheba (Saba). Creates a famous African-Arabian-Israelite royal genealogy bridging Cush/Ethiopia, Sheba, and Judah!",
-          ["Ebna la-Hakim", "Bayna Lehkem"], major=True),
-    ]
-    edges += [
-        E("jud_perez", "jud_boaz_jesse", "direct", "Perez -> Hezron -> Ram -> Amminadab -> Nahshon -> Salmon -> Boaz -> Obed -> Jesse"),
-        E("bib_moab", "jud_boaz_jesse", "direct", "Ruth the Moabitess marries Boaz (Ruth 4)"),
-        E("jud_boaz_jesse", "jud_david", "direct", "Son of Jesse (1 Chr 2:15)"),
-        E("jud_david", "jud_solomon", "direct", "Son via Bathsheba (2 Sam 12:24)"),
-        E("jud_solomon", "eth_menelik", "expansion", "Kebra Nagast: Solomon + Queen Makeda of Sheba -> Menelik I"),
-        E("bib_sheba_joktan", "eth_menelik", "expansion", "Queen of Sheba (Makeda / Saba) -> mother of Menelik I"),
-    ]
-
-    # Joseph + Asenath -> Manasseh & Ephraim
-    add_children(nodes, edges, "tri_joseph", "biblical", 13, "Egypt (Gen 41:50-52)", [
-        ("jos_manasseh", "Manasseh (son of Joseph)", {"major": True, "sources": ["Genesis 41:51", "Book of Jasher 50"], "notes": "Firstborn of Joseph & Asenath (daughter of Poti-phera, Priest of On)."}),
-        ("jos_ephraim", "Ephraim (son of Joseph)", {"major": True, "sources": ["Genesis 41:52", "Book of Jasher 50"], "notes": "Second son of Joseph & Asenath; ancestor of Joshua."}),
-    ])
-    edges.append(E("tri_dinah", "tri_joseph", "expansion", "Jasher 49:16-18: Asenath (Joseph's wife) was Dinah's daughter raised by Poti-phera!"))
-
-    return {"module": "03_abraham_all_nations", "title": "Complete Descendants of Abraham, Lot, Nahor II, Ishmael, Keturah, Esau & Jacob", "nodes": nodes, "edges": edges}
-
-
-def build_module_04_near_east_egypt():
-    nodes, edges = [], []
-
-    # Egyptian & Cross-Biblical Identifications (User specifically asked for Moses, Noah, Enoch in Egypt!)
-    nodes += [
+def build_module_04_egypt_levant():
+    nodes = [
         N("eg_ennead", "Atum → Shu/Tefnut → Geb/Nut → Osiris & Isis → Horus", "levant_egypt", 1, "Old Kingdom Pyramid Texts (c. 2400 BCE)",
           "Heliopolitan Great Ennead", ["Pyramid Texts", "Turin King List", "Manetho Aegyptiaca"],
           "Egyptian royal king lists trace historical pharaohs directly from the Ennead and Horus through the Shemsu-Hor ('Followers of Horus'). Osiris placed in a chest/ark on the Nile was later compared by syncretists to Noah.",
@@ -854,7 +115,7 @@ def build_module_04_near_east_egypt():
           "Explicitly names Misor (direct cognate of Biblical Mizraim!) as brother of Sydyk (Righteousness, cf. Melchizedek) and father of Taaut (Egyptian Thoth, inventor of writing), alongside Chna (Canaan).",
           ["Misor = Mizraim", "Taaut = Thoth", "Chna = Canaan"], major=True),
     ]
-    edges += [
+    edges = [
         E("hub_primordial", "eg_ennead", "parallel", "Heliopolitan primeval divine pairs & Nun"),
         E("eg_ennead", "eg_menes", "expansion", "Turin King List: Horus -> Shemsu-Hor -> Menes"),
         E("bib_enoch", "eg_thoth_saurid", "syncretic", "Pseudo-Eupolemus, Hermetic & Coptic-Arabic lore equate Enoch (Idris) with Thoth / King Saurid"),
@@ -867,95 +128,427 @@ def build_module_04_near_east_egypt():
         E("bib_moses", "eg_osarseph_bithiah", "syncretic", "Manetho's Osarseph, Artapanus's Musaeus & Jasher's King of Cush"),
         E("bib_cush", "eg_osarseph_bithiah", "expansion", "Jasher 72-76 & Josephus Ant. 2.10: Moses rules Cush & marries Queen Adoniah"),
     ]
+    return {"module": "04_egypt_levant", "title": "Egyptian Cross-Traditions & Phoenician-Canaanite Lineages", "nodes": nodes, "edges": edges}
 
-    # Mesopotamian
+
+def build_module_05_mesopotamia():
+    nodes, edges = [], []
+
+    # 1. Primordial Theogony (Enuma Elish, Atrahasis, Sumerian An = Anum) — EVERY Deity Individualized!
     nodes += [
-        N("mes_enuma", "Apsu & Tiamat → Anu → Enki (Ea) → Marduk", "mesopotamian", 1, "c. 1800-1100 BCE texts",
-          "Creation of Humanity (Lullu) from Clay", ["Enuma Elish", "Atrahasis Tablet I"],
-          "Enki (Ea) and Nintu shape the first humans (Lullu) from clay mixed with divine blood, paralleling Genesis's creation of Adam from dust.", major=True),
-        N("mes_alulim", "Alulim of Eridu → Antediluvian Kings (1-6)", "mesopotamian", 2, "Antediluvian (Sumerian King List)",
-          "Sumerian Pre-Flood Dynasty", ["Sumerian King List (WB 444)", "Berossus Babyloniaca"],
-          "8 kings in the Sumerian King List (10 in Berossus: Aloros -> Alaparos -> Amelon -> Ammenon -> Megalaros -> Daonos), reigning vast lifespans before the Flood — paralleling Genesis 5's 10 patriarchs.",
-          ["Aloros (Berossus)"], major=True),
-        N("mes_enmeduranki", "En-men-dur-ana (Enmeduranki, 7th King of Sippar)", "mesopotamian", 3, "Antediluvian Gen 7",
-          "7th King / Initiated into Heavenly Secrets by Shamash", ["Sumerian King List", "Enmeduranki Text (K 2486)", "Berossus"],
-          "7th antediluvian king, ruler of Sippar (city of sun god Shamash), admitted to heaven to learn celestial tablets and divination — widely recognized parallel to Enoch (7th patriarch, 365 solar years).",
-          ["Euedorachos (Berossus)"], major=True),
-        N("mes_ziusudra", "Ubara-Tutu → Ziusudra / Utnapishtim / Atrahasis", "mesopotamian", 4, "Flood Horizon",
-          "Mesopotamian Great Flood Survivor", ["Eridu Genesis", "Atrahasis", "Epic of Gilgamesh XI", "Berossus"],
-          "King/sage of Shuruppak warned by Enki/Ea; builds a vessel preserving family and animals, sends out dove/swallow/raven, lands on Mt. Nimush.",
-          ["Xisouthros (Berossus)"], major=True),
-        N("mes_uruk_gilgamesh", "Meskiaggasher → Enmerkar → Lugalbanda → Gilgamesh", "mesopotamian", 7, "Early Dynastic II (c. 2700 BCE)",
-          "Hero-Kings of Uruk (Biblical Erech)", ["Sumerian King List", "Epic of Gilgamesh", "Qumran Book of Giants (4Q530)"],
-          "Gilgamesh journeys to Flood survivor Utnapishtim. Uruk is explicitly named 'Erech' in Gen 10:10 — and remarkably, 'Gilgamesh' is ALSO named as one of the Giants in the Dead Sea Scrolls Book of Giants (4Q530)!",
-          ["Erech (Gen 10:10)", "Gilgamesh in Qumran 4Q530"], major=True),
-        N("mes_sargon", "Sargon of Akkad → Enheduanna & Naram-Sin", "mesopotamian", 8, "Akkadian Empire (c. 2334-2154 BCE)",
-          "First Imperial Dynasty of Mesopotamia (Accad)", ["Sumerian King List", "Birth Legend of Sargon"],
-          "Founder of Akkad (Biblical 'Accad' in Gen 10:10). Note also the striking 'basket in the river sealed with bitumen' motif in Sargon's Birth Legend paralleling Moses in Exodus 2!",
-          ["Sharru-kin", "Accad (Gen 10:10)"], major=True),
+        N("mes_apsu_tiamat", "Apsu & Tiamat", "mesopotamian", 1, "Cosmic Primordial (Enuma Elish I)",
+          "Primordial Freshwater & Saltwater Parents", ["Enuma Elish Tablet I"],
+          "Primordial cosmic waters whose mingling generates the elder gods Lahmu and Lahamu.", ["Abzu & Tiamat"], major=True),
+        N("mes_lahmu_lahamu", "Lahmu & Lahamu", "mesopotamian", 1, "Cosmic Gen 2 (Enuma Elish I)", "First Divine Pair", ["Enuma Elish Tablet I"], "Born of Apsu & Tiamat; parents of Anshar & Kishar."),
+        N("mes_anshar_kishar", "Anshar & Kishar", "mesopotamian", 1, "Cosmic Gen 3 (Enuma Elish I)", "Heavenly & Earthly Horizons", ["Enuma Elish Tablet I"], "Parents of the Sky Father Anu."),
+        N("mes_anu", "Anu (An) & Antu / Ki", "mesopotamian", 1, "Sky Father (Sumerian/Babylonian)", "King of Heaven", ["Enuma Elish", "Sumerian Myths"], "Supreme sky deity of Uruk; father of Enki (Ea) and Enlil.", ["An"], major=True),
+        N("mes_enki", "Enki (Ea) & Damkina (Ninhursag)", "mesopotamian", 1, "God of Wisdom, Waters & Eridu", "Creator of Humanity & Protector of Flood Survivor", ["Enuma Elish", "Atrahasis", "Eridu Genesis"], "Patron of Eridu; with Nintu/Belet-ili fashions the first humans (Lullu) from clay mixed with divine blood, and secretly warns Ziusudra/Atrahasis of the Flood.", ["Ea", "Nudimmud"], major=True),
+        N("mes_enlil", "Enlil & Ninlil", "mesopotamian", 1, "Lord of Wind & Nippur", "Ruler of Divine Assembly", ["Atrahasis", "Enlil and Ninlil"], "Father of Nanna (Sin) and Ninurta; decrees the Deluge in Atrahasis.", major=True),
+        N("mes_marduk", "Marduk (Bel)", "mesopotamian", 2, "Patron God of Babylon", "Slayer of Tiamat & Cosmic Architect", ["Enuma Elish IV-VI"], "Son of Enki (Ea) & Damkina; slays Tiamat, builds Babylon, and fashions humanity from Qingu's blood.", ["Bel"], major=True),
+        N("mes_nabu", "Nabu (Scribe God of Borsippa)", "mesopotamian", 2, "Babylonian Patron of Writing", "Son of Marduk & Sarpanit", ["Babylonian Pantheon"], "Son of Marduk; keeper of the Tablets of Destiny and patron of scribes."),
+        N("mes_ninurta", "Ninurta (Ningirsu)", "mesopotamian", 2, "Warrior-Hunter Deity of Nippur", "Son of Enlil (Compared to Nimrod)", ["Lugal-e", "Anzu Myth"], "Mythic hunter and champion of the gods — widely proposed by Assyriologists as a mythological source for Biblical Nimrod ('mighty hunter')!", ["Ningirsu", "Possible root of Nimrod"]),
+        N("mes_nanna", "Nanna (Sin — Moon God of Ur)", "mesopotamian", 2, "Patron of Ur", "Son of Enlil & Ninlil", ["Sumerian Hymns"], "Moon god of Ur; marries Ningal and fathers Utu (Shamash) and Inanna (Ishtar)."),
+        N("mes_shamash", "Utu (Shamash — Sun God of Sippar/Larsa)", "mesopotamian", 2, "God of Sun & Justice", "Father of Meskiaggasher (Founder of Uruk)", ["Sumerian King List", "Enmeduranki Text"], "Son of Nanna; reveals celestial tablets to 7th king Enmeduranki at Sippar and fathers Meskiaggasher of Uruk!"),
+        N("mes_inanna", "Inanna (Ishtar — Queen of Heaven)", "mesopotamian", 2, "Goddess of Uruk", "Daughter of Nanna / Anu", ["Descent of Inanna", "Epic of Gilgamesh"], "Patron goddess of Uruk (Eanna) and consort of Dumuzid."),
+        N("mes_lullu_adapa", "Lullu (First Humans) & Adapa / Uanna (1st Apkallu)", "mesopotamian", 2, "Primordial Eridu (Atrahasis / Adapa Myth)", "First Humans & 1st Antediluvian Sage", ["Atrahasis Tablet I", "Myth of Adapa", "Berossus Babyloniaca"], "Lullu is fashioned from clay + divine blood of We-ilu/Qingu. Adapa (1st Apkallu sage under Alulim, called Oannes by Berossus) ascends to heaven and forfeits eternal life — widely compared to Adam!", ["Oannes (Berossus)", "Adapa <-> Adam Parallel"], major=True),
     ]
     edges += [
-        E("hub_primordial", "mes_enuma", "parallel", "Humans fashioned from clay + divine blood"),
-        E("mes_enuma", "mes_alulim", "direct", "Kingship descends to Eridu (Sumerian King List)"),
-        E("mes_alulim", "mes_enmeduranki", "direct", "Antediluvian royal succession to 7th king"),
-        E("mes_enmeduranki", "mes_ziusudra", "direct", "Succession to Ubara-Tutu -> Ziusudra"),
-        E("mes_ziusudra", "mes_uruk_gilgamesh", "expansion", "Post-Flood kingship restored at Kish & Uruk"),
-        E("mes_uruk_gilgamesh", "mes_sargon", "expansion", "Sumerian King List: Uruk -> Akkad"),
-        E("bib_enoch", "mes_enmeduranki", "parallel", "7th antediluvian figure; solar/heavenly ascent & tablets"),
-        E("hub_flood", "mes_ziusudra", "parallel", "Vessel on Mt. Nimush (Atrahasis / Gilgamesh XI)"),
+        E("hub_primordial", "mes_apsu_tiamat", "parallel", "Primordial cosmic creation"),
+        E("hub_primordial", "mes_lullu_adapa", "parallel", "Humans fashioned from clay + divine blood; Adapa <-> Adam"),
+        E("bib_adam", "mes_lullu_adapa", "parallel", "Adapa of Eridu forfeits eternal life in heaven <-> Adam"),
+        E("mes_apsu_tiamat", "mes_lahmu_lahamu", "direct", "First divine pair (Enuma Elish I)"),
+        E("mes_lahmu_lahamu", "mes_anshar_kishar", "direct", "Second divine pair (Enuma Elish I)"),
+        E("mes_anshar_kishar", "mes_anu", "direct", "Son (Enuma Elish I)"),
+        E("mes_anu", "mes_enki", "direct", "Son (Enuma Elish I)"),
+        E("mes_anu", "mes_enlil", "direct", "Son (Sumerian tradition)"),
+        E("mes_enki", "mes_marduk", "direct", "Enki + Damkina -> Marduk (Enuma Elish)"),
+        E("mes_marduk", "mes_nabu", "direct", "Son (Babylonian pantheon)"),
+        E("mes_enki", "mes_lullu_adapa", "direct", "Enki fashions Lullu & creates sage Adapa"),
+        E("mes_enlil", "mes_ninurta", "direct", "Son (Sumerian pantheon)"),
+        E("mes_enlil", "mes_nanna", "direct", "Enlil + Ninlil -> Nanna/Sin"),
+        E("mes_nanna", "mes_shamash", "direct", "Nanna + Ningal -> Utu/Shamash"),
+        E("mes_nanna", "mes_inanna", "direct", "Nanna + Ningal -> Inanna/Ishtar"),
+        E("bib_nimrod", "mes_ninurta", "parallel", "Scholars compare Nimrod ('mighty hunter') to Mesopotamian hunter-warrior Ninurta"),
+    ]
+
+    # 2. ALL 10 Antediluvian Kings + 7 Apkallu Sages (Individualized!)
+    ante_kings = [
+        ("mes_k1_alulim", "1. Alulim (Aloros of Eridu)", 2, "28,800 yrs (Eridu)", "1st Antediluvian King of Eridu; advised by 1st Apkallu sage Uanna/Adapa.", ["Aloros"], True),
+        ("mes_k2_alalngar", "2. Alalngar (Alaparos of Eridu)", 2, "36,000 yrs (Eridu)", "2nd Antediluvian King of Eridu; sage Uannedugga.", ["Alaparos"], False),
+        ("mes_k3_enmenluana", "3. En-men-lu-ana (Amelon of Bad-tibira)", 2, "43,200 yrs (Bad-tibira)", "3rd Antediluvian King; kingship moves to Bad-tibira; sage Enmedugga.", ["Amelon"], False),
+        ("mes_k4_enmengalana", "4. En-men-gal-ana (Ammenon of Bad-tibira)", 2, "28,800 yrs (Bad-tibira)", "4th Antediluvian King of Bad-tibira; sage Enmegalamma.", ["Ammenon"], False),
+        ("mes_k5_dumuzid", "5. Dumuzid the Shepherd (Daonos)", 2, "36,000 yrs (Bad-tibira)", "5th Antediluvian King of Bad-tibira; sage Enmebulugga.", ["Daonos"], False),
+        ("mes_k6_ensipadzidana", "6. En-sipad-zid-ana (Amempsinos of Larak)", 3, "28,800 yrs (Larak)", "6th Antediluvian King; kingship moves to Larak; sage An-Enlilda.", ["Amempsinos"], False),
+        ("mes_enmeduranki", "7. En-men-dur-ana (Enmeduranki of Sippar)", 3, "21,000 yrs (Sippar)", "7th Antediluvian King (Euedorachos in Berossus); ruler of sun-city Sippar, initiated by Shamash & Adad into heavenly secrets and divination alongside 7th sage Utuabzu (who ascends to heaven) — exact structural parallel to Enoch (7th patriarch, 365 solar years)!", ["Euedorachos", "7th Sage: Utuabzu"], True),
+        ("mes_k8_megalaros", "8. Megalaros / Amegalaros (Berossus)", 3, "Berossus 10-King List", "Included in Berossus's 10-king antediluvian list (matching Genesis 5's 10 patriarchs).", ["Amegalaros"], False),
+        ("mes_k9_ubaratutu", "9. Ubara-Tutu (Otiartes of Shuruppak)", 3, "18,600 yrs (Shuruppak)", "Last king of Shuruppak before the Deluge; father of Ziusudra / Utnapishtim!", ["Otiartes", "Ardates"], True),
+        ("mes_ziusudra", "10. Ziusudra / Utnapishtim / Atrahasis", 4, "Flood Horizon (Shuruppak)", "10th Antediluvian ruler (Xisouthros in Berossus). Warned by Enki/Ea of the Deluge; builds a vessel preserving family and animals; releases dove, swallow, and raven; lands on Mt. Nimush.", ["Xisouthros", "Utnapishtim", "Atrahasis"], True),
+    ]
+    prev_k = "mes_lullu_adapa"
+    for kid, kname, ktier, kera, knote, kalts, kmaj in ante_kings:
+        nodes.append(N(kid, kname, "mesopotamian", ktier, f"Antediluvian SKL • {kera}",
+                       "Antediluvian King (Sumerian King List / Berossus)",
+                       ["Sumerian King List (WB 444)", "Berossus Babyloniaca", "Uruk List of Kings & Sages"],
+                       knote, altNames=kalts, major=kmaj))
+        edges.append(E(prev_k, kid, "direct" if kid == "mes_ziusudra" else "expansion",
+                       "Son of Ubara-Tutu (Gilgamesh XI / Eridu Genesis)" if kid == "mes_ziusudra" else "Sumerian King List antediluvian succession"))
+        prev_k = kid
+
+    # 7th Apkallu Sage Utuabzu explicitly linked to Enmeduranki & Enoch!
+    nodes.append(N("mes_utuabzu", "Utuabzu (7th Apkallu Sage Who Ascended to Heaven)", "mesopotamian", 3, "Antediluvian Sippar",
+                   "7th Sage under Enmeduranki", ["Uruk List of Kings & Sages", "Bit Meseri"],
+                   "The 7th antediluvian sage, counselor to 7th king Enmeduranki, explicitly recorded as 'having ascended to heaven' — a stunning Mesopotamian parallel to Enoch (7th from Adam, taken to heaven)!",
+                   ["7th Apkallu"], major=False))
+    edges += [
+        E("mes_enmeduranki", "mes_utuabzu", "expansion", "7th Apkallu sage serving 7th king Enmeduranki"),
+        E("bib_enoch", "mes_enmeduranki", "parallel", "7th antediluvian figure; sun/365 association; heavenly ascent & tablets"),
+        E("bib_enoch", "mes_utuabzu", "parallel", "7th antediluvian sage who ascended to heaven (Bit Meseri <-> Gen 5:24)"),
+        E("hub_flood", "mes_ziusudra", "parallel", "Boat on Mt. Nimush; dove/swallow/raven (Gilgamesh XI / Atrahasis)"),
+    ]
+
+    # 3. Post-Flood First Dynasty of Kish (ALL named rulers of Kish I individually!)
+    kish1 = [
+        ("mes_kish_jushur", "Jushur (1st Post-Flood King of Kish)", 5, "1,200 yrs", True, "First king after the Flood swept over and kingship descended from heaven anew at Kish."),
+        ("mes_kish_kullassinabel", "Kullassina-bel", 5, "960 yrs", False, "2nd king of Kish I ('All of them were lord')."),
+        ("mes_kish_nangishlishma", "Nangishlishma", 5, "670 yrs", False, "3rd king of Kish I."),
+        ("mes_kish_entarahana", "En-tarah-ana", 5, "420 yrs", False, "4th king of Kish I."),
+        ("mes_kish_babum", "Babum", 5, "300 yrs", False, "5th king of Kish I."),
+        ("mes_kish_puannum", "Puannum", 5, "840 yrs", False, "6th king of Kish I."),
+        ("mes_kish_kalibum", "Kalibum", 5, "960 yrs", False, "7th king of Kish I."),
+        ("mes_kish_kalumum", "Kalumum", 5, "840 yrs", False, "8th king of Kish I."),
+        ("mes_kish_zuqaqip", "Zuqaqip ('Scorpion')", 5, "900 yrs", False, "9th king of Kish I."),
+        ("mes_kish_atab", "Atab", 5, "600 yrs", False, "10th king of Kish I."),
+        ("mes_kish_mashda", "Mashda (son of Atab)", 5, "840 yrs", False, "11th king of Kish I; son of Atab."),
+        ("mes_kish_arwium", "Arwium (son of Mashda)", 5, "720 yrs", False, "12th king of Kish I; son of Mashda."),
+        ("mes_etana", "Etana of Kish (Ascended on an Eagle)", 6, "1,500 yrs", True, "13th king of Kish I; 'the shepherd who ascended to heaven and consolidated all foreign countries' on an eagle's back to obtain the Plant of Birth."),
+        ("mes_balih", "Balih (son of Etana)", 6, "400 yrs", False, "14th king of Kish I; son of Etana."),
+        ("mes_enmenuna", "En-me-nuna", 6, "660 yrs", False, "15th king of Kish I; father of Melem-Kish and Barsal-nuna."),
+        ("mes_melemkish", "Melem-Kish (son of En-me-nuna)", 6, "900 yrs", False, "16th king of Kish I."),
+        ("mes_barsalnuna", "Barsal-nuna (son of En-me-nuna)", 6, "1,200 yrs", False, "17th king of Kish I."),
+        ("mes_zamug", "Zamug (son of Barsal-nuna)", 6, "140 yrs", False, "18th king of Kish I."),
+        ("mes_tizqar", "Tizqar (son of Zamug)", 6, "305 yrs", False, "19th king of Kish I."),
+        ("mes_ilku", "Ilku", 6, "900 yrs", False, "20th king of Kish I."),
+        ("mes_iltasadum", "Iltasadum", 6, "1,200 yrs", False, "21st king of Kish I."),
+        ("mes_enmebaragesi", "Enmebaragesi of Kish (Conqueror of Elam)", 7, "c. 2600 BCE", True, "22nd king of Kish I; earliest Sumerian king confirmed by contemporary inscriptions! 'Carried away as spoil the weapons of Elam'."),
+        ("mes_aga_kish", "Aga (Agga) of Kish", 7, "c. 2600 BCE", False, "23rd and final king of Kish I; son of Enmebaragesi, besieged Uruk and clashed with Gilgamesh."),
+    ]
+    prev_kish = "mes_ziusudra"
+    for kid, kname, ktier, kera, kmaj, knote in kish1:
+        nodes.append(N(kid, kname, "mesopotamian", ktier, f"First Dynasty of Kish • {kera}",
+                       "King of Kish I", ["Sumerian King List (WB 444)"], knote, major=kmaj))
+        # Direct parent-child edges explicitly stated in SKL!
+        direct_pairs = {("mes_kish_atab","mes_kish_mashda"), ("mes_kish_mashda","mes_kish_arwium"),
+                        ("mes_etana","mes_balih"), ("mes_enmenuna","mes_melemkish"),
+                        ("mes_enmenuna","mes_barsalnuna"), ("mes_barsalnuna","mes_zamug"),
+                        ("mes_zamug","mes_tizqar"), ("mes_enmebaragesi","mes_aga_kish")}
+        parent_for_edge = "mes_enmenuna" if kid == "mes_barsalnuna" else prev_kish
+        et = "direct" if (parent_for_edge, kid) in direct_pairs else "expansion"
+        el = "Son (Sumerian King List)" if et == "direct" else "First Dynasty of Kish succession (SKL)"
+        edges.append(E(parent_for_edge, kid, et, el))
+        prev_kish = kid
+    edges.append(E("mes_enmebaragesi", "bib_elam", "cognate", "Historical warfare between Kish and Elam (SKL)"))
+
+    # 4. First Dynasty of Uruk / Biblical Erech (ALL 12 Kings Individually!)
+    nodes += [
+        N("mes_meskiaggasher", "Meskiaggasher (Founder of Uruk / Erech)", "mesopotamian", 5, "Early Dynastic I (Eanna / Uruk)",
+          "Son of Sun God Utu (Shamash) / 1st King of Uruk", ["Sumerian King List (WB 444)"],
+          "High priest and king of Eanna; 'entered the sea and ascended to the mountains'. Father of Enmerkar.", major=True),
+        N("mes_enmerkar", "Enmerkar (Builder of Uruk / Erech)", "mesopotamian", 6, "Early Dynastic II (c. 2800 BCE)",
+          "2nd King of Uruk / Inventor of Cuneiform", ["Sumerian King List", "Enmerkar and the Lord of Aratta"],
+          "Son of Meskiaggasher; built Uruk (Biblical Erech, Gen 10:10) and invented cuneiform clay tablets in rivalry with Aratta (Iranian plateau!). Widely compared to Nimrod ('Enmer the Hunter').",
+          ["Enmer the Hunter", "Compared to Nimrod"], major=True),
+        N("mes_lugalbanda", "Lugalbanda & Goddess Ninsun", "mesopotamian", 6, "Early Dynastic II (Uruk I)",
+          "3rd King of Uruk / Father of Gilgamesh", ["Sumerian King List", "Lugalbanda Epics", "Epic of Gilgamesh"],
+          "Companion of Enmerkar; weds goddess Ninsun and fathers Gilgamesh.", major=True),
+        N("mes_dumuzid_fisherman", "Dumuzid the Fisherman (of Kuara)", "mesopotamian", 7, "Early Dynastic II (Uruk I)",
+          "4th King of Uruk I", ["Sumerian King List"],
+          "Captured Enmebaragesi of Kish single-handedly before Gilgamesh."),
+        N("mes_uruk_gilgamesh", "Gilgamesh (Bilgamesh of Uruk / Erech)", "mesopotamian", 7, "Early Dynastic II (c. 2700 BCE)",
+          "5th King of Uruk / Builder of Uruk's Walls / Qumran Giant", ["Sumerian King List", "Epic of Gilgamesh", "Qumran Book of Giants (4Q530)"],
+          "Son of Lugalbanda & Ninsun; visits Flood survivor Utnapishtim. Uruk is explicitly 'Erech' in Gen 10:10 — and 'Gilgamesh' is literally named as a Giant in Qumran Book of Giants (4Q530)!",
+          ["Bilgamesh", "Erech (Gen 10:10)", "Gilgamesh in Qumran 4Q530"], major=True),
+    ]
+    edges += [
+        E("mes_shamash", "mes_meskiaggasher", "direct", "Son of Utu/Shamash (Sumerian King List)"),
+        E("mes_meskiaggasher", "mes_enmerkar", "direct", "Son (Sumerian King List)"),
+        E("mes_enmerkar", "mes_lugalbanda", "expansion", "Succession at Uruk (SKL)"),
+        E("mes_lugalbanda", "mes_dumuzid_fisherman", "expansion", "Succession at Uruk (SKL)"),
+        E("mes_lugalbanda", "mes_uruk_gilgamesh", "direct", "Lugalbanda + Ninsun -> Gilgamesh (Epic of Gilgamesh)"),
+        E("mes_uruk_gilgamesh", "mes_ziusudra", "expansion", "Epic of Gilgamesh XI: Gilgamesh visits Flood survivor Utnapishtim"),
+        E("bib_nimrod", "mes_enmerkar", "parallel", "Enmerkar ('Enmer the Hunter', builder of Erech/Uruk) <-> Nimrod (Gen 10:10)"),
         E("bib_nimrod", "mes_uruk_gilgamesh", "cognate", "Gen 10:10 explicitly names Shinar, Babel & Erech (Uruk)"),
+        E("eno_ohya_hahya", "mes_uruk_gilgamesh", "expansion", "Qumran Book of Giants (4Q530/4Q531) literally names Gilgamesh as a Giant!"),
+    ]
+
+    # Individual late Uruk I kings (6th to 12th)
+    late_uruk = [
+        ("mes_urnungal", "Ur-Nungal (son of Gilgamesh)", "direct", "6th king of Uruk I; son of Gilgamesh (reigned 30 yrs)."),
+        ("mes_udulkalama", "Udul-kalama (son of Ur-Nungal)", "direct", "7th king of Uruk I; grandson of Gilgamesh (15 yrs)."),
+        ("mes_labashum", "La-ba'shum", "expansion", "8th king of Uruk I (9 yrs)."),
+        ("mes_ennuntarahana", "En-nun-tarah-ana", "expansion", "9th king of Uruk I (8 yrs)."),
+        ("mes_meshhe", "Mesh-he", "expansion", "10th king of Uruk I (36 yrs)."),
+        ("mes_melemana", "Melem-ana", "expansion", "11th king of Uruk I (6 yrs)."),
+        ("mes_lugalkitun", "Lugal-kitun", "expansion", "12th and final king of Uruk I (36 yrs)."),
+    ]
+    prev_u = "mes_uruk_gilgamesh"
+    for uid, uname, uet, unote in late_uruk:
+        nodes.append(N(uid, uname, "mesopotamian", 8, "Early Dynastic II-III (Uruk I)", "King of Uruk I", ["Sumerian King List (WB 444)"], unote))
+        edges.append(E(prev_u, uid, uet, "Son (Sumerian King List)" if uet == "direct" else "Uruk I succession (SKL)"))
+        prev_u = uid
+
+    # 5. Ur I, Akkad (ALL individual members!), Ur III (ALL 5 kings!), Amorite Babylon (ALL kings!) & Assyria
+    nodes += [
+        N("mes_mesannepada", "Mesannepada (Founder of Ur I)", "mesopotamian", 8, "Early Dynastic III (c. 2550 BCE)", "1st King of First Dynasty of Ur", ["Sumerian King List", "Royal Cemetery of Ur"], "Overthrew Uruk I; attested by royal seals from Ur.", major=True),
+        N("mes_meshkiangnanna", "Mesh-ki-ang-nanna (son of Mesannepada)", "mesopotamian", 8, "Ur I", "2nd King of Ur I", ["Sumerian King List"], "Son of Mesannepada; followed by Elulu and Balulu."),
+        N("mes_sargon", "Sargon of Akkad (Sharru-kin)", "mesopotamian", 8, "Akkadian Empire (c. 2334-2279 BCE)", "Founder of Akkad (Biblical Accad)", ["Sumerian King List", "Birth Legend of Sargon"], "Cupbearer of Ur-Zababa of Kish who founded the world's first empire (Biblical Accad, Gen 10:10). His Birth Legend ('reed basket sealed with bitumen on the river') parallels Moses in Exodus 2!", ["Sharru-kin", "Accad (Gen 10:10)"], major=True),
+        N("mes_enheduanna", "Enheduanna (High Priestess of Ur)", "mesopotamian", 9, "c. 2285-2250 BCE", "Daughter of Sargon / Earliest Named Author in History", ["Exaltation of Inanna", "Temple Hymns", "Disk of Enheduanna"], "Daughter of Sargon of Akkad appointed High Priestess of Nanna at Ur; world's earliest known named author!", major=True),
+        N("mes_rimush", "Rimush (son of Sargon)", "mesopotamian", 9, "c. 2279-2270 BCE", "2nd King of Akkad", ["Sumerian King List"], "Son of Sargon; campaigned against rebellious Sumerian cities and Elam."),
+        N("mes_manishtushu", "Manishtushu (son of Sargon)", "mesopotamian", 9, "c. 2270-2255 BCE", "3rd King of Akkad", ["Sumerian King List", "Manishtushu Obelisk"], "Son of Sargon; father of Naram-Sin."),
+        N("mes_naramsin", "Naram-Sin ('King of the Four Quarters')", "mesopotamian", 9, "c. 2254-2218 BCE", "4th King of Akkad (Grandson of Sargon)", ["Victory Stele of Naram-Sin", "Curse of Agade"], "Son of Manishtushu; peak of Akkadian Empire.", major=True),
+        N("mes_sharkalisharri", "Shar-Kali-Sharri (son of Naram-Sin)", "mesopotamian", 9, "c. 2217-2193 BCE", "5th King of Akkad", ["Sumerian King List"], "Son of Naram-Sin; reigned as the Akkadian Empire faced Gutian invasions."),
+        N("mes_urnammu", "Ur-Nammu (Founder of Ur III — Ur of the Chaldees)", "mesopotamian", 9, "Neo-Sumerian Empire (c. 2112-2095 BCE)", "Builder of Great Ziggurat / Oldest Law Code", ["Code of Ur-Nammu", "Sumerian King List"], "Founded Ur III and issued history's oldest surviving law code — the exact historical era of Ur of the Chaldees before Terah & Abraham's migration (Gen 11:31)!", ["Ur of the Chaldees Horizon"], major=True),
+        N("mes_shulgi", "Shulgi (son of Ur-Nammu)", "mesopotamian", 9, "c. 2094-2047 BCE", "2nd King of Ur III", ["Sumerian King List", "Shulgi Hymns"], "Son of Ur-Nammu; reigned 48 years, standardized weights, measures, and scribal academies."),
+        N("mes_amarsin", "Amar-Sin (son of Shulgi)", "mesopotamian", 9, "c. 2046-2038 BCE", "3rd King of Ur III", ["Sumerian King List"], "Son of Shulgi."),
+        N("mes_shusin", "Shu-Sin (brother/son of Amar-Sin)", "mesopotamian", 9, "c. 2037-2029 BCE", "4th King of Ur III", ["Sumerian King List"], "Built the Martu Wall to hold back western Amorite tribes."),
+        N("mes_ibbisin", "Ibbi-Sin (Last King of Ur III)", "mesopotamian", 9, "c. 2028-2004 BCE", "5th King of Ur III (Fall of Ur to Elam)", ["Lament for Ur", "Sumerian King List"], "Ur fell to Elamite and Shimashki invaders in 2004 BCE — matching the historical backdrop of Terah & Abraham leaving Ur!"),
+        N("mes_sumuabum", "Sumu-abum → Sumu-la-El → Sin-Muballit (Early Babylon)", "mesopotamian", 10, "Old Babylonian Dynasty (c. 1894-1793 BCE)", "Amorite Founders of Babylon", ["Babylonian King List"], "Amorite chieftains who established the First Dynasty of Babylon: Sumu-abum -> Sumu-la-El -> Sabium -> Apil-Sin -> Sin-Muballit (father of Hammurabi)."),
+        N("mes_hammurabi", "Hammurabi of Babylon (→ Samsu-iluna)", "mesopotamian", 10, "Old Babylonian Empire (c. 1792-1750 BCE)", "Amorite Lawgiver King of Babylon (Babel)", ["Code of Hammurabi", "Babylonian King List"], "6th king of the Amorite Dynasty of Babylon; unified Mesopotamia and issued the Code of Hammurabi. Father of Samsu-iluna.", ["Amraphel? (Traditional comparison)"], major=True),
+        N("mes_assyria_kings", "Tudiya → Ushpia → Shamshi-Adad I → Tukulti-Ninurta I → Ashurbanipal", "mesopotamian", 10, "Assyrian King List (c. 2100-627 BCE)", "Kings of Assyria (Biblical Asshur / Nineveh)", ["Assyrian King List", "Library of Ashurbanipal"], "Begins with '17 Kings Who Lived in Tents' (Tudiya -> Ushpia) and leads to Tukulti-Ninurta I (often cited as a historical prototype for Nimrod!), Sennacherib, and Ashurbanipal (whose library preserved Gilgamesh & Enuma Elish!).", ["Asshur (Gen 10:11, 22)", "Tukulti-Ninurta I <-> Nimrod"], major=True),
+    ]
+    edges += [
+        E("mes_lugalkitun", "mes_mesannepada", "expansion", "Kingship passes from Uruk I to Ur I (SKL)"),
+        E("mes_mesannepada", "mes_meshkiangnanna", "direct", "Son (SKL)"),
+        E("mes_meshkiangnanna", "mes_sargon", "expansion", "Sumerian King List succession to Akkad"),
+        E("mes_sargon", "mes_enheduanna", "direct", "Daughter of Sargon (Disk of Enheduanna)"),
+        E("mes_sargon", "mes_rimush", "direct", "Son of Sargon (SKL)"),
+        E("mes_sargon", "mes_manishtushu", "direct", "Son of Sargon (SKL)"),
+        E("mes_manishtushu", "mes_naramsin", "direct", "Son of Manishtushu (SKL)"),
+        E("mes_naramsin", "mes_sharkalisharri", "direct", "Son of Naram-Sin (SKL)"),
+        E("mes_sharkalisharri", "mes_urnammu", "expansion", "Ur III restores Sumer after Gutian interlude (SKL)"),
+        E("mes_urnammu", "mes_shulgi", "direct", "Son (SKL)"),
+        E("mes_shulgi", "mes_amarsin", "direct", "Son (SKL)"),
+        E("mes_amarsin", "mes_shusin", "direct", "Brother/Son (SKL)"),
+        E("mes_shusin", "mes_ibbisin", "direct", "Son (SKL)"),
+        E("mes_ibbisin", "bib_terah", "cognate", "Fall of Ur III (c. 2004 BCE) = historical horizon of Terah & Abraham leaving Ur of the Chaldees (Gen 11:31)"),
+        E("mes_ibbisin", "mes_sumuabum", "expansion", "Fall of Ur III gives rise to Amorite Dynasty of Babylon"),
+        E("mes_sumuabum", "mes_hammurabi", "direct", "Sin-Muballit -> Hammurabi (Babylonian King List)"),
+        E("bib_amorite", "mes_sumuabum", "cognate", "First Dynasty of Babylon was ethnically Amorite (Amurru)"),
         E("bib_nimrod", "mes_sargon", "cognate", "Gen 10:10 explicitly names Accad (Akkad) & Nineveh"),
-        E("bib_asshur", "mes_sargon", "cognate", "Asshur = Assyria (Mesopotamian sphere)"),
-        E("eno_ohya_hahya", "mes_uruk_gilgamesh", "expansion", "Qumran Book of Giants (4Q530/4Q531) literally names Gilgamesh as one of the Giants!"),
+        E("bib_nimrod", "mes_assyria_kings", "parallel", "Assyriologists compare Nimrod to Tukulti-Ninurta I, conqueror of Babylon"),
+        E("bib_asshur", "mes_assyria_kings", "cognate", "Biblical Asshur = historical Assyria (Ashur & Nineveh)"),
         E("bib_moses", "mes_sargon", "parallel", "Reed basket sealed with bitumen placed in river (Exod 2 <-> Sargon Birth Legend)"),
     ]
 
-    # Iranian / Zoroastrian
-    nodes += [
-        N("ir_gayomart", "Gayomart (Keyumars) → Mashya & Mashyana", "iranian", 1, "Primordial (Avesta / Bundahishn)",
-          "First Mortal & Primeval Iranian Couple", ["Avesta (Yasht 13)", "Bundahishn Ch. 14", "Shahnameh"],
-          "Created by Ahura Mazda. From Gayomart's seed grew a rhubarb plant splitting into Mashya & Mashyana, bearing 7 twin pairs populating the 7 climes of the world.", major=True),
-        N("ir_vivanghant", "Siamak → Hushang → Tahmuras → Vivanghant", "iranian", 3, "Mythic Pishdadian Era",
-          "Father of Yima / Exact Proto-Indo-Iranian Bridge", ["Avesta (Yasna 9.4, Vendidad 2)", "Bundahishn"],
-          "EXACT linguistic & genealogical cognate of Vedic Vivasvan (Surya)! One of the strongest academically verified prehistoric ancestral bridges between Iran and India.",
-          ["Vivanhao"], major=True),
-        N("ir_yima", "Yima Khshaeta (Jamshid)", "iranian", 4, "Cataclysm / Golden Age Horizon",
-          "Golden Age King & Vara Ark Builder", ["Avesta (Vendidad 2, Yasna 9)", "Shahnameh"],
-          "Son of Vivanghant — exact Proto-Indo-Iranian cognate of Vedic Yama. Warned by Ahura Mazda of a world-destroying winter/meltwater cataclysm, builds the subterranean Vara preserving pairs of humans, animals, and seeds.",
-          ["Jamshid"], major=True),
-        N("ir_fereydun", "Fereydun (Thraetaona)", "iranian", 5, "Post-Cataclysm Pishdadian Era",
-          "Divider of the World Among Three Sons", ["Avesta (Yasht 5, 19)", "Bundahishn", "Shahnameh"],
-          "Divides the earth into three realms among his sons Salm (West), Tur (Turan/Steppe), and Iraj (Iran) — striking tripartite parallel to Noah.", major=True),
-        N("ir_salm", "Salm (West / Rum)", "iranian", 6, "Tripartite Division (Shahnameh)", "Ancestor of Western Realms", ["Bundahishn Ch. 35", "Shahnameh"], "Eldest son of Fereydun; receives Anatolia and the West (Rum)."),
-        N("ir_tur", "Tur (Turan / Central Asia)", "iranian", 6, "Tripartite Division (Shahnameh)", "Ancestor of Turan / Steppe", ["Bundahishn Ch. 35", "Shahnameh"], "Second son of Fereydun; receives Turan (Central Asian steppes to China's borders)."),
-        N("ir_iraj", "Iraj (Iran → Manuchehr → Kayanians)", "iranian", 6, "Tripartite Division (Shahnameh)", "Ancestor of Iranian Royal Line", ["Bundahishn Ch. 35", "Shahnameh"], "Youngest son of Fereydun; receives Iran (Eranshahr), producing Manuchehr and the Kayanian dynasty (Kay Kavad, Kay Kavus, Siyavash, Kay Khosrow).", major=True),
-        N("ir_medes_achaemenids", "Medes (Mada) & Cyrus the Great (Achaemenids)", "iranian", 8, "Iron Age (8th-6th c. BCE)",
-          "Historical Iranian Empires", ["Behistun Inscription", "Cyrus Cylinder", "Herodotus", "Ezra / Daniel"],
-          "Historical Medes directly match Biblical Madai (Gen 10:2); Cyrus ruled as King of Anshan in Elam (Gen 10:22).", major=True),
-    ]
-    edges += [
-        E("hub_primordial", "ir_gayomart", "parallel", "First mortal -> Mashya & Mashyana"),
-        E("ir_gayomart", "ir_vivanghant", "direct", "Siamak -> Hushang -> Tahmuras -> Vivanghant"),
-        E("ir_vivanghant", "ir_yima", "direct", "Son (Avesta Yasna 9.4)"),
-        E("ir_yima", "ir_fereydun", "direct", "Pishdadian lineage via Abtin/Athwya (Shahnameh)"),
-        E("ir_fereydun", "ir_salm", "direct", "1st son (West / Rum)"),
-        E("ir_fereydun", "ir_tur", "direct", "2nd son (Turan / Steppe)"),
-        E("ir_fereydun", "ir_iraj", "direct", "3rd son (Iran / Eranshahr)"),
-        E("ir_iraj", "ir_medes_achaemenids", "expansion", "Iraj -> Kayanian -> Historical Medes & Persians"),
-        E("hub_flood", "ir_yima", "parallel", "Vara enclosure against cataclysmic winter/melt"),
-        E("hub_world_division", "ir_fereydun", "parallel", "Tripartite division: Salm / Tur / Iraj"),
-        E("bib_madai", "ir_medes_achaemenids", "cognate", "Madai (Gen 10:2) = Historical Medes (Old Persian Mada)"),
-        E("bib_elam", "ir_medes_achaemenids", "cognate", "Elam (Gen 10:22) = SW Iran / Cyrus King of Anshan"),
-        E("bib_noah", "ir_gayomart", "syncretic", "al-Tabari & medieval chronicles equate Gayomart with Adam/Noah's kin"),
-    ]
-
-    return {"module": "04_near_east_egypt", "title": "Egyptian Cross-Traditions, Mesopotamia, Phoenicia & Iran", "nodes": nodes, "edges": edges}
+    return {"module": "05_mesopotamia", "title": "Exhaustive Mesopotamian Genealogy (Enuma Elish, All 10 Antediluvian Kings, All Kish I, All Uruk I, Akkad, Ur III, Babylon & Assyria)", "nodes": nodes, "edges": edges}
 
 
-def build_module_05_asia_steppe():
+def build_module_06_iranian_zoroastrian():
     nodes, edges = [], []
 
-    # Vedic & Puranic India (with Yayati's 5 sons individualized!)
+    # 1. Primordial Creation & Bundahishn Ch. 14 Table of Nations (Every named progenitor!)
+    nodes += [
+        N("ir_gayomart", "Gayomart (Gaya Maretan / Keyumars)", "iranian", 1, "Primordial Creation (Avesta / Bundahishn 14)",
+          "First Mortal Human & First Pishdadian King", ["Avesta (Yasht 13.87)", "Bundahishn Ch. 14", "Shahnameh"],
+          "Created by Ahura Mazda ('Mortal Life'). From his seed purified in the earth grew a rhubarb plant splitting into Mashya and Mashyana.",
+          ["Keyumars", "Gaya Maretan"], major=True),
+        N("ir_mashya_mashyana", "Mashya & Mashyana", "iranian", 2, "Primordial Gen 2 (Bundahishn 14)",
+          "First Human Couple (7 Pairs of Twins)", ["Bundahishn Ch. 14"],
+          "Twin first man and woman who bore 7 pairs of twins, including Siamak & Nashak (ancestors of Iran) and Fravak & Fravakain (ancestors of all 15 human races!).",
+          ["Mahrya & Mahryana"], major=True),
+        N("ir_fravak", "Fravak & Fravakain (Zoroastrian Table of Nations)", "iranian", 3, "Bundahishn Ch. 14 Ethnogenesis",
+          "Progenitors of the 15 Races Across 7 Climes", ["Bundahishn Ch. 14:36-39"],
+          "Bundahishn Ch. 14 traces 15 distinct human nations across the 7 climes (karshvars) to Fravak & Fravakain — including Iranians (Hoshang), Arabs (Taz), Mazandaran, India, Turan, China (Chin), and the West (Rum)!",
+          ["15 Races of 7 Climes"], major=True),
+    ]
+    add_children(nodes, edges, "ir_fravak", "iranian", 4, "Bundahishn Ch. 14 (15 Races / Climes)", [
+        ("ir_taz", "Taz & Tazag (Arabs / Taziks)", {"major": True, "sources": ["Bundahishn Ch. 14, 35"], "notes": "Son of Fravak; eponym of the Arabian peoples (Middle Persian Tazig) and ancestor of Merdas -> Zahhak!"}),
+        ("ir_bund_mazandaran", "Mazandarani (Caspian Lineage)", {"sources": ["Bundahishn Ch. 14"], "notes": "One of the races descended from Fravak in Bundahishn Ch. 14."}),
+        ("ir_bund_hindug", "Hindug (Indians in Bundahishn)", {"sources": ["Bundahishn Ch. 14"], "notes": "Branch of humanity settling India from Fravak's 15 pairs."}),
+        ("ir_bund_chin", "Chin (China in Bundahishn)", {"sources": ["Bundahishn Ch. 14"], "notes": "Branch of humanity settling East Asia/China in Zoroastrian ethnography."}),
+        ("ir_bund_rum", "Arum / Rum (Western Peoples)", {"sources": ["Bundahishn Ch. 14"], "notes": "Branch settling the western Mediterranean/Anatolian clime."}),
+    ], default_edge="direct", default_sources=["Bundahishn Ch. 14"])
+
+    nodes += [
+        N("ir_merdas", "Merdas (Arabian King, desc. of Taz)", "iranian", 4, "Pishdadian Era", "Father of Zahhak", ["Bundahishn 35", "Shahnameh"], "Pious Arabian king descended from Taz, slain by his own son Zahhak under Ahriman's deception."),
+        N("ir_zahhak", "Zahhak (Azi Dahaka)", "iranian", 4, "Pishdadian Interregnum", "Dragon Usurper King of Babylon & Iran", ["Avesta (Yasht 5, 9)", "Bundahishn 35", "Shahnameh"], "Son of Merdas; overthrows Jamshid and rules 1,000 years from Bawri (Babylon!) before being bound on Mt. Damavand by Fereydun. Ancestor of Mehrab Kaboli -> Rudabeh (mother of Rostam!).", ["Azi Dahaka", "Bivar-asp"], major=True),
+    ]
+    edges += [
+        E("hub_primordial", "ir_gayomart", "parallel", "First mortal human created by Ahura Mazda"),
+        E("ir_gayomart", "ir_mashya_mashyana", "direct", "Rhubarb plant from Gayomart's seed -> Mashya & Mashyana (Bundahishn 14)"),
+        E("ir_mashya_mashyana", "ir_fravak", "direct", "Twin offspring -> Fravak & Fravakain (Bundahishn 14)"),
+        E("ir_taz", "ir_merdas", "direct", "Descendant of Taz (Bundahishn 35 / Shahnameh)"),
+        E("ir_merdas", "ir_zahhak", "direct", "Son (Shahnameh)"),
+        E("hub_world_division", "ir_fravak", "parallel", "Bundahishn Ch. 14: 15 Races across 7 Climes"),
+        E("bib_noah", "ir_gayomart", "syncretic", "al-Tabari & medieval chronicles equate Gayomart with Adam or Noah's kin"),
+        E("ir_taz", "bib_joktan", "parallel", "Bundahishn's Taz (Arabia) <-> Arabian Qahtan/Ishmael ethnography"),
+        E("ir_bund_hindug", "ved_vaivasvata_manu", "parallel", "Zoroastrian Bundahishn ethnographic link to India"),
+        E("ir_bund_chin", "chn_huangdi", "parallel", "Zoroastrian Bundahishn ethnographic link to China (Chin)"),
+    ]
+
+    # 2. Full Pishdadian Dynasty (Every Individual!)
+    nodes += [
+        N("ir_siamak", "Siamak & Nashak", "iranian", 2, "Pishdadian Gen 2", "Son of Keyumars / Mashya", ["Bundahishn 14, 35", "Shahnameh"], "Slain by the Black Div; avenged by his son Hushang."),
+        N("ir_hushang", "Hushang (Haoshyangha) & Guzak", "iranian", 3, "Pishdadian King 2", "Discoverer of Fire & Iron", ["Avesta (Yasht 5, 19)", "Bundahishn 35", "Shahnameh"], "Founder of the Pishdadian ('First Lawgivers') dynasty; establishes Sadeh upon discovering fire.", major=True),
+        N("ir_tahmuras", "Tahmuras (Takhma Urupi)", "iranian", 3, "Pishdadian King 3 ('Binder of Demons')", "Teacher of 30 Scripts & Weaving", ["Avesta (Yasht 15, 19)", "Shahnameh"], "Binds Ahriman for 30 years and learns 30 scripts from captive demons to teach humanity."),
+        N("ir_vivanghant", "Vivanghant (Vivanhao)", "iranian", 3, "Avestan Antediluvian Horizon", "Exact Cognate of Vedic Vivasvan", ["Avesta (Yasna 9.4, Vendidad 2)", "Bundahishn 35"], "EXACT Proto-Indo-Iranian linguistic & genealogical cognate of Vedic Vivasvan (Surya)! Strongest verified prehistoric ancestral bridge between Iran and India.", ["Vivanhao", "Cognate: Vedic Vivasvan"], major=True),
+        N("ir_yima", "Yima Khshaeta (Jamshid) & Yimak", "iranian", 4, "Golden Age / Cataclysm Horizon", "4th Pishdadian King & Builder of the Vara", ["Avesta (Vendidad 2, Yasna 9)", "Bundahishn 35", "Shahnameh"], "Son of Vivanghant — exact cognate of Vedic Yama! Builds the subterranean Vara preserving pairs of humans, animals, and seeds against the great cosmic winter/meltwater cataclysm.", ["Jamshid", "Cognate: Vedic Yama", "Twin: Yimak"], major=True),
+        N("ir_shahrnaz_arnavaz", "Shahrnaz & Arnavaz (Daughters of Jamshid)", "iranian", 4, "Pishdadian Princesses", "Wives of Fereydun / Mothers of Salm, Tur & Iraj", ["Shahnameh"], "Daughters/sisters of Jamshid rescued from Zahhak by Fereydun; Shahrnaz bears Salm & Tur, and Arnavaz bears Iraj!"),
+        N("ir_athwya", "Athwya (Abtin) & Faranak", "iranian", 4, "Pishdadian Descent from Jamshid", "Father of Fereydun / Exact Cognate of Vedic Aptya", ["Avesta (Yasna 9.7)", "Bundahishn 35", "Shahnameh"], "Descendant of Jamshid (via Pur-Tora/Sog-Tora in Bundahishn 35); EXACT Proto-Indo-Iranian cognate of Vedic Aptya (father of Trita Aptya)!", ["Abtin", "Cognate: Vedic Aptya"], major=True),
+        N("ir_fereydun", "Fereydun (Thraetaona)", "iranian", 5, "Post-Cataclysm Pishdadian King 6", "Binder of Zahhak & Divider of the World Into Three", ["Avesta (Yasht 5, 19)", "Bundahishn 35", "Shahnameh"], "Son of Athwya (Abtin) & Faranak — cognate of Vedic Trita! Weds Shahrnaz & Arnavaz, binds Zahhak on Mt. Damavand, and divides the world among Salm, Tur, and Iraj.", ["Thraetaona", "Faridun", "Cognate: Vedic Trita"], major=True),
+    ]
+    edges += [
+        E("ir_mashya_mashyana", "ir_siamak", "direct", "Siamak & Nashak (Bundahishn 14; son of Keyumars in Shahnameh)"),
+        E("ir_siamak", "ir_hushang", "direct", "Son (Shahnameh / Bundahishn 35)"),
+        E("ir_hushang", "ir_tahmuras", "direct", "Son/Descendant (Shahnameh / Bundahishn)"),
+        E("ir_tahmuras", "ir_vivanghant", "expansion", "Pishdadian lineage to Vivanghant (Bundahishn 35)"),
+        E("ir_vivanghant", "ir_yima", "direct", "Son (Avesta Yasna 9.4)"),
+        E("ir_yima", "ir_shahrnaz_arnavaz", "direct", "Daughters/sisters of Jamshid (Shahnameh)"),
+        E("ir_shahrnaz_arnavaz", "ir_fereydun", "direct", "Wives of Fereydun (mothers of Salm, Tur & Iraj)"),
+        E("ir_yima", "ir_athwya", "direct", "Descendant of Jamshid via Pur-Tora -> Abtin/Athwya (Bundahishn 35)"),
+        E("ir_athwya", "ir_fereydun", "direct", "Son (Avesta Yasna 9.7; Shahnameh)"),
+        E("hub_flood", "ir_yima", "parallel", "Vara enclosure against cataclysmic winter/meltwater"),
+        E("hub_world_division", "ir_fereydun", "parallel", "Tripartite division of Eurasia: Salm, Tur, Iraj"),
+    ]
+
+    # 3. Fereydun's 3 Sons + Turanian House + Pishdadian Line + Sistan House (Every Person Individualized!)
+    nodes += [
+        N("ir_salm", "Salm (Ruler of the West / Rum)", "iranian", 6, "Tripartite Division", "1st Son of Fereydun (West / Anatolia / Europe)", ["Bundahishn 35", "Shahnameh"], "Eldest son of Fereydun & Shahrnaz; receives Rum/West.", major=True),
+        N("ir_tur", "Tur (Ruler of Turan / Central Asia)", "iranian", 6, "Tripartite Division", "2nd Son of Fereydun (Turan / Steppe)", ["Bundahishn 35", "Shahnameh"], "Second son of Fereydun & Shahrnaz; receives Central Asia & Steppe.", major=True),
+        N("ir_zadsham", "Zadsham (son of Tur)", "iranian", 6, "Turanian Line", "Son of Tur", ["Bundahishn 35", "Shahnameh"], "Father of Pashang."),
+        N("ir_pashang", "Pashang (King of Turan)", "iranian", 7, "Turanian Line", "Father of Afrasiab, Garsivaz & Aghriras", ["Bundahishn 35", "Shahnameh"], "Son of Zadsham; launches the great Iran-Turan wars."),
+        N("ir_afrasiab", "Afrasiab (Franrasyan)", "iranian", 8, "Turanian Emperor", "Great King of Turan / Grandfather of Kay Khosrow", ["Avesta (Yasht 5, 19)", "Bundahishn 35", "Shahnameh"], "Son of Pashang; legendary rival of Iran whose daughter Farangis marries Siyavash, uniting Iran and Turan in Kay Khosrow!", ["Franrasyan"], major=True),
+        N("ir_garsivaz_aghriras", "Garsivaz & Aghriras (Brothers of Afrasiab)", "iranian", 8, "Turanian Princes", "Sons of Pashang", ["Shahnameh"], "Aghriras (noble brother who saved Iranian captives) and Garsivaz (instigator of Siyavash's murder)."),
+        N("ir_farangis", "Farangis (Turanian Princess)", "iranian", 9, "Daughter of Afrasiab", "Wife of Siyavash / Mother of Kay Khosrow", ["Shahnameh"], "Daughter of Afrasiab; marries Iranian prince Siyavash and gives birth to Kay Khosrow, uniting Turan and Iran!"),
+
+        N("ir_iraj", "Iraj (Ruler of Iran / Eranshahr)", "iranian", 6, "Tripartite Division", "3rd Son of Fereydun / Eponym of Iran", ["Bundahishn 35", "Shahnameh"], "Youngest son of Fereydun & Arnavaz; receives Iran. Slain by Salm & Tur.", major=True),
+        N("ir_mahafarid", "Mah-Afarid (Daughter of Iraj)", "iranian", 6, "House of Iraj", "Grandmother/Mother of Manuchehr", ["Shahnameh"], "Daughter of Iraj wed to Pashang (nephew of Fereydun), preserving Iraj's bloodline into Manuchehr."),
+        N("ir_manuchehr", "Manuchehr (Manushchihr)", "iranian", 7, "Pishdadian King 7", "Avenger of Iraj / Ancestor of Kayanians & Zoroaster", ["Avesta (Yasht 13)", "Bundahishn 35", "Shahnameh"], "Avenges Iraj against Salm & Tur; defines Iran's border via Arash the Archer's legendary shot!", major=True),
+        N("ir_nowzar", "Nowzar (son of Manuchehr)", "iranian", 8, "Pishdadian King 8", "Father of Heroes Tus & Gostaham", ["Shahnameh"], "Slain by Afrasiab; his sons Tus and Gostaham become leading Iranian generals."),
+        N("ir_tus_gostaham", "Tus & Gostaham (Sons of Nowzar)", "iranian", 8, "Pishdadian Princes", "Iranian Commanders", ["Shahnameh"], "Sons of Nowzar who serve the Kayanian kings."),
+        N("ir_zav", "Zav (Uzava, son of Tahmasp)", "iranian", 8, "Pishdadian King 9", "Restorer of Iran's Canals", ["Bundahishn 35", "Shahnameh"], "Descendant of Manuchehr who restores agriculture after Afrasiab's drought."),
+        N("ir_garshasp", "Garshasp (Keresaspa — Dragon-Slayer)", "iranian", 8, "Final Pishdadian / Avestan Hero", "Slayer of Azi Sruvara", ["Avesta (Yasna 9.10)", "Bundahishn 35", "Shahnameh"], "Avestan champion and final Pishdadian ruler; ancestor of the Sistan paladins (Nariman -> Sam -> Zal -> Rostam)."),
+
+        # Sistan Heroic House (Individualized!)
+        N("ir_nariman", "Nariman (son of Garshasp)", "iranian", 8, "Sistan Heroic Line", "Father of Sam", ["Shahnameh", "Garshaspnameh"], "Warrior ancestor of the House of Sistan."),
+        N("ir_sam", "Sam (Paladin of Iran)", "iranian", 8, "Sistan Heroic Line", "Father of Zal", ["Shahnameh"], "Champion under Manuchehr; initially abandoned his white-haired infant Zal on Mt. Alborz before reclaiming him from the Simurgh."),
+        N("ir_zal", "Zal (Dastan — Raised by the Simurgh)", "iranian", 8, "Sistan Heroic Line", "Father of Rostam", ["Shahnameh"], "White-haired sage-warrior raised by the mythical Simurgh; weds Rudabeh of Kabul.", major=True),
+        N("ir_mehrab", "Mehrab Kaboli (King of Kabul)", "iranian", 7, "Kabul / Indo-Iranian Frontier", "Descendant of Zahhak / Father of Rudabeh", ["Shahnameh"], "Ruler of Kabul descended from Zahhak; father of Rudabeh."),
+        N("ir_rudabeh", "Rudabeh (Princess of Kabul)", "iranian", 8, "Kabul / Sistan", "Wife of Zal / Mother of Rostam", ["Shahnameh"], "Her union with Zal bridges Kabul/Zahhak's line with Iran's greatest heroic house!"),
+        N("ir_rostam", "Rostam (Champion of Iran)", "iranian", 9, "Sistan Heroic Era", "Greatest Hero of the Shahnameh", ["Shahnameh"], "Son of Zal & Rudabeh; serves the Kayanian kings for centuries. Marries Tahmineh of Samangan (Turan) -> Sohrab, plus Faramarz and warrior daughter Banu Goshasp.", major=True),
+        N("ir_shaghad", "Shaghad (Half-Brother of Rostam)", "iranian", 9, "Sistan / Kabul", "Son of Zal", ["Shahnameh"], "Rostam's treacherous half-brother who conspires with the King of Kabul."),
+        N("ir_sohrab", "Sohrab (son of Rostam & Tahmineh)", "iranian", 10, "Shahnameh", "Son of Rostam & Turanian Princess Tahmineh", ["Shahnameh"], "Born in Samangan (Turan); tragically slain in single combat by his father Rostam before they recognize one another."),
+        N("ir_faramarz", "Faramarz & Banu Goshasp (Children of Rostam)", "iranian", 10, "Shahnameh / Faramarznameh", "Warrior Children of Rostam", ["Shahnameh", "Banu Goshaspnameh"], "Faramarz leads expeditions into India and avenges Rostam; Banu Goshasp is a celebrated Iranian warrior heroine."),
+    ]
+    edges += [
+        E("ir_fereydun", "ir_salm", "direct", "1st son (West / Rum)"),
+        E("ir_fereydun", "ir_tur", "direct", "2nd son (Turan / Central Asia)"),
+        E("ir_fereydun", "ir_iraj", "direct", "3rd son (Iran / Eranshahr)"),
+        E("ir_tur", "ir_zadsham", "direct", "Son (Bundahishn 35)"),
+        E("ir_zadsham", "ir_pashang", "direct", "Son (Bundahishn 35)"),
+        E("ir_pashang", "ir_afrasiab", "direct", "Son (Shahnameh)"),
+        E("ir_pashang", "ir_garsivaz_aghriras", "direct", "Sons (Shahnameh)"),
+        E("ir_afrasiab", "ir_farangis", "direct", "Daughter (Shahnameh)"),
+        E("ir_iraj", "ir_mahafarid", "direct", "Daughter (Shahnameh)"),
+        E("ir_mahafarid", "ir_manuchehr", "direct", "Descendant of Iraj -> Manuchehr (Shahnameh)"),
+        E("ir_manuchehr", "ir_nowzar", "direct", "Son (Shahnameh)"),
+        E("ir_nowzar", "ir_tus_gostaham", "direct", "Sons (Shahnameh)"),
+        E("ir_manuchehr", "ir_zav", "expansion", "Descendant of Manuchehr (Bundahishn 35)"),
+        E("ir_zav", "ir_garshasp", "direct", "Son/Successor (Shahnameh)"),
+        E("ir_garshasp", "ir_nariman", "direct", "Sistan heroic descent"),
+        E("ir_nariman", "ir_sam", "direct", "Son (Shahnameh)"),
+        E("ir_sam", "ir_zal", "direct", "Son (Shahnameh)"),
+        E("ir_zahhak", "ir_mehrab", "direct", "Descendant ruling Kabul (Shahnameh)"),
+        E("ir_mehrab", "ir_rudabeh", "direct", "Daughter (Shahnameh)"),
+        E("ir_zal", "ir_rostam", "direct", "Son via Rudabeh (Shahnameh)"),
+        E("ir_rudabeh", "ir_rostam", "direct", "Mother of Rostam"),
+        E("ir_zal", "ir_shaghad", "direct", "Son (Shahnameh)"),
+        E("ir_rostam", "ir_sohrab", "direct", "Son via Tahmineh of Samangan (Turan)"),
+        E("ir_rostam", "ir_faramarz", "direct", "Children of Rostam"),
+    ]
+
+    # 4. Full Kayanian Dynasty + Prophet Zarathustra's Complete Family (Individualized!)
+    nodes += [
+        N("ir_kay_kavad", "Kay Kavad (Kavi Kavata)", "iranian", 8, "Founder of Kayanian Dynasty", "1st Kayanian King", ["Avesta (Yasht 19)", "Bundahishn 35", "Shahnameh"], "Descendant of Manuchehr brought from Mt. Alborz by Rostam; father of Kay Kavus and Kay Apiveh.", major=True),
+        N("ir_kay_apiveh", "Kay Apiveh → Kay Arash & Kay Pishin", "iranian", 8, "Kayanian Branch", "Sons of Kay Kavad", ["Bundahishn 35", "Avesta (Yasht 19)"], "Branch of Kay Kavad leading to Kay Lohrasp and Kay Goshtasp (patron of Zoroaster)."),
+        N("ir_kay_kavus", "Kay Kavus (Kavi Usan)", "iranian", 9, "2nd Kayanian King", "Cognate: Vedic Kavi Ushanas", ["Avesta (Yasht 14, 19)", "Bundahishn 35", "Shahnameh"], "Linguistic cognate of Vedic sage Kavi Ushanas! Father of Prince Siyavash.", ["Kavi Usan", "Cognate: Vedic Kavi Ushanas"], major=True),
+        N("ir_siyavash", "Siyavash (Syavarshan)", "iranian", 9, "Martyred Kayanian Prince", "Son of Kay Kavus / Husband of Farangis", ["Avesta (Yasht 19)", "Shahnameh"], "Passes through fire unscathed; weds Afrasiab's daughter Farangis in Turan; father of Kay Khosrow and Farud."),
+        N("ir_farud", "Farud (son of Siyavash & Jarireh)", "iranian", 10, "Shahnameh", "Half-Brother of Kay Khosrow", ["Shahnameh"], "Son of Siyavash and Jarireh (daughter of Turanian sage Piran Viseh)."),
+        N("ir_kay_khosrow", "Kay Khosrow (Kavi Husravah)", "iranian", 10, "3rd Kayanian King (Unifier of Iran & Turan)", "Ideal Sacred King of Avesta & Shahnameh", ["Avesta (Yasht 9, 19)", "Bundahishn 35", "Shahnameh"], "Son of Siyavash (Iran) & Farangis (Turan); unites both houses, defeats Afrasiab, and passes the crown to Kay Lohrasp.", major=True),
+        N("ir_kay_lohrasp", "Kay Lohrasp (Aurvat-aspa)", "iranian", 10, "4th Kayanian King", "Father of Kay Goshtasp", ["Avesta", "Bundahishn 35", "Shahnameh"], "Descended from Kay Apiveh -> Kay Pishin -> Kay Lohrasp; builds the fire temple at Balkh."),
+        N("ir_kay_goshtasp", "Kay Goshtasp (Kavi Vishtaspa)", "iranian", 10, "5th Kayanian King", "Royal Patron of Prophet Zarathustra", ["Avesta (Yasna 46, 51)", "Bundahishn 35", "Shahnameh"], "Champions Prophet Zarathustra's religion; father of hero Esfandiyar and brother Zarir.", ["Kavi Vishtaspa"], major=True),
+        N("ir_esfandiyar", "Esfandiyar (Spento-data)", "iranian", 11, "Kayanian Champion", "Son of Kay Goshtasp / Father of Bahman", ["Avesta", "Shahnameh"], "Bronze-bodied champion of Zoroastrianism slain by Rostam's tamarisk arrow; father of Kay Bahman."),
+        N("ir_bahman", "Kay Bahman → Queen Homai → Darab → Dara", "iranian", 11, "Late Kayanian Kings", "Bridge to Historical Artaxerxes & Darius III", ["Bundahishn 35", "Shahnameh"], "Kay Bahman (equated in Persian lore with Artaxerxes Longimanus) -> Queen Homai -> Darab -> Dara (Darius III, rival of Alexander!)."),
+
+        # Zarathustra's Full Family (Bundahishn Ch. 35!)
+        N("ir_pourushaspa", "Spitama → Haechataspa → Pourushaspa & Dughdova", "iranian", 9, "Bundahishn Ch. 35:50-55", "Parents & Clan of Zarathustra", ["Avesta (Yasna 9.13)", "Bundahishn Ch. 35"], "Bundahishn traces Spitama (descended from Manuchehr) -> Haechataspa -> Pourushaspa, who marries Dughdova to birth Zarathustra."),
+        N("ir_zoroaster", "Prophet Zarathustra (Zoroaster) & Hvovi", "iranian", 10, "c. 1500-1000 BCE (or 6th c. BCE trad.)", "Founder of Zoroastrianism", ["Avesta (Gathas)", "Bundahishn Ch. 35:50-56"], "Author of the Gathas; weds Hvovi (of the Hvova clan, kin of Frashaoshtra & Jamaspa) and fathers 3 sons and 3 daughters.", ["Zoroaster", "Zartosht"], major=True),
+    ]
+    add_children(nodes, edges, "ir_zoroaster", "iranian", 11, "Children of Zarathustra (Bundahishn 35:56)", [
+        ("ir_zor_isatvastra", "Isatvastra (son of Zarathustra)", {"sources": ["Bundahishn 35:56", "Yasht 13.98"], "notes": "Eldest son of Zarathustra; head of the priestly estate (Athornan)."}),
+        ("ir_zor_urvatatnara", "Urvatatnara (son of Zarathustra)", {"sources": ["Bundahishn 35:56"], "notes": "Son of Zarathustra; head of the pastoral/agricultural estate."}),
+        ("ir_zor_hvarechithra", "Hvarechithra (son of Zarathustra)", {"sources": ["Bundahishn 35:56"], "notes": "Son of Zarathustra; head of the warrior estate."}),
+        ("ir_zor_freni", "Freni (dau. of Zarathustra)", {"sources": ["Bundahishn 35:56", "Yasht 13.139"], "notes": "1st daughter of Zarathustra."}),
+        ("ir_zor_thriti", "Thriti (dau. of Zarathustra)", {"sources": ["Bundahishn 35:56", "Yasht 13.139"], "notes": "2nd daughter of Zarathustra."}),
+        ("ir_zor_pouruchista", "Pouruchista (+ Jamaspa)", {"sources": ["Avesta (Yasna 53)", "Bundahishn 35:56"], "notes": "Youngest daughter of Zarathustra celebrated in Gatha Yasna 53; marries sage Jamaspa (counselor of King Vishtaspa)."}),
+    ], default_edge="direct", default_sources=["Bundahishn Ch. 35:56"])
+
+    edges += [
+        E("ir_manuchehr", "ir_kay_kavad", "expansion", "Descendant of Manuchehr (Bundahishn 35)"),
+        E("ir_kay_kavad", "ir_kay_apiveh", "direct", "Son (Bundahishn 35)"),
+        E("ir_kay_kavad", "ir_kay_kavus", "direct", "Son (Shahnameh / Bundahishn)"),
+        E("ir_kay_kavus", "ir_siyavash", "direct", "Son (Shahnameh)"),
+        E("ir_siyavash", "ir_farud", "direct", "Son via Jarireh (Shahnameh)"),
+        E("ir_siyavash", "ir_kay_khosrow", "direct", "Son via Farangis (Shahnameh)"),
+        E("ir_farangis", "ir_kay_khosrow", "direct", "Mother of Kay Khosrow (uniting Turan & Iran!)"),
+        E("ir_kay_apiveh", "ir_kay_lohrasp", "direct", "Kay Apiveh -> Kay Pishin -> Kay Lohrasp (Bundahishn 35)"),
+        E("ir_kay_khosrow", "ir_kay_lohrasp", "expansion", "Kay Khosrow passes throne to Kay Lohrasp"),
+        E("ir_kay_lohrasp", "ir_kay_goshtasp", "direct", "Son (Shahnameh / Bundahishn)"),
+        E("ir_kay_goshtasp", "ir_esfandiyar", "direct", "Son (Shahnameh)"),
+        E("ir_esfandiyar", "ir_bahman", "direct", "Son Bahman -> Homai -> Darab -> Dara"),
+        E("ir_manuchehr", "ir_pourushaspa", "expansion", "Bundahishn 35: Manuchehr -> ... -> Spitama -> Pourushaspa"),
+        E("ir_pourushaspa", "ir_zoroaster", "direct", "Pourushaspa + Dughdova -> Zarathustra (Yasna 9.13)"),
+        E("ir_kay_goshtasp", "ir_zoroaster", "expansion", "Kavi Vishtaspa (Goshtasp) champions Zarathustra"),
+    ]
+
+    # 5. Historical Median & Achaemenid Persian Dynasties (Individualized!)
+    nodes += [
+        N("ir_deioces", "Deioces → Phraortes (Early Medes)", "iranian", 8, "c. 700-625 BCE", "Founders of the Median Kingdom (Biblical Madai)", ["Herodotus I.96-102"], "Deioces (Dayukku) unifies the Median tribes at Ecbatana; followed by his son Phraortes."),
+        N("ir_cyaxares", "Cyaxares (Uvakhshatra) → Astyages", "iranian", 9, "c. 625-550 BCE", "Conquerors of Nineveh / Kings of Media", ["Herodotus I", "Babylonian Chronicle"], "Cyaxares destroys Nineveh (612 BCE) in alliance with Babylon; his son Astyages fathers Princess Mandane (mother of Cyrus the Great!).", ["Madai (Gen 10:2)"], major=True),
+        N("ir_mandane", "Mandane (Median Princess)", "iranian", 9, "c. 600 BCE", "Daughter of Astyages / Mother of Cyrus the Great", ["Herodotus I.107"], "Unites the Median (Madai) and Persian/Elamite (Anshan) royal houses!"),
+        N("ir_achaemenes", "Achaemenes (Hakhamanish) → Teispes", "iranian", 8, "c. 700-640 BCE", "Founders of Achaemenid Dynasty (Anshan in Elam)", ["Behistun Inscription", "Cyrus Cylinder"], "Achaemenes -> Teispes (Chishpish), who divides his kingdom between Cyrus I (Anshan/Elam) and Ariaramnes (Persia)."),
+        N("ir_cambyses1", "Cyrus I → Cambyses I (Kings of Anshan)", "iranian", 9, "c. 640-559 BCE", "Kings of Anshan (Elam) / Father of Cyrus the Great", ["Cyrus Cylinder"], "Cambyses I marries Median princess Mandane and fathers Cyrus the Great."),
+        N("ir_cyrus", "Cyrus the Great (Koresh)", "iranian", 10, "Achaemenid Empire (559-530 BCE)", "Founder of Persian Empire / Liberator of Judah", ["Cyrus Cylinder", "Ezra 1:1-4", "Isaiah 45:1", "Herodotus"], "Son of Cambyses I (Anshan/Elam) & Mandane (Media/Madai). Conquers Babylon (539 BCE) and decrees the return of Judean exiles to rebuild Jerusalem! Father of Cambyses II, Bardiya, and Atossa.", ["Koresh (Hebrew)", "Kurush"], major=True),
+        N("ir_cambyses2_atossa", "Cambyses II, Bardiya & Queen Atossa", "iranian", 10, "530-475 BCE", "Children of Cyrus the Great", ["Behistun Inscription", "Herodotus III"], "Cambyses II conquers Egypt (525 BCE); Queen Atossa marries Darius I and becomes mother of Xerxes I (Ahasuerus)!"),
+        N("ir_hystaspes", "Ariaramnes → Arsames → Hystaspes (Vishtaspa)", "iranian", 9, "c. 640-522 BCE", "Junior Achaemenid Branch", ["Behistun Inscription"], "Line from Teispes to Hystaspes, father of Darius I."),
+        N("ir_darius1", "Darius I the Great (Darayavahush)", "iranian", 10, "522-486 BCE", "3rd Achaemenid Emperor (Ezra 4-6)", ["Behistun Inscription", "Ezra 6"], "Son of Hystaspes; marries Cyrus's daughter Atossa, uniting both Achaemenid lines, and confirms Cyrus's decree to complete the Second Temple in Jerusalem.", major=True),
+        N("ir_xerxes1", "Xerxes I (Ahasuerus of Book of Esther)", "iranian", 11, "486-465 BCE", "4th Achaemenid Emperor", ["Persepolis Inscriptions", "Book of Esther", "Herodotus VII"], "Son of Darius I & Atossa; widely identified with King Ahasuerus (Achashverosh) in the Book of Esther!", ["Ahasuerus (Esther)", "Khshayarsha"], major=True),
+        N("ir_artaxerxes1", "Artaxerxes I → Darius III", "iranian", 11, "465-330 BCE", "Patron of Ezra & Nehemiah → Final Achaemenid", ["Ezra 7", "Nehemiah 2"], "Son of Xerxes I; commissions Ezra and Nehemiah to rebuild Jerusalem; dynasty continues down to Darius III (Shahnameh's Dara)."),
+    ]
+    edges += [
+        E("bib_madai", "ir_deioces", "cognate", "Biblical Madai (Gen 10:2) = Historical Medes (Old Persian Mada)"),
+        E("ir_deioces", "ir_cyaxares", "direct", "Phraortes -> Cyaxares -> Astyages (Herodotus)"),
+        E("ir_cyaxares", "ir_mandane", "direct", "Daughter of Astyages (Herodotus)"),
+        E("bib_elam", "ir_achaemenes", "cognate", "Achaemenids ruled as Kings of Anshan in Elam (Gen 10:22)"),
+        E("ir_iraj", "ir_achaemenes", "expansion", "Iranian royal continuity from Eranshahr to historical Persia"),
+        E("ir_achaemenes", "ir_cambyses1", "direct", "Teispes -> Cyrus I -> Cambyses I (Cyrus Cylinder)"),
+        E("ir_achaemenes", "ir_hystaspes", "direct", "Teispes -> Ariaramnes -> Arsames -> Hystaspes (Behistun)"),
+        E("ir_cambyses1", "ir_cyrus", "direct", "Son (Cyrus Cylinder)"),
+        E("ir_mandane", "ir_cyrus", "direct", "Mother of Cyrus (uniting Medes/Madai & Persia/Elam!)"),
+        E("ir_cyrus", "ir_cambyses2_atossa", "direct", "Children of Cyrus the Great"),
+        E("ir_hystaspes", "ir_darius1", "direct", "Son (Behistun Inscription)"),
+        E("ir_cambyses2_atossa", "ir_darius1", "direct", "Queen Atossa marries Darius I (uniting both Achaemenid lines)"),
+        E("ir_darius1", "ir_xerxes1", "direct", "Darius I + Atossa -> Xerxes I (Ahasuerus)"),
+        E("ir_xerxes1", "ir_artaxerxes1", "direct", "Son Artaxerxes I -> ... -> Darius III"),
+        E("ir_bahman", "ir_artaxerxes1", "cognate", "Shahnameh's Bahman/Darab/Dara preserves historical memory of Artaxerxes & Darius III"),
+        E("jud_solomon", "ir_cyrus", "cognate", "Ezra 1: Cyrus King of Persia decrees return of Judah's Davidic exiles to Jerusalem"),
+    ]
+
+    return {"module": "06_iranian_zoroastrian", "title": "Exhaustive Iranian & Zoroastrian Genealogy (Avesta, Bundahishn Ch. 14 & 35, Shahnameh, Sistan, Zarathustra, Medes & Achaemenids)", "nodes": nodes, "edges": edges}
+
+
+def build_module_07_asia_steppe():
+    nodes, edges = [], []
+
     nodes += [
         N("ved_brahma_manu", "Brahma → Svayambhuva Manu & Shatarupa", "vedic", 1, "Satya Yuga / Rigvedic",
           "Vedic Primordial Ancestors & Saptarishis", ["Manusmriti Ch. 1", "Vishnu Purana I", "Bhagavata Purana III"],
@@ -969,6 +562,10 @@ def build_module_05_asia_steppe():
         N("ved_yama", "Yama & Yami", "vedic", 4, "Vedic Primordial Horizon",
           "Twin First Mortals / Exact Cognate of Yima", ["Rigveda 10.10, 10.14"],
           "Son of Vivasvan; exact linguistic and genealogical twin of Iranian Yima (Jamshid) son of Vivanghant.", major=True),
+        N("ved_trita_aptya", "Aptya → Trita Aptya & Kavi Ushanas", "vedic", 4, "Rigvedic Mythic Horizon",
+          "Exact Proto-Indo-Iranian Cognates of Athwya/Thraetaona & Kavi Usan", ["Rigveda 1.105, 10.8, 10.99"],
+          "Vedic dragon-slayer Trita son of Aptya is the exact linguistic cognate of Avestan Thraetaona (Fereydun) son of Athwya (Abtin), while sage Kavi Ushanas is the exact cognate of Iranian King Kavi Usan (Kay Kavus)!",
+          ["Trita = Fereydun", "Aptya = Abtin", "Kavi Ushanas = Kay Kavus"]),
         N("ved_vaivasvata_manu", "Vaivasvata Manu (7th Manu / Flood Survivor)", "vedic", 4, "Vedic Flood Horizon",
           "Vedic Great Flood Survivor (Saved by Matsya)", ["Shatapatha Brahmana 1.8.1", "Mahabharata Vana Parva", "Matsya Purana"],
           "Saved by Matsya the Fish during the universal Deluge; ship moored to the Himalayas. Common ancestor of humanity (Manava) in the present age.", major=True),
@@ -996,18 +593,20 @@ def build_module_05_asia_steppe():
         E("ved_kashyapa", "ved_vivasvan", "direct", "Kashyapa + Aditi -> Vivasvan (Surya)"),
         E("ved_vivasvan", "ved_yama", "direct", "Son (Rigveda 10.14)"),
         E("ved_vivasvan", "ved_vaivasvata_manu", "direct", "Son (Shatapatha Brahmana)"),
+        E("ved_brahma_manu", "ved_trita_aptya", "expansion", "Rigvedic mythic heroes Trita Aptya & Kavi Ushanas"),
         E("ved_vaivasvata_manu", "ved_surya_vamsha", "direct", "Son Ikshvaku -> Solar Dynasty"),
         E("ved_vaivasvata_manu", "ved_yayati", "direct", "Via Ila + Budha -> Pururavas -> Yayati"),
         E("ved_brahma_manu", "ved_yayati", "direct", "Brahma -> Atri -> Soma -> Budha"),
         E("ved_puru", "ved_bharata_kuru", "direct", "Puru -> Bharata -> Kuru -> Pandavas"),
         E("ir_vivanghant", "ved_vivasvan", "cognate", "EXACT Proto-Indo-Iranian cognate: Vivanghant = Vivasvan"),
         E("ir_yima", "ved_yama", "cognate", "EXACT Proto-Indo-Iranian cognate: Yima = Yama"),
+        E("ir_athwya", "ved_trita_aptya", "cognate", "EXACT Proto-Indo-Iranian cognate: Athwya/Thraetaona = Aptya/Trita"),
+        E("ir_kay_kavus", "ved_trita_aptya", "cognate", "EXACT Proto-Indo-Iranian cognate: Kavi Usan (Kay Kavus) = Kavi Ushanas"),
         E("hub_flood", "ved_vaivasvata_manu", "parallel", "Ship towed by Matsya to Himalayas"),
         E("hub_world_division", "ved_yayati", "parallel", "Yayati's 5 Sons (Panchajana)"),
         E("bib_abraham", "ved_brahma_manu", "syncretic", "Folkloric/syncretic comparison of Abraham/Sarah <-> Brahma/Saraswati (non-cognate)"),
     ]
 
-    # Ancient China, Korea, Japan & Steppe
     nodes += [
         N("chn_fuxi_nuwa", "Fuxi & Nüwa (Three Sovereigns)", "chinese", 1, "Primordial / Three Sovereigns",
           "Primordial Sibling-Consorts & Clay Creators", ["Shan Hai Jing", "Huainanzi", "Fengsu Tongyi"],
@@ -1074,24 +673,30 @@ def build_module_05_asia_steppe():
         E("hub_world_division", "chn_huangdi", "parallel", "Huangdi's 25 Sons -> Xia, Shang, Zhou, Xiongnu"),
     ]
 
-    return {"module": "05_asia_steppe", "title": "Vedic/Puranic India, China, Korea, Japan & Eurasian Steppe", "nodes": nodes, "edges": edges}
+    return {"module": "07_asia_steppe", "title": "Vedic/Puranic India, China, Korea, Japan & Eurasian Steppe", "nodes": nodes, "edges": edges}
 
 
 def main():
     MODULES_DIR.mkdir(parents=True, exist_ok=True)
-    builders = [
-        build_module_01_antediluvian,
-        build_module_02_table_of_nations,
-        build_module_03_abraham_all_nations,
-        build_module_04_near_east_egypt,
-        build_module_05_asia_steppe,
+    for old_name in ("04_near_east_egypt.json", "05_asia_steppe.json"):
+        old_p = MODULES_DIR / old_name
+        if old_p.exists():
+            old_p.unlink()
+
+    modules = [
+        load_existing_module("01_antediluvian"),
+        load_existing_module("02_table_of_nations"),
+        load_existing_module("03_abraham_all_nations"),
+        build_module_04_egypt_levant(),
+        build_module_05_mesopotamia(),
+        build_module_06_iranian_zoroastrian(),
+        build_module_07_asia_steppe(),
     ]
 
     all_nodes, all_edges = [], []
     module_summaries = []
 
-    for fn in builders:
-        mod = fn()
+    for mod in modules:
         mod_path = MODULES_DIR / f"{mod['module']}.json"
         with open(mod_path, "w", encoding="utf-8") as f:
             json.dump(mod, f, indent=2, ensure_ascii=False)
@@ -1099,7 +704,6 @@ def main():
         all_edges.extend(mod["edges"])
         module_summaries.append({"file": mod["module"], "title": mod["title"], "nodes": len(mod["nodes"]), "edges": len(mod["edges"])})
 
-    # Validate strictly
     nodes_by_id = {}
     for n in all_nodes:
         assert n["id"] not in nodes_by_id, f"Duplicate node ID: {n['id']}"
@@ -1119,8 +723,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Exhaustive Multi-Tradition Database (Phase 2)",
-            "version": "2.0.0",
+            "title": "Ancient World Genealogy Atlas — Exhaustive Multi-Tradition Database (Phase 3)",
+            "version": "3.0.0",
             "modules": module_summaries,
             "linkTypes": LINK_TYPES,
         },

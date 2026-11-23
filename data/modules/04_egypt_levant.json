@@ -1,0 +1,193 @@
+{
+  "module": "04_egypt_levant",
+  "title": "Egyptian Cross-Traditions & Phoenician-Canaanite Lineages",
+  "nodes": [
+    {
+      "id": "eg_ennead",
+      "name": "Atum → Shu/Tefnut → Geb/Nut → Osiris & Isis → Horus",
+      "altNames": [
+        "Heliopolitan Ennead",
+        "Nun (Primeval Waters)"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 1,
+      "era": "Old Kingdom Pyramid Texts (c. 2400 BCE)",
+      "role": "Heliopolitan Great Ennead",
+      "sources": [
+        "Pyramid Texts",
+        "Turin King List",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Egyptian royal king lists trace historical pharaohs directly from the Ennead and Horus through the Shemsu-Hor ('Followers of Horus'). Osiris placed in a chest/ark on the Nile was later compared by syncretists to Noah.",
+      "major": true
+    },
+    {
+      "id": "eg_thoth_saurid",
+      "name": "Thoth (Djehuty / Hermes) & King Saurid (Surid)",
+      "altNames": [
+        "Djehuty",
+        "Hermes Trismegistus",
+        "Surid / Saurid",
+        "Idris = Enoch"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 3,
+      "era": "Egyptian / Greco-Egyptian & Coptic-Arabic Lore",
+      "role": "Egyptian Scribe of the Gods / Antediluvian Pyramid Builder",
+      "sources": [
+        "Pseudo-Eupolemus (2nd c. BCE)",
+        "Corpus Hermeticum",
+        "Akhbar al-Zaman",
+        "al-Maqrizi Khitat",
+        "Bar Hebraeus"
+      ],
+      "notes": "Greco-Egyptian, Hermetic, Coptic, and Arabic histories explicitly identify Biblical Enoch (Idris) with Egyptian Thoth / Hermes Trismegistus and the antediluvian Egyptian King Saurid (Surid), who foresaw the Flood and built the Pyramids to preserve astronomy and sacred wisdom!",
+      "major": true
+    },
+    {
+      "id": "eg_menes",
+      "name": "Menes / Narmer (1st Dynasty) & Baysar (Misrayim)",
+      "altNames": [
+        "Narmer",
+        "Misr / Baysar (Coptic-Arabic lore)",
+        "Rikayon (Jasher 14)"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "First Dynasty (c. 3100 BCE)",
+      "role": "First Historical Pharaoh of Egypt (Mizraim)",
+      "sources": [
+        "Narmer Palette",
+        "Turin King List",
+        "Manetho",
+        "al-Maqrizi Khitat"
+      ],
+      "notes": "Historical unifier of Egypt. Medieval Coptic/Arabic chronicles (al-Maqrizi) trace post-Flood Egyptian kings from Ham -> Baysar -> Misrayim (Mizraim), while Book of Jasher 14 recounts Rikayon establishing the royal title 'Pharaoh'!",
+      "major": true
+    },
+    {
+      "id": "eg_imhotep",
+      "name": "Imhotep (Vizier of Djoser / 7-Year Famine)",
+      "altNames": [
+        "Compared to Joseph (Zaphenath-Paneah)"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 12,
+      "era": "Old Kingdom (3rd Dynasty) / Ptolemaic Famine Stela",
+      "role": "Egyptian Sage, Architect & Famine Vizier",
+      "sources": [
+        "Famine Stela (Sehel Island)",
+        "Manetho"
+      ],
+      "notes": "Master architect of the Step Pyramid and high priest of Heliopolis (On). The Sehel Island Famine Stela credits Imhotep with ending a 7-year Nile famine—frequently compared in cross-cultural lore with Joseph (Zaphenath-Paneah), who wed the daughter of the Priest of On!",
+      "major": false
+    },
+    {
+      "id": "eg_osarseph_bithiah",
+      "name": "Osarseph (Manetho) / Musaeus (Artapanus) / Bithiah & Adoniah",
+      "altNames": [
+        "Osarseph",
+        "Musaeus",
+        "Queen Adoniah of Cush (Jasher 73)",
+        "Princess Bithiah (Jasher 68)"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "Greco-Egyptian Chronicles (3rd-2nd c. BCE) & Jasher",
+      "role": "Egyptian & Cushite Names/Traditions of Moses",
+      "sources": [
+        "Manetho (via Josephus Against Apion 1.26)",
+        "Artapanus (via Eusebius)",
+        "Book of Jasher 68, 72-76"
+      ],
+      "notes": "Manetho preserves an Egyptian tradition of a Heliopolitan priest named Osarseph who took the name Moses; Artapanus calls Moses 'Musaeus' (teacher of Orpheus) and Egyptian 'Hermes', leading an expedition into Cush/Ethiopia — strikingly echoing Book of Jasher 72-76 where Moses rules Cush with Queen Adoniah!",
+      "major": true
+    },
+    {
+      "id": "le_sanchuniathon",
+      "name": "Protogonos → Misor & Sydyk → Taaut (Thoth) & Chna (Canaan)",
+      "altNames": [
+        "Misor = Mizraim",
+        "Taaut = Thoth",
+        "Chna = Canaan"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "Phoenician-Canaanite Lore",
+      "role": "Phoenician Genealogy Bridging Egypt & Levant",
+      "sources": [
+        "Philo of Byblos / Sanchuniathon (via Eusebius Praep. Ev. I.10)"
+      ],
+      "notes": "Explicitly names Misor (direct cognate of Biblical Mizraim!) as brother of Sydyk (Righteousness, cf. Melchizedek) and father of Taaut (Egyptian Thoth, inventor of writing), alongside Chna (Canaan).",
+      "major": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "hub_primordial",
+      "to": "eg_ennead",
+      "type": "parallel",
+      "label": "Heliopolitan primeval divine pairs & Nun"
+    },
+    {
+      "from": "eg_ennead",
+      "to": "eg_menes",
+      "type": "expansion",
+      "label": "Turin King List: Horus -> Shemsu-Hor -> Menes"
+    },
+    {
+      "from": "bib_enoch",
+      "to": "eg_thoth_saurid",
+      "type": "syncretic",
+      "label": "Pseudo-Eupolemus, Hermetic & Coptic-Arabic lore equate Enoch (Idris) with Thoth / King Saurid"
+    },
+    {
+      "from": "eg_ennead",
+      "to": "bib_noah",
+      "type": "syncretic",
+      "label": "Syncretic comparison: Osiris's Nile ark / primeval waters of Nun <-> Noah"
+    },
+    {
+      "from": "bib_mizraim",
+      "to": "eg_menes",
+      "type": "cognate",
+      "label": "Biblical Mizraim = Egypt (land of Menes / Coptic Misrayim)"
+    },
+    {
+      "from": "bib_mizraim",
+      "to": "le_sanchuniathon",
+      "type": "cognate",
+      "label": "Biblical Mizraim = Phoenician Misor"
+    },
+    {
+      "from": "bib_canaan",
+      "to": "le_sanchuniathon",
+      "type": "cognate",
+      "label": "Biblical Canaan = Phoenician Chna"
+    },
+    {
+      "from": "le_sanchuniathon",
+      "to": "eg_thoth_saurid",
+      "type": "cognate",
+      "label": "Phoenician Taaut = Egyptian Thoth"
+    },
+    {
+      "from": "tri_joseph",
+      "to": "eg_imhotep",
+      "type": "parallel",
+      "label": "7-year famine vizier linked to On/Heliopolis (Famine Stela <-> Gen 41)"
+    },
+    {
+      "from": "bib_moses",
+      "to": "eg_osarseph_bithiah",
+      "type": "syncretic",
+      "label": "Manetho's Osarseph, Artapanus's Musaeus & Jasher's King of Cush"
+    },
+    {
+      "from": "bib_cush",
+      "to": "eg_osarseph_bithiah",
+      "type": "expansion",
+      "label": "Jasher 72-76 & Josephus Ant. 2.10: Moses rules Cush & marries Queen Adoniah"
+    }
+  ]
+}

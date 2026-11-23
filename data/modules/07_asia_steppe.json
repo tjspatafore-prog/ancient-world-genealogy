@@ -1,5 +1,5 @@
 {
-  "module": "05_asia_steppe",
+  "module": "07_asia_steppe",
   "title": "Vedic/Puranic India, China, Korea, Japan & Eurasian Steppe",
   "nodes": [
     {
@@ -61,6 +61,24 @@
       ],
       "notes": "Son of Vivasvan; exact linguistic and genealogical twin of Iranian Yima (Jamshid) son of Vivanghant.",
       "major": true
+    },
+    {
+      "id": "ved_trita_aptya",
+      "name": "Aptya → Trita Aptya & Kavi Ushanas",
+      "altNames": [
+        "Trita = Fereydun",
+        "Aptya = Abtin",
+        "Kavi Ushanas = Kay Kavus"
+      ],
+      "tradition": "vedic",
+      "tier": 4,
+      "era": "Rigvedic Mythic Horizon",
+      "role": "Exact Proto-Indo-Iranian Cognates of Athwya/Thraetaona & Kavi Usan",
+      "sources": [
+        "Rigveda 1.105, 10.8, 10.99"
+      ],
+      "notes": "Vedic dragon-slayer Trita son of Aptya is the exact linguistic cognate of Avestan Thraetaona (Fereydun) son of Athwya (Abtin), while sage Kavi Ushanas is the exact cognate of Iranian King Kavi Usan (Kay Kavus)!",
+      "major": false
     },
     {
       "id": "ved_vaivasvata_manu",
@@ -132,7 +150,7 @@
       "tradition": "vedic",
       "tier": 6,
       "era": "Rigvedic Panchajana (5 Sons of Yayati)",
-      "role": "Individual / Tribal Eponym",
+      "role": "Individual / Lineage Member",
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
@@ -148,7 +166,7 @@
       "tradition": "vedic",
       "tier": 6,
       "era": "Rigvedic Panchajana (5 Sons of Yayati)",
-      "role": "Individual / Tribal Eponym",
+      "role": "Individual / Lineage Member",
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
@@ -164,7 +182,7 @@
       "tradition": "vedic",
       "tier": 6,
       "era": "Rigvedic Panchajana (5 Sons of Yayati)",
-      "role": "Individual / Tribal Eponym",
+      "role": "Individual / Lineage Member",
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
@@ -180,7 +198,7 @@
       "tradition": "vedic",
       "tier": 6,
       "era": "Rigvedic Panchajana (5 Sons of Yayati)",
-      "role": "Individual / Tribal Eponym",
+      "role": "Individual / Lineage Member",
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
@@ -196,7 +214,7 @@
       "tradition": "vedic",
       "tier": 6,
       "era": "Rigvedic Panchajana (5 Sons of Yayati)",
-      "role": "Individual / Tribal Eponym",
+      "role": "Individual / Lineage Member",
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
@@ -468,6 +486,12 @@
       "label": "Son (Shatapatha Brahmana)"
     },
     {
+      "from": "ved_brahma_manu",
+      "to": "ved_trita_aptya",
+      "type": "expansion",
+      "label": "Rigvedic mythic heroes Trita Aptya & Kavi Ushanas"
+    },
+    {
       "from": "ved_vaivasvata_manu",
       "to": "ved_surya_vamsha",
       "type": "direct",
@@ -502,6 +526,18 @@
       "to": "ved_yama",
       "type": "cognate",
       "label": "EXACT Proto-Indo-Iranian cognate: Yima = Yama"
+    },
+    {
+      "from": "ir_athwya",
+      "to": "ved_trita_aptya",
+      "type": "cognate",
+      "label": "EXACT Proto-Indo-Iranian cognate: Athwya/Thraetaona = Aptya/Trita"
+    },
+    {
+      "from": "ir_kay_kavus",
+      "to": "ved_trita_aptya",
+      "type": "cognate",
+      "label": "EXACT Proto-Indo-Iranian cognate: Kavi Usan (Kay Kavus) = Kavi Ushanas"
     },
     {
       "from": "hub_flood",

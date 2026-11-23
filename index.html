@@ -103,6 +103,8 @@
     <button onclick="focusSubtree('bib_esau')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Esau → Edom → Zepho/Rome</button>
     <button onclick="focusSubtree('bib_moses')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Moses, Egypt &amp; Cush</button>
     <button onclick="focusSubtree('bib_enoch')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Enoch, Thoth &amp; Watchers</button>
+    <button onclick="applyPreset('mesopotamia')" id="preset-mesopotamia" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Mesopotamia (Sumer → Akkad)</button>
+    <button onclick="applyPreset('iranian')" id="preset-iranian" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Iran &amp; Zoroaster (Shahnameh → Cyrus)</button>
     <button onclick="applyPreset('indo_iran')" id="preset-indo_iran" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Near East ↔ Iran ↔ India</button>
     <button onclick="applyPreset('east_asia')" id="preset-east_asia" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">China ↔ Steppe ↔ Japheth</button>
   </div>
@@ -606,9 +608,24 @@ function applyPreset(name) {
   if (name === "all") {
     activeLinkTypes = new Set(Object.keys(LINK_META));
     activeTraditions = new Set(Object.keys(TRADITIONS));
+    expandMode = "landmarks";
+    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
+    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
   } else if (name === "strict") {
     activeLinkTypes = new Set(["direct", "expansion", "cognate"]);
     activeTraditions = new Set(Object.keys(TRADITIONS).filter(k => k !== "archetype"));
+  } else if (name === "mesopotamia") {
+    activeLinkTypes = new Set(Object.keys(LINK_META));
+    activeTraditions = new Set(["mesopotamian"]);
+    expandMode = "all";
+    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
+    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
+  } else if (name === "iranian") {
+    activeLinkTypes = new Set(Object.keys(LINK_META));
+    activeTraditions = new Set(["iranian"]);
+    expandMode = "all";
+    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
+    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
   } else if (name === "indo_iran") {
     activeLinkTypes = new Set(["direct", "expansion", "cognate", "parallel"]);
     activeTraditions = new Set(["biblical", "mesopotamian", "iranian", "vedic", "arabian"]);

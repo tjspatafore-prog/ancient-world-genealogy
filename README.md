@@ -2,22 +2,14 @@
 
 An exhaustive, modular, comparative worldwide ancient genealogy tree and graph database accounting for every individual across ancient religious, extra-biblical, Near Eastern, Egyptian, Asian, and Steppe texts.
 
-## Current Coverage (Phase 2 — 370 Individuals • 421 Typed Links)
+## Current Coverage (Phase 3 — 502 Individuals • 576 Typed Links across 7 Modules)
 - **Module 1 — Antediluvian Era (36 nodes):** Full Sethite & Cainite lineages, matriarchs from *Book of Jubilees*, all extra-biblical children of Kenan (Enan, Mered, Adah, Zillah), Enoch (Methuselah, Elisha, Elimelech, Melca, Naamah), and Methuselah (Eliakim) from *Book of Jasher*, plus *1 Enoch* Watchers & *Qumran Book of Giants* (Ohya, Hahya, Mahaway, Gilgamesh).
 - **Module 2 — Complete Table of Nations (119 nodes):** Every son and grandson of **Japheth**, **Ham**, and **Shem** in Genesis 10 + *Jubilees 8–9* + ALL additional children in *Book of Jasher Ch. 7 & 10* (including Togarmah's 10 sons such as *Tarki*/*Buzar*/*Balgar*, Nimrod's son *Mardon*, all 13 sons of Joktan/Qahtan, Phut's 4 sons, Elam's *Shushan*, etc.).
-- **Module 3 — Complete Descendants of Abraham & Extended House of Terah (169 nodes):**
-  - **Haran** → Lot (Moab & Ammon), Milcah, Sarah/Iscah
-  - **Nahor II** → all 12 children (including Bethuel → Rebekah & Laban)
-  - **Ishmael** → all 12 princes (Nebaioth, Kedar, Adbeel, etc. → Adnanite Arabs) + Mahalath
-  - **Keturah's 6 Sons** → Zimran, Jokshan, Medan, Midian, Ishbak, Shuah + ALL Genesis 25 & *Book of Jasher 25* grandchildren (including Bildad, Jethro/Zipporah, Sheba, Dedan)
-  - **Esau (Edom)** → all 5 sons, all grandchildren (Eliphaz, Amalek, Teman, Reuel) + *Jasher 57–64* **Zepho → Janeus** bridge to Kittim/Italy
-  - **Jacob (Israel)** → all 12 sons, Dinah (and *Jasher 49* Asenath link), all ~50 Genesis 46 grandchildren, full Levitical line to **Moses** & Aaron, and Judahite line via Boaz (+ Ruth of Moab) → David → **Solomon** → **Menelik I** of Ethiopia (*Kebra Nagast*)
-- **Module 4 — Egyptian Cross-Traditions, Mesopotamia, Phoenicia & Iran (20 nodes):**
-  - Egyptian & Greco-Egyptian cross-identifications: **Enoch ↔ Thoth / Hermes / King Saurid**, **Noah ↔ Osiris / Nun**, **Joseph (Zaphenath-Paneah) ↔ Imhotep**, **Moses ↔ Osarseph (Manetho) / Musaeus (Artapanus) / King of Cush with Queen Adoniah (*Jasher 72–76*)**, **Mizraim ↔ Phoenician Misor / Menes / Baysar**
-  - *Sumerian King List* (Enmeduranki, Ziusudra, Gilgamesh, Sargon), *Avesta* / *Shahnameh* (Gayomart, Vivanghant, Yima/Jamshid, Fereydun → Salm, Tur, Iraj)
-- **Module 5 — Vedic/Puranic India, China, Korea, Japan & Steppe (26 nodes):**
-  - *Rigveda* / *Puranas* (Vivasvan = Vivanghant, Yama = Yima, Vaivasvata Manu, Surya Vamsha → Rama & Buddha, Chandra Vamsha → Yayati's 5 sons individualized → Bharata/Pandavas)
-  - *Shiji* (Fuxi & Nüwa, Yandi, Huangdi, Zhuanxu, Yu the Great/Xia, Shang, Zhou, Chunwei → Xiongnu), *Kojiki* (Amaterasu → Jimmu), *Samguk Yusa* (Dangun), *Jami' al-Tawarikh* (Japheth → Oghuz Khagan)
+- **Module 3 — Complete Descendants of Abraham & Extended House of Terah (169 nodes):** Every child and grandchild of Haran/Lot, Nahor II (12 children), Ishmael (12 princes + Mahalath), Keturah's 6 sons + all Gen 25 & *Jasher 25* grandchildren, Esau (all 5 sons, grandchildren, + *Jasher 57–64* Zepho → Janeus/Italy), and Jacob (all 12 tribes, Dinah, all ~50 Gen 46 grandchildren, Levi → Moses, Judah → David → Solomon → Menelik I).
+- **Module 4 — Egyptian Cross-Traditions & Phoenicia (6 nodes):** **Enoch ↔ Thoth/Hermes/King Saurid**, **Noah ↔ Osiris/Nun**, **Joseph ↔ Imhotep**, **Moses ↔ Osarseph/Musaeus/King of Cush with Queen Adoniah (*Jasher 72–76*)**, **Mizraim ↔ Phoenician Misor/Menes/Baysar**.
+- **Module 5 — Exhaustive Mesopotamian Genealogy (75 nodes):** Full *Enuma Elish* primordial theogony, **Adapa** (1st Apkallu ↔ Adam), **ALL 10 Antediluvian Kings** (*Sumerian King List* & Berossus) + 7th sage **Utuabzu** (↔ Enoch), **ALL 23 First Dynasty of Kish kings** (Jushur → Etana → Enmebaragesi → Aga), **ALL 12 First Dynasty of Uruk/Erech kings** (Meskiaggasher → Enmerkar → Lugalbanda → Gilgamesh → Ur-Nungal → Lugal-kitun), Ur I, **Akkad** (Sargon, Enheduanna, Rimush, Manishtushu, Naram-Sin, Shar-Kali-Sharri), **ALL 5 Ur III kings** (Ur-Nammu → Ibbi-Sin, Ur of the Chaldees horizon), Amorite Babylon (Hammurabi), and Assyria (Tudiya → Tukulti-Ninurta I → Ashurbanipal).
+- **Module 6 — Exhaustive Iranian & Zoroastrian Genealogy (70 nodes):** Gayomart → Mashya & Mashyana → **Bundahishn Ch. 14 Table of Nations** (Fravak → Taz/Arabs, Hindug/India, Chin/China, Rum/West, Mazandaran), full **Pishdadian Dynasty** (Siamak, Hushang, Tahmuras, Vivanghant = Vedic Vivasvan, Yima/Jamshid = Vedic Yama, Athwya/Abtin = Vedic Aptya, Fereydun = Vedic Trita → Salm, Tur, Iraj), full **Turanian House** (Zadsham → Pashang → Afrasiab → Farangis), full **Sistan Heroic House** (Garshasp → Sam → Zal + Rudabeh of Kabul → Rostam → Sohrab, Faramarz, Banu Goshasp), full **Kayanian Dynasty** (Kay Kavad → Kay Kavus = Vedic Kavi Ushanas → Siyavash → Kay Khosrow → Kay Lohrasp → Kay Goshtasp → Esfandiyar → Bahman → Dara), **Prophet Zarathustra (Zoroaster)** & his entire family (Pourushaspa, Dughdova, Hvovi, Isatvastra, Urvatatnara, Hvarechithra, Freni, Thriti, Pouruchista + Jamaspa), plus historical **Medes (Madai)** and **Achaemenid Persians** (Cyrus the Great, Darius I, Xerxes I/Ahasuerus, Artaxerxes I).
+- **Module 7 — Vedic/Puranic India, China, Korea, Japan & Steppe (27 nodes):** Ready for Phase 4 person-by-person expansion!
 
 ## Features
 - **Auto-Layout Layered Tree** with clickable **`+N` unfold badges** and one-click **Landmarks / Expand All (370)** toggle

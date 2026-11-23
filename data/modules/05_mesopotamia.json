@@ -1,0 +1,1708 @@
+{
+  "module": "05_mesopotamia",
+  "title": "Exhaustive Mesopotamian Genealogy (Enuma Elish, All 10 Antediluvian Kings, All Kish I, All Uruk I, Akkad, Ur III, Babylon & Assyria)",
+  "nodes": [
+    {
+      "id": "mes_apsu_tiamat",
+      "name": "Apsu & Tiamat",
+      "altNames": [
+        "Abzu & Tiamat"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 1,
+      "era": "Cosmic Primordial (Enuma Elish I)",
+      "role": "Primordial Freshwater & Saltwater Parents",
+      "sources": [
+        "Enuma Elish Tablet I"
+      ],
+      "notes": "Primordial cosmic waters whose mingling generates the elder gods Lahmu and Lahamu.",
+      "major": true
+    },
+    {
+      "id": "mes_lahmu_lahamu",
+      "name": "Lahmu & Lahamu",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 1,
+      "era": "Cosmic Gen 2 (Enuma Elish I)",
+      "role": "First Divine Pair",
+      "sources": [
+        "Enuma Elish Tablet I"
+      ],
+      "notes": "Born of Apsu & Tiamat; parents of Anshar & Kishar.",
+      "major": false
+    },
+    {
+      "id": "mes_anshar_kishar",
+      "name": "Anshar & Kishar",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 1,
+      "era": "Cosmic Gen 3 (Enuma Elish I)",
+      "role": "Heavenly & Earthly Horizons",
+      "sources": [
+        "Enuma Elish Tablet I"
+      ],
+      "notes": "Parents of the Sky Father Anu.",
+      "major": false
+    },
+    {
+      "id": "mes_anu",
+      "name": "Anu (An) & Antu / Ki",
+      "altNames": [
+        "An"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 1,
+      "era": "Sky Father (Sumerian/Babylonian)",
+      "role": "King of Heaven",
+      "sources": [
+        "Enuma Elish",
+        "Sumerian Myths"
+      ],
+      "notes": "Supreme sky deity of Uruk; father of Enki (Ea) and Enlil.",
+      "major": true
+    },
+    {
+      "id": "mes_enki",
+      "name": "Enki (Ea) & Damkina (Ninhursag)",
+      "altNames": [
+        "Ea",
+        "Nudimmud"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 1,
+      "era": "God of Wisdom, Waters & Eridu",
+      "role": "Creator of Humanity & Protector of Flood Survivor",
+      "sources": [
+        "Enuma Elish",
+        "Atrahasis",
+        "Eridu Genesis"
+      ],
+      "notes": "Patron of Eridu; with Nintu/Belet-ili fashions the first humans (Lullu) from clay mixed with divine blood, and secretly warns Ziusudra/Atrahasis of the Flood.",
+      "major": true
+    },
+    {
+      "id": "mes_enlil",
+      "name": "Enlil & Ninlil",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 1,
+      "era": "Lord of Wind & Nippur",
+      "role": "Ruler of Divine Assembly",
+      "sources": [
+        "Atrahasis",
+        "Enlil and Ninlil"
+      ],
+      "notes": "Father of Nanna (Sin) and Ninurta; decrees the Deluge in Atrahasis.",
+      "major": true
+    },
+    {
+      "id": "mes_marduk",
+      "name": "Marduk (Bel)",
+      "altNames": [
+        "Bel"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Patron God of Babylon",
+      "role": "Slayer of Tiamat & Cosmic Architect",
+      "sources": [
+        "Enuma Elish IV-VI"
+      ],
+      "notes": "Son of Enki (Ea) & Damkina; slays Tiamat, builds Babylon, and fashions humanity from Qingu's blood.",
+      "major": true
+    },
+    {
+      "id": "mes_nabu",
+      "name": "Nabu (Scribe God of Borsippa)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Babylonian Patron of Writing",
+      "role": "Son of Marduk & Sarpanit",
+      "sources": [
+        "Babylonian Pantheon"
+      ],
+      "notes": "Son of Marduk; keeper of the Tablets of Destiny and patron of scribes.",
+      "major": false
+    },
+    {
+      "id": "mes_ninurta",
+      "name": "Ninurta (Ningirsu)",
+      "altNames": [
+        "Ningirsu",
+        "Possible root of Nimrod"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Warrior-Hunter Deity of Nippur",
+      "role": "Son of Enlil (Compared to Nimrod)",
+      "sources": [
+        "Lugal-e",
+        "Anzu Myth"
+      ],
+      "notes": "Mythic hunter and champion of the gods — widely proposed by Assyriologists as a mythological source for Biblical Nimrod ('mighty hunter')!",
+      "major": false
+    },
+    {
+      "id": "mes_nanna",
+      "name": "Nanna (Sin — Moon God of Ur)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Patron of Ur",
+      "role": "Son of Enlil & Ninlil",
+      "sources": [
+        "Sumerian Hymns"
+      ],
+      "notes": "Moon god of Ur; marries Ningal and fathers Utu (Shamash) and Inanna (Ishtar).",
+      "major": false
+    },
+    {
+      "id": "mes_shamash",
+      "name": "Utu (Shamash — Sun God of Sippar/Larsa)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "God of Sun & Justice",
+      "role": "Father of Meskiaggasher (Founder of Uruk)",
+      "sources": [
+        "Sumerian King List",
+        "Enmeduranki Text"
+      ],
+      "notes": "Son of Nanna; reveals celestial tablets to 7th king Enmeduranki at Sippar and fathers Meskiaggasher of Uruk!",
+      "major": false
+    },
+    {
+      "id": "mes_inanna",
+      "name": "Inanna (Ishtar — Queen of Heaven)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Goddess of Uruk",
+      "role": "Daughter of Nanna / Anu",
+      "sources": [
+        "Descent of Inanna",
+        "Epic of Gilgamesh"
+      ],
+      "notes": "Patron goddess of Uruk (Eanna) and consort of Dumuzid.",
+      "major": false
+    },
+    {
+      "id": "mes_lullu_adapa",
+      "name": "Lullu (First Humans) & Adapa / Uanna (1st Apkallu)",
+      "altNames": [
+        "Oannes (Berossus)",
+        "Adapa <-> Adam Parallel"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Primordial Eridu (Atrahasis / Adapa Myth)",
+      "role": "First Humans & 1st Antediluvian Sage",
+      "sources": [
+        "Atrahasis Tablet I",
+        "Myth of Adapa",
+        "Berossus Babyloniaca"
+      ],
+      "notes": "Lullu is fashioned from clay + divine blood of We-ilu/Qingu. Adapa (1st Apkallu sage under Alulim, called Oannes by Berossus) ascends to heaven and forfeits eternal life — widely compared to Adam!",
+      "major": true
+    },
+    {
+      "id": "mes_k1_alulim",
+      "name": "1. Alulim (Aloros of Eridu)",
+      "altNames": [
+        "Aloros"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Antediluvian SKL • 28,800 yrs (Eridu)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "1st Antediluvian King of Eridu; advised by 1st Apkallu sage Uanna/Adapa.",
+      "major": true
+    },
+    {
+      "id": "mes_k2_alalngar",
+      "name": "2. Alalngar (Alaparos of Eridu)",
+      "altNames": [
+        "Alaparos"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Antediluvian SKL • 36,000 yrs (Eridu)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "2nd Antediluvian King of Eridu; sage Uannedugga.",
+      "major": false
+    },
+    {
+      "id": "mes_k3_enmenluana",
+      "name": "3. En-men-lu-ana (Amelon of Bad-tibira)",
+      "altNames": [
+        "Amelon"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Antediluvian SKL • 43,200 yrs (Bad-tibira)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "3rd Antediluvian King; kingship moves to Bad-tibira; sage Enmedugga.",
+      "major": false
+    },
+    {
+      "id": "mes_k4_enmengalana",
+      "name": "4. En-men-gal-ana (Ammenon of Bad-tibira)",
+      "altNames": [
+        "Ammenon"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Antediluvian SKL • 28,800 yrs (Bad-tibira)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "4th Antediluvian King of Bad-tibira; sage Enmegalamma.",
+      "major": false
+    },
+    {
+      "id": "mes_k5_dumuzid",
+      "name": "5. Dumuzid the Shepherd (Daonos)",
+      "altNames": [
+        "Daonos"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 2,
+      "era": "Antediluvian SKL • 36,000 yrs (Bad-tibira)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "5th Antediluvian King of Bad-tibira; sage Enmebulugga.",
+      "major": false
+    },
+    {
+      "id": "mes_k6_ensipadzidana",
+      "name": "6. En-sipad-zid-ana (Amempsinos of Larak)",
+      "altNames": [
+        "Amempsinos"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 3,
+      "era": "Antediluvian SKL • 28,800 yrs (Larak)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "6th Antediluvian King; kingship moves to Larak; sage An-Enlilda.",
+      "major": false
+    },
+    {
+      "id": "mes_enmeduranki",
+      "name": "7. En-men-dur-ana (Enmeduranki of Sippar)",
+      "altNames": [
+        "Euedorachos",
+        "7th Sage: Utuabzu"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 3,
+      "era": "Antediluvian SKL • 21,000 yrs (Sippar)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "7th Antediluvian King (Euedorachos in Berossus); ruler of sun-city Sippar, initiated by Shamash & Adad into heavenly secrets and divination alongside 7th sage Utuabzu (who ascends to heaven) — exact structural parallel to Enoch (7th patriarch, 365 solar years)!",
+      "major": true
+    },
+    {
+      "id": "mes_k8_megalaros",
+      "name": "8. Megalaros / Amegalaros (Berossus)",
+      "altNames": [
+        "Amegalaros"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 3,
+      "era": "Antediluvian SKL • Berossus 10-King List",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "Included in Berossus's 10-king antediluvian list (matching Genesis 5's 10 patriarchs).",
+      "major": false
+    },
+    {
+      "id": "mes_k9_ubaratutu",
+      "name": "9. Ubara-Tutu (Otiartes of Shuruppak)",
+      "altNames": [
+        "Otiartes",
+        "Ardates"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 3,
+      "era": "Antediluvian SKL • 18,600 yrs (Shuruppak)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "Last king of Shuruppak before the Deluge; father of Ziusudra / Utnapishtim!",
+      "major": true
+    },
+    {
+      "id": "mes_ziusudra",
+      "name": "10. Ziusudra / Utnapishtim / Atrahasis",
+      "altNames": [
+        "Xisouthros",
+        "Utnapishtim",
+        "Atrahasis"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 4,
+      "era": "Antediluvian SKL • Flood Horizon (Shuruppak)",
+      "role": "Antediluvian King (Sumerian King List / Berossus)",
+      "sources": [
+        "Sumerian King List (WB 444)",
+        "Berossus Babyloniaca",
+        "Uruk List of Kings & Sages"
+      ],
+      "notes": "10th Antediluvian ruler (Xisouthros in Berossus). Warned by Enki/Ea of the Deluge; builds a vessel preserving family and animals; releases dove, swallow, and raven; lands on Mt. Nimush.",
+      "major": true
+    },
+    {
+      "id": "mes_utuabzu",
+      "name": "Utuabzu (7th Apkallu Sage Who Ascended to Heaven)",
+      "altNames": [
+        "7th Apkallu"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 3,
+      "era": "Antediluvian Sippar",
+      "role": "7th Sage under Enmeduranki",
+      "sources": [
+        "Uruk List of Kings & Sages",
+        "Bit Meseri"
+      ],
+      "notes": "The 7th antediluvian sage, counselor to 7th king Enmeduranki, explicitly recorded as 'having ascended to heaven' — a stunning Mesopotamian parallel to Enoch (7th from Adam, taken to heaven)!",
+      "major": false
+    },
+    {
+      "id": "mes_kish_jushur",
+      "name": "Jushur (1st Post-Flood King of Kish)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 1,200 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "First king after the Flood swept over and kingship descended from heaven anew at Kish.",
+      "major": true
+    },
+    {
+      "id": "mes_kish_kullassinabel",
+      "name": "Kullassina-bel",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 960 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "2nd king of Kish I ('All of them were lord').",
+      "major": false
+    },
+    {
+      "id": "mes_kish_nangishlishma",
+      "name": "Nangishlishma",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 670 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "3rd king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_entarahana",
+      "name": "En-tarah-ana",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 420 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "4th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_babum",
+      "name": "Babum",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 300 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "5th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_puannum",
+      "name": "Puannum",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 840 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "6th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_kalibum",
+      "name": "Kalibum",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 960 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "7th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_kalumum",
+      "name": "Kalumum",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 840 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "8th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_zuqaqip",
+      "name": "Zuqaqip ('Scorpion')",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 900 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "9th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_atab",
+      "name": "Atab",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 600 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "10th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_mashda",
+      "name": "Mashda (son of Atab)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 840 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "11th king of Kish I; son of Atab.",
+      "major": false
+    },
+    {
+      "id": "mes_kish_arwium",
+      "name": "Arwium (son of Mashda)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "First Dynasty of Kish • 720 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "12th king of Kish I; son of Mashda.",
+      "major": false
+    },
+    {
+      "id": "mes_etana",
+      "name": "Etana of Kish (Ascended on an Eagle)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 1,500 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "13th king of Kish I; 'the shepherd who ascended to heaven and consolidated all foreign countries' on an eagle's back to obtain the Plant of Birth.",
+      "major": true
+    },
+    {
+      "id": "mes_balih",
+      "name": "Balih (son of Etana)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 400 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "14th king of Kish I; son of Etana.",
+      "major": false
+    },
+    {
+      "id": "mes_enmenuna",
+      "name": "En-me-nuna",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 660 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "15th king of Kish I; father of Melem-Kish and Barsal-nuna.",
+      "major": false
+    },
+    {
+      "id": "mes_melemkish",
+      "name": "Melem-Kish (son of En-me-nuna)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 900 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "16th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_barsalnuna",
+      "name": "Barsal-nuna (son of En-me-nuna)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 1,200 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "17th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_zamug",
+      "name": "Zamug (son of Barsal-nuna)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 140 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "18th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_tizqar",
+      "name": "Tizqar (son of Zamug)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 305 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "19th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_ilku",
+      "name": "Ilku",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 900 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "20th king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_iltasadum",
+      "name": "Iltasadum",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "First Dynasty of Kish • 1,200 yrs",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "21st king of Kish I.",
+      "major": false
+    },
+    {
+      "id": "mes_enmebaragesi",
+      "name": "Enmebaragesi of Kish (Conqueror of Elam)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "First Dynasty of Kish • c. 2600 BCE",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "22nd king of Kish I; earliest Sumerian king confirmed by contemporary inscriptions! 'Carried away as spoil the weapons of Elam'.",
+      "major": true
+    },
+    {
+      "id": "mes_aga_kish",
+      "name": "Aga (Agga) of Kish",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "First Dynasty of Kish • c. 2600 BCE",
+      "role": "King of Kish I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "23rd and final king of Kish I; son of Enmebaragesi, besieged Uruk and clashed with Gilgamesh.",
+      "major": false
+    },
+    {
+      "id": "mes_meskiaggasher",
+      "name": "Meskiaggasher (Founder of Uruk / Erech)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 5,
+      "era": "Early Dynastic I (Eanna / Uruk)",
+      "role": "Son of Sun God Utu (Shamash) / 1st King of Uruk",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "High priest and king of Eanna; 'entered the sea and ascended to the mountains'. Father of Enmerkar.",
+      "major": true
+    },
+    {
+      "id": "mes_enmerkar",
+      "name": "Enmerkar (Builder of Uruk / Erech)",
+      "altNames": [
+        "Enmer the Hunter",
+        "Compared to Nimrod"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "Early Dynastic II (c. 2800 BCE)",
+      "role": "2nd King of Uruk / Inventor of Cuneiform",
+      "sources": [
+        "Sumerian King List",
+        "Enmerkar and the Lord of Aratta"
+      ],
+      "notes": "Son of Meskiaggasher; built Uruk (Biblical Erech, Gen 10:10) and invented cuneiform clay tablets in rivalry with Aratta (Iranian plateau!). Widely compared to Nimrod ('Enmer the Hunter').",
+      "major": true
+    },
+    {
+      "id": "mes_lugalbanda",
+      "name": "Lugalbanda & Goddess Ninsun",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 6,
+      "era": "Early Dynastic II (Uruk I)",
+      "role": "3rd King of Uruk / Father of Gilgamesh",
+      "sources": [
+        "Sumerian King List",
+        "Lugalbanda Epics",
+        "Epic of Gilgamesh"
+      ],
+      "notes": "Companion of Enmerkar; weds goddess Ninsun and fathers Gilgamesh.",
+      "major": true
+    },
+    {
+      "id": "mes_dumuzid_fisherman",
+      "name": "Dumuzid the Fisherman (of Kuara)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "Early Dynastic II (Uruk I)",
+      "role": "4th King of Uruk I",
+      "sources": [
+        "Sumerian King List"
+      ],
+      "notes": "Captured Enmebaragesi of Kish single-handedly before Gilgamesh.",
+      "major": false
+    },
+    {
+      "id": "mes_uruk_gilgamesh",
+      "name": "Gilgamesh (Bilgamesh of Uruk / Erech)",
+      "altNames": [
+        "Bilgamesh",
+        "Erech (Gen 10:10)",
+        "Gilgamesh in Qumran 4Q530"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "Early Dynastic II (c. 2700 BCE)",
+      "role": "5th King of Uruk / Builder of Uruk's Walls / Qumran Giant",
+      "sources": [
+        "Sumerian King List",
+        "Epic of Gilgamesh",
+        "Qumran Book of Giants (4Q530)"
+      ],
+      "notes": "Son of Lugalbanda & Ninsun; visits Flood survivor Utnapishtim. Uruk is explicitly 'Erech' in Gen 10:10 — and 'Gilgamesh' is literally named as a Giant in Qumran Book of Giants (4Q530)!",
+      "major": true
+    },
+    {
+      "id": "mes_urnungal",
+      "name": "Ur-Nungal (son of Gilgamesh)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "6th king of Uruk I; son of Gilgamesh (reigned 30 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_udulkalama",
+      "name": "Udul-kalama (son of Ur-Nungal)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "7th king of Uruk I; grandson of Gilgamesh (15 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_labashum",
+      "name": "La-ba'shum",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "8th king of Uruk I (9 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_ennuntarahana",
+      "name": "En-nun-tarah-ana",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "9th king of Uruk I (8 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_meshhe",
+      "name": "Mesh-he",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "10th king of Uruk I (36 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_melemana",
+      "name": "Melem-ana",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "11th king of Uruk I (6 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_lugalkitun",
+      "name": "Lugal-kitun",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic II-III (Uruk I)",
+      "role": "King of Uruk I",
+      "sources": [
+        "Sumerian King List (WB 444)"
+      ],
+      "notes": "12th and final king of Uruk I (36 yrs).",
+      "major": false
+    },
+    {
+      "id": "mes_mesannepada",
+      "name": "Mesannepada (Founder of Ur I)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Early Dynastic III (c. 2550 BCE)",
+      "role": "1st King of First Dynasty of Ur",
+      "sources": [
+        "Sumerian King List",
+        "Royal Cemetery of Ur"
+      ],
+      "notes": "Overthrew Uruk I; attested by royal seals from Ur.",
+      "major": true
+    },
+    {
+      "id": "mes_meshkiangnanna",
+      "name": "Mesh-ki-ang-nanna (son of Mesannepada)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Ur I",
+      "role": "2nd King of Ur I",
+      "sources": [
+        "Sumerian King List"
+      ],
+      "notes": "Son of Mesannepada; followed by Elulu and Balulu.",
+      "major": false
+    },
+    {
+      "id": "mes_sargon",
+      "name": "Sargon of Akkad (Sharru-kin)",
+      "altNames": [
+        "Sharru-kin",
+        "Accad (Gen 10:10)"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "Akkadian Empire (c. 2334-2279 BCE)",
+      "role": "Founder of Akkad (Biblical Accad)",
+      "sources": [
+        "Sumerian King List",
+        "Birth Legend of Sargon"
+      ],
+      "notes": "Cupbearer of Ur-Zababa of Kish who founded the world's first empire (Biblical Accad, Gen 10:10). His Birth Legend ('reed basket sealed with bitumen on the river') parallels Moses in Exodus 2!",
+      "major": true
+    },
+    {
+      "id": "mes_enheduanna",
+      "name": "Enheduanna (High Priestess of Ur)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2285-2250 BCE",
+      "role": "Daughter of Sargon / Earliest Named Author in History",
+      "sources": [
+        "Exaltation of Inanna",
+        "Temple Hymns",
+        "Disk of Enheduanna"
+      ],
+      "notes": "Daughter of Sargon of Akkad appointed High Priestess of Nanna at Ur; world's earliest known named author!",
+      "major": true
+    },
+    {
+      "id": "mes_rimush",
+      "name": "Rimush (son of Sargon)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2279-2270 BCE",
+      "role": "2nd King of Akkad",
+      "sources": [
+        "Sumerian King List"
+      ],
+      "notes": "Son of Sargon; campaigned against rebellious Sumerian cities and Elam.",
+      "major": false
+    },
+    {
+      "id": "mes_manishtushu",
+      "name": "Manishtushu (son of Sargon)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2270-2255 BCE",
+      "role": "3rd King of Akkad",
+      "sources": [
+        "Sumerian King List",
+        "Manishtushu Obelisk"
+      ],
+      "notes": "Son of Sargon; father of Naram-Sin.",
+      "major": false
+    },
+    {
+      "id": "mes_naramsin",
+      "name": "Naram-Sin ('King of the Four Quarters')",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2254-2218 BCE",
+      "role": "4th King of Akkad (Grandson of Sargon)",
+      "sources": [
+        "Victory Stele of Naram-Sin",
+        "Curse of Agade"
+      ],
+      "notes": "Son of Manishtushu; peak of Akkadian Empire.",
+      "major": true
+    },
+    {
+      "id": "mes_sharkalisharri",
+      "name": "Shar-Kali-Sharri (son of Naram-Sin)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2217-2193 BCE",
+      "role": "5th King of Akkad",
+      "sources": [
+        "Sumerian King List"
+      ],
+      "notes": "Son of Naram-Sin; reigned as the Akkadian Empire faced Gutian invasions.",
+      "major": false
+    },
+    {
+      "id": "mes_urnammu",
+      "name": "Ur-Nammu (Founder of Ur III — Ur of the Chaldees)",
+      "altNames": [
+        "Ur of the Chaldees Horizon"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "Neo-Sumerian Empire (c. 2112-2095 BCE)",
+      "role": "Builder of Great Ziggurat / Oldest Law Code",
+      "sources": [
+        "Code of Ur-Nammu",
+        "Sumerian King List"
+      ],
+      "notes": "Founded Ur III and issued history's oldest surviving law code — the exact historical era of Ur of the Chaldees before Terah & Abraham's migration (Gen 11:31)!",
+      "major": true
+    },
+    {
+      "id": "mes_shulgi",
+      "name": "Shulgi (son of Ur-Nammu)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2094-2047 BCE",
+      "role": "2nd King of Ur III",
+      "sources": [
+        "Sumerian King List",
+        "Shulgi Hymns"
+      ],
+      "notes": "Son of Ur-Nammu; reigned 48 years, standardized weights, measures, and scribal academies.",
+      "major": false
+    },
+    {
+      "id": "mes_amarsin",
+      "name": "Amar-Sin (son of Shulgi)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2046-2038 BCE",
+      "role": "3rd King of Ur III",
+      "sources": [
+        "Sumerian King List"
+      ],
+      "notes": "Son of Shulgi.",
+      "major": false
+    },
+    {
+      "id": "mes_shusin",
+      "name": "Shu-Sin (brother/son of Amar-Sin)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2037-2029 BCE",
+      "role": "4th King of Ur III",
+      "sources": [
+        "Sumerian King List"
+      ],
+      "notes": "Built the Martu Wall to hold back western Amorite tribes.",
+      "major": false
+    },
+    {
+      "id": "mes_ibbisin",
+      "name": "Ibbi-Sin (Last King of Ur III)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2028-2004 BCE",
+      "role": "5th King of Ur III (Fall of Ur to Elam)",
+      "sources": [
+        "Lament for Ur",
+        "Sumerian King List"
+      ],
+      "notes": "Ur fell to Elamite and Shimashki invaders in 2004 BCE — matching the historical backdrop of Terah & Abraham leaving Ur!",
+      "major": false
+    },
+    {
+      "id": "mes_sumuabum",
+      "name": "Sumu-abum → Sumu-la-El → Sin-Muballit (Early Babylon)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "Old Babylonian Dynasty (c. 1894-1793 BCE)",
+      "role": "Amorite Founders of Babylon",
+      "sources": [
+        "Babylonian King List"
+      ],
+      "notes": "Amorite chieftains who established the First Dynasty of Babylon: Sumu-abum -> Sumu-la-El -> Sabium -> Apil-Sin -> Sin-Muballit (father of Hammurabi).",
+      "major": false
+    },
+    {
+      "id": "mes_hammurabi",
+      "name": "Hammurabi of Babylon (→ Samsu-iluna)",
+      "altNames": [
+        "Amraphel? (Traditional comparison)"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "Old Babylonian Empire (c. 1792-1750 BCE)",
+      "role": "Amorite Lawgiver King of Babylon (Babel)",
+      "sources": [
+        "Code of Hammurabi",
+        "Babylonian King List"
+      ],
+      "notes": "6th king of the Amorite Dynasty of Babylon; unified Mesopotamia and issued the Code of Hammurabi. Father of Samsu-iluna.",
+      "major": true
+    },
+    {
+      "id": "mes_assyria_kings",
+      "name": "Tudiya → Ushpia → Shamshi-Adad I → Tukulti-Ninurta I → Ashurbanipal",
+      "altNames": [
+        "Asshur (Gen 10:11, 22)",
+        "Tukulti-Ninurta I <-> Nimrod"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "Assyrian King List (c. 2100-627 BCE)",
+      "role": "Kings of Assyria (Biblical Asshur / Nineveh)",
+      "sources": [
+        "Assyrian King List",
+        "Library of Ashurbanipal"
+      ],
+      "notes": "Begins with '17 Kings Who Lived in Tents' (Tudiya -> Ushpia) and leads to Tukulti-Ninurta I (often cited as a historical prototype for Nimrod!), Sennacherib, and Ashurbanipal (whose library preserved Gilgamesh & Enuma Elish!).",
+      "major": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "hub_primordial",
+      "to": "mes_apsu_tiamat",
+      "type": "parallel",
+      "label": "Primordial cosmic creation"
+    },
+    {
+      "from": "hub_primordial",
+      "to": "mes_lullu_adapa",
+      "type": "parallel",
+      "label": "Humans fashioned from clay + divine blood; Adapa <-> Adam"
+    },
+    {
+      "from": "bib_adam",
+      "to": "mes_lullu_adapa",
+      "type": "parallel",
+      "label": "Adapa of Eridu forfeits eternal life in heaven <-> Adam"
+    },
+    {
+      "from": "mes_apsu_tiamat",
+      "to": "mes_lahmu_lahamu",
+      "type": "direct",
+      "label": "First divine pair (Enuma Elish I)"
+    },
+    {
+      "from": "mes_lahmu_lahamu",
+      "to": "mes_anshar_kishar",
+      "type": "direct",
+      "label": "Second divine pair (Enuma Elish I)"
+    },
+    {
+      "from": "mes_anshar_kishar",
+      "to": "mes_anu",
+      "type": "direct",
+      "label": "Son (Enuma Elish I)"
+    },
+    {
+      "from": "mes_anu",
+      "to": "mes_enki",
+      "type": "direct",
+      "label": "Son (Enuma Elish I)"
+    },
+    {
+      "from": "mes_anu",
+      "to": "mes_enlil",
+      "type": "direct",
+      "label": "Son (Sumerian tradition)"
+    },
+    {
+      "from": "mes_enki",
+      "to": "mes_marduk",
+      "type": "direct",
+      "label": "Enki + Damkina -> Marduk (Enuma Elish)"
+    },
+    {
+      "from": "mes_marduk",
+      "to": "mes_nabu",
+      "type": "direct",
+      "label": "Son (Babylonian pantheon)"
+    },
+    {
+      "from": "mes_enki",
+      "to": "mes_lullu_adapa",
+      "type": "direct",
+      "label": "Enki fashions Lullu & creates sage Adapa"
+    },
+    {
+      "from": "mes_enlil",
+      "to": "mes_ninurta",
+      "type": "direct",
+      "label": "Son (Sumerian pantheon)"
+    },
+    {
+      "from": "mes_enlil",
+      "to": "mes_nanna",
+      "type": "direct",
+      "label": "Enlil + Ninlil -> Nanna/Sin"
+    },
+    {
+      "from": "mes_nanna",
+      "to": "mes_shamash",
+      "type": "direct",
+      "label": "Nanna + Ningal -> Utu/Shamash"
+    },
+    {
+      "from": "mes_nanna",
+      "to": "mes_inanna",
+      "type": "direct",
+      "label": "Nanna + Ningal -> Inanna/Ishtar"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "mes_ninurta",
+      "type": "parallel",
+      "label": "Scholars compare Nimrod ('mighty hunter') to Mesopotamian hunter-warrior Ninurta"
+    },
+    {
+      "from": "mes_lullu_adapa",
+      "to": "mes_k1_alulim",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k1_alulim",
+      "to": "mes_k2_alalngar",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k2_alalngar",
+      "to": "mes_k3_enmenluana",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k3_enmenluana",
+      "to": "mes_k4_enmengalana",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k4_enmengalana",
+      "to": "mes_k5_dumuzid",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k5_dumuzid",
+      "to": "mes_k6_ensipadzidana",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k6_ensipadzidana",
+      "to": "mes_enmeduranki",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_enmeduranki",
+      "to": "mes_k8_megalaros",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k8_megalaros",
+      "to": "mes_k9_ubaratutu",
+      "type": "expansion",
+      "label": "Sumerian King List antediluvian succession"
+    },
+    {
+      "from": "mes_k9_ubaratutu",
+      "to": "mes_ziusudra",
+      "type": "direct",
+      "label": "Son of Ubara-Tutu (Gilgamesh XI / Eridu Genesis)"
+    },
+    {
+      "from": "mes_enmeduranki",
+      "to": "mes_utuabzu",
+      "type": "expansion",
+      "label": "7th Apkallu sage serving 7th king Enmeduranki"
+    },
+    {
+      "from": "bib_enoch",
+      "to": "mes_enmeduranki",
+      "type": "parallel",
+      "label": "7th antediluvian figure; sun/365 association; heavenly ascent & tablets"
+    },
+    {
+      "from": "bib_enoch",
+      "to": "mes_utuabzu",
+      "type": "parallel",
+      "label": "7th antediluvian sage who ascended to heaven (Bit Meseri <-> Gen 5:24)"
+    },
+    {
+      "from": "hub_flood",
+      "to": "mes_ziusudra",
+      "type": "parallel",
+      "label": "Boat on Mt. Nimush; dove/swallow/raven (Gilgamesh XI / Atrahasis)"
+    },
+    {
+      "from": "mes_ziusudra",
+      "to": "mes_kish_jushur",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_jushur",
+      "to": "mes_kish_kullassinabel",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_kullassinabel",
+      "to": "mes_kish_nangishlishma",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_nangishlishma",
+      "to": "mes_kish_entarahana",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_entarahana",
+      "to": "mes_kish_babum",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_babum",
+      "to": "mes_kish_puannum",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_puannum",
+      "to": "mes_kish_kalibum",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_kalibum",
+      "to": "mes_kish_kalumum",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_kalumum",
+      "to": "mes_kish_zuqaqip",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_zuqaqip",
+      "to": "mes_kish_atab",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_kish_atab",
+      "to": "mes_kish_mashda",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_kish_mashda",
+      "to": "mes_kish_arwium",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_kish_arwium",
+      "to": "mes_etana",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_etana",
+      "to": "mes_balih",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_balih",
+      "to": "mes_enmenuna",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_enmenuna",
+      "to": "mes_melemkish",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_enmenuna",
+      "to": "mes_barsalnuna",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_barsalnuna",
+      "to": "mes_zamug",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_zamug",
+      "to": "mes_tizqar",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_tizqar",
+      "to": "mes_ilku",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_ilku",
+      "to": "mes_iltasadum",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_iltasadum",
+      "to": "mes_enmebaragesi",
+      "type": "expansion",
+      "label": "First Dynasty of Kish succession (SKL)"
+    },
+    {
+      "from": "mes_enmebaragesi",
+      "to": "mes_aga_kish",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_enmebaragesi",
+      "to": "bib_elam",
+      "type": "cognate",
+      "label": "Historical warfare between Kish and Elam (SKL)"
+    },
+    {
+      "from": "mes_shamash",
+      "to": "mes_meskiaggasher",
+      "type": "direct",
+      "label": "Son of Utu/Shamash (Sumerian King List)"
+    },
+    {
+      "from": "mes_meskiaggasher",
+      "to": "mes_enmerkar",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_enmerkar",
+      "to": "mes_lugalbanda",
+      "type": "expansion",
+      "label": "Succession at Uruk (SKL)"
+    },
+    {
+      "from": "mes_lugalbanda",
+      "to": "mes_dumuzid_fisherman",
+      "type": "expansion",
+      "label": "Succession at Uruk (SKL)"
+    },
+    {
+      "from": "mes_lugalbanda",
+      "to": "mes_uruk_gilgamesh",
+      "type": "direct",
+      "label": "Lugalbanda + Ninsun -> Gilgamesh (Epic of Gilgamesh)"
+    },
+    {
+      "from": "mes_uruk_gilgamesh",
+      "to": "mes_ziusudra",
+      "type": "expansion",
+      "label": "Epic of Gilgamesh XI: Gilgamesh visits Flood survivor Utnapishtim"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "mes_enmerkar",
+      "type": "parallel",
+      "label": "Enmerkar ('Enmer the Hunter', builder of Erech/Uruk) <-> Nimrod (Gen 10:10)"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "mes_uruk_gilgamesh",
+      "type": "cognate",
+      "label": "Gen 10:10 explicitly names Shinar, Babel & Erech (Uruk)"
+    },
+    {
+      "from": "eno_ohya_hahya",
+      "to": "mes_uruk_gilgamesh",
+      "type": "expansion",
+      "label": "Qumran Book of Giants (4Q530/4Q531) literally names Gilgamesh as a Giant!"
+    },
+    {
+      "from": "mes_uruk_gilgamesh",
+      "to": "mes_urnungal",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_urnungal",
+      "to": "mes_udulkalama",
+      "type": "direct",
+      "label": "Son (Sumerian King List)"
+    },
+    {
+      "from": "mes_udulkalama",
+      "to": "mes_labashum",
+      "type": "expansion",
+      "label": "Uruk I succession (SKL)"
+    },
+    {
+      "from": "mes_labashum",
+      "to": "mes_ennuntarahana",
+      "type": "expansion",
+      "label": "Uruk I succession (SKL)"
+    },
+    {
+      "from": "mes_ennuntarahana",
+      "to": "mes_meshhe",
+      "type": "expansion",
+      "label": "Uruk I succession (SKL)"
+    },
+    {
+      "from": "mes_meshhe",
+      "to": "mes_melemana",
+      "type": "expansion",
+      "label": "Uruk I succession (SKL)"
+    },
+    {
+      "from": "mes_melemana",
+      "to": "mes_lugalkitun",
+      "type": "expansion",
+      "label": "Uruk I succession (SKL)"
+    },
+    {
+      "from": "mes_lugalkitun",
+      "to": "mes_mesannepada",
+      "type": "expansion",
+      "label": "Kingship passes from Uruk I to Ur I (SKL)"
+    },
+    {
+      "from": "mes_mesannepada",
+      "to": "mes_meshkiangnanna",
+      "type": "direct",
+      "label": "Son (SKL)"
+    },
+    {
+      "from": "mes_meshkiangnanna",
+      "to": "mes_sargon",
+      "type": "expansion",
+      "label": "Sumerian King List succession to Akkad"
+    },
+    {
+      "from": "mes_sargon",
+      "to": "mes_enheduanna",
+      "type": "direct",
+      "label": "Daughter of Sargon (Disk of Enheduanna)"
+    },
+    {
+      "from": "mes_sargon",
+      "to": "mes_rimush",
+      "type": "direct",
+      "label": "Son of Sargon (SKL)"
+    },
+    {
+      "from": "mes_sargon",
+      "to": "mes_manishtushu",
+      "type": "direct",
+      "label": "Son of Sargon (SKL)"
+    },
+    {
+      "from": "mes_manishtushu",
+      "to": "mes_naramsin",
+      "type": "direct",
+      "label": "Son of Manishtushu (SKL)"
+    },
+    {
+      "from": "mes_naramsin",
+      "to": "mes_sharkalisharri",
+      "type": "direct",
+      "label": "Son of Naram-Sin (SKL)"
+    },
+    {
+      "from": "mes_sharkalisharri",
+      "to": "mes_urnammu",
+      "type": "expansion",
+      "label": "Ur III restores Sumer after Gutian interlude (SKL)"
+    },
+    {
+      "from": "mes_urnammu",
+      "to": "mes_shulgi",
+      "type": "direct",
+      "label": "Son (SKL)"
+    },
+    {
+      "from": "mes_shulgi",
+      "to": "mes_amarsin",
+      "type": "direct",
+      "label": "Son (SKL)"
+    },
+    {
+      "from": "mes_amarsin",
+      "to": "mes_shusin",
+      "type": "direct",
+      "label": "Brother/Son (SKL)"
+    },
+    {
+      "from": "mes_shusin",
+      "to": "mes_ibbisin",
+      "type": "direct",
+      "label": "Son (SKL)"
+    },
+    {
+      "from": "mes_ibbisin",
+      "to": "bib_terah",
+      "type": "cognate",
+      "label": "Fall of Ur III (c. 2004 BCE) = historical horizon of Terah & Abraham leaving Ur of the Chaldees (Gen 11:31)"
+    },
+    {
+      "from": "mes_ibbisin",
+      "to": "mes_sumuabum",
+      "type": "expansion",
+      "label": "Fall of Ur III gives rise to Amorite Dynasty of Babylon"
+    },
+    {
+      "from": "mes_sumuabum",
+      "to": "mes_hammurabi",
+      "type": "direct",
+      "label": "Sin-Muballit -> Hammurabi (Babylonian King List)"
+    },
+    {
+      "from": "bib_amorite",
+      "to": "mes_sumuabum",
+      "type": "cognate",
+      "label": "First Dynasty of Babylon was ethnically Amorite (Amurru)"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "mes_sargon",
+      "type": "cognate",
+      "label": "Gen 10:10 explicitly names Accad (Akkad) & Nineveh"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "mes_assyria_kings",
+      "type": "parallel",
+      "label": "Assyriologists compare Nimrod to Tukulti-Ninurta I, conqueror of Babylon"
+    },
+    {
+      "from": "bib_asshur",
+      "to": "mes_assyria_kings",
+      "type": "cognate",
+      "label": "Biblical Asshur = historical Assyria (Ashur & Nineveh)"
+    },
+    {
+      "from": "bib_moses",
+      "to": "mes_sargon",
+      "type": "parallel",
+      "label": "Reed basket sealed with bitumen placed in river (Exod 2 <-> Sargon Birth Legend)"
+    }
+  ]
+}
