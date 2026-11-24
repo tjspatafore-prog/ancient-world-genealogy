@@ -700,6 +700,68 @@
       "major": false
     },
     {
+      "id": "dut_first_temple_priests",
+      "name": "First Temple High Priests (Dutripon p. 23, #4–34): Abishua → Bukki → Uzzi → Zadok → Ahimaaz → Jehoiada → Hilkiah → Seraiah",
+      "altNames": [
+        "Bukki & Uzzi",
+        "High Priest Jehoiada",
+        "High Priest Hilkiah"
+      ],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "c. 1450-586 BCE (Dutripon Concordantiae p. 23; 1 Chr 6)",
+      "role": "Complete Pre-Exilic High Priestly Succession from Aaron to the Babylonian Exile",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "1 Chronicles 6:4-15",
+        "Josephus Antiquities X.8"
+      ],
+      "notes": "Dutripon's Tabula Pontificum apud Judaeos harmonizes Chronicles, Josephus & Eusebius across all 34 pre-exilic High Priests, including Jehoiada (who sheltered young King Joash from Queen Athaliah) and Hilkiah (who discovered the Book of the Law under King Josiah).",
+      "major": false
+    },
+    {
+      "id": "dut_herodian_nt_priests",
+      "name": "Herodian & Roman-Era High Priests (Dutripon p. 23, #63–91): Ananelus → Simon ben Boethus → Annas (Ananus) → Joseph Caiaphas → Ananias ben Nebedeus → Ananus II → Phannias (70 CE)",
+      "altNames": [
+        "High Priest Annas (Ananus)",
+        "High Priest Joseph Caiaphas",
+        "Simon ben Boethus",
+        "Ananias ben Nebedeus",
+        "Phannias (Last High Priest, 70 CE)"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon Concordantiae p. 23; Gospels; Acts 23; Josephus Ant. XV-XX)",
+      "role": "Complete Final 29 High Priests of the Second Temple Down to the Fall of Jerusalem (70 CE)",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "John 18:13",
+        "Acts 23:2",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Complete chronological table from Herod's appointee Ananelus & Simon ben Boethus (Herod's father-in-law) through Annas (Ananus) and son-in-law Joseph Caiaphas (Trial of Jesus), Annas's 5 High Priest sons (Eleazar, Jonathan, Theophilus, Matthias, Ananus II — who executed James the Just in 62 CE!), Ananias ben Nebedeus (Trial of Paul, Acts 23), down to Phannias/Phanacius, the VERY LAST High Priest chosen by lot during the 70 CE siege!",
+      "major": true
+    },
+    {
+      "id": "dut_esau_11_dukes_jobab",
+      "name": "11 Territorial Dukes of Esau (Timna, Alvah, Jetheth, Oholibamah, Elah, Pinon, Kenaz, Teman, Mibzar, Magdiel, Iram) & Jobab = Job Bridge",
+      "altNames": [
+        "King Jobab = Patriarch Job",
+        "11 Dukes of Esau"
+      ],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Genesis 36:33, 40-43 (Dutripon Concordantiae p. 22)",
+      "role": "Final Edomite Chiefs & Septuagint/Vulgate Identification of King Jobab with Patriarch Job",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 22)",
+        "Genesis 36:33, 40-43",
+        "Job 42:17 (LXX)"
+      ],
+      "notes": "Dutripon's Series Principum Regumque Idumaeorum explicitly records the ancient Septuagint/Vulgate tradition ('Jobab iste est Job speculum patientiae') identifying Edomite King #2 Jobab ben Zerah of Bozrah with the Biblical Patriarch Job, followed by the 11 territorial Dukes of Edom.",
+      "major": false
+    },
+    {
       "id": "bib16_dav_01_amnon_firstborn_of_david_by_",
       "name": "Amnon (Firstborn of David by Ahinoam)",
       "altNames": [],
@@ -1852,9 +1914,402 @@
       ],
       "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
       "major": false
+    },
+    {
+      "id": "bib16_dutp_01_menelaus_lysimachus_seleucid",
+      "name": "Menelaus & Lysimachus (Seleucid High Priests, #50)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_02_alcimus_pseudopontifex_53",
+      "name": "Alcimus (Pseudopontifex, #53)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_03_ananelus_herod_s_first_appoi",
+      "name": "Ananelus (Herod's First Appointee, #63)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_04_jesus_ben_phabet_65",
+      "name": "Jesus ben Phabet (#65)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_05_simon_ben_boethus_father_of_",
+      "name": "Simon ben Boethus (Father of Mariamne II, #66)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_06_matthias_joazar_67_68",
+      "name": "Matthias & Joazar (#67-68)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_07_eleazar_ben_boethus_69",
+      "name": "Eleazar ben Boethus (#69)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_08_jesus_ben_sie_70",
+      "name": "Jesus ben Sie (#70)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_09_ananus_high_priest_annas_72_",
+      "name": "Ananus / High Priest Annas (#72, 6-15 CE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_10_ishmael_ben_fabus_73",
+      "name": "Ishmael ben Fabus (#73)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_11_eleazar_ben_ananus_74",
+      "name": "Eleazar ben Ananus (#74)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_12_simon_ben_camithus",
+      "name": "Simon ben Camithus",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_13_joseph_caiaphas_18_36_ce_tri",
+      "name": "Joseph Caiaphas (18-36 CE, Trial of Jesus)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_14_jonathan_ben_ananus",
+      "name": "Jonathan ben Ananus",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_15_simon_cantheras",
+      "name": "Simon Cantheras",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_16_matthias_ben_ananus",
+      "name": "Matthias ben Ananus",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_17_elioneus",
+      "name": "Elioneus",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_18_joseph_ben_camydus",
+      "name": "Joseph ben Camydus",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_19_ananias_ben_nebedeus_trial_o",
+      "name": "Ananias ben Nebedeus (Trial of Paul, Acts 23)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_20_ananus_ben_ananus_executed_j",
+      "name": "Ananus ben Ananus (Executed James the Just, 62 CE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_21_jesus_ben_damneus_jesus_ben_",
+      "name": "Jesus ben Damneus & Jesus ben Gamaliel",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_22_matthias_ben_theophilus",
+      "name": "Matthias ben Theophilus",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dutp_23_phannias_phanacius_last_high",
+      "name": "Phannias / Phanacius (Last High Priest of Second Temple, 70 CE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "37 BCE – 70 CE (Dutripon p. 23)",
+      "role": "Herodian / Roman-Era High Priest",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (p. 23)",
+        "Josephus Antiquities XV-XX"
+      ],
+      "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
+      "major": false
     }
   ],
   "edges": [
+    {
+      "from": "pri_eleazar_zadok",
+      "to": "dut_first_temple_priests",
+      "type": "direct",
+      "label": "Complete First Temple High Priests #4-34 (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_first_temple_priests",
+      "to": "pri_ezra_jaddua",
+      "type": "direct",
+      "label": "Hilkiah -> Seraiah -> Jehozadak -> Jeshua"
+    },
+    {
+      "from": "has_hyrcanus2_aristobulus2",
+      "to": "dut_herodian_nt_priests",
+      "type": "expansion",
+      "label": "Post-Hasmonean High Priests appointed under Herod & Rome (Dutripon p. 23, #63-91)"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "dut_herodian_nt_priests",
+      "type": "direct",
+      "label": "Herod married Mariamne II, daughter of High Priest Simon ben Boethus (#66)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "nt_jesus",
+      "type": "cognate",
+      "label": "High Priests Annas (#72) & Joseph Caiaphas (#74) preside at Trial of Jesus"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "nt_paul",
+      "type": "cognate",
+      "label": "High Priest Ananias ben Nebedeus presides at Trial of Apostle Paul (Acts 23:2)"
+    },
+    {
+      "from": "chr_edom_kings",
+      "to": "dut_esau_11_dukes_jobab",
+      "type": "direct",
+      "label": "8 Kings of Edom followed by 11 Territorial Dukes of Esau (Dutripon p. 22)"
+    },
+    {
+      "from": "dut_esau_11_dukes_jobab",
+      "to": "bib_job",
+      "type": "syncretic",
+      "label": "LXX Job 42:17 & Dutripon p. 22 equate Edomite King #2 Jobab ben Zerah with Patriarch Job!"
+    },
     {
       "from": "bib_adam",
       "to": "syr_adam_twins_matriarchs",
@@ -2622,6 +3077,144 @@
       "to": "bib16_apo_21_timothy_eunice_lois",
       "type": "direct",
       "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_01_menelaus_lysimachus_seleucid",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_02_alcimus_pseudopontifex_53",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_03_ananelus_herod_s_first_appoi",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_04_jesus_ben_phabet_65",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_05_simon_ben_boethus_father_of_",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_06_matthias_joazar_67_68",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_07_eleazar_ben_boethus_69",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_08_jesus_ben_sie_70",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_09_ananus_high_priest_annas_72_",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_10_ishmael_ben_fabus_73",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_11_eleazar_ben_ananus_74",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_12_simon_ben_camithus",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_13_joseph_caiaphas_18_36_ce_tri",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_14_jonathan_ben_ananus",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_15_simon_cantheras",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_16_matthias_ben_ananus",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_17_elioneus",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_18_joseph_ben_camydus",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_19_ananias_ben_nebedeus_trial_o",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_20_ananus_ben_ananus_executed_j",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_21_jesus_ben_damneus_jesus_ben_",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_22_matthias_ben_theophilus",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_herodian_nt_priests",
+      "to": "bib16_dutp_23_phannias_phanacius_last_high",
+      "type": "direct",
+      "label": "Second Temple High Priest (Dutripon p. 23)"
     }
   ]
 }

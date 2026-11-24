@@ -187,9 +187,34 @@ def build_module():
           "Persian & Sabaean Royal Astronomers Following Nimrod's Prophecy to Christ", ["Syriac Cave of Treasures (Budge 1927 pp. 208-209)", "Book of the Bee Ch. 39"],
           "Three kings: Hôrmîzdâdh of Mâkhôzdî (King of Kings of Persia), Îzgarad (Yazdegerd, King of Sâbhâ), and Perôzadh (King of Sheba). Book of the Bee expands to 12 named Magi with patronymics (Zarwândâd s/o Artabân, Gûshnâsâph s/o Gûndaphar [Indo-Parthian Gondophares!], Arshakh, Merôdâch, etc.)!",
           ["Hôrmîzdâdh", "Îzgarad", "Perôzadh", "Gûshnâsâph s/o Gûndaphar"]),
+        # -------------------------------------------------------------------------
+        # 8. DUTRIPON BIBLIORUM SACRORUM CONCORDANTIAE (pp. 22-23): COMPLETE HIGH PRIESTS TO 70 CE & EDOMITE BRIDGES
+        # -------------------------------------------------------------------------
+        N("dut_first_temple_priests", "First Temple High Priests (Dutripon p. 23, #4–34): Abishua → Bukki → Uzzi → Zadok → Ahimaaz → Jehoiada → Hilkiah → Seraiah", "biblical", 17, "c. 1450-586 BCE (Dutripon Concordantiae p. 23; 1 Chr 6)",
+          "Complete Pre-Exilic High Priestly Succession from Aaron to the Babylonian Exile", ["Dutripon Bibliorum Sacrorum Concordantiae (p. 23)", "1 Chronicles 6:4-15", "Josephus Antiquities X.8"],
+          "Dutripon's Tabula Pontificum apud Judaeos harmonizes Chronicles, Josephus & Eusebius across all 34 pre-exilic High Priests, including Jehoiada (who sheltered young King Joash from Queen Athaliah) and Hilkiah (who discovered the Book of the Law under King Josiah).",
+          ["Bukki & Uzzi", "High Priest Jehoiada", "High Priest Hilkiah"]),
+        N("dut_herodian_nt_priests", "Herodian & Roman-Era High Priests (Dutripon p. 23, #63–91): Ananelus → Simon ben Boethus → Annas (Ananus) → Joseph Caiaphas → Ananias ben Nebedeus → Ananus II → Phannias (70 CE)", "biblical", 19, "37 BCE – 70 CE (Dutripon Concordantiae p. 23; Gospels; Acts 23; Josephus Ant. XV-XX)",
+          "Complete Final 29 High Priests of the Second Temple Down to the Fall of Jerusalem (70 CE)", ["Dutripon Bibliorum Sacrorum Concordantiae (p. 23)", "John 18:13", "Acts 23:2", "Josephus Antiquities XV-XX"],
+          "Complete chronological table from Herod's appointee Ananelus & Simon ben Boethus (Herod's father-in-law) through Annas (Ananus) and son-in-law Joseph Caiaphas (Trial of Jesus), Annas's 5 High Priest sons (Eleazar, Jonathan, Theophilus, Matthias, Ananus II — who executed James the Just in 62 CE!), Ananias ben Nebedeus (Trial of Paul, Acts 23), down to Phannias/Phanacius, the VERY LAST High Priest chosen by lot during the 70 CE siege!",
+          ["High Priest Annas (Ananus)", "High Priest Joseph Caiaphas", "Simon ben Boethus", "Ananias ben Nebedeus", "Phannias (Last High Priest, 70 CE)"], major=True),
+        N("dut_esau_11_dukes_jobab", "11 Territorial Dukes of Esau (Timna, Alvah, Jetheth, Oholibamah, Elah, Pinon, Kenaz, Teman, Mibzar, Magdiel, Iram) & Jobab = Job Bridge", "biblical", 14, "Genesis 36:33, 40-43 (Dutripon Concordantiae p. 22)",
+          "Final Edomite Chiefs & Septuagint/Vulgate Identification of King Jobab with Patriarch Job", ["Dutripon Bibliorum Sacrorum Concordantiae (p. 22)", "Genesis 36:33, 40-43", "Job 42:17 (LXX)"],
+          "Dutripon's Series Principum Regumque Idumaeorum explicitly records the ancient Septuagint/Vulgate tradition ('Jobab iste est Job speculum patientiae') identifying Edomite King #2 Jobab ben Zerah of Bozrah with the Biblical Patriarch Job, followed by the 11 territorial Dukes of Edom.",
+          ["King Jobab = Patriarch Job", "11 Dukes of Esau"]),
     ]
 
     edges += [
+        # Dutripon Concordantiae edges
+        E("pri_eleazar_zadok", "dut_first_temple_priests", "direct", "Complete First Temple High Priests #4-34 (Dutripon p. 23)"),
+        E("dut_first_temple_priests", "pri_ezra_jaddua", "direct", "Hilkiah -> Seraiah -> Jehozadak -> Jeshua"),
+        E("has_hyrcanus2_aristobulus2", "dut_herodian_nt_priests", "expansion", "Post-Hasmonean High Priests appointed under Herod & Rome (Dutripon p. 23, #63-91)"),
+        E("her_herod_great_family", "dut_herodian_nt_priests", "direct", "Herod married Mariamne II, daughter of High Priest Simon ben Boethus (#66)"),
+        E("dut_herodian_nt_priests", "nt_jesus", "cognate", "High Priests Annas (#72) & Joseph Caiaphas (#74) preside at Trial of Jesus"),
+        E("dut_herodian_nt_priests", "nt_paul", "cognate", "High Priest Ananias ben Nebedeus presides at Trial of Apostle Paul (Acts 23:2)"),
+        E("chr_edom_kings", "dut_esau_11_dukes_jobab", "direct", "8 Kings of Edom followed by 11 Territorial Dukes of Esau (Dutripon p. 22)"),
+        E("dut_esau_11_dukes_jobab", "bib_job", "syncretic", "LXX Job 42:17 & Dutripon p. 22 equate Edomite King #2 Jobab ben Zerah with Patriarch Job!"),
+
         # Syriac Cave of Treasures edges
         E("bib_adam", "syr_adam_twins_matriarchs", "expansion", "Syriac Cave of Treasures: Adam & Eve's twin daughters Lebhûdhâ & Ķelîmath"),
         E("bib_noah", "syr_yonton_4th_son", "expansion", "4th son of Noah born after the Flood (Cave of Treasures p. 122)"),
@@ -290,6 +315,16 @@ def build_module():
         "James the Just (Bishop of Jerusalem)", "Jude (Author of Epistle of Jude)", "Mary Magdalene",
         "Joseph of Arimathea & Nicodemus", "Lazarus, Martha & Mary of Bethany", "Barnabas & John Mark", "Luke the Evangelist", "Timothy (+ Eunice & Lois)"
     ], edge_type="direct", edge_label="New Testament Apostle / Household")
+
+    add_roster(nodes, edges, "dut_herodian_nt_priests", "bib16_dutp", "biblical", 19, "37 BCE – 70 CE (Dutripon p. 23)", "Herodian / Roman-Era High Priest", ["Dutripon Bibliorum Sacrorum Concordantiae (p. 23)", "Josephus Antiquities XV-XX"], [
+        "Menelaus & Lysimachus (Seleucid High Priests, #50)", "Alcimus (Pseudopontifex, #53)", "Ananelus (Herod's First Appointee, #63)",
+        "Jesus ben Phabet (#65)", "Simon ben Boethus (Father of Mariamne II, #66)", "Matthias & Joazar (#67-68)",
+        "Eleazar ben Boethus (#69)", "Jesus ben Sie (#70)", "Ananus / High Priest Annas (#72, 6-15 CE)",
+        "Ishmael ben Fabus (#73)", "Eleazar ben Ananus (#74)", "Simon ben Camithus", "Joseph Caiaphas (18-36 CE, Trial of Jesus)",
+        "Jonathan ben Ananus", "Simon Cantheras", "Matthias ben Ananus", "Elioneus", "Joseph ben Camydus",
+        "Ananias ben Nebedeus (Trial of Paul, Acts 23)", "Ananus ben Ananus (Executed James the Just, 62 CE)",
+        "Jesus ben Damneus & Jesus ben Gamaliel", "Matthias ben Theophilus", "Phannias / Phanacius (Last High Priest of Second Temple, 70 CE)"
+    ], edge_type="direct", edge_label="Second Temple High Priest (Dutripon p. 23)")
 
     return {
         "module": "16_biblical_syriac_hasmonean_nt",
