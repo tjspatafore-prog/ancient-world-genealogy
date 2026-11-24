@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Ancient World Genealogy Atlas — Exhaustive Multi-Tradition Database (Phase 5)",
-    "version": "5.0.0",
+    "title": "Ancient World Genealogy Atlas — Exhaustive Multi-Tradition Database (Phase 6)",
+    "version": "6.0.0",
     "modules": [
       {
         "file": "01_antediluvian",
@@ -40,10 +40,10 @@
         "edges": 87
       },
       {
-        "file": "07_asia_steppe",
-        "title": "Vedic/Puranic India, China, Korea, Japan & Eurasian Steppe",
-        "nodes": 27,
-        "edges": 42
+        "file": "07_vedic_india",
+        "title": "Vedic & Puranic Indian Genealogy (Core Foundation)",
+        "nodes": 14,
+        "edges": 22
       },
       {
         "file": "08_african_ethiopian",
@@ -56,14 +56,26 @@
         "title": "Exhaustive Greek & Mediterranean Genealogy (Hesiod Theogony, Deucalion, Hellen/Ion, Egypt-Phoenicia Bridge, Crete, Thebes, Heracles, Troy, Rome, Carthage & Etruscans)",
         "nodes": 43,
         "edges": 67
+      },
+      {
+        "file": "10_east_asia_chinese",
+        "title": "Exhaustive Ancient Chinese & Inner Asian Steppe Genealogy (Shiji Ch. 1-5, 40, 47, 110; Xia, Shang, Zhou, Qin, Chu, Confucius & Oghuz)",
+        "nodes": 28,
+        "edges": 37
+      },
+      {
+        "file": "11_korean_japanese",
+        "title": "Exhaustive Ancient Korean & Japanese Genealogy (Samguk Yusa, Samguk Sagi, Kojiki & Nihon Shoki)",
+        "nodes": 15,
+        "edges": 22
       }
     ],
     "linkTypes": {
       "direct": "Explicit parent-child or biological descent within primary canonical/ancient texts",
-      "expansion": "Matriarchs, additional children, royal successions, or migrations supplied by extra-biblical or secondary chronicles (Book of Jasher, Jubilees, 1 Enoch, Manetho, Kebra Nagast, Sumerian King List, Bundahishn, Shahnameh, Shiji, Puranas)",
-      "cognate": "Linguistically or historically attested cross-tradition identity/ethnonym bridge (e.g., Taharqa = Tirhakah; Merneptah Stele = Israel; Shoshenq I = Shishak; Ptah = Naphtuhim; Vedic Vivasvan/Yama/Aptya = Avestan Vivanghant/Yima/Athwya; Madai = Medes)",
-      "parallel": "Independent structural/archetypal parallel across ancient corpora (Great Flood survivors, 7th sage, Imhotep/Joseph famine, Adapa/Adam, Sargon/Moses basket, tripartite world division)",
-      "syncretic": "Ancient, Greco-Egyptian, or medieval chronicler identification bridging figures across cultures (e.g., Enoch = Thoth/Saurid; Moses = Osarseph/Musaeus; Noah = Osiris/Nun; Japheth = Oghuz Khagan; Zepho = King of Kittim/Rome)"
+      "expansion": "Matriarchs, additional children, royal successions, or migrations supplied by extra-biblical or secondary chronicles (Book of Jasher, Jubilees, 1 Enoch, Manetho, Kebra Nagast, Sumerian King List, Bundahishn, Shahnameh, Shiji, Samguk Yusa, Kojiki, Puranas)",
+      "cognate": "Linguistically or historically attested cross-tradition identity/ethnonym bridge (e.g., Ion = Javan; Taharqa = Tirhakah; Merneptah Stele = Israel; Vedic Vivasvan/Yama/Aptya = Avestan Vivanghant/Yima/Athwya; Zeus = Dyaus Pitr; Madai = Medes)",
+      "parallel": "Independent structural/archetypal parallel across ancient corpora (Great Flood survivors, 7th sage, Imhotep/Joseph, Adapa/Adam, Sargon/Moses basket, tripartite world division)",
+      "syncretic": "Ancient, Greco-Egyptian, or medieval chronicler identification bridging figures across cultures (e.g., Enoch = Thoth/Saurid; Moses = Osarseph/Musaeus; Noah = Osiris/Fuxi; Japheth = Oghuz Khagan; Zepho = King of Kittim/Rome)"
     }
   },
   "traditions": {
@@ -7996,13 +8008,13 @@
       "tradition": "vedic",
       "tier": 6,
       "era": "Treta Yuga → 6th c. BCE",
-      "role": "Surya Vamsha (Solar Dynasty)",
+      "role": "Surya Vamsha (Solar Dynasty of Ayodhya)",
       "sources": [
         "Valmiki Ramayana",
         "Vishnu Purana IV",
         "Mahavamsa / Pali Canon"
       ],
-      "notes": "Son of Vaivasvata Manu. Produces Harishchandra, Bhagiratha, Raghu, and Prince Rama. Buddhist chronicles (Mahavamsa, Ambattha Sutta) trace Siddhartha Gautama's Shakya clan to King Okkaka = Ikshvaku!",
+      "notes": "Son of Vaivasvata Manu. Produces Harishchandra, Bhagiratha, Raghu, and Prince Rama of Ayodhya. Buddhist chronicles (Mahavamsa, Ambattha Sutta) trace Siddhartha Gautama's Shakya clan to King Okkaka = Ikshvaku!",
       "major": true
     },
     {
@@ -8114,206 +8126,6 @@
         "Vishnu Purana IV"
       ],
       "notes": "Youngest son of Yayati & Sharmishtha; inherits the central realm and fathers the Bharata/Kuru dynasty.",
-      "major": true
-    },
-    {
-      "id": "chn_fuxi_nuwa",
-      "name": "Fuxi & Nüwa (Three Sovereigns)",
-      "altNames": [],
-      "tradition": "chinese",
-      "tier": 1,
-      "era": "Primordial / Three Sovereigns",
-      "role": "Primordial Sibling-Consorts & Clay Creators",
-      "sources": [
-        "Shan Hai Jing",
-        "Huainanzi",
-        "Fengsu Tongyi"
-      ],
-      "notes": "Serpent-tailed creators who mend heaven after Gonggong's flood and mold humans from yellow clay; preserved in SW Chinese lore as Great Flood survivors.",
-      "major": true
-    },
-    {
-      "id": "chn_yandi",
-      "name": "Yandi (Flame Emperor / Shennong)",
-      "altNames": [],
-      "tradition": "chinese",
-      "tier": 2,
-      "era": "Three Sovereigns",
-      "role": "Co-Ancestor of Huaxia (Yan-Huang)",
-      "sources": [
-        "Shiji Ch. 1",
-        "Guoyu",
-        "Yijing"
-      ],
-      "notes": "Guoyu records Yandi (Jiang clan) and Huangdi (Ji clan) as half-brothers born of Shaodian; their alliance forms the unified Yan-Huang ancestry.",
-      "major": true
-    },
-    {
-      "id": "chn_huangdi",
-      "name": "Huangdi (Yellow Emperor) & Leizu",
-      "altNames": [],
-      "tradition": "chinese",
-      "tier": 2,
-      "era": "Five Emperors (c. 2697 BCE trad.)",
-      "role": "Universal Royal Ancestor in Sima Qian's Shiji",
-      "sources": [
-        "Sima Qian Shiji Ch. 1",
-        "Bamboo Annals",
-        "Da Dai Liji"
-      ],
-      "notes": "Sima Qian traces ALL Five Emperors, all Three Dynasties (Xia, Shang, Zhou), Qin, Chu, and the northern Xiongnu back to Huangdi's 25 sons (14 surnames).",
-      "major": true
-    },
-    {
-      "id": "chn_zhuanxu",
-      "name": "Changyi → Zhuanxu (Gaoyang)",
-      "altNames": [],
-      "tradition": "chinese",
-      "tier": 3,
-      "era": "Five Emperors Era",
-      "role": "Ancestor of Xia, Shun, Chu & Qin",
-      "sources": [
-        "Shiji Ch. 1, 2, 5",
-        "Shan Hai Jing"
-      ],
-      "notes": "Grandson of Huangdi; separates Heaven and Earth; progenitor of Gun -> Yu the Great (Xia), Emperor Shun, and the House of Ying (Qin Shi Huang).",
-      "major": true
-    },
-    {
-      "id": "chn_yu_xia",
-      "name": "Gun → Yu the Great (Da Yu) → Qi (Xia Dynasty)",
-      "altNames": [],
-      "tradition": "chinese",
-      "tier": 4,
-      "era": "Great Flood / Xia (c. 2070-1600 BCE)",
-      "role": "Chinese Great Flood Hero & First Hereditary Dynasty",
-      "sources": [
-        "Shangshu (Yu Gong)",
-        "Shiji Ch. 2",
-        "Bamboo Annals"
-      ],
-      "notes": "Dredges rivers to tame the Gun-Yu Great Flood across the Nine Provinces; establishes the Xia Dynasty.",
-      "major": true
-    },
-    {
-      "id": "chn_ku_yao_shun",
-      "name": "Emperor Ku (Di Ku) → Emperor Yao & Shun",
-      "altNames": [],
-      "tradition": "chinese",
-      "tier": 5,
-      "era": "Five Emperors Era (c. 2350-2200 BCE trad.)",
-      "role": "Sage Emperors & Ancestor of Shang/Zhou",
-      "sources": [
-        "Shiji Ch. 1, 3, 4",
-        "Shangshu"
-      ],
-      "notes": "Great-grandson of Huangdi via Xuanxiao -> Jiaoji; fathers Emperor Yao, Xie (Shang), and Hou Ji (Zhou).",
-      "major": true
-    },
-    {
-      "id": "chn_shang",
-      "name": "Xie → Tang of Shang (Shang Dynasty → Confucius)",
-      "altNames": [],
-      "tradition": "chinese",
-      "tier": 6,
-      "era": "Bronze Age China (c. 1600-1046 BCE)",
-      "role": "Oracle-Bone Dynasty (Zi Clan)",
-      "sources": [
-        "Anyang Oracle Bones",
-        "Shiji Ch. 3",
-        "Shijing"
-      ],
-      "notes": "Historically attested by oracle bones at Anyang; Confucius traced his ancestry to the Shang royal line via the Dukes of Song.",
-      "major": true
-    },
-    {
-      "id": "chn_zhou",
-      "name": "Hou Ji (Lord Millet) → King Wen & Wu (Zhou Dynasty)",
-      "altNames": [],
-      "tradition": "chinese",
-      "tier": 6,
-      "era": "Bronze/Iron Age China (1046-256 BCE)",
-      "role": "Classical Zhou Dynasty (Ji Clan)",
-      "sources": [
-        "Shiji Ch. 4",
-        "Shijing"
-      ],
-      "notes": "Descended from Di Ku & Jiang Yuan via Hou Ji; established the Mandate of Heaven and classical Chinese philosophy era.",
-      "major": true
-    },
-    {
-      "id": "jk_izanagi_amaterasu",
-      "name": "Izanagi & Izanami → Amaterasu & Susanoo",
-      "altNames": [],
-      "tradition": "japan_korea",
-      "tier": 1,
-      "era": "Age of the Gods (Kamiyo)",
-      "role": "Japanese Primordial Couple & Sun Goddess",
-      "sources": [
-        "Kojiki (712 CE)",
-        "Nihon Shoki (720 CE)"
-      ],
-      "notes": "Create the Japanese archipelago and birth Amaterasu (Sun), Tsukuyomi (Moon), and Susanoo (Storm).",
-      "major": true
-    },
-    {
-      "id": "jk_dangun",
-      "name": "Hwanin → Hwanung + Ungnyeo → Dangun Wanggeom",
-      "altNames": [],
-      "tradition": "japan_korea",
-      "tier": 5,
-      "era": "Traditional 2333 BCE (Gojoseon)",
-      "role": "Progenitor of Korea",
-      "sources": [
-        "Samguk Yusa",
-        "Jewang Ungi"
-      ],
-      "notes": "Founder of Gojoseon; later annals also link Shang prince Jizi (Gija) migrating to Joseon after 1046 BCE.",
-      "major": true
-    },
-    {
-      "id": "jk_jimmu",
-      "name": "Ninigi → Hoori → Emperor Jimmu",
-      "altNames": [],
-      "tradition": "japan_korea",
-      "tier": 6,
-      "era": "Traditional 660 BCE",
-      "role": "Founder of Japan's Continuous Imperial Line",
-      "sources": [
-        "Kojiki Book II",
-        "Nihon Shoki Book III"
-      ],
-      "notes": "Descendant of Amaterasu through Ninigi's descent to Mount Takachiho; founder of the Yamato Imperial House.",
-      "major": true
-    },
-    {
-      "id": "stp_xiongnu",
-      "name": "Chunwei → Xiongnu (Modu Chanyu)",
-      "altNames": [],
-      "tradition": "steppe",
-      "tier": 6,
-      "era": "Bronze Age → 3rd c. BCE",
-      "role": "Sima Qian's Bridge Between Chinese Xia & Steppe",
-      "sources": [
-        "Sima Qian Shiji Ch. 110"
-      ],
-      "notes": "Sima Qian explicitly records that the Xiongnu descended from Chunwei, a prince of the Chinese Xia Dynasty.",
-      "major": true
-    },
-    {
-      "id": "stp_oghuz",
-      "name": "Turk (Oljai Khan) → Oghuz Khagan (6 Sons / 24 Tribes)",
-      "altNames": [],
-      "tradition": "steppe",
-      "tier": 8,
-      "era": "Mythic Steppe / Medieval Synthesis",
-      "role": "Eponymous Ancestor of Turkic Peoples",
-      "sources": [
-        "Oghuzname",
-        "Rashid al-Din Jami al-Tawarikh (1307)",
-        "Abulghazi Shajara-i Tarakima"
-      ],
-      "notes": "Rashid al-Din & Abulghazi explicitly graft Turkic/Mongol ancestry onto Biblical Japheth (Yafith -> Oljai -> Tatar & Mongol -> Kara Khan -> Oghuz Khagan -> Gun, Ay, Yildiz, Gok, Dag, Deniz) and Iranian Turan.",
       "major": true
     },
     {
@@ -9468,6 +9280,708 @@
       ],
       "notes": "Herodotus records that during an 18-year famine in Lydia (Biblical Lud, Gen 10:22!), King Atys split his people between Lydus (staying in Anatolia) and Tyrrhenus, who sailed to Italy to found the Etruscans (Tyrsenians — widely linked by scholars to Biblical Tiras, Gen 10:2)!",
       "major": false
+    },
+    {
+      "id": "chn_pangu",
+      "name": "Pangu (Cosmic Creator)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 1,
+      "era": "Primordial Cosmogony (Sanwu Liji)",
+      "role": "Separator of Heaven & Earth",
+      "sources": [
+        "Sanwu Liji",
+        "Shan Hai Jing"
+      ],
+      "notes": "Emerges from the cosmic egg, separates Yin (Earth) and Yang (Heaven), and transforms his body into mountains, rivers, sun, and moon.",
+      "major": false
+    },
+    {
+      "id": "chn_fuxi_nuwa",
+      "name": "Fuxi & Nüwa (Three Sovereigns)",
+      "altNames": [
+        "Fu Hsi & Nu Wa",
+        "Bagua Inventor"
+      ],
+      "tradition": "chinese",
+      "tier": 1,
+      "era": "Primordial / Three Sovereigns",
+      "role": "Primordial Sibling-Consorts, Clay-Creators & Flood Survivors",
+      "sources": [
+        "Shan Hai Jing",
+        "Huainanzi",
+        "Fengsu Tongyi",
+        "Yijing"
+      ],
+      "notes": "Serpent-tailed sovereigns holding compass and square. Fuxi invents the Eight Trigrams (Bagua), fishing nets, and music; Nüwa repairs the shattered sky after Gonggong's flood and molds humanity from yellow clay. Preserved in SW Chinese Miao/Yao lore as Great Flood survivors!",
+      "major": true
+    },
+    {
+      "id": "chn_shaodian",
+      "name": "Shaodian & Youqiao (Guoyu)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 2,
+      "era": "Pre-Five Emperors (Guoyu)",
+      "role": "Common Parents of Yandi & Huangdi",
+      "sources": [
+        "Guoyu (Discourses of the States)",
+        "Shiji Ch. 1"
+      ],
+      "notes": "Guoyu explicitly records Shaodian and Lady Youqiao as parents of BOTH Yandi (Jiang surname) and Huangdi (Ji surname) — explaining the ancestral brotherhood of 'Yan-Huang Zisun'!",
+      "major": false
+    },
+    {
+      "id": "chn_yandi",
+      "name": "Yandi (Flame Emperor / Shennong)",
+      "altNames": [
+        "Shennong",
+        "Jiang Clan"
+      ],
+      "tradition": "chinese",
+      "tier": 2,
+      "era": "Three Sovereigns (Jiang Clan)",
+      "role": "Divine Farmer & Co-Ancestor of Huaxia (Yan-Huang)",
+      "sources": [
+        "Shiji Ch. 1",
+        "Guoyu",
+        "Shennong Bencaojing"
+      ],
+      "notes": "Inventor of agriculture, plows, and herbal medicine; ancestor of the Jiang clan (later Jiang Ziya & the State of Qi!). Allies with Huangdi after the Battle of Banquan to defeat Chiyou.",
+      "major": true
+    },
+    {
+      "id": "chn_chiyou_jiangziya",
+      "name": "Chiyou (Jiuli Tribe) & Jiang Ziya (State of Qi)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 3,
+      "era": "Three Sovereigns → Zhou Era",
+      "role": "Yandi/Jiang Lineages & Rival of Huangdi",
+      "sources": [
+        "Shiji Ch. 1, 32",
+        "Shan Hai Jing"
+      ],
+      "notes": "Chiyou (legendary bronze-working leader of the Nine Li / Miao-Hmong ancestor!) fought Huangdi at Zhuolu; Jiang Ziya (descendant of Yandi's clan) helped King Wu found the Zhou Dynasty and became Duke of Qi.",
+      "major": false
+    },
+    {
+      "id": "chn_huangdi",
+      "name": "Huangdi (Yellow Emperor) & Leizu",
+      "altNames": [
+        "Xuanyuan",
+        "Yan-Huang Zisun"
+      ],
+      "tradition": "chinese",
+      "tier": 2,
+      "era": "Five Emperors (c. 2697 BCE trad.)",
+      "role": "Universal Royal Ancestor in Sima Qian's Shiji (25 Sons)",
+      "sources": [
+        "Sima Qian Shiji Ch. 1",
+        "Bamboo Annals",
+        "Da Dai Liji"
+      ],
+      "notes": "Marries Leizu (inventor of silk sericulture) and sires 25 sons bearing 14 surnames. Sima Qian systematically traces ALL Five Emperors, Xia, Shang, Zhou, Qin, Chu, Confucius, and the Xiongnu back to Huangdi!",
+      "major": true
+    },
+    {
+      "id": "chn_shaohao",
+      "name": "Shaohao (Xuanxiao) → Jiaoji",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 3,
+      "era": "Five Emperors Horizon",
+      "role": "Eldest Son of Huangdi & Leizu",
+      "sources": [
+        "Shiji Ch. 1",
+        "Zuo Zhuan"
+      ],
+      "notes": "Son of Huangdi & Leizu; ancestor of Eastern Yi bird-totem clans and father of Jiaoji -> Emperor Ku.",
+      "major": false
+    },
+    {
+      "id": "chn_diku",
+      "name": "Emperor Ku (Di Ku / Gaoxin)",
+      "altNames": [
+        "Gaoxin"
+      ],
+      "tradition": "chinese",
+      "tier": 4,
+      "era": "Five Emperors (c. 2436 BCE trad.)",
+      "role": "Great-Grandson of Huangdi / Father of Yao, Shang & Zhou",
+      "sources": [
+        "Shiji Ch. 1, 3, 4",
+        "Da Dai Liji"
+      ],
+      "notes": "By his four consorts, Di Ku fathers Emperor Zhi, Emperor Yao (via Qingdu), Xie (founder of Shang via Jiandi), and Hou Ji (founder of Zhou via Jiang Yuan)!",
+      "major": true
+    },
+    {
+      "id": "chn_yao",
+      "name": "Emperor Yao (Tang Yao → Liu Bang / Han Dynasty)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 5,
+      "era": "Five Emperors (c. 2356 BCE trad.)",
+      "role": "Model Sage Emperor (Abdicates to Shun)",
+      "sources": [
+        "Shangshu (Yao Dian)",
+        "Shiji Ch. 1, 8"
+      ],
+      "notes": "Son of Di Ku & Qingdu; appoints Gun & Yu to combat the Great Flood, marries his daughters Ehuang & Nüying to Emperor Shun, and passes the throne by merit. Han Dynasty emperors (Liu Bang) claimed descent from Yao!",
+      "major": true
+    },
+    {
+      "id": "chn_xie",
+      "name": "Xie (son of Di Ku & Jiandi) → Wang Hai",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 5,
+      "era": "Predynastic Shang (14 Generations)",
+      "role": "Progenitor of the Shang Royal House (Zi Clan)",
+      "sources": [
+        "Shiji Ch. 3 (Yin Benji)",
+        "Shijing"
+      ],
+      "notes": "Conceived when Jiandi swallowed a black bird's egg; assisted Yu the Great with the Flood; leads through 14 predynastic lords (including Wang Hai) to Tang of Shang.",
+      "major": false
+    },
+    {
+      "id": "chn_shang",
+      "name": "Tang of Shang (Cheng Tang) → Pan Geng",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 6,
+      "era": "Shang Dynasty (c. 1600-1300 BCE)",
+      "role": "Founder of Shang Dynasty & Mover of Capital to Anyang",
+      "sources": [
+        "Anyang Oracle Bones",
+        "Shiji Ch. 3",
+        "Bamboo Annals"
+      ],
+      "notes": "Overthrew Xia tyrant Jie to found the Shang Dynasty; 19th king Pan Geng moved the capital to Yin (Anyang), where tens of thousands of oracle bones confirm Sima Qian's king list!",
+      "major": true
+    },
+    {
+      "id": "chn_wuding_fuhao",
+      "name": "King Wu Ding & Warrior Queen Fu Hao",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 7,
+      "era": "High Shang (c. 1250-1192 BCE)",
+      "role": "First Historically Verified Shang Monarch & Female General",
+      "sources": [
+        "Anyang Oracle Bones",
+        "Tomb of Fu Hao"
+      ],
+      "notes": "21st Shang king attested in contemporary oracle bones; his consort Fu Hao served as supreme general and high priestess (her intact tomb at Anyang is one of archaeology's greatest treasures!).",
+      "major": true
+    },
+    {
+      "id": "chn_dixin",
+      "name": "Di Xin (King Zhou of Shang) — Final Shang King",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1075-1046 BCE",
+      "role": "Last King of Shang (Battle of Muye)",
+      "sources": [
+        "Shiji Ch. 3",
+        "Shangshu"
+      ],
+      "notes": "Defeated by King Wu of Zhou in 1046 BCE, ending the Shang Dynasty.",
+      "major": false
+    },
+    {
+      "id": "chn_weizi_confucius",
+      "name": "Weizi Qi (Duke of Song) → Kong He → Confucius (Kong Qiu)",
+      "altNames": [
+        "Kongzi",
+        "Kong Qiu"
+      ],
+      "tradition": "chinese",
+      "tier": 9,
+      "era": "Zhou / Spring & Autumn (551-479 BCE)",
+      "role": "Shang Royal Descendant & China's Great Sage",
+      "sources": [
+        "Shiji Ch. 38 & Ch. 47 (Kongzi Shijia)",
+        "Analects"
+      ],
+      "notes": "Sima Qian's Shiji Ch. 47 traces Confucius (Kong Qiu) directly back through the Dukes of Song to Weizi Qi (brother of Di Xin) -> Shang Dynasty -> Xie -> Di Ku -> Yellow Emperor!",
+      "major": true
+    },
+    {
+      "id": "chn_jizi",
+      "name": "Jizi (Gija — Shang Prince Migrating to Korea)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1046 BCE (Shang → Gojoseon)",
+      "role": "Shang Royal Sage & China-Korea Chronicle Bridge",
+      "sources": [
+        "Shiji Ch. 38",
+        "Book of Han",
+        "Samguk Yusa"
+      ],
+      "notes": "Uncle/kinsman of Shang king Di Xin; recorded in both Chinese (*Shiji*) and Korean (*Samguk Yusa*) chronicles as migrating east to Joseon with 5,000 followers after the fall of Shang!",
+      "major": false
+    },
+    {
+      "id": "chn_houji",
+      "name": "Hou Ji (Lord Millet) → Gong Liu → Gugong Danfu",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 5,
+      "era": "Predynastic Zhou (Ji Clan)",
+      "role": "Minister of Agriculture & Progenitor of Zhou",
+      "sources": [
+        "Shiji Ch. 4 (Zhou Benji)",
+        "Shijing (Sheng Min)"
+      ],
+      "notes": "Son of Di Ku & Jiang Yuan; taught millet farming and founded the Ji lineage leading via Buzhu -> Gong Liu -> Gugong Danfu (whose elder sons Taibo & Zhongyong founded the State of Wu!).",
+      "major": false
+    },
+    {
+      "id": "chn_zhou",
+      "name": "King Wen (Ji Chang) → King Wu (Ji Fa) of Zhou",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 7,
+      "era": "Western Zhou (1046-1043 BCE)",
+      "role": "Founders of the Zhou Dynasty & Mandate of Heaven",
+      "sources": [
+        "Shiji Ch. 4",
+        "Shangshu",
+        "Yijing"
+      ],
+      "notes": "King Wen expanded the Yijing (Book of Changes); his son King Wu allied with Jiang Ziya to defeat Shang at Muye (1046 BCE), establishing China's longest dynasty (800 years!).",
+      "major": true
+    },
+    {
+      "id": "chn_duke_of_zhou",
+      "name": "Duke of Zhou (Ji Dan — Founder of Lu) & King Mu of Zhou",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "Western Zhou (1042-922 BCE)",
+      "role": "Architect of Zhou Rites & Western Silk-Road Traveler",
+      "sources": [
+        "Shiji Ch. 4, 33",
+        "Mu Tianzi Zhuan"
+      ],
+      "notes": "Duke of Zhou (brother of King Wu) founded the State of Lu (homeland of Confucius!) and codified classical ritual; 5th king King Mu journeyed far west into Central Asia to meet Xiwangmu (Queen Mother of the West)!",
+      "major": false
+    },
+    {
+      "id": "chn_zhuanxu",
+      "name": "Changyi → Emperor Zhuanxu (Gaoyang)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 3,
+      "era": "Five Emperors Era",
+      "role": "Separator of Heaven & Earth / Ancestor of Xia, Shun, Qin & Chu",
+      "sources": [
+        "Shiji Ch. 1, 2, 5, 40",
+        "Shan Hai Jing"
+      ],
+      "notes": "Grandson of Huangdi via Changyi; ordered the separation of Heaven and Earth (Jue Di Tian Tong). Progenitor of FOUR huge dynasties: Xia, Shun/Chen, Qin, and Chu!",
+      "major": true
+    },
+    {
+      "id": "chn_gun",
+      "name": "Gun (Father of Yu the Great)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 3,
+      "era": "Great Flood Era (Shangshu / Shan Hai Jing)",
+      "role": "Descendant of Zhuanxu Who Stole Xirang Soil",
+      "sources": [
+        "Shiji Ch. 2",
+        "Shan Hai Jing",
+        "Chu Ci"
+      ],
+      "notes": "Descendant of Zhuanxu tasked by Emperor Yao with halting the Great Flood; stole the heavenly self-expanding earth (Xirang) to build dikes, was executed on Feather Mountain, and from his body emerged Yu the Great!",
+      "major": false
+    },
+    {
+      "id": "chn_yu_xia",
+      "name": "Yu the Great (Da Yu) & Tushan Shi → Qi (Xia Dynasty)",
+      "altNames": [
+        "Da Yu",
+        "Xia Dynasty"
+      ],
+      "tradition": "chinese",
+      "tier": 4,
+      "era": "Great Flood / Xia (c. 2070-1600 BCE)",
+      "role": "Tamer of the Great Flood & Founder of Xia Dynasty",
+      "sources": [
+        "Shangshu (Yu Gong)",
+        "Shiji Ch. 2",
+        "Bamboo Annals"
+      ],
+      "notes": "Spent 13 years dredging channels to drain the Gun-Yu Great Flood into the sea, mapping the Nine Provinces; his son Qi established China's first hereditary dynasty (Xia)!",
+      "major": true
+    },
+    {
+      "id": "chn_shaokang_yue",
+      "name": "Tai Kang → Shao Kang (Xia Restoration) → King Jie & State of Yue",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 5,
+      "era": "Xia Dynasty → Warring States Yue",
+      "role": "Xia Successors & Ancestors of Yue (King Goujian)",
+      "sources": [
+        "Shiji Ch. 2, 41",
+        "Bamboo Annals"
+      ],
+      "notes": "Shao Kang restored the Xia Dynasty after Hou Yi's usurpation; his son Wuyu founded the southern State of Yue (later led by King Goujian); Xia ended under tyrant Jie.",
+      "major": false
+    },
+    {
+      "id": "chn_shun",
+      "name": "Gusou → Emperor Shun (Youyu) & Ehuang / Nüying",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 5,
+      "era": "Five Emperors (c. 2255 BCE trad.)",
+      "role": "Filial Sage Emperor (Descendant of Zhuanxu)",
+      "sources": [
+        "Shangshu",
+        "Shiji Ch. 1"
+      ],
+      "notes": "Descended from Zhuanxu via Qiongchan -> Jingkang -> Juwang -> Qiaoniu -> Gusou; married Yao's two daughters Ehuang & Nüying and passed the throne to Yu the Great. Ancestor of the State of Chen!",
+      "major": false
+    },
+    {
+      "id": "chn_boyi_qin",
+      "name": "Nüxiu → Daye → Boyi → Feizi → Qin Shi Huang (First Emperor)",
+      "altNames": [
+        "Ying Zheng",
+        "First Emperor of China"
+      ],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "Five Emperors → 221 BCE (Qin Dynasty)",
+      "role": "House of Ying (Descendants of Zhuanxu → Unified China!)",
+      "sources": [
+        "Shiji Ch. 5 (Qin Benji) & Ch. 6"
+      ],
+      "notes": "Sima Qian's Shiji Ch. 5 traces the Ying clan from Zhuanxu's granddaughter Nüxiu -> Daye -> Boyi (Yu the Great's companion!) -> Feizi -> Dukes of Qin -> Ying Zheng (**Qin Shi Huang**, First Emperor of unified China, 221 BCE)!",
+      "major": true
+    },
+    {
+      "id": "chn_chu_zhurong",
+      "name": "Zhurong → Luzhong (Pengzu, 800 yrs!) → Jilian → State of Chu (Qu Yuan)",
+      "altNames": [
+        "Pengzu (800-yr sage)",
+        "Qu Yuan"
+      ],
+      "tradition": "chinese",
+      "tier": 7,
+      "era": "Five Emperors → Warring States Chu",
+      "role": "House of Mi / Southern Chu Dynasty (Descendant of Zhuanxu)",
+      "sources": [
+        "Shiji Ch. 40 (Chu Shijia)",
+        "Chu Ci"
+      ],
+      "notes": "Shiji Ch. 40 traces the southern Chu royal house from Zhuanxu -> Zhurong (Fire deity!) -> Wuhui -> Luzhong (father of 6 sons including 800-year longevity sage Pengzu and Jilian!) -> Xiong Yi -> poet Qu Yuan & Hegemon Xiang Yu!",
+      "major": true
+    },
+    {
+      "id": "stp_xiongnu",
+      "name": "Chunwei (Xia Prince) → Touman → Modu Chanyu (Xiongnu)",
+      "altNames": [
+        "Modu Chanyu",
+        "Huns precursor?"
+      ],
+      "tradition": "steppe",
+      "tier": 6,
+      "era": "Bronze Age → 209 BCE (Shiji Ch. 110)",
+      "role": "Sima Qian's Bridge Between Chinese Xia & Inner Asian Steppe",
+      "sources": [
+        "Sima Qian Shiji Ch. 110 (Account of the Xiongnu)"
+      ],
+      "notes": "Sima Qian explicitly records that the Xiongnu descended from Chunwei, a prince of the Xia Dynasty who migrated to the northern steppes; unified under Touman -> Modu Chanyu (209 BCE)!",
+      "major": true
+    },
+    {
+      "id": "stp_oghuz",
+      "name": "Turk (Oljai Khan) → Tatar & Mongol → Oghuz Khagan",
+      "altNames": [
+        "Oghuz Khan",
+        "24 Oghuz Tribes"
+      ],
+      "tradition": "steppe",
+      "tier": 8,
+      "era": "Mythic Steppe / Medieval Synthesis",
+      "role": "Eponymous Ancestor of Turkic & Mongol Peoples",
+      "sources": [
+        "Oghuzname",
+        "Rashid al-Din Jami al-Tawarikh (1307)",
+        "Abulghazi Shajara-i Tarakima"
+      ],
+      "notes": "Rashid al-Din & Abulghazi explicitly graft Turkic/Mongol ancestry onto Biblical Japheth (Yafith -> Oljai -> Alinja -> Tatar & Mongol -> Kara Khan -> Oghuz Khagan) and Iranian Turan!",
+      "major": true
+    },
+    {
+      "id": "stp_oghuz_six",
+      "name": "6 Sons of Oghuz: Gün (Sun), Ay (Moon), Yildiz, Gök, Dağ & Deniz",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 9,
+      "era": "Oghuzname (Bozok & Üçok)",
+      "role": "Founders of the 24 Oghuz Turkic Tribes (Seljuks & Ottomans!)",
+      "sources": [
+        "Oghuzname",
+        "Jami al-Tawarikh"
+      ],
+      "notes": "Oghuz's 3 elder sons (Bozok: Gün, Ay, Yildiz) and 3 younger sons (Üçok: Gök, Dağ, Deniz) each sire 4 sons = the 24 Oghuz clans (including Kayı -> Ottomans and Kınık -> Seljuks!).",
+      "major": false
+    },
+    {
+      "id": "kor_hwanin_hwanung",
+      "name": "Hwanin (Lord of Heaven) → Hwanung & Ungnyeo",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 3,
+      "era": "Gojoseon Mythic Origin (Samguk Yusa)",
+      "role": "Heavenly Prince & Bear-Turned-Woman",
+      "sources": [
+        "Samguk Yusa (1281 CE, citing lost Gogi)",
+        "Jewang Ungi"
+      ],
+      "notes": "Hwanung descends from Heaven to Mt. Taebaek with 3,000 followers and the gods of Wind, Rain, and Clouds; weds Ungnyeo (the bear who endured 100 days of mugwort and garlic to become human).",
+      "major": false
+    },
+    {
+      "id": "jk_dangun",
+      "name": "Dangun Wanggeom (Founder of Gojoseon, 2333 BCE trad.) → Buru",
+      "altNames": [
+        "Tangun",
+        "Founder of Gojoseon"
+      ],
+      "tradition": "japan_korea",
+      "tier": 5,
+      "era": "Gojoseon (2333 BCE trad.)",
+      "role": "Founding Ancestor of the Korean People",
+      "sources": [
+        "Samguk Yusa",
+        "Jewang Ungi"
+      ],
+      "notes": "Son of Hwanung & Ungnyeo; founded Gojoseon (Asadal) in the traditional era of Chinese Emperor Yao! Father of Prince Buru (who in Korean annals meets Yu the Great at Tushan!).",
+      "major": true
+    },
+    {
+      "id": "kor_jumong",
+      "name": "Hae Mosu + Yuhwa → King Dongmyeong (Jumong — Goguryeo)",
+      "altNames": [
+        "Jumong",
+        "Chumo"
+      ],
+      "tradition": "japan_korea",
+      "tier": 9,
+      "era": "37 BCE (Three Kingdoms — Goguryeo)",
+      "role": "Master Archer & Founder of Goguryeo",
+      "sources": [
+        "Gwanggaeto Stele (414 CE)",
+        "Samguk Sagi",
+        "Samguk Yusa"
+      ],
+      "notes": "Born from a luminous egg to Yuhwa (daughter of River God Habaek) and heavenly prince Hae Mosu; founded the northern kingdom of Goguryeo (leading to King Yuri and King Gwanggaeto the Great!).",
+      "major": true
+    },
+    {
+      "id": "kor_onjo_baekje",
+      "name": "Soseono → Onjo (Founder of Baekje) → King Geunchogo",
+      "altNames": [
+        "Baekje <-> Yamato Japan Bridge"
+      ],
+      "tradition": "japan_korea",
+      "tier": 10,
+      "era": "18 BCE - 660 CE (Baekje Kingdom)",
+      "role": "Founder of Baekje & Royal Bridge to Yamato Japan!",
+      "sources": [
+        "Samguk Sagi",
+        "Nihon Shoki"
+      ],
+      "notes": "Onjo (son of Jumong & Lady Soseono) founded Baekje in SW Korea; Baekje became Yamato Japan's closest ally, transmitting Chinese writing (Wani), Buddhism, and royal intermarriage (Emperor Kammu's mother descended from Baekje's King Muryeong!)!",
+      "major": true
+    },
+    {
+      "id": "kor_hyeokgeose_silla",
+      "name": "Park Hyeokgeose (+ Aryeong), Seok Talhae & Kim Alji (Silla)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 9,
+      "era": "57 BCE - 935 CE (Silla Kingdom)",
+      "role": "Founding Clans of Silla (Park, Seok & Kim)",
+      "sources": [
+        "Samguk Sagi",
+        "Samguk Yusa"
+      ],
+      "notes": "Park Hyeokgeose (born from a luminous egg at Najeong well) founded Silla; joined by Seok Talhae and Kim Alji (born from a golden box in Gyerim forest — ancestor of Queen Seondeok & unified Silla kings!).",
+      "major": false
+    },
+    {
+      "id": "kor_suro_heo",
+      "name": "King Suro of Gaya + Queen Heo Hwang-ok (Princess of Ayuta / India!)",
+      "altNames": [
+        "Princess Suriratna of Ayodhya",
+        "India <-> Korea Bridge"
+      ],
+      "tradition": "japan_korea",
+      "tier": 10,
+      "era": "48 CE trad. (Geumgwan Gaya — Samguk Yusa)",
+      "role": "India ↔ Korea Royal Marriage Bridge (Gimhae Kim & Heo Clans)",
+      "sources": [
+        "Samguk Yusa (Garakguk-gi)"
+      ],
+      "notes": "King Suro (born from one of 6 golden eggs on Mt. Guji) married Princess Heo Hwang-ok (Suriratna), who sailed to Korea from the Kingdom of Ayuta (traditionally identified with Ayodhya, India — capital of the Solar Dynasty!) carrying a stone pagoda. Ancestors of millions of Gimhae Kim & Heo Koreans!",
+      "major": true
+    },
+    {
+      "id": "jpn_kotoamatsukami",
+      "name": "Ame-no-Minakanushi, Takamimusubi & Kamimusubi",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 1,
+      "era": "Creation of Takamagahara (Kojiki Book I)",
+      "role": "Primordial Creator Kami (Kotoamatsukami)",
+      "sources": [
+        "Kojiki (712 CE)",
+        "Nihon Shoki (720 CE)"
+      ],
+      "notes": "Three primordial creation deities appearing at the dawn of Heaven and Earth; Takamimusubi is the maternal grandfather of Ninigi!",
+      "major": false
+    },
+    {
+      "id": "jk_izanagi_amaterasu",
+      "name": "Izanagi & Izanami (Creators of the Japanese Islands)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 2,
+      "era": "Seven Divine Generations (Kamiyonanayo)",
+      "role": "Primordial Creator Couple of Japan",
+      "sources": [
+        "Kojiki Book I",
+        "Nihon Shoki Book I"
+      ],
+      "notes": "Stir the primeval ocean with the heavenly jeweled spear Amenonuhoko to birth Onogoro and the Eight Great Islands of Japan, plus Fire God Kagutsuchi and the Three Noble Children.",
+      "major": true
+    },
+    {
+      "id": "jpn_amaterasu",
+      "name": "Amaterasu-Omikami (Sun Goddess) & Tsukuyomi (Moon)",
+      "altNames": [
+        "Sun Goddess"
+      ],
+      "tradition": "japan_korea",
+      "tier": 3,
+      "era": "Age of the Gods (Takamagahara)",
+      "role": "Supreme Sun Goddess / Ancestress of Japan's Emperors",
+      "sources": [
+        "Kojiki Book I",
+        "Nihon Shoki"
+      ],
+      "notes": "Born from Izanagi's left eye upon purifying himself from Yomi (the Underworld); ruler of the High Plain of Heaven (Takamagahara) and divine ancestress of the Imperial House of Japan.",
+      "major": true
+    },
+    {
+      "id": "jpn_susanoo",
+      "name": "Susanoo-no-Mikoto (+ Kushinadahime) → Okuninushi (Izumo)",
+      "altNames": [
+        "Okuninushi of Izumo"
+      ],
+      "tradition": "japan_korea",
+      "tier": 3,
+      "era": "Age of the Gods (Izumo Cycle)",
+      "role": "Storm God & Slayer of Yamata-no-Orochi",
+      "sources": [
+        "Kojiki Book I",
+        "Nihon Shoki"
+      ],
+      "notes": "Brother of Amaterasu; slays the eight-headed serpent Yamata-no-Orochi to win the Kusanagi sword, marries Kushinadahime, and sires the Izumo dynasty leading to Okuninushi (who builds Izumo and cedes the land to Amaterasu's grandson Ninigi!).",
+      "major": true
+    },
+    {
+      "id": "jpn_oshihomimi",
+      "name": "Ame-no-Oshihomimi & Ninigi-no-Mikoto (+ Konohanasakuya-hime)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 4,
+      "era": "Heavenly Descent (Tenson Korin)",
+      "role": "Grandson of Amaterasu Bearing the Three Imperial Regalia",
+      "sources": [
+        "Kojiki Book I",
+        "Nihon Shoki Book II"
+      ],
+      "notes": "Amaterasu's son Ame-no-Oshihomimi weds Takamimusubi's daughter and sires Ninigi, who descends to Mt. Takachiho (Kyushu) carrying the Mirror, Jewel, and Sword (Three Imperial Regalia) and marries Mt. Fuji goddess Konohanasakuya-hime!",
+      "major": true
+    },
+    {
+      "id": "jpn_hoori",
+      "name": "Hoderi & Hoori (+ Toyotama-hime) → Ugayafukiaezu",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 5,
+      "era": "Kyushu Mythic Horizon",
+      "role": "Grandfather & Father of Emperor Jimmu",
+      "sources": [
+        "Kojiki Book I"
+      ],
+      "notes": "Hoori (Yamasachihiko) journeys to the underwater palace of Sea God Ryujin/Watatsumi, weds sea princess Toyotama-hime, and fathers Ugayafukiaezu -> Emperor Jimmu!",
+      "major": false
+    },
+    {
+      "id": "jk_jimmu",
+      "name": "Emperor Jimmu (Kamu-yamato Iware-biko, 1st Emperor)",
+      "altNames": [
+        "1st Emperor of Japan"
+      ],
+      "tradition": "japan_korea",
+      "tier": 6,
+      "era": "660 BCE trad. (Kojiki Book II)",
+      "role": "Founder of the Imperial House of Japan (Yamato)",
+      "sources": [
+        "Kojiki Book II",
+        "Nihon Shoki Book III"
+      ],
+      "notes": "Great-grandson of Ninigi; leads the Eastern Expedition from Kyushu to Yamato (Nara), guided by the three-legged crow Yatagarasu, founding the world's oldest continuous hereditary monarchy!",
+      "major": true
+    },
+    {
+      "id": "jpn_sujin_yamato",
+      "name": "Emperor Sujin (10th) → Emperor Keiko → Prince Yamato Takeru",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 9,
+      "era": "Yayoi → Early Kofun Horizon",
+      "role": "First Historical Yamato Anchor & Heroic Prince",
+      "sources": [
+        "Kojiki Book II",
+        "Nihon Shoki Books V-VII"
+      ],
+      "notes": "Emperor Sujin is widely regarded as the earliest historically grounded Yamato ruler; his descendant Prince Yamato Takeru wields Susanoo's Kusanagi sword to unify Honshu.",
+      "major": false
+    },
+    {
+      "id": "jpn_jingu_ojin",
+      "name": "Empress Jingu → Emperor Ojin (Hachiman) → Emperor Nintoku → Prince Shotoku",
+      "altNames": [
+        "Emperor Ojin (Hachiman)",
+        "Prince Shotoku"
+      ],
+      "tradition": "japan_korea",
+      "tier": 11,
+      "era": "Kofun → Asuka Period (4th-7th c. CE)",
+      "role": "Yamato Emperors & Architects of Korean/Chinese Cultural Bridge",
+      "sources": [
+        "Kojiki Book III",
+        "Nihon Shoki",
+        "17-Article Constitution"
+      ],
+      "notes": "Emperor Ojin (deified as Hachiman) welcomed Baekje Korean scholar Wani (bringing Chinese characters and Confucius's Analects to Japan!); Prince Shotoku (574-622 CE) established Buddhism and Japan's 17-Article Constitution!",
+      "major": true
     }
   ],
   "edges": [
@@ -13078,126 +13592,6 @@
       "label": "Folkloric/syncretic comparison of Abraham/Sarah <-> Brahma/Saraswati (non-cognate)"
     },
     {
-      "from": "hub_primordial",
-      "to": "chn_fuxi_nuwa",
-      "type": "parallel",
-      "label": "Nüwa molds humans from yellow clay"
-    },
-    {
-      "from": "hub_primordial",
-      "to": "jk_izanagi_amaterasu",
-      "type": "parallel",
-      "label": "Primordial island-creator couple"
-    },
-    {
-      "from": "chn_fuxi_nuwa",
-      "to": "chn_yandi",
-      "type": "expansion",
-      "label": "Three Sovereigns succession"
-    },
-    {
-      "from": "chn_yandi",
-      "to": "chn_huangdi",
-      "type": "expansion",
-      "label": "Guoyu: Half-brothers from Shaodian (Yan-Huang)"
-    },
-    {
-      "from": "chn_huangdi",
-      "to": "chn_zhuanxu",
-      "type": "direct",
-      "label": "Huangdi -> Changyi -> Zhuanxu (Shiji Ch. 1)"
-    },
-    {
-      "from": "chn_zhuanxu",
-      "to": "chn_yu_xia",
-      "type": "direct",
-      "label": "Zhuanxu -> Gun -> Yu the Great -> Xia"
-    },
-    {
-      "from": "chn_huangdi",
-      "to": "chn_ku_yao_shun",
-      "type": "direct",
-      "label": "Huangdi -> Xuanxiao -> Jiaoji -> Di Ku -> Yao"
-    },
-    {
-      "from": "chn_zhuanxu",
-      "to": "chn_ku_yao_shun",
-      "type": "direct",
-      "label": "Zhuanxu -> ... -> Emperor Shun"
-    },
-    {
-      "from": "chn_ku_yao_shun",
-      "to": "chn_shang",
-      "type": "direct",
-      "label": "Di Ku + Jiandi -> Xie -> Shang Dynasty"
-    },
-    {
-      "from": "chn_ku_yao_shun",
-      "to": "chn_zhou",
-      "type": "direct",
-      "label": "Di Ku + Jiang Yuan -> Hou Ji -> Zhou Dynasty"
-    },
-    {
-      "from": "chn_shang",
-      "to": "jk_dangun",
-      "type": "expansion",
-      "label": "Shang prince Jizi (Gija) migrates to Gojoseon"
-    },
-    {
-      "from": "jk_izanagi_amaterasu",
-      "to": "jk_jimmu",
-      "type": "direct",
-      "label": "Amaterasu -> Ninigi -> Hoori -> Emperor Jimmu"
-    },
-    {
-      "from": "chn_yu_xia",
-      "to": "stp_xiongnu",
-      "type": "expansion",
-      "label": "Shiji Ch. 110: Xiongnu descend from Chunwei of Xia"
-    },
-    {
-      "from": "stp_xiongnu",
-      "to": "stp_oghuz",
-      "type": "expansion",
-      "label": "Steppe continuity: Modu Chanyu linked to Oghuz legend"
-    },
-    {
-      "from": "bib_japheth",
-      "to": "stp_oghuz",
-      "type": "syncretic",
-      "label": "Rashid al-Din (1307): Yafith (Japheth) -> Turk -> Oghuz Khagan"
-    },
-    {
-      "from": "jas_tog_tarki",
-      "to": "stp_oghuz",
-      "type": "syncretic",
-      "label": "Book of Jasher 10:10 Tarki (son of Togarmah) <-> Turkic lineage"
-    },
-    {
-      "from": "ir_tur",
-      "to": "stp_oghuz",
-      "type": "syncretic",
-      "label": "Tur (Turan) equated in Persian/Turkic lore with Turkic Steppe"
-    },
-    {
-      "from": "bib_noah",
-      "to": "chn_fuxi_nuwa",
-      "type": "syncretic",
-      "label": "17th-c. Figurists compared Noah to Fuxi"
-    },
-    {
-      "from": "hub_flood",
-      "to": "chn_yu_xia",
-      "type": "parallel",
-      "label": "Gun-Yu Great Flood & channeling of rivers"
-    },
-    {
-      "from": "hub_world_division",
-      "to": "chn_huangdi",
-      "type": "parallel",
-      "label": "Huangdi's 25 Sons -> Xia, Shang, Zhou, Xiongnu"
-    },
-    {
       "from": "bib_cush",
       "to": "af_alara",
       "type": "cognate",
@@ -13838,6 +14232,360 @@
       "to": "grk_lydus_tyrrhenus",
       "type": "cognate",
       "label": "Biblical Tiras (Gen 10:2) = Tyrsenians / Tyrrhenus (Etruscans)!"
+    },
+    {
+      "from": "hub_primordial",
+      "to": "chn_pangu",
+      "type": "parallel",
+      "label": "Cosmic separation of Heaven & Earth"
+    },
+    {
+      "from": "hub_primordial",
+      "to": "chn_fuxi_nuwa",
+      "type": "parallel",
+      "label": "Nüwa molds humans from yellow clay"
+    },
+    {
+      "from": "chn_pangu",
+      "to": "chn_fuxi_nuwa",
+      "type": "expansion",
+      "label": "Chinese mythic chronology: Pangu -> Three Sovereigns"
+    },
+    {
+      "from": "chn_fuxi_nuwa",
+      "to": "chn_shaodian",
+      "type": "expansion",
+      "label": "Three Sovereigns succession"
+    },
+    {
+      "from": "chn_shaodian",
+      "to": "chn_yandi",
+      "type": "direct",
+      "label": "Son (Jiang clan, Guoyu)"
+    },
+    {
+      "from": "chn_shaodian",
+      "to": "chn_huangdi",
+      "type": "direct",
+      "label": "Son (Ji clan, Guoyu — Yan-Huang brotherhood)"
+    },
+    {
+      "from": "chn_yandi",
+      "to": "chn_chiyou_jiangziya",
+      "type": "expansion",
+      "label": "Jiang clan -> Jiang Ziya (Qi); Chiyou allied/conflicted with Yan-Huang"
+    },
+    {
+      "from": "bib_noah",
+      "to": "chn_fuxi_nuwa",
+      "type": "syncretic",
+      "label": "17th-c. Figurists (Bouvet) compared Noah to Fuxi"
+    },
+    {
+      "from": "hub_world_division",
+      "to": "chn_huangdi",
+      "type": "parallel",
+      "label": "Huangdi's 25 Sons (14 surnames) -> Xia, Shang, Zhou, Qin, Chu, Xiongnu"
+    },
+    {
+      "from": "chn_huangdi",
+      "to": "chn_shaohao",
+      "type": "direct",
+      "label": "Huangdi + Leizu -> Shaohao/Xuanxiao -> Jiaoji (Shiji Ch. 1)"
+    },
+    {
+      "from": "chn_shaohao",
+      "to": "chn_diku",
+      "type": "direct",
+      "label": "Jiaoji -> Emperor Ku / Di Ku (Shiji Ch. 1)"
+    },
+    {
+      "from": "chn_diku",
+      "to": "chn_yao",
+      "type": "direct",
+      "label": "Di Ku + Qingdu -> Emperor Yao (Shiji Ch. 1)"
+    },
+    {
+      "from": "chn_diku",
+      "to": "chn_xie",
+      "type": "direct",
+      "label": "Di Ku + Jiandi -> Xie (Shiji Ch. 3)"
+    },
+    {
+      "from": "chn_xie",
+      "to": "chn_shang",
+      "type": "direct",
+      "label": "14 predynastic Shang lords -> Tang of Shang -> Pan Geng"
+    },
+    {
+      "from": "chn_shang",
+      "to": "chn_wuding_fuhao",
+      "type": "direct",
+      "label": "Shang royal line -> King Wu Ding & Queen Fu Hao"
+    },
+    {
+      "from": "chn_wuding_fuhao",
+      "to": "chn_dixin",
+      "type": "direct",
+      "label": "Late Shang kings -> Di Xin"
+    },
+    {
+      "from": "chn_dixin",
+      "to": "chn_weizi_confucius",
+      "type": "direct",
+      "label": "Brother Weizi Qi (Duke of Song) -> ... -> Kong He -> Confucius (Shiji Ch. 47!)"
+    },
+    {
+      "from": "chn_dixin",
+      "to": "chn_jizi",
+      "type": "direct",
+      "label": "Shang royal kinsman Jizi / Gija (Shiji Ch. 38)"
+    },
+    {
+      "from": "chn_diku",
+      "to": "chn_houji",
+      "type": "direct",
+      "label": "Di Ku + Jiang Yuan -> Hou Ji (Shiji Ch. 4)"
+    },
+    {
+      "from": "chn_houji",
+      "to": "chn_zhou",
+      "type": "direct",
+      "label": "Gugong Danfu -> Jili -> King Wen -> King Wu of Zhou"
+    },
+    {
+      "from": "chn_zhou",
+      "to": "chn_duke_of_zhou",
+      "type": "direct",
+      "label": "Brother Duke of Zhou (Lu) & Descendant King Mu"
+    },
+    {
+      "from": "chn_huangdi",
+      "to": "chn_zhuanxu",
+      "type": "direct",
+      "label": "Huangdi -> Changyi -> Zhuanxu (Shiji Ch. 1)"
+    },
+    {
+      "from": "chn_zhuanxu",
+      "to": "chn_gun",
+      "type": "direct",
+      "label": "Descendant of Zhuanxu (Shiji Ch. 2)"
+    },
+    {
+      "from": "chn_gun",
+      "to": "chn_yu_xia",
+      "type": "direct",
+      "label": "Son Yu the Great -> Qi of Xia (Shiji Ch. 2)"
+    },
+    {
+      "from": "hub_flood",
+      "to": "chn_yu_xia",
+      "type": "parallel",
+      "label": "Gun-Yu Great Flood & channeling of China's rivers"
+    },
+    {
+      "from": "chn_yu_xia",
+      "to": "chn_shaokang_yue",
+      "type": "direct",
+      "label": "Qi -> Tai Kang -> Shao Kang (-> Wuyu of Yue) -> King Jie"
+    },
+    {
+      "from": "chn_zhuanxu",
+      "to": "chn_shun",
+      "type": "direct",
+      "label": "Zhuanxu -> Qiongchan -> ... -> Gusou -> Emperor Shun (Shiji Ch. 1)"
+    },
+    {
+      "from": "chn_yao",
+      "to": "chn_shun",
+      "type": "direct",
+      "label": "Yao's daughters Ehuang & Nüying marry Emperor Shun"
+    },
+    {
+      "from": "chn_zhuanxu",
+      "to": "chn_boyi_qin",
+      "type": "direct",
+      "label": "Zhuanxu -> Nüxiu -> Daye -> Boyi -> Feizi -> Qin Shi Huang (Shiji Ch. 5)"
+    },
+    {
+      "from": "chn_zhuanxu",
+      "to": "chn_chu_zhurong",
+      "type": "direct",
+      "label": "Zhuanxu -> Zhurong -> Luzhong (Pengzu & Jilian) -> State of Chu (Shiji Ch. 40)"
+    },
+    {
+      "from": "bib_methuselah",
+      "to": "chn_chu_zhurong",
+      "type": "parallel",
+      "label": "800-year longevity sage Pengzu (Shiji Ch. 40) <-> antediluvian Methuselah"
+    },
+    {
+      "from": "chn_yu_xia",
+      "to": "stp_xiongnu",
+      "type": "expansion",
+      "label": "Shiji Ch. 110: Xiongnu descend from Chunwei of the Xia Dynasty"
+    },
+    {
+      "from": "stp_xiongnu",
+      "to": "stp_oghuz",
+      "type": "expansion",
+      "label": "Steppe continuity: Modu Chanyu's biography parallels Oghuz Khagan legend"
+    },
+    {
+      "from": "stp_oghuz",
+      "to": "stp_oghuz_six",
+      "type": "direct",
+      "label": "6 sons -> 24 Oghuz Turkic tribes (Oghuzname)"
+    },
+    {
+      "from": "bib_japheth",
+      "to": "stp_oghuz",
+      "type": "syncretic",
+      "label": "Rashid al-Din (1307): Yafith (Japheth) -> Turk -> Oghuz Khagan"
+    },
+    {
+      "from": "jas_tog_tarki",
+      "to": "stp_oghuz",
+      "type": "syncretic",
+      "label": "Book of Jasher 10:10 Tarki (son of Togarmah) <-> Turkic lineage"
+    },
+    {
+      "from": "ir_tur",
+      "to": "stp_oghuz",
+      "type": "syncretic",
+      "label": "Tur (Turan) equated in Persian/Turkic lore with Turkic Steppe"
+    },
+    {
+      "from": "hub_primordial",
+      "to": "kor_hwanin_hwanung",
+      "type": "parallel",
+      "label": "Heavenly descent & origin of Korea"
+    },
+    {
+      "from": "kor_hwanin_hwanung",
+      "to": "jk_dangun",
+      "type": "direct",
+      "label": "Hwanung + Ungnyeo -> Dangun Wanggeom (Samguk Yusa)"
+    },
+    {
+      "from": "chn_jizi",
+      "to": "jk_dangun",
+      "type": "expansion",
+      "label": "Shiji Ch. 38 & Samguk Yusa: Shang prince Jizi (Gija) migrates to Gojoseon"
+    },
+    {
+      "from": "jk_dangun",
+      "to": "kor_jumong",
+      "type": "expansion",
+      "label": "Buyeo / Gojoseon continuity -> Hae Mosu -> Jumong (Goguryeo)"
+    },
+    {
+      "from": "kor_jumong",
+      "to": "kor_onjo_baekje",
+      "type": "direct",
+      "label": "Son Onjo (via Soseono) founds Baekje (Samguk Sagi)"
+    },
+    {
+      "from": "jk_dangun",
+      "to": "kor_hyeokgeose_silla",
+      "type": "expansion",
+      "label": "Gojoseon diaspora -> Six Villages of Saro -> Silla (Park, Seok, Kim)"
+    },
+    {
+      "from": "jk_dangun",
+      "to": "kor_suro_heo",
+      "type": "expansion",
+      "label": "Southern Korean confederacies -> Geumgwan Gaya (King Suro)"
+    },
+    {
+      "from": "ved_surya_vamsha",
+      "to": "kor_suro_heo",
+      "type": "syncretic",
+      "label": "Samguk Yusa: Queen Heo Hwang-ok sails from Ayuta (trad. Ayodhya, Solar Dynasty capital) to marry King Suro of Gaya!"
+    },
+    {
+      "from": "hub_primordial",
+      "to": "jpn_kotoamatsukami",
+      "type": "parallel",
+      "label": "Primordial heavenly creation (Kojiki)"
+    },
+    {
+      "from": "jpn_kotoamatsukami",
+      "to": "jk_izanagi_amaterasu",
+      "type": "expansion",
+      "label": "Seven Divine Generations -> Izanagi & Izanami"
+    },
+    {
+      "from": "jk_izanagi_amaterasu",
+      "to": "jpn_amaterasu",
+      "type": "direct",
+      "label": "Born from Izanagi's purification (Kojiki I)"
+    },
+    {
+      "from": "jk_izanagi_amaterasu",
+      "to": "jpn_susanoo",
+      "type": "direct",
+      "label": "Born from Izanagi's nose (Kojiki I)"
+    },
+    {
+      "from": "jpn_amaterasu",
+      "to": "jpn_oshihomimi",
+      "type": "direct",
+      "label": "Amaterasu -> Ame-no-Oshihomimi -> Ninigi"
+    },
+    {
+      "from": "jpn_kotoamatsukami",
+      "to": "jpn_oshihomimi",
+      "type": "direct",
+      "label": "Takamimusubi's daughter marries Ame-no-Oshihomimi"
+    },
+    {
+      "from": "jpn_susanoo",
+      "to": "jpn_oshihomimi",
+      "type": "expansion",
+      "label": "Okuninushi (descendant of Susanoo) cedes terrestrial rule to Ninigi (Kuni-yuzuri)"
+    },
+    {
+      "from": "jpn_oshihomimi",
+      "to": "jpn_hoori",
+      "type": "direct",
+      "label": "Ninigi + Konohanasakuya-hime -> Hoderi & Hoori -> Ugayafukiaezu"
+    },
+    {
+      "from": "jpn_hoori",
+      "to": "jk_jimmu",
+      "type": "direct",
+      "label": "Ugayafukiaezu + Tamayori-hime -> Emperor Jimmu"
+    },
+    {
+      "from": "jk_jimmu",
+      "to": "jpn_sujin_yamato",
+      "type": "direct",
+      "label": "Yamato Imperial Line -> Sujin -> Keiko -> Yamato Takeru"
+    },
+    {
+      "from": "jpn_sujin_yamato",
+      "to": "jpn_jingu_ojin",
+      "type": "direct",
+      "label": "Yamato Takeru -> Chuai (+ Empress Jingu) -> Ojin -> Nintoku -> Prince Shotoku"
+    },
+    {
+      "from": "kor_onjo_baekje",
+      "to": "jpn_jingu_ojin",
+      "type": "cognate",
+      "label": "Baekje Korea transmits Chinese script, Analects (Wani) & Buddhism to Yamato Japan (Emperor Ojin & Prince Shotoku)!"
+    },
+    {
+      "from": "chn_weizi_confucius",
+      "to": "jpn_jingu_ojin",
+      "type": "cognate",
+      "label": "Confucius's Analects transmitted via Baekje to Emperor Ojin's court in Japan (Kojiki/Nihon Shoki)"
+    },
+    {
+      "from": "ved_surya_vamsha",
+      "to": "jpn_jingu_ojin",
+      "type": "cognate",
+      "label": "Buddhist tradition (Siddhartha Gautama, Shakya/Ikshvaku line) enters Japan via Baekje & Prince Shotoku!"
     }
   ]
 }

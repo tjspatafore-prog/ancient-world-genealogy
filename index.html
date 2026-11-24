@@ -109,6 +109,8 @@
     <button onclick="applyPreset('mesopotamia')" id="preset-mesopotamia" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Mesopotamia (Sumer → Akkad)</button>
     <button onclick="applyPreset('iranian')" id="preset-iranian" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Iran &amp; Zoroaster (Shahnameh → Cyrus)</button>
     <button onclick="applyPreset('indo_iran')" id="preset-indo_iran" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Near East ↔ Iran ↔ India</button>
+    <button onclick="applyPreset('china')" id="preset-china" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">China (Fuxi → Huangdi → Qin/Confucius)</button>
+    <button onclick="applyPreset('korea_japan')" id="preset-korea_japan" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Korea &amp; Japan (Dangun → Amaterasu → Jimmu)</button>
     <button onclick="applyPreset('east_asia')" id="preset-east_asia" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">China ↔ Steppe ↔ Japheth</button>
   </div>
 
@@ -650,6 +652,18 @@ function applyPreset(name) {
   } else if (name === "indo_iran") {
     activeLinkTypes = new Set(["direct", "expansion", "cognate", "parallel"]);
     activeTraditions = new Set(["biblical", "mesopotamian", "iranian", "vedic", "arabian"]);
+  } else if (name === "china") {
+    activeLinkTypes = new Set(Object.keys(LINK_META));
+    activeTraditions = new Set(["chinese", "steppe"]);
+    expandMode = "all";
+    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
+    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
+  } else if (name === "korea_japan") {
+    activeLinkTypes = new Set(Object.keys(LINK_META));
+    activeTraditions = new Set(["japan_korea"]);
+    expandMode = "all";
+    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
+    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
   } else if (name === "east_asia") {
     activeLinkTypes = new Set(["direct", "expansion", "cognate", "syncretic", "parallel"]);
     activeTraditions = new Set(["biblical", "iranian", "steppe", "chinese", "japan_korea"]);

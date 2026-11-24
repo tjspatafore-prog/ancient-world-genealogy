@@ -1,0 +1,385 @@
+{
+  "module": "11_korean_japanese",
+  "title": "Exhaustive Ancient Korean & Japanese Genealogy (Samguk Yusa, Samguk Sagi, Kojiki & Nihon Shoki)",
+  "nodes": [
+    {
+      "id": "kor_hwanin_hwanung",
+      "name": "Hwanin (Lord of Heaven) → Hwanung & Ungnyeo",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 3,
+      "era": "Gojoseon Mythic Origin (Samguk Yusa)",
+      "role": "Heavenly Prince & Bear-Turned-Woman",
+      "sources": [
+        "Samguk Yusa (1281 CE, citing lost Gogi)",
+        "Jewang Ungi"
+      ],
+      "notes": "Hwanung descends from Heaven to Mt. Taebaek with 3,000 followers and the gods of Wind, Rain, and Clouds; weds Ungnyeo (the bear who endured 100 days of mugwort and garlic to become human).",
+      "major": false
+    },
+    {
+      "id": "jk_dangun",
+      "name": "Dangun Wanggeom (Founder of Gojoseon, 2333 BCE trad.) → Buru",
+      "altNames": [
+        "Tangun",
+        "Founder of Gojoseon"
+      ],
+      "tradition": "japan_korea",
+      "tier": 5,
+      "era": "Gojoseon (2333 BCE trad.)",
+      "role": "Founding Ancestor of the Korean People",
+      "sources": [
+        "Samguk Yusa",
+        "Jewang Ungi"
+      ],
+      "notes": "Son of Hwanung & Ungnyeo; founded Gojoseon (Asadal) in the traditional era of Chinese Emperor Yao! Father of Prince Buru (who in Korean annals meets Yu the Great at Tushan!).",
+      "major": true
+    },
+    {
+      "id": "kor_jumong",
+      "name": "Hae Mosu + Yuhwa → King Dongmyeong (Jumong — Goguryeo)",
+      "altNames": [
+        "Jumong",
+        "Chumo"
+      ],
+      "tradition": "japan_korea",
+      "tier": 9,
+      "era": "37 BCE (Three Kingdoms — Goguryeo)",
+      "role": "Master Archer & Founder of Goguryeo",
+      "sources": [
+        "Gwanggaeto Stele (414 CE)",
+        "Samguk Sagi",
+        "Samguk Yusa"
+      ],
+      "notes": "Born from a luminous egg to Yuhwa (daughter of River God Habaek) and heavenly prince Hae Mosu; founded the northern kingdom of Goguryeo (leading to King Yuri and King Gwanggaeto the Great!).",
+      "major": true
+    },
+    {
+      "id": "kor_onjo_baekje",
+      "name": "Soseono → Onjo (Founder of Baekje) → King Geunchogo",
+      "altNames": [
+        "Baekje <-> Yamato Japan Bridge"
+      ],
+      "tradition": "japan_korea",
+      "tier": 10,
+      "era": "18 BCE - 660 CE (Baekje Kingdom)",
+      "role": "Founder of Baekje & Royal Bridge to Yamato Japan!",
+      "sources": [
+        "Samguk Sagi",
+        "Nihon Shoki"
+      ],
+      "notes": "Onjo (son of Jumong & Lady Soseono) founded Baekje in SW Korea; Baekje became Yamato Japan's closest ally, transmitting Chinese writing (Wani), Buddhism, and royal intermarriage (Emperor Kammu's mother descended from Baekje's King Muryeong!)!",
+      "major": true
+    },
+    {
+      "id": "kor_hyeokgeose_silla",
+      "name": "Park Hyeokgeose (+ Aryeong), Seok Talhae & Kim Alji (Silla)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 9,
+      "era": "57 BCE - 935 CE (Silla Kingdom)",
+      "role": "Founding Clans of Silla (Park, Seok & Kim)",
+      "sources": [
+        "Samguk Sagi",
+        "Samguk Yusa"
+      ],
+      "notes": "Park Hyeokgeose (born from a luminous egg at Najeong well) founded Silla; joined by Seok Talhae and Kim Alji (born from a golden box in Gyerim forest — ancestor of Queen Seondeok & unified Silla kings!).",
+      "major": false
+    },
+    {
+      "id": "kor_suro_heo",
+      "name": "King Suro of Gaya + Queen Heo Hwang-ok (Princess of Ayuta / India!)",
+      "altNames": [
+        "Princess Suriratna of Ayodhya",
+        "India <-> Korea Bridge"
+      ],
+      "tradition": "japan_korea",
+      "tier": 10,
+      "era": "48 CE trad. (Geumgwan Gaya — Samguk Yusa)",
+      "role": "India ↔ Korea Royal Marriage Bridge (Gimhae Kim & Heo Clans)",
+      "sources": [
+        "Samguk Yusa (Garakguk-gi)"
+      ],
+      "notes": "King Suro (born from one of 6 golden eggs on Mt. Guji) married Princess Heo Hwang-ok (Suriratna), who sailed to Korea from the Kingdom of Ayuta (traditionally identified with Ayodhya, India — capital of the Solar Dynasty!) carrying a stone pagoda. Ancestors of millions of Gimhae Kim & Heo Koreans!",
+      "major": true
+    },
+    {
+      "id": "jpn_kotoamatsukami",
+      "name": "Ame-no-Minakanushi, Takamimusubi & Kamimusubi",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 1,
+      "era": "Creation of Takamagahara (Kojiki Book I)",
+      "role": "Primordial Creator Kami (Kotoamatsukami)",
+      "sources": [
+        "Kojiki (712 CE)",
+        "Nihon Shoki (720 CE)"
+      ],
+      "notes": "Three primordial creation deities appearing at the dawn of Heaven and Earth; Takamimusubi is the maternal grandfather of Ninigi!",
+      "major": false
+    },
+    {
+      "id": "jk_izanagi_amaterasu",
+      "name": "Izanagi & Izanami (Creators of the Japanese Islands)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 2,
+      "era": "Seven Divine Generations (Kamiyonanayo)",
+      "role": "Primordial Creator Couple of Japan",
+      "sources": [
+        "Kojiki Book I",
+        "Nihon Shoki Book I"
+      ],
+      "notes": "Stir the primeval ocean with the heavenly jeweled spear Amenonuhoko to birth Onogoro and the Eight Great Islands of Japan, plus Fire God Kagutsuchi and the Three Noble Children.",
+      "major": true
+    },
+    {
+      "id": "jpn_amaterasu",
+      "name": "Amaterasu-Omikami (Sun Goddess) & Tsukuyomi (Moon)",
+      "altNames": [
+        "Sun Goddess"
+      ],
+      "tradition": "japan_korea",
+      "tier": 3,
+      "era": "Age of the Gods (Takamagahara)",
+      "role": "Supreme Sun Goddess / Ancestress of Japan's Emperors",
+      "sources": [
+        "Kojiki Book I",
+        "Nihon Shoki"
+      ],
+      "notes": "Born from Izanagi's left eye upon purifying himself from Yomi (the Underworld); ruler of the High Plain of Heaven (Takamagahara) and divine ancestress of the Imperial House of Japan.",
+      "major": true
+    },
+    {
+      "id": "jpn_susanoo",
+      "name": "Susanoo-no-Mikoto (+ Kushinadahime) → Okuninushi (Izumo)",
+      "altNames": [
+        "Okuninushi of Izumo"
+      ],
+      "tradition": "japan_korea",
+      "tier": 3,
+      "era": "Age of the Gods (Izumo Cycle)",
+      "role": "Storm God & Slayer of Yamata-no-Orochi",
+      "sources": [
+        "Kojiki Book I",
+        "Nihon Shoki"
+      ],
+      "notes": "Brother of Amaterasu; slays the eight-headed serpent Yamata-no-Orochi to win the Kusanagi sword, marries Kushinadahime, and sires the Izumo dynasty leading to Okuninushi (who builds Izumo and cedes the land to Amaterasu's grandson Ninigi!).",
+      "major": true
+    },
+    {
+      "id": "jpn_oshihomimi",
+      "name": "Ame-no-Oshihomimi & Ninigi-no-Mikoto (+ Konohanasakuya-hime)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 4,
+      "era": "Heavenly Descent (Tenson Korin)",
+      "role": "Grandson of Amaterasu Bearing the Three Imperial Regalia",
+      "sources": [
+        "Kojiki Book I",
+        "Nihon Shoki Book II"
+      ],
+      "notes": "Amaterasu's son Ame-no-Oshihomimi weds Takamimusubi's daughter and sires Ninigi, who descends to Mt. Takachiho (Kyushu) carrying the Mirror, Jewel, and Sword (Three Imperial Regalia) and marries Mt. Fuji goddess Konohanasakuya-hime!",
+      "major": true
+    },
+    {
+      "id": "jpn_hoori",
+      "name": "Hoderi & Hoori (+ Toyotama-hime) → Ugayafukiaezu",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 5,
+      "era": "Kyushu Mythic Horizon",
+      "role": "Grandfather & Father of Emperor Jimmu",
+      "sources": [
+        "Kojiki Book I"
+      ],
+      "notes": "Hoori (Yamasachihiko) journeys to the underwater palace of Sea God Ryujin/Watatsumi, weds sea princess Toyotama-hime, and fathers Ugayafukiaezu -> Emperor Jimmu!",
+      "major": false
+    },
+    {
+      "id": "jk_jimmu",
+      "name": "Emperor Jimmu (Kamu-yamato Iware-biko, 1st Emperor)",
+      "altNames": [
+        "1st Emperor of Japan"
+      ],
+      "tradition": "japan_korea",
+      "tier": 6,
+      "era": "660 BCE trad. (Kojiki Book II)",
+      "role": "Founder of the Imperial House of Japan (Yamato)",
+      "sources": [
+        "Kojiki Book II",
+        "Nihon Shoki Book III"
+      ],
+      "notes": "Great-grandson of Ninigi; leads the Eastern Expedition from Kyushu to Yamato (Nara), guided by the three-legged crow Yatagarasu, founding the world's oldest continuous hereditary monarchy!",
+      "major": true
+    },
+    {
+      "id": "jpn_sujin_yamato",
+      "name": "Emperor Sujin (10th) → Emperor Keiko → Prince Yamato Takeru",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 9,
+      "era": "Yayoi → Early Kofun Horizon",
+      "role": "First Historical Yamato Anchor & Heroic Prince",
+      "sources": [
+        "Kojiki Book II",
+        "Nihon Shoki Books V-VII"
+      ],
+      "notes": "Emperor Sujin is widely regarded as the earliest historically grounded Yamato ruler; his descendant Prince Yamato Takeru wields Susanoo's Kusanagi sword to unify Honshu.",
+      "major": false
+    },
+    {
+      "id": "jpn_jingu_ojin",
+      "name": "Empress Jingu → Emperor Ojin (Hachiman) → Emperor Nintoku → Prince Shotoku",
+      "altNames": [
+        "Emperor Ojin (Hachiman)",
+        "Prince Shotoku"
+      ],
+      "tradition": "japan_korea",
+      "tier": 11,
+      "era": "Kofun → Asuka Period (4th-7th c. CE)",
+      "role": "Yamato Emperors & Architects of Korean/Chinese Cultural Bridge",
+      "sources": [
+        "Kojiki Book III",
+        "Nihon Shoki",
+        "17-Article Constitution"
+      ],
+      "notes": "Emperor Ojin (deified as Hachiman) welcomed Baekje Korean scholar Wani (bringing Chinese characters and Confucius's Analects to Japan!); Prince Shotoku (574-622 CE) established Buddhism and Japan's 17-Article Constitution!",
+      "major": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "hub_primordial",
+      "to": "kor_hwanin_hwanung",
+      "type": "parallel",
+      "label": "Heavenly descent & origin of Korea"
+    },
+    {
+      "from": "kor_hwanin_hwanung",
+      "to": "jk_dangun",
+      "type": "direct",
+      "label": "Hwanung + Ungnyeo -> Dangun Wanggeom (Samguk Yusa)"
+    },
+    {
+      "from": "chn_jizi",
+      "to": "jk_dangun",
+      "type": "expansion",
+      "label": "Shiji Ch. 38 & Samguk Yusa: Shang prince Jizi (Gija) migrates to Gojoseon"
+    },
+    {
+      "from": "jk_dangun",
+      "to": "kor_jumong",
+      "type": "expansion",
+      "label": "Buyeo / Gojoseon continuity -> Hae Mosu -> Jumong (Goguryeo)"
+    },
+    {
+      "from": "kor_jumong",
+      "to": "kor_onjo_baekje",
+      "type": "direct",
+      "label": "Son Onjo (via Soseono) founds Baekje (Samguk Sagi)"
+    },
+    {
+      "from": "jk_dangun",
+      "to": "kor_hyeokgeose_silla",
+      "type": "expansion",
+      "label": "Gojoseon diaspora -> Six Villages of Saro -> Silla (Park, Seok, Kim)"
+    },
+    {
+      "from": "jk_dangun",
+      "to": "kor_suro_heo",
+      "type": "expansion",
+      "label": "Southern Korean confederacies -> Geumgwan Gaya (King Suro)"
+    },
+    {
+      "from": "ved_surya_vamsha",
+      "to": "kor_suro_heo",
+      "type": "syncretic",
+      "label": "Samguk Yusa: Queen Heo Hwang-ok sails from Ayuta (trad. Ayodhya, Solar Dynasty capital) to marry King Suro of Gaya!"
+    },
+    {
+      "from": "hub_primordial",
+      "to": "jpn_kotoamatsukami",
+      "type": "parallel",
+      "label": "Primordial heavenly creation (Kojiki)"
+    },
+    {
+      "from": "jpn_kotoamatsukami",
+      "to": "jk_izanagi_amaterasu",
+      "type": "expansion",
+      "label": "Seven Divine Generations -> Izanagi & Izanami"
+    },
+    {
+      "from": "jk_izanagi_amaterasu",
+      "to": "jpn_amaterasu",
+      "type": "direct",
+      "label": "Born from Izanagi's purification (Kojiki I)"
+    },
+    {
+      "from": "jk_izanagi_amaterasu",
+      "to": "jpn_susanoo",
+      "type": "direct",
+      "label": "Born from Izanagi's nose (Kojiki I)"
+    },
+    {
+      "from": "jpn_amaterasu",
+      "to": "jpn_oshihomimi",
+      "type": "direct",
+      "label": "Amaterasu -> Ame-no-Oshihomimi -> Ninigi"
+    },
+    {
+      "from": "jpn_kotoamatsukami",
+      "to": "jpn_oshihomimi",
+      "type": "direct",
+      "label": "Takamimusubi's daughter marries Ame-no-Oshihomimi"
+    },
+    {
+      "from": "jpn_susanoo",
+      "to": "jpn_oshihomimi",
+      "type": "expansion",
+      "label": "Okuninushi (descendant of Susanoo) cedes terrestrial rule to Ninigi (Kuni-yuzuri)"
+    },
+    {
+      "from": "jpn_oshihomimi",
+      "to": "jpn_hoori",
+      "type": "direct",
+      "label": "Ninigi + Konohanasakuya-hime -> Hoderi & Hoori -> Ugayafukiaezu"
+    },
+    {
+      "from": "jpn_hoori",
+      "to": "jk_jimmu",
+      "type": "direct",
+      "label": "Ugayafukiaezu + Tamayori-hime -> Emperor Jimmu"
+    },
+    {
+      "from": "jk_jimmu",
+      "to": "jpn_sujin_yamato",
+      "type": "direct",
+      "label": "Yamato Imperial Line -> Sujin -> Keiko -> Yamato Takeru"
+    },
+    {
+      "from": "jpn_sujin_yamato",
+      "to": "jpn_jingu_ojin",
+      "type": "direct",
+      "label": "Yamato Takeru -> Chuai (+ Empress Jingu) -> Ojin -> Nintoku -> Prince Shotoku"
+    },
+    {
+      "from": "kor_onjo_baekje",
+      "to": "jpn_jingu_ojin",
+      "type": "cognate",
+      "label": "Baekje Korea transmits Chinese script, Analects (Wani) & Buddhism to Yamato Japan (Emperor Ojin & Prince Shotoku)!"
+    },
+    {
+      "from": "chn_weizi_confucius",
+      "to": "jpn_jingu_ojin",
+      "type": "cognate",
+      "label": "Confucius's Analects transmitted via Baekje to Emperor Ojin's court in Japan (Kojiki/Nihon Shoki)"
+    },
+    {
+      "from": "ved_surya_vamsha",
+      "to": "jpn_jingu_ojin",
+      "type": "cognate",
+      "label": "Buddhist tradition (Siddhartha Gautama, Shakya/Ikshvaku line) enters Japan via Baekje & Prince Shotoku!"
+    }
+  ]
+}
