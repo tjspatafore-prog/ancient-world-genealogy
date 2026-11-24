@@ -1,0 +1,716 @@
+{
+  "module": "08_african_ethiopian",
+  "title": "Exhaustive African, Cushite/Nubian (25th Dynasty & Meroe), Ethiopian (Kebra Nagast / Tarika Nagast) & West/North/East African Genealogies",
+  "nodes": [
+    {
+      "id": "af_alara",
+      "name": "Alara of Kush (Founder of Napatan Dynasty)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 14,
+      "era": "Kingdom of Kush (c. 795-760 BCE)",
+      "role": "Progenitor of the 25th Kushite Dynasty",
+      "sources": [
+        "Kawa Inscriptions",
+        "Napatan Royal Stelae"
+      ],
+      "notes": "Unified Upper Nubia around Napata (Jebel Barkal); revered by all later Kushite pharaohs as their founding ancestor.",
+      "major": true
+    },
+    {
+      "id": "af_kashta",
+      "name": "Kashta & Queen Pebatjma",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 15,
+      "era": "c. 760-747 BCE",
+      "role": "Brother of Alara / First Kushite King in Upper Egypt",
+      "sources": [
+        "Elephantine Stele"
+      ],
+      "notes": "Extended Kushite rule into Upper Egypt and installed his daughter Amenirdis I as God's Wife of Amun at Thebes; father of Piye and Shabaka.",
+      "major": false
+    },
+    {
+      "id": "af_piye",
+      "name": "Piye (Piankhi) & Shabaka (25th Dynasty Pharaohs)",
+      "altNames": [
+        "Piankhi",
+        "Shabaka"
+      ],
+      "tradition": "african",
+      "tier": 15,
+      "era": "Dynasty 25 (c. 747-706 BCE)",
+      "role": "Kushite Conquerors & Restorers of Unified Egypt",
+      "sources": [
+        "Victory Stele of Piye (Jebel Barkal)",
+        "Shabaka Stone"
+      ],
+      "notes": "Piye conquered all of Egypt from Nubia to the Delta; his brother Shabaka preserved the ancient Memphite Theology of Ptah on the Shabaka Stone!",
+      "major": true
+    },
+    {
+      "id": "af_taharqa",
+      "name": "Shebitku & Taharqa (Biblical Tirhakah, King of Cush!)",
+      "altNames": [
+        "Tirhakah (2 Kings 19:9 / Isa 37:9)"
+      ],
+      "tradition": "african",
+      "tier": 16,
+      "era": "Dynasty 25 (c. 706-664 BCE)",
+      "role": "Greatest 25th Dynasty Pharaoh — Named in 2 Kings 19:9",
+      "sources": [
+        "2 Kings 19:9",
+        "Isaiah 37:9",
+        "Kawa Stelae"
+      ],
+      "notes": "Son of Piye; explicitly named in the Bible as 'Tirhakah, King of Cush' who marched to relieve King Hezekiah's Jerusalem from Assyrian Emperor Sennacherib (701 BCE)!",
+      "major": true
+    },
+    {
+      "id": "af_tantamani",
+      "name": "Tantamani → Aspelta → Ergamenes (Meroe)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 16,
+      "era": "Late Napata → Meroe (c. 664-270 BCE)",
+      "role": "Last Kushite Pharaoh of Egypt → Founders of Meroe",
+      "sources": [
+        "Dream Stele",
+        "Diodorus Siculus"
+      ],
+      "notes": "Tantamani (son of Shabaka) was the last 25th Dynasty king in Egypt; Aspelta shifted the royal capital south to Meroe (creating the Meroitic script and pyramid fields!).",
+      "major": false
+    },
+    {
+      "id": "af_kandakes",
+      "name": "Queen Shanakdakhete → Amanirenas → Amanitore (Kandakes)",
+      "altNames": [
+        "Candace (Acts 8:27)",
+        "Amanirenas",
+        "Amanitore"
+      ],
+      "tradition": "african",
+      "tier": 17,
+      "era": "Meroitic Kingdom (c. 170 BCE - 50 CE)",
+      "role": "Warrior Queens of Kush (Biblical 'Candace'!)",
+      "sources": [
+        "Acts 8:27",
+        "Strabo Geography",
+        "Meroe Reliefs"
+      ],
+      "notes": "Meroe was ruled by powerful Candaces (Kandakes): Amanirenas battled Roman Augustus's legions (capturing his bronze head at Meroe!), and Queen Amanitore corresponds to 'Candace, Queen of the Ethiopians' in Acts 8:27!",
+      "major": true
+    },
+    {
+      "id": "af_jas_kikanos",
+      "name": "King Kikanos of Cush (+ Queen Adoniah) → Menakrus",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 15,
+      "era": "Book of Jasher Ch. 72-76",
+      "role": "Cushite Royal House in Moses's 40-Year Reign",
+      "sources": [
+        "Book of Jasher 72-76",
+        "Josephus Ant. 2.10"
+      ],
+      "notes": "Book of Jasher 72-76 recounts Moses aiding King Kikanos against the rebel Balaam, marrying Queen Adoniah, and ruling Cush for 40 years before turning the kingdom over to Kikanos's son Menakrus!",
+      "major": false
+    },
+    {
+      "id": "eth_ityopis",
+      "name": "Ityopis (Ethiopic, son of Cush) → Aksumawi",
+      "altNames": [
+        "Ethiopic",
+        "Aksumawi"
+      ],
+      "tradition": "african",
+      "tier": 7,
+      "era": "Ethiopian Chronicle (Tarika Nagast)",
+      "role": "Traditional Eponym of Ethiopia & Founder of Aksum",
+      "sources": [
+        "Tarika Nagast (Ethiopian Royal List)",
+        "Book of Aksum"
+      ],
+      "notes": "Traditional Ethiopian royal chronicles trace Ethiopia directly from Ham -> Cush -> Ityopis (eponym of Ethiopia) -> Aksumawi (founder of Aksum) -> Malakya Aksum!",
+      "major": true
+    },
+    {
+      "id": "eth_angabo",
+      "name": "Arwe (Serpent King) → Angabo → Gedur → Tawasya",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 14,
+      "era": "Pre-Solomonic Agazian Dynasty",
+      "role": "Slayer of Arwe & Ancestors of Queen Makeda",
+      "sources": [
+        "Tarika Nagast",
+        "Ethiopian Oral Chronicles"
+      ],
+      "notes": "Angabo slays the tyrant serpent-king Arwe and founds the Agazian dynasty of Aksum leading directly to Queen Makeda!",
+      "major": false
+    },
+    {
+      "id": "eth_makeda",
+      "name": "Queen Makeda (Queen of Sheba / Saba / Bilqis)",
+      "altNames": [
+        "Queen of Sheba",
+        "Bilqis (Arabic)",
+        "Nicaula (Josephus)"
+      ],
+      "tradition": "african",
+      "tier": 16,
+      "era": "c. 10th c. BCE trad. (1 Kings 10 / Kebra Nagast)",
+      "role": "Sovereign of Aksum & Sheba / Mother of Menelik I",
+      "sources": [
+        "1 Kings 10:1-13",
+        "Kebra Nagast",
+        "Qur'an 27 (Bilqis)"
+      ],
+      "notes": "Journeys from Aksum/Sheba to Jerusalem to test King Solomon's wisdom; bears Menelik I, uniting the lineages of Judah/Israel, Saba/Arabia, and Cush/Ethiopia!",
+      "major": true
+    },
+    {
+      "id": "eth_ezana",
+      "name": "Zagduru → Bazen → Emperor Ezana & King Kaleb of Aksum",
+      "altNames": [
+        "Ezana of Aksum",
+        "Kaleb"
+      ],
+      "tradition": "african",
+      "tier": 17,
+      "era": "Aksumite Empire (c. 1st-6th c. CE)",
+      "role": "First Christian Emperor of Aksum (c. 330 CE)",
+      "sources": [
+        "Ezana Stone (Ge'ez/Sabaean/Greek)",
+        "Kebra Nagast"
+      ],
+      "notes": "King Bazen reigned at the turn of the 1st century CE; Emperor Ezana converted Aksum to Christianity (c. 330 CE) and conquered Meroe; King Kaleb (Ella Atsbeha) campaigned in Himyar/Yemen!",
+      "major": true
+    },
+    {
+      "id": "eth_lalibela",
+      "name": "Mara Takla Haymanot → Emperor Gebre Mesqel Lalibela (Zagwe)",
+      "altNames": [
+        "Zagwe Dynasty",
+        "Moses/Zipporah tradition"
+      ],
+      "tradition": "african",
+      "tier": 17,
+      "era": "Zagwe Dynasty (c. 1137-1270 CE)",
+      "role": "Carver of Rock-Hewn Churches (Trad. Line of Moses & Zipporah)",
+      "sources": [
+        "Gadla Lalibela",
+        "Ethiopian Chronicles"
+      ],
+      "notes": "Ethiopian Zagwe chronicles trace the Zagwe kings to a daughter of the Aksumite line AND traditionally claim descent from Moses & Zipporah! Lalibela carved the 11 monolithic churches of 'New Jerusalem'.",
+      "major": false
+    },
+    {
+      "id": "eth_haile_selassie",
+      "name": "Yekuno Amlak → Zara Yaqob → Menelik II → Haile Selassie I",
+      "altNames": [
+        "Solomonic Restoration",
+        "Lion of Judah"
+      ],
+      "tradition": "african",
+      "tier": 17,
+      "era": "Solomonic Restoration (1270-1974 CE)",
+      "role": "Continuous Solomonic Emperors of Ethiopia",
+      "sources": [
+        "Kebra Nagast",
+        "Ethiopian Imperial Chronicles"
+      ],
+      "notes": "Yekuno Amlak restored the Solomonic Dynasty in 1270 CE; continued through Zara Yaqob, Menelik II (victor at Adwa), down to Haile Selassie I (225th ruler from Menelik I!).",
+      "major": true
+    },
+    {
+      "id": "af_oduduwa",
+      "name": "Olodumare → Obatala & Oduduwa (Progenitor of the Yoruba)",
+      "altNames": [
+        "Odua",
+        "Ile-Ife Cradle",
+        "Syncretic Lamurudu/Nimrod lore"
+      ],
+      "tradition": "african",
+      "tier": 5,
+      "era": "Ile-Ife Primordial Tradition (West Africa)",
+      "role": "Founding Ancestor of Yoruba & Benin Kingdoms",
+      "sources": [
+        "Yoruba Oral Tradition (Ifa Corpus)",
+        "Samuel Johnson History of the Yorubas"
+      ],
+      "notes": "In indigenous Ifa cosmology, Olodumare sends Obatala and Oduduwa to establish Ile-Ife (cradle of humanity). A later 19th-c. syncretic oral chronicle (Samuel Johnson) compares Oduduwa's eastern migration to 'Lamurudu' (Nimrod) from the East!",
+      "major": true
+    },
+    {
+      "id": "af_okanbi",
+      "name": "Okanbi (Son of Oduduwa)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 6,
+      "era": "Ile-Ife Gen 2",
+      "role": "Father of the 7 Crowned Yoruba Monarchs",
+      "sources": [
+        "Yoruba Royal Chronicles"
+      ],
+      "notes": "Only son of Oduduwa in core Ife genealogy; father of 7 royal children who founded the major Yoruba kingdoms and the Benin dynasty.",
+      "major": false
+    },
+    {
+      "id": "af_bayajidda",
+      "name": "Bayajidda (Abuyazidu of Baghdad) + Queen Daurama → Bawo",
+      "altNames": [
+        "Abuyazidu",
+        "Hausa Bakwai"
+      ],
+      "tradition": "african",
+      "tier": 14,
+      "era": "Hausa Chronicle (c. 10th c. CE trad.)",
+      "role": "Progenitor of the 7 Hausa Bakwai Kingdoms",
+      "sources": [
+        "Kano Chronicle",
+        "Daura Oral Tradition"
+      ],
+      "notes": "Prince Bayajidda journeys from Baghdad across Bornu to Daura (Nigeria), slays the well-serpent Sarki, weds Queen Magajiya Daurama, and sires Bawo — father of the 7 Hausa Bakwai states (Daura, Kano, Katsina, Zaria, Gobir, Rano, Biram)!",
+      "major": true
+    },
+    {
+      "id": "af_sundiata",
+      "name": "Bilali Bounama → Naré Maghann → Sundiata Keita → Mansa Musa",
+      "altNames": [
+        "Keita Dynasty",
+        "Mansa Musa"
+      ],
+      "tradition": "african",
+      "tier": 16,
+      "era": "Mali Empire (13th-14th c. CE)",
+      "role": "Founder of the Mali Empire (Lion King of Manden)",
+      "sources": [
+        "Epic of Sundiata (Griot Tradition)",
+        "Ibn Battuta"
+      ],
+      "notes": "Mande royal griots trace the Keita dynasty from Bilali Bounama (traditionally linked to Bilal ibn Rabah, Ethiopian companion of Muhammad!) to Sundiata Keita (founder of Mali, 1235 CE) and Mansa Musa!",
+      "major": true
+    },
+    {
+      "id": "af_mazigh",
+      "name": "Mazigh → Baranis & Botr → Queen Dihya (Imazighen / Berbers)",
+      "altNames": [
+        "Imazighen",
+        "Meshwesh",
+        "Queen Kahina"
+      ],
+      "tradition": "african",
+      "tier": 7,
+      "era": "North African Amazigh Tradition",
+      "role": "Eponymous Ancestor of the Amazigh (Berber) Peoples",
+      "sources": [
+        "Ibn Khaldun Kitab al-Ibar",
+        "Herodotus IV (Maxyes)"
+      ],
+      "notes": "Imazighen ('Free People', attested in Herodotus as Maxyes and Egyptian inscriptions as Meshwesh!). Medieval North African genealogists (Ibn Khaldun) linked Mazigh to Ham's sons Phut/Canaan, branching into the Baranis & Botr confederations and heroic Queen Dihya (al-Kahina).",
+      "major": true
+    },
+    {
+      "id": "af_kintu_gikuyu",
+      "name": "Kintu & Nambi (Buganda) / Gikuyu & Mumbi (Kikuyu)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 1,
+      "era": "East African Primordial Ancestors",
+      "role": "First Human Couples of Great Lakes & East Africa",
+      "sources": [
+        "Baganda Royal Oral Tradition",
+        "Kikuyu Oral Tradition (Nine Clans)"
+      ],
+      "notes": "Kintu & Nambi (daughter of sky-king Ggulu) are the primeval progenitors of Buganda's Kabaka kings; Gikuyu & Mumbi (created near Mt. Kenya by Ngai) are the progenitors of the nine Kikuyu clans (Nyumba ya Mumbi).",
+      "major": false
+    },
+    {
+      "id": "af_oranmiyan",
+      "name": "Oranmiyan (Oranyan — Founder of Oyo & Benin Dynasty)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 7,
+      "era": "7 Crowned Descendants of Oduduwa (Yoruba & Benin)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Yoruba & Benin Oral Chronicles"
+      ],
+      "notes": "Youngest and mightiest grandson of Oduduwa; founded the Oyo Empire (father of Ajaka & Shango!) and fathered Eweka I, founder of the Oba Dynasty of Benin!",
+      "major": true
+    },
+    {
+      "id": "af_eweka1",
+      "name": "Eweka I (First Oba of Benin, son of Oranmiyan)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 8,
+      "era": "7 Crowned Descendants of Oduduwa (Yoruba & Benin)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Benin Royal Chronicle"
+      ],
+      "notes": "Son of Oranmiyan & Princess Erinmwinde of Benin; founder of the historic Oba Dynasty of the Kingdom of Benin.",
+      "major": false
+    },
+    {
+      "id": "af_olowu",
+      "name": "Olowu of Owu",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 7,
+      "era": "7 Crowned Descendants of Oduduwa (Yoruba & Benin)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Yoruba Royal Chronicles"
+      ],
+      "notes": "1st crowned grandchild of Oduduwa (son of Okanbi's eldest daughter).",
+      "major": false
+    },
+    {
+      "id": "af_alaketu",
+      "name": "Alaketu of Ketu",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 7,
+      "era": "7 Crowned Descendants of Oduduwa (Yoruba & Benin)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Yoruba Royal Chronicles"
+      ],
+      "notes": "Founder of the Yoruba kingdom of Ketu (Benin Republic/Nigeria).",
+      "major": false
+    },
+    {
+      "id": "af_onisabe",
+      "name": "Onisabe of Sabe",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 7,
+      "era": "7 Crowned Descendants of Oduduwa (Yoruba & Benin)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Yoruba Royal Chronicles"
+      ],
+      "notes": "Founder of the kingdom of Sabe.",
+      "major": false
+    },
+    {
+      "id": "af_olupopo",
+      "name": "Olupopo of Popo",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 7,
+      "era": "7 Crowned Descendants of Oduduwa (Yoruba & Benin)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Yoruba Royal Chronicles"
+      ],
+      "notes": "Founder of the Popo kingdom.",
+      "major": false
+    },
+    {
+      "id": "af_orangun",
+      "name": "Orangun of Ila",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 7,
+      "era": "7 Crowned Descendants of Oduduwa (Yoruba & Benin)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Yoruba Royal Chronicles"
+      ],
+      "notes": "Founder of the kingdom of Ila-Orangun.",
+      "major": false
+    },
+    {
+      "id": "af_hausa_kano",
+      "name": "Bagauda (Kano) & Daura",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 15,
+      "era": "7 Hausa Bakwai Kingdoms (Bawo's Sons)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Kano Chronicle",
+        "Daura Tradition"
+      ],
+      "notes": "Founding Hausa Bakwai kingdoms descended from Bawo.",
+      "major": false
+    },
+    {
+      "id": "af_hausa_katsina",
+      "name": "Kumayau (Katsina) & Gunguma (Zaria/Zazzau)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 15,
+      "era": "7 Hausa Bakwai Kingdoms (Bawo's Sons)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Kano Chronicle",
+        "Daura Tradition"
+      ],
+      "notes": "Founding Hausa Bakwai kingdoms (Zaria later famed for Warrior Queen Amina!).",
+      "major": false
+    },
+    {
+      "id": "af_hausa_gobir",
+      "name": "Duma (Gobir), Zamna Kogi (Rano) & Biram",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 15,
+      "era": "7 Hausa Bakwai Kingdoms (Bawo's Sons)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Kano Chronicle",
+        "Daura Tradition"
+      ],
+      "notes": "Founding Hausa Bakwai kingdoms.",
+      "major": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "bib_cush",
+      "to": "af_alara",
+      "type": "cognate",
+      "label": "Biblical Cush = Historical Kingdom of Kush (Nubia/Sudan)"
+    },
+    {
+      "from": "bib_cush",
+      "to": "af_jas_kikanos",
+      "type": "expansion",
+      "label": "Book of Jasher 72: Kikanos King of Cush"
+    },
+    {
+      "from": "af_jas_kikanos",
+      "to": "eg_osarseph_bithiah",
+      "type": "expansion",
+      "label": "Jasher 73: Moses marries Queen Adoniah and rules Cush 40 years"
+    },
+    {
+      "from": "af_alara",
+      "to": "af_kashta",
+      "type": "direct",
+      "label": "Brother/Successor (Napatan Royal Line)"
+    },
+    {
+      "from": "af_kashta",
+      "to": "af_piye",
+      "type": "direct",
+      "label": "Kashta + Pebatjma -> Piye & Shabaka"
+    },
+    {
+      "from": "af_piye",
+      "to": "eg_shoshenq1",
+      "type": "cognate",
+      "label": "Piye defeats 22nd/24th Dynasty Delta kings to found Egypt's 25th Dynasty"
+    },
+    {
+      "from": "af_piye",
+      "to": "eg_ptah",
+      "type": "cognate",
+      "label": "Shabaka preserves the ancient Memphite Theology of Ptah (Shabaka Stone)"
+    },
+    {
+      "from": "af_piye",
+      "to": "af_taharqa",
+      "type": "direct",
+      "label": "Son of Piye (Kawa Inscriptions)"
+    },
+    {
+      "from": "af_taharqa",
+      "to": "mes_assyria_kings",
+      "type": "cognate",
+      "label": "2 Kings 19:9: Taharqa (Tirhakah) marches against Assyrian king Sennacherib to aid Jerusalem!"
+    },
+    {
+      "from": "af_taharqa",
+      "to": "af_tantamani",
+      "type": "direct",
+      "label": "Nephew/Cousin Tantamani -> Aspelta -> Meroe"
+    },
+    {
+      "from": "af_tantamani",
+      "to": "af_kandakes",
+      "type": "expansion",
+      "label": "Meroitic succession to warrior Kandakes (Amanirenas & Amanitore)"
+    },
+    {
+      "from": "bib_cush",
+      "to": "eth_ityopis",
+      "type": "expansion",
+      "label": "Tarika Nagast: Cush -> Ityopis (eponym of Ethiopia) -> Aksumawi"
+    },
+    {
+      "from": "eth_ityopis",
+      "to": "eth_angabo",
+      "type": "expansion",
+      "label": "Pre-Solomonic Aksumite/Agazian royal succession"
+    },
+    {
+      "from": "eth_angabo",
+      "to": "eth_makeda",
+      "type": "direct",
+      "label": "Agazian royal descent to Queen Makeda (Tarika Nagast)"
+    },
+    {
+      "from": "bib_sheba_joktan",
+      "to": "eth_makeda",
+      "type": "cognate",
+      "label": "Sabaean / Sheba royal bridge across the Red Sea (Yemen <-> Aksum)"
+    },
+    {
+      "from": "eth_makeda",
+      "to": "eth_menelik",
+      "type": "direct",
+      "label": "Mother of Menelik I (Kebra Nagast)"
+    },
+    {
+      "from": "eth_menelik",
+      "to": "eth_ezana",
+      "type": "expansion",
+      "label": "Aksumite Solomonic succession: Menelik I -> Zagduru -> Bazen -> Ezana -> Kaleb"
+    },
+    {
+      "from": "eth_ezana",
+      "to": "af_kandakes",
+      "type": "cognate",
+      "label": "Ezana Stone (c. 350 CE) records Aksum's conquest of Meroe/Kush"
+    },
+    {
+      "from": "eth_ezana",
+      "to": "eth_lalibela",
+      "type": "expansion",
+      "label": "Aksum -> Zagwe Dynasty (via Aksumite princess Masoba Warq)"
+    },
+    {
+      "from": "bib_moses",
+      "to": "eth_lalibela",
+      "type": "syncretic",
+      "label": "Ethiopian Zagwe royal tradition claims descent from Moses & Zipporah"
+    },
+    {
+      "from": "eth_ezana",
+      "to": "eth_haile_selassie",
+      "type": "expansion",
+      "label": "Solomonic line restored by Yekuno Amlak (1270) -> Menelik II -> Haile Selassie I"
+    },
+    {
+      "from": "af_okanbi",
+      "to": "af_oranmiyan",
+      "type": "direct",
+      "label": "Child (Yoruba & Benin Oral Chronicles)"
+    },
+    {
+      "from": "af_okanbi",
+      "to": "af_eweka1",
+      "type": "expansion",
+      "label": "Child (Benin Royal Chronicle)"
+    },
+    {
+      "from": "af_okanbi",
+      "to": "af_olowu",
+      "type": "direct",
+      "label": "Child (Yoruba Royal Chronicles)"
+    },
+    {
+      "from": "af_okanbi",
+      "to": "af_alaketu",
+      "type": "direct",
+      "label": "Child (Yoruba Royal Chronicles)"
+    },
+    {
+      "from": "af_okanbi",
+      "to": "af_onisabe",
+      "type": "direct",
+      "label": "Child (Yoruba Royal Chronicles)"
+    },
+    {
+      "from": "af_okanbi",
+      "to": "af_olupopo",
+      "type": "direct",
+      "label": "Child (Yoruba Royal Chronicles)"
+    },
+    {
+      "from": "af_okanbi",
+      "to": "af_orangun",
+      "type": "direct",
+      "label": "Child (Yoruba Royal Chronicles)"
+    },
+    {
+      "from": "af_bayajidda",
+      "to": "af_hausa_kano",
+      "type": "direct",
+      "label": "Child (Kano Chronicle, Daura Tradition)"
+    },
+    {
+      "from": "af_bayajidda",
+      "to": "af_hausa_katsina",
+      "type": "direct",
+      "label": "Child (Kano Chronicle, Daura Tradition)"
+    },
+    {
+      "from": "af_bayajidda",
+      "to": "af_hausa_gobir",
+      "type": "direct",
+      "label": "Child (Kano Chronicle, Daura Tradition)"
+    },
+    {
+      "from": "hub_primordial",
+      "to": "af_oduduwa",
+      "type": "parallel",
+      "label": "Ile-Ife primordial creation & founding of humanity"
+    },
+    {
+      "from": "hub_primordial",
+      "to": "af_kintu_gikuyu",
+      "type": "parallel",
+      "label": "East African primeval couples (Kintu & Nambi; Gikuyu & Mumbi)"
+    },
+    {
+      "from": "af_oduduwa",
+      "to": "af_okanbi",
+      "type": "direct",
+      "label": "Son of Oduduwa (Ile-Ife Chronicle)"
+    },
+    {
+      "from": "af_oranmiyan",
+      "to": "af_eweka1",
+      "type": "direct",
+      "label": "Son of Oranmiyan (Benin Royal Chronicle)"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "af_oduduwa",
+      "type": "syncretic",
+      "label": "19th-c. Yoruba oral syncretism (S. Johnson) compares Oduduwa's ancestor 'Lamurudu' to Nimrod"
+    },
+    {
+      "from": "mes_hammurabi",
+      "to": "af_bayajidda",
+      "type": "syncretic",
+      "label": "Hausa chronicle traces Bayajidda migrating from Baghdad/Mesopotamia to Daura"
+    },
+    {
+      "from": "bib_phut",
+      "to": "af_mazigh",
+      "type": "syncretic",
+      "label": "Ibn Khaldun & North African chroniclers link Amazigh/Mazigh to Phut & Canaan"
+    },
+    {
+      "from": "eg_shoshenq1",
+      "to": "af_mazigh",
+      "type": "cognate",
+      "label": "Shoshenq I came from the Libyan Meshwesh (= ancestral Amazigh/Imazighen)!"
+    },
+    {
+      "from": "ar_adnan_quraysh",
+      "to": "af_sundiata",
+      "type": "syncretic",
+      "label": "Mande griot chronicles link Keita ancestor Bilali Bounama to Ethiopian Bilal (companion of Muhammad)"
+    }
+  ]
+}
