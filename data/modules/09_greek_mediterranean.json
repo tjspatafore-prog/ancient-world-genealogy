@@ -686,6 +686,21 @@
       ],
       "notes": "Herodotus records that during an 18-year famine in Lydia (Biblical Lud, Gen 10:22!), King Atys split his people between Lydus (staying in Anatolia) and Tyrrhenus, who sailed to Italy to found the Etruscans (Tyrsenians — widely linked by scholars to Biblical Tiras, Gen 10:2)!",
       "major": false
+    },
+    {
+      "id": "grk_julius_augustus",
+      "name": "Gens Julia → Julius Caesar & Emperor Augustus (Rome)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "100 BCE - 14 CE (Roman Republic → Empire)",
+      "role": "Roman Imperial Claimants of Trojan Descent via Aeneas/Iulus",
+      "sources": [
+        "Virgil Aeneid VI",
+        "Suetonius Divus Julius"
+      ],
+      "notes": "Julius Caesar publicly claimed descent from Aeneas's son Iulus (Ascanius) and goddess Venus/Aphrodite; his adopted heir Augustus commissioned Virgil's Aeneid to immortalize Rome's Trojan genealogy!",
+      "major": true
     }
   ],
   "edges": [
@@ -1090,6 +1105,18 @@
       "to": "grk_lydus_tyrrhenus",
       "type": "cognate",
       "label": "Biblical Tiras (Gen 10:2) = Tyrsenians / Tyrrhenus (Etruscans)!"
+    },
+    {
+      "from": "grk_romulus_remus",
+      "to": "grk_julius_augustus",
+      "type": "expansion",
+      "label": "Alba Longa / Ascanius (Iulus) -> Gens Julia -> Julius Caesar & Augustus"
+    },
+    {
+      "from": "eg_ptolemy_cleopatra",
+      "to": "grk_julius_augustus",
+      "type": "cognate",
+      "label": "Cleopatra VII & Julius Caesar (-> Caesarion) / Augustus annexes Ptolemaic Egypt (30 BCE)"
     }
   ]
 }

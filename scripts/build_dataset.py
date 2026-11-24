@@ -17,6 +17,7 @@ OUT_CORE = ROOT / "data" / "genealogy_core.json"
 
 TRADITIONS = {
     "archetype":       {"label": "Global Convergence Hubs",        "region": "Worldwide Comparative Layer",  "color": "#6366f1", "order": 0},
+    "dna":             {"label": "Archaeogenetics (Y-DNA & mtDNA)","region": "Global Population Genetics",   "color": "#14b8a6", "order": 0.5},
     "americas_pacific":{"label": "Americas & Polynesia",           "region": "Americas & Pacific Oceania",   "color": "#0e7490", "order": 1},
     "europe_norse":    {"label": "Celtic, Norse & European",       "region": "Northern & Western Europe",    "color": "#4f46e5", "order": 2},
     "african":         {"label": "African, Cushite & Ethiopian",   "region": "Nubia / Ethiopia / Africa",    "color": "#16a34a", "order": 3},
@@ -35,9 +36,10 @@ TRADITIONS = {
 LINK_TYPES = {
     "direct":    "Explicit parent-child or biological descent within primary canonical/ancient texts",
     "expansion": "Matriarchs, additional children, royal successions, or migrations supplied by extra-biblical or secondary chronicles (Book of Jasher, Jubilees, 1 Enoch, Manetho, Kebra Nagast, Sumerian King List, Bundahishn, Shahnameh, Shiji, Samguk Yusa, Kojiki, Puranas)",
-    "cognate":   "Linguistically or historically attested cross-tradition identity/ethnonym bridge (e.g., Ion = Javan; Taharqa = Tirhakah; Merneptah Stele = Israel; Vedic Vivasvan/Yama/Aptya = Avestan Vivanghant/Yima/Athwya; Zeus = Dyaus Pitr; Madai = Medes)",
+    "cognate":   "Linguistically or historically attested cross-tradition identity/ethnonym bridge (e.g., Ion = Javan; Taharqa = Tirhakah; Merneptah Stele = Israel; Vedic Vivasvan/Yama/Aptya = Avestan Vivanghant/Yima/Athwya; Zeus = Dyaus Pitr = Týr; Mannus = Manu)",
     "parallel":  "Independent structural/archetypal parallel across ancient corpora (Great Flood survivors, 7th sage, Imhotep/Joseph, Adapa/Adam, Sargon/Moses basket, tripartite world division)",
-    "syncretic": "Ancient, Greco-Egyptian, or medieval chronicler identification bridging figures across cultures (e.g., Enoch = Thoth/Saurid; Moses = Osarseph/Musaeus; Noah = Osiris/Fuxi; Japheth = Oghuz Khagan; Zepho = King of Kittim/Rome)"
+    "syncretic": "Ancient, Greco-Egyptian, or medieval chronicler identification bridging figures across cultures (e.g., Enoch = Thoth/Saurid; Moses = Osarseph/Musaeus; Noah = Osiris/Fuxi; Japheth = Oghuz Khagan; Zepho = King of Kittim/Rome; Snorri's Troy -> Odin)",
+    "genetic":   "Modern archaeogenetic / population DNA haplogroup migration corridor (Y-DNA & mtDNA phylogenetics — cleanly distinct from textual claims)"
 }
 
 
@@ -782,26 +784,184 @@ def build_module_13_americas_polynesia():
     return {"module": "13_americas_polynesia", "title": "Exhaustive Americas & Polynesia Genealogies (Maya Popol Vuh, Aztec Five Suns, Inca Viracocha/Cusco, North American, Hawaiian Kumulipo, Māori Whakapapa & Tu'i Tonga)", "nodes": nodes, "edges": edges}
 
 
+def build_module_14_archaeogenetics_dna():
+    nodes, edges = [], []
+
+    # 1. Deep African Human Roots (Y-Chromosomal Adam & Mitochondrial Eve)
+    nodes += [
+        N("dna_mt_eve", "Mitochondrial Eve (mtDNA L0–L3, ~150–200 kya, Africa)", "dna", 0, "~150,000–200,000 BCE (Africa)",
+          "Most Recent Common Matrilineal Ancestor of All Living Humans", ["Cann et al. 1987", "ISOGG / PhyloTree"],
+          "Every living human carries mitochondrial DNA descended from African matrilineal root L (splitting into L0, L1, L2 across Sub-Saharan Africa and L3 in East Africa, source of the Out-of-Africa expansion ~70 kya).",
+          ["mtDNA MRCA", "Haplogroup L"], major=True),
+        N("dna_y_adam", "Y-Chromosomal Adam (Y-DNA A00 / A–BT, ~200–300 kya, Africa)", "dna", 0, "~200,000–300,000 BCE (Africa)",
+          "Most Recent Common Patrilineal Ancestor of All Living Men", ["Karmin et al. 2015", "ISOGG Y-Tree"],
+          "Deepest patrilineal root of humanity (A00 discovered in Cameroon/Central-West Africa; A & B across Southern/East Africa; BT -> CT giving rise to ALL non-African and most African Y-DNA lineages).",
+          ["Y-DNA MRCA", "Haplogroup A00/BT"], major=True),
+        N("dna_ooa_l3_ct", "Out-of-Africa Dispersal (mtDNA M & N / Y-DNA CT → CF & DE, ~70–55 kya)", "dna", 1, "~70,000–55,000 BCE (East Africa → Arabia)",
+          "Shared Ancestral Bottleneck of All Eurasian, Oceanic & American Peoples", ["Pagani et al. 2016", "Ancient DNA Synthesis"],
+          "Small ancestral groups crossed from East Africa via the Bab-el-Mandeb / Sinai corridor carrying mtDNA L3 (-> M, N, R) and Y-DNA CT (-> DE, CF), later encountering Neanderthals (~55 kya) and Denisovans (~45 kya) in Eurasia!",
+          ["mtDNA M/N/R", "Y-DNA CT/CF/DE"], major=True),
+    ]
+    edges += [
+        E("dna_mt_eve", "dna_ooa_l3_ct", "genetic", "mtDNA L3 exits East Africa (~70 kya) -> macro-haplogroups M & N"),
+        E("dna_y_adam", "dna_ooa_l3_ct", "genetic", "Y-DNA BT -> CT branches into DE and CF (~70 kya)"),
+        E("hub_primordial", "dna_y_adam", "parallel", "Scientific patrilineal MRCA compared alongside mythic primeval ancestors"),
+        E("hub_primordial", "dna_mt_eve", "parallel", "Scientific matrilineal MRCA compared alongside mythic primeval mothers"),
+    ]
+
+    # 2. African & Afro-Asiatic / Near Eastern DNA Corridors (Y-DNA E, J, G)
+    nodes += [
+        N("dna_e1b1a", "Y-DNA E1b1a (E-V38 — West, Central & Bantu African Expansion)", "dna", 3, "~20,000–1,000 BCE (West → Sub-Saharan Africa)",
+          "Primary Patrilineal Corridor of Niger-Congo & Bantu Peoples", ["Tishkoff et al.", "ISOGG E-V38"],
+          "Dominant paternal haplogroup across West, Central, East, and Southern Africa — bridging Yoruba, Benin, Mande/Mali, and Bantu Great Lakes populations!", major=True),
+        N("dna_e1b1b", "Y-DNA E1b1b (E-M215 — Horn of Africa, Egypt, Amazigh & Levant)", "dna", 3, "~25,000–3,000 BCE (East/North Africa & Nile)",
+          "Afro-Asiatic Paternal Corridor (Cushitic, Egyptian, Amazigh)", ["Cruciani et al.", "Ancient Egyptian aDNA"],
+          "Unites the Horn of Africa (Ethiopia/Kush), Ancient Egypt (attested in Ramesses III!), North African Amazigh/Berbers (E-M81), and Natufian Levantines!", major=True),
+        N("dna_j1_j2", "Y-DNA J1 (J-M267) & J2 (J-M172) — Fertile Crescent, Semitic & Mediterranean", "dna", 4, "~18,000–2,000 BCE (Levant, Arabia, Mesopotamia)",
+          "Semitic, Levantine, Anatolian & Aegean Corridor", ["Lazaridis et al. 2016", "Haber et al. 2017"],
+          "J1 expanded across the Arabian Peninsula, Levant, and Mesopotamia (highly enriched in Jewish, Arab, and Assyrian populations — including the Cohen Modal Haplotype!); J2 expanded from the Zagros/Anatolia across Phoenicia, Minoan Crete, Greece, and Etruscan Italy!",
+          ["J1 (Semitic/Arabian)", "J2 (Phoenician/Aegean/Iran)"], major=True),
+        N("dna_g2a", "Y-DNA G2a — Anatolian Neolithic Farmers (Spread of Agriculture)", "dna", 4, "~9,000–4,500 BCE (Anatolia → Europe & Caucasus)",
+          "Neolithic Agricultural Dispersal", ["Haak et al. 2015", "Lazaridis et al."],
+          "Carried by early Neolithic farmers (including Ötzi the Iceman!) from Anatolia and the Caucasus across the Mediterranean and Central Europe."),
+    ]
+    edges += [
+        E("dna_ooa_l3_ct", "dna_e1b1a", "genetic", "Y-DNA DE -> E -> E1b1a (West/Central/Bantu Africa)"),
+        E("dna_ooa_l3_ct", "dna_e1b1b", "genetic", "Y-DNA DE -> E -> E1b1b (Horn of Africa, Egypt & Maghreb)"),
+        E("dna_ooa_l3_ct", "dna_j1_j2", "genetic", "Y-DNA CF -> F -> GHIJK -> IJ -> J1 & J2"),
+        E("dna_ooa_l3_ct", "dna_g2a", "genetic", "Y-DNA F -> G -> G2a (Anatolian Neolithic farming wave)"),
+        E("dna_e1b1a", "af_oduduwa", "genetic", "Population corridor matching West/Central African Niger-Congo & Yoruba/Benin lineages"),
+        E("dna_e1b1a", "af_kintu_gikuyu", "genetic", "Bantu expansion corridor into Great Lakes & East Africa"),
+        E("dna_e1b1b", "af_mazigh", "genetic", "E-M81 is the signature ancestral Amazigh/Berber lineage across North Africa"),
+        E("dna_e1b1b", "eg_ramesses3", "genetic", "Ancient DNA of Pharaoh Ramesses III (2012 Hawass study) directly tested as Y-DNA E1b1a/E1b1b African corridor!"),
+        E("dna_e1b1b", "eth_ityopis", "genetic", "Horn of Africa / Cushitic & Ethiopian Afro-Asiatic genetic corridor"),
+        E("dna_j1_j2", "bib_abraham", "genetic", "J1/J2 Bronze Age Levantine & Mesopotamian genetic horizon (Semitic-speaking Near East)"),
+        E("dna_j1_j2", "ar_adnan_quraysh", "genetic", "J1-P58 strongly correlates with Arabian Peninsula Semitic populations"),
+        E("dna_j1_j2", "grk_europa_minos", "genetic", "Ancient DNA confirms Minoan Crete & Mycenaean Greece share deep J2/G2a Anatolian-Levantine Neolithic roots"),
+    ]
+
+    # 3. Indo-European Steppe, European & South Asian Corridors (Y-DNA R1a, R1b, I, H/L)
+    nodes += [
+        N("dna_r1b", "Y-DNA R1b (Yamnaya Steppe → Western Europe, Celtic & Italic)", "dna", 5, "~3,300–1,500 BCE (Pontic Steppe → Atlantic Europe)",
+          "Bronze Age Steppe Expansion into Western Europe", ["Haak et al. 2015", "Olalde et al. 2018"],
+          "Expanded dramatically from Pontic-Caspian Steppe Yamnaya/Bell Beaker pastoralists into Central Europe, Italy, Iberia, Britain, and Ireland (accounting for ~80%+ of modern Irish/Celtic paternal lineages!).", major=True),
+        N("dna_r1a", "Y-DNA R1a (Corded Ware / Sintashta → Indo-Iranian & Slavic)", "dna", 5, "~3,000–1,200 BCE (Steppe → Iran, India & Eastern Europe)",
+          "Proto-Indo-Iranian & Balto-Slavic Steppe Corridor", ["Narasimhan et al. 2019 (Science)", "Allentoft et al. 2015"],
+          "Sintashta/Andronovo chariot pastoralists carrying R1a-Z93 expanded southward across Central Asia into the Iranian Plateau and Northern India (~2000–1500 BCE), directly mirroring the shared Vedic-Avestan linguistic & genealogical layer!", major=True),
+        N("dna_i1_i2", "Y-DNA I1 & I2 — Paleolithic European & Nordic Corridor", "dna", 5, "~25,000–1,000 BCE (Europe & Scandinavia)",
+          "Indigenous European & Scandinavian Paternal Lineage", ["Allentoft et al.", "Margaryan et al. 2020 (Viking aDNA)"],
+          "Ancient pre-Neolithic European haplogroup (sister clade of Near Eastern J via IJ!) that surged across Scandinavia and the Balkans."),
+        N("dna_hl_indus", "Y-DNA H & L — Ancient Indus Valley (Harappan) & South Asian Roots", "dna", 4, "~7,000–1,900 BCE (Indus Valley & South Asia)",
+          "Indus Valley Civilization & Ancient South Asian Ancestral Layer", ["Shinde et al. 2019 (Rakhigarhi aDNA)", "Narasimhan et al. 2019"],
+          "Indus Valley Civilization (Harappa/Rakhigarhi) combined Iranian-plateau farmer ancestry with indigenous South Asian hunter-gatherers (AASI), later admixing with Steppe R1a pastoralists to form modern South Asia!"),
+    ]
+    edges += [
+        E("dna_ooa_l3_ct", "dna_i1_i2", "genetic", "Y-DNA IJ splits into European I and Near Eastern J (~43 kya)"),
+        E("dna_ooa_l3_ct", "dna_hl_indus", "genetic", "Y-DNA F -> H & LT -> L across South Asia & Indus Valley"),
+        E("dna_ooa_l3_ct", "dna_r1b", "genetic", "Y-DNA K -> P -> R -> R1b (Eurasian Steppe -> Western Europe)"),
+        E("dna_ooa_l3_ct", "dna_r1a", "genetic", "Y-DNA K -> P -> R -> R1a (Steppe Sintashta -> Iran, India & Slavic Europe)"),
+        E("dna_r1b", "eur_milesians", "genetic", "Bell Beaker R1b-L21 wave (~2400 BCE) forms core paternal ancestry of Ireland, Britain & Iberia"),
+        E("dna_r1b", "eur_brutus_troy", "genetic", "Steppe/Bell Beaker Bronze Age turnover in Britain (~2400 BCE)"),
+        E("dna_i1_i2", "eur_ynglings_skjoldungs", "genetic", "I1 + R1a/R1b form the core Scandinavian Viking Age genetic profile"),
+        E("dna_r1a", "eur_slavic_brothers", "genetic", "R1a-Z282 forms the primary Balto-Slavic paternal corridor across Eastern Europe"),
+        E("dna_r1a", "ir_vivanghant", "genetic", "Steppe Sintashta/Andronovo R1a-Z93 migration matches the Proto-Indo-Iranian horizon!"),
+        E("dna_r1a", "ved_vivasvan", "genetic", "R1a-Z93 entry into NW India (~1900-1500 BCE) aligns with the Rigvedic Indo-Aryan horizon"),
+        E("dna_hl_indus", "ved_vaivasvata_manu", "genetic", "Indus Valley (Harappan) & Ancient South Asian ancestral substrate of India"),
+    ]
+
+    # 4. East Asian, Steppe, Austronesian/Polynesian & Beringian Americas Corridors (Y-DNA O, D, C, N, Q)
+    nodes += [
+        N("dna_o2_china", "Y-DNA O2 (O-M122) — Yellow River Neolithic (Sino-Tibetan / East Asia)", "dna", 4, "~8,000–2,000 BCE (Yellow River → China & Korea)",
+          "Sino-Tibetan & Yellow River Agricultural Expansion", ["Yan et al. 2014", "Wang et al. 2021 (Nature)"],
+          "Three major 'super-grandfather' star expansions of Y-DNA O2 around ~6,000–5,000 BP in the Yellow River basin mirror the Neolithic consolidation remembered in the Yan-Huang (Yandi & Huangdi) traditions!", major=True),
+        N("dna_o1_austronesian", "Y-DNA O1a + mtDNA B4a1a1 ('Polynesian Motif' — Taiwan → Lapita → Pacific!)", "dna", 5, "~3,500 BCE – 1,300 CE (Taiwan → Polynesia)",
+          "Austronesian & Polynesian Maritime Expansion", ["Skoglund et al. 2016", "Ioannidis et al. 2021 (Nature)"],
+          "Traces the Out-of-Taiwan Austronesian voyage through the Philippines, Lapita Melanesia (admixing with Papuan C1b2a), out to Tonga, Samoa, Hawaii, Aotearoa/New Zealand, and Rapa Nui — even detecting pre-Columbian contact with South America (~1200 CE)!", major=True),
+        N("dna_d_c_n_asia", "Y-DNA D (Jōmon Japan/Tibet), C2 (Steppe/Xiongnu) & N (Northern Eurasia)", "dna", 4, "~30,000–500 BCE (Siberia, Steppe, Tibet & Japan)",
+          "Inner Asian Steppe & Jōmon-Yayoi Japanese Corridors", ["Cooke et al. 2021", "Jeong et al. 2020"],
+          "Y-DNA D1a2 represents ancient Jōmon Japan (which admixed with Korean/Yayoi O1b2 arrivals to form modern Japanese!), while C2 & N anchor the Xiongnu, Turkic, and Mongol Steppe confederacies!"),
+        N("dna_q_americas", "Y-DNA Q (Q-M242 → Q-M3) & mtDNA A2/B2/C1/D1 — Beringia to the Americas!", "dna", 4, "~20,000–12,000 BCE (Siberia → Beringia → Tierra del Fuego)",
+          "Peopling of North, Central & South America", ["Moreno-Mayar et al. 2018", "Posth et al. 2018 (Cell)"],
+          "Ancestral Native Americans diverged in Siberia/Beringia carrying Y-DNA Q-M3 (sister branch of Eurasian R via P!) and mtDNA A2, B2, C1, D1, rapidly settling North America, Mesoamerica (Maya/Aztec), and the Andes (Inca)!",
+          ["Beringian Migration", "Y-DNA Q-M3"], major=True),
+    ]
+    edges += [
+        E("dna_ooa_l3_ct", "dna_o2_china", "genetic", "Y-DNA K -> NO -> O2 (Yellow River / Sino-Tibetan)"),
+        E("dna_ooa_l3_ct", "dna_o1_austronesian", "genetic", "Y-DNA O -> O1a + mtDNA B4a1a1 (Taiwan -> Lapita -> Polynesia)"),
+        E("dna_ooa_l3_ct", "dna_d_c_n_asia", "genetic", "Y-DNA DE -> D (Jōmon/Tibet); C -> C2 (Steppe); NO -> N (North Eurasia)"),
+        E("dna_ooa_l3_ct", "dna_q_americas", "genetic", "Y-DNA K -> P -> Q-M3 (Siberia -> Beringia -> Americas)"),
+        E("dna_o2_china", "chn_huangdi", "genetic", "Yellow River Neolithic O2 star expansions (~4000-3000 BCE) align with Yan-Huang consolidation"),
+        E("dna_o2_china", "jk_dangun", "genetic", "O2 + O1b2 Neolithic/Bronze Age corridor into Korea"),
+        E("dna_d_c_n_asia", "jk_jimmu", "genetic", "Jōmon (Y-DNA D1a2) + Yayoi Korean (O1b2) dual genetic origin of ancient Japan"),
+        E("dna_d_c_n_asia", "stp_xiongnu", "genetic", "Steppe C2, N & R1a/Q admixture confirmed in ancient Xiongnu burials"),
+        E("dna_o1_austronesian", "amp_poly_kupe_tonga", "genetic", "Out-of-Taiwan -> Lapita -> Tonga, Hawaii, Aotearoa & Rapa Nui maritime DNA trail!"),
+        E("dna_o1_austronesian", "amp_inca_pachacuti", "genetic", "Ioannidis et al. (Nature 2020) confirmed pre-Columbian Polynesian-South American DNA contact (~1200 CE)!"),
+        E("dna_q_americas", "amp_na_skywoman", "genetic", "Beringian Y-DNA Q-M3 & mtDNA A2/B2/C1/D1 ancestral roots of North America"),
+        E("dna_q_americas", "amp_maya_four_men", "genetic", "Ancestral Native American genetic continuity in Mesoamerica (Maya & Aztec)"),
+        E("dna_q_americas", "amp_inca_manco", "genetic", "Rapid Pacific-coast southward migration reaching Andean South America by ~14,500 BCE"),
+    ]
+
+    return {"module": "14_archaeogenetics_dna", "title": "Modern Human Archaeogenetics Overlay (Y-DNA & mtDNA Global Migration Tree)", "nodes": nodes, "edges": edges}
+
+
+def add_deep_royal_expansions(mod03, mod09):
+    """Add requested deep royal individuals (David's family, Julius Caesar/Augustus) cleanly without duplicates."""
+    existing_ids_03 = {n["id"] for n in mod03["nodes"]}
+    if "jud_rehoboam_josiah" not in existing_ids_03:
+        mod03["nodes"] += [
+            N("jud_david_children", "Absalom, Adonijah, Tamar & Nathan (Children of King David)", "biblical", 16, "United Monarchy (2 Sam 3, 13; 1 Chr 3)",
+              "Davidic Royal Siblings of Solomon", ["2 Samuel 3:2-5, 13", "1 Chronicles 3:1-9", "Luke 3:31"],
+              "1 Chronicles 3 lists all 19 sons of David (Amnon, Chileab, Absalom, Adonijah, Shephatiah, Ithream, Shammua, Shobab, Nathan, Solomon, etc.) and daughter Tamar. Luke 3 traces Jesus's genealogy through Nathan, while Matthew 1 traces through Solomon!"),
+            N("jud_rehoboam_josiah", "Rehoboam → Hezekiah → Josiah → Zerubbabel (Kings of Judah)", "biblical", 17, "Kingdom of Judah (931-515 BCE)",
+              "Davidic Kings of Judah Through Babylonian Exile & Return", ["1-2 Kings", "1 Chronicles 3:10-19", "Ezra 3"],
+              "Solomon -> Rehoboam (raided by Pharaoh Shishak/Shoshenq I!) -> ... -> Hezekiah (allied with Cushite King Taharqa against Sennacherib!) -> Josiah -> Jehoiachin -> Zerubbabel (who leads the return from Babylon under Cyrus the Great!).", major=True),
+        ]
+        mod03["edges"] += [
+            E("jud_david", "jud_david_children", "direct", "1 Chronicles 3:1-9 (19 sons & daughter Tamar of David)"),
+            E("jud_solomon", "jud_rehoboam_josiah", "direct", "Solomon -> Rehoboam -> ... -> Hezekiah -> Josiah -> Zerubbabel"),
+            E("jud_rehoboam_josiah", "eg_shoshenq1", "cognate", "1 Kings 14:25: Pharaoh Shishak (Shoshenq I) campaigns against Rehoboam in his 5th year!"),
+            E("jud_rehoboam_josiah", "af_taharqa", "cognate", "2 Kings 19:9: Cushite Pharaoh Taharqa (Tirhakah) marches to relieve King Hezekiah!"),
+            E("jud_rehoboam_josiah", "ir_cyrus", "cognate", "Ezra 1-3: Zerubbabel leads Judean return under Cyrus the Great's decree"),
+        ]
+
+    existing_ids_09 = {n["id"] for n in mod09["nodes"]}
+    if "grk_julius_augustus" not in existing_ids_09:
+        mod09["nodes"] += [
+            N("grk_julius_augustus", "Gens Julia → Julius Caesar & Emperor Augustus (Rome)", "greek", 14, "100 BCE - 14 CE (Roman Republic → Empire)",
+              "Roman Imperial Claimants of Trojan Descent via Aeneas/Iulus", ["Virgil Aeneid VI", "Suetonius Divus Julius"],
+              "Julius Caesar publicly claimed descent from Aeneas's son Iulus (Ascanius) and goddess Venus/Aphrodite; his adopted heir Augustus commissioned Virgil's Aeneid to immortalize Rome's Trojan genealogy!", major=True),
+        ]
+        mod09["edges"] += [
+            E("grk_romulus_remus", "grk_julius_augustus", "expansion", "Alba Longa / Ascanius (Iulus) -> Gens Julia -> Julius Caesar & Augustus"),
+            E("eg_ptolemy_cleopatra", "grk_julius_augustus", "cognate", "Cleopatra VII & Julius Caesar (-> Caesarion) / Augustus annexes Ptolemaic Egypt (30 BCE)"),
+        ]
+
+
 def main():
     MODULES_DIR.mkdir(parents=True, exist_ok=True)
     old_asia = MODULES_DIR / "07_asia_steppe.json"
     if old_asia.exists():
         old_asia.unlink()
 
+    mod03 = load_existing_module("03_abraham_all_nations")
+    mod09 = load_existing_module("09_greek_mediterranean")
+    add_deep_royal_expansions(mod03, mod09)
+
     modules = [
         load_existing_module("01_antediluvian"),
         load_existing_module("02_table_of_nations"),
-        load_existing_module("03_abraham_all_nations"),
+        mod03,
         load_existing_module("04_egypt_levant"),
         load_existing_module("05_mesopotamia"),
         load_existing_module("06_iranian_zoroastrian"),
         build_module_07_vedic_india(),
         load_existing_module("08_african_ethiopian"),
-        load_existing_module("09_greek_mediterranean"),
+        mod09,
         build_module_10_east_asia_chinese(),
         build_module_11_korean_japanese(),
         build_module_12_celtic_norse_europe(),
         build_module_13_americas_polynesia(),
+        build_module_14_archaeogenetics_dna(),
     ]
 
     all_nodes, all_edges = [], []
@@ -834,8 +994,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Complete Global Edition (Phase 8)",
-            "version": "8.0.0",
+            "title": "Ancient World Genealogy Atlas — Global + Archaeogenetics + World Map Edition (Phase 9)",
+            "version": "9.0.0",
             "modules": module_summaries,
             "linkTypes": LINK_TYPES,
         },

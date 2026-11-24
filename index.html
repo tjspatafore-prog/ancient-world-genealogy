@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ancient World Genealogy Atlas — Interactive Comparative Explorer</title>
-  <meta name="description" content="Exhaustive interactive ancient genealogy tree uniting Biblical, Book of Jasher, Book of Jubilees, 1 Enoch, Egyptian, Mesopotamian, Iranian/Zoroastrian, Arabian, Vedic/Puranic Indian, Chinese, Korean, Japanese, and Eurasian Steppe lineages." />
+  <title>Ancient World Genealogy Atlas — Complete Global &amp; Archaeogenetics Explorer</title>
+  <meta name="description" content="Complete global ancient genealogy atlas uniting 706 individuals & lineages across Biblical, Jasher, Jubilees, 1 Enoch, Egypt, Kush/Ethiopia, Africa, Greece/Rome, Celtic/Norse, Mesopotamia, Iran/Zoroastrian, Vedic India, China, Korea, Japan, Americas, Polynesia, and Y-DNA/mtDNA Archaeogenetics." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :root {
@@ -21,6 +21,9 @@
       --accent: #1e293b;
       --link: #38bdf8;
       --warning: #fbbf24;
+      --map-ocean: #081222;
+      --map-land: #1a2740;
+      --map-land-stroke: #33486b;
     }
     :root.light {
       --background: #faf8f5;
@@ -36,6 +39,9 @@
       --accent: #f1ece3;
       --link: #0369a1;
       --warning: #d97706;
+      --map-ocean: #e7f1f8;
+      --map-land: #e8e1d3;
+      --map-land-stroke: #c4b8a3;
     }
     * { box-sizing: border-box; }
     html, body { height: 100%; margin: 0; padding: 0; overflow: hidden; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
@@ -45,6 +51,10 @@
     .expand-pill:hover rect { filter: brightness(1.2); }
     .edge-path { fill: none; transition: opacity 0.18s ease, stroke-width 0.18s ease; cursor: pointer; }
     .edge-path:hover { stroke-width: 3.5px !important; opacity: 1 !important; }
+    .map-pin { cursor: pointer; transition: transform 0.15s ease; }
+    .map-pin:hover circle.pin-dot { r: 7.5; }
+    .map-arc { fill: none; cursor: pointer; transition: opacity 0.2s ease, stroke-width 0.2s ease; }
+    .map-arc:hover { stroke-width: 3.5px !important; opacity: 1 !important; }
     .thin-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
     .thin-scroll::-webkit-scrollbar-track { background: transparent; }
     .thin-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 9999px; }
@@ -62,22 +72,24 @@
           <h1 class="text-sm font-semibold leading-tight">Ancient World Genealogy Atlas</h1>
           <span id="versionBadge" class="text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono">Loading…</span>
         </div>
-        <p class="text-[11px] text-[var(--muted-foreground)]">Complete Global Atlas • Near East • Africa • Egypt • Greece/Rome • Europe/Norse • Mesopotamia • Iran • India • China/Korea/Japan • Americas • Polynesia</p>
+        <p class="text-[11px] text-[var(--muted-foreground)]">Complete Global Atlas • 14 Modules • Textual Lineages • World Migration Map • Deep Timeline • Y-DNA &amp; mtDNA Overlay</p>
       </div>
     </div>
 
-    <!-- Search & Quick Views -->
+    <!-- Search & View Switchers -->
     <div class="flex flex-wrap items-center gap-2">
-      <input id="searchInput" type="text" placeholder="Search person, Egyptian name, Jasher 7, Manu..."
-        class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] w-64 focus:outline-none focus:ring-1 focus:ring-[var(--primary)]" />
+      <input id="searchInput" type="text" placeholder="Search person, DNA, Jasher, Manu, Maui..."
+        class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] w-60 focus:outline-none focus:ring-1 focus:ring-[var(--primary)]" />
 
-      <!-- View Switcher -->
+      <!-- 4-Way Primary View Switcher -->
       <div class="flex items-center gap-0.5 border border-[var(--border)] rounded-md p-0.5 bg-[var(--background)]">
-        <button onclick="setMainView('tree')" id="view-tree" class="text-xs px-2.5 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]">Tree Map</button>
-        <button onclick="setMainView('directory')" id="view-directory" class="text-xs px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]">People Directory</button>
+        <button onclick="setMainView('tree')" id="view-tree" class="view-tab text-xs px-2.5 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]">Tree Map</button>
+        <button onclick="setMainView('map')" id="view-map" class="view-tab text-xs px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]">World Map</button>
+        <button onclick="setMainView('timeline')" id="view-timeline" class="view-tab text-xs px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]">Timeline</button>
+        <button onclick="setMainView('directory')" id="view-directory" class="view-tab text-xs px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]">Directory</button>
       </div>
 
-      <!-- Density / Expand Toggle -->
+      <!-- Density Toggle (Tree View) -->
       <div class="flex items-center gap-0.5 border border-[var(--border)] rounded-md p-0.5 bg-[var(--background)]">
         <button onclick="setExpandMode('landmarks')" id="mode-landmarks" class="text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]">Landmarks</button>
         <button onclick="setExpandMode('all')" id="mode-all" class="text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]">Expand All</button>
@@ -97,24 +109,21 @@
     <span class="text-[var(--muted-foreground)] font-medium shrink-0 mr-1">Spotlights:</span>
     <button onclick="applyPreset('all')" id="preset-all" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Full World Atlas</button>
     <button onclick="applyPreset('strict')" id="preset-strict" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Strict Textual + Cognates</button>
-    <button onclick="focusSubtree('bib_abraham')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Abraham's Full Tree (All 8 Sons)</button>
-    <button onclick="focusSubtree('bib_noah')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Noah &amp; Table of Nations (Jasher 7/10)</button>
-    <button onclick="focusSubtree('bib_jacob')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Jacob &amp; 12 Tribes (Gen 46)</button>
-    <button onclick="focusSubtree('bib_esau')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Esau → Edom → Zepho/Rome</button>
+    <button onclick="applyPreset('dna')" id="preset-dna" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Archaeogenetics (Y-DNA &amp; mtDNA)</button>
+    <button onclick="focusSubtree('bib_abraham')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Abraham's Full Tree</button>
+    <button onclick="focusSubtree('bib_noah')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Noah &amp; Table of Nations</button>
+    <button onclick="focusSubtree('bib_jacob')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Jacob &amp; 12 Tribes</button>
     <button onclick="focusSubtree('bib_moses')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Moses, Egypt &amp; Cush</button>
-    <button onclick="focusSubtree('bib_enoch')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Enoch, Thoth &amp; Watchers</button>
-    <button onclick="applyPreset('egypt')" id="preset-egypt" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Egypt (Ennead → Ramesses)</button>
-    <button onclick="applyPreset('africa')" id="preset-africa" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Africa &amp; Ethiopia (Kush → Sheba → Oduduwa)</button>
-    <button onclick="applyPreset('greek')" id="preset-greek" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Greece &amp; Rome (Titans → Hellen → Troy)</button>
-    <button onclick="applyPreset('europe')" id="preset-europe" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Celtic, Norse &amp; Europe (Odin → Scota → Brutus)</button>
-    <button onclick="applyPreset('americas')" id="preset-americas" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Americas &amp; Polynesia (Maya → Inca → Kumulipo)</button>
-    <button onclick="applyPreset('mesopotamia')" id="preset-mesopotamia" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Mesopotamia (Sumer → Akkad)</button>
-    <button onclick="applyPreset('iranian')" id="preset-iranian" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Iran &amp; Zoroaster (Shahnameh → Cyrus)</button>
-    <button onclick="applyPreset('india')" id="preset-india" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Vedic India (Manu → Rama → Krishna → Ashoka)</button>
-    <button onclick="applyPreset('indo_iran')" id="preset-indo_iran" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Near East ↔ Iran ↔ India</button>
-    <button onclick="applyPreset('china')" id="preset-china" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">China (Fuxi → Huangdi → Qin/Confucius)</button>
-    <button onclick="applyPreset('korea_japan')" id="preset-korea_japan" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Korea &amp; Japan (Dangun → Amaterasu → Jimmu)</button>
-    <button onclick="applyPreset('east_asia')" id="preset-east_asia" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">China ↔ Steppe ↔ Japheth</button>
+    <button onclick="applyPreset('egypt')" id="preset-egypt" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Egypt</button>
+    <button onclick="applyPreset('africa')" id="preset-africa" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Africa &amp; Ethiopia</button>
+    <button onclick="applyPreset('greek')" id="preset-greek" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Greece &amp; Rome</button>
+    <button onclick="applyPreset('europe')" id="preset-europe" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Celtic &amp; Norse</button>
+    <button onclick="applyPreset('mesopotamia')" id="preset-mesopotamia" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Mesopotamia</button>
+    <button onclick="applyPreset('iranian')" id="preset-iranian" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Iran &amp; Zoroaster</button>
+    <button onclick="applyPreset('india')" id="preset-india" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Vedic India</button>
+    <button onclick="applyPreset('china')" id="preset-china" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">China &amp; Steppe</button>
+    <button onclick="applyPreset('korea_japan')" id="preset-korea_japan" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Korea &amp; Japan</button>
+    <button onclick="applyPreset('americas')" id="preset-americas" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Americas &amp; Polynesia</button>
   </div>
 
   <!-- Main Workspace -->
@@ -123,7 +132,7 @@
     <!-- Left Sidebar -->
     <aside class="w-64 shrink-0 border-r border-[var(--border)] bg-[var(--sidebar)] flex flex-col overflow-y-auto thin-scroll p-3 space-y-4">
 
-      <!-- Active Focus Banner (hidden unless in Focus Subtree mode) -->
+      <!-- Active Focus Banner -->
       <div id="focusBanner" class="hidden rounded-lg border border-[var(--primary)] bg-[var(--card)] p-2.5 space-y-1.5">
         <div class="text-[11px] uppercase tracking-wide font-semibold text-[var(--primary)]">Focus Family Tree</div>
         <div id="focusTitle" class="text-xs font-bold"></div>
@@ -162,15 +171,15 @@
       <div id="statsBox" class="text-xs text-[var(--muted-foreground)] pt-2 border-t border-[var(--border)] px-1"></div>
     </aside>
 
-    <!-- Center Panel: SVG Tree OR People Directory -->
+    <!-- Center Panel: 4 Switchable Views -->
     <main class="flex-1 relative bg-[var(--background)] overflow-hidden" id="canvasWrap">
       <!-- Hover Tooltip -->
       <div id="edgeTooltip" class="pointer-events-none hidden absolute z-30 max-w-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--card)] text-xs shadow-lg"></div>
 
-      <!-- Tree SVG -->
+      <!-- 1. TREE SVG VIEW -->
       <div id="treeContainer" class="w-full h-full relative">
         <div class="absolute bottom-3 left-3 z-10 flex items-center gap-2 px-3 py-1.5 rounded-full border border-[var(--border)] bg-[var(--card)]/90 backdrop-blur text-xs text-[var(--muted-foreground)] shadow-sm">
-          <span>Drag to pan • Scroll to zoom • Click <strong class="text-[var(--foreground)]">+N</strong> badges to unfold children • Click any person for details</span>
+          <span>Drag to pan • Scroll to zoom • Click <strong class="text-[var(--foreground)]">+N</strong> badges to unfold children • Click any node for dossier</span>
         </div>
         <svg id="treeSvg" class="w-full h-full cursor-grab active:cursor-grabbing">
           <defs>
@@ -179,6 +188,9 @@
             </marker>
             <marker id="arrow-cognate" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
               <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
+            </marker>
+            <marker id="arrow-genetic" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#2dd4bf" />
             </marker>
             <marker id="arrow-active" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
               <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b" />
@@ -192,21 +204,94 @@
         </svg>
       </div>
 
-      <!-- Directory View -->
+      <!-- 2. INTERACTIVE WORLD MAP VIEW -->
+      <div id="mapContainer" class="hidden w-full h-full relative flex flex-col">
+        <div class="shrink-0 px-4 py-2 border-b border-[var(--border)] bg-[var(--card)] flex flex-wrap items-center justify-between gap-2 text-xs">
+          <div class="flex items-center gap-3">
+            <span class="font-semibold">Global Geographic &amp; Migration Map</span>
+            <label class="flex items-center gap-1.5 cursor-pointer"><input type="checkbox" id="mapShowDna" checked onchange="renderWorldMap()" class="accent-[var(--primary)]" /> <span style="color:#2dd4bf">Y-DNA / mtDNA Migrations</span></label>
+            <label class="flex items-center gap-1.5 cursor-pointer"><input type="checkbox" id="mapShowCognate" checked onchange="renderWorldMap()" class="accent-[var(--primary)]" /> <span style="color:#10b981">Historical &amp; Linguistic Bridges</span></label>
+            <label class="flex items-center gap-1.5 cursor-pointer"><input type="checkbox" id="mapShowSyncretic" checked onchange="renderWorldMap()" class="accent-[var(--primary)]" /> <span style="color:#f59e0b">Ancient Chronicler Bridges</span></label>
+          </div>
+          <span class="text-[var(--muted-foreground)]">Click any civilization pin to inspect lineages &amp; jump to its Family Tree</span>
+        </div>
+        <div class="flex-1 relative overflow-hidden" style="background:var(--map-ocean)">
+          <svg id="worldMapSvg" viewBox="0 0 1200 600" class="w-full h-full">
+            <defs>
+              <marker id="map-arr-dna" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 1 L10 5 L0 9 z" fill="#2dd4bf" /></marker>
+              <marker id="map-arr-cog" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 1 L10 5 L0 9 z" fill="#10b981" /></marker>
+              <marker id="map-arr-syn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 1 L10 5 L0 9 z" fill="#f59e0b" /></marker>
+            </defs>
+            <!-- Subtle Graticule -->
+            <g opacity="0.16" stroke="var(--muted-foreground)" stroke-width="0.6" stroke-dasharray="3,6">
+              <line x1="0" y1="300" x2="1200" y2="300" />
+              <line x1="0" y1="150" x2="1200" y2="150" />
+              <line x1="0" y1="450" x2="1200" y2="450" />
+              <line x1="600" y1="0" x2="600" y2="600" />
+              <line x1="300" y1="0" x2="300" y2="600" />
+              <line x1="900" y1="0" x2="900" y2="600" />
+            </g>
+            <!-- Stylized World Continents (Equirectangular 1200x600: x=(lon+180)/360*1200, y=(90-lat)/180*600) -->
+            <g id="mapContinents" fill="var(--map-land)" stroke="var(--map-land-stroke)" stroke-width="1.2">
+              <!-- North America -->
+              <path d="M 65 82 L 125 68 L 210 72 L 295 85 L 345 125 L 365 162 L 325 198 L 292 225 L 260 250 L 245 275 L 218 258 L 195 225 L 165 182 L 120 148 L 80 120 Z" />
+              <!-- Greenland -->
+              <path d="M 380 42 L 455 36 L 478 72 L 435 102 L 390 88 Z" />
+              <!-- South America -->
+              <path d="M 272 282 L 330 278 L 395 318 L 418 358 L 390 422 L 352 485 L 328 532 L 308 518 L 296 442 L 285 375 L 266 325 Z" />
+              <!-- Europe -->
+              <path d="M 552 148 L 575 112 L 620 82 L 685 75 L 725 96 L 722 145 L 682 168 L 650 172 L 615 170 L 585 164 L 560 165 Z" />
+              <!-- Britain & Ireland -->
+              <path d="M 552 115 L 568 110 L 574 134 L 555 138 Z" />
+              <!-- Africa -->
+              <path d="M 552 190 L 620 184 L 688 198 L 724 235 L 758 265 L 748 315 L 720 370 L 690 432 L 655 442 L 625 398 L 612 340 L 562 308 L 538 262 Z" />
+              <!-- Madagascar -->
+              <path d="M 744 378 L 758 375 L 754 416 L 740 412 Z" />
+              <!-- Arabia & Middle East -->
+              <path d="M 702 186 L 758 182 L 792 225 L 775 262 L 732 252 L 712 220 Z" />
+              <!-- Asia -->
+              <path d="M 718 82 L 840 65 L 985 68 L 1110 86 L 1138 118 L 1065 152 L 1020 185 L 995 232 L 950 265 L 912 258 L 882 288 L 845 270 L 822 238 L 785 215 L 745 182 L 718 145 Z" />
+              <!-- India Peninsula -->
+              <path d="M 832 215 L 880 218 L 866 286 L 846 284 Z" />
+              <!-- Japan -->
+              <path d="M 1045 165 L 1068 152 L 1075 182 L 1052 198 Z" />
+              <!-- Maritime SE Asia / Indonesia -->
+              <path d="M 942 292 L 988 308 L 1042 318 L 1020 332 L 955 316 Z" />
+              <!-- Australia -->
+              <path d="M 978 362 L 1055 352 L 1098 386 L 1085 442 L 1025 445 L 972 418 Z" />
+              <!-- New Zealand (Aotearoa) -->
+              <path d="M 1142 440 L 1164 422 L 1170 455 L 1146 472 Z" />
+            </g>
+            <g id="mapArcs"></g>
+            <g id="mapPins"></g>
+          </svg>
+        </div>
+      </div>
+
+      <!-- 3. DEEP-TIME CHRONOLOGICAL TIMELINE VIEW -->
+      <div id="timelineContainer" class="hidden w-full h-full flex flex-col overflow-hidden">
+        <div class="shrink-0 px-4 py-2.5 border-b border-[var(--border)] bg-[var(--card)] flex items-center justify-between text-xs">
+          <span class="font-semibold">Deep-Time Comparative Timeline (300,000 BCE → 1500 CE)</span>
+          <span class="text-[var(--muted-foreground)]">Grouped by archaeogenetic, mythic &amp; historical horizons • Click any card to inspect or open Family Tree</span>
+        </div>
+        <div id="timelineBody" class="flex-1 overflow-y-auto thin-scroll p-4 space-y-5"></div>
+      </div>
+
+      <!-- 4. PEOPLE DIRECTORY VIEW -->
       <div id="directoryContainer" class="hidden w-full h-full flex flex-col overflow-hidden">
         <div class="shrink-0 px-4 py-2.5 border-b border-[var(--border)] bg-[var(--card)] flex items-center justify-between text-xs">
           <span id="dirCount" class="font-medium">Showing all individuals</span>
-          <span class="text-[var(--muted-foreground)]">Click any row to inspect &amp; jump to tree • Use top search bar or left tradition filters to narrow</span>
+          <span class="text-[var(--muted-foreground)]">Click any row to inspect • Use top search bar or left filters to narrow</span>
         </div>
         <div class="flex-1 overflow-y-auto thin-scroll">
           <table class="w-full text-left border-collapse text-xs">
             <thead class="sticky top-0 bg-[var(--sidebar)] border-b border-[var(--border)] text-[var(--muted-foreground)]">
               <tr>
-                <th class="py-2 px-3 font-semibold">Person / Lineage</th>
-                <th class="py-2 px-3 font-semibold">Alt / Egyptian Names</th>
+                <th class="py-2 px-3 font-semibold">Person / Lineage / Haplogroup</th>
+                <th class="py-2 px-3 font-semibold">Alt / Egyptian / Cognate Names</th>
                 <th class="py-2 px-3 font-semibold">Tradition</th>
                 <th class="py-2 px-3 font-semibold">Era / Horizon</th>
-                <th class="py-2 px-3 font-semibold">Sources</th>
+                <th class="py-2 px-3 font-semibold">Primary Sources</th>
                 <th class="py-2 px-3 font-semibold text-right">Actions</th>
               </tr>
             </thead>
@@ -226,32 +311,112 @@
 <script>
 const LINK_META = {
   direct:    { label: "Direct Textual Lineage",         color: "#64748b", dash: "",         width: 1.7 },
-  expansion: { label: "Extra-Biblical / Jasher / Chronicle", color: "#0ea5e9", dash: "6,3", width: 1.8 },
+  expansion: { label: "Extra-Biblical / Chronicle",     color: "#0ea5e9", dash: "6,3",      width: 1.8 },
   cognate:   { label: "Historical / Linguistic Cognate", color: "#10b981", dash: "",         width: 2.7 },
   parallel:  { label: "Archetypal / Structural Parallel", color: "#818cf8", dash: "3,4",     width: 1.6 },
-  syncretic: { label: "Cross-Cultural / Egyptian / Chronicler", color: "#f59e0b", dash: "8,3,2,3", width: 2.1 }
+  syncretic: { label: "Cross-Cultural / Chronicler",    color: "#f59e0b", dash: "8,3,2,3",  width: 2.1 },
+  genetic:   { label: "Archaeogenetics (Y-DNA / mtDNA)",color: "#2dd4bf", dash: "4,2",      width: 2.4 }
 };
 
 const TIER_NAMES = {
-  0: "Global Comparative Archetypes",
-  1: "Primordial Creation & First Couples",
-  2: "Early Antediluvian Generations (Seth, Cain, Enosh, Kenan)",
-  3: "Watchers, Enoch (7th), Enmeduranki, Thoth & Indo-Iranian Vivanghant/Vivasvan",
-  4: "Great Flood / Cataclysm Bottleneck (Noah, Ziusudra, Manu, Yima, Yu)",
-  5: "Post-Flood World Division (Shem, Ham, Japheth, Fereydun, Yayati)",
-  6: "Table of Nations — Gen 2 (Cush, Mizraim, Canaan, Elam, Madai, Javan, Gomer, etc.)",
-  7: "Table of Nations — Gen 3 (All Gen 10 & Jasher 7 Grandchildren, Nimrod, Eber)",
-  8: "Post-Flood Gen 4–9 (Togarmah's 10, Peleg -> Terah, Joktan, Medes, Akkad)",
-  9: "Patriarchal Horizon (Terah, Abraham, Nahor II, Haran, 13 Sons of Joktan)",
-  10: "Abraham's 8 Sons (Isaac, Ishmael, Keturah's 6) + Lot & Nahor's 12",
-  11: "Esau, Jacob, 12 Princes of Ishmael & Keturah's Grandchildren (Jasher 25)",
-  12: "12 Tribes of Israel, Esau's 5 Sons, Imhotep & Adnanite Arabs",
-  13: "Genesis 46 Grandchildren (70 Souls), Eliphaz's Sons (Zepho, Amalek), Kohath",
-  14: "Amram, Perez -> Boaz/Jesse, Zepho -> Janeus (Italy)",
-  15: "Moses (Osarseph / Musaeus / King of Cush), Aaron & King David",
-  16: "King Solomon, Gershom & Eliezer",
-  17: "Menelik I (Solomonic Dynasty of Ethiopia)"
+  0: "Deep Human DNA Roots & Comparative Archetypes (300k–150k BCE)",
+  1: "Primordial Creation, Out-of-Africa (~70k BCE) & First Couples",
+  2: "Early Antediluvian Generations & Primordial Deities",
+  3: "Watchers, Enoch (7th), Enmeduranki, Thoth, Vivanghant/Vivasvan & Y-DNA E",
+  4: "Great Flood / Cataclysm Bottleneck (Noah, Ziusudra, Manu, Yima, Yu, Deucalion, Tata/Nene)",
+  5: "Post-Flood World Division (Shem/Ham/Japheth, Fereydun, Yayati, Hellen, Mannus, Steppe R1a/R1b)",
+  6: "Bronze Age Ethnogenesis & Early Kingdoms (Narmer, Uruk, Cush, Mizraim, Canaan, Madai, Javan, Shang/Zhou)",
+  7: "Table of Nations Gen 3, Gilgamesh, Enmebaragesi, Djoser/Imhotep, Troy, Cadmus, Bharata/Kuru",
+  8: "Ur III, Akkad (Sargon), Khufu, Togarmah's 10, Rama, Qin, Oghuz Khagan",
+  9: "Patriarchal Horizon (Terah, Abraham, Nahor II, Haran, 13 Sons of Joktan, Krishna, Pandavas, Confucius)",
+  10: "Abraham's 8 Sons, Hammurabi, Cyrus, Zarathustra, Buddha, Heracles, Aeneas, Manco Cápac, Kupe",
+  11: "Esau, Jacob, Ishmael's 12, Keturah's Grandsons, Xerxes I, Carthage (Dido), Snorri's Troy->Odin",
+  12: "12 Tribes of Israel, Hyksos, Romulus & Remus, Brutus of Troy, Milesians, Tenochtitlan",
+  13: "Genesis 46 (70 Souls), Ahmose I, Alexander the Great, Chandragupta Maurya & Ashoka",
+  14: "Hatshepsut, Thutmose III, Alara of Kush, Julius Caesar, Pachacuti (Inca)",
+  15: "Moses (Osarseph/King of Cush), Akhenaten, Ramesses II, King David, Piye, King Arthur",
+  16: "King Solomon, Queen Makeda (Sheba), Merneptah (Israel Stele), Shoshenq I, Taharqa, Sundiata",
+  17: "Menelik I (Ethiopia), Kandakes (Candace), Ezra/Zerubbabel, Cleopatra VII, Ezana, Lalibela"
 };
+
+// Geographic Civilization & DNA Migration Pins for World Map (lat, lon -> equirectangular 1200x600)
+const MAP_PINS = [
+  { id:"pin_east_africa", label:"East Africa (DNA Roots)", lat:1, lon:36, nodeId:"dna_ooa_l3_ct", trad:"dna", desc:"Mitochondrial Eve (~180 kya), Y-Adam & Out-of-Africa L3/CT dispersal (~70 kya) + Kintu & Gikuyu" },
+  { id:"pin_west_africa", label:"Ile-Ife / Mali / Hausa", lat:9, lon:4, nodeId:"af_oduduwa", trad:"african", desc:"Yoruba Oduduwa, Benin Eweka I, Hausa Bayajidda, Mali Sundiata & Y-DNA E1b1a" },
+  { id:"pin_maghreb", label:"Carthage & Amazigh", lat:36, lon:10, nodeId:"af_mazigh", trad:"african", desc:"Amazigh (Mazigh / Meshwesh), Queen Dihya, Phoenician Queen Dido's Carthage & Y-DNA E-M81" },
+  { id:"pin_egypt", label:"Memphis & Thebes (Egypt)", lat:29, lon:31, nodeId:"eg_menes", trad:"levant_egypt", desc:"Ennead, Ptah (Naphtuhim), Thoth/Saurid, Narmer, Khufu, Imhotep, Akhenaten, Ramesses II, Merneptah" },
+  { id:"pin_kush", label:"Napata & Meroe (Kush)", lat:18, lon:33, nodeId:"af_taharqa", trad:"african", desc:"25th Dynasty Black Pharaohs (Piye, Taharqa = Tirhakah), Meroitic Kandakes (Amanitore = Candace)" },
+  { id:"pin_ethiopia", label:"Aksum (Ethiopia)", lat:14, lon:39, nodeId:"eth_menelik", trad:"african", desc:"Ityopis, Queen Makeda (Sheba), Menelik I (Kebra Nagast), Ezana, Lalibela, Haile Selassie" },
+  { id:"pin_levant", label:"Jerusalem / Canaan / Tyre", lat:32, lon:35, nodeId:"bib_abraham", trad:"biblical", desc:"Abraham, Isaac, Jacob (12 Tribes), Moses, David, Solomon, Phoenician Sidon/Tyre & Y-DNA J1/J2" },
+  { id:"pin_arabia", label:"Arabia / Sheba (Saba)", lat:18, lon:45, nodeId:"bib_ishmael", trad:"arabian", desc:"Ishmael's 12 Princes (Adnan/Quraysh), Joktan/Qahtan's 13 Sons (Sheba, Hazarmaveth, Uzal)" },
+  { id:"pin_meso", label:"Ur, Uruk & Babylon", lat:32, lon:45, nodeId:"mes_uruk_gilgamesh", trad:"mesopotamian", desc:"Eridu, Sumerian King List (Enmeduranki, Ziusudra), Gilgamesh (Uruk), Sargon (Akkad), Ur III, Hammurabi" },
+  { id:"pin_iran", label:"Persepolis / Iran / Media", lat:31, lon:53, nodeId:"ir_cyrus", trad:"iranian", desc:"Gayomart, Vivanghant/Yima, Fereydun, Zarathustra, Shahnameh (Rostam), Medes (Madai), Cyrus the Great" },
+  { id:"pin_steppe_west", label:"Pontic Steppe (Yamnaya / R1a-R1b)", lat:48, lon:42, nodeId:"dna_r1a", trad:"dna", desc:"Bronze Age Steppe Yamnaya/Sintashta pastoralists carrying R1b (West Europe) & R1a (Iran/India/Slavs)" },
+  { id:"pin_greece", label:"Athens, Troy & Crete", lat:38, lon:24, nodeId:"grk_hellen", trad:"greek", desc:"Deucalion, Hellen/Ion (= Javan), Minos (Crete/Caphtorim), Cadmus, Heracles, Troy, Alexander the Great" },
+  { id:"pin_rome", label:"Rome & Etruria", lat:42, lon:12, nodeId:"grk_romulus_remus", trad:"greek", desc:"Aeneas, Romulus & Remus, Julius Caesar, Tyrrhenus (Etruscans) & Jasher's Zepho/Janeus of Kittim" },
+  { id:"pin_ireland", label:"Ireland & Britain", lat:53, lon:-6, nodeId:"eur_scota_goidel", trad:"europe_norse", desc:"Lebor Gabála Érenn (Scota & Milesians), Tuatha Dé Danann, Brutus of Troy -> King Arthur & Y-DNA R1b" },
+  { id:"pin_norse", label:"Scandinavia (Asgard / Edda)", lat:60, lon:16, nodeId:"eur_odin_ask_embla", trad:"europe_norse", desc:"Odin, Thor, Týr (= Zeus/Dyaus), Snorri's Troy->Odin chronicle, Tacitus's Mannus (= Manu), Y-DNA I1" },
+  { id:"pin_india", label:"Ayodhya & Kurukshetra (India)", lat:26, lon:81, nodeId:"ved_vaivasvata_manu", trad:"vedic", desc:"Vaivasvata Manu, Surya Vamsha (Rama & Buddha), Chandra Vamsha (Yayati, Krishna, Pandavas), Emperor Ashoka" },
+  { id:"pin_steppe_east", label:"Mongolian Steppe (Xiongnu / Oghuz)", lat:46, lon:102, nodeId:"stp_oghuz", trad:"steppe", desc:"Chunwei (Xia) -> Modu Chanyu (Xiongnu), Oghuz Khagan (24 Tribes), Rashid al-Din Japheth bridge" },
+  { id:"pin_china", label:"Yellow River (Xia / Shang / Zhou)", lat:35, lon:113, nodeId:"chn_huangdi", trad:"chinese", desc:"Fuxi & Nüwa, Yandi & Huangdi, Yu the Great (Xia), Shang (Wu Ding, Confucius), Zhou, Qin Shi Huang, Y-DNA O2" },
+  { id:"pin_korea", label:"Korea (Gojoseon / Gaya / Baekje)", lat:36, lon:127, nodeId:"jk_dangun", trad:"japan_korea", desc:"Dangun, Jizi/Gija, Jumong, Onjo (Baekje), King Suro + Queen Heo Hwang-ok of Ayodhya (India!)" },
+  { id:"pin_japan", label:"Yamato / Kyushu (Japan)", lat:35, lon:137, nodeId:"jk_jimmu", trad:"japan_korea", desc:"Izanagi & Izanami, Amaterasu, Susanoo, Ninigi, Emperor Jimmu, Prince Shotoku, Jōmon D1a2 + Yayoi O1b2" },
+  { id:"pin_taiwan", label:"Taiwan (Austronesian Hub)", lat:23, lon:121, nodeId:"dna_o1_austronesian", trad:"dna", desc:"Austronesian Y-DNA O1a & mtDNA B4a1a1 launchpad -> Lapita -> Polynesia" },
+  { id:"pin_beringia", label:"Beringia (Siberia → Americas)", lat:64, lon:-166, nodeId:"dna_q_americas", trad:"dna", desc:"Ice-Age Beringian corridor (~20-15 kya) carrying Y-DNA Q-M3 & mtDNA A2/B2/C1/D1 into the Americas" },
+  { id:"pin_na", label:"Turtle Island (Haudenosaunee / Diné)", lat:42, lon:-78, nodeId:"amp_na_skywoman", trad:"americas_pacific", desc:"Sky Woman, Great Peacemaker & Hiawatha, Diné First Man/Changing Woman, Lakota Seven Council Fires" },
+  { id:"pin_mesoam", label:"Maya & Tenochtitlan (Mesoamerica)", lat:19, lon:-96, nodeId:"amp_maya_four_men", trad:"americas_pacific", desc:"Popol Vuh (Hero Twins, Four Maize Ancestors), Aztec Five Suns (Quetzalcoatl, Tata & Nene Flood, Moctezuma)" },
+  { id:"pin_andes", label:"Cusco & Titicaca (Inca)", lat:-14, lon:-72, nodeId:"amp_inca_manco", trad:"americas_pacific", desc:"Viracocha (Uno Pachacuti Flood), Manco Cápac & Mama Ocllo, Pachacuti (Machu Picchu)" },
+  { id:"pin_hawaii", label:"Hawaiʻi (Kumulipo)", lat:20, lon:-156, nodeId:"amp_poly_kumulipo", trad:"americas_pacific", desc:"2,102-line Kumulipo: Wākea & Papahānaumoku -> Hāloa -> King Kamehameha I" },
+  { id:"pin_tonga", label:"Tonga & Hawaiki (Polynesia)", lat:-20, lon:-174, nodeId:"amp_poly_maui", trad:"americas_pacific", desc:"Pan-Polynesian Māui, Tuʻi Tonga Maritime Empire (ʻAhoʻeitu) & Polynesian Triangle voyaging" },
+  { id:"pin_nz", label:"Aotearoa (New Zealand)", lat:-39, lon:175, nodeId:"amp_poly_rangi_papa", trad:"americas_pacific", desc:"Ranginui & Papatūānuku, Tāne & Hine-ahu-one, Kupe & Great Fleet Waka whakapapa" },
+  { id:"pin_rapanui", label:"Rapa Nui (Easter Island)", lat:-27, lon:-109, nodeId:"amp_poly_kupe_tonga", trad:"americas_pacific", desc:"Ariki Hotu Matuʻa's voyage & pre-Columbian DNA link to Andean South America (~1200 CE)" }
+];
+
+const MAP_ARCS = [
+  // DNA Migration Arcs
+  { from:"pin_east_africa", to:"pin_west_africa", type:"genetic", label:"Y-DNA E1b1a Niger-Congo & Bantu expansion across Africa" },
+  { from:"pin_east_africa", to:"pin_egypt", type:"genetic", label:"Y-DNA E1b1b Afro-Asiatic corridor (Horn of Africa -> Nile -> Maghreb)" },
+  { from:"pin_egypt", to:"pin_maghreb", type:"genetic", label:"Y-DNA E-M81 ancestral Amazigh/Berber North African corridor" },
+  { from:"pin_east_africa", to:"pin_arabia", type:"genetic", label:"Out-of-Africa mtDNA L3 & Y-DNA CT dispersal (~70 kya)" },
+  { from:"pin_arabia", to:"pin_meso", type:"genetic", label:"Y-DNA J1/J2 Fertile Crescent & Semitic expansion" },
+  { from:"pin_meso", to:"pin_steppe_west", type:"genetic", label:"Eurasian K -> P -> R Steppe ancestral divergence" },
+  { from:"pin_steppe_west", to:"pin_ireland", type:"genetic", label:"Yamnaya / Bell Beaker Y-DNA R1b expansion to Western Europe & Ireland (~2400 BCE)" },
+  { from:"pin_steppe_west", to:"pin_norse", type:"genetic", label:"Steppe Corded Ware + Indigenous I1 forming Norse/Germanic Europe" },
+  { from:"pin_steppe_west", to:"pin_iran", type:"genetic", label:"Sintashta Y-DNA R1a-Z93 southward into Iran (~2000 BCE)" },
+  { from:"pin_iran", to:"pin_india", type:"genetic", label:"R1a-Z93 Indo-Aryan arrival blending with Indus Harappan H/L (~1900-1500 BCE)" },
+  { from:"pin_india", to:"pin_china", type:"genetic", label:"Early Eurasian southern/northern route -> Yellow River Y-DNA O2" },
+  { from:"pin_china", to:"pin_taiwan", type:"genetic", label:"Out-of-Taiwan Austronesian Y-DNA O1a + mtDNA B4a1a1 launchpad" },
+  { from:"pin_taiwan", to:"pin_tonga", type:"genetic", label:"Lapita maritime voyaging -> Tonga & Samoa (~1000 BCE)" },
+  { from:"pin_tonga", to:"pin_hawaii", type:"genetic", label:"Polynesian expansion north to Hawaiʻi (~1000 CE)" },
+  { from:"pin_tonga", to:"pin_nz", type:"genetic", label:"Polynesian voyaging south to Aotearoa / New Zealand (~1250 CE)" },
+  { from:"pin_tonga", to:"pin_rapanui", type:"genetic", label:"Polynesian voyaging east to Rapa Nui / Easter Island" },
+  { from:"pin_rapanui", to:"pin_andes", type:"genetic", label:"Confirmed pre-Columbian Polynesian-South American DNA contact (~1200 CE, Nature 2020)" },
+  { from:"pin_steppe_east", to:"pin_beringia", type:"genetic", label:"Y-DNA Q-M242 -> Q-M3 & mtDNA A2/B2/C1/D1 across Siberia -> Beringia (~20 kya)" },
+  { from:"pin_beringia", to:"pin_na", type:"genetic", label:"Peopling of North America (~16-14 kya)" },
+  { from:"pin_na", to:"pin_mesoam", type:"genetic", label:"Rapid expansion into Mesoamerica (Maya & Aztec ancestors)" },
+  { from:"pin_mesoam", to:"pin_andes", type:"genetic", label:"Expansion into Andean South America by ~14,500 BCE" },
+
+  // Historical / Cognate Textual Bridges
+  { from:"pin_levant", to:"pin_egypt", type:"cognate", label:"Merneptah Israel Stele (1208 BCE), Shoshenq I/Shishak, Joseph & Moses horizon" },
+  { from:"pin_egypt", to:"pin_kush", type:"cognate", label:"25th Kushite Dynasty (Piye & Taharqa = Biblical Tirhakah)" },
+  { from:"pin_levant", to:"pin_ethiopia", type:"cognate", label:"Queen of Sheba (Makeda) & King Solomon -> Menelik I (Kebra Nagast)" },
+  { from:"pin_levant", to:"pin_greece", type:"cognate", label:"Biblical Javan = Ionians; Cadmus of Tyre brings Phoenician alphabet to Greece" },
+  { from:"pin_levant", to:"pin_maghreb", type:"cognate", label:"Phoenician Queen Dido (Elissa of Tyre) founds Carthage (814 BCE)" },
+  { from:"pin_greece", to:"pin_rome", type:"cognate", label:"Trojan Prince Aeneas -> Alba Longa -> Romulus & Remus -> Julius Caesar" },
+  { from:"pin_meso", to:"pin_levant", type:"cognate", label:"Ur III (Ur of the Chaldees) -> Terah & Abraham; Gen 10 Erech/Accad/Asshur" },
+  { from:"pin_iran", to:"pin_india", type:"cognate", label:"EXACT Proto-Indo-Iranian cognates: Vivanghant=Vivasvan, Yima=Yama, Athwya=Aptya" },
+  { from:"pin_greece", to:"pin_india", type:"cognate", label:"Zeus = Dyaus Pitr; Alexander -> Chandragupta Seleucid treaty; Ashoka Rock Edict XIII -> Ptolemy II" },
+  { from:"pin_china", to:"pin_korea", type:"cognate", label:"Shang prince Jizi (Gija) -> Gojoseon; Han/Confucian transmission" },
+  { from:"pin_korea", to:"pin_japan", type:"cognate", label:"Baekje Korea transmits script, Analects & Buddhism to Yamato Japan (Emperor Ojin/Shotoku)" },
+  { from:"pin_china", to:"pin_steppe_east", type:"cognate", label:"Sima Qian Shiji Ch. 110: Xiongnu descend from Chunwei of the Xia Dynasty" },
+
+  // Ancient Chronicler / Syncretic Bridges
+  { from:"pin_egypt", to:"pin_ireland", type:"syncretic", label:"Lebor Gabála Érenn: Pharaoh's daughter Scota -> Gaels & Scots via Spain" },
+  { from:"pin_greece", to:"pin_norse", type:"syncretic", label:"Snorri's Prose Edda Prologue: Priam of Troy -> Thor -> Odin -> Scandinavia" },
+  { from:"pin_rome", to:"pin_ireland", type:"syncretic", label:"Historia Brittonum: Aeneas -> Brutus of Troy -> Britain & King Arthur" },
+  { from:"pin_levant", to:"pin_steppe_east", type:"syncretic", label:"Rashid al-Din & Book of Jasher 10:10: Japheth/Togarmah (Tarki) -> Oghuz Khagan" },
+  { from:"pin_india", to:"pin_korea", type:"syncretic", label:"Samguk Yusa: Queen Heo Hwang-ok sails from Ayuta (Ayodhya, India) to marry King Suro of Gaya" }
+];
 
 // Runtime State
 let DATA = null;
@@ -259,24 +424,23 @@ let NODES = [];
 let EDGES = [];
 let TRADITIONS = {};
 let nodesById = {};
-let childrenMap = {};   // parent -> [childIds] (direct/expansion)
-let parentsMap = {};    // child -> [parentIds] (direct/expansion)
-let allAdjMap = {};     // id -> [{other, edge, idx, isOut}]
+let childrenMap = {};
+let parentsMap = {};
+let allAdjMap = {};
 
 let activeLinkTypes = new Set(Object.keys(LINK_META));
 let activeTraditions = new Set();
-let expandedParents = new Set(); // parents explicitly unfolded in landmarks mode
-let expandMode = "landmarks";    // 'landmarks' | 'all'
-let mainView = "tree";           // 'tree' | 'directory'
-let focusRootId = null;          // null or nodeId
+let expandedParents = new Set();
+let expandMode = "landmarks";
+let mainView = "tree";
+let focusRootId = null;
 let selectedNodeId = "bib_abraham";
 let searchQuery = "";
 let activePreset = "all";
 let activePathNodes = new Set();
 let activePathEdges = new Set();
 
-// Layout & Pan/Zoom
-let layoutPos = {}; // id -> {x, y}
+let layoutPos = {};
 let panX = 40, panY = 30, scale = 0.65;
 let isPanning = false, startX = 0, startY = 0;
 
@@ -284,6 +448,7 @@ function toggleTheme() {
   const isLight = document.documentElement.classList.toggle("light");
   document.getElementById("themeBtn").textContent = isLight ? "Dark" : "Light";
   render();
+  if (mainView === "map") renderWorldMap();
 }
 
 async function boot() {
@@ -301,13 +466,13 @@ async function boot() {
     EDGES.forEach((e, idx) => {
       allAdjMap[e.from].push({ other: e.to, edge: e, idx, isOut: true });
       allAdjMap[e.to].push({ other: e.from, edge: e, idx, isOut: false });
-      if (e.type === "direct" || e.type === "expansion") {
+      if (e.type === "direct" || e.type === "expansion" || e.type === "genetic") {
         if (!childrenMap[e.from].includes(e.to)) childrenMap[e.from].push(e.to);
         if (!parentsMap[e.to].includes(e.from)) parentsMap[e.to].push(e.from);
       }
     });
 
-    document.getElementById("versionBadge").textContent = `${NODES.length} People • ${EDGES.length} Links`;
+    document.getElementById("versionBadge").textContent = `${NODES.length} Nodes • ${EDGES.length} Links`;
     initUI();
   } catch (err) {
     document.getElementById("inspector").innerHTML = `<div class="text-xs text-red-400">Failed to load data/world_genealogy.json: ${err.message}</div>`;
@@ -315,7 +480,6 @@ async function boot() {
 }
 
 function initUI() {
-  // Pathfinder selects
   const sorted = [...NODES].filter(n => n.tradition !== "archetype").sort((a, b) => a.name.localeCompare(b.name));
   const selFrom = document.getElementById("pathFrom");
   const selTo = document.getElementById("pathTo");
@@ -329,7 +493,6 @@ function initUI() {
   selFrom.value = "bib_moses";
   selTo.value = "ved_bharata_kuru";
 
-  // Link filters
   const lf = document.getElementById("linkTypeFilters");
   Object.entries(LINK_META).forEach(([k, m]) => {
     const row = document.createElement("label");
@@ -347,7 +510,6 @@ function initUI() {
     lf.appendChild(row);
   });
 
-  // Tradition filters
   const tf = document.getElementById("traditionFilters");
   Object.entries(TRADITIONS).forEach(([k, t]) => {
     const count = NODES.filter(n => n.tradition === k).length;
@@ -361,18 +523,20 @@ function initUI() {
     row.querySelector("input").addEventListener("change", (e) => {
       if (e.target.checked) activeTraditions.add(k); else activeTraditions.delete(k);
       render();
+      if (mainView === "timeline") renderTimeline();
+      if (mainView === "directory") renderDirectory();
+      if (mainView === "map") renderWorldMap();
     });
     tf.appendChild(row);
   });
 
-  // Search
   document.getElementById("searchInput").addEventListener("input", (e) => {
     searchQuery = e.target.value.trim().toLowerCase();
     render();
     if (mainView === "directory") renderDirectory();
+    if (mainView === "timeline") renderTimeline();
   });
 
-  // Pan & Zoom
   const svg = document.getElementById("treeSvg");
   svg.addEventListener("mousedown", (e) => {
     if (e.target.closest(".node-card") || e.target.closest(".expand-pill")) return;
@@ -393,7 +557,7 @@ function initUI() {
     const mx = e.clientX - rect.left;
     const my = e.clientY - rect.top;
     const factor = e.deltaY < 0 ? 1.13 : 0.88;
-    const nextScale = Math.max(0.12, Math.min(2.4, scale * factor));
+    const nextScale = Math.max(0.1, Math.min(2.4, scale * factor));
     panX = mx - (mx - panX) * (nextScale / scale);
     panY = my - (my - panY) * (nextScale / scale);
     scale = nextScale;
@@ -407,11 +571,14 @@ function initUI() {
 
 function setMainView(v) {
   mainView = v;
-  document.getElementById("treeContainer").classList.toggle("hidden", v !== "tree");
-  document.getElementById("directoryContainer").classList.toggle("hidden", v !== "directory");
-  document.getElementById("view-tree").className = `text-xs px-2.5 py-1 rounded font-medium ${v === "tree" ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
-  document.getElementById("view-directory").className = `text-xs px-2.5 py-1 rounded font-medium ${v === "directory" ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
+  ["tree", "map", "timeline", "directory"].forEach(k => {
+    document.getElementById(`${k}Container`).classList.toggle("hidden", v !== k);
+    const btn = document.getElementById(`view-${k}`);
+    btn.className = `view-tab text-xs px-2.5 py-1 rounded font-medium ${v === k ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
+  });
   if (v === "directory") renderDirectory();
+  else if (v === "map") renderWorldMap();
+  else if (v === "timeline") renderTimeline();
   else { render(); setTimeout(fitView, 30); }
 }
 
@@ -452,27 +619,20 @@ function exitFocus() {
 
 function getFocusNodeSet(rootId) {
   const keep = new Set([rootId]);
-  // Walk UP all ancestors (direct/expansion)
   const upQ = [rootId];
   while (upQ.length) {
     const c = upQ.shift();
-    (parentsMap[c] || []).forEach(p => {
-      if (!keep.has(p)) { keep.add(p); upQ.push(p); }
-    });
+    (parentsMap[c] || []).forEach(p => { if (!keep.has(p)) { keep.add(p); upQ.push(p); } });
   }
-  // Walk DOWN all descendants (direct/expansion)
   const downQ = [rootId];
   while (downQ.length) {
     const c = downQ.shift();
-    (childrenMap[c] || []).forEach(ch => {
-      if (!keep.has(ch)) { keep.add(ch); downQ.push(ch); }
-    });
+    (childrenMap[c] || []).forEach(ch => { if (!keep.has(ch)) { keep.add(ch); downQ.push(ch); } });
   }
-  // Include 1-hop cross-tradition bridges (cognate/parallel/syncretic) touching anyone in the family
   const snapshot = [...keep];
   snapshot.forEach(nid => {
     (allAdjMap[nid] || []).forEach(({ other, edge }) => {
-      if (edge.type === "cognate" || edge.type === "syncretic" || (edge.type === "parallel" && nodesById[other].tradition !== "archetype")) {
+      if (edge.type === "cognate" || edge.type === "syncretic" || edge.type === "genetic" || (edge.type === "parallel" && nodesById[other].tradition !== "archetype")) {
         keep.add(other);
       }
     });
@@ -492,7 +652,6 @@ function getVisibleNodes() {
     if (activePathNodes.has(n.id)) return true;
     if (n.id === selectedNodeId) return true;
     if (searchQuery && matchesSearch(n)) return true;
-    // Show if any parent is explicitly expanded
     const pars = parentsMap[n.id] || [];
     return pars.some(p => expandedParents.has(p));
   });
@@ -504,7 +663,6 @@ function matchesSearch(n) {
   return hay.includes(searchQuery);
 }
 
-// Smart Non-Overlapping Layered Layout Engine
 function computeLayout(visNodes) {
   layoutPos = {};
   const byTier = {};
@@ -515,15 +673,11 @@ function computeLayout(visNodes) {
   });
 
   const sortedTiers = Object.keys(byTier).map(Number).sort((a, b) => a - b);
-  const CARD_W = 196;
-  const GAP_X = 28;
-  const ROW_H = 128;
+  const CARD_W = 196, GAP_X = 28, ROW_H = 128;
 
-  // Assign preliminary horizontal order by tradition, then parent barycenter for clean tree flow
   sortedTiers.forEach((tier, rowIdx) => {
     const list = byTier[tier];
     list.sort((a, b) => {
-      // Compute average parent X if parents already positioned
       const pa = (parentsMap[a.id] || []).filter(p => layoutPos[p]);
       const pb = (parentsMap[b.id] || []).filter(p => layoutPos[p]);
       const ta = TRADITIONS[a.tradition]?.order ?? 99;
@@ -563,7 +717,7 @@ function updateTransform() {
 function zoomBy(factor) {
   const wrap = document.getElementById("canvasWrap");
   const cx = wrap.clientWidth / 2, cy = wrap.clientHeight / 2;
-  const nextScale = Math.max(0.12, Math.min(2.4, scale * factor));
+  const nextScale = Math.max(0.1, Math.min(2.4, scale * factor));
   panX = cx - (cx - panX) * (nextScale / scale);
   panY = cy - (cy - panY) * (nextScale / scale);
   scale = nextScale;
@@ -582,7 +736,7 @@ function fitView() {
     minY = Math.min(minY, p.y - 40);  maxY = Math.max(maxY, p.y + 40);
   });
   const bw = (maxX - minX) + 100, bh = (maxY - minY) + 100;
-  scale = Math.max(0.14, Math.min(1.05, Math.min(w / bw, h / bh)));
+  scale = Math.max(0.12, Math.min(1.05, Math.min(w / bw, h / bh)));
   panX = (w - (maxX + minX) * scale) / 2;
   panY = (h - (maxY + minY) * scale) / 2;
   updateTransform();
@@ -608,86 +762,37 @@ function syncCheckboxes() {
   });
 }
 
+function setModeUI(mode) {
+  expandMode = mode;
+  document.getElementById("mode-landmarks").className = `text-xs px-2 py-1 rounded font-medium ${mode === "landmarks" ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
+  document.getElementById("mode-all").className = `text-xs px-2 py-1 rounded font-medium ${mode === "all" ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
+}
+
 function applyPreset(name) {
   focusRootId = null;
   document.getElementById("focusBanner").classList.add("hidden");
   activePreset = name;
   clearPath(false);
+  if (mainView !== "tree") setMainView("tree");
+
+  const singlePresets = {
+    dna: ["dna"], egypt: ["levant_egypt"], africa: ["african"], greek: ["greek"],
+    europe: ["europe_norse"], americas: ["americas_pacific"], mesopotamia: ["mesopotamian"],
+    iranian: ["iranian"], india: ["vedic"], china: ["chinese", "steppe"], korea_japan: ["japan_korea"]
+  };
+
   if (name === "all") {
     activeLinkTypes = new Set(Object.keys(LINK_META));
     activeTraditions = new Set(Object.keys(TRADITIONS));
-    expandMode = "landmarks";
-    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
-    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
+    setModeUI("landmarks");
   } else if (name === "strict") {
     activeLinkTypes = new Set(["direct", "expansion", "cognate"]);
-    activeTraditions = new Set(Object.keys(TRADITIONS).filter(k => k !== "archetype"));
-  } else if (name === "egypt") {
+    activeTraditions = new Set(Object.keys(TRADITIONS).filter(k => k !== "archetype" && k !== "dna"));
+    setModeUI("landmarks");
+  } else if (singlePresets[name]) {
     activeLinkTypes = new Set(Object.keys(LINK_META));
-    activeTraditions = new Set(["levant_egypt"]);
-    expandMode = "all";
-    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
-    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
-  } else if (name === "africa") {
-    activeLinkTypes = new Set(Object.keys(LINK_META));
-    activeTraditions = new Set(["african"]);
-    expandMode = "all";
-    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
-    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
-  } else if (name === "greek") {
-    activeLinkTypes = new Set(Object.keys(LINK_META));
-    activeTraditions = new Set(["greek"]);
-    expandMode = "all";
-    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
-    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
-  } else if (name === "europe") {
-    activeLinkTypes = new Set(Object.keys(LINK_META));
-    activeTraditions = new Set(["europe_norse"]);
-    expandMode = "all";
-    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
-    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
-  } else if (name === "americas") {
-    activeLinkTypes = new Set(Object.keys(LINK_META));
-    activeTraditions = new Set(["americas_pacific"]);
-    expandMode = "all";
-    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
-    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
-  } else if (name === "mesopotamia") {
-    activeLinkTypes = new Set(Object.keys(LINK_META));
-    activeTraditions = new Set(["mesopotamian"]);
-    expandMode = "all";
-    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
-    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
-  } else if (name === "iranian") {
-    activeLinkTypes = new Set(Object.keys(LINK_META));
-    activeTraditions = new Set(["iranian"]);
-    expandMode = "all";
-    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
-    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
-  } else if (name === "india") {
-    activeLinkTypes = new Set(Object.keys(LINK_META));
-    activeTraditions = new Set(["vedic"]);
-    expandMode = "all";
-    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
-    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
-  } else if (name === "indo_iran") {
-    activeLinkTypes = new Set(["direct", "expansion", "cognate", "parallel"]);
-    activeTraditions = new Set(["biblical", "mesopotamian", "iranian", "vedic", "arabian"]);
-  } else if (name === "china") {
-    activeLinkTypes = new Set(Object.keys(LINK_META));
-    activeTraditions = new Set(["chinese", "steppe"]);
-    expandMode = "all";
-    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
-    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
-  } else if (name === "korea_japan") {
-    activeLinkTypes = new Set(Object.keys(LINK_META));
-    activeTraditions = new Set(["japan_korea"]);
-    expandMode = "all";
-    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
-    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
-  } else if (name === "east_asia") {
-    activeLinkTypes = new Set(["direct", "expansion", "cognate", "syncretic", "parallel"]);
-    activeTraditions = new Set(["biblical", "iranian", "steppe", "chinese", "japan_korea"]);
+    activeTraditions = new Set(singlePresets[name]);
+    setModeUI("all");
   }
   syncCheckboxes();
   render();
@@ -699,6 +804,9 @@ function toggleAllTraditions() {
   else activeTraditions = new Set(Object.keys(TRADITIONS));
   syncCheckboxes();
   render();
+  if (mainView === "timeline") renderTimeline();
+  if (mainView === "directory") renderDirectory();
+  if (mainView === "map") renderWorldMap();
 }
 
 function runPathfinder() {
@@ -734,7 +842,7 @@ function runPathfinder() {
   box.classList.remove("hidden");
 
   if (!found) {
-    box.innerHTML = `<span class="text-[var(--warning)] font-medium">No path under active link tiers.</span> Try enabling <em>Archetypal Parallel</em> or <em>Cross-Cultural</em> links.`;
+    box.innerHTML = `<span class="text-[var(--warning)] font-medium">No path under active link tiers.</span> Try enabling <em>Archaeogenetics</em>, <em>Archetypal Parallel</em>, or <em>Cross-Cultural</em> links.`;
     render();
     return;
   }
@@ -769,6 +877,7 @@ function clearPath(doRender = true) {
 }
 
 function jumpToNode(id) {
+  if (!nodesById[id]) return;
   activeTraditions.add(nodesById[id].tradition);
   (parentsMap[id] || []).forEach(p => expandedParents.add(p));
   syncCheckboxes();
@@ -779,7 +888,7 @@ function jumpToNode(id) {
 
 function selectNode(id) {
   selectedNodeId = id;
-  render();
+  if (mainView === "tree") render();
   renderInspector(id);
 }
 
@@ -806,18 +915,17 @@ function renderInspector(id) {
           </span>
           <span class="text-[11px] font-mono text-[var(--muted-foreground)]">Tier ${n.tier}</span>
         </div>
-        <h2 class="text-base font-bold leading-snug">${n.name}</h2>
-        ${n.altNames && n.altNames.length ? `<p class="text-xs text-[var(--muted-foreground)] mt-1">Also known as: <span class="text-[var(--foreground)]">${n.altNames.join(" • ")}</span></p>` : ""}
+        <h2 class="text-base font-bold leading-snug">${escapeHtml(n.name)}</h2>
+        ${n.altNames && n.altNames.length ? `<p class="text-xs text-[var(--muted-foreground)] mt-1">Also known as: <span class="text-[var(--foreground)]">${escapeHtml(n.altNames.join(" • "))}</span></p>` : ""}
       </div>
 
-      <!-- Action Buttons -->
       <div class="grid grid-cols-2 gap-1.5">
         <button onclick="focusSubtree('${n.id}')" class="col-span-2 text-xs py-1.5 px-2.5 rounded-md bg-[var(--primary)] text-[var(--primary-foreground)] font-semibold hover:opacity-90">
-          Focus Family Tree (${childCount} direct/text children)
+          Focus Family Tree (${childCount} direct/text/DNA branches)
         </button>
-        ${childCount > 0 && !focusRootId && expandMode === "landmarks" ? `
+        ${childCount > 0 && !focusRootId && expandMode === "landmarks" && mainView === "tree" ? `
           <button onclick="toggleExpandParent('${n.id}')" class="col-span-2 text-xs py-1 px-2 rounded border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">
-            ${isExpanded ? "Collapse" : "Unfold"} ${childCount} Children on Atlas
+            ${isExpanded ? "Collapse" : "Unfold"} ${childCount} Branches on Atlas
           </button>` : ""}
         <button onclick="setPathEndpoint('from','${n.id}')" class="text-[11px] py-1 px-2 rounded border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">Set Pathfinder Start</button>
         <button onclick="setPathEndpoint('to','${n.id}')" class="text-[11px] py-1 px-2 rounded border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">Set Pathfinder End</button>
@@ -826,24 +934,24 @@ function renderInspector(id) {
       <div class="grid grid-cols-2 gap-2 text-xs">
         <div class="p-2 rounded-md bg-[var(--background)] border border-[var(--card-border)]">
           <div class="text-[var(--muted-foreground)] text-[11px]">Horizon / Era</div>
-          <div class="font-medium mt-0.5">${n.era}</div>
+          <div class="font-medium mt-0.5">${escapeHtml(n.era)}</div>
         </div>
         <div class="p-2 rounded-md bg-[var(--background)] border border-[var(--card-border)]">
           <div class="text-[var(--muted-foreground)] text-[11px]">Role</div>
-          <div class="font-medium mt-0.5">${n.role}</div>
+          <div class="font-medium mt-0.5">${escapeHtml(n.role)}</div>
         </div>
       </div>
 
       <div>
-        <h3 class="text-[11px] font-semibold uppercase tracking-wide text-[var(--muted-foreground)] mb-1.5">Primary &amp; Ancient Texts</h3>
+        <h3 class="text-[11px] font-semibold uppercase tracking-wide text-[var(--muted-foreground)] mb-1.5">Primary Texts / Studies</h3>
         <div class="flex flex-wrap gap-1.5">
-          ${(n.sources || []).map(s => `<span class="text-[11px] px-2 py-0.5 rounded bg-[var(--background)] border border-[var(--border)]">${s}</span>`).join("")}
+          ${(n.sources || []).map(s => `<span class="text-[11px] px-2 py-0.5 rounded bg-[var(--background)] border border-[var(--border)]">${escapeHtml(s)}</span>`).join("")}
         </div>
       </div>
 
       <div>
         <h3 class="text-[11px] font-semibold uppercase tracking-wide text-[var(--muted-foreground)] mb-1">Genealogical &amp; Cross-Cultural Notes</h3>
-        <p class="text-xs leading-relaxed text-[var(--foreground)]">${n.notes}</p>
+        <p class="text-xs leading-relaxed text-[var(--foreground)]">${escapeHtml(n.notes)}</p>
       </div>
 
       <div>
@@ -855,10 +963,10 @@ function renderInspector(id) {
             return `
               <button onclick="jumpToNode('${on.id}')" class="w-full text-left p-2 rounded-md border border-[var(--card-border)] bg-[var(--background)] hover:border-[var(--primary)] transition">
                 <div class="flex items-center justify-between gap-2 text-xs">
-                  <span class="font-semibold truncate">${isOut ? "→" : "←"} ${on.name}</span>
+                  <span class="font-semibold truncate">${isOut ? "→" : "←"} ${escapeHtml(on.name)}</span>
                   <span class="shrink-0 text-[10px] font-medium px-1.5 py-0.5 rounded" style="color:${lm.color}; border:1px solid ${lm.color}44">${edge.type}</span>
                 </div>
-                <div class="text-[11px] text-[var(--muted-foreground)] mt-0.5">${edge.label}</div>
+                <div class="text-[11px] text-[var(--muted-foreground)] mt-0.5">${escapeHtml(edge.label)}</div>
               </button>`;
           }).join("")}
         </div>
@@ -866,10 +974,137 @@ function renderInspector(id) {
     </div>`;
 }
 
+// ---------------- WORLD MAP RENDERER ----------------
+function projectGeo(lat, lon) {
+  return { x: ((lon + 180) / 360) * 1200, y: ((90 - lat) / 180) * 600 };
+}
+
+function renderWorldMap() {
+  const pinsById = Object.fromEntries(MAP_PINS.map(p => [p.id, { ...p, ...projectGeo(p.lat, p.lon) }]));
+  const showDna = document.getElementById("mapShowDna").checked;
+  const showCog = document.getElementById("mapShowCognate").checked;
+  const showSyn = document.getElementById("mapShowSyncretic").checked;
+  const tooltip = document.getElementById("edgeTooltip");
+
+  const arcsG = document.getElementById("mapArcs");
+  arcsG.innerHTML = "";
+  MAP_ARCS.forEach(arc => {
+    if (arc.type === "genetic" && !showDna) return;
+    if (arc.type === "cognate" && !showCog) return;
+    if (arc.type === "syncretic" && !showSyn) return;
+    const a = pinsById[arc.from], b = pinsById[arc.to];
+    if (!a || !b) return;
+    const dx = b.x - a.x, dy = b.y - a.y;
+    const dist = Math.hypot(dx, dy);
+    const mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2 - Math.min(70, dist * 0.22);
+    const lm = LINK_META[arc.type];
+    const marker = arc.type === "genetic" ? "url(#map-arr-dna)" : (arc.type === "cognate" ? "url(#map-arr-cog)" : "url(#map-arr-syn)");
+
+    const el = document.createElementNS("http://www.w3.org/2000/svg", "path");
+    el.setAttribute("d", `M ${a.x} ${a.y} Q ${mx} ${my} ${b.x} ${b.y}`);
+    el.setAttribute("class", "map-arc");
+    el.setAttribute("stroke", lm.color);
+    el.setAttribute("stroke-width", arc.type === "genetic" ? "2.1" : "1.8");
+    if (lm.dash) el.setAttribute("stroke-dasharray", lm.dash);
+    el.setAttribute("opacity", "0.78");
+    el.setAttribute("marker-end", marker);
+
+    el.addEventListener("mousemove", (ev) => {
+      const rect = document.getElementById("canvasWrap").getBoundingClientRect();
+      tooltip.style.left = (ev.clientX - rect.left + 14) + "px";
+      tooltip.style.top = (ev.clientY - rect.top + 14) + "px";
+      tooltip.innerHTML = `<div class="font-semibold" style="color:${lm.color}">${lm.label}</div><div class="font-medium mt-0.5">${escapeHtml(a.label)} → ${escapeHtml(b.label)}</div><div class="text-[var(--muted-foreground)] mt-0.5">${escapeHtml(arc.label)}</div>`;
+      tooltip.classList.remove("hidden");
+    });
+    el.addEventListener("mouseleave", () => tooltip.classList.add("hidden"));
+    arcsG.appendChild(el);
+  });
+
+  const pinsG = document.getElementById("mapPins");
+  pinsG.innerHTML = "";
+  MAP_PINS.forEach(raw => {
+    const p = pinsById[raw.id];
+    const trad = TRADITIONS[p.trad] || { color: "#f59e0b", label: p.trad };
+    const visible = activeTraditions.has(p.trad);
+    const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
+    g.setAttribute("class", "map-pin");
+    g.setAttribute("transform", `translate(${p.x}, ${p.y})`);
+    g.setAttribute("opacity", visible ? "1" : "0.22");
+
+    g.innerHTML = `
+      <circle r="11" fill="${trad.color}" opacity="0.22" />
+      <circle class="pin-dot" r="5.5" fill="${trad.color}" stroke="var(--card)" stroke-width="1.6" />
+      <text x="9" y="3.5" fill="var(--foreground)" font-size="10.2" font-weight="650" style="paint-order:stroke;stroke:var(--map-ocean);stroke-width:3px">${escapeXml(p.label)}</text>
+    `;
+    g.addEventListener("mousemove", (ev) => {
+      const rect = document.getElementById("canvasWrap").getBoundingClientRect();
+      tooltip.style.left = (ev.clientX - rect.left + 14) + "px";
+      tooltip.style.top = (ev.clientY - rect.top + 14) + "px";
+      tooltip.innerHTML = `<div class="font-semibold" style="color:${trad.color}">${escapeHtml(p.label)}</div><div class="text-[var(--muted-foreground)] mt-0.5">${escapeHtml(p.desc)}</div><div class="text-[10px] text-[var(--link)] mt-1">Click to inspect • Double-click to open Family Tree</div>`;
+      tooltip.classList.remove("hidden");
+    });
+    g.addEventListener("mouseleave", () => tooltip.classList.add("hidden"));
+    g.addEventListener("click", () => { if (nodesById[p.nodeId]) selectNode(p.nodeId); });
+    g.addEventListener("dblclick", () => { if (nodesById[p.nodeId]) focusSubtree(p.nodeId); });
+    pinsG.appendChild(g);
+  });
+}
+
+// ---------------- DEEP-TIME TIMELINE RENDERER ----------------
+const TIMELINE_EPOCHS = [
+  { title: "Epoch 1 • Deep Human Archaeogenetics (300,000 – 12,000 BCE)", desc: "Scientific Y-DNA & mtDNA roots in Africa, Out-of-Africa dispersal (~70 kya), Steppe, Austronesian & Beringian migrations", filter: n => n.tradition === "dna" },
+  { title: "Epoch 2 • Primordial Creation & Antediluvian Sages (Tiers 1–3)", desc: "First human couples, Sumerian 10 Antediluvian Kings, Enoch & Enmeduranki, Watchers, Egyptian Ennead, Vedic Saptarishis & Indo-Iranian Vivanghant/Vivasvan", filter: n => n.tradition !== "dna" && n.tradition !== "archetype" && n.tier >= 1 && n.tier <= 3 && n.major },
+  { title: "Epoch 3 • Great Flood & Cataclysm Horizons (Tier 4)", desc: "Noah, Ziusudra/Utnapishtim, Vaivasvata Manu, Yima/Jamshid (Vara), Yu the Great, Deucalion & Pyrrha, Aztec Tata & Nene, Bergelmir", filter: n => n.tradition !== "dna" && n.tier === 4 && n.major },
+  { title: "Epoch 4 • Post-Flood Tables of Nations & Early Bronze Age (c. 3100–2000 BCE • Tiers 5–7)", desc: "Shem/Ham/Japheth, Fereydun (Salm/Tur/Iraj), Yayati's 5 Sons, Hellen (Ion=Javan), Mannus, Narmer/Menes, Gilgamesh, Khufu, Shang & Xia", filter: n => n.tradition !== "dna" && n.tradition !== "archetype" && n.tier >= 5 && n.tier <= 7 && n.major },
+  { title: "Epoch 5 • Patriarchal, Heroic & Late Bronze Age (c. 2000–1000 BCE • Tiers 8–11)", desc: "Abraham's 8 Sons, Sargon of Akkad, Ur III, Hammurabi, Rama, Krishna & Pandavas, Zarathustra, Trojan War (Priam/Aeneas), Emperor Jimmu, Qin/Confucius", filter: n => n.tradition !== "dna" && n.tier >= 8 && n.tier <= 11 && n.major },
+  { title: "Epoch 6 • Iron Age, Axial Age & Classical Empires (c. 1200–300 BCE • Tiers 12–15)", desc: "Moses, Ramesses II, Merneptah (Israel Stele), King David, Cyrus the Great, Gautama Buddha, Alexander the Great, Chandragupta & Emperor Ashoka, Romulus & Remus, Brutus of Troy", filter: n => n.tradition !== "dna" && n.tier >= 12 && n.tier <= 15 && n.major },
+  { title: "Epoch 7 • Classical, Aksumite, Imperial & Pacific Voyaging Eras (300 BCE – 1500 CE • Tiers 16–17)", desc: "Solomon & Queen Makeda -> Menelik I, Taharqa (Tirhakah), Kandakes (Candace), Cleopatra VII, Aksum (Ezana/Lalibela), Mali (Sundiata), Inca (Pachacuti), Aztec (Tenochtitlan) & Polynesian Triangle", filter: n => n.tradition !== "dna" && n.tier >= 16 && n.major }
+];
+
+function renderTimeline() {
+  const body = document.getElementById("timelineBody");
+  body.innerHTML = TIMELINE_EPOCHS.map(ep => {
+    const items = NODES.filter(n => activeTraditions.has(n.tradition) && matchesSearch(n) && ep.filter(n))
+      .sort((a, b) => (TRADITIONS[a.tradition]?.order ?? 99) - (TRADITIONS[b.tradition]?.order ?? 99));
+    if (!items.length) return "";
+    return `
+      <section class="rounded-lg border border-[var(--border)] bg-[var(--card)] p-3.5 space-y-2.5">
+        <div class="flex flex-wrap items-baseline justify-between gap-2 border-b border-[var(--card-border)] pb-2">
+          <div>
+            <h2 class="text-sm font-bold">${escapeHtml(ep.title)}</h2>
+            <p class="text-xs text-[var(--muted-foreground)]">${escapeHtml(ep.desc)}</p>
+          </div>
+          <span class="text-xs font-mono text-[var(--muted-foreground)]">${items.length} landmarks</span>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+          ${items.map(n => {
+            const t = TRADITIONS[n.tradition];
+            return `
+              <div onclick="selectNode('${n.id}')" class="p-2.5 rounded-md border border-[var(--card-border)] bg-[var(--background)] hover:border-[var(--primary)] cursor-pointer transition flex flex-col justify-between gap-1.5">
+                <div>
+                  <div class="flex items-center justify-between gap-2 text-[11px] mb-1">
+                    <span class="inline-flex items-center gap-1.5 font-medium"><span class="w-2 h-2 rounded-full" style="background:${t.color}"></span>${escapeHtml(t.label.split(" ")[0])}</span>
+                    <span class="text-[var(--muted-foreground)] truncate max-w-[140px]">${escapeHtml(n.era)}</span>
+                  </div>
+                  <div class="text-xs font-semibold leading-snug">${escapeHtml(n.name)}</div>
+                  <div class="text-[11px] text-[var(--muted-foreground)] line-clamp-2 mt-0.5">${escapeHtml(n.role)}</div>
+                </div>
+                <div class="flex items-center gap-2 pt-1 border-t border-[var(--card-border)] text-[11px]">
+                  <button onclick="event.stopPropagation(); jumpToNode('${n.id}')" class="text-[var(--link)] hover:underline">Locate on Tree</button>
+                  <button onclick="event.stopPropagation(); focusSubtree('${n.id}')" class="text-[var(--primary)] hover:underline">Focus Family</button>
+                </div>
+              </div>`;
+          }).join("")}
+        </div>
+      </section>`;
+  }).join("") || `<div class="text-xs text-[var(--muted-foreground)] p-4">No timeline landmarks match your current search or tradition filters.</div>`;
+}
+
+// ---------------- DIRECTORY RENDERER ----------------
 function renderDirectory() {
   const filtered = NODES.filter(n => activeTraditions.has(n.tradition) && matchesSearch(n))
     .sort((a, b) => a.tier - b.tier || a.name.localeCompare(b.name));
-  document.getElementById("dirCount").textContent = `Showing ${filtered.length} of ${NODES.length} individuals`;
+  document.getElementById("dirCount").textContent = `Showing ${filtered.length} of ${NODES.length} individuals & haplogroups`;
   const tbody = document.getElementById("dirBody");
   tbody.innerHTML = filtered.map(n => {
     const t = TRADITIONS[n.tradition];
@@ -888,6 +1123,7 @@ function renderDirectory() {
   }).join("");
 }
 
+// ---------------- TREE SVG RENDERER ----------------
 function render() {
   if (!NODES.length) return;
   const visNodes = getVisibleNodes();
@@ -896,9 +1132,8 @@ function render() {
     .filter(({ e }) => activeLinkTypes.has(e.type) && visIds.has(e.from) && visIds.has(e.to));
 
   const sortedTiers = computeLayout(visNodes);
-  document.getElementById("statsBox").textContent = `Showing ${visNodes.length} of ${NODES.length} people • ${visEdges.length} visible links`;
+  document.getElementById("statsBox").textContent = `Showing ${visNodes.length} of ${NODES.length} nodes • ${visEdges.length} visible links`;
 
-  // Compute span for tier guide lines
   let minX = -600, maxX = 600;
   Object.values(layoutPos).forEach(p => { minX = Math.min(minX, p.x - 160); maxX = Math.max(maxX, p.x + 160); });
 
@@ -922,7 +1157,6 @@ function render() {
   const hasPath = activePathNodes.size > 0;
   const hasSearch = searchQuery.length > 0;
 
-  // Render Edges
   const edgesG = document.getElementById("edgesLayer");
   edgesG.innerHTML = "";
   const tooltip = document.getElementById("edgeTooltip");
@@ -947,16 +1181,9 @@ function render() {
       d = `M ${pa.x} ${y1} C ${pa.x} ${cy}, ${pb.x} ${cy}, ${pb.x} ${y2}`;
     }
 
-    let opacity = 0.62;
-    let width = lm.width;
-    let stroke = lm.color;
-    if (hasPath) {
-      opacity = inPath ? 1 : 0.1;
-      if (inPath) { width = 4; stroke = "#f59e0b"; }
-    } else if (selectedNodeId) {
-      opacity = touchesSel ? 1 : 0.25;
-      if (touchesSel) width = Math.max(width + 0.9, 2.8);
-    }
+    let opacity = 0.62, width = lm.width, stroke = lm.color;
+    if (hasPath) { opacity = inPath ? 1 : 0.1; if (inPath) { width = 4; stroke = "#f59e0b"; } }
+    else if (selectedNodeId) { opacity = touchesSel ? 1 : 0.25; if (touchesSel) width = Math.max(width + 0.9, 2.8); }
 
     const pathEl = document.createElementNS("http://www.w3.org/2000/svg", "path");
     pathEl.setAttribute("d", d);
@@ -967,6 +1194,7 @@ function render() {
     pathEl.setAttribute("opacity", opacity);
     if (inPath) pathEl.setAttribute("marker-end", "url(#arrow-active)");
     else if (e.type === "cognate") pathEl.setAttribute("marker-end", "url(#arrow-cognate)");
+    else if (e.type === "genetic") pathEl.setAttribute("marker-end", "url(#arrow-genetic)");
     else if (e.type === "direct") pathEl.setAttribute("marker-end", "url(#arrow-direct)");
 
     pathEl.addEventListener("mousemove", (ev) => {
@@ -980,7 +1208,6 @@ function render() {
     edgesG.appendChild(pathEl);
   });
 
-  // Render Nodes
   const nodesG = document.getElementById("nodesLayer");
   nodesG.innerHTML = "";
   visNodes.forEach(n => {
@@ -1004,7 +1231,6 @@ function render() {
     const strokeColor = inPath ? "#f59e0b" : (isSel ? "var(--primary)" : trad.color);
     const strokeW = (isSel || inPath) ? 2.8 : (n.major ? 1.6 : 1.1);
 
-    // Count hidden children for +N expand pill
     const allKids = childrenMap[n.id] || [];
     const hiddenKids = allKids.filter(cid => !visIds.has(cid)).length;
 
@@ -1015,14 +1241,8 @@ function render() {
       <text x="13" y="36" fill="var(--muted-foreground)" font-size="9.8">${escapeXml(truncate(n.era, 29))}</text>
     `;
 
-    g.addEventListener("click", (ev) => {
-      ev.stopPropagation();
-      selectNode(n.id);
-    });
-    g.addEventListener("dblclick", (ev) => {
-      ev.stopPropagation();
-      if (allKids.length) toggleExpandParent(n.id);
-    });
+    g.addEventListener("click", (ev) => { ev.stopPropagation(); selectNode(n.id); });
+    g.addEventListener("dblclick", (ev) => { ev.stopPropagation(); if (allKids.length) toggleExpandParent(n.id); });
 
     if (hiddenKids > 0 && !focusRootId) {
       const pill = document.createElementNS("http://www.w3.org/2000/svg", "g");
@@ -1032,10 +1252,7 @@ function render() {
         <rect width="30" height="17" rx="8.5" fill="var(--primary)" />
         <text x="15" y="12" text-anchor="middle" fill="var(--primary-foreground)" font-size="9.5" font-weight="700">+${hiddenKids}</text>
       `;
-      pill.addEventListener("click", (ev) => {
-        ev.stopPropagation();
-        toggleExpandParent(n.id);
-      });
+      pill.addEventListener("click", (ev) => { ev.stopPropagation(); toggleExpandParent(n.id); });
       g.appendChild(pill);
     }
 

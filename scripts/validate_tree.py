@@ -57,6 +57,22 @@ def main():
     for k, v in edge_counts.most_common():
         print(f"  - {k}: {v}")
 
+    # Verify index.html JS syntax & World Map pin nodeIds
+    import re, subprocess, tempfile
+    html_path = Path(__file__).resolve().parent.parent / "index.html"
+    if html_path.exists():
+        html = html_path.read_text(encoding="utf-8")
+        js = re.findall(r"<script>([\s\S]*?)</script>", html)[-1]
+        with tempfile.NamedTemporaryFile(suffix=".js", delete=False, mode="w", encoding="utf-8") as tmp:
+            tmp.write(js)
+            tmp_name = tmp.name
+        r = subprocess.run(["node", "--check", tmp_name], capture_output=True, text=True)
+        assert r.returncode == 0, f"JS syntax error: {r.stderr}"
+        pins = re.findall(r'nodeId:"([^"]+)"', js)
+        missing_pins = [p for p in pins if p not in nodes_by_id]
+        assert not missing_pins, f"Broken World Map pin nodeIds: {missing_pins}"
+        print(f"\nUI VERIFIED OK: JS syntax valid + all {len(pins)} World Map pins resolve cleanly")
+
     tests = [
         ("bib_moses", "eg_osarseph_bithiah", {"direct", "expansion", "cognate", "syncretic"}, "Moses -> Egyptian Osarseph / Musaeus / King of Cush"),
         ("bib_enoch", "eg_thoth_saurid", {"direct", "expansion", "cognate", "syncretic"}, "Enoch -> Egyptian Thoth / King Saurid"),
