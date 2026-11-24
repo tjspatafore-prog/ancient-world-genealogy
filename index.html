@@ -44,7 +44,8 @@
       --map-land-stroke: #c4b8a3;
     }
     * { box-sizing: border-box; }
-    html, body { height: 100%; margin: 0; padding: 0; overflow: hidden; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    html, body { height: 100%; height: 100dvh; margin: 0; padding: 0; overflow: hidden; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    #treeSvg, #worldMapSvg { touch-action: none; }
     .node-card { cursor: pointer; transition: opacity 0.18s ease, filter 0.15s ease; }
     .node-card:hover { filter: brightness(1.1); }
     .expand-pill { cursor: pointer; }
@@ -61,45 +62,47 @@
     svg text { user-select: none; }
   </style>
 </head>
-<body class="bg-[var(--background)] text-[var(--foreground)] antialiased flex flex-col h-screen">
+<body class="bg-[var(--background)] text-[var(--foreground)] antialiased flex flex-col h-[100dvh]">
 
   <!-- Top Header -->
-  <header class="shrink-0 border-b border-[var(--border)] bg-[var(--card)] px-4 py-2 flex flex-wrap items-center justify-between gap-2.5">
-    <div class="flex items-center gap-2.5">
-      <div class="w-8 h-8 rounded-lg bg-[var(--primary)] text-[var(--primary-foreground)] flex items-center justify-center font-bold text-sm shadow-sm">WG</div>
-      <div>
-        <div class="flex items-center gap-2">
-          <h1 class="text-sm font-semibold leading-tight">Ancient World Genealogy Atlas</h1>
-          <span id="versionBadge" class="text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono">Loading…</span>
+  <header class="shrink-0 border-b border-[var(--border)] bg-[var(--card)] px-2.5 sm:px-4 py-1.5 sm:py-2 flex flex-wrap items-center justify-between gap-2">
+    <div class="flex items-center gap-2 min-w-0">
+      <button onclick="toggleDrawer('left')" class="lg:hidden text-xs px-2 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)] font-medium shrink-0" title="Open Filters &amp; Pathfinder">☰ Filters</button>
+      <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-[var(--primary)] text-[var(--primary-foreground)] flex items-center justify-center font-bold text-xs sm:text-sm shadow-sm shrink-0">WG</div>
+      <div class="min-w-0">
+        <div class="flex items-center gap-1.5 sm:gap-2">
+          <h1 class="text-xs sm:text-sm font-semibold leading-tight truncate">Ancient World Genealogy Atlas</h1>
+          <span id="versionBadge" class="text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono shrink-0">Loading…</span>
         </div>
-        <p class="text-[11px] text-[var(--muted-foreground)]">Complete Global Atlas • 25 Modules • 31 Primary Sources • Living Abrahamic Lines to 2026 • World Map • Deep Timeline • Y-DNA</p>
+        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">Complete Global Atlas • 25 Modules • 31 Primary Sources • Living Abrahamic Lines to 2026 • World Map • Deep Timeline • Y-DNA</p>
       </div>
     </div>
 
     <!-- Search & View Switchers -->
-    <div class="flex flex-wrap items-center gap-2">
-      <input id="searchInput" type="text" placeholder="Search person, DNA, Jasher, Manu, Maui..."
-        class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] w-60 focus:outline-none focus:ring-1 focus:ring-[var(--primary)]" />
+    <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 w-full lg:w-auto">
+      <input id="searchInput" type="text" placeholder="Search 1,925+ people, DNA, Jasher..."
+        class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] flex-1 sm:flex-none sm:w-52 lg:w-60 min-w-[140px] focus:outline-none focus:ring-1 focus:ring-[var(--primary)]" />
 
       <!-- 4-Way Primary View Switcher -->
-      <div class="flex items-center gap-0.5 border border-[var(--border)] rounded-md p-0.5 bg-[var(--background)]">
-        <button onclick="setMainView('tree')" id="view-tree" class="view-tab text-xs px-2.5 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]">Tree Map</button>
-        <button onclick="setMainView('map')" id="view-map" class="view-tab text-xs px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]">World Map</button>
-        <button onclick="setMainView('timeline')" id="view-timeline" class="view-tab text-xs px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]">Timeline</button>
-        <button onclick="setMainView('directory')" id="view-directory" class="view-tab text-xs px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]">Directory</button>
+      <div class="flex items-center gap-0.5 border border-[var(--border)] rounded-md p-0.5 bg-[var(--background)] overflow-x-auto">
+        <button onclick="setMainView('tree')" id="view-tree" class="view-tab text-xs px-2 sm:px-2.5 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)] whitespace-nowrap">Tree</button>
+        <button onclick="setMainView('map')" id="view-map" class="view-tab text-xs px-2 sm:px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)] whitespace-nowrap">Map</button>
+        <button onclick="setMainView('timeline')" id="view-timeline" class="view-tab text-xs px-2 sm:px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)] whitespace-nowrap">Timeline</button>
+        <button onclick="setMainView('directory')" id="view-directory" class="view-tab text-xs px-2 sm:px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)] whitespace-nowrap">List</button>
       </div>
 
       <!-- Density Toggle (Tree View) -->
       <div class="flex items-center gap-0.5 border border-[var(--border)] rounded-md p-0.5 bg-[var(--background)]">
-        <button onclick="setExpandMode('landmarks')" id="mode-landmarks" class="text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]">Landmarks</button>
-        <button onclick="setExpandMode('all')" id="mode-all" class="text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]">Expand All</button>
+        <button onclick="setExpandMode('landmarks')" id="mode-landmarks" class="text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)] whitespace-nowrap">Landmarks</button>
+        <button onclick="setExpandMode('all')" id="mode-all" class="text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)] whitespace-nowrap">Expand All</button>
       </div>
 
       <div class="flex items-center gap-1">
-        <button onclick="zoomBy(1.2)" title="Zoom In" class="text-xs px-2 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">+</button>
-        <button onclick="zoomBy(0.83)" title="Zoom Out" class="text-xs px-2 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">−</button>
-        <button onclick="fitView()" title="Fit to Screen" class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">Fit</button>
-        <button onclick="toggleTheme()" id="themeBtn" title="Toggle Light/Dark Theme" class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">Light</button>
+        <button onclick="zoomActive(1.25)" title="Zoom In" class="text-xs px-2 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">+</button>
+        <button onclick="zoomActive(0.8)" title="Zoom Out" class="text-xs px-2 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">−</button>
+        <button onclick="fitActive()" title="Fit to Screen" class="text-xs px-2 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">Fit</button>
+        <button onclick="toggleTheme()" id="themeBtn" title="Toggle Light/Dark Theme" class="text-xs px-2 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">Light</button>
+        <button onclick="toggleDrawer('right')" class="lg:hidden text-xs px-2 py-1.5 rounded-md border border-[var(--primary)] bg-[var(--card)] text-[var(--primary)] font-medium" title="Inspect Selected Person">Dossier</button>
       </div>
     </div>
   </header>
@@ -128,10 +131,17 @@
   </div>
 
   <!-- Main Workspace -->
-  <div class="flex-1 flex min-h-0 overflow-hidden">
+  <div class="flex-1 flex min-h-0 overflow-hidden relative">
 
-    <!-- Left Sidebar -->
-    <aside class="w-64 shrink-0 border-r border-[var(--border)] bg-[var(--sidebar)] flex flex-col overflow-y-auto thin-scroll p-3 space-y-4">
+    <!-- Mobile Backdrop -->
+    <div id="drawerBackdrop" onclick="closeDrawers()" class="hidden fixed inset-0 bg-black/55 z-30 lg:hidden"></div>
+
+    <!-- Left Sidebar (Slide-over Drawer on Mobile, Fixed Column on Desktop) -->
+    <aside id="leftDrawer" class="fixed lg:static inset-y-0 left-0 z-40 w-72 lg:w-64 max-w-[85vw] shrink-0 border-r border-[var(--border)] bg-[var(--sidebar)] flex flex-col overflow-y-auto thin-scroll p-3 space-y-4 transform -translate-x-full lg:translate-x-0 transition-transform duration-200 shadow-2xl lg:shadow-none">
+      <div class="flex lg:hidden items-center justify-between pb-2 border-b border-[var(--border)]">
+        <span class="text-xs font-bold uppercase tracking-wide text-[var(--primary)]">Filters &amp; Pathfinder</span>
+        <button onclick="closeDrawers()" class="text-xs px-2 py-1 rounded border border-[var(--border)] bg-[var(--card)]">✕ Close</button>
+      </div>
 
       <!-- Active Focus Banner -->
       <div id="focusBanner" class="hidden rounded-lg border border-[var(--primary)] bg-[var(--card)] p-2.5 space-y-1.5">
@@ -179,8 +189,8 @@
 
       <!-- 1. TREE SVG VIEW -->
       <div id="treeContainer" class="w-full h-full relative">
-        <div class="absolute bottom-3 left-3 z-10 flex items-center gap-2 px-3 py-1.5 rounded-full border border-[var(--border)] bg-[var(--card)]/90 backdrop-blur text-xs text-[var(--muted-foreground)] shadow-sm">
-          <span>Drag to pan • Scroll to zoom • Click <strong class="text-[var(--foreground)]">+N</strong> badges to unfold children • Click any node for dossier</span>
+        <div class="absolute bottom-2.5 left-2.5 right-2.5 sm:right-auto z-10 flex items-center gap-2 px-2.5 sm:px-3 py-1.5 rounded-full border border-[var(--border)] bg-[var(--card)]/90 backdrop-blur text-[11px] sm:text-xs text-[var(--muted-foreground)] shadow-sm">
+          <span class="truncate">Drag to pan • Pinch/scroll to zoom • Tap <strong class="text-[var(--foreground)]">+N</strong> to unfold • Tap any card for dossier</span>
         </div>
         <svg id="treeSvg" class="w-full h-full cursor-grab active:cursor-grabbing">
           <defs>
@@ -217,12 +227,16 @@
           <span class="text-[var(--muted-foreground)]">Click any civilization pin to inspect lineages &amp; jump to its Family Tree</span>
         </div>
         <div class="flex-1 relative overflow-hidden" style="background:var(--map-ocean)">
-          <svg id="worldMapSvg" viewBox="0 0 1200 600" class="w-full h-full">
+          <div class="absolute bottom-2.5 left-2.5 z-10 px-2.5 py-1 rounded-full border border-[var(--border)] bg-[var(--card)]/90 backdrop-blur text-[11px] text-[var(--muted-foreground)] shadow-sm">
+            Drag to pan • Pinch/scroll or +/− to zoom • Tap any pin to inspect
+          </div>
+          <svg id="worldMapSvg" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid meet" class="w-full h-full cursor-grab active:cursor-grabbing">
             <defs>
               <marker id="map-arr-dna" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 1 L10 5 L0 9 z" fill="#2dd4bf" /></marker>
               <marker id="map-arr-cog" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 1 L10 5 L0 9 z" fill="#10b981" /></marker>
               <marker id="map-arr-syn" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 1 L10 5 L0 9 z" fill="#f59e0b" /></marker>
             </defs>
+            <g id="mapViewport">
             <!-- Subtle Graticule -->
             <g opacity="0.16" stroke="var(--muted-foreground)" stroke-width="0.6" stroke-dasharray="3,6">
               <line x1="0" y1="300" x2="1200" y2="300" />
@@ -265,6 +279,7 @@
             </g>
             <g id="mapArcs"></g>
             <g id="mapPins"></g>
+            </g>
           </svg>
         </div>
       </div>
@@ -302,9 +317,15 @@
       </div>
     </main>
 
-    <!-- Right Inspector Sidebar -->
-    <aside class="w-80 shrink-0 border-l border-[var(--border)] bg-[var(--card)] flex flex-col overflow-y-auto thin-scroll p-4" id="inspector">
-      <div class="text-xs text-[var(--muted-foreground)]">Loading genealogy database…</div>
+    <!-- Right Inspector Sidebar (Slide-over Drawer on Mobile, Fixed Column on Desktop) -->
+    <aside id="rightDrawer" class="fixed lg:static inset-y-0 right-0 z-40 w-[88vw] max-w-sm lg:w-80 shrink-0 border-l border-[var(--border)] bg-[var(--card)] flex flex-col overflow-y-auto thin-scroll p-4 transform translate-x-full lg:translate-x-0 transition-transform duration-200 shadow-2xl lg:shadow-none">
+      <div class="flex lg:hidden items-center justify-between pb-2.5 mb-2 border-b border-[var(--border)]">
+        <span class="text-xs font-bold uppercase tracking-wide text-[var(--primary)]">Individual Dossier</span>
+        <button onclick="closeDrawers()" class="text-xs px-2.5 py-1 rounded border border-[var(--border)] bg-[var(--background)]">✕ Close</button>
+      </div>
+      <div id="inspector">
+        <div class="text-xs text-[var(--muted-foreground)]">Loading genealogy database…</div>
+      </div>
     </aside>
 
   </div>
@@ -462,6 +483,56 @@ let activePathEdges = new Set();
 let layoutPos = {};
 let panX = 40, panY = 30, scale = 0.65;
 let isPanning = false, startX = 0, startY = 0;
+let mapPanX = 0, mapPanY = 0, mapScale = 1;
+let isMapPanning = false, mapStartX = 0, mapStartY = 0;
+
+function isMobileViewport() { return window.innerWidth < 1024; }
+function toggleDrawer(side) {
+  const left = document.getElementById("leftDrawer");
+  const right = document.getElementById("rightDrawer");
+  const bg = document.getElementById("drawerBackdrop");
+  if (side === "left") {
+    const opening = left.classList.contains("-translate-x-full");
+    right.classList.add("translate-x-full");
+    left.classList.toggle("-translate-x-full", !opening);
+    bg.classList.toggle("hidden", !opening);
+  } else {
+    const opening = right.classList.contains("translate-x-full");
+    left.classList.add("-translate-x-full");
+    right.classList.toggle("translate-x-full", !opening);
+    bg.classList.toggle("hidden", !opening);
+  }
+}
+function closeDrawers() {
+  document.getElementById("leftDrawer")?.classList.add("-translate-x-full");
+  document.getElementById("rightDrawer")?.classList.add("translate-x-full");
+  document.getElementById("drawerBackdrop")?.classList.add("hidden");
+}
+
+function updateMapTransform() {
+  const vp = document.getElementById("mapViewport");
+  if (vp) vp.setAttribute("transform", `translate(${mapPanX},${mapPanY}) scale(${mapScale})`);
+}
+function resetMapView() {
+  mapPanX = 0; mapPanY = 0; mapScale = 1;
+  updateMapTransform();
+}
+function zoomMapBy(factor) {
+  const nextScale = Math.max(0.85, Math.min(7, mapScale * factor));
+  const cx = 600, cy = 300;
+  mapPanX = cx - (cx - mapPanX) * (nextScale / mapScale);
+  mapPanY = cy - (cy - mapPanY) * (nextScale / mapScale);
+  mapScale = nextScale;
+  updateMapTransform();
+}
+function zoomActive(factor) {
+  if (mainView === "map") zoomMapBy(factor);
+  else zoomBy(factor);
+}
+function fitActive() {
+  if (mainView === "map") resetMapView();
+  else fitView();
+}
 
 function toggleTheme() {
   const isLight = document.documentElement.classList.toggle("light");
@@ -492,6 +563,8 @@ async function boot() {
     });
 
     document.getElementById("versionBadge").textContent = `${NODES.length} Nodes • ${EDGES.length} Links`;
+    const allBtn = document.getElementById("mode-all");
+    if (allBtn) allBtn.textContent = `Expand All (${NODES.length})`;
     initUI();
   } catch (err) {
     document.getElementById("inspector").innerHTML = `<div class="text-xs text-red-400">Failed to load data/world_genealogy.json: ${err.message}</div>`;
@@ -576,15 +649,119 @@ function initUI() {
     const mx = e.clientX - rect.left;
     const my = e.clientY - rect.top;
     const factor = e.deltaY < 0 ? 1.13 : 0.88;
-    const nextScale = Math.max(0.1, Math.min(2.4, scale * factor));
+    const nextScale = Math.max(0.025, Math.min(2.5, scale * factor));
     panX = mx - (mx - panX) * (nextScale / scale);
     panY = my - (my - panY) * (nextScale / scale);
     scale = nextScale;
     updateTransform();
   }, { passive: false });
 
+  // Touch Pan & Pinch-to-Zoom for Tree SVG (Mobile & Tablet)
+  let tMode = null, tStartX = 0, tStartY = 0, tPinchDist = 0, tPinchScale = 1, tPinchMidX = 0, tPinchMidY = 0;
+  svg.addEventListener("touchstart", (e) => {
+    if (e.touches.length === 1) {
+      if (e.target.closest(".expand-pill")) return;
+      tMode = "pan";
+      tStartX = e.touches[0].clientX - panX;
+      tStartY = e.touches[0].clientY - panY;
+    } else if (e.touches.length === 2) {
+      e.preventDefault();
+      tMode = "pinch";
+      const rect = svg.getBoundingClientRect();
+      tPinchDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY) || 1;
+      tPinchScale = scale;
+      tPinchMidX = (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left;
+      tPinchMidY = (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top;
+    }
+  }, { passive: false });
+  svg.addEventListener("touchmove", (e) => {
+    if (tMode === "pan" && e.touches.length === 1) {
+      const nx = e.touches[0].clientX - tStartX;
+      const ny = e.touches[0].clientY - tStartY;
+      if (Math.hypot(nx - panX, ny - panY) > 2) {
+        e.preventDefault();
+        panX = nx; panY = ny;
+        updateTransform();
+      }
+    } else if (tMode === "pinch" && e.touches.length === 2) {
+      e.preventDefault();
+      const d = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY) || 1;
+      const nextScale = Math.max(0.025, Math.min(2.5, tPinchScale * (d / tPinchDist)));
+      panX = tPinchMidX - (tPinchMidX - panX) * (nextScale / scale);
+      panY = tPinchMidY - (tPinchMidY - panY) * (nextScale / scale);
+      scale = nextScale;
+      updateTransform();
+    }
+  }, { passive: false });
+  svg.addEventListener("touchend", (e) => { if (e.touches.length === 0) tMode = null; });
+
+  // Mouse & Touch Pan + Pinch-to-Zoom for World Map SVG
+  const mapSvg = document.getElementById("worldMapSvg");
+  function mapClientToSvg(cx, cy) {
+    const pt = mapSvg.createSVGPoint();
+    pt.x = cx; pt.y = cy;
+    const ctm = mapSvg.getScreenCTM();
+    return ctm ? pt.matrixTransform(ctm.inverse()) : { x: 600, y: 300 };
+  }
+  mapSvg.addEventListener("mousedown", (e) => {
+    if (e.target.closest(".map-pin")) return;
+    isMapPanning = true;
+    const p = mapClientToSvg(e.clientX, e.clientY);
+    mapStartX = p.x - mapPanX; mapStartY = p.y - mapPanY;
+  });
+  window.addEventListener("mousemove", (e) => {
+    if (!isMapPanning) return;
+    const p = mapClientToSvg(e.clientX, e.clientY);
+    mapPanX = p.x - mapStartX; mapPanY = p.y - mapStartY;
+    updateMapTransform();
+  });
+  window.addEventListener("mouseup", () => { isMapPanning = false; });
+  mapSvg.addEventListener("wheel", (e) => {
+    e.preventDefault();
+    const p = mapClientToSvg(e.clientX, e.clientY);
+    const factor = e.deltaY < 0 ? 1.18 : 0.85;
+    const nextScale = Math.max(0.85, Math.min(7, mapScale * factor));
+    mapPanX = p.x - (p.x - mapPanX) * (nextScale / mapScale);
+    mapPanY = p.y - (p.y - mapPanY) * (nextScale / mapScale);
+    mapScale = nextScale;
+    updateMapTransform();
+  }, { passive: false });
+
+  let mMode = null, mStartX = 0, mStartY = 0, mPinchDist = 0, mPinchScale = 1, mPinchPt = { x: 600, y: 300 };
+  mapSvg.addEventListener("touchstart", (e) => {
+    if (e.touches.length === 1) {
+      if (e.target.closest(".map-pin")) return;
+      mMode = "pan";
+      const p = mapClientToSvg(e.touches[0].clientX, e.touches[0].clientY);
+      mStartX = p.x - mapPanX; mStartY = p.y - mapPanY;
+    } else if (e.touches.length === 2) {
+      e.preventDefault();
+      mMode = "pinch";
+      mPinchDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY) || 1;
+      mPinchScale = mapScale;
+      mPinchPt = mapClientToSvg((e.touches[0].clientX + e.touches[1].clientX) / 2, (e.touches[0].clientY + e.touches[1].clientY) / 2);
+    }
+  }, { passive: false });
+  mapSvg.addEventListener("touchmove", (e) => {
+    if (mMode === "pan" && e.touches.length === 1) {
+      e.preventDefault();
+      const p = mapClientToSvg(e.touches[0].clientX, e.touches[0].clientY);
+      mapPanX = p.x - mStartX; mapPanY = p.y - mStartY;
+      updateMapTransform();
+    } else if (mMode === "pinch" && e.touches.length === 2) {
+      e.preventDefault();
+      const d = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY) || 1;
+      const nextScale = Math.max(0.85, Math.min(7, mPinchScale * (d / mPinchDist)));
+      mapPanX = mPinchPt.x - (mPinchPt.x - mapPanX) * (nextScale / mapScale);
+      mapPanY = mPinchPt.y - (mPinchPt.y - mapPanY) * (nextScale / mapScale);
+      mapScale = nextScale;
+      updateMapTransform();
+    }
+  }, { passive: false });
+  mapSvg.addEventListener("touchend", (e) => { if (e.touches.length === 0) mMode = null; });
+
   applyPreset("all");
-  selectNode("bib_abraham");
+  selectNode("bib_abraham", false);
   setTimeout(fitView, 50);
 }
 
@@ -617,6 +794,7 @@ function toggleExpandParent(id) {
 }
 
 function focusSubtree(rootId) {
+  closeDrawers();
   focusRootId = rootId;
   activePreset = "";
   setMainView("tree");
@@ -625,7 +803,7 @@ function focusSubtree(rootId) {
   activeTraditions = new Set(Object.keys(TRADITIONS));
   activeLinkTypes = new Set(Object.keys(LINK_META));
   syncCheckboxes();
-  selectNode(rootId);
+  selectNode(rootId, false);
   render();
   fitView();
 }
@@ -736,7 +914,7 @@ function updateTransform() {
 function zoomBy(factor) {
   const wrap = document.getElementById("canvasWrap");
   const cx = wrap.clientWidth / 2, cy = wrap.clientHeight / 2;
-  const nextScale = Math.max(0.1, Math.min(2.4, scale * factor));
+  const nextScale = Math.max(0.025, Math.min(2.5, scale * factor));
   panX = cx - (cx - panX) * (nextScale / scale);
   panY = cy - (cy - panY) * (nextScale / scale);
   scale = nextScale;
@@ -755,7 +933,7 @@ function fitView() {
     minY = Math.min(minY, p.y - 40);  maxY = Math.max(maxY, p.y + 40);
   });
   const bw = (maxX - minX) + 100, bh = (maxY - minY) + 100;
-  scale = Math.max(0.12, Math.min(1.05, Math.min(w / bw, h / bh)));
+  scale = Math.max(0.025, Math.min(1.05, Math.min(w / bw, h / bh)));
   panX = (w - (maxX + minX) * scale) / 2;
   panY = (h - (maxY + minY) * scale) / 2;
   updateTransform();
@@ -885,6 +1063,7 @@ function runPathfinder() {
   setMainView("tree");
   render();
   fitView();
+  if (isMobileViewport()) closeDrawers();
 }
 
 function clearPath(doRender = true) {
@@ -897,18 +1076,24 @@ function clearPath(doRender = true) {
 
 function jumpToNode(id) {
   if (!nodesById[id]) return;
+  closeDrawers();
   activeTraditions.add(nodesById[id].tradition);
   (parentsMap[id] || []).forEach(p => expandedParents.add(p));
   syncCheckboxes();
   setMainView("tree");
-  selectNode(id);
+  selectNode(id, false);
   setTimeout(() => centerOnNode(id), 40);
 }
 
-function selectNode(id) {
+function selectNode(id, openMobileDrawer = true) {
   selectedNodeId = id;
   if (mainView === "tree") render();
   renderInspector(id);
+  if (openMobileDrawer && isMobileViewport()) {
+    document.getElementById("leftDrawer")?.classList.add("-translate-x-full");
+    document.getElementById("rightDrawer")?.classList.remove("translate-x-full");
+    document.getElementById("drawerBackdrop")?.classList.remove("hidden");
+  }
 }
 
 function setPathEndpoint(which, id) {
@@ -1051,8 +1236,9 @@ function renderWorldMap() {
     g.setAttribute("opacity", visible ? "1" : "0.22");
 
     g.innerHTML = `
+      <circle r="16" fill="transparent" />
       <circle r="11" fill="${trad.color}" opacity="0.22" />
-      <circle class="pin-dot" r="5.5" fill="${trad.color}" stroke="var(--card)" stroke-width="1.6" />
+      <circle class="pin-dot" r="5.8" fill="${trad.color}" stroke="var(--card)" stroke-width="1.6" />
       <text x="9" y="3.5" fill="var(--foreground)" font-size="10.2" font-weight="650" style="paint-order:stroke;stroke:var(--map-ocean);stroke-width:3px">${escapeXml(p.label)}</text>
     `;
     g.addEventListener("mousemove", (ev) => {
