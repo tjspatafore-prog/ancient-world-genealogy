@@ -1,0 +1,598 @@
+{
+  "module": "24_classical_empires_universal",
+  "title": "Classical Mediterranean Kingdoms (Lydia, Tyre, Carthage/Barcids, Numidia, Pontus, Armenia, Bactria, Seleucids), Alba Longa, 7 Kings of Rome, Roman/Byzantine Emperors & Universal Royal Bridges (Betham 1795, Anderson 1732, Eusebius)",
+  "nodes": [
+    {
+      "id": "cls_lydia_gyges_croesus",
+      "name": "Mermnad Dynasty of Lydia: Gyges → Ardys → Sadyattes → Alyattes → King Croesus",
+      "altNames": [
+        "Gyges of Lydia",
+        "Alyattes",
+        "King Croesus",
+        "Aryenis"
+      ],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "680-546 BCE (Herodotus I; Eusebius; Betham Tab. LXVI)",
+      "role": "Inventors of Coinage & Anatolian Empire Defeated by Cyrus",
+      "sources": [
+        "Eusebius Chronicle (Lydian)",
+        "Betham 1795 Tab. LXVI",
+        "Herodotus I.7-91"
+      ],
+      "notes": "Overthrew Heraclid king Candaules (son of Myrsus). Alyattes's daughter Aryenis married Median King Astyages (grandfather of Cyrus the Great!), making Croesus the great-uncle/brother-in-law of the Median court he fought to avenge against Cyrus in 546 BCE.",
+      "major": true
+    },
+    {
+      "id": "cls_tyre_royal_line",
+      "name": "Kings of Tyre: Abibaal → Hiram I → Baal-ezer → Ethbaal I (Ithobaal) → Mattan I → Pygmalion & Dido",
+      "altNames": [
+        "Abibaal",
+        "Ethbaal I (father of Jezebel)",
+        "Mattan I",
+        "Pygmalion of Tyre"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 16,
+      "era": "c. 990-774 BCE (Josephus Against Apion I.18; Betham Tab. XCII)",
+      "role": "Phoenician Maritime Dynasty Linking Solomon, Ahab & Carthage",
+      "sources": [
+        "Josephus Against Apion I.18",
+        "Betham 1795 Tab. XCII-XCIII",
+        "1 Kings 5, 16:31"
+      ],
+      "notes": "Menander of Ephesus (quoted by Josephus!) preserves the complete Tyrian royal archive: Hiram I (ally of David & Solomon) -> ... -> Ethbaal I (Priest of Astarte, father of Queen Jezebel who married King Ahab of Israel!) -> Baal-ezer II -> Mattan I -> Pygmalion & Princess Elissa/Dido (founder of Carthage, 814 BCE)!",
+      "major": true
+    },
+    {
+      "id": "cls_carthage_barcids",
+      "name": "Barcid Dynasty of Carthage: Hamilcar Barca → Hannibal Barca, Hasdrubal & Mago",
+      "altNames": [
+        "Hamilcar Barca",
+        "Hannibal Barca",
+        "Hasdrubal Barca",
+        "Sophonisba"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "275-183 BCE (Polybius; Livy; Betham Tab. LXXXVIII)",
+      "role": "Carthaginian Punic Commanders Against Rome",
+      "sources": [
+        "Betham 1795 Tab. LXXXVIII-LXXXIX",
+        "Polybius",
+        "Livy"
+      ],
+      "notes": "Hamilcar Barca (hero of 1st Punic War) fathered Hannibal the Great (crossed the Alps in 218 BCE, victor at Cannae), Hasdrubal Barca, Mago Barca, and daughters married to Hasdrubal the Fair & Numidian prince Naravas. Allied with Hasdrubal Gisco (father of Sophonisba).",
+      "major": true
+    },
+    {
+      "id": "cls_numidia_mauretania",
+      "name": "Kings of Numidia & Mauretania: Gaia → Masinissa → Micipsa → Jugurtha; Juba I → Juba II (+ Cleopatra Selene II)",
+      "altNames": [
+        "Masinissa",
+        "Jugurtha",
+        "Juba II",
+        "Cleopatra Selene II",
+        "Ptolemy of Mauretania"
+      ],
+      "tradition": "african",
+      "tier": 18,
+      "era": "238 BCE – 40 CE (Sallust; Betham Tab. XC-XCI)",
+      "role": "Amazigh (Berber) Royal Dynasties of North Africa",
+      "sources": [
+        "Betham 1795 Tab. XC-XCI",
+        "Sallust Jugurtha",
+        "Plutarch"
+      ],
+      "notes": "Masinissa unified Numidia (ally of Scipio Africanus against Hannibal); his grandson Jugurtha resisted Rome. Later King Juba II of Mauretania married Cleopatra Selene II (daughter of Mark Antony & Cleopatra VII of Egypt!), fathering King Ptolemy of Mauretania — uniting Berber, Ptolemaic Egyptian, and Roman bloodlines!",
+      "major": true
+    },
+    {
+      "id": "cls_seleucids",
+      "name": "Seleucid Empire: Seleucus I Nicator (+ Apama of Sogdia) → Antiochus I → Antiochus III the Great → Antiochus IV Epiphanes",
+      "altNames": [
+        "Seleucus I Nicator",
+        "Apama",
+        "Antiochus III the Great",
+        "Antiochus IV Epiphanes"
+      ],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "312-63 BCE (Eusebius Chronicle; Betham Tab. CIII; 1 Maccabees)",
+      "role": "Hellenistic Kings of Syria, Mesopotamia & Persia",
+      "sources": [
+        "Eusebius Chronicle (Kings of Asia & Syria)",
+        "Betham 1795 Tab. CIII",
+        "1 Maccabees 1"
+      ],
+      "notes": "Founded by Alexander's general Seleucus I Nicator & Iranian princess Apama (daughter of Spitamenes of Sogdia). Antiochus III the Great's daughter Cleopatra I Syra married Ptolemy V (starting the 'Cleopatra' name in Egypt!). Antiochus IV Epiphanes sparked the Maccabean Revolt (167 BCE).",
+      "major": true
+    },
+    {
+      "id": "cls_antigonids_epirus",
+      "name": "Antigonid Macedon (Antigonus I, Demetrius, Philip V, Perseus) & Pyrrhus of Epirus",
+      "altNames": [
+        "Antigonus I",
+        "Perseus of Macedon",
+        "Pyrrhus of Epirus"
+      ],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "306-168 BCE (Eusebius Chronicle; Betham Tab. LXXVII-LXXXI)",
+      "role": "Final Macedonian Kings & Aeacid Kings of Epirus",
+      "sources": [
+        "Eusebius Chronicle (Macedonian Kings)",
+        "Betham 1795 Tab. LXXVII, LXXXI"
+      ],
+      "notes": "Antigonus Monophthalmus -> Demetrius Poliorcetes -> Antigonus II Gonatas -> Philip V -> Perseus (defeated by Rome at Pydna, 168 BCE). King Pyrrhus of Epirus (cousin of Alexander via Olympias & claiming descent from Achilles's son Neoptolemus!) fought Rome ('Pyrrhic victory').",
+      "major": false
+    },
+    {
+      "id": "cls_pontus_mithridates",
+      "name": "Kingdom of Pontus: Mithridates I Ktistes → Pharnaces I → Mithridates VI Eupator ('The Poison King')",
+      "altNames": [
+        "Mithridates I",
+        "Mithridates VI Eupator",
+        "Pharnaces II"
+      ],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "281-63 BCE (Betham Tab. XCV; Appian)",
+      "role": "Persian-Greek Royal Dynasty of the Black Sea",
+      "sources": [
+        "Betham 1795 Tab. XCV",
+        "Appian Mithridatic Wars"
+      ],
+      "notes": "Claimed descent from both Darius the Great (Achaemenids) and Alexander/Seleucids! Mithridates VI Eupator waged three Mithridatic Wars against Rome; his daughter Cleopatra married King Tigranes the Great of Armenia, and his son Pharnaces II ruled the Bosporan Kingdom ('Veni, vidi, vici').",
+      "major": true
+    },
+    {
+      "id": "cls_armenia_tigranes",
+      "name": "Artaxiad Armenia: Artaxias I → Tigranes II the Great (+ Cleopatra of Pontus) → Artavasdes II & Herodian Tigranes V/VI",
+      "altNames": [
+        "Artaxias I",
+        "Tigranes the Great",
+        "Tigranes V & VI (Herodian)"
+      ],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "189 BCE – 63 CE (Betham Tab. LXXXIII; Josephus Ant. XVIII)",
+      "role": "Imperial Kingdom of Armenia Linking Pontus, Parthia & Judea",
+      "sources": [
+        "Betham 1795 Tab. LXXXIII",
+        "Josephus Antiquities XVIII.5"
+      ],
+      "notes": "Artaxias I founded Artaxata; Tigranes the Great built a vast empire from the Caspian to the Mediterranean. Remarkable dynastic link: Herod the Great's grandson Tigranes V & great-grandson Tigranes VI (via Alexander + Glaphyra of Cappadocia) were placed on the throne of Armenia by Rome!",
+      "major": true
+    },
+    {
+      "id": "cls_bactria_menander",
+      "name": "Greco-Bactrian & Indo-Greek Kings: Diodotus I → Euthydemus → Demetrius I → Menander I (King Milinda)",
+      "altNames": [
+        "Diodotus I",
+        "Demetrius I of Bactria",
+        "Menander I / King Milinda"
+      ],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "250-130 BCE (Betham Tab. LXVIII; Milinda Panha)",
+      "role": "Hellenistic Kings of Afghanistan & Northwest India",
+      "sources": [
+        "Betham 1795 Tab. LXVIII",
+        "Milinda Panha (Questions of King Milinda)",
+        "Strabo"
+      ],
+      "notes": "Diodotus broke away from the Seleucids in Bactria; Demetrius I invaded India (Gandhara/Punjab); Menander I Soter (Pali: Milinda) converted to Buddhism in the famous dialogue Milinda Panha with sage Nagasena — bridging Greek, Iranian, and Indian civilizations!",
+      "major": true
+    },
+    {
+      "id": "cls_adiabene_edessa",
+      "name": "Royal Houses of Adiabene (Monobazus I & Queen Helena → Izates II) & Osroene/Edessa (King Abgar V)",
+      "altNames": [
+        "Queen Helena of Adiabene",
+        "King Izates II",
+        "King Abgar V of Edessa"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 19,
+      "era": "1st c. CE (Josephus Ant. XX.2; Betham Tab. LXX-LXXI)",
+      "role": "Upper Mesopotamian Client Kingdoms Famous in Jewish & Syriac History",
+      "sources": [
+        "Josephus Antiquities XX.2-4",
+        "Betham 1795 Tab. LXX-LXXI",
+        "Eusebius HE I.13"
+      ],
+      "notes": "Queen Helena of Adiabene & her son King Izates II converted to Judaism (~30 CE), funded famine relief in Jerusalem, and built the monumental Tomb of the Kings in Jerusalem. King Abgar V Ukkama of Edessa (Osroene) features in Syriac chronicles as the first Christian monarch.",
+      "major": false
+    },
+    {
+      "id": "rom_alba_longa",
+      "name": "Kings of Alba Longa: Ascanius (Iulus) → Silvius → Capys → Tiberinus → Aventinus → Procas → Numitor & Amulius",
+      "altNames": [
+        "Ascanius / Iulus",
+        "Silvius",
+        "Tiberinus",
+        "Procas",
+        "Numitor",
+        "Rhea Silvia"
+      ],
+      "tradition": "greek",
+      "tier": 15,
+      "era": "c. 1177-753 BCE (Livy I; Eusebius Chronicle; Betham Tab. CIX-CXI)",
+      "role": "14 Trojan-Latin Kings Bridging Aeneas to Romulus & Remus",
+      "sources": [
+        "Eusebius Chronicle (The Romans)",
+        "Betham 1795 Tab. CIX-CXI",
+        "Livy I.3"
+      ],
+      "notes": "Complete Latin succession from Aeneas (+ Lavinia daughter of King Latinus): Ascanius/Iulus (claimed ancestor of the Julii Caesars!), Silvius Posthumus, Aeneas Silvius, Latinus Silvius, Alba, Atys, Capys, Capetus, Tiberinus (eponym of the Tiber River), Agrippa, Romulus Silvius, Aventinus, Procas -> Numitor (father of Rhea Silvia) & usurper Amulius.",
+      "major": false
+    },
+    {
+      "id": "rom_seven_kings",
+      "name": "7 Kings of Rome: Romulus, Numa Pompilius, Tullus Hostilius, Ancus Marcius, Tarquinius Priscus, Servius Tullius & Tarquinius Superbus",
+      "altNames": [
+        "Numa Pompilius",
+        "Tullus Hostilius",
+        "Servius Tullius",
+        "Tarquinius Superbus",
+        "Lucius Junius Brutus"
+      ],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "753-509 BCE (Livy I; Eusebius; Betham Tab. CXII)",
+      "role": "Complete Roman Monarchy to Republic Founder L. Junius Brutus",
+      "sources": [
+        "Betham 1795 Tab. CXII",
+        "Eusebius Chronicle",
+        "Livy Book I"
+      ],
+      "notes": "Sabine co-ruler Titus Tatius -> Numa Pompilius -> Tullus Hostilius -> Ancus Marcius -> Etruscan Tarquinius Priscus (+ Tanaquil) -> Servius Tullius -> Tarquinius Superbus (expelled in 509 BCE by Lucius Junius Brutus & Tarquinius Collatinus, founding the Roman Republic!).",
+      "major": true
+    },
+    {
+      "id": "rom_julio_claudians",
+      "name": "Julio-Claudian Emperors: Augustus (+ Livia) → Tiberius, Caligula, Claudius & Nero",
+      "altNames": [
+        "Emperor Tiberius",
+        "Caligula",
+        "Emperor Claudius",
+        "Emperor Nero"
+      ],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "27 BCE – 68 CE (Suetonius; Tacitus; Betham Tab. CXXI; Anderson)",
+      "role": "First Imperial Dynasty of Rome (New Testament Era)",
+      "sources": [
+        "Betham 1795 Tab. CXXI",
+        "Anderson 1732 Tables 119-121",
+        "Luke 2:1, 3:1",
+        "Acts 25"
+      ],
+      "notes": "Augustus (census at Jesus's birth, Luke 2:1) -> Tiberius (Jesus's ministry & crucifixion, Luke 3:1) -> Caligula (descended from Mark Antony & Agrippa) -> Claudius (Acts 18:2) -> Nero (martyrdom of Peter & Paul, Great Fire of 64 CE).",
+      "major": true
+    },
+    {
+      "id": "rom_flavians_antonines_severans",
+      "name": "Flavian (Vespasian, Titus, Domitian), Five Good Emperors (Trajan, Hadrian, Marcus Aurelius) & Severan Dynasties",
+      "altNames": [
+        "Vespasian",
+        "Emperor Titus",
+        "Trajan",
+        "Hadrian",
+        "Marcus Aurelius",
+        "Septimius Severus & Julia Domna"
+      ],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "69-235 CE (Betham Tab. CXXIV-CXXVII; Anderson 1732)",
+      "role": "High Imperial Roman Dynasties (Including Syro-Punic Severans)",
+      "sources": [
+        "Betham 1795 Tab. CXXIV-CXXVII",
+        "Anderson 1732 Tables 124-130",
+        "Josephus Wars"
+      ],
+      "notes": "Vespasian & Titus (destruction of Jerusalem Temple, 70 CE — patrons of Josephus!) -> Domitian (interviewed grandsons of Jude, brother of Jesus!). Nerva -> Trajan -> Hadrian -> Antoninus Pius -> Marcus Aurelius -> Commodus. Septimius Severus (Punic/Libyan from Leptis Magna!) + Julia Domna (Priest-King house of Emesa!) -> Caracalla.",
+      "major": false
+    },
+    {
+      "id": "rom_constantine_byzantium",
+      "name": "Constantine the Great → Theodosius I → Justinian I → Heraclius → Basil I → Alexios Komnenos → Constantine XI",
+      "altNames": [
+        "Constantine the Great",
+        "Theodosius I",
+        "Justinian I",
+        "Heraclius",
+        "Basil I"
+      ],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "306-1453 CE (Betham Tab. CXXXI-CXLI; Anderson 1732 Tables 114, 133-135)",
+      "role": "Christian Roman & Eastern Byzantine Imperial Lineages",
+      "sources": [
+        "Betham 1795 Tab. CXXXI-CXLI",
+        "Anderson 1732 Tables 114, 133-135"
+      ],
+      "notes": "Constantine I (+ St. Helena) founded Constantinople (330 CE) -> Theodosius I (split East/West 395 CE) -> Justinian I (+ Empress Theodora, Hagia Sophia) -> Heraclius (defeated Sasanian Khosrow II) -> Macedonian Dynasty (Basil I, Basil II) -> Komnenoi -> Palaiologoi (until 1453).",
+      "major": true
+    },
+    {
+      "id": "eur_merovingian_carolingian",
+      "name": "Merovingians (Merovech → Clovis I) & Carolingians (Charles Martel → Pepin → Charlemagne)",
+      "altNames": [
+        "Clovis I",
+        "Charles Martel",
+        "Charlemagne (Charles the Great)"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "450-843 CE (Anderson 1732 Table 216; Betham Tab. CXVI)",
+      "role": "Frankish Kings & Founder of the Holy Roman Empire (Ancestral Hub of Europe)",
+      "sources": [
+        "Anderson 1732 Table 216",
+        "Betham 1795 Tab. CXVI"
+      ],
+      "notes": "Clovis I unified the Franks (481-511). Carolingian Mayor of the Palace Charles Martel (Battle of Tours, 732) -> Pepin the Short -> Charlemagne (crowned Emperor 800 CE) -> Louis the Pious -> Treaty of Verdun (Lothair, Louis the German, Charles the Bald). Chroniclers (Fredegar/Anderson) linked early Franks back to Trojan exiles (Francus)!",
+      "major": true
+    },
+    {
+      "id": "eur_wessex_alfred_norman",
+      "name": "House of Wessex (Cerdic → Egbert → Alfred the Great → Æthelstan) & Normans (Rollo → William the Conqueror)",
+      "altNames": [
+        "Cerdic",
+        "Alfred the Great",
+        "Rollo of Normandy",
+        "William the Conqueror"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "519-1154 CE (Anglo-Saxon Chronicle; Anderson 1732; Betham)",
+      "role": "Founders of England (Anglo-Saxon Chronicle Bridges Woden → Sceaf of Noah's Ark!)",
+      "sources": [
+        "Anglo-Saxon Chronicle (855 CE)",
+        "Anderson 1732",
+        "Betham 1795"
+      ],
+      "notes": "The Anglo-Saxon Chronicle (under King Æthelwulf, father of Alfred the Great) famously traces Wessex back through Cerdic -> Woden (Odin) -> Geat -> Sceaf ('born in Noah's Ark'!) -> Noah -> Adam! Rollo the Viking founded Normandy -> William the Conqueror (1066) -> Henry II & Eleanor of Aquitaine (Plantagenets).",
+      "major": true
+    },
+    {
+      "id": "eur_rurik_harald_viking",
+      "name": "Viking & Slavic Founders: Ragnar Lodbrok, Harald Fairhair (Norway) & Prince Rurik → Vladimir the Great (Kievan Rus')",
+      "altNames": [
+        "Harald Fairhair",
+        "Ragnar Lodbrok",
+        "Prince Rurik",
+        "Vladimir the Great",
+        "Yaroslav the Wise"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "850-1015 CE (Heimskringla; Primary Chronicle; Anderson 1732)",
+      "role": "Scandinavian & East Slavic Royal Houses",
+      "sources": [
+        "Snorri Sturluson Heimskringla",
+        "Russian Primary Chronicle",
+        "Anderson 1732"
+      ],
+      "notes": "Harald Fairhair (Yngling descendant) unified Norway (~872); Varangian Prince Rurik founded Novgorod (862) -> Igor & St. Olga -> Sviatoslav I -> Vladimir the Great (Christianized Kievan Rus', 988, marrying Byzantine princess Anna Porphyrogenita!) -> Yaroslav the Wise (whose daughters became Queens of France, Norway & Hungary!).",
+      "major": false
+    },
+    {
+      "id": "ar_hashim_muhammad_caliphs",
+      "name": "Qusayy → Hashim → Abd al-Muttalib → Prophet Muhammad (570–632 CE) → Fatimah & Ali, Umayyads & Abbasids",
+      "altNames": [
+        "Prophet Muhammad",
+        "Hashim ibn Abd Manaf",
+        "Fatimah & Ali ibn Abi Talib",
+        "Mu'awiya I (Umayyads)",
+        "Harun al-Rashid (Abbasids)"
+      ],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "c. 400-1258 CE (Ibn Ishaq; Al-Biruni; Anderson 1732 Tables 157-158)",
+      "role": "Quraysh Banu Hashim Lineage & Early Islamic Caliphates",
+      "sources": [
+        "Ibn Ishaq Sirat Rasul Allah",
+        "Al-Biruni Chronology",
+        "Anderson 1732 Tables 157-158"
+      ],
+      "notes": "Through Adnan -> Fihr (Quraysh) -> Qusayy -> Abd Manaf -> Hashim -> Abd al-Muttalib -> Abdullah & Aminah -> Prophet Muhammad (founder of Islam). Through daughter Fatimah & cousin Ali ibn Abi Talib: Hasan & Husayn (Alids/Hashemites). Through Abd Manaf's son Abd Shams: Umayyad Caliphate (Mu'awiya I, Damascus & Cordoba). Through uncle Al-Abbas: Abbasid Caliphate (Al-Saffah, Harun al-Rashid of Baghdad!).",
+      "major": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "grk_lydus_tyrrhenus",
+      "to": "cls_lydia_gyges_croesus",
+      "type": "expansion",
+      "label": "Lydian royal succession to Mermnad Dynasty (Betham Tab. LXVI; Herodotus)"
+    },
+    {
+      "from": "ir_cyaxares",
+      "to": "cls_lydia_gyges_croesus",
+      "type": "direct",
+      "label": "Alyattes's daughter Aryenis marries Median King Astyages, son of Cyaxares (Herodotus I.74)"
+    },
+    {
+      "from": "cls_lydia_gyges_croesus",
+      "to": "ir_cyrus",
+      "type": "cognate",
+      "label": "Cyrus the Great defeats Croesus of Lydia (546 BCE)"
+    },
+    {
+      "from": "for_hiram_syria_moab",
+      "to": "cls_tyre_royal_line",
+      "type": "direct",
+      "label": "King Hiram I -> Ethbaal I -> Mattan I -> Pygmalion & Dido (Josephus)"
+    },
+    {
+      "from": "cls_tyre_royal_line",
+      "to": "kg_i3_omri_ahab",
+      "type": "direct",
+      "label": "Ethbaal I of Tyre is father of Queen Jezebel (wife of King Ahab, 1 Kgs 16:31)"
+    },
+    {
+      "from": "cls_tyre_royal_line",
+      "to": "grk_dido_carthage",
+      "type": "direct",
+      "label": "Mattan I -> Princess Elissa/Dido founder of Carthage (814 BCE)"
+    },
+    {
+      "from": "grk_dido_carthage",
+      "to": "cls_carthage_barcids",
+      "type": "expansion",
+      "label": "Punic Carthage leadership -> Barcid Dynasty (Hamilcar & Hannibal)"
+    },
+    {
+      "from": "af_mazigh",
+      "to": "cls_numidia_mauretania",
+      "type": "expansion",
+      "label": "Amazigh/Berber Kingdoms of Numidia & Mauretania (Masinissa -> Juba II)"
+    },
+    {
+      "from": "eg_ptolemy_cleopatra",
+      "to": "cls_numidia_mauretania",
+      "type": "direct",
+      "label": "Cleopatra VII's daughter Cleopatra Selene II marries King Juba II of Mauretania"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "cls_seleucids",
+      "type": "expansion",
+      "label": "Diadochi succession: General Seleucus I Nicator founds Seleucid Empire"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "cls_antigonids_epirus",
+      "type": "expansion",
+      "label": "Diadochi succession in Macedonia & Aeacid cousin Pyrrhus of Epirus"
+    },
+    {
+      "from": "cls_seleucids",
+      "to": "has_mattathias",
+      "type": "cognate",
+      "label": "Antiochus IV Epiphanes sparks the Maccabean Revolt (167 BCE)"
+    },
+    {
+      "from": "ir_darius1",
+      "to": "cls_pontus_mithridates",
+      "type": "expansion",
+      "label": "Mithridatic Dynasty of Pontus claims Achaemenid descent (Betham Tab. XCV)"
+    },
+    {
+      "from": "cls_pontus_mithridates",
+      "to": "cls_armenia_tigranes",
+      "type": "direct",
+      "label": "Cleopatra of Pontus marries King Tigranes the Great of Armenia"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "cls_armenia_tigranes",
+      "type": "direct",
+      "label": "Herod's grandson Tigranes V & great-grandson Tigranes VI rule Armenia (Betham Tab. LXXXIII)"
+    },
+    {
+      "from": "cls_seleucids",
+      "to": "cls_bactria_menander",
+      "type": "expansion",
+      "label": "Satrap Diodotus I establishes Greco-Bactrian Kingdom -> Menander/Milinda"
+    },
+    {
+      "from": "cls_bactria_menander",
+      "to": "ved_maurya_ashoka",
+      "type": "cognate",
+      "label": "Indo-Greek King Menander I (Milinda) embraces Buddhism in post-Mauryan India"
+    },
+    {
+      "from": "her_agrippa_herodias",
+      "to": "cls_adiabene_edessa",
+      "type": "cognate",
+      "label": "Queen Helena & King Izates of Adiabene allied with Herodian Jerusalem (Josephus Ant. XX)"
+    },
+    {
+      "from": "grk_aeneas",
+      "to": "rom_alba_longa",
+      "type": "direct",
+      "label": "Aeneas + Lavinia -> Ascanius/Iulus & Silvius -> 14 Kings of Alba Longa"
+    },
+    {
+      "from": "rom_alba_longa",
+      "to": "grk_romulus_remus",
+      "type": "direct",
+      "label": "King Numitor -> Rhea Silvia -> Romulus & Remus (753 BCE)"
+    },
+    {
+      "from": "grk_romulus_remus",
+      "to": "rom_seven_kings",
+      "type": "direct",
+      "label": "Romulus -> Numa -> Tarquins -> Roman Republic (509 BCE)"
+    },
+    {
+      "from": "grk_julius_augustus",
+      "to": "rom_julio_claudians",
+      "type": "direct",
+      "label": "Augustus -> Tiberius, Caligula, Claudius & Nero"
+    },
+    {
+      "from": "rom_julio_claudians",
+      "to": "rom_flavians_antonines_severans",
+      "type": "expansion",
+      "label": "Imperial Roman succession -> Flavians, Antonines & Severans"
+    },
+    {
+      "from": "her_agrippa_herodias",
+      "to": "rom_flavians_antonines_severans",
+      "type": "direct",
+      "label": "Severan Empress Julia Domna descends from Priest-Kings of Emesa (allied with Herodians)"
+    },
+    {
+      "from": "rom_flavians_antonines_severans",
+      "to": "rom_constantine_byzantium",
+      "type": "expansion",
+      "label": "Constantine the Great -> Christian Roman & Byzantine Emperors"
+    },
+    {
+      "from": "grk_priam_hector",
+      "to": "eur_merovingian_carolingian",
+      "type": "syncretic",
+      "label": "Medieval Frankish chroniclers (Fredegar/Anderson) bridged Troy -> Merovingians -> Charlemagne"
+    },
+    {
+      "from": "rom_constantine_byzantium",
+      "to": "eur_merovingian_carolingian",
+      "type": "expansion",
+      "label": "Charlemagne crowned Western Roman Emperor (800 CE)"
+    },
+    {
+      "from": "eur_odin_ask_embla",
+      "to": "eur_wessex_alfred_norman",
+      "type": "syncretic",
+      "label": "Anglo-Saxon Chronicle (855 CE) traces Wessex via Cerdic -> Woden -> Sceaf ('born in Noah's Ark')"
+    },
+    {
+      "from": "bib_noah",
+      "to": "eur_wessex_alfred_norman",
+      "type": "syncretic",
+      "label": "Anglo-Saxon Chronicle traces Alfred the Great via Sceaf (son of Noah) to Adam"
+    },
+    {
+      "from": "eur_ynglings_skjoldungs",
+      "to": "eur_rurik_harald_viking",
+      "type": "expansion",
+      "label": "Yngling Harald Fairhair (Norway) & Varangian Rurik -> Vladimir of Kievan Rus'"
+    },
+    {
+      "from": "rom_constantine_byzantium",
+      "to": "eur_rurik_harald_viking",
+      "type": "direct",
+      "label": "Byzantine Princess Anna Porphyrogenita marries Vladimir the Great (988 CE)"
+    },
+    {
+      "from": "ar_adnan_quraysh",
+      "to": "ar_hashim_muhammad_caliphs",
+      "type": "direct",
+      "label": "Adnan -> Fihr (Quraysh) -> Qusayy -> Hashim -> Abd al-Muttalib -> Prophet Muhammad"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ancient World Genealogy Atlas — Complete Global &amp; Archaeogenetics Explorer</title>
-  <meta name="description" content="Complete global ancient genealogy atlas uniting 706 individuals & lineages across Biblical, Jasher, Jubilees, 1 Enoch, Egypt, Kush/Ethiopia, Africa, Greece/Rome, Celtic/Norse, Mesopotamia, Iran/Zoroastrian, Vedic India, China, Korea, Japan, Americas, Polynesia, and Y-DNA/mtDNA Archaeogenetics." />
+  <meta name="description" content="Complete global ancient genealogy atlas uniting 1,831+ individuals & lineages across 24 modules and 31 primary sources: Biblical, Syriac Cave of Treasures, Josephus, Jasher, Jubilees, 1 Enoch, Manetho's 31 Egyptian Dynasties, Sumerian/Assyrian/Babylonian King Lists, Georgian Kartlis Tskhovreba, Al-Biruni, Kebra Nagast, Apollodorus/Hesiod, Pargiter's 95-Gen Indian Puranic Dynasties, Chinese Bamboo Books, Nihongi, Secret History of the Mongols, Irish Lebor Gabála Érenn, Betham/Anderson Royal Genealogies, Americas, Polynesia & Archaeogenetics." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :root {
@@ -72,7 +72,7 @@
           <h1 class="text-sm font-semibold leading-tight">Ancient World Genealogy Atlas</h1>
           <span id="versionBadge" class="text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono">Loading…</span>
         </div>
-        <p class="text-[11px] text-[var(--muted-foreground)]">Complete Global Atlas • 14 Modules • Textual Lineages • World Migration Map • Deep Timeline • Y-DNA &amp; mtDNA Overlay</p>
+        <p class="text-[11px] text-[var(--muted-foreground)]">Complete Global Atlas • 24 Modules • 31 Primary Sources • World Migration Map • Deep Timeline • Y-DNA &amp; mtDNA Overlay</p>
       </div>
     </div>
 
@@ -372,7 +372,13 @@ const MAP_PINS = [
   { id:"pin_hawaii", label:"Hawaiʻi (Kumulipo)", lat:20, lon:-156, nodeId:"amp_poly_kumulipo", trad:"americas_pacific", desc:"2,102-line Kumulipo: Wākea & Papahānaumoku -> Hāloa -> King Kamehameha I" },
   { id:"pin_tonga", label:"Tonga & Hawaiki (Polynesia)", lat:-20, lon:-174, nodeId:"amp_poly_maui", trad:"americas_pacific", desc:"Pan-Polynesian Māui, Tuʻi Tonga Maritime Empire (ʻAhoʻeitu) & Polynesian Triangle voyaging" },
   { id:"pin_nz", label:"Aotearoa (New Zealand)", lat:-39, lon:175, nodeId:"amp_poly_rangi_papa", trad:"americas_pacific", desc:"Ranginui & Papatūānuku, Tāne & Hine-ahu-one, Kupe & Great Fleet Waka whakapapa" },
-  { id:"pin_rapanui", label:"Rapa Nui (Easter Island)", lat:-27, lon:-109, nodeId:"amp_poly_kupe_tonga", trad:"americas_pacific", desc:"Ariki Hotu Matuʻa's voyage & pre-Columbian DNA link to Andean South America (~1200 CE)" }
+  { id:"pin_rapanui", label:"Rapa Nui (Easter Island)", lat:-27, lon:-109, nodeId:"amp_poly_kupe_tonga", trad:"americas_pacific", desc:"Ariki Hotu Matuʻa's voyage & pre-Columbian DNA link to Andean South America (~1200 CE)" },
+  { id:"pin_georgia", label:"Mtskheta & Tbilisi (Georgia)", lat:42, lon:45, nodeId:"geo_targamos_8sons", trad:"iranian", desc:"Kartlis Tskhovreba: Targamos -> 8 Caucasian Sons (Haos, Kartlos, K'avk'as), Parnavaz I, Mirian III, Vakhtang Gorgasali & Davidic Bagrationis" },
+  { id:"pin_assur", label:"Assur & Nineveh (Assyria)", lat:36, lon:43, nodeId:"akl_01_tudiya", trad:"mesopotamian", desc:"Complete 116-King Assyrian King List (Tudiya, Adamu, Ushpia, Shamshi-Adad I, Shalmaneser III, Semiramis, Sennacherib, Ashurbanipal)" },
+  { id:"pin_khwarazm", label:"Khwarazm (Afrighids / Al-Biruni)", lat:42, lon:60, nodeId:"bir_khwarazm_afrighids", trad:"iranian", desc:"Al-Biruni's homeland: 22 unbroken Afrighid Khwarazmshahs from Siyawush & Kay Khosrow (305-995 CE) & Parthian Ashkanians" },
+  { id:"pin_bactria", label:"Bactria & Gandhara", lat:36, lon:68, nodeId:"cls_bactria_menander", trad:"greek", desc:"Greco-Bactrian & Indo-Greek Kings (Diodotus, Demetrius, Menander/King Milinda) & Vedic Druhyu Gandhara bridge" },
+  { id:"pin_karakorum", label:"Karakorum (Mongol Borjigin)", lat:47, lon:103, nodeId:"mng_genghis_khan_borte", trad:"steppe", desc:"Secret History of the Mongols: 22-Gen Borjigin lineage from Börte Čino & Alan Qo'a -> Genghis Khan -> Batu, Ögödei, Möngke & Kublai Khan" },
+  { id:"pin_frankia", label:"Aachen & Wessex (Europe)", lat:51, lon:6, nodeId:"eur_merovingian_carolingian", trad:"europe_norse", desc:"Merovingians (Clovis), Carolingians (Charlemagne), Wessex (Alfred the Great -> Woden -> Sceaf/Noah) & Normans (Betham/Anderson)" }
 ];
 
 const MAP_ARCS = [
@@ -418,7 +424,12 @@ const MAP_ARCS = [
   { from:"pin_greece", to:"pin_norse", type:"syncretic", label:"Snorri's Prose Edda Prologue: Priam of Troy -> Thor -> Odin -> Scandinavia" },
   { from:"pin_rome", to:"pin_ireland", type:"syncretic", label:"Historia Brittonum: Aeneas -> Brutus of Troy -> Britain & King Arthur" },
   { from:"pin_levant", to:"pin_steppe_east", type:"syncretic", label:"Rashid al-Din & Book of Jasher 10:10: Japheth/Togarmah (Tarki) -> Oghuz Khagan" },
-  { from:"pin_india", to:"pin_korea", type:"syncretic", label:"Samguk Yusa: Queen Heo Hwang-ok sails from Ayuta (Ayodhya, India) to marry King Suro of Gaya" }
+  { from:"pin_india", to:"pin_korea", type:"syncretic", label:"Samguk Yusa: Queen Heo Hwang-ok sails from Ayuta (Ayodhya, India) to marry King Suro of Gaya" },
+  { from:"pin_levant", to:"pin_georgia", type:"syncretic", label:"Kartlis Tskhovreba: Targamos (Togarmah) -> 8 Caucasian Sons & Bagrationi descent from King David via Clopas" },
+  { from:"pin_iran", to:"pin_khwarazm", type:"cognate", label:"Al-Biruni: Afrighid Khwarazmshahs & Parthians linked to Kayanian Siyawush & Kay Khosrow" },
+  { from:"pin_greece", to:"pin_bactria", type:"cognate", label:"Greco-Bactrian & Indo-Greek Kingdom (Diodotus -> Menander / King Milinda)" },
+  { from:"pin_karakorum", to:"pin_china", type:"cognate", label:"Secret History of the Mongols: Genghis Khan -> Tolui & Sorqaqtani Beki -> Kublai Khan (Yuan Dynasty)" },
+  { from:"pin_rome", to:"pin_frankia", type:"cognate", label:"Charlemagne crowned Western Roman Emperor (800 CE) & Wessex/Norman Royal Bridges" }
 ];
 
 // Runtime State
@@ -1061,7 +1072,8 @@ const TIMELINE_EPOCHS = [
   { title: "Epoch 4 • Post-Flood Tables of Nations & Early Bronze Age (c. 3100–2000 BCE • Tiers 5–7)", desc: "Shem/Ham/Japheth, Fereydun (Salm/Tur/Iraj), Yayati's 5 Sons, Hellen (Ion=Javan), Mannus, Narmer/Menes, Gilgamesh, Khufu, Shang & Xia", filter: n => n.tradition !== "dna" && n.tradition !== "archetype" && n.tier >= 5 && n.tier <= 7 && n.major },
   { title: "Epoch 5 • Patriarchal, Heroic & Late Bronze Age (c. 2000–1000 BCE • Tiers 8–11)", desc: "Abraham's 8 Sons, Sargon of Akkad, Ur III, Hammurabi, Rama, Krishna & Pandavas, Zarathustra, Trojan War (Priam/Aeneas), Emperor Jimmu, Qin/Confucius", filter: n => n.tradition !== "dna" && n.tier >= 8 && n.tier <= 11 && n.major },
   { title: "Epoch 6 • Iron Age, Axial Age & Classical Empires (c. 1200–300 BCE • Tiers 12–15)", desc: "Moses, Ramesses II, Merneptah (Israel Stele), King David, Cyrus the Great, Gautama Buddha, Alexander the Great, Chandragupta & Emperor Ashoka, Romulus & Remus, Brutus of Troy", filter: n => n.tradition !== "dna" && n.tier >= 12 && n.tier <= 15 && n.major },
-  { title: "Epoch 7 • Classical, Aksumite, Imperial & Pacific Voyaging Eras (300 BCE – 1500 CE • Tiers 16–17)", desc: "Solomon & Queen Makeda -> Menelik I, Taharqa (Tirhakah), Kandakes (Candace), Cleopatra VII, Aksum (Ezana/Lalibela), Mali (Sundiata), Inca (Pachacuti), Aztec (Tenochtitlan) & Polynesian Triangle", filter: n => n.tradition !== "dna" && n.tier >= 16 && n.major }
+  { title: "Epoch 7 • Classical, Hellenistic, Aksumite & Pacific Voyaging (600 BCE – 1 CE • Tiers 16–18)", desc: "Solomon & Makeda -> Menelik I, Taharqa, Saite & Last Native Pharaohs (Nectanebo II), Hasmoneans, Herodians, Lydia (Croesus), Hannibal Barca, Seleucids, Bactria (Menander), Parthians, Parnavaz I of Georgia, Cleopatra VII", filter: n => n.tradition !== "dna" && n.tier >= 16 && n.tier <= 18 && n.major },
+  { title: "Epoch 8 • 1st Century CE to Medieval Universal Empires (1 CE – 1453 CE • Tier 19)", desc: "Jesus of Nazareth & 12 Apostles, Roman & Byzantine Emperors (Augustus -> Constantine -> Justinian), Sasanians, Afrighid Khwarazm, Mirian III & Bagrationi Georgia, Kaleb of Aksum, Prophet Muhammad, Charlemagne, Alfred the Great, Gupta India, Han/Tang China & Genghis/Kublai Khan", filter: n => n.tradition !== "dna" && n.tier >= 19 && n.major }
 ];
 
 function renderTimeline() {
@@ -1104,12 +1116,18 @@ function renderTimeline() {
 }
 
 // ---------------- DIRECTORY RENDERER ----------------
-function renderDirectory() {
+let dirDisplayLimit = 250;
+function loadMoreDirectory() { dirDisplayLimit += 500; renderDirectory(true); }
+function showAllDirectory() { dirDisplayLimit = NODES.length; renderDirectory(true); }
+
+function renderDirectory(keepLimit) {
+  if (!keepLimit) dirDisplayLimit = 250;
   const filtered = NODES.filter(n => activeTraditions.has(n.tradition) && matchesSearch(n))
     .sort((a, b) => a.tier - b.tier || a.name.localeCompare(b.name));
-  document.getElementById("dirCount").textContent = `Showing ${filtered.length} of ${NODES.length} individuals & haplogroups`;
+  const slice = filtered.slice(0, dirDisplayLimit);
+  document.getElementById("dirCount").textContent = `Showing ${slice.length} of ${filtered.length} matching (${NODES.length} total individuals & haplogroups)`;
   const tbody = document.getElementById("dirBody");
-  tbody.innerHTML = filtered.map(n => {
+  let html = slice.map(n => {
     const t = TRADITIONS[n.tradition];
     return `
       <tr class="hover:bg-[var(--accent)] cursor-pointer" onclick="selectNode('${n.id}')">
@@ -1124,6 +1142,14 @@ function renderDirectory() {
         </td>
       </tr>`;
   }).join("");
+  if (filtered.length > slice.length) {
+    const rem = filtered.length - slice.length;
+    html += `<tr><td colspan="6" class="py-3 px-3 text-center bg-[var(--sidebar)]">
+      <button onclick="loadMoreDirectory()" class="px-3 py-1 rounded bg-[var(--primary)] text-[var(--primary-foreground)] font-medium mr-2">Load 500 More (${rem} remaining)</button>
+      <button onclick="showAllDirectory()" class="px-3 py-1 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Show All ${filtered.length}</button>
+    </td></tr>`;
+  }
+  tbody.innerHTML = html;
 }
 
 // ---------------- TREE SVG RENDERER ----------------

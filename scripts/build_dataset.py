@@ -10,6 +10,18 @@ import json
 from collections import Counter
 from pathlib import Path
 
+from modules import (
+    mod16_biblical_nt_syriac,
+    mod17_mesopotamia_complete,
+    mod18_egypt_31_dynasties,
+    mod19_caucasus_biruni_kebra,
+    mod20_greek_apollodorus_hesiod,
+    mod21_india_pargiter,
+    mod22_east_asia_mongols,
+    mod23_celtic_lebor_gabala,
+    mod24_classical_empires_universal,
+)
+
 ROOT = Path(__file__).resolve().parent.parent
 MODULES_DIR = ROOT / "data" / "modules"
 OUT_ALL = ROOT / "data" / "world_genealogy.json"
@@ -1226,6 +1238,15 @@ def main():
         build_module_13_americas_polynesia(),
         build_module_14_archaeogenetics_dna(),
         build_module_15_adam2jesus_biblical(),
+        mod16_biblical_nt_syriac.build_module(),
+        mod17_mesopotamia_complete.build_module(),
+        mod18_egypt_31_dynasties.build_module(),
+        mod19_caucasus_biruni_kebra.build_module(),
+        mod20_greek_apollodorus_hesiod.build_module(),
+        mod21_india_pargiter.build_module(),
+        mod22_east_asia_mongols.build_module(),
+        mod23_celtic_lebor_gabala.build_module(),
+        mod24_classical_empires_universal.build_module(),
     ]
 
     all_nodes, all_edges = [], []
@@ -1258,8 +1279,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Adam2Jesus + Complete Global + Archaeogenetics Edition (Phase 10)",
-            "version": "10.0.0",
+            "title": "Ancient World Genealogy Atlas — 31-Source Master Global Archive (Phase 11)",
+            "version": "11.0.0",
             "modules": module_summaries,
             "linkTypes": LINK_TYPES,
         },

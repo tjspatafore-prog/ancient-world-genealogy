@@ -1,0 +1,2627 @@
+{
+  "module": "16_biblical_syriac_hasmonean_nt",
+  "title": "Exhaustive 1 Chronicles Tribal Lineages, Second Temple High Priests, Hasmoneans, Herodians, Complete NT Apostles & Josephus (Sources: UsefulCharts, 1975 FamilyTree, Bennett 1967, Josephus)",
+  "nodes": [
+    {
+      "id": "chr_hezron_ram",
+      "name": "Hezron → Jerahmeel, Ram, Caleb (Chelubai) & Ashhur",
+      "altNames": [
+        "Hezron",
+        "Jerahmeel",
+        "Caleb ben Hezron",
+        "Ashhur"
+      ],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Egypt / Wilderness (1 Chr 2:9-24)",
+      "role": "Founders of the Four Great Clans of Judah",
+      "sources": [
+        "1 Chronicles 2:9-24",
+        "Bennett 1967 Chart",
+        "1975 FamilyTree Chart"
+      ],
+      "notes": "Hezron (son of Perez) fathers Jerahmeel, Ram (ancestral line to David via Amminadab -> Nahshon -> Salmon + Rahab -> Boaz), Caleb/Chelubai (+ Azubah, Jerioth, Ephrath -> Hur), and posthumously Ashhur (father of Tekoa via Abijah).",
+      "major": false
+    },
+    {
+      "id": "chr_hur_bezalel",
+      "name": "Hur (son of Caleb & Ephrath) → Uri → Bezalel (Tabernacle Architect)",
+      "altNames": [
+        "Hur",
+        "Uri",
+        "Shobal",
+        "Salma of Bethlehem"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Exodus Era (Ex 31:2; 1 Chr 2:19-20)",
+      "role": "Chief Craftsman of the Ark & Tabernacle",
+      "sources": [
+        "Exodus 31:2",
+        "1 Chronicles 2:19-20",
+        "1975 FamilyTree Chart"
+      ],
+      "notes": "Hur (who held up Moses's hands at Rephidim alongside Aaron) fathers Uri -> Bezalel, Shobal (father of Kiriath-jearim), Salma (father of Bethlehem), and Hareph (father of Beth-gader).",
+      "major": false
+    },
+    {
+      "id": "chr_elimelech_naomi",
+      "name": "Elimelech & Naomi → Mahlon (+ Ruth) & Chilion (+ Orpah)",
+      "altNames": [
+        "Naomi",
+        "Ruth the Moabite",
+        "Orpah"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Judges Era (Book of Ruth 1)",
+      "role": "Bethlehem Ephrathite Family of Ruth",
+      "sources": [
+        "Ruth 1:1-5",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Elimelech and Naomi migrate from Bethlehem to Moab; their sons Mahlon and Chilion marry Moabite women Ruth and Orpah. After Mahlon's death, Boaz redeems Ruth, fathering Obed -> Jesse -> King David.",
+      "major": false
+    },
+    {
+      "id": "chr_jesse_nitzevet",
+      "name": "Jesse & Nitzevet → Eliab, Abinadab, Shimea, Nethanel, Raddai, Ozem & David",
+      "altNames": [
+        "Nitzevet",
+        "Abinadab",
+        "Shimea",
+        "Nethanel",
+        "Raddai",
+        "Ozem"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "c. 1070-1010 BCE (1 Chr 2:13-17; Talmud)",
+      "role": "Complete Household of Jesse of Bethlehem",
+      "sources": [
+        "1 Chronicles 2:13-17",
+        "Talmud Bava Batra 91a",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Talmudic tradition names David's mother Nitzevet bat Adael. Jesse's seven sons (Eliab, Abinadab, Shimea/Shammah -> Jonadab, Nethanel, Raddai, Ozem, David) and two daughters (Zeruiah -> Joab/Abishai/Asahel; Abigail + Ithra/Jether -> Amasa).",
+      "major": false
+    },
+    {
+      "id": "chr_david_wives_sons",
+      "name": "King David's Complete Household (8 Wives & 19 Named Sons + Tamar)",
+      "altNames": [
+        "Amnon",
+        "Chileab",
+        "Absalom",
+        "Adonijah",
+        "Nathan ben David",
+        "Bathsheba",
+        "Maacah of Geshur"
+      ],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (2 Sam 3; 1 Chr 3:1-9)",
+      "role": "Full Royal House of David in Hebron & Jerusalem",
+      "sources": [
+        "2 Samuel 3:2-5, 5:14-16",
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Hebron sons: Amnon (by Ahinoam), Chileab/Daniel (by Abigail), Absalom & Tamar (by Maacah bat Talmai of Geshur), Adonijah (by Haggith), Shephatiah (by Abital), Ithream (by Eglah). Jerusalem sons: Shammua, Shobab, Nathan (Luke 3 line!), Solomon (by Bathsheba), plus Ibhar, Elishua, Eliphelet, Nogah, Nepheg, Japhia, Elishama, Eliada & Jerimoth.",
+      "major": true
+    },
+    {
+      "id": "chr_reuben_dathan",
+      "name": "Eliab (Reuben) → Nemuel, Dathan & Abiram (Korah's Rebellion)",
+      "altNames": [
+        "Dathan",
+        "Abiram",
+        "Elizur ben Shedeur"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Wilderness Era (Num 16:1, 26:8-9)",
+      "role": "Reubenite Leaders of the Wilderness Revolt",
+      "sources": [
+        "Numbers 16:1, 26:8-9",
+        "1975 FamilyTree Chart",
+        "Bennett 1967 Chart"
+      ],
+      "notes": "Pallu -> Eliab -> Dathan and Abiram, who joined Korah the Levite in challenging Moses and Aaron in the wilderness. Also Reubenite Prince Elizur son of Shedeur & Shammua son of Zaccur (spy).",
+      "major": false
+    },
+    {
+      "id": "chr_levi_24_courses",
+      "name": "24 Levitical Priestly Courses (Jehoiarib, Abijah, Zadok) & Temple Musicians",
+      "altNames": [
+        "Course of Jehoiarib",
+        "Course of Abijah",
+        "Ethan/Jeduthun"
+      ],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1000 BCE (1 Chr 6 & 24)",
+      "role": "24 Priestly Divisions + Asaph, Heman & Ethan (Jeduthun)",
+      "sources": [
+        "1 Chronicles 6, 24-25",
+        "1975 FamilyTree Chart"
+      ],
+      "notes": "King David organized Aaron's descendants (16 courses of Eleazar, 8 of Ithamar) into 24 priestly rotations: 1. Jehoiarib (Hasmonean/Maccabee clan!), 8. Abijah (Zechariah father of John the Baptist!). Alongside Temple Choirs of Gershon (Asaph), Kohath (Heman), and Merari (Ethan/Jeduthun).",
+      "major": false
+    },
+    {
+      "id": "chr_manasseh_machir",
+      "name": "Machir (Manasseh) → Gilead → Hepher → Zelophehad & Jair",
+      "altNames": [
+        "Machir",
+        "Gilead",
+        "Hepher"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Wilderness / Conquest (Num 26:29-33; 1 Chr 7:14)",
+      "role": "Transjordanian House of Manasseh",
+      "sources": [
+        "Numbers 26:29-33",
+        "1 Chronicles 7:14-19",
+        "1975 FamilyTree Chart"
+      ],
+      "notes": "Machir (son of Manasseh & an Aramean concubine) -> Gilead -> Iezer (ancestor of Gideon!), Helek, Asriel, Shechem, Shemida, and Hepher -> Zelophehad (whose 5 daughters Mahlah, Noah, Hoglah, Milcah, Tirzah established female inheritance law in Israel!).",
+      "major": false
+    },
+    {
+      "id": "chr_ephraim_joshua",
+      "name": "Ephraim → Beriah & Sherah → Resheph → Elishama → Nun → Joshua",
+      "altNames": [
+        "Sherah",
+        "Elishama",
+        "Nun"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Egypt / Exodus (1 Chr 7:20-27)",
+      "role": "Complete 10-Generation Ephraimite Lineage to Joshua",
+      "sources": [
+        "1 Chronicles 7:20-27",
+        "Bennett 1967 Chart",
+        "1975 FamilyTree Chart"
+      ],
+      "notes": "1 Chronicles 7 records Ephraim's daughter Sherah (who built Lower & Upper Beth-horon!) and traces Beriah -> Rephah -> Resheph -> Telah -> Tahan -> Ladan -> Ammihud -> Elishama (Prince of Ephraim) -> Nun -> Joshua (Yehoshua).",
+      "major": false
+    },
+    {
+      "id": "chr_saul_ner_abner",
+      "name": "Jeiel / Abiel → Ner → General Abner & Kish → King Saul's Sons",
+      "altNames": [
+        "General Abner",
+        "Ish-bosheth",
+        "Mephibosheth",
+        "Rizpah"
+      ],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1050-1000 BCE (1 Sam 9, 14; 1 Chr 8-9)",
+      "role": "Complete Benjamite Royal House of Saul",
+      "sources": [
+        "1 Samuel 9:1, 14:50",
+        "1 Chronicles 8:33-40",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Abiel fathers Kish (father of King Saul) and Ner (father of General Abner, commander of Saul's army). Saul's sons: Jonathan (-> Mephibosheth -> Mica), Abinadab, Malchishua, Ish-bosheth (Eshbaal), plus Armoni & Mephibosheth (by Rizpah bat Aiah), and daughters Merab & Michal.",
+      "major": false
+    },
+    {
+      "id": "chr_jeroboam_ano",
+      "name": "Jeroboam I & Queen Ano (Egyptian Princess) → Abijah & Nadab",
+      "altNames": [
+        "Queen Ano of Egypt",
+        "Zeruah"
+      ],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "c. 930-909 BCE (1 Kgs 11-14; Septuagint 3 Kgdms 12)",
+      "role": "Egyptian Royal Marriage of Israel's First Northern King",
+      "sources": [
+        "1 Kings 11:40, 14:1",
+        "Septuagint 3 Kingdoms 12:24e",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "The Greek Septuagint preserves the name Ano, sister-in-law of Pharaoh Shishak (Shoshenq I), given in marriage to Jeroboam I during his Egyptian exile — linking the Northern Kingdom of Israel directly to Egypt's 22nd Dynasty!",
+      "major": false
+    },
+    {
+      "id": "chr_edom_kings",
+      "name": "8 Early Kings of Edom (Bela ben Beor through Hadar & Queen Mehetabel)",
+      "altNames": [
+        "Bela ben Beor",
+        "Jobab of Bozrah",
+        "Baal-hanan",
+        "Hadar & Mehetabel"
+      ],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Pre-Monarchic Edom (Gen 36:31-39; 1 Chr 1:43-50)",
+      "role": "Elective Pre-Israelite Kings of Edom",
+      "sources": [
+        "Genesis 36:31-39",
+        "1 Chronicles 1:43-50",
+        "1975 FamilyTree Chart"
+      ],
+      "notes": "Eight kings who reigned in Edom before any king reigned over Israel: 1. Bela ben Beor (Dinhabah), 2. Jobab ben Zerah of Bozrah, 3. Husham (Temanites), 4. Hadad ben Bedad (defeated Midian), 5. Samlah (Masrekah), 6. Shaul (Rehoboth), 7. Baal-hanan ben Achbor, 8. Hadar/Hadad (+ Mehetabel bat Matred).",
+      "major": false
+    },
+    {
+      "id": "pri_jeshua_eliashib",
+      "name": "High Priest Jeshua (Joshua) → Joiakim → Eliashib → Joiada → Johanan → Jaddua",
+      "altNames": [
+        "Joiakim",
+        "Eliashib",
+        "Joiada",
+        "Johanan",
+        "Jaddua",
+        "Manasseh of Gerizim"
+      ],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "c. 538-320 BCE (Neh 12:10-22; Josephus Ant. XI)",
+      "role": "Persian-Era High Priests of the Second Temple",
+      "sources": [
+        "Nehemiah 12:10-22",
+        "Josephus Antiquities XI.7-8",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Continuous post-exilic Zadokite succession from Seraiah -> Jehozadak -> Jeshua (rebuilt Second Temple with Zerubbabel) down to Jaddua, who according to Josephus (Ant. XI.8.5) met Alexander the Great at Jerusalem in 332 BCE! Jaddua's brother Manasseh married Nikaso daughter of Sanballat and founded the Samaritan Temple on Mount Gerizim.",
+      "major": true
+    },
+    {
+      "id": "pri_onias_dynasty",
+      "name": "Oniad High Priests: Onias I → Simon I the Just → Eleazar → Onias II → Simon II → Onias III",
+      "altNames": [
+        "Onias I",
+        "Simon the Just",
+        "High Priest Eleazar (Septuagint)",
+        "Onias III",
+        "Jason",
+        "Onias IV of Leontopolis"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 320-175 BCE (Josephus Ant. XII; 2 Maccabees)",
+      "role": "Hellenistic-Era Zadokite High Priests",
+      "sources": [
+        "Josephus Antiquities XII.2-5",
+        "2 Maccabees 3-4",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Eleazar sent the 72 scholars to Ptolemy II Philadelphus in Alexandria to translate the Torah into Greek (the Septuagint!). Onias III's brother Jason Hellenized Jerusalem; Onias III's son Onias IV fled to Egypt and built the Jewish Temple at Leontopolis, fathering Helkias & Ananias (generals of Queen Cleopatra III!).",
+      "major": false
+    },
+    {
+      "id": "has_mattathias",
+      "name": "Mattathias of Modi'in (Priest of Course of Jehoiarib)",
+      "altNames": [
+        "Mattathias ben Johanan",
+        "Hasmon"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 167 BCE (1 Macc 2; Josephus Ant. XII.6)",
+      "role": "Patriarch of the Maccabean Revolt",
+      "sources": [
+        "1 Maccabees 2:1-5",
+        "Josephus Antiquities XII.6",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Priest of the line of Joarib/Jehoiarib (son of John, son of Simeon, son of Asamonaeus/Hasmon) who sparked the revolt against Seleucid King Antiochus IV Epiphanes. Father of 5 sons: John Gaddi, Simon Thassi, Judas Maccabeus, Eleazar Avaran, and Jonathan Apphus.",
+      "major": true
+    },
+    {
+      "id": "has_judas_maccabeus",
+      "name": "Judas Maccabeus ('The Hammer'), John Gaddi, Eleazar Avaran & Jonathan Apphus",
+      "altNames": [
+        "Judah Maccabee",
+        "Jonathan Apphus",
+        "Eleazar Avaran",
+        "John Gaddi"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "166-143 BCE (1 Macc 3-12; Josephus Ant. XII-XIII)",
+      "role": "Maccabean Commanders & Hanukkah Liberators",
+      "sources": [
+        "1 Maccabees 3-12",
+        "Josephus Antiquities XII-XIII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Judas Maccabeus rededicated the Second Temple in 164 BCE (origin of Hanukkah); Eleazar Avaran died crushing a Seleucid war elephant; Jonathan Apphus became the first Hasmonean High Priest (152-143 BCE).",
+      "major": true
+    },
+    {
+      "id": "has_simon_hyrcanus1",
+      "name": "Simon Thassi (Ethnarch) → John Hyrcanus I (134-104 BCE)",
+      "altNames": [
+        "Simon Thassi",
+        "John Hyrcanus I"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "142-104 BCE (1 Macc 13-16; Josephus Ant. XIII.7-10)",
+      "role": "Founders of the Independent Hasmonean State",
+      "sources": [
+        "1 Maccabees 13-16",
+        "Josephus Antiquities XIII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Simon Thassi won full independence from the Seleucids; his son John Hyrcanus I expanded Judea, conquered Samaria and Idumea (converting the Edomites/Idumeans — ancestors of Herod the Great!).",
+      "major": false
+    },
+    {
+      "id": "has_jannaeus_salome",
+      "name": "Aristobulus I (1st King) & Alexander Jannaeus + Queen Salome Alexandra",
+      "altNames": [
+        "Aristobulus I",
+        "Alexander Jannaeus",
+        "Queen Salome Alexandra"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "104-67 BCE (Josephus Ant. XIII.11-16)",
+      "role": "Hasmonean Kings & Sole Regnant Queen of Judea",
+      "sources": [
+        "Josephus Antiquities XIII.11-16",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Aristobulus I (Judah) assumed the royal diadem; his brother Alexander Jannaeus married Salome Alexandra, who ruled Judea in her own right (76-67 BCE) — a golden age of Pharisaic scholarship.",
+      "major": true
+    },
+    {
+      "id": "has_hyrcanus2_aristobulus2",
+      "name": "Hyrcanus II & Aristobulus II → Alexander II, Antigonus II & Mariamne I",
+      "altNames": [
+        "Hyrcanus II",
+        "Aristobulus II",
+        "Antigonus II Mattathias",
+        "Mariamne I",
+        "Aristobulus III"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "67-37 BCE (Josephus Ant. XIV-XV)",
+      "role": "Last Hasmonean Rulers & Bridge to the Herodian Dynasty",
+      "sources": [
+        "Josephus Antiquities XIV-XV",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Civil war between brothers Hyrcanus II and Aristobulus II brought Pompey and Rome into Jerusalem (63 BCE). Hyrcanus II's daughter Alexandra married Aristobulus II's son Alexander II, producing Aristobulus III (last Hasmonean High Priest) and Princess Mariamne I — who married Herod the Great!",
+      "major": false
+    },
+    {
+      "id": "her_antipater_cypros",
+      "name": "Antipas → Antipater the Idumean & Cypros (Nabataean Princess)",
+      "altNames": [
+        "Antipater I",
+        "Cypros of Nabataea",
+        "Phasael I",
+        "Salome I"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 100-43 BCE (Josephus Ant. XIV)",
+      "role": "Idumean-Nabataean Founders of the Herodian House",
+      "sources": [
+        "Josephus Antiquities XIV.1, 7",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Antipater (chief minister of Hyrcanus II, appointed Procurator of Judea by Julius Caesar) married Nabataean princess Cypros, fathering Phasael I, Herod I the Great, Joseph I, Pheroras, and Salome I (+ Costobarus).",
+      "major": false
+    },
+    {
+      "id": "her_herod_great_family",
+      "name": "Herod I the Great (10 Wives) → Antipater II, Alexander, Aristobulus IV, Archelaus, Antipas & Philip",
+      "altNames": [
+        "Herod the Great",
+        "Herod Antipas",
+        "Herod Archelaus",
+        "Philip the Tetrarch",
+        "Glaphyra of Cappadocia"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "37-4 BCE (Josephus Ant. XV-XVII; Matt 2)",
+      "role": "Roman Client King of Judea & Builder of the Second Temple",
+      "sources": [
+        "Josephus Antiquities XV-XVII",
+        "Matthew 2",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Married Doris (Antipater II), Hasmonean Mariamne I (Alexander + Glaphyra of Cappadocia; Aristobulus IV + Berenice), Mariamne II bat Simon Boethus (Herod II Philip), Malthace (Archelaus, Herod Antipas), Cleopatra of Jerusalem (Philip the Tetrarch), and 5 other wives.",
+      "major": true
+    },
+    {
+      "id": "her_agrippa_herodias",
+      "name": "Aristobulus IV & Berenice → King Herod Agrippa I, Herod of Chalcis & Herodias (+ Salome)",
+      "altNames": [
+        "Herod Agrippa I",
+        "Herod Agrippa II",
+        "Herodias",
+        "Salome",
+        "Drusilla",
+        "Sampsiceramus II of Emesa"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "c. 10 BCE – 93 CE (Acts 12, 25-26; Josephus Ant. XVIII-XX)",
+      "role": "Final Herodian Monarchs & Emesa/Armenia Royal Marriages",
+      "sources": [
+        "Acts 12, 25-26",
+        "Josephus Antiquities XVIII-XX",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herod Agrippa I (+ Cypros) fathered King Herod Agrippa II, Berenice II, Mariamne, and Drusilla (+ Roman Governor Felix). Herodias (wife of Herod II Philip, then Herod Antipas) was mother of Princess Salome. Aristobulus Minor married Salome; Mariamne's line intermarried with Sampsiceramus II (Priest-King of Emesa) and Tigranes V/VI of Armenia!",
+      "major": false
+    },
+    {
+      "id": "nt_joachim_anne",
+      "name": "Joachim (Heli) & Saint Anne → Blessed Virgin Mary",
+      "altNames": [
+        "Joachim",
+        "Saint Anne",
+        "Sobe"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "1st c. BCE (Luke 3:23; Protoevangelium of James)",
+      "role": "Maternal Grandparents of Jesus of Nazareth",
+      "sources": [
+        "Luke 3:23",
+        "Protoevangelium of James",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Early Christian tradition (Protoevangelium of James) names Mary's parents Joachim (often harmonized with Heli of Luke 3:23) and Anne; Anne's sister Sobe is traditionally mother of Elizabeth (mother of John the Baptist).",
+      "major": false
+    },
+    {
+      "id": "nt_mary_clopas_alphaeus",
+      "name": "Alphaeus (Clopas) & Mary of Clopas → James the Lesser & Jude Thaddeus",
+      "altNames": [
+        "Clopas",
+        "Alphaeus",
+        "Mary of Clopas",
+        "James the Lesser",
+        "Jude Thaddeus"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (Matt 10:3; John 19:25; Eusebius HE III.11)",
+      "role": "Holy Family Kinsmen & Early Bishops of Jerusalem",
+      "sources": [
+        "Matthew 10:3",
+        "John 19:25",
+        "Gervais UsefulChart NT",
+        "Eusebius"
+      ],
+      "notes": "Hegesippus (in Eusebius) records Clopas as brother of Joseph of Nazareth; his son Simeon became the 2nd Bishop of Jerusalem after James the Just! Gervais UsefulChart links Alphaeus/Clopas & Mary of Clopas to Apostles James the Lesser and Jude Thaddeus.",
+      "major": false
+    },
+    {
+      "id": "nt_zebedee_salome",
+      "name": "Zebedee & Salome → Apostle James the Great & Apostle John the Evangelist",
+      "altNames": [
+        "Zebedee",
+        "Salome",
+        "James the Great",
+        "John the Apostle"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (Matt 4:21, 27:56; Mark 15:40)",
+      "role": "Sons of Thunder (Boanerges) — Inner Circle Apostles",
+      "sources": [
+        "Matthew 4:21, 27:56",
+        "Mark 3:17",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Galilean fishermen brothers James the Great (martyred under Herod Agrippa I, Acts 12:2) and John the Beloved/Evangelist (author of Fourth Gospel & Revelation).",
+      "major": true
+    },
+    {
+      "id": "nt_jonah_peter_andrew",
+      "name": "Jonah (John) of Bethsaida → Apostle Simon Peter & Apostle Andrew",
+      "altNames": [
+        "Simon Peter",
+        "Andrew the Apostle",
+        "Jonah of Bethsaida"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (Matt 16:17; John 1:40-44)",
+      "role": "Chief Apostles of Galilee, Rome & Constantinople",
+      "sources": [
+        "Matthew 16:17",
+        "John 1:40-44",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Simon Peter (Cephas, traditional 1st Bishop of Rome) and his brother Andrew (traditional founder of Byzantium/Constantinople see).",
+      "major": true
+    },
+    {
+      "id": "nt_remaining_apostles",
+      "name": "Apostles Philip, Bartholomew (Nathanael), Matthew (Levi), Thomas, Simon the Zealot, Judas Iscariot & Matthias",
+      "altNames": [
+        "Philip",
+        "Bartholomew",
+        "Matthew Levi",
+        "Thomas Didymus",
+        "Simon the Zealot",
+        "Judas Iscariot",
+        "Matthias"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (Matt 10:2-4; Acts 1:26)",
+      "role": "Complete College of the Twelve Apostles",
+      "sources": [
+        "Matthew 10:2-4",
+        "Acts 1:13, 26",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Completes the Twelve Apostles: Philip of Bethsaida, Bartholomew/Nathanael, Matthew/Levi (son of Alphaeus), Thomas Didymus (traditional Apostle to India!), Simon the Zealot, Judas Iscariot (son of Simon), and his replacement Matthias.",
+      "major": false
+    },
+    {
+      "id": "nt_disciples_bethany",
+      "name": "Mary Magdalene, Joseph of Arimathea, Nicodemus, Lazarus/Martha/Mary, Mark, Luke & Timothy",
+      "altNames": [
+        "Mary Magdalene",
+        "Joseph of Arimathea",
+        "Nicodemus",
+        "Lazarus",
+        "John Mark",
+        "Timothy/Eunice/Lois"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (Gospels; Acts; 2 Tim 1:5)",
+      "role": "Key New Testament Households & Early Church Chroniclers",
+      "sources": [
+        "Gospels",
+        "Acts",
+        "2 Timothy 1:5",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Includes Mary Magdalene, Sanhedrin disciples Joseph of Arimathea & Nicodemus, Bethany siblings Lazarus/Martha/Mary, Barnabas & John Mark (cousins, Col 4:10), Luke the Physician, and Timothy (son of Eunice, grandson of Lois, 2 Tim 1:5).",
+      "major": false
+    },
+    {
+      "id": "jos_table_ethnonyms",
+      "name": "Josephus's Table of Nations Key (Gomer=Gauls, Magog=Scythians, Tubal=Iberians, Meshech=Cappadocians, Tiras=Thracians)",
+      "altNames": [
+        "Josephus Antiquities I.6"
+      ],
+      "tradition": "biblical",
+      "tier": 6,
+      "era": "93 CE (Josephus Antiquities I.6)",
+      "role": "Earliest Classical Greek-to-Genesis Ethnographic Key",
+      "sources": [
+        "Josephus Antiquities I.6 (pp. 66-68)"
+      ],
+      "notes": "Flavius Josephus systematically mapped Genesis 10 into 1st-century Greco-Roman geography: Gomer=Galatians/Gauls, Magog=Scythians, Madai=Medes, Javan=Ionians/Greeks, Tubal=Iberes, Meshech=Cappadocians (Mazaca), Tiras=Thracians, Ashkenaz=Rheginians, Riphath=Paphlagonians, Togarmah=Phrygians, Elishah=Aeolians, Tarshish=Cilicia (Tarsus), Kittim=Cyprus (Kition).",
+      "major": false
+    },
+    {
+      "id": "syr_adam_twins_matriarchs",
+      "name": "Syriac Antediluvian Matriarchs: Lebhûdhâ (Cain's Twin/Wife), Ķelîmath/Aklia (Abel's Twin, Seth's Wife) & Haykêl bat Namûs (Noah's Wife)",
+      "altNames": [
+        "Lebhûdhâ",
+        "Ķelîmath / Aklia",
+        "Haykêl (Wife of Noah)",
+        "Yônâ & Salmûth (Terah's Wives)"
+      ],
+      "tradition": "biblical",
+      "tier": 2,
+      "era": "Antediluvian Syriac Tradition (Cave of Treasures pp. 69-100, 197-198)",
+      "role": "Complete Syriac Matriarchal Chain from Eve to Noah's Wife Haykêl",
+      "sources": [
+        "Syriac Cave of Treasures (Budge 1927 pp. 69-100, 197-198)"
+      ],
+      "notes": "Names every matriarch across 10 antediluvian generations: Cain + twin Lebhûdhâ; Seth + Ķelîmath (Abel's twin); Enos + Ḥannâ; Cainan + Peryath; Mahalalel + Şeḥatpar; Jared + Zebhîdhâ; Enoch + Zadhkîn; Methuselah + Sâkhûth; Lamech + Kîpâr; Noah + Haykêl (daughter of Namûs)! Also names Terah's 2 wives: Yônâ (mother of Abraham) & Salmûth (mother of Sarah).",
+      "major": true
+    },
+    {
+      "id": "syr_yonton_4th_son",
+      "name": "Yônṭôn (4th Son of Noah!) — Sage of Lake Aṭrâs & Teacher of Nimrod's 'Gelyânâ'",
+      "altNames": [
+        "Yônṭôn / Jonitus",
+        "Gelyânâ of Nimrod"
+      ],
+      "tradition": "biblical",
+      "tier": 5,
+      "era": "Post-Flood East (Cave of Treasures pp. 122, 143-144)",
+      "role": "Post-Diluvian 4th Son of Noah & Origin of Eastern Magian Astronomy",
+      "sources": [
+        "Syriac Cave of Treasures (Budge 1927 pp. 122, 143-144)"
+      ],
+      "notes": "Born to Noah after the Flood and sent east to Yôkdôrâ of Nôdh by Lake Aṭrâs! Nimrod journeyed east to Yônṭôn for 3 years and received the astronomical 'Revelation (Gelyânâ) of Nimrod' — the very star-prophecy later followed by the Magi to Bethlehem!",
+      "major": true
+    },
+    {
+      "id": "syr_melchizedek_parents",
+      "name": "Syriac Melchizedek Lineage: Mâlâkh (son of Arphaxad/Cainan) & Yôzâdhâk → Melchizedek",
+      "altNames": [
+        "Mâlâkh & Yôzâdhâk",
+        "Harklêîm & Shêlâthîêl"
+      ],
+      "tradition": "biblical",
+      "tier": 8,
+      "era": "Post-Flood Salem (Cave of Treasures pp. 122-131, 152-153)",
+      "role": "Syriac Parentage of Melchizedek & Guardian of Adam's Body at Golgotha",
+      "sources": [
+        "Syriac Cave of Treasures (Budge 1927 pp. 126-130, 152)"
+      ],
+      "notes": "Unlike rabbinic Shem=Melchizedek, the Syriac Cave of Treasures names Melchizedek's parents as Mâlâkh (brother of Salah, grandson of Arphaxad) and Yôzâdhâk (Book of the Bee variant: Harklêîm & Shêlâthîêl). Shem led 15-year-old Melchizedek to entomb Adam's body at Golgotha!",
+      "major": false
+    },
+    {
+      "id": "syr_twin_jacob_yonakhir",
+      "name": "Syriac Twin Fathers of Joseph & Mary: Matthan + Sebhrath → Twins Jacob (→ Joseph) & Yônâkhîr (+ Dînâ/Ḥannâ → Mary)",
+      "altNames": [
+        "Yônâkhîr & Dînâ/Ḥannâ",
+        "Malkath bat Ezra",
+        "Sebhrath"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "1st c. BCE (Cave of Treasures pp. 194-195, 200-201)",
+      "role": "Syriac Harmonization Making Joseph & Virgin Mary First Cousins!",
+      "sources": [
+        "Syriac Cave of Treasures (Budge 1927 pp. 194-201)"
+      ],
+      "notes": "Preserves EVERY post-exilic matriarch from Zerubbabel (+ Malkath bat Ezra!) through Abiud (+ Zakhyath bat Joshua) to Matthan (+ Sebhrath bat Phinehas), who bore TWINS Jacob (father of Joseph by Ḥadbhîth) and Yônâkhîr (father of Mary by Dînâ/Ḥannâ)!",
+      "major": false
+    },
+    {
+      "id": "syr_magi_kings",
+      "name": "The Magi Kings of the East: Hôrmîzdâdh (Persia), Îzgarad (Sâbhâ) & Perôzadh (Sheba) + 12 Magi (Book of the Bee)",
+      "altNames": [
+        "Hôrmîzdâdh",
+        "Îzgarad",
+        "Perôzadh",
+        "Gûshnâsâph s/o Gûndaphar"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (Cave of Treasures pp. 208-209; Book of the Bee Ch. 39)",
+      "role": "Persian & Sabaean Royal Astronomers Following Nimrod's Prophecy to Christ",
+      "sources": [
+        "Syriac Cave of Treasures (Budge 1927 pp. 208-209)",
+        "Book of the Bee Ch. 39"
+      ],
+      "notes": "Three kings: Hôrmîzdâdh of Mâkhôzdî (King of Kings of Persia), Îzgarad (Yazdegerd, King of Sâbhâ), and Perôzadh (King of Sheba). Book of the Bee expands to 12 named Magi with patronymics (Zarwândâd s/o Artabân, Gûshnâsâph s/o Gûndaphar [Indo-Parthian Gondophares!], Arshakh, Merôdâch, etc.)!",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_01_amnon_firstborn_of_david_by_",
+      "name": "Amnon (Firstborn of David by Ahinoam)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_02_chileab_daniel_son_by_abigai",
+      "name": "Chileab / Daniel (Son by Abigail)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_03_absalom_son_by_maacah_of_ges",
+      "name": "Absalom (Son by Maacah of Geshur)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_04_princess_tamar_daughter_of_d",
+      "name": "Princess Tamar (Daughter of David & Maacah)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_05_adonijah_son_by_haggith",
+      "name": "Adonijah (Son by Haggith)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_06_shephatiah_son_by_abital",
+      "name": "Shephatiah (Son by Abital)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_07_ithream_son_by_eglah",
+      "name": "Ithream (Son by Eglah)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_08_shammua_son_by_bathsheba",
+      "name": "Shammua (Son by Bathsheba)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_09_shobab_son_by_bathsheba",
+      "name": "Shobab (Son by Bathsheba)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_10_nathan_ben_david_son_by_bath",
+      "name": "Nathan ben David (Son by Bathsheba — Luke 3)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_11_ibhar_elishua_eliphelet_jeru",
+      "name": "Ibhar, Elishua & Eliphelet (Jerusalem Sons)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_12_nogah_nepheg_japhia_jerusale",
+      "name": "Nogah, Nepheg & Japhia (Jerusalem Sons)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_dav_13_elishama_eliada_jerimoth_jer",
+      "name": "Elishama, Eliada & Jerimoth (Jerusalem Sons)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 1010-970 BCE (1 Chr 3:1-9)",
+      "role": "Child / Wife of King David",
+      "sources": [
+        "1 Chronicles 3:1-9",
+        "Gervais UsefulChart Exodus"
+      ],
+      "notes": "Child / Wife of King David (c. 1010-970 BCE (1 Chr 3:1-9)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_01_high_priest_jeshua_ben_jehoz",
+      "name": "High Priest Jeshua ben Jehozadak",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_02_high_priest_joiakim",
+      "name": "High Priest Joiakim",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_03_high_priest_eliashib",
+      "name": "High Priest Eliashib",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_04_high_priest_joiada",
+      "name": "High Priest Joiada",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_05_high_priest_johanan",
+      "name": "High Priest Johanan",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_06_high_priest_jaddua_met_alexa",
+      "name": "High Priest Jaddua (Met Alexander 332 BCE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_07_high_priest_onias_i",
+      "name": "High Priest Onias I",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_08_high_priest_simon_i_the_just",
+      "name": "High Priest Simon I the Just",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_09_high_priest_eleazar_septuagi",
+      "name": "High Priest Eleazar (Septuagint Translator Sponsor)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_10_high_priest_onias_ii",
+      "name": "High Priest Onias II",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_11_high_priest_simon_ii",
+      "name": "High Priest Simon II",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_12_high_priest_onias_iii",
+      "name": "High Priest Onias III",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_13_high_priest_jason_hellenizer",
+      "name": "High Priest Jason (Hellenizer)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_pri_14_high_priest_onias_iv_built_l",
+      "name": "High Priest Onias IV (Built Leontopolis Temple in Egypt)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538-145 BCE (Neh 12; Josephus)",
+      "role": "Second Temple High Priest",
+      "sources": [
+        "Josephus Antiquities XI-XII",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Second Temple High Priest (c. 538-145 BCE (Neh 12; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_01_john_gaddi_son_of_mattathias",
+      "name": "John Gaddi (Son of Mattathias)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_02_eleazar_avaran_son_of_mattat",
+      "name": "Eleazar Avaran (Son of Mattathias)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_03_jonathan_apphus_1st_hasmonea",
+      "name": "Jonathan Apphus (1st Hasmonean High Priest)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_04_simon_thassi_ethnarch_high_p",
+      "name": "Simon Thassi (Ethnarch & High Priest)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_05_john_hyrcanus_i_134_104_bce",
+      "name": "John Hyrcanus I (134-104 BCE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_06_king_aristobulus_i_104_103_b",
+      "name": "King Aristobulus I (104-103 BCE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_07_king_alexander_jannaeus_103_",
+      "name": "King Alexander Jannaeus (103-76 BCE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_08_queen_salome_alexandra_76_67",
+      "name": "Queen Salome Alexandra (76-67 BCE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_09_hyrcanus_ii_high_priest_ethn",
+      "name": "Hyrcanus II (High Priest & Ethnarch)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_10_king_aristobulus_ii",
+      "name": "King Aristobulus II",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_11_alexander_ii_of_judea",
+      "name": "Alexander II of Judea",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_12_king_antigonus_ii_mattathias",
+      "name": "King Antigonus II Mattathias (Last Hasmonean King)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_13_queen_mariamne_i_wife_of_her",
+      "name": "Queen Mariamne I (Wife of Herod the Great)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_has_14_high_priest_aristobulus_iii",
+      "name": "High Priest Aristobulus III",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "167-37 BCE (1-2 Maccabees; Josephus)",
+      "role": "Maccabean / Hasmonean Leader",
+      "sources": [
+        "1-2 Maccabees",
+        "Josephus Antiquities XII-XV"
+      ],
+      "notes": "Maccabean / Hasmonean Leader (167-37 BCE (1-2 Maccabees; Josephus)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_01_phasael_i_brother_of_herod",
+      "name": "Phasael I (Brother of Herod)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_02_salome_i_sister_of_herod_cos",
+      "name": "Salome I (Sister of Herod + Costobarus)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_03_antipater_ii_son_of_herod_do",
+      "name": "Antipater II (Son of Herod & Doris)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_04_prince_alexander_glaphyra_of",
+      "name": "Prince Alexander (+ Glaphyra of Cappadocia)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_05_prince_aristobulus_iv_bereni",
+      "name": "Prince Aristobulus IV (+ Berenice)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_06_herod_ii_philip_son_by_maria",
+      "name": "Herod II Philip (Son by Mariamne II)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_07_ethnarch_herod_archelaus",
+      "name": "Ethnarch Herod Archelaus",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_08_tetrarch_herod_antipas_phasa",
+      "name": "Tetrarch Herod Antipas (+ Phasaelis & Herodias)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_09_tetrarch_philip_ii_salome",
+      "name": "Tetrarch Philip II (+ Salome)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_10_king_herod_agrippa_i_acts_12",
+      "name": "King Herod Agrippa I (Acts 12)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_11_king_herod_of_chalcis",
+      "name": "King Herod of Chalcis",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_12_princess_herodias_salome",
+      "name": "Princess Herodias & Salome",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_13_king_herod_agrippa_ii_acts_2",
+      "name": "King Herod Agrippa II (Acts 25-26)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_her_14_queen_berenice_ii_drusilla_f",
+      "name": "Queen Berenice II & Drusilla (+ Felix)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus Ant. XIV-XX)",
+      "role": "Herodian Royal Family Member",
+      "sources": [
+        "Josephus Antiquities XIV-XX",
+        "New Testament",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Herodian Royal Family Member (47 BCE – 93 CE (Josephus Ant. XIV-XX)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_01_apostle_simon_peter_cephas",
+      "name": "Apostle Simon Peter (Cephas)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_02_apostle_andrew_brother_of_pe",
+      "name": "Apostle Andrew (Brother of Peter)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_03_apostle_james_the_great_son_",
+      "name": "Apostle James the Great (Son of Zebedee)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_04_apostle_john_the_evangelist_",
+      "name": "Apostle John the Evangelist (Son of Zebedee)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_05_apostle_philip_of_bethsaida",
+      "name": "Apostle Philip of Bethsaida",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_06_apostle_bartholomew_nathanae",
+      "name": "Apostle Bartholomew (Nathanael)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_07_apostle_matthew_levi",
+      "name": "Apostle Matthew (Levi)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_08_apostle_thomas_didymus",
+      "name": "Apostle Thomas Didymus",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_09_apostle_james_the_lesser_son",
+      "name": "Apostle James the Lesser (Son of Alphaeus)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_10_apostle_jude_thaddeus",
+      "name": "Apostle Jude Thaddeus",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_11_apostle_simon_the_zealot",
+      "name": "Apostle Simon the Zealot",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_12_judas_iscariot",
+      "name": "Judas Iscariot",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_13_apostle_matthias",
+      "name": "Apostle Matthias",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_14_james_the_just_bishop_of_jer",
+      "name": "James the Just (Bishop of Jerusalem)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_15_jude_author_of_epistle_of_ju",
+      "name": "Jude (Author of Epistle of Jude)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_16_mary_magdalene",
+      "name": "Mary Magdalene",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_17_joseph_of_arimathea_nicodemu",
+      "name": "Joseph of Arimathea & Nicodemus",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_18_lazarus_martha_mary_of_betha",
+      "name": "Lazarus, Martha & Mary of Bethany",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_19_barnabas_john_mark",
+      "name": "Barnabas & John Mark",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_20_luke_the_evangelist",
+      "name": "Luke the Evangelist",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    },
+    {
+      "id": "bib16_apo_21_timothy_eunice_lois",
+      "name": "Timothy (+ Eunice & Lois)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (New Testament)",
+      "role": "Apostle / New Testament Figure",
+      "sources": [
+        "Gospels & Acts",
+        "Gervais UsefulChart NT"
+      ],
+      "notes": "Apostle / New Testament Figure (1st c. CE (New Testament)).",
+      "major": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "bib_adam",
+      "to": "syr_adam_twins_matriarchs",
+      "type": "expansion",
+      "label": "Syriac Cave of Treasures: Adam & Eve's twin daughters Lebhûdhâ & Ķelîmath"
+    },
+    {
+      "from": "bib_noah",
+      "to": "syr_yonton_4th_son",
+      "type": "expansion",
+      "label": "4th son of Noah born after the Flood (Cave of Treasures p. 122)"
+    },
+    {
+      "from": "syr_yonton_4th_son",
+      "to": "bib_nimrod",
+      "type": "expansion",
+      "label": "Nimrod journeys east to Yônṭôn and receives Gelyânâ astronomy (p. 143)"
+    },
+    {
+      "from": "bib_arphaxad",
+      "to": "syr_melchizedek_parents",
+      "type": "expansion",
+      "label": "Mâlâkh (grandson of Arphaxad) & Yôzâdhâk -> Melchizedek (p. 152)"
+    },
+    {
+      "from": "syr_melchizedek_parents",
+      "to": "bib_melchizedek",
+      "type": "expansion",
+      "label": "Syriac parentage of Melchizedek"
+    },
+    {
+      "from": "nt_matthew_joseph",
+      "to": "syr_twin_jacob_yonakhir",
+      "type": "expansion",
+      "label": "Matthan + Sebhrath -> twin sons Jacob (Joseph) & Yônâkhîr (Mary)"
+    },
+    {
+      "from": "syr_twin_jacob_yonakhir",
+      "to": "nt_jesus",
+      "type": "expansion",
+      "label": "Syriac first-cousin harmonization of Joseph & Mary"
+    },
+    {
+      "from": "syr_yonton_4th_son",
+      "to": "syr_magi_kings",
+      "type": "expansion",
+      "label": "Magi follow the Revelation of Nimrod/Yônṭôn to Bethlehem (p. 205-209)"
+    },
+    {
+      "from": "syr_magi_kings",
+      "to": "nt_jesus",
+      "type": "direct",
+      "label": "Adoration of the Magi (Matt 2; Cave of Treasures pp. 208-209)"
+    },
+    {
+      "from": "jud_perez",
+      "to": "chr_hezron_ram",
+      "type": "direct",
+      "label": "Son Hezron -> 4 great Judahite clans (1 Chr 2:9-24)"
+    },
+    {
+      "from": "chr_hezron_ram",
+      "to": "jud_boaz_jesse",
+      "type": "direct",
+      "label": "Ram -> Amminadab -> Nahshon -> Salmon -> Boaz (1 Chr 2:10-15)"
+    },
+    {
+      "from": "chr_hezron_ram",
+      "to": "chr_hur_bezalel",
+      "type": "direct",
+      "label": "Caleb ben Hezron + Ephrath -> Hur -> Uri -> Bezalel (1 Chr 2:19-20)"
+    },
+    {
+      "from": "chr_elimelech_naomi",
+      "to": "jud_boaz_jesse",
+      "type": "direct",
+      "label": "Ruth (widow of Mahlon) marries Boaz -> Obed -> Jesse (Ruth 4)"
+    },
+    {
+      "from": "jud_boaz_jesse",
+      "to": "chr_jesse_nitzevet",
+      "type": "expansion",
+      "label": "Complete family of Jesse & Nitzevet (1 Chr 2:13-17; Talmud)"
+    },
+    {
+      "from": "chr_jesse_nitzevet",
+      "to": "jud_david",
+      "type": "direct",
+      "label": "Youngest son of Jesse & Nitzevet"
+    },
+    {
+      "from": "jud_david",
+      "to": "chr_david_wives_sons",
+      "type": "direct",
+      "label": "Complete 8 wives & 19+ named children of King David (1 Chr 3:1-9)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "jud_solomon",
+      "type": "direct",
+      "label": "Son by Bathsheba (Royal Line)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "nt_luke_mary",
+      "type": "direct",
+      "label": "Son Nathan (Luke 3:31 messianic line)"
+    },
+    {
+      "from": "tri_reuben_pallu",
+      "to": "chr_reuben_dathan",
+      "type": "direct",
+      "label": "Pallu -> Eliab -> Dathan & Abiram (Num 26:8-9)"
+    },
+    {
+      "from": "lev_aaron",
+      "to": "chr_levi_24_courses",
+      "type": "direct",
+      "label": "24 Priestly Divisions of Eleazar & Ithamar (1 Chr 24)"
+    },
+    {
+      "from": "chr_levi_24_courses",
+      "to": "has_mattathias",
+      "type": "direct",
+      "label": "1st Course of Jehoiarib -> Hasmonean Priests (1 Macc 2:1)"
+    },
+    {
+      "from": "chr_levi_24_courses",
+      "to": "nt_john_baptist",
+      "type": "direct",
+      "label": "8th Course of Abijah -> Zechariah & John the Baptist (Luke 1:5)"
+    },
+    {
+      "from": "jos_manasseh",
+      "to": "chr_manasseh_machir",
+      "type": "direct",
+      "label": "Manasseh -> Machir -> Gilead -> Hepher -> Zelophehad (Num 26:29)"
+    },
+    {
+      "from": "chr_manasseh_machir",
+      "to": "bib_zelophehad_bezalel",
+      "type": "direct",
+      "label": "Hepher -> Zelophehad -> 5 Daughters (Num 27:1)"
+    },
+    {
+      "from": "jos_ephraim",
+      "to": "chr_ephraim_joshua",
+      "type": "direct",
+      "label": "Ephraim -> Beriah -> Elishama -> Nun -> Joshua (1 Chr 7:20-27)"
+    },
+    {
+      "from": "chr_ephraim_joshua",
+      "to": "bib_joshua_caleb",
+      "type": "direct",
+      "label": "Nun -> Joshua son of Nun"
+    },
+    {
+      "from": "bib_saul",
+      "to": "chr_saul_ner_abner",
+      "type": "direct",
+      "label": "Abiel -> Kish (Saul) & Ner (General Abner) (1 Chr 8:33)"
+    },
+    {
+      "from": "kg_i1_jeroboam",
+      "to": "chr_jeroboam_ano",
+      "type": "expansion",
+      "label": "Septuagint marriage to Egyptian Princess Ano (3 Kgdms 12:24e)"
+    },
+    {
+      "from": "eg_shoshenq1",
+      "to": "chr_jeroboam_ano",
+      "type": "expansion",
+      "label": "Pharaoh Shishak gives sister-in-law Ano to Jeroboam (LXX)"
+    },
+    {
+      "from": "bib_esau",
+      "to": "chr_edom_kings",
+      "type": "direct",
+      "label": "Pre-monarchic elective Kings of Edom (Gen 36:31-39)"
+    },
+    {
+      "from": "pri_ezra_jaddua",
+      "to": "pri_jeshua_eliashib",
+      "type": "direct",
+      "label": "Post-exilic Zadokite High Priest succession (Neh 12; Josephus Ant. XI)"
+    },
+    {
+      "from": "pri_jeshua_eliashib",
+      "to": "pri_onias_dynasty",
+      "type": "direct",
+      "label": "Jaddua -> Onias I -> Simon the Just -> Onias III & IV (Josephus Ant. XII)"
+    },
+    {
+      "from": "pri_jeshua_eliashib",
+      "to": "grk_alexander",
+      "type": "cognate",
+      "label": "High Priest Jaddua meets Alexander the Great in 332 BCE (Josephus Ant. XI.8)"
+    },
+    {
+      "from": "has_mattathias",
+      "to": "has_judas_maccabeus",
+      "type": "direct",
+      "label": "Sons of Mattathias (1 Macc 2:2-5)"
+    },
+    {
+      "from": "has_mattathias",
+      "to": "has_simon_hyrcanus1",
+      "type": "direct",
+      "label": "Son Simon Thassi -> John Hyrcanus I"
+    },
+    {
+      "from": "has_simon_hyrcanus1",
+      "to": "has_jannaeus_salome",
+      "type": "direct",
+      "label": "Sons Aristobulus I & Alexander Jannaeus (+ Salome Alexandra)"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "has_hyrcanus2_aristobulus2",
+      "type": "direct",
+      "label": "Sons Hyrcanus II & Aristobulus II -> Mariamne I"
+    },
+    {
+      "from": "bib_esau",
+      "to": "her_antipater_cypros",
+      "type": "expansion",
+      "label": "Idumean/Edomite descent of the Herodians (Josephus Ant. XIV)"
+    },
+    {
+      "from": "her_antipater_cypros",
+      "to": "her_herod_great_family",
+      "type": "direct",
+      "label": "Antipater & Cypros -> Herod I the Great"
+    },
+    {
+      "from": "has_hyrcanus2_aristobulus2",
+      "to": "her_herod_great_family",
+      "type": "direct",
+      "label": "Hasmonean Princess Mariamne I marries Herod the Great"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "nt_herodians",
+      "type": "direct",
+      "label": "Consolidation into NT Herodian rulers"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "her_agrippa_herodias",
+      "type": "direct",
+      "label": "Aristobulus IV + Berenice -> Herod Agrippa I & Herodias"
+    },
+    {
+      "from": "nt_luke_mary",
+      "to": "nt_joachim_anne",
+      "type": "expansion",
+      "label": "Heli / Joachim & Anne -> Virgin Mary (Luke 3; Protoevangelium)"
+    },
+    {
+      "from": "nt_joachim_anne",
+      "to": "nt_jesus",
+      "type": "direct",
+      "label": "Maternal grandparents of Jesus"
+    },
+    {
+      "from": "nt_joachim_anne",
+      "to": "nt_john_baptist",
+      "type": "expansion",
+      "label": "Anne's sister Sobe -> Elizabeth -> John the Baptist (Traditional)"
+    },
+    {
+      "from": "nt_matthew_joseph",
+      "to": "nt_mary_clopas_alphaeus",
+      "type": "expansion",
+      "label": "Clopas, brother of Joseph of Nazareth (Hegesippus/Eusebius)"
+    },
+    {
+      "from": "nt_jesus",
+      "to": "nt_zebedee_salome",
+      "type": "direct",
+      "label": "Inner-circle Apostles James the Great & John (Mark 3:17)"
+    },
+    {
+      "from": "nt_jesus",
+      "to": "nt_jonah_peter_andrew",
+      "type": "direct",
+      "label": "Apostles Simon Peter & Andrew (Matt 4:18)"
+    },
+    {
+      "from": "nt_jesus",
+      "to": "nt_mary_clopas_alphaeus",
+      "type": "direct",
+      "label": "Apostles James the Lesser & Jude Thaddeus"
+    },
+    {
+      "from": "nt_jesus",
+      "to": "nt_remaining_apostles",
+      "type": "direct",
+      "label": "Remaining Apostles of the Twelve (Matt 10:2-4)"
+    },
+    {
+      "from": "nt_jesus",
+      "to": "nt_disciples_bethany",
+      "type": "direct",
+      "label": "Close disciples, Bethany household & early chroniclers"
+    },
+    {
+      "from": "bib_japheth",
+      "to": "jos_table_ethnonyms",
+      "type": "cognate",
+      "label": "Josephus Antiquities I.6 Greco-Roman ethnographic identifications"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_01_amnon_firstborn_of_david_by_",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_02_chileab_daniel_son_by_abigai",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_03_absalom_son_by_maacah_of_ges",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_04_princess_tamar_daughter_of_d",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_05_adonijah_son_by_haggith",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_06_shephatiah_son_by_abital",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_07_ithream_son_by_eglah",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_08_shammua_son_by_bathsheba",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_09_shobab_son_by_bathsheba",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_10_nathan_ben_david_son_by_bath",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_11_ibhar_elishua_eliphelet_jeru",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_12_nogah_nepheg_japhia_jerusale",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "chr_david_wives_sons",
+      "to": "bib16_dav_13_elishama_eliada_jerimoth_jer",
+      "type": "direct",
+      "label": "Child of King David (1 Chr 3)"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_01_high_priest_jeshua_ben_jehoz",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_02_high_priest_joiakim",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_03_high_priest_eliashib",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_04_high_priest_joiada",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_05_high_priest_johanan",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_06_high_priest_jaddua_met_alexa",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_07_high_priest_onias_i",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_08_high_priest_simon_i_the_just",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_09_high_priest_eleazar_septuagi",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_10_high_priest_onias_ii",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_11_high_priest_simon_ii",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_12_high_priest_onias_iii",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_13_high_priest_jason_hellenizer",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "bib16_pri_14_high_priest_onias_iv_built_l",
+      "type": "direct",
+      "label": "Second Temple Zadokite High Priest"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_01_john_gaddi_son_of_mattathias",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_02_eleazar_avaran_son_of_mattat",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_03_jonathan_apphus_1st_hasmonea",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_04_simon_thassi_ethnarch_high_p",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_05_john_hyrcanus_i_134_104_bce",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_06_king_aristobulus_i_104_103_b",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_07_king_alexander_jannaeus_103_",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_08_queen_salome_alexandra_76_67",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_09_hyrcanus_ii_high_priest_ethn",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_10_king_aristobulus_ii",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_11_alexander_ii_of_judea",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_12_king_antigonus_ii_mattathias",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_13_queen_mariamne_i_wife_of_her",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "has_jannaeus_salome",
+      "to": "bib16_has_14_high_priest_aristobulus_iii",
+      "type": "direct",
+      "label": "Hasmonean / Maccabean Dynasty"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_01_phasael_i_brother_of_herod",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_02_salome_i_sister_of_herod_cos",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_03_antipater_ii_son_of_herod_do",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_04_prince_alexander_glaphyra_of",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_05_prince_aristobulus_iv_bereni",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_06_herod_ii_philip_son_by_maria",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_07_ethnarch_herod_archelaus",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_08_tetrarch_herod_antipas_phasa",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_09_tetrarch_philip_ii_salome",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_10_king_herod_agrippa_i_acts_12",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_11_king_herod_of_chalcis",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_12_princess_herodias_salome",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_13_king_herod_agrippa_ii_acts_2",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "bib16_her_14_queen_berenice_ii_drusilla_f",
+      "type": "direct",
+      "label": "Herodian Dynasty Member"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_01_apostle_simon_peter_cephas",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_02_apostle_andrew_brother_of_pe",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_03_apostle_james_the_great_son_",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_04_apostle_john_the_evangelist_",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_05_apostle_philip_of_bethsaida",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_06_apostle_bartholomew_nathanae",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_07_apostle_matthew_levi",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_08_apostle_thomas_didymus",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_09_apostle_james_the_lesser_son",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_10_apostle_jude_thaddeus",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_11_apostle_simon_the_zealot",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_12_judas_iscariot",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_13_apostle_matthias",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_14_james_the_just_bishop_of_jer",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_15_jude_author_of_epistle_of_ju",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_16_mary_magdalene",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_17_joseph_of_arimathea_nicodemu",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_18_lazarus_martha_mary_of_betha",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_19_barnabas_john_mark",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_20_luke_the_evangelist",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "bib16_apo_21_timothy_eunice_lois",
+      "type": "direct",
+      "label": "New Testament Apostle / Household"
+    }
+  ]
+}

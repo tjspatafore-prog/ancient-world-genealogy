@@ -1,0 +1,4799 @@
+{
+  "module": "17_mesopotamia_complete_kinglists",
+  "title": "Complete Assyrian King List (All 116 Kings, Pruzsinszky), Remaining Sumerian King List Dynasties (Jacobsen AS 11) & Complete Babylonian Dynasties (L.W. King)",
+  "nodes": [
+    {
+      "id": "akl_01_tudiya",
+      "name": "1. Tudiya (1st Assyrian Tent-King)",
+      "altNames": [
+        "Tudia",
+        "Dudiya"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2400 BCE (AKL 1)",
+      "role": "First King of Assyria (Ebla Treaty Attested!)",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "First of the '17 kings who lived in tents' in the Assyrian King List; historically attested in the Ebla archives concluding a trade treaty with Vizier Ibrium of Ebla!",
+      "major": true
+    },
+    {
+      "id": "akl_02_adamu",
+      "name": "2. Adamu (2nd Assyrian Tent-King)",
+      "altNames": [
+        "Cognate: Adam"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2380 BCE (AKL 2)",
+      "role": "West Semitic/Assyrian Tent-King (Cognate of Adam!)",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Second king of Assyria in the AKL; earliest known historical ruler bearing the Semitic name Adamu ('Man/Red Earth'), cognate with Biblical Adam!",
+      "major": true
+    },
+    {
+      "id": "akl_03_08_tents",
+      "name": "3–8. Yangi, Suhlamu, Harharu, Mandaru, Imsu & Harsu",
+      "altNames": [
+        "Yangi",
+        "Suhlamu",
+        "Harharu",
+        "Mandaru",
+        "Imsu",
+        "Harsu"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL 3-8)",
+      "role": "Assyrian Tent-Dwelling Patriarchal Kings",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Kings 3-8 of the AKL tent-dwellers, reflecting Amorite/West Semitic pastoral confederacies.",
+      "major": false
+    },
+    {
+      "id": "akl_09_10_didanu_hanu",
+      "name": "9–10. Didanu (Tidnum) & Hanu (Hana)",
+      "altNames": [
+        "Didanu / Tidnum",
+        "Hanu"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2240-2200 BCE (AKL 9-10)",
+      "role": "Eponymous Amorite Tribal Ancestors (Cognate: Dedan?)",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Didanu corresponds to the Amorite tribe Tidnum/Ditanu (also ancestral to the Ugaritic royal cult and compared with Biblical Dedan); Hanu corresponds to the Middle Euphrates tribe of Hana.",
+      "major": false
+    },
+    {
+      "id": "akl_11_15_tents",
+      "name": "11–15. Zuabu, Nuabu, Abazu, Belu & Azarah",
+      "altNames": [
+        "Zuabu",
+        "Nuabu",
+        "Abazu",
+        "Belu",
+        "Azarah"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2180-2100 BCE (AKL 11-15)",
+      "role": "Late Tent-Dwelling Kings of Assyria",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Kings 11-15 of the canonical Assyrian King List (Pruzsinszky Table 17a).",
+      "major": false
+    },
+    {
+      "id": "akl_16_ushpia",
+      "name": "16. Ushpia (Builder of the Temple of Ashur)",
+      "altNames": [
+        "Ušpia"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2080 BCE (AKL 16)",
+      "role": "Founder of the E-hursag-kurkurra Temple of Ashur",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Credited in inscriptions of Shalmaneser I and Esarhaddon as the earliest founder of the great Temple of the god Ashur in Assur.",
+      "major": true
+    },
+    {
+      "id": "akl_17_apiashal",
+      "name": "17. Apiashal (Son of Ushpia — Bridge to Ancestors)",
+      "altNames": [
+        "Apiašal"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2060 BCE (AKL 17)",
+      "role": "Last Tent-King & First of the 10 Ancestors",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Appears at both the end of Section 1 (17 tent-dwellers) and the beginning of Section 2 (10 kings whose fathers are known), linking Shamshi-Adad I's pedigree back to Ushpia!",
+      "major": false
+    },
+    {
+      "id": "akl_18_24_ancestors",
+      "name": "18–24. Hale, Samani, Hayani, Ilu-Mer, Yakmesi, Yakmeni & Yazkur-El",
+      "altNames": [
+        "Hale",
+        "Samani",
+        "Hayani",
+        "Ilu-Mer",
+        "Yakmesi",
+        "Yakmeni",
+        "Yazkur-El"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2050-1900 BCE (AKL 18-24)",
+      "role": "Patrilineal Ancestors of Shamshi-Adad I",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Listed in reverse genealogical order ('PN1 son of PN2') in AKL Section 2 to trace the Amorite royal pedigree of Shamshi-Adad I (Pruzsinszky pp. 48, 51).",
+      "major": false
+    },
+    {
+      "id": "akl_25_26_ilukabkabi_aminu",
+      "name": "25–26. Ilu-kabkabi & Aminu (Father & Brother of Shamshi-Adad I)",
+      "altNames": [
+        "Ilu-kabkabi",
+        "Aminu"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 1850-1810 BCE (AKL 25-26)",
+      "role": "Amorite King of Ekallatum / Terqa",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Ilu-kabkabi fathered Aminu and the great conqueror Shamshi-Adad I.",
+      "major": false
+    },
+    {
+      "id": "akl_27_29_sulili_kikia",
+      "name": "27–29. Sulili, Kikia & Akia (End of Ur III Period)",
+      "altNames": [
+        "Sulili",
+        "Kikia",
+        "Akia"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2025-1980 BCE (AKL 27-29)",
+      "role": "Early City-Rulers of Assur (Wall Builder Kikia)",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Kikia built the city wall of Assur; Sulili (son of Aminu) marks Assur's independence after Ur III.",
+      "major": false
+    },
+    {
+      "id": "akl_30_32_puzur_ilushuma",
+      "name": "30–32. Puzur-Ashur I → Shalim-ahum → Ilushuma",
+      "altNames": [
+        "Puzur-Ashur I",
+        "Shalim-ahum",
+        "Ilushuma"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 1975-1935 BCE (AKL 30-32)",
+      "role": "Founders of the Old Assyrian Merchant Dynasty",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Ilushuma established free trade privileges for Akkadian merchants and founded the Old Assyrian trading empire.",
+      "major": false
+    },
+    {
+      "id": "akl_33_34_erishum_ikunum",
+      "name": "33–34. Erishum I (40 yrs, First Eponym List!) → Ikunum (15 yrs)",
+      "altNames": [
+        "Erishum I",
+        "Ikunum"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 1934-1880 BCE (AKL 33-34; KEL)",
+      "role": "First King with Kültepe Eponym List (līmu) Chronology",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Erishum I rebuilt the Ashur Temple and inaugurated the Kültepe Eponym List (KEL), giving exact year-by-year dating from 1974/1934 BCE!",
+      "major": false
+    },
+    {
+      "id": "akl_35_38_sargon1_naramsin",
+      "name": "35–38. Sargon I (40 yrs) → Puzur-Ashur II → Naram-Sin of Assur → Erishum II",
+      "altNames": [
+        "Sargon I of Assyria",
+        "Puzur-Ashur II",
+        "Naram-Sin of Assyria",
+        "Erishum II"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 1880-1808 BCE (AKL 35-38)",
+      "role": "Height of Old Assyrian Anatolian Colony Trade (Kanesh)",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Named after the great Akkadian kings Sargon & Naram-Sin; overthrown in 1808 BCE by Shamshi-Adad I.",
+      "major": false
+    },
+    {
+      "id": "akl_39_40_shamshi_adad1",
+      "name": "39–40. Shamshi-Adad I (33 yrs) → Ishme-Dagan I (40 yrs) & Yasmah-Adad",
+      "altNames": [
+        "Šamšī-Adad I",
+        "Ishme-Dagan I",
+        "Yasmah-Adad"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "1808-1736 BCE (AKL 39-40; Mari Archives)",
+      "role": "Founder of the Kingdom of Upper Mesopotamia (Contemporary of Hammurabi!)",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Son of Ilu-kabkabi; conquered Assur, Mari, and Shubat-Enlil. His son Ishme-Dagan I ruled Ekallatum/Assur while Yasmah-Adad ruled Mari (famed in the Mari Letters!).",
+      "major": true
+    },
+    {
+      "id": "akl_41_47_usurpers",
+      "name": "41–47. Ashur-dugul & Six Usurpers (Ashur-apla-idi, Nasir-Sin, Sin-namir, Ipqi-Ishtar, Adad-salulu, Adasi)",
+      "altNames": [
+        "Ashur-dugul",
+        "Adasi"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 1735-1700 BCE (AKL 41-47)",
+      "role": "Interregnum & Adasi (Progenitor of the 1,000-Year Adaside Dynasty!)",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Six 'sons of a nobody' ruled briefly; the last, Adasi, became the revered ancestor of Assyria's royal Adaside house down to Esarhaddon!",
+      "major": false
+    },
+    {
+      "id": "akl_48_53_belubani",
+      "name": "48–53. Belu-bani (son of Adasi) → Libaya → Sharma-Adad I → Iptar-Sin → Bazaya → Lullaya",
+      "altNames": [
+        "Belu-bani",
+        "Libaya",
+        "Sharma-Adad I",
+        "Iptar-Sin",
+        "Bazaya",
+        "Lullaya"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1700-1618 BCE (AKL 48-53)",
+      "role": "Early Adaside Kings of Assur",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Belu-bani (10 yrs) founded the unbroken Adaside royal dynasty; Bazaya ruled 28 years.",
+      "major": false
+    },
+    {
+      "id": "akl_54_66_old_late",
+      "name": "54–66. Kidin-Ninua → Sharma-Adad II → Erishum III → Shamshi-Adad II → Ishme-Dagan II → Shamshi-Adad III → Ashur-nirari I → Puzur-Ashur III → Enlil-nasir I → Nur-ili → Ashur-shaduni → Ashur-rabi I → Ashur-nadin-ahhe I",
+      "altNames": [
+        "Kidin-Ninua",
+        "Ashur-nirari I",
+        "Puzur-Ashur III",
+        "Ashur-rabi I"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 13,
+      "era": "c. 1617-1431 BCE (AKL 54-66)",
+      "role": "Late Old Assyrian / Mitanni Vassalage Kings",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Preserved unbroken Adaside patrilineal continuity through the Mitanni era (Pruzsinszky Table 17b).",
+      "major": false
+    },
+    {
+      "id": "akl_67_72_pre_middle",
+      "name": "67–72. Enlil-nasir II → Ashur-nirari II → Ashur-bel-nisheshu → Ashur-rim-nisheshu → Ashur-nadin-ahhe II → Eriba-Adad I",
+      "altNames": [
+        "Enlil-nasir II",
+        "Ashur-bel-nisheshu",
+        "Eriba-Adad I"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1430-1364 BCE (AKL 67-72)",
+      "role": "Transition to Middle Assyrian Independence",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Eriba-Adad I (27 yrs) broke Mitanni supremacy, setting the stage for his son Ashur-uballit I.",
+      "major": false
+    },
+    {
+      "id": "akl_73_76_ashuruballit1",
+      "name": "73–76. Ashur-uballit I (Amarna Letters!) → Enlil-nirari → Arik-den-ili → Adad-nirari I",
+      "altNames": [
+        "Aššur-uballiṭ I",
+        "Adad-nirari I"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1363-1274 BCE (AKL 73-76; Amarna Letters)",
+      "role": "Founders of the Middle Assyrian Great Power",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Ashur-uballit I (36 yrs) wrote directly to Pharaoh Akhenaten as 'Great King' (EA 15-16) and married his daughter Muballitat-Sherua to Kassite Babylon! Adad-nirari I (32 yrs) annexed Hanigalbat (Mitanni).",
+      "major": true
+    },
+    {
+      "id": "akl_77_78_shalmaneser1_tukulti",
+      "name": "77–78. Shalmaneser I (30 yrs) → Tukulti-Ninurta I (37 yrs, Conqueror of Babylon)",
+      "altNames": [
+        "Shalmaneser I",
+        "Tukulti-Ninurta I"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1273-1207 BCE (AKL 77-78)",
+      "role": "Peak of the Middle Assyrian Empire",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Shalmaneser I founded Kalhu (Nimrud); Tukulti-Ninurta I captured Kassite King Kashtiliash IV of Babylon and built Kar-Tukulti-Ninurta — often compared with the Nimrod legend!",
+      "major": true
+    },
+    {
+      "id": "akl_79_86_ninurta_apil",
+      "name": "79–86. Ashur-nadin-apli → Ashur-nirari III → Enlil-kudurri-usur → Ninurta-apil-Ekur → Ashur-dan I (46 yrs) → Ninurta-tukulti-Ashur → Mutakkil-Nusku → Ashur-resh-ishi I",
+      "altNames": [
+        "Ninurta-apil-Ekur",
+        "Ashur-dan I",
+        "Ashur-resh-ishi I"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 16,
+      "era": "1206-1115 BCE (AKL 79-86)",
+      "role": "Bronze Age Collapse Survival & Revival",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Ninurta-apil-Ekur (descendant of Eriba-Adad I) restored dynastic stability; Ashur-dan I ruled 46 years; Ashur-resh-ishi I defeated Nebuchadnezzar I of Babylon.",
+      "major": false
+    },
+    {
+      "id": "akl_87_97_tiglath1_to_2",
+      "name": "87–97. Tiglath-Pileser I (39 yrs) → Ashared-apil-Ekur → Ashur-bel-kala → Eriba-Adad II → Shamshi-Adad IV → Ashurnasirpal I → Shalmaneser II → Ashur-nirari IV → Ashur-rabi II (41 yrs) → Ashur-resh-ishi II → Tiglath-Pileser II",
+      "altNames": [
+        "Tiglath-Pileser I",
+        "Ashur-bel-kala",
+        "Ashur-rabi II",
+        "Tiglath-Pileser II"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 16,
+      "era": "1114-935 BCE (AKL 87-97)",
+      "role": "Tiglath-Pileser I's Mediterranean Campaigns & Aramean Era",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Tiglath-Pileser I marched to the Mediterranean, hunted elephants in Syria, and compiled the Middle Assyrian Laws. Followed by 140 years of Aramean pressure until Ashur-dan II.",
+      "major": false
+    },
+    {
+      "id": "akl_98_101_ashurnasirpal2",
+      "name": "98–101. Ashur-dan II → Adad-nirari II → Tukulti-Ninurta II → Ashurnasirpal II (Nimrud Palace)",
+      "altNames": [
+        "Adad-nirari II",
+        "Ashurnasirpal II"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-859 BCE (AKL 98-101)",
+      "role": "Founders of the Neo-Assyrian Empire",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Adad-nirari II inaugurated the unbroken Eponym Canon (911-649 BCE); Ashurnasirpal II (25 yrs) built the magnificent Northwest Palace at Kalhu (Nimrud).",
+      "major": true
+    },
+    {
+      "id": "akl_102_shalmaneser3",
+      "name": "102. Shalmaneser III (35 yrs — Black Obelisk of Jehu & Battle of Qarqar!)",
+      "altNames": [
+        "Šalmaneser III",
+        "Black Obelisk"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "858-824 BCE (AKL 102; Kurkh Monolith; Black Obelisk)",
+      "role": "First Assyrian King Explicitly Naming Israelite Kings Ahab & Jehu",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Fought King Ahab of Israel & Hadadezer of Damascus at Qarqar (853 BCE); his Black Obelisk depicts King Jehu of Israel ('son of Omri') bowing in tribute — the ONLY contemporary depiction of an Israelite king!",
+      "major": true
+    },
+    {
+      "id": "akl_103_104_semiramis",
+      "name": "103–104. Shamshi-Adad V & Queen Shammuramat (Semiramis!) → Adad-nirari III",
+      "altNames": [
+        "Queen Shammuramat",
+        "Semiramis",
+        "Adad-nirari III"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "823-783 BCE (AKL 103-104; Herodotus; Eusebius)",
+      "role": "Historical Queen Semiramis & Adad-nirari III (Tribute of Joash of Israel)",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Babylonian princess Shammuramat (Greek: Semiramis!) served as regent/queen mother alongside her son Adad-nirari III (28 yrs), who collected tribute from Jehoash of Israel and Ben-Hadad of Damascus.",
+      "major": true
+    },
+    {
+      "id": "akl_105_107_eclipse_kings",
+      "name": "105–107. Shalmaneser IV → Ashur-dan III (763 BCE Bur-Sagale Solar Eclipse!) → Ashur-nirari V",
+      "altNames": [
+        "Shalmaneser IV",
+        "Ashur-dan III (763 BCE Eclipse)",
+        "Ashur-nirari V"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "782-745 BCE (AKL 105-107)",
+      "role": "Anchor of All Ancient Near Eastern Chronology (June 15, 763 BCE Eclipse)",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "The Assyrian Eponym List records a total solar eclipse in Sivan under Ashur-dan III (June 15, 763 BCE), astronomically locking ALL Assyrian and Biblical monarchic dates!",
+      "major": false
+    },
+    {
+      "id": "akl_108_109_tp3_shalm5",
+      "name": "108–109. Tiglath-Pileser III (Pul, 745-727 BCE) → Shalmaneser V (726-722 BCE, Siege of Samaria)",
+      "altNames": [
+        "Tiglath-Pileser III (Pul)",
+        "Shalmaneser V"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "745-722 BCE (AKL 108-109; 2 Kings 15-17)",
+      "role": "Final Kings of Canonical AKL (SDAS Tablet) & Biblical 'Pul'",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Tiglath-Pileser III (called 'Pul' in 2 Kings 15:19) created the provincial empire; his son Shalmaneser V besieged Samaria (final king on the SDAS AKL tablet!).",
+      "major": false
+    },
+    {
+      "id": "akl_110_116_sargonids",
+      "name": "110–116. Sargonid Dynasty: Sargon II → Sennacherib → Esarhaddon → Ashurbanipal → Ashur-etil-ilani → Sin-shar-ishkun → Ashur-uballit II",
+      "altNames": [
+        "Sargon II",
+        "Sennacherib",
+        "Esarhaddon",
+        "Ashurbanipal",
+        "Ashur-uballit II"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "722-609 BCE (Neo-Assyrian Chronicles; 2 Kings 18-19; Isaiah 20)",
+      "role": "Final Imperial Dynasty of Nineveh (Library of Ashurbanipal)",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Sargon II completed the conquest of Israel (722 BCE); Sennacherib besieged Hezekiah's Jerusalem (701 BCE); Esarhaddon conquered Egypt (671 BCE); Ashurbanipal built the great Library of Nineveh (preserving Gilgamesh!). Fell to Babylon & Media in 612-609 BCE.",
+      "major": true
+    },
+    {
+      "id": "skl_ur1_full",
+      "name": "Ur I Dynasty: Mesannepada → Aannepada → Meskiagnunna → Elulu → Balulu",
+      "altNames": [
+        "Aannepada",
+        "Elulu",
+        "Balulu"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2560-2400 BCE (SKL Col. iii-iv, Jacobsen pp. 93-95)",
+      "role": "First Dynasty of Ur (Royal Tombs of Ur Era)",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11)"
+      ],
+      "notes": "5 kings (177 yrs): Mesannepada -> son Aannepada (restored from Tummal Chronicle & inscriptions!) -> Meskiagnunna -> Elulu -> Balulu.",
+      "major": false
+    },
+    {
+      "id": "skl_awan_kish2_hamazi",
+      "name": "Awan (3 Kings), Kish II (8 Kings: Susuda, Dadasig, Magalgalla, Kalbum, Tuge, Enbi-Ishtar, Lugalmu) & Hamazi (Hatanish)",
+      "altNames": [
+        "Hatanish of Hamazi",
+        "Enbi-Ishtar",
+        "Magalgalla"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2500-2400 BCE (SKL Col. iv, Jacobsen pp. 95-99)",
+      "role": "Early Dynastic Hegemonies of Elam, Kish & Zagros",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11)"
+      ],
+      "notes": "Awan (Elamite dynasty, 3 kings, 356 yrs), Kish II (8 kings incl. Kalbum son of Magalgalla), and Hamazi (King Hatanish, later deified in god-list AN:Anum!).",
+      "major": false
+    },
+    {
+      "id": "skl_uruk2_ur2_adab_mari",
+      "name": "Uruk II (Enshakushanna, Lugal-kinishe-dudu, Lugal-kisal-si), Ur II (Kaku), Adab (Lugal-annemundu) & Mari (Ansud)",
+      "altNames": [
+        "Enshakushanna",
+        "Lugal-annemundu",
+        "Ansud of Mari"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2450-2350 BCE (SKL Col. iv-v, Jacobsen pp. 100-103)",
+      "role": "Pre-Sargonic City-State Empires",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11)"
+      ],
+      "notes": "Enshakushanna of Uruk; Lugal-kinishe-dudu & son Lugal-kisal-si (ruled both Uruk II & Ur II!); Lugal-annemundu of Adab (90 yrs, legendary conqueror from Elam to Cedar Mountain); Ansud & 5 kings of Mari.",
+      "major": false
+    },
+    {
+      "id": "skl_kubaba_kish3",
+      "name": "Queen Ku-Baba (Kish III — Sole Female Monarch in the Sumerian King List!)",
+      "altNames": [
+        "Kug-Baba",
+        "Kubaba"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2400 BCE (SKL Col. v 36-41, Jacobsen pp. 104-105)",
+      "role": "Tavern-Keeper Who Consolidated Kish & Founded Kish III–IV",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11)"
+      ],
+      "notes": "Ku(g)-Baba ('Baba-ellit', former alewife/barmaid, reigned 100 yrs) is the ONLY woman listed as sovereign king in the entire Sumerian King List; mother of Puzur-Sin & grandmother of Ur-Zababa!",
+      "major": true
+    },
+    {
+      "id": "skl_akshak_kish4",
+      "name": "Akshak (Unzi, Undalulu, Ur-ur, Puzur-Nirah, Ishu-il, Shu-Sin) & Kish IV (Puzur-Sin → Ur-Zababa → Simu-dar → Usi-watar → Eshtar-muti → Ishme-Shamash → Nannia)",
+      "altNames": [
+        "Puzur-Sin",
+        "Ur-Zababa",
+        "Puzur-Nirah"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2400-2334 BCE (SKL Col. v-vi, Jacobsen pp. 106-111)",
+      "role": "Dynasty of Ku-Baba's Descendants & Master of Young Sargon",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11)"
+      ],
+      "notes": "Ku-Baba's son Puzur-Sin -> son Ur-Zababa of Kish, whose royal cupbearer was Sargon of Akkad! Contemporary with Akshak's 6 kings.",
+      "major": false
+    },
+    {
+      "id": "skl_uruk3_lugalzagesi",
+      "name": "Uruk III: Lugal-zagesi (25 yrs — First Unifier of Sumer Before Sargon)",
+      "altNames": [
+        "Lugal-zage-si"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 9,
+      "era": "c. 2359-2335 BCE (SKL Col. vi 24-27, Jacobsen pp. 110-111)",
+      "role": "Ensi of Umma & Sole King of Uruk III",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11)"
+      ],
+      "notes": "United all of Sumer from the Lower Sea (Persian Gulf) to the Upper Sea (Mediterranean) before being defeated and led in a neck-stock to Nippur by Sargon of Akkad.",
+      "major": true
+    },
+    {
+      "id": "skl_akkad_late",
+      "name": "Late Akkad Interregnum (Igigi, Nanum, Imi, Elulu) → Dudu → Shu-Durul",
+      "altNames": [
+        "Igigi",
+        "Dudu of Akkad",
+        "Shu-Durul"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2193-2154 BCE (SKL Col. vii 1-12, Jacobsen pp. 114-115)",
+      "role": "Final Rulers of the Sargonic Akkadian Empire",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11)"
+      ],
+      "notes": "'Who was king? Who was not king?' Four rival claimants reigned 3 years before Dudu (21 yrs) and his son Shu-Durul (15 yrs) closed the Dynasty of Agade.",
+      "major": false
+    },
+    {
+      "id": "skl_uruk4_gutium_uruk5",
+      "name": "Uruk IV (Ur-nigin → Ur-gigir → Kudda → Puzur-ili → Ur-Utu), 21 Gutian Kings (Erridupizir to Tirigan) & Uruk V (Utu-hegal)",
+      "altNames": [
+        "Gutian Dynasty",
+        "Tirigan",
+        "Utu-hegal"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii-viii, Jacobsen pp. 114-123)",
+      "role": "Gutian Domination & Sumerian Liberation by Utu-hegal",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11)"
+      ],
+      "notes": "21 Gutian rulers from the Zagros mountains (Erridupizir, Imta, Inkishush, Sarlagab, Iarlagab, Hablum -> Puzur-Sin, Si'um, Tirigan [40 days]) expelled by Utu-hegal of Uruk V — whose general/relative Ur-Nammu founded Ur III!",
+      "major": true
+    },
+    {
+      "id": "skl_lagash_gudea",
+      "name": "Independent Lagash II: Ur-Nanshe → Eannatum (Stele of Vultures) → Urukagina → Gudea of Lagash",
+      "altNames": [
+        "Eannatum",
+        "Urukagina",
+        "Gudea of Lagash"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2500-2120 BCE (Lagash Royal Inscriptions)",
+      "role": "Sumerian Reformers & Statue-Builder Gudea",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11)"
+      ],
+      "notes": "Omitted from the partisan SKL: Ur-Nanshe, Eannatum, law-reformer Urukagina (oldest legal code against corruption), and pious Ensi Gudea of Lagash (contemporary of Ur-Nammu).",
+      "major": false
+    },
+    {
+      "id": "skl_isin1_full",
+      "name": "Isin I Dynasty (All 15 Kings): Ishbi-Erra → Shu-ilishu → Iddin-Dagan → Ishme-Dagan → Lipit-Ishtar → Ur-Ninurta → Bur-Sin → Lipit-Enlil → Erra-imitti → Enlil-bani → Zambia → Iter-pisha → Ur-dukuga → Sin-magir → Damiq-ilishu",
+      "altNames": [
+        "Ishbi-Erra",
+        "Lipit-Ishtar",
+        "Enlil-bani",
+        "Damiq-ilishu"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii 23-45, Jacobsen pp. 124-127)",
+      "role": "Final Dynasty of the Sumerian King List (Code of Lipit-Ishtar)",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11)"
+      ],
+      "notes": "Ishbi-Erra broke away from Ibbi-Sin of Ur III. Lipit-Ishtar issued the Sumerian Law Code (180 yrs before Hammurabi!). Gardener Enlil-bani succeeded Erra-imitti (substitute-king ritual!). Ended when Rim-Sin of Larsa conquered Damiq-ilishu.",
+      "major": true
+    },
+    {
+      "id": "bab_dyn1_amorite",
+      "name": "Babylon I (All 11 Amorite Kings): Sumu-abum → Sumu-la-El → Sabium → Apil-Sin → Sin-muballit → Hammurabi → Samsu-iluna → Abi-eshuh → Ammi-ditana → Ammi-saduqa → Samsu-ditana",
+      "altNames": [
+        "Sumu-la-El",
+        "Sin-muballit",
+        "Samsu-iluna",
+        "Ammi-saduqa",
+        "Rim-Sin of Larsa"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "1894-1595 BCE (L.W. King Vol. I pp. 95, 144-150)",
+      "role": "Complete Old Babylonian Amorite Dynasty (Venus Tablet of Ammi-saduqa!)",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I)",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Sumu-abum (contemporary of Ilushuma of Assyria) -> Hammurabi (defeated Rim-Sin of Larsa, son of Kudur-Mabuk!) -> son Samsu-iluna -> Abi-eshuh -> Ammi-ditana -> Ammi-saduqa (astronomical Venus Tablet!) -> Samsu-ditana (overthrown by Hittite King Mursili I in 1595 BCE!).",
+      "major": true
+    },
+    {
+      "id": "bab_dyn2_sealand",
+      "name": "Babylon II (First Sealand Dynasty, All 11 Kings): Iluma-ilu → Itti-ili-nibi → Damqi-ilishu → Ishkibal → Shushshi → Gulkishar → Peshgaldaramesh → Ayadaragalama → Akurduana → Melamkurkurra → Ea-gamil",
+      "altNames": [
+        "Iluma-ilu",
+        "Gulkishar",
+        "Ea-gamil"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1732-1460 BCE (L.W. King Vol. I pp. 96, 151-155)",
+      "role": "Southern Marshland Dynasty Overlapping Babylon I & Kassites",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I)",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Iluma-ilu fought Samsu-iluna & Abi-eshuh; Gulkishar anchored Babylonian chronology (696 yrs before Nebuchadnezzar I); last king Ea-gamil invaded Elam and was overthrown by Kassite Ulam-Buriash!",
+      "major": false
+    },
+    {
+      "id": "bab_dyn3_kassite",
+      "name": "Babylon III (Kassite Dynasty, 576 yrs): Gandash → Agum I → Kashtiliash I → Agum II (Restored Marduk!) → Burna-Buriash I → Ulam-Buriash → Burna-Buriash II (Amarna Letters!) → Kurigalzu → Kudur-Enlil → Shagarakti-Shuriash → Meli-Shipak",
+      "altNames": [
+        "Gandash",
+        "Agum II",
+        "Ulam-Buriash",
+        "Burna-Buriash II",
+        "Meli-Shipak"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I pp. 79, 101-113, 151-153)",
+      "role": "Longest-Reigning Dynasty in Babylonian History (Zagros Mountain Origin)",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I)",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Agum II (son of Urzigurumash) retrieved Marduk's statue from Hani; Ulam-Buriash conquered the Sealand; Burna-Buriash II corresponded with Akhenaten & married Ashur-uballit I's daughter!",
+      "major": true
+    },
+    {
+      "id": "bab_dyn4_isin2",
+      "name": "Babylon IV (Isin II): Nebuchadnezzar I → Enlil-nadin-apli → Marduk-nadin-ahhe → Marduk-shapik-zeri → Adad-apla-iddina",
+      "altNames": [
+        "Nebuchadnezzar I",
+        "Marduk-nadin-ahhe",
+        "Adad-apla-iddina"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 16,
+      "era": "1157-1026 BCE (L.W. King Vol. I pp. 89, 190-193)",
+      "role": "Revival of Native Babylon & Recovery of Marduk from Elam",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I)",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Nebuchadnezzar I sacked Susa in Elam and restored Marduk to Babylon; Adad-apla-iddina (Aramean/son of Itti-Marduk-balatu) married his daughter to Assyrian King Ashur-bel-kala.",
+      "major": false
+    },
+    {
+      "id": "bab_dyn5_8_inter",
+      "name": "Babylon V–IX: 2nd Sealand (Simbar-Shipak), Bazi Dynasty, Elamite Mar-biti-apla-usur, Nabu-mukin-apli, Nabonassar (747 BCE Era!) & Merodach-Baladan II",
+      "altNames": [
+        "Simbar-Shipak",
+        "Nabonassar (747 BCE)",
+        "Merodach-Baladan II",
+        "Mushezib-Marduk"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "1025-626 BCE (L.W. King Vol. I pp. 184-208; Eusebius)",
+      "role": "Ptolemaic Astronomical Era of Nabonassar & Chaldean Resistance",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I)",
+        "Eusebius Chronicle"
+      ],
+      "notes": "King Nabonassar (747 BCE) inaugurated the famous Babylonian astronomical diaries & Ptolemy's Almagest Canon! Chaldean hero Merodach-Baladan II (Marduk-apla-iddina II) sent envoys to King Hezekiah of Judah (2 Kgs 20:12) against Assyria.",
+      "major": false
+    },
+    {
+      "id": "bab_dyn10_chaldean",
+      "name": "Babylon X (Neo-Babylonian / Chaldean Empire): Nabopolassar → Nebuchadnezzar II → Amel-Marduk (Evil-Merodach) → Neriglissar → Labashi-Marduk → Nabonidus & Crown Prince Belshazzar",
+      "altNames": [
+        "Nabopolassar",
+        "Amel-Marduk",
+        "Neriglissar",
+        "Nabonidus",
+        "Belshazzar"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "626-539 BCE (Babylonian Chronicles; Eusebius; 2 Kings 24-25; Daniel 5)",
+      "role": "Final Native Babylonian Empire (Hanging Gardens & Fall to Cyrus, 539 BCE)",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I)",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Nabopolassar allied with Cyaxares of Media to destroy Nineveh (612 BCE); Nebuchadnezzar II built Babylon's Ishtar Gate & exiled Judah (586 BCE); Nabonidus (+ Queen Nitocris / Adad-guppi) & son Belshazzar fell to Cyrus the Great in 539 BCE!",
+      "major": true
+    },
+    {
+      "id": "aklr_t1_01_yangi_akl_3",
+      "name": "Yangi (AKL #3)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_t1_02_suhlamu_akl_4",
+      "name": "Suhlamu (AKL #4)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_t1_03_harharu_akl_5",
+      "name": "Harharu (AKL #5)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_t1_04_mandaru_akl_6",
+      "name": "Mandaru (AKL #6)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_t1_05_imsu_akl_7",
+      "name": "Imsu (AKL #7)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_t1_06_harsu_akl_8",
+      "name": "Harsu (AKL #8)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_t1_07_didanu_tidnum_akl_9",
+      "name": "Didanu / Tidnum (AKL #9)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_t1_08_hanu_akl_10",
+      "name": "Hanu (AKL #10)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_t1_09_zuabu_akl_11",
+      "name": "Zuabu (AKL #11)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_t1_10_nuabu_akl_12",
+      "name": "Nuabu (AKL #12)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_t1_11_abazu_akl_13",
+      "name": "Abazu (AKL #13)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_t1_12_belu_akl_14",
+      "name": "Belu (AKL #14)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_t1_13_azarah_akl_15",
+      "name": "Azarah (AKL #15)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 7,
+      "era": "c. 2360-2260 BCE (AKL)",
+      "role": "Assyrian Tent-Dwelling King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Assyrian Tent-Dwelling King (c. 2360-2260 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_anc_01_hale_akl_18",
+      "name": "Hale (AKL #18)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2050-1850 BCE (AKL)",
+      "role": "Patrilineal Ancestor of Shamshi-Adad I",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Patrilineal Ancestor of Shamshi-Adad I (c. 2050-1850 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_anc_02_samani_akl_19",
+      "name": "Samani (AKL #19)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2050-1850 BCE (AKL)",
+      "role": "Patrilineal Ancestor of Shamshi-Adad I",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Patrilineal Ancestor of Shamshi-Adad I (c. 2050-1850 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_anc_03_hayani_akl_20",
+      "name": "Hayani (AKL #20)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2050-1850 BCE (AKL)",
+      "role": "Patrilineal Ancestor of Shamshi-Adad I",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Patrilineal Ancestor of Shamshi-Adad I (c. 2050-1850 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_anc_04_ilu_mer_akl_21",
+      "name": "Ilu-Mer (AKL #21)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2050-1850 BCE (AKL)",
+      "role": "Patrilineal Ancestor of Shamshi-Adad I",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Patrilineal Ancestor of Shamshi-Adad I (c. 2050-1850 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_anc_05_yakmesi_akl_22",
+      "name": "Yakmesi (AKL #22)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2050-1850 BCE (AKL)",
+      "role": "Patrilineal Ancestor of Shamshi-Adad I",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Patrilineal Ancestor of Shamshi-Adad I (c. 2050-1850 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_anc_06_yakmeni_akl_23",
+      "name": "Yakmeni (AKL #23)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2050-1850 BCE (AKL)",
+      "role": "Patrilineal Ancestor of Shamshi-Adad I",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Patrilineal Ancestor of Shamshi-Adad I (c. 2050-1850 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_anc_07_yazkur_el_akl_24",
+      "name": "Yazkur-El (AKL #24)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2050-1850 BCE (AKL)",
+      "role": "Patrilineal Ancestor of Shamshi-Adad I",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Patrilineal Ancestor of Shamshi-Adad I (c. 2050-1850 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_anc_08_ilu_kabkabi_akl_25",
+      "name": "Ilu-kabkabi (AKL #25)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2050-1850 BCE (AKL)",
+      "role": "Patrilineal Ancestor of Shamshi-Adad I",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Patrilineal Ancestor of Shamshi-Adad I (c. 2050-1850 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_anc_09_aminu_akl_26",
+      "name": "Aminu (AKL #26)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 8,
+      "era": "c. 2050-1850 BCE (AKL)",
+      "role": "Patrilineal Ancestor of Shamshi-Adad I",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17a)"
+      ],
+      "notes": "Patrilineal Ancestor of Shamshi-Adad I (c. 2050-1850 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_01_sulili_akl_27",
+      "name": "Sulili (AKL #27)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_02_kikia_akl_28",
+      "name": "Kikia (AKL #28)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_03_akia_akl_29",
+      "name": "Akia (AKL #29)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_04_puzur_ashur_i_akl_30",
+      "name": "Puzur-Ashur I (AKL #30)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_05_shalim_ahum_akl_31",
+      "name": "Shalim-ahum (AKL #31)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_06_ilushuma_akl_32",
+      "name": "Ilushuma (AKL #32)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_07_erishum_i_akl_33_40_yrs",
+      "name": "Erishum I (AKL #33, 40 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_08_ikunum_akl_34_15_yrs",
+      "name": "Ikunum (AKL #34, 15 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_09_sargon_i_of_assyria_akl_35_4",
+      "name": "Sargon I of Assyria (AKL #35, 40 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_10_puzur_ashur_ii_akl_36_8_yrs",
+      "name": "Puzur-Ashur II (AKL #36, 8 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_11_naram_sin_of_assyria_akl_37_",
+      "name": "Naram-Sin of Assyria (AKL #37, 44/55 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_12_erishum_ii_akl_38_10_yrs",
+      "name": "Erishum II (AKL #38, 10 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_13_ishme_dagan_i_akl_40_40_yrs",
+      "name": "Ishme-Dagan I (AKL #40, 40 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_14_ashur_dugul_akl_41_6_yrs",
+      "name": "Ashur-dugul (AKL #41, 6 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_15_adasi_akl_47_adaside_founder",
+      "name": "Adasi (AKL #47, Adaside Founder)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_16_belu_bani_akl_48_10_yrs",
+      "name": "Belu-bani (AKL #48, 10 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_17_libaya_akl_49_17_yrs",
+      "name": "Libaya (AKL #49, 17 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_18_sharma_adad_i_akl_50_12_yrs",
+      "name": "Sharma-Adad I (AKL #50, 12 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_19_iptar_sin_akl_51_12_yrs",
+      "name": "Iptar-Sin (AKL #51, 12 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_20_bazaya_akl_52_28_yrs",
+      "name": "Bazaya (AKL #52, 28 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_21_lullaya_akl_53_6_yrs",
+      "name": "Lullaya (AKL #53, 6 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_22_kidin_ninua_akl_54_14_yrs",
+      "name": "Kidin-Ninua (AKL #54, 14 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_23_sharma_adad_ii_akl_55_3_yrs",
+      "name": "Sharma-Adad II (AKL #55, 3 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_24_erishum_iii_akl_56_13_yrs",
+      "name": "Erishum III (AKL #56, 13 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_25_shamshi_adad_ii_akl_57_6_yrs",
+      "name": "Shamshi-Adad II (AKL #57, 6 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_26_ishme_dagan_ii_akl_58_16_yrs",
+      "name": "Ishme-Dagan II (AKL #58, 16 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_27_shamshi_adad_iii_akl_59_16_y",
+      "name": "Shamshi-Adad III (AKL #59, 16 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_28_ashur_nirari_i_akl_60_26_yrs",
+      "name": "Ashur-nirari I (AKL #60, 26 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_29_puzur_ashur_iii_akl_61_14_24",
+      "name": "Puzur-Ashur III (AKL #61, 14/24 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_30_enlil_nasir_i_akl_62_13_yrs",
+      "name": "Enlil-nasir I (AKL #62, 13 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_31_nur_ili_akl_63_12_yrs",
+      "name": "Nur-ili (AKL #63, 12 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_32_ashur_shaduni_akl_64",
+      "name": "Ashur-shaduni (AKL #64)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_33_ashur_rabi_i_akl_65",
+      "name": "Ashur-rabi I (AKL #65)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_old_34_ashur_nadin_ahhe_i_akl_66",
+      "name": "Ashur-nadin-ahhe I (AKL #66)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 2025-1431 BCE (AKL)",
+      "role": "Old Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Tables 17a-b)"
+      ],
+      "notes": "Old Assyrian King (c. 2025-1431 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_01_enlil_nasir_ii_akl_67_6_yrs",
+      "name": "Enlil-nasir II (AKL #67, 6 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_02_ashur_nirari_ii_akl_68_7_yrs",
+      "name": "Ashur-nirari II (AKL #68, 7 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_03_ashur_bel_nisheshu_akl_69_9_",
+      "name": "Ashur-bel-nisheshu (AKL #69, 9 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_04_ashur_rim_nisheshu_akl_70_8_",
+      "name": "Ashur-rim-nisheshu (AKL #70, 8 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_05_ashur_nadin_ahhe_ii_akl_71_1",
+      "name": "Ashur-nadin-ahhe II (AKL #71, 10 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_06_eriba_adad_i_akl_72_27_yrs",
+      "name": "Eriba-Adad I (AKL #72, 27 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_07_enlil_nirari_akl_74_10_yrs",
+      "name": "Enlil-nirari (AKL #74, 10 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_08_arik_den_ili_akl_75_12_yrs",
+      "name": "Arik-den-ili (AKL #75, 12 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_09_adad_nirari_i_akl_76_32_yrs",
+      "name": "Adad-nirari I (AKL #76, 32 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_10_shalmaneser_i_akl_77_30_yrs",
+      "name": "Shalmaneser I (AKL #77, 30 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_11_tukulti_ninurta_i_akl_78_37_",
+      "name": "Tukulti-Ninurta I (AKL #78, 37 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_12_ashur_nadin_apli_akl_79_4_yr",
+      "name": "Ashur-nadin-apli (AKL #79, 4 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_13_ashur_nirari_iii_akl_80_6_yr",
+      "name": "Ashur-nirari III (AKL #80, 6 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_14_enlil_kudurri_usur_akl_81_5_",
+      "name": "Enlil-kudurri-usur (AKL #81, 5 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_15_ninurta_apil_ekur_akl_82_13_",
+      "name": "Ninurta-apil-Ekur (AKL #82, 13 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_16_ashur_dan_i_akl_83_46_yrs",
+      "name": "Ashur-dan I (AKL #83, 46 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_17_ninurta_tukulti_ashur_akl_84",
+      "name": "Ninurta-tukulti-Ashur (AKL #84)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_18_mutakkil_nusku_akl_85",
+      "name": "Mutakkil-Nusku (AKL #85)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_19_ashur_resh_ishi_i_akl_86_18_",
+      "name": "Ashur-resh-ishi I (AKL #86, 18 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_20_tiglath_pileser_i_akl_87_39_",
+      "name": "Tiglath-Pileser I (AKL #87, 39 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_21_ashared_apil_ekur_akl_88_2_y",
+      "name": "Ashared-apil-Ekur (AKL #88, 2 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_22_ashur_bel_kala_akl_89_18_yrs",
+      "name": "Ashur-bel-kala (AKL #89, 18 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_23_eriba_adad_ii_akl_90_2_yrs",
+      "name": "Eriba-Adad II (AKL #90, 2 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_24_shamshi_adad_iv_akl_91_4_yrs",
+      "name": "Shamshi-Adad IV (AKL #91, 4 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_25_ashurnasirpal_i_akl_92_19_yr",
+      "name": "Ashurnasirpal I (AKL #92, 19 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_26_shalmaneser_ii_akl_93_12_yrs",
+      "name": "Shalmaneser II (AKL #93, 12 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_27_ashur_nirari_iv_akl_94_6_yrs",
+      "name": "Ashur-nirari IV (AKL #94, 6 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_28_ashur_rabi_ii_akl_95_41_yrs",
+      "name": "Ashur-rabi II (AKL #95, 41 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_29_ashur_resh_ishi_ii_akl_96_5_",
+      "name": "Ashur-resh-ishi II (AKL #96, 5 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_mid_30_tiglath_pileser_ii_akl_97_32",
+      "name": "Tiglath-Pileser II (AKL #97, 32 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "1430-935 BCE (AKL)",
+      "role": "Middle Assyrian King",
+      "sources": [
+        "Assyrian King List (Pruzsinszky Table 17b)"
+      ],
+      "notes": "Middle Assyrian King (1430-935 BCE (AKL)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_01_ashur_dan_ii_akl_98_23_yrs",
+      "name": "Ashur-dan II (AKL #98, 23 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_02_adad_nirari_ii_akl_99_21_yrs",
+      "name": "Adad-nirari II (AKL #99, 21 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_03_tukulti_ninurta_ii_akl_100_7",
+      "name": "Tukulti-Ninurta II (AKL #100, 7 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_04_ashurnasirpal_ii_akl_101_25_",
+      "name": "Ashurnasirpal II (AKL #101, 25 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_05_shamshi_adad_v_akl_103_13_yr",
+      "name": "Shamshi-Adad V (AKL #103, 13 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_06_queen_shammuramat_semiramis_",
+      "name": "Queen Shammuramat / Semiramis (Regent)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_07_adad_nirari_iii_akl_104_28_y",
+      "name": "Adad-nirari III (AKL #104, 28 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_08_shalmaneser_iv_akl_105_10_yr",
+      "name": "Shalmaneser IV (AKL #105, 10 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_09_ashur_dan_iii_akl_106_763_bc",
+      "name": "Ashur-dan III (AKL #106, 763 BCE Eclipse)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_10_ashur_nirari_v_akl_107_10_yr",
+      "name": "Ashur-nirari V (AKL #107, 10 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_11_sargon_ii_722_705_bce",
+      "name": "Sargon II (722-705 BCE)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_12_sennacherib_705_681_bce",
+      "name": "Sennacherib (705-681 BCE)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_13_esarhaddon_681_669_bce",
+      "name": "Esarhaddon (681-669 BCE)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_14_ashurbanipal_669_631_bce",
+      "name": "Ashurbanipal (669-631 BCE)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_15_ashur_etil_ilani_631_627_bce",
+      "name": "Ashur-etil-ilani (631-627 BCE)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_16_sin_shar_ishkun_627_612_bce",
+      "name": "Sin-shar-ishkun (627-612 BCE)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "aklr_neo_17_ashur_uballit_ii_612_609_bce",
+      "name": "Ashur-uballit II (612-609 BCE)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "934-609 BCE (AKL & Chronicles)",
+      "role": "Neo-Assyrian Emperor",
+      "sources": [
+        "Assyrian King List (Pruzsinszky)",
+        "Neo-Assyrian Chronicles"
+      ],
+      "notes": "Neo-Assyrian Emperor (934-609 BCE (AKL & Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_01_erridupizir_gutian_1",
+      "name": "Erridupizir (Gutian #1)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_02_imta_gutian_2_3_yrs",
+      "name": "Imta' (Gutian #2, 3 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_03_inkishush_gutian_3_6_yrs",
+      "name": "Inkishush (Gutian #3, 6 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_04_sarlagab_gutian_4_6_yrs",
+      "name": "Sarlagab (Gutian #4, 6 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_05_shulme_gutian_5_6_yrs",
+      "name": "Shulme' (Gutian #5, 6 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_06_elulumesh_gutian_6_6_yrs",
+      "name": "Elulumesh (Gutian #6, 6 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_07_inimabakesh_gutian_7_5_yrs",
+      "name": "Inimabakesh (Gutian #7, 5 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_08_igeshaush_gutian_8_6_yrs",
+      "name": "Igeshaush (Gutian #8, 6 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_09_iarlagab_gutian_9_15_yrs",
+      "name": "Iarlagab (Gutian #9, 15 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_10_ibate_gutian_10_3_yrs",
+      "name": "Ibate (Gutian #10, 3 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_11_iarlangab_gutian_11_3_yrs",
+      "name": "Iarlangab (Gutian #11, 3 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_12_kurum_gutian_12_1_yr",
+      "name": "Kurum (Gutian #12, 1 yr)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_13_habil_kin_gutian_13_3_yrs",
+      "name": "Habil-kin (Gutian #13, 3 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_14_laerabum_gutian_14_2_yrs",
+      "name": "Laerabum (Gutian #14, 2 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_15_irarum_gutian_15_2_yrs",
+      "name": "Irarum (Gutian #15, 2 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_16_ibranum_gutian_16_1_yr",
+      "name": "Ibranum (Gutian #16, 1 yr)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_17_hablum_gutian_17_2_yrs",
+      "name": "Hablum (Gutian #17, 2 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_18_puzur_sin_of_gutium_gutian_1",
+      "name": "Puzur-Sin of Gutium (Gutian #18, 7 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_19_iarlaganda_gutian_19_7_yrs",
+      "name": "Iarlaganda (Gutian #19, 7 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_20_si_um_gutian_20_7_yrs",
+      "name": "Si'um (Gutian #20, 7 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_gut_21_tirigan_gutian_21_40_days",
+      "name": "Tirigan (Gutian #21, 40 days)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 10,
+      "era": "c. 2154-2112 BCE (SKL Col. vii)",
+      "role": "Gutian King of Sumer",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
+      ],
+      "notes": "Gutian King of Sumer (c. 2154-2112 BCE (SKL Col. vii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_01_ishbi_erra_33_yrs",
+      "name": "Ishbi-Erra (33 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_02_shu_ilishu_10_yrs",
+      "name": "Shu-ilishu (10 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_03_iddin_dagan_21_yrs",
+      "name": "Iddin-Dagan (21 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_04_ishme_dagan_of_isin_20_yrs",
+      "name": "Ishme-Dagan of Isin (20 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_05_lipit_ishtar_11_yrs_law_code",
+      "name": "Lipit-Ishtar (11 yrs, Law Code)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_06_ur_ninurta_28_yrs",
+      "name": "Ur-Ninurta (28 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_07_bur_sin_of_isin_21_yrs",
+      "name": "Bur-Sin of Isin (21 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_08_lipit_enlil_5_yrs",
+      "name": "Lipit-Enlil (5 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_09_erra_imitti_8_yrs",
+      "name": "Erra-imitti (8 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_10_enlil_bani_24_yrs_gardener_k",
+      "name": "Enlil-bani (24 yrs, Gardener-King)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_11_zambia_3_yrs",
+      "name": "Zambia (3 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_12_iter_pisha_4_yrs",
+      "name": "Iter-pisha (4 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_13_ur_dukuga_4_yrs",
+      "name": "Ur-dukuga (4 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_14_sin_magir_11_yrs",
+      "name": "Sin-magir (11 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "sklr_isin_15_damiq_ilishu_23_yrs",
+      "name": "Damiq-ilishu (23 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "c. 2017-1794 BCE (SKL Col. viii)",
+      "role": "King of Isin I Dynasty",
+      "sources": [
+        "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
+      ],
+      "notes": "King of Isin I Dynasty (c. 2017-1794 BCE (SKL Col. viii)).",
+      "major": false
+    },
+    {
+      "id": "babr_1_01_sumu_la_el_36_yrs",
+      "name": "Sumu-la-El (36 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "1894-1595 BCE (L.W. King Vol. I)",
+      "role": "Amorite King of Babylon I",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
+      ],
+      "notes": "Amorite King of Babylon I (1894-1595 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_1_02_sabium_14_yrs",
+      "name": "Sabium (14 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "1894-1595 BCE (L.W. King Vol. I)",
+      "role": "Amorite King of Babylon I",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
+      ],
+      "notes": "Amorite King of Babylon I (1894-1595 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_1_03_apil_sin_18_yrs",
+      "name": "Apil-Sin (18 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "1894-1595 BCE (L.W. King Vol. I)",
+      "role": "Amorite King of Babylon I",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
+      ],
+      "notes": "Amorite King of Babylon I (1894-1595 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_1_04_sin_muballit_20_yrs_father_o",
+      "name": "Sin-muballit (20 yrs, Father of Hammurabi)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "1894-1595 BCE (L.W. King Vol. I)",
+      "role": "Amorite King of Babylon I",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
+      ],
+      "notes": "Amorite King of Babylon I (1894-1595 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_1_05_samsu_iluna_38_yrs_son_of_ha",
+      "name": "Samsu-iluna (38 yrs, Son of Hammurabi)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "1894-1595 BCE (L.W. King Vol. I)",
+      "role": "Amorite King of Babylon I",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
+      ],
+      "notes": "Amorite King of Babylon I (1894-1595 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_1_06_abi_eshuh_28_yrs",
+      "name": "Abi-eshuh (28 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "1894-1595 BCE (L.W. King Vol. I)",
+      "role": "Amorite King of Babylon I",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
+      ],
+      "notes": "Amorite King of Babylon I (1894-1595 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_1_07_ammi_ditana_37_yrs",
+      "name": "Ammi-ditana (37 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "1894-1595 BCE (L.W. King Vol. I)",
+      "role": "Amorite King of Babylon I",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
+      ],
+      "notes": "Amorite King of Babylon I (1894-1595 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_1_08_ammi_saduqa_21_yrs_venus_tab",
+      "name": "Ammi-saduqa (21 yrs, Venus Tablet)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "1894-1595 BCE (L.W. King Vol. I)",
+      "role": "Amorite King of Babylon I",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
+      ],
+      "notes": "Amorite King of Babylon I (1894-1595 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_1_09_samsu_ditana_31_yrs_fell_to_",
+      "name": "Samsu-ditana (31 yrs, Fell to Hittites)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "1894-1595 BCE (L.W. King Vol. I)",
+      "role": "Amorite King of Babylon I",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
+      ],
+      "notes": "Amorite King of Babylon I (1894-1595 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_1_10_rim_sin_of_larsa_son_of_kudu",
+      "name": "Rim-Sin of Larsa (Son of Kudur-Mabuk)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 11,
+      "era": "1894-1595 BCE (L.W. King Vol. I)",
+      "role": "Amorite King of Babylon I",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
+      ],
+      "notes": "Amorite King of Babylon I (1894-1595 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_2_01_iluma_ilu_60_yrs",
+      "name": "Iluma-ilu (60 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1732-1460 BCE (L.W. King Vol. I)",
+      "role": "King of 1st Sealand Dynasty",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
+      ],
+      "notes": "King of 1st Sealand Dynasty (c. 1732-1460 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_2_02_itti_ili_nibi_55_yrs",
+      "name": "Itti-ili-nibi (55 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1732-1460 BCE (L.W. King Vol. I)",
+      "role": "King of 1st Sealand Dynasty",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
+      ],
+      "notes": "King of 1st Sealand Dynasty (c. 1732-1460 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_2_03_damqi_ilishu_36_yrs",
+      "name": "Damqi-ilishu (36 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1732-1460 BCE (L.W. King Vol. I)",
+      "role": "King of 1st Sealand Dynasty",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
+      ],
+      "notes": "King of 1st Sealand Dynasty (c. 1732-1460 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_2_04_ishkibal_15_yrs",
+      "name": "Ishkibal (15 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1732-1460 BCE (L.W. King Vol. I)",
+      "role": "King of 1st Sealand Dynasty",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
+      ],
+      "notes": "King of 1st Sealand Dynasty (c. 1732-1460 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_2_05_shushshi_27_yrs",
+      "name": "Shushshi (27 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1732-1460 BCE (L.W. King Vol. I)",
+      "role": "King of 1st Sealand Dynasty",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
+      ],
+      "notes": "King of 1st Sealand Dynasty (c. 1732-1460 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_2_06_gulkishar_55_yrs",
+      "name": "Gulkishar (55 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1732-1460 BCE (L.W. King Vol. I)",
+      "role": "King of 1st Sealand Dynasty",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
+      ],
+      "notes": "King of 1st Sealand Dynasty (c. 1732-1460 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_2_07_peshgaldaramesh_50_yrs",
+      "name": "Peshgaldaramesh (50 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1732-1460 BCE (L.W. King Vol. I)",
+      "role": "King of 1st Sealand Dynasty",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
+      ],
+      "notes": "King of 1st Sealand Dynasty (c. 1732-1460 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_2_08_ayadaragalama_28_yrs",
+      "name": "Ayadaragalama (28 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1732-1460 BCE (L.W. King Vol. I)",
+      "role": "King of 1st Sealand Dynasty",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
+      ],
+      "notes": "King of 1st Sealand Dynasty (c. 1732-1460 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_2_09_akurduana_26_yrs",
+      "name": "Akurduana (26 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1732-1460 BCE (L.W. King Vol. I)",
+      "role": "King of 1st Sealand Dynasty",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
+      ],
+      "notes": "King of 1st Sealand Dynasty (c. 1732-1460 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_2_10_melamkurkurra_7_yrs",
+      "name": "Melamkurkurra (7 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1732-1460 BCE (L.W. King Vol. I)",
+      "role": "King of 1st Sealand Dynasty",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
+      ],
+      "notes": "King of 1st Sealand Dynasty (c. 1732-1460 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_2_11_ea_gamil_9_yrs",
+      "name": "Ea-gamil (9 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 12,
+      "era": "c. 1732-1460 BCE (L.W. King Vol. I)",
+      "role": "King of 1st Sealand Dynasty",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
+      ],
+      "notes": "King of 1st Sealand Dynasty (c. 1732-1460 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_01_gandash_16_yrs",
+      "name": "Gandash (16 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_02_agum_i_22_yrs",
+      "name": "Agum I (22 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_03_kashtiliash_i_22_yrs",
+      "name": "Kashtiliash I (22 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_04_ushshi",
+      "name": "Ushshi",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_05_abirattash",
+      "name": "Abirattash",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_06_urzigurumash",
+      "name": "Urzigurumash",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_07_agum_ii_restored_marduk",
+      "name": "Agum II (Restored Marduk)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_08_burna_buriash_i",
+      "name": "Burna-Buriash I",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_09_ulam_buriash_conquered_seala",
+      "name": "Ulam-Buriash (Conquered Sealand)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_10_burna_buriash_ii_amarna_lett",
+      "name": "Burna-Buriash II (Amarna Letters)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_11_kudur_enlil",
+      "name": "Kudur-Enlil",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_12_shagarakti_shuriash_13_yrs",
+      "name": "Shagarakti-Shuriash (13 yrs)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_3_13_meli_shipak",
+      "name": "Meli-Shipak",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 1595-1155 BCE (L.W. King Vol. I)",
+      "role": "Kassite King of Babylon",
+      "sources": [
+        "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
+      ],
+      "notes": "Kassite King of Babylon (c. 1595-1155 BCE (L.W. King Vol. I)).",
+      "major": false
+    },
+    {
+      "id": "babr_10_01_nabopolassar_626_605_bce",
+      "name": "Nabopolassar (626-605 BCE)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "626-539 BCE (Babylonian Chronicles)",
+      "role": "Neo-Babylonian / Chaldean King",
+      "sources": [
+        "Babylonian Chronicles",
+        "Eusebius Chronicle",
+        "2 Kings 24-25"
+      ],
+      "notes": "Neo-Babylonian / Chaldean King (626-539 BCE (Babylonian Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "babr_10_02_amel_marduk_evil_merodach_56",
+      "name": "Amel-Marduk / Evil-Merodach (562-560 BCE)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "626-539 BCE (Babylonian Chronicles)",
+      "role": "Neo-Babylonian / Chaldean King",
+      "sources": [
+        "Babylonian Chronicles",
+        "Eusebius Chronicle",
+        "2 Kings 24-25"
+      ],
+      "notes": "Neo-Babylonian / Chaldean King (626-539 BCE (Babylonian Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "babr_10_03_neriglissar_560_556_bce",
+      "name": "Neriglissar (560-556 BCE)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "626-539 BCE (Babylonian Chronicles)",
+      "role": "Neo-Babylonian / Chaldean King",
+      "sources": [
+        "Babylonian Chronicles",
+        "Eusebius Chronicle",
+        "2 Kings 24-25"
+      ],
+      "notes": "Neo-Babylonian / Chaldean King (626-539 BCE (Babylonian Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "babr_10_04_labashi_marduk_556_bce",
+      "name": "Labashi-Marduk (556 BCE)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "626-539 BCE (Babylonian Chronicles)",
+      "role": "Neo-Babylonian / Chaldean King",
+      "sources": [
+        "Babylonian Chronicles",
+        "Eusebius Chronicle",
+        "2 Kings 24-25"
+      ],
+      "notes": "Neo-Babylonian / Chaldean King (626-539 BCE (Babylonian Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "babr_10_05_nabonidus_556_539_bce",
+      "name": "Nabonidus (556-539 BCE)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "626-539 BCE (Babylonian Chronicles)",
+      "role": "Neo-Babylonian / Chaldean King",
+      "sources": [
+        "Babylonian Chronicles",
+        "Eusebius Chronicle",
+        "2 Kings 24-25"
+      ],
+      "notes": "Neo-Babylonian / Chaldean King (626-539 BCE (Babylonian Chronicles)).",
+      "major": false
+    },
+    {
+      "id": "babr_10_06_crown_prince_belshazzar_dani",
+      "name": "Crown Prince Belshazzar (Daniel 5)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "626-539 BCE (Babylonian Chronicles)",
+      "role": "Neo-Babylonian / Chaldean King",
+      "sources": [
+        "Babylonian Chronicles",
+        "Eusebius Chronicle",
+        "2 Kings 24-25"
+      ],
+      "notes": "Neo-Babylonian / Chaldean King (626-539 BCE (Babylonian Chronicles)).",
+      "major": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "bib_asshur",
+      "to": "akl_01_tudiya",
+      "type": "cognate",
+      "label": "Genesis 10:11 Asshur <-> Canonical Assyrian King List (AKL)"
+    },
+    {
+      "from": "akl_01_tudiya",
+      "to": "akl_02_adamu",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_02_adamu",
+      "to": "akl_03_08_tents",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "akl_09_10_didanu_hanu",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_09_10_didanu_hanu",
+      "to": "akl_11_15_tents",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_11_15_tents",
+      "to": "akl_16_ushpia",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_16_ushpia",
+      "to": "akl_17_apiashal",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_17_apiashal",
+      "to": "akl_18_24_ancestors",
+      "type": "direct",
+      "label": "AKL Section 2: 'Ten kings whose fathers are known'"
+    },
+    {
+      "from": "akl_18_24_ancestors",
+      "to": "akl_25_26_ilukabkabi_aminu",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_25_26_ilukabkabi_aminu",
+      "to": "akl_27_29_sulili_kikia",
+      "type": "expansion",
+      "label": "Old Assyrian Dynasty & Shamshi-Adad I (AKL 27-72)"
+    },
+    {
+      "from": "akl_27_29_sulili_kikia",
+      "to": "akl_30_32_puzur_ilushuma",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_30_32_puzur_ilushuma",
+      "to": "akl_33_34_erishum_ikunum",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_33_34_erishum_ikunum",
+      "to": "akl_35_38_sargon1_naramsin",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_35_38_sargon1_naramsin",
+      "to": "akl_39_40_shamshi_adad1",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_39_40_shamshi_adad1",
+      "to": "akl_41_47_usurpers",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_41_47_usurpers",
+      "to": "akl_48_53_belubani",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "akl_54_66_old_late",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_54_66_old_late",
+      "to": "akl_67_72_pre_middle",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_67_72_pre_middle",
+      "to": "akl_73_76_ashuruballit1",
+      "type": "direct",
+      "label": "Middle Assyrian Empire (AKL 73-97)"
+    },
+    {
+      "from": "akl_73_76_ashuruballit1",
+      "to": "akl_77_78_shalmaneser1_tukulti",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_77_78_shalmaneser1_tukulti",
+      "to": "akl_79_86_ninurta_apil",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "akl_87_97_tiglath1_to_2",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_87_97_tiglath1_to_2",
+      "to": "akl_98_101_ashurnasirpal2",
+      "type": "direct",
+      "label": "Neo-Assyrian Empire (AKL 98-116)"
+    },
+    {
+      "from": "akl_98_101_ashurnasirpal2",
+      "to": "akl_102_shalmaneser3",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_102_shalmaneser3",
+      "to": "akl_103_104_semiramis",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_103_104_semiramis",
+      "to": "akl_105_107_eclipse_kings",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_105_107_eclipse_kings",
+      "to": "akl_108_109_tp3_shalm5",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "akl_108_109_tp3_shalm5",
+      "to": "akl_110_116_sargonids",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "mes_mesannepada",
+      "to": "skl_ur1_full",
+      "type": "direct",
+      "label": "Post-Diluvian Sumerian King List Continuation (Jacobsen AS 11)"
+    },
+    {
+      "from": "skl_ur1_full",
+      "to": "skl_awan_kish2_hamazi",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "skl_awan_kish2_hamazi",
+      "to": "skl_uruk2_ur2_adab_mari",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "skl_uruk2_ur2_adab_mari",
+      "to": "skl_kubaba_kish3",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "skl_kubaba_kish3",
+      "to": "skl_akshak_kish4",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "skl_akshak_kish4",
+      "to": "skl_uruk3_lugalzagesi",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "skl_uruk3_lugalzagesi",
+      "to": "skl_akkad_late",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "skl_akkad_late",
+      "to": "skl_uruk4_gutium_uruk5",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "skl_lagash_gudea",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "skl_lagash_gudea",
+      "to": "skl_isin1_full",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "mes_hammurabi",
+      "to": "bab_dyn1_amorite",
+      "type": "direct",
+      "label": "Complete Babylonian Dynastic Sequence (L.W. King Vol. I)"
+    },
+    {
+      "from": "bab_dyn1_amorite",
+      "to": "bab_dyn2_sealand",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "bab_dyn2_sealand",
+      "to": "bab_dyn3_kassite",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "bab_dyn4_isin2",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "bab_dyn4_isin2",
+      "to": "bab_dyn5_8_inter",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "bab_dyn5_8_inter",
+      "to": "bab_dyn10_chaldean",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "skl_uruk3_lugalzagesi",
+      "to": "mes_sargon",
+      "type": "expansion",
+      "label": "Sargon of Akkad (former cupbearer of Ur-Zababa) defeats Lugal-zagesi"
+    },
+    {
+      "from": "mes_sharkalisharri",
+      "to": "skl_akkad_late",
+      "type": "direct",
+      "label": "Akkad Interregnum -> Dudu -> Shu-Durul (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "mes_urnammu",
+      "type": "expansion",
+      "label": "Utu-hegal expels Gutians -> Ur-Nammu founds Ur III Dynasty"
+    },
+    {
+      "from": "mes_ibbisin",
+      "to": "skl_isin1_full",
+      "type": "expansion",
+      "label": "Fall of Ur III -> Ishbi-Erra founds Isin I Dynasty"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "eg_akhenaten",
+      "type": "cognate",
+      "label": "Amarna Letters EA 6-11 (Burna-Buriash II writes to Akhenaten)"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "akl_73_76_ashuruballit1",
+      "type": "direct",
+      "label": "Kassite royal marriage with Ashur-uballit I's daughter Muballitat-Sherua"
+    },
+    {
+      "from": "bab_dyn5_8_inter",
+      "to": "kg_j9_hezekiah",
+      "type": "cognate",
+      "label": "Merodach-Baladan II sends letters & gifts to King Hezekiah (2 Kgs 20:12)"
+    },
+    {
+      "from": "bab_dyn10_chaldean",
+      "to": "for_nebuchadnezzar",
+      "type": "direct",
+      "label": "Full Chaldean Dynasty from Nabopolassar to Belshazzar"
+    },
+    {
+      "from": "bab_dyn10_chaldean",
+      "to": "ir_cyrus",
+      "type": "cognate",
+      "label": "Cyrus Cylinder: Cyrus the Great captures Babylon from Nabonidus & Belshazzar (539 BCE)"
+    },
+    {
+      "from": "bib_adam",
+      "to": "akl_02_adamu",
+      "type": "cognate",
+      "label": "West Semitic name Adamu (AKL #2) <-> Hebrew Adam"
+    },
+    {
+      "from": "mes_hammurabi",
+      "to": "akl_39_40_shamshi_adad1",
+      "type": "cognate",
+      "label": "Contemporaries & treaty partners (Mari Archives, c. 1780 BCE)"
+    },
+    {
+      "from": "akl_73_76_ashuruballit1",
+      "to": "eg_akhenaten",
+      "type": "cognate",
+      "label": "Amarna Letters EA 15-16 (Ashur-uballit I writes to Akhenaten)"
+    },
+    {
+      "from": "akl_102_shalmaneser3",
+      "to": "kg_i3_omri_ahab",
+      "type": "cognate",
+      "label": "Battle of Qarqar (853 BCE) — Kurkh Monolith names 'Ahab the Israelite'"
+    },
+    {
+      "from": "akl_102_shalmaneser3",
+      "to": "kg_i4_jehu",
+      "type": "cognate",
+      "label": "Black Obelisk of Shalmaneser III (841 BCE) depicts King Jehu of Israel"
+    },
+    {
+      "from": "akl_108_109_tp3_shalm5",
+      "to": "for_neo_assyria",
+      "type": "cognate",
+      "label": "Biblical 'Pul' / Tiglath-Pileser III & Shalmaneser V"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "kg_j9_hezekiah",
+      "type": "cognate",
+      "label": "Sennacherib's Taylor Prism & 2 Kings 18-19 (701 BCE Siege of Jerusalem)"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "af_taharqa",
+      "type": "cognate",
+      "label": "Esarhaddon & Ashurbanipal defeat Kushite Pharaoh Taharqa in Egypt (671-664 BCE)"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "mes_assyria_kings",
+      "type": "direct",
+      "label": "Completes the Assyrian royal succession"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_01_yangi_akl_3",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_02_suhlamu_akl_4",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_03_harharu_akl_5",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_04_mandaru_akl_6",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_05_imsu_akl_7",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_06_harsu_akl_8",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_07_didanu_tidnum_akl_9",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_08_hanu_akl_10",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_09_zuabu_akl_11",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_10_nuabu_akl_12",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_11_abazu_akl_13",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_12_belu_akl_14",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_03_08_tents",
+      "to": "aklr_t1_13_azarah_akl_15",
+      "type": "expansion",
+      "label": "AKL Tent-Dwelling King (Pruzsinszky Table 17a)"
+    },
+    {
+      "from": "akl_18_24_ancestors",
+      "to": "aklr_anc_01_hale_akl_18",
+      "type": "direct",
+      "label": "AKL Ancestor Sequence (Section 2)"
+    },
+    {
+      "from": "akl_18_24_ancestors",
+      "to": "aklr_anc_02_samani_akl_19",
+      "type": "direct",
+      "label": "AKL Ancestor Sequence (Section 2)"
+    },
+    {
+      "from": "akl_18_24_ancestors",
+      "to": "aklr_anc_03_hayani_akl_20",
+      "type": "direct",
+      "label": "AKL Ancestor Sequence (Section 2)"
+    },
+    {
+      "from": "akl_18_24_ancestors",
+      "to": "aklr_anc_04_ilu_mer_akl_21",
+      "type": "direct",
+      "label": "AKL Ancestor Sequence (Section 2)"
+    },
+    {
+      "from": "akl_18_24_ancestors",
+      "to": "aklr_anc_05_yakmesi_akl_22",
+      "type": "direct",
+      "label": "AKL Ancestor Sequence (Section 2)"
+    },
+    {
+      "from": "akl_18_24_ancestors",
+      "to": "aklr_anc_06_yakmeni_akl_23",
+      "type": "direct",
+      "label": "AKL Ancestor Sequence (Section 2)"
+    },
+    {
+      "from": "akl_18_24_ancestors",
+      "to": "aklr_anc_07_yazkur_el_akl_24",
+      "type": "direct",
+      "label": "AKL Ancestor Sequence (Section 2)"
+    },
+    {
+      "from": "akl_18_24_ancestors",
+      "to": "aklr_anc_08_ilu_kabkabi_akl_25",
+      "type": "direct",
+      "label": "AKL Ancestor Sequence (Section 2)"
+    },
+    {
+      "from": "akl_18_24_ancestors",
+      "to": "aklr_anc_09_aminu_akl_26",
+      "type": "direct",
+      "label": "AKL Ancestor Sequence (Section 2)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_01_sulili_akl_27",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_02_kikia_akl_28",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_03_akia_akl_29",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_04_puzur_ashur_i_akl_30",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_05_shalim_ahum_akl_31",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_06_ilushuma_akl_32",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_07_erishum_i_akl_33_40_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_08_ikunum_akl_34_15_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_09_sargon_i_of_assyria_akl_35_4",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_10_puzur_ashur_ii_akl_36_8_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_11_naram_sin_of_assyria_akl_37_",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_12_erishum_ii_akl_38_10_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_13_ishme_dagan_i_akl_40_40_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_14_ashur_dugul_akl_41_6_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_15_adasi_akl_47_adaside_founder",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_16_belu_bani_akl_48_10_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_17_libaya_akl_49_17_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_18_sharma_adad_i_akl_50_12_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_19_iptar_sin_akl_51_12_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_20_bazaya_akl_52_28_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_21_lullaya_akl_53_6_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_22_kidin_ninua_akl_54_14_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_23_sharma_adad_ii_akl_55_3_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_24_erishum_iii_akl_56_13_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_25_shamshi_adad_ii_akl_57_6_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_26_ishme_dagan_ii_akl_58_16_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_27_shamshi_adad_iii_akl_59_16_y",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_28_ashur_nirari_i_akl_60_26_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_29_puzur_ashur_iii_akl_61_14_24",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_30_enlil_nasir_i_akl_62_13_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_31_nur_ili_akl_63_12_yrs",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_32_ashur_shaduni_akl_64",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_33_ashur_rabi_i_akl_65",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_48_53_belubani",
+      "to": "aklr_old_34_ashur_nadin_ahhe_i_akl_66",
+      "type": "direct",
+      "label": "Old Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_01_enlil_nasir_ii_akl_67_6_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_02_ashur_nirari_ii_akl_68_7_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_03_ashur_bel_nisheshu_akl_69_9_",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_04_ashur_rim_nisheshu_akl_70_8_",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_05_ashur_nadin_ahhe_ii_akl_71_1",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_06_eriba_adad_i_akl_72_27_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_07_enlil_nirari_akl_74_10_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_08_arik_den_ili_akl_75_12_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_09_adad_nirari_i_akl_76_32_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_10_shalmaneser_i_akl_77_30_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_11_tukulti_ninurta_i_akl_78_37_",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_12_ashur_nadin_apli_akl_79_4_yr",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_13_ashur_nirari_iii_akl_80_6_yr",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_14_enlil_kudurri_usur_akl_81_5_",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_15_ninurta_apil_ekur_akl_82_13_",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_16_ashur_dan_i_akl_83_46_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_17_ninurta_tukulti_ashur_akl_84",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_18_mutakkil_nusku_akl_85",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_19_ashur_resh_ishi_i_akl_86_18_",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_20_tiglath_pileser_i_akl_87_39_",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_21_ashared_apil_ekur_akl_88_2_y",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_22_ashur_bel_kala_akl_89_18_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_23_eriba_adad_ii_akl_90_2_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_24_shamshi_adad_iv_akl_91_4_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_25_ashurnasirpal_i_akl_92_19_yr",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_26_shalmaneser_ii_akl_93_12_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_27_ashur_nirari_iv_akl_94_6_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_28_ashur_rabi_ii_akl_95_41_yrs",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_29_ashur_resh_ishi_ii_akl_96_5_",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_79_86_ninurta_apil",
+      "to": "aklr_mid_30_tiglath_pileser_ii_akl_97_32",
+      "type": "direct",
+      "label": "Middle Assyrian King (AKL)"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_01_ashur_dan_ii_akl_98_23_yrs",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_02_adad_nirari_ii_akl_99_21_yrs",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_03_tukulti_ninurta_ii_akl_100_7",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_04_ashurnasirpal_ii_akl_101_25_",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_05_shamshi_adad_v_akl_103_13_yr",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_06_queen_shammuramat_semiramis_",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_07_adad_nirari_iii_akl_104_28_y",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_08_shalmaneser_iv_akl_105_10_yr",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_09_ashur_dan_iii_akl_106_763_bc",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_10_ashur_nirari_v_akl_107_10_yr",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_11_sargon_ii_722_705_bce",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_12_sennacherib_705_681_bce",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_13_esarhaddon_681_669_bce",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_14_ashurbanipal_669_631_bce",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_15_ashur_etil_ilani_631_627_bce",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_16_sin_shar_ishkun_627_612_bce",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "akl_110_116_sargonids",
+      "to": "aklr_neo_17_ashur_uballit_ii_612_609_bce",
+      "type": "direct",
+      "label": "Neo-Assyrian Ruler"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_01_erridupizir_gutian_1",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_02_imta_gutian_2_3_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_03_inkishush_gutian_3_6_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_04_sarlagab_gutian_4_6_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_05_shulme_gutian_5_6_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_06_elulumesh_gutian_6_6_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_07_inimabakesh_gutian_7_5_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_08_igeshaush_gutian_8_6_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_09_iarlagab_gutian_9_15_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_10_ibate_gutian_10_3_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_11_iarlangab_gutian_11_3_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_12_kurum_gutian_12_1_yr",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_13_habil_kin_gutian_13_3_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_14_laerabum_gutian_14_2_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_15_irarum_gutian_15_2_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_16_ibranum_gutian_16_1_yr",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_17_hablum_gutian_17_2_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_18_puzur_sin_of_gutium_gutian_1",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_19_iarlaganda_gutian_19_7_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_20_si_um_gutian_20_7_yrs",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_uruk4_gutium_uruk5",
+      "to": "sklr_gut_21_tirigan_gutian_21_40_days",
+      "type": "expansion",
+      "label": "Gutian King (SKL Col. vii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_01_ishbi_erra_33_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_02_shu_ilishu_10_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_03_iddin_dagan_21_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_04_ishme_dagan_of_isin_20_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_05_lipit_ishtar_11_yrs_law_code",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_06_ur_ninurta_28_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_07_bur_sin_of_isin_21_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_08_lipit_enlil_5_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_09_erra_imitti_8_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_10_enlil_bani_24_yrs_gardener_k",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_11_zambia_3_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_12_iter_pisha_4_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_13_ur_dukuga_4_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_14_sin_magir_11_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "skl_isin1_full",
+      "to": "sklr_isin_15_damiq_ilishu_23_yrs",
+      "type": "direct",
+      "label": "Isin I King (SKL Col. viii)"
+    },
+    {
+      "from": "bab_dyn1_amorite",
+      "to": "babr_1_01_sumu_la_el_36_yrs",
+      "type": "direct",
+      "label": "Babylon I / Larsa Ruler"
+    },
+    {
+      "from": "bab_dyn1_amorite",
+      "to": "babr_1_02_sabium_14_yrs",
+      "type": "direct",
+      "label": "Babylon I / Larsa Ruler"
+    },
+    {
+      "from": "bab_dyn1_amorite",
+      "to": "babr_1_03_apil_sin_18_yrs",
+      "type": "direct",
+      "label": "Babylon I / Larsa Ruler"
+    },
+    {
+      "from": "bab_dyn1_amorite",
+      "to": "babr_1_04_sin_muballit_20_yrs_father_o",
+      "type": "direct",
+      "label": "Babylon I / Larsa Ruler"
+    },
+    {
+      "from": "bab_dyn1_amorite",
+      "to": "babr_1_05_samsu_iluna_38_yrs_son_of_ha",
+      "type": "direct",
+      "label": "Babylon I / Larsa Ruler"
+    },
+    {
+      "from": "bab_dyn1_amorite",
+      "to": "babr_1_06_abi_eshuh_28_yrs",
+      "type": "direct",
+      "label": "Babylon I / Larsa Ruler"
+    },
+    {
+      "from": "bab_dyn1_amorite",
+      "to": "babr_1_07_ammi_ditana_37_yrs",
+      "type": "direct",
+      "label": "Babylon I / Larsa Ruler"
+    },
+    {
+      "from": "bab_dyn1_amorite",
+      "to": "babr_1_08_ammi_saduqa_21_yrs_venus_tab",
+      "type": "direct",
+      "label": "Babylon I / Larsa Ruler"
+    },
+    {
+      "from": "bab_dyn1_amorite",
+      "to": "babr_1_09_samsu_ditana_31_yrs_fell_to_",
+      "type": "direct",
+      "label": "Babylon I / Larsa Ruler"
+    },
+    {
+      "from": "bab_dyn1_amorite",
+      "to": "babr_1_10_rim_sin_of_larsa_son_of_kudu",
+      "type": "direct",
+      "label": "Babylon I / Larsa Ruler"
+    },
+    {
+      "from": "bab_dyn2_sealand",
+      "to": "babr_2_01_iluma_ilu_60_yrs",
+      "type": "expansion",
+      "label": "1st Sealand Dynasty King"
+    },
+    {
+      "from": "bab_dyn2_sealand",
+      "to": "babr_2_02_itti_ili_nibi_55_yrs",
+      "type": "expansion",
+      "label": "1st Sealand Dynasty King"
+    },
+    {
+      "from": "bab_dyn2_sealand",
+      "to": "babr_2_03_damqi_ilishu_36_yrs",
+      "type": "expansion",
+      "label": "1st Sealand Dynasty King"
+    },
+    {
+      "from": "bab_dyn2_sealand",
+      "to": "babr_2_04_ishkibal_15_yrs",
+      "type": "expansion",
+      "label": "1st Sealand Dynasty King"
+    },
+    {
+      "from": "bab_dyn2_sealand",
+      "to": "babr_2_05_shushshi_27_yrs",
+      "type": "expansion",
+      "label": "1st Sealand Dynasty King"
+    },
+    {
+      "from": "bab_dyn2_sealand",
+      "to": "babr_2_06_gulkishar_55_yrs",
+      "type": "expansion",
+      "label": "1st Sealand Dynasty King"
+    },
+    {
+      "from": "bab_dyn2_sealand",
+      "to": "babr_2_07_peshgaldaramesh_50_yrs",
+      "type": "expansion",
+      "label": "1st Sealand Dynasty King"
+    },
+    {
+      "from": "bab_dyn2_sealand",
+      "to": "babr_2_08_ayadaragalama_28_yrs",
+      "type": "expansion",
+      "label": "1st Sealand Dynasty King"
+    },
+    {
+      "from": "bab_dyn2_sealand",
+      "to": "babr_2_09_akurduana_26_yrs",
+      "type": "expansion",
+      "label": "1st Sealand Dynasty King"
+    },
+    {
+      "from": "bab_dyn2_sealand",
+      "to": "babr_2_10_melamkurkurra_7_yrs",
+      "type": "expansion",
+      "label": "1st Sealand Dynasty King"
+    },
+    {
+      "from": "bab_dyn2_sealand",
+      "to": "babr_2_11_ea_gamil_9_yrs",
+      "type": "expansion",
+      "label": "1st Sealand Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_01_gandash_16_yrs",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_02_agum_i_22_yrs",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_03_kashtiliash_i_22_yrs",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_04_ushshi",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_05_abirattash",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_06_urzigurumash",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_07_agum_ii_restored_marduk",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_08_burna_buriash_i",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_09_ulam_buriash_conquered_seala",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_10_burna_buriash_ii_amarna_lett",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_11_kudur_enlil",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_12_shagarakti_shuriash_13_yrs",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "babr_3_13_meli_shipak",
+      "type": "expansion",
+      "label": "Kassite Dynasty King"
+    },
+    {
+      "from": "bab_dyn10_chaldean",
+      "to": "babr_10_01_nabopolassar_626_605_bce",
+      "type": "direct",
+      "label": "Neo-Babylonian / Chaldean Ruler"
+    },
+    {
+      "from": "bab_dyn10_chaldean",
+      "to": "babr_10_02_amel_marduk_evil_merodach_56",
+      "type": "direct",
+      "label": "Neo-Babylonian / Chaldean Ruler"
+    },
+    {
+      "from": "bab_dyn10_chaldean",
+      "to": "babr_10_03_neriglissar_560_556_bce",
+      "type": "direct",
+      "label": "Neo-Babylonian / Chaldean Ruler"
+    },
+    {
+      "from": "bab_dyn10_chaldean",
+      "to": "babr_10_04_labashi_marduk_556_bce",
+      "type": "direct",
+      "label": "Neo-Babylonian / Chaldean Ruler"
+    },
+    {
+      "from": "bab_dyn10_chaldean",
+      "to": "babr_10_05_nabonidus_556_539_bce",
+      "type": "direct",
+      "label": "Neo-Babylonian / Chaldean Ruler"
+    },
+    {
+      "from": "bab_dyn10_chaldean",
+      "to": "babr_10_06_crown_prince_belshazzar_dani",
+      "type": "direct",
+      "label": "Neo-Babylonian / Chaldean Ruler"
+    }
+  ]
+}

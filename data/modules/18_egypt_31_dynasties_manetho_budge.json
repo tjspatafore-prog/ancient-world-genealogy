@@ -1,0 +1,3620 @@
+{
+  "module": "18_egypt_31_dynasties_manetho_budge",
+  "title": "Complete 31 Dynasties of Egypt (Manetho Loeb, Palermo Stone/Breasted, Willockx 1-6, Budge Vol. II) + Complete Ptolemies & Napata/Meroe Kings",
+  "nodes": [
+    {
+      "id": "eg_manetho_demigods",
+      "name": "Manetho's Pre-Dynastic Rulers: Gods (Ptah→Re→Shu→Geb→Osiris→Seth→Horus), Demigods & Shemsu-Hor ('Spirits of the Dead')",
+      "altNames": [
+        "Shemsu-Hor",
+        "Bydis/Bites",
+        "Manetho Divine Dynasties"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 3,
+      "era": "Predynastic Mythic Era (Manetho Fr. 1-4, Loeb pp. 3-19)",
+      "role": "24,900 Lunar Years of Divine & Demigod Kingship Before Menes",
+      "sources": [
+        "Manetho Aegyptiaca Fr. 1-4 (Loeb)",
+        "Turin Royal Canon"
+      ],
+      "notes": "Manetho's opening sequence: 6 Great Gods (Hephaestus/Ptah -> son Helios/Re -> Agathodaemon/Shu -> Cronos/Geb -> Osiris & Isis -> Typhon/Seth), 9 Demigods (Horus, Ares/Anhur, Anubis, Heracles/Khonsu, Apollo, Ammon, Tithoes, Sosus, Zeus), down to Bydis/Bites and the Shemsu-Hor ('Followers of Horus / Spirits of the Dead').",
+      "major": true
+    },
+    {
+      "id": "eg_palermo_predynastic",
+      "name": "Palermo Stone Predynastic Kings of Lower Egypt (Seka, Khayu, Tiu, Thesh, Neheb, Wazner, Mekh) & King Scorpion",
+      "altNames": [
+        "Seka",
+        "Khayu",
+        "Tiu",
+        "Thesh",
+        "Neheb",
+        "Wazner",
+        "Mekh",
+        "King Scorpion"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 5,
+      "era": "c. 3200-3000 BCE (Breasted Vol. I §90, p. 57)",
+      "role": "Earliest Historically Inscribed Rulers of the Nile Before Narmer",
+      "sources": [
+        "Palermo Stone (Breasted Vol. I p. 57)",
+        "Dynasty 0 Inscriptions"
+      ],
+      "notes": "Row 1 of the 5th-Dynasty Palermo Stone preserves actual names of Pre-Unification Red Crown Kings of Lower Egypt: Seka, Khayu, Teyew/Tiu, Thesh, Neheb, Wazenez/Wazner, and Mekh — alongside Upper Egyptian Dynasty 0 rulers Iry-Hor, Ka, and King Scorpion.",
+      "major": false
+    },
+    {
+      "id": "eg_dyn1_complete",
+      "name": "Dynasty I Complete (Thinite, 8 Kings): Narmer/Menes → Hor-Aha (Athothis) → Djer (Kenkenes) → Djet (Uenephes) → Queen Merneith → Den (Usaphais) → Adjib (Miebis) → Semerkhet (Semempses) → Qa'a (Bieneches)",
+      "altNames": [
+        "Djer / Kenkenes",
+        "Djet / Uenephes",
+        "Queen Merneith",
+        "Adjib / Miebis",
+        "Semerkhet / Semempses"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2803 BCE (Willockx pp. 7-8; Manetho Fr. 6-7)",
+      "role": "Complete Unification Dynasty (Africanus Makes Every King Son of His Predecessor)",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Willockx King List 1-6"
+      ],
+      "notes": "179 historical years (Manetho: 253 yrs). Queen Merneith ruled as regent/mother of Den. Every Abydos royal tomb and Horus-name matched with Manetho's Greek names.",
+      "major": false
+    },
+    {
+      "id": "eg_dyn2_complete",
+      "name": "Dynasty II Complete (9 Kings): Hotepsekhemwy (Boethos) → Nebre (Kaiechos) → Nynetjer (Binothris) → Weneg (Tlas) → Sened (Sethenes) → Sneferka → Sekhemib → Seth-Peribsen (Sesochris) → Khasekhemwy (Cheneres)",
+      "altNames": [
+        "Hotepsekhemwy",
+        "Nebre",
+        "Nynetjer / Binothris",
+        "Seth-Peribsen"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2803-2657 BCE (Willockx pp. 9-10; Manetho Fr. 8-10)",
+      "role": "Consolidation of Memphis & Horus/Seth Reconciliation",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Willockx King List 1-6"
+      ],
+      "notes": "Manetho notes under Nynetjer (Binothris) it was decreed that women could hold the royal dignity; Peribsen took a Seth-name before Khasekhemwy united both Horus and Seth above his serekh!",
+      "major": false
+    },
+    {
+      "id": "eg_dyn3_complete",
+      "name": "Dynasty III Complete (Memphite, 5 Kings): Sanakht (Necherophes) → Netjerykhet/Djoser (Tosorthros + Imhotep) → Sekhemkhet (Tyris) → Khaba → Huni (Kerpheres)",
+      "altNames": [
+        "Sanakht",
+        "Sekhemkhet",
+        "Khaba",
+        "Huni"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2589 BCE (Willockx p. 11; Manetho Fr. 11-12)",
+      "role": "Dawn of Stone Pyramid Architecture (Saqqara Step Pyramid)",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Willockx King List 1-6"
+      ],
+      "notes": "Djoser & architect Imhotep (Greek: Imuthes/Asclepius) built the first monumental stone pyramid; Huni inaugurated the royal cartouche.",
+      "major": false
+    },
+    {
+      "id": "eg_dyn4_complete",
+      "name": "Dynasty IV Complete (Pyramid Builders, 7 Kings): Sneferu (Soris) → Khufu (Suphis I) → Djedefre (Ratoises) → Khafre (Suphis II) → Baka (Bicheris) → Menkaure (Mencheres) → Shepseskaf (Sebercheres) & Queen Khentkawes",
+      "altNames": [
+        "Djedefre / Ratoises",
+        "Baka / Bicheris",
+        "Shepseskaf",
+        "Queen Khentkawes"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2589-2454 BCE (Willockx p. 12; Manetho Fr. 14-16)",
+      "role": "Complete Great Pyramid Dynasty of Dahshur & Giza",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Willockx King List 1-6"
+      ],
+      "notes": "Sneferu built 3 giant pyramids; sons/grandsons Khufu, Djedefre, Khafre, and Menkaure erected Giza; Menkaure's daughter Queen Khentkawes bridged Dynasties IV and V!",
+      "major": false
+    },
+    {
+      "id": "eg_dyn5_complete",
+      "name": "Dynasty V Complete (Solar Kings, 9 Kings): Userkaf (Usercheres) → Sahure (Sephres) → Neferirkare Kakai → Shepseskare → Neferefre → Nyuserre Ini → Menkauhor → Djedkare Isesi → Unas (Onnus, Pyramid Texts!)",
+      "altNames": [
+        "Userkaf",
+        "Sahure",
+        "Neferirkare",
+        "Nyuserre",
+        "Djedkare Isesi",
+        "Unas"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 8,
+      "era": "c. 2454-2297 BCE (Willockx pp. 13-14; Manetho Fr. 18)",
+      "role": "Sun Temple Builders & Oldest Religious Texts (Pyramid Texts of Unas)",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Willockx King List 1-6"
+      ],
+      "notes": "Userkaf's era compiled the Palermo Stone Annals; Unas inscribed the oldest corpus of sacred funerary liturgy in human history (Pyramid Texts) inside his Saqqara pyramid.",
+      "major": false
+    },
+    {
+      "id": "eg_dyn6_complete",
+      "name": "Dynasty VI Complete (6-7 Kings): Teti (Othoes) → Userkare → Pepi I (Phius) → Merenre I → Pepi II (Phiops, 94-yr reign!) → Merenre II → Queen Nitocris (Neith-iqerty)",
+      "altNames": [
+        "Teti",
+        "Pepi I",
+        "Pepi II / Phiops",
+        "Queen Nitocris"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 8,
+      "era": "c. 2297-2168 BCE (Willockx pp. 15-16; Manetho Fr. 20-21)",
+      "role": "Longest Reign in History (Pepi II) & End of the Old Kingdom",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Willockx King List 1-6"
+      ],
+      "notes": "Pepi II ascended at age 6 and ruled into his 90s (Manetho: 94 yrs!). Manetho & Herodotus name Queen Nitocris ('bravest and most beautiful woman of her time') closing the Old Kingdom.",
+      "major": true
+    },
+    {
+      "id": "eg_dyn7_10_fip",
+      "name": "First Intermediate Period (Dynasties VII–X): Memphite Ephemerals (Neferkare Pepyseneb) & Heracleopolitan Kings (Khety / Achthoes I–III, Merikare)",
+      "altNames": [
+        "Achthoes / Khety",
+        "Merikare"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 9,
+      "era": "c. 2168-2040 BCE (Manetho Fr. 23-30; Breasted Vol. I)",
+      "role": "Fragmented Rival Houses of Memphis & Heracleopolis",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Breasted Ancient Records Vol. I"
+      ],
+      "notes": "Manetho's famous '70 kings in 70 days' (Dyn. VII) and Khety/Achthoes of Heracleopolis (Dyn. IX-X, author of 'Teaching for King Merikare').",
+      "major": false
+    },
+    {
+      "id": "eg_dyn11_complete",
+      "name": "Dynasty XI Complete (Theban Reunifiers): Intef I → Intef II → Mentuhotep I → Intef III → Mentuhotep II (Reunified Egypt!) → Mentuhotep III → Mentuhotep IV",
+      "altNames": [
+        "Intef I–III",
+        "Mentuhotep III & IV"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 10,
+      "era": "c. 2160-2000 BCE (Breasted Vol. I §63; Manetho Fr. 31-32)",
+      "role": "Theban Unifiers of the Middle Kingdom",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Breasted Ancient Records Vol. I"
+      ],
+      "notes": "Mentuhotep II defeated Heracleopolis, reunited Upper & Lower Egypt, and built the terraced mortuary temple at Deir el-Bahari.",
+      "major": false
+    },
+    {
+      "id": "eg_dyn12_complete",
+      "name": "Dynasty XII Complete (Golden Age of Middle Kingdom): Amenemhat I → Senusret I (Sesonchosis) → Amenemhat II → Senusret II → Senusret III (Sesostris) → Amenemhat III (Lamares, Labyrinth!) → Amenemhat IV → Queen Sobekneferu (Scemiophris)",
+      "altNames": [
+        "Amenemhat I",
+        "Senusret I",
+        "Amenemhat II",
+        "Queen Sobekneferu / Scemiophris"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2000-1788 BCE (Breasted Vol. I §64; Manetho Fr. 34-36)",
+      "role": "Classical Peak of Egyptian Literature, Faiyum Irrigation & Nubian Fortresses",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Breasted Ancient Records Vol. I"
+      ],
+      "notes": "Manetho preserves direct parent-child links: Amenemhat I -> son Senusret I -> Amenemhat II -> Senusret II -> Senusret III -> son Amenemhat III (built the Great Labyrinth at Hawara) -> Amenemhat IV -> sister Queen Sobekneferu (first fully attested female Pharaoh!).",
+      "major": true
+    },
+    {
+      "id": "eg_dyn13_14_sip",
+      "name": "Dynasties XIII (60 Theban Kings: Sobekhotep IV / Chenephres, Dedumose / Tutimaeus) & XIV (76 Xoite Kings of the Eastern Delta)",
+      "altNames": [
+        "Sobekhotep IV / Chenephres",
+        "Dedumose / Tutimaeus"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 12,
+      "era": "c. 1788-1650 BCE (Manetho Fr. 38-42; Artapanus)",
+      "role": "Second Intermediate Period Fragmentation & Asiatic Delta Settlers",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Breasted Ancient Records Vol. I"
+      ],
+      "notes": "Waddell notes Sobekhotep IV = Chenephres (in Artapanus's Moses account!) and Dedumose = Tutimaeus ('in whose reign a blast of God smote us' and the Hyksos entered Egypt!).",
+      "major": false
+    },
+    {
+      "id": "eg_dyn15_17_hyksos_thebes",
+      "name": "Dynasties XV–XVII: Great Hyksos Kings (Salitis, Bnon, Apachnan, Khyan/Iannas, Apophis/Apepi, Khamudi/Assis) vs. Theban Liberators (Seqenenre Tao & Kamose)",
+      "altNames": [
+        "Salitis",
+        "Khyan / Iannas",
+        "Apophis / Apepi",
+        "Kamose"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 13,
+      "era": "c. 1650-1550 BCE (Manetho Fr. 42-49 via Josephus Against Apion)",
+      "role": "Semitic Shepherd Kings of Avaris & War of Liberation",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Breasted Ancient Records Vol. I"
+      ],
+      "notes": "Josephus (quoting Manetho verbatim!) preserved the 6 Great Hyksos rulers of Avaris (Salitis, Bnon, Apachnan, Apophis [traditional Pharaoh of Joseph in Syncellus!], Khyan, Assis) until Theban Seqenenre Tao & son Kamose launched the liberation finished by Ahmose I.",
+      "major": false
+    },
+    {
+      "id": "eg_dyn18_early",
+      "name": "Dynasty XVIII Early–Mid: Ahmose I → Amenhotep I → Thutmose I → Thutmose II & Queen Hatshepsut (Amessis) → Thutmose III → Amenhotep II → Thutmose IV",
+      "altNames": [
+        "Amenhotep I",
+        "Thutmose II",
+        "Queen Hatshepsut",
+        "Amenhotep II",
+        "Thutmose IV"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 14,
+      "era": "1550-1391 BCE (Manetho Fr. 50-53; Breasted Vol. I)",
+      "role": "Imperial Expansion to the Euphrates & Sole Female Pharaoh Hatshepsut",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Budge Book of the Kings of Egypt Vol. II"
+      ],
+      "notes": "Hatshepsut (Manetho's Amessis) sent the famous trade expedition to Punt; Thutmose III (Battle of Megiddo) expanded Egypt to its greatest extent; Thutmose IV erected the Dream Stele between the Sphinx's paws.",
+      "major": false
+    },
+    {
+      "id": "eg_dyn18_amarna_end",
+      "name": "Dynasty XVIII Late (Amarna & Post-Amarna): Amenhotep III (+ Queen Tiye) → Akhenaten (+ Nefertiti) → Smenkhkare → Tutankhamun → Ay → Horemheb (Harmais = Danaus!)",
+      "altNames": [
+        "Queen Tiye",
+        "Nefertiti",
+        "Smenkhkare",
+        "Pharaoh Ay",
+        "Horemheb / Harmais"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1391-1292 BCE (Manetho Fr. 50-53; Amarna Letters)",
+      "role": "Monotheistic Amarna Revolution & Greco-Egyptian Danaus/Aegyptus Bridge",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Budge Book of the Kings of Egypt Vol. II"
+      ],
+      "notes": "Manetho explicitly equates General/Pharaoh Horemheb ('Harmais') with Greek Danaus and Ramesses/Seti with his brother Aegyptus — linking Greek Argive genealogy directly into Egypt's 18th/19th Dynasty transition!",
+      "major": false
+    },
+    {
+      "id": "eg_dyn19_complete",
+      "name": "Dynasty XIX Complete: Ramesses I → Seti I (Sethos) → Ramesses II (Rapsaces, 67 yrs) → Merneptah (Israel Stele) → Amenmesse → Seti II & Siptah → Queen Twosret (Thuoris — Fall of Troy!)",
+      "altNames": [
+        "Ramesses I",
+        "Seti I",
+        "Amenmesse",
+        "Seti II",
+        "Siptah",
+        "Queen Twosret / Thuoris"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1292-1189 BCE (Manetho Fr. 55-56; Breasted Vol. I)",
+      "role": "Ramesside Empire & Manetho's Synchronism with the Trojan War",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Budge Book of the Kings of Egypt Vol. II"
+      ],
+      "notes": "Manetho notes under Queen Twosret ('Thuoris', identified with Homer's Polybus & Alcandra) Troy was taken — synchronizing Egypt's 19th Dynasty directly with the Bronze Age Collapse & Trojan War!",
+      "major": false
+    },
+    {
+      "id": "eg_dyn20_complete",
+      "name": "Dynasty XX Complete (10 Ramessides): Setnakhte → Ramesses III (Medinet Habu, Sea Peoples!) → Ramesses IV → V → VI → VII → VIII → IX → X → Ramesses XI",
+      "altNames": [
+        "Setnakhte",
+        "Ramesses IV–XI"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 16,
+      "era": "1189-1077 BCE (Budge Book of Kings Vol. II pp. 1-20; Manetho Fr. 57)",
+      "role": "Defense Against the Sea Peoples & End of the New Kingdom",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Budge Book of the Kings of Egypt Vol. II"
+      ],
+      "notes": "Budge Vol. II lists all 10 sons of Ramesses III from Medinet Habu (incl. Ramesses IV, VI, VIII) and the complete Ramesside succession down to Ramesses XI, when High Priest Herihor seized Upper Egypt.",
+      "major": false
+    },
+    {
+      "id": "eg_dyn21_tanite_theban",
+      "name": "Dynasty XXI (Divided Egypt): Tanite Kings (Smendes, Psusennes I [Silver Pharaoh!], Amenemope, Osochor, Siamun, Psusennes II) & Theban Priest-Kings (Herihor → Piankh → Pinudjem I → Menkheperre → Pinudjem II)",
+      "altNames": [
+        "Herihor",
+        "Pinudjem I & II",
+        "Smendes",
+        "Psusennes I",
+        "Siamun",
+        "Psusennes II"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 16,
+      "era": "1077-943 BCE (Budge Vol. II pp. 20-34; Manetho Fr. 58-59)",
+      "role": "Biblical Era of David & Solomon (Siamun & Psusennes II)",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Budge Book of the Kings of Egypt Vol. II"
+      ],
+      "notes": "Psusennes I's intact silver sarcophagus was found at Tanis; Siamun campaigned in Philistia/Gezer (often identified as the Pharaoh whose daughter married King Solomon, 1 Kgs 3:1, 9:16!); Psusennes II's daughters Karamat & Maatkare married into the Libyan 22nd Dynasty!",
+      "major": true
+    },
+    {
+      "id": "eg_dyn22_libyan_pasenhor",
+      "name": "Dynasty XXII Complete (Libyan/Bubastite — Stele of Pasenhor): Buiu-uaua → Shoshenq I (Shishak!) → Osorkon I → Takelot I → Osorkon II → Shoshenq II → Takelot II → Shoshenq III → Pami → Shoshenq V",
+      "altNames": [
+        "Buyuwawa (Stele of Pasenhor)",
+        "Osorkon I & II",
+        "Takelot I & II",
+        "Shoshenq III & V"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "943-716 BCE (Budge Vol. II pp. 35-60; Manetho Fr. 60-61)",
+      "role": "Complete 15-Generation Meshwesh Libyan Genealogy & Shishak's Sack of Jerusalem",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Budge Book of the Kings of Egypt Vol. II"
+      ],
+      "notes": "The famous Serapeum Stele of Pasenhor (Budge pp. 35-39) traces Shoshenq I back 6 generations to Libyan chief Buyuwawa and forward through Osorkon II! Shoshenq I (= Biblical Shishak, 1 Kgs 14:25) invaded Rehoboam's Judah in 925 BCE.",
+      "major": false
+    },
+    {
+      "id": "eg_dyn23_24_saite",
+      "name": "Dynasties XXIII (Pedubast I, Osorkon III, Takelot III, Rudamun) & XXIV (Tefnakht I → Bakenranef / Bocchoris)",
+      "altNames": [
+        "Pedubast I",
+        "Osorkon III",
+        "Tefnakht I",
+        "Bocchoris / Bakenranef"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "818-715 BCE (Budge Vol. II pp. 60-69; Manetho Fr. 62-65)",
+      "role": "Libyan Delta Coalitions Resisting Kushite Reunification",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Budge Book of the Kings of Egypt Vol. II"
+      ],
+      "notes": "Tefnakht of Sais led the Delta coalition against Kushite King Piye (Piankhi Stele); his son Bakenranef (Greek: Bocchoris, famous lawgiver) was defeated by Kushite Shabaka.",
+      "major": false
+    },
+    {
+      "id": "eg_dyn25_kush_budge",
+      "name": "Dynasty XXV Complete (Kushite Pharaohs): Kashta (+ Pebatjma) → Piye & Shabaka (Sabacon) → Shabataka (Sebichos) → Taharqa (Tirhakah) → Tantamani (Ammeris)",
+      "altNames": [
+        "Shabaka / Sabacon",
+        "Shabataka / Sebichos",
+        "Amenirdis I"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "744-656 BCE (Budge Vol. II pp. 70-78, 195-199; Manetho Fr. 66-67)",
+      "role": "Nubian Reunifiers of Egypt & Biblical Allies of Hezekiah",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Budge Book of the Kings of Egypt Vol. II"
+      ],
+      "notes": "Budge details the entire royal family including God's Wives of Amun Amenirdis I & Shepenupet II, linking Kushite bloodlines into Dynasty XXVI!",
+      "major": false
+    },
+    {
+      "id": "eg_dyn26_saite_complete",
+      "name": "Dynasty XXVI Complete (Saite Renaissance): Necho I → Psamtik I (54 yrs) → Necho II (Battle of Megiddo/Carchemish!) → Psamtik II → Apries (Biblical Hophra!) → Amasis II (44 yrs) → Psamtik III",
+      "altNames": [
+        "Psamtik I–III",
+        "Apries / Pharaoh Hophra",
+        "Amasis II"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "664-525 BCE (Budge Vol. II pp. 78-90; Manetho Fr. 68-69; Jer 44:30)",
+      "role": "Last Great Native Renaissance Before Persian Conquest",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Budge Book of the Kings of Egypt Vol. II"
+      ],
+      "notes": "Necho II slew King Josiah at Megiddo (609 BCE); Apries (Biblical Pharaoh Hophra, Jer 44:30) sheltered Judean refugees including Jeremiah; Amasis II allied with Croesus of Lydia & Polycrates of Samos; Psamtik III fell to Cambyses II (525 BCE).",
+      "major": true
+    },
+    {
+      "id": "eg_dyn27_31_late_native",
+      "name": "Dynasties XXVII–XXXI: 1st Persian (Cambyses, Darius I, Xerxes, Artaxerxes I), XXVIII (Amyrtaeus), XXIX (Nepherites I, Hakor/Achoris), XXX (Nectanebo I, Teos, Nectanebo II — Last Native Pharaoh!) & XXXI (Artaxerxes III, Arses, Darius III)",
+      "altNames": [
+        "Amyrtaeus",
+        "Nepherites I",
+        "Hakor / Achoris",
+        "Nectanebo I & II"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "525-332 BCE (Budge Vol. II pp. 91-106; Manetho Fr. 70-75)",
+      "role": "Final Native Egyptian Resistance Through Nectanebo II to Alexander (332 BCE)",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Budge Book of the Kings of Egypt Vol. II"
+      ],
+      "notes": "Amyrtaeus freed Egypt from Persia (404 BCE); Nectanebo I & II (Dynasty XXX, builders of Philae & Karnak pylons) were the LAST native Egyptian Pharaohs in history before Alexander the Great entered Egypt in 332 BCE!",
+      "major": true
+    },
+    {
+      "id": "eg_ptolemies_complete",
+      "name": "Complete Ptolemaic Dynasty (All 15 Ptolemies & 7 Cleopatras): Ptolemy I Soter → II Philadelphus (Septuagint!) → III Euergetes → IV Philopator → V Epiphanes (Rosetta Stone! + Cleopatra I Syra) → VI Philometor → VIII Euergetes II → IX Soter II → XII Auletes → Cleopatra VII & Caesarion",
+      "altNames": [
+        "Ptolemy II Philadelphus",
+        "Ptolemy V (Rosetta Stone)",
+        "Cleopatra I Syra",
+        "Caesarion"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 107-154)",
+      "role": "Macedonian-Greek Pharaohs of Alexandria (Septuagint & Rosetta Stone)",
+      "sources": [
+        "Manetho Aegyptiaca (Loeb)",
+        "Budge Book of the Kings of Egypt Vol. II"
+      ],
+      "notes": "Ptolemy II built the Library of Alexandria & commissioned the Greek Septuagint; Ptolemy V (+ Seleucid Cleopatra I Syra) issued the Rosetta Stone (196 BCE); Cleopatra VII & Caesarion (Ptolemy XV) closed 3,000 years of Pharaonic rule.",
+      "major": false
+    },
+    {
+      "id": "af_napata_aspelta_nastasen",
+      "name": "Napatan Kings of Kush: Atlanersa → Senkamanisken → Anlamani → Aspelta → Harsiotef → Nastasen",
+      "altNames": [
+        "Atlanersa",
+        "Senkamanisken",
+        "Aspelta",
+        "Harsiotef",
+        "Nastasen"
+      ],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 653-315 BCE (Budge Vol. II pp. 199-205)",
+      "role": "Post-25th Dynasty Nubian Pyramid Builders of Nuri & Jebel Barkal",
+      "sources": [
+        "Budge Book of the Kings of Egypt Vol. II (pp. 199-205)"
+      ],
+      "notes": "After Assyria pushed Dynasty XXV south of Aswan, Taharqa & Tantamani's successors (Atlanersa, Senkamanisken, Aspelta [moved capital to Meroe after Psamtik II's 593 BCE raid], Harsiotef, Nastasen) ruled Kush for centuries.",
+      "major": true
+    },
+    {
+      "id": "af_meroe_ergamenes_natakamani",
+      "name": "Meroitic Kingdom: King Arqamani (Ergamenes) → King Natakamani & Queen Amanitore → Princes Arikhankharer & Shorkaror",
+      "altNames": [
+        "Arqamani / Ergamenes",
+        "Natakamani",
+        "Amanitore",
+        "Arikhankharer",
+        "Shorkaror"
+      ],
+      "tradition": "african",
+      "tier": 19,
+      "era": "c. 270 BCE – 50 CE (Budge Vol. II pp. 205-214; Diodorus III.6; Acts 8:27)",
+      "role": "Golden Age of Meroe, Meroitic Script & Biblical Candace Dynasty",
+      "sources": [
+        "Budge Book of the Kings of Egypt Vol. II (pp. 205-214)",
+        "Diodorus Siculus III.6",
+        "Acts 8:27"
+      ],
+      "notes": "Arqamani (Greek: Ergamenes, friend of Ptolemy II & IV!) broke priestly control and built Dakka temple; King Natakamani & Kandake Queen Amanitore (Biblical 'Candace' era!) built the Lion Temple at Naqa and restored Meroe.",
+      "major": false
+    },
+    {
+      "id": "egr_d1_2_01_djer_kenkenes_dyn_i_47_yrs",
+      "name": "Djer / Kenkenes (Dyn. I, 47 yrs)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2657 BCE (Willockx; Manetho)",
+      "role": "Early Dynastic Pharaoh (Dyn. I–II)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Early Dynastic Pharaoh (Dyn. I–II) (c. 2982-2657 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d1_2_02_djet_uenephes_dyn_i_13_yrs",
+      "name": "Djet / Uenephes (Dyn. I, 13 yrs)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2657 BCE (Willockx; Manetho)",
+      "role": "Early Dynastic Pharaoh (Dyn. I–II)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Early Dynastic Pharaoh (Dyn. I–II) (c. 2982-2657 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d1_2_03_queen_merneith_regent_of_dyn",
+      "name": "Queen Merneith (Regent of Dyn. I)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2657 BCE (Willockx; Manetho)",
+      "role": "Early Dynastic Pharaoh (Dyn. I–II)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Early Dynastic Pharaoh (Dyn. I–II) (c. 2982-2657 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d1_2_04_adjib_miebis_dyn_i",
+      "name": "Adjib / Miebis (Dyn. I)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2657 BCE (Willockx; Manetho)",
+      "role": "Early Dynastic Pharaoh (Dyn. I–II)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Early Dynastic Pharaoh (Dyn. I–II) (c. 2982-2657 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d1_2_05_semerkhet_semempses_dyn_i",
+      "name": "Semerkhet / Semempses (Dyn. I)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2657 BCE (Willockx; Manetho)",
+      "role": "Early Dynastic Pharaoh (Dyn. I–II)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Early Dynastic Pharaoh (Dyn. I–II) (c. 2982-2657 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d1_2_06_qa_a_bieneches_dyn_i",
+      "name": "Qa'a / Bieneches (Dyn. I)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2657 BCE (Willockx; Manetho)",
+      "role": "Early Dynastic Pharaoh (Dyn. I–II)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Early Dynastic Pharaoh (Dyn. I–II) (c. 2982-2657 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d1_2_07_hotepsekhemwy_boethos_dyn_ii",
+      "name": "Hotepsekhemwy / Boethos (Dyn. II)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2657 BCE (Willockx; Manetho)",
+      "role": "Early Dynastic Pharaoh (Dyn. I–II)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Early Dynastic Pharaoh (Dyn. I–II) (c. 2982-2657 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d1_2_08_nebre_kaiechos_dyn_ii",
+      "name": "Nebre / Kaiechos (Dyn. II)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2657 BCE (Willockx; Manetho)",
+      "role": "Early Dynastic Pharaoh (Dyn. I–II)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Early Dynastic Pharaoh (Dyn. I–II) (c. 2982-2657 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d1_2_09_nynetjer_binothris_dyn_ii",
+      "name": "Nynetjer / Binothris (Dyn. II)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2657 BCE (Willockx; Manetho)",
+      "role": "Early Dynastic Pharaoh (Dyn. I–II)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Early Dynastic Pharaoh (Dyn. I–II) (c. 2982-2657 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d1_2_10_weneg_tlas_dyn_ii",
+      "name": "Weneg / Tlas (Dyn. II)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2657 BCE (Willockx; Manetho)",
+      "role": "Early Dynastic Pharaoh (Dyn. I–II)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Early Dynastic Pharaoh (Dyn. I–II) (c. 2982-2657 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d1_2_11_sened_sethenes_dyn_ii",
+      "name": "Sened / Sethenes (Dyn. II)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2657 BCE (Willockx; Manetho)",
+      "role": "Early Dynastic Pharaoh (Dyn. I–II)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Early Dynastic Pharaoh (Dyn. I–II) (c. 2982-2657 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d1_2_12_seth_peribsen_dyn_ii",
+      "name": "Seth-Peribsen (Dyn. II)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 6,
+      "era": "c. 2982-2657 BCE (Willockx; Manetho)",
+      "role": "Early Dynastic Pharaoh (Dyn. I–II)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Early Dynastic Pharaoh (Dyn. I–II) (c. 2982-2657 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_01_sanakht_necherophes_dyn_iii",
+      "name": "Sanakht / Necherophes (Dyn. III)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_02_sekhemkhet_tyris_dyn_iii",
+      "name": "Sekhemkhet / Tyris (Dyn. III)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_03_khaba_dyn_iii",
+      "name": "Khaba (Dyn. III)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_04_huni_kerpheres_dyn_iii",
+      "name": "Huni / Kerpheres (Dyn. III)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_05_djedefre_ratoises_dyn_iv",
+      "name": "Djedefre / Ratoises (Dyn. IV)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_06_baka_bicheris_dyn_iv",
+      "name": "Baka / Bicheris (Dyn. IV)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_07_shepseskaf_dyn_iv",
+      "name": "Shepseskaf (Dyn. IV)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_08_queen_khentkawes_dyn_iv_v_br",
+      "name": "Queen Khentkawes (Dyn. IV/V Bridge)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_09_userkaf_usercheres_dyn_v",
+      "name": "Userkaf / Usercheres (Dyn. V)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_10_sahure_sephres_dyn_v",
+      "name": "Sahure / Sephres (Dyn. V)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_11_neferirkare_kakai_dyn_v",
+      "name": "Neferirkare Kakai (Dyn. V)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_12_shepseskare_dyn_v",
+      "name": "Shepseskare (Dyn. V)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_13_neferefre_dyn_v",
+      "name": "Neferefre (Dyn. V)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_14_nyuserre_ini_dyn_v",
+      "name": "Nyuserre Ini (Dyn. V)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_15_menkauhor_dyn_v",
+      "name": "Menkauhor (Dyn. V)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_16_djedkare_isesi_dyn_v",
+      "name": "Djedkare Isesi (Dyn. V)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_17_unas_onnus_dyn_v_pyramid_tex",
+      "name": "Unas / Onnus (Dyn. V, Pyramid Texts)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_18_teti_othoes_dyn_vi",
+      "name": "Teti / Othoes (Dyn. VI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_19_userkare_dyn_vi",
+      "name": "Userkare (Dyn. VI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_20_pepi_i_phius_dyn_vi",
+      "name": "Pepi I / Phius (Dyn. VI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_21_merenre_i_dyn_vi",
+      "name": "Merenre I (Dyn. VI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_22_pepi_ii_phiops_dyn_vi_94_yrs",
+      "name": "Pepi II / Phiops (Dyn. VI, 94 yrs)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_23_merenre_ii_dyn_vi",
+      "name": "Merenre II (Dyn. VI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_d3_6_24_queen_nitocris_neith_iqerty_",
+      "name": "Queen Nitocris / Neith-iqerty (Dyn. VI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 7,
+      "era": "c. 2657-2168 BCE (Willockx; Manetho)",
+      "role": "Old Kingdom Pharaoh (Dyn. III–VI)",
+      "sources": [
+        "Willockx King List 1-6",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Old Kingdom Pharaoh (Dyn. III–VI) (c. 2657-2168 BCE (Willockx; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_01_intef_i_dyn_xi",
+      "name": "Intef I (Dyn. XI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_02_intef_ii_dyn_xi",
+      "name": "Intef II (Dyn. XI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_03_intef_iii_dyn_xi",
+      "name": "Intef III (Dyn. XI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_04_mentuhotep_iii_dyn_xi",
+      "name": "Mentuhotep III (Dyn. XI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_05_mentuhotep_iv_dyn_xi",
+      "name": "Mentuhotep IV (Dyn. XI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_06_amenemhat_i_dyn_xii",
+      "name": "Amenemhat I (Dyn. XII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_07_senusret_i_sesonchosis_dyn_x",
+      "name": "Senusret I / Sesonchosis (Dyn. XII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_08_amenemhat_ii_dyn_xii",
+      "name": "Amenemhat II (Dyn. XII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_09_senusret_ii_dyn_xii",
+      "name": "Senusret II (Dyn. XII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_10_amenemhat_iv_dyn_xii",
+      "name": "Amenemhat IV (Dyn. XII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_11_queen_sobekneferu_scemiophri",
+      "name": "Queen Sobekneferu / Scemiophris (Dyn. XII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_12_sobekhotep_iv_chenephres_dyn",
+      "name": "Sobekhotep IV / Chenephres (Dyn. XIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_13_dedumose_tutimaeus_dyn_xiii",
+      "name": "Dedumose / Tutimaeus (Dyn. XIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_14_salitis_hyksos_dyn_xv",
+      "name": "Salitis (Hyksos Dyn. XV)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_15_khyan_iannas_hyksos_dyn_xv",
+      "name": "Khyan / Iannas (Hyksos Dyn. XV)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_16_apophis_apepi_hyksos_dyn_xv",
+      "name": "Apophis / Apepi (Hyksos Dyn. XV)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_mk_17_kamose_theban_liberator_dyn_",
+      "name": "Kamose (Theban Liberator, Dyn. XVII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 11,
+      "era": "2160-1550 BCE (Breasted Vol. I; Manetho)",
+      "role": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII)",
+      "sources": [
+        "Breasted Ancient Records Vol. I",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Middle Kingdom / Hyksos Ruler (Dyn. XI–XVII) (2160-1550 BCE (Breasted Vol. I; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_01_amenhotep_i_dyn_xviii",
+      "name": "Amenhotep I (Dyn. XVIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_02_thutmose_ii_dyn_xviii",
+      "name": "Thutmose II (Dyn. XVIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_03_queen_hatshepsut_amessis_dyn",
+      "name": "Queen Hatshepsut / Amessis (Dyn. XVIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_04_amenhotep_ii_dyn_xviii",
+      "name": "Amenhotep II (Dyn. XVIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_05_thutmose_iv_dyn_xviii",
+      "name": "Thutmose IV (Dyn. XVIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_06_queen_tiye_wife_of_amenhotep",
+      "name": "Queen Tiye (Wife of Amenhotep III)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_07_queen_nefertiti_amarna_queen",
+      "name": "Queen Nefertiti (Amarna Queen)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_08_smenkhkare_dyn_xviii",
+      "name": "Smenkhkare (Dyn. XVIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_09_pharaoh_ay_dyn_xviii",
+      "name": "Pharaoh Ay (Dyn. XVIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_10_horemheb_harmais_danaus_dyn_",
+      "name": "Horemheb / Harmais = Danaus (Dyn. XVIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_11_ramesses_i_dyn_xix",
+      "name": "Ramesses I (Dyn. XIX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_12_seti_i_sethos_dyn_xix",
+      "name": "Seti I / Sethos (Dyn. XIX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_13_amenmesse_dyn_xix",
+      "name": "Amenmesse (Dyn. XIX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_14_seti_ii_dyn_xix",
+      "name": "Seti II (Dyn. XIX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_15_siptah_dyn_xix",
+      "name": "Siptah (Dyn. XIX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_16_queen_twosret_thuoris_dyn_xi",
+      "name": "Queen Twosret / Thuoris (Dyn. XIX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_17_setnakhte_dyn_xx",
+      "name": "Setnakhte (Dyn. XX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_18_ramesses_iv_dyn_xx",
+      "name": "Ramesses IV (Dyn. XX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_19_ramesses_v_dyn_xx",
+      "name": "Ramesses V (Dyn. XX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_20_ramesses_vi_dyn_xx",
+      "name": "Ramesses VI (Dyn. XX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_21_ramesses_vii_dyn_xx",
+      "name": "Ramesses VII (Dyn. XX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_22_ramesses_viii_dyn_xx",
+      "name": "Ramesses VIII (Dyn. XX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_23_ramesses_ix_dyn_xx",
+      "name": "Ramesses IX (Dyn. XX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_24_ramesses_x_dyn_xx",
+      "name": "Ramesses X (Dyn. XX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_nk_25_ramesses_xi_dyn_xx",
+      "name": "Ramesses XI (Dyn. XX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1550-1077 BCE (Manetho; Budge Vol. II)",
+      "role": "New Kingdom Pharaoh (Dyn. XVIII–XX)",
+      "sources": [
+        "Manetho Aegyptiaca",
+        "Budge Book of Kings Vol. II"
+      ],
+      "notes": "New Kingdom Pharaoh (Dyn. XVIII–XX) (1550-1077 BCE (Manetho; Budge Vol. II)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_01_herihor_theban_priest_king",
+      "name": "Herihor (Theban Priest-King)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_02_piankh_theban_priest_king",
+      "name": "Piankh (Theban Priest-King)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_03_pinudjem_i_theban_priest_kin",
+      "name": "Pinudjem I (Theban Priest-King)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_04_menkheperre_theban_priest_ki",
+      "name": "Menkheperre (Theban Priest-King)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_05_pinudjem_ii_theban_priest_ki",
+      "name": "Pinudjem II (Theban Priest-King)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_06_smendes_dyn_xxi",
+      "name": "Smendes (Dyn. XXI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_07_psusennes_i_silver_pharaoh_d",
+      "name": "Psusennes I (Silver Pharaoh, Dyn. XXI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_08_amenemope_dyn_xxi",
+      "name": "Amenemope (Dyn. XXI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_09_siamun_dyn_xxi",
+      "name": "Siamun (Dyn. XXI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_10_psusennes_ii_dyn_xxi",
+      "name": "Psusennes II (Dyn. XXI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_11_buyuwawa_libyan_ancestor_pas",
+      "name": "Buyuwawa (Libyan Ancestor, Pasenhor Stele)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_12_osorkon_i_dyn_xxii",
+      "name": "Osorkon I (Dyn. XXII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_13_takelot_i_dyn_xxii",
+      "name": "Takelot I (Dyn. XXII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_14_osorkon_ii_dyn_xxii",
+      "name": "Osorkon II (Dyn. XXII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_15_shoshenq_ii_dyn_xxii",
+      "name": "Shoshenq II (Dyn. XXII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_16_takelot_ii_dyn_xxii",
+      "name": "Takelot II (Dyn. XXII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_17_shoshenq_iii_dyn_xxii",
+      "name": "Shoshenq III (Dyn. XXII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_18_pami_dyn_xxii",
+      "name": "Pami (Dyn. XXII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_19_shoshenq_v_dyn_xxii",
+      "name": "Shoshenq V (Dyn. XXII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_20_pedubast_i_dyn_xxiii",
+      "name": "Pedubast I (Dyn. XXIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_21_osorkon_iii_dyn_xxiii",
+      "name": "Osorkon III (Dyn. XXIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_22_tefnakht_i_dyn_xxiv",
+      "name": "Tefnakht I (Dyn. XXIV)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_23_bakenranef_bocchoris_dyn_xxi",
+      "name": "Bakenranef / Bocchoris (Dyn. XXIV)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_24_shabaka_sabacon_dyn_xxv",
+      "name": "Shabaka / Sabacon (Dyn. XXV)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_25_shabataka_sebichos_dyn_xxv",
+      "name": "Shabataka / Sebichos (Dyn. XXV)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_26_psamtik_i_dyn_xxvi_54_yrs",
+      "name": "Psamtik I (Dyn. XXVI, 54 yrs)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_27_psamtik_ii_dyn_xxvi",
+      "name": "Psamtik II (Dyn. XXVI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_28_apries_pharaoh_hophra_dyn_xx",
+      "name": "Apries / Pharaoh Hophra (Dyn. XXVI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_29_amasis_ii_dyn_xxvi_44_yrs",
+      "name": "Amasis II (Dyn. XXVI, 44 yrs)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_30_psamtik_iii_dyn_xxvi",
+      "name": "Psamtik III (Dyn. XXVI)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_31_amyrtaeus_dyn_xxviii",
+      "name": "Amyrtaeus (Dyn. XXVIII)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_32_nepherites_i_dyn_xxix",
+      "name": "Nepherites I (Dyn. XXIX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_33_hakor_achoris_dyn_xxix",
+      "name": "Hakor / Achoris (Dyn. XXIX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_34_nectanebo_i_dyn_xxx",
+      "name": "Nectanebo I (Dyn. XXX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_35_teos_tachos_dyn_xxx",
+      "name": "Teos / Tachos (Dyn. XXX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_3ip_36_nectanebo_ii_last_native_pha",
+      "name": "Nectanebo II (Last Native Pharaoh, Dyn. XXX)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "1077-332 BCE (Budge Vol. II; Manetho)",
+      "role": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX)",
+      "sources": [
+        "Budge Book of Kings Vol. II",
+        "Manetho Aegyptiaca"
+      ],
+      "notes": "Third Intermediate & Late Period Pharaoh (Dyn. XXI–XXX) (1077-332 BCE (Budge Vol. II; Manetho)).",
+      "major": false
+    },
+    {
+      "id": "egr_ptol_01_ptolemy_i_soter_berenice_i",
+      "name": "Ptolemy I Soter (+ Berenice I)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 111-154)",
+      "role": "Ptolemaic Ruler of Egypt",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 111-154)"
+      ],
+      "notes": "Ptolemaic Ruler of Egypt (305-30 BCE (Budge Vol. II pp. 111-154)).",
+      "major": false
+    },
+    {
+      "id": "egr_ptol_02_ptolemy_ii_philadelphus_arsi",
+      "name": "Ptolemy II Philadelphus (+ Arsinoe II, Septuagint)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 111-154)",
+      "role": "Ptolemaic Ruler of Egypt",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 111-154)"
+      ],
+      "notes": "Ptolemaic Ruler of Egypt (305-30 BCE (Budge Vol. II pp. 111-154)).",
+      "major": false
+    },
+    {
+      "id": "egr_ptol_03_ptolemy_iii_euergetes_bereni",
+      "name": "Ptolemy III Euergetes (+ Berenice II)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 111-154)",
+      "role": "Ptolemaic Ruler of Egypt",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 111-154)"
+      ],
+      "notes": "Ptolemaic Ruler of Egypt (305-30 BCE (Budge Vol. II pp. 111-154)).",
+      "major": false
+    },
+    {
+      "id": "egr_ptol_04_ptolemy_iv_philopator_arsino",
+      "name": "Ptolemy IV Philopator (+ Arsinoe III)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 111-154)",
+      "role": "Ptolemaic Ruler of Egypt",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 111-154)"
+      ],
+      "notes": "Ptolemaic Ruler of Egypt (305-30 BCE (Budge Vol. II pp. 111-154)).",
+      "major": false
+    },
+    {
+      "id": "egr_ptol_05_ptolemy_v_epiphanes_cleopatr",
+      "name": "Ptolemy V Epiphanes (+ Cleopatra I Syra, Rosetta Stone)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 111-154)",
+      "role": "Ptolemaic Ruler of Egypt",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 111-154)"
+      ],
+      "notes": "Ptolemaic Ruler of Egypt (305-30 BCE (Budge Vol. II pp. 111-154)).",
+      "major": false
+    },
+    {
+      "id": "egr_ptol_06_ptolemy_vi_philometor_cleopa",
+      "name": "Ptolemy VI Philometor (+ Cleopatra II)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 111-154)",
+      "role": "Ptolemaic Ruler of Egypt",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 111-154)"
+      ],
+      "notes": "Ptolemaic Ruler of Egypt (305-30 BCE (Budge Vol. II pp. 111-154)).",
+      "major": false
+    },
+    {
+      "id": "egr_ptol_07_ptolemy_viii_euergetes_ii_cl",
+      "name": "Ptolemy VIII Euergetes II (+ Cleopatra III)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 111-154)",
+      "role": "Ptolemaic Ruler of Egypt",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 111-154)"
+      ],
+      "notes": "Ptolemaic Ruler of Egypt (305-30 BCE (Budge Vol. II pp. 111-154)).",
+      "major": false
+    },
+    {
+      "id": "egr_ptol_08_ptolemy_ix_soter_ii",
+      "name": "Ptolemy IX Soter II",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 111-154)",
+      "role": "Ptolemaic Ruler of Egypt",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 111-154)"
+      ],
+      "notes": "Ptolemaic Ruler of Egypt (305-30 BCE (Budge Vol. II pp. 111-154)).",
+      "major": false
+    },
+    {
+      "id": "egr_ptol_09_ptolemy_x_alexander_i_bereni",
+      "name": "Ptolemy X Alexander I (+ Berenice III)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 111-154)",
+      "role": "Ptolemaic Ruler of Egypt",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 111-154)"
+      ],
+      "notes": "Ptolemaic Ruler of Egypt (305-30 BCE (Budge Vol. II pp. 111-154)).",
+      "major": false
+    },
+    {
+      "id": "egr_ptol_10_ptolemy_xii_auletes",
+      "name": "Ptolemy XII Auletes",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 111-154)",
+      "role": "Ptolemaic Ruler of Egypt",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 111-154)"
+      ],
+      "notes": "Ptolemaic Ruler of Egypt (305-30 BCE (Budge Vol. II pp. 111-154)).",
+      "major": false
+    },
+    {
+      "id": "egr_ptol_11_ptolemy_xiii_xiv",
+      "name": "Ptolemy XIII & XIV",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 111-154)",
+      "role": "Ptolemaic Ruler of Egypt",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 111-154)"
+      ],
+      "notes": "Ptolemaic Ruler of Egypt (305-30 BCE (Budge Vol. II pp. 111-154)).",
+      "major": false
+    },
+    {
+      "id": "egr_ptol_12_ptolemy_xv_caesarion_son_of_",
+      "name": "Ptolemy XV Caesarion (Son of Cleopatra VII & Julius Caesar)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "305-30 BCE (Budge Vol. II pp. 111-154)",
+      "role": "Ptolemaic Ruler of Egypt",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 111-154)"
+      ],
+      "notes": "Ptolemaic Ruler of Egypt (305-30 BCE (Budge Vol. II pp. 111-154)).",
+      "major": false
+    },
+    {
+      "id": "afr_kush_01_atlanersa_napata",
+      "name": "Atlanersa (Napata)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)",
+      "role": "Napatan / Meroitic Monarch of Kush",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 195-214)"
+      ],
+      "notes": "Napatan / Meroitic Monarch of Kush (c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)).",
+      "major": false
+    },
+    {
+      "id": "afr_kush_02_senkamanisken_napata",
+      "name": "Senkamanisken (Napata)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)",
+      "role": "Napatan / Meroitic Monarch of Kush",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 195-214)"
+      ],
+      "notes": "Napatan / Meroitic Monarch of Kush (c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)).",
+      "major": false
+    },
+    {
+      "id": "afr_kush_03_anlamani_napata",
+      "name": "Anlamani (Napata)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)",
+      "role": "Napatan / Meroitic Monarch of Kush",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 195-214)"
+      ],
+      "notes": "Napatan / Meroitic Monarch of Kush (c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)).",
+      "major": false
+    },
+    {
+      "id": "afr_kush_04_aspelta_moved_capital_to_mer",
+      "name": "Aspelta (Moved Capital to Meroe)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)",
+      "role": "Napatan / Meroitic Monarch of Kush",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 195-214)"
+      ],
+      "notes": "Napatan / Meroitic Monarch of Kush (c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)).",
+      "major": false
+    },
+    {
+      "id": "afr_kush_05_harsiotef_napata",
+      "name": "Harsiotef (Napata)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)",
+      "role": "Napatan / Meroitic Monarch of Kush",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 195-214)"
+      ],
+      "notes": "Napatan / Meroitic Monarch of Kush (c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)).",
+      "major": false
+    },
+    {
+      "id": "afr_kush_06_nastasen_napata",
+      "name": "Nastasen (Napata)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)",
+      "role": "Napatan / Meroitic Monarch of Kush",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 195-214)"
+      ],
+      "notes": "Napatan / Meroitic Monarch of Kush (c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)).",
+      "major": false
+    },
+    {
+      "id": "afr_kush_07_arqamani_ergamenes_meroe",
+      "name": "Arqamani / Ergamenes (Meroe)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)",
+      "role": "Napatan / Meroitic Monarch of Kush",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 195-214)"
+      ],
+      "notes": "Napatan / Meroitic Monarch of Kush (c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)).",
+      "major": false
+    },
+    {
+      "id": "afr_kush_08_king_natakamani_meroe",
+      "name": "King Natakamani (Meroe)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)",
+      "role": "Napatan / Meroitic Monarch of Kush",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 195-214)"
+      ],
+      "notes": "Napatan / Meroitic Monarch of Kush (c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)).",
+      "major": false
+    },
+    {
+      "id": "afr_kush_09_queen_amanitore_kandake_of_m",
+      "name": "Queen Amanitore (Kandake of Meroe)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)",
+      "role": "Napatan / Meroitic Monarch of Kush",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 195-214)"
+      ],
+      "notes": "Napatan / Meroitic Monarch of Kush (c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)).",
+      "major": false
+    },
+    {
+      "id": "afr_kush_10_prince_arikhankharer_meroe",
+      "name": "Prince Arikhankharer (Meroe)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)",
+      "role": "Napatan / Meroitic Monarch of Kush",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 195-214)"
+      ],
+      "notes": "Napatan / Meroitic Monarch of Kush (c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)).",
+      "major": false
+    },
+    {
+      "id": "afr_kush_11_prince_shorkaror_meroe",
+      "name": "Prince Shorkaror (Meroe)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)",
+      "role": "Napatan / Meroitic Monarch of Kush",
+      "sources": [
+        "Budge Book of Kings Vol. II (pp. 195-214)"
+      ],
+      "notes": "Napatan / Meroitic Monarch of Kush (c. 653 BCE – 50 CE (Budge Vol. II pp. 195-214)).",
+      "major": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "eg_menes",
+      "to": "eg_dyn1_complete",
+      "type": "direct",
+      "label": "Complete Dynasties I–VI Critical Sequence (Willockx & Manetho)"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "eg_dyn2_complete",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn2_complete",
+      "to": "eg_dyn3_complete",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn3_complete",
+      "to": "eg_dyn4_complete",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "eg_dyn5_complete",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn5_complete",
+      "to": "eg_dyn6_complete",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn6_complete",
+      "to": "eg_dyn7_10_fip",
+      "type": "expansion",
+      "label": "First Intermediate, Middle Kingdom & Hyksos Era (Dynasties VII–XVII)"
+    },
+    {
+      "from": "eg_dyn7_10_fip",
+      "to": "eg_dyn11_complete",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn11_complete",
+      "to": "eg_dyn12_complete",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "eg_dyn13_14_sip",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn13_14_sip",
+      "to": "eg_dyn15_17_hyksos_thebes",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn15_17_hyksos_thebes",
+      "to": "eg_dyn18_early",
+      "type": "direct",
+      "label": "New Kingdom Imperial Dynasties (XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "eg_dyn18_amarna_end",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn18_amarna_end",
+      "to": "eg_dyn19_complete",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn19_complete",
+      "to": "eg_dyn20_complete",
+      "type": "direct",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn20_complete",
+      "to": "eg_dyn21_tanite_theban",
+      "type": "expansion",
+      "label": "Third Intermediate, Late Period & Ptolemaic Dynasties (XXI–XXXI)"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "eg_dyn22_libyan_pasenhor",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn22_libyan_pasenhor",
+      "to": "eg_dyn23_24_saite",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn23_24_saite",
+      "to": "eg_dyn25_kush_budge",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn25_kush_budge",
+      "to": "eg_dyn26_saite_complete",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn26_saite_complete",
+      "to": "eg_dyn27_31_late_native",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_dyn27_31_late_native",
+      "to": "eg_ptolemies_complete",
+      "type": "expansion",
+      "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "eg_ptah",
+      "to": "eg_manetho_demigods",
+      "type": "expansion",
+      "label": "Manetho Fr. 1: Hephaestus (Ptah) -> Helios -> Geb -> Osiris -> Horus -> Demigods"
+    },
+    {
+      "from": "eg_manetho_demigods",
+      "to": "eg_palermo_predynastic",
+      "type": "expansion",
+      "label": "Transition from Shemsu-Hor to Palermo Stone Predynastic Kings"
+    },
+    {
+      "from": "eg_palermo_predynastic",
+      "to": "eg_menes",
+      "type": "direct",
+      "label": "Dynasty 0 / Predynastic -> Unification under Narmer/Menes"
+    },
+    {
+      "from": "eg_dyn18_amarna_end",
+      "to": "grk_aegyptus_danaus",
+      "type": "syncretic",
+      "label": "Manetho Fr. 50/53 explicitly equates Horemheb (Harmais) = Danaus & Seti/Ramesses = Aegyptus!"
+    },
+    {
+      "from": "eg_dyn19_complete",
+      "to": "grk_priam_hector",
+      "type": "cognate",
+      "label": "Manetho Fr. 55 synchronizes Queen Twosret (Thuoris) with the Fall of Troy"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "jud_solomon",
+      "type": "cognate",
+      "label": "Pharaoh Siamun / Psusennes II era: Pharaoh's daughter marries King Solomon (1 Kgs 3:1, 9:16)"
+    },
+    {
+      "from": "eg_dyn22_libyan_pasenhor",
+      "to": "eg_shoshenq1",
+      "type": "direct",
+      "label": "Full Libyan Dynasty XXII genealogy (Stele of Pasenhor)"
+    },
+    {
+      "from": "eg_dyn25_kush_budge",
+      "to": "af_taharqa",
+      "type": "direct",
+      "label": "Kushite Dynasty XXV royal family (Budge Vol. II)"
+    },
+    {
+      "from": "eg_dyn26_saite_complete",
+      "to": "for_pharaoh_neco",
+      "type": "direct",
+      "label": "Saite Dynasty XXVI (Psamtik I -> Necho II -> Apries/Hophra -> Amasis II)"
+    },
+    {
+      "from": "eg_dyn26_saite_complete",
+      "to": "pro_jeremiah_ezekiel",
+      "type": "cognate",
+      "label": "Pharaoh Apries (Hophra, Jer 44:30) shelters Judean refugees in Egypt"
+    },
+    {
+      "from": "eg_dyn27_31_late_native",
+      "to": "ir_cambyses2_atossa",
+      "type": "cognate",
+      "label": "Cambyses II conquers Egypt (Dynasty XXVII, 525 BCE)"
+    },
+    {
+      "from": "eg_dyn27_31_late_native",
+      "to": "grk_alexander",
+      "type": "cognate",
+      "label": "Alexander the Great liberates Egypt from Dynasty XXXI (332 BCE)"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "eg_ptolemy_cleopatra",
+      "type": "direct",
+      "label": "All 15 Ptolemies & 7 Cleopatras (Budge Vol. II)"
+    },
+    {
+      "from": "cls_seleucids",
+      "to": "eg_ptolemies_complete",
+      "type": "direct",
+      "label": "Seleucid Princess Cleopatra I Syra marries Ptolemy V Epiphanes (193 BCE)"
+    },
+    {
+      "from": "af_tantamani",
+      "to": "af_napata_aspelta_nastasen",
+      "type": "direct",
+      "label": "Post-25th Dynasty Napatan Kings of Kush (Budge Vol. II pp. 199-205)"
+    },
+    {
+      "from": "af_napata_aspelta_nastasen",
+      "to": "af_meroe_ergamenes_natakamani",
+      "type": "direct",
+      "label": "Napatan -> Meroitic Kings & Kandakes (Ergamenes -> Natakamani & Amanitore)"
+    },
+    {
+      "from": "af_meroe_ergamenes_natakamani",
+      "to": "af_kandakes",
+      "type": "direct",
+      "label": "Meroitic Kandake Queens (Amanirenas, Amanishakheto, Amanitore)"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "egr_d1_2_01_djer_kenkenes_dyn_i_47_yrs",
+      "type": "direct",
+      "label": "Dynasty I–II Pharaoh"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "egr_d1_2_02_djet_uenephes_dyn_i_13_yrs",
+      "type": "direct",
+      "label": "Dynasty I–II Pharaoh"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "egr_d1_2_03_queen_merneith_regent_of_dyn",
+      "type": "direct",
+      "label": "Dynasty I–II Pharaoh"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "egr_d1_2_04_adjib_miebis_dyn_i",
+      "type": "direct",
+      "label": "Dynasty I–II Pharaoh"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "egr_d1_2_05_semerkhet_semempses_dyn_i",
+      "type": "direct",
+      "label": "Dynasty I–II Pharaoh"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "egr_d1_2_06_qa_a_bieneches_dyn_i",
+      "type": "direct",
+      "label": "Dynasty I–II Pharaoh"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "egr_d1_2_07_hotepsekhemwy_boethos_dyn_ii",
+      "type": "direct",
+      "label": "Dynasty I–II Pharaoh"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "egr_d1_2_08_nebre_kaiechos_dyn_ii",
+      "type": "direct",
+      "label": "Dynasty I–II Pharaoh"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "egr_d1_2_09_nynetjer_binothris_dyn_ii",
+      "type": "direct",
+      "label": "Dynasty I–II Pharaoh"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "egr_d1_2_10_weneg_tlas_dyn_ii",
+      "type": "direct",
+      "label": "Dynasty I–II Pharaoh"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "egr_d1_2_11_sened_sethenes_dyn_ii",
+      "type": "direct",
+      "label": "Dynasty I–II Pharaoh"
+    },
+    {
+      "from": "eg_dyn1_complete",
+      "to": "egr_d1_2_12_seth_peribsen_dyn_ii",
+      "type": "direct",
+      "label": "Dynasty I–II Pharaoh"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_01_sanakht_necherophes_dyn_iii",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_02_sekhemkhet_tyris_dyn_iii",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_03_khaba_dyn_iii",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_04_huni_kerpheres_dyn_iii",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_05_djedefre_ratoises_dyn_iv",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_06_baka_bicheris_dyn_iv",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_07_shepseskaf_dyn_iv",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_08_queen_khentkawes_dyn_iv_v_br",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_09_userkaf_usercheres_dyn_v",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_10_sahure_sephres_dyn_v",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_11_neferirkare_kakai_dyn_v",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_12_shepseskare_dyn_v",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_13_neferefre_dyn_v",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_14_nyuserre_ini_dyn_v",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_15_menkauhor_dyn_v",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_16_djedkare_isesi_dyn_v",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_17_unas_onnus_dyn_v_pyramid_tex",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_18_teti_othoes_dyn_vi",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_19_userkare_dyn_vi",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_20_pepi_i_phius_dyn_vi",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_21_merenre_i_dyn_vi",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_22_pepi_ii_phiops_dyn_vi_94_yrs",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_23_merenre_ii_dyn_vi",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn4_complete",
+      "to": "egr_d3_6_24_queen_nitocris_neith_iqerty_",
+      "type": "direct",
+      "label": "Old Kingdom Pharaoh (Dyn. III–VI)"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_01_intef_i_dyn_xi",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_02_intef_ii_dyn_xi",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_03_intef_iii_dyn_xi",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_04_mentuhotep_iii_dyn_xi",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_05_mentuhotep_iv_dyn_xi",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_06_amenemhat_i_dyn_xii",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_07_senusret_i_sesonchosis_dyn_x",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_08_amenemhat_ii_dyn_xii",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_09_senusret_ii_dyn_xii",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_10_amenemhat_iv_dyn_xii",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_11_queen_sobekneferu_scemiophri",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_12_sobekhotep_iv_chenephres_dyn",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_13_dedumose_tutimaeus_dyn_xiii",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_14_salitis_hyksos_dyn_xv",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_15_khyan_iannas_hyksos_dyn_xv",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_16_apophis_apepi_hyksos_dyn_xv",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn12_complete",
+      "to": "egr_mk_17_kamose_theban_liberator_dyn_",
+      "type": "expansion",
+      "label": "Middle Kingdom / Hyksos Ruler"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_01_amenhotep_i_dyn_xviii",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_02_thutmose_ii_dyn_xviii",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_03_queen_hatshepsut_amessis_dyn",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_04_amenhotep_ii_dyn_xviii",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_05_thutmose_iv_dyn_xviii",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_06_queen_tiye_wife_of_amenhotep",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_07_queen_nefertiti_amarna_queen",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_08_smenkhkare_dyn_xviii",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_09_pharaoh_ay_dyn_xviii",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_10_horemheb_harmais_danaus_dyn_",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_11_ramesses_i_dyn_xix",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_12_seti_i_sethos_dyn_xix",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_13_amenmesse_dyn_xix",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_14_seti_ii_dyn_xix",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_15_siptah_dyn_xix",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_16_queen_twosret_thuoris_dyn_xi",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_17_setnakhte_dyn_xx",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_18_ramesses_iv_dyn_xx",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_19_ramesses_v_dyn_xx",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_20_ramesses_vi_dyn_xx",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_21_ramesses_vii_dyn_xx",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_22_ramesses_viii_dyn_xx",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_23_ramesses_ix_dyn_xx",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_24_ramesses_x_dyn_xx",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn18_early",
+      "to": "egr_nk_25_ramesses_xi_dyn_xx",
+      "type": "direct",
+      "label": "New Kingdom Pharaoh (Dyn. XVIII–XX)"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_01_herihor_theban_priest_king",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_02_piankh_theban_priest_king",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_03_pinudjem_i_theban_priest_kin",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_04_menkheperre_theban_priest_ki",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_05_pinudjem_ii_theban_priest_ki",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_06_smendes_dyn_xxi",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_07_psusennes_i_silver_pharaoh_d",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_08_amenemope_dyn_xxi",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_09_siamun_dyn_xxi",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_10_psusennes_ii_dyn_xxi",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_11_buyuwawa_libyan_ancestor_pas",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_12_osorkon_i_dyn_xxii",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_13_takelot_i_dyn_xxii",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_14_osorkon_ii_dyn_xxii",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_15_shoshenq_ii_dyn_xxii",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_16_takelot_ii_dyn_xxii",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_17_shoshenq_iii_dyn_xxii",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_18_pami_dyn_xxii",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_19_shoshenq_v_dyn_xxii",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_20_pedubast_i_dyn_xxiii",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_21_osorkon_iii_dyn_xxiii",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_22_tefnakht_i_dyn_xxiv",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_23_bakenranef_bocchoris_dyn_xxi",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_24_shabaka_sabacon_dyn_xxv",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_25_shabataka_sebichos_dyn_xxv",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_26_psamtik_i_dyn_xxvi_54_yrs",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_27_psamtik_ii_dyn_xxvi",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_28_apries_pharaoh_hophra_dyn_xx",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_29_amasis_ii_dyn_xxvi_44_yrs",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_30_psamtik_iii_dyn_xxvi",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_31_amyrtaeus_dyn_xxviii",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_32_nepherites_i_dyn_xxix",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_33_hakor_achoris_dyn_xxix",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_34_nectanebo_i_dyn_xxx",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_35_teos_tachos_dyn_xxx",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_dyn21_tanite_theban",
+      "to": "egr_3ip_36_nectanebo_ii_last_native_pha",
+      "type": "expansion",
+      "label": "Dynasty XXI–XXX Pharaoh"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "egr_ptol_01_ptolemy_i_soter_berenice_i",
+      "type": "direct",
+      "label": "Ptolemaic Monarch"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "egr_ptol_02_ptolemy_ii_philadelphus_arsi",
+      "type": "direct",
+      "label": "Ptolemaic Monarch"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "egr_ptol_03_ptolemy_iii_euergetes_bereni",
+      "type": "direct",
+      "label": "Ptolemaic Monarch"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "egr_ptol_04_ptolemy_iv_philopator_arsino",
+      "type": "direct",
+      "label": "Ptolemaic Monarch"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "egr_ptol_05_ptolemy_v_epiphanes_cleopatr",
+      "type": "direct",
+      "label": "Ptolemaic Monarch"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "egr_ptol_06_ptolemy_vi_philometor_cleopa",
+      "type": "direct",
+      "label": "Ptolemaic Monarch"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "egr_ptol_07_ptolemy_viii_euergetes_ii_cl",
+      "type": "direct",
+      "label": "Ptolemaic Monarch"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "egr_ptol_08_ptolemy_ix_soter_ii",
+      "type": "direct",
+      "label": "Ptolemaic Monarch"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "egr_ptol_09_ptolemy_x_alexander_i_bereni",
+      "type": "direct",
+      "label": "Ptolemaic Monarch"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "egr_ptol_10_ptolemy_xii_auletes",
+      "type": "direct",
+      "label": "Ptolemaic Monarch"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "egr_ptol_11_ptolemy_xiii_xiv",
+      "type": "direct",
+      "label": "Ptolemaic Monarch"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "egr_ptol_12_ptolemy_xv_caesarion_son_of_",
+      "type": "direct",
+      "label": "Ptolemaic Monarch"
+    },
+    {
+      "from": "af_napata_aspelta_nastasen",
+      "to": "afr_kush_01_atlanersa_napata",
+      "type": "direct",
+      "label": "Napatan / Meroitic Ruler"
+    },
+    {
+      "from": "af_napata_aspelta_nastasen",
+      "to": "afr_kush_02_senkamanisken_napata",
+      "type": "direct",
+      "label": "Napatan / Meroitic Ruler"
+    },
+    {
+      "from": "af_napata_aspelta_nastasen",
+      "to": "afr_kush_03_anlamani_napata",
+      "type": "direct",
+      "label": "Napatan / Meroitic Ruler"
+    },
+    {
+      "from": "af_napata_aspelta_nastasen",
+      "to": "afr_kush_04_aspelta_moved_capital_to_mer",
+      "type": "direct",
+      "label": "Napatan / Meroitic Ruler"
+    },
+    {
+      "from": "af_napata_aspelta_nastasen",
+      "to": "afr_kush_05_harsiotef_napata",
+      "type": "direct",
+      "label": "Napatan / Meroitic Ruler"
+    },
+    {
+      "from": "af_napata_aspelta_nastasen",
+      "to": "afr_kush_06_nastasen_napata",
+      "type": "direct",
+      "label": "Napatan / Meroitic Ruler"
+    },
+    {
+      "from": "af_napata_aspelta_nastasen",
+      "to": "afr_kush_07_arqamani_ergamenes_meroe",
+      "type": "direct",
+      "label": "Napatan / Meroitic Ruler"
+    },
+    {
+      "from": "af_napata_aspelta_nastasen",
+      "to": "afr_kush_08_king_natakamani_meroe",
+      "type": "direct",
+      "label": "Napatan / Meroitic Ruler"
+    },
+    {
+      "from": "af_napata_aspelta_nastasen",
+      "to": "afr_kush_09_queen_amanitore_kandake_of_m",
+      "type": "direct",
+      "label": "Napatan / Meroitic Ruler"
+    },
+    {
+      "from": "af_napata_aspelta_nastasen",
+      "to": "afr_kush_10_prince_arikhankharer_meroe",
+      "type": "direct",
+      "label": "Napatan / Meroitic Ruler"
+    },
+    {
+      "from": "af_napata_aspelta_nastasen",
+      "to": "afr_kush_11_prince_shorkaror_meroe",
+      "type": "direct",
+      "label": "Napatan / Meroitic Ruler"
+    }
+  ]
+}
