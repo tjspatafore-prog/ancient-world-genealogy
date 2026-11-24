@@ -19,14 +19,15 @@ TRADITIONS = {
     "archetype":    {"label": "Global Convergence Hubs",        "region": "Worldwide Comparative Layer",  "color": "#6366f1", "order": 0},
     "african":      {"label": "African, Cushite & Ethiopian",   "region": "Nubia / Ethiopia / Africa",    "color": "#16a34a", "order": 1},
     "levant_egypt": {"label": "Egyptian & Canaanite-Phoenician","region": "Nile / Eastern Mediterranean", "color": "#0d9488", "order": 2},
-    "biblical":     {"label": "Biblical & Extra-Biblical",      "region": "Levant / Ancient Near East",   "color": "#d97706", "order": 3},
-    "arabian":      {"label": "Arabian (Adnanite & Qahtanite)", "region": "Arabian Peninsula",            "color": "#ca8a04", "order": 4},
-    "mesopotamian": {"label": "Mesopotamian (Sumer / Akkad)",   "region": "Mesopotamia",                  "color": "#2563eb", "order": 5},
-    "iranian":      {"label": "Iranian / Zoroastrian",          "region": "Iranian Plateau / Central Asia","color": "#9333ea", "order": 6},
-    "vedic":        {"label": "Vedic & Puranic Indian",         "region": "South Asia / Indus-Ganges",    "color": "#ea580c", "order": 7},
-    "steppe":       {"label": "Eurasian Steppe / Turkic",       "region": "Inner Asia / Eurasian Steppe", "color": "#059669", "order": 8},
-    "chinese":      {"label": "Ancient Chinese (Sinitic)",      "region": "East Asia / Yellow River",     "color": "#dc2626", "order": 9},
-    "japan_korea":  {"label": "Ancient Japanese & Korean",      "region": "East Asia / Archipelago",      "color": "#db2777", "order": 10},
+    "greek":        {"label": "Greek & Mediterranean",          "region": "Aegean / Anatolia / Italy",    "color": "#0284c7", "order": 3},
+    "biblical":     {"label": "Biblical & Extra-Biblical",      "region": "Levant / Ancient Near East",   "color": "#d97706", "order": 4},
+    "arabian":      {"label": "Arabian (Adnanite & Qahtanite)", "region": "Arabian Peninsula",            "color": "#ca8a04", "order": 5},
+    "mesopotamian": {"label": "Mesopotamian (Sumer / Akkad)",   "region": "Mesopotamia",                  "color": "#2563eb", "order": 6},
+    "iranian":      {"label": "Iranian / Zoroastrian",          "region": "Iranian Plateau / Central Asia","color": "#9333ea", "order": 7},
+    "vedic":        {"label": "Vedic & Puranic Indian",         "region": "South Asia / Indus-Ganges",    "color": "#ea580c", "order": 8},
+    "steppe":       {"label": "Eurasian Steppe / Turkic",       "region": "Inner Asia / Eurasian Steppe", "color": "#059669", "order": 9},
+    "chinese":      {"label": "Ancient Chinese (Sinitic)",      "region": "East Asia / Yellow River",     "color": "#dc2626", "order": 10},
+    "japan_korea":  {"label": "Ancient Japanese & Korean",      "region": "East Asia / Archipelago",      "color": "#db2777", "order": 11},
 }
 
 LINK_TYPES = {
@@ -443,24 +444,255 @@ def build_module_08_african_ethiopian():
     return {"module": "08_african_ethiopian", "title": "Exhaustive African, Cushite/Nubian (25th Dynasty & Meroe), Ethiopian (Kebra Nagast / Tarika Nagast) & West/North/East African Genealogies", "nodes": nodes, "edges": edges}
 
 
+def build_module_09_greek_mediterranean():
+    nodes, edges = [], []
+
+    # 1. Primordial Theogony & Titans (Hesiod's Theogony)
+    nodes += [
+        N("grk_chaos_gaia", "Chaos → Gaia (Earth) & Uranus (Sky)", "greek", 1, "Primordial Cosmogony (Hesiod Theogony)",
+          "Primordial Greek Progenitors", ["Hesiod Theogony 116-153"],
+          "Out of Chaos emerges Gaia (Earth), who births Uranus (Starry Sky); their union generates the 12 Titans.", major=True),
+        N("grk_cronus_rhea", "Cronus (Kronos) & Rhea", "greek", 2, "Titan Generation (Hesiod)",
+          "King & Queen of the Titans", ["Hesiod Theogony 453-506"],
+          "Youngest Titan who overthrows Uranus; parents of the six elder Olympians (Zeus, Hera, Poseidon, Demeter, Hestia, Hades). In Phoenician Sanchuniathon, El is equated with Kronos!", major=True),
+        N("grk_iapetus", "Iapetus (Titan) & Clymene / Asia", "greek", 2, "Titan Generation (Hesiod)",
+          "Ancestor of Humanity (Compared to Japheth!)", ["Hesiod Theogony 507-514", "Apollodorus I.2.3"],
+          "Titan father of Atlas, Prometheus, Epimetheus, and Menoetius — frequently compared by classical and biblical scholars to Noah's son Japheth (Hebrew Yefet <-> Greek Iapetos)!",
+          ["Iapetos <-> Japheth (Yefet)"], major=True),
+        N("grk_oceanus_hyperion", "Oceanus & Tethys / Hyperion & Coeus", "greek", 2, "Elder Titans (Hesiod)",
+          "River, Sun & Celestial Titans", ["Hesiod Theogony 337-408"],
+          "Oceanus & Tethys sire the 3,000 River Gods (including Inachus of Argos and Nile!) and Oceanids; Hyperion sires Helios (Sun) & Selene; Coeus sires Leto (mother of Apollo & Artemis)."),
+        N("grk_zeus_olympians", "Zeus, Hera, Poseidon, Demeter, Hestia & Hades", "greek", 3, "Olympian Generation (Hesiod)",
+          "Elder Olympian Gods (Zeus = PIE Dyaus Pitr!)", ["Hesiod Theogony", "Homer Iliad"],
+          "Zeus (exact Proto-Indo-European linguistic cognate of Vedic Sky-Father Dyaus Pitr & Roman Jupiter!) and Poseidon become the divine progenitors of Greece's heroic royal houses.",
+          ["Jupiter", "Cognate: Vedic Dyaus Pitr"], major=True),
+        N("grk_atlas", "Atlas (Titan) → Pleiades (Electra & Maia)", "greek", 3, "Titan Gen 2 (Hesiod)",
+          "Bearer of the Heavens / Ancestor of Troy & Hermes", ["Hesiod Theogony 509", "Apollodorus III.10"],
+          "Son of Iapetus; father of the Seven Pleiades including Electra (mother of Dardanus, founder of Troy!) and Maia (mother of Hermes)."),
+        N("grk_prometheus", "Prometheus & Epimetheus (+ Pandora)", "greek", 3, "Titan Gen 2 (Hesiod / Ovid)",
+          "Clay-Maker of Humanity & Fire-Bringer", ["Hesiod Works & Days", "Apollodorus I.7.1"],
+          "Sons of Iapetus. Prometheus molds mortals from clay and water and brings fire from heaven; Epimetheus weds Pandora (first mortal woman) -> Pyrrha!",
+          ["Clay Creator Motif"], major=True),
+    ]
+    edges += [
+        E("hub_primordial", "grk_chaos_gaia", "parallel", "Primordial Earth & Sky creation"),
+        E("hub_primordial", "grk_prometheus", "parallel", "Prometheus molds first humans from clay + Pandora (first woman)"),
+        E("grk_chaos_gaia", "grk_cronus_rhea", "direct", "Gaia + Uranus -> Cronus & Rhea (Theogony)"),
+        E("grk_chaos_gaia", "grk_iapetus", "direct", "Gaia + Uranus -> Iapetus (Theogony)"),
+        E("grk_chaos_gaia", "grk_oceanus_hyperion", "direct", "Gaia + Uranus -> Oceanus, Hyperion & Coeus (Theogony)"),
+        E("grk_cronus_rhea", "grk_zeus_olympians", "direct", "Cronus + Rhea -> Zeus, Hera, Poseidon, Demeter, Hestia, Hades"),
+        E("grk_iapetus", "grk_atlas", "direct", "Son of Iapetus (Theogony 509)"),
+        E("grk_iapetus", "grk_prometheus", "direct", "Sons of Iapetus (Theogony 510)"),
+        E("bib_japheth", "grk_iapetus", "parallel", "Classical & biblical comparison: Hebrew Yefet (Japheth) <-> Greek Titan Iapetos (ancestor of Deucalion)"),
+        E("grk_zeus_olympians", "ved_brahma_manu", "cognate", "Proto-Indo-European Sky-Father cognate: Greek Zeus Pater = Vedic Dyaus Pitr!"),
+    ]
+
+    # 2. Greek Great Flood & Table of Nations (Deucalion -> Hellen -> Dorus, Xuthus/Ion, Aeolus!)
+    nodes += [
+        N("grk_deucalion", "Deucalion & Pyrrha (Greek Great Flood Survivors)", "greek", 4, "Greek Flood Horizon (Apollodorus I.7.2)",
+          "Survivors of Zeus's Great Deluge", ["Hesiod Catalogue of Women", "Apollodorus I.7.2", "Ovid Metamorphoses I"],
+          "Deucalion (son of Prometheus) and Pyrrha (daughter of Epimetheus & Pandora) survive Zeus's world-destroying Flood in a wooden chest/ark (larnax) landing on Mt. Parnassus!",
+          ["Ark on Mt. Parnassus"], major=True),
+        N("grk_hellen", "Hellen & Orseis (Eponym of the Greeks / Hellenes)", "greek", 5, "Post-Flood Gen 1 (Catalogue of Women)",
+          "Progenitor of the Greek Peoples (3 Sons)", ["Hesiod Catalogue of Women fr. 9", "Apollodorus I.7.3"],
+          "Son of Deucalion & Pyrrha; divides the Greek world among his three sons Dorus, Xuthus, and Aeolus — the Greek 'Table of Nations'!", major=True),
+        N("grk_dorus", "Dorus (Dorians — Sparta & Peloponnese)", "greek", 6, "Greek Table of Nations", "1st Son of Hellen", ["Hesiod fr. 9", "Apollodorus I.7.3"], "Eponymous ancestor of the Dorians."),
+        N("grk_xuthus", "Xuthus & Creusa", "greek", 6, "Greek Table of Nations", "2nd Son of Hellen", ["Hesiod fr. 9", "Apollodorus I.7.3"], "Father of Ion (Ionians) and Achaeus (Achaeans)."),
+        N("grk_ion", "Ion (Ionians / Iawones = Biblical Javan!)", "greek", 7, "Greek Table of Nations", "Eponym of the Ionians (Exact Cognate of Javan)", ["Hesiod fr. 9", "Euripides Ion", "Genesis 10:2"],
+          "Son of Xuthus (or Apollo) & Creusa; eponym of the Ionians (Archaic Greek Iawones) — EXACT linguistic cognate of Biblical Javan (Yawan, son of Japheth, Gen 10:2)!",
+          ["Iawones = Javan (Gen 10:2)"], major=True),
+        N("grk_achaeus", "Achaeus (Achaeans)", "greek", 7, "Greek Table of Nations", "Son of Xuthus", ["Hesiod fr. 9", "Apollodorus I.7.3"], "Eponymous ancestor of the Achaeans (Homer's Greeks)."),
+        N("grk_aeolus", "Aeolus (Aeolians)", "greek", 6, "Greek Table of Nations", "3rd Son of Hellen (7 Sons & 5 Daughters)", ["Hesiod fr. 10", "Apollodorus I.7.3"], "Eponym of the Aeolians; father of Sisyphus, Cretheus, Athamas, Salmoneus, Deion, Magnes, and Perieres.", major=True),
+    ]
+    add_children(nodes, edges, "grk_aeolus", "greek", 7, "Sons of Aeolus (Apollodorus I.7.3)", [
+        ("grk_sisyphus", "Sisyphus (King of Corinth → Bellerophon)", {"notes": "Son of Aeolus; founder of Corinth, grandfather of Pegasus-rider Bellerophon."}),
+        ("grk_cretheus", "Cretheus → Aeson → Jason (Argonauts)", {"major": True, "notes": "Son of Aeolus; founder of Iolcus, grandfather of Jason (leader of the Argonauts to Colchis on the Black Sea!)."}),
+        ("grk_salmoneus", "Salmoneus → Tyro → Pelias & Neleus (→ Nestor)", {"notes": "Son of Aeolus; ancestor of Neleus and wise King Nestor of Pylos."}),
+        ("grk_athamas", "Athamas → Phrixus & Helle (Golden Fleece)", {"notes": "Son of Aeolus; father of Phrixus & Helle (eponym of the Hellespont)."}),
+    ], default_sources=["Hesiod Catalogue of Women", "Apollodorus I.7"])
+
+    edges += [
+        E("grk_prometheus", "grk_deucalion", "direct", "Prometheus -> Deucalion; Epimetheus + Pandora -> Pyrrha"),
+        E("hub_flood", "grk_deucalion", "parallel", "Wooden chest/ark landing on Mt. Parnassus (Apollodorus I.7.2)"),
+        E("grk_deucalion", "grk_hellen", "direct", "Son of Deucalion & Pyrrha (Catalogue of Women)"),
+        E("hub_world_division", "grk_hellen", "parallel", "Hellen's 3 Sons (Dorus, Xuthus, Aeolus) divide the Greek world"),
+        E("grk_hellen", "grk_dorus", "direct", "Son (Hesiod fr. 9)"),
+        E("grk_hellen", "grk_xuthus", "direct", "Son (Hesiod fr. 9)"),
+        E("grk_hellen", "grk_aeolus", "direct", "Son (Hesiod fr. 9)"),
+        E("grk_xuthus", "grk_ion", "direct", "Son (Apollodorus I.7.3)"),
+        E("grk_xuthus", "grk_achaeus", "direct", "Son (Apollodorus I.7.3)"),
+        E("bib_javan", "grk_ion", "cognate", "EXACT linguistic cognate: Biblical Javan (Yawan, Gen 10:2) = Greek Ion / Iawones (Ionians)!"),
+    ]
+
+    # 3. THE GREAT AFRO-ASIATIC <-> GREEK BRIDGE: Inachus -> Io -> Epaphus (Egypt) -> Libya -> Belus & Agenor (Phoenicia, Crete, Thebes, Argos, Aethiopia, Persia, Sparta!)
+    nodes += [
+        N("grk_inachus_io", "Inachus (Argos) → Phoroneus & Io", "greek", 4, "Argive Primordial Line",
+          "First King of Argos & Ancestress of Egypt/Phoenicia/Greece", ["Apollodorus II.1.1-3", "Aeschylus Prometheus Bound"],
+          "Inachus (son of Oceanus) fathers Phoroneus (first mortal king of Argos) and Io, who wanders across the Bosporus into Egypt!", major=True),
+        N("grk_epaphus", "Epaphus (King of Egypt) & Queen Memphis", "greek", 5, "Argive-Egyptian Bridge (Apollodorus II.1.3)",
+          "Son of Zeus & Io / Identified with Egyptian Apis", ["Apollodorus II.1.3", "Herodotus II.153"],
+          "Born to Io beside the Nile; becomes King of Egypt, marries Memphis (eponym of Egypt's capital!), and fathers Libya.",
+          ["Apis (Herodotus II.153)"], major=True),
+        N("grk_libya", "Libya (Eponym of North Africa)", "greek", 6, "Daughter of Epaphus & Memphis",
+          "Mother of Belus & Agenor (Uniting Africa, Egypt, Phoenicia & Greece!)", ["Apollodorus II.1.4"],
+          "Daughter of Epaphus & Memphis; by Poseidon bears twin sons Belus (Egypt/Babylon/Aethiopia) and Agenor (Tyre/Phoenicia)!", major=True),
+
+        # Branch A: AGENOR (King of Tyre / Phoenicia) -> Europa (Crete), Cadmus (Thebes), Phoenix, Cilix
+        N("grk_agenor", "Agenor (King of Tyre / Phoenicia) & Telephassa", "greek", 7, "Phoenician-Greek Bridge (Apollodorus III.1)",
+          "Twin Son of Libya & Poseidon / Father of Europa & Cadmus", ["Apollodorus III.1.1", "Herodotus IV.147"],
+          "Moves from Egypt to Phoenicia (Tyre/Sidon) and fathers Europa, Cadmus, Phoenix, Cilix, and Thasus!", major=True),
+        N("grk_europa_minos", "Europa → King Minos of Crete, Rhadamanthus & Sarpedon", "greek", 8, "Minoan Crete (Caphtorim)",
+          "Phoenician Princess → Minoan Royal House (Ariadne & Phaedra)", ["Homer Iliad XIV", "Apollodorus III.1.1-2"],
+          "Carried from Phoenicia to Crete (Biblical Caphtorim!) by Zeus; bears King Minos (lawgiver of Knossos; father of Ariadne & Phaedra), Rhadamanthus, and Sarpedon.",
+          ["Minos of Knossos", "Crete = Caphtorim"], major=True),
+        N("grk_cadmus", "Cadmus (Founder of Thebes) & Harmonia", "greek", 8, "Phoenician-Theban Bridge (Herodotus V.58)",
+          "Bringer of the Phoenician Alphabet to Greece", ["Herodotus V.58", "Apollodorus III.4.1-2"],
+          "Son of Agenor of Tyre; settles in Boeotia, founds Thebes, and introduces the 'Phoenician letters' (alphabet!) to Greece! Fathers Semele (-> Dionysus), Ino, Autonoe, Agave, and Polydorus.",
+          ["Phoenician Alphabet Bridge"], major=True),
+        N("grk_dionysus_oedipus", "Semele (→ Dionysus) & Polydorus → Laius → Oedipus → Antigone", "greek", 9, "House of Thebes",
+          "Descendants of Cadmus of Phoenicia", ["Sophocles Oedipus Rex & Antigone", "Apollodorus III.4-5"],
+          "Cadmus's daughter Semele bears Dionysus; his son Polydorus leads via Labdacus -> Laius to Oedipus -> Antigone, Eteocles, and Polynices."),
+        N("grk_phoenix_cilix", "Phoenix (Phoenicians) & Cilix (Cilicia)", "greek", 8, "Sons of Agenor",
+          "Eponyms of Phoenicia & Cilicia", ["Apollodorus III.1.1"],
+          "Brothers of Cadmus and Europa who settle Phoenicia and Cilicia (SE Anatolia)."),
+
+        # Branch B: BELUS (King of Egypt) -> Aegyptus, Danaus (Argos), Cepheus (Aethiopia) -> Perseus + Andromeda -> Perses & Heracles!
+        N("grk_belus", "Belus (King of Egypt — Ba'al)", "greek", 7, "Egyptian-Greek Bridge (Apollodorus II.1.4)",
+          "Twin Son of Libya & Poseidon / Father of Aegyptus, Danaus & Cepheus", ["Apollodorus II.1.4", "Nonnus Dionysiaca"],
+          "Reigns in Egypt (name reflects Semitic Ba'al/Bel); fathers Aegyptus, Danaus, Cepheus (King of Aethiopia), and Phineus.", major=True),
+        N("grk_aegyptus_danaus", "Aegyptus (50 Sons) & Danaus (50 Danaids → Argos)", "greek", 8, "Egyptian-Argive Migration (Apollodorus II.1.5)",
+          "Eponym of Egypt & Founder of Danaan Argos", ["Aeschylus Suppliants", "Apollodorus II.1.4-5"],
+          "Aegyptus gives his name to Egypt; his twin brother Danaus flees Egypt with his 50 daughters (Danaids) to become King of Argos in Greece (Homer's 'Danaans'!). Daughter Hypermnestra marries Aegyptus's son Lynceus!",
+          ["Danaans (Homer)", "Hypermnestra & Lynceus"], major=True),
+        N("grk_cepheus_andromeda", "Cepheus (King of Aethiopia) & Cassiopeia → Andromeda", "greek", 8, "Aethiopian-Greek Bridge (Apollodorus II.4.3)",
+          "Royal House of Aethiopia", ["Apollodorus II.4.3", "Ovid Metamorphoses IV"],
+          "Brother of Danaus & Aegyptus; rules Aethiopia/Joppa coast. Daughter Andromeda is rescued from the sea monster Cetus by Perseus!"),
+        N("grk_perseus", "Lynceus → Abas → Acrisius → Danaë → Perseus", "greek", 9, "Argive-Mycenaean Hero (Founder of Mycenae)",
+          "Slayer of Medusa / Husband of Andromeda", ["Apollodorus II.2-4", "Herodotus VII.61"],
+          "Descendant of Egyptian Danaus & Aegyptus; slays Medusa, rescues and marries Princess Andromeda of Aethiopia, founds Mycenae, and fathers Perses (mythic eponym of Persia!) and the ancestors of Heracles!", major=True),
+        N("grk_perses", "Perses (Son of Perseus & Andromeda)", "greek", 10, "Herodotus VII.61",
+          "Greek Mythic Eponym of the Persians!", ["Herodotus VII.61", "Apollodorus II.4.5"],
+          "Herodotus (VII.61) explicitly records the ancient tradition that the Persians took their name from Perses, son of Perseus and Andromeda — a classic Greek-Iranian genealogical bridge!"),
+        N("grk_heracles", "Alcaeus / Electryon → Alcmene → Heracles (Hercules)", "greek", 10, "Heroic Age (Apollodorus II.4-7)",
+          "Greatest Greek Hero / Ancestor of Sparta & Macedon", ["Hesiod Shield", "Apollodorus II.4-7", "1 Maccabees 12:21"],
+          "Great-grandson of Perseus & Andromeda (via Alcmene & Zeus). His sons (Heraclidae: Hyllus, Temenus) become the royal houses of Sparta and Macedon — and 1 Maccabees 12:21 records Sparta claiming kinship with Abraham!",
+          ["Hercules", "Ancestor of Heraclidae"], major=True),
+        N("grk_sparta_macedon", "Hyllus → Kings of Sparta (Areus I) & Argead Macedon (Philip II)", "greek", 12, "Classical Greece (Heraclidae)",
+          "Spartan & Macedonian Royal Dynasties", ["Herodotus VIII.137", "1 Maccabees 12:20-23", "Josephus Ant. 12.4.10"],
+          "Heraclidae conquer the Peloponnese (Sparta: Leonidas, King Areus I who wrote to Jerusalem's High Priest claiming descent from Abraham!) and Temenus's line founds Macedon (Perdiccas I -> Philip II)."),
+        N("grk_alexander", "Alexander the Great (Macedon → Persia, Egypt & India)", "greek", 13, "356-323 BCE",
+          "Conqueror Uniting Greece, Egypt, Mesopotamia, Persia & NW India", ["Arrian Anabasis", "Plutarch Alexander", "1 Maccabees 1", "Shahnameh (Eskandar)"],
+          "Son of Philip II (Heraclid) and Olympias (claiming descent from Achilles!). Conquers Darius III of Persia, is crowned Pharaoh in Egypt, and marches to the Indus — even woven into the Persian Shahnameh as 'Eskandar' (half-brother of Dara)!",
+          ["Eskandar (Shahnameh)", "Iskandar"], major=True),
+    ]
+    edges += [
+        E("grk_oceanus_hyperion", "grk_inachus_io", "direct", "Oceanus -> River God Inachus -> Io"),
+        E("grk_inachus_io", "grk_epaphus", "direct", "Zeus + Io -> Epaphus (King of Egypt)"),
+        E("grk_zeus_olympians", "grk_epaphus", "direct", "Father of Epaphus"),
+        E("grk_epaphus", "grk_libya", "direct", "Epaphus + Memphis -> Libya"),
+        E("grk_libya", "grk_agenor", "direct", "Libya + Poseidon -> Twin son Agenor (Tyre)"),
+        E("grk_libya", "grk_belus", "direct", "Libya + Poseidon -> Twin son Belus (Egypt)"),
+        E("grk_agenor", "grk_europa_minos", "direct", "Daughter Europa -> Minos, Rhadamanthus, Sarpedon"),
+        E("grk_agenor", "grk_cadmus", "direct", "Son Cadmus -> Founder of Thebes"),
+        E("grk_agenor", "grk_phoenix_cilix", "direct", "Sons Phoenix & Cilix"),
+        E("grk_cadmus", "grk_dionysus_oedipus", "direct", "Semele (-> Dionysus) & Polydorus -> Oedipus -> Antigone"),
+        E("grk_belus", "grk_aegyptus_danaus", "direct", "Twin sons Aegyptus & Danaus (Apollodorus II.1.4)"),
+        E("grk_belus", "grk_cepheus_andromeda", "direct", "Son Cepheus (King of Aethiopia) -> Andromeda"),
+        E("grk_aegyptus_danaus", "grk_perseus", "direct", "Hypermnestra + Lynceus -> Abas -> Acrisius -> Danae -> Perseus"),
+        E("grk_cepheus_andromeda", "grk_perseus", "direct", "Princess Andromeda of Aethiopia marries Perseus"),
+        E("grk_perseus", "grk_perses", "direct", "Son of Perseus & Andromeda (Herodotus VII.61)"),
+        E("grk_perseus", "grk_heracles", "direct", "Electryon -> Alcmene (+ Zeus) -> Heracles"),
+        E("grk_heracles", "grk_sparta_macedon", "direct", "Heraclidae: Hyllus (Sparta) & Temenus (Macedon)"),
+        E("grk_sparta_macedon", "grk_alexander", "direct", "Philip II of Macedon -> Alexander the Great"),
+
+        # Cross-Tradition Bridges (Egypt, Phoenicia, Crete/Caphtorim, Ethiopia, Persia, Abraham/Sparta!)
+        E("grk_epaphus", "eg_menes", "parallel", "Epaphus King of Egypt (husband of Memphis) <-> Memphite Egyptian kingship"),
+        E("grk_aegyptus_danaus", "bib_mizraim", "cognate", "Greek Aegyptus (Hikuptah/Egypt) = Biblical Mizraim"),
+        E("grk_libya", "bib_lehabim", "cognate", "Greek Libya = Biblical Lehabim/Libya (Gen 10:13)"),
+        E("grk_agenor", "bib_sidon", "cognate", "Agenor & Cadmus of Tyre/Sidon = Phoenician Canaan (Gen 10:15)"),
+        E("grk_cadmus", "le_sanchuniathon", "cognate", "Herodotus V.58: Cadmus brings Phoenician alphabet (cf. Taaut/Thoth) to Greece!"),
+        E("grk_europa_minos", "bib_caphtorim", "cognate", "Minoan Crete (King Minos) = Biblical Caphtorim / Keftiu (Gen 10:14)!"),
+        E("grk_cepheus_andromeda", "bib_cush", "cognate", "Greek Aethiopia = Biblical Cush"),
+        E("grk_perses", "ir_achaemenes", "syncretic", "Herodotus VII.61: Greek chroniclers derive Persians from Perses, son of Perseus & Andromeda"),
+        E("grk_sparta_macedon", "bib_abraham", "syncretic", "1 Maccabees 12:21 & Josephus Ant. 12.4: King Areus I of Sparta claims brotherhood with Judah through Abraham!"),
+        E("grk_alexander", "ir_artaxerxes1", "cognate", "Alexander conquers Darius III (331 BCE); woven into Shahnameh as Eskandar"),
+        E("grk_alexander", "eg_ptolemy_cleopatra", "direct", "Alexander's general Ptolemy I founds the Ptolemaic Dynasty of Egypt (305 BCE)"),
+    ]
+
+    # 4. Mycenaean Heroes (Pelops/Atreus, Achilles, Odysseus) & House of Troy -> Aeneas -> Romulus & Remus (Rome!)
+    nodes += [
+        N("grk_pelops_atreus", "Tantalus (Lydia) → Pelops → Atreus & Thyestes", "greek", 9, "Anatolian-Mycenaean Line",
+          "House of Atreus (Peloponnese)", ["Homer Iliad", "Pindar Olympian 1", "Apollodorus Epitome 2"],
+          "Tantalus of Anatolia/Lydia fathers Pelops (eponym of the Peloponnese!), who fathers Atreus and Thyestes."),
+        N("grk_agamemnon_menelaus", "Agamemnon (→ Orestes) & Menelaus (+ Helen of Sparta)", "greek", 10, "Trojan War (c. 1200 BCE trad.)",
+          "Kings of Mycenae & Sparta (Sons of Atreus)", ["Homer Iliad & Odyssey"],
+          "Agamemnon leads the Achaeans against Troy (father of Orestes, Electra, Iphigenia); Menelaus weds Helen (daughter of Zeus & Leda, sister of Castor, Pollux & Clytemnestra).", major=True),
+        N("grk_achilles_odysseus", "Peleus → Achilles & Laertes → Odysseus (→ Telemachus)", "greek", 10, "Trojan War Heroes (Homer)",
+          "Champions of the Iliad & Odyssey", ["Homer Iliad & Odyssey"],
+          "Achilles (son of Peleus & Thetis, grandson of Aeacus; father of Neoptolemus — claimed ancestor of Alexander's mother Olympias!) and Odysseus (King of Ithaca, father of Telemachus).", major=True),
+
+        N("grk_dardanus_tros", "Dardanus (son of Zeus & Electra) → Erichthonius → Tros", "greek", 7, "Foundation of Troy (Iliad XX.215-240)",
+          "Founders of Dardania & Troy (Anatolia)", ["Homer Iliad XX.215-240", "Apollodorus III.12"],
+          "Dardanus (son of Zeus & Atlas's daughter Electra) founds Dardania near the Hellespont; grandson Tros gives his name to Troy and fathers Ilus, Assaracus, and Ganymede!", major=True),
+        N("grk_priam_hector", "Ilus → Laomedon → King Priam → Hector, Paris & Cassandra", "greek", 10, "Trojan Royal House (Iliad)",
+          "Last King of Troy & 50 Sons", ["Homer Iliad", "Apollodorus III.12.5"],
+          "Senior branch of Troy: Ilus -> Laomedon -> King Priam & Queen Hecuba, parents of Hector, Paris (Alexander), Cassandra, Helenus, and Creusa (first wife of Aeneas).", major=True),
+        N("grk_aeneas", "Assaracus → Capys → Anchises → Aeneas (+ Lavinia)", "greek", 10, "Fall of Troy → Migration to Italy (Aeneid)",
+          "Trojan Prince & Ancestor of Rome", ["Homer Iliad XX", "Virgil Aeneid", "Livy I.1"],
+          "Junior Trojan branch: Assaracus -> Capys -> Anchises (+ Aphrodite) -> Aeneas, who escapes burning Troy to Italy (Latium), marries Lavinia (daughter of King Latinus), and fathers Ascanius (Iulus) and Silvius!",
+          ["Ancestor of Rome & Julius Caesar"], major=True),
+        N("grk_romulus_remus", "Ascanius (Iulus) → Alba Longa Kings → Rhea Silvia → Romulus & Remus", "greek", 12, "753 BCE trad. (Foundation of Rome)",
+          "Founders of Rome (Bridging Troy & Italy)", ["Livy Ab Urbe Condita I", "Virgil Aeneid", "Plutarch Romulus"],
+          "Ascanius (Iulus, ancestor of the Julian clan / Julius Caesar!) & Silvius found Alba Longa -> 12 Alban kings -> Numitor -> Rhea Silvia (+ Mars) -> twin founders Romulus & Remus! Directly intersects Book of Jasher's Kittim/Zepho/Janeus chronicle of early Italy!",
+          ["Founders of Rome", "Alba Longa"], major=True),
+    ]
+    edges += [
+        E("grk_zeus_olympians", "grk_pelops_atreus", "direct", "Zeus -> Tantalus -> Pelops -> Atreus & Thyestes"),
+        E("grk_pelops_atreus", "grk_agamemnon_menelaus", "direct", "Sons of Atreus (Iliad)"),
+        E("grk_zeus_olympians", "grk_achilles_odysseus", "direct", "Zeus -> Aeacus -> Peleus -> Achilles; Hermes -> Autolycus -> Odysseus"),
+        E("grk_atlas", "grk_dardanus_tros", "direct", "Electra (dau. of Atlas) + Zeus -> Dardanus -> Erichthonius -> Tros (Iliad XX)"),
+        E("grk_dardanus_tros", "grk_priam_hector", "direct", "Tros -> Ilus -> Laomedon -> Priam -> Hector & Paris"),
+        E("grk_dardanus_tros", "grk_aeneas", "direct", "Tros -> Assaracus -> Capys -> Anchises -> Aeneas (Iliad XX)"),
+        E("grk_aeneas", "grk_romulus_remus", "direct", "Aeneas -> Ascanius/Silvius -> Alba Longa -> Rhea Silvia -> Romulus & Remus"),
+        E("grk_romulus_remus", "jas_janeus", "syncretic", "Roman origin tradition (Aeneas/Latinus/Janus/Romulus) intersects Book of Jasher 61-64 (Zepho -> Janeus of Kittim/Italy)!"),
+        E("grk_achilles_odysseus", "grk_alexander", "expansion", "Alexander's mother Olympias (Molossian royal house) claimed direct descent from Achilles via Neoptolemus"),
+    ]
+
+    # 5. Mediterranean Phoenician-Carthaginian & Lydian-Etruscan Bridges (Dido/Carthage & Lydus/Tyrrhenus!)
+    nodes += [
+        N("grk_dido_carthage", "Ethbaal of Tyre → Mattan I → Queen Dido (Elissa of Carthage)", "greek", 11, "c. 814 BCE trad. (Tyre → North Africa)",
+          "Phoenician Founder of Carthage (Great-Niece of Jezebel!)", ["Josephus Against Apion 1.18", "Justin XVIII", "Virgil Aeneid I & IV"],
+          "Tyrian royal records (Menander of Ephesus, quoted by Josephus) trace King Ethbaal (Ithobaal I of Sidon/Tyre, father of Biblical Jezebel!) -> Baal-Eser II -> Mattan I -> Pygmalion & Queen Elissa (Dido), who sails from Tyre to North Africa and founds Carthage!",
+          ["Elissa of Tyre", "Founder of Carthage"], major=True),
+        N("grk_lydus_tyrrhenus", "Atys of Lydia → Lydus (Lydians) & Tyrrhenus (Etruscans)", "greek", 7, "Anatolia → Italy (Herodotus I.94)",
+          "Eponyms of Lydia (Lud) & Etruria (Tiras?)", ["Herodotus Histories I.94"],
+          "Herodotus records that during an 18-year famine in Lydia (Biblical Lud, Gen 10:22!), King Atys split his people between Lydus (staying in Anatolia) and Tyrrhenus, who sailed to Italy to found the Etruscans (Tyrsenians — widely linked by scholars to Biblical Tiras, Gen 10:2)!",
+          ["Lydians = Lud (Gen 10:22)", "Tyrsenians = Tiras (Gen 10:2)"]),
+    ]
+    edges += [
+        E("bib_sidon", "grk_dido_carthage", "cognate", "Tyrian royal house of Sidon/Tyre (Ethbaal -> Mattan -> Dido/Elissa)"),
+        E("grk_dido_carthage", "af_mazigh", "cognate", "Carthage founded in North Africa among ancestral Amazigh/Numidian peoples (King Hiarbas)"),
+        E("grk_dido_carthage", "grk_aeneas", "expansion", "Virgil's Aeneid links Carthaginian Queen Dido and Trojan prince Aeneas"),
+        E("bib_lud", "grk_lydus_tyrrhenus", "cognate", "Biblical Lud (Gen 10:22) = Herodotus's Lydus / Lydia"),
+        E("bib_tiras", "grk_lydus_tyrrhenus", "cognate", "Biblical Tiras (Gen 10:2) = Tyrsenians / Tyrrhenus (Etruscans)!"),
+    ]
+
+    return {"module": "09_greek_mediterranean", "title": "Exhaustive Greek & Mediterranean Genealogy (Hesiod Theogony, Deucalion, Hellen/Ion, Egypt-Phoenicia Bridge, Crete, Thebes, Heracles, Troy, Rome, Carthage & Etruscans)", "nodes": nodes, "edges": edges}
+
+
 def main():
     MODULES_DIR.mkdir(parents=True, exist_ok=True)
-
-    # Move eth_menelik's tradition to 'african' inside module 03 so Ethiopia sits cleanly under the African/Ethiopian category!
-    mod03 = load_existing_module("03_abraham_all_nations")
-    for n in mod03["nodes"]:
-        if n["id"] == "eth_menelik":
-            n["tradition"] = "african"
 
     modules = [
         load_existing_module("01_antediluvian"),
         load_existing_module("02_table_of_nations"),
-        mod03,
-        build_module_04_egypt_levant(),
+        load_existing_module("03_abraham_all_nations"),
+        load_existing_module("04_egypt_levant"),
         load_existing_module("05_mesopotamia"),
         load_existing_module("06_iranian_zoroastrian"),
         load_existing_module("07_asia_steppe"),
-        build_module_08_african_ethiopian(),
+        load_existing_module("08_african_ethiopian"),
+        build_module_09_greek_mediterranean(),
     ]
 
     all_nodes, all_edges = [], []
@@ -493,8 +725,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Exhaustive Multi-Tradition Database (Phase 4)",
-            "version": "4.0.0",
+            "title": "Ancient World Genealogy Atlas — Exhaustive Multi-Tradition Database (Phase 5)",
+            "version": "5.0.0",
             "modules": module_summaries,
             "linkTypes": LINK_TYPES,
         },

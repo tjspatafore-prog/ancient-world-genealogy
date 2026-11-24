@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Ancient World Genealogy Atlas — Exhaustive Multi-Tradition Database (Phase 4)",
-    "version": "4.0.0",
+    "title": "Ancient World Genealogy Atlas — Exhaustive Multi-Tradition Database (Phase 5)",
+    "version": "5.0.0",
     "modules": [
       {
         "file": "01_antediluvian",
@@ -50,6 +50,12 @@
         "title": "Exhaustive African, Cushite/Nubian (25th Dynasty & Meroe), Ethiopian (Kebra Nagast / Tarika Nagast) & West/North/East African Genealogies",
         "nodes": 29,
         "edges": 40
+      },
+      {
+        "file": "09_greek_mediterranean",
+        "title": "Exhaustive Greek & Mediterranean Genealogy (Hesiod Theogony, Deucalion, Hellen/Ion, Egypt-Phoenicia Bridge, Crete, Thebes, Heracles, Troy, Rome, Carthage & Etruscans)",
+        "nodes": 43,
+        "edges": 67
       }
     ],
     "linkTypes": {
@@ -79,53 +85,59 @@
       "color": "#0d9488",
       "order": 2
     },
+    "greek": {
+      "label": "Greek & Mediterranean",
+      "region": "Aegean / Anatolia / Italy",
+      "color": "#0284c7",
+      "order": 3
+    },
     "biblical": {
       "label": "Biblical & Extra-Biblical",
       "region": "Levant / Ancient Near East",
       "color": "#d97706",
-      "order": 3
+      "order": 4
     },
     "arabian": {
       "label": "Arabian (Adnanite & Qahtanite)",
       "region": "Arabian Peninsula",
       "color": "#ca8a04",
-      "order": 4
+      "order": 5
     },
     "mesopotamian": {
       "label": "Mesopotamian (Sumer / Akkad)",
       "region": "Mesopotamia",
       "color": "#2563eb",
-      "order": 5
+      "order": 6
     },
     "iranian": {
       "label": "Iranian / Zoroastrian",
       "region": "Iranian Plateau / Central Asia",
       "color": "#9333ea",
-      "order": 6
+      "order": 7
     },
     "vedic": {
       "label": "Vedic & Puranic Indian",
       "region": "South Asia / Indus-Ganges",
       "color": "#ea580c",
-      "order": 7
+      "order": 8
     },
     "steppe": {
       "label": "Eurasian Steppe / Turkic",
       "region": "Inner Asia / Eurasian Steppe",
       "color": "#059669",
-      "order": 8
+      "order": 9
     },
     "chinese": {
       "label": "Ancient Chinese (Sinitic)",
       "region": "East Asia / Yellow River",
       "color": "#dc2626",
-      "order": 9
+      "order": 10
     },
     "japan_korea": {
       "label": "Ancient Japanese & Korean",
       "region": "East Asia / Archipelago",
       "color": "#db2777",
-      "order": 10
+      "order": 11
     }
   },
   "nodes": [
@@ -8771,6 +8783,691 @@
       ],
       "notes": "Founding Hausa Bakwai kingdoms.",
       "major": false
+    },
+    {
+      "id": "grk_chaos_gaia",
+      "name": "Chaos → Gaia (Earth) & Uranus (Sky)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 1,
+      "era": "Primordial Cosmogony (Hesiod Theogony)",
+      "role": "Primordial Greek Progenitors",
+      "sources": [
+        "Hesiod Theogony 116-153"
+      ],
+      "notes": "Out of Chaos emerges Gaia (Earth), who births Uranus (Starry Sky); their union generates the 12 Titans.",
+      "major": true
+    },
+    {
+      "id": "grk_cronus_rhea",
+      "name": "Cronus (Kronos) & Rhea",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 2,
+      "era": "Titan Generation (Hesiod)",
+      "role": "King & Queen of the Titans",
+      "sources": [
+        "Hesiod Theogony 453-506"
+      ],
+      "notes": "Youngest Titan who overthrows Uranus; parents of the six elder Olympians (Zeus, Hera, Poseidon, Demeter, Hestia, Hades). In Phoenician Sanchuniathon, El is equated with Kronos!",
+      "major": true
+    },
+    {
+      "id": "grk_iapetus",
+      "name": "Iapetus (Titan) & Clymene / Asia",
+      "altNames": [
+        "Iapetos <-> Japheth (Yefet)"
+      ],
+      "tradition": "greek",
+      "tier": 2,
+      "era": "Titan Generation (Hesiod)",
+      "role": "Ancestor of Humanity (Compared to Japheth!)",
+      "sources": [
+        "Hesiod Theogony 507-514",
+        "Apollodorus I.2.3"
+      ],
+      "notes": "Titan father of Atlas, Prometheus, Epimetheus, and Menoetius — frequently compared by classical and biblical scholars to Noah's son Japheth (Hebrew Yefet <-> Greek Iapetos)!",
+      "major": true
+    },
+    {
+      "id": "grk_oceanus_hyperion",
+      "name": "Oceanus & Tethys / Hyperion & Coeus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 2,
+      "era": "Elder Titans (Hesiod)",
+      "role": "River, Sun & Celestial Titans",
+      "sources": [
+        "Hesiod Theogony 337-408"
+      ],
+      "notes": "Oceanus & Tethys sire the 3,000 River Gods (including Inachus of Argos and Nile!) and Oceanids; Hyperion sires Helios (Sun) & Selene; Coeus sires Leto (mother of Apollo & Artemis).",
+      "major": false
+    },
+    {
+      "id": "grk_zeus_olympians",
+      "name": "Zeus, Hera, Poseidon, Demeter, Hestia & Hades",
+      "altNames": [
+        "Jupiter",
+        "Cognate: Vedic Dyaus Pitr"
+      ],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Olympian Generation (Hesiod)",
+      "role": "Elder Olympian Gods (Zeus = PIE Dyaus Pitr!)",
+      "sources": [
+        "Hesiod Theogony",
+        "Homer Iliad"
+      ],
+      "notes": "Zeus (exact Proto-Indo-European linguistic cognate of Vedic Sky-Father Dyaus Pitr & Roman Jupiter!) and Poseidon become the divine progenitors of Greece's heroic royal houses.",
+      "major": true
+    },
+    {
+      "id": "grk_atlas",
+      "name": "Atlas (Titan) → Pleiades (Electra & Maia)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Titan Gen 2 (Hesiod)",
+      "role": "Bearer of the Heavens / Ancestor of Troy & Hermes",
+      "sources": [
+        "Hesiod Theogony 509",
+        "Apollodorus III.10"
+      ],
+      "notes": "Son of Iapetus; father of the Seven Pleiades including Electra (mother of Dardanus, founder of Troy!) and Maia (mother of Hermes).",
+      "major": false
+    },
+    {
+      "id": "grk_prometheus",
+      "name": "Prometheus & Epimetheus (+ Pandora)",
+      "altNames": [
+        "Clay Creator Motif"
+      ],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Titan Gen 2 (Hesiod / Ovid)",
+      "role": "Clay-Maker of Humanity & Fire-Bringer",
+      "sources": [
+        "Hesiod Works & Days",
+        "Apollodorus I.7.1"
+      ],
+      "notes": "Sons of Iapetus. Prometheus molds mortals from clay and water and brings fire from heaven; Epimetheus weds Pandora (first mortal woman) -> Pyrrha!",
+      "major": true
+    },
+    {
+      "id": "grk_deucalion",
+      "name": "Deucalion & Pyrrha (Greek Great Flood Survivors)",
+      "altNames": [
+        "Ark on Mt. Parnassus"
+      ],
+      "tradition": "greek",
+      "tier": 4,
+      "era": "Greek Flood Horizon (Apollodorus I.7.2)",
+      "role": "Survivors of Zeus's Great Deluge",
+      "sources": [
+        "Hesiod Catalogue of Women",
+        "Apollodorus I.7.2",
+        "Ovid Metamorphoses I"
+      ],
+      "notes": "Deucalion (son of Prometheus) and Pyrrha (daughter of Epimetheus & Pandora) survive Zeus's world-destroying Flood in a wooden chest/ark (larnax) landing on Mt. Parnassus!",
+      "major": true
+    },
+    {
+      "id": "grk_hellen",
+      "name": "Hellen & Orseis (Eponym of the Greeks / Hellenes)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 5,
+      "era": "Post-Flood Gen 1 (Catalogue of Women)",
+      "role": "Progenitor of the Greek Peoples (3 Sons)",
+      "sources": [
+        "Hesiod Catalogue of Women fr. 9",
+        "Apollodorus I.7.3"
+      ],
+      "notes": "Son of Deucalion & Pyrrha; divides the Greek world among his three sons Dorus, Xuthus, and Aeolus — the Greek 'Table of Nations'!",
+      "major": true
+    },
+    {
+      "id": "grk_dorus",
+      "name": "Dorus (Dorians — Sparta & Peloponnese)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 6,
+      "era": "Greek Table of Nations",
+      "role": "1st Son of Hellen",
+      "sources": [
+        "Hesiod fr. 9",
+        "Apollodorus I.7.3"
+      ],
+      "notes": "Eponymous ancestor of the Dorians.",
+      "major": false
+    },
+    {
+      "id": "grk_xuthus",
+      "name": "Xuthus & Creusa",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 6,
+      "era": "Greek Table of Nations",
+      "role": "2nd Son of Hellen",
+      "sources": [
+        "Hesiod fr. 9",
+        "Apollodorus I.7.3"
+      ],
+      "notes": "Father of Ion (Ionians) and Achaeus (Achaeans).",
+      "major": false
+    },
+    {
+      "id": "grk_ion",
+      "name": "Ion (Ionians / Iawones = Biblical Javan!)",
+      "altNames": [
+        "Iawones = Javan (Gen 10:2)"
+      ],
+      "tradition": "greek",
+      "tier": 7,
+      "era": "Greek Table of Nations",
+      "role": "Eponym of the Ionians (Exact Cognate of Javan)",
+      "sources": [
+        "Hesiod fr. 9",
+        "Euripides Ion",
+        "Genesis 10:2"
+      ],
+      "notes": "Son of Xuthus (or Apollo) & Creusa; eponym of the Ionians (Archaic Greek Iawones) — EXACT linguistic cognate of Biblical Javan (Yawan, son of Japheth, Gen 10:2)!",
+      "major": true
+    },
+    {
+      "id": "grk_achaeus",
+      "name": "Achaeus (Achaeans)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 7,
+      "era": "Greek Table of Nations",
+      "role": "Son of Xuthus",
+      "sources": [
+        "Hesiod fr. 9",
+        "Apollodorus I.7.3"
+      ],
+      "notes": "Eponymous ancestor of the Achaeans (Homer's Greeks).",
+      "major": false
+    },
+    {
+      "id": "grk_aeolus",
+      "name": "Aeolus (Aeolians)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 6,
+      "era": "Greek Table of Nations",
+      "role": "3rd Son of Hellen (7 Sons & 5 Daughters)",
+      "sources": [
+        "Hesiod fr. 10",
+        "Apollodorus I.7.3"
+      ],
+      "notes": "Eponym of the Aeolians; father of Sisyphus, Cretheus, Athamas, Salmoneus, Deion, Magnes, and Perieres.",
+      "major": true
+    },
+    {
+      "id": "grk_sisyphus",
+      "name": "Sisyphus (King of Corinth → Bellerophon)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 7,
+      "era": "Sons of Aeolus (Apollodorus I.7.3)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Hesiod Catalogue of Women",
+        "Apollodorus I.7"
+      ],
+      "notes": "Son of Aeolus; founder of Corinth, grandfather of Pegasus-rider Bellerophon.",
+      "major": false
+    },
+    {
+      "id": "grk_cretheus",
+      "name": "Cretheus → Aeson → Jason (Argonauts)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 7,
+      "era": "Sons of Aeolus (Apollodorus I.7.3)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Hesiod Catalogue of Women",
+        "Apollodorus I.7"
+      ],
+      "notes": "Son of Aeolus; founder of Iolcus, grandfather of Jason (leader of the Argonauts to Colchis on the Black Sea!).",
+      "major": true
+    },
+    {
+      "id": "grk_salmoneus",
+      "name": "Salmoneus → Tyro → Pelias & Neleus (→ Nestor)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 7,
+      "era": "Sons of Aeolus (Apollodorus I.7.3)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Hesiod Catalogue of Women",
+        "Apollodorus I.7"
+      ],
+      "notes": "Son of Aeolus; ancestor of Neleus and wise King Nestor of Pylos.",
+      "major": false
+    },
+    {
+      "id": "grk_athamas",
+      "name": "Athamas → Phrixus & Helle (Golden Fleece)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 7,
+      "era": "Sons of Aeolus (Apollodorus I.7.3)",
+      "role": "Individual / Lineage Member",
+      "sources": [
+        "Hesiod Catalogue of Women",
+        "Apollodorus I.7"
+      ],
+      "notes": "Son of Aeolus; father of Phrixus & Helle (eponym of the Hellespont).",
+      "major": false
+    },
+    {
+      "id": "grk_inachus_io",
+      "name": "Inachus (Argos) → Phoroneus & Io",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 4,
+      "era": "Argive Primordial Line",
+      "role": "First King of Argos & Ancestress of Egypt/Phoenicia/Greece",
+      "sources": [
+        "Apollodorus II.1.1-3",
+        "Aeschylus Prometheus Bound"
+      ],
+      "notes": "Inachus (son of Oceanus) fathers Phoroneus (first mortal king of Argos) and Io, who wanders across the Bosporus into Egypt!",
+      "major": true
+    },
+    {
+      "id": "grk_epaphus",
+      "name": "Epaphus (King of Egypt) & Queen Memphis",
+      "altNames": [
+        "Apis (Herodotus II.153)"
+      ],
+      "tradition": "greek",
+      "tier": 5,
+      "era": "Argive-Egyptian Bridge (Apollodorus II.1.3)",
+      "role": "Son of Zeus & Io / Identified with Egyptian Apis",
+      "sources": [
+        "Apollodorus II.1.3",
+        "Herodotus II.153"
+      ],
+      "notes": "Born to Io beside the Nile; becomes King of Egypt, marries Memphis (eponym of Egypt's capital!), and fathers Libya.",
+      "major": true
+    },
+    {
+      "id": "grk_libya",
+      "name": "Libya (Eponym of North Africa)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 6,
+      "era": "Daughter of Epaphus & Memphis",
+      "role": "Mother of Belus & Agenor (Uniting Africa, Egypt, Phoenicia & Greece!)",
+      "sources": [
+        "Apollodorus II.1.4"
+      ],
+      "notes": "Daughter of Epaphus & Memphis; by Poseidon bears twin sons Belus (Egypt/Babylon/Aethiopia) and Agenor (Tyre/Phoenicia)!",
+      "major": true
+    },
+    {
+      "id": "grk_agenor",
+      "name": "Agenor (King of Tyre / Phoenicia) & Telephassa",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 7,
+      "era": "Phoenician-Greek Bridge (Apollodorus III.1)",
+      "role": "Twin Son of Libya & Poseidon / Father of Europa & Cadmus",
+      "sources": [
+        "Apollodorus III.1.1",
+        "Herodotus IV.147"
+      ],
+      "notes": "Moves from Egypt to Phoenicia (Tyre/Sidon) and fathers Europa, Cadmus, Phoenix, Cilix, and Thasus!",
+      "major": true
+    },
+    {
+      "id": "grk_europa_minos",
+      "name": "Europa → King Minos of Crete, Rhadamanthus & Sarpedon",
+      "altNames": [
+        "Minos of Knossos",
+        "Crete = Caphtorim"
+      ],
+      "tradition": "greek",
+      "tier": 8,
+      "era": "Minoan Crete (Caphtorim)",
+      "role": "Phoenician Princess → Minoan Royal House (Ariadne & Phaedra)",
+      "sources": [
+        "Homer Iliad XIV",
+        "Apollodorus III.1.1-2"
+      ],
+      "notes": "Carried from Phoenicia to Crete (Biblical Caphtorim!) by Zeus; bears King Minos (lawgiver of Knossos; father of Ariadne & Phaedra), Rhadamanthus, and Sarpedon.",
+      "major": true
+    },
+    {
+      "id": "grk_cadmus",
+      "name": "Cadmus (Founder of Thebes) & Harmonia",
+      "altNames": [
+        "Phoenician Alphabet Bridge"
+      ],
+      "tradition": "greek",
+      "tier": 8,
+      "era": "Phoenician-Theban Bridge (Herodotus V.58)",
+      "role": "Bringer of the Phoenician Alphabet to Greece",
+      "sources": [
+        "Herodotus V.58",
+        "Apollodorus III.4.1-2"
+      ],
+      "notes": "Son of Agenor of Tyre; settles in Boeotia, founds Thebes, and introduces the 'Phoenician letters' (alphabet!) to Greece! Fathers Semele (-> Dionysus), Ino, Autonoe, Agave, and Polydorus.",
+      "major": true
+    },
+    {
+      "id": "grk_dionysus_oedipus",
+      "name": "Semele (→ Dionysus) & Polydorus → Laius → Oedipus → Antigone",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "House of Thebes",
+      "role": "Descendants of Cadmus of Phoenicia",
+      "sources": [
+        "Sophocles Oedipus Rex & Antigone",
+        "Apollodorus III.4-5"
+      ],
+      "notes": "Cadmus's daughter Semele bears Dionysus; his son Polydorus leads via Labdacus -> Laius to Oedipus -> Antigone, Eteocles, and Polynices.",
+      "major": false
+    },
+    {
+      "id": "grk_phoenix_cilix",
+      "name": "Phoenix (Phoenicians) & Cilix (Cilicia)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 8,
+      "era": "Sons of Agenor",
+      "role": "Eponyms of Phoenicia & Cilicia",
+      "sources": [
+        "Apollodorus III.1.1"
+      ],
+      "notes": "Brothers of Cadmus and Europa who settle Phoenicia and Cilicia (SE Anatolia).",
+      "major": false
+    },
+    {
+      "id": "grk_belus",
+      "name": "Belus (King of Egypt — Ba'al)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 7,
+      "era": "Egyptian-Greek Bridge (Apollodorus II.1.4)",
+      "role": "Twin Son of Libya & Poseidon / Father of Aegyptus, Danaus & Cepheus",
+      "sources": [
+        "Apollodorus II.1.4",
+        "Nonnus Dionysiaca"
+      ],
+      "notes": "Reigns in Egypt (name reflects Semitic Ba'al/Bel); fathers Aegyptus, Danaus, Cepheus (King of Aethiopia), and Phineus.",
+      "major": true
+    },
+    {
+      "id": "grk_aegyptus_danaus",
+      "name": "Aegyptus (50 Sons) & Danaus (50 Danaids → Argos)",
+      "altNames": [
+        "Danaans (Homer)",
+        "Hypermnestra & Lynceus"
+      ],
+      "tradition": "greek",
+      "tier": 8,
+      "era": "Egyptian-Argive Migration (Apollodorus II.1.5)",
+      "role": "Eponym of Egypt & Founder of Danaan Argos",
+      "sources": [
+        "Aeschylus Suppliants",
+        "Apollodorus II.1.4-5"
+      ],
+      "notes": "Aegyptus gives his name to Egypt; his twin brother Danaus flees Egypt with his 50 daughters (Danaids) to become King of Argos in Greece (Homer's 'Danaans'!). Daughter Hypermnestra marries Aegyptus's son Lynceus!",
+      "major": true
+    },
+    {
+      "id": "grk_cepheus_andromeda",
+      "name": "Cepheus (King of Aethiopia) & Cassiopeia → Andromeda",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 8,
+      "era": "Aethiopian-Greek Bridge (Apollodorus II.4.3)",
+      "role": "Royal House of Aethiopia",
+      "sources": [
+        "Apollodorus II.4.3",
+        "Ovid Metamorphoses IV"
+      ],
+      "notes": "Brother of Danaus & Aegyptus; rules Aethiopia/Joppa coast. Daughter Andromeda is rescued from the sea monster Cetus by Perseus!",
+      "major": false
+    },
+    {
+      "id": "grk_perseus",
+      "name": "Lynceus → Abas → Acrisius → Danaë → Perseus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Argive-Mycenaean Hero (Founder of Mycenae)",
+      "role": "Slayer of Medusa / Husband of Andromeda",
+      "sources": [
+        "Apollodorus II.2-4",
+        "Herodotus VII.61"
+      ],
+      "notes": "Descendant of Egyptian Danaus & Aegyptus; slays Medusa, rescues and marries Princess Andromeda of Aethiopia, founds Mycenae, and fathers Perses (mythic eponym of Persia!) and the ancestors of Heracles!",
+      "major": true
+    },
+    {
+      "id": "grk_perses",
+      "name": "Perses (Son of Perseus & Andromeda)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Herodotus VII.61",
+      "role": "Greek Mythic Eponym of the Persians!",
+      "sources": [
+        "Herodotus VII.61",
+        "Apollodorus II.4.5"
+      ],
+      "notes": "Herodotus (VII.61) explicitly records the ancient tradition that the Persians took their name from Perses, son of Perseus and Andromeda — a classic Greek-Iranian genealogical bridge!",
+      "major": false
+    },
+    {
+      "id": "grk_heracles",
+      "name": "Alcaeus / Electryon → Alcmene → Heracles (Hercules)",
+      "altNames": [
+        "Hercules",
+        "Ancestor of Heraclidae"
+      ],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Heroic Age (Apollodorus II.4-7)",
+      "role": "Greatest Greek Hero / Ancestor of Sparta & Macedon",
+      "sources": [
+        "Hesiod Shield",
+        "Apollodorus II.4-7",
+        "1 Maccabees 12:21"
+      ],
+      "notes": "Great-grandson of Perseus & Andromeda (via Alcmene & Zeus). His sons (Heraclidae: Hyllus, Temenus) become the royal houses of Sparta and Macedon — and 1 Maccabees 12:21 records Sparta claiming kinship with Abraham!",
+      "major": true
+    },
+    {
+      "id": "grk_sparta_macedon",
+      "name": "Hyllus → Kings of Sparta (Areus I) & Argead Macedon (Philip II)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 12,
+      "era": "Classical Greece (Heraclidae)",
+      "role": "Spartan & Macedonian Royal Dynasties",
+      "sources": [
+        "Herodotus VIII.137",
+        "1 Maccabees 12:20-23",
+        "Josephus Ant. 12.4.10"
+      ],
+      "notes": "Heraclidae conquer the Peloponnese (Sparta: Leonidas, King Areus I who wrote to Jerusalem's High Priest claiming descent from Abraham!) and Temenus's line founds Macedon (Perdiccas I -> Philip II).",
+      "major": false
+    },
+    {
+      "id": "grk_alexander",
+      "name": "Alexander the Great (Macedon → Persia, Egypt & India)",
+      "altNames": [
+        "Eskandar (Shahnameh)",
+        "Iskandar"
+      ],
+      "tradition": "greek",
+      "tier": 13,
+      "era": "356-323 BCE",
+      "role": "Conqueror Uniting Greece, Egypt, Mesopotamia, Persia & NW India",
+      "sources": [
+        "Arrian Anabasis",
+        "Plutarch Alexander",
+        "1 Maccabees 1",
+        "Shahnameh (Eskandar)"
+      ],
+      "notes": "Son of Philip II (Heraclid) and Olympias (claiming descent from Achilles!). Conquers Darius III of Persia, is crowned Pharaoh in Egypt, and marches to the Indus — even woven into the Persian Shahnameh as 'Eskandar' (half-brother of Dara)!",
+      "major": true
+    },
+    {
+      "id": "grk_pelops_atreus",
+      "name": "Tantalus (Lydia) → Pelops → Atreus & Thyestes",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Anatolian-Mycenaean Line",
+      "role": "House of Atreus (Peloponnese)",
+      "sources": [
+        "Homer Iliad",
+        "Pindar Olympian 1",
+        "Apollodorus Epitome 2"
+      ],
+      "notes": "Tantalus of Anatolia/Lydia fathers Pelops (eponym of the Peloponnese!), who fathers Atreus and Thyestes.",
+      "major": false
+    },
+    {
+      "id": "grk_agamemnon_menelaus",
+      "name": "Agamemnon (→ Orestes) & Menelaus (+ Helen of Sparta)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Trojan War (c. 1200 BCE trad.)",
+      "role": "Kings of Mycenae & Sparta (Sons of Atreus)",
+      "sources": [
+        "Homer Iliad & Odyssey"
+      ],
+      "notes": "Agamemnon leads the Achaeans against Troy (father of Orestes, Electra, Iphigenia); Menelaus weds Helen (daughter of Zeus & Leda, sister of Castor, Pollux & Clytemnestra).",
+      "major": true
+    },
+    {
+      "id": "grk_achilles_odysseus",
+      "name": "Peleus → Achilles & Laertes → Odysseus (→ Telemachus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Trojan War Heroes (Homer)",
+      "role": "Champions of the Iliad & Odyssey",
+      "sources": [
+        "Homer Iliad & Odyssey"
+      ],
+      "notes": "Achilles (son of Peleus & Thetis, grandson of Aeacus; father of Neoptolemus — claimed ancestor of Alexander's mother Olympias!) and Odysseus (King of Ithaca, father of Telemachus).",
+      "major": true
+    },
+    {
+      "id": "grk_dardanus_tros",
+      "name": "Dardanus (son of Zeus & Electra) → Erichthonius → Tros",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 7,
+      "era": "Foundation of Troy (Iliad XX.215-240)",
+      "role": "Founders of Dardania & Troy (Anatolia)",
+      "sources": [
+        "Homer Iliad XX.215-240",
+        "Apollodorus III.12"
+      ],
+      "notes": "Dardanus (son of Zeus & Atlas's daughter Electra) founds Dardania near the Hellespont; grandson Tros gives his name to Troy and fathers Ilus, Assaracus, and Ganymede!",
+      "major": true
+    },
+    {
+      "id": "grk_priam_hector",
+      "name": "Ilus → Laomedon → King Priam → Hector, Paris & Cassandra",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Trojan Royal House (Iliad)",
+      "role": "Last King of Troy & 50 Sons",
+      "sources": [
+        "Homer Iliad",
+        "Apollodorus III.12.5"
+      ],
+      "notes": "Senior branch of Troy: Ilus -> Laomedon -> King Priam & Queen Hecuba, parents of Hector, Paris (Alexander), Cassandra, Helenus, and Creusa (first wife of Aeneas).",
+      "major": true
+    },
+    {
+      "id": "grk_aeneas",
+      "name": "Assaracus → Capys → Anchises → Aeneas (+ Lavinia)",
+      "altNames": [
+        "Ancestor of Rome & Julius Caesar"
+      ],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Fall of Troy → Migration to Italy (Aeneid)",
+      "role": "Trojan Prince & Ancestor of Rome",
+      "sources": [
+        "Homer Iliad XX",
+        "Virgil Aeneid",
+        "Livy I.1"
+      ],
+      "notes": "Junior Trojan branch: Assaracus -> Capys -> Anchises (+ Aphrodite) -> Aeneas, who escapes burning Troy to Italy (Latium), marries Lavinia (daughter of King Latinus), and fathers Ascanius (Iulus) and Silvius!",
+      "major": true
+    },
+    {
+      "id": "grk_romulus_remus",
+      "name": "Ascanius (Iulus) → Alba Longa Kings → Rhea Silvia → Romulus & Remus",
+      "altNames": [
+        "Founders of Rome",
+        "Alba Longa"
+      ],
+      "tradition": "greek",
+      "tier": 12,
+      "era": "753 BCE trad. (Foundation of Rome)",
+      "role": "Founders of Rome (Bridging Troy & Italy)",
+      "sources": [
+        "Livy Ab Urbe Condita I",
+        "Virgil Aeneid",
+        "Plutarch Romulus"
+      ],
+      "notes": "Ascanius (Iulus, ancestor of the Julian clan / Julius Caesar!) & Silvius found Alba Longa -> 12 Alban kings -> Numitor -> Rhea Silvia (+ Mars) -> twin founders Romulus & Remus! Directly intersects Book of Jasher's Kittim/Zepho/Janeus chronicle of early Italy!",
+      "major": true
+    },
+    {
+      "id": "grk_dido_carthage",
+      "name": "Ethbaal of Tyre → Mattan I → Queen Dido (Elissa of Carthage)",
+      "altNames": [
+        "Elissa of Tyre",
+        "Founder of Carthage"
+      ],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "c. 814 BCE trad. (Tyre → North Africa)",
+      "role": "Phoenician Founder of Carthage (Great-Niece of Jezebel!)",
+      "sources": [
+        "Josephus Against Apion 1.18",
+        "Justin XVIII",
+        "Virgil Aeneid I & IV"
+      ],
+      "notes": "Tyrian royal records (Menander of Ephesus, quoted by Josephus) trace King Ethbaal (Ithobaal I of Sidon/Tyre, father of Biblical Jezebel!) -> Baal-Eser II -> Mattan I -> Pygmalion & Queen Elissa (Dido), who sails from Tyre to North Africa and founds Carthage!",
+      "major": true
+    },
+    {
+      "id": "grk_lydus_tyrrhenus",
+      "name": "Atys of Lydia → Lydus (Lydians) & Tyrrhenus (Etruscans)",
+      "altNames": [
+        "Lydians = Lud (Gen 10:22)",
+        "Tyrsenians = Tiras (Gen 10:2)"
+      ],
+      "tradition": "greek",
+      "tier": 7,
+      "era": "Anatolia → Italy (Herodotus I.94)",
+      "role": "Eponyms of Lydia (Lud) & Etruria (Tiras?)",
+      "sources": [
+        "Herodotus Histories I.94"
+      ],
+      "notes": "Herodotus records that during an 18-year famine in Lydia (Biblical Lud, Gen 10:22!), King Atys split his people between Lydus (staying in Anatolia) and Tyrrhenus, who sailed to Italy to found the Etruscans (Tyrsenians — widely linked by scholars to Biblical Tiras, Gen 10:2)!",
+      "major": false
     }
   ],
   "edges": [
@@ -12739,6 +13436,408 @@
       "to": "af_sundiata",
       "type": "syncretic",
       "label": "Mande griot chronicles link Keita ancestor Bilali Bounama to Ethiopian Bilal (companion of Muhammad)"
+    },
+    {
+      "from": "hub_primordial",
+      "to": "grk_chaos_gaia",
+      "type": "parallel",
+      "label": "Primordial Earth & Sky creation"
+    },
+    {
+      "from": "hub_primordial",
+      "to": "grk_prometheus",
+      "type": "parallel",
+      "label": "Prometheus molds first humans from clay + Pandora (first woman)"
+    },
+    {
+      "from": "grk_chaos_gaia",
+      "to": "grk_cronus_rhea",
+      "type": "direct",
+      "label": "Gaia + Uranus -> Cronus & Rhea (Theogony)"
+    },
+    {
+      "from": "grk_chaos_gaia",
+      "to": "grk_iapetus",
+      "type": "direct",
+      "label": "Gaia + Uranus -> Iapetus (Theogony)"
+    },
+    {
+      "from": "grk_chaos_gaia",
+      "to": "grk_oceanus_hyperion",
+      "type": "direct",
+      "label": "Gaia + Uranus -> Oceanus, Hyperion & Coeus (Theogony)"
+    },
+    {
+      "from": "grk_cronus_rhea",
+      "to": "grk_zeus_olympians",
+      "type": "direct",
+      "label": "Cronus + Rhea -> Zeus, Hera, Poseidon, Demeter, Hestia, Hades"
+    },
+    {
+      "from": "grk_iapetus",
+      "to": "grk_atlas",
+      "type": "direct",
+      "label": "Son of Iapetus (Theogony 509)"
+    },
+    {
+      "from": "grk_iapetus",
+      "to": "grk_prometheus",
+      "type": "direct",
+      "label": "Sons of Iapetus (Theogony 510)"
+    },
+    {
+      "from": "bib_japheth",
+      "to": "grk_iapetus",
+      "type": "parallel",
+      "label": "Classical & biblical comparison: Hebrew Yefet (Japheth) <-> Greek Titan Iapetos (ancestor of Deucalion)"
+    },
+    {
+      "from": "grk_zeus_olympians",
+      "to": "ved_brahma_manu",
+      "type": "cognate",
+      "label": "Proto-Indo-European Sky-Father cognate: Greek Zeus Pater = Vedic Dyaus Pitr!"
+    },
+    {
+      "from": "grk_aeolus",
+      "to": "grk_sisyphus",
+      "type": "direct",
+      "label": "Child (Hesiod Catalogue of Women, Apollodorus I.7)"
+    },
+    {
+      "from": "grk_aeolus",
+      "to": "grk_cretheus",
+      "type": "direct",
+      "label": "Child (Hesiod Catalogue of Women, Apollodorus I.7)"
+    },
+    {
+      "from": "grk_aeolus",
+      "to": "grk_salmoneus",
+      "type": "direct",
+      "label": "Child (Hesiod Catalogue of Women, Apollodorus I.7)"
+    },
+    {
+      "from": "grk_aeolus",
+      "to": "grk_athamas",
+      "type": "direct",
+      "label": "Child (Hesiod Catalogue of Women, Apollodorus I.7)"
+    },
+    {
+      "from": "grk_prometheus",
+      "to": "grk_deucalion",
+      "type": "direct",
+      "label": "Prometheus -> Deucalion; Epimetheus + Pandora -> Pyrrha"
+    },
+    {
+      "from": "hub_flood",
+      "to": "grk_deucalion",
+      "type": "parallel",
+      "label": "Wooden chest/ark landing on Mt. Parnassus (Apollodorus I.7.2)"
+    },
+    {
+      "from": "grk_deucalion",
+      "to": "grk_hellen",
+      "type": "direct",
+      "label": "Son of Deucalion & Pyrrha (Catalogue of Women)"
+    },
+    {
+      "from": "hub_world_division",
+      "to": "grk_hellen",
+      "type": "parallel",
+      "label": "Hellen's 3 Sons (Dorus, Xuthus, Aeolus) divide the Greek world"
+    },
+    {
+      "from": "grk_hellen",
+      "to": "grk_dorus",
+      "type": "direct",
+      "label": "Son (Hesiod fr. 9)"
+    },
+    {
+      "from": "grk_hellen",
+      "to": "grk_xuthus",
+      "type": "direct",
+      "label": "Son (Hesiod fr. 9)"
+    },
+    {
+      "from": "grk_hellen",
+      "to": "grk_aeolus",
+      "type": "direct",
+      "label": "Son (Hesiod fr. 9)"
+    },
+    {
+      "from": "grk_xuthus",
+      "to": "grk_ion",
+      "type": "direct",
+      "label": "Son (Apollodorus I.7.3)"
+    },
+    {
+      "from": "grk_xuthus",
+      "to": "grk_achaeus",
+      "type": "direct",
+      "label": "Son (Apollodorus I.7.3)"
+    },
+    {
+      "from": "bib_javan",
+      "to": "grk_ion",
+      "type": "cognate",
+      "label": "EXACT linguistic cognate: Biblical Javan (Yawan, Gen 10:2) = Greek Ion / Iawones (Ionians)!"
+    },
+    {
+      "from": "grk_oceanus_hyperion",
+      "to": "grk_inachus_io",
+      "type": "direct",
+      "label": "Oceanus -> River God Inachus -> Io"
+    },
+    {
+      "from": "grk_inachus_io",
+      "to": "grk_epaphus",
+      "type": "direct",
+      "label": "Zeus + Io -> Epaphus (King of Egypt)"
+    },
+    {
+      "from": "grk_zeus_olympians",
+      "to": "grk_epaphus",
+      "type": "direct",
+      "label": "Father of Epaphus"
+    },
+    {
+      "from": "grk_epaphus",
+      "to": "grk_libya",
+      "type": "direct",
+      "label": "Epaphus + Memphis -> Libya"
+    },
+    {
+      "from": "grk_libya",
+      "to": "grk_agenor",
+      "type": "direct",
+      "label": "Libya + Poseidon -> Twin son Agenor (Tyre)"
+    },
+    {
+      "from": "grk_libya",
+      "to": "grk_belus",
+      "type": "direct",
+      "label": "Libya + Poseidon -> Twin son Belus (Egypt)"
+    },
+    {
+      "from": "grk_agenor",
+      "to": "grk_europa_minos",
+      "type": "direct",
+      "label": "Daughter Europa -> Minos, Rhadamanthus, Sarpedon"
+    },
+    {
+      "from": "grk_agenor",
+      "to": "grk_cadmus",
+      "type": "direct",
+      "label": "Son Cadmus -> Founder of Thebes"
+    },
+    {
+      "from": "grk_agenor",
+      "to": "grk_phoenix_cilix",
+      "type": "direct",
+      "label": "Sons Phoenix & Cilix"
+    },
+    {
+      "from": "grk_cadmus",
+      "to": "grk_dionysus_oedipus",
+      "type": "direct",
+      "label": "Semele (-> Dionysus) & Polydorus -> Oedipus -> Antigone"
+    },
+    {
+      "from": "grk_belus",
+      "to": "grk_aegyptus_danaus",
+      "type": "direct",
+      "label": "Twin sons Aegyptus & Danaus (Apollodorus II.1.4)"
+    },
+    {
+      "from": "grk_belus",
+      "to": "grk_cepheus_andromeda",
+      "type": "direct",
+      "label": "Son Cepheus (King of Aethiopia) -> Andromeda"
+    },
+    {
+      "from": "grk_aegyptus_danaus",
+      "to": "grk_perseus",
+      "type": "direct",
+      "label": "Hypermnestra + Lynceus -> Abas -> Acrisius -> Danae -> Perseus"
+    },
+    {
+      "from": "grk_cepheus_andromeda",
+      "to": "grk_perseus",
+      "type": "direct",
+      "label": "Princess Andromeda of Aethiopia marries Perseus"
+    },
+    {
+      "from": "grk_perseus",
+      "to": "grk_perses",
+      "type": "direct",
+      "label": "Son of Perseus & Andromeda (Herodotus VII.61)"
+    },
+    {
+      "from": "grk_perseus",
+      "to": "grk_heracles",
+      "type": "direct",
+      "label": "Electryon -> Alcmene (+ Zeus) -> Heracles"
+    },
+    {
+      "from": "grk_heracles",
+      "to": "grk_sparta_macedon",
+      "type": "direct",
+      "label": "Heraclidae: Hyllus (Sparta) & Temenus (Macedon)"
+    },
+    {
+      "from": "grk_sparta_macedon",
+      "to": "grk_alexander",
+      "type": "direct",
+      "label": "Philip II of Macedon -> Alexander the Great"
+    },
+    {
+      "from": "grk_epaphus",
+      "to": "eg_menes",
+      "type": "parallel",
+      "label": "Epaphus King of Egypt (husband of Memphis) <-> Memphite Egyptian kingship"
+    },
+    {
+      "from": "grk_aegyptus_danaus",
+      "to": "bib_mizraim",
+      "type": "cognate",
+      "label": "Greek Aegyptus (Hikuptah/Egypt) = Biblical Mizraim"
+    },
+    {
+      "from": "grk_libya",
+      "to": "bib_lehabim",
+      "type": "cognate",
+      "label": "Greek Libya = Biblical Lehabim/Libya (Gen 10:13)"
+    },
+    {
+      "from": "grk_agenor",
+      "to": "bib_sidon",
+      "type": "cognate",
+      "label": "Agenor & Cadmus of Tyre/Sidon = Phoenician Canaan (Gen 10:15)"
+    },
+    {
+      "from": "grk_cadmus",
+      "to": "le_sanchuniathon",
+      "type": "cognate",
+      "label": "Herodotus V.58: Cadmus brings Phoenician alphabet (cf. Taaut/Thoth) to Greece!"
+    },
+    {
+      "from": "grk_europa_minos",
+      "to": "bib_caphtorim",
+      "type": "cognate",
+      "label": "Minoan Crete (King Minos) = Biblical Caphtorim / Keftiu (Gen 10:14)!"
+    },
+    {
+      "from": "grk_cepheus_andromeda",
+      "to": "bib_cush",
+      "type": "cognate",
+      "label": "Greek Aethiopia = Biblical Cush"
+    },
+    {
+      "from": "grk_perses",
+      "to": "ir_achaemenes",
+      "type": "syncretic",
+      "label": "Herodotus VII.61: Greek chroniclers derive Persians from Perses, son of Perseus & Andromeda"
+    },
+    {
+      "from": "grk_sparta_macedon",
+      "to": "bib_abraham",
+      "type": "syncretic",
+      "label": "1 Maccabees 12:21 & Josephus Ant. 12.4: King Areus I of Sparta claims brotherhood with Judah through Abraham!"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "ir_artaxerxes1",
+      "type": "cognate",
+      "label": "Alexander conquers Darius III (331 BCE); woven into Shahnameh as Eskandar"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "eg_ptolemy_cleopatra",
+      "type": "direct",
+      "label": "Alexander's general Ptolemy I founds the Ptolemaic Dynasty of Egypt (305 BCE)"
+    },
+    {
+      "from": "grk_zeus_olympians",
+      "to": "grk_pelops_atreus",
+      "type": "direct",
+      "label": "Zeus -> Tantalus -> Pelops -> Atreus & Thyestes"
+    },
+    {
+      "from": "grk_pelops_atreus",
+      "to": "grk_agamemnon_menelaus",
+      "type": "direct",
+      "label": "Sons of Atreus (Iliad)"
+    },
+    {
+      "from": "grk_zeus_olympians",
+      "to": "grk_achilles_odysseus",
+      "type": "direct",
+      "label": "Zeus -> Aeacus -> Peleus -> Achilles; Hermes -> Autolycus -> Odysseus"
+    },
+    {
+      "from": "grk_atlas",
+      "to": "grk_dardanus_tros",
+      "type": "direct",
+      "label": "Electra (dau. of Atlas) + Zeus -> Dardanus -> Erichthonius -> Tros (Iliad XX)"
+    },
+    {
+      "from": "grk_dardanus_tros",
+      "to": "grk_priam_hector",
+      "type": "direct",
+      "label": "Tros -> Ilus -> Laomedon -> Priam -> Hector & Paris"
+    },
+    {
+      "from": "grk_dardanus_tros",
+      "to": "grk_aeneas",
+      "type": "direct",
+      "label": "Tros -> Assaracus -> Capys -> Anchises -> Aeneas (Iliad XX)"
+    },
+    {
+      "from": "grk_aeneas",
+      "to": "grk_romulus_remus",
+      "type": "direct",
+      "label": "Aeneas -> Ascanius/Silvius -> Alba Longa -> Rhea Silvia -> Romulus & Remus"
+    },
+    {
+      "from": "grk_romulus_remus",
+      "to": "jas_janeus",
+      "type": "syncretic",
+      "label": "Roman origin tradition (Aeneas/Latinus/Janus/Romulus) intersects Book of Jasher 61-64 (Zepho -> Janeus of Kittim/Italy)!"
+    },
+    {
+      "from": "grk_achilles_odysseus",
+      "to": "grk_alexander",
+      "type": "expansion",
+      "label": "Alexander's mother Olympias (Molossian royal house) claimed direct descent from Achilles via Neoptolemus"
+    },
+    {
+      "from": "bib_sidon",
+      "to": "grk_dido_carthage",
+      "type": "cognate",
+      "label": "Tyrian royal house of Sidon/Tyre (Ethbaal -> Mattan -> Dido/Elissa)"
+    },
+    {
+      "from": "grk_dido_carthage",
+      "to": "af_mazigh",
+      "type": "cognate",
+      "label": "Carthage founded in North Africa among ancestral Amazigh/Numidian peoples (King Hiarbas)"
+    },
+    {
+      "from": "grk_dido_carthage",
+      "to": "grk_aeneas",
+      "type": "expansion",
+      "label": "Virgil's Aeneid links Carthaginian Queen Dido and Trojan prince Aeneas"
+    },
+    {
+      "from": "bib_lud",
+      "to": "grk_lydus_tyrrhenus",
+      "type": "cognate",
+      "label": "Biblical Lud (Gen 10:22) = Herodotus's Lydus / Lydia"
+    },
+    {
+      "from": "bib_tiras",
+      "to": "grk_lydus_tyrrhenus",
+      "type": "cognate",
+      "label": "Biblical Tiras (Gen 10:2) = Tyrsenians / Tyrrhenus (Etruscans)!"
     }
   ]
 }

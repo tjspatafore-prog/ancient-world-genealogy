@@ -62,7 +62,7 @@
           <h1 class="text-sm font-semibold leading-tight">Ancient World Genealogy Atlas</h1>
           <span id="versionBadge" class="text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono">Loading…</span>
         </div>
-        <p class="text-[11px] text-[var(--muted-foreground)]">Bible • Jasher • Jubilees • 1 Enoch • Egypt • Kush/Ethiopia • Africa • Mesopotamia • Iran • Arabia • India • China • Japan/Korea • Steppe</p>
+        <p class="text-[11px] text-[var(--muted-foreground)]">Bible • Jasher • Jubilees • 1 Enoch • Egypt • Kush/Ethiopia • Africa • Greece/Rome • Mesopotamia • Iran • Arabia • India • China • Japan/Korea • Steppe</p>
       </div>
     </div>
 
@@ -105,6 +105,7 @@
     <button onclick="focusSubtree('bib_enoch')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Enoch, Thoth &amp; Watchers</button>
     <button onclick="applyPreset('egypt')" id="preset-egypt" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Egypt (Ennead → Ramesses)</button>
     <button onclick="applyPreset('africa')" id="preset-africa" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Africa &amp; Ethiopia (Kush → Sheba → Oduduwa)</button>
+    <button onclick="applyPreset('greek')" id="preset-greek" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Greece &amp; Rome (Titans → Hellen → Troy)</button>
     <button onclick="applyPreset('mesopotamia')" id="preset-mesopotamia" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Mesopotamia (Sumer → Akkad)</button>
     <button onclick="applyPreset('iranian')" id="preset-iranian" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Iran &amp; Zoroaster (Shahnameh → Cyrus)</button>
     <button onclick="applyPreset('indo_iran')" id="preset-indo_iran" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Near East ↔ Iran ↔ India</button>
@@ -625,6 +626,12 @@ function applyPreset(name) {
   } else if (name === "africa") {
     activeLinkTypes = new Set(Object.keys(LINK_META));
     activeTraditions = new Set(["african"]);
+    expandMode = "all";
+    document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
+    document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
+  } else if (name === "greek") {
+    activeLinkTypes = new Set(Object.keys(LINK_META));
+    activeTraditions = new Set(["greek"]);
     expandMode = "all";
     document.getElementById("mode-landmarks").className = "text-xs px-2 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)]";
     document.getElementById("mode-all").className = "text-xs px-2 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)]";
