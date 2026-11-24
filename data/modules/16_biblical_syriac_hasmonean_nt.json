@@ -762,6 +762,73 @@
       "major": false
     },
     {
+      "id": "dut_deuterocanon_lineages",
+      "name": "Deuterocanonical & Vulgate Households (Dutripon pp. 10-15): Tobit & Tobias (+ Sarah bat Raguel), Judith of Bethulia, Susanna, Eleazar & 7 Maccabean Martyrs, Ben Sira & Prophetesses Huldah & Anna",
+      "altNames": [
+        "Tobit & Tobias",
+        "Judith of Bethulia",
+        "Susanna",
+        "Eleazar & 7 Martyrs",
+        "Jesus ben Sirach",
+        "Prophetess Huldah & Anna"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 744 BCE – 1 CE (Dutripon Index Chronologicus pp. 10-15)",
+      "role": "Biblical & Intertestamental Families Preserved in the Latin Vulgate Chronology",
+      "sources": [
+        "Dutripon Concordantiae (pp. 10-11, 14-15)",
+        "Books of Tobit, Judith, Sirach, 2 Maccabees",
+        "Luke 2:36"
+      ],
+      "notes": "Tobit (Tribe of Naphtali, exiled to Nineveh under Shalmaneser) -> Tobias (+ Sarah daughter of Raguel); Widow Judith of Bethulia (slew General Holofernes); Susanna (vindicated by Daniel); Eleazar & 7 Maccabean Martyrs (168 BCE); Jesus ben Sirach (Sirach/Ecclesiasticus, translated in Alexandria 131 BCE); Prophetess Huldah (Josiah's reign) & Prophetess Anna bat Phanuel (Tribe of Asher, Temple of Jerusalem!).",
+      "major": true
+    },
+    {
+      "id": "dut_canaan_foes_kings",
+      "name": "Intersecting Ancient Near Eastern Kings in Dutripon's Sacred Chronology (pp. 9-14): Chedorlaomer of Elam, Sihon & Og of Bashan, Cushan-Rishathaim, Eglon of Moab, Jabin & Sisera, Zerah the Cushite & Tibni",
+      "altNames": [
+        "Chedorlaomer of Elam",
+        "King Sihon & Og of Bashan",
+        "Cushan-Rishathaim",
+        "Zerah the Cushite",
+        "King Tibni"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "c. 1949-880 BCE (Dutripon pp. 9-14; Gen 14; Num 21; Judges 3-4; 2 Chr 14)",
+      "role": "Foreign Kings & Rivals Synchronized Across Dutripon's Six Ages of the World",
+      "sources": [
+        "Dutripon Concordantiae (pp. 9-14)",
+        "Genesis 14",
+        "Numbers 21",
+        "Judges 3-4",
+        "2 Chronicles 14:9"
+      ],
+      "notes": "Key intersecting monarchs in Dutripon's Six Ages tables: Chedorlaomer of Elam (vs. Abraham, Gen 14), Amorite Kings Sihon & Og of Bashan (Num 21), Cushan-Rishathaim of Aram-Naharaim (vs. Othniel), Eglon of Moab (vs. Ehud), Jabin of Hazor & Sisera (vs. Deborah/Barak), Zerah the Cushite/Ethiopian (vs. King Asa, 2 Chr 14), and rival King Tibni of Israel (vs. Omri, 1 Kgs 16).",
+      "major": false
+    },
+    {
+      "id": "dut_vulgate_ethnonyms_etymology",
+      "name": "Dutripon's Vulgate Ethnographic & Onomastic Key (pp. 9-15, 24-26): Nimrod=Belus, Asshur=Ninus, Armenia=Ararat, Carthago=Tarshish, India=Ophir/Hodu, Greece=Javan, Libya=Lubim & Patriarch Etymologies",
+      "altNames": [
+        "Nimrod = Belus",
+        "Asshur = Ninus",
+        "Carthago = Tarshish",
+        "India = Ophir / Hodu",
+        "Armenia = Ararat"
+      ],
+      "tradition": "biblical",
+      "tier": 6,
+      "era": "Vulgate Onomasticon & Six Ages (Dutripon pp. 9-15, 24-26)",
+      "role": "Classical Latin Vulgate Cross-Cultural Identifications & Hebrew/Chaldean/Greek Name Meanings",
+      "sources": [
+        "Dutripon Bibliorum Sacrorum Concordantiae (pp. 9-15, 24-26)"
+      ],
+      "notes": "Documents traditional Latin Vulgate & Ussher synchronisms: Nimrod=Belus, Asshur=Ninus (+ Semiramis & Ninyas), Aegialeus of Sicyon & Inachus of Argos, Ogygian Flood (1796 BC), Cecrops & Cadmus, PLUS pp. 24-26 Name Interpretations: Aethiopia=Chus, Africa=Phut, Alexandria=No-Ammon, Armenia=Ararat, Cappadoces=Caphthorim, Carthago=Tharsis, Graeci=Jevanim, Heliopolis=On, India=Ophir/Hodu, Libya=Lubim, Cyrus=Sun; Adam ('red earth'), Eva ('living'), Noe ('rest'), Abraham ('father of multitude'), Moyses ('drawn from water'), David ('beloved'), Jesus ('Savior').",
+      "major": false
+    },
+    {
       "id": "bib16_dav_01_amnon_firstborn_of_david_by_",
       "name": "Amnon (Firstborn of David by Ahinoam)",
       "altNames": [],
@@ -2259,9 +2326,301 @@
       ],
       "notes": "Herodian / Roman-Era High Priest (37 BCE – 70 CE (Dutripon p. 23)).",
       "major": false
+    },
+    {
+      "id": "bib16_deut_01_tobit_tobias_sarah_bat_rague",
+      "name": "Tobit & Tobias (+ Sarah bat Raguel, Book of Tobit)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "Dutripon pp. 10-15 (Vulgate)",
+      "role": "Deuterocanonical / Intertestamental Figure",
+      "sources": [
+        "Dutripon Concordantiae (pp. 10-15)"
+      ],
+      "notes": "Deuterocanonical / Intertestamental Figure (Dutripon pp. 10-15 (Vulgate)).",
+      "major": false
+    },
+    {
+      "id": "bib16_deut_02_judith_of_bethulia_book_of_j",
+      "name": "Judith of Bethulia (Book of Judith)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "Dutripon pp. 10-15 (Vulgate)",
+      "role": "Deuterocanonical / Intertestamental Figure",
+      "sources": [
+        "Dutripon Concordantiae (pp. 10-15)"
+      ],
+      "notes": "Deuterocanonical / Intertestamental Figure (Dutripon pp. 10-15 (Vulgate)).",
+      "major": false
+    },
+    {
+      "id": "bib16_deut_03_general_holofernes_assyrian_",
+      "name": "General Holofernes (Assyrian/Babylonian Commander)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "Dutripon pp. 10-15 (Vulgate)",
+      "role": "Deuterocanonical / Intertestamental Figure",
+      "sources": [
+        "Dutripon Concordantiae (pp. 10-15)"
+      ],
+      "notes": "Deuterocanonical / Intertestamental Figure (Dutripon pp. 10-15 (Vulgate)).",
+      "major": false
+    },
+    {
+      "id": "bib16_deut_04_susanna_vindicated_by_daniel",
+      "name": "Susanna (Vindicated by Daniel, Dan 13)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "Dutripon pp. 10-15 (Vulgate)",
+      "role": "Deuterocanonical / Intertestamental Figure",
+      "sources": [
+        "Dutripon Concordantiae (pp. 10-15)"
+      ],
+      "notes": "Deuterocanonical / Intertestamental Figure (Dutripon pp. 10-15 (Vulgate)).",
+      "major": false
+    },
+    {
+      "id": "bib16_deut_05_eleazar_the_seven_maccabean_",
+      "name": "Eleazar & the Seven Maccabean Martyrs (2 Macc 6-7)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "Dutripon pp. 10-15 (Vulgate)",
+      "role": "Deuterocanonical / Intertestamental Figure",
+      "sources": [
+        "Dutripon Concordantiae (pp. 10-15)"
+      ],
+      "notes": "Deuterocanonical / Intertestamental Figure (Dutripon pp. 10-15 (Vulgate)).",
+      "major": false
+    },
+    {
+      "id": "bib16_deut_06_jesus_ben_sirach_ben_sira_au",
+      "name": "Jesus ben Sirach / Ben Sira (Author of Ecclesiasticus, 131 BCE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "Dutripon pp. 10-15 (Vulgate)",
+      "role": "Deuterocanonical / Intertestamental Figure",
+      "sources": [
+        "Dutripon Concordantiae (pp. 10-15)"
+      ],
+      "notes": "Deuterocanonical / Intertestamental Figure (Dutripon pp. 10-15 (Vulgate)).",
+      "major": false
+    },
+    {
+      "id": "bib16_deut_07_dositheus_purim_letter_to_eg",
+      "name": "Dositheus (Purim Letter to Egypt)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "Dutripon pp. 10-15 (Vulgate)",
+      "role": "Deuterocanonical / Intertestamental Figure",
+      "sources": [
+        "Dutripon Concordantiae (pp. 10-15)"
+      ],
+      "notes": "Deuterocanonical / Intertestamental Figure (Dutripon pp. 10-15 (Vulgate)).",
+      "major": false
+    },
+    {
+      "id": "bib16_deut_08_prophetess_huldah_reign_of_k",
+      "name": "Prophetess Huldah (Reign of King Josiah, 2 Kgs 22)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "Dutripon pp. 10-15 (Vulgate)",
+      "role": "Deuterocanonical / Intertestamental Figure",
+      "sources": [
+        "Dutripon Concordantiae (pp. 10-15)"
+      ],
+      "notes": "Deuterocanonical / Intertestamental Figure (Dutripon pp. 10-15 (Vulgate)).",
+      "major": false
+    },
+    {
+      "id": "bib16_deut_09_prophetess_anna_bat_phanuel_",
+      "name": "Prophetess Anna bat Phanuel (Tribe of Asher, Luke 2:36)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "Dutripon pp. 10-15 (Vulgate)",
+      "role": "Deuterocanonical / Intertestamental Figure",
+      "sources": [
+        "Dutripon Concordantiae (pp. 10-15)"
+      ],
+      "notes": "Deuterocanonical / Intertestamental Figure (Dutripon pp. 10-15 (Vulgate)).",
+      "major": false
+    },
+    {
+      "id": "bib16_foes_01_chedorlaomer_king_of_elam_ge",
+      "name": "Chedorlaomer, King of Elam (Gen 14)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Dutripon pp. 9-14",
+      "role": "Intersecting Ancient Near Eastern Monarch",
+      "sources": [
+        "Dutripon Concordantiae (pp. 9-14)"
+      ],
+      "notes": "Intersecting Ancient Near Eastern Monarch (Dutripon pp. 9-14).",
+      "major": false
+    },
+    {
+      "id": "bib16_foes_02_king_sihon_of_the_amorites_n",
+      "name": "King Sihon of the Amorites (Num 21)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Dutripon pp. 9-14",
+      "role": "Intersecting Ancient Near Eastern Monarch",
+      "sources": [
+        "Dutripon Concordantiae (pp. 9-14)"
+      ],
+      "notes": "Intersecting Ancient Near Eastern Monarch (Dutripon pp. 9-14).",
+      "major": false
+    },
+    {
+      "id": "bib16_foes_03_king_og_of_bashan_rephaim_nu",
+      "name": "King Og of Bashan (Rephaim, Num 21)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Dutripon pp. 9-14",
+      "role": "Intersecting Ancient Near Eastern Monarch",
+      "sources": [
+        "Dutripon Concordantiae (pp. 9-14)"
+      ],
+      "notes": "Intersecting Ancient Near Eastern Monarch (Dutripon pp. 9-14).",
+      "major": false
+    },
+    {
+      "id": "bib16_foes_04_king_cushan_rishathaim_of_me",
+      "name": "King Cushan-Rishathaim of Mesopotamia (Judges 3)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Dutripon pp. 9-14",
+      "role": "Intersecting Ancient Near Eastern Monarch",
+      "sources": [
+        "Dutripon Concordantiae (pp. 9-14)"
+      ],
+      "notes": "Intersecting Ancient Near Eastern Monarch (Dutripon pp. 9-14).",
+      "major": false
+    },
+    {
+      "id": "bib16_foes_05_king_eglon_of_moab_judges_3",
+      "name": "King Eglon of Moab (Judges 3)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Dutripon pp. 9-14",
+      "role": "Intersecting Ancient Near Eastern Monarch",
+      "sources": [
+        "Dutripon Concordantiae (pp. 9-14)"
+      ],
+      "notes": "Intersecting Ancient Near Eastern Monarch (Dutripon pp. 9-14).",
+      "major": false
+    },
+    {
+      "id": "bib16_foes_06_king_jabin_of_hazor_general_",
+      "name": "King Jabin of Hazor & General Sisera (Judges 4)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Dutripon pp. 9-14",
+      "role": "Intersecting Ancient Near Eastern Monarch",
+      "sources": [
+        "Dutripon Concordantiae (pp. 9-14)"
+      ],
+      "notes": "Intersecting Ancient Near Eastern Monarch (Dutripon pp. 9-14).",
+      "major": false
+    },
+    {
+      "id": "bib16_foes_07_zerah_the_cushite_ethiopian_",
+      "name": "Zerah the Cushite / Ethiopian (2 Chr 14:9)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Dutripon pp. 9-14",
+      "role": "Intersecting Ancient Near Eastern Monarch",
+      "sources": [
+        "Dutripon Concordantiae (pp. 9-14)"
+      ],
+      "notes": "Intersecting Ancient Near Eastern Monarch (Dutripon pp. 9-14).",
+      "major": false
+    },
+    {
+      "id": "bib16_foes_08_king_tibni_of_israel_rival_o",
+      "name": "King Tibni of Israel (Rival of Omri, 1 Kgs 16:21)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Dutripon pp. 9-14",
+      "role": "Intersecting Ancient Near Eastern Monarch",
+      "sources": [
+        "Dutripon Concordantiae (pp. 9-14)"
+      ],
+      "notes": "Intersecting Ancient Near Eastern Monarch (Dutripon pp. 9-14).",
+      "major": false
     }
   ],
   "edges": [
+    {
+      "from": "tri_naphtali",
+      "to": "dut_deuterocanon_lineages",
+      "type": "direct",
+      "label": "Tobit & Tobias (Tribe of Naphtali, exiled to Nineveh — Dutripon p. 10)"
+    },
+    {
+      "from": "tri_asher",
+      "to": "dut_deuterocanon_lineages",
+      "type": "direct",
+      "label": "Prophetess Anna bat Phanuel (Tribe of Asher — Dutripon p. 11; Luke 2:36)"
+    },
+    {
+      "from": "has_mattathias",
+      "to": "dut_deuterocanon_lineages",
+      "type": "cognate",
+      "label": "Eleazar & 7 Maccabean Martyrs (168 BCE, Dutripon p. 11)"
+    },
+    {
+      "from": "bib_elam",
+      "to": "dut_canaan_foes_kings",
+      "type": "expansion",
+      "label": "Chedorlaomer King of Elam (Gen 14; Dutripon p. 9)"
+    },
+    {
+      "from": "bib_cush",
+      "to": "dut_canaan_foes_kings",
+      "type": "expansion",
+      "label": "Zerah the Cushite/Ethiopian (2 Chr 14:9; Dutripon p. 10)"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "dut_vulgate_ethnonyms_etymology",
+      "type": "syncretic",
+      "label": "Dutripon p. 9: 'Regnat Nemrod, vel Belus in Babylone' & 'Ninus vel Assur'"
+    },
+    {
+      "from": "bib_tarshish",
+      "to": "dut_vulgate_ethnonyms_etymology",
+      "type": "syncretic",
+      "label": "Dutripon p. 25 Vulgate Onomasticon: 'Carthago, Hebraice Tharsis'"
+    },
+    {
+      "from": "bib_ophir",
+      "to": "dut_vulgate_ethnonyms_etymology",
+      "type": "syncretic",
+      "label": "Dutripon p. 25 Vulgate Onomasticon: 'India, Hebraice Ophir; Indus, Hebraice Hodu'"
+    },
+    {
+      "from": "bib_caphtorim",
+      "to": "dut_vulgate_ethnonyms_etymology",
+      "type": "syncretic",
+      "label": "Dutripon p. 25 Vulgate Onomasticon: 'Cappadoces, Hebraice Caphthorim'"
+    },
     {
       "from": "pri_eleazar_zadok",
       "to": "dut_first_temple_priests",
@@ -3215,6 +3574,108 @@
       "to": "bib16_dutp_23_phannias_phanacius_last_high",
       "type": "direct",
       "label": "Second Temple High Priest (Dutripon p. 23)"
+    },
+    {
+      "from": "dut_deuterocanon_lineages",
+      "to": "bib16_deut_01_tobit_tobias_sarah_bat_rague",
+      "type": "expansion",
+      "label": "Vulgate Chronology Figure (Dutripon pp. 10-15)"
+    },
+    {
+      "from": "dut_deuterocanon_lineages",
+      "to": "bib16_deut_02_judith_of_bethulia_book_of_j",
+      "type": "expansion",
+      "label": "Vulgate Chronology Figure (Dutripon pp. 10-15)"
+    },
+    {
+      "from": "dut_deuterocanon_lineages",
+      "to": "bib16_deut_03_general_holofernes_assyrian_",
+      "type": "expansion",
+      "label": "Vulgate Chronology Figure (Dutripon pp. 10-15)"
+    },
+    {
+      "from": "dut_deuterocanon_lineages",
+      "to": "bib16_deut_04_susanna_vindicated_by_daniel",
+      "type": "expansion",
+      "label": "Vulgate Chronology Figure (Dutripon pp. 10-15)"
+    },
+    {
+      "from": "dut_deuterocanon_lineages",
+      "to": "bib16_deut_05_eleazar_the_seven_maccabean_",
+      "type": "expansion",
+      "label": "Vulgate Chronology Figure (Dutripon pp. 10-15)"
+    },
+    {
+      "from": "dut_deuterocanon_lineages",
+      "to": "bib16_deut_06_jesus_ben_sirach_ben_sira_au",
+      "type": "expansion",
+      "label": "Vulgate Chronology Figure (Dutripon pp. 10-15)"
+    },
+    {
+      "from": "dut_deuterocanon_lineages",
+      "to": "bib16_deut_07_dositheus_purim_letter_to_eg",
+      "type": "expansion",
+      "label": "Vulgate Chronology Figure (Dutripon pp. 10-15)"
+    },
+    {
+      "from": "dut_deuterocanon_lineages",
+      "to": "bib16_deut_08_prophetess_huldah_reign_of_k",
+      "type": "expansion",
+      "label": "Vulgate Chronology Figure (Dutripon pp. 10-15)"
+    },
+    {
+      "from": "dut_deuterocanon_lineages",
+      "to": "bib16_deut_09_prophetess_anna_bat_phanuel_",
+      "type": "expansion",
+      "label": "Vulgate Chronology Figure (Dutripon pp. 10-15)"
+    },
+    {
+      "from": "dut_canaan_foes_kings",
+      "to": "bib16_foes_01_chedorlaomer_king_of_elam_ge",
+      "type": "expansion",
+      "label": "Intersecting Monarch (Dutripon pp. 9-14)"
+    },
+    {
+      "from": "dut_canaan_foes_kings",
+      "to": "bib16_foes_02_king_sihon_of_the_amorites_n",
+      "type": "expansion",
+      "label": "Intersecting Monarch (Dutripon pp. 9-14)"
+    },
+    {
+      "from": "dut_canaan_foes_kings",
+      "to": "bib16_foes_03_king_og_of_bashan_rephaim_nu",
+      "type": "expansion",
+      "label": "Intersecting Monarch (Dutripon pp. 9-14)"
+    },
+    {
+      "from": "dut_canaan_foes_kings",
+      "to": "bib16_foes_04_king_cushan_rishathaim_of_me",
+      "type": "expansion",
+      "label": "Intersecting Monarch (Dutripon pp. 9-14)"
+    },
+    {
+      "from": "dut_canaan_foes_kings",
+      "to": "bib16_foes_05_king_eglon_of_moab_judges_3",
+      "type": "expansion",
+      "label": "Intersecting Monarch (Dutripon pp. 9-14)"
+    },
+    {
+      "from": "dut_canaan_foes_kings",
+      "to": "bib16_foes_06_king_jabin_of_hazor_general_",
+      "type": "expansion",
+      "label": "Intersecting Monarch (Dutripon pp. 9-14)"
+    },
+    {
+      "from": "dut_canaan_foes_kings",
+      "to": "bib16_foes_07_zerah_the_cushite_ethiopian_",
+      "type": "expansion",
+      "label": "Intersecting Monarch (Dutripon pp. 9-14)"
+    },
+    {
+      "from": "dut_canaan_foes_kings",
+      "to": "bib16_foes_08_king_tibni_of_israel_rival_o",
+      "type": "expansion",
+      "label": "Intersecting Monarch (Dutripon pp. 9-14)"
     }
   ]
 }

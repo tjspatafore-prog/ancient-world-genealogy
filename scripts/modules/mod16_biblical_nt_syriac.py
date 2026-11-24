@@ -202,10 +202,31 @@ def build_module():
           "Final Edomite Chiefs & Septuagint/Vulgate Identification of King Jobab with Patriarch Job", ["Dutripon Bibliorum Sacrorum Concordantiae (p. 22)", "Genesis 36:33, 40-43", "Job 42:17 (LXX)"],
           "Dutripon's Series Principum Regumque Idumaeorum explicitly records the ancient Septuagint/Vulgate tradition ('Jobab iste est Job speculum patientiae') identifying Edomite King #2 Jobab ben Zerah of Bozrah with the Biblical Patriarch Job, followed by the 11 territorial Dukes of Edom.",
           ["King Jobab = Patriarch Job", "11 Dukes of Esau"]),
+        N("dut_deuterocanon_lineages", "Deuterocanonical & Vulgate Households (Dutripon pp. 10-15): Tobit & Tobias (+ Sarah bat Raguel), Judith of Bethulia, Susanna, Eleazar & 7 Maccabean Martyrs, Ben Sira & Prophetesses Huldah & Anna", "biblical", 18, "c. 744 BCE – 1 CE (Dutripon Index Chronologicus pp. 10-15)",
+          "Biblical & Intertestamental Families Preserved in the Latin Vulgate Chronology", ["Dutripon Concordantiae (pp. 10-11, 14-15)", "Books of Tobit, Judith, Sirach, 2 Maccabees", "Luke 2:36"],
+          "Tobit (Tribe of Naphtali, exiled to Nineveh under Shalmaneser) -> Tobias (+ Sarah daughter of Raguel); Widow Judith of Bethulia (slew General Holofernes); Susanna (vindicated by Daniel); Eleazar & 7 Maccabean Martyrs (168 BCE); Jesus ben Sirach (Sirach/Ecclesiasticus, translated in Alexandria 131 BCE); Prophetess Huldah (Josiah's reign) & Prophetess Anna bat Phanuel (Tribe of Asher, Temple of Jerusalem!).",
+          ["Tobit & Tobias", "Judith of Bethulia", "Susanna", "Eleazar & 7 Martyrs", "Jesus ben Sirach", "Prophetess Huldah & Anna"], major=True),
+        N("dut_canaan_foes_kings", "Intersecting Ancient Near Eastern Kings in Dutripon's Sacred Chronology (pp. 9-14): Chedorlaomer of Elam, Sihon & Og of Bashan, Cushan-Rishathaim, Eglon of Moab, Jabin & Sisera, Zerah the Cushite & Tibni", "biblical", 15, "c. 1949-880 BCE (Dutripon pp. 9-14; Gen 14; Num 21; Judges 3-4; 2 Chr 14)",
+          "Foreign Kings & Rivals Synchronized Across Dutripon's Six Ages of the World", ["Dutripon Concordantiae (pp. 9-14)", "Genesis 14", "Numbers 21", "Judges 3-4", "2 Chronicles 14:9"],
+          "Key intersecting monarchs in Dutripon's Six Ages tables: Chedorlaomer of Elam (vs. Abraham, Gen 14), Amorite Kings Sihon & Og of Bashan (Num 21), Cushan-Rishathaim of Aram-Naharaim (vs. Othniel), Eglon of Moab (vs. Ehud), Jabin of Hazor & Sisera (vs. Deborah/Barak), Zerah the Cushite/Ethiopian (vs. King Asa, 2 Chr 14), and rival King Tibni of Israel (vs. Omri, 1 Kgs 16).",
+          ["Chedorlaomer of Elam", "King Sihon & Og of Bashan", "Cushan-Rishathaim", "Zerah the Cushite", "King Tibni"]),
+        N("dut_vulgate_ethnonyms_etymology", "Dutripon's Vulgate Ethnographic & Onomastic Key (pp. 9-15, 24-26): Nimrod=Belus, Asshur=Ninus, Armenia=Ararat, Carthago=Tarshish, India=Ophir/Hodu, Greece=Javan, Libya=Lubim & Patriarch Etymologies", "biblical", 6, "Vulgate Onomasticon & Six Ages (Dutripon pp. 9-15, 24-26)",
+          "Classical Latin Vulgate Cross-Cultural Identifications & Hebrew/Chaldean/Greek Name Meanings", ["Dutripon Bibliorum Sacrorum Concordantiae (pp. 9-15, 24-26)"],
+          "Documents traditional Latin Vulgate & Ussher synchronisms: Nimrod=Belus, Asshur=Ninus (+ Semiramis & Ninyas), Aegialeus of Sicyon & Inachus of Argos, Ogygian Flood (1796 BC), Cecrops & Cadmus, PLUS pp. 24-26 Name Interpretations: Aethiopia=Chus, Africa=Phut, Alexandria=No-Ammon, Armenia=Ararat, Cappadoces=Caphthorim, Carthago=Tharsis, Graeci=Jevanim, Heliopolis=On, India=Ophir/Hodu, Libya=Lubim, Cyrus=Sun; Adam ('red earth'), Eva ('living'), Noe ('rest'), Abraham ('father of multitude'), Moyses ('drawn from water'), David ('beloved'), Jesus ('Savior').",
+          ["Nimrod = Belus", "Asshur = Ninus", "Carthago = Tarshish", "India = Ophir / Hodu", "Armenia = Ararat"]),
     ]
 
     edges += [
         # Dutripon Concordantiae edges
+        E("tri_naphtali", "dut_deuterocanon_lineages", "direct", "Tobit & Tobias (Tribe of Naphtali, exiled to Nineveh — Dutripon p. 10)"),
+        E("tri_asher", "dut_deuterocanon_lineages", "direct", "Prophetess Anna bat Phanuel (Tribe of Asher — Dutripon p. 11; Luke 2:36)"),
+        E("has_mattathias", "dut_deuterocanon_lineages", "cognate", "Eleazar & 7 Maccabean Martyrs (168 BCE, Dutripon p. 11)"),
+        E("bib_elam", "dut_canaan_foes_kings", "expansion", "Chedorlaomer King of Elam (Gen 14; Dutripon p. 9)"),
+        E("bib_cush", "dut_canaan_foes_kings", "expansion", "Zerah the Cushite/Ethiopian (2 Chr 14:9; Dutripon p. 10)"),
+        E("bib_nimrod", "dut_vulgate_ethnonyms_etymology", "syncretic", "Dutripon p. 9: 'Regnat Nemrod, vel Belus in Babylone' & 'Ninus vel Assur'"),
+        E("bib_tarshish", "dut_vulgate_ethnonyms_etymology", "syncretic", "Dutripon p. 25 Vulgate Onomasticon: 'Carthago, Hebraice Tharsis'"),
+        E("bib_ophir", "dut_vulgate_ethnonyms_etymology", "syncretic", "Dutripon p. 25 Vulgate Onomasticon: 'India, Hebraice Ophir; Indus, Hebraice Hodu'"),
+        E("bib_caphtorim", "dut_vulgate_ethnonyms_etymology", "syncretic", "Dutripon p. 25 Vulgate Onomasticon: 'Cappadoces, Hebraice Caphthorim'"),
         E("pri_eleazar_zadok", "dut_first_temple_priests", "direct", "Complete First Temple High Priests #4-34 (Dutripon p. 23)"),
         E("dut_first_temple_priests", "pri_ezra_jaddua", "direct", "Hilkiah -> Seraiah -> Jehozadak -> Jeshua"),
         E("has_hyrcanus2_aristobulus2", "dut_herodian_nt_priests", "expansion", "Post-Hasmonean High Priests appointed under Herod & Rome (Dutripon p. 23, #63-91)"),
@@ -325,6 +346,19 @@ def build_module():
         "Ananias ben Nebedeus (Trial of Paul, Acts 23)", "Ananus ben Ananus (Executed James the Just, 62 CE)",
         "Jesus ben Damneus & Jesus ben Gamaliel", "Matthias ben Theophilus", "Phannias / Phanacius (Last High Priest of Second Temple, 70 CE)"
     ], edge_type="direct", edge_label="Second Temple High Priest (Dutripon p. 23)")
+
+    add_roster(nodes, edges, "dut_deuterocanon_lineages", "bib16_deut", "biblical", 18, "Dutripon pp. 10-15 (Vulgate)", "Deuterocanonical / Intertestamental Figure", ["Dutripon Concordantiae (pp. 10-15)"], [
+        "Tobit & Tobias (+ Sarah bat Raguel, Book of Tobit)", "Judith of Bethulia (Book of Judith)", "General Holofernes (Assyrian/Babylonian Commander)",
+        "Susanna (Vindicated by Daniel, Dan 13)", "Eleazar & the Seven Maccabean Martyrs (2 Macc 6-7)",
+        "Jesus ben Sirach / Ben Sira (Author of Ecclesiasticus, 131 BCE)", "Dositheus (Purim Letter to Egypt)",
+        "Prophetess Huldah (Reign of King Josiah, 2 Kgs 22)", "Prophetess Anna bat Phanuel (Tribe of Asher, Luke 2:36)"
+    ], edge_type="expansion", edge_label="Vulgate Chronology Figure (Dutripon pp. 10-15)")
+
+    add_roster(nodes, edges, "dut_canaan_foes_kings", "bib16_foes", "biblical", 15, "Dutripon pp. 9-14", "Intersecting Ancient Near Eastern Monarch", ["Dutripon Concordantiae (pp. 9-14)"], [
+        "Chedorlaomer, King of Elam (Gen 14)", "King Sihon of the Amorites (Num 21)", "King Og of Bashan (Rephaim, Num 21)",
+        "King Cushan-Rishathaim of Mesopotamia (Judges 3)", "King Eglon of Moab (Judges 3)", "King Jabin of Hazor & General Sisera (Judges 4)",
+        "Zerah the Cushite / Ethiopian (2 Chr 14:9)", "King Tibni of Israel (Rival of Omri, 1 Kgs 16:21)"
+    ], edge_type="expansion", edge_label="Intersecting Monarch (Dutripon pp. 9-14)")
 
     return {
         "module": "16_biblical_syriac_hasmonean_nt",
