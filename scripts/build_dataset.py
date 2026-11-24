@@ -937,6 +937,269 @@ def add_deep_royal_expansions(mod03, mod09):
         ]
 
 
+def build_module_15_adam2jesus_biblical():
+    """Exhaustive Biblical genealogy from Adam2Jesus.com (2026-11-12 COLOR PDF):
+    Horites, Conquest, Job, All 12 Judges, House of Saul, All 20 Kings of Judah,
+    All 19 Kings of Israel, High Priests to Ezra & John the Baptist, Prophets,
+    Esther/Mordecai/Haman, Dual Matthew 1 & Luke 3 Lineages to Jesus, Herodians,
+    and Intersecting Foreign Monarchs."""
+    nodes, edges = [], []
+
+    # 1. Seir the Horite, Melchizedek, Job & Friends, Conquest Heroes, Anakim/Goliath
+    nodes += [
+        N("bib_seir_horite", "Seir the Horite → Lotan, Shobal, Zibeon, Anah, Dishon, Ezer & Dishan", "biblical", 11, "Pre-Edomite Mount Seir (Gen 36:20-30)",
+          "Horite Clans Intermarried with Esau/Edom", ["Genesis 36:20-30", "1 Chronicles 1:38-42", "Adam2Jesus Chart"],
+          "Original Horite inhabitants of Mount Seir whose daughters (Timna, Oholibamah) intermarried with Esau and Eliphaz, merging Horites and Edomites."),
+        N("bib_melchizedek", "Melchizedek (King & Priest of Salem)", "biblical", 10, "Patriarchal Era (Gen 14:18-20)",
+          "King of Righteousness & Priest of El Elyon", ["Genesis 14:18-20", "Psalm 110", "Hebrews 7", "Jasher 16:11"],
+          "King of Salem (Jerusalem) who blesses Abraham. Book of Jasher 16:11 & Targums identify him with Shem son of Noah; his name ('King of Righteousness') also echoes Phoenician Sydyk in Sanchuniathon!"),
+        N("bib_job", "Job (Land of Uz) → Jemimah, Keziah & Keren-happuch", "biblical", 10, "Patriarchal Horizon (Job 1, 42 — 140 yrs post-trial)",
+          "Righteous Patriarch of Uz & His 3 Friends + Elihu", ["Book of Job", "Adam2Jesus Chart"],
+          "Dwelt in the Land of Uz; comforted/debated by Eliphaz the Temanite (Esau!), Bildad the Shuhite (Shuah/Abraham!), Zophar the Naamathite, and Elihu the Buzite (son of Barachel, from Nahor II's son Buz!).", major=True),
+        N("bib_joshua_caleb", "Joshua (Hoshea son of Nun) & Caleb (son of Jephunneh)", "biblical", 16, "Exodus & Conquest (c. 1400-1200 BCE)",
+          "Two Faithful Spies & Leaders Into Canaan", ["Numbers 13-14", "Joshua 1-24", "1 Chronicles 7:27"],
+          "Joshua (Tribe of Ephraim via Shuthelah -> Elishama -> Nun) succeeds Moses; Caleb the Kenizzite (Tribe of Judah, father of Achsah) conquers Hebron from the Anakim!", major=True),
+        N("bib_zelophehad_bezalel", "Zelophehad's 5 Daughters (Mahlah, Noah, Hoglah, Milcah, Tirzah) & Bezalel", "biblical", 16, "Wilderness Era (Num 27; Exod 31)",
+          "Pioneers of Female Inheritance Law & Tabernacle Architect", ["Numbers 27:1-11", "Exodus 31:2-6", "1 Chronicles 2:19-20"],
+          "Manasseh -> Makir -> Gilead -> Hepher -> Zelophehad's 5 daughters established landmark inheritance rights in Israel; Judah -> Hezron -> Caleb -> Hur -> Uri -> Bezalel (+ Oholiab of Dan) crafted the Tabernacle & Ark!"),
+        N("bib_korah_asaph", "Korah (Korahites), Asaph & Heman (Temple Singers)", "biblical", 15, "Wilderness → Davidic Worship (1 Chr 6)",
+          "Levitical Musicians & Psalmists", ["Exodus 6:21-24", "Numbers 16", "1 Chronicles 6:31-48"],
+          "Izhar -> Korah -> Assir, Elkanah, Ebiasaph (ancestors of Samuel and the Korahite psalmists!), alongside Gershonite Asaph ('The Seer') and Kohathite Heman."),
+        N("bib_anakim_goliath", "Arba → Anak (Anakim) → Sheshai, Ahiman, Talmai & Goliath of Gath", "biblical", 16, "Conquest → United Monarchy (Num 13; 1 Sam 17)",
+          "Philistine / Anakim Giants (Gath & Hebron)", ["Numbers 13:33", "Joshua 15:14", "1 Samuel 17", "2 Samuel 21:19"],
+          "Giants of Hebron (Kiriath-arba) linked in Num 13:33 to the Nephilim; remnants in Philistine Gath produce Goliath (+ brother Lahmi, slain by David & Elhanan)."),
+        N("bib_balaam", "Beor (of Pethor, Aram) → Balaam the Diviner", "biblical", 16, "Wilderness / Moab Horizon (Num 22-24; Deir Alla)",
+          "Aramean Seer Attested in the Deir Alla Inscription!", ["Numbers 22-24", "Deir Alla Inscription (c. 800 BCE)", "Book of Jasher 72"],
+          "Summoned by Moabite King Balak (son of Zippor) to curse Israel; archaeologically attested in the 8th-c. BCE Deir Alla plaster inscription in Jordan! Book of Jasher 72 also depicts Balaam rebelling in Cush against King Kikanos."),
+    ]
+    edges += [
+        E("bib_esau", "bib_seir_horite", "expansion", "Gen 36:20-30: Esau & Eliphaz intermarry with Seir's Horite daughters (Timna & Oholibamah)"),
+        E("bib_shem", "bib_melchizedek", "expansion", "Book of Jasher 16:11 & Targums identify Melchizedek of Salem with Shem"),
+        E("bib_melchizedek", "bib_abraham", "direct", "Gen 14:18: Melchizedek King of Salem blesses Abraham"),
+        E("le_sanchuniathon", "bib_melchizedek", "cognate", "Phoenician Sydyk ('Righteousness') <-> Melchi-zedek ('King of Righteousness')"),
+        E("bib_uz_aram", "bib_job", "expansion", "Job dwelt in the Land of Uz (Job 1:1)"),
+        E("esa_teman", "bib_job", "expansion", "Job 2:11: Eliphaz the Temanite (Edom/Esau) visits Job"),
+        E("jas_shu_bildad", "bib_job", "expansion", "Job 2:11: Bildad the Shuhite (Shuah/Abraham) visits Job"),
+        E("bib_buz", "bib_job", "expansion", "Job 32:2: Elihu son of Barachel the Buzite (Nahor II) speaks to Job"),
+        E("jos_ephraim", "bib_joshua_caleb", "direct", "Ephraim -> ... -> Nun -> Joshua (1 Chr 7:27)"),
+        E("jud_perez", "bib_joshua_caleb", "expansion", "Judah / Kenizzite -> Jephunneh -> Caleb"),
+        E("jos_manasseh", "bib_zelophehad_bezalel", "direct", "Manasseh -> Makir -> Gilead -> Hepher -> Zelophehad -> 5 daughters"),
+        E("lev_izhar", "bib_korah_asaph", "direct", "Izhar -> Korah -> Korahite psalmists (Exod 6:21-24)"),
+        E("eno_watchers", "bib_anakim_goliath", "expansion", "Numbers 13:33 links the Anakim of Hebron to the Nephilim"),
+        E("bib_casluhim", "bib_anakim_goliath", "expansion", "Philistines of Gath (Goliath & Lahmi)"),
+        E("bib_aram", "bib_balaam", "expansion", "Balaam son of Beor from Pethor in Aram (Num 22:5; Deir Alla)"),
+        E("af_jas_kikanos", "bib_balaam", "expansion", "Book of Jasher 72 links Balaam to the war in Cush"),
+    ]
+
+    # 2. ALL 12 Judges of Israel + Eli & Samuel (Individualized!)
+    judges_list = [
+        ("jdg_othniel", "1. Judge Othniel (son of Kenaz + Achsah)", "esa_kenaz", "Judges 3:9", "First Judge of Israel; nephew/brother of Caleb who marries Caleb's daughter Achsah."),
+        ("jdg_ehud", "2. Judge Ehud (son of Gera, Benjamin)", "tri_benjamin_gera", "Judges 3:15", "Left-handed Benjaminite deliverer who slew Moabite King Eglon."),
+        ("jdg_shamgar", "3. Judge Shamgar (son of Anath)", "bib_joshua_caleb", "Judges 3:31", "Delivered Israel from 600 Philistines with an oxgoad."),
+        ("jdg_deborah", "4. Judge Deborah (+ Barak) & Jael (+ Heber the Kenite)", "mid_jethro", "Judges 4-5", "Prophetess & Judge who led Barak against Canaanite general Sisera; Jael (wife of Heber the Kenite, descendant of Midianite Hobab/Jethro!) slew Sisera."),
+        ("jdg_gideon", "5. Judge Gideon (Jerubbaal) → Abimelech & Jotham", "jos_manasseh", "Judges 6-9", "Son of Joash (Abiezrite of Manasseh) who defeated Midian with 300 men; father of 70 sons including Abimelech, Jotham, and Jether."),
+        ("jdg_tola_jair", "6. Judge Tola (Issachar) & 7. Judge Jair (Gilead)", "tri_issachar_tola", "Judges 10:1-5", "Tola (Issachar, judged 23 yrs) and Jair of Gilead (Manasseh, 30 sons riding 30 donkeys)."),
+        ("jdg_jephthah", "8. Judge Jephthah (of Gilead)", "jos_manasseh", "Judges 11-12", "Mighty warrior of Gilead who delivered Israel from the Ammonites."),
+        ("jdg_ibzan_elon_abdon", "9. Ibzan (Bethlehem), 10. Elon (Zebulun) & 11. Abdon", "tri_zebulun_elon", "Judges 12:8-15", "Three minor Judges preceding Samson."),
+        ("jdg_samson", "12. Judge Samson (son of Manoah of Zorah, Dan)", "tri_dan", "Judges 13-16", "Nazirite strongman of the Tribe of Dan (+ Delilah) who battled the Philistines."),
+        ("jdg_eli", "Judge & High Priest Eli → Hophni, Phinehas, Ichabod & Abiathar", "lev_aaron", "1 Samuel 1-4, 22", "Descended from Aaron's son Ithamar; priest at Shiloh who mentored Samuel; line continues via Ahitub -> Ahimelech -> High Priest Abiathar under David."),
+        ("jdg_samuel", "Prophet & Judge Samuel (son of Elkanah & Hannah)", "bib_korah_asaph", "1 Samuel 1-25; 1 Chr 6:33", "Kohathite Levite (via Korah -> Elkanah & Hannah); final Judge who anointed BOTH King Saul and King David! Grandfather of Heman the Singer."),
+    ]
+    for jid, jname, jparent, jsrc, jnote in judges_list:
+        is_maj = jid in {"jdg_deborah", "jdg_gideon", "jdg_samson", "jdg_samuel"}
+        nodes.append(N(jid, jname, "biblical", 16, "Era of the Judges (c. 1200-1050 BCE)", "Judge of Israel", [jsrc, "Adam2Jesus Chart"], jnote, major=is_maj))
+        edges.append(E(jparent, jid, "expansion", f"Lineage / Judges succession ({jsrc})"))
+
+    # 3. Complete House of King Saul (Benjamin) & Expanded House of David
+    nodes += [
+        N("bib_saul", "Aphiah → Abiel → Kish → King Saul (+ Ahinoam & Rizpah)", "biblical", 15, "United Monarchy (c. 1050-1010 BCE)",
+          "1st King of Israel (Tribe of Benjamin)", ["1 Samuel 9-31", "1 Chronicles 8-9", "Adam2Jesus Chart"],
+          "Anointed by Samuel; father of Jonathan, Ish-bosheth (Esh-baal), Malki-shua, Merab, and Michal; uncle Ner fathered General Abner!", major=True),
+        N("bib_jonathan_abner", "Jonathan (→ Mephibosheth), Ish-bosheth, Michal & General Abner", "biblical", 16, "House of Saul (1-2 Samuel)",
+          "Royal Children & Commander of King Saul", ["1-2 Samuel", "1 Chronicles 8:33-40"],
+          "Jonathan (covenant friend of David; father of Mephibosheth -> Micah -> Eshek -> Ulam!), Michal (wife of David), Ish-bosheth (2nd brief king over northern tribes), and cousin Abner."),
+        N("bib_zeruiah_joab", "Jesse's House: Eliab, Zeruiah (→ Joab, Abishai, Asahel) & Abigail (→ Amasa)", "biblical", 15, "United Monarchy (1 Chr 2:13-17)",
+          "King David's Brothers, Sisters & Generals", ["2 Samuel 2-20", "1 Chronicles 2:13-17", "Adam2Jesus Chart"],
+          "David's sister Zeruiah bore his three supreme commanders (Joab, Abishai, Asahel); sister Abigail married Jether the Ishmaelite and bore General Amasa!"),
+        N("bib_bathsheba_uriah", "Ahithophel → Eliam → Bathsheba (+ Uriah the Hittite)", "biblical", 15, "United Monarchy (2 Sam 11, 23:34)",
+          "Queen Mother of Solomon & Nathan", ["2 Samuel 11-12, 23:34", "1 Kings 1-2", "Adam2Jesus Chart"],
+          "Bathsheba (daughter of Eliam, granddaughter of counselor Ahithophel) was wed to Uriah the Hittite before marrying King David and bearing Shimea, Shobab, Nathan (Luke 3 line!), and Solomon (Matthew 1 line!)."),
+        N("bib_hadad_edom", "Hadad the Edomite (+ Sister of Queen Tahpenes of Egypt) → Genubath", "biblical", 16, "1 Kings 11:14-22 (Egypt-Edom Royal Marriage)",
+          "Edomite Prince Raised in Pharaoh's Palace", ["1 Kings 11:14-22", "Adam2Jesus Chart"],
+          "Fled Edom to Egypt, married the sister of Egyptian Queen Tahpenes (under Pharaoh Shishak/Siamun), and fathered Genubath — an explicit Biblical royal marriage uniting Egypt and Edom!"),
+    ]
+    edges += [
+        E("tri_benjamin", "bib_saul", "expansion", "Tribe of Benjamin -> Aphiah -> Becorath -> Zeror -> Abiel -> Kish -> King Saul"),
+        E("jdg_samuel", "bib_saul", "expansion", "Prophet Samuel anoints Saul as 1st King of Israel (1 Sam 10)"),
+        E("bib_saul", "bib_jonathan_abner", "direct", "Children Jonathan, Ish-bosheth, Michal & cousin Abner"),
+        E("bib_jonathan_abner", "jud_david", "direct", "Michal marries King David (1 Sam 18:27)"),
+        E("jud_boaz_jesse", "bib_zeruiah_joab", "direct", "Jesse's sons Eliab/Abinadab/Shammah & daughters Zeruiah & Abigail (1 Chr 2)"),
+        E("bib_bathsheba_uriah", "jud_solomon", "direct", "Mother of Solomon & Nathan (2 Sam 12:24; 1 Chr 3:5)"),
+        E("bib_heth", "bib_bathsheba_uriah", "expansion", "Uriah the Hittite (Children of Heth)"),
+        E("bib_esau", "bib_hadad_edom", "expansion", "Royal Edomite descendant (1 Kings 11:14)"),
+        E("eg_shoshenq1", "bib_hadad_edom", "direct", "Sister of Egyptian Queen Tahpenes marries Hadad the Edomite (1 Kings 11:19)"),
+    ]
+
+    # 4. ALL 20 MONARCHS OF JUDAH (Individually Connected!)
+    judah_kings = [
+        ("kg_j1_rehoboam", "Rehoboam (1st King of Judah)", "jud_solomon", "931-913 BCE", "Son of Solomon & Naamah the Ammonitess; invaded by Pharaoh Shishak (Shoshenq I).", False),
+        ("kg_j2_abijah", "Abijah (Abijam)", "kg_j1_rehoboam", "913-910 BCE", "Son of Rehoboam & Queen Maacah (granddaughter of Absalom).", False),
+        ("kg_j3_asa", "Asa (King of Judah)", "kg_j2_abijah", "910-869 BCE", "Reforming king who defeated Zerah the Cushite.", False),
+        ("kg_j4_jehoshaphat", "Jehoshaphat (King of Judah)", "kg_j3_asa", "872-848 BCE", "Son of Asa & Azubah; allied with Ahab of Israel.", False),
+        ("kg_j5_jehoram", "Jehoram (+ Queen Athaliah)", "kg_j4_jehoshaphat", "848-841 BCE", "Married Athaliah (daughter of Ahab & Jezebel!), uniting the royal houses of Judah, Israel, and Phoenician Sidon!", False),
+        ("kg_j6_ahaziah", "Ahaziah & Queen Athaliah (Sole Female Monarch of Judah)", "kg_j5_jehoram", "841-835 BCE", "Ahaziah slain by Jehu; Queen Athaliah seized Judah's throne for 6 years until High Priest Jehoiada crowned young Joash.", False),
+        ("kg_j7_joash", "Joash (Jehoash) → Amaziah", "kg_j6_ahaziah", "835-767 BCE", "Hidden in the Temple by Aunt Jehosheba & High Priest Jehoiada; father of Amaziah.", False),
+        ("kg_j8_uzziah", "Uzziah (Azariah) → Jotham → Ahaz", "kg_j7_joash", "792-715 BCE", "Uzziah (52-yr reign; era of Isaiah's call) -> Jotham -> Ahaz (vassal of Tiglath-Pileser III).", False),
+        ("kg_j9_hezekiah", "King Hezekiah (+ Hephzibah)", "kg_j8_uzziah", "715-686 BCE", "Withstood Sennacherib's siege of Jerusalem alongside Prophet Isaiah & Cushite Pharaoh Taharqa (Tirhakah)! Ancestor of Prophet Zephaniah.", True),
+        ("kg_j10_manasseh", "Manasseh (55 yrs) → Amon", "kg_j9_hezekiah", "697-640 BCE", "Longest-reigning king of Judah; vassal of Esarhaddon & Ashurbanipal.", False),
+        ("kg_j11_josiah", "King Josiah (+ Zebidah & Hamutal)", "kg_j10_manasseh", "640-609 BCE", "Great Deuteronomic reformer; fell at Megiddo confronting Pharaoh Neco II of Egypt (609 BCE). Father of Jehoahaz, Jehoiakim, and Zedekiah.", True),
+        ("kg_j12_jehoiakim_zedekiah", "Jehoahaz, Jehoiakim & King Zedekiah (Fall of Jerusalem, 586 BCE)", "kg_j11_josiah", "609-586 BCE", "Three sons of Josiah who reigned during Babylon's conquest; Zedekiah was final king before Babylonian Exile.", False),
+        ("kg_j13_jehoiachin", "Jehoiachin (Jeconiah) → Shealtiel → Zerubbabel", "kg_j12_jehoiakim_zedekiah", "598-515 BCE", "Son of Jehoiakim carried to Babylon (attested in Babylonian ration tablets!); grandfather of Zerubbabel, Governor of Yehud under Cyrus & Darius I!", True),
+    ]
+    for kid, kname, kpar, kera, knote, kmaj in judah_kings:
+        nodes.append(N(kid, kname, "biblical", 17, f"Kingdom of Judah ({kera})", "Davidic Monarch of Judah", ["1-2 Kings", "1-2 Chronicles", "Adam2Jesus Chart"], knote, major=kmaj))
+        edges.append(E(kpar, kid, "direct", "Royal Davidic succession (1-2 Kings / 1 Chr 3)"))
+    edges += [
+        E("kg_j1_rehoboam", "eg_shoshenq1", "cognate", "1 Kings 14:25: Shoshenq I (Shishak) campaigns against Rehoboam"),
+        E("kg_j9_hezekiah", "af_taharqa", "cognate", "2 Kings 19:9: Cushite Pharaoh Taharqa (Tirhakah) marches to aid Hezekiah"),
+        E("kg_j13_jehoiachin", "ir_cyrus", "cognate", "Ezra 1-3: Zerubbabel leads Judean return under Cyrus the Great"),
+        E("kg_j13_jehoiachin", "jud_rehoboam_josiah", "expansion", "Summary Davidic line node"),
+    ]
+
+    # 5. ALL 19 KINGS OF NORTHERN ISRAEL (Every Dynasty!)
+    israel_kings = [
+        ("kg_i1_jeroboam", "1. Jeroboam I (son of Nebat, Ephraim) → 2. Nadab", "jos_ephraim", "931-909 BCE", "First King of the Northern Kingdom of Israel (10 tribes); sheltered earlier by Pharaoh Shishak in Egypt.", True),
+        ("kg_i2_baasha", "3. Baasha → 4. Elah → 5. Zimri", "tri_issachar", "909-885 BCE", "Second northern dynasty (Issachar) followed by 7-day reign of Zimri.", False),
+        ("kg_i3_omri_ahab", "6. Omri → 7. King Ahab (+ Queen Jezebel of Sidon!) → 8. Ahaziah & 9. Joram", "kg_i2_baasha", "885-841 BCE", "House of Omri (attested on the Mesha Stele & Assyrian Kurkh Monolith!). Ahab married Princess Jezebel, daughter of Ethbaal King of Tyre/Sidon — exact same Ethbaal who is great-uncle of Queen Dido of Carthage!", True),
+        ("kg_i4_jehu", "10. Jehu → 11. Jehoahaz → 12. Jehoash → 13. Jeroboam II → 14. Zechariah", "kg_i3_omri_ahab", "841-752 BCE", "Jehu (attested bowing on Shalmaneser III's Black Obelisk!) overthrew Omri's house; Jeroboam II led northern Israel's peak prosperity.", True),
+        ("kg_i5_hoshea", "15. Shallum → 16. Menahem → 17. Pekahiah → 18. Pekah → 19. Hoshea (722 BCE)", "kg_i4_jehu", "752-722 BCE", "Final kings of Northern Israel before Samaria fell to Assyria (Shalmaneser V / Sargon II, 722 BCE — Assyrian Exile!).", False),
+    ]
+    for iid, iname, ipar, iera, inote, imaj in israel_kings:
+        nodes.append(N(iid, iname, "biblical", 17, f"Northern Kingdom of Israel ({iera})", "Monarchs of Northern Israel", ["1-2 Kings", "Adam2Jesus Chart"], inote, major=imaj))
+        edges.append(E(ipar, iid, "expansion", "Northern Israel dynastic succession (1-2 Kings)"))
+    edges += [
+        E("kg_i3_omri_ahab", "kg_j5_jehoram", "direct", "Ahab & Jezebel's daughter Athaliah marries Jehoram of Judah!"),
+        E("grk_dido_carthage", "kg_i3_omri_ahab", "cognate", "King Ethbaal of Sidon/Tyre (great-uncle of Queen Dido of Carthage!) is the father of Queen Jezebel (1 Kings 16:31)!"),
+    ]
+
+    # 6. Complete High Priestly Line (Aaron -> Eleazar -> Phinehas -> Zadok -> Ezra & John the Baptist!)
+    nodes += [
+        N("pri_eleazar_zadok", "Eleazar → Phinehas → Abishua → High Priest Zadok", "biblical", 16, "Exodus → United Monarchy (1 Chr 6:3-8)",
+          "Perpetual High Priestly Line of Zadok", ["Exodus 6:23-25", "Numbers 25:11-13", "1 Chronicles 6:3-8", "Adam2Jesus Chart"],
+          "Aaron (+ Elisheba, sister of Judahite prince Nahshon!) -> Eleazar -> Phinehas -> Abishua -> Bukki -> Uzzi -> Zerahiah -> Meraioth -> Amariah -> Ahitub -> Zadok (David & Solomon's High Priest!).", major=True),
+        N("pri_ezra_jaddua", "Hilkiah → Seraiah → Jehozadak → High Priest Joshua → Jaddua & Ezra", "biblical", 17, "Exile → Persian Period (1 Chr 6; Ezra 7; Neh 12)",
+          "Post-Exilic High Priests & Scribe Ezra", ["Ezra 7:1-5", "Nehemiah 12:10-11", "Josephus Ant. 11.8"],
+          "Seraiah -> Jehozadak -> High Priest Joshua (rebuilt Temple with Zerubbabel) -> Joiakim -> Eliashib -> Joiada -> Jonathan -> Jaddua (who greeted Alexander the Great in Josephus!) & Priest-Scribe Ezra (commissioned by Artaxerxes I!).", major=True),
+        N("nt_john_baptist", "Zechariah & Elizabeth (Priestly Division of Abijah) → John the Baptist", "biblical", 19, "1st c. CE (Luke 1)",
+          "Aaronic Prophet & Kinsman of Mary/Jesus", ["Luke 1:5-80", "Josephus Ant. 18.5.2", "Adam2Jesus Chart"],
+          "Descended from Aaron via Abijah; Elizabeth was a kinswoman of Mary, bridging the Levitical priestly line and the Davidic line of Jesus!", major=True),
+    ]
+    edges += [
+        E("lev_aaron", "pri_eleazar_zadok", "direct", "Aaron (+ Elisheba) -> Eleazar -> Phinehas -> ... -> Zadok"),
+        E("pri_eleazar_zadok", "pri_ezra_jaddua", "direct", "Zadok -> ... -> Hilkiah -> Seraiah -> Jehozadak -> Joshua -> Jaddua & Ezra"),
+        E("pri_ezra_jaddua", "ir_artaxerxes1", "cognate", "Ezra 7: Persian Emperor Artaxerxes I commissions Ezra to restore Jerusalem"),
+        E("pri_ezra_jaddua", "grk_alexander", "expansion", "Josephus Ant. 11.8: High Priest Jaddua welcomes Alexander the Great at Jerusalem"),
+        E("lev_aaron", "nt_john_baptist", "expansion", "Priestly course of Abijah (Luke 1:5) -> Zechariah & Elizabeth -> John the Baptist"),
+    ]
+
+    # 7. Major Prophets, Queen Esther, Mordecai, Haman & Nehemiah
+    nodes += [
+        N("pro_elijah_elisha", "Prophet Elijah (Tishbite) & Prophet Elisha (son of Shaphat)", "biblical", 17, "9th c. BCE (1-2 Kings)",
+          "Prophets Opposing House of Ahab & Baal", ["1 Kings 17-22", "2 Kings 1-13", "Adam2Jesus Chart"],
+          "Elijah confronted Ahab & Jezebel on Mt. Carmel and ascended in a whirlwind; Elisha anointed Hazael of Syria and Jehu of Israel."),
+        N("pro_isaiah_zephaniah", "Prophet Isaiah (son of Amoz) & Prophet Zephaniah (Hezekiah's Line)", "biblical", 17, "8th-7th c. BCE (Judah)",
+          "Royal Court Prophets of Judah", ["Isaiah 1, 7-8", "Zephaniah 1:1", "Adam2Jesus Chart"],
+          "Isaiah (+ sons Shear-jashub & Maher-shalal-hash-baz) counseled Kings Uzziah through Hezekiah; Zephaniah 1:1 traces Zephaniah (son of Cushi -> Gedaliah -> Amariah -> Hezekiah) directly to King Hezekiah!", major=True),
+        N("pro_jeremiah_ezekiel", "Prophet Jeremiah (+ Scribe Baruch) & Prophet Ezekiel (son of Buzi)", "biblical", 17, "7th-6th c. BCE (Babylonian Exile)",
+          "Priestly Prophets of the Exile", ["Jeremiah 1, 36", "Ezekiel 1:3", "Adam2Jesus Chart"],
+          "Priestly prophets witnessing the fall of Jerusalem (586 BCE) and exile to Babylon; Baruch (son of Neriah) preserved Jeremiah's scrolls."),
+        N("pro_daniel_nehemiah", "Prophet Daniel (Belteshazzar), Shadrach/Meshach/Abednego & Nehemiah", "biblical", 17, "6th-5th c. BCE (Babylon & Persia)",
+          "Judean Statesmen in Babylon & Susa", ["Book of Daniel", "Book of Nehemiah", "Adam2Jesus Chart"],
+          "Daniel (royal Judean youth) & companions Hananiah, Mishael, Azariah served under Nebuchadnezzar, Cyrus, and Darius; Nehemiah (son of Hacaliah) served as cupbearer to Artaxerxes I at Susa before rebuilding Jerusalem's walls!", major=True),
+        N("pro_minor_prophets", "Hosea (+ Gomer), Amos, Jonah, Micah, Habakkuk & Zechariah", "biblical", 17, "8th-6th c. BCE",
+          "Prophets of Israel, Nineveh & Post-Exilic Judah", ["Twelve Minor Prophets", "Adam2Jesus Chart"],
+          "Hosea (son of Beeri + Gomer -> Jezreel, Lo-ruhamah, Lo-ammi), Amos, Jonah (sent to Nineveh!), Micah, Habakkuk, and Zechariah (son of Berechiah son of Iddo)."),
+        N("bib_esther_mordecai", "Jair → Mordecai & Queen Esther (Hadassah) vs. Haman the Agagite", "biblical", 18, "5th c. BCE (Susa / Persia — Book of Esther)",
+          "Benjaminite Queen of Persia & Defeat of Amalekite Haman", ["Book of Esther", "Adam2Jesus Chart"],
+          "Benjamin -> Kish -> Shimei -> Jair -> Mordecai & cousin Hadassah (Queen Esther), wed to Persian Emperor Ahasuerus (Xerxes I), thwarting Haman son of Hammedatha the Agagite (descendant of Amalekite King Agag -> Esau's grandson Amalek!).",
+          ["Hadassah", "Susa / Shushan"], major=True),
+    ]
+    edges += [
+        E("kg_i3_omri_ahab", "pro_elijah_elisha", "expansion", "Elijah & Elisha minister during Ahab & Joram's reigns"),
+        E("kg_j9_hezekiah", "pro_isaiah_zephaniah", "direct", "Zephaniah 1:1 traces Prophet Zephaniah directly from King Hezekiah; Isaiah counseled Hezekiah"),
+        E("pri_eleazar_zadok", "pro_jeremiah_ezekiel", "expansion", "Priestly prophets Jeremiah (Anathoth) & Ezekiel (son of Buzi)"),
+        E("kg_j12_jehoiakim_zedekiah", "pro_daniel_nehemiah", "expansion", "Daniel & companions exiled from Judah to Nebuchadnezzar's Babylon (Dan 1)"),
+        E("ir_artaxerxes1", "pro_daniel_nehemiah", "cognate", "Nehemiah 2: Artaxerxes I dispatches Nehemiah from Susa to rebuild Jerusalem"),
+        E("kg_i4_jehu", "pro_minor_prophets", "expansion", "Hosea, Amos & Jonah minister during Jeroboam II's era"),
+        E("bib_saul", "bib_esther_mordecai", "expansion", "Esther 2:5: Mordecai & Esther descend from Benjaminite Kish/Shimei"),
+        E("ir_xerxes1", "bib_esther_mordecai", "cognate", "Queen Esther marries Persian Emperor Xerxes I (Ahasuerus) at Susa"),
+        E("esa_amalek", "bib_esther_mordecai", "expansion", "Haman 'the Agagite' descends from King Agag of Amalek (Esau's line!)"),
+    ]
+
+    # 8. COMPLETE DUAL LINEAGE TO JESUS (Matthew 1 via Solomon + Luke 3 via Nathan!) + Herodians + Paul
+    nodes += [
+        N("nt_matthew_joseph", "Abiud → Eliakim → Azor → Matthan → Jacob → Joseph (Matthew 1 Line)", "biblical", 18, "Post-Exilic → 1st c. BCE (Matthew 1:13-16)",
+          "Legal Royal Line from Solomon & Zerubbabel to Joseph", ["Matthew 1:13-16", "Adam2Jesus Chart"],
+          "Complete Matthew 1 genealogy: Zerubbabel -> Abiud -> Eliakim -> Azor -> Zadok -> Achim -> Eliud -> Eleazar -> Matthan -> Jacob -> Joseph (husband of Mary)."),
+        N("nt_luke_mary", "Nathan → Mattatha → Neri → Matthat → Heli → Mary (Luke 3 Line)", "biblical", 18, "David → 1st c. BCE (Luke 3:23-31)",
+          "Luke 3 Davidic Line via Nathan to Mary", ["Luke 3:23-31", "Adam2Jesus Chart"],
+          "Complete Luke 3 genealogy through David's son Nathan (via Mattatha, Melea, Eliakim, Jonam, Neri, Rhesa, Joanan, Matthat, Heli -> Mary, mother of Jesus!)."),
+        N("nt_jesus", "Jesus of Nazareth ('The Christ') & Siblings (James, Joses, Simon, Jude)", "biblical", 19, "c. 4 BCE – 30/33 CE (Galilee & Judea)",
+          "Culmination of Both Matthew 1 & Luke 3 Genealogies", ["Matthew 1", "Luke 3", "Galatians 1:19", "Adam2Jesus Chart"],
+          "Born in Bethlehem of Mary (Luke 3 line) & legal son of Joseph (Matthew 1 line) during Caesar Augustus & Herod the Great; chart also notes brothers James (leader of Jerusalem church), Joseph/Joses, Simon, and Judas/Jude.",
+          ["Yeshua ha-Notzri", "Jesus Christ"], major=True),
+        N("nt_paul", "Apostle Paul (Saul of Tarsus — Tribe of Benjamin)", "biblical", 19, "c. 5 – 67 CE (Tarsus / Cilicia → Rome)",
+          "Benjaminite Pharisee & Apostle to the Mediterranean", ["Philippians 3:5", "Acts 9-28", "Adam2Jesus Chart"],
+          "Born in Tarsus (Cilicia — cf. Cilix/Tarshish!) of the Tribe of Benjamin; carried the Judeo-Christian movement across Anatolia, Greece (Athens/Corinth), and Rome!"),
+        N("nt_herodians", "Antipater the Idumean → Herod the Great → Archelaus, Antipas & Philip", "biblical", 18, "47 BCE – 44 CE (Idumea/Edom → Roman Judea)",
+          "Edomite-Roman Herodian Dynasty", ["Josephus Antiquities 14-18", "Matthew 2", "Mark 6", "Adam2Jesus Chart"],
+          "Antipater of Idumea (Edom — Esau's land!) allied with Julius Caesar; his son Herod the Great rebuilt the Second Temple and fathered Archelaus, Herod Antipas (+ Herodias & Salome), and Herod Philip — bridging Edom directly into Imperial Rome and the Gospels!",
+          ["Idumeans (Edomites)", "Herod the Great"], major=True),
+    ]
+    edges += [
+        E("kg_j13_jehoiachin", "nt_matthew_joseph", "direct", "Zerubbabel -> Abiud -> ... -> Matthan -> Jacob -> Joseph (Matt 1:13-16)"),
+        E("jud_david_children", "nt_luke_mary", "direct", "David -> Nathan -> ... -> Matthat -> Heli -> Mary (Luke 3:23-31)"),
+        E("nt_matthew_joseph", "nt_jesus", "direct", "Legal father Joseph (Matthew 1:16)"),
+        E("nt_luke_mary", "nt_jesus", "direct", "Mother Mary (Luke 1-3)"),
+        E("nt_john_baptist", "nt_jesus", "direct", "Kinsmen via Elizabeth & Mary (Luke 1:36)"),
+        E("tri_benjamin", "nt_paul", "expansion", "Philippians 3:5: Paul of the Tribe of Benjamin"),
+        E("bib_esau", "nt_herodians", "expansion", "Idumeans = historical Edomites (descendants of Esau/Edom) -> Antipater -> Herod the Great!"),
+        E("grk_julius_augustus", "nt_herodians", "cognate", "Julius Caesar & Augustus appointed Antipater & Herod the Great as client kings of Judea!"),
+        E("grk_julius_augustus", "nt_jesus", "cognate", "Luke 2:1: Birth of Jesus during Emperor Augustus's census of the Roman Empire"),
+    ]
+
+    # 9. Intersecting Foreign Monarchs from Adam2Jesus Chart (Babylon, Assyria, Tyre, Syria, Moab, Egypt!)
+    nodes += [
+        N("for_nebuchadnezzar", "Merodach-baladan → Nebuchadnezzar II → Evil-merodach (Neo-Babylon)", "mesopotamian", 17, "626-539 BCE (Neo-Babylonian Empire)",
+          "Conqueror of Jerusalem & Builder of Babylon's Ishtar Gate", ["2 Kings 24-25", "Daniel 1-4", "Babylonian Chronicles"],
+          "Nebuchadnezzar II besieged Jerusalem (597 & 586 BCE), exiled Jehoiachin and Daniel, and built the Hanging Gardens/Ishtar Gate; succeeded by Evil-merodach (Amel-Marduk) who released King Jehoiachin!"),
+        N("for_neo_assyria", "Tiglath-Pileser III (Pul) → Sennacherib → Esarhaddon → Ashurbanipal", "mesopotamian", 17, "745-627 BCE (Neo-Assyrian Empire)",
+          "Assyrian Emperors of the Biblical Books of Kings & Isaiah", ["2 Kings 15-19", "Taylor Prism", "Ezra 4:10 (Osnappar)"],
+          "Tiglath-Pileser III (Pul) exacted tribute from Israel/Judah; Sennacherib besieged Hezekiah (Taylor Prism) before being slain by sons Adrammelech & Sharezer; Esarhaddon & Ashurbanipal (Osnappar) conquered Egypt (Taharqa)!"),
+        N("for_hiram_syria_moab", "King Hiram of Tyre, King Mesha of Moab (Mesha Stele) & Hazael of Aram", "levant_egypt", 16, "10th-9th c. BCE (Tyre, Moab & Damascus)",
+          "Levantine Monarchs Attested in Bible & Inscriptions", ["1 Kings 5", "2 Kings 3 & 8", "Mesha Stele (c. 840 BCE)", "Tel Dan Stele"],
+          "Hiram of Tyre supplied cedar & craftsman Huram-Abi for Solomon's Temple; King Mesha of Moab's 840 BCE Stele mentions Omri, Israel & 'House of David'; King Hazael of Damascus (Tel Dan Stele) fought Jehoram & Ahaziah!"),
+        N("for_pharaoh_neco", "Pharaoh Neco II (26th Saite Dynasty of Egypt)", "levant_egypt", 17, "610-595 BCE (Dynasty 26)",
+          "Pharaoh at Battle of Megiddo (609 BCE) & Carchemish (605 BCE)", ["2 Kings 23:29-35", "Herodotus II.158-159", "Adam2Jesus Chart"],
+          "Marched north to aid Assyria against Babylon, slaying King Josiah at Megiddo (609 BCE) and installing Jehoiakim; Herodotus credits Neco II with commissioning Phoenician sailors to circumnavigate Africa!"),
+    ]
+    edges += [
+        E("mes_hammurabi", "for_nebuchadnezzar", "expansion", "Babylonian imperial continuity -> Neo-Babylonian Dynasty"),
+        E("for_nebuchadnezzar", "kg_j13_jehoiachin", "cognate", "2 Kings 24-25 & Babylonian Ration Tablets: Nebuchadnezzar exiles & Evil-merodach releases Jehoiachin!"),
+        E("for_nebuchadnezzar", "ir_cyrus", "cognate", "Cyrus Cylinder: Cyrus the Great conquers Neo-Babylon in 539 BCE"),
+        E("mes_assyria_kings", "for_neo_assyria", "direct", "Neo-Assyrian royal line -> Sennacherib -> Esarhaddon -> Ashurbanipal"),
+        E("for_neo_assyria", "kg_i5_hoshea", "cognate", "722 BCE: Assyria conquers Samaria (Assyrian Exile of 10 Northern Tribes)"),
+        E("for_neo_assyria", "kg_j9_hezekiah", "cognate", "701 BCE Taylor Prism & 2 Kings 18-19: Sennacherib besieges Hezekiah in Jerusalem"),
+        E("bib_sidon", "for_hiram_syria_moab", "cognate", "Phoenician King Hiram of Tyre (ally of David & Solomon)"),
+        E("bib_moab", "for_hiram_syria_moab", "cognate", "King Mesha of Moab (Mesha Stele, 840 BCE)"),
+        E("bib_aram", "for_hiram_syria_moab", "cognate", "Aramean Kings of Damascus: Ben-Hadad I/II, Hazael (Tel Dan Stele) & Rezin"),
+        E("eg_shoshenq1", "for_pharaoh_neco", "expansion", "Late Period 26th Saite Dynasty of Egypt"),
+        E("for_pharaoh_neco", "kg_j11_josiah", "cognate", "2 Kings 23:29: Pharaoh Neco II battles King Josiah at Megiddo (609 BCE)"),
+    ]
+
+    return {"module": "15_biblical_judges_kings_prophets", "title": "Exhaustive Adam2Jesus Biblical Expansion (Judges, House of Saul, All 20 Kings of Judah, All 19 Kings of Israel, High Priests, Prophets, Esther, Job, Dual Line to Jesus, Herodians & Foreign Kings)", "nodes": nodes, "edges": edges}
+
+
 def main():
     MODULES_DIR.mkdir(parents=True, exist_ok=True)
     old_asia = MODULES_DIR / "07_asia_steppe.json"
@@ -962,6 +1225,7 @@ def main():
         build_module_12_celtic_norse_europe(),
         build_module_13_americas_polynesia(),
         build_module_14_archaeogenetics_dna(),
+        build_module_15_adam2jesus_biblical(),
     ]
 
     all_nodes, all_edges = [], []
@@ -994,8 +1258,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Global + Archaeogenetics + World Map Edition (Phase 9)",
-            "version": "9.0.0",
+            "title": "Ancient World Genealogy Atlas — Adam2Jesus + Complete Global + Archaeogenetics Edition (Phase 10)",
+            "version": "10.0.0",
             "modules": module_summaries,
             "linkTypes": LINK_TYPES,
         },
