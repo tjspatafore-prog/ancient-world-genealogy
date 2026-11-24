@@ -1,61 +1,152 @@
 {
   "module": "07_vedic_india",
-  "title": "Vedic & Puranic Indian Genealogy (Core Foundation)",
+  "title": "Exhaustive Vedic & Puranic Indian Genealogy (Saptarishis, Vaivasvata Manu, Full Surya Vamsha to Rama & Buddha, Full Chandra Vamsha to Krishna, Pandavas & Ashoka)",
   "nodes": [
+    {
+      "id": "ved_dyaus_prithvi",
+      "name": "Dyaus Pitr (Sky Father) & Prithvi (Earth Mother)",
+      "altNames": [
+        "Cognate: Greek Zeus Pater / Jupiter"
+      ],
+      "tradition": "vedic",
+      "tier": 1,
+      "era": "Rigvedic Cosmogony (Rigveda 1.160)",
+      "role": "Proto-Indo-European Sky Father (Exact Cognate of Greek Zeus!)",
+      "sources": [
+        "Rigveda 1.160, 4.17"
+      ],
+      "notes": "Vedic Sky-Father Dyaus Pitr is the EXACT linguistic cognate of Greek Zeus Pater and Roman Jupiter! Parents of Ushas (Dawn) and Indra in early Rigvedic hymns.",
+      "major": true
+    },
     {
       "id": "ved_brahma_manu",
       "name": "Brahma → Svayambhuva Manu & Shatarupa",
-      "altNames": [],
+      "altNames": [
+        "Svayambhuva Manu",
+        "Shatarupa"
+      ],
       "tradition": "vedic",
       "tier": 1,
-      "era": "Satya Yuga / Rigvedic",
-      "role": "Vedic Primordial Ancestors & Saptarishis",
+      "era": "Satya Yuga / Puranic Creation",
+      "role": "Vedic Primordial Progenitors & Origin of Saptarishis",
       "sources": [
         "Manusmriti Ch. 1",
-        "Vishnu Purana I",
-        "Bhagavata Purana III"
+        "Vishnu Purana I.7",
+        "Bhagavata Purana III.12"
       ],
-      "notes": "Brahma manifests Svayambhuva Manu and Shatarupa as the primordial couple, plus the Seven Sages (Marichi, Atri, Angiras, Pulastya, Pulaha, Kratu, Vashishta).",
+      "notes": "Brahma manifests Svayambhuva Manu and Shatarupa as the primordial human couple, and mind-borns the Saptarishis (Seven Great Sages: Marichi, Atri, Angiras, Pulastya, Pulaha, Kratu, Vashishta) plus Bhrigu and Daksha.",
+      "major": true
+    },
+    {
+      "id": "ved_priyavrata_rishabha",
+      "name": "Priyavrata → Nabhi → Rishabhanatha (1st Jain Tirthankara) → Bharata",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 2,
+      "era": "Satya Yuga (Bhagavata Purana V / Jain Tradition)",
+      "role": "Eldest Son of Svayambhuva Manu & Jain Progenitor",
+      "sources": [
+        "Bhagavata Purana Book V",
+        "Jain Adi Purana"
+      ],
+      "notes": "Priyavrata divides Earth into seven continents (Dvipas); his descendant Rishabhanatha (Adinatha) is the 1st Jain Tirthankara, whose son Chakravartin Bharata is one of the traditional eponyms of Bharatavarsha (India)!",
+      "major": false
+    },
+    {
+      "id": "ved_uttanapada_dhruva",
+      "name": "Uttanapada → Dhruva (Pole Star) & Daksha (+ Prasuti)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 2,
+      "era": "Satya Yuga (Vishnu Purana I.11-15)",
+      "role": "Svayambhuva Manu's Family & Prajapati Daksha",
+      "sources": [
+        "Vishnu Purana I.11-15",
+        "Bhagavata Purana IV"
+      ],
+      "notes": "Uttanapada fathers Prince Dhruva (the steadfast Pole Star); Svayambhuva Manu's daughter Prasuti marries Prajapati Daksha, father of Sati, Aditi, Diti, Danu, Kadru, and Vinata (and Devahuti + Kardama -> Sage Kapila!).",
+      "major": false
+    },
+    {
+      "id": "ved_saptarishis_bhrigu",
+      "name": "Vashishta (→ Parashara), Pulastya (→ Ravana) & Bhrigu (→ Shukracharya)",
+      "altNames": [
+        "Vashishta",
+        "Pulastya -> Ravana",
+        "Bhrigu -> Shukracharya"
+      ],
+      "tradition": "vedic",
+      "tier": 2,
+      "era": "Vedic Saptarishis (Mind-Born Sages)",
+      "role": "Ancestral Rishi Clans of India",
+      "sources": [
+        "Rigveda",
+        "Vishnu Purana I.7-10",
+        "Ramayana",
+        "Mahabharata"
+      ],
+      "notes": "Vashishta -> Shakti -> Parashara (father of Vyasa!); Pulastya -> Vishrava -> Kubera & Ravana (King of Lanka!); Bhrigu -> Shukracharya / Kavi Ushanas (father of Devayani, exact cognate of Iranian Kavi Usan!) & Jamadagni -> Parashurama!",
       "major": true
     },
     {
       "id": "ved_kashyapa",
-      "name": "Marichi → Kashyapa (+ Aditi, Diti, Danu)",
+      "name": "Marichi → Kashyapa (+ Aditi, Diti, Danu, Kadru, Vinata)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 2,
       "era": "Vedic Primordial Era",
-      "role": "Universal Prajapati Sage",
+      "role": "Universal Prajapati Sage (Father of Adityas, Daityas & Nagas)",
       "sources": [
-        "Mahabharata Adi Parva",
+        "Mahabharata Adi Parva 65",
         "Vishnu Purana I.15"
       ],
-      "notes": "Through Daksha's daughters, Kashyapa fathers the Adityas (including Vivasvan/Surya via Aditi), Daityas, Danavas, Garudas, and Nagas.",
+      "notes": "Through Daksha's daughters, Kashyapa fathers the 12 Adityas (Vivasvan/Surya, Indra, Varuna, Mitra [= Avestan Mithra!], Vishnu-Vamana via Aditi), Daityas (Hiranyakashipu -> Prahlada -> Mahabali via Diti), Danavas (Danu), Nagas (Kadru), and Garuda (Vinata).",
       "major": true
     },
     {
-      "id": "ved_vivasvan",
-      "name": "Vivasvan (Surya)",
+      "id": "ved_prahlada_bali",
+      "name": "Hiranyakashipu → Prahlada → Virochana → King Mahabali",
       "altNames": [],
+      "tradition": "vedic",
+      "tier": 3,
+      "era": "Daitya Lineage (Kashyapa & Diti)",
+      "role": "Asura Royal House (Onam / Kerala Tradition)",
+      "sources": [
+        "Bhagavata Purana VII-VIII",
+        "Vishnu Purana I.17"
+      ],
+      "notes": "Grandson of Kashyapa & Diti; devotee Prahlada leads to Emperor Mahabali (celebrated annually in Kerala's Onam festival).",
+      "major": false
+    },
+    {
+      "id": "ved_vivasvan",
+      "name": "Vivasvan (Surya — Solar Progenitor)",
+      "altNames": [
+        "Surya",
+        "Cognate: Avestan Vivanghant"
+      ],
       "tradition": "vedic",
       "tier": 3,
       "era": "Vedic Antediluvian Horizon",
       "role": "Exact Cognate of Avestan Vivanghant",
       "sources": [
         "Rigveda 10.14, 10.17",
-        "Shatapatha Brahmana"
+        "Shatapatha Brahmana",
+        "Vishnu Purana III.2"
       ],
-      "notes": "EXACT Proto-Indo-Iranian cognate of Avestan Vivanghant! Father of Yama (Avestan Yima) and Vaivasvata Manu (Great Flood survivor).",
+      "notes": "Son of Kashyapa & Aditi; EXACT Proto-Indo-Iranian cognate of Avestan Vivanghant! Father of Yama (= Iranian Yima), Vaivasvata Manu (Great Flood survivor), Ashwini Kumaras, Shani, and Tapati.",
       "major": true
     },
     {
       "id": "ved_yama",
-      "name": "Yama & Yami",
-      "altNames": [],
+      "name": "Yama & Yami (Twin First Mortals)",
+      "altNames": [
+        "Cognate: Avestan Yima/Jamshid"
+      ],
       "tradition": "vedic",
       "tier": 4,
       "era": "Vedic Primordial Horizon",
-      "role": "Twin First Mortals / Exact Cognate of Yima",
+      "role": "Lord of Dharma & Exact Cognate of Avestan Yima",
       "sources": [
         "Rigveda 10.10, 10.14"
       ],
@@ -64,7 +155,7 @@
     },
     {
       "id": "ved_trita_aptya",
-      "name": "Aptya → Trita Aptya & Kavi Ushanas",
+      "name": "Aptya → Trita Aptya & Kavi Ushanas (Shukracharya)",
       "altNames": [
         "Trita = Fereydun",
         "Aptya = Abtin",
@@ -77,75 +168,225 @@
       "sources": [
         "Rigveda 1.105, 10.8, 10.99"
       ],
-      "notes": "Vedic dragon-slayer Trita son of Aptya is the exact linguistic cognate of Avestan Thraetaona (Fereydun) son of Athwya (Abtin), while sage Kavi Ushanas is the exact cognate of Iranian King Kavi Usan (Kay Kavus)!",
+      "notes": "Vedic dragon-slayer Trita son of Aptya is the exact cognate of Avestan Thraetaona (Fereydun) son of Athwya (Abtin), while sage Kavi Ushanas (Shukracharya, father of Yayati's wife Devayani!) is the exact cognate of Iranian King Kavi Usan (Kay Kavus)!",
       "major": false
     },
     {
       "id": "ved_vaivasvata_manu",
-      "name": "Vaivasvata Manu (7th Manu / Flood Survivor)",
-      "altNames": [],
+      "name": "Vaivasvata Manu (Shraddhadeva — 7th Manu)",
+      "altNames": [
+        "Shraddhadeva",
+        "Matsya Flood Survivor"
+      ],
       "tradition": "vedic",
       "tier": 4,
-      "era": "Vedic Flood Horizon",
+      "era": "Vedic Flood Horizon (Shatapatha Brahmana 1.8.1)",
       "role": "Vedic Great Flood Survivor (Saved by Matsya)",
       "sources": [
         "Shatapatha Brahmana 1.8.1",
-        "Mahabharata Vana Parva",
+        "Mahabharata Vana Parva 185",
         "Matsya Purana"
       ],
-      "notes": "Saved by Matsya the Fish during the universal Deluge; ship moored to the Himalayas. Common ancestor of humanity (Manava) in the present age.",
+      "notes": "Warned by Matsya the Fish (avatar of Vishnu), builds a vessel moored to the Himalayas to survive the universal Deluge. Father of 10 children (Ikshvaku, Ila, Nabhaga, Sharyati, etc.) — universal ancestor of humanity (Manava)!",
+      "major": true
+    },
+    {
+      "id": "ved_manu_other_sons",
+      "name": "Nabhaga (→ Ambarisha), Sharyati (→ Sukanya), Karusha & 5 Brothers",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 5,
+      "era": "Early Post-Flood India (Vishnu Purana IV.1)",
+      "role": "Other 8 Sons of Vaivasvata Manu",
+      "sources": [
+        "Vishnu Purana IV.1",
+        "Bhagavata Purana IX.2-4"
+      ],
+      "notes": "Alongside Ikshvaku and Ila, Vaivasvata Manu fathered Nabhaga (ancestor of devotee King Ambarisha), Sharyati (father of Sukanya who married sage Chyavana, founder of Anarta/Gujarat), Dhrishta, Narishyanta, Pranshu, Dishta, Karusha, and Prishadhra.",
+      "major": false
+    },
+    {
+      "id": "ved_ikshvaku",
+      "name": "Ikshvaku (Okkaka — Founder of Solar Dynasty)",
+      "altNames": [
+        "Okkaka (Pali Canon)"
+      ],
+      "tradition": "vedic",
+      "tier": 5,
+      "era": "Early Solar Dynasty (Ayodhya)",
+      "role": "Eldest Son of Vaivasvata Manu / Ancestor of Rama & Buddha",
+      "sources": [
+        "Vishnu Purana IV.2",
+        "Valmiki Ramayana",
+        "Ambattha Sutta / Mahavamsa"
+      ],
+      "notes": "First King of Kosala/Ayodhya; fathers 100 sons including Vikukshi (main Solar line), Nimi (Kings of Videha/Janaka!), and Dandaka. Buddhist Pali texts call him King Okkaka, ancestor of the Shakya clan!",
+      "major": true
+    },
+    {
+      "id": "ved_nimi_janaka",
+      "name": "Nimi → Mithi → King Janaka of Videha (Father of Sita!)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 6,
+      "era": "Videha / Mithila Kingdom",
+      "role": "Philosopher-Kings of Mithila (Upanishads & Ramayana)",
+      "sources": [
+        "Brihadaranyaka Upanishad",
+        "Valmiki Ramayana",
+        "Vishnu Purana IV.5"
+      ],
+      "notes": "Son of Ikshvaku; founds the Videha dynasty of Mithila culminating in sage-king Janaka, father of Sita (wife of Rama)!",
+      "major": false
+    },
+    {
+      "id": "ved_mandhata_harishchandra",
+      "name": "Vikukshi → Kakutstha → Mandhata → Trishanku → King Harishchandra",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 6,
+      "era": "Solar Dynasty (Satya → Treta Yuga)",
+      "role": "Universal Monarch Mandhata & Truth-Keeper Harishchandra",
+      "sources": [
+        "Vishnu Purana IV.2-3",
+        "Markandeya Purana"
+      ],
+      "notes": "Celebrated Solar monarchs bridging Ikshvaku to Sagara; Harishchandra sacrificed kingdom and family rather than break a single vow of truth.",
+      "major": false
+    },
+    {
+      "id": "ved_sagara_bhagiratha",
+      "name": "King Sagara → Anshuman → Dilipa I → Bhagiratha (River Ganga)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 7,
+      "era": "Solar Dynasty (Ayodhya)",
+      "role": "Bringer of the Sacred River Ganga to Earth",
+      "sources": [
+        "Ramayana Bala Kanda",
+        "Vishnu Purana IV.4"
+      ],
+      "notes": "Sagara's 60,000 sons dug the ocean basin (Sagara); his great-great-grandson Bhagiratha performed austerity to bring the River Ganga down from Heaven to redeem them!",
+      "major": true
+    },
+    {
+      "id": "ved_raghu_dasharatha",
+      "name": "Dilipa II → Emperor Raghu → Aja → King Dasharatha",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 7,
+      "era": "Solar Dynasty (Raghuvamsha)",
+      "role": "Eponym of Raghuvamsha & Father of Rama",
+      "sources": [
+        "Valmiki Ramayana",
+        "Kalidasa Raghuvamsha"
+      ],
+      "notes": "Emperor Raghu gave Rama's clan its name (Raghava); his grandson Dasharatha (+ Kausalya, Kaikeyi, Sumitra) fathered Rama, Bharata, Lakshmana, and Shatrughna.",
       "major": true
     },
     {
       "id": "ved_surya_vamsha",
-      "name": "Ikshvaku → Raghu → Dasharatha → Rama & Buddha (Shakya)",
-      "altNames": [],
+      "name": "Rama (+ Sita), Bharata, Lakshmana & Shatrughna",
+      "altNames": [
+        "Rama of Ayodhya",
+        "Raghava"
+      ],
       "tradition": "vedic",
-      "tier": 6,
-      "era": "Treta Yuga → 6th c. BCE",
-      "role": "Surya Vamsha (Solar Dynasty of Ayodhya)",
+      "tier": 8,
+      "era": "Treta Yuga (Valmiki Ramayana)",
+      "role": "Hero of the Ramayana (Ayodhya)",
       "sources": [
         "Valmiki Ramayana",
-        "Vishnu Purana IV",
-        "Mahavamsa / Pali Canon"
+        "Vishnu Purana IV.4"
       ],
-      "notes": "Son of Vaivasvata Manu. Produces Harishchandra, Bhagiratha, Raghu, and Prince Rama of Ayodhya. Buddhist chronicles (Mahavamsa, Ambattha Sutta) trace Siddhartha Gautama's Shakya clan to King Okkaka = Ikshvaku!",
+      "notes": "Prince Rama (7th Avatar of Vishnu) marries Sita of Videha and defeats Ravana of Lanka. His brother Bharata's sons Taksha & Pushkala found Taxila (Takshashila) and Pushkalavati in Gandhara!",
       "major": true
     },
     {
-      "id": "ved_yayati",
-      "name": "Atri → Soma → Budha + Ila → Pururavas → Yayati",
+      "id": "ved_lava_kusha",
+      "name": "Lava (Lahore) & Kusha (Kushavati) → Brihadbala",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 9,
+      "era": "Post-Ramayana Solar Line",
+      "role": "Twin Sons of Rama & Sita",
+      "sources": [
+        "Ramayana Uttara Kanda",
+        "Vishnu Purana IV.4"
+      ],
+      "notes": "Traditional founders of Lavapuri (Lahore) and Kushavati; Kusha's line continues down to King Brihadbala (who fought in the Mahabharata war) and the Ikshvaku kings of Kosala (Prasenajit, contemporary of the Buddha!).",
+      "major": false
+    },
+    {
+      "id": "ved_buddha",
+      "name": "Shakya Clan (Okkaka) → King Shuddhodana (+ Maya) → Siddhartha Gautama (The Buddha)",
+      "altNames": [
+        "Gautama Buddha",
+        "Shakyamuni",
+        "Son: Rahula"
+      ],
+      "tradition": "vedic",
+      "tier": 10,
+      "era": "c. 563-483 BCE (Kapilavastu / Lumbini)",
+      "role": "Founder of Buddhism (Solar / Ikshvaku Lineage)",
+      "sources": [
+        "Digha Nikaya (Ambattha Sutta)",
+        "Mahavamsa Ch. 2",
+        "Buddhacarita"
+      ],
+      "notes": "Buddhist chronicles trace the Shakya clan directly to King Okkaka (= Ikshvaku of the Solar Dynasty)! Siddhartha Gautama (son of Shuddhodana & Maya; father of Rahula via Yasodhara) sparks a pan-Asian movement reaching China, Korea, and Japan!",
+      "major": true
+    },
+    {
+      "id": "ved_atri_soma",
+      "name": "Atri → Soma (Chandra) → Budha + Ila (Child of Manu)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 5,
-      "era": "Early Vedic Royal Horizon",
-      "role": "Chandra Vamsha (Lunar Dynasty) / Father of 5 Peoples",
+      "era": "Foundation of Chandra Vamsha (Lunar Dynasty)",
+      "role": "Union of Rishi Atri's Lunar Line & Vaivasvata Manu's Bloodline",
       "sources": [
-        "Rigveda 10.95",
-        "Mahabharata Adi Parva 75-85",
-        "Vishnu Purana IV"
+        "Vishnu Purana IV.6",
+        "Bhagavata Purana IX.14"
       ],
-      "notes": "Unites Rishi Atri's lunar line with Vaivasvata Manu's bloodline via Ila. Great-grandson Yayati fathers the five famous Vedic peoples (Panchajana).",
+      "notes": "Sage Atri births Soma (Moon); Soma's son Budha marries Ila (child of Vaivasvata Manu), uniting the Solar and Lunar lineages in Pururavas!",
       "major": true
     },
     {
-      "id": "ved_bharata_kuru",
-      "name": "Bharata → Kuru → Pandavas & Kauravas (Mahabharata)",
+      "id": "ved_pururavas_ayu",
+      "name": "Pururavas (+ Urvashi) → Ayu & Amavasu (→ Vishvamitra)",
       "altNames": [],
       "tradition": "vedic",
-      "tier": 8,
-      "era": "Late Vedic / Iron Age (c. 1200-900 BCE)",
-      "role": "Eponym of Bharatavarsha (India)",
+      "tier": 5,
+      "era": "Rigveda 10.95 (Early Lunar Kings)",
+      "role": "First Lunar Emperor & Ancestor of Vishvamitra / Dhanvantari",
       "sources": [
-        "Mahabharata",
-        "Vishnu Purana IV.19-21"
+        "Rigveda 10.95",
+        "Shatapatha Brahmana",
+        "Vishnu Purana IV.6-7"
       ],
-      "notes": "Emperor Bharata gives India its classical name. Descends through Kuru to the Pandavas (Arjuna -> Abhimanyu -> Parikshit).",
+      "notes": "Pururavas & celestial nymph Urvashi father Ayu (leading via Nahusha to Yayati, and via Kshatravriddha to Dhanvantari [Ayurveda] & Kings of Kashi!) and Amavasu (leading via Gadhi to Sage Vishvamitra!).",
+      "major": false
+    },
+    {
+      "id": "ved_yayati",
+      "name": "Nahusha → Emperor Yayati (+ Devayani & Sharmishtha)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 5,
+      "era": "Early Vedic Horizon (Father of the 5 Peoples)",
+      "role": "Vedic Table of Nations Ancestor (Panchajana)",
+      "sources": [
+        "Rigveda 1.108.8",
+        "Mahabharata Adi Parva 75-85",
+        "Vishnu Purana IV.10"
+      ],
+      "notes": "Son of Nahusha; marries Devayani (daughter of Shukracharya / Kavi Ushanas!) and Sharmishtha (Asura princess), fathering the 5 great Vedic tribes: Yadu, Turvasu, Druhyu, Anu, and Puru!",
       "major": true
     },
     {
       "id": "ved_yadu",
-      "name": "Yadu (Yadavas → Krishna & Balarama)",
+      "name": "1. Yadu (Progenitor of Yadavas & Haihayas)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -154,14 +395,14 @@
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
-        "Vishnu Purana IV"
+        "Vishnu Purana IV.10-19"
       ],
-      "notes": "Eldest son of Yayati & Devayani; ancestor of the Yadava dynasty including Krishna and Balarama.",
+      "notes": "Eldest son of Yayati & Devayani; progenitor of the Haihayas (Kartavirya Arjuna) and Vrishni/Yadava clan of Mathura & Dvaraka (Krishna, Balarama & Kunti!).",
       "major": true
     },
     {
       "id": "ved_turvasu",
-      "name": "Turvasu",
+      "name": "2. Turvasu (Southern / Pandya-Chola-Chera Line)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -170,14 +411,14 @@
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
-        "Vishnu Purana IV"
+        "Vishnu Purana IV.10-19"
       ],
-      "notes": "Son of Yayati & Devayani; associated in Puranas with southern/western tribes.",
+      "notes": "Son of Yayati & Devayani; Puranas (Matsya/Harivamsha) trace the southern Tamil kingdoms (Pandya, Chola, Chera/Kerala) to Turvasu's line!",
       "major": false
     },
     {
       "id": "ved_druhyu",
-      "name": "Druhyu (Gandhara / NW Tribes)",
+      "name": "3. Druhyu → Gandhara → Prachetas (NW & Trans-Indus Tribes)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -186,14 +427,14 @@
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
-        "Vishnu Purana IV"
+        "Vishnu Purana IV.10-19"
       ],
-      "notes": "Son of Yayati & Sharmishtha; Puranas trace NW Gandhara and trans-Indus Central Asian/Mleccha tribes to Druhyu!",
-      "major": false
+      "notes": "Son of Yayati & Sharmishtha; ancestor of King Gandhara (eponym of Gandhara / NW Pakistan-Afghanistan) and Prachetas, whose 100 sons migrate north/west across the Indus into Central Asia (Mleccha kingdoms) in Puranic ethnography!",
+      "major": true
     },
     {
       "id": "ved_anu",
-      "name": "Anu (Anga, Vanga, Kalinga, Shibi)",
+      "name": "4. Anu → Ushinara (King Shibi) & Titikshu (Anga, Vanga, Kalinga)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -202,14 +443,14 @@
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
-        "Vishnu Purana IV"
+        "Vishnu Purana IV.10-19"
       ],
-      "notes": "Son of Yayati & Sharmishtha; ancestor of northern and eastern Indian kingdoms.",
+      "notes": "Son of Yayati & Sharmishtha; splits into Ushinara (self-sacrificing King Shibi & Madra/Kekaya in Punjab) and Titikshu -> King Bali -> 5 Eastern Kingdoms (Anga, Vanga [Bengal], Kalinga [Odisha], Pundra, Suhma)!",
       "major": false
     },
     {
       "id": "ved_puru",
-      "name": "Puru (Pauravas)",
+      "name": "5. Puru (Pauravas — Inheritor of Central Realm)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -218,42 +459,185 @@
       "sources": [
         "Rigveda 1.108.8",
         "Mahabharata Adi Parva 85",
-        "Vishnu Purana IV"
+        "Vishnu Purana IV.10-19"
       ],
-      "notes": "Youngest son of Yayati & Sharmishtha; inherits the central realm and fathers the Bharata/Kuru dynasty.",
+      "notes": "Youngest son of Yayati & Sharmishtha; trades his youth to restore his father's vigor and inherits the central throne leading to Bharata, Kuru, and the Mahabharata!",
+      "major": true
+    },
+    {
+      "id": "ved_haihaya_satvata",
+      "name": "Sahasrajit (→ Kartavirya Arjuna) & Kroshtu → Satvata → Vrishni → Shurasena",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 7,
+      "era": "Yadava Royal Line (Vishnu Purana IV.11-14)",
+      "role": "Haihaya & Vrishni Branches of Yadu",
+      "sources": [
+        "Vishnu Purana IV.11-14",
+        "Harivamsha"
+      ],
+      "notes": "Sahasrajit -> Haihaya -> thousand-armed Emperor Kartavirya Arjuna; Kroshtu -> Satvata -> Andhaka & Vrishni -> Shurasena (grandfather of Krishna and the Pandavas!).",
+      "major": false
+    },
+    {
+      "id": "ved_vasudeva_kunti",
+      "name": "Vasudeva (+ Devaki & Rohini) & Sister Kunti (Pritha)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 8,
+      "era": "Mathura / Hastinapura Bridge",
+      "role": "Parents of Krishna/Balarama & Mother of the Pandavas",
+      "sources": [
+        "Mahabharata",
+        "Bhagavata Purana X"
+      ],
+      "notes": "Children of Shurasena: Vasudeva fathers Krishna, Balarama, and Subhadra; his sister Kunti marries Kuru prince Pandu, making Krishna and the Pandavas first cousins!",
+      "major": true
+    },
+    {
+      "id": "ved_krishna_balarama",
+      "name": "Krishna (+ Rukmini), Balarama & Subhadra → Pradyumna → Vajra",
+      "altNames": [
+        "Vasudeva Krishna",
+        "Balarama",
+        "Subhadra"
+      ],
+      "tradition": "vedic",
+      "tier": 9,
+      "era": "Dvapara Yuga (Mahabharata / Bhagavad Gita)",
+      "role": "Speaker of the Bhagavad Gita & Lords of Dvaraka",
+      "sources": [
+        "Mahabharata",
+        "Bhagavad Gita",
+        "Bhagavata Purana X"
+      ],
+      "notes": "Krishna (8th Avatar of Vishnu) & Balarama rule Dvaraka; Krishna's sister Subhadra marries Pandava Arjuna (birthing Abhimanyu!), while Krishna's son Pradyumna -> Aniruddha -> Vajra survives the fall of Dvaraka to rule Indraprastha!",
+      "major": true
+    },
+    {
+      "id": "ved_dushyanta_bharata",
+      "name": "Dushyanta (+ Shakuntala) → Emperor Bharata (Eponym of India!)",
+      "altNames": [
+        "Bharatavarsha"
+      ],
+      "tradition": "vedic",
+      "tier": 7,
+      "era": "Paurava Dynasty (Mahabharata Adi Parva)",
+      "role": "Universal Sovereign & Eponym of Bharatavarsha",
+      "sources": [
+        "Mahabharata Adi Parva 74",
+        "Kalidasa Shakuntala",
+        "Vishnu Purana IV.19"
+      ],
+      "notes": "King Dushyanta (descendant of Puru) marries Shakuntala (daughter of Sage Vishvamitra & Menaka), birthing Emperor Bharata — who gives India its classical name Bharatavarsha!",
+      "major": true
+    },
+    {
+      "id": "ved_hasti_kuru",
+      "name": "Hasti (Hastinapura) → Ajamidha (→ Panchala/Drupada) → King Kuru",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 7,
+      "era": "Kuru-Panchala Horizon (c. 1200 BCE)",
+      "role": "Founders of Hastinapura, Panchala & Kurukshetra",
+      "sources": [
+        "Vishnu Purana IV.19",
+        "Mahabharata Adi Parva 94"
+      ],
+      "notes": "Hasti founds Hastinapura; Ajamidha branches into Panchala (King Drupada -> Draupadi & Dhrishtadyumna) and Samvarana (+ Tapati, daughter of Surya!) -> King Kuru (eponym of Kurukshetra & Kauravas)!",
+      "major": true
+    },
+    {
+      "id": "ved_shantanu_vyasa",
+      "name": "King Shantanu (+ Ganga → Bhishma; + Satyavati) & Sage Vyasa",
+      "altNames": [
+        "Bhishma",
+        "Krishna Dvaipayana Vyasa"
+      ],
+      "tradition": "vedic",
+      "tier": 8,
+      "era": "Mahabharata Gen 1",
+      "role": "Patriarchs of Hastinapura & Compiler of the Vedas",
+      "sources": [
+        "Mahabharata Adi Parva 95-106"
+      ],
+      "notes": "Shantanu + Goddess Ganga -> Bhishma (vow of celibacy); Shantanu + Satyavati -> Vichitravirya. Satyavati's elder son Sage Vyasa (by Rishi Parashara, great-grandson of Vashishta!) compiles the 4 Vedas & Mahabharata and sires Dhritarashtra, Pandu, and Vidura!",
+      "major": true
+    },
+    {
+      "id": "ved_kauravas",
+      "name": "Dhritarashtra (+ Gandhari) → Duryodhana, Dushasana & 100 Kauravas",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 9,
+      "era": "Mahabharata (Hastinapura)",
+      "role": "Elder Branch of the Kurus",
+      "sources": [
+        "Mahabharata"
+      ],
+      "notes": "Blind King Dhritarashtra marries Princess Gandhari of Gandhara (sister of Shakuni — uniting Kuru and NW Gandhara!), fathering Duryodhana, 99 brothers, and daughter Duhshala.",
+      "major": false
+    },
+    {
+      "id": "ved_bharata_kuru",
+      "name": "Pandu (+ Kunti & Madri) → Karna & ALL 5 Pandavas (+ Draupadi)",
+      "altNames": [
+        "Yudhishthira, Bhima, Arjuna, Nakula, Sahadeva",
+        "Karna"
+      ],
+      "tradition": "vedic",
+      "tier": 9,
+      "era": "Mahabharata (Indraprastha / Kurukshetra)",
+      "role": "Yudhishthira, Bhima, Arjuna, Nakula & Sahadeva",
+      "sources": [
+        "Mahabharata",
+        "Vishnu Purana IV.20"
+      ],
+      "notes": "Kunti bears Karna (by Surya) and Yudhishthira, Bhima (-> Ghatotkacha), & Arjuna; Madri (princess of Madra!) bears twins Nakula & Sahadeva. All 5 Pandavas wed Draupadi (Princess of Panchala); Arjuna also weds Krishna's sister Subhadra -> Abhimanyu!",
+      "major": true
+    },
+    {
+      "id": "ved_parikshit_janamejaya",
+      "name": "Abhimanyu (+ Uttara) → King Parikshit → King Janamejaya",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 10,
+      "era": "Dawn of Kali Yuga (Vishnu Purana IV.21)",
+      "role": "Post-Kurukshetra Kuru Kings",
+      "sources": [
+        "Mahabharata",
+        "Bhagavata Purana I",
+        "Vishnu Purana IV.21"
+      ],
+      "notes": "Abhimanyu (son of Arjuna & Subhadra, uniting Kurus & Yadavas!) fathers Parikshit (saved in the womb by Krishna); at his son Janamejaya's serpent sacrifice, Vaishampayana first recites the Mahabharata!",
+      "major": false
+    },
+    {
+      "id": "ved_maurya_ashoka",
+      "name": "Magadha (Jarasandha → Bimbisara) → Chandragupta Maurya → Emperor Ashoka",
+      "altNames": [
+        "Ashoka Rock Edict XIII",
+        "Chandragupta Maurya"
+      ],
+      "tradition": "vedic",
+      "tier": 13,
+      "era": "Mauryan Empire (322-232 BCE)",
+      "role": "Unifier of India & Global Inscription Bridge (Greece, Egypt & Asia!)",
+      "sources": [
+        "Vishnu Purana IV.24",
+        "Ashoka Rock Edict XIII (c. 256 BCE)",
+        "Megasthenes Indica"
+      ],
+      "notes": "Chandragupta Maurya (mentored by Chanakya) defeats Alexander's successor Seleucus I (305 BCE) and seals a marriage alliance with the Seleucid house! His grandson Emperor Ashoka the Great explicitly names Ptolemy II of Egypt, Antiochus II of Syria, and Macedon in Rock Edict XIII while sending Buddhist missions across Asia!",
       "major": true
     }
   ],
   "edges": [
     {
-      "from": "ved_yayati",
-      "to": "ved_yadu",
-      "type": "direct",
-      "label": "Child (Rigveda 1.108.8, Mahabharata Adi Parva 85, Vishnu Purana IV)"
-    },
-    {
-      "from": "ved_yayati",
-      "to": "ved_turvasu",
-      "type": "direct",
-      "label": "Child (Rigveda 1.108.8, Mahabharata Adi Parva 85, Vishnu Purana IV)"
-    },
-    {
-      "from": "ved_yayati",
-      "to": "ved_druhyu",
-      "type": "direct",
-      "label": "Child (Rigveda 1.108.8, Mahabharata Adi Parva 85, Vishnu Purana IV)"
-    },
-    {
-      "from": "ved_yayati",
-      "to": "ved_anu",
-      "type": "direct",
-      "label": "Child (Rigveda 1.108.8, Mahabharata Adi Parva 85, Vishnu Purana IV)"
-    },
-    {
-      "from": "ved_yayati",
-      "to": "ved_puru",
-      "type": "direct",
-      "label": "Child (Rigveda 1.108.8, Mahabharata Adi Parva 85, Vishnu Purana IV)"
+      "from": "hub_primordial",
+      "to": "ved_dyaus_prithvi",
+      "type": "parallel",
+      "label": "Primordial Sky-Father & Earth-Mother"
     },
     {
       "from": "hub_primordial",
@@ -262,10 +646,46 @@
       "label": "Svayambhuva Manu & Shatarupa"
     },
     {
+      "from": "grk_zeus_olympians",
+      "to": "ved_dyaus_prithvi",
+      "type": "cognate",
+      "label": "EXACT Proto-Indo-European cognate: Greek Zeus Pater = Vedic Dyaus Pitr!"
+    },
+    {
+      "from": "ved_brahma_manu",
+      "to": "ved_priyavrata_rishabha",
+      "type": "direct",
+      "label": "Svayambhuva Manu -> Priyavrata -> ... -> Rishabhanatha"
+    },
+    {
+      "from": "ved_brahma_manu",
+      "to": "ved_uttanapada_dhruva",
+      "type": "direct",
+      "label": "Svayambhuva Manu -> Uttanapada (-> Dhruva) & Prasuti (+ Daksha)"
+    },
+    {
+      "from": "ved_brahma_manu",
+      "to": "ved_saptarishis_bhrigu",
+      "type": "direct",
+      "label": "Brahma -> Vashishta, Pulastya, Bhrigu & Angiras"
+    },
+    {
       "from": "ved_brahma_manu",
       "to": "ved_kashyapa",
       "type": "direct",
       "label": "Brahma -> Marichi -> Kashyapa"
+    },
+    {
+      "from": "ved_uttanapada_dhruva",
+      "to": "ved_kashyapa",
+      "type": "direct",
+      "label": "Daksha's daughters (Aditi, Diti, Danu, Kadru, Vinata) marry Kashyapa"
+    },
+    {
+      "from": "ved_kashyapa",
+      "to": "ved_prahlada_bali",
+      "type": "direct",
+      "label": "Kashyapa + Diti -> Hiranyakashipu -> Prahlada -> Mahabali"
     },
     {
       "from": "ved_kashyapa",
@@ -286,34 +706,16 @@
       "label": "Son (Shatapatha Brahmana)"
     },
     {
-      "from": "ved_brahma_manu",
+      "from": "ved_saptarishis_bhrigu",
       "to": "ved_trita_aptya",
       "type": "expansion",
-      "label": "Rigvedic mythic heroes Trita Aptya & Kavi Ushanas"
+      "label": "Bhrigu -> Kavi Ushanas (Shukracharya) & Rigvedic Trita Aptya"
     },
     {
       "from": "ved_vaivasvata_manu",
-      "to": "ved_surya_vamsha",
+      "to": "ved_manu_other_sons",
       "type": "direct",
-      "label": "Son Ikshvaku -> Solar Dynasty"
-    },
-    {
-      "from": "ved_vaivasvata_manu",
-      "to": "ved_yayati",
-      "type": "direct",
-      "label": "Via Ila + Budha -> Pururavas -> Yayati"
-    },
-    {
-      "from": "ved_brahma_manu",
-      "to": "ved_yayati",
-      "type": "direct",
-      "label": "Brahma -> Atri -> Soma -> Budha"
-    },
-    {
-      "from": "ved_puru",
-      "to": "ved_bharata_kuru",
-      "type": "direct",
-      "label": "Puru -> Bharata -> Kuru -> Pandavas"
+      "label": "8 sons of Vaivasvata Manu (Vishnu Purana IV.1)"
     },
     {
       "from": "ir_vivanghant",
@@ -343,19 +745,253 @@
       "from": "hub_flood",
       "to": "ved_vaivasvata_manu",
       "type": "parallel",
-      "label": "Ship towed by Matsya to Himalayas"
-    },
-    {
-      "from": "hub_world_division",
-      "to": "ved_yayati",
-      "type": "parallel",
-      "label": "Yayati's 5 Sons (Panchajana)"
+      "label": "Ship towed by Matsya to the Himalayas (Shatapatha Brahmana 1.8.1)"
     },
     {
       "from": "bib_abraham",
       "to": "ved_brahma_manu",
       "type": "syncretic",
       "label": "Folkloric/syncretic comparison of Abraham/Sarah <-> Brahma/Saraswati (non-cognate)"
+    },
+    {
+      "from": "ved_vaivasvata_manu",
+      "to": "ved_ikshvaku",
+      "type": "direct",
+      "label": "Eldest son (Vishnu Purana IV.2)"
+    },
+    {
+      "from": "ved_ikshvaku",
+      "to": "ved_nimi_janaka",
+      "type": "direct",
+      "label": "Son Nimi -> Videha Dynasty -> King Janaka"
+    },
+    {
+      "from": "ved_ikshvaku",
+      "to": "ved_mandhata_harishchandra",
+      "type": "direct",
+      "label": "Vikukshi -> Kakutstha -> Mandhata -> Trishanku -> Harishchandra"
+    },
+    {
+      "from": "ved_mandhata_harishchandra",
+      "to": "ved_sagara_bhagiratha",
+      "type": "direct",
+      "label": "Rohita -> ... -> Sagara -> Anshuman -> Dilipa I -> Bhagiratha"
+    },
+    {
+      "from": "ved_sagara_bhagiratha",
+      "to": "ved_raghu_dasharatha",
+      "type": "direct",
+      "label": "Ambarisha -> ... -> Dilipa II -> Raghu -> Aja -> Dasharatha"
+    },
+    {
+      "from": "ved_raghu_dasharatha",
+      "to": "ved_surya_vamsha",
+      "type": "direct",
+      "label": "Sons Rama, Bharata, Lakshmana & Shatrughna (Ramayana)"
+    },
+    {
+      "from": "ved_nimi_janaka",
+      "to": "ved_surya_vamsha",
+      "type": "direct",
+      "label": "King Janaka's daughter Sita marries Rama"
+    },
+    {
+      "from": "ved_surya_vamsha",
+      "to": "ved_lava_kusha",
+      "type": "direct",
+      "label": "Twin sons Lava & Kusha -> Brihadbala"
+    },
+    {
+      "from": "ved_ikshvaku",
+      "to": "ved_buddha",
+      "type": "expansion",
+      "label": "Pali Canon (Ambattha Sutta / Mahavamsa): Okkaka (Ikshvaku) -> Shakya Clan -> Shuddhodana -> Gautama Buddha!"
+    },
+    {
+      "from": "ved_buddha",
+      "to": "jpn_jingu_ojin",
+      "type": "cognate",
+      "label": "Buddhism spreads from India through China & Baekje Korea to Prince Shotoku's Japan!"
+    },
+    {
+      "from": "ved_brahma_manu",
+      "to": "ved_atri_soma",
+      "type": "direct",
+      "label": "Brahma -> Atri -> Soma (Chandra) -> Budha"
+    },
+    {
+      "from": "ved_vaivasvata_manu",
+      "to": "ved_atri_soma",
+      "type": "direct",
+      "label": "Child Ila marries Budha (uniting Solar & Lunar lines!)"
+    },
+    {
+      "from": "ved_atri_soma",
+      "to": "ved_pururavas_ayu",
+      "type": "direct",
+      "label": "Budha + Ila -> Pururavas -> Ayu & Amavasu"
+    },
+    {
+      "from": "ved_pururavas_ayu",
+      "to": "ved_yayati",
+      "type": "direct",
+      "label": "Ayu -> Nahusha -> Yayati"
+    },
+    {
+      "from": "ved_trita_aptya",
+      "to": "ved_yayati",
+      "type": "direct",
+      "label": "Shukracharya (Kavi Ushanas)'s daughter Devayani marries Yayati"
+    },
+    {
+      "from": "hub_world_division",
+      "to": "ved_yayati",
+      "type": "parallel",
+      "label": "Yayati's 5 Sons (Panchajana — Vedic Table of Nations)"
+    },
+    {
+      "from": "ved_yayati",
+      "to": "ved_yadu",
+      "type": "direct",
+      "label": "Child (Rigveda 1.108.8, Mahabharata Adi Parva 85, Vishnu Purana IV.10-19)"
+    },
+    {
+      "from": "ved_yayati",
+      "to": "ved_turvasu",
+      "type": "direct",
+      "label": "Child (Rigveda 1.108.8, Mahabharata Adi Parva 85, Vishnu Purana IV.10-19)"
+    },
+    {
+      "from": "ved_yayati",
+      "to": "ved_druhyu",
+      "type": "direct",
+      "label": "Child (Rigveda 1.108.8, Mahabharata Adi Parva 85, Vishnu Purana IV.10-19)"
+    },
+    {
+      "from": "ved_yayati",
+      "to": "ved_anu",
+      "type": "direct",
+      "label": "Child (Rigveda 1.108.8, Mahabharata Adi Parva 85, Vishnu Purana IV.10-19)"
+    },
+    {
+      "from": "ved_yayati",
+      "to": "ved_puru",
+      "type": "direct",
+      "label": "Child (Rigveda 1.108.8, Mahabharata Adi Parva 85, Vishnu Purana IV.10-19)"
+    },
+    {
+      "from": "ved_yadu",
+      "to": "ved_haihaya_satvata",
+      "type": "direct",
+      "label": "Yadu -> Sahasrajit (Haihayas) & Kroshtu -> Vrishni -> Shurasena"
+    },
+    {
+      "from": "ved_haihaya_satvata",
+      "to": "ved_vasudeva_kunti",
+      "type": "direct",
+      "label": "Shurasena -> Vasudeva & Kunti (Pritha)"
+    },
+    {
+      "from": "ved_vasudeva_kunti",
+      "to": "ved_krishna_balarama",
+      "type": "direct",
+      "label": "Vasudeva (+ Devaki/Rohini) -> Krishna, Balarama & Subhadra -> Pradyumna -> Vajra"
+    },
+    {
+      "from": "ved_puru",
+      "to": "ved_dushyanta_bharata",
+      "type": "direct",
+      "label": "Puru -> ... -> Dushyanta (+ Shakuntala) -> Emperor Bharata"
+    },
+    {
+      "from": "ved_pururavas_ayu",
+      "to": "ved_dushyanta_bharata",
+      "type": "direct",
+      "label": "Vishvamitra (from Amavasu) -> Shakuntala -> Emperor Bharata"
+    },
+    {
+      "from": "ved_dushyanta_bharata",
+      "to": "ved_hasti_kuru",
+      "type": "direct",
+      "label": "Bharata -> Hasti -> Ajamidha -> Samvarana -> King Kuru"
+    },
+    {
+      "from": "ved_vivasvan",
+      "to": "ved_hasti_kuru",
+      "type": "direct",
+      "label": "Surya's daughter Tapati marries Samvarana -> King Kuru"
+    },
+    {
+      "from": "ved_hasti_kuru",
+      "to": "ved_shantanu_vyasa",
+      "type": "direct",
+      "label": "Kuru -> ... -> Pratipa -> Shantanu"
+    },
+    {
+      "from": "ved_saptarishis_bhrigu",
+      "to": "ved_shantanu_vyasa",
+      "type": "direct",
+      "label": "Vashishta -> Shakti -> Parashara -> Sage Vyasa"
+    },
+    {
+      "from": "ved_shantanu_vyasa",
+      "to": "ved_kauravas",
+      "type": "direct",
+      "label": "Vyasa -> Dhritarashtra (+ Gandhari) -> 100 Kauravas"
+    },
+    {
+      "from": "ved_druhyu",
+      "to": "ved_kauravas",
+      "type": "cognate",
+      "label": "Queen Gandhari hails from NW Gandhara (Druhyu horizon)"
+    },
+    {
+      "from": "ved_shantanu_vyasa",
+      "to": "ved_bharata_kuru",
+      "type": "direct",
+      "label": "Vyasa -> Pandu -> 5 Pandavas"
+    },
+    {
+      "from": "ved_vasudeva_kunti",
+      "to": "ved_bharata_kuru",
+      "type": "direct",
+      "label": "Kunti (sister of Vasudeva) marries Pandu — uniting Yadavas & Kurus!"
+    },
+    {
+      "from": "ved_bharata_kuru",
+      "to": "ved_parikshit_janamejaya",
+      "type": "direct",
+      "label": "Arjuna -> Abhimanyu -> Parikshit -> Janamejaya"
+    },
+    {
+      "from": "ved_krishna_balarama",
+      "to": "ved_parikshit_janamejaya",
+      "type": "direct",
+      "label": "Subhadra (sister of Krishna) + Arjuna -> Abhimanyu -> Parikshit!"
+    },
+    {
+      "from": "ved_parikshit_janamejaya",
+      "to": "ved_maurya_ashoka",
+      "type": "expansion",
+      "label": "Vishnu Purana IV.24 royal chronology -> Magadha -> Mauryan Empire -> Ashoka"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "ved_maurya_ashoka",
+      "type": "cognate",
+      "label": "Chandragupta Maurya defeats Seleucus I (305 BCE) & seals Seleucid marriage treaty (Megasthenes)"
+    },
+    {
+      "from": "ved_maurya_ashoka",
+      "to": "eg_ptolemy_cleopatra",
+      "type": "cognate",
+      "label": "Ashoka Rock Edict XIII (c. 256 BCE) explicitly names Ptolemy II of Egypt (Turamaya) as recipient of Dharma envoys!"
+    },
+    {
+      "from": "ved_buddha",
+      "to": "ved_maurya_ashoka",
+      "type": "expansion",
+      "label": "Emperor Ashoka champions Gautama Buddha's Dharma across Sri Lanka, Central Asia & the Mediterranean"
     }
   ]
 }
