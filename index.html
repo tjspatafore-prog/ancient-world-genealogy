@@ -72,7 +72,7 @@
           <h1 class="text-sm font-semibold leading-tight">Ancient World Genealogy Atlas</h1>
           <span id="versionBadge" class="text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono">Loading…</span>
         </div>
-        <p class="text-[11px] text-[var(--muted-foreground)]">Complete Global Atlas • 24 Modules • 31 Primary Sources • World Migration Map • Deep Timeline • Y-DNA &amp; mtDNA Overlay</p>
+        <p class="text-[11px] text-[var(--muted-foreground)]">Complete Global Atlas • 25 Modules • 31 Primary Sources • Living Abrahamic Lines to 2026 • World Map • Deep Timeline • Y-DNA</p>
       </div>
     </div>
 
@@ -272,7 +272,7 @@
       <!-- 3. DEEP-TIME CHRONOLOGICAL TIMELINE VIEW -->
       <div id="timelineContainer" class="hidden w-full h-full flex flex-col overflow-hidden">
         <div class="shrink-0 px-4 py-2.5 border-b border-[var(--border)] bg-[var(--card)] flex items-center justify-between text-xs">
-          <span class="font-semibold">Deep-Time Comparative Timeline (300,000 BCE → 1500 CE)</span>
+          <span class="font-semibold">Deep-Time Comparative Timeline (300,000 BCE → 2026 CE)</span>
           <span class="text-[var(--muted-foreground)]">Grouped by archaeogenetic, mythic &amp; historical horizons • Click any card to inspect or open Family Tree</span>
         </div>
         <div id="timelineBody" class="flex-1 overflow-y-auto thin-scroll p-4 space-y-5"></div>
@@ -339,7 +339,10 @@ const TIER_NAMES = {
   16: "King Solomon, Queen Makeda (Sheba), Merneptah (Israel Stele), Shoshenq I, Taharqa, Sundiata",
   17: "Divided Kingdom (All 20 Judah & 19 Israel Kings), Prophets, Ezra, Menelik I, Kandakes, Cleopatra VII",
   18: "Post-Exilic & Second Temple (Esther/Mordecai, Matthew 1 & Luke 3 Lines, Herodians / Idumeans)",
-  19: "1st Century CE (Jesus of Nazareth, John the Baptist & Apostle Paul)"
+  19: "1st Century CE to Medieval Empires (Jesus, Apostles, Rome/Byzantium, Sasanians, Muhammad, Charlemagne, Genghis Khan)",
+  20: "High Medieval Continuity (661–1540 CE: Babylonian Exilarchs, Sharifs of Mecca, Solomonic & Bagrationi Dynasties)",
+  21: "Early Modern to 20th Century (1540–1999 CE: Abravanel, Maharal, Erekle II, Haile Selassie, King Hussein)",
+  22: "PRESENT DAY (2000–2026 CE: Living Royal Houses of Jordan, Morocco, Ethiopia, Georgia, Aga Khan V, Rabbinic Lines & Y-DNA)"
 };
 
 // Geographic Civilization & DNA Migration Pins for World Map (lat, lon -> equirectangular 1200x600)
@@ -378,7 +381,9 @@ const MAP_PINS = [
   { id:"pin_khwarazm", label:"Khwarazm (Afrighids / Al-Biruni)", lat:42, lon:60, nodeId:"bir_khwarazm_afrighids", trad:"iranian", desc:"Al-Biruni's homeland: 22 unbroken Afrighid Khwarazmshahs from Siyawush & Kay Khosrow (305-995 CE) & Parthian Ashkanians" },
   { id:"pin_bactria", label:"Bactria & Gandhara", lat:36, lon:68, nodeId:"cls_bactria_menander", trad:"greek", desc:"Greco-Bactrian & Indo-Greek Kings (Diodotus, Demetrius, Menander/King Milinda) & Vedic Druhyu Gandhara bridge" },
   { id:"pin_karakorum", label:"Karakorum (Mongol Borjigin)", lat:47, lon:103, nodeId:"mng_genghis_khan_borte", trad:"steppe", desc:"Secret History of the Mongols: 22-Gen Borjigin lineage from Börte Čino & Alan Qo'a -> Genghis Khan -> Batu, Ögödei, Möngke & Kublai Khan" },
-  { id:"pin_frankia", label:"Aachen & Wessex (Europe)", lat:51, lon:6, nodeId:"eur_merovingian_carolingian", trad:"europe_norse", desc:"Merovingians (Clovis), Carolingians (Charlemagne), Wessex (Alfred the Great -> Woden -> Sceaf/Noah) & Normans (Betham/Anderson)" }
+  { id:"pin_frankia", label:"Aachen & Wessex (Europe)", lat:51, lon:6, nodeId:"eur_merovingian_carolingian", trad:"europe_norse", desc:"Merovingians (Clovis), Carolingians (Charlemagne), Wessex (Alfred the Great -> Woden -> Sceaf/Noah) & Normans (Betham/Anderson)" },
+  { id:"pin_amman", label:"Amman (Living Hashemites 2026)", lat:31.9, lon:36.2, nodeId:"mod_abdullah2_hussein_iman", trad:"arabian", desc:"Abraham -> Ishmael -> Muhammad -> Qatadah (1201) -> Living King Abdullah II, Crown Prince Hussein & Princess Iman (b. 2024)" },
+  { id:"pin_morocco", label:"Rabat (Living Alaouites 2026)", lat:34, lon:-6.8, nodeId:"mod_alaouite_morocco", trad:"arabian", desc:"Hasan al-Muthanna -> Hassan al-Dakhil -> Living King Mohammed VI & Crown Prince Moulay Hassan of Morocco" }
 ];
 
 const MAP_ARCS = [
@@ -1073,7 +1078,8 @@ const TIMELINE_EPOCHS = [
   { title: "Epoch 5 • Patriarchal, Heroic & Late Bronze Age (c. 2000–1000 BCE • Tiers 8–11)", desc: "Abraham's 8 Sons, Sargon of Akkad, Ur III, Hammurabi, Rama, Krishna & Pandavas, Zarathustra, Trojan War (Priam/Aeneas), Emperor Jimmu, Qin/Confucius", filter: n => n.tradition !== "dna" && n.tier >= 8 && n.tier <= 11 && n.major },
   { title: "Epoch 6 • Iron Age, Axial Age & Classical Empires (c. 1200–300 BCE • Tiers 12–15)", desc: "Moses, Ramesses II, Merneptah (Israel Stele), King David, Cyrus the Great, Gautama Buddha, Alexander the Great, Chandragupta & Emperor Ashoka, Romulus & Remus, Brutus of Troy", filter: n => n.tradition !== "dna" && n.tier >= 12 && n.tier <= 15 && n.major },
   { title: "Epoch 7 • Classical, Hellenistic, Aksumite & Pacific Voyaging (600 BCE – 1 CE • Tiers 16–18)", desc: "Solomon & Makeda -> Menelik I, Taharqa, Saite & Last Native Pharaohs (Nectanebo II), Hasmoneans, Herodians, Lydia (Croesus), Hannibal Barca, Seleucids, Bactria (Menander), Parthians, Parnavaz I of Georgia, Cleopatra VII", filter: n => n.tradition !== "dna" && n.tier >= 16 && n.tier <= 18 && n.major },
-  { title: "Epoch 8 • 1st Century CE to Medieval Universal Empires (1 CE – 1453 CE • Tier 19)", desc: "Jesus of Nazareth & 12 Apostles, Roman & Byzantine Emperors (Augustus -> Constantine -> Justinian), Sasanians, Afrighid Khwarazm, Mirian III & Bagrationi Georgia, Kaleb of Aksum, Prophet Muhammad, Charlemagne, Alfred the Great, Gupta India, Han/Tang China & Genghis/Kublai Khan", filter: n => n.tradition !== "dna" && n.tier >= 19 && n.major }
+  { title: "Epoch 8 • 1st Century CE to Medieval Universal Empires (1 CE – 1453 CE • Tier 19)", desc: "Jesus of Nazareth & 12 Apostles, Roman & Byzantine Emperors (Augustus -> Constantine -> Justinian), Sasanians, Afrighid Khwarazm, Mirian III & Bagrationi Georgia, Kaleb of Aksum, Prophet Muhammad, Charlemagne, Alfred the Great, Gupta India, Han/Tang China & Genghis/Kublai Khan", filter: n => n.tradition !== "dna" && n.tier === 19 && n.major },
+  { title: "Epoch 9 • Medieval Bridges to Living Descendants Today (1200 – 2026 CE • Tiers 20–22)", desc: "Abraham's 5 Living Branches Today: Hashemites of Jordan (King Abdullah II -> Crown Prince Hussein -> Princess Iman b. 2024), Alaouites of Morocco (King Mohammed VI), Aga Khan V (2025), Ethiopian Solomonids (Prince Zera Yacob & Ermias), Georgian Bagrationis (Prince Giorgi b. 2011), Exilarchs -> Rashi/Maharal/Abravanel & Living Y-DNA Kohanim/Hashemites!", filter: n => n.tier >= 20 && n.major }
 ];
 
 function renderTimeline() {

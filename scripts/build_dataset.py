@@ -20,6 +20,7 @@ from modules import (
     mod22_east_asia_mongols,
     mod23_celtic_lebor_gabala,
     mod24_classical_empires_universal,
+    mod25_abraham_to_present_day,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1247,6 +1248,7 @@ def main():
         mod22_east_asia_mongols.build_module(),
         mod23_celtic_lebor_gabala.build_module(),
         mod24_classical_empires_universal.build_module(),
+        mod25_abraham_to_present_day.build_module(),
     ]
 
     all_nodes, all_edges = [], []
@@ -1279,8 +1281,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — 31-Source Master Global Archive (Phase 11)",
-            "version": "11.0.0",
+            "title": "Ancient World Genealogy Atlas — 31 Sources + Living Abrahamic Lines to 2026 (Phase 12)",
+            "version": "12.0.0",
             "modules": module_summaries,
             "linkTypes": LINK_TYPES,
         },
