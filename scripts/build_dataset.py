@@ -16,18 +16,20 @@ OUT_ALL = ROOT / "data" / "world_genealogy.json"
 OUT_CORE = ROOT / "data" / "genealogy_core.json"
 
 TRADITIONS = {
-    "archetype":    {"label": "Global Convergence Hubs",        "region": "Worldwide Comparative Layer",  "color": "#6366f1", "order": 0},
-    "african":      {"label": "African, Cushite & Ethiopian",   "region": "Nubia / Ethiopia / Africa",    "color": "#16a34a", "order": 1},
-    "levant_egypt": {"label": "Egyptian & Canaanite-Phoenician","region": "Nile / Eastern Mediterranean", "color": "#0d9488", "order": 2},
-    "greek":        {"label": "Greek & Mediterranean",          "region": "Aegean / Anatolia / Italy",    "color": "#0284c7", "order": 3},
-    "biblical":     {"label": "Biblical & Extra-Biblical",      "region": "Levant / Ancient Near East",   "color": "#d97706", "order": 4},
-    "arabian":      {"label": "Arabian (Adnanite & Qahtanite)", "region": "Arabian Peninsula",            "color": "#ca8a04", "order": 5},
-    "mesopotamian": {"label": "Mesopotamian (Sumer / Akkad)",   "region": "Mesopotamia",                  "color": "#2563eb", "order": 6},
-    "iranian":      {"label": "Iranian / Zoroastrian",          "region": "Iranian Plateau / Central Asia","color": "#9333ea", "order": 7},
-    "vedic":        {"label": "Vedic & Puranic Indian",         "region": "South Asia / Indus-Ganges",    "color": "#ea580c", "order": 8},
-    "steppe":       {"label": "Eurasian Steppe / Turkic",       "region": "Inner Asia / Eurasian Steppe", "color": "#059669", "order": 9},
-    "chinese":      {"label": "Ancient Chinese (Sinitic)",      "region": "East Asia / Yellow River",     "color": "#dc2626", "order": 10},
-    "japan_korea":  {"label": "Ancient Japanese & Korean",      "region": "East Asia / Archipelago",      "color": "#db2777", "order": 11},
+    "archetype":       {"label": "Global Convergence Hubs",        "region": "Worldwide Comparative Layer",  "color": "#6366f1", "order": 0},
+    "americas_pacific":{"label": "Americas & Polynesia",           "region": "Americas & Pacific Oceania",   "color": "#0e7490", "order": 1},
+    "europe_norse":    {"label": "Celtic, Norse & European",       "region": "Northern & Western Europe",    "color": "#4f46e5", "order": 2},
+    "african":         {"label": "African, Cushite & Ethiopian",   "region": "Nubia / Ethiopia / Africa",    "color": "#16a34a", "order": 3},
+    "levant_egypt":    {"label": "Egyptian & Canaanite-Phoenician","region": "Nile / Eastern Mediterranean", "color": "#0d9488", "order": 4},
+    "greek":           {"label": "Greek & Mediterranean",          "region": "Aegean / Anatolia / Italy",    "color": "#0284c7", "order": 5},
+    "biblical":        {"label": "Biblical & Extra-Biblical",      "region": "Levant / Ancient Near East",   "color": "#d97706", "order": 6},
+    "arabian":         {"label": "Arabian (Adnanite & Qahtanite)", "region": "Arabian Peninsula",            "color": "#ca8a04", "order": 7},
+    "mesopotamian":    {"label": "Mesopotamian (Sumer / Akkad)",   "region": "Mesopotamia",                  "color": "#2563eb", "order": 8},
+    "iranian":         {"label": "Iranian / Zoroastrian",          "region": "Iranian Plateau / Central Asia","color": "#9333ea", "order": 9},
+    "vedic":           {"label": "Vedic & Puranic Indian",         "region": "South Asia / Indus-Ganges",    "color": "#ea580c", "order": 10},
+    "steppe":          {"label": "Eurasian Steppe / Turkic",       "region": "Inner Asia / Eurasian Steppe", "color": "#059669", "order": 11},
+    "chinese":         {"label": "Ancient Chinese (Sinitic)",      "region": "East Asia / Yellow River",     "color": "#dc2626", "order": 12},
+    "japan_korea":     {"label": "Ancient Japanese & Korean",      "region": "East Asia / Archipelago",      "color": "#db2777", "order": 13},
 }
 
 LINK_TYPES = {
@@ -566,6 +568,220 @@ def build_module_11_korean_japanese():
     return {"module": "11_korean_japanese", "title": "Exhaustive Ancient Korean & Japanese Genealogy (Samguk Yusa, Samguk Sagi, Kojiki & Nihon Shoki)", "nodes": nodes, "edges": edges}
 
 
+def build_module_12_celtic_norse_europe():
+    nodes, edges = [], []
+
+    # 1. Norse & Germanic Cosmology (Poetic Edda, Prose Edda, Heimskringla, Tacitus Germania)
+    nodes += [
+        N("eur_ymir_borr", "Ymir & Auðumbla → Búri → Borr & Bestla", "europe_norse", 1, "Primordial Norse Cosmogony (Poetic & Prose Edda)",
+          "Primordial Frost Giant & Ancestors of the Aesir", ["Völuspá", "Snorri Sturluson Prose Edda (Gylfaginning)"],
+          "From ice and fire in Ginnungagap emerge giant Ymir and cosmic cow Auðumbla, who licks Búri from salty ice -> Borr (+ giantess Bestla) -> Odin, Vili, and Vé! Note: Bergelmir survives the blood-deluge of Ymir in a wooden boat/box (Norse Flood motif!).",
+          ["Bergelmir (Norse Flood Survivor)"], major=True),
+        N("eur_odin_ask_embla", "Odin, Vili & Vé → Ask & Embla (First Humans)", "europe_norse", 2, "Norse Creation (Völuspá 17-18)",
+          "Creators of Midgard & First Mortal Couple", ["Poetic Edda (Völuspá)", "Prose Edda"],
+          "Odin, Vili, and Vé shape the world from Ymir and breathe spirit, mind, and warmth into two shoreline trees (Ash & Elm) to create Ask & Embla, progenitors of humanity!",
+          ["Woden", "Ask & Embla"], major=True),
+        N("eur_thor_tyr_baldr", "Thor, Baldr (→ Forseti), Týr (= Zeus/Dyaus!) & Víðarr", "europe_norse", 3, "Norse Aesir Pantheon",
+          "Sons of Odin & Proto-Indo-European Sky-God Týr", ["Prose Edda", "Poetic Edda"],
+          "Odin's sons include Thor (Thunder), Baldr, and Víðarr; Týr (*Tiwaz) is the EXACT Proto-Indo-European linguistic cognate of Vedic Dyaus Pitr and Greek Zeus Pater!",
+          ["Tiwaz = Zeus / Dyaus Pitr"], major=True),
+        N("eur_snorri_troy", "Snorri's Euhemeristic Bridge: Priam → Tror (Thor) → Voden (Odin)", "europe_norse", 11, "Prose Edda Prologue (13th c. Chronicle)",
+          "Medieval Norse Chronicle Linking Troy & Aethiopia to Scandinavia!", ["Snorri Sturluson Prose Edda Prologue", "Heimskringla (Ynglinga Saga)"],
+          "In his Prose Edda Prologue, Snorri Sturluson explicitly derives the Norse Aesir ('Men of Asia') from King Priam of Troy -> daughter Troan (+ King Munon/Memnon!) -> Tror (Thor) -> 18 generations -> Voden (Odin), who migrates north from Troy/Asia to Sweden and Denmark!",
+          ["Aesir = 'Men of Asia'", "Troy -> Asgard Bridge"], major=True),
+        N("eur_ynglings_skjoldungs", "Yngvi-Freyr (Ynglings → Harald Fairhair) & Skjöldr (Scyld → Beowulf)", "europe_norse", 12, "Viking & Migration Age Royal Houses",
+          "Founders of Swedish, Norwegian & Danish Dynasties", ["Heimskringla (Ynglinga Saga)", "Beowulf", "Volsunga Saga"],
+          "Odin's lines produce Skjöldr (Scyld Scefing of Beowulf, ancestor of Danish kings), Yngvi-Freyr (Vanir son of Njörðr -> Swedish & Norwegian Yngling kings -> Harald Fairhair!), and Sigi -> Volsung -> Sigmund -> Sigurd the Dragon-Slayer!"),
+        N("eur_tuisto_mannus", "Tuisto → Mannus (= Vedic Manu!) → Ingaevones, Herminones & Istaevones", "europe_norse", 5, "98 CE (Tacitus Germania Ch. 2)",
+          "Germanic Table of Nations & PIE Cognate of Manu!", ["Tacitus Germania Ch. 2"],
+          "Roman historian Tacitus records ancient Germanic origin songs tracing all Germanic peoples to Earth-born Tuisto -> Mannus (EXACT Proto-Indo-European cognate of Vedic Manu!) -> three sons founding the Ingaevones (North Sea), Herminones (Central), and Istaevones (Rhine/Franks)!",
+          ["Mannus = Vedic Manu", "Germanic 3-Branch Ethnogenesis"], major=True),
+    ]
+    edges += [
+        E("hub_primordial", "eur_ymir_borr", "parallel", "Primordial cosmic body & creation"),
+        E("hub_flood", "eur_ymir_borr", "parallel", "Giant Bergelmir & wife survive Ymir's blood-deluge in a wooden boat/box (Prose Edda)"),
+        E("eur_ymir_borr", "eur_odin_ask_embla", "direct", "Borr + Bestla -> Odin, Vili & Vé -> Ask & Embla"),
+        E("eur_odin_ask_embla", "eur_thor_tyr_baldr", "direct", "Odin -> Thor, Baldr, Víðarr & Aesir pantheon"),
+        E("grk_zeus_olympians", "eur_thor_tyr_baldr", "cognate", "EXACT Proto-Indo-European cognate: Norse Týr (*Tiwaz) = Greek Zeus = Vedic Dyaus!"),
+        E("ved_dyaus_prithvi", "eur_thor_tyr_baldr", "cognate", "EXACT Proto-Indo-European cognate: Vedic Dyaus = Germanic *Tiwaz (Týr)"),
+        E("grk_priam_hector", "eur_snorri_troy", "syncretic", "Snorri's Prose Edda Prologue traces Thor/Odin from King Priam of Troy!"),
+        E("eur_snorri_troy", "eur_ynglings_skjoldungs", "expansion", "Odin -> Skjöldr (Danes/Beowulf), Yngvi-Freyr (Ynglings) & Volsung/Sigurd"),
+        E("eur_odin_ask_embla", "eur_ynglings_skjoldungs", "direct", "Royal Scandinavian descent from Odin & Njörðr/Freyr"),
+        E("ved_vaivasvata_manu", "eur_tuisto_mannus", "cognate", "Proto-Indo-European linguistic cognate: Germanic progenitor Mannus (Tacitus) = Vedic Manu!"),
+        E("hub_world_division", "eur_tuisto_mannus", "parallel", "Mannus's 3 Sons (Ingaevones, Herminones, Istaevones) divide Germania"),
+    ]
+
+    # 2. Celtic / Irish Lebor Gabála Érenn (Book of Invasions — Noah -> Japheth -> Egypt/Scota -> Spain -> Ireland!)
+    nodes += [
+        N("eur_fenius_farsaid", "Fénius Farsaid (Scythian Inventor of Gaelic at Babel) → Nel", "europe_norse", 8, "Lebor Gabála Érenn (Irish Book of Invasions)",
+          "Descendant of Japheth/Magog & Linguistic Sage at Babel", ["Lebor Gabála Érenn (11th c.)", "Auraicept na n-Éces"],
+          "Medieval Irish chronicles trace Gaelic ancestry from Noah -> Japheth -> Magog -> Baath -> Fénius Farsaid, a Scythian king who creates the Gaelic language and Ogham script from the 72 tongues at the Tower of Babel! Father of Nel."),
+        N("eur_scota_goidel", "Nel + Princess Scota (Daughter of Pharaoh!) → Goídel Glas (Gaels)", "europe_norse", 10, "Lebor Gabála Érenn (Egypt → Spain Bridge)",
+          "Irish-Egyptian Chronicle Bridge (Eponym of Gaels & Scots!)", ["Lebor Gabála Érenn", "Declaration of Arbroath (1320)"],
+          "Nel journeys to Egypt, befriends Moses during the Exodus, and marries Princess Scota (daughter of Pharaoh Cingris!). Their son Goídel Glas gives his name to the Gaels (Goidelic Irish & Scottish), while Scota gives her name to Scotland!",
+          ["Princess Scota of Egypt", "Goídel Glas (Gaels)"], major=True),
+        N("eur_milesians", "Breogán (Spain) → Míl Espáine → Éber Finn, Éremón & Amairgin (Milesians)", "europe_norse", 12, "Settlement of Ireland (Lebor Gabála Érenn)",
+          "Ancestors of the Gaelic Irish & Scottish High Kings", ["Lebor Gabála Érenn"],
+          "Descended from Goídel Glas -> Sru -> Éber Scot -> Breogán (builder of the Tower of Brigantia in Galicia, Spain) -> Míl Espáine! His sons Éber Finn, Éremón, and poet-druid Amairgin sail from Spain to Ireland and defeat the Tuatha Dé Danann.", major=True),
+        N("eur_tuatha_de", "Cessair, Partholón, Nemed & Tuatha Dé Danann (Danu, Dagda, Lugh, Brigid)", "europe_norse", 6, "Mythological Cycle of Ireland",
+          "Pre-Milesian Mythic Waves & Irish Deities", ["Lebor Gabála Érenn", "Cath Maige Tuired"],
+          "Begins with Noah's granddaughter Cessair arriving in Ireland before the Flood, followed by Partholón, Nemed, Fir Bolg, and the divine Tuatha Dé Danann (Danu, The Dagda, Nuada, Brigid, and sun-hero Lugh -> father of Cú Chulainn!).",
+          ["Lugh & Cú Chulainn", "Fionn mac Cumhaill"], major=True),
+        N("eur_niall_macalpin", "Niall of the Nine Hostages (Uí Néill) & Fergus Mór → Kenneth MacAlpin", "europe_norse", 15, "4th-9th c. CE (Ireland & Scotland)",
+          "Irish High Kings & 1st King of Scots", ["Annals of Ulster", "Senchus Fer n-Alban"],
+          "Milesian royal lines produce Niall of the Nine Hostages (ancestor of the Uí Néill High Kings of Ireland) and Fergus Mór of Dál Riata -> Kenneth MacAlpin (Cináed mac Ailpín, unifier of Picts & Scots, 843 CE!)."),
+    ]
+    edges += [
+        E("bib_magog", "eur_fenius_farsaid", "syncretic", "Lebor Gabála Érenn traces Irish Gaels from Japheth -> Magog -> Fénius Farsaid!"),
+        E("eur_fenius_farsaid", "eur_scota_goidel", "direct", "Fénius Farsaid -> Nel (+ Egyptian Princess Scota) -> Goídel Glas"),
+        E("bib_moses", "eur_scota_goidel", "syncretic", "Lebor Gabála Érenn says Moses cured young Goídel Glas of a serpent bite in Egypt before the Exodus!"),
+        E("eg_ramesses2", "eur_scota_goidel", "syncretic", "Irish chronicles name Pharaoh's daughter Scota as mother of the Gaels/Scots"),
+        E("eur_scota_goidel", "eur_milesians", "direct", "Goídel Glas -> ... -> Breogán -> Míl Espáine -> Éber Finn & Éremón"),
+        E("bib_noah", "eur_tuatha_de", "syncretic", "Lebor Gabála Érenn begins with Noah's granddaughter Cessair sailing to Ireland before the Flood"),
+        E("eur_milesians", "eur_niall_macalpin", "expansion", "Milesian royal houses -> Niall of the Nine Hostages & Kenneth MacAlpin"),
+    ]
+
+    # 3. British/Welsh Chronicles (Brutus of Troy -> Arthur) & Slavic Tripartite Progenitors (Lech, Czech & Rus)
+    nodes += [
+        N("eur_brutus_troy", "Brutus of Troy → Locrinus (England), Camber (Wales) & Albanactus (Scotland)", "europe_norse", 12, "Historia Brittonum (9th c.) & Geoffrey of Monmouth",
+          "Trojan Eponym of Britain & Tripartite Division of the Island", ["Nennius Historia Brittonum", "Geoffrey of Monmouth"],
+          "Great-grandson of Trojan prince Aeneas (via Ascanius -> Silvius -> Brutus); leads Trojan exiles to Albion, renames it Britain, founds Troia Nova (London), and divides the island among his 3 sons: Locrinus, Camber, and Albanactus!",
+          ["Eponym of Britain", "Troia Nova (London)"], major=True),
+        N("eur_king_arthur", "King Lear (Leir) → Beli Mawr → Uther Pendragon → King Arthur", "europe_norse", 15, "British & Welsh Matter of Britain",
+          "Legendary British Royal Line", ["Geoffrey of Monmouth", "Welsh Triads", "Mabinogion"],
+          "Continuation of Brutus's British chronicle through King Leir (Shakespeare's Lear), Welsh ancestor Beli Mawr, Cassivellaunus, and Uther Pendragon to King Arthur of Camelot."),
+        N("eur_slavic_brothers", "Perun & Veles / Lech (Poland), Czech (Bohemia) & Rus (Rus')", "europe_norse", 6, "Slavic Origin Chronicles (Primary Chronicle / Great Poland Chronicle)",
+          "Slavic Pantheon & Three Founding Brothers", ["Russian Primary Chronicle (1113)", "Chronicle of Greater Poland"],
+          "The Slavic tripartite origin legend traces Poland (Lech), Bohemia/Czechia (Czech), and Rus' (Rus) to three brothers; the Russian Primary Chronicle explicitly assigns all Slavic peoples to Japheth's portion of Earth!",
+          ["Lech, Czech & Rus"], major=True),
+    ]
+    edges += [
+        E("grk_aeneas", "eur_brutus_troy", "syncretic", "Historia Brittonum & Geoffrey of Monmouth: Aeneas -> Ascanius -> Silvius -> Brutus of Troy!"),
+        E("hub_world_division", "eur_brutus_troy", "parallel", "Tripartite division of Britain: Locrinus, Camber, Albanactus"),
+        E("eur_brutus_troy", "eur_king_arthur", "expansion", "British royal chronicle -> King Leir -> Uther Pendragon -> King Arthur"),
+        E("bib_japheth", "eur_slavic_brothers", "syncretic", "Russian Primary Chronicle (1113) explicitly traces Slavic peoples to Japheth"),
+        E("hub_world_division", "eur_slavic_brothers", "parallel", "Slavic tripartite brotherhood: Lech, Czech & Rus"),
+    ]
+
+    return {"module": "12_celtic_norse_europe", "title": "Exhaustive Celtic, Norse, Germanic, British & Slavic Chronicles (Prose Edda, Tacitus, Lebor Gabála Érenn, Historia Brittonum)", "nodes": nodes, "edges": edges}
+
+
+def build_module_13_americas_polynesia():
+    nodes, edges = [], []
+
+    # 1. Mesoamerica — Maya (Popol Vuh)
+    nodes += [
+        N("amp_maya_creators", "Tepeu, Gucumatz (Feathered Serpent) & Huracán (Heart of Sky)", "americas_pacific", 1, "Maya Creation (Popol Vuh Part 1)",
+          "K'iche' Maya Creator Deities", ["Popol Vuh (K'iche' Maya Sacred Book)"],
+          "Create Earth from primordial waters, test clay and wood humans (destroyed by a Great Flood of resin and water!), and prepare the dawn for maize humanity.",
+          ["Kukulkan / Quetzalcoatl cognate"], major=True),
+        N("amp_maya_twins", "Xpiyacoc & Xmucane → Hun Hunahpu (+ Xquic) → Hero Twins (Hunahpu & Xbalanque)", "americas_pacific", 3, "Maya Mythic Era (Popol Vuh Part 2)",
+          "Defeaters of Xibalba / Sun & Moon Twins", ["Popol Vuh Part 2"],
+          "Grandmother Xmucane's sons Hun Hunahpu & Vucub Hunahpu are slain in Xibalba; Blood Moon maiden Xquic bears the Hero Twins Hunahpu & Xbalanque, who conquer the Underworld Lords and ascend as Sun and Moon!", major=True),
+        N("amp_maya_four_men", "Four Maize Ancestors: Balam-Quitzé, Balam-Acab, Mahucutah & Iqui-Balam", "americas_pacific", 5, "Creation of True Humanity (Popol Vuh Part 3)",
+          "First Four Maya Progenitors & Their 4 Wives", ["Popol Vuh Part 3-4"],
+          "Shaped from yellow and white maize by the creators alongside their 4 wives (Caha-Paluna, Chomiha, Tzununiha, Caquixaha); migrate from Tulan Zuyua to found the K'iche' & Kaqchikel Maya nations (and parallel Classic Maya dynasties like K'inich Janaab Pakal of Palenque!).",
+          ["K'iche' Maya Founders", "Pakal of Palenque"], major=True),
+    ]
+    edges += [
+        E("hub_primordial", "amp_maya_creators", "parallel", "Primordial waters & shaping of early humans from clay/wood/maize"),
+        E("hub_flood", "amp_maya_creators", "parallel", "Popol Vuh Great Flood destroys the wooden humans before the maize creation"),
+        E("amp_maya_creators", "amp_maya_twins", "expansion", "Popol Vuh mythic generations -> Xpiyacoc & Xmucane -> Hero Twins"),
+        E("amp_maya_twins", "amp_maya_four_men", "expansion", "Dawn of the Sun & Moon prepares for the Four Maize Ancestors"),
+        E("hub_world_division", "amp_maya_four_men", "parallel", "Four Maize Ancestors branch into Maya nations at Tulan"),
+    ]
+
+    # 2. Mesoamerica — Aztec / Mexica (Leyenda de los Soles, Codex Boturini)
+    nodes += [
+        N("amp_aztec_ometeotl", "Ometeotl → Quetzalcoatl, Tezcatlipoca, Xipe Totec & Huitzilopochtli", "americas_pacific", 1, "Aztec Five Suns Cosmogony",
+          "Lord of Duality & Four Creator Brothers", ["Leyenda de los Soles", "Historia de los Mexicanos por sus Pinturas"],
+          "Dual supreme creator Ometecuhtli & Omecihuatl births the four cosmic directions/brothers governing the Five Suns of Mesoamerica.", major=True),
+        N("amp_aztec_flood", "Tata & Nene (Fourth Sun Flood) → Quetzalcoatl Recreates Fifth Sun Humanity", "americas_pacific", 4, "End of Fourth Sun (Nahui Atl)",
+          "Aztec Great Flood Survivors & Fifth Sun Creation", ["Leyenda de los Soles (Codex Chimalpopoca)"],
+          "Warned by Tezcatlipoca/Titlacahuan of the Great Flood ending the Fourth Sun (Water Sun), Tata & Nene survive inside a hollowed cypress log! Afterwards Quetzalcoatl journeys to Mictlan to retrieve ancestral bones and sprinkle his own blood to create Fifth Sun humanity!",
+          ["Hollowed Cypress Log Flood Motif"], major=True),
+        N("amp_aztec_tenochtitlan", "Aztlán / Chicomoztoc → Acamapichtli → Moctezuma I → Moctezuma II", "americas_pacific", 12, "1325-1521 CE (Toltec → Mexica Empire)",
+          "Seven Caves Migration & Tlatoque of Tenochtitlan", ["Codex Boturini", "Codex Mendoza"],
+          "Guided by Huitzilopochtli from Aztlán & the Seven Caves (Chicomoztoc) to Tenochtitlan (1325 CE); 1st Tlatoani Acamapichtli unites Mexica kingship with the sacred Toltec lineage of Ce Acatl Topiltzin Quetzalcoatl, leading to Itzcoatl, Moctezuma I, Moctezuma II, and Cuauhtémoc!", major=True),
+    ]
+    edges += [
+        E("hub_primordial", "amp_aztec_ometeotl", "parallel", "Dual primordial creator couple Ometecuhtli & Omecihuatl"),
+        E("amp_aztec_ometeotl", "amp_aztec_flood", "direct", "Four Brothers & Quetzalcoatl fashion humanity of the Five Suns"),
+        E("amp_maya_creators", "amp_aztec_ometeotl", "cognate", "Pan-Mesoamerican Feathered Serpent cognate: Maya Gucumatz/Kukulkan = Aztec Quetzalcoatl!"),
+        E("hub_flood", "amp_aztec_flood", "parallel", "Tata & Nene survive the Fourth Sun Great Flood in a hollowed cypress log"),
+        E("amp_aztec_flood", "amp_aztec_tenochtitlan", "expansion", "Chicomoztoc (Seven Caves) & Aztlán migration -> Tenochtitlan"),
+    ]
+
+    # 3. Andean South America — Inca (Viracocha -> Inti -> Manco Capac -> Pachacuti)
+    nodes += [
+        N("amp_inca_viracocha", "Viracocha (Uno Pachacuti Flood) → Inti (Sun) & Mama Quilla (Moon)", "americas_pacific", 1, "Andean Creation (Lake Titicaca / Tiwanaku)",
+          "Creator of Andean Nations from Clay & Flood Deity", ["Garcilaso de la Vega Comentarios Reales", "Betanzos Narrative of the Incas"],
+          "Viracocha emerges from Lake Titicaca, wipes away unruly stone giants in the Uno Pachacuti (Great Flood!), and shapes each Andean nation from painted clay at Tiwanaku before walking west across the Pacific Ocean!",
+          ["Uno Pachacuti Flood", "Clay Creation Motif"], major=True),
+        N("amp_inca_manco", "Manco Cápac & Mama Ocllo (Four Ayar Brothers → Founders of Cusco)", "americas_pacific", 10, "c. 1200 CE trad. (Cusco / Tawantinsuyu)",
+          "Children of the Sun / First Sapa Inca", ["Comentarios Reales", "Sarmiento de Gamboa"],
+          "Sent by Sun God Inti from Lake Titicaca (or Pacariqtambo with the Four Ayar Brothers) with a golden staff that sinks into fertile earth at Cusco, founding the Inca Dynasty!", major=True),
+        N("amp_inca_pachacuti", "Sinchi Roca → Pachacuti (Machu Picchu) → Tupac Inca → Huayna Capac → Atahualpa", "americas_pacific", 14, "1438-1533 CE (Inca Empire)",
+          "Imperial Sapa Incas of Tawantinsuyu", ["Comentarios Reales", "Andean Quipu Traditions"],
+          "9th Sapa Inca Pachacuti ('Earth-Shaker') transforms Cusco into the vast Tawantinsuyu empire and builds Machu Picchu; his son Tupac Inca Yupanqui even records a legendary Pacific balsa-raft voyage westward, followed by Huayna Capac -> Huáscar & Atahualpa!"),
+    ]
+    edges += [
+        E("hub_primordial", "amp_inca_viracocha", "parallel", "Viracocha fashions Andean nations from painted clay at Tiwanaku"),
+        E("hub_flood", "amp_inca_viracocha", "parallel", "Uno Pachacuti Great Flood destroys the first giants before recreation"),
+        E("amp_inca_viracocha", "amp_inca_manco", "direct", "Viracocha -> Inti (Sun) -> Manco Cápac & Mama Ocllo"),
+        E("amp_inca_manco", "amp_inca_pachacuti", "direct", "Inca Dynasty: Manco Cápac -> Sinchi Roca -> ... -> Pachacuti -> Huayna Capac -> Atahualpa"),
+    ]
+
+    # 4. North America — Indigenous Ancestral Traditions (Haudenosaunee, Diné/Navajo, Lakota)
+    nodes += [
+        N("amp_na_skywoman", "Sky Woman (Atahensic) → Twin Brothers → Hiawatha & The Great Peacemaker", "americas_pacific", 2, "Haudenosaunee (Iroquois) Oral Tradition",
+          "Turtle Island Origin & Five Nations Confederacy", ["Haudenosaunee Great Law of Peace (Gayanashagowa)"],
+          "Sky Woman falls from Sky World onto the back of Great Turtle (Turtle Island), birthing the cosmic twins (Sapling & Flint); centuries later The Great Peacemaker (Deganawida), Jigonsaseh, and Hiawatha unite the Five Nations Confederacy!",
+          ["Turtle Island", "Iroquois Confederacy"], major=True),
+        N("amp_na_dine_lakota", "First Man & First Woman / Changing Woman (Diné) & White Buffalo Calf Woman (Lakota)", "americas_pacific", 2, "SW & Plains North American Traditions",
+          "Ancestral Progenitors & Sacred Covenant Bearers", ["Diné Bahane' (Navajo Creation Story)", "Lakota Oral Tradition"],
+          "Diné tradition traces humanity through Four Worlds with First Man, First Woman, and Changing Woman (mother of Hero Twins Monster Slayer & Born for Water); Lakota tradition centers on White Buffalo Calf Woman uniting the Seven Council Fires (Oceti Sakowin)."),
+    ]
+    edges += [
+        E("hub_primordial", "amp_na_skywoman", "parallel", "Descent of Sky Woman onto primordial waters / Turtle Island"),
+        E("hub_primordial", "amp_na_dine_lakota", "parallel", "First Man & First Woman emerging through Four Worlds"),
+    ]
+
+    # 5. Polynesia & Oceania (Māori Whakapapa, Hawaiian Kumulipo, Māui, Tu'i Tonga, Rapa Nui!)
+    nodes += [
+        N("amp_poly_rangi_papa", "Te Kore / Te Pō → Ranginui (Sky Father) & Papatūānuku (Earth Mother)", "americas_pacific", 1, "Pan-Polynesian & Māori Cosmogony",
+          "Primordial Sky & Earth Parents", ["Māori Whakapapa", "Hawaiian Kumulipo"],
+          "Ranginui (Sky) and Papatūānuku (Earth) hold each other in darkness until their son Tāne-mahuta pushes them apart to let light into the world — striking universal parallel to Greek Gaia/Uranus, Vedic Dyaus/Prithvi, and Chinese Pangu!",
+          ["Wākea & Papa (Hawaiian cognate)"], major=True),
+        N("amp_poly_tane_tangaroa", "Tāne-mahuta (+ Hine-ahu-one from Clay!), Tangaroa & Tūmatauenga", "americas_pacific", 2, "Children of Sky & Earth (Māori)",
+          "Creator of First Mortal Woman from Clay & Ocean God", ["Māori Whakapapa"],
+          "Tāne-mahuta shapes the first mortal woman Hine-ahu-one from red clay at Kurawaka and breathes life into her nostrils (tihei mauri ora!), while Tangaroa (Tagaloa) rules the Pacific Ocean and Tūmatauenga represents humanity!"),
+        N("amp_poly_maui", "Māui (Māui-tikitiki-a-Taranga — Pan-Polynesian Hero)", "americas_pacific", 4, "Pan-Polynesian Ancestral Horizon",
+          "Fisher of Islands, Snarer of the Sun & Fire-Bringer", ["Māori, Hawaiian, Tahitian, Samoan & Tongan Oral Epics"],
+          "Shared across every corner of the Polynesian Triangle (Hawaii to Aotearoa/New Zealand to Rapa Nui): fishes up islands from the sea, slows the Sun, and brings fire from Mahuika — uniting Polynesia's oral genealogies!", major=True),
+        N("amp_poly_kumulipo", "Wākea & Papahānaumoku → Hoʻohōkūkalani → Hāloa → King Kamehameha I", "americas_pacific", 6, "Hawaiian Kumulipo (2,102-Line Royal Chant)",
+          "Ancestral Lineage of All Native Hawaiians & Hawaiian Monarchy", ["Kumulipo (Royal Genealogy Chant)"],
+          "The sacred Kumulipo traces cosmic evolution from coral polyp through Sky Father Wākea & Earth Mother Papa to Hāloa (first taro plant & first human ancestor of the Hawaiian people!), continuing down through Pāʻao and Umi-a-Līloa to King Kamehameha I (unifier of Hawaii, 1810)!",
+          ["Kumulipo", "Hāloa", "Kamehameha I"], major=True),
+        N("amp_poly_kupe_tonga", "Hawaiki → Kupe (Aotearoa), ʻAhoʻeitu (Tuʻi Tonga) & Hotu Matuʻa (Rapa Nui)", "americas_pacific", 10, "c. 900-1350 CE (Polynesian Voyaging Triangle)",
+          "Master Navigators of Aotearoa, Tonga & Easter Island", ["Māori Waka Whakapapa", "Tongan Royal Genealogy", "Rapa Nui Oral History"],
+          "Documents the greatest open-ocean ancestral voyaging in human history: Kupe & the Great Fleet waka settling Aotearoa (New Zealand), ʻAhoʻeitu founding the Tuʻi Tonga Empire (c. 950 CE, son of sky god Tangaloa!), and Ariki Hotu Matuʻa settling Rapa Nui (Easter Island)!",
+          ["Great Fleet Waka", "Tu'i Tonga", "Rapa Nui (Easter Island)"], major=True),
+    ]
+    edges += [
+        E("hub_primordial", "amp_poly_rangi_papa", "parallel", "Primordial Sky-Father & Earth-Mother separated to birth light"),
+        E("amp_poly_rangi_papa", "amp_poly_tane_tangaroa", "direct", "Ranginui + Papatūānuku -> Tāne, Tangaroa, Tāwhirimātea, Tūmatauenga"),
+        E("hub_primordial", "amp_poly_tane_tangaroa", "parallel", "Tāne molds first human Hine-ahu-one from red clay & breathes life into her"),
+        E("amp_poly_tane_tangaroa", "amp_poly_maui", "expansion", "Polynesian divine-heroic whakapapa -> Māui"),
+        E("amp_poly_rangi_papa", "amp_poly_kumulipo", "cognate", "EXACT Pan-Polynesian cognate: Māori Ranginui & Papa = Hawaiian Wākea & Papahānaumoku!"),
+        E("amp_poly_maui", "amp_poly_kumulipo", "cognate", "Shared Pan-Polynesian hero Māui links Hawaii, Tahiti, Samoa & Aotearoa"),
+        E("amp_poly_maui", "amp_poly_kupe_tonga", "cognate", "Polynesian Triangle voyaging genealogies from Hawaiki -> Aotearoa, Tonga & Rapa Nui"),
+        E("amp_inca_pachacuti", "amp_poly_kupe_tonga", "parallel", "Trans-Pacific sweet potato (kumara) & Tupac Inca western voyage <-> Eastern Polynesia contact"),
+    ]
+
+    return {"module": "13_americas_polynesia", "title": "Exhaustive Americas & Polynesia Genealogies (Maya Popol Vuh, Aztec Five Suns, Inca Viracocha/Cusco, North American, Hawaiian Kumulipo, Māori Whakapapa & Tu'i Tonga)", "nodes": nodes, "edges": edges}
+
+
 def main():
     MODULES_DIR.mkdir(parents=True, exist_ok=True)
     old_asia = MODULES_DIR / "07_asia_steppe.json"
@@ -584,6 +800,8 @@ def main():
         load_existing_module("09_greek_mediterranean"),
         build_module_10_east_asia_chinese(),
         build_module_11_korean_japanese(),
+        build_module_12_celtic_norse_europe(),
+        build_module_13_americas_polynesia(),
     ]
 
     all_nodes, all_edges = [], []
@@ -616,8 +834,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Exhaustive Multi-Tradition Database (Phase 7)",
-            "version": "7.0.0",
+            "title": "Ancient World Genealogy Atlas — Complete Global Edition (Phase 8)",
+            "version": "8.0.0",
             "modules": module_summaries,
             "linkTypes": LINK_TYPES,
         },
