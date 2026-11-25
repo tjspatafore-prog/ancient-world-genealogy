@@ -634,18 +634,6 @@
   ],
   "edges": [
     {
-      "from": "hub_primordial",
-      "to": "ved_dyaus_prithvi",
-      "type": "parallel",
-      "label": "Primordial Sky-Father & Earth-Mother"
-    },
-    {
-      "from": "hub_primordial",
-      "to": "ved_brahma_manu",
-      "type": "parallel",
-      "label": "Svayambhuva Manu & Shatarupa"
-    },
-    {
       "from": "grk_zeus_olympians",
       "to": "ved_dyaus_prithvi",
       "type": "cognate",
@@ -742,12 +730,6 @@
       "label": "EXACT Proto-Indo-Iranian cognate: Kavi Usan (Kay Kavus) = Kavi Ushanas"
     },
     {
-      "from": "hub_flood",
-      "to": "ved_vaivasvata_manu",
-      "type": "parallel",
-      "label": "Ship towed by Matsya to the Himalayas (Shatapatha Brahmana 1.8.1)"
-    },
-    {
       "from": "bib_abraham",
       "to": "ved_brahma_manu",
       "type": "syncretic",
@@ -842,12 +824,6 @@
       "to": "ved_yayati",
       "type": "direct",
       "label": "Shukracharya (Kavi Ushanas)'s daughter Devayani marries Yayati"
-    },
-    {
-      "from": "hub_world_division",
-      "to": "ved_yayati",
-      "type": "parallel",
-      "label": "Yayati's 5 Sons (Panchajana — Vedic Table of Nations)"
     },
     {
       "from": "ved_yayati",

@@ -1,0 +1,609 @@
+{
+  "module": "26_russia_armenia_europe_noahic",
+  "title": "Noahic Lineages of Russia, Armenia, the Goths, Ireland, Scotland, Wales, Germany, Spain, Gaul & Italy",
+  "nodes": [
+    {
+      "id": "rus_japheth_slavs",
+      "name": "Slavs (Norici) & Rus' — Lot of Japheth",
+      "altNames": [
+        "Slavs (Norici)",
+        "Lot of Japheth",
+        "Saqalibah"
+      ],
+      "tradition": "europe_norse",
+      "tier": 7,
+      "era": "Post-Flood Division (Russian Primary Chronicle pp. 51-53)",
+      "role": "Japhethic Ancestors of the Russians, Varangians & Slavic Nations",
+      "sources": [
+        "Russian Primary Chronicle (Laurentian Text pp. 51-53)",
+        "Al-Tabari Vol. 2",
+        "Al-Mas'udi"
+      ],
+      "notes": "Opening genealogy of the Rus' Primary Chronicle: after the Flood, Japheth received the northern/western rivers (Danube, Dnieper, Volga, Baltic/Varangian Sea), explicitly numbering Rus', Varangians, Slavs (Norici), Moravians, Czechs, White Croats, Serbs, Polyanians, Derevlians & Poles (Lyakhs) in the race of Japheth.",
+      "major": true
+    },
+    {
+      "id": "rus_kiev_founders",
+      "name": "Kiy, Shchek, Khoriv & Sister Lybed' (Founders of Kiev)",
+      "altNames": [
+        "Kiy of Kiev",
+        "Radim & Vyatko"
+      ],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "Early Polyanian Princes (Russian Primary Chronicle p. 55)",
+      "role": "Legendary Eponymous Founders of Kiev",
+      "sources": [
+        "Russian Primary Chronicle (Laurentian Text pp. 55-56)"
+      ],
+      "notes": "Three Polyanian Slavic brothers Kiy, Shchek, Khoriv and sister Lybed' founded Kiev on the Dnieper; Lyakh brothers Radim & Vyatko founded the Radimichians & Vyatichians.",
+      "major": true
+    },
+    {
+      "id": "rus_rurik_dynasty",
+      "name": "Rurik (+ Sineus & Truvor, 862 CE) → Oleg & Igor' (+ St. Olga of Kiev)",
+      "altNames": [
+        "Rurik of Novgorod",
+        "Prince Igor' & St. Olga"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "862–969 CE (Varangian Founders of Rus')",
+      "role": "Varangian-Japhethic Founders of the Rurikid Dynasty",
+      "sources": [
+        "Russian Primary Chronicle (Laurentian Text pp. 52, 60-64)",
+        "Anderson 1732 Royal Genealogies"
+      ],
+      "notes": "Varangian prince Rurik (expressly placed under the race of Japheth in the Primary Chronicle p. 52) settled Novgorod with brothers Sineus & Truvor (862 CE); regent Oleg united Novgorod & Kiev for Rurik's son Igor' and St. Olga of Pskov.",
+      "major": true
+    },
+    {
+      "id": "rus_svyatoslav",
+      "name": "Svyatoslav I of Kiev (Son of Igor' & Olga)",
+      "altNames": [
+        "Svyatoslav Igorevich"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "942–972 CE (Kievan Rus')",
+      "role": "Warrior Prince of Kievan Rus'",
+      "sources": [
+        "Russian Primary Chronicle (Laurentian Text p. 59)"
+      ],
+      "notes": "Son of Igor' and St. Olga; campaigned across the Volga, Khazaria, and the Danube; father of Vladimir the Great.",
+      "major": false
+    },
+    {
+      "id": "rus_vladimir_great",
+      "name": "St. Vladimir the Great of Kiev (Baptized Kievan Rus', 988 CE)",
+      "altNames": [
+        "Vladimir I Svyatoslavich"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "958–1015 CE (Christianization of Rus')",
+      "role": "Grand Prince of Kiev",
+      "sources": [
+        "Russian Primary Chronicle (Laurentian Text p. 59)"
+      ],
+      "notes": "Grandson of Rurik and St. Olga; married Byzantine Princess Anna Porphyrogenita and established Christianity across Rus' in 988 CE.",
+      "major": true
+    },
+    {
+      "id": "rus_yaroslav_wise",
+      "name": "Yaroslav the Wise (1019–1054 CE) → Royal Houses of Rus', France, Norway & Hungary",
+      "altNames": [
+        "Yaroslav I Vladimirovich",
+        "Anne of Kiev"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "978–1054 CE (Golden Age of Kievan Rus')",
+      "role": "Grand Prince of Kiev & Pan-European Ancestor",
+      "sources": [
+        "Russian Primary Chronicle (Laurentian Text p. 59)",
+        "Anderson 1732 Royal Genealogies"
+      ],
+      "notes": "Son of St. Vladimir; linked the Rurikid line into Western & Northern European monarchies through his daughters Anne of Kiev (Queen of France), Anastasia (Hungary) & Elisiv (Norway).",
+      "major": true
+    },
+    {
+      "id": "arm_hayk_pat",
+      "name": "Hayk Nahapet (Patriarch of Armenia, Slayer of Bel/Nimrod)",
+      "altNames": [
+        "Hayk",
+        "Haos (Georgian Form)"
+      ],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Post-Babel Horizon (Movses Khorenatsi I.5-11)",
+      "role": "Progenitor of the Armenian Nation",
+      "sources": [
+        "Movses Khorenatsi History of Armenia I.5-11",
+        "Kartlis Tskhovreba"
+      ],
+      "notes": "Movses Khorenatsi traces Hayk from Noah -> Japheth -> Gomer -> Tiras -> Togarmah (Torgom), describing his refusal to serve the tyrant Bel (Nimrod) at Babel and his victory over Bel near Lake Van.",
+      "major": true
+    },
+    {
+      "id": "arm_haykid_line",
+      "name": "Aramaneak → Aramayis → Amasia → Gegham → Harma → Aram (Eponym of Armenia) → Ara the Handsome",
+      "altNames": [
+        "Aramaneak",
+        "Aram of Armenia",
+        "Ara the Handsome"
+      ],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "Haykid Patriarchs (Movses Khorenatsi I.12-15)",
+      "role": "Early Patriarchal Chiefs of Armenia",
+      "sources": [
+        "Movses Khorenatsi History of Armenia I.12-15"
+      ],
+      "notes": "Direct Haykid generational succession in Movses Khorenatsi leading through Aram (from whom neighbors named Armenia) to Ara the Handsome, contemporary of Assyrian queen Semiramis.",
+      "major": true
+    },
+    {
+      "id": "arm_shambat_bagratuni",
+      "name": "Shambat (Jewish Noble Exiled by Nebuchadnezzar) → Armenian Bagratuni Dynasty",
+      "altNames": [
+        "Shambat / Smbat",
+        "Bagratids"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "6th c. BCE onward (Movses Khorenatsi I.22 & II.3)",
+      "role": "Judeo-Armenian Ancestor of the Bagratuni & Bagrationi Houses",
+      "sources": [
+        "Movses Khorenatsi History of Armenia I.22, II.3"
+      ],
+      "notes": "Khorenatsi records that Armenian king Hracheay brought a prominent Jewish captive named Shambat (Smbat) from Nebuchadnezzar's Babylonian exile — establishing the Armenian Bagratuni & Georgian Bagrationi royal claim.",
+      "major": true
+    },
+    {
+      "id": "goth_magog_berig",
+      "name": "Goths / Scythians (Berig → Filimer) — Race of Magog",
+      "altNames": [
+        "Berig",
+        "Filimer",
+        "Getae / Scythians"
+      ],
+      "tradition": "europe_norse",
+      "tier": 8,
+      "era": "Ancient Northern Migration (Jordanes Getica; Josephus)",
+      "role": "Japhethic Origin of the Gothic & Scythian Peoples",
+      "sources": [
+        "Jordanes Getica IV-V, XXIV",
+        "Josephus Antiquities I.6.1"
+      ],
+      "notes": "Jordanes (following Josephus) connects the Scythian & Gothic peoples to Magog son of Japheth and recounts King Berig leading three ships of Goths from Scandza across the Baltic to Gothiscandza, followed by Filimer to Oium.",
+      "major": true
+    },
+    {
+      "id": "goth_amali_theoderic",
+      "name": "Gapt (Gaut) → Amal (Amali) → Hermanaric → Theoderic the Great (Ostrogoths) & Alaric I (Visigoths)",
+      "altNames": [
+        "Gapt / Gaut",
+        "Hermanaric",
+        "Theoderic the Great",
+        "Alaric I"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "1st–6th c. CE (Jordanes Getica XIII-LX)",
+      "role": "Royal Ostrogothic Amali & Visigothic Balthi Lines",
+      "sources": [
+        "Jordanes Getica XIII-LX"
+      ],
+      "notes": "Complete royal genealogy of the Gothic Amali from Gapt (Gaut) -> Hulmul -> Augis -> Amal -> Ostrogotha -> Achiulf -> Hermanaric & Vandalarius -> Thiudimer -> Theoderic the Great, alongside Alaric I of the Visigoths.",
+      "major": true
+    },
+    {
+      "id": "irl_baath_fenius",
+      "name": "Baath (King of Scythia) → Fenius Farsa (Inventor of Letters at Shinar/Babel)",
+      "altNames": [
+        "Baath",
+        "Fenius Farsa"
+      ],
+      "tradition": "europe_norse",
+      "tier": 7,
+      "era": "Post-Babel Scythia (Annals of the Four Masters; O'Hart pp. 31-34)",
+      "role": "Magogian Patriarch of Gaelic & Scythian Learning",
+      "sources": [
+        "O'Hart Irish Pedigrees Part I pp. 31-35",
+        "Annals of the Four Masters"
+      ],
+      "notes": "O'Hart traces the stem of the Irish nation directly from Adam -> Seth -> ... -> Noah -> Japheth -> Magog -> Baath (King of Scythia) -> Fenius Farsa, who established a school of the 72 languages on the plain of Shinar after Babel.",
+      "major": true
+    },
+    {
+      "id": "irl_niul_gaedhal",
+      "name": "Niul (+ Scota, Dau. of Pharaoh; Friend of Moses!) → Gaodhal Glas (Gael) → Asruth → Sruth → Heber Scot",
+      "altNames": [
+        "Niul",
+        "Scota",
+        "Gaodhal Glas",
+        "Heber Scot"
+      ],
+      "tradition": "europe_norse",
+      "tier": 9,
+      "era": "Mosaic Horizon (O'Hart pp. 6, 34-35)",
+      "role": "Egyptian-Milesian Bridge & Eponym of the Gaels",
+      "sources": [
+        "O'Hart Irish Pedigrees Part I pp. 6, 34-35",
+        "Lebor Gabála Érenn"
+      ],
+      "notes": "Fenius Farsa's younger son Niul was invited to Egypt by Pharaoh, married Princess Scota, befriended Moses & the Israelites at the Red Sea, and begat Gaodhal Glas (Gael), father of the Goidelic language and line through Asruth, Sruth & Heber Scot.",
+      "major": true
+    },
+    {
+      "id": "irl_breoghan_milesius",
+      "name": "Breoghan (Brigus of Spain) → Bile → Milesius of Spain (Galamh)",
+      "altNames": [
+        "Breoghan / Brigus",
+        "Milesius / Galamh"
+      ],
+      "tradition": "europe_norse",
+      "tier": 12,
+      "era": "Gaelic-Iberian Horizon (O'Hart pp. 29-35)",
+      "role": "Progenitor of the Milesian High Kings of Ireland",
+      "sources": [
+        "O'Hart Irish Pedigrees Part I pp. 29-35"
+      ],
+      "notes": "O'Hart generations #34-36 from Adam: Breoghan (Brigus, builder of Brigantia in Spain) -> Bile -> Galamh / Milesius of Spain, who married a second Pharaoh's daughter Scota.",
+      "major": true
+    },
+    {
+      "id": "irl_milesian_sons",
+      "name": "Heber, Heremon, Ir & Uncle Ith (Milesian Monarchs of Ireland)",
+      "altNames": [
+        "Heber Fionn",
+        "Heremon",
+        "Ir",
+        "Ith"
+      ],
+      "tradition": "europe_norse",
+      "tier": 13,
+      "era": "Milesian Arrival in Ireland (O'Hart pp. 35-84)",
+      "role": "Joint Progenitors of the Major Irish & Scottish Houses",
+      "sources": [
+        "O'Hart Irish Pedigrees Part I pp. 49-84",
+        "Annals of the Four Masters"
+      ],
+      "notes": "Milesius's sons Heber (Munster lines), Heremon (Connacht, Leinster, High Kings & Dal Riada Scots), and Ir (Ulster), alongside uncle Ith, established the Milesian roll of Irish monarchs.",
+      "major": true
+    },
+    {
+      "id": "irl_niall_brian_boru",
+      "name": "Conn of the Hundred Battles → Niall of the Nine Hostages (Uí Néill) & Brian Boru (Munster)",
+      "altNames": [
+        "Niall of the Nine Hostages",
+        "Brian Boru"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "2nd–11th c. CE (Irish Pedigrees)",
+      "role": "Historic High Kings of Ireland from Heremon & Heber",
+      "sources": [
+        "O'Hart Irish Pedigrees Parts I-II"
+      ],
+      "notes": "Traces Heremon's line to Conn of the Hundred Battles -> Niall of the Nine Hostages (Uí Néill) and Heber's line to Brian Boru (d. 1014 CE) & MacCarthy/O'Brien families.",
+      "major": true
+    },
+    {
+      "id": "sco_picts_cruithne",
+      "name": "Cruithne (Founder of the Picts) → 7 Sons Dividing Alba (Fib, Fidach, Floclaid, Fortrenn, Got, Ce, Circinn)",
+      "altNames": [
+        "Cruithne mac Cinge",
+        "7 Pictish Provinces"
+      ],
+      "tradition": "europe_norse",
+      "tier": 10,
+      "era": "Pictish Origin Horizon (Pictish Chronicle pp. 209, 252)",
+      "role": "Eponymous Ancestor of the Picts of Alba (Scotland)",
+      "sources": [
+        "Skene Chronicles of the Picts & Scots pp. 209-252"
+      ],
+      "notes": "The Pictish Chronicle derives both Scots and Picts from Scythia/Albani (Noah -> Japheth -> Magog/Gomer), recording Cruithne and his seven sons giving their names to the seven provinces of Pictish Scotland.",
+      "major": true
+    },
+    {
+      "id": "sco_fergus_macalpin",
+      "name": "Fergus Mor mac Erc (King of Dal Riada, 498 CE) → Kenneth MacAlpin (1st King of Scots & Picts, 843 CE)",
+      "altNames": [
+        "Fergus Mor mac Erc",
+        "Kenneth MacAlpin"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "498–858 CE (Dal Riada & Kingdom of Alba)",
+      "role": "Unifier of the Picts & Scots into the Scottish Crown",
+      "sources": [
+        "Skene Chronicles of the Picts & Scots pp. cx, 44",
+        "O'Hart Irish Pedigrees"
+      ],
+      "notes": "Fergus Mor mac Erc crossed from Irish Dal Riada (Heremon's Milesian line) to Argyll in 498 CE; his descendant Cináed mac Ailpín (Kenneth MacAlpin) united the Scottish and Pictish kingdoms in 843 CE.",
+      "major": true
+    },
+    {
+      "id": "wal_cunedda_rhodri_llywelyn",
+      "name": "Cunedda → Cadwaladr → Rhodri Mawr → Hywel Dda → Llywelyn the Great (Princes of Wales)",
+      "altNames": [
+        "Cunedda Wledig",
+        "Rhodri Mawr",
+        "Hywel Dda",
+        "Llywelyn the Great"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "5th–13th c. CE (Brut y Tywysogion; Four Ancient Books of Wales)",
+      "role": "Welsh Royal Succession Descended from Brutus of Troy & Camber",
+      "sources": [
+        "Brut y Tywysogion (Caradoc / Williams ed.)",
+        "Skene Four Ancient Books of Wales"
+      ],
+      "notes": "Follows the Welsh chronicle tradition from Cunedda Wledig and Cadwaladr the Blessed through Rhodri Mawr (the Great), lawgiver Hywel Dda, Gruffudd ap Rhys & Llywelyn the Great, tracing Welsh sovereignty back to Brutus of Troy & Camber.",
+      "major": true
+    },
+    {
+      "id": "eur_ashkenaz_tuisco",
+      "name": "Ashkenaz = Tuisco / Tuisto (1st King of Germany)",
+      "altNames": [
+        "Tuisco / Tuisto",
+        "Askanez"
+      ],
+      "tradition": "europe_norse",
+      "tier": 8,
+      "era": "Post-Babel Germany (Anderson 1732 p. 464)",
+      "role": "Japhethic Patriarch of Germanic Peoples in Classical Chronography",
+      "sources": [
+        "James Anderson Royal Genealogies (1732 p. 464)",
+        "Aventinus"
+      ],
+      "notes": "Anderson Table p. 464 identifies Japheth's grandson Ashkenaz (Askanez) with Tacitus & Aventinus's Tuisco/Tuisto, pioneer ruler near the Tanais and Germany.",
+      "major": true
+    },
+    {
+      "id": "eur_tubal_spain",
+      "name": "Tubal (Progenitor of Iberia / Ancient Kings of Spain)",
+      "altNames": [
+        "Thobel / Iberi"
+      ],
+      "tradition": "europe_norse",
+      "tier": 7,
+      "era": "Post-Flood Iberia (Josephus Ant. I.6.1; Anderson 1732)",
+      "role": "Japhethic Founder of the Iberians of Spain",
+      "sources": [
+        "Josephus Antiquities I.6.1",
+        "James Anderson Royal Genealogies (1732)"
+      ],
+      "notes": "Josephus Antiquities I.6.1 identifies Tubal son of Japheth with the Iberi ('Thobelites'), later joined in royal chronologies to the ancient kingdoms of Spain.",
+      "major": true
+    },
+    {
+      "id": "eur_gomer_samothes_gaul",
+      "name": "Gomer / Samothes (Progenitor of Gauls / Celts / Cimbri)",
+      "altNames": [
+        "Gomerites / Galatians",
+        "Samothes",
+        "Cimbri"
+      ],
+      "tradition": "europe_norse",
+      "tier": 7,
+      "era": "Post-Flood Gaul & Britain (Josephus Ant. I.6.1; Anderson 1732 p. 464)",
+      "role": "Japhethic Patriarch of the Cimmerians, Cimbri, Celts & Gauls",
+      "sources": [
+        "Josephus Antiquities I.6.1",
+        "James Anderson Royal Genealogies (1732 p. 464)"
+      ],
+      "notes": "Josephus states 'Gomer founded those whom the Greeks now call Galatians [Gauls], but were then called Gomerites'; Anderson links Gomer (Cimbri) and his son Samothes/Meshech to the Celts.",
+      "major": true
+    },
+    {
+      "id": "eur_noah_janus_italy",
+      "name": "Noah = Janus / Ogyges → Sabatius Saga → Italus (Ancient Kings of Italy / Tuscany)",
+      "altNames": [
+        "Janus (Noah)",
+        "Sabatius Saga",
+        "Kings of Tuscany"
+      ],
+      "tradition": "greek",
+      "tier": 7,
+      "era": "Annius / Anderson Chronography (1732 Table CCCCXXIV p. 702)",
+      "role": "Renaissance-Baroque Noahic Synchronization of Pre-Roman Italy",
+      "sources": [
+        "James Anderson Royal Genealogies (1732 Table CCCCXXIV p. 702)"
+      ],
+      "notes": "Anderson Table CCCCXXIV places Noah (identified as Janus / Ogyges) planting colonies in Italy with Gomer & Kittim, succeeded by Sabatius Saga and the ancient Kings of Tuscany & Italy.",
+      "major": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "bib_japheth",
+      "to": "rus_japheth_slavs",
+      "type": "syncretic",
+      "label": "Russian Primary Chronicle pp. 51-53: After the Flood, Japheth's portion includes Rus', Varangians, Slavs (Norici on the Danube), Moravians, Czechs, White Croats, Serbs & Poles (Lyakhs)"
+    },
+    {
+      "from": "rus_japheth_slavs",
+      "to": "eur_slavic_brothers",
+      "type": "cognate",
+      "label": "Parallel Slavic ethnonym tradition linking Japheth's Slavic lot with Lech, Czech & Rus"
+    },
+    {
+      "from": "rus_japheth_slavs",
+      "to": "rus_kiev_founders",
+      "type": "expansion",
+      "label": "Russian Primary Chronicle p. 55: Polyanian Slavic founders of Kiev; plus Radim (Radimichians) & Vyatko (Vyatichians)"
+    },
+    {
+      "from": "rus_japheth_slavs",
+      "to": "rus_rurik_dynasty",
+      "type": "expansion",
+      "label": "Russian Primary Chronicle pp. 52 & 60: Varangian Russes of the race of Japheth invited to Novgorod & Kiev"
+    },
+    {
+      "from": "eur_rurik_harald_viking",
+      "to": "rus_rurik_dynasty",
+      "type": "cognate",
+      "label": "Same Rurikid dynasty of Novgorod and Kiev"
+    },
+    {
+      "from": "rus_rurik_dynasty",
+      "to": "rus_svyatoslav",
+      "type": "direct",
+      "label": "Father-to-son succession: Rurik -> Igor' (+ St. Olga) -> Svyatoslav I"
+    },
+    {
+      "from": "rus_svyatoslav",
+      "to": "rus_vladimir_great",
+      "type": "direct",
+      "label": "Father-to-son succession (Russian Primary Chronicle p. 59)"
+    },
+    {
+      "from": "rus_vladimir_great",
+      "to": "rus_yaroslav_wise",
+      "type": "direct",
+      "label": "Russian Primary Chronicle; Anderson 1732: Father of Anne of Kiev (Queen of France), Anastasia (Hungary) & Elisiv (Norway)"
+    },
+    {
+      "from": "bib_togarmah",
+      "to": "arm_hayk_pat",
+      "type": "expansion",
+      "label": "Movses Khorenatsi Book I.5-10: Japheth -> Gomer -> Tiras/Togarmah -> Hayk, founder of Armenia who slew the giant Bel (Nimrod)"
+    },
+    {
+      "from": "geo_targamos_8sons",
+      "to": "arm_hayk_pat",
+      "type": "cognate",
+      "label": "Georgian chronicle identifies Targamos's firstborn son Haos directly with Armenian Hayk"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "arm_hayk_pat",
+      "type": "syncretic",
+      "label": "Khorenatsi I.10-11: Hayk defeats the Babylonian tyrant Bel (Nimrod) near Lake Van"
+    },
+    {
+      "from": "arm_hayk_pat",
+      "to": "arm_haykid_line",
+      "type": "direct",
+      "label": "Movses Khorenatsi Book I.12-15: Direct Haykid patriarchal succession; Ara the Handsome contemporary of Semiramis"
+    },
+    {
+      "from": "arm_haykid_line",
+      "to": "arm_shambat_bagratuni",
+      "type": "expansion",
+      "label": "Movses Khorenatsi I.22 & II.3: King Hracheay brings Jewish noble Shambat (Smbat) from Nebuchadnezzar's captives -> ancestor of Armenian Bagratunis & Georgian Bagrationis"
+    },
+    {
+      "from": "bib_magog",
+      "to": "goth_magog_berig",
+      "type": "syncretic",
+      "label": "Jordanes Getica (citing Josephus): Scythians & Goths descend from Magog son of Japheth; King Berig leads Goths from Scandza"
+    },
+    {
+      "from": "goth_magog_berig",
+      "to": "goth_amali_theoderic",
+      "type": "expansion",
+      "label": "Jordanes Getica XIII-LX: Complete Amali & Balthae royal pedigrees"
+    },
+    {
+      "from": "bib_magog",
+      "to": "irl_baath_fenius",
+      "type": "expansion",
+      "label": "O'Hart Irish Pedigrees Part I pp. 31-34 (Annals of the Four Masters): Adam -> Noah -> Japheth -> Magog -> Baath -> Fenius Farsa, founder of the school of 72 languages at Shinar"
+    },
+    {
+      "from": "irl_baath_fenius",
+      "to": "irl_niul_gaedhal",
+      "type": "direct",
+      "label": "O'Hart Part I pp. 6, 34-35: Fenius Farsa -> Niul (+ Princess Scota of Egypt) -> Gaodhal Glas -> Asruth -> Sruth -> Heber Scot"
+    },
+    {
+      "from": "irl_niul_gaedhal",
+      "to": "eur_scota_goidel",
+      "type": "cognate",
+      "label": "Same Milesian-Scota stem in O'Hart & Lebor Gabála Érenn"
+    },
+    {
+      "from": "irl_niul_gaedhal",
+      "to": "irl_breoghan_milesius",
+      "type": "direct",
+      "label": "O'Hart Part I pp. 29-35: Gen 34-36 from Adam via Agnon, Lamhfionn, Heber Glunfionn & Bratha"
+    },
+    {
+      "from": "irl_breoghan_milesius",
+      "to": "irl_milesian_sons",
+      "type": "direct",
+      "label": "Milesius of Spain -> Heber, Heremon & Ir (+ Uncle Ith)"
+    },
+    {
+      "from": "irl_milesian_sons",
+      "to": "irl_niall_brian_boru",
+      "type": "direct",
+      "label": "O'Hart Irish Pedigrees: Heremon -> Niall of the Nine Hostages; Heber -> Brian Boru (d. 1014)"
+    },
+    {
+      "from": "irl_milesian_sons",
+      "to": "sco_fergus_macalpin",
+      "type": "direct",
+      "label": "Skene Chronicles of the Picts & Scots pp. cx, 44; O'Hart: Milesian Heremon line -> Royal House of Scotland"
+    },
+    {
+      "from": "bib_magog",
+      "to": "sco_picts_cruithne",
+      "type": "syncretic",
+      "label": "Skene Pictish Chronicle pp. 209-252: Picts & Scots from Scythia/Albani (Japheth/Magog/Gomer)"
+    },
+    {
+      "from": "sco_picts_cruithne",
+      "to": "sco_fergus_macalpin",
+      "type": "expansion",
+      "label": "Union of Picts & Scots under Kenneth MacAlpin"
+    },
+    {
+      "from": "eur_brutus_troy",
+      "to": "wal_cunedda_rhodri_llywelyn",
+      "type": "expansion",
+      "label": "Brut y Tywysogion & Skene Four Ancient Books of Wales: Continuing British royal line from Brutus of Troy & Camber"
+    },
+    {
+      "from": "bib_ashkenaz",
+      "to": "eur_ashkenaz_tuisco",
+      "type": "syncretic",
+      "label": "Anderson 1732 Royal Genealogies p. 464: Noah -> Japheth -> Gomer -> Ashkenaz, called Tuisco/Tuisto, progenitor of Germans"
+    },
+    {
+      "from": "eur_ashkenaz_tuisco",
+      "to": "eur_tuisto_mannus",
+      "type": "cognate",
+      "label": "Same Tuisto/Mannus root synchronized with Gomer -> Ashkenaz"
+    },
+    {
+      "from": "bib_tubal",
+      "to": "eur_tubal_spain",
+      "type": "syncretic",
+      "label": "Josephus Antiquities I.6.1 & Anderson 1732: Tubal son of Japheth founded the Iberians/Spaniards"
+    },
+    {
+      "from": "bib_gomer",
+      "to": "eur_gomer_samothes_gaul",
+      "type": "syncretic",
+      "label": "Josephus Antiquities I.6.1 & Anderson 1732 p. 464: Gomer founded the Gomerites/Gauls/Cimbri"
+    },
+    {
+      "from": "bib_noah",
+      "to": "eur_noah_janus_italy",
+      "type": "syncretic",
+      "label": "Anderson 1732 Table CCCCXXIV p. 702: Chronicler bridge equating Noah with Janus & Gomer/Kittim planting Italy"
+    },
+    {
+      "from": "bib_kittim",
+      "to": "eur_noah_janus_italy",
+      "type": "syncretic",
+      "label": "Kittim / Cethim linked to Italian/Latin antiquity alongside Janus"
+    }
+  ]
+}

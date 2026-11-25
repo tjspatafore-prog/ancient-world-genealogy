@@ -10,6 +10,23 @@ def load_data():
         return json.load(f)
 
 
+def find_reachable(nodes_by_id, edges, start_id, allowed_types):
+    adj = {nid: [] for nid in nodes_by_id}
+    for e in edges:
+        if e["type"] in allowed_types:
+            adj[e["from"]].append(e["to"])
+            adj[e["to"]].append(e["from"])
+    q = deque([start_id])
+    visited = {start_id}
+    while q:
+        curr = q.popleft()
+        for nxt in adj[curr]:
+            if nxt not in visited:
+                visited.add(nxt)
+                q.append(nxt)
+    return visited
+
+
 def find_path(nodes_by_id, edges, start_id, end_id, allowed_types):
     adj = {nid: [] for nid in nodes_by_id}
     for e in edges:
@@ -57,7 +74,7 @@ def main():
     for k, v in edge_counts.most_common():
         print(f"  - {k}: {v}")
 
-    # Verify index.html JS syntax & World Map pin nodeIds
+    # Verify index.html JS syntax, World Map pin nodeIds & World Map arc endpoints
     import re, subprocess, tempfile
     html_path = Path(__file__).resolve().parent.parent / "index.html"
     if html_path.exists():
@@ -71,15 +88,33 @@ def main():
         pins = re.findall(r'nodeId:"([^"]+)"', js)
         missing_pins = [p for p in pins if p not in nodes_by_id]
         assert not missing_pins, f"Broken World Map pin nodeIds: {missing_pins}"
-        print(f"\nUI VERIFIED OK: JS syntax valid + all {len(pins)} World Map pins resolve cleanly")
+        pin_ids = set(re.findall(r'\{\s*id:"(pin_[^"]+)"', js))
+        arc_refs = re.findall(r'from:"(pin_[^"]+)",\s*to:"(pin_[^"]+)"', js)
+        bad_arcs = [(a, b) for a, b in arc_refs if a not in pin_ids or b not in pin_ids]
+        assert not bad_arcs, f"Broken World Map arc pin IDs: {bad_arcs}"
+        print(f"\nUI VERIFIED OK: JS syntax valid + all {len(pins)} World Map pins & {len(arc_refs)} arcs resolve cleanly")
+
+    # Enforce 100% Adam & Noahic connectivity across every non-DNA node
+    non_dna_ids = {n["id"] for n in nodes if n["tradition"] != "dna"}
+    reachable_adam = find_reachable(nodes_by_id, edges, "bib_adam", {"direct", "expansion", "cognate", "syncretic"})
+    reachable_noah = find_reachable(nodes_by_id, edges, "bib_noah", {"direct", "expansion", "cognate", "syncretic"})
+    disc_adam = sorted(non_dna_ids - reachable_adam)
+    disc_noah = sorted(non_dna_ids - reachable_noah)
+    assert not disc_adam, f"Non-DNA nodes not connected to Adam: {disc_adam[:10]}"
+    assert not disc_noah, f"Non-DNA nodes not connected to Noah: {disc_noah[:10]}"
+    print(f"NOAHIC CONNECTIVITY GATE OK: 100% of all {len(non_dna_ids)} non-DNA nodes trace directly/syncretically to Adam & Noah (0 disconnected)")
 
     tests = [
+        ("bib_noah", "rus_vladimir_great", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Slavs & Rus' -> St. Vladimir of Kiev"),
+        ("bib_noah", "irl_niall_brian_boru", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Magog -> Fenius Farsa -> Milesius -> Niall & Brian Boru"),
+        ("bib_noah", "chn_masudi_abur_lotsatis", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> 'Abur -> Lotsatis (1st King of China in Mas'udi)"),
+        ("bib_noah", "chn_fuxi_nuwa", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Yonton (4th Son) / Fo-hi -> Fuxi & Nüwa (China)"),
+        ("bib_noah", "arm_hayk_pat", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Togarmah -> Hayk (Armenia)"),
+        ("bib_noah", "ber_branes_botr", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Ham -> Canaan -> Mazigh -> Berber Branes & Botr"),
+        ("bib_noah", "sud_jaaliyyin_abbas", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Shem -> Abraham -> Ishmael -> Muhammad -> Ja'aliyyin of Sudan"),
+        ("bib_noah", "tib_nyatri_songtsen", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Vaivasvata Manu -> Mahasammata/Okkaka -> Nyatri Tsenpo (Tibet)"),
         ("bib_moses", "eg_osarseph_bithiah", {"direct", "expansion", "cognate", "syncretic"}, "Moses -> Egyptian Osarseph / Musaeus / King of Cush"),
-        ("bib_enoch", "eg_thoth_saurid", {"direct", "expansion", "cognate", "syncretic"}, "Enoch -> Egyptian Thoth / King Saurid"),
-        ("jas_shu_bildad", "ved_bharata_kuru", {"direct", "expansion", "cognate"}, "Bildad (Abraham->Shuah, Jasher 25) -> Pandavas (Strict Textual + Cognates Only)"),
-        ("jas_tog_tarki", "chn_yu_xia", {"direct", "expansion", "cognate", "syncretic"}, "Tarki (Japheth->Togarmah, Jasher 10) -> Chinese Xia Dynasty"),
         ("jud_solomon", "eth_menelik", {"direct", "expansion"}, "King Solomon + Sheba -> Menelik I of Ethiopia"),
-        ("jas_janeus", "bib_kittim", {"direct", "expansion", "syncretic"}, "Janeus (Esau->Eliphaz->Zepho, Jasher 62) -> Kittim (Italy/Rome)"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

@@ -1159,18 +1159,6 @@
   ],
   "edges": [
     {
-      "from": "hub_primordial",
-      "to": "mes_apsu_tiamat",
-      "type": "parallel",
-      "label": "Primordial cosmic creation"
-    },
-    {
-      "from": "hub_primordial",
-      "to": "mes_lullu_adapa",
-      "type": "parallel",
-      "label": "Humans fashioned from clay + divine blood; Adapa <-> Adam"
-    },
-    {
       "from": "bib_adam",
       "to": "mes_lullu_adapa",
       "type": "parallel",
@@ -1331,12 +1319,6 @@
       "to": "mes_utuabzu",
       "type": "parallel",
       "label": "7th antediluvian sage who ascended to heaven (Bit Meseri <-> Gen 5:24)"
-    },
-    {
-      "from": "hub_flood",
-      "to": "mes_ziusudra",
-      "type": "parallel",
-      "label": "Boat on Mt. Nimush; dove/swallow/raven (Gilgamesh XI / Atrahasis)"
     },
     {
       "from": "mes_ziusudra",

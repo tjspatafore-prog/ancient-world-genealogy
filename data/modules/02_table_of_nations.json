@@ -1805,24 +1805,6 @@
       "label": "Jasher 5:35: Noah's sons marry 3 daughters of Eliakim"
     },
     {
-      "from": "hub_world_division",
-      "to": "bib_ham",
-      "type": "parallel",
-      "label": "Table of Nations: Southern/African Zone"
-    },
-    {
-      "from": "hub_world_division",
-      "to": "bib_shem",
-      "type": "parallel",
-      "label": "Table of Nations: Central/Near Eastern Zone"
-    },
-    {
-      "from": "hub_world_division",
-      "to": "bib_japheth",
-      "type": "parallel",
-      "label": "Table of Nations: Northern Eurasian Zone"
-    },
-    {
       "from": "bib_japheth",
       "to": "bib_gomer",
       "type": "direct",

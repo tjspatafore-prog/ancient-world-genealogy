@@ -462,18 +462,6 @@
   ],
   "edges": [
     {
-      "from": "hub_primordial",
-      "to": "chn_pangu",
-      "type": "parallel",
-      "label": "Cosmic separation of Heaven & Earth"
-    },
-    {
-      "from": "hub_primordial",
-      "to": "chn_fuxi_nuwa",
-      "type": "parallel",
-      "label": "Nüwa molds humans from yellow clay"
-    },
-    {
       "from": "chn_pangu",
       "to": "chn_fuxi_nuwa",
       "type": "expansion",
@@ -508,12 +496,6 @@
       "to": "chn_fuxi_nuwa",
       "type": "syncretic",
       "label": "17th-c. Figurists (Bouvet) compared Noah to Fuxi"
-    },
-    {
-      "from": "hub_world_division",
-      "to": "chn_huangdi",
-      "type": "parallel",
-      "label": "Huangdi's 25 Sons (14 surnames) -> Xia, Shang, Zhou, Qin, Chu, Xiongnu"
     },
     {
       "from": "chn_huangdi",
@@ -604,12 +586,6 @@
       "to": "chn_yu_xia",
       "type": "direct",
       "label": "Son Yu the Great -> Qi of Xia (Shiji Ch. 2)"
-    },
-    {
-      "from": "hub_flood",
-      "to": "chn_yu_xia",
-      "type": "parallel",
-      "label": "Gun-Yu Great Flood & channeling of China's rivers"
     },
     {
       "from": "chn_yu_xia",

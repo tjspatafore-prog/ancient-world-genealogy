@@ -1,0 +1,272 @@
+{
+  "module": "29_asia_china_india_persia_noahic",
+  "title": "Noahic Lineages of China, Persia, India, Kashmir, Sri Lanka, Burma & Tibet",
+  "nodes": [
+    {
+      "id": "chn_masudi_abur_lotsatis",
+      "name": "'Abur (Amur) b. Japheth → Yarej → Na'ur → Lotsatis (1st King of China at Anku)",
+      "altNames": [
+        "'Abur b. Yafeth",
+        "Lotsatis of China"
+      ],
+      "tradition": "chinese",
+      "tier": 7,
+      "era": "Post-Flood Eastern Dispersion (Al-Mas'udi Vol. I pp. 312-313)",
+      "role": "Classical Arabic Japhethic Ancestry of the Early Sovereigns of China",
+      "sources": [
+        "Al-Mas'udi Meadows of Gold Vol. I pp. 312-313"
+      ],
+      "notes": "Al-Mas'udi explicitly derives the Chinese sovereigns from Japheth b. Noah: 'The majority of the children of Abur followed the course of the river to the extremity of China... Their first king in this new settlement was Lotsatis ben Na'ur ben Yarej ben Abur ben Yafeth ben Nuh' at Anku.",
+      "major": true
+    },
+    {
+      "id": "chn_masudi_successors",
+      "name": "'Arun → 'Abirun → 'Athinan → Jaraban (Early Noahic Chinese Monarchs of Mas'udi)",
+      "altNames": [
+        "'Arun",
+        "'Abirun",
+        "'Athinan",
+        "Jaraban"
+      ],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "Post-Lotsatis China (Al-Mas'udi Vol. I pp. 313-317)",
+      "role": "Early Chinese Dynasty in Al-Mas'udi's Universal Chronicle",
+      "sources": [
+        "Al-Mas'udi Meadows of Gold Vol. I pp. 313-317"
+      ],
+      "notes": "Al-Mas'udi continues Lotsatis's lineage through 'Arun, 'Abirun, 'Athinan (bordering the Turks, descendants of his uncle), Jaraban (who sent ships to India & Babylon) & his temple-building lawgiver successor.",
+      "major": false
+    },
+    {
+      "id": "ind_hind_sind_noah",
+      "name": "Hind & Sind (Progenitors of India & Sindh in Tabari & Mas'udi)",
+      "altNames": [
+        "Hind",
+        "Sind",
+        "Buqayin b. Qahtan"
+      ],
+      "tradition": "vedic",
+      "tier": 7,
+      "era": "Post-Flood South Asia (Al-Tabari Vol. 2 pp. 15-17; Al-Mas'udi)",
+      "role": "Noahic Anchors of India & Sindh via Ham (Cush) and Shem (Joktan)",
+      "sources": [
+        "Al-Tabari Vol. 2 pp. 15, 17",
+        "Al-Mas'udi Meadows of Gold"
+      ],
+      "notes": "Al-Tabari records both major traditions linking India to Noah: (1) Indians & Sindis descending from Ham -> Cush/Canaan (p. 15), and (2) Ibn 'Abbas & Hisham al-Kalbi's line Shem -> Arphaxad -> Shelah -> Eber -> Qahtan (Joktan) -> Buqayin, father of Hind & Sind (p. 17).",
+      "major": true
+    },
+    {
+      "id": "ind_mahasammata_okkaka",
+      "name": "King Mahāsammata (= Manu) → Okkaka (= Ikshvaku) → Śākya Royal Stem",
+      "altNames": [
+        "Mahāsammata",
+        "Okkaka (= Ikshvaku)"
+      ],
+      "tradition": "vedic",
+      "tier": 8,
+      "era": "Pali & Buddhist Royal Stem (Mahavamsa Ch. II p. 80)",
+      "role": "Solar-Buddhist Dynastic Bridge Linking India, Sri Lanka, Burma & Tibet",
+      "sources": [
+        "Mahavamsa Ch. II p. 80 (Geiger)",
+        "Glass Palace Chronicle of Burma",
+        "The Blue Annals"
+      ],
+      "notes": "The Pali Mahavamsa opens its royal pedigree with first elected king Mahāsammata (cognate of Manu) -> Roja -> Mandhatar -> Okkaka (Pali form of Solar Dynasty founder Ikshvaku!) -> the Śākya clan of Kapilavastu.",
+      "major": true
+    },
+    {
+      "id": "kas_gonanda_ashoka",
+      "name": "Kashmir Kings (Kalhana's Rajatarangini): Gonanda I (Kurukshetra) → Ashoka of Kashmir",
+      "altNames": [
+        "Gonanda I",
+        "Jalauka",
+        "Ashoka in Kashmir"
+      ],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Kurukshetra to 3rd c. BCE (Kalhana's Rajatarangini Book I)",
+      "role": "Historical Kashmiri Dynasty Synchronized with Pandavas & Emperor Ashoka",
+      "sources": [
+        "Kalhana's Rajatarangini Vol. 1 (M.A. Stein 1900)"
+      ],
+      "notes": "Kalhana's Rajatarangini begins Kashmir's royal chronology at the Kurukshetra War under Gonanda I (contemporary of the Pandavas) and directly includes Emperor Ashoka (who exchanged envoys with Ptolemy II of Egypt!).",
+      "major": true
+    },
+    {
+      "id": "ceylon_vijaya_mahinda",
+      "name": "Sri Lanka (Mahavamsa): Prince Vijaya (1st King of Lanka, 543 BCE) & Thera Mahinda (Son of Ashoka)",
+      "altNames": [
+        "King Vijaya",
+        "Devanampiya Tissa",
+        "Mahinda & Sanghamitta"
+      ],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "543–247 BCE (Mahavamsa Ch. II-VII, XIII)",
+      "role": "Founding Sinhalese Dynasty & Mauryan Buddhist Mission to Lanka",
+      "sources": [
+        "Mahavamsa (Geiger Ch. II, VI-VII, XIII)"
+      ],
+      "notes": "The Mahavamsa connects Sri Lanka's first monarch Vijaya (landing on the exact day of Buddha's Parinirvana) -> Devanampiya Tissa with Emperor Ashoka's own son Mahinda and daughter Sanghamitta.",
+      "major": true
+    },
+    {
+      "id": "burma_abhiraza_tagaung",
+      "name": "Burma (Glass Palace Chronicle): King Abhiraza (Śākya Prince of Kapilavastu → Founder of Tagaung)",
+      "altNames": [
+        "Abhiraza of Tagaung",
+        "Pyusawhti"
+      ],
+      "tradition": "vedic",
+      "tier": 13,
+      "era": "Ancient Tagaung Era (Glass Palace Chronicle)",
+      "role": "Burmese Royal Origin Descended from Mahāsammata & Okkaka / Śākya",
+      "sources": [
+        "Glass Palace Chronicle of the Kings of Burma (Pe Maung Tin & Luce)"
+      ],
+      "notes": "The Hmannan Yazawin (Glass Palace Chronicle) traces the founding kings of Burma to Śākya prince Abhiraza, descendant of Mahāsammata and Okkaka (Ikshvaku), who marched from northern India to build Tagaung.",
+      "major": true
+    },
+    {
+      "id": "tib_nyatri_songtsen",
+      "name": "Tibet (The Blue Annals): Nyatri Tsenpo (1st Yarlung King, Śākya/Licchavi Stem) → Songtsen Gampo",
+      "altNames": [
+        "Nyatri Tsenpo",
+        "Songtsen Gampo"
+      ],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "Ancient Yarlung to 7th c. CE (Roerich The Blue Annals Book I)",
+      "role": "Tibetan Royal Lineage Derived from India's Śākya / Licchavi House",
+      "sources": [
+        "The Blue Annals (Deb-ther sngon-po, George Roerich tr., Book I)"
+      ],
+      "notes": "'Gos Lo-tsā-ba's Blue Annals Book I opens the Royal Chronicle of Tibet with the Indian Śākya/Licchavi origin of Tibet's first king Nyatri Tsenpo (gNya'-khri btsan-po) descending to Buddhist unifier Songtsen Gampo.",
+      "major": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "bib_japheth",
+      "to": "chn_masudi_abur_lotsatis",
+      "type": "syncretic",
+      "label": "Al-Mas'udi Meadows of Gold Vol. I pp. 312-313: Majority of children of 'Abur b. Yafeth b. Nuh settled China; first king Lotsatis b. Na'ur b. Yarej b. 'Abur b. Japheth b. Noah"
+    },
+    {
+      "from": "chn_masudi_abur_lotsatis",
+      "to": "chn_fuxi_nuwa",
+      "type": "syncretic",
+      "label": "Cross-cultural chronicler synchronization of China's Noahic founding era"
+    },
+    {
+      "from": "chn_masudi_abur_lotsatis",
+      "to": "chn_masudi_successors",
+      "type": "expansion",
+      "label": "Al-Mas'udi Vol. I pp. 313-317: Successors of Lotsatis who initiated Chinese maritime trade to India & Babylon, temples & law codes"
+    },
+    {
+      "from": "syr_yonton_4th_son",
+      "to": "chn_fuxi_nuwa",
+      "type": "syncretic",
+      "label": "Cave of Treasures p. 143: Noah sent 4th son Yonton (Jonitus) to the Far East ('Land of the Rising Sun')"
+    },
+    {
+      "from": "bib_noah",
+      "to": "chn_fuxi_nuwa",
+      "type": "syncretic",
+      "label": "John Jackson 1752 Chronological Antiquities & James Anderson 1732: 18th-c. universal chronography identifying Chinese sovereign Fo-hi (Fuxi) with Noah"
+    },
+    {
+      "from": "bib_adam",
+      "to": "ir_gayomart",
+      "type": "syncretic",
+      "label": "Al-Tabari Vol. 1 p. 369 & Mirkhwand p. 50 (Imam Ghazali): Persian/Islamic chroniclers equating Gayomart (Kayumars) with Adam"
+    },
+    {
+      "from": "bib_lud",
+      "to": "ir_gayomart",
+      "type": "syncretic",
+      "label": "Mirkhwand p. 50 & Al-Mas'udi p. 77: Persian historians identifying Gayomart with Umaym b. Lud b. Aram b. Shem b. Noah"
+    },
+    {
+      "from": "bib_gomer",
+      "to": "ir_gayomart",
+      "type": "syncretic",
+      "label": "Al-Tabari Vol. 2 p. 15 & Mirkhwand p. 50: Genealogy tracing Persian kings back to Jayumart / Gomer b. Japheth b. Noah"
+    },
+    {
+      "from": "bib_madai",
+      "to": "ir_cyrus",
+      "type": "syncretic",
+      "label": "Al-Tabari Vol. 2 p. 15: Cyrus the Mede, conqueror of Belshazzar, descended from Madai b. Japheth"
+    },
+    {
+      "from": "bib_cush",
+      "to": "ind_hind_sind_noah",
+      "type": "syncretic",
+      "label": "Al-Tabari Vol. 2 p. 15 & Al-Mas'udi: Indians (Hind) & Sindis descend from Ham b. Noah via Cush/Canaan"
+    },
+    {
+      "from": "bib_joktan",
+      "to": "ind_hind_sind_noah",
+      "type": "syncretic",
+      "label": "Al-Tabari Vol. 2 p. 17 (Ibn 'Abbas / Hisham al-Kalbi): Alternate tradition tracing Hind & Sind to Buqayin b. Qahtan (Joktan) b. Eber b. Shem"
+    },
+    {
+      "from": "ind_hind_sind_noah",
+      "to": "ved_vaivasvata_manu",
+      "type": "syncretic",
+      "label": "Chronicler bridge linking Noahic Hind/Sind to India's Great Flood survivor Vaivasvata Manu"
+    },
+    {
+      "from": "bib_noah",
+      "to": "ved_vaivasvata_manu",
+      "type": "syncretic",
+      "label": "Great Flood survivor Vaivasvata Manu (Shatapatha Brahmana / Matsya Purana) — classic Noahic cognate"
+    },
+    {
+      "from": "ved_vaivasvata_manu",
+      "to": "ind_mahasammata_okkaka",
+      "type": "cognate",
+      "label": "Mahavamsa Ch. II p. 80 & Glass Palace Chronicle: Buddhist royal stem from first king Mahāsammata -> Okkaka (Ikshvaku) -> Śākya clan"
+    },
+    {
+      "from": "ind_mahasammata_okkaka",
+      "to": "ved_buddha",
+      "type": "direct",
+      "label": "Okkaka / Ikshvaku -> Śākya clan -> King Shuddhodana -> Siddhartha Gautama Buddha"
+    },
+    {
+      "from": "ved_maurya_ashoka",
+      "to": "kas_gonanda_ashoka",
+      "type": "cognate",
+      "label": "Kalhana's Rajatarangini Book I (Stein): Kashmir chronology anchored to Pandavas/Kurukshetra & Emperor Ashoka (who links historically to Ptolemy II!)"
+    },
+    {
+      "from": "ved_buddha",
+      "to": "ceylon_vijaya_mahinda",
+      "type": "expansion",
+      "label": "Mahavamsa Ch. II-VII: Vijaya arrives on the day of Buddha's Parinirvana; Mahinda son of Ashoka brings Buddhism to Lanka"
+    },
+    {
+      "from": "ved_maurya_ashoka",
+      "to": "ceylon_vijaya_mahinda",
+      "type": "direct",
+      "label": "Son Mahinda & daughter Sanghamitta of Emperor Ashoka"
+    },
+    {
+      "from": "ind_mahasammata_okkaka",
+      "to": "burma_abhiraza_tagaung",
+      "type": "expansion",
+      "label": "Glass Palace Chronicle of the Kings of Burma: Traces Burmese kings directly to Śākya prince Abhiraza, descendant of Mahāsammata & Okkaka/Ikshvaku"
+    },
+    {
+      "from": "ind_mahasammata_okkaka",
+      "to": "tib_nyatri_songtsen",
+      "type": "expansion",
+      "label": "Roerich The Blue Annals Book I (Royal Chronicle of Tibet): Traces 1st Tibetan king Nyatri Tsenpo to the Indian Śākya/Licchavi lineage of Mahāsammata & Ikshvaku"
+    }
+  ]
+}

@@ -629,19 +629,24 @@
     },
     {
       "id": "syr_yonton_4th_son",
-      "name": "Yônṭôn (4th Son of Noah!) — Sage of Lake Aṭrâs & Teacher of Nimrod's 'Gelyânâ'",
+      "name": "Yonton / Jonitus (Yônṭôn — 4th Son of Noah)",
       "altNames": [
-        "Yônṭôn / Jonitus",
-        "Gelyânâ of Nimrod"
+        "Yonton",
+        "Jonitus",
+        "Jonithus",
+        "Yônṭôn",
+        "Yoniton"
       ],
       "tradition": "biblical",
       "tier": 5,
-      "era": "Post-Flood East (Cave of Treasures pp. 122, 143-144)",
-      "role": "Post-Diluvian 4th Son of Noah & Origin of Eastern Magian Astronomy",
+      "era": "Post-Flood East (Cave of Treasures pp. 122, 143-144; Bar Hebraeus)",
+      "role": "Post-Diluvian 4th Son of Noah & Origin of Eastern Wisdom",
       "sources": [
-        "Syriac Cave of Treasures (Budge 1927 pp. 122, 143-144)"
+        "Cave of Treasures (Budge p. 143)",
+        "Bar Hebraeus Chronography",
+        "Apocalypse of Pseudo-Methodius"
       ],
-      "notes": "Born to Noah after the Flood and sent east to Yôkdôrâ of Nôdh by Lake Aṭrâs! Nimrod journeyed east to Yônṭôn for 3 years and received the astronomical 'Revelation (Gelyânâ) of Nimrod' — the very star-prophecy later followed by the Magi to Bethlehem!",
+      "notes": "Born to Noah after the Flood and sent east to Yôkdôrâ of Nôdh by Lake Aṭrâs ('Land of the Rising Sun'). Nimrod journeyed east to Yonton (Jonitus) for 3 years and received the astronomical 'Revelation (Gelyânâ) of Nimrod' — the star-prophecy later followed by the Magi to Bethlehem!",
       "major": true
     },
     {

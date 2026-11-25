@@ -1,0 +1,315 @@
+{
+  "module": "27_jubilees_barhebraeus_tabari_biblical",
+  "title": "Jubilees Matriarchs, Bar Hebraeus, Tabari, Mas'udi, Islamic Caliphates & Jackson Synchronisms",
+  "nodes": [
+    {
+      "id": "bib_yam_kanaan",
+      "name": "Yam / Kan'an (Unbelieving Son of Noah Who Perished in the Flood)",
+      "altNames": [
+        "Yam b. Nuh",
+        "Kan'an b. Nuh"
+      ],
+      "tradition": "biblical",
+      "tier": 5,
+      "era": "Deluge Narrative (Al-Tabari Vol. 1 p. 360; Al-Mas'udi p. 75)",
+      "role": "Fourth Pre-Flood Son in Islamic Exegesis",
+      "sources": [
+        "Al-Tabari Vol. 1 p. 360",
+        "Al-Mas'udi Meadows of Gold p. 75"
+      ],
+      "notes": "Recorded alongside Shem, Ham, and Japheth by Al-Tabari and Al-Mas'udi (citing Quran 11:42-44): Noah's son Yam (or Kan'an) refused to board the Ark and perished in the waters.",
+      "major": false
+    },
+    {
+      "id": "jub_postflood_wives",
+      "name": "Book of Jubilees Post-Flood Matriarchs (Rasu'eja, Melka dau. of Madai, Mu'ak, Azura dau. of Nimrod, Lomna, Ora, Milkah, Iyaska & Edna)",
+      "altNames": [
+        "Rasu'eja",
+        "Melka bat Madai",
+        "Azura bat Nimrod",
+        "Edna bat Abram"
+      ],
+      "tradition": "biblical",
+      "tier": 7,
+      "era": "Post-Flood Generations (Book of Jubilees Ch. 8-11)",
+      "role": "Named Post-Flood Matriarchs Connecting Shem, Japheth & Ham Lines",
+      "sources": [
+        "Book of Jubilees (R.H. Charles Ch. 8-11 pp. 66-89)"
+      ],
+      "notes": "Jubilees 8-11 preserves every matriarch from Arphaxad to Abraham: Arphaxad + Rasu'eja (dau. of Elam); Cainan + Melka (dau. of Madai of Japheth!); Shelah + Mu'ak (dau. of Kesed); Eber + Azura (dau. of Nimrod/Nebrod!); Peleg + Lomna (Shinar); Reu + Ora (dau. of Ur); Serug + Milkah; Nahor + Iyaska; Terah + Edna!",
+      "major": false
+    },
+    {
+      "id": "tab_japheth_shabokah",
+      "name": "Shabokah (Daughter of Japheth & Arbasisah)",
+      "altNames": [
+        "Arbasisah bt. Marazil",
+        "Shabokah bt. Yafith"
+      ],
+      "tradition": "biblical",
+      "tier": 6,
+      "era": "Post-Flood Generation 1 (Al-Tabari Vol. 2 p. 11)",
+      "role": "Named Daughter of Japheth in Al-Tabari",
+      "sources": [
+        "Al-Tabari Vol. 2 p. 11 (citing Wahb b. Munabbih)"
+      ],
+      "notes": "Al-Tabari records Japheth's wife Arbasisah (daughter of Marazil b. Darmasil of the Cainite line) bearing seven sons and daughter Shabokah.",
+      "major": false
+    },
+    {
+      "id": "tab_ad_thamud_hud_salih",
+      "name": "'Ad (Prophet Hud) & Thamud (Prophet Salih) — Ancient Arabian Tribes",
+      "altNames": [
+        "Prophet Hud ('Ad)",
+        "Prophet Salih (Thamud)",
+        "'Abil b. 'Us"
+      ],
+      "tradition": "arabian",
+      "tier": 7,
+      "era": "Early Arabian Peninsula (Al-Tabari Vol. 2 pp. 14-16; Al-Mas'udi p. 76)",
+      "role": "Shem -> Aram -> Uz -> Ancient Arab Nations ('Arab al-'Ariba)",
+      "sources": [
+        "Al-Tabari Vol. 2 pp. 14-16",
+        "Al-Mas'udi Meadows of Gold p. 76"
+      ],
+      "notes": "Arabian chroniclers derive the extinct 'original Arabs' ('Ad of al-Ahqaf under Prophet Hud, and Thamud of al-Hijr under Prophet Salih) directly from 'Us (Uz) b. Aram b. Shem b. Noah.",
+      "major": true
+    },
+    {
+      "id": "tab_lud_amalek_tasm",
+      "name": "Tasm, Judays, Umaym & 'Imliq (Arabian Amalekites)",
+      "altNames": [
+        "Tasm & Judays",
+        "'Imliq (Amalek)",
+        "Umaym b. Laud"
+      ],
+      "tradition": "arabian",
+      "tier": 7,
+      "era": "Post-Babel Dispersion (Al-Tabari Vol. 2 p. 16; Al-Mas'udi pp. 76-77)",
+      "role": "Sons of Lud b. Shem Across Yamamah, Hijaz, Oman & Faris",
+      "sources": [
+        "Al-Tabari Vol. 2 pp. 14-16",
+        "Al-Mas'udi Meadows of Gold pp. 76-77"
+      ],
+      "notes": "Tabari & Mas'udi preserve the Arabian Ludite tribes: Tasm & Judays (Yamamah/Bahrain), Jasim (Oman), 'Imliq (Hijaz/Syria/Amalekite Pharaohs), and Umaym (whose descendants settled Persia/Wabar).",
+      "major": false
+    },
+    {
+      "id": "tab_yarub_jurhum_himyar",
+      "name": "Ya'rub (1st Arabic King), Jurhum (Mecca) & Saba → Himyar & Kahlan (Lakhmids & Ghassanids)",
+      "altNames": [
+        "Ya'rub b. Qahtan",
+        "Jurhum",
+        "Himyar & Kahlan"
+      ],
+      "tradition": "arabian",
+      "tier": 9,
+      "era": "South & North Arabia (Al-Tabari Vol. 2 & 5; Al-Mas'udi p. 78)",
+      "role": "Qahtanite / Yemenite Sovereign Stem & Mecca Marriage to Ishmael",
+      "sources": [
+        "Al-Tabari Vol. 2 & 5",
+        "Al-Mas'udi p. 78",
+        "MacMichael History of Arabs in Sudan p. 131"
+      ],
+      "notes": "Qahtan (Joktan) -> Ya'rub (said by Mas'udi to be the first king to articulate classical Arabic) & cousin Jurhum (who settled Mecca and married their daughter to Ishmael!) -> Abd Shams Saba -> Himyar (Yemen) & Kahlan (Banu Lakhm of al-Hirah & Ghassanids of Syria).",
+      "major": true
+    },
+    {
+      "id": "tab_esau_rum_job",
+      "name": "Al-Rum / Banu al-Asfar (Byzantines/Romans via Esau) & Prophet Job (Ayyub) + Liyya (dau. of Jacob)",
+      "altNames": [
+        "Banu al-Asfar (al-Rum)",
+        "Ayyub (Job b. Maws b. Esau)",
+        "Liyya bt. Ya'qub"
+      ],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Patriarchal Synchronization (Al-Tabari Vol. 2 pp. 17, 21, 140)",
+      "role": "Islamic/Arabian Identification of Esau with Rome & Job with Esau's Line",
+      "sources": [
+        "Al-Tabari Vol. 2 pp. 17, 21, 140"
+      ],
+      "notes": "Al-Tabari transmits the classical Arabic historical tradition identifying al-Rum / Banu al-Asfar (Romans/Byzantines) as descendants of Esau b. Isaac, and tracing Prophet Job (Ayyub b. Maws b. Razih/Raghwil b. Esau) marrying Jacob's daughter Liyya.",
+      "major": true
+    },
+    {
+      "id": "tab_midian_shuayb",
+      "name": "Prophet Shu'ayb (Jethro / Reuel of Midian)",
+      "altNames": [
+        "Shu'ayb",
+        "Jethro of Midian"
+      ],
+      "tradition": "arabian",
+      "tier": 11,
+      "era": "Midianite Horizon (Al-Mas'udi p. 91; Al-Tabari Vol. 2)",
+      "role": "Prophet of Midian Descended from Abraham & Keturah",
+      "sources": [
+        "Al-Mas'udi Meadows of Gold p. 91",
+        "Al-Tabari Vol. 2"
+      ],
+      "notes": "Mas'udi records the genealogy of Shu'ayb (identified with Jethro/Reuel, father-in-law of Moses): Shu'ayb b. Thoriel b. Da'wayel b. Marik b. 'Anka b. Madyan (Midian) b. Abraham.",
+      "major": false
+    },
+    {
+      "id": "tab_adnan_21gen_quraysh",
+      "name": "Complete 21-Gen Quraysh Lineage (Tabari Vol. 6): Adnan → Ma'add → Nizar → Mudar → Ilyas → Mudrikah → Khuzaymah → Kinanah → al-Nadr → Malik → Fihr (Quraysh) → Ghalib → Lu'ayy → Ka'b → Murrah → Kilab → Qusayy → 'Abd Manaf → Hashim → 'Abd al-Muttalib → 'Abdallah",
+      "altNames": [
+        "Fihr (Quraysh)",
+        "Qusayy & 'Abd Manaf",
+        "'Abdallah b. 'Abd al-Muttalib"
+      ],
+      "tradition": "arabian",
+      "tier": 18,
+      "era": "Adnanite Quraysh Stem (Tabari Vol. 6 pp. 1-44)",
+      "role": "Unbroken 21-Generation Pedigree from Adnan to the Father of Prophet Muhammad",
+      "sources": [
+        "Al-Tabari Vol. 6 pp. 1-44 (Watt & McDonald)",
+        "Lane-Poole Mohammadan Dynasties",
+        "Zambaur Manuel (1927)"
+      ],
+      "notes": "Complete 21-generation genealogy preserved in Tabari Vol. 6 (and tabulated by Lane-Poole & Zambaur), linking Adnan (Ishmaelite) down to 'Abdallah b. 'Abd al-Muttalib, father of Muhammad.",
+      "major": true
+    },
+    {
+      "id": "isl_umayyad_abbasid_fatimid",
+      "name": "Major Islamic Caliphal Houses (Lane-Poole & Zambaur): Umayyads ('Abd Shams), Abbasids (al-'Abbas), Fatimids (Isma'il), Idrisids (Morocco) & Sharifs of Mecca",
+      "altNames": [
+        "Umayyad Caliphs",
+        "Abbasid Caliphs",
+        "Fatimids & Idrisids"
+      ],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "661–1517 CE (Universal Islamic Dynastic Tables)",
+      "role": "Caliphal & Royal Houses Descending from Quraysh & Abraham via Ishmael",
+      "sources": [
+        "Stanley Lane-Poole Mohammadan Dynasties (1894)",
+        "E. de Zambaur Manuel de Généalogie (1927)"
+      ],
+      "notes": "Complete comparative dynasties from Lane-Poole & Zambaur: 'Abd Manaf -> 'Abd Shams (Umayyad Caliphs of Damascus & Cordoba); Hashim -> al-'Abbas (Abbasid Caliphs of Baghdad); Ali & Fatimah -> Fatimids of Cairo, Idrisids of Morocco & Qatadid Sharifs of Mecca.",
+      "major": true
+    },
+    {
+      "id": "sanch_chrysor_barhebraeus",
+      "name": "Sanchuniathon & Bar Hebraeus Synchronisms: Chrysor/Vulcan (= Tubal-Cain), Misor (= Mizraim), Chna (= Canaan) & 10 Chaldean Kings (Aloros → Ksisothros = Noah)",
+      "altNames": [
+        "Chrysor (= Tubal-Cain)",
+        "Aloros -> Ksisothros (= Noah)"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 3,
+      "era": "Antediluvian Comparative Chronology (Jackson 1752 p. 207; Bar Hebraeus p. 6)",
+      "role": "Phoenician & Syriac Synchronizations Anchored to Adam & Noah",
+      "sources": [
+        "John Jackson Chronological Antiquities (1752 pp. 207-231)",
+        "Bar Hebraeus Chronography p. 6"
+      ],
+      "notes": "John Jackson (1752) aligns Sanchuniathon's Phoenician line (Chrysor/Vulcan = Tubal-Cain in the exact 7th descent from Adam; Misor = Mizraim; Chna = Canaan), while Bar Hebraeus p. 6 preserves the 10 Chaldean kings from Aloros to Ksisothros (= Noah).",
+      "major": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "bib_noah",
+      "to": "bib_yam_kanaan",
+      "type": "expansion",
+      "label": "Al-Tabari Vol. 1 p. 360 & Al-Mas'udi p. 75 (Quranic tradition): Son of Noah who refused to board the Ark"
+    },
+    {
+      "from": "bib_arphaxad",
+      "to": "jub_postflood_wives",
+      "type": "expansion",
+      "label": "R.H. Charles Book of Jubilees Ch. 8-11: Complete named wives linking Shem's line to Elam, Madai (Japheth) & Nimrod (Ham)"
+    },
+    {
+      "from": "bib_madai",
+      "to": "jub_postflood_wives",
+      "type": "expansion",
+      "label": "Jubilees 8:5: Melka daughter of Madai marries Cainan -> mother of Shelah"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "jub_postflood_wives",
+      "type": "expansion",
+      "label": "Jubilees 8:7: Azura daughter of Nimrod marries Eber -> mother of Peleg"
+    },
+    {
+      "from": "jub_postflood_wives",
+      "to": "bib_terah",
+      "type": "expansion",
+      "label": "Continuous Jubilees Ch. 8-11 matriarchal line to Terah & Edna -> Abraham"
+    },
+    {
+      "from": "bib_japheth",
+      "to": "tab_japheth_shabokah",
+      "type": "expansion",
+      "label": "Al-Tabari Vol. 2 p. 11: Japheth's wife Arbasisah bore 7 sons and daughter Shabokah"
+    },
+    {
+      "from": "bib_aram",
+      "to": "tab_ad_thamud_hud_salih",
+      "type": "expansion",
+      "label": "Al-Tabari Vol. 2 pp. 14-16 & Al-Mas'udi p. 76: Shem -> Aram -> Uz -> 'Ad (Hud) & Thamud (Salih) — the original 'Arab al-'Ariba"
+    },
+    {
+      "from": "bib_lud",
+      "to": "tab_lud_amalek_tasm",
+      "type": "expansion",
+      "label": "Al-Tabari Vol. 2 p. 16 & Al-Mas'udi pp. 76-77: Sons of Lud b. Shem settling Yamamah, Hijaz & Faris"
+    },
+    {
+      "from": "bib_joktan",
+      "to": "tab_yarub_jurhum_himyar",
+      "type": "expansion",
+      "label": "Al-Tabari Vol. 2 & 5; Al-Mas'udi p. 78; MacMichael p. 131: Qahtan (Joktan) -> Ya'rub, Jurhum (married Ishmael!), Himyar (Yemen) & Kahlan (Ghassanids & Lakhmids of al-Hirah)"
+    },
+    {
+      "from": "bib_esau",
+      "to": "tab_esau_rum_job",
+      "type": "expansion",
+      "label": "Al-Tabari Vol. 2 pp. 17, 21, 140: Traces Romans/Byzantines (al-Rum) and Job b. Maws b. Reuel to Esau; Job marries Liyya dau. of Jacob"
+    },
+    {
+      "from": "bib_jacob",
+      "to": "tab_esau_rum_job",
+      "type": "expansion",
+      "label": "Tabari Vol. 2 p. 140: Liyya daughter of Jacob marries Job"
+    },
+    {
+      "from": "ket_midian",
+      "to": "tab_midian_shuayb",
+      "type": "expansion",
+      "label": "Al-Mas'udi p. 91 & Al-Tabari Vol. 2: Shu'ayb b. Thoriel ... b. Midian b. Abraham, father-in-law of Moses"
+    },
+    {
+      "from": "ar_adnan_quraysh",
+      "to": "tab_adnan_21gen_quraysh",
+      "type": "direct",
+      "label": "Tabari Vol. 6 pp. 1-44; Lane-Poole; Zambaur: Full 21-generation unbroken pedigree to Prophet Muhammad"
+    },
+    {
+      "from": "tab_adnan_21gen_quraysh",
+      "to": "ar_hashim_muhammad_caliphs",
+      "type": "direct",
+      "label": "'Abdallah b. 'Abd al-Muttalib -> Prophet Muhammad (570-632 CE)"
+    },
+    {
+      "from": "ar_hashim_muhammad_caliphs",
+      "to": "isl_umayyad_abbasid_fatimid",
+      "type": "direct",
+      "label": "Lane-Poole Mohammadan Dynasties & Zambaur Manuel de Généalogie (1927): All major Quraysh/Ishmaelite dynasties"
+    },
+    {
+      "from": "bib_adam",
+      "to": "sanch_chrysor_barhebraeus",
+      "type": "syncretic",
+      "label": "John Jackson 1752 p. 207 & Bar Hebraeus p. 6: Sanchuniathon's Chrysor = Tubal-Cain; Bar Hebraeus's 10 Chaldean kings culminating in Ksisothros = Noah"
+    },
+    {
+      "from": "sanch_chrysor_barhebraeus",
+      "to": "bib_noah",
+      "type": "syncretic",
+      "label": "Bar Hebraeus identifies 10th Chaldean king Ksisothros with Noah"
+    }
+  ]
+}

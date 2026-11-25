@@ -7,7 +7,7 @@ and exhaustive person-by-person accounting across 11 modules.
 """
 
 import json
-from collections import Counter
+from collections import Counter, deque
 from pathlib import Path
 
 from modules import (
@@ -21,6 +21,10 @@ from modules import (
     mod23_celtic_lebor_gabala,
     mod24_classical_empires_universal,
     mod25_abraham_to_present_day,
+    mod26_russia_armenia_europe_noahic,
+    mod27_jubilees_barhebraeus_tabari_biblical,
+    mod28_africa_berbers_sudan_noahic,
+    mod29_asia_china_india_persia_noahic,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -28,19 +32,23 @@ MODULES_DIR = ROOT / "data" / "modules"
 OUT_ALL = ROOT / "data" / "world_genealogy.json"
 OUT_CORE = ROOT / "data" / "genealogy_core.json"
 
+PRUNE_PREFIXES = (
+    "indr_", "egr_", "aklr_", "chnr_", "grkr_", "babr_",
+    "sklr_", "mngr_", "birr_", "jpnr_", "celr_", "amp_", "hub_", "geor_kgs_",
+)
+PRUNE_EXACT = {"af_kintu_gikuyu"}
+
 TRADITIONS = {
-    "archetype":       {"label": "Global Convergence Hubs",        "region": "Worldwide Comparative Layer",  "color": "#6366f1", "order": 0},
     "dna":             {"label": "Archaeogenetics (Y-DNA & mtDNA)","region": "Global Population Genetics",   "color": "#14b8a6", "order": 0.5},
-    "americas_pacific":{"label": "Americas & Polynesia",           "region": "Americas & Pacific Oceania",   "color": "#0e7490", "order": 1},
-    "europe_norse":    {"label": "Celtic, Norse & European",       "region": "Northern & Western Europe",    "color": "#4f46e5", "order": 2},
-    "african":         {"label": "African, Cushite & Ethiopian",   "region": "Nubia / Ethiopia / Africa",    "color": "#16a34a", "order": 3},
+    "europe_norse":    {"label": "Celtic, Norse, Slavic & European","region": "Northern, Eastern & Western Europe","color": "#4f46e5", "order": 2},
+    "african":         {"label": "African, Berber, Sudan & Ethiopian","region": "North Africa / Nubia / Ethiopia","color": "#16a34a", "order": 3},
     "levant_egypt":    {"label": "Egyptian & Canaanite-Phoenician","region": "Nile / Eastern Mediterranean", "color": "#0d9488", "order": 4},
     "greek":           {"label": "Greek & Mediterranean",          "region": "Aegean / Anatolia / Italy",    "color": "#0284c7", "order": 5},
     "biblical":        {"label": "Biblical & Extra-Biblical",      "region": "Levant / Ancient Near East",   "color": "#d97706", "order": 6},
     "arabian":         {"label": "Arabian (Adnanite & Qahtanite)", "region": "Arabian Peninsula",            "color": "#ca8a04", "order": 7},
     "mesopotamian":    {"label": "Mesopotamian (Sumer / Akkad)",   "region": "Mesopotamia",                  "color": "#2563eb", "order": 8},
-    "iranian":         {"label": "Iranian / Zoroastrian",          "region": "Iranian Plateau / Central Asia","color": "#9333ea", "order": 9},
-    "vedic":           {"label": "Vedic & Puranic Indian",         "region": "South Asia / Indus-Ganges",    "color": "#ea580c", "order": 10},
+    "iranian":         {"label": "Iranian, Armenian & Caucasian",  "region": "Iran / Caucasus / Central Asia","color": "#9333ea", "order": 9},
+    "vedic":           {"label": "India, Kashmir, Ceylon, Burma & Tibet","region": "South Asia & Himalayas", "color": "#ea580c", "order": 10},
     "steppe":          {"label": "Eurasian Steppe / Turkic",       "region": "Inner Asia / Eurasian Steppe", "color": "#059669", "order": 11},
     "chinese":         {"label": "Ancient Chinese (Sinitic)",      "region": "East Asia / Yellow River",     "color": "#dc2626", "order": 12},
     "japan_korea":     {"label": "Ancient Japanese & Korean",      "region": "East Asia / Archipelago",      "color": "#db2777", "order": 13},
@@ -1213,11 +1221,16 @@ def build_module_15_adam2jesus_biblical():
     return {"module": "15_biblical_judges_kings_prophets", "title": "Exhaustive Adam2Jesus Biblical Expansion (Judges, House of Saul, All 20 Kings of Judah, All 19 Kings of Israel, High Priests, Prophets, Esther, Job, Dual Line to Jesus, Herodians & Foreign Kings)", "nodes": nodes, "edges": edges}
 
 
+def is_pruned_id(nid):
+    return nid in PRUNE_EXACT or nid.startswith(PRUNE_PREFIXES)
+
+
 def main():
     MODULES_DIR.mkdir(parents=True, exist_ok=True)
-    old_asia = MODULES_DIR / "07_asia_steppe.json"
-    if old_asia.exists():
-        old_asia.unlink()
+    for stale_name in ("07_asia_steppe.json", "13_americas_polynesia.json"):
+        stale = MODULES_DIR / stale_name
+        if stale.exists():
+            stale.unlink()
 
     mod03 = load_existing_module("03_abraham_all_nations")
     mod09 = load_existing_module("09_greek_mediterranean")
@@ -1236,7 +1249,6 @@ def main():
         build_module_10_east_asia_chinese(),
         build_module_11_korean_japanese(),
         build_module_12_celtic_norse_europe(),
-        build_module_13_americas_polynesia(),
         build_module_14_archaeogenetics_dna(),
         build_module_15_adam2jesus_biblical(),
         mod16_biblical_nt_syriac.build_module(),
@@ -1249,7 +1261,18 @@ def main():
         mod23_celtic_lebor_gabala.build_module(),
         mod24_classical_empires_universal.build_module(),
         mod25_abraham_to_present_day.build_module(),
+        mod26_russia_armenia_europe_noahic.build_module(),
+        mod27_jubilees_barhebraeus_tabari_biblical.build_module(),
+        mod28_africa_berbers_sudan_noahic.build_module(),
+        mod29_asia_china_india_persia_noahic.build_module(),
     ]
+
+    for mod in modules:
+        mod["nodes"] = [n for n in mod["nodes"] if not is_pruned_id(n["id"])]
+
+    kept_ids = {n["id"] for mod in modules for n in mod["nodes"]}
+    for mod in modules:
+        mod["edges"] = [e for e in mod["edges"] if e["from"] in kept_ids and e["to"] in kept_ids]
 
     all_nodes, all_edges = [], []
     module_summaries = []
@@ -1279,10 +1302,31 @@ def main():
             seen_edges.add(key)
             clean_edges.append(e)
 
+    # Strict Adam & Noahic connectivity check (every non-DNA node must connect to bib_adam without genetic/parallel shortcuts)
+    adj = {nid: [] for nid in nodes_by_id}
+    for e in clean_edges:
+        if e["type"] in ("direct", "expansion", "cognate", "syncretic"):
+            adj[e["from"]].append(e["to"])
+            adj[e["to"]].append(e["from"])
+    visited = {"bib_adam"}
+    q = deque(["bib_adam"])
+    while q:
+        u = q.popleft()
+        for v in adj[u]:
+            if v not in visited:
+                visited.add(v)
+                q.append(v)
+    disconnected_non_dna = [
+        f"{n['id']} ({n['tradition']}): {n['name']}"
+        for n in all_nodes
+        if n["tradition"] != "dna" and n["id"] not in visited
+    ]
+    assert not disconnected_non_dna, f"Unconnected non-DNA nodes found ({len(disconnected_non_dna)}): {disconnected_non_dna[:10]}"
+
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — 31 Sources + Living Abrahamic Lines to 2026 (Phase 12)",
-            "version": "12.0.0",
+            "title": "Ancient World Genealogy Atlas — 77 Sources Rooted in Adam, Noah & His 4 Sons (v13.0)",
+            "version": "13.0.0",
             "modules": module_summaries,
             "linkTypes": LINK_TYPES,
         },

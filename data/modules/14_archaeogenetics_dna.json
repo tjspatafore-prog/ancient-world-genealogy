@@ -257,18 +257,6 @@
       "label": "Y-DNA BT -> CT branches into DE and CF (~70 kya)"
     },
     {
-      "from": "hub_primordial",
-      "to": "dna_y_adam",
-      "type": "parallel",
-      "label": "Scientific patrilineal MRCA compared alongside mythic primeval ancestors"
-    },
-    {
-      "from": "hub_primordial",
-      "to": "dna_mt_eve",
-      "type": "parallel",
-      "label": "Scientific matrilineal MRCA compared alongside mythic primeval mothers"
-    },
-    {
       "from": "dna_ooa_l3_ct",
       "to": "dna_e1b1a",
       "type": "genetic",
@@ -297,12 +285,6 @@
       "to": "af_oduduwa",
       "type": "genetic",
       "label": "Population corridor matching West/Central African Niger-Congo & Yoruba/Benin lineages"
-    },
-    {
-      "from": "dna_e1b1a",
-      "to": "af_kintu_gikuyu",
-      "type": "genetic",
-      "label": "Bantu expansion corridor into Great Lakes & East Africa"
     },
     {
       "from": "dna_e1b1b",
@@ -453,36 +435,6 @@
       "to": "stp_xiongnu",
       "type": "genetic",
       "label": "Steppe C2, N & R1a/Q admixture confirmed in ancient Xiongnu burials"
-    },
-    {
-      "from": "dna_o1_austronesian",
-      "to": "amp_poly_kupe_tonga",
-      "type": "genetic",
-      "label": "Out-of-Taiwan -> Lapita -> Tonga, Hawaii, Aotearoa & Rapa Nui maritime DNA trail!"
-    },
-    {
-      "from": "dna_o1_austronesian",
-      "to": "amp_inca_pachacuti",
-      "type": "genetic",
-      "label": "Ioannidis et al. (Nature 2020) confirmed pre-Columbian Polynesian-South American DNA contact (~1200 CE)!"
-    },
-    {
-      "from": "dna_q_americas",
-      "to": "amp_na_skywoman",
-      "type": "genetic",
-      "label": "Beringian Y-DNA Q-M3 & mtDNA A2/B2/C1/D1 ancestral roots of North America"
-    },
-    {
-      "from": "dna_q_americas",
-      "to": "amp_maya_four_men",
-      "type": "genetic",
-      "label": "Ancestral Native American genetic continuity in Mesoamerica (Maya & Aztec)"
-    },
-    {
-      "from": "dna_q_americas",
-      "to": "amp_inca_manco",
-      "type": "genetic",
-      "label": "Rapid Pacific-coast southward migration reaching Andean South America by ~14,500 BCE"
     }
   ]
 }

@@ -612,12 +612,6 @@
   ],
   "edges": [
     {
-      "from": "hub_primordial",
-      "to": "eg_nun_atum",
-      "type": "parallel",
-      "label": "Heliopolitan primeval creation out of Nun"
-    },
-    {
       "from": "eg_nun_atum",
       "to": "eg_shu_tefnut",
       "type": "direct",

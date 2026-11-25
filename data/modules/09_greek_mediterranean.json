@@ -705,18 +705,6 @@
   ],
   "edges": [
     {
-      "from": "hub_primordial",
-      "to": "grk_chaos_gaia",
-      "type": "parallel",
-      "label": "Primordial Earth & Sky creation"
-    },
-    {
-      "from": "hub_primordial",
-      "to": "grk_prometheus",
-      "type": "parallel",
-      "label": "Prometheus molds first humans from clay + Pandora (first woman)"
-    },
-    {
       "from": "grk_chaos_gaia",
       "to": "grk_cronus_rhea",
       "type": "direct",
@@ -795,22 +783,10 @@
       "label": "Prometheus -> Deucalion; Epimetheus + Pandora -> Pyrrha"
     },
     {
-      "from": "hub_flood",
-      "to": "grk_deucalion",
-      "type": "parallel",
-      "label": "Wooden chest/ark landing on Mt. Parnassus (Apollodorus I.7.2)"
-    },
-    {
       "from": "grk_deucalion",
       "to": "grk_hellen",
       "type": "direct",
       "label": "Son of Deucalion & Pyrrha (Catalogue of Women)"
-    },
-    {
-      "from": "hub_world_division",
-      "to": "grk_hellen",
-      "type": "parallel",
-      "label": "Hellen's 3 Sons (Dorus, Xuthus, Aeolus) divide the Greek world"
     },
     {
       "from": "grk_hellen",

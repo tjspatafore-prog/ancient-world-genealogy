@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ancient World Genealogy Atlas — Complete Global &amp; Archaeogenetics Explorer</title>
-  <meta name="description" content="Complete global ancient genealogy atlas uniting 1,831+ individuals & lineages across 24 modules and 31 primary sources: Biblical, Syriac Cave of Treasures, Josephus, Jasher, Jubilees, 1 Enoch, Manetho's 31 Egyptian Dynasties, Sumerian/Assyrian/Babylonian King Lists, Georgian Kartlis Tskhovreba, Al-Biruni, Kebra Nagast, Apollodorus/Hesiod, Pargiter's 95-Gen Indian Puranic Dynasties, Chinese Bamboo Books, Nihongi, Secret History of the Mongols, Irish Lebor Gabála Érenn, Betham/Anderson Royal Genealogies, Americas, Polynesia & Archaeogenetics." />
+  <title>Ancient World Genealogy Atlas — Universal Biblical &amp; Noahic Lineages</title>
+  <meta name="description" content="Complete global ancient genealogy atlas connecting every nation and dynasty back to Adam &amp; Eve and Noah (Shem, Ham, Japheth &amp; Yonton) across 77 primary sources: Bible, Enoch, Jasher, Jubilees, Cave of Treasures, Josephus, Bar Hebraeus, Al-Tabari, Al-Mas'udi, Russian Primary Chronicle, Irish Pedigrees, Khorenatsi, Kartlis Tskhovreba, Jordanes, Skene, Anderson, Ibn Khaldun, MacMichael, Pargiter, Kalhana, Mahavamsa, Glass Palace Chronicle &amp; Living Lines to 2026." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :root {
@@ -74,13 +74,13 @@
           <h1 class="text-xs sm:text-sm font-semibold leading-tight truncate">Ancient World Genealogy Atlas</h1>
           <span id="versionBadge" class="text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono shrink-0">Loading…</span>
         </div>
-        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">Complete Global Atlas • 25 Modules • 31 Primary Sources • Living Abrahamic Lines to 2026 • World Map • Deep Timeline • Y-DNA</p>
+        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">77 Primary Sources • Every Lineage Rooted in Adam → Noah (Shem, Ham, Japheth &amp; Yonton) • Living Lines to 2026 • World Map • Deep Timeline</p>
       </div>
     </div>
 
     <!-- Search & View Switchers -->
     <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 w-full lg:w-auto">
-      <input id="searchInput" type="text" placeholder="Search 1,925+ people, DNA, Jasher..."
+      <input id="searchInput" type="text" placeholder="Search 1,195+ Biblical/Noahic people..."
         class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] flex-1 sm:flex-none sm:w-52 lg:w-60 min-w-[140px] focus:outline-none focus:ring-1 focus:ring-[var(--primary)]" />
 
       <!-- 4-Way Primary View Switcher -->
@@ -114,20 +114,21 @@
     <button onclick="applyPreset('strict')" id="preset-strict" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Strict Textual + Cognates</button>
     <button onclick="applyPreset('dna')" id="preset-dna" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Archaeogenetics (Y-DNA &amp; mtDNA)</button>
     <button onclick="focusSubtree('bib_abraham')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Abraham's Full Tree</button>
-    <button onclick="focusSubtree('bib_noah')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Noah &amp; Table of Nations</button>
+    <button onclick="focusSubtree('bib_noah')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Noah &amp; 4 Sons (Shem/Ham/Japheth/Yonton)</button>
     <button onclick="focusSubtree('bib_jacob')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Jacob &amp; 12 Tribes</button>
     <button onclick="focusSubtree('bib_moses')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Moses, Egypt &amp; Cush</button>
     <button onclick="focusSubtree('nt_jesus')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Adam → David → Jesus</button>
+    <button onclick="focusSubtree('rus_japheth_slavs')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Russia / Slavs</button>
+    <button onclick="focusSubtree('irl_baath_fenius')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Ireland &amp; Scotland</button>
     <button onclick="applyPreset('egypt')" id="preset-egypt" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Egypt</button>
-    <button onclick="applyPreset('africa')" id="preset-africa" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Africa &amp; Ethiopia</button>
+    <button onclick="applyPreset('africa')" id="preset-africa" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Africa, Berbers &amp; Sudan</button>
     <button onclick="applyPreset('greek')" id="preset-greek" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Greece &amp; Rome</button>
-    <button onclick="applyPreset('europe')" id="preset-europe" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Celtic &amp; Norse</button>
+    <button onclick="applyPreset('europe')" id="preset-europe" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Celtic, Norse &amp; Europe</button>
     <button onclick="applyPreset('mesopotamia')" id="preset-mesopotamia" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Mesopotamia</button>
-    <button onclick="applyPreset('iranian')" id="preset-iranian" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Iran &amp; Zoroaster</button>
-    <button onclick="applyPreset('india')" id="preset-india" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Vedic India</button>
+    <button onclick="applyPreset('iranian')" id="preset-iranian" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Iran &amp; Armenia</button>
+    <button onclick="applyPreset('india')" id="preset-india" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">India, Tibet &amp; Ceylon</button>
     <button onclick="applyPreset('china')" id="preset-china" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">China &amp; Steppe</button>
     <button onclick="applyPreset('korea_japan')" id="preset-korea_japan" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Korea &amp; Japan</button>
-    <button onclick="applyPreset('americas')" id="preset-americas" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Americas &amp; Polynesia</button>
   </div>
 
   <!-- Main Workspace -->
@@ -378,49 +379,48 @@ const TIER_NAMES = {
   22: "PRESENT DAY (2000–2026 CE: Living Royal Houses of Jordan, Morocco, Ethiopia, Georgia, Aga Khan V, Rabbinic Lines & Y-DNA)"
 };
 
-// Geographic Civilization & DNA Migration Pins for World Map (lat, lon -> equirectangular 1200x600)
+// Geographic Civilization & Noahic Migration Pins for World Map (lat, lon -> equirectangular 1200x600)
 const MAP_PINS = [
-  { id:"pin_east_africa", label:"East Africa (DNA Roots)", lat:1, lon:36, nodeId:"dna_ooa_l3_ct", trad:"dna", desc:"Mitochondrial Eve (~180 kya), Y-Adam & Out-of-Africa L3/CT dispersal (~70 kya) + Kintu & Gikuyu" },
-  { id:"pin_west_africa", label:"Ile-Ife / Mali / Hausa", lat:9, lon:4, nodeId:"af_oduduwa", trad:"african", desc:"Yoruba Oduduwa, Benin Eweka I, Hausa Bayajidda, Mali Sundiata & Y-DNA E1b1a" },
-  { id:"pin_maghreb", label:"Carthage & Amazigh", lat:36, lon:10, nodeId:"af_mazigh", trad:"african", desc:"Amazigh (Mazigh / Meshwesh), Queen Dihya, Phoenician Queen Dido's Carthage & Y-DNA E-M81" },
+  { id:"pin_east_africa", label:"East Africa (DNA Roots)", lat:1, lon:36, nodeId:"dna_ooa_l3_ct", trad:"dna", desc:"Mitochondrial Eve (~180 kya), Y-Adam & Out-of-Africa L3/CT dispersal (~70 kya)" },
+  { id:"pin_west_africa", label:"Ile-Ife / Mali / Hausa", lat:9, lon:4, nodeId:"af_oduduwa", trad:"african", desc:"Yoruba Oduduwa (Nimrod/Lamurudu chronicle bridge), Benin Eweka I, Hausa Bayajidda, Mali Sundiata" },
+  { id:"pin_maghreb", label:"Carthage & Amazigh (Berbers)", lat:36, lon:10, nodeId:"ber_branes_botr", trad:"african", desc:"Ibn Khaldun: Canaan b. Ham -> Mazigh -> Branes & Botr -> Koceila & Queen al-Kahina + Dido's Carthage" },
+  { id:"pin_sudan", label:"Nubia & Sudan (Cush / Ja'aliyyin / Juhayna)", lat:15.5, lon:32.5, nodeId:"sud_jaaliyyin_abbas", trad:"african", desc:"MacMichael & Arkell: Cushite Nuba/Beja, Abbasid Ja'aliyyin, Qahtanite Juhayna & Funj Sultanate" },
   { id:"pin_egypt", label:"Memphis & Thebes (Egypt)", lat:29, lon:31, nodeId:"eg_menes", trad:"levant_egypt", desc:"Ennead, Ptah (Naphtuhim), Thoth/Saurid, Narmer, Khufu, Imhotep, Akhenaten, Ramesses II, Merneptah" },
   { id:"pin_kush", label:"Napata & Meroe (Kush)", lat:18, lon:33, nodeId:"af_taharqa", trad:"african", desc:"25th Dynasty Black Pharaohs (Piye, Taharqa = Tirhakah), Meroitic Kandakes (Amanitore = Candace)" },
   { id:"pin_ethiopia", label:"Aksum (Ethiopia)", lat:14, lon:39, nodeId:"eth_menelik", trad:"african", desc:"Ityopis, Queen Makeda (Sheba), Menelik I (Kebra Nagast), Ezana, Lalibela, Haile Selassie" },
-  { id:"pin_levant", label:"Jerusalem / Canaan / Tyre", lat:32, lon:35, nodeId:"bib_abraham", trad:"biblical", desc:"Abraham, Isaac, Jacob (12 Tribes), Moses, David, Solomon, Phoenician Sidon/Tyre & Y-DNA J1/J2" },
-  { id:"pin_arabia", label:"Arabia / Sheba (Saba)", lat:18, lon:45, nodeId:"bib_ishmael", trad:"arabian", desc:"Ishmael's 12 Princes (Adnan/Quraysh), Joktan/Qahtan's 13 Sons (Sheba, Hazarmaveth, Uzal)" },
-  { id:"pin_meso", label:"Ur, Uruk & Babylon", lat:32, lon:45, nodeId:"mes_uruk_gilgamesh", trad:"mesopotamian", desc:"Eridu, Sumerian King List (Enmeduranki, Ziusudra), Gilgamesh (Uruk), Sargon (Akkad), Ur III, Hammurabi" },
-  { id:"pin_iran", label:"Persepolis / Iran / Media", lat:31, lon:53, nodeId:"ir_cyrus", trad:"iranian", desc:"Gayomart, Vivanghant/Yima, Fereydun, Zarathustra, Shahnameh (Rostam), Medes (Madai), Cyrus the Great" },
+  { id:"pin_levant", label:"Jerusalem / Canaan / Tyre", lat:32, lon:35, nodeId:"bib_abraham", trad:"biblical", desc:"Adam, Noah, Abraham, Isaac, Jacob (12 Tribes), Moses, David, Solomon, Jesus & Phoenician Sidon/Tyre" },
+  { id:"pin_armenia", label:"Mt. Ararat & Armenia (Hayk / Noah's Ark)", lat:39.7, lon:44.3, nodeId:"arm_hayk_pat", trad:"iranian", desc:"Noah's Ark (Qarda/Ararat) & Movses Khorenatsi: Japheth -> Togarmah -> Hayk (slayer of Bel/Nimrod) -> Bagratunis" },
+  { id:"pin_arabia", label:"Arabia / Sheba (Saba)", lat:18, lon:45, nodeId:"bib_ishmael", trad:"arabian", desc:"Ishmael's 12 Princes (Adnan/Quraysh), Joktan/Qahtan's 13 Sons, Ya'rub, Himyar, 'Ad (Hud) & Thamud (Salih)" },
+  { id:"pin_meso", label:"Ur, Uruk & Babylon", lat:32, lon:45, nodeId:"mes_uruk_gilgamesh", trad:"mesopotamian", desc:"Bar Hebraeus 10 Chaldeans (= Noah), Ziusudra, Nimrod, Yonton (4th Son of Noah), Sargon, Ur III, Hammurabi" },
+  { id:"pin_iran", label:"Persepolis / Iran / Media", lat:31, lon:53, nodeId:"ir_cyrus", trad:"iranian", desc:"Gayomart (= Adam/Umaym/Gomer), Fereydun, Zarathustra, Shahnameh, Madai -> Cyrus the Great" },
   { id:"pin_steppe_west", label:"Pontic Steppe (Yamnaya / R1a-R1b)", lat:48, lon:42, nodeId:"dna_r1a", trad:"dna", desc:"Bronze Age Steppe Yamnaya/Sintashta pastoralists carrying R1b (West Europe) & R1a (Iran/India/Slavs)" },
+  { id:"pin_russia", label:"Kiev & Novgorod (Russia / Japheth)", lat:55, lon:36, nodeId:"rus_vladimir_great", trad:"europe_norse", desc:"Russian Primary Chronicle: Lot of Japheth -> Slavs (Norici) -> Kiy of Kiev -> Rurik -> St. Vladimir -> Yaroslav" },
   { id:"pin_greece", label:"Athens, Troy & Crete", lat:38, lon:24, nodeId:"grk_hellen", trad:"greek", desc:"Deucalion, Hellen/Ion (= Javan), Minos (Crete/Caphtorim), Cadmus, Heracles, Troy, Alexander the Great" },
-  { id:"pin_rome", label:"Rome & Etruria", lat:42, lon:12, nodeId:"grk_romulus_remus", trad:"greek", desc:"Aeneas, Romulus & Remus, Julius Caesar, Tyrrhenus (Etruscans) & Jasher's Zepho/Janeus of Kittim" },
-  { id:"pin_ireland", label:"Ireland & Britain", lat:53, lon:-6, nodeId:"eur_scota_goidel", trad:"europe_norse", desc:"Lebor Gabála Érenn (Scota & Milesians), Tuatha Dé Danann, Brutus of Troy -> King Arthur & Y-DNA R1b" },
-  { id:"pin_norse", label:"Scandinavia (Asgard / Edda)", lat:60, lon:16, nodeId:"eur_odin_ask_embla", trad:"europe_norse", desc:"Odin, Thor, Týr (= Zeus/Dyaus), Snorri's Troy->Odin chronicle, Tacitus's Mannus (= Manu), Y-DNA I1" },
-  { id:"pin_india", label:"Ayodhya & Kurukshetra (India)", lat:26, lon:81, nodeId:"ved_vaivasvata_manu", trad:"vedic", desc:"Vaivasvata Manu, Surya Vamsha (Rama & Buddha), Chandra Vamsha (Yayati, Krishna, Pandavas), Emperor Ashoka" },
+  { id:"pin_rome", label:"Rome & Etruria", lat:42, lon:12, nodeId:"grk_romulus_remus", trad:"greek", desc:"Aeneas, Romulus & Remus, Julius Caesar, Tabari's Esau -> al-Rum, Anderson's Janus (= Noah), Zepho of Kittim" },
+  { id:"pin_spain", label:"Iberia / Spain (Tubal / Milesius)", lat:40, lon:-4, nodeId:"eur_tubal_spain", trad:"europe_norse", desc:"Josephus & Anderson: Tubal b. Japheth -> Iberians; Milesius of Spain (Brigus) sailing to Ireland" },
+  { id:"pin_ireland", label:"Ireland (Fenius / Scota / Milesians)", lat:53, lon:-6, nodeId:"irl_breoghan_milesius", trad:"europe_norse", desc:"O'Hart & Four Masters: Noah -> Magog -> Fenius Farsa -> Niul & Scota -> Milesius -> Niall & Brian Boru" },
+  { id:"pin_scotland", label:"Scotland & Wales (Picts / Dal Riada / Brut)", lat:56, lon:-4, nodeId:"sco_fergus_macalpin", trad:"europe_norse", desc:"Skene Picts & Scots & Brut y Tywysogion: Cruithne -> Fergus Mor -> Kenneth MacAlpin; Brutus -> Llywelyn" },
+  { id:"pin_norse", label:"Scandinavia & Germany (Ashkenaz / Mannus)", lat:60, lon:16, nodeId:"eur_odin_ask_embla", trad:"europe_norse", desc:"Anderson: Ashkenaz = Tuisco; Tacitus's Mannus (= Manu); Snorri's Troy -> Odin; Jordanes Goths (Magog)" },
+  { id:"pin_india", label:"Ayodhya & Kurukshetra (India)", lat:26, lon:81, nodeId:"ved_vaivasvata_manu", trad:"vedic", desc:"Tabari & Mas'udi: Hind/Sind (= Cush/Joktan), Noah = Vaivasvata Manu, Mahasammata -> Rama, Pandavas & Ashoka" },
+  { id:"pin_kashmir", label:"Kashmir & Tibet (Rajatarangini / Blue Annals)", lat:33, lon:78, nodeId:"tib_nyatri_songtsen", trad:"vedic", desc:"Kalhana's Rajatarangini (Gonanda/Ashoka) & Blue Annals (Nyatri Tsenpo & Songtsen Gampo from Okkaka/Śākya)" },
+  { id:"pin_lanka", label:"Sri Lanka (Mahavamsa / Vijaya & Ashoka)", lat:7.8, lon:80.7, nodeId:"ceylon_vijaya_mahinda", trad:"vedic", desc:"Mahavamsa: King Vijaya & Emperor Ashoka's children Mahinda & Sanghamitta descending from Mahasammata" },
+  { id:"pin_burma", label:"Tagaung (Burma / Śākya Abhiraza)", lat:22, lon:96, nodeId:"burma_abhiraza_tagaung", trad:"vedic", desc:"Glass Palace Chronicle: Burmese Tagaung dynasty from Śākya prince Abhiraza -> Okkaka -> Mahasammata" },
   { id:"pin_steppe_east", label:"Mongolian Steppe (Xiongnu / Oghuz)", lat:46, lon:102, nodeId:"stp_oghuz", trad:"steppe", desc:"Chunwei (Xia) -> Modu Chanyu (Xiongnu), Oghuz Khagan (24 Tribes), Rashid al-Din Japheth bridge" },
-  { id:"pin_china", label:"Yellow River (Xia / Shang / Zhou)", lat:35, lon:113, nodeId:"chn_huangdi", trad:"chinese", desc:"Fuxi & Nüwa, Yandi & Huangdi, Yu the Great (Xia), Shang (Wu Ding, Confucius), Zhou, Qin Shi Huang, Y-DNA O2" },
+  { id:"pin_china", label:"Yellow River (Mas'udi Lotsatis / Fuxi / Xia)", lat:35, lon:113, nodeId:"chn_masudi_abur_lotsatis", trad:"chinese", desc:"Mas'udi: 'Abur b. Japheth -> Lotsatis of China; Yonton (4th son of Noah) sent East; Jackson/Anderson Fuxi = Noah" },
   { id:"pin_korea", label:"Korea (Gojoseon / Gaya / Baekje)", lat:36, lon:127, nodeId:"jk_dangun", trad:"japan_korea", desc:"Dangun, Jizi/Gija, Jumong, Onjo (Baekje), King Suro + Queen Heo Hwang-ok of Ayodhya (India!)" },
-  { id:"pin_japan", label:"Yamato / Kyushu (Japan)", lat:35, lon:137, nodeId:"jk_jimmu", trad:"japan_korea", desc:"Izanagi & Izanami, Amaterasu, Susanoo, Ninigi, Emperor Jimmu, Prince Shotoku, Jōmon D1a2 + Yayoi O1b2" },
-  { id:"pin_taiwan", label:"Taiwan (Austronesian Hub)", lat:23, lon:121, nodeId:"dna_o1_austronesian", trad:"dna", desc:"Austronesian Y-DNA O1a & mtDNA B4a1a1 launchpad -> Lapita -> Polynesia" },
-  { id:"pin_beringia", label:"Beringia (Siberia → Americas)", lat:64, lon:-166, nodeId:"dna_q_americas", trad:"dna", desc:"Ice-Age Beringian corridor (~20-15 kya) carrying Y-DNA Q-M3 & mtDNA A2/B2/C1/D1 into the Americas" },
-  { id:"pin_na", label:"Turtle Island (Haudenosaunee / Diné)", lat:42, lon:-78, nodeId:"amp_na_skywoman", trad:"americas_pacific", desc:"Sky Woman, Great Peacemaker & Hiawatha, Diné First Man/Changing Woman, Lakota Seven Council Fires" },
-  { id:"pin_mesoam", label:"Maya & Tenochtitlan (Mesoamerica)", lat:19, lon:-96, nodeId:"amp_maya_four_men", trad:"americas_pacific", desc:"Popol Vuh (Hero Twins, Four Maize Ancestors), Aztec Five Suns (Quetzalcoatl, Tata & Nene Flood, Moctezuma)" },
-  { id:"pin_andes", label:"Cusco & Titicaca (Inca)", lat:-14, lon:-72, nodeId:"amp_inca_manco", trad:"americas_pacific", desc:"Viracocha (Uno Pachacuti Flood), Manco Cápac & Mama Ocllo, Pachacuti (Machu Picchu)" },
-  { id:"pin_hawaii", label:"Hawaiʻi (Kumulipo)", lat:20, lon:-156, nodeId:"amp_poly_kumulipo", trad:"americas_pacific", desc:"2,102-line Kumulipo: Wākea & Papahānaumoku -> Hāloa -> King Kamehameha I" },
-  { id:"pin_tonga", label:"Tonga & Hawaiki (Polynesia)", lat:-20, lon:-174, nodeId:"amp_poly_maui", trad:"americas_pacific", desc:"Pan-Polynesian Māui, Tuʻi Tonga Maritime Empire (ʻAhoʻeitu) & Polynesian Triangle voyaging" },
-  { id:"pin_nz", label:"Aotearoa (New Zealand)", lat:-39, lon:175, nodeId:"amp_poly_rangi_papa", trad:"americas_pacific", desc:"Ranginui & Papatūānuku, Tāne & Hine-ahu-one, Kupe & Great Fleet Waka whakapapa" },
-  { id:"pin_rapanui", label:"Rapa Nui (Easter Island)", lat:-27, lon:-109, nodeId:"amp_poly_kupe_tonga", trad:"americas_pacific", desc:"Ariki Hotu Matuʻa's voyage & pre-Columbian DNA link to Andean South America (~1200 CE)" },
-  { id:"pin_georgia", label:"Mtskheta & Tbilisi (Georgia)", lat:42, lon:45, nodeId:"geo_targamos_8sons", trad:"iranian", desc:"Kartlis Tskhovreba: Targamos -> 8 Caucasian Sons (Haos, Kartlos, K'avk'as), Parnavaz I, Mirian III, Vakhtang Gorgasali & Davidic Bagrationis" },
-  { id:"pin_assur", label:"Assur & Nineveh (Assyria)", lat:36, lon:43, nodeId:"akl_01_tudiya", trad:"mesopotamian", desc:"Complete 116-King Assyrian King List (Tudiya, Adamu, Ushpia, Shamshi-Adad I, Shalmaneser III, Semiramis, Sennacherib, Ashurbanipal)" },
-  { id:"pin_khwarazm", label:"Khwarazm (Afrighids / Al-Biruni)", lat:42, lon:60, nodeId:"bir_khwarazm_afrighids", trad:"iranian", desc:"Al-Biruni's homeland: 22 unbroken Afrighid Khwarazmshahs from Siyawush & Kay Khosrow (305-995 CE) & Parthian Ashkanians" },
+  { id:"pin_japan", label:"Yamato / Kyushu (Japan)", lat:35, lon:137, nodeId:"jk_jimmu", trad:"japan_korea", desc:"Izanagi & Izanami, Amaterasu, Susanoo, Ninigi, Emperor Jimmu, Prince Shotoku (connected via Korea & Xia)" },
+  { id:"pin_georgia", label:"Mtskheta & Tbilisi (Georgia)", lat:42, lon:45, nodeId:"geo_targamos_8sons", trad:"iranian", desc:"Kartlis Tskhovreba: Targamos (Togarmah) -> 8 Caucasian Sons, Parnavaz I, Mirian III & Davidic Bagrationis" },
+  { id:"pin_assur", label:"Assur & Nineveh (Assyria)", lat:36, lon:43, nodeId:"akl_01_tudiya", trad:"mesopotamian", desc:"Assyrian King List (Tudiya, Adamu, Shamshi-Adad I, Sennacherib, Ashurbanipal) rooted in Gen 10 Asshur" },
+  { id:"pin_khwarazm", label:"Khwarazm (Afrighids / Al-Biruni)", lat:42, lon:60, nodeId:"bir_khwarazm_afrighids", trad:"iranian", desc:"Al-Biruni's homeland: Afrighid Khwarazmshahs & Parthians linked to Kayanian Siyawush & Kay Khosrow" },
   { id:"pin_bactria", label:"Bactria & Gandhara", lat:36, lon:68, nodeId:"cls_bactria_menander", trad:"greek", desc:"Greco-Bactrian & Indo-Greek Kings (Diodotus, Demetrius, Menander/King Milinda) & Vedic Druhyu Gandhara bridge" },
-  { id:"pin_karakorum", label:"Karakorum (Mongol Borjigin)", lat:47, lon:103, nodeId:"mng_genghis_khan_borte", trad:"steppe", desc:"Secret History of the Mongols: 22-Gen Borjigin lineage from Börte Čino & Alan Qo'a -> Genghis Khan -> Batu, Ögödei, Möngke & Kublai Khan" },
-  { id:"pin_frankia", label:"Aachen & Wessex (Europe)", lat:51, lon:6, nodeId:"eur_merovingian_carolingian", trad:"europe_norse", desc:"Merovingians (Clovis), Carolingians (Charlemagne), Wessex (Alfred the Great -> Woden -> Sceaf/Noah) & Normans (Betham/Anderson)" },
+  { id:"pin_karakorum", label:"Karakorum (Mongol Borjigin)", lat:47, lon:103, nodeId:"mng_genghis_khan_borte", trad:"steppe", desc:"Secret History of the Mongols: Alan Qo'a -> Genghis Khan -> Batu, Ögödei & Kublai Khan (linked via Xia/Chunwei)" },
+  { id:"pin_frankia", label:"Aachen & Wessex (Europe)", lat:51, lon:6, nodeId:"eur_merovingian_carolingian", trad:"europe_norse", desc:"Merovingians, Charlemagne, Alfred the Great -> Woden -> Sceaf/Noah & Yaroslav of Kiev's daughter Anne" },
   { id:"pin_amman", label:"Amman (Living Hashemites 2026)", lat:31.9, lon:36.2, nodeId:"mod_abdullah2_hussein_iman", trad:"arabian", desc:"Abraham -> Ishmael -> Muhammad -> Qatadah (1201) -> Living King Abdullah II, Crown Prince Hussein & Princess Iman (b. 2024)" },
   { id:"pin_morocco", label:"Rabat (Living Alaouites 2026)", lat:34, lon:-6.8, nodeId:"mod_alaouite_morocco", trad:"arabian", desc:"Hasan al-Muthanna -> Hassan al-Dakhil -> Living King Mohammed VI & Crown Prince Moulay Hassan of Morocco" }
 ];
 
 const MAP_ARCS = [
-  // DNA Migration Arcs
+  // DNA Migration Arcs (hidden by default unless Y-DNA toggle checked)
   { from:"pin_east_africa", to:"pin_west_africa", type:"genetic", label:"Y-DNA E1b1a Niger-Congo & Bantu expansion across Africa" },
   { from:"pin_east_africa", to:"pin_egypt", type:"genetic", label:"Y-DNA E1b1b Afro-Asiatic corridor (Horn of Africa -> Nile -> Maghreb)" },
   { from:"pin_egypt", to:"pin_maghreb", type:"genetic", label:"Y-DNA E-M81 ancestral Amazigh/Berber North African corridor" },
@@ -432,38 +432,39 @@ const MAP_ARCS = [
   { from:"pin_steppe_west", to:"pin_iran", type:"genetic", label:"Sintashta Y-DNA R1a-Z93 southward into Iran (~2000 BCE)" },
   { from:"pin_iran", to:"pin_india", type:"genetic", label:"R1a-Z93 Indo-Aryan arrival blending with Indus Harappan H/L (~1900-1500 BCE)" },
   { from:"pin_india", to:"pin_china", type:"genetic", label:"Early Eurasian southern/northern route -> Yellow River Y-DNA O2" },
-  { from:"pin_china", to:"pin_taiwan", type:"genetic", label:"Out-of-Taiwan Austronesian Y-DNA O1a + mtDNA B4a1a1 launchpad" },
-  { from:"pin_taiwan", to:"pin_tonga", type:"genetic", label:"Lapita maritime voyaging -> Tonga & Samoa (~1000 BCE)" },
-  { from:"pin_tonga", to:"pin_hawaii", type:"genetic", label:"Polynesian expansion north to Hawaiʻi (~1000 CE)" },
-  { from:"pin_tonga", to:"pin_nz", type:"genetic", label:"Polynesian voyaging south to Aotearoa / New Zealand (~1250 CE)" },
-  { from:"pin_tonga", to:"pin_rapanui", type:"genetic", label:"Polynesian voyaging east to Rapa Nui / Easter Island" },
-  { from:"pin_rapanui", to:"pin_andes", type:"genetic", label:"Confirmed pre-Columbian Polynesian-South American DNA contact (~1200 CE, Nature 2020)" },
-  { from:"pin_steppe_east", to:"pin_beringia", type:"genetic", label:"Y-DNA Q-M242 -> Q-M3 & mtDNA A2/B2/C1/D1 across Siberia -> Beringia (~20 kya)" },
-  { from:"pin_beringia", to:"pin_na", type:"genetic", label:"Peopling of North America (~16-14 kya)" },
-  { from:"pin_na", to:"pin_mesoam", type:"genetic", label:"Rapid expansion into Mesoamerica (Maya & Aztec ancestors)" },
-  { from:"pin_mesoam", to:"pin_andes", type:"genetic", label:"Expansion into Andean South America by ~14,500 BCE" },
 
   // Historical / Cognate Textual Bridges
   { from:"pin_levant", to:"pin_egypt", type:"cognate", label:"Merneptah Israel Stele (1208 BCE), Shoshenq I/Shishak, Joseph & Moses horizon" },
   { from:"pin_egypt", to:"pin_kush", type:"cognate", label:"25th Kushite Dynasty (Piye & Taharqa = Biblical Tirhakah)" },
+  { from:"pin_kush", to:"pin_sudan", type:"cognate", label:"MacMichael & Arkell: Cushite Nubian kingdoms (Nobatia/Makuria) -> Abbasid Ja'aliyyin & Qahtanite Juhayna" },
+  { from:"pin_arabia", to:"pin_sudan", type:"cognate", label:"Red Sea & Egyptian Arab migrations: Ja'aliyyin (Abbas) & Juhayna (Qahtan) into Sudan" },
   { from:"pin_levant", to:"pin_ethiopia", type:"cognate", label:"Queen of Sheba (Makeda) & King Solomon -> Menelik I (Kebra Nagast)" },
   { from:"pin_levant", to:"pin_greece", type:"cognate", label:"Biblical Javan = Ionians; Cadmus of Tyre brings Phoenician alphabet to Greece" },
-  { from:"pin_levant", to:"pin_maghreb", type:"cognate", label:"Phoenician Queen Dido (Elissa of Tyre) founds Carthage (814 BCE)" },
+  { from:"pin_levant", to:"pin_maghreb", type:"cognate", label:"Ibn Khaldun: Canaan b. Ham -> Mazigh (Berbers) + Phoenician Dido founds Carthage" },
   { from:"pin_greece", to:"pin_rome", type:"cognate", label:"Trojan Prince Aeneas -> Alba Longa -> Romulus & Remus -> Julius Caesar" },
   { from:"pin_meso", to:"pin_levant", type:"cognate", label:"Ur III (Ur of the Chaldees) -> Terah & Abraham; Gen 10 Erech/Accad/Asshur" },
   { from:"pin_iran", to:"pin_india", type:"cognate", label:"EXACT Proto-Indo-Iranian cognates: Vivanghant=Vivasvan, Yima=Yama, Athwya=Aptya" },
-  { from:"pin_greece", to:"pin_india", type:"cognate", label:"Zeus = Dyaus Pitr; Alexander -> Chandragupta Seleucid treaty; Ashoka Rock Edict XIII -> Ptolemy II" },
+  { from:"pin_greece", to:"pin_india", type:"cognate", label:"Zeus = Dyaus Pitr; Alexander -> Chandragupta; Ashoka Rock Edict XIII -> Ptolemy II" },
+  { from:"pin_india", to:"pin_kashmir", type:"cognate", label:"Kalhana's Rajatarangini & Blue Annals: Pandavas/Ashoka -> Kashmir; Mahasammata/Śākya -> Tibet's Nyatri Tsenpo" },
+  { from:"pin_india", to:"pin_lanka", type:"cognate", label:"Mahavamsa: King Vijaya & Emperor Ashoka's son Mahinda bring Dharma to Sri Lanka" },
+  { from:"pin_india", to:"pin_burma", type:"cognate", label:"Glass Palace Chronicle: Śākya prince Abhiraza (descendant of Mahasammata/Okkaka) founds Burma at Tagaung" },
   { from:"pin_china", to:"pin_korea", type:"cognate", label:"Shang prince Jizi (Gija) -> Gojoseon; Han/Confucian transmission" },
   { from:"pin_korea", to:"pin_japan", type:"cognate", label:"Baekje Korea transmits script, Analects & Buddhism to Yamato Japan (Emperor Ojin/Shotoku)" },
   { from:"pin_china", to:"pin_steppe_east", type:"cognate", label:"Sima Qian Shiji Ch. 110: Xiongnu descend from Chunwei of the Xia Dynasty" },
+  { from:"pin_spain", to:"pin_ireland", type:"cognate", label:"O'Hart & Four Masters: Milesius of Spain -> Heber, Heremon & Ir (Kings of Ireland & Scotland)" },
+  { from:"pin_ireland", to:"pin_scotland", type:"cognate", label:"Skene Picts & Scots: Fergus Mor mac Erc (498 CE) & Kenneth MacAlpin unite Dal Riada & Picts" },
+  { from:"pin_russia", to:"pin_frankia", type:"cognate", label:"Russian Primary Chronicle & Anderson: Yaroslav the Wise's daughter Anne of Kiev marries into France" },
 
-  // Ancient Chronicler / Syncretic Bridges
-  { from:"pin_egypt", to:"pin_ireland", type:"syncretic", label:"Lebor Gabála Érenn: Pharaoh's daughter Scota -> Gaels & Scots via Spain" },
-  { from:"pin_greece", to:"pin_norse", type:"syncretic", label:"Snorri's Prose Edda Prologue: Priam of Troy -> Thor -> Odin -> Scandinavia" },
-  { from:"pin_rome", to:"pin_ireland", type:"syncretic", label:"Historia Brittonum: Aeneas -> Brutus of Troy -> Britain & King Arthur" },
+  // Noahic & Ancient Chronicler / Syncretic Bridges
+  { from:"pin_armenia", to:"pin_russia", type:"syncretic", label:"Russian Primary Chronicle: Lot of Japheth -> Slavs (Norici) & Rus' -> Kiy -> Rurik -> St. Vladimir" },
+  { from:"pin_armenia", to:"pin_china", type:"syncretic", label:"Al-Mas'udi ('Abur b. Japheth -> Lotsatis of China) & Cave of Treasures (Yonton sent East; Jackson/Anderson Fuxi=Noah)" },
+  { from:"pin_armenia", to:"pin_spain", type:"syncretic", label:"Josephus Ant. I.6 & Anderson: Tubal b. Japheth -> Iberia/Spain; Gomer -> Gauls; Ashkenaz -> Germans" },
+  { from:"pin_egypt", to:"pin_ireland", type:"syncretic", label:"Lebor Gabála & O'Hart: Noah -> Magog -> Fenius Farsa -> Niul & Pharaoh's daughter Scota -> Gaels" },
+  { from:"pin_greece", to:"pin_norse", type:"syncretic", label:"Snorri's Prose Edda & Jordanes: Priam -> Odin; Magog -> Goths (Berig & Theoderic); Ashkenaz = Tuisco" },
+  { from:"pin_rome", to:"pin_scotland", type:"syncretic", label:"Historia Brittonum & Brut y Tywysogion: Aeneas -> Brutus of Troy -> Locrinus, Albanactus & Camber (Wales)" },
   { from:"pin_levant", to:"pin_steppe_east", type:"syncretic", label:"Rashid al-Din & Book of Jasher 10:10: Japheth/Togarmah (Tarki) -> Oghuz Khagan" },
   { from:"pin_india", to:"pin_korea", type:"syncretic", label:"Samguk Yusa: Queen Heo Hwang-ok sails from Ayuta (Ayodhya, India) to marry King Suro of Gaya" },
-  { from:"pin_levant", to:"pin_georgia", type:"syncretic", label:"Kartlis Tskhovreba: Targamos (Togarmah) -> 8 Caucasian Sons & Bagrationi descent from King David via Clopas" },
+  { from:"pin_levant", to:"pin_georgia", type:"syncretic", label:"Kartlis Tskhovreba & Khorenatsi: Targamos (Togarmah) -> Haos/Hayk & Kartlos -> Bagrationis" },
   { from:"pin_iran", to:"pin_khwarazm", type:"cognate", label:"Al-Biruni: Afrighid Khwarazmshahs & Parthians linked to Kayanian Siyawush & Kay Khosrow" },
   { from:"pin_greece", to:"pin_bactria", type:"cognate", label:"Greco-Bactrian & Indo-Greek Kingdom (Diodotus -> Menander / King Milinda)" },
   { from:"pin_karakorum", to:"pin_china", type:"cognate", label:"Secret History of the Mongols: Genghis Khan -> Tolui & Sorqaqtani Beki -> Kublai Khan (Yuan Dynasty)" },
@@ -1017,7 +1018,7 @@ function applyPreset(name) {
 
   const singlePresets = {
     dna: ["dna"], egypt: ["levant_egypt"], africa: ["african"], greek: ["greek"],
-    europe: ["europe_norse"], americas: ["americas_pacific"], mesopotamia: ["mesopotamian"],
+    europe: ["europe_norse"], mesopotamia: ["mesopotamian"],
     iranian: ["iranian"], india: ["vedic"], china: ["chinese", "steppe"], korea_japan: ["japan_korea"]
   };
 
@@ -1028,7 +1029,7 @@ function applyPreset(name) {
     setModeUI("landmarks");
   } else if (name === "strict") {
     activeLinkTypes = new Set(["direct", "expansion", "cognate"]);
-    activeTraditions = new Set(Object.keys(TRADITIONS).filter(k => k !== "archetype" && k !== "dna"));
+    activeTraditions = new Set(Object.keys(TRADITIONS).filter(k => k !== "dna"));
     expandedParents.clear();
     setModeUI("landmarks");
   } else if (singlePresets[name]) {
@@ -1338,15 +1339,15 @@ function renderWorldMap() {
 
 // ---------------- DEEP-TIME TIMELINE RENDERER ----------------
 const TIMELINE_EPOCHS = [
-  { title: "Epoch 1 • Deep Human Archaeogenetics (300,000 – 12,000 BCE)", desc: "Scientific Y-DNA & mtDNA roots in Africa, Out-of-Africa dispersal (~70 kya), Steppe, Austronesian & Beringian migrations", filter: n => n.tradition === "dna" },
-  { title: "Epoch 2 • Primordial Creation & Antediluvian Sages (Tiers 1–3)", desc: "First human couples, Sumerian 10 Antediluvian Kings, Enoch & Enmeduranki, Watchers, Egyptian Ennead, Vedic Saptarishis & Indo-Iranian Vivanghant/Vivasvan", filter: n => n.tradition !== "dna" && n.tradition !== "archetype" && n.tier >= 1 && n.tier <= 3 && n.major },
-  { title: "Epoch 3 • Great Flood & Cataclysm Horizons (Tier 4)", desc: "Noah, Ziusudra/Utnapishtim, Vaivasvata Manu, Yima/Jamshid (Vara), Yu the Great, Deucalion & Pyrrha, Aztec Tata & Nene, Bergelmir", filter: n => n.tradition !== "dna" && n.tier === 4 && n.major },
-  { title: "Epoch 4 • Post-Flood Tables of Nations & Early Bronze Age (c. 3100–2000 BCE • Tiers 5–7)", desc: "Shem/Ham/Japheth, Fereydun (Salm/Tur/Iraj), Yayati's 5 Sons, Hellen (Ion=Javan), Mannus, Narmer/Menes, Gilgamesh, Khufu, Shang & Xia", filter: n => n.tradition !== "dna" && n.tradition !== "archetype" && n.tier >= 5 && n.tier <= 7 && n.major },
-  { title: "Epoch 5 • Patriarchal, Heroic & Late Bronze Age (c. 2000–1000 BCE • Tiers 8–11)", desc: "Abraham's 8 Sons, Sargon of Akkad, Ur III, Hammurabi, Rama, Krishna & Pandavas, Zarathustra, Trojan War (Priam/Aeneas), Emperor Jimmu, Qin/Confucius", filter: n => n.tradition !== "dna" && n.tier >= 8 && n.tier <= 11 && n.major },
-  { title: "Epoch 6 • Iron Age, Axial Age & Classical Empires (c. 1200–300 BCE • Tiers 12–15)", desc: "Moses, Ramesses II, Merneptah (Israel Stele), King David, Cyrus the Great, Gautama Buddha, Alexander the Great, Chandragupta & Emperor Ashoka, Romulus & Remus, Brutus of Troy", filter: n => n.tradition !== "dna" && n.tier >= 12 && n.tier <= 15 && n.major },
-  { title: "Epoch 7 • Classical, Hellenistic, Aksumite & Pacific Voyaging (600 BCE – 1 CE • Tiers 16–18)", desc: "Solomon & Makeda -> Menelik I, Taharqa, Saite & Last Native Pharaohs (Nectanebo II), Hasmoneans, Herodians, Lydia (Croesus), Hannibal Barca, Seleucids, Bactria (Menander), Parthians, Parnavaz I of Georgia, Cleopatra VII", filter: n => n.tradition !== "dna" && n.tier >= 16 && n.tier <= 18 && n.major },
-  { title: "Epoch 8 • 1st Century CE to Medieval Universal Empires (1 CE – 1453 CE • Tier 19)", desc: "Jesus of Nazareth & 12 Apostles, Roman & Byzantine Emperors (Augustus -> Constantine -> Justinian), Sasanians, Afrighid Khwarazm, Mirian III & Bagrationi Georgia, Kaleb of Aksum, Prophet Muhammad, Charlemagne, Alfred the Great, Gupta India, Han/Tang China & Genghis/Kublai Khan", filter: n => n.tradition !== "dna" && n.tier === 19 && n.major },
-  { title: "Epoch 9 • Medieval Bridges to Living Descendants Today (1200 – 2026 CE • Tiers 20–22)", desc: "Abraham's 5 Living Branches Today: Hashemites of Jordan (King Abdullah II -> Crown Prince Hussein -> Princess Iman b. 2024), Alaouites of Morocco (King Mohammed VI), Aga Khan V (2025), Ethiopian Solomonids (Prince Zera Yacob & Ermias), Georgian Bagrationis (Prince Giorgi b. 2011), Exilarchs -> Rashi/Maharal/Abravanel & Living Y-DNA Kohanim/Hashemites!", filter: n => n.tier >= 20 && n.major }
+  { title: "Epoch 1 • Deep Human Archaeogenetics (300,000 – 12,000 BCE)", desc: "Optional Scientific Y-DNA & mtDNA roots in Africa, Out-of-Africa dispersal (~70 kya) & Eurasia migrations (toggle Archaeogenetics to view)", filter: n => n.tradition === "dna" },
+  { title: "Epoch 2 • Adam & Eve to Enoch & Antediluvian Sages (Tiers 1–3)", desc: "Adam & Eve, Seth/Enosh/Enoch, Jubilees & Syriac Matriarchs, Watchers, Sanchuniathon Chrysor (= Tubal-Cain), Bar Hebraeus 10 Chaldean Kings, Gayomart (= Adam) & Ennead", filter: n => n.tradition !== "dna" && n.tier >= 1 && n.tier <= 3 && n.major },
+  { title: "Epoch 3 • Great Flood & Noah's Ark Horizon (Tier 4)", desc: "Noah & Emzara, Ziusudra/Utnapishtim, Vaivasvata Manu (= Noah), Yima/Jamshid (Vara), Fuxi/Yu the Great (= Noah/Fo-hi), Deucalion & Bergelmir", filter: n => n.tradition !== "dna" && n.tier === 4 && n.major },
+  { title: "Epoch 4 • Post-Flood Tables of Nations: Shem, Ham, Japheth & Yonton (Tiers 5–7)", desc: "Shem, Ham, Japheth, Yonton / Jonitus (4th Son of Noah sent East), Magog -> Baath & Fenius Farsa (Ireland), Japheth -> Slavs/Rus', Tubal -> Spain, Gomer -> Gauls, 'Abur -> Lotsatis of China, Canaan -> Berbers (Branes/Botr), Hind & Sind, Targamos -> Hayk & Kartlos", filter: n => n.tradition !== "dna" && n.tier >= 5 && n.tier <= 7 && n.major },
+  { title: "Epoch 5 • Patriarchal, Heroic & Late Bronze Age (c. 2000–1000 BCE • Tiers 8–11)", desc: "Abraham's 8 Sons, Ashkenaz = Tuisco (Germany), Ya'rub/Himyar, Cruithne (Picts), Niul & Scota, Goths (Berig), Haykids of Armenia, Mahāsammata -> Okkaka (Ikshvaku), Rama, Krishna & Pandavas, Zarathustra, Troy/Aeneas, Emperor Jimmu", filter: n => n.tradition !== "dna" && n.tier >= 8 && n.tier <= 11 && n.major },
+  { title: "Epoch 6 • Iron Age, Axial Age & Classical Empires (c. 1200–300 BCE • Tiers 12–15)", desc: "Moses, Ramesses II, Merneptah (Israel Stele), King David, Milesius of Spain -> Heber & Heremon, Abhiraza of Burma, King Vijaya of Sri Lanka, Gonanda of Kashmir, Cyrus the Great, Gautama Buddha, Alexander the Great, Chandragupta & Emperor Ashoka, Romulus & Remus, Brutus of Troy", filter: n => n.tradition !== "dna" && n.tier >= 12 && n.tier <= 15 && n.major },
+  { title: "Epoch 7 • Classical, Hellenistic, Aksumite & Milesian Kingdoms (600 BCE – 1 CE • Tiers 16–18)", desc: "Solomon & Makeda -> Menelik I, Taharqa, Hasmoneans, Herodians, Shambat (Bagratuni), 21-Gen Quraysh Pedigree, Kiy & Shchek (Kiev), Lydia (Croesus), Hannibal Barca, Seleucids, Bactria (Menander), Parthians, Parnavaz I of Georgia, Cleopatra VII", filter: n => n.tradition !== "dna" && n.tier >= 16 && n.tier <= 18 && n.major },
+  { title: "Epoch 8 • 1st Century CE to Medieval Universal Empires (1 CE – 1453 CE • Tier 19)", desc: "Jesus of Nazareth & 12 Apostles, Rurik -> St. Vladimir of Rus', Fergus Mor & Kenneth MacAlpin (Scotland), Niall of the Nine Hostages & Brian Boru (Ireland), Welsh Princes (Rhodri/Llywelyn), Theoderic & Alaric (Goths), Nyatri Tsenpo & Songtsen Gampo (Tibet), Sasanians, Bagrationis, Kaleb of Aksum, Muhammad, Charlemagne & Kublai Khan", filter: n => n.tradition !== "dna" && n.tier === 19 && n.major },
+  { title: "Epoch 9 • Medieval Bridges to Living Descendants Today (1200 – 2026 CE • Tiers 20–22)", desc: "Yaroslav the Wise, Umayyads/Abbasids/Fatimids, Sudanese Ja'aliyyin (Abbas) & Juhayna (Qahtan), Living Hashemites of Jordan (King Abdullah II -> Crown Prince Hussein -> Princess Iman b. 2024), Alaouites of Morocco (King Mohammed VI), Aga Khan V (2025), Ethiopian Solomonids, Georgian Bagrationis (Prince Giorgi b. 2011) & Exilarchs -> Rashi/Maharal/Abravanel!", filter: n => n.tier >= 20 && n.major }
 ];
 
 function renderTimeline() {

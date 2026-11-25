@@ -1117,12 +1117,6 @@
       "label": "Child (Bundahishn Ch. 14)"
     },
     {
-      "from": "hub_primordial",
-      "to": "ir_gayomart",
-      "type": "parallel",
-      "label": "First mortal human created by Ahura Mazda"
-    },
-    {
       "from": "ir_gayomart",
       "to": "ir_mashya_mashyana",
       "type": "direct",
@@ -1145,12 +1139,6 @@
       "to": "ir_zahhak",
       "type": "direct",
       "label": "Son (Shahnameh)"
-    },
-    {
-      "from": "hub_world_division",
-      "to": "ir_fravak",
-      "type": "parallel",
-      "label": "Bundahishn Ch. 14: 15 Races across 7 Climes"
     },
     {
       "from": "bib_noah",
@@ -1229,18 +1217,6 @@
       "to": "ir_fereydun",
       "type": "direct",
       "label": "Son (Avesta Yasna 9.7; Shahnameh)"
-    },
-    {
-      "from": "hub_flood",
-      "to": "ir_yima",
-      "type": "parallel",
-      "label": "Vara enclosure against cataclysmic winter/meltwater"
-    },
-    {
-      "from": "hub_world_division",
-      "to": "ir_fereydun",
-      "type": "parallel",
-      "label": "Tripartite division of Eurasia: Salm, Tur, Iraj"
     },
     {
       "from": "ir_fereydun",

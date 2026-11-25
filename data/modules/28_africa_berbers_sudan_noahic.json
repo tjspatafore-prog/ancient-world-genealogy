@@ -1,0 +1,170 @@
+{
+  "module": "28_africa_berbers_sudan_noahic",
+  "title": "Ibn Khaldun Amazigh (Berbers) & Sudanese/Nubian Noahic Lineages",
+  "nodes": [
+    {
+      "id": "ber_branes_botr",
+      "name": "Berr → Bernes (Branes: Sanhaja, Masmuda, Kutama, Auréba) & Madghis al-Abtar (Botr: Zenata, Luwata, Hawwara)",
+      "altNames": [
+        "Branes",
+        "Botr (Madghis al-Abtar)",
+        "Zenata & Sanhaja"
+      ],
+      "tradition": "african",
+      "tier": 8,
+      "era": "Maghreb Tribal Origins (Ibn Khaldun Vol. 3 pp. 189-191)",
+      "role": "Two Great Amazigh Branches Descended from Canaan b. Ham / Mazigh",
+      "sources": [
+        "Ibn Khaldun Histoire des Berbères Vol. 1, 3 & 4"
+      ],
+      "notes": "Ibn Khaldun transmits the Berber genealogies dividing the Imazighen into the Branes (Sanhaja, Masmuda, Kutama, Auréba) and Botr / Madghis al-Abtar (Zenata, Luwata, Hawwara, Nefzaoua), explicitly preserving Ibn Hazm's chain tracing Madghis through Ber -> Herik -> Bedian -> Canaan -> Ham -> Noah.",
+      "major": true
+    },
+    {
+      "id": "ber_koceila_kahina",
+      "name": "Koceila (Auréba) & Queen al-Kahina / Dihya (Jerawa Zenata, 7th c. CE)",
+      "altNames": [
+        "Koceila",
+        "Queen al-Kahina / Dihya"
+      ],
+      "tradition": "african",
+      "tier": 19,
+      "era": "7th c. CE (Ibn Khaldun Vol. 3 p. 193)",
+      "role": "Sovereign Amazigh Leaders Descended from Branes & Botr",
+      "sources": [
+        "Ibn Khaldun Histoire des Berbères Vol. 3 p. 193"
+      ],
+      "notes": "Koceila (leader of the Branes Auréba) and Queen al-Kahina / Dihya (queen of the Botr Jerawa Zenata confederation) led the Amazigh resistance across North Africa.",
+      "major": false
+    },
+    {
+      "id": "sud_cush_nuba_beja",
+      "name": "Nubians (Nuba) & Beja (Blemmyes) — Christian Kingdoms of Nobatia, Makuria & Alodia",
+      "altNames": [
+        "Nuba / Nobatia / Makuria",
+        "Beja / Blemmyes"
+      ],
+      "tradition": "african",
+      "tier": 8,
+      "era": "Ancient to Medieval Sudan (MacMichael Vol. 1 pp. 12-51; Arkell)",
+      "role": "Cushitic/Nubian Lineages of the Middle Nile",
+      "sources": [
+        "MacMichael History of Arabs in Sudan pp. 12-51",
+        "Arkell History of Sudan"
+      ],
+      "notes": "Documents the pre-Islamic Cushite/Nubian and Beja populations (Blemmyes) of Northern Sudan who formed the Christian kingdoms of Nobatia, Makuria (Dongola) & Alodia (Soba).",
+      "major": true
+    },
+    {
+      "id": "sud_jaaliyyin_abbas",
+      "name": "Ja'aliyyin Confederation of Sudan (Descent from al-'Abbas b. 'Abd al-Muttalib → Ishmael)",
+      "altNames": [
+        "Ibrahim Ja'al",
+        "Ja'aliyyin & Danagla",
+        "'Abbasid Nisba"
+      ],
+      "tradition": "african",
+      "tier": 20,
+      "era": "Medieval–Modern Sudan (MacMichael Vol. 1 pp. xi, 131-195)",
+      "role": "Sudanese 'Abbasid Nisba Lineages Blended with Nubia",
+      "sources": [
+        "MacMichael History of Arabs in Sudan Vol. 1 pp. xi, 131-195",
+        "Tribes of Kordofán"
+      ],
+      "notes": "MacMichael catalogs dozens of Sudanese Arab nisba manuscripts uniting the Ja'aliyyin, Danagla, Shayqiya, Batahin & Rubatab via Ibrahim Ja'al back to al-'Abbas, uncle of Prophet Muhammad (Quraysh/Ishmael), while intermarrying with Nubian princesses.",
+      "major": true
+    },
+    {
+      "id": "sud_juhayna_qahtan",
+      "name": "Juhayna (Guhayna), Baqqara, Kababish & Shukriya of Sudan & Kordofan (Qahtan / Joktan Line)",
+      "altNames": [
+        "Juhayna / Guhayna",
+        "Baqqara & Kababish"
+      ],
+      "tradition": "african",
+      "tier": 20,
+      "era": "Medieval–Modern Sudan & Darfur (MacMichael pp. 131, 271-319)",
+      "role": "Yemenite Qahtanite Migrations via Egypt & Red Sea into Sudan",
+      "sources": [
+        "MacMichael History of Arabs in Sudan pp. 131, 271-319",
+        "MacMichael Tribes of Kordofán"
+      ],
+      "notes": "Sudanese chronicles trace the Juhayna/Guhayna confederation (Baqqara, Kababish, Shukriya, Hamar, Rizayqat) back to southern Arabian Himyar & Qahtan (Joktan), migrating through Egypt and the Red Sea into Kordofan & Darfur.",
+      "major": true
+    },
+    {
+      "id": "sud_funj_sennar",
+      "name": "Funj Sultanate of Sennar (1504–1821 CE — Umayyad / Nubian Pedigree)",
+      "altNames": [
+        "Amara Dunqas",
+        "Sultanate of Sennar"
+      ],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1504–1821 CE (Arkell History of Sudan; MacMichael)",
+      "role": "Black Sultanate of Sudan Linking Umayyad & Nubian Royal Traditions",
+      "sources": [
+        "Arkell History of Sudan",
+        "MacMichael History of Arabs in Sudan"
+      ],
+      "notes": "Amara Dunqas founded the Funj Sultanate at Sennar in 1504 CE; Funj royal genealogies claimed descent from Umayyad refugees passing through Abyssinia and Nubia.",
+      "major": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "bib_canaan",
+      "to": "ber_branes_botr",
+      "type": "expansion",
+      "label": "Ibn Khaldun Histoire des Berbères Vol. 3 pp. 189-191 (citing Ibn Hazm): Berbers descend from Canaan (Kenan) b. Ham b. Noah via Mazigh/Madghis"
+    },
+    {
+      "from": "af_mazigh",
+      "to": "ber_branes_botr",
+      "type": "direct",
+      "label": "Mazigh -> Berr -> Bernes (Branes) & Madghis al-Abtar (Botr)"
+    },
+    {
+      "from": "ber_branes_botr",
+      "to": "ber_koceila_kahina",
+      "type": "direct",
+      "label": "Ibn Khaldun Vol. 3 p. 193: Amazigh resistance leaders descended from Branes & Botr"
+    },
+    {
+      "from": "bib_cush",
+      "to": "sud_cush_nuba_beja",
+      "type": "expansion",
+      "label": "MacMichael History of the Arabs in the Sudan Vol. 1 pp. 12-51 & Arkell History of Sudan: Pre-Islamic Cushite/Hamitic kingdoms of Nubia & Sudan"
+    },
+    {
+      "from": "isl_umayyad_abbasid_fatimid",
+      "to": "sud_jaaliyyin_abbas",
+      "type": "expansion",
+      "label": "MacMichael Vol. 1 pp. xi, 131-195: Sudanese nisbas tracing the Ja'aliyyin & Danagla to al-'Abbas, uncle of Muhammad"
+    },
+    {
+      "from": "sud_cush_nuba_beja",
+      "to": "sud_jaaliyyin_abbas",
+      "type": "expansion",
+      "label": "Intermarriage with Nubian Cushite kingdoms"
+    },
+    {
+      "from": "tab_yarub_jurhum_himyar",
+      "to": "sud_juhayna_qahtan",
+      "type": "expansion",
+      "label": "MacMichael History of Arabs in Sudan pp. 131, 271-319 & Tribes of Kordofan: Yemenite Qahtanite/Himyarite migrations across the Red Sea & Egypt into Sudan & Darfur"
+    },
+    {
+      "from": "isl_umayyad_abbasid_fatimid",
+      "to": "sud_funj_sennar",
+      "type": "expansion",
+      "label": "Arkell History of Sudan & MacMichael: Funj royal pedigree claiming Umayyad descent via Abyssinia & Nubia"
+    },
+    {
+      "from": "sud_cush_nuba_beja",
+      "to": "sud_funj_sennar",
+      "type": "expansion",
+      "label": "Nubian-Sudanese territorial synthesis at Sennar"
+    }
+  ]
+}

@@ -313,21 +313,6 @@
       "major": true
     },
     {
-      "id": "af_kintu_gikuyu",
-      "name": "Kintu & Nambi (Buganda) / Gikuyu & Mumbi (Kikuyu)",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 1,
-      "era": "East African Primordial Ancestors",
-      "role": "First Human Couples of Great Lakes & East Africa",
-      "sources": [
-        "Baganda Royal Oral Tradition",
-        "Kikuyu Oral Tradition (Nine Clans)"
-      ],
-      "notes": "Kintu & Nambi (daughter of sky-king Ggulu) are the primeval progenitors of Buganda's Kabaka kings; Gikuyu & Mumbi (created near Mt. Kenya by Ngai) are the progenitors of the nine Kikuyu clans (Nyumba ya Mumbi).",
-      "major": false
-    },
-    {
       "id": "af_oranmiyan",
       "name": "Oranmiyan (Oranyan — Founder of Oyo & Benin Dynasty)",
       "altNames": [],
@@ -657,18 +642,6 @@
       "to": "af_hausa_gobir",
       "type": "direct",
       "label": "Child (Kano Chronicle, Daura Tradition)"
-    },
-    {
-      "from": "hub_primordial",
-      "to": "af_oduduwa",
-      "type": "parallel",
-      "label": "Ile-Ife primordial creation & founding of humanity"
-    },
-    {
-      "from": "hub_primordial",
-      "to": "af_kintu_gikuyu",
-      "type": "parallel",
-      "label": "East African primeval couples (Kintu & Nambi; Gikuyu & Mumbi)"
     },
     {
       "from": "af_oduduwa",

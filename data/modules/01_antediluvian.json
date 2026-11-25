@@ -3,64 +3,6 @@
   "title": "Primordial Hubs & Biblical/Extra-Biblical Antediluvian Era",
   "nodes": [
     {
-      "id": "hub_primordial",
-      "name": "Primordial Human Ancestors",
-      "altNames": [
-        "First Couple Archetype"
-      ],
-      "tradition": "archetype",
-      "tier": 0,
-      "era": "Primordial / Creation",
-      "role": "Comparative Convergence Hub",
-      "sources": [
-        "Comparative Mythology"
-      ],
-      "notes": "Structural hub linking the first humans fashioned from clay, earth, or cosmic life across Near Eastern, Indo-Iranian, and East Asian texts.",
-      "major": true
-    },
-    {
-      "id": "hub_flood",
-      "name": "Great Flood / Cataclysm Survivors",
-      "altNames": [
-        "Diluvial Bottleneck"
-      ],
-      "tradition": "archetype",
-      "tier": 4,
-      "era": "Flood Horizon",
-      "role": "Comparative Convergence Hub",
-      "sources": [
-        "Genesis 6-9",
-        "Atrahasis",
-        "Gilgamesh XI",
-        "Shatapatha Brahmana 1.8.1",
-        "Vendidad 2",
-        "Shangshu"
-      ],
-      "notes": "Global ancestral bottleneck motif where a righteous survivor preserves humanity and restarts post-cataclysm lineages.",
-      "major": true
-    },
-    {
-      "id": "hub_world_division",
-      "name": "Post-Flood Division of Nations",
-      "altNames": [
-        "Ancient Tables of Nations"
-      ],
-      "tradition": "archetype",
-      "tier": 5,
-      "era": "Early Post-Flood",
-      "role": "Comparative Convergence Hub",
-      "sources": [
-        "Genesis 10",
-        "Jubilees 8-9",
-        "Book of Jasher 7 & 10",
-        "Shahnameh",
-        "Mahabharata",
-        "Shiji Ch. 1"
-      ],
-      "notes": "Genealogical maps dividing humanity across Eurasia and Africa through sons of a universal ancestor.",
-      "major": true
-    },
-    {
       "id": "bib_adam",
       "name": "Adam & Eve (Hawwah)",
       "altNames": [
@@ -613,12 +555,6 @@
   ],
   "edges": [
     {
-      "from": "hub_primordial",
-      "to": "bib_adam",
-      "type": "parallel",
-      "label": "Primeval couple from dust/adamah"
-    },
-    {
       "from": "bib_adam",
       "to": "bib_cain",
       "type": "direct",
@@ -743,12 +679,6 @@
       "to": "bib_noah",
       "type": "expansion",
       "label": "Genesis Rabbah 23:3 identifies Cainite Naamah as Noah's wife"
-    },
-    {
-      "from": "hub_flood",
-      "to": "bib_noah",
-      "type": "parallel",
-      "label": "Ark on Ararat (Genesis / Jubilees / Jasher)"
     },
     {
       "from": "bib_kenan",

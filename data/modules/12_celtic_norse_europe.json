@@ -239,18 +239,6 @@
   ],
   "edges": [
     {
-      "from": "hub_primordial",
-      "to": "eur_ymir_borr",
-      "type": "parallel",
-      "label": "Primordial cosmic body & creation"
-    },
-    {
-      "from": "hub_flood",
-      "to": "eur_ymir_borr",
-      "type": "parallel",
-      "label": "Giant Bergelmir & wife survive Ymir's blood-deluge in a wooden boat/box (Prose Edda)"
-    },
-    {
       "from": "eur_ymir_borr",
       "to": "eur_odin_ask_embla",
       "type": "direct",
@@ -297,12 +285,6 @@
       "to": "eur_tuisto_mannus",
       "type": "cognate",
       "label": "Proto-Indo-European linguistic cognate: Germanic progenitor Mannus (Tacitus) = Vedic Manu!"
-    },
-    {
-      "from": "hub_world_division",
-      "to": "eur_tuisto_mannus",
-      "type": "parallel",
-      "label": "Mannus's 3 Sons (Ingaevones, Herminones, Istaevones) divide Germania"
     },
     {
       "from": "bib_magog",
@@ -353,12 +335,6 @@
       "label": "Historia Brittonum & Geoffrey of Monmouth: Aeneas -> Ascanius -> Silvius -> Brutus of Troy!"
     },
     {
-      "from": "hub_world_division",
-      "to": "eur_brutus_troy",
-      "type": "parallel",
-      "label": "Tripartite division of Britain: Locrinus, Camber, Albanactus"
-    },
-    {
       "from": "eur_brutus_troy",
       "to": "eur_king_arthur",
       "type": "expansion",
@@ -369,12 +345,6 @@
       "to": "eur_slavic_brothers",
       "type": "syncretic",
       "label": "Russian Primary Chronicle (1113) explicitly traces Slavic peoples to Japheth"
-    },
-    {
-      "from": "hub_world_division",
-      "to": "eur_slavic_brothers",
-      "type": "parallel",
-      "label": "Slavic tripartite brotherhood: Lech, Czech & Rus"
     }
   ]
 }

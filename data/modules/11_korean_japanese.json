@@ -250,12 +250,6 @@
   ],
   "edges": [
     {
-      "from": "hub_primordial",
-      "to": "kor_hwanin_hwanung",
-      "type": "parallel",
-      "label": "Heavenly descent & origin of Korea"
-    },
-    {
       "from": "kor_hwanin_hwanung",
       "to": "jk_dangun",
       "type": "direct",
@@ -296,12 +290,6 @@
       "to": "kor_suro_heo",
       "type": "syncretic",
       "label": "Samguk Yusa: Queen Heo Hwang-ok sails from Ayuta (trad. Ayodhya, Solar Dynasty capital) to marry King Suro of Gaya!"
-    },
-    {
-      "from": "hub_primordial",
-      "to": "jpn_kotoamatsukami",
-      "type": "parallel",
-      "label": "Primordial heavenly creation (Kojiki)"
     },
     {
       "from": "jpn_kotoamatsukami",
