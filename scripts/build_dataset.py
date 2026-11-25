@@ -25,6 +25,9 @@ from modules import (
     mod27_jubilees_barhebraeus_tabari_biblical,
     mod28_africa_berbers_sudan_noahic,
     mod29_asia_china_india_persia_noahic,
+    mod30_abulghazi_turks_mongols_mughals,
+    mod31_europe_england_france_portugal_russia_germans,
+    mod32_raleigh_petavius_gautruche_parian_classical,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1265,6 +1268,9 @@ def main():
         mod27_jubilees_barhebraeus_tabari_biblical.build_module(),
         mod28_africa_berbers_sudan_noahic.build_module(),
         mod29_asia_china_india_persia_noahic.build_module(),
+        mod30_abulghazi_turks_mongols_mughals.build_module(),
+        mod31_europe_england_france_portugal_russia_germans.build_module(),
+        mod32_raleigh_petavius_gautruche_parian_classical.build_module(),
     ]
 
     for mod in modules:
@@ -1325,8 +1331,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — 77 Sources Rooted in Adam, Noah & His 4 Sons (v13.0)",
-            "version": "13.0.0",
+            "title": "Ancient World Genealogy Atlas — 140 Sources Rooted in Adam, Noah & His 4 Sons (v14.0)",
+            "version": "14.0.0",
             "modules": module_summaries,
             "linkTypes": LINK_TYPES,
         },

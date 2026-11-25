@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Ancient World Genealogy Atlas — 77 Sources Rooted in Adam, Noah & His 4 Sons (v13.0)",
-    "version": "13.0.0",
+    "title": "Ancient World Genealogy Atlas — 140 Sources Rooted in Adam, Noah & His 4 Sons (v14.0)",
+    "version": "14.0.0",
     "modules": [
       {
         "file": "01_antediluvian",
@@ -170,6 +170,24 @@
         "title": "Noahic Lineages of China, Persia, India, Kashmir, Sri Lanka, Burma & Tibet",
         "nodes": 8,
         "edges": 20
+      },
+      {
+        "file": "30_abulghazi_turks_mongols_mughals",
+        "title": "Abulghazi (8 Sons of Japheth, Turks, Mongols, Uzbeks, Kazakhs, Mughals), Seljuks, Ottomans & Manchu/Qing China",
+        "nodes": 16,
+        "edges": 31
+      },
+      {
+        "file": "31_europe_england_france_portugal_russia_germans",
+        "title": "Noahic-Anchored Royal Houses of England/Britain, France, Burgundy, Savoy, Portugal, Romanov Russia & Germanic Nations",
+        "nodes": 14,
+        "edges": 27
+      },
+      {
+        "file": "32_raleigh_petavius_gautruche_parian_classical",
+        "title": "Sir Walter Raleigh, Petavius, Gautruche Poetical Cognates, Parian Chronicle, Classical Rome & Periplus",
+        "nodes": 9,
+        "edges": 38
       }
     ],
     "linkTypes": {
@@ -19730,6 +19748,745 @@
       ],
       "notes": "'Gos Lo-tsā-ba's Blue Annals Book I opens the Royal Chronicle of Tibet with the Indian Śākya/Licchavi origin of Tibet's first king Nyatri Tsenpo (gNya'-khri btsan-po) descending to Buddhist unifier Songtsen Gampo.",
       "major": true
+    },
+    {
+      "id": "abg_japheth_8sons",
+      "name": "Abulghazi's 8 Sons of Japheth: Turk, Chars (Khazars), Sacklap (Slavs), Russ (Russians), Maninach, Zwin (China), Camari (Gomer) & Tarich (Tiras)",
+      "altNames": [
+        "Japhis-Oglany (Turk)",
+        "Chars (Khazars)",
+        "Sacklap (Slavs)",
+        "Russ (Russians)",
+        "Zwin (Chin/China)",
+        "Camari (Gomer)",
+        "Tarich (Tiras)"
+      ],
+      "tradition": "steppe",
+      "tier": 6,
+      "era": "Post-Flood Dispersion (Abulghazi Shajara-i Turk p. 62)",
+      "role": "Japhethic Progenitors of Turks, Khazars, Slavs, Russians, China & Steppe Nations",
+      "sources": [
+        "Abulghazi Bahadur Khan General History of the Turks p. 62"
+      ],
+      "notes": "Abulghazi explicitly names eight sons of Japheth (Japhis) sent northward across Eurasia after Noah's Flood: 1. Turk (Japhis-Oglany), 2. Chars (Khazars), 3. Sacklap (Slavs), 4. Russ (Russians), 5. Maninach, 6. Zwin (Chin / Chinese), 7. Camari (Gomer / Cimmerians), and 8. Tarich (Tiras).",
+      "major": true
+    },
+    {
+      "id": "abg_turk_alanja",
+      "name": "Turk (Japhis-Oglany) → Taunak → Ilchi → Dib Bakuy → Kayuk → Alanja Khan",
+      "altNames": [
+        "Taunak",
+        "Dib Bakuy Khan",
+        "Kayuk Khan",
+        "Alanja Khan"
+      ],
+      "tradition": "steppe",
+      "tier": 7,
+      "era": "Early Turkic Patriarchs (Abulghazi pp. 62-66)",
+      "role": "Patrilineal Descent from Japheth's Eldest Son Turk to Alanja Khan",
+      "sources": [
+        "Abulghazi Bahadur Khan General History of the Turks pp. 62-66"
+      ],
+      "notes": "Turk (Japhis-Oglany, founder of laws and tents near Issyk-Kul) fathered four sons — Taunak, Zakale, Bersazar, and Amlak — continuing from Taunak through Ilchi Khan, Dib Bakuy Khan, and Kayuk Khan to Alanja Khan.",
+      "major": false
+    },
+    {
+      "id": "abg_tatar_mogul_twins",
+      "name": "Twin Sons of Alanja: Tatar Khan (7 Gens → Siuntz) & Mogul (Mung'l) Khan → Kara Khan",
+      "altNames": [
+        "Tatar Khan",
+        "Mogul (Mung'l) Khan",
+        "Kara Khan"
+      ],
+      "tradition": "steppe",
+      "tier": 8,
+      "era": "Division of Tatars & Moguls (Abulghazi pp. 66-69)",
+      "role": "Twin Progenitors of the Tatar and Mongol Branches",
+      "sources": [
+        "Abulghazi Bahadur Khan General History of the Turks pp. 66-69"
+      ],
+      "notes": "Alanja Khan divided his dominions between his twin sons: Tatar Khan (whose seven-generation line ran Bucha -> Jalanza -> Ettela -> Attaisir -> Orda -> Baydu -> Siuntz) and Mogul (Mung'l) Khan (father of Cara/Kara, Auwas, Cauwas, and Cavar).",
+      "major": true
+    },
+    {
+      "id": "abg_oghuz_tribes",
+      "name": "Oghuz Khan's Monotheistic Restoration & Steppe Nations (Uighurs, Kanglis, Kipchaks, Karluks & 24 Oghuz Tribes)",
+      "altNames": [
+        "Buzuk (Golden Bow)",
+        "Uch-Ok (3 Arrows)",
+        "Kipchaks & Uighurs"
+      ],
+      "tradition": "steppe",
+      "tier": 9,
+      "era": "Oghuz Conquest Horizon (Abulghazi pp. 69-82)",
+      "role": "Unifier of the Steppe, Conqueror of Kitay & Khorasan, Ancestor of the 24 Oghuz Tribes",
+      "sources": [
+        "Abulghazi Bahadur Khan General History of the Turks pp. 69-82"
+      ],
+      "notes": "Oghuz Khan restored the worship of one God against his father Kara Khan and his Tatar kinsmen, conquering Tangut, Kitay (China), and Khorasan (Iran) following the death of Gayomart. His six sons (Buzuk Golden Bow: Kun, Ay, Yildiz; Uch-Ok Three Arrows: Kuk, Tag, Tengiz) sired the 24 Oghuz tribes alongside the Uighurs, Kanglis, Kipchaks, and Karluks.",
+      "major": false
+    },
+    {
+      "id": "abg_ergenekon_borte",
+      "name": "Il Khan → Qiyan & Nukuz (Ergenekon / Irgana-kon) → Bertezena (Börte Čino) → Alan Qo'a → Dutumin → Kaidu → Tumana → Kabul → Bortan → Yesugei",
+      "altNames": [
+        "Il Khan",
+        "Qiyan & Nukuz",
+        "Ergenekon",
+        "Yesugei"
+      ],
+      "tradition": "steppe",
+      "tier": 18,
+      "era": "Ergenekon Refuge to 12th c. CE (Abulghazi pp. 82-120)",
+      "role": "Restoration from the Ergenekon Valley to the Borjigin Forefathers of Genghis Khan",
+      "sources": [
+        "Abulghazi Bahadur Khan General History of the Turks pp. 82-120"
+      ],
+      "notes": "After the defeat of Il Khan, survivors Qiyan and Nukuz took refuge in the enclosed valley of Ergenekon (Irgana-kon) for generations until Bertezena (Börte Čino) led the Mongols back out onto the steppe, continuing through Alan Qo'a, Dutumin, Kaidu, Tumana, Kabul, Bortan, and Yesugei.",
+      "major": false
+    },
+    {
+      "id": "sel_tughril_alparslan",
+      "name": "Seljuk Empire: Seljuk → Mikail → Tughril Beg (Tangrolipix, 1030) → Alp Arslan → Malik Shah → Kilij Arslan",
+      "altNames": [
+        "Tangrolipix (Tughril Beg)",
+        "Alp Arslan",
+        "Malik Shah",
+        "Kilij Arslan"
+      ],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "11th–12th c. CE (Knolles Vol. 1 pp. 2-15; Mod. Univ. Hist. Vol. 2)",
+      "role": "Oghuz-Seljuk Sultans of Persia, Baghdad & Anatolia",
+      "sources": [
+        "Knolles & Rycaut The Turkish History Vol. 1 pp. 2-15",
+        "Modern Universal History Vol. 2",
+        "Abulghazi Shajara-i Turk"
+      ],
+      "notes": "Knolles traces the Turks from Scythia (Tanais/Caucasus, Magog horizon) into Turcomania and Armenia, rising under Seljuk and Mikail to Tughril Beg (Tangrolipix, crowned in Persia c. 1030), Alp Arslan, Malik Shah, and the Seljuks of Rum under Kilij Arslan.",
+      "major": true
+    },
+    {
+      "id": "ott_osman_ertughrul",
+      "name": "Ottoman Founders: Süleyman Shah → Ertuğrul → Sultan Osman I (1299) → Orhan → Murad I → Bayezid I",
+      "altNames": [
+        "Süleyman Shah",
+        "Ertuğrul",
+        "Osman I",
+        "Bayezid I"
+      ],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "c. 1220–1402 CE (Knolles Vol. 1)",
+      "role": "Kayi-Oghuz Founders of the Ottoman Dynasty",
+      "sources": [
+        "Knolles & Rycaut The Turkish History Vol. 1"
+      ],
+      "notes": "Ascending from the Oghuz Kayi branch in the wake of the Seljuk disintegration, Süleyman Shah and Ertuğrul settled in Bithynia, where Osman I proclaimed sovereign rule in 1299 CE and was succeeded by Orhan, Murad I, and Bayezid I.",
+      "major": true
+    },
+    {
+      "id": "ott_mehmed2_suleiman",
+      "name": "Imperial Ottomans: Mehmed II the Conqueror (1453) → Bayezid II → Selim I → Suleiman the Magnificent (1520–1566)",
+      "altNames": [
+        "Mehmed II",
+        "Selim I",
+        "Suleiman the Magnificent"
+      ],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1451–1566 CE (Knolles Vols. 1-3)",
+      "role": "Ottoman Sultans from the Conquest of Constantinople to Imperial Zenith",
+      "sources": [
+        "Knolles & Rycaut The Turkish History Vols. 1-3"
+      ],
+      "notes": "Mehmed II conquered Constantinople in 1453 (ending the Byzantine Palaiologos line), followed by Bayezid II, Selim I (adding Egypt and the Hejaz), and Suleiman the Magnificent.",
+      "major": true
+    },
+    {
+      "id": "abg_jochi_golden_horde",
+      "name": "Jochi (Zuzi Chan) → Batu Sagin Chan (Golden Horde) & Berke (Burga) Khan",
+      "altNames": [
+        "Zuzi Chan (Jochi)",
+        "Batu Sagin Chan",
+        "Berke (Burga) Khan"
+      ],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "13th–14th c. CE (Abulghazi Part V)",
+      "role": "Ulus of Jochi & Rulers of the Kipchak Steppe / Golden Horde",
+      "sources": [
+        "Abulghazi Bahadur Khan General History of the Turks Part V"
+      ],
+      "notes": "Abulghazi details the lineage of Genghis Khan's eldest son Jochi (Zuzi Chan) into the Golden Horde under Batu Sagin Chan and Berke (Burga) Khan across the Kipchak Steppe and Volga.",
+      "major": true
+    },
+    {
+      "id": "abg_shaybani_uzbeks",
+      "name": "Shaybanid Uzbeks of Bukhara & Khwarazm: Shaybani Khan → Muhammad Shaybani (Shah Bakht) → Ilbars → Abulghazi Bahadur Khan (1603–1663)",
+      "altNames": [
+        "Shaybani Khan",
+        "Muhammad Shaybani (Shah Bakht)",
+        "Ilbars Khan",
+        "Abulghazi Bahadur Khan"
+      ],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "13th–17th c. CE (Abulghazi Parts VII-IX)",
+      "role": "Genghisid Shaybanid Khans of Bukhara & Khwarazm (Author's Own Royal Pedigree)",
+      "sources": [
+        "Abulghazi Bahadur Khan General History of the Turks Parts VII-IX"
+      ],
+      "notes": "Through Jochi's fifth son Shaybani Khan, Abulghazi traces the Uzbek khans — including Muhammad Shaybani (Shah Bakht) and Ilbars Khan of Khwarazm — directly down to himself, Khan of Khiva and chronicler of the Shajara-i Turk (1603-1663).",
+      "major": true
+    },
+    {
+      "id": "abg_crimea_kazakh_khans",
+      "name": "Togai Timur → Crimean Khans (Caffa & Crim) & Kazakh Khans (Janibek Khan → Kasim Khan)",
+      "altNames": [
+        "Togai Timur",
+        "Crimean Khans",
+        "Janibek & Kasim Khan"
+      ],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "14th–16th c. CE (Abulghazi pp. 252-259)",
+      "role": "Tuka-Timurid Lines of Jochi Ruling Crimea & the Kazakh Steppe",
+      "sources": [
+        "Abulghazi Bahadur Khan General History of the Turks pp. 252-259"
+      ],
+      "notes": "Abulghazi chronicles Jochi's son Togai Timur as progenitor both of the Crimean Khans (Caffa and Crim) and of the Kazakh Khans led by Janibek Khan and Kasim Khan.",
+      "major": false
+    },
+    {
+      "id": "abg_chagatai_timur",
+      "name": "Chagatai Khanate & Timurids: Buga Timur → Tarmashirin; Amir Timur (Tamerlane, 1370) → Shah Rukh → Ulugh Beg",
+      "altNames": [
+        "Zagatai Chan (Chagatai)",
+        "Tarmashirin",
+        "Tamerlane (Timur)",
+        "Ulugh Beg"
+      ],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "13th–15th c. CE (Abulghazi p. 12; Mod. Univ. Hist. Vol. 3)",
+      "role": "Transoxiana Khanate & Samarkand Timurid Dynasty",
+      "sources": [
+        "Abulghazi Bahadur Khan General History of the Turks p. 12",
+        "Modern Universal History Vol. 3"
+      ],
+      "notes": "Traces the house of Chagatai (Zagatai Chan) in Transoxiana and Kashgar through Buga Timur and Tarmashirin, alongside Barlas conqueror Amir Timur (Tamerlane, son-in-law/Guregen of the Chagatayids) -> Shah Rukh -> astronomer-king Ulugh Beg at Samarkand.",
+      "major": true
+    },
+    {
+      "id": "mug_babur_humayun",
+      "name": "Mughal Empire of Hindustan: Zahir-ud-din Babur (1526, Timurid-Genghisid Line) → Emperor Humayun",
+      "altNames": [
+        "Babur",
+        "Humayun"
+      ],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1526–1556 CE (Abulghazi p. 296; Mod. Univ. Hist. Vol. 3)",
+      "role": "Founders of the Mughal Empire in Northern India",
+      "sources": [
+        "Abulghazi Bahadur Khan General History of the Turks p. 296",
+        "Modern Universal History Vol. 3"
+      ],
+      "notes": "Zahir-ud-din Muhammad Babur — descended paternally from Timur and maternally from Genghis Khan via Chagatai — established the Mughal Empire in India in 1526 and was succeeded by Emperor Humayun.",
+      "major": true
+    },
+    {
+      "id": "mug_akbar_aurangzeb",
+      "name": "Great Mughals of Delhi & Agra: Akbar the Great → Jahangir → Shah Jahan → Aurangzeb",
+      "altNames": [
+        "Akbar",
+        "Jahangir",
+        "Shah Jahan",
+        "Aurangzeb"
+      ],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1556–1707 CE (Mod. Univ. Hist. Vol. 3)",
+      "role": "Imperial Rulers of Hindustan",
+      "sources": [
+        "Modern Universal History Vol. 3 (History of Hindustan)"
+      ],
+      "notes": "Continuous Mughal imperial succession in Modern Universal History Vol. 3 from Akbar the Great through Jahangir, Shah Jahan, and Aurangzeb.",
+      "major": true
+    },
+    {
+      "id": "abg_tolui_hulagu_ilkhan",
+      "name": "Ilkhanate of Persia: Tolui → Hulagu (Halaku) Khan (1256) → Abaqa → Ghazan Khan",
+      "altNames": [
+        "Hulagu / Halaku",
+        "Abaqa",
+        "Ghazan Khan"
+      ],
+      "tradition": "iranian",
+      "tier": 20,
+      "era": "1256–1304 CE (Abulghazi p. 240; Mod. Univ. Hist. Vol. 2)",
+      "role": "Mongol Ilkhans of Iran & Mesopotamia",
+      "sources": [
+        "Abulghazi Bahadur Khan General History of the Turks p. 240",
+        "Modern Universal History Vol. 2"
+      ],
+      "notes": "Tolui's son Hulagu (Halaku) Khan founded the Ilkhanate across Persia and Iraq in 1256, continuing through Abaqa Khan and Islamizing reformer Ghazan Khan.",
+      "major": false
+    },
+    {
+      "id": "chn_ming_qing_manchu",
+      "name": "Manchu / Qing Tartar Unification of China, Tartary, Korea & Tibet: Nurhaci (Tianming) → Hong Taiji (Tsong-te) → Shunzhi (1644) → Kangxi Emperor",
+      "altNames": [
+        "Nurhaci (Tianming)",
+        "Hong Taiji (Tsong-te)",
+        "Shunzhi",
+        "Kangxi"
+      ],
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1616–1722 CE (Du Halde 1738 Vol. 1 Preface & p. 239; Compleat Universal History)",
+      "role": "Qing Dynasty Uniting China Proper, Great Tartary, Korea & Tibet",
+      "sources": [
+        "Jean-Baptiste Du Halde Description of China and Chinese-Tartary (1738 Vol. 1 Preface & p. 239)",
+        "A Compleat Universal History (China & Tartary)",
+        "Modern Universal History Vol. 5"
+      ],
+      "notes": "Du Halde (1738 Vol. 1 Preface & p. 239) and A Compleat Universal History document the Ming-to-Qing transition under Jurchen/Manchu Tartar founders Nurhaci (Tianming) and Hong Taiji (Tsong-te) -> Shunzhi (Shun-chi, 1644) -> Kangxi (Kang-hi), uniting China, Inner/Outer Tartary, Korea, and Tibet.",
+      "major": true
+    },
+    {
+      "id": "ger_mascou_confederations",
+      "name": "Ancient Germanic Nations (Mascou 1737 & Tacitus): Cimbri & Teutones, Suevi, Alemanni, Saxons, Franks, Vandals (Gaiseric) & Lombards (Alboin)",
+      "altNames": [
+        "Cimbri & Teutones",
+        "Vandals (Gaiseric)",
+        "Lombards (Alboin)",
+        "Franks & Saxons"
+      ],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "3rd c. BCE – 6th c. CE (J.J. Mascou 1737; Tacitus Germania)",
+      "role": "Early Germanic Tribal Confederations Rooted in Tuisto / Mannus / Ashkenaz",
+      "sources": [
+        "John Jacob Mascou History of the Ancient Germans (1737)",
+        "Tacitus Germania"
+      ],
+      "notes": "Mascou traces the major Germanic confederations from Tacitus's Tuisto and Mannus (linked in universal chronologies to Ashkenaz/Gomer) through the Cimbri & Teutones, Suevi, Alemanni, Saxons, Franks, Vandals (Gaiseric), and Lombards (Alboin).",
+      "major": true
+    },
+    {
+      "id": "bur_gonderic_gundobad",
+      "name": "Kingdom of Burgundy: King Gonderic → King Gundobad (Burgundian Law) → King Sigismund",
+      "altNames": [
+        "Gonderic",
+        "Gundobad",
+        "King Sigismund"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "5th–6th c. CE (Mascou 1737; Mod. Univ. Hist. Vol. 14)",
+      "role": "Burgundian Royal House of the Rhone & Geneva",
+      "sources": [
+        "John Jacob Mascou History of the Ancient Germans (1737)",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Mascou and Modern Universal History Vol. 14 trace the Burgundian kings from Gonderic and Gundobad (codifier of Lex Burgundionum) to St. Sigismund before Frankish absorption and the later Kingdom of Burgundy/Arles.",
+      "major": false
+    },
+    {
+      "id": "sav_witichind_hubert_victor",
+      "name": "House of Savoy & Sardinia: Duke Witichind of Saxony (Contemp. of Charlemagne) → Bertold → Hubert of the White Hands → Amadeo → King Victor Amadeus I & II",
+      "altNames": [
+        "Witichind of Saxony",
+        "Bertold",
+        "Hubert of the White Hands",
+        "Victor Amadeus II"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "8th–18th c. CE (Mod. Univ. Hist. Vol. 14 pp. 125-140)",
+      "role": "Ducal House of Savoy & Royal House of Sardinia",
+      "sources": [
+        "Modern Universal History Vol. 14 pp. 125-140"
+      ],
+      "notes": "Mod. Univ. Hist. Vol. 14 p. 125 derives the House of Savoy from Saxony's Duke Witichind (contemporary of Charlemagne) via Bertold (who received Savoy from Rodolf of Burgundy) and Hubert with the White Hands (d. c. 1050) to Amadeo and King Victor Amadeus II.",
+      "major": false
+    },
+    {
+      "id": "fra_capet_stlouis",
+      "name": "Capetian Kings of France: Hugh Capet (987 CE) → Henry I (+ Anne of Kiev!) → Philip II Augustus → St. Louis IX",
+      "altNames": [
+        "Hugh Capet",
+        "Henry I & Anne of Kiev",
+        "Philip II Augustus",
+        "St. Louis IX"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "987–1270 CE (Mod. Univ. Hist. Vol. 9)",
+      "role": "Direct Capetian Dynasty Bridging Kievan Rus' & Western Europe",
+      "sources": [
+        "Modern Universal History Vol. 9 (History of France)"
+      ],
+      "notes": "Hugh Capet (crowned 987 CE) founded the Capetian line; King Henry I married Yaroslav the Wise's daughter Anne of Kiev, uniting Rurikid Rus' and France through Philip II Augustus and St. Louis IX.",
+      "major": true
+    },
+    {
+      "id": "fra_valois_bourbon",
+      "name": "Valois & Bourbon Kings of France: Philip VI → Francis I → Henry IV of Navarre (Bourbon, 1589) → Louis XIII → Louis XIV",
+      "altNames": [
+        "Valois",
+        "Henry IV of Bourbon",
+        "Louis XIV"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1328–1715 CE (Mod. Univ. Hist. Vol. 9)",
+      "role": "Cadet Capetian Royal Houses of Valois & Bourbon",
+      "sources": [
+        "Modern Universal History Vol. 9 (History of France)"
+      ],
+      "notes": "Mod. Univ. Hist. Vol. 9 traces the Capetian cadet successions from Philip VI of Valois and Francis I to Henry IV of Navarre (first Bourbon King of France, 1589), Louis XIII, and Louis XIV.",
+      "major": true
+    },
+    {
+      "id": "eng_howell_roman_saxon",
+      "name": "Roman, British & Danish Rulers in Britain (Howell 1685): Julius Caesar → Claudius → King Lucius → King Canute (Cnut)",
+      "altNames": [
+        "King Lucius",
+        "King Canute"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "55 BCE – 1042 CE (William Howell 1685 pp. 1-50)",
+      "role": "Roman Imperial Governors, British Kings & Danish Crown in England",
+      "sources": [
+        "William Howell Lives and Reigns of the Monarchs of England (1685)"
+      ],
+      "notes": "Howell (1685) opens the English monarchy with Julius Caesar and Claudius, Christian British king Lucius, the Saxon Heptarchy unified under Egbert and Alfred the Great, and the Danish conquest under Canute (Cnut).",
+      "major": false
+    },
+    {
+      "id": "eng_plantagenet_kings",
+      "name": "House of Plantagenet (England): Henry II → Richard I Lionheart → King John → Edward I → Edward III → Henry V",
+      "altNames": [
+        "Henry II",
+        "Richard I",
+        "Edward III",
+        "Henry V"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1154–1485 CE (William Howell 1685)",
+      "role": "Angevin / Plantagenet Kings of England",
+      "sources": [
+        "William Howell Lives and Reigns of the Monarchs of England (1685)"
+      ],
+      "notes": "Ascending from the Anglo-Norman & Wessex heritage via Empress Matilda, Henry II inaugurated the Plantagenet line leading through Richard I, King John, Edward I, Edward III, and Henry V.",
+      "major": true
+    },
+    {
+      "id": "eng_tudor_monarchs",
+      "name": "House of Tudor (Welsh-English Royal Union): Owen Tudor → Henry VII (1485) → Henry VIII → Edward VI → Queen Elizabeth I",
+      "altNames": [
+        "Owen Tudor",
+        "Henry VII",
+        "Henry VIII",
+        "Elizabeth I"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1485–1603 CE (William Howell 1685)",
+      "role": "Tudor Sovereigns Linking Welsh Princes & English Crown",
+      "sources": [
+        "William Howell Lives and Reigns of the Monarchs of England (1685)"
+      ],
+      "notes": "Owen Tudor's grandson Henry VII (uniting Lancaster and York at Bosworth Field, 1485) brought Welsh royal pedigree onto the English throne through Henry VIII, Edward VI, and Elizabeth I.",
+      "major": true
+    },
+    {
+      "id": "eng_stuart_great_britain",
+      "name": "House of Stuart (Union of Scotland & England): King James VI & I (1603) → Charles I → Charles II → James II",
+      "altNames": [
+        "James VI & I",
+        "Charles I",
+        "Charles II",
+        "James II"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1603–1688 CE (William Howell 1685; Raleigh 1736 Preface p. ix)",
+      "role": "Unified Crown of Great Britain (Scottish Milesian & English Tudor Union)",
+      "sources": [
+        "William Howell Lives and Reigns of the Monarchs of England (1685)",
+        "Sir Walter Raleigh History of the World (1736 Preface p. ix)"
+      ],
+      "notes": "Descended both from Scottish Dal Riada (Fergus Mor & Kenneth MacAlpin) and from Henry VII's daughter Margaret Tudor, King James VI of Scotland became James I of Great Britain in 1603 (celebrated in Raleigh's 1736 Preface p. ix), continuing through Charles I, Charles II, and James II.",
+      "major": true
+    },
+    {
+      "id": "por_afonso_henriques",
+      "name": "Foundation of Portugal: Alfonso VI of Castile + Teresa & Count Henry of Burgundy → King Afonso I Henriques (1139, Battle of Ourique)",
+      "altNames": [
+        "Count Henry of Burgundy",
+        "Teresa of Leon",
+        "Afonso I Henriques"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1093–1185 CE (History of Portugal 1661 & 1726; Compendious Chronicle)",
+      "role": "Burgundian-Capetian Founder of the Kingdom of Portugal",
+      "sources": [
+        "History of Portugal (1661 & 1726)",
+        "A Compendious Chronicle of the Kingdom of Portugal"
+      ],
+      "notes": "Connecting Iberian monarchy (Tubal/Spain -> Castile) with the Capetian House of Burgundy: Count Henry of Burgundy married Alfonso VI's daughter Teresa, and their son Afonso I Henriques won independence at the Battle of Ourique (1139).",
+      "major": true
+    },
+    {
+      "id": "por_aviz_discoveries",
+      "name": "House of Aviz & Portuguese Asia: King John I → Prince Henry the Navigator → King Manuel I (Vasco da Gama to India, 1498)",
+      "altNames": [
+        "King John I of Aviz",
+        "Henry the Navigator",
+        "King Manuel I"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1385–1580 CE (History of Portugal 1661/1726; The Portuguese Asia)",
+      "role": "Aviz Dynasty & Oceanic Sea Route to East Africa & India",
+      "sources": [
+        "History of Portugal (1661 & 1726)",
+        "Faria y Sousa The Portuguese Asia"
+      ],
+      "notes": "King John I of Aviz (son-in-law of John of Gaunt / Plantagenet) and Prince Henry the Navigator launched the Atlantic voyages culminating under King Manuel I in Vasco da Gama's 1498 voyage to India.",
+      "major": true
+    },
+    {
+      "id": "por_braganza_restoration",
+      "name": "House of Braganza (Portuguese Restoration): King John IV (1640) → King Afonso VI (1656) → Peter II",
+      "altNames": [
+        "King John IV",
+        "King Afonso VI",
+        "Peter II"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1640–1706 CE (History of Portugal 1661 & 1726)",
+      "role": "Royal House of Braganza",
+      "sources": [
+        "History of Portugal (1661 & 1726)",
+        "A Compendious Chronicle of the Kingdom of Portugal"
+      ],
+      "notes": "John, Duke of Braganza (descending from Afonso, son of King John I of Aviz), restored Portuguese independence as King John IV in 1640, succeeded by Afonso VI and Peter II.",
+      "major": false
+    },
+    {
+      "id": "rus_nevsky_ivan_tsars",
+      "name": "Grand Princes & Tsars of Muscovy: St. Alexander Nevsky → Ivan III the Great (1480) → Tsar Ivan IV the Terrible",
+      "altNames": [
+        "Alexander Nevsky",
+        "Ivan III the Great",
+        "Ivan IV the Terrible"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1221–1584 CE (Mod. Univ. Hist. Vol. 13: History of Russia)",
+      "role": "Rurikid Grand Princes of Vladimir-Moscow & First Tsar of All Russia",
+      "sources": [
+        "Modern Universal History Vol. 13 (History of Russia)"
+      ],
+      "notes": "Mod. Univ. Hist. Vol. 13 continues the Rurikid lineage from Yaroslav the Wise via St. Alexander Nevsky and Ivan III the Great (who ended Golden Horde tribute at the Ugra in 1480) to Tsar Ivan IV the Terrible.",
+      "major": true
+    },
+    {
+      "id": "rus_romanov_peter_great",
+      "name": "House of Romanov (Russian Empire): Tsar Michael I Romanov (1613) → Alexis I → Emperor Peter the Great (1682–1725)",
+      "altNames": [
+        "Michael I Romanov",
+        "Alexis I",
+        "Peter the Great"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1613–1725 CE (Mod. Univ. Hist. Vol. 13: History of Russia)",
+      "role": "Imperial Romanov Dynasty of Russia",
+      "sources": [
+        "Modern Universal History Vol. 13 (History of Russia)"
+      ],
+      "notes": "Connected to the Rurikids through Tsar Ivan IV's marriage to Anastasia Romanovna, the House of Romanov ascended in 1613 under Michael I, continuing via Alexis I to Emperor Peter the Great.",
+      "major": true
+    },
+    {
+      "id": "ral_methodius_suphene",
+      "name": "Raleigh & Methodius's 3 Post-Flood Leaders: Nimrod (Ham), Joktan (Shem) & Suphene (Japheth)",
+      "altNames": [
+        "Methodius of Tyre",
+        "Suphene",
+        "Petavius 1659"
+      ],
+      "tradition": "biblical",
+      "tier": 6,
+      "era": "Post-Flood Dispersion (Raleigh 1736 Vol. 1 Book I Ch. VII p. 69; Petavius 1659)",
+      "role": "Tripartite Dispersion Commanders of Ham, Shem & Japheth",
+      "sources": [
+        "Sir Walter Raleigh History of the World (1736 Vol. 1 Book I Ch. VII p. 69)",
+        "Petavius History of the World (1659)"
+      ],
+      "notes": "Sir Walter Raleigh (citing Methodius of Tyre) records the three post-Flood commanders who led the peoples after Babel: Nimrod over Ham's line, Joktan over Shem's line, and Suphene over Japheth's line — framed within Petavius's universal chronology from Creation.",
+      "major": true
+    },
+    {
+      "id": "ral_east_indies_shem",
+      "name": "Raleigh's Shemite Plantation of the East Indies: Joktan, Havilah & Ophir",
+      "altNames": [
+        "Joktan in the East",
+        "Ophir / East Indies"
+      ],
+      "tradition": "vedic",
+      "tier": 9,
+      "era": "Eastward Dispersion (Raleigh 1736 Vol. 1 Book I Ch. VIII & Map)",
+      "role": "Biblical Shemite Pioneers of India & the East Indies",
+      "sources": [
+        "Sir Walter Raleigh History of the World (1736 Vol. 1 Book I Ch. VIII & Engraved Noahic Map)"
+      ],
+      "notes": "Raleigh argues at length in Book I Ch. VIII (and marks on his engraved dispersion map) that Joktan's descendants Havilah and Ophir planted the regions stretching across Persia and India / the East Indies.",
+      "major": true
+    },
+    {
+      "id": "ral_arabia_felix_cush",
+      "name": "Raleigh's Cushite Arabia the Happy: Seba, Sabtah & Raamah (Sabe Regia & Aden)",
+      "altNames": [
+        "Sabe Regia",
+        "Aden / Rhegma"
+      ],
+      "tradition": "arabian",
+      "tier": 8,
+      "era": "Post-Flood Arabia (Raleigh 1736 Vol. 1 Book I Ch. VIII & Map)",
+      "role": "Cushite Settlements of Arabia Felix",
+      "sources": [
+        "Sir Walter Raleigh History of the World (1736 Vol. 1 Book I Ch. VIII & Map)"
+      ],
+      "notes": "Raleigh maps Cush's sons Seba, Sabtah, and Raamah (Rhegma) directly along the coasts and cities of Arabia the Happy (Arabia Felix), including Sabe Regia and Aden.",
+      "major": false
+    },
+    {
+      "id": "ral_cato_scythia_saga",
+      "name": "Cato's Scythia Saga (Raleigh p. 69): Post-Flood Scythians → Galli (Gauls) & Italian Umbri",
+      "altNames": [
+        "Cato Origines",
+        "Scythia Saga",
+        "Umbri & Galli"
+      ],
+      "tradition": "europe_norse",
+      "tier": 7,
+      "era": "Post-Flood Westward Migration (Raleigh 1736 Vol. 1 p. 69)",
+      "role": "Classical Witness to mankind's Post-Flood Restoration via Scythia & Italy",
+      "sources": [
+        "Sir Walter Raleigh History of the World (1736 Vol. 1 Book I Ch. VII p. 69, citing Cato)"
+      ],
+      "notes": "Raleigh quotes Cato (Fragments) that after mankind was restored following the Deluge, populations spread from Scythia Saga into the Galli (Gauls) and ancient Umbri of Italy.",
+      "major": false
+    },
+    {
+      "id": "gau_poetical_noah_ages",
+      "name": "Gautruche's Poetical History Cognates: Golden Age (Saturn/Janus = Noah), Silver Age (Jupiter = Ham), Brazen Age (Nimrod), Vulcan (= Tubal-Cain) & Apollo (= Jubal)",
+      "altNames": [
+        "Golden Age = Noah",
+        "Jupiter = Ham",
+        "Vulcan = Tubal-Cain",
+        "Apollo = Jubal"
+      ],
+      "tradition": "greek",
+      "tier": 5,
+      "era": "Classical Mythic-Biblical Cognates (Gautruche pp. 8-15)",
+      "role": "Systematic Identification of Greco-Roman Mythic Figures with Genesis Patriarchs",
+      "sources": [
+        "Pierre Gautruche The Poetical History (pp. 8-15)"
+      ],
+      "notes": "Gautruche translates Greco-Roman mythology back into Biblical history: the Golden Age under Saturn/Janus corresponds to Noah (threefold division of the world), the Silver Age to Jupiter (Ham/Cham), the Brazen Age to Nimrod, Vulcan to metal-worker Tubal-Cain, and Apollo to musician Jubal.",
+      "major": true
+    },
+    {
+      "id": "par_cecrops_deucalion_flood",
+      "name": "The Parian Chronicle (264 BCE Marble) & Lucian: Epoch 1 Cecrops (1582 BCE) & Epoch 2 Deucalion's Flood (1529 BCE)",
+      "altNames": [
+        "Arundel Marbles",
+        "Epoch 1 Cecrops",
+        "Lucian Syrian Flood"
+      ],
+      "tradition": "greek",
+      "tier": 5,
+      "era": "264 BCE Greek Inscription (The Parian Chronicle 1788 pp. 1-5; Lucian De Dea Syria)",
+      "role": "Epigraphic Greek Chronicle & Syrian Flood Witness",
+      "sources": [
+        "The Parian Chronicle or Chronicle of the Arundelian Marbles (1788 pp. 1-5)",
+        "Lucian De Dea Syria"
+      ],
+      "notes": "Inscribed in marble on Paros in 264 BCE, the Parian Chronicle anchors Greek chronology at Epoch 1 (Cecrops, first king of Athens, 1582 BCE) and Epoch 2 (Deucalion escaping the Great Flood to Athens from Parnassus, 1529 BCE), paired with Lucian's De Dea Syria preserving the Near Eastern Deluge tradition under Deucalion's name.",
+      "major": true
+    },
+    {
+      "id": "xen_artaxerxes2_cyrus_younger",
+      "name": "Classical Persian-Greek Bridge (Xenophon, Curtius Rufus & Plutarch): Artaxerxes II Mnemon, Cyrus the Younger (401 BCE) & Darius III",
+      "altNames": [
+        "Artaxerxes II Mnemon",
+        "Cyrus the Younger",
+        "Darius III"
+      ],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "404–330 BCE (Xenophon Anabasis; Curtius Rufus; Plutarch)",
+      "role": "Late Achaemenid Emperors Leading to Alexander the Great",
+      "sources": [
+        "Xenophon Anabasis",
+        "Quintus Curtius Rufus History of Alexander",
+        "Plutarch Lives (Artaxerxes & Alexander)"
+      ],
+      "notes": "Documented across Xenophon's Anabasis (Cyrus the Younger vs. his brother Artaxerxes II at Cunaxa, 401 BCE), Plutarch, and Curtius Rufus down to Darius III and Alexander the Great.",
+      "major": false
+    },
+    {
+      "id": "rom_echard_imperial_bridge",
+      "name": "Classical Roman Imperial Spine (Livy, Tacitus, Echard 5 Vols., Ammianus & Mexía): Vespasian & Titus (70 CE) → Trajan → Marcus Aurelius → Diocletian → Romulus Augustulus (476 CE)",
+      "altNames": [
+        "Vespasian & Titus",
+        "Trajan & Marcus Aurelius",
+        "Diocletian",
+        "Romulus Augustulus"
+      ],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "69–476 CE (Echard Vols. 2-4; Tacitus; Ammianus Marcellinus; Mexía)",
+      "role": "Flavians, Five Good Emperors, Tetrarchy & Western Roman Finale",
+      "sources": [
+        "Laurence Echard Roman History Vols. 1-5",
+        "Livy Vols. 1-6",
+        "Tacitus Vols. 1-4",
+        "Ammianus Marcellinus",
+        "Pedro Mexía Imperial History"
+      ],
+      "notes": "Synthesizes the Roman imperial succession across Echard's 5-volume Roman History, Tacitus, Ammianus Marcellinus, Florus, Aurelius Victor, and Mexía from Vespasian & Titus through Trajan, Marcus Aurelius, Diocletian, and Romulus Augustulus (476 CE) to Charlemagne (Echard Vol. 5).",
+      "major": true
+    },
+    {
+      "id": "vin_periplus_ophir_zoscales",
+      "name": "Periplus of the Erythraean Sea (Vincent 1800): King Zoscales of Aksum, Saba/Sheba, Ophir & Red Sea–India Corridor",
+      "altNames": [
+        "Zoscales of Aksum",
+        "Adulis & Saba",
+        "Monsoon Route to India"
+      ],
+      "tradition": "african",
+      "tier": 19,
+      "era": "1st c. CE (William Vincent Periplus of the Erythrean Sea, 1800)",
+      "role": "Classical Greco-Egyptian Maritime Bridge Linking Aksum, Sheba, Arabia & India",
+      "sources": [
+        "William Vincent The Periplus of the Erythrean Sea (1800)"
+      ],
+      "notes": "Vincent's scholarly commentary identifies King Zoscales of Aksum (Adulis, 1st c. CE), maps classical Saba/Mariaba to Biblical Sheba, examines the Ophir trade corridor, and documents direct monsoon voyages linking Ethiopia and Arabia to western India.",
+      "major": true
     }
   ],
   "edges": [
@@ -28804,6 +29561,582 @@
       "to": "tib_nyatri_songtsen",
       "type": "expansion",
       "label": "Roerich The Blue Annals Book I (Royal Chronicle of Tibet): Traces 1st Tibetan king Nyatri Tsenpo to the Indian Śākya/Licchavi lineage of Mahāsammata & Ikshvaku"
+    },
+    {
+      "from": "bib_japheth",
+      "to": "abg_japheth_8sons",
+      "type": "expansion",
+      "label": "Abulghazi Shajara-i Turk p. 62: Lists 8 sons of Japheth b. Noah — Turk, Chars, Sacklap, Russ, Maninach, Zwin, Camari & Tarich"
+    },
+    {
+      "from": "abg_japheth_8sons",
+      "to": "rus_japheth_slavs",
+      "type": "syncretic",
+      "label": "Abulghazi p. 62 names Russ (Russians) and Sacklap (Slavs) among Japheth's sons alongside Russian Primary Chronicle"
+    },
+    {
+      "from": "abg_japheth_8sons",
+      "to": "chn_masudi_abur_lotsatis",
+      "type": "syncretic",
+      "label": "Abulghazi p. 62 names Zwin (Chin/Chinese) as son of Japheth alongside Al-Mas'udi's 'Abur b. Japheth"
+    },
+    {
+      "from": "abg_japheth_8sons",
+      "to": "bib_gomer",
+      "type": "cognate",
+      "label": "Abulghazi p. 62: Japheth's son Camari identified with Biblical Gomer / Cimmerians"
+    },
+    {
+      "from": "abg_japheth_8sons",
+      "to": "bib_tiras",
+      "type": "cognate",
+      "label": "Abulghazi p. 62: Japheth's son Tarich identified with Biblical Tiras"
+    },
+    {
+      "from": "abg_japheth_8sons",
+      "to": "jas_tog_tarki",
+      "type": "syncretic",
+      "label": "Turk son of Japheth (Abulghazi) compared with Tarki / Turks in Book of Jasher 10:10"
+    },
+    {
+      "from": "abg_japheth_8sons",
+      "to": "abg_turk_alanja",
+      "type": "direct",
+      "label": "Abulghazi pp. 62-66: Japheth -> Turk (Japhis-Oglany) -> Taunak -> Ilchi -> Dib Bakuy -> Kayuk -> Alanja Khan"
+    },
+    {
+      "from": "abg_turk_alanja",
+      "to": "abg_tatar_mogul_twins",
+      "type": "direct",
+      "label": "Abulghazi pp. 66-69: Alanja Khan's twin sons Tatar Khan & Mogul (Mung'l) Khan -> Kara Khan"
+    },
+    {
+      "from": "abg_tatar_mogul_twins",
+      "to": "stp_oghuz",
+      "type": "cognate",
+      "label": "Same Japheth -> Turk -> Tatar/Mogul -> Oghuz Khan patrilineage in Abulghazi & Rashid al-Din"
+    },
+    {
+      "from": "abg_tatar_mogul_twins",
+      "to": "abg_oghuz_tribes",
+      "type": "direct",
+      "label": "Abulghazi pp. 69-82: Kara Khan -> Oghuz Khan"
+    },
+    {
+      "from": "stp_oghuz",
+      "to": "abg_oghuz_tribes",
+      "type": "cognate",
+      "label": "Abulghazi Shajara-i Turk expansion of Oghuz Khan's restoration & 24 Oghuz tribes"
+    },
+    {
+      "from": "abg_oghuz_tribes",
+      "to": "ir_gayomart",
+      "type": "syncretic",
+      "label": "Abulghazi p. 75 synchronizes Oghuz Khan's campaign into Khorasan with the death of Gayomart"
+    },
+    {
+      "from": "stp_oghuz_six",
+      "to": "abg_ergenekon_borte",
+      "type": "expansion",
+      "label": "Abulghazi pp. 82-120: 6 sons of Oghuz -> Mengli -> Il Khan (Ergenekon refuge) -> Bertezena (Börte Čino) -> Yesugei"
+    },
+    {
+      "from": "abg_ergenekon_borte",
+      "to": "mng_genghis_khan_borte",
+      "type": "expansion",
+      "label": "Abulghazi p. 120: Yesugei -> Genghis Khan (Zingis Chan) alongside Secret History of the Mongols"
+    },
+    {
+      "from": "stp_oghuz_six",
+      "to": "sel_tughril_alparslan",
+      "type": "expansion",
+      "label": "Oghuz-Qiniq Seljuk succession from Seljuk & Mikail to Tughril Beg & Alp Arslan"
+    },
+    {
+      "from": "bib_magog",
+      "to": "sel_tughril_alparslan",
+      "type": "syncretic",
+      "label": "Knolles Vol. 1 pp. 2-15 derives the early Turks from Scythia near the Tanais/Caucasus (Magog horizon)"
+    },
+    {
+      "from": "sel_tughril_alparslan",
+      "to": "ott_osman_ertughrul",
+      "type": "expansion",
+      "label": "Knolles Vol. 1: From the Seljuk frontier in Anatolia -> Süleyman Shah -> Ertuğrul -> Sultan Osman I (1299)"
+    },
+    {
+      "from": "ott_osman_ertughrul",
+      "to": "ott_mehmed2_suleiman",
+      "type": "direct",
+      "label": "Knolles Vols. 1-3: Ottoman Imperial succession -> Mehmed II -> Selim I -> Suleiman the Magnificent"
+    },
+    {
+      "from": "ott_mehmed2_suleiman",
+      "to": "rom_constantine_byzantium",
+      "type": "cognate",
+      "label": "Knolles Vol. 1: 1453 Siege of Constantinople ends Byzantine Palaiologos rule under Constantine XI"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "abg_jochi_golden_horde",
+      "type": "direct",
+      "label": "Abulghazi Part V: Jochi (Zuzi Chan) -> Batu Sagin Chan & Berke (Burga) Khan"
+    },
+    {
+      "from": "abg_jochi_golden_horde",
+      "to": "abg_shaybani_uzbeks",
+      "type": "direct",
+      "label": "Abulghazi Parts VII-IX: Jochi -> Shaybani Khan -> Muhammad Shaybani -> Ilbars -> Abulghazi Bahadur Khan"
+    },
+    {
+      "from": "abg_shaybani_uzbeks",
+      "to": "bir_khwarazm_afrighids",
+      "type": "cognate",
+      "label": "Historical Khwarazmian regional continuity from Afrighids to Shaybanid Khans of Khiva (Abulghazi)"
+    },
+    {
+      "from": "abg_jochi_golden_horde",
+      "to": "abg_crimea_kazakh_khans",
+      "type": "direct",
+      "label": "Abulghazi pp. 252-259: Jochi -> Togai Timur -> Crimean & Kazakh Khans (Janibek & Kasim)"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "abg_chagatai_timur",
+      "type": "expansion",
+      "label": "Abulghazi p. 12 & Mod. Univ. Hist. Vol. 3: Chagatai Khanate -> Tarmashirin & Timurid House (Timur -> Shah Rukh -> Ulugh Beg)"
+    },
+    {
+      "from": "abg_chagatai_timur",
+      "to": "mug_babur_humayun",
+      "type": "direct",
+      "label": "Abulghazi p. 296 & Mod. Univ. Hist. Vol. 3: Timurid-Chagatayid descent to Emperor Babur (1526) & Humayun"
+    },
+    {
+      "from": "ind_gupta_golden_age",
+      "to": "mug_babur_humayun",
+      "type": "expansion",
+      "label": "Northern Indian imperial continuity culminating in Mughal Hindustan (Mod. Univ. Hist. Vol. 3)"
+    },
+    {
+      "from": "mug_babur_humayun",
+      "to": "mug_akbar_aurangzeb",
+      "type": "direct",
+      "label": "Mod. Univ. Hist. Vol. 3: Humayun -> Akbar -> Jahangir -> Shah Jahan -> Aurangzeb"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "abg_tolui_hulagu_ilkhan",
+      "type": "direct",
+      "label": "Abulghazi p. 240: Tolui -> Hulagu (Halaku) Khan -> Abaqa -> Ghazan Khan"
+    },
+    {
+      "from": "chn_han_tang_empires",
+      "to": "chn_ming_qing_manchu",
+      "type": "expansion",
+      "label": "Imperial China continuity from Han/Tang through Ming to the Qing Dynasty (Du Halde Vol. 1)"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "chn_ming_qing_manchu",
+      "type": "expansion",
+      "label": "Yuan & Tartar steppe geopolitical succession into Manchu/Qing unification (Du Halde 1738 Vol. 1 p. 239)"
+    },
+    {
+      "from": "abg_japheth_8sons",
+      "to": "chn_ming_qing_manchu",
+      "type": "syncretic",
+      "label": "Du Halde 1738 Preface & Compleat Universal History connect Chinese-Tartary directly with China, Korea & Tibet"
+    },
+    {
+      "from": "eur_tuisto_mannus",
+      "to": "ger_mascou_confederations",
+      "type": "expansion",
+      "label": "Tacitus Germania & Mascou 1737: Ancient Germanic nations descending from Tuisto & Mannus"
+    },
+    {
+      "from": "eur_ashkenaz_tuisco",
+      "to": "ger_mascou_confederations",
+      "type": "expansion",
+      "label": "Chronicle identification of Tuisto/Ashkenaz with the founding ancestors of the Germans (Mascou)"
+    },
+    {
+      "from": "eur_gomer_samothes_gaul",
+      "to": "ger_mascou_confederations",
+      "type": "syncretic",
+      "label": "Mascou notes Cimbri & Celtic-Germanic antiquity linked to Gomerites"
+    },
+    {
+      "from": "goth_magog_berig",
+      "to": "ger_mascou_confederations",
+      "type": "cognate",
+      "label": "East Germanic Gothic peoples documented alongside Vandals, Lombards & Franks in Mascou"
+    },
+    {
+      "from": "ger_mascou_confederations",
+      "to": "eur_merovingian_carolingian",
+      "type": "expansion",
+      "label": "Salian & Ripuarian Franks establish Merovingian & Carolingian France/Germany"
+    },
+    {
+      "from": "ger_mascou_confederations",
+      "to": "bur_gonderic_gundobad",
+      "type": "expansion",
+      "label": "Mascou & Mod. Univ. Hist. Vol. 14: Germanic Burgundians -> Gonderic -> Gundobad -> Sigismund"
+    },
+    {
+      "from": "eur_merovingian_carolingian",
+      "to": "sav_witichind_hubert_victor",
+      "type": "expansion",
+      "label": "Mod. Univ. Hist. Vol. 14 p. 125: Saxon contemporary of Charlemagne Duke Witichind -> Savoy"
+    },
+    {
+      "from": "bur_gonderic_gundobad",
+      "to": "sav_witichind_hubert_victor",
+      "type": "expansion",
+      "label": "Mod. Univ. Hist. Vol. 14 p. 125: Bertold acquired Savoy & Maurienne under Rodolf of Burgundy"
+    },
+    {
+      "from": "eur_merovingian_carolingian",
+      "to": "fra_capet_stlouis",
+      "type": "expansion",
+      "label": "Mod. Univ. Hist. Vol. 9: West Frankish throne passes to Hugh Capet (987 CE)"
+    },
+    {
+      "from": "rus_yaroslav_wise",
+      "to": "fra_capet_stlouis",
+      "type": "direct",
+      "label": "Anne of Kiev (daughter of Yaroslav the Wise) marries King Henry I of France -> ancestor of Philip II & St. Louis IX"
+    },
+    {
+      "from": "fra_capet_stlouis",
+      "to": "fra_valois_bourbon",
+      "type": "direct",
+      "label": "Mod. Univ. Hist. Vol. 9: Direct Capetian patrilineal succession into Valois & Bourbon"
+    },
+    {
+      "from": "grk_julius_augustus",
+      "to": "eng_howell_roman_saxon",
+      "type": "expansion",
+      "label": "Howell 1685: Roman Britain under Julius Caesar & Claudius"
+    },
+    {
+      "from": "eur_king_arthur",
+      "to": "eng_howell_roman_saxon",
+      "type": "expansion",
+      "label": "Howell 1685: Christian British sovereigns (Lucius, Arthur) preceding Anglo-Saxon & Danish rule"
+    },
+    {
+      "from": "eng_howell_roman_saxon",
+      "to": "eur_wessex_alfred_norman",
+      "type": "expansion",
+      "label": "Howell 1685: Heptarchy unification -> Egbert, Alfred the Great, Canute & William I"
+    },
+    {
+      "from": "eur_wessex_alfred_norman",
+      "to": "eng_plantagenet_kings",
+      "type": "direct",
+      "label": "Howell 1685: Wessex-Norman inheritance via Empress Matilda -> Henry II Plantagenet"
+    },
+    {
+      "from": "fra_capet_stlouis",
+      "to": "eng_plantagenet_kings",
+      "type": "cognate",
+      "label": "Anglo-French Capetian marriage alliances across the Plantagenet dynasty"
+    },
+    {
+      "from": "eng_plantagenet_kings",
+      "to": "eng_tudor_monarchs",
+      "type": "direct",
+      "label": "Howell 1685: Plantagenet descent through Margaret Beaufort & Elizabeth of York -> Henry VII"
+    },
+    {
+      "from": "wal_cunedda_rhodri_llywelyn",
+      "to": "eng_tudor_monarchs",
+      "type": "expansion",
+      "label": "Welsh royal pedigree of Owen Tudor uniting with the English crown in 1485"
+    },
+    {
+      "from": "eng_tudor_monarchs",
+      "to": "eng_stuart_great_britain",
+      "type": "direct",
+      "label": "Howell 1685: Henry VII's daughter Margaret Tudor -> James IV/V -> Mary Queen of Scots -> James VI & I"
+    },
+    {
+      "from": "sco_fergus_macalpin",
+      "to": "eng_stuart_great_britain",
+      "type": "expansion",
+      "label": "Scottish royal descent from Fergus Mor & Kenneth MacAlpin uniting Scotland & England under James VI & I"
+    },
+    {
+      "from": "eur_tubal_spain",
+      "to": "por_afonso_henriques",
+      "type": "expansion",
+      "label": "Iberian royal succession from Tubal's Spain through Castile-Leon -> Princess Teresa & Afonso I Henriques"
+    },
+    {
+      "from": "fra_capet_stlouis",
+      "to": "por_afonso_henriques",
+      "type": "direct",
+      "label": "Count Henry of Burgundy (Capetian line) + Teresa of Castile -> King Afonso I Henriques of Portugal (1139)"
+    },
+    {
+      "from": "por_afonso_henriques",
+      "to": "por_aviz_discoveries",
+      "type": "direct",
+      "label": "History of Portugal 1661/1726: House of Burgundy -> House of Aviz (John I -> Manuel I)"
+    },
+    {
+      "from": "por_aviz_discoveries",
+      "to": "por_braganza_restoration",
+      "type": "direct",
+      "label": "History of Portugal 1661/1726: Aviz descent -> House of Braganza (John IV, 1640 -> Afonso VI)"
+    },
+    {
+      "from": "rus_yaroslav_wise",
+      "to": "rus_nevsky_ivan_tsars",
+      "type": "direct",
+      "label": "Mod. Univ. Hist. Vol. 13: Rurikid patriline Yaroslav -> Vsevolod -> Vladimir Monomakh -> Alexander Nevsky -> Ivan III & IV"
+    },
+    {
+      "from": "abg_jochi_golden_horde",
+      "to": "rus_nevsky_ivan_tsars",
+      "type": "cognate",
+      "label": "Rus'-Golden Horde relations ending with Ivan III's Stand on the Ugra River (1480)"
+    },
+    {
+      "from": "rus_nevsky_ivan_tsars",
+      "to": "rus_romanov_peter_great",
+      "type": "expansion",
+      "label": "Mod. Univ. Hist. Vol. 13: Romanov succession from Tsar Ivan IV's marriage to Anastasia Romanovna -> Michael I -> Peter the Great"
+    },
+    {
+      "from": "bib_noah",
+      "to": "ral_methodius_suphene",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Vol. 1 p. 69 (Methodius) & Petavius 1659: Post-Flood dispersion under three commanders"
+    },
+    {
+      "from": "ral_methodius_suphene",
+      "to": "bib_nimrod",
+      "type": "syncretic",
+      "label": "Methodius/Raleigh: Nimrod led the Hamite division"
+    },
+    {
+      "from": "ral_methodius_suphene",
+      "to": "bib_joktan",
+      "type": "syncretic",
+      "label": "Methodius/Raleigh: Joktan led the Shemite division"
+    },
+    {
+      "from": "bib_japheth",
+      "to": "ral_methodius_suphene",
+      "type": "syncretic",
+      "label": "Methodius/Raleigh p. 69: Suphene appointed commander over Japheth's posterity"
+    },
+    {
+      "from": "bib_joktan",
+      "to": "ral_east_indies_shem",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Book I Ch. VIII: Joktan's posterity planted regions extending into the East Indies"
+    },
+    {
+      "from": "bib_havilah_joktan",
+      "to": "ral_east_indies_shem",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Book I Ch. VIII & Map: Havilah b. Joktan in East-Indian dispersion"
+    },
+    {
+      "from": "bib_ophir",
+      "to": "ral_east_indies_shem",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Book I Ch. VIII & Map: Ophir planted eastern Indian territories"
+    },
+    {
+      "from": "ral_east_indies_shem",
+      "to": "ind_hind_sind_noah",
+      "type": "cognate",
+      "label": "Raleigh's Shemite East Indies converges with Tabari's Qahtan/Joktan -> Hind & Sind tradition"
+    },
+    {
+      "from": "bib_cush",
+      "to": "ral_arabia_felix_cush",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Book I Ch. VIII & Map: Cushites settled Arabia Felix"
+    },
+    {
+      "from": "bib_seba",
+      "to": "ral_arabia_felix_cush",
+      "type": "syncretic",
+      "label": "Raleigh Map: Seba mapped to Sabe Regia"
+    },
+    {
+      "from": "bib_sabtah",
+      "to": "ral_arabia_felix_cush",
+      "type": "syncretic",
+      "label": "Raleigh Book I Ch. VIII: Sabtah along the Sabota / southern Arabian littoral"
+    },
+    {
+      "from": "bib_raamah",
+      "to": "ral_arabia_felix_cush",
+      "type": "syncretic",
+      "label": "Raleigh Map: Raamah (Rhegma) & Aden on the Persian Gulf / Arabian coast"
+    },
+    {
+      "from": "bib_noah",
+      "to": "ral_cato_scythia_saga",
+      "type": "syncretic",
+      "label": "Raleigh 1736 p. 69 (Cato): Post-Flood restoration beginning in Scythia Saga"
+    },
+    {
+      "from": "ral_cato_scythia_saga",
+      "to": "eur_gomer_samothes_gaul",
+      "type": "syncretic",
+      "label": "Cato via Raleigh p. 69: Old Galli sprung from the post-Flood Scythians"
+    },
+    {
+      "from": "ral_cato_scythia_saga",
+      "to": "eur_noah_janus_italy",
+      "type": "syncretic",
+      "label": "Cato via Raleigh p. 69: Janus & Italian Umbri traced from the post-Flood Scythians"
+    },
+    {
+      "from": "bib_elam",
+      "to": "ir_cyrus",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Book I Ch. VIII & Map: Elam b. Shem planted Elymais & Persia"
+    },
+    {
+      "from": "bib_meshech",
+      "to": "arm_hayk_pat",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Book I Ch. VIII & Map: Meshech b. Japheth planted Armenia / Ciracene regions"
+    },
+    {
+      "from": "bib_noah",
+      "to": "gau_poetical_noah_ages",
+      "type": "syncretic",
+      "label": "Gautruche Poetical History pp. 8-15: Saturn/Janus (Golden Age) identified with Noah"
+    },
+    {
+      "from": "bib_ham",
+      "to": "gau_poetical_noah_ages",
+      "type": "syncretic",
+      "label": "Gautruche Poetical History pp. 8-15: Jupiter (Silver Age) identified with Ham/Cham"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "gau_poetical_noah_ages",
+      "type": "syncretic",
+      "label": "Gautruche Poetical History: Brazen Age tyranny traced to Nimrod"
+    },
+    {
+      "from": "bib_tubalcain",
+      "to": "gau_poetical_noah_ages",
+      "type": "syncretic",
+      "label": "Gautruche Poetical History: Greco-Roman smith Vulcan identified with Tubal-Cain"
+    },
+    {
+      "from": "bib_jubal",
+      "to": "gau_poetical_noah_ages",
+      "type": "syncretic",
+      "label": "Gautruche Poetical History: Inventor of music Apollo compared with Jubal"
+    },
+    {
+      "from": "gau_poetical_noah_ages",
+      "to": "eur_noah_janus_italy",
+      "type": "cognate",
+      "label": "Same Janus = Noah tradition in Gautruche & Anderson"
+    },
+    {
+      "from": "gau_poetical_noah_ages",
+      "to": "sanch_chrysor_barhebraeus",
+      "type": "cognate",
+      "label": "Parallel Tubal-Cain = Vulcan/Chrysor identification across Gautruche & Sanchuniathon"
+    },
+    {
+      "from": "bib_noah",
+      "to": "par_cecrops_deucalion_flood",
+      "type": "syncretic",
+      "label": "Lucian De Dea Syria: Syrian Great Flood temple tradition of Deucalion / Noah"
+    },
+    {
+      "from": "grk_deucalion",
+      "to": "par_cecrops_deucalion_flood",
+      "type": "cognate",
+      "label": "Parian Chronicle (264 BCE) Epoch 2 dates Deucalion's escape from the Flood to 1529 BCE"
+    },
+    {
+      "from": "par_cecrops_deucalion_flood",
+      "to": "grk_athens_cecrops_theseus",
+      "type": "cognate",
+      "label": "Parian Chronicle Epoch 1 anchors Cecrops as 1st King of Athens (1582 BCE)"
+    },
+    {
+      "from": "par_cecrops_deucalion_flood",
+      "to": "grk_hellen",
+      "type": "cognate",
+      "label": "Parian Chronicle records Deucalion's son Hellen giving his name to the Hellenes"
+    },
+    {
+      "from": "ir_artaxerxes1",
+      "to": "xen_artaxerxes2_cyrus_younger",
+      "type": "direct",
+      "label": "Achaemenid succession: Artaxerxes I -> Darius II -> Artaxerxes II Mnemon & Cyrus the Younger -> Darius III"
+    },
+    {
+      "from": "xen_artaxerxes2_cyrus_younger",
+      "to": "grk_alexander",
+      "type": "cognate",
+      "label": "Curtius Rufus & Plutarch: Alexander the Great defeats Darius III of Persia"
+    },
+    {
+      "from": "rom_julio_claudians",
+      "to": "rom_echard_imperial_bridge",
+      "type": "expansion",
+      "label": "Tacitus & Echard Vols. 2-4: Julio-Claudians -> Flavians -> Five Good Emperors -> Diocletian -> Romulus Augustulus"
+    },
+    {
+      "from": "rom_echard_imperial_bridge",
+      "to": "rom_constantine_byzantium",
+      "type": "expansion",
+      "label": "Echard Vols. 4-5 & Ammianus: Diocletian -> Constantine the Great -> Byzantine Emperors"
+    },
+    {
+      "from": "rom_echard_imperial_bridge",
+      "to": "eur_merovingian_carolingian",
+      "type": "cognate",
+      "label": "Echard Vol. 5: Western imperial continuity crowned in Charlemagne (800 CE)"
+    },
+    {
+      "from": "eth_ezana",
+      "to": "vin_periplus_ophir_zoscales",
+      "type": "expansion",
+      "label": "Vincent Periplus (1800): Pre-Ezana Aksumite monarch King Zoscales of Adulis & Aksum (1st c. CE)"
+    },
+    {
+      "from": "eth_makeda",
+      "to": "vin_periplus_ophir_zoscales",
+      "type": "cognate",
+      "label": "Vincent Periplus discusses Queen of Sheba (Saba) & Ethiopian Aksumite antiquity"
+    },
+    {
+      "from": "bib_ophir",
+      "to": "vin_periplus_ophir_zoscales",
+      "type": "syncretic",
+      "label": "Vincent Periplus Dissertation on Ophir along the Erythraean Sea / Indian Ocean trade"
+    },
+    {
+      "from": "bib_sheba_joktan",
+      "to": "vin_periplus_ophir_zoscales",
+      "type": "cognate",
+      "label": "Vincent Periplus identifies classical Saba/Mariaba with Arabian Sheba"
+    },
+    {
+      "from": "vin_periplus_ophir_zoscales",
+      "to": "ral_east_indies_shem",
+      "type": "cognate",
+      "label": "Erythraean Sea monsoon route linking Red Sea, Sheba & Ophir directly to India"
     }
   ]
 }

@@ -1,0 +1,225 @@
+"""
+Module 30: Abulghazi Bahadur Khan (Shajara-i Turk — 8 Sons of Japheth, Turks,
+Moguls & Tartars), Seljuk & Ottoman Empires (Knolles & Rycaut), Genghisid
+Successor Khanates (Jochi/Golden Horde/Uzbeks/Kazakhs/Crimea, Chagatai/Timurids/
+Mughal Emperors of Hindustan, Hulagu Ilkhanate), and Manchu/Qing Tartar China.
+
+Sources integrated:
+- Abulghazi Bahadur Khan, A General History of the Turks, Moguls, and Tartars
+  (Shajara-i Turk, HighRes_39020025955496.pdf, pp. 62-296)
+- Richard Knolles & Paul Rycaut, The Turkish History from the Original of that Nation
+  (Vols. 1-3)
+- The Modern Part of an Universal History (Folio Vols. 1-5: Arabs, Turks, Hindustan/Mughals)
+- Jean-Baptiste Du Halde, A Description of the Empire of China and Chinese-Tartary,
+  Korea, and Tibet (1738 Vol. 1 Preface & p. 239)
+- A Compleat Universal History of the Several Empires, Kingdoms, States (China & Tartary)
+"""
+
+from . import N, E
+
+
+def build_module():
+    nodes, edges = [], []
+
+    nodes += [
+        N("abg_japheth_8sons",
+          "Abulghazi's 8 Sons of Japheth: Turk, Chars (Khazars), Sacklap (Slavs), Russ (Russians), Maninach, Zwin (China), Camari (Gomer) & Tarich (Tiras)",
+          "steppe", 6,
+          "Post-Flood Dispersion (Abulghazi Shajara-i Turk p. 62)",
+          "Japhethic Progenitors of Turks, Khazars, Slavs, Russians, China & Steppe Nations",
+          ["Abulghazi Bahadur Khan General History of the Turks p. 62"],
+          "Abulghazi explicitly names eight sons of Japheth (Japhis) sent northward across Eurasia after Noah's Flood: 1. Turk (Japhis-Oglany), 2. Chars (Khazars), 3. Sacklap (Slavs), 4. Russ (Russians), 5. Maninach, 6. Zwin (Chin / Chinese), 7. Camari (Gomer / Cimmerians), and 8. Tarich (Tiras).",
+          ["Japhis-Oglany (Turk)", "Chars (Khazars)", "Sacklap (Slavs)", "Russ (Russians)", "Zwin (Chin/China)", "Camari (Gomer)", "Tarich (Tiras)"],
+          major=True),
+
+        N("abg_turk_alanja",
+          "Turk (Japhis-Oglany) → Taunak → Ilchi → Dib Bakuy → Kayuk → Alanja Khan",
+          "steppe", 7,
+          "Early Turkic Patriarchs (Abulghazi pp. 62-66)",
+          "Patrilineal Descent from Japheth's Eldest Son Turk to Alanja Khan",
+          ["Abulghazi Bahadur Khan General History of the Turks pp. 62-66"],
+          "Turk (Japhis-Oglany, founder of laws and tents near Issyk-Kul) fathered four sons — Taunak, Zakale, Bersazar, and Amlak — continuing from Taunak through Ilchi Khan, Dib Bakuy Khan, and Kayuk Khan to Alanja Khan.",
+          ["Taunak", "Dib Bakuy Khan", "Kayuk Khan", "Alanja Khan"],
+          major=False),
+
+        N("abg_tatar_mogul_twins",
+          "Twin Sons of Alanja: Tatar Khan (7 Gens → Siuntz) & Mogul (Mung'l) Khan → Kara Khan",
+          "steppe", 8,
+          "Division of Tatars & Moguls (Abulghazi pp. 66-69)",
+          "Twin Progenitors of the Tatar and Mongol Branches",
+          ["Abulghazi Bahadur Khan General History of the Turks pp. 66-69"],
+          "Alanja Khan divided his dominions between his twin sons: Tatar Khan (whose seven-generation line ran Bucha -> Jalanza -> Ettela -> Attaisir -> Orda -> Baydu -> Siuntz) and Mogul (Mung'l) Khan (father of Cara/Kara, Auwas, Cauwas, and Cavar).",
+          ["Tatar Khan", "Mogul (Mung'l) Khan", "Kara Khan"],
+          major=True),
+
+        N("abg_oghuz_tribes",
+          "Oghuz Khan's Monotheistic Restoration & Steppe Nations (Uighurs, Kanglis, Kipchaks, Karluks & 24 Oghuz Tribes)",
+          "steppe", 9,
+          "Oghuz Conquest Horizon (Abulghazi pp. 69-82)",
+          "Unifier of the Steppe, Conqueror of Kitay & Khorasan, Ancestor of the 24 Oghuz Tribes",
+          ["Abulghazi Bahadur Khan General History of the Turks pp. 69-82"],
+          "Oghuz Khan restored the worship of one God against his father Kara Khan and his Tatar kinsmen, conquering Tangut, Kitay (China), and Khorasan (Iran) following the death of Gayomart. His six sons (Buzuk Golden Bow: Kun, Ay, Yildiz; Uch-Ok Three Arrows: Kuk, Tag, Tengiz) sired the 24 Oghuz tribes alongside the Uighurs, Kanglis, Kipchaks, and Karluks.",
+          ["Buzuk (Golden Bow)", "Uch-Ok (3 Arrows)", "Kipchaks & Uighurs"],
+          major=False),
+
+        N("abg_ergenekon_borte",
+          "Il Khan → Qiyan & Nukuz (Ergenekon / Irgana-kon) → Bertezena (Börte Čino) → Alan Qo'a → Dutumin → Kaidu → Tumana → Kabul → Bortan → Yesugei",
+          "steppe", 18,
+          "Ergenekon Refuge to 12th c. CE (Abulghazi pp. 82-120)",
+          "Restoration from the Ergenekon Valley to the Borjigin Forefathers of Genghis Khan",
+          ["Abulghazi Bahadur Khan General History of the Turks pp. 82-120"],
+          "After the defeat of Il Khan, survivors Qiyan and Nukuz took refuge in the enclosed valley of Ergenekon (Irgana-kon) for generations until Bertezena (Börte Čino) led the Mongols back out onto the steppe, continuing through Alan Qo'a, Dutumin, Kaidu, Tumana, Kabul, Bortan, and Yesugei.",
+          ["Il Khan", "Qiyan & Nukuz", "Ergenekon", "Yesugei"],
+          major=False),
+
+        N("sel_tughril_alparslan",
+          "Seljuk Empire: Seljuk → Mikail → Tughril Beg (Tangrolipix, 1030) → Alp Arslan → Malik Shah → Kilij Arslan",
+          "steppe", 19,
+          "11th–12th c. CE (Knolles Vol. 1 pp. 2-15; Mod. Univ. Hist. Vol. 2)",
+          "Oghuz-Seljuk Sultans of Persia, Baghdad & Anatolia",
+          ["Knolles & Rycaut The Turkish History Vol. 1 pp. 2-15", "Modern Universal History Vol. 2", "Abulghazi Shajara-i Turk"],
+          "Knolles traces the Turks from Scythia (Tanais/Caucasus, Magog horizon) into Turcomania and Armenia, rising under Seljuk and Mikail to Tughril Beg (Tangrolipix, crowned in Persia c. 1030), Alp Arslan, Malik Shah, and the Seljuks of Rum under Kilij Arslan.",
+          ["Tangrolipix (Tughril Beg)", "Alp Arslan", "Malik Shah", "Kilij Arslan"],
+          major=True),
+
+        N("ott_osman_ertughrul",
+          "Ottoman Founders: Süleyman Shah → Ertuğrul → Sultan Osman I (1299) → Orhan → Murad I → Bayezid I",
+          "steppe", 20,
+          "c. 1220–1402 CE (Knolles Vol. 1)",
+          "Kayi-Oghuz Founders of the Ottoman Dynasty",
+          ["Knolles & Rycaut The Turkish History Vol. 1"],
+          "Ascending from the Oghuz Kayi branch in the wake of the Seljuk disintegration, Süleyman Shah and Ertuğrul settled in Bithynia, where Osman I proclaimed sovereign rule in 1299 CE and was succeeded by Orhan, Murad I, and Bayezid I.",
+          ["Süleyman Shah", "Ertuğrul", "Osman I", "Bayezid I"],
+          major=True),
+
+        N("ott_mehmed2_suleiman",
+          "Imperial Ottomans: Mehmed II the Conqueror (1453) → Bayezid II → Selim I → Suleiman the Magnificent (1520–1566)",
+          "steppe", 21,
+          "1451–1566 CE (Knolles Vols. 1-3)",
+          "Ottoman Sultans from the Conquest of Constantinople to Imperial Zenith",
+          ["Knolles & Rycaut The Turkish History Vols. 1-3"],
+          "Mehmed II conquered Constantinople in 1453 (ending the Byzantine Palaiologos line), followed by Bayezid II, Selim I (adding Egypt and the Hejaz), and Suleiman the Magnificent.",
+          ["Mehmed II", "Selim I", "Suleiman the Magnificent"],
+          major=True),
+
+        N("abg_jochi_golden_horde",
+          "Jochi (Zuzi Chan) → Batu Sagin Chan (Golden Horde) & Berke (Burga) Khan",
+          "steppe", 20,
+          "13th–14th c. CE (Abulghazi Part V)",
+          "Ulus of Jochi & Rulers of the Kipchak Steppe / Golden Horde",
+          ["Abulghazi Bahadur Khan General History of the Turks Part V"],
+          "Abulghazi details the lineage of Genghis Khan's eldest son Jochi (Zuzi Chan) into the Golden Horde under Batu Sagin Chan and Berke (Burga) Khan across the Kipchak Steppe and Volga.",
+          ["Zuzi Chan (Jochi)", "Batu Sagin Chan", "Berke (Burga) Khan"],
+          major=True),
+
+        N("abg_shaybani_uzbeks",
+          "Shaybanid Uzbeks of Bukhara & Khwarazm: Shaybani Khan → Muhammad Shaybani (Shah Bakht) → Ilbars → Abulghazi Bahadur Khan (1603–1663)",
+          "steppe", 21,
+          "13th–17th c. CE (Abulghazi Parts VII-IX)",
+          "Genghisid Shaybanid Khans of Bukhara & Khwarazm (Author's Own Royal Pedigree)",
+          ["Abulghazi Bahadur Khan General History of the Turks Parts VII-IX"],
+          "Through Jochi's fifth son Shaybani Khan, Abulghazi traces the Uzbek khans — including Muhammad Shaybani (Shah Bakht) and Ilbars Khan of Khwarazm — directly down to himself, Khan of Khiva and chronicler of the Shajara-i Turk (1603-1663).",
+          ["Shaybani Khan", "Muhammad Shaybani (Shah Bakht)", "Ilbars Khan", "Abulghazi Bahadur Khan"],
+          major=True),
+
+        N("abg_crimea_kazakh_khans",
+          "Togai Timur → Crimean Khans (Caffa & Crim) & Kazakh Khans (Janibek Khan → Kasim Khan)",
+          "steppe", 21,
+          "14th–16th c. CE (Abulghazi pp. 252-259)",
+          "Tuka-Timurid Lines of Jochi Ruling Crimea & the Kazakh Steppe",
+          ["Abulghazi Bahadur Khan General History of the Turks pp. 252-259"],
+          "Abulghazi chronicles Jochi's son Togai Timur as progenitor both of the Crimean Khans (Caffa and Crim) and of the Kazakh Khans led by Janibek Khan and Kasim Khan.",
+          ["Togai Timur", "Crimean Khans", "Janibek & Kasim Khan"],
+          major=False),
+
+        N("abg_chagatai_timur",
+          "Chagatai Khanate & Timurids: Buga Timur → Tarmashirin; Amir Timur (Tamerlane, 1370) → Shah Rukh → Ulugh Beg",
+          "steppe", 20,
+          "13th–15th c. CE (Abulghazi p. 12; Mod. Univ. Hist. Vol. 3)",
+          "Transoxiana Khanate & Samarkand Timurid Dynasty",
+          ["Abulghazi Bahadur Khan General History of the Turks p. 12", "Modern Universal History Vol. 3"],
+          "Traces the house of Chagatai (Zagatai Chan) in Transoxiana and Kashgar through Buga Timur and Tarmashirin, alongside Barlas conqueror Amir Timur (Tamerlane, son-in-law/Guregen of the Chagatayids) -> Shah Rukh -> astronomer-king Ulugh Beg at Samarkand.",
+          ["Zagatai Chan (Chagatai)", "Tarmashirin", "Tamerlane (Timur)", "Ulugh Beg"],
+          major=True),
+
+        N("mug_babur_humayun",
+          "Mughal Empire of Hindustan: Zahir-ud-din Babur (1526, Timurid-Genghisid Line) → Emperor Humayun",
+          "vedic", 21,
+          "1526–1556 CE (Abulghazi p. 296; Mod. Univ. Hist. Vol. 3)",
+          "Founders of the Mughal Empire in Northern India",
+          ["Abulghazi Bahadur Khan General History of the Turks p. 296", "Modern Universal History Vol. 3"],
+          "Zahir-ud-din Muhammad Babur — descended paternally from Timur and maternally from Genghis Khan via Chagatai — established the Mughal Empire in India in 1526 and was succeeded by Emperor Humayun.",
+          ["Babur", "Humayun"],
+          major=True),
+
+        N("mug_akbar_aurangzeb",
+          "Great Mughals of Delhi & Agra: Akbar the Great → Jahangir → Shah Jahan → Aurangzeb",
+          "vedic", 21,
+          "1556–1707 CE (Mod. Univ. Hist. Vol. 3)",
+          "Imperial Rulers of Hindustan",
+          ["Modern Universal History Vol. 3 (History of Hindustan)"],
+          "Continuous Mughal imperial succession in Modern Universal History Vol. 3 from Akbar the Great through Jahangir, Shah Jahan, and Aurangzeb.",
+          ["Akbar", "Jahangir", "Shah Jahan", "Aurangzeb"],
+          major=True),
+
+        N("abg_tolui_hulagu_ilkhan",
+          "Ilkhanate of Persia: Tolui → Hulagu (Halaku) Khan (1256) → Abaqa → Ghazan Khan",
+          "iranian", 20,
+          "1256–1304 CE (Abulghazi p. 240; Mod. Univ. Hist. Vol. 2)",
+          "Mongol Ilkhans of Iran & Mesopotamia",
+          ["Abulghazi Bahadur Khan General History of the Turks p. 240", "Modern Universal History Vol. 2"],
+          "Tolui's son Hulagu (Halaku) Khan founded the Ilkhanate across Persia and Iraq in 1256, continuing through Abaqa Khan and Islamizing reformer Ghazan Khan.",
+          ["Hulagu / Halaku", "Abaqa", "Ghazan Khan"],
+          major=False),
+
+        N("chn_ming_qing_manchu",
+          "Manchu / Qing Tartar Unification of China, Tartary, Korea & Tibet: Nurhaci (Tianming) → Hong Taiji (Tsong-te) → Shunzhi (1644) → Kangxi Emperor",
+          "chinese", 21,
+          "1616–1722 CE (Du Halde 1738 Vol. 1 Preface & p. 239; Compleat Universal History)",
+          "Qing Dynasty Uniting China Proper, Great Tartary, Korea & Tibet",
+          ["Jean-Baptiste Du Halde Description of China and Chinese-Tartary (1738 Vol. 1 Preface & p. 239)", "A Compleat Universal History (China & Tartary)", "Modern Universal History Vol. 5"],
+          "Du Halde (1738 Vol. 1 Preface & p. 239) and A Compleat Universal History document the Ming-to-Qing transition under Jurchen/Manchu Tartar founders Nurhaci (Tianming) and Hong Taiji (Tsong-te) -> Shunzhi (Shun-chi, 1644) -> Kangxi (Kang-hi), uniting China, Inner/Outer Tartary, Korea, and Tibet.",
+          ["Nurhaci (Tianming)", "Hong Taiji (Tsong-te)", "Shunzhi", "Kangxi"],
+          major=True),
+    ]
+
+    edges += [
+        E("bib_japheth", "abg_japheth_8sons", "expansion", "Abulghazi Shajara-i Turk p. 62: Lists 8 sons of Japheth b. Noah — Turk, Chars, Sacklap, Russ, Maninach, Zwin, Camari & Tarich"),
+        E("abg_japheth_8sons", "rus_japheth_slavs", "syncretic", "Abulghazi p. 62 names Russ (Russians) and Sacklap (Slavs) among Japheth's sons alongside Russian Primary Chronicle"),
+        E("abg_japheth_8sons", "chn_masudi_abur_lotsatis", "syncretic", "Abulghazi p. 62 names Zwin (Chin/Chinese) as son of Japheth alongside Al-Mas'udi's 'Abur b. Japheth"),
+        E("abg_japheth_8sons", "bib_gomer", "cognate", "Abulghazi p. 62: Japheth's son Camari identified with Biblical Gomer / Cimmerians"),
+        E("abg_japheth_8sons", "bib_tiras", "cognate", "Abulghazi p. 62: Japheth's son Tarich identified with Biblical Tiras"),
+        E("abg_japheth_8sons", "jas_tog_tarki", "syncretic", "Turk son of Japheth (Abulghazi) compared with Tarki / Turks in Book of Jasher 10:10"),
+        E("abg_japheth_8sons", "abg_turk_alanja", "direct", "Abulghazi pp. 62-66: Japheth -> Turk (Japhis-Oglany) -> Taunak -> Ilchi -> Dib Bakuy -> Kayuk -> Alanja Khan"),
+        E("abg_turk_alanja", "abg_tatar_mogul_twins", "direct", "Abulghazi pp. 66-69: Alanja Khan's twin sons Tatar Khan & Mogul (Mung'l) Khan -> Kara Khan"),
+        E("abg_tatar_mogul_twins", "stp_oghuz", "cognate", "Same Japheth -> Turk -> Tatar/Mogul -> Oghuz Khan patrilineage in Abulghazi & Rashid al-Din"),
+        E("abg_tatar_mogul_twins", "abg_oghuz_tribes", "direct", "Abulghazi pp. 69-82: Kara Khan -> Oghuz Khan"),
+        E("stp_oghuz", "abg_oghuz_tribes", "cognate", "Abulghazi Shajara-i Turk expansion of Oghuz Khan's restoration & 24 Oghuz tribes"),
+        E("abg_oghuz_tribes", "ir_gayomart", "syncretic", "Abulghazi p. 75 synchronizes Oghuz Khan's campaign into Khorasan with the death of Gayomart"),
+        E("stp_oghuz_six", "abg_ergenekon_borte", "expansion", "Abulghazi pp. 82-120: 6 sons of Oghuz -> Mengli -> Il Khan (Ergenekon refuge) -> Bertezena (Börte Čino) -> Yesugei"),
+        E("abg_ergenekon_borte", "mng_genghis_khan_borte", "expansion", "Abulghazi p. 120: Yesugei -> Genghis Khan (Zingis Chan) alongside Secret History of the Mongols"),
+        E("stp_oghuz_six", "sel_tughril_alparslan", "expansion", "Oghuz-Qiniq Seljuk succession from Seljuk & Mikail to Tughril Beg & Alp Arslan"),
+        E("bib_magog", "sel_tughril_alparslan", "syncretic", "Knolles Vol. 1 pp. 2-15 derives the early Turks from Scythia near the Tanais/Caucasus (Magog horizon)"),
+        E("sel_tughril_alparslan", "ott_osman_ertughrul", "expansion", "Knolles Vol. 1: From the Seljuk frontier in Anatolia -> Süleyman Shah -> Ertuğrul -> Sultan Osman I (1299)"),
+        E("ott_osman_ertughrul", "ott_mehmed2_suleiman", "direct", "Knolles Vols. 1-3: Ottoman Imperial succession -> Mehmed II -> Selim I -> Suleiman the Magnificent"),
+        E("ott_mehmed2_suleiman", "rom_constantine_byzantium", "cognate", "Knolles Vol. 1: 1453 Siege of Constantinople ends Byzantine Palaiologos rule under Constantine XI"),
+        E("mng_four_sons_grandsons", "abg_jochi_golden_horde", "direct", "Abulghazi Part V: Jochi (Zuzi Chan) -> Batu Sagin Chan & Berke (Burga) Khan"),
+        E("abg_jochi_golden_horde", "abg_shaybani_uzbeks", "direct", "Abulghazi Parts VII-IX: Jochi -> Shaybani Khan -> Muhammad Shaybani -> Ilbars -> Abulghazi Bahadur Khan"),
+        E("abg_shaybani_uzbeks", "bir_khwarazm_afrighids", "cognate", "Historical Khwarazmian regional continuity from Afrighids to Shaybanid Khans of Khiva (Abulghazi)"),
+        E("abg_jochi_golden_horde", "abg_crimea_kazakh_khans", "direct", "Abulghazi pp. 252-259: Jochi -> Togai Timur -> Crimean & Kazakh Khans (Janibek & Kasim)"),
+        E("mng_four_sons_grandsons", "abg_chagatai_timur", "expansion", "Abulghazi p. 12 & Mod. Univ. Hist. Vol. 3: Chagatai Khanate -> Tarmashirin & Timurid House (Timur -> Shah Rukh -> Ulugh Beg)"),
+        E("abg_chagatai_timur", "mug_babur_humayun", "direct", "Abulghazi p. 296 & Mod. Univ. Hist. Vol. 3: Timurid-Chagatayid descent to Emperor Babur (1526) & Humayun"),
+        E("ind_gupta_golden_age", "mug_babur_humayun", "expansion", "Northern Indian imperial continuity culminating in Mughal Hindustan (Mod. Univ. Hist. Vol. 3)"),
+        E("mug_babur_humayun", "mug_akbar_aurangzeb", "direct", "Mod. Univ. Hist. Vol. 3: Humayun -> Akbar -> Jahangir -> Shah Jahan -> Aurangzeb"),
+        E("mng_four_sons_grandsons", "abg_tolui_hulagu_ilkhan", "direct", "Abulghazi p. 240: Tolui -> Hulagu (Halaku) Khan -> Abaqa -> Ghazan Khan"),
+        E("chn_han_tang_empires", "chn_ming_qing_manchu", "expansion", "Imperial China continuity from Han/Tang through Ming to the Qing Dynasty (Du Halde Vol. 1)"),
+        E("mng_four_sons_grandsons", "chn_ming_qing_manchu", "expansion", "Yuan & Tartar steppe geopolitical succession into Manchu/Qing unification (Du Halde 1738 Vol. 1 p. 239)"),
+        E("abg_japheth_8sons", "chn_ming_qing_manchu", "syncretic", "Du Halde 1738 Preface & Compleat Universal History connect Chinese-Tartary directly with China, Korea & Tibet"),
+    ]
+
+    return {
+        "module": "30_abulghazi_turks_mongols_mughals",
+        "title": "Abulghazi (8 Sons of Japheth, Turks, Mongols, Uzbeks, Kazakhs, Mughals), Seljuks, Ottomans & Manchu/Qing China",
+        "nodes": nodes,
+        "edges": edges,
+    }

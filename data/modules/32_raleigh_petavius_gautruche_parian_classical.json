@@ -1,0 +1,406 @@
+{
+  "module": "32_raleigh_petavius_gautruche_parian_classical",
+  "title": "Sir Walter Raleigh, Petavius, Gautruche Poetical Cognates, Parian Chronicle, Classical Rome & Periplus",
+  "nodes": [
+    {
+      "id": "ral_methodius_suphene",
+      "name": "Raleigh & Methodius's 3 Post-Flood Leaders: Nimrod (Ham), Joktan (Shem) & Suphene (Japheth)",
+      "altNames": [
+        "Methodius of Tyre",
+        "Suphene",
+        "Petavius 1659"
+      ],
+      "tradition": "biblical",
+      "tier": 6,
+      "era": "Post-Flood Dispersion (Raleigh 1736 Vol. 1 Book I Ch. VII p. 69; Petavius 1659)",
+      "role": "Tripartite Dispersion Commanders of Ham, Shem & Japheth",
+      "sources": [
+        "Sir Walter Raleigh History of the World (1736 Vol. 1 Book I Ch. VII p. 69)",
+        "Petavius History of the World (1659)"
+      ],
+      "notes": "Sir Walter Raleigh (citing Methodius of Tyre) records the three post-Flood commanders who led the peoples after Babel: Nimrod over Ham's line, Joktan over Shem's line, and Suphene over Japheth's line — framed within Petavius's universal chronology from Creation.",
+      "major": true
+    },
+    {
+      "id": "ral_east_indies_shem",
+      "name": "Raleigh's Shemite Plantation of the East Indies: Joktan, Havilah & Ophir",
+      "altNames": [
+        "Joktan in the East",
+        "Ophir / East Indies"
+      ],
+      "tradition": "vedic",
+      "tier": 9,
+      "era": "Eastward Dispersion (Raleigh 1736 Vol. 1 Book I Ch. VIII & Map)",
+      "role": "Biblical Shemite Pioneers of India & the East Indies",
+      "sources": [
+        "Sir Walter Raleigh History of the World (1736 Vol. 1 Book I Ch. VIII & Engraved Noahic Map)"
+      ],
+      "notes": "Raleigh argues at length in Book I Ch. VIII (and marks on his engraved dispersion map) that Joktan's descendants Havilah and Ophir planted the regions stretching across Persia and India / the East Indies.",
+      "major": true
+    },
+    {
+      "id": "ral_arabia_felix_cush",
+      "name": "Raleigh's Cushite Arabia the Happy: Seba, Sabtah & Raamah (Sabe Regia & Aden)",
+      "altNames": [
+        "Sabe Regia",
+        "Aden / Rhegma"
+      ],
+      "tradition": "arabian",
+      "tier": 8,
+      "era": "Post-Flood Arabia (Raleigh 1736 Vol. 1 Book I Ch. VIII & Map)",
+      "role": "Cushite Settlements of Arabia Felix",
+      "sources": [
+        "Sir Walter Raleigh History of the World (1736 Vol. 1 Book I Ch. VIII & Map)"
+      ],
+      "notes": "Raleigh maps Cush's sons Seba, Sabtah, and Raamah (Rhegma) directly along the coasts and cities of Arabia the Happy (Arabia Felix), including Sabe Regia and Aden.",
+      "major": false
+    },
+    {
+      "id": "ral_cato_scythia_saga",
+      "name": "Cato's Scythia Saga (Raleigh p. 69): Post-Flood Scythians → Galli (Gauls) & Italian Umbri",
+      "altNames": [
+        "Cato Origines",
+        "Scythia Saga",
+        "Umbri & Galli"
+      ],
+      "tradition": "europe_norse",
+      "tier": 7,
+      "era": "Post-Flood Westward Migration (Raleigh 1736 Vol. 1 p. 69)",
+      "role": "Classical Witness to mankind's Post-Flood Restoration via Scythia & Italy",
+      "sources": [
+        "Sir Walter Raleigh History of the World (1736 Vol. 1 Book I Ch. VII p. 69, citing Cato)"
+      ],
+      "notes": "Raleigh quotes Cato (Fragments) that after mankind was restored following the Deluge, populations spread from Scythia Saga into the Galli (Gauls) and ancient Umbri of Italy.",
+      "major": false
+    },
+    {
+      "id": "gau_poetical_noah_ages",
+      "name": "Gautruche's Poetical History Cognates: Golden Age (Saturn/Janus = Noah), Silver Age (Jupiter = Ham), Brazen Age (Nimrod), Vulcan (= Tubal-Cain) & Apollo (= Jubal)",
+      "altNames": [
+        "Golden Age = Noah",
+        "Jupiter = Ham",
+        "Vulcan = Tubal-Cain",
+        "Apollo = Jubal"
+      ],
+      "tradition": "greek",
+      "tier": 5,
+      "era": "Classical Mythic-Biblical Cognates (Gautruche pp. 8-15)",
+      "role": "Systematic Identification of Greco-Roman Mythic Figures with Genesis Patriarchs",
+      "sources": [
+        "Pierre Gautruche The Poetical History (pp. 8-15)"
+      ],
+      "notes": "Gautruche translates Greco-Roman mythology back into Biblical history: the Golden Age under Saturn/Janus corresponds to Noah (threefold division of the world), the Silver Age to Jupiter (Ham/Cham), the Brazen Age to Nimrod, Vulcan to metal-worker Tubal-Cain, and Apollo to musician Jubal.",
+      "major": true
+    },
+    {
+      "id": "par_cecrops_deucalion_flood",
+      "name": "The Parian Chronicle (264 BCE Marble) & Lucian: Epoch 1 Cecrops (1582 BCE) & Epoch 2 Deucalion's Flood (1529 BCE)",
+      "altNames": [
+        "Arundel Marbles",
+        "Epoch 1 Cecrops",
+        "Lucian Syrian Flood"
+      ],
+      "tradition": "greek",
+      "tier": 5,
+      "era": "264 BCE Greek Inscription (The Parian Chronicle 1788 pp. 1-5; Lucian De Dea Syria)",
+      "role": "Epigraphic Greek Chronicle & Syrian Flood Witness",
+      "sources": [
+        "The Parian Chronicle or Chronicle of the Arundelian Marbles (1788 pp. 1-5)",
+        "Lucian De Dea Syria"
+      ],
+      "notes": "Inscribed in marble on Paros in 264 BCE, the Parian Chronicle anchors Greek chronology at Epoch 1 (Cecrops, first king of Athens, 1582 BCE) and Epoch 2 (Deucalion escaping the Great Flood to Athens from Parnassus, 1529 BCE), paired with Lucian's De Dea Syria preserving the Near Eastern Deluge tradition under Deucalion's name.",
+      "major": true
+    },
+    {
+      "id": "xen_artaxerxes2_cyrus_younger",
+      "name": "Classical Persian-Greek Bridge (Xenophon, Curtius Rufus & Plutarch): Artaxerxes II Mnemon, Cyrus the Younger (401 BCE) & Darius III",
+      "altNames": [
+        "Artaxerxes II Mnemon",
+        "Cyrus the Younger",
+        "Darius III"
+      ],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "404–330 BCE (Xenophon Anabasis; Curtius Rufus; Plutarch)",
+      "role": "Late Achaemenid Emperors Leading to Alexander the Great",
+      "sources": [
+        "Xenophon Anabasis",
+        "Quintus Curtius Rufus History of Alexander",
+        "Plutarch Lives (Artaxerxes & Alexander)"
+      ],
+      "notes": "Documented across Xenophon's Anabasis (Cyrus the Younger vs. his brother Artaxerxes II at Cunaxa, 401 BCE), Plutarch, and Curtius Rufus down to Darius III and Alexander the Great.",
+      "major": false
+    },
+    {
+      "id": "rom_echard_imperial_bridge",
+      "name": "Classical Roman Imperial Spine (Livy, Tacitus, Echard 5 Vols., Ammianus & Mexía): Vespasian & Titus (70 CE) → Trajan → Marcus Aurelius → Diocletian → Romulus Augustulus (476 CE)",
+      "altNames": [
+        "Vespasian & Titus",
+        "Trajan & Marcus Aurelius",
+        "Diocletian",
+        "Romulus Augustulus"
+      ],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "69–476 CE (Echard Vols. 2-4; Tacitus; Ammianus Marcellinus; Mexía)",
+      "role": "Flavians, Five Good Emperors, Tetrarchy & Western Roman Finale",
+      "sources": [
+        "Laurence Echard Roman History Vols. 1-5",
+        "Livy Vols. 1-6",
+        "Tacitus Vols. 1-4",
+        "Ammianus Marcellinus",
+        "Pedro Mexía Imperial History"
+      ],
+      "notes": "Synthesizes the Roman imperial succession across Echard's 5-volume Roman History, Tacitus, Ammianus Marcellinus, Florus, Aurelius Victor, and Mexía from Vespasian & Titus through Trajan, Marcus Aurelius, Diocletian, and Romulus Augustulus (476 CE) to Charlemagne (Echard Vol. 5).",
+      "major": true
+    },
+    {
+      "id": "vin_periplus_ophir_zoscales",
+      "name": "Periplus of the Erythraean Sea (Vincent 1800): King Zoscales of Aksum, Saba/Sheba, Ophir & Red Sea–India Corridor",
+      "altNames": [
+        "Zoscales of Aksum",
+        "Adulis & Saba",
+        "Monsoon Route to India"
+      ],
+      "tradition": "african",
+      "tier": 19,
+      "era": "1st c. CE (William Vincent Periplus of the Erythrean Sea, 1800)",
+      "role": "Classical Greco-Egyptian Maritime Bridge Linking Aksum, Sheba, Arabia & India",
+      "sources": [
+        "William Vincent The Periplus of the Erythrean Sea (1800)"
+      ],
+      "notes": "Vincent's scholarly commentary identifies King Zoscales of Aksum (Adulis, 1st c. CE), maps classical Saba/Mariaba to Biblical Sheba, examines the Ophir trade corridor, and documents direct monsoon voyages linking Ethiopia and Arabia to western India.",
+      "major": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "bib_noah",
+      "to": "ral_methodius_suphene",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Vol. 1 p. 69 (Methodius) & Petavius 1659: Post-Flood dispersion under three commanders"
+    },
+    {
+      "from": "ral_methodius_suphene",
+      "to": "bib_nimrod",
+      "type": "syncretic",
+      "label": "Methodius/Raleigh: Nimrod led the Hamite division"
+    },
+    {
+      "from": "ral_methodius_suphene",
+      "to": "bib_joktan",
+      "type": "syncretic",
+      "label": "Methodius/Raleigh: Joktan led the Shemite division"
+    },
+    {
+      "from": "bib_japheth",
+      "to": "ral_methodius_suphene",
+      "type": "syncretic",
+      "label": "Methodius/Raleigh p. 69: Suphene appointed commander over Japheth's posterity"
+    },
+    {
+      "from": "bib_joktan",
+      "to": "ral_east_indies_shem",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Book I Ch. VIII: Joktan's posterity planted regions extending into the East Indies"
+    },
+    {
+      "from": "bib_havilah_joktan",
+      "to": "ral_east_indies_shem",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Book I Ch. VIII & Map: Havilah b. Joktan in East-Indian dispersion"
+    },
+    {
+      "from": "bib_ophir",
+      "to": "ral_east_indies_shem",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Book I Ch. VIII & Map: Ophir planted eastern Indian territories"
+    },
+    {
+      "from": "ral_east_indies_shem",
+      "to": "ind_hind_sind_noah",
+      "type": "cognate",
+      "label": "Raleigh's Shemite East Indies converges with Tabari's Qahtan/Joktan -> Hind & Sind tradition"
+    },
+    {
+      "from": "bib_cush",
+      "to": "ral_arabia_felix_cush",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Book I Ch. VIII & Map: Cushites settled Arabia Felix"
+    },
+    {
+      "from": "bib_seba",
+      "to": "ral_arabia_felix_cush",
+      "type": "syncretic",
+      "label": "Raleigh Map: Seba mapped to Sabe Regia"
+    },
+    {
+      "from": "bib_sabtah",
+      "to": "ral_arabia_felix_cush",
+      "type": "syncretic",
+      "label": "Raleigh Book I Ch. VIII: Sabtah along the Sabota / southern Arabian littoral"
+    },
+    {
+      "from": "bib_raamah",
+      "to": "ral_arabia_felix_cush",
+      "type": "syncretic",
+      "label": "Raleigh Map: Raamah (Rhegma) & Aden on the Persian Gulf / Arabian coast"
+    },
+    {
+      "from": "bib_noah",
+      "to": "ral_cato_scythia_saga",
+      "type": "syncretic",
+      "label": "Raleigh 1736 p. 69 (Cato): Post-Flood restoration beginning in Scythia Saga"
+    },
+    {
+      "from": "ral_cato_scythia_saga",
+      "to": "eur_gomer_samothes_gaul",
+      "type": "syncretic",
+      "label": "Cato via Raleigh p. 69: Old Galli sprung from the post-Flood Scythians"
+    },
+    {
+      "from": "ral_cato_scythia_saga",
+      "to": "eur_noah_janus_italy",
+      "type": "syncretic",
+      "label": "Cato via Raleigh p. 69: Janus & Italian Umbri traced from the post-Flood Scythians"
+    },
+    {
+      "from": "bib_elam",
+      "to": "ir_cyrus",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Book I Ch. VIII & Map: Elam b. Shem planted Elymais & Persia"
+    },
+    {
+      "from": "bib_meshech",
+      "to": "arm_hayk_pat",
+      "type": "syncretic",
+      "label": "Raleigh 1736 Book I Ch. VIII & Map: Meshech b. Japheth planted Armenia / Ciracene regions"
+    },
+    {
+      "from": "bib_noah",
+      "to": "gau_poetical_noah_ages",
+      "type": "syncretic",
+      "label": "Gautruche Poetical History pp. 8-15: Saturn/Janus (Golden Age) identified with Noah"
+    },
+    {
+      "from": "bib_ham",
+      "to": "gau_poetical_noah_ages",
+      "type": "syncretic",
+      "label": "Gautruche Poetical History pp. 8-15: Jupiter (Silver Age) identified with Ham/Cham"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "gau_poetical_noah_ages",
+      "type": "syncretic",
+      "label": "Gautruche Poetical History: Brazen Age tyranny traced to Nimrod"
+    },
+    {
+      "from": "bib_tubalcain",
+      "to": "gau_poetical_noah_ages",
+      "type": "syncretic",
+      "label": "Gautruche Poetical History: Greco-Roman smith Vulcan identified with Tubal-Cain"
+    },
+    {
+      "from": "bib_jubal",
+      "to": "gau_poetical_noah_ages",
+      "type": "syncretic",
+      "label": "Gautruche Poetical History: Inventor of music Apollo compared with Jubal"
+    },
+    {
+      "from": "gau_poetical_noah_ages",
+      "to": "eur_noah_janus_italy",
+      "type": "cognate",
+      "label": "Same Janus = Noah tradition in Gautruche & Anderson"
+    },
+    {
+      "from": "gau_poetical_noah_ages",
+      "to": "sanch_chrysor_barhebraeus",
+      "type": "cognate",
+      "label": "Parallel Tubal-Cain = Vulcan/Chrysor identification across Gautruche & Sanchuniathon"
+    },
+    {
+      "from": "bib_noah",
+      "to": "par_cecrops_deucalion_flood",
+      "type": "syncretic",
+      "label": "Lucian De Dea Syria: Syrian Great Flood temple tradition of Deucalion / Noah"
+    },
+    {
+      "from": "grk_deucalion",
+      "to": "par_cecrops_deucalion_flood",
+      "type": "cognate",
+      "label": "Parian Chronicle (264 BCE) Epoch 2 dates Deucalion's escape from the Flood to 1529 BCE"
+    },
+    {
+      "from": "par_cecrops_deucalion_flood",
+      "to": "grk_athens_cecrops_theseus",
+      "type": "cognate",
+      "label": "Parian Chronicle Epoch 1 anchors Cecrops as 1st King of Athens (1582 BCE)"
+    },
+    {
+      "from": "par_cecrops_deucalion_flood",
+      "to": "grk_hellen",
+      "type": "cognate",
+      "label": "Parian Chronicle records Deucalion's son Hellen giving his name to the Hellenes"
+    },
+    {
+      "from": "ir_artaxerxes1",
+      "to": "xen_artaxerxes2_cyrus_younger",
+      "type": "direct",
+      "label": "Achaemenid succession: Artaxerxes I -> Darius II -> Artaxerxes II Mnemon & Cyrus the Younger -> Darius III"
+    },
+    {
+      "from": "xen_artaxerxes2_cyrus_younger",
+      "to": "grk_alexander",
+      "type": "cognate",
+      "label": "Curtius Rufus & Plutarch: Alexander the Great defeats Darius III of Persia"
+    },
+    {
+      "from": "rom_julio_claudians",
+      "to": "rom_echard_imperial_bridge",
+      "type": "expansion",
+      "label": "Tacitus & Echard Vols. 2-4: Julio-Claudians -> Flavians -> Five Good Emperors -> Diocletian -> Romulus Augustulus"
+    },
+    {
+      "from": "rom_echard_imperial_bridge",
+      "to": "rom_constantine_byzantium",
+      "type": "expansion",
+      "label": "Echard Vols. 4-5 & Ammianus: Diocletian -> Constantine the Great -> Byzantine Emperors"
+    },
+    {
+      "from": "rom_echard_imperial_bridge",
+      "to": "eur_merovingian_carolingian",
+      "type": "cognate",
+      "label": "Echard Vol. 5: Western imperial continuity crowned in Charlemagne (800 CE)"
+    },
+    {
+      "from": "eth_ezana",
+      "to": "vin_periplus_ophir_zoscales",
+      "type": "expansion",
+      "label": "Vincent Periplus (1800): Pre-Ezana Aksumite monarch King Zoscales of Adulis & Aksum (1st c. CE)"
+    },
+    {
+      "from": "eth_makeda",
+      "to": "vin_periplus_ophir_zoscales",
+      "type": "cognate",
+      "label": "Vincent Periplus discusses Queen of Sheba (Saba) & Ethiopian Aksumite antiquity"
+    },
+    {
+      "from": "bib_ophir",
+      "to": "vin_periplus_ophir_zoscales",
+      "type": "syncretic",
+      "label": "Vincent Periplus Dissertation on Ophir along the Erythraean Sea / Indian Ocean trade"
+    },
+    {
+      "from": "bib_sheba_joktan",
+      "to": "vin_periplus_ophir_zoscales",
+      "type": "cognate",
+      "label": "Vincent Periplus identifies classical Saba/Mariaba with Arabian Sheba"
+    },
+    {
+      "from": "vin_periplus_ophir_zoscales",
+      "to": "ral_east_indies_shem",
+      "type": "cognate",
+      "label": "Erythraean Sea monsoon route linking Red Sea, Sheba & Ophir directly to India"
+    }
+  ]
+}

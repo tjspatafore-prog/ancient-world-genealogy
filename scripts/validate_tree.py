@@ -115,6 +115,11 @@ def main():
         ("bib_noah", "tib_nyatri_songtsen", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Vaivasvata Manu -> Mahasammata/Okkaka -> Nyatri Tsenpo (Tibet)"),
         ("bib_moses", "eg_osarseph_bithiah", {"direct", "expansion", "cognate", "syncretic"}, "Moses -> Egyptian Osarseph / Musaeus / King of Cush"),
         ("jud_solomon", "eth_menelik", {"direct", "expansion"}, "King Solomon + Sheba -> Menelik I of Ethiopia"),
+        ("bib_noah", "mug_akbar_aurangzeb", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Turk -> Oghuz -> Genghis Khan -> Timur -> Babur -> Mughal Emperors"),
+        ("bib_noah", "ott_mehmed2_suleiman", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Turk/Oghuz -> Seljuks -> Osman I -> Suleiman the Magnificent"),
+        ("bib_noah", "eng_stuart_great_britain", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Wessex/Scottish/Tudor Lines -> King James I of Great Britain"),
+        ("bib_noah", "por_braganza_restoration", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Tubal/Iberia -> Afonso I Henriques -> Aviz & Braganza of Portugal"),
+        ("bib_noah", "rus_romanov_peter_great", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Russ/Slavs -> Rurik -> Yaroslav -> Romanovs & Peter the Great"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

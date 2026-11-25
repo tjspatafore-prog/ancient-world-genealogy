@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ancient World Genealogy Atlas — Universal Biblical &amp; Noahic Lineages</title>
-  <meta name="description" content="Complete global ancient genealogy atlas connecting every nation and dynasty back to Adam &amp; Eve and Noah (Shem, Ham, Japheth &amp; Yonton) across 77 primary sources: Bible, Enoch, Jasher, Jubilees, Cave of Treasures, Josephus, Bar Hebraeus, Al-Tabari, Al-Mas'udi, Russian Primary Chronicle, Irish Pedigrees, Khorenatsi, Kartlis Tskhovreba, Jordanes, Skene, Anderson, Ibn Khaldun, MacMichael, Pargiter, Kalhana, Mahavamsa, Glass Palace Chronicle &amp; Living Lines to 2026." />
+  <meta name="description" content="Complete global ancient genealogy atlas connecting every nation and dynasty back to Adam &amp; Eve and Noah (Shem, Ham, Japheth &amp; Yonton) across 140 primary sources: Bible, Enoch, Jasher, Jubilees, Cave of Treasures, Josephus, Abulghazi (Shajara-i Turk), Knolles (Turkish History), Sir Walter Raleigh (History of the World), Modern Universal History, Du Halde (China &amp; Tartary), Howell (England), Mascou (Ancient Germans), Portugal Chronicles, Parian Chronicle, Gautruche, Livy, Tacitus, Echard, Vincent's Periplus &amp; Living Lines to 2026." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :root {
@@ -74,13 +74,13 @@
           <h1 class="text-xs sm:text-sm font-semibold leading-tight truncate">Ancient World Genealogy Atlas</h1>
           <span id="versionBadge" class="text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono shrink-0">Loading…</span>
         </div>
-        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">77 Primary Sources • Every Lineage Rooted in Adam → Noah (Shem, Ham, Japheth &amp; Yonton) • Living Lines to 2026 • World Map • Deep Timeline</p>
+        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">140 Primary Sources • Every Lineage Rooted in Adam → Noah (Shem, Ham, Japheth &amp; Yonton) • Abulghazi, Raleigh, Universal History • Living Lines to 2026</p>
       </div>
     </div>
 
     <!-- Search & View Switchers -->
     <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 w-full lg:w-auto">
-      <input id="searchInput" type="text" placeholder="Search 1,195+ Biblical/Noahic people..."
+      <input id="searchInput" type="text" placeholder="Search 1,230+ Biblical/Noahic people..."
         class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] flex-1 sm:flex-none sm:w-52 lg:w-60 min-w-[140px] focus:outline-none focus:ring-1 focus:ring-[var(--primary)]" />
 
       <!-- 4-Way Primary View Switcher -->
@@ -119,6 +119,9 @@
     <button onclick="focusSubtree('bib_moses')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Moses, Egypt &amp; Cush</button>
     <button onclick="focusSubtree('nt_jesus')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Adam → David → Jesus</button>
     <button onclick="focusSubtree('rus_japheth_slavs')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Russia / Slavs</button>
+    <button onclick="focusSubtree('abg_japheth_8sons')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Turks, Mongols &amp; Mughals</button>
+    <button onclick="focusSubtree('ott_osman_ertughrul')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Seljuks &amp; Ottomans</button>
+    <button onclick="focusSubtree('eng_stuart_great_britain')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Britain, France &amp; Portugal</button>
     <button onclick="focusSubtree('irl_baath_fenius')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Ireland &amp; Scotland</button>
     <button onclick="applyPreset('egypt')" id="preset-egypt" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Egypt</button>
     <button onclick="applyPreset('africa')" id="preset-africa" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Africa, Berbers &amp; Sudan</button>
@@ -415,6 +418,14 @@ const MAP_PINS = [
   { id:"pin_bactria", label:"Bactria & Gandhara", lat:36, lon:68, nodeId:"cls_bactria_menander", trad:"greek", desc:"Greco-Bactrian & Indo-Greek Kings (Diodotus, Demetrius, Menander/King Milinda) & Vedic Druhyu Gandhara bridge" },
   { id:"pin_karakorum", label:"Karakorum (Mongol Borjigin)", lat:47, lon:103, nodeId:"mng_genghis_khan_borte", trad:"steppe", desc:"Secret History of the Mongols: Alan Qo'a -> Genghis Khan -> Batu, Ögödei & Kublai Khan (linked via Xia/Chunwei)" },
   { id:"pin_frankia", label:"Aachen & Wessex (Europe)", lat:51, lon:6, nodeId:"eur_merovingian_carolingian", trad:"europe_norse", desc:"Merovingians, Charlemagne, Alfred the Great -> Woden -> Sceaf/Noah & Yaroslav of Kiev's daughter Anne" },
+  { id:"pin_istanbul", label:"Istanbul / Anatolia (Seljuks & Ottomans)", lat:41.0, lon:29.0, nodeId:"ott_mehmed2_suleiman", trad:"steppe", desc:"Knolles & Abulghazi: Oghuz/Scythians -> Seljuks (Tughril Beg, Alp Arslan) -> Osman I -> Mehmed II (1453) -> Suleiman the Magnificent" },
+  { id:"pin_samarkand", label:"Samarkand & Khwarazm (Uzbeks & Timurids)", lat:39.7, lon:66.9, nodeId:"abg_shaybani_uzbeks", trad:"steppe", desc:"Abulghazi Shajara-i Turk: Jochi/Shaybanid Uzbeks of Bukhara & Khwarazm + Chagatai -> Tamerlane -> Ulugh Beg" },
+  { id:"pin_delhi", label:"Delhi & Agra (Mughal Empire)", lat:28.6, lon:77.2, nodeId:"mug_akbar_aurangzeb", trad:"vedic", desc:"Abulghazi & Mod. Univ. Hist. Vol. 3: Genghisid-Timurid Emperor Babur -> Humayun -> Akbar -> Shah Jahan -> Aurangzeb" },
+  { id:"pin_lisbon", label:"Lisbon & Coimbra (Portugal)", lat:38.7, lon:-9.1, nodeId:"por_afonso_henriques", trad:"europe_norse", desc:"Tubal/Iberia + Capetian Burgundy -> Afonso I Henriques (1139) -> House of Aviz (Manuel I / Vasco da Gama) -> Braganza (John IV)" },
+  { id:"pin_london", label:"London (England & Great Britain)", lat:51.5, lon:-0.1, nodeId:"eng_stuart_great_britain", trad:"europe_norse", desc:"Howell 1685 & Raleigh Preface: Roman/British/Wessex -> Plantagenets -> Welsh-English Tudors -> Stuarts uniting Scotland & England" },
+  { id:"pin_paris", label:"Paris & Burgundy (France)", lat:48.9, lon:2.3, nodeId:"fra_capet_stlouis", trad:"europe_norse", desc:"Mod. Univ. Hist. Vols. 9 & 14: Hugh Capet -> Henry I (+ Anne of Kiev) -> St. Louis IX -> Valois & Bourbons + Burgundy & Savoy" },
+  { id:"pin_moscow", label:"Moscow (Muscovy & Romanovs)", lat:55.8, lon:37.6, nodeId:"rus_romanov_peter_great", trad:"europe_norse", desc:"Mod. Univ. Hist. Vol. 13: Rurik -> Yaroslav -> Alexander Nevsky -> Ivan III & IV -> Michael Romanov -> Peter the Great" },
+  { id:"pin_beijing", label:"Beijing (Ming–Qing / Tartar Unification)", lat:39.9, lon:116.4, nodeId:"chn_ming_qing_manchu", trad:"chinese", desc:"Du Halde (1738) & Compleat Universal History: Nurhaci -> Hong Taiji -> Shunzhi -> Kangxi unifying China, Tartary, Korea & Tibet" },
   { id:"pin_amman", label:"Amman (Living Hashemites 2026)", lat:31.9, lon:36.2, nodeId:"mod_abdullah2_hussein_iman", trad:"arabian", desc:"Abraham -> Ishmael -> Muhammad -> Qatadah (1201) -> Living King Abdullah II, Crown Prince Hussein & Princess Iman (b. 2024)" },
   { id:"pin_morocco", label:"Rabat (Living Alaouites 2026)", lat:34, lon:-6.8, nodeId:"mod_alaouite_morocco", trad:"arabian", desc:"Hasan al-Muthanna -> Hassan al-Dakhil -> Living King Mohammed VI & Crown Prince Moulay Hassan of Morocco" }
 ];
@@ -468,7 +479,19 @@ const MAP_ARCS = [
   { from:"pin_iran", to:"pin_khwarazm", type:"cognate", label:"Al-Biruni: Afrighid Khwarazmshahs & Parthians linked to Kayanian Siyawush & Kay Khosrow" },
   { from:"pin_greece", to:"pin_bactria", type:"cognate", label:"Greco-Bactrian & Indo-Greek Kingdom (Diodotus -> Menander / King Milinda)" },
   { from:"pin_karakorum", to:"pin_china", type:"cognate", label:"Secret History of the Mongols: Genghis Khan -> Tolui & Sorqaqtani Beki -> Kublai Khan (Yuan Dynasty)" },
-  { from:"pin_rome", to:"pin_frankia", type:"cognate", label:"Charlemagne crowned Western Roman Emperor (800 CE) & Wessex/Norman Royal Bridges" }
+  { from:"pin_rome", to:"pin_frankia", type:"cognate", label:"Charlemagne crowned Western Roman Emperor (800 CE) & Wessex/Norman Royal Bridges" },
+  { from:"pin_armenia", to:"pin_samarkand", type:"syncretic", label:"Abulghazi Shajara-i Turk p. 62: 8 Sons of Japheth -> Turk (Japhis-Oglany) -> Oghuz -> Genghis Khan -> Shaybanid Khans" },
+  { from:"pin_karakorum", to:"pin_samarkand", type:"cognate", label:"Genghis Khan -> Jochi (Uzbeks/Kazakhs) & Chagatai (Timurids/Samarkand)" },
+  { from:"pin_samarkand", to:"pin_delhi", type:"cognate", label:"Abulghazi p. 296 & Mod. Univ. Hist. Vol. 3: Timurid-Genghisid Babur founds Mughal Empire in Delhi & Agra" },
+  { from:"pin_steppe_east", to:"pin_istanbul", type:"cognate", label:"Knolles Vols. 1-3: Oghuz -> Seljuks (Tughril Beg & Alp Arslan) -> Osman I -> Mehmed II (1453) -> Suleiman" },
+  { from:"pin_karakorum", to:"pin_beijing", type:"cognate", label:"Du Halde (1738) & Compleat Universal History: Tartar & Ming -> Qing Manchu Emperors uniting China, Tartary, Korea & Tibet" },
+  { from:"pin_russia", to:"pin_moscow", type:"cognate", label:"Mod. Univ. Hist. Vol. 13: Kievan Rurikids -> St. Alexander Nevsky -> Ivan III & IV -> House of Romanov -> Peter the Great" },
+  { from:"pin_russia", to:"pin_paris", type:"cognate", label:"Anne of Kiev (dau. of Yaroslav the Wise) marries King Henry I of France -> Capetians, Valois & Bourbons" },
+  { from:"pin_frankia", to:"pin_paris", type:"cognate", label:"Mod. Univ. Hist. Vols. 9 & 14: West Frankish & Burgundian heritage into Capetian France & Savoy" },
+  { from:"pin_spain", to:"pin_lisbon", type:"cognate", label:"Tubal/Iberia & Castile -> Afonso I Henriques (1139) -> House of Aviz & Braganza of Portugal" },
+  { from:"pin_frankia", to:"pin_london", type:"cognate", label:"Howell 1685: Wessex & Norman Conquest -> Plantagenets -> Tudors & Stuarts" },
+  { from:"pin_scotland", to:"pin_london", type:"cognate", label:"Howell 1685 & Raleigh 1736 Preface: King James VI of Scotland unites Scotland & England as James I (1603)" },
+  { from:"pin_ethiopia", to:"pin_india", type:"cognate", label:"Vincent Periplus (1800) & Raleigh Map: Red Sea Aksum (King Zoscales) -> Saba/Sheba & Ophir -> India" }
 ];
 
 // Runtime State
@@ -578,6 +601,8 @@ async function boot() {
     document.getElementById("versionBadge").textContent = `${NODES.length} Nodes • ${EDGES.length} Links`;
     const allBtn = document.getElementById("mode-all");
     if (allBtn) allBtn.textContent = `Expand All (${NODES.length})`;
+    const searchEl = document.getElementById("searchInput");
+    if (searchEl) searchEl.placeholder = `Search ${NODES.length.toLocaleString()}+ Biblical/Noahic people...`;
     initUI();
   } catch (err) {
     document.getElementById("inspector").innerHTML = `<div class="text-xs text-red-400">Failed to load data/world_genealogy.json: ${err.message}</div>`;
