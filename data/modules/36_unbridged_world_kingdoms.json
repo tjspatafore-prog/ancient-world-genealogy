@@ -1,0 +1,4275 @@
+{
+  "module": "36_unbridged_world_kingdoms",
+  "title": "World Kingdoms, Dynasties & Classical Thinkers Awaiting Primary-Source Biblical Bridge (Pending Bridge)",
+  "nodes": [
+    {
+      "id": "unb_azt_acamapichtli",
+      "name": "Acamapichtli (1st Tlatoani of Tenochtitlan, 1376–1395)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 13,
+      "era": "1376–1395 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Codex Mendoza",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Codex Mendoza, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_huitzilihuitl",
+      "name": "Huitzilihuitl (2nd Tlatoani)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 13,
+      "era": "1396–1417 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Codex Mendoza",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Codex Mendoza, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_chimalpopoca",
+      "name": "Chimalpopoca (3rd Tlatoani)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 14,
+      "era": "1417–1427 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Codex Mendoza",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Codex Mendoza, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_itzcoatl",
+      "name": "Itzcoatl (Founder of Triple Alliance, 1427–1440)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 14,
+      "era": "1427–1440 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Codex Mendoza",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Codex Mendoza, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_moctezuma1",
+      "name": "Moctezuma I Ilhuicamina (1440–1469)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 15,
+      "era": "1440–1469 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Codex Mendoza",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Codex Mendoza, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_axayacatl",
+      "name": "Axayacatl (6th Tlatoani, Sun Stone)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 15,
+      "era": "1469–1481 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Codex Mendoza",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Codex Mendoza, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_tizoc",
+      "name": "Tizoc (7th Tlatoani)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 16,
+      "era": "1481–1486 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Codex Mendoza",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Codex Mendoza, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_ahuitzotl",
+      "name": "Ahuitzotl (8th Tlatoani)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 16,
+      "era": "1486–1502 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Codex Mendoza",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Codex Mendoza, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_moctezuma2",
+      "name": "Moctezuma II Xocoyotzin (1502–1520)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 17,
+      "era": "1502–1520 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Codex Mendoza",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Codex Mendoza, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_cuitlahuac",
+      "name": "Cuitlahuac (10th Tlatoani, 1520)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 18,
+      "era": "1520 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Codex Mendoza",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Codex Mendoza, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_cuauhtemoc",
+      "name": "Cuauhtemoc (Final Mexica Emperor, d. 1525)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 18,
+      "era": "1520–1525 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Codex Mendoza",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Codex Mendoza, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_nezahualcoyotl",
+      "name": "Nezahualcoyotl (Poet-King of Texcoco, Triple Alliance)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 15,
+      "era": "1402–1472 CE",
+      "role": "Tlatoani of Texcoco",
+      "sources": [
+        "Modern Universal History Vol. 14",
+        "Codex Mendoza"
+      ],
+      "notes": "Codex Xolotl & Triple Alliance co-founder.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_tlacaelel",
+      "name": "Tlacaelel (Cihuacoatl Architect of Mexica Empire)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 15,
+      "era": "1397–1487 CE",
+      "role": "Chief Vizier (Cihuacoatl)",
+      "sources": [
+        "Modern Universal History Vol. 14",
+        "Codex Mendoza"
+      ],
+      "notes": "Advised Itzcoatl, Moctezuma I, Axayacatl & Ahuitzotl.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_azt_xicotencatl",
+      "name": "Xicotencatl the Younger (General of Tlaxcala)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 17,
+      "era": "1484–1521 CE",
+      "role": "Tlaxcalan Commander",
+      "sources": [
+        "Modern Universal History Vol. 14",
+        "Codex Mendoza"
+      ],
+      "notes": "Opposed Cortes in Modern Universal History Vol. 14 p. 200.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_car_guacanagari",
+      "name": "Cacique Guacanagari (Marién, Hispaniola, 1492)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 17,
+      "era": "1492–1494 CE",
+      "role": "Taíno Cacique",
+      "sources": [
+        "Modern Universal History Vol. 14",
+        "Codex Mendoza"
+      ],
+      "notes": "Greeted Columbus on Hispaniola (Mod. Univ. Hist. Vol. 14 p. 145).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_car_caonabo",
+      "name": "King Caonabo of Maguana (Hispaniola)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 17,
+      "era": "d. 1496 CE",
+      "role": "Taíno Sovereign",
+      "sources": [
+        "Modern Universal History Vol. 14",
+        "Codex Mendoza"
+      ],
+      "notes": "Sovereign who resisted early Spanish forts (Mod. Univ. Hist. Vol. 14 p. 145).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_sinchi_roca",
+      "name": "Sinchi Roca (2nd Sapa Inca)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 11,
+      "era": "c. 1230 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_lloque_yupanqui",
+      "name": "Lloque Yupanqui (3rd Sapa Inca)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 11,
+      "era": "c. 1260 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_mayta_capac",
+      "name": "Mayta Capac (4th Sapa Inca)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 12,
+      "era": "c. 1290 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_capac_yupanqui",
+      "name": "Capac Yupanqui (5th Sapa Inca)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 12,
+      "era": "c. 1320 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_inca_roca",
+      "name": "Inca Roca (6th Sapa Inca, Hanan Cusco)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 13,
+      "era": "c. 1350 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_yahuar_huacac",
+      "name": "Yahuar Huacac (7th Sapa Inca)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 13,
+      "era": "c. 1380 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_viracocha_inca",
+      "name": "Viracocha Inca (8th Sapa Inca)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 14,
+      "era": "c. 1410–1438 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_pachacuti",
+      "name": "Pachacuti Inca Yupanqui (9th Sapa Inca, Machu Picchu)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 15,
+      "era": "1438–1471 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_tupac_yupanqui",
+      "name": "Tupac Inca Yupanqui (10th Sapa Inca)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 16,
+      "era": "1471–1493 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_huayna_capac",
+      "name": "Huayna Capac (11th Sapa Inca)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 17,
+      "era": "1493–1527 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_huascar",
+      "name": "Huascar Inca (12th Sapa Inca)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 18,
+      "era": "1527–1532 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_atahualpa",
+      "name": "Atahualpa (13th Sapa Inca)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 18,
+      "era": "1532–1533 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_manco_inca",
+      "name": "Manco Inca Yupanqui (Vilcabamba Dynasty)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 19,
+      "era": "1533–1544 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_sayri_tupac",
+      "name": "Sayri Tupac (Vilcabamba)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 19,
+      "era": "1544–1561 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_titu_cusi",
+      "name": "Titu Cusi Yupanqui (Vilcabamba)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 20,
+      "era": "1563–1571 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_tupac_amaru",
+      "name": "Tupac Amaru (Last Sapa Inca of Vilcabamba, 1572)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 20,
+      "era": "1571–1572 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_yax_ehb_xook",
+      "name": "Yax Ehb Xook (Founder of Tikal Dynasty)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 8,
+      "era": "c. 90 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Tikal Hieroglyphic Inscriptions"
+      ],
+      "notes": "Chronicle succession in Tikal Hieroglyphic Inscriptions.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_chak_tok_ichaak",
+      "name": "Chak Tok Ich'aak I (Great Jaguar Paw of Tikal)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 13,
+      "era": "360–378 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Tikal Hieroglyphic Inscriptions"
+      ],
+      "notes": "Chronicle succession in Tikal Hieroglyphic Inscriptions.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_jasaw_chan_kawiil",
+      "name": "Jasaw Chan K'awiil I (Restorer of Tikal, Temple I)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 16,
+      "era": "682–734 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Tikal Hieroglyphic Inscriptions"
+      ],
+      "notes": "Chronicle succession in Tikal Hieroglyphic Inscriptions.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_kukinich_yax_kuk_mo",
+      "name": "K'inich Yax K'uk' Mo' (Founder of Copán Dynasty, 426 CE)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 14,
+      "era": "426–437 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Copán, Calakmul & Naranjo Stelae"
+      ],
+      "notes": "Chronicle succession in Copán, Calakmul & Naranjo Stelae.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_18_rabbit",
+      "name": "Waxaklajuun Ub'aah K'awiil ('18 Rabbit' of Copán)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 16,
+      "era": "695–738 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Copán, Calakmul & Naranjo Stelae"
+      ],
+      "notes": "Chronicle succession in Copán, Calakmul & Naranjo Stelae.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_yuknoom_cheen",
+      "name": "Yuknoom Ch'een II ('the Great' of Calakmul)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 16,
+      "era": "636–686 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Copán, Calakmul & Naranjo Stelae"
+      ],
+      "notes": "Chronicle succession in Copán, Calakmul & Naranjo Stelae.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_lady_six_sky",
+      "name": "Lady Six Sky (Wak Chanil Ajaw of Naranjo)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 16,
+      "era": "682–741 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Copán, Calakmul & Naranjo Stelae"
+      ],
+      "notes": "Chronicle succession in Copán, Calakmul & Naranjo Stelae.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_kuk_bahlam1",
+      "name": "K'uk' Bahlam I (Founder of Palenque Dynasty, 431 CE)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 14,
+      "era": "431–435 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Palenque Temple of the Inscriptions"
+      ],
+      "notes": "Chronicle succession in Palenque Temple of the Inscriptions.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_lady_yohl_iknal",
+      "name": "Lady Yohl Ik'nal (Queen of Palenque)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 15,
+      "era": "583–604 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Palenque Temple of the Inscriptions"
+      ],
+      "notes": "Chronicle succession in Palenque Temple of the Inscriptions.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_pakal_great",
+      "name": "K'inich Janaab Pakal (Pakal the Great of Palenque)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 16,
+      "era": "615–683 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Palenque Temple of the Inscriptions"
+      ],
+      "notes": "Chronicle succession in Palenque Temple of the Inscriptions.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_kan_bahlam2",
+      "name": "K'inich Kan Bahlam II (Palenque Cross Group)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 16,
+      "era": "684–702 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Palenque Temple of the Inscriptions"
+      ],
+      "notes": "Chronicle succession in Palenque Temple of the Inscriptions.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_na_deganawida",
+      "name": "Deganawida (The Great Peacemaker — Haudenosaunee)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 18,
+      "era": "c. 12th–15th c. CE",
+      "role": "Co-Founder of Iroquois League",
+      "sources": [
+        "Indigenous Oral History",
+        "North American Chronicles"
+      ],
+      "notes": "Deganawida (The Great Peacemaker — Haudenosaunee).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_na_hiawatha",
+      "name": "Hiawatha (Ayenwatha — Onondaga/Mohawk)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 18,
+      "era": "c. 12th–15th c. CE",
+      "role": "Unifier of the Five Nations",
+      "sources": [
+        "Indigenous Oral History",
+        "North American Chronicles"
+      ],
+      "notes": "Hiawatha (Ayenwatha — Onondaga/Mohawk).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_na_jigonhsasee",
+      "name": "Jigonhsasee ('Mother of Nations' — Neutral/Seneca)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 18,
+      "era": "c. 12th–15th c. CE",
+      "role": "First Clan Mother of Haudenosaunee",
+      "sources": [
+        "Indigenous Oral History",
+        "North American Chronicles"
+      ],
+      "notes": "Jigonhsasee ('Mother of Nations' — Neutral/Seneca).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_na_powhatan",
+      "name": "Wahunsenacawh (Paramount Chief Powhatan, d. 1618)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 20,
+      "era": "c. 1545–1618 CE",
+      "role": "Tsenacommacah Paramount Chief",
+      "sources": [
+        "Indigenous Oral History",
+        "North American Chronicles"
+      ],
+      "notes": "Wahunsenacawh (Paramount Chief Powhatan, d. 1618).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_na_pocahontas",
+      "name": "Matoaka (Pocahontas, Daughter of Powhatan)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 20,
+      "era": "1596–1617 CE",
+      "role": "Powhatan Noblewoman",
+      "sources": [
+        "Indigenous Oral History",
+        "North American Chronicles"
+      ],
+      "notes": "Matoaka (Pocahontas, Daughter of Powhatan).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_na_metacomet",
+      "name": "Metacomet (King Philip of the Wampanoag, d. 1676)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 21,
+      "era": "1638–1676 CE",
+      "role": "Sachem of Pokanoket",
+      "sources": [
+        "Indigenous Oral History",
+        "North American Chronicles"
+      ],
+      "notes": "Metacomet (King Philip of the Wampanoag, d. 1676).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_na_tecumseh",
+      "name": "Tecumseh (Shawnee Confederacy Leader, 1768–1813)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 21,
+      "era": "1768–1813 CE",
+      "role": "Pan-Indigenous Leader",
+      "sources": [
+        "Indigenous Oral History",
+        "North American Chronicles"
+      ],
+      "notes": "Tecumseh (Shawnee Confederacy Leader, 1768–1813).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_na_sequoyah",
+      "name": "Sequoyah (Cherokee Syllabary Creator, c. 1770–1843)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 21,
+      "era": "c. 1770–1843 CE",
+      "role": "Cherokee Scholar",
+      "sources": [
+        "Indigenous Oral History",
+        "North American Chronicles"
+      ],
+      "notes": "Sequoyah (Cherokee Syllabary Creator, c. 1770–1843).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_na_sitting_bull",
+      "name": "Tȟatȟáŋka Íyotake (Sitting Bull, Hunkpapa Lakota)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 21,
+      "era": "1831–1890 CE",
+      "role": "Lakota Chief & Holy Man",
+      "sources": [
+        "Indigenous Oral History",
+        "North American Chronicles"
+      ],
+      "notes": "Tȟatȟáŋka Íyotake (Sitting Bull, Hunkpapa Lakota).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_na_crazy_horse",
+      "name": "Tȟašúŋke Witkó (Crazy Horse, Oglala Lakota)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 21,
+      "era": "c. 1840–1877 CE",
+      "role": "Oglala War Leader",
+      "sources": [
+        "Indigenous Oral History",
+        "North American Chronicles"
+      ],
+      "notes": "Tȟašúŋke Witkó (Crazy Horse, Oglala Lakota).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_ply_kamehameha1",
+      "name": "King Kamehameha I the Great (Unifier of Hawai'i, 1795)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 21,
+      "era": "1758–1819 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Hawaiian Royal Mo'okū'auhau",
+        "Kumulipo"
+      ],
+      "notes": "Chronicle succession in Hawaiian Royal Mo'okū'auhau, Kumulipo.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_ply_kamehameha2",
+      "name": "King Kamehameha II (Liholiho)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 21,
+      "era": "1797–1824 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Hawaiian Royal Mo'okū'auhau",
+        "Kumulipo"
+      ],
+      "notes": "Chronicle succession in Hawaiian Royal Mo'okū'auhau, Kumulipo.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_ply_kamehameha3",
+      "name": "King Kamehameha III (Kauikeaouli)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 21,
+      "era": "1814–1854 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Hawaiian Royal Mo'okū'auhau",
+        "Kumulipo"
+      ],
+      "notes": "Chronicle succession in Hawaiian Royal Mo'okū'auhau, Kumulipo.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_ply_kalakaua",
+      "name": "King David Kalakaua (Monarch of Hawai'i)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 21,
+      "era": "1836–1891 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Hawaiian Royal Mo'okū'auhau",
+        "Kumulipo"
+      ],
+      "notes": "Chronicle succession in Hawaiian Royal Mo'okū'auhau, Kumulipo.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_ply_liliuokalani",
+      "name": "Queen Lili'uokalani (Final Sovereign Queen of Hawai'i)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 21,
+      "era": "1838–1917 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Hawaiian Royal Mo'okū'auhau",
+        "Kumulipo"
+      ],
+      "notes": "Chronicle succession in Hawaiian Royal Mo'okū'auhau, Kumulipo.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_ply_aho_eitu",
+      "name": "'Aho'eitu (1st Tu'i Tonga of Tonga Empire, c. 950 CE)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 19,
+      "era": "c. 950 CE",
+      "role": "Tu'i Tonga Founder",
+      "sources": [
+        "Polynesian Royal Whakapapa"
+      ],
+      "notes": "'Aho'eitu (1st Tu'i Tonga of Tonga Empire, c. 950 CE).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_ply_salamasina",
+      "name": "Queen Salamasina (Tafa'ifa of Samoa, c. 1500 CE)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 19,
+      "era": "c. 1500 CE",
+      "role": "Paramount Queen of Samoa",
+      "sources": [
+        "Polynesian Royal Whakapapa"
+      ],
+      "notes": "Queen Salamasina (Tafa'ifa of Samoa, c. 1500 CE).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_ply_pomare1",
+      "name": "King Pomare I (Unifier of Kingdom of Tahiti)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 19,
+      "era": "1743–1803 CE",
+      "role": "King of Tahiti",
+      "sources": [
+        "Polynesian Royal Whakapapa"
+      ],
+      "notes": "King Pomare I (Unifier of Kingdom of Tahiti).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "afr_buganda_kintu",
+      "name": "Buganda Kingdom Founders: Kintu & Nambi → Kabaka Chwa I",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 10,
+      "era": "c. 13th c. CE",
+      "role": "Buganda Mythic-Royal Founders",
+      "sources": [
+        "Baganda Royal Chronicle (Apolo Kagwa)"
+      ],
+      "notes": "Basimba / Baganda oral dynasty preceding direct Biblical links.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_kimera",
+      "name": "Kabaka Kimera (3rd King of Buganda, Bunyoro Link)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 14th–15th c. CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Baganda Royal Chronicle (Apolo Kagwa)"
+      ],
+      "notes": "Chronicle succession in Baganda Royal Chronicle (Apolo Kagwa).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_ssuuna2",
+      "name": "Kabaka Ssuuna II of Buganda (1832–1856)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1832–1856 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Baganda Royal Chronicle (Apolo Kagwa)"
+      ],
+      "notes": "Chronicle succession in Baganda Royal Chronicle (Apolo Kagwa).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_muteesa1",
+      "name": "Kabaka Muteesa I of Buganda (1856–1884)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1856–1884 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Baganda Royal Chronicle (Apolo Kagwa)"
+      ],
+      "notes": "Chronicle succession in Baganda Royal Chronicle (Apolo Kagwa).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_mwanga2",
+      "name": "Kabaka Mwanga II of Buganda (1884–1899)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1884–1899 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Baganda Royal Chronicle (Apolo Kagwa)"
+      ],
+      "notes": "Chronicle succession in Baganda Royal Chronicle (Apolo Kagwa).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_rukidi_bunyoro",
+      "name": "Rukidi Mpuga (1st Bito King of Bunyoro-Kitara)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "East African Kingdoms",
+      "role": "Bito Dynasty Founder",
+      "sources": [
+        "Great Lakes Oral Chronicles"
+      ],
+      "notes": "Rukidi Mpuga (1st Bito King of Bunyoro-Kitara).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_gikuyu_mumbi",
+      "name": "Gikuyu & Mumbi (Progenitors of the 9 Agikuyu Clans)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "East African Kingdoms",
+      "role": "Kikuyu Founders",
+      "sources": [
+        "Great Lakes Oral Chronicles"
+      ],
+      "notes": "Gikuyu & Mumbi (Progenitors of the 9 Agikuyu Clans).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_gihanga_rwanda",
+      "name": "King Gihanga (Founder of the Kingdom of Rwanda)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "East African Kingdoms",
+      "role": "Nyiginya Founder",
+      "sources": [
+        "Great Lakes Oral Chronicles"
+      ],
+      "notes": "King Gihanga (Founder of the Kingdom of Rwanda).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_ruganzu2_rwanda",
+      "name": "Mwami Ruganzu II Ndori of Rwanda (16th c.)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "East African Kingdoms",
+      "role": "Mwami of Rwanda",
+      "sources": [
+        "Great Lakes Oral Chronicles"
+      ],
+      "notes": "Mwami Ruganzu II Ndori of Rwanda (16th c.).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_kigeli4_rwanda",
+      "name": "Mwami Kigeli IV Rwabugiri (1853–1895)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "East African Kingdoms",
+      "role": "Mwami of Rwanda",
+      "sources": [
+        "Great Lakes Oral Chronicles"
+      ],
+      "notes": "Mwami Kigeli IV Rwabugiri (1853–1895).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "afr_kongo_lukeni",
+      "name": "Kingdom of Kongo: Lukeni lua Nimi (c. 1390 CE, Mbanza-Kongo)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "c. 1390 CE",
+      "role": "1st Manikongo",
+      "sources": [
+        "Modern Universal History Vols. 6-7",
+        "Kongo Royal Letters"
+      ],
+      "notes": "Mod. Univ. Hist. Vols. 6-7 & Portuguese chronicles.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_nzinga_nkuwu",
+      "name": "Nzinga a Nkuwu / King Joao I of Kongo (Baptized 1491)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1470–1509 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vols. 6-7",
+        "Kongo Royal Letters"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vols. 6-7, Kongo Royal Letters.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_afonso1_kongo",
+      "name": "King Afonso I of Kongo (Mvemba a Nzinga, 1509–1542)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1509–1542 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vols. 6-7",
+        "Kongo Royal Letters"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vols. 6-7, Kongo Royal Letters.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_alvaro1_kongo",
+      "name": "King Alvaro I of Kongo (1568–1587)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1568–1587 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vols. 6-7",
+        "Kongo Royal Letters"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vols. 6-7, Kongo Royal Letters.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_garcia2_kongo",
+      "name": "King Garcia II of Kongo (1641–1660)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1641–1660 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vols. 6-7",
+        "Kongo Royal Letters"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vols. 6-7, Kongo Royal Letters.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_ngola_kiluanje",
+      "name": "Ngola Kiluanje (Founder of Ndongo / Angola)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "c. 1515 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vols. 6-7",
+        "Kongo Royal Letters"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vols. 6-7, Kongo Royal Letters.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_queen_nzinga",
+      "name": "Queen Nzinga Mbande of Ndongo & Matamba (1583–1663)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1583–1663 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vols. 6-7",
+        "Kongo Royal Letters"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vols. 6-7, Kongo Royal Letters.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "afr_zimbabwe_mutota",
+      "name": "Great Zimbabwe & Mutapa: Nyatsimba Mutota → Nyanhewe Matope",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "c. 1420–1480 CE",
+      "role": "Mwene Mutapa Founders",
+      "sources": [
+        "Southern African Oral & Historical Chronicles"
+      ],
+      "notes": "Central-Southern African stone-citadel kingdoms.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_senzangakhona",
+      "name": "Senzangakhona kaJama (Zulu Chief)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1762–1816 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Southern African Oral & Historical Chronicles"
+      ],
+      "notes": "Chronicle succession in Southern African Oral & Historical Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_shaka_zulu",
+      "name": "King Shaka kaSenzangakhona (Founder of Zulu Kingdom, 1816–1828)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1816–1828 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Southern African Oral & Historical Chronicles"
+      ],
+      "notes": "Chronicle succession in Southern African Oral & Historical Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_dingane",
+      "name": "King Dingane & King Mpande of the Zulus",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1828–1872 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Southern African Oral & Historical Chronicles"
+      ],
+      "notes": "Chronicle succession in Southern African Oral & Historical Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_cetshwayo",
+      "name": "King Cetshwayo kaMpande (1872–1884)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1872–1884 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Southern African Oral & Historical Chronicles"
+      ],
+      "notes": "Chronicle succession in Southern African Oral & Historical Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_kanem_dugu",
+      "name": "Kanem-Bornu Empire: King Dugu (Sefawa) → Mai Humai (c. 1075 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "8th–11th c. CE",
+      "role": "Sayfawa / Duguwa Roots",
+      "sources": [
+        "Diwan / Girgam of Bornu"
+      ],
+      "notes": "Girgam Chronicle of Kanem-Bornu.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_dunama_dabbalemi",
+      "name": "Mai Dunama Dabbalemi (Kanem Peak, c. 1210–1248)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1210–1248 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Diwan / Girgam of Bornu"
+      ],
+      "notes": "Chronicle succession in Diwan / Girgam of Bornu.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_idris_alooma",
+      "name": "Mai Idris Alooma of Bornu (1571–1603)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1571–1603 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Diwan / Girgam of Bornu"
+      ],
+      "notes": "Chronicle succession in Diwan / Girgam of Bornu.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_osei_tutu",
+      "name": "Ashanti Empire (Kumasi): Asantehene Osei Tutu I (Golden Stool, 1701)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1701–1717 CE",
+      "role": "Founder of Ashanti Empire",
+      "sources": [
+        "Modern Universal History Vol. 7",
+        "Ashanti Chronicles"
+      ],
+      "notes": "Akan-Ashanti state foundation.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_opoku_ware",
+      "name": "Asantehene Opoku Ware I (1720–1750)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1720–1750 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 7",
+        "Ashanti Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 7, Ashanti Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_osei_bonsu",
+      "name": "Asantehene Osei Bonsu (1804–1824)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1804–1824 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 7",
+        "Ashanti Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 7, Ashanti Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_yaa_asantewaa",
+      "name": "Nana Yaa Asantewaa (Queen Mother of Ejisu, 1900)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1840–1921 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 7",
+        "Ashanti Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 7, Ashanti Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_houegbadja",
+      "name": "King Houegbadja (Founder of Dahomey, c. 1645–1685)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1645–1685 CE",
+      "role": "King of Dahomey",
+      "sources": [
+        "West African Kingdom Chronicles",
+        "Mod. Univ. Hist. Vol. 7"
+      ],
+      "notes": "King Houegbadja (Founder of Dahomey, c. 1645–1685).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_agaja",
+      "name": "King Agaja & King Ghezo of Dahomey",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1708–1858 CE",
+      "role": "Kings of Dahomey",
+      "sources": [
+        "West African Kingdom Chronicles",
+        "Mod. Univ. Hist. Vol. 7"
+      ],
+      "notes": "King Agaja & King Ghezo of Dahomey.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_behanzin",
+      "name": "King Behanzin of Dahomey (1889–1894)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1889–1894 CE",
+      "role": "Final Independent Dahomey King",
+      "sources": [
+        "West African Kingdom Chronicles",
+        "Mod. Univ. Hist. Vol. 7"
+      ],
+      "notes": "King Behanzin of Dahomey (1889–1894).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_ewuare_benin",
+      "name": "Oba Ewuare the Great of Benin (1440–1473)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1440–1473 CE",
+      "role": "Oba of Benin",
+      "sources": [
+        "West African Kingdom Chronicles",
+        "Mod. Univ. Hist. Vol. 7"
+      ],
+      "notes": "Oba Ewuare the Great of Benin (1440–1473).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_esigie_ovonramwen",
+      "name": "Oba Ozolua → Oba Esigie → Oba Ovonramwen of Benin",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1481–1897 CE",
+      "role": "Obas of Benin",
+      "sources": [
+        "West African Kingdom Chronicles",
+        "Mod. Univ. Hist. Vol. 7"
+      ],
+      "notes": "Oba Ozolua → Oba Esigie → Oba Ovonramwen of Benin.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "sea_khmer_jayavarman2",
+      "name": "Funan & Angkor Founders: Kaundinya I (+ Queen Soma) → Jayavarman II (802 CE, Chakravartin)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 19,
+      "era": "1st–9th c. CE",
+      "role": "Founders of Funan & Angkor Empire",
+      "sources": [
+        "Khmer Inscriptions",
+        "Zhou Daguan"
+      ],
+      "notes": "Early Cambodian & Chinese records of Funan/Chenla & Angkor.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_indravarman1",
+      "name": "Indravarman I (Preah Ko & Bakong)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 19,
+      "era": "877–889 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Khmer Inscriptions",
+        "Zhou Daguan"
+      ],
+      "notes": "Chronicle succession in Khmer Inscriptions, Zhou Daguan.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_yasovarman1",
+      "name": "Yasovarman I (Founder of Yasodharapura / Angkor)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 19,
+      "era": "889–910 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Khmer Inscriptions",
+        "Zhou Daguan"
+      ],
+      "notes": "Chronicle succession in Khmer Inscriptions, Zhou Daguan.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_suryavarman1",
+      "name": "Suryavarman I of Angkor (1006–1050)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1006–1050 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Khmer Inscriptions",
+        "Zhou Daguan"
+      ],
+      "notes": "Chronicle succession in Khmer Inscriptions, Zhou Daguan.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_suryavarman2",
+      "name": "Suryavarman II (Builder of Angkor Wat, 1113–1150)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1113–1150 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Khmer Inscriptions",
+        "Zhou Daguan"
+      ],
+      "notes": "Chronicle succession in Khmer Inscriptions, Zhou Daguan.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_jayavarman7",
+      "name": "Jayavarman VII (Builder of Angkor Thom & Bayon, 1181–1218)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1181–1218 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Khmer Inscriptions",
+        "Zhou Daguan"
+      ],
+      "notes": "Chronicle succession in Khmer Inscriptions, Zhou Daguan.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_sri_indraditya",
+      "name": "Sri Indraditya (Founder of Sukhothai Kingdom, 1238)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1238–1270 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Royal Chronicles of Ayutthaya & Siam"
+      ],
+      "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_ram_khamhaeng",
+      "name": "King Ram Khamhaeng the Great (Thai Alphabet, 1279–1298)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1279–1298 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Royal Chronicles of Ayutthaya & Siam"
+      ],
+      "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_uthong",
+      "name": "King Uthong / Ramathibodi I (Founder of Ayutthaya, 1351)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1351–1369 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Royal Chronicles of Ayutthaya & Siam"
+      ],
+      "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_trailok",
+      "name": "King Borommatrailokkanat / Trailok (1448–1488)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1448–1488 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Royal Chronicles of Ayutthaya & Siam"
+      ],
+      "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_naresuan",
+      "name": "King Naresuan the Great of Ayutthaya (1590–1605)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1590–1605 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Royal Chronicles of Ayutthaya & Siam"
+      ],
+      "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_narai",
+      "name": "King Narai the Great (1656–1688)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1656–1688 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Royal Chronicles of Ayutthaya & Siam"
+      ],
+      "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_taksin",
+      "name": "King Taksin the Great (Thonburi, 1767–1782)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1767–1782 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Royal Chronicles of Ayutthaya & Siam"
+      ],
+      "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_rama1_chakri",
+      "name": "King Rama I (Founder of Chakri Dynasty of Siam, 1782)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1782–1809 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Royal Chronicles of Ayutthaya & Siam"
+      ],
+      "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_mongkut_chulalongkorn",
+      "name": "King Mongkut (Rama IV) → King Chulalongkorn (Rama V)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1851–1910 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Royal Chronicles of Ayutthaya & Siam"
+      ],
+      "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "sea_java_raden_wijaya",
+      "name": "Srivijaya, Medang & Majapahit: Dapunta Hyang → Sanjaya → Airlangga → Raden Wijaya (1293)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "671–1309 CE",
+      "role": "Maritime Indonesian Founders",
+      "sources": [
+        "Nagarakretagama",
+        "Sejarah Melayu / Malay Annals"
+      ],
+      "notes": "Srivijaya, Mataram, Singhasari & Majapahit.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_tribhuwana",
+      "name": "Queen Tribhuwana Wijayatunggadewi of Majapahit (1328–1350)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1328–1350 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Nagarakretagama",
+        "Sejarah Melayu / Malay Annals"
+      ],
+      "notes": "Chronicle succession in Nagarakretagama, Sejarah Melayu / Malay Annals.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_hayam_wuruk",
+      "name": "Hayam Wuruk & Prime Minister Gajah Mada (Majapahit Peak, 1350–1389)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1350–1389 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Nagarakretagama",
+        "Sejarah Melayu / Malay Annals"
+      ],
+      "notes": "Chronicle succession in Nagarakretagama, Sejarah Melayu / Malay Annals.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_parameswara",
+      "name": "Parameswara / Iskandar Shah (Founder of Malacca Sultanate, 1400)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1400–1414 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Nagarakretagama",
+        "Sejarah Melayu / Malay Annals"
+      ],
+      "notes": "Chronicle succession in Nagarakretagama, Sejarah Melayu / Malay Annals.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_mansur_shah",
+      "name": "Sultan Mansur Shah of Malacca (1459–1477)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1459–1477 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Nagarakretagama",
+        "Sejarah Melayu / Malay Annals"
+      ],
+      "notes": "Chronicle succession in Nagarakretagama, Sejarah Melayu / Malay Annals.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_balaputradewa",
+      "name": "Balaputradewa of Srivijaya (Shailendra Dynasty)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 19,
+      "era": "9th c. CE",
+      "role": "Javanese/Sumatran Monarch",
+      "sources": [
+        "Pararaton",
+        "Nalanda Inscription"
+      ],
+      "notes": "Balaputradewa of Srivijaya (Shailendra Dynasty).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_ken_arok",
+      "name": "Ken Arok & King Kertanegara of Singhasari",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 19,
+      "era": "1222–1292 CE",
+      "role": "Javanese/Sumatran Monarch",
+      "sources": [
+        "Pararaton",
+        "Nalanda Inscription"
+      ],
+      "notes": "Ken Arok & King Kertanegara of Singhasari.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_lac_long_quan",
+      "name": "Vietnam Ancient Origins: Lac Long Quan & Au Co → Hung Vuong Kings (Van Lang)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 8,
+      "era": "Legendary Bronze Age",
+      "role": "Hong Bang Founders",
+      "sources": [
+        "Dai Viet Su Ky Toan Thu"
+      ],
+      "notes": "Dai Viet Su Ky Toan Thu.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_an_duong_vuong",
+      "name": "An Duong Vuong (Kingdom of Au Lac / Co Loa)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 13,
+      "era": "c. 257–207 BCE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Dai Viet Su Ky Toan Thu"
+      ],
+      "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_trung_sisters",
+      "name": "Trung Sisters (Trung Trac & Trung Nhi, 40–43 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 19,
+      "era": "40–43 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Dai Viet Su Ky Toan Thu"
+      ],
+      "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_ngo_quyen",
+      "name": "Ngo Quyen (Bach Dang Victory & Independence, 938 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 19,
+      "era": "938–944 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Dai Viet Su Ky Toan Thu"
+      ],
+      "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_dinh_bo_linh",
+      "name": "Dinh Bo Linh (Emperor of Dai Co Viet, 968 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 19,
+      "era": "968–979 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Dai Viet Su Ky Toan Thu"
+      ],
+      "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_ly_thai_to",
+      "name": "Ly Thai To (Founder of Later Ly Dynasty, Thang Long / Hanoi, 1009)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1009–1028 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Dai Viet Su Ky Toan Thu"
+      ],
+      "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_tran_thai_tong",
+      "name": "Tran Thai Tong & General Tran Hung Dao (Defeated Kublai's Fleets)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1225–1300 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Dai Viet Su Ky Toan Thu"
+      ],
+      "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_le_loi",
+      "name": "Le Loi (Le Thai To, Founder of Later Le Dynasty, 1428)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1428–1433 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Dai Viet Su Ky Toan Thu"
+      ],
+      "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_sea_gia_long",
+      "name": "Emperor Gia Long (Unifier of Nguyen Dynasty Vietnam, 1802)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1802–1820 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Dai Viet Su Ky Toan Thu"
+      ],
+      "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_yoritomo",
+      "name": "Minamoto no Yoritomo (1st Kamakura Shogun, 1192)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "1147–1199 CE",
+      "role": "1st Shogun of Japan",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Mod. Univ. Hist. Vol. 5 & Azuma Kagami.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_hojo_tokimasa",
+      "name": "Hojo Tokimasa (Shikken Regency of Kamakura)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "1138–1215 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_ashikaga_takauji",
+      "name": "Ashikaga Takauji (1st Muromachi Shogun, 1338)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "1305–1358 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_ashikaga_yoshimitsu",
+      "name": "Ashikaga Yoshimitsu (Golden Pavilion Kinkaku-ji)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "1358–1408 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_oda_nobunaga",
+      "name": "Oda Nobunaga (1st Great Unifier of Sengoku Japan)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1534–1582 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_hideyoshi",
+      "name": "Toyotomi Hideyoshi (2nd Great Unifier)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1537–1598 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_tokugawa_ieyasu",
+      "name": "Tokugawa Ieyasu (Founder of Edo Shogunate, 1603)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1543–1616 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_tokugawa_hidetada",
+      "name": "Tokugawa Hidetada (2nd Tokugawa Shogun)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1579–1632 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_tokugawa_iemitsu",
+      "name": "Tokugawa Iemitsu (3rd Tokugawa Shogun)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1604–1651 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_tokugawa_yoshinobu",
+      "name": "Tokugawa Yoshinobu (15th & Final Tokugawa Shogun)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1837–1913 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_emperor_meiji",
+      "name": "Emperor Meiji (Meiji Restoration, 1868)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1852–1912 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_kor_wang_geon",
+      "name": "Taejo Wang Geon (Founder of Goryeo Dynasty, 918 CE)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 19,
+      "era": "877–943 CE",
+      "role": "Goryeo Founder",
+      "sources": [
+        "Goryeosa",
+        "Veritable Records of the Joseon Dynasty"
+      ],
+      "notes": "Goryeosa & Joseon Wangjo Sillok.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_kor_gwangjong",
+      "name": "King Gwangjong of Goryeo",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 19,
+      "era": "925–975 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Goryeosa",
+        "Veritable Records of the Joseon Dynasty"
+      ],
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_kor_yi_seonggye",
+      "name": "Taejo Yi Seong-gye (Founder of Joseon Dynasty, 1392)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "1335–1408 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Goryeosa",
+        "Veritable Records of the Joseon Dynasty"
+      ],
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_kor_taejong",
+      "name": "King Taejong of Joseon (Yi Bang-won)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "1367–1422 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Goryeosa",
+        "Veritable Records of the Joseon Dynasty"
+      ],
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_kor_sejong_great",
+      "name": "King Sejong the Great (Hangul Alphabet, 1418–1450)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "1397–1450 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Goryeosa",
+        "Veritable Records of the Joseon Dynasty"
+      ],
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_kor_sejo",
+      "name": "King Sejo of Joseon",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "1417–1468 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Goryeosa",
+        "Veritable Records of the Joseon Dynasty"
+      ],
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_kor_yi_sunsin",
+      "name": "Admiral Yi Sun-sin (Joseon Naval Hero)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1545–1598 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Goryeosa",
+        "Veritable Records of the Joseon Dynasty"
+      ],
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_kor_yeongjo_jeongjo",
+      "name": "King Yeongjo → King Jeongjo of Joseon",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1694–1800 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Goryeosa",
+        "Veritable Records of the Joseon Dynasty"
+      ],
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_kor_gojong",
+      "name": "Emperor Gojong (Final Joseon Monarch / Korean Empire)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1852–1919 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Goryeosa",
+        "Veritable Records of the Joseon Dynasty"
+      ],
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_chn_cao_cao",
+      "name": "Cao Cao → Emperor Wen of Wei (Cao Pi, Three Kingdoms)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "155–226 CE",
+      "role": "Cao Wei Founders",
+      "sources": [
+        "Records of the Three Kingdoms",
+        "History of Song & Ming"
+      ],
+      "notes": "Records of the Three Kingdoms.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_chn_wen_sui",
+      "name": "Emperor Wen of Sui (Yang Jian, Reunified China 581 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "541–604 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Records of the Three Kingdoms",
+        "History of Song & Ming"
+      ],
+      "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_chn_song_taizu",
+      "name": "Emperor Taizu of Song (Zhao Kuangyin, 960 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "927–976 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Records of the Three Kingdoms",
+        "History of Song & Ming"
+      ],
+      "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_chn_song_huizong",
+      "name": "Emperor Huizong of Song",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "1082–1135 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Records of the Three Kingdoms",
+        "History of Song & Ming"
+      ],
+      "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_chn_ming_hongwu",
+      "name": "Emperor Hongwu (Zhu Yuanzhang, Founder of Ming Dynasty, 1368)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "1328–1398 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Records of the Three Kingdoms",
+        "History of Song & Ming"
+      ],
+      "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_chn_ming_yongle",
+      "name": "Emperor Yongle (Zhu Di) & Admiral Zheng He (Treasure Fleets)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "1360–1424 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Records of the Three Kingdoms",
+        "History of Song & Ming"
+      ],
+      "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_chn_liu_bei_zhuge",
+      "name": "Liu Bei (Emperor of Shu Han) & Chancellor Zhuge Liang",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "Three Kingdoms (220–280 CE)",
+      "role": "Shu Han Rulers",
+      "sources": [
+        "Sanguozhi / Three Kingdoms"
+      ],
+      "notes": "Liu Bei (Emperor of Shu Han) & Chancellor Zhuge Liang.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_chn_sun_quan",
+      "name": "Sun Quan (Emperor of Eastern Wu)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "Three Kingdoms (220–280 CE)",
+      "role": "Eastern Wu Founder",
+      "sources": [
+        "Sanguozhi / Three Kingdoms"
+      ],
+      "notes": "Sun Quan (Emperor of Eastern Wu).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_thales",
+      "name": "Seven Sages & Ionian Philosophers: Thales of Miletus → Anaximander",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 624–546 BCE",
+      "role": "Ionian Philosophy Founders",
+      "sources": [
+        "The Lives of the Ancient Philosophers (1702)",
+        "Plutarch Lives"
+      ],
+      "notes": "Lives of Ancient Philosophers (1702) & Diogenes Laertius.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_pythagoras",
+      "name": "Pythagoras of Samos (Mathematics & Harmonics)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 570–495 BCE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "The Lives of the Ancient Philosophers (1702)",
+        "Plutarch Lives"
+      ],
+      "notes": "Chronicle succession in The Lives of the Ancient Philosophers (1702), Plutarch Lives.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_socrates",
+      "name": "Socrates of Athens (Teacher of Classical Philosophy)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "470–399 BCE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "The Lives of the Ancient Philosophers (1702)",
+        "Plutarch Lives"
+      ],
+      "notes": "Chronicle succession in The Lives of the Ancient Philosophers (1702), Plutarch Lives.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_plato",
+      "name": "Plato (Founder of the Academy, Athens)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "428–348 BCE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "The Lives of the Ancient Philosophers (1702)",
+        "Plutarch Lives"
+      ],
+      "notes": "Chronicle succession in The Lives of the Ancient Philosophers (1702), Plutarch Lives.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_aristotle",
+      "name": "Aristotle of Stagira (Founder of the Lyceum, Tutor of Alexander)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "384–322 BCE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "The Lives of the Ancient Philosophers (1702)",
+        "Plutarch Lives"
+      ],
+      "notes": "Chronicle succession in The Lives of the Ancient Philosophers (1702), Plutarch Lives.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_homer_hesiod",
+      "name": "Homer & Hesiod (Epic Poets of Greece)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 8th–7th c. BCE",
+      "role": "Epic Poets",
+      "sources": [
+        "Lives of Ancient Philosophers (1702)",
+        "Herodotus",
+        "Thucydides"
+      ],
+      "notes": "Homer & Hesiod (Epic Poets of Greece).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_heraclitus",
+      "name": "Heraclitus of Ephesus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 535–475 BCE",
+      "role": "Pre-Socratic Philosopher",
+      "sources": [
+        "Lives of Ancient Philosophers (1702)",
+        "Herodotus",
+        "Thucydides"
+      ],
+      "notes": "Heraclitus of Ephesus.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_parmenides",
+      "name": "Parmenides & Zeno of Elea",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 515–430 BCE",
+      "role": "Eleatic Philosophers",
+      "sources": [
+        "Lives of Ancient Philosophers (1702)",
+        "Herodotus",
+        "Thucydides"
+      ],
+      "notes": "Parmenides & Zeno of Elea.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_empedocles",
+      "name": "Empedocles of Acragas",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 494–434 BCE",
+      "role": "Philosopher",
+      "sources": [
+        "Lives of Ancient Philosophers (1702)",
+        "Herodotus",
+        "Thucydides"
+      ],
+      "notes": "Empedocles of Acragas.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_democritus",
+      "name": "Leucippus & Democritus (Atomic Theory)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 460–370 BCE",
+      "role": "Atomist Philosophers",
+      "sources": [
+        "Lives of Ancient Philosophers (1702)",
+        "Herodotus",
+        "Thucydides"
+      ],
+      "notes": "Leucippus & Democritus (Atomic Theory).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_hippocrates",
+      "name": "Hippocrates of Kos (Father of Medicine)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 460–370 BCE",
+      "role": "Physician",
+      "sources": [
+        "Lives of Ancient Philosophers (1702)",
+        "Herodotus",
+        "Thucydides"
+      ],
+      "notes": "Hippocrates of Kos (Father of Medicine).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_diogenes",
+      "name": "Diogenes of Sinope (Cynic School)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 412–323 BCE",
+      "role": "Philosopher",
+      "sources": [
+        "Lives of Ancient Philosophers (1702)",
+        "Herodotus",
+        "Thucydides"
+      ],
+      "notes": "Diogenes of Sinope (Cynic School).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_epicurus",
+      "name": "Epicurus (The Garden, Athens)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "341–270 BCE",
+      "role": "Philosopher",
+      "sources": [
+        "Lives of Ancient Philosophers (1702)",
+        "Herodotus",
+        "Thucydides"
+      ],
+      "notes": "Epicurus (The Garden, Athens).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_zeno_stoic",
+      "name": "Zeno of Citium (Founder of Stoicism)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 334–262 BCE",
+      "role": "Stoic Founder",
+      "sources": [
+        "Lives of Ancient Philosophers (1702)",
+        "Herodotus",
+        "Thucydides"
+      ],
+      "notes": "Zeno of Citium (Founder of Stoicism).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_euclid",
+      "name": "Euclid of Alexandria (Elements of Geometry)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 300 BCE",
+      "role": "Mathematician",
+      "sources": [
+        "Lives of Ancient Philosophers (1702)",
+        "Herodotus",
+        "Thucydides"
+      ],
+      "notes": "Euclid of Alexandria (Elements of Geometry).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_archimedes",
+      "name": "Archimedes of Syracuse (287–212 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "287–212 BCE",
+      "role": "Mathematician & Engineer",
+      "sources": [
+        "Lives of Ancient Philosophers (1702)",
+        "Herodotus",
+        "Thucydides"
+      ],
+      "notes": "Archimedes of Syracuse (287–212 BCE).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_herodotus_thucydides",
+      "name": "Herodotus of Halicarnassus, Thucydides & Xenophon",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "5th–4th c. BCE",
+      "role": "Classical Greek Historians",
+      "sources": [
+        "Lives of Ancient Philosophers (1702)",
+        "Herodotus",
+        "Thucydides"
+      ],
+      "notes": "Herodotus of Halicarnassus, Thucydides & Xenophon.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_solon_lycurgus",
+      "name": "Greek Lawgivers: Lycurgus of Sparta & Solon of Athens → Cleisthenes",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "8th–6th c. BCE",
+      "role": "Constitutional Founders",
+      "sources": [
+        "Plutarch's Lives",
+        "Thucydides",
+        "Herodotus"
+      ],
+      "notes": "Plutarch Lives Vols. 1-5.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_miltiades_themistocles",
+      "name": "Miltiades (Marathon, 490 BCE) & Themistocles (Salamis, 480 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "5th c. BCE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Plutarch's Lives",
+        "Thucydides",
+        "Herodotus"
+      ],
+      "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_leonidas",
+      "name": "King Leonidas I of Sparta (Thermopylae, 480 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "d. 480 BCE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Plutarch's Lives",
+        "Thucydides",
+        "Herodotus"
+      ],
+      "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_pericles",
+      "name": "Pericles of Athens (Golden Age Statesman, d. 429 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "495–429 BCE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Plutarch's Lives",
+        "Thucydides",
+        "Herodotus"
+      ],
+      "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_alcibiades_lysander",
+      "name": "Alcibiades of Athens & Lysander of Sparta",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "5th c. BCE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Plutarch's Lives",
+        "Thucydides",
+        "Herodotus"
+      ],
+      "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_epaminondas",
+      "name": "Epaminondas of Thebes (Battle of Leuctra, 371 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "d. 362 BCE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Plutarch's Lives",
+        "Thucydides",
+        "Herodotus"
+      ],
+      "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_grk_pyrrhus_epirus",
+      "name": "King Pyrrhus of Epirus (319–272 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "319–272 BCE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Plutarch's Lives",
+        "Thucydides",
+        "Herodotus"
+      ],
+      "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "eur_poland_mieszko",
+      "name": "Piast Dynasty of Poland: Piast → Mieszko I (966 CE) → Boleslaw I the Brave (1025)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "9th–11th c. CE",
+      "role": "Founders of Poland",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Mod. Univ. Hist. Vol. 12.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_casimir3_poland",
+      "name": "King Casimir III the Great of Poland (1333–1370)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1333–1370 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_jadwiga_jagiello",
+      "name": "Queen Jadwiga & Wladyslaw II Jagiello (Polish-Lithuanian Union, 1386)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1386–1434 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_sigismund_poland",
+      "name": "King Sigismund I the Old (Jagiellonian Golden Age)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1506–1548 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_john_sobieski",
+      "name": "King John III Sobieski of Poland (Vienna, 1683)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1674–1696 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_almos_arpad",
+      "name": "Hungary (Arpad Dynasty): Almos → Grand Prince Arpad (895 CE) → St. Stephen I (1000 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "895–1038 CE",
+      "role": "Founders of Hungary",
+      "sources": [
+        "European Royal Chronicles"
+      ],
+      "notes": "Mod. Univ. Hist. & Hungarian Chronicles.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_bela3_hungary",
+      "name": "King Bela III of Hungary (1172–1196)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1172–1196 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "European Royal Chronicles"
+      ],
+      "notes": "Chronicle succession in European Royal Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_louis_great_hungary",
+      "name": "King Louis I the Great of Hungary & Poland",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1342–1382 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "European Royal Chronicles"
+      ],
+      "notes": "Chronicle succession in European Royal Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_hunyadi_corvinus",
+      "name": "John Hunyadi → King Matthias Corvinus of Hungary (1458–1490)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1446–1490 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "European Royal Chronicles"
+      ],
+      "notes": "Chronicle succession in European Royal Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_premysl_bohemia",
+      "name": "Bohemia (Czechia): Premysl & Princess Libuse → St. Wenceslas I (d. 935)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 8th–10th c. CE",
+      "role": "Premyslid Founders",
+      "sources": [
+        "Chronicle of the Bohemians"
+      ],
+      "notes": "Cosmas Chronicle.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_ottokar2_bohemia",
+      "name": "King Ottokar II of Bohemia ('Iron and Golden King')",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1253–1278 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Chronicle of the Bohemians"
+      ],
+      "notes": "Chronicle succession in Chronicle of the Bohemians.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_charles4_bohemia",
+      "name": "Emperor & King Charles IV of Bohemia (Golden Bull, 1356)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1346–1378 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Chronicle of the Bohemians"
+      ],
+      "notes": "Chronicle succession in Chronicle of the Bohemians.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_eric_sweden",
+      "name": "Sweden: Eric the Victorious → Olof Skotkonung → Birger Jarl",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "970–1266 CE",
+      "role": "Early Swedish Monarchs",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Mod. Univ. Hist. Vol. 12.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_gustav_vasa",
+      "name": "King Gustav I Vasa (Founder of Modern Sweden, 1523)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1523–1560 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_gustavus_adolphus",
+      "name": "King Gustavus Adolphus & Queen Christina of Sweden",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1611–1654 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_charles12_sweden",
+      "name": "King Charles XII of Sweden (1697–1718)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1697–1718 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_gorm_bluetooth",
+      "name": "Denmark: Gorm the Old → Harald Bluetooth → Sweyn Forkbeard",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 936–1014 CE",
+      "role": "Jelling Dynasty",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Mod. Univ. Hist. Vol. 12.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_valdemar1_denmark",
+      "name": "King Valdemar I the Great of Denmark (1157–1182)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1157–1182 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_margaret_kalmar",
+      "name": "Queen Margaret I of Denmark (Kalmar Union, 1397)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1387–1412 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_christian4_denmark",
+      "name": "King Christian IV of Denmark & Norway (1588–1648)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1588–1648 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_mindaugas_lithuania",
+      "name": "King Mindaugas of Lithuania (Crowned 1253)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1236–1263 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Lithuanian Chronicles",
+        "Mod. Univ. Hist. Vol. 12"
+      ],
+      "notes": "Chronicle succession in Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_gediminas",
+      "name": "Grand Duke Gediminas of Lithuania (1316–1341)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1316–1341 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Lithuanian Chronicles",
+        "Mod. Univ. Hist. Vol. 12"
+      ],
+      "notes": "Chronicle succession in Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_eur_algirdas_vytautas",
+      "name": "Algirdas & Grand Duke Vytautas the Great (1392–1430)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1345–1430 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Lithuanian Chronicles",
+        "Mod. Univ. Hist. Vol. 12"
+      ],
+      "notes": "Chronicle succession in Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12.",
+      "major": false,
+      "biblicalConnected": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "amp_aztec_tenochtitlan",
+      "to": "unb_azt_acamapichtli",
+      "type": "expansion",
+      "label": "Codex Mendoza, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_azt_acamapichtli",
+      "to": "unb_azt_huitzilihuitl",
+      "type": "expansion",
+      "label": "Codex Mendoza, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_azt_huitzilihuitl",
+      "to": "unb_azt_chimalpopoca",
+      "type": "expansion",
+      "label": "Codex Mendoza, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_azt_chimalpopoca",
+      "to": "unb_azt_itzcoatl",
+      "type": "expansion",
+      "label": "Codex Mendoza, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_azt_itzcoatl",
+      "to": "unb_azt_moctezuma1",
+      "type": "expansion",
+      "label": "Codex Mendoza, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_azt_moctezuma1",
+      "to": "unb_azt_axayacatl",
+      "type": "expansion",
+      "label": "Codex Mendoza, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_azt_axayacatl",
+      "to": "unb_azt_tizoc",
+      "type": "expansion",
+      "label": "Codex Mendoza, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_azt_tizoc",
+      "to": "unb_azt_ahuitzotl",
+      "type": "expansion",
+      "label": "Codex Mendoza, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_azt_ahuitzotl",
+      "to": "unb_azt_moctezuma2",
+      "type": "expansion",
+      "label": "Codex Mendoza, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_azt_moctezuma2",
+      "to": "unb_azt_cuitlahuac",
+      "type": "expansion",
+      "label": "Codex Mendoza, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_azt_cuitlahuac",
+      "to": "unb_azt_cuauhtemoc",
+      "type": "expansion",
+      "label": "Codex Mendoza, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "amp_aztec_tenochtitlan",
+      "to": "unb_azt_nezahualcoyotl",
+      "type": "expansion",
+      "label": "Mesoamerican / Caribbean contact-era dynasty"
+    },
+    {
+      "from": "amp_aztec_tenochtitlan",
+      "to": "unb_azt_tlacaelel",
+      "type": "expansion",
+      "label": "Mesoamerican / Caribbean contact-era dynasty"
+    },
+    {
+      "from": "amp_aztec_tenochtitlan",
+      "to": "unb_azt_xicotencatl",
+      "type": "expansion",
+      "label": "Mesoamerican / Caribbean contact-era dynasty"
+    },
+    {
+      "from": "amp_aztec_tenochtitlan",
+      "to": "unb_car_guacanagari",
+      "type": "expansion",
+      "label": "Mesoamerican / Caribbean contact-era dynasty"
+    },
+    {
+      "from": "amp_aztec_tenochtitlan",
+      "to": "unb_car_caonabo",
+      "type": "expansion",
+      "label": "Mesoamerican / Caribbean contact-era dynasty"
+    },
+    {
+      "from": "amp_inca_manco",
+      "to": "unb_inc_sinchi_roca",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_sinchi_roca",
+      "to": "unb_inc_lloque_yupanqui",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_lloque_yupanqui",
+      "to": "unb_inc_mayta_capac",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_mayta_capac",
+      "to": "unb_inc_capac_yupanqui",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_capac_yupanqui",
+      "to": "unb_inc_inca_roca",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_inca_roca",
+      "to": "unb_inc_yahuar_huacac",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_yahuar_huacac",
+      "to": "unb_inc_viracocha_inca",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_viracocha_inca",
+      "to": "unb_inc_pachacuti",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_pachacuti",
+      "to": "unb_inc_tupac_yupanqui",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_tupac_yupanqui",
+      "to": "unb_inc_huayna_capac",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_huayna_capac",
+      "to": "unb_inc_huascar",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_huascar",
+      "to": "unb_inc_atahualpa",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_atahualpa",
+      "to": "unb_inc_manco_inca",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_manco_inca",
+      "to": "unb_inc_sayri_tupac",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_sayri_tupac",
+      "to": "unb_inc_titu_cusi",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "unb_inc_titu_cusi",
+      "to": "unb_inc_tupac_amaru",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
+      "from": "amp_inca_pachacuti",
+      "to": "unb_inc_pachacuti",
+      "type": "cognate",
+      "label": "Same Inca sovereign chain expanded individually"
+    },
+    {
+      "from": "amp_maya_four_men",
+      "to": "unb_may_yax_ehb_xook",
+      "type": "expansion",
+      "label": "Tikal Hieroglyphic Inscriptions: succession"
+    },
+    {
+      "from": "unb_may_yax_ehb_xook",
+      "to": "unb_may_chak_tok_ichaak",
+      "type": "expansion",
+      "label": "Tikal Hieroglyphic Inscriptions: succession"
+    },
+    {
+      "from": "unb_may_chak_tok_ichaak",
+      "to": "unb_may_jasaw_chan_kawiil",
+      "type": "expansion",
+      "label": "Tikal Hieroglyphic Inscriptions: succession"
+    },
+    {
+      "from": "amp_maya_four_men",
+      "to": "unb_may_kukinich_yax_kuk_mo",
+      "type": "expansion",
+      "label": "Copán, Calakmul & Naranjo Stelae: succession"
+    },
+    {
+      "from": "unb_may_kukinich_yax_kuk_mo",
+      "to": "unb_may_18_rabbit",
+      "type": "expansion",
+      "label": "Copán, Calakmul & Naranjo Stelae: succession"
+    },
+    {
+      "from": "unb_may_18_rabbit",
+      "to": "unb_may_yuknoom_cheen",
+      "type": "expansion",
+      "label": "Copán, Calakmul & Naranjo Stelae: succession"
+    },
+    {
+      "from": "unb_may_yuknoom_cheen",
+      "to": "unb_may_lady_six_sky",
+      "type": "expansion",
+      "label": "Copán, Calakmul & Naranjo Stelae: succession"
+    },
+    {
+      "from": "amp_maya_four_men",
+      "to": "unb_may_kuk_bahlam1",
+      "type": "expansion",
+      "label": "Palenque Temple of the Inscriptions: succession"
+    },
+    {
+      "from": "unb_may_kuk_bahlam1",
+      "to": "unb_may_lady_yohl_iknal",
+      "type": "expansion",
+      "label": "Palenque Temple of the Inscriptions: succession"
+    },
+    {
+      "from": "unb_may_lady_yohl_iknal",
+      "to": "unb_may_pakal_great",
+      "type": "expansion",
+      "label": "Palenque Temple of the Inscriptions: succession"
+    },
+    {
+      "from": "unb_may_pakal_great",
+      "to": "unb_may_kan_bahlam2",
+      "type": "expansion",
+      "label": "Palenque Temple of the Inscriptions: succession"
+    },
+    {
+      "from": "amp_na_skywoman",
+      "to": "unb_na_deganawida",
+      "type": "expansion",
+      "label": "North American indigenous historical succession"
+    },
+    {
+      "from": "unb_na_deganawida",
+      "to": "unb_na_hiawatha",
+      "type": "expansion",
+      "label": "North American indigenous historical succession"
+    },
+    {
+      "from": "unb_na_deganawida",
+      "to": "unb_na_jigonhsasee",
+      "type": "expansion",
+      "label": "North American indigenous historical succession"
+    },
+    {
+      "from": "amp_na_skywoman",
+      "to": "unb_na_powhatan",
+      "type": "expansion",
+      "label": "North American indigenous historical succession"
+    },
+    {
+      "from": "unb_na_powhatan",
+      "to": "unb_na_pocahontas",
+      "type": "expansion",
+      "label": "North American indigenous historical succession"
+    },
+    {
+      "from": "amp_na_skywoman",
+      "to": "unb_na_metacomet",
+      "type": "expansion",
+      "label": "North American indigenous historical succession"
+    },
+    {
+      "from": "amp_na_skywoman",
+      "to": "unb_na_tecumseh",
+      "type": "expansion",
+      "label": "North American indigenous historical succession"
+    },
+    {
+      "from": "amp_na_skywoman",
+      "to": "unb_na_sequoyah",
+      "type": "expansion",
+      "label": "North American indigenous historical succession"
+    },
+    {
+      "from": "amp_na_dine_lakota",
+      "to": "unb_na_sitting_bull",
+      "type": "expansion",
+      "label": "North American indigenous historical succession"
+    },
+    {
+      "from": "amp_na_dine_lakota",
+      "to": "unb_na_crazy_horse",
+      "type": "expansion",
+      "label": "North American indigenous historical succession"
+    },
+    {
+      "from": "amp_poly_kumulipo",
+      "to": "unb_ply_kamehameha1",
+      "type": "expansion",
+      "label": "Hawaiian Royal Mo'okū'auhau, Kumulipo: succession"
+    },
+    {
+      "from": "unb_ply_kamehameha1",
+      "to": "unb_ply_kamehameha2",
+      "type": "expansion",
+      "label": "Hawaiian Royal Mo'okū'auhau, Kumulipo: succession"
+    },
+    {
+      "from": "unb_ply_kamehameha2",
+      "to": "unb_ply_kamehameha3",
+      "type": "expansion",
+      "label": "Hawaiian Royal Mo'okū'auhau, Kumulipo: succession"
+    },
+    {
+      "from": "unb_ply_kamehameha3",
+      "to": "unb_ply_kalakaua",
+      "type": "expansion",
+      "label": "Hawaiian Royal Mo'okū'auhau, Kumulipo: succession"
+    },
+    {
+      "from": "unb_ply_kalakaua",
+      "to": "unb_ply_liliuokalani",
+      "type": "expansion",
+      "label": "Hawaiian Royal Mo'okū'auhau, Kumulipo: succession"
+    },
+    {
+      "from": "amp_poly_kupe_tonga",
+      "to": "unb_ply_aho_eitu",
+      "type": "expansion",
+      "label": "Polynesian island sovereign dynasty"
+    },
+    {
+      "from": "amp_poly_kupe_tonga",
+      "to": "unb_ply_salamasina",
+      "type": "expansion",
+      "label": "Polynesian island sovereign dynasty"
+    },
+    {
+      "from": "amp_poly_kupe_tonga",
+      "to": "unb_ply_pomare1",
+      "type": "expansion",
+      "label": "Polynesian island sovereign dynasty"
+    },
+    {
+      "from": "afr_buganda_kintu",
+      "to": "unb_afr_kimera",
+      "type": "expansion",
+      "label": "Baganda Royal Chronicle (Apolo Kagwa): succession"
+    },
+    {
+      "from": "unb_afr_kimera",
+      "to": "unb_afr_ssuuna2",
+      "type": "expansion",
+      "label": "Baganda Royal Chronicle (Apolo Kagwa): succession"
+    },
+    {
+      "from": "unb_afr_ssuuna2",
+      "to": "unb_afr_muteesa1",
+      "type": "expansion",
+      "label": "Baganda Royal Chronicle (Apolo Kagwa): succession"
+    },
+    {
+      "from": "unb_afr_muteesa1",
+      "to": "unb_afr_mwanga2",
+      "type": "expansion",
+      "label": "Baganda Royal Chronicle (Apolo Kagwa): succession"
+    },
+    {
+      "from": "afr_buganda_kintu",
+      "to": "unb_afr_rukidi_bunyoro",
+      "type": "expansion",
+      "label": "Great Lakes / East African regional dynasty"
+    },
+    {
+      "from": "afr_buganda_kintu",
+      "to": "unb_afr_gikuyu_mumbi",
+      "type": "expansion",
+      "label": "Great Lakes / East African regional dynasty"
+    },
+    {
+      "from": "afr_buganda_kintu",
+      "to": "unb_afr_gihanga_rwanda",
+      "type": "expansion",
+      "label": "Great Lakes / East African regional dynasty"
+    },
+    {
+      "from": "afr_buganda_kintu",
+      "to": "unb_afr_ruganzu2_rwanda",
+      "type": "expansion",
+      "label": "Great Lakes / East African regional dynasty"
+    },
+    {
+      "from": "afr_buganda_kintu",
+      "to": "unb_afr_kigeli4_rwanda",
+      "type": "expansion",
+      "label": "Great Lakes / East African regional dynasty"
+    },
+    {
+      "from": "afr_kongo_lukeni",
+      "to": "unb_afr_nzinga_nkuwu",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 6-7, Kongo Royal Letters: succession"
+    },
+    {
+      "from": "unb_afr_nzinga_nkuwu",
+      "to": "unb_afr_afonso1_kongo",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 6-7, Kongo Royal Letters: succession"
+    },
+    {
+      "from": "unb_afr_afonso1_kongo",
+      "to": "unb_afr_alvaro1_kongo",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 6-7, Kongo Royal Letters: succession"
+    },
+    {
+      "from": "unb_afr_alvaro1_kongo",
+      "to": "unb_afr_garcia2_kongo",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 6-7, Kongo Royal Letters: succession"
+    },
+    {
+      "from": "unb_afr_garcia2_kongo",
+      "to": "unb_afr_ngola_kiluanje",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 6-7, Kongo Royal Letters: succession"
+    },
+    {
+      "from": "unb_afr_ngola_kiluanje",
+      "to": "unb_afr_queen_nzinga",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 6-7, Kongo Royal Letters: succession"
+    },
+    {
+      "from": "afr_zimbabwe_mutota",
+      "to": "unb_afr_senzangakhona",
+      "type": "expansion",
+      "label": "Southern African Oral & Historical Chronicles: succession"
+    },
+    {
+      "from": "unb_afr_senzangakhona",
+      "to": "unb_afr_shaka_zulu",
+      "type": "expansion",
+      "label": "Southern African Oral & Historical Chronicles: succession"
+    },
+    {
+      "from": "unb_afr_shaka_zulu",
+      "to": "unb_afr_dingane",
+      "type": "expansion",
+      "label": "Southern African Oral & Historical Chronicles: succession"
+    },
+    {
+      "from": "unb_afr_dingane",
+      "to": "unb_afr_cetshwayo",
+      "type": "expansion",
+      "label": "Southern African Oral & Historical Chronicles: succession"
+    },
+    {
+      "from": "unb_afr_kanem_dugu",
+      "to": "unb_afr_dunama_dabbalemi",
+      "type": "expansion",
+      "label": "Diwan / Girgam of Bornu: succession"
+    },
+    {
+      "from": "unb_afr_dunama_dabbalemi",
+      "to": "unb_afr_idris_alooma",
+      "type": "expansion",
+      "label": "Diwan / Girgam of Bornu: succession"
+    },
+    {
+      "from": "unb_afr_osei_tutu",
+      "to": "unb_afr_opoku_ware",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 7, Ashanti Chronicles: succession"
+    },
+    {
+      "from": "unb_afr_opoku_ware",
+      "to": "unb_afr_osei_bonsu",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 7, Ashanti Chronicles: succession"
+    },
+    {
+      "from": "unb_afr_osei_bonsu",
+      "to": "unb_afr_yaa_asantewaa",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 7, Ashanti Chronicles: succession"
+    },
+    {
+      "from": "unb_afr_osei_tutu",
+      "to": "unb_afr_houegbadja",
+      "type": "expansion",
+      "label": "West African forest-belt sovereign tradition"
+    },
+    {
+      "from": "unb_afr_osei_tutu",
+      "to": "unb_afr_agaja",
+      "type": "expansion",
+      "label": "West African forest-belt sovereign tradition"
+    },
+    {
+      "from": "unb_afr_osei_tutu",
+      "to": "unb_afr_behanzin",
+      "type": "expansion",
+      "label": "West African forest-belt sovereign tradition"
+    },
+    {
+      "from": "unb_afr_osei_tutu",
+      "to": "unb_afr_ewuare_benin",
+      "type": "expansion",
+      "label": "West African forest-belt sovereign tradition"
+    },
+    {
+      "from": "unb_afr_osei_tutu",
+      "to": "unb_afr_esigie_ovonramwen",
+      "type": "expansion",
+      "label": "West African forest-belt sovereign tradition"
+    },
+    {
+      "from": "sea_khmer_jayavarman2",
+      "to": "unb_sea_indravarman1",
+      "type": "expansion",
+      "label": "Khmer Inscriptions, Zhou Daguan: succession"
+    },
+    {
+      "from": "unb_sea_indravarman1",
+      "to": "unb_sea_yasovarman1",
+      "type": "expansion",
+      "label": "Khmer Inscriptions, Zhou Daguan: succession"
+    },
+    {
+      "from": "unb_sea_yasovarman1",
+      "to": "unb_sea_suryavarman1",
+      "type": "expansion",
+      "label": "Khmer Inscriptions, Zhou Daguan: succession"
+    },
+    {
+      "from": "unb_sea_suryavarman1",
+      "to": "unb_sea_suryavarman2",
+      "type": "expansion",
+      "label": "Khmer Inscriptions, Zhou Daguan: succession"
+    },
+    {
+      "from": "unb_sea_suryavarman2",
+      "to": "unb_sea_jayavarman7",
+      "type": "expansion",
+      "label": "Khmer Inscriptions, Zhou Daguan: succession"
+    },
+    {
+      "from": "sea_khmer_jayavarman2",
+      "to": "unb_sea_sri_indraditya",
+      "type": "expansion",
+      "label": "Royal Chronicles of Ayutthaya & Siam: succession"
+    },
+    {
+      "from": "unb_sea_sri_indraditya",
+      "to": "unb_sea_ram_khamhaeng",
+      "type": "expansion",
+      "label": "Royal Chronicles of Ayutthaya & Siam: succession"
+    },
+    {
+      "from": "unb_sea_ram_khamhaeng",
+      "to": "unb_sea_uthong",
+      "type": "expansion",
+      "label": "Royal Chronicles of Ayutthaya & Siam: succession"
+    },
+    {
+      "from": "unb_sea_uthong",
+      "to": "unb_sea_trailok",
+      "type": "expansion",
+      "label": "Royal Chronicles of Ayutthaya & Siam: succession"
+    },
+    {
+      "from": "unb_sea_trailok",
+      "to": "unb_sea_naresuan",
+      "type": "expansion",
+      "label": "Royal Chronicles of Ayutthaya & Siam: succession"
+    },
+    {
+      "from": "unb_sea_naresuan",
+      "to": "unb_sea_narai",
+      "type": "expansion",
+      "label": "Royal Chronicles of Ayutthaya & Siam: succession"
+    },
+    {
+      "from": "unb_sea_narai",
+      "to": "unb_sea_taksin",
+      "type": "expansion",
+      "label": "Royal Chronicles of Ayutthaya & Siam: succession"
+    },
+    {
+      "from": "unb_sea_taksin",
+      "to": "unb_sea_rama1_chakri",
+      "type": "expansion",
+      "label": "Royal Chronicles of Ayutthaya & Siam: succession"
+    },
+    {
+      "from": "unb_sea_rama1_chakri",
+      "to": "unb_sea_mongkut_chulalongkorn",
+      "type": "expansion",
+      "label": "Royal Chronicles of Ayutthaya & Siam: succession"
+    },
+    {
+      "from": "sea_java_raden_wijaya",
+      "to": "unb_sea_tribhuwana",
+      "type": "expansion",
+      "label": "Nagarakretagama, Sejarah Melayu / Malay Annals: succession"
+    },
+    {
+      "from": "unb_sea_tribhuwana",
+      "to": "unb_sea_hayam_wuruk",
+      "type": "expansion",
+      "label": "Nagarakretagama, Sejarah Melayu / Malay Annals: succession"
+    },
+    {
+      "from": "unb_sea_hayam_wuruk",
+      "to": "unb_sea_parameswara",
+      "type": "expansion",
+      "label": "Nagarakretagama, Sejarah Melayu / Malay Annals: succession"
+    },
+    {
+      "from": "unb_sea_parameswara",
+      "to": "unb_sea_mansur_shah",
+      "type": "expansion",
+      "label": "Nagarakretagama, Sejarah Melayu / Malay Annals: succession"
+    },
+    {
+      "from": "sea_java_raden_wijaya",
+      "to": "unb_sea_balaputradewa",
+      "type": "expansion",
+      "label": "Archipelagic Indonesian lineage"
+    },
+    {
+      "from": "sea_java_raden_wijaya",
+      "to": "unb_sea_ken_arok",
+      "type": "expansion",
+      "label": "Archipelagic Indonesian lineage"
+    },
+    {
+      "from": "unb_sea_lac_long_quan",
+      "to": "unb_sea_an_duong_vuong",
+      "type": "expansion",
+      "label": "Dai Viet Su Ky Toan Thu: succession"
+    },
+    {
+      "from": "unb_sea_an_duong_vuong",
+      "to": "unb_sea_trung_sisters",
+      "type": "expansion",
+      "label": "Dai Viet Su Ky Toan Thu: succession"
+    },
+    {
+      "from": "unb_sea_trung_sisters",
+      "to": "unb_sea_ngo_quyen",
+      "type": "expansion",
+      "label": "Dai Viet Su Ky Toan Thu: succession"
+    },
+    {
+      "from": "unb_sea_ngo_quyen",
+      "to": "unb_sea_dinh_bo_linh",
+      "type": "expansion",
+      "label": "Dai Viet Su Ky Toan Thu: succession"
+    },
+    {
+      "from": "unb_sea_dinh_bo_linh",
+      "to": "unb_sea_ly_thai_to",
+      "type": "expansion",
+      "label": "Dai Viet Su Ky Toan Thu: succession"
+    },
+    {
+      "from": "unb_sea_ly_thai_to",
+      "to": "unb_sea_tran_thai_tong",
+      "type": "expansion",
+      "label": "Dai Viet Su Ky Toan Thu: succession"
+    },
+    {
+      "from": "unb_sea_tran_thai_tong",
+      "to": "unb_sea_le_loi",
+      "type": "expansion",
+      "label": "Dai Viet Su Ky Toan Thu: succession"
+    },
+    {
+      "from": "unb_sea_le_loi",
+      "to": "unb_sea_gia_long",
+      "type": "expansion",
+      "label": "Dai Viet Su Ky Toan Thu: succession"
+    },
+    {
+      "from": "unb_jpn_yoritomo",
+      "to": "unb_jpn_hojo_tokimasa",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_hojo_tokimasa",
+      "to": "unb_jpn_ashikaga_takauji",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_ashikaga_takauji",
+      "to": "unb_jpn_ashikaga_yoshimitsu",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_ashikaga_yoshimitsu",
+      "to": "unb_jpn_oda_nobunaga",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_oda_nobunaga",
+      "to": "unb_jpn_hideyoshi",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_hideyoshi",
+      "to": "unb_jpn_tokugawa_ieyasu",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_tokugawa_ieyasu",
+      "to": "unb_jpn_tokugawa_hidetada",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_tokugawa_hidetada",
+      "to": "unb_jpn_tokugawa_iemitsu",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_tokugawa_iemitsu",
+      "to": "unb_jpn_tokugawa_yoshinobu",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_tokugawa_yoshinobu",
+      "to": "unb_jpn_emperor_meiji",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_kor_wang_geon",
+      "to": "unb_kor_gwangjong",
+      "type": "expansion",
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+    },
+    {
+      "from": "unb_kor_gwangjong",
+      "to": "unb_kor_yi_seonggye",
+      "type": "expansion",
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+    },
+    {
+      "from": "unb_kor_yi_seonggye",
+      "to": "unb_kor_taejong",
+      "type": "expansion",
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+    },
+    {
+      "from": "unb_kor_taejong",
+      "to": "unb_kor_sejong_great",
+      "type": "expansion",
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+    },
+    {
+      "from": "unb_kor_sejong_great",
+      "to": "unb_kor_sejo",
+      "type": "expansion",
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+    },
+    {
+      "from": "unb_kor_sejo",
+      "to": "unb_kor_yi_sunsin",
+      "type": "expansion",
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+    },
+    {
+      "from": "unb_kor_yi_sunsin",
+      "to": "unb_kor_yeongjo_jeongjo",
+      "type": "expansion",
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+    },
+    {
+      "from": "unb_kor_yeongjo_jeongjo",
+      "to": "unb_kor_gojong",
+      "type": "expansion",
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+    },
+    {
+      "from": "unb_chn_cao_cao",
+      "to": "unb_chn_wen_sui",
+      "type": "expansion",
+      "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
+    },
+    {
+      "from": "unb_chn_wen_sui",
+      "to": "unb_chn_song_taizu",
+      "type": "expansion",
+      "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
+    },
+    {
+      "from": "unb_chn_song_taizu",
+      "to": "unb_chn_song_huizong",
+      "type": "expansion",
+      "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
+    },
+    {
+      "from": "unb_chn_song_huizong",
+      "to": "unb_chn_ming_hongwu",
+      "type": "expansion",
+      "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
+    },
+    {
+      "from": "unb_chn_ming_hongwu",
+      "to": "unb_chn_ming_yongle",
+      "type": "expansion",
+      "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
+    },
+    {
+      "from": "unb_chn_cao_cao",
+      "to": "unb_chn_liu_bei_zhuge",
+      "type": "cognate",
+      "label": "Contemporaries of China's Three Kingdoms era"
+    },
+    {
+      "from": "unb_chn_cao_cao",
+      "to": "unb_chn_sun_quan",
+      "type": "cognate",
+      "label": "Contemporaries of China's Three Kingdoms era"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_pythagoras",
+      "type": "expansion",
+      "label": "The Lives of the Ancient Philosophers (1702), Plutarch Lives: succession"
+    },
+    {
+      "from": "unb_grk_pythagoras",
+      "to": "unb_grk_socrates",
+      "type": "expansion",
+      "label": "The Lives of the Ancient Philosophers (1702), Plutarch Lives: succession"
+    },
+    {
+      "from": "unb_grk_socrates",
+      "to": "unb_grk_plato",
+      "type": "expansion",
+      "label": "The Lives of the Ancient Philosophers (1702), Plutarch Lives: succession"
+    },
+    {
+      "from": "unb_grk_plato",
+      "to": "unb_grk_aristotle",
+      "type": "expansion",
+      "label": "The Lives of the Ancient Philosophers (1702), Plutarch Lives: succession"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_homer_hesiod",
+      "type": "cognate",
+      "label": "Greek philosophical and literary lineage"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_heraclitus",
+      "type": "cognate",
+      "label": "Greek philosophical and literary lineage"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_parmenides",
+      "type": "cognate",
+      "label": "Greek philosophical and literary lineage"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_empedocles",
+      "type": "cognate",
+      "label": "Greek philosophical and literary lineage"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_democritus",
+      "type": "cognate",
+      "label": "Greek philosophical and literary lineage"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_hippocrates",
+      "type": "cognate",
+      "label": "Greek philosophical and literary lineage"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_diogenes",
+      "type": "cognate",
+      "label": "Greek philosophical and literary lineage"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_epicurus",
+      "type": "cognate",
+      "label": "Greek philosophical and literary lineage"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_zeno_stoic",
+      "type": "cognate",
+      "label": "Greek philosophical and literary lineage"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_euclid",
+      "type": "cognate",
+      "label": "Greek philosophical and literary lineage"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_archimedes",
+      "type": "cognate",
+      "label": "Greek philosophical and literary lineage"
+    },
+    {
+      "from": "unb_grk_thales",
+      "to": "unb_grk_herodotus_thucydides",
+      "type": "cognate",
+      "label": "Greek philosophical and literary lineage"
+    },
+    {
+      "from": "unb_grk_solon_lycurgus",
+      "to": "unb_grk_miltiades_themistocles",
+      "type": "expansion",
+      "label": "Plutarch's Lives, Thucydides, Herodotus: succession"
+    },
+    {
+      "from": "unb_grk_miltiades_themistocles",
+      "to": "unb_grk_leonidas",
+      "type": "expansion",
+      "label": "Plutarch's Lives, Thucydides, Herodotus: succession"
+    },
+    {
+      "from": "unb_grk_leonidas",
+      "to": "unb_grk_pericles",
+      "type": "expansion",
+      "label": "Plutarch's Lives, Thucydides, Herodotus: succession"
+    },
+    {
+      "from": "unb_grk_pericles",
+      "to": "unb_grk_alcibiades_lysander",
+      "type": "expansion",
+      "label": "Plutarch's Lives, Thucydides, Herodotus: succession"
+    },
+    {
+      "from": "unb_grk_alcibiades_lysander",
+      "to": "unb_grk_epaminondas",
+      "type": "expansion",
+      "label": "Plutarch's Lives, Thucydides, Herodotus: succession"
+    },
+    {
+      "from": "unb_grk_epaminondas",
+      "to": "unb_grk_pyrrhus_epirus",
+      "type": "expansion",
+      "label": "Plutarch's Lives, Thucydides, Herodotus: succession"
+    },
+    {
+      "from": "eur_poland_mieszko",
+      "to": "unb_eur_casimir3_poland",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 12: succession"
+    },
+    {
+      "from": "unb_eur_casimir3_poland",
+      "to": "unb_eur_jadwiga_jagiello",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 12: succession"
+    },
+    {
+      "from": "unb_eur_jadwiga_jagiello",
+      "to": "unb_eur_sigismund_poland",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 12: succession"
+    },
+    {
+      "from": "unb_eur_sigismund_poland",
+      "to": "unb_eur_john_sobieski",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 12: succession"
+    },
+    {
+      "from": "unb_eur_almos_arpad",
+      "to": "unb_eur_bela3_hungary",
+      "type": "expansion",
+      "label": "European Royal Chronicles: succession"
+    },
+    {
+      "from": "unb_eur_bela3_hungary",
+      "to": "unb_eur_louis_great_hungary",
+      "type": "expansion",
+      "label": "European Royal Chronicles: succession"
+    },
+    {
+      "from": "unb_eur_louis_great_hungary",
+      "to": "unb_eur_hunyadi_corvinus",
+      "type": "expansion",
+      "label": "European Royal Chronicles: succession"
+    },
+    {
+      "from": "unb_eur_premysl_bohemia",
+      "to": "unb_eur_ottokar2_bohemia",
+      "type": "expansion",
+      "label": "Chronicle of the Bohemians: succession"
+    },
+    {
+      "from": "unb_eur_ottokar2_bohemia",
+      "to": "unb_eur_charles4_bohemia",
+      "type": "expansion",
+      "label": "Chronicle of the Bohemians: succession"
+    },
+    {
+      "from": "unb_eur_eric_sweden",
+      "to": "unb_eur_gustav_vasa",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 12: succession"
+    },
+    {
+      "from": "unb_eur_gustav_vasa",
+      "to": "unb_eur_gustavus_adolphus",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 12: succession"
+    },
+    {
+      "from": "unb_eur_gustavus_adolphus",
+      "to": "unb_eur_charles12_sweden",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 12: succession"
+    },
+    {
+      "from": "unb_eur_gorm_bluetooth",
+      "to": "unb_eur_valdemar1_denmark",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 12: succession"
+    },
+    {
+      "from": "unb_eur_valdemar1_denmark",
+      "to": "unb_eur_margaret_kalmar",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 12: succession"
+    },
+    {
+      "from": "unb_eur_margaret_kalmar",
+      "to": "unb_eur_christian4_denmark",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 12: succession"
+    },
+    {
+      "from": "eur_poland_mieszko",
+      "to": "unb_eur_mindaugas_lithuania",
+      "type": "expansion",
+      "label": "Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12: succession"
+    },
+    {
+      "from": "unb_eur_mindaugas_lithuania",
+      "to": "unb_eur_gediminas",
+      "type": "expansion",
+      "label": "Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12: succession"
+    },
+    {
+      "from": "unb_eur_gediminas",
+      "to": "unb_eur_algirdas_vytautas",
+      "type": "expansion",
+      "label": "Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12: succession"
+    }
+  ]
+}

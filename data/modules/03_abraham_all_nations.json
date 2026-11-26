@@ -20,7 +20,8 @@
         "Josephus Ant. 1.8"
       ],
       "notes": "Fathers 8 sons across three wives: Isaac (Sarah), Ishmael (Hagar), and Zimran, Jokshan, Medan, Midian, Ishbak, Shuah (Keturah). Josephus & Artapanus say Abraham taught astronomy and mathematics in Egypt.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_nahor2",
@@ -35,7 +36,8 @@
         "Book of Jasher 9:1"
       ],
       "notes": "Fathers 8 sons by Milcah (including Bethuel -> Rebekah & Laban) and 4 children by Reumah.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_haran",
@@ -50,7 +52,8 @@
         "Book of Jasher 9:2-3, 12:37"
       ],
       "notes": "Died in Ur of the Chaldees (Jasher 12 says he died in Nimrod's furnace). Father of Lot, Milcah, and Sarai/Iscah (Jasher 9:3).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_lot",
@@ -65,7 +68,8 @@
         "Book of Jasher 19"
       ],
       "notes": "Nephew of Abraham; rescued from Sodom. Father of Moab and Ben-Ammi (Ammon).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_milcah",
@@ -79,7 +83,8 @@
         "Genesis 11:29, 22:20"
       ],
       "notes": "Daughter of Haran; marries her uncle Nahor II (mother of Bethuel).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_sarah",
@@ -94,7 +99,8 @@
         "Book of Jasher 9:3"
       ],
       "notes": "Wife of Abraham and mother of Isaac. Book of Jasher 9:3 and Talmud Megillah 14a identify her as Haran's daughter Iscah.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_moab",
@@ -109,7 +115,8 @@
         "Book of Jasher 19:60"
       ],
       "notes": "Progenitor of the Moabites (ancestors of Ruth, great-grandmother of King David!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_ammon",
@@ -124,7 +131,8 @@
         "Book of Jasher 19:61"
       ],
       "notes": "Progenitor of the Ammonites (centered at Rabbah / modern Amman).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_uz_nahor",
@@ -138,7 +146,8 @@
         "Genesis 22:20-24"
       ],
       "notes": "Firstborn of Nahor II & Milcah (Gen 22:21).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_buz",
@@ -152,7 +161,8 @@
         "Genesis 22:20-24"
       ],
       "notes": "Son of Nahor II & Milcah; eponym of Elihu the Buzite in Job.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_kemuel",
@@ -166,7 +176,8 @@
         "Genesis 22:20-24"
       ],
       "notes": "Son of Nahor II & Milcah; father of Aram (Gen 22:21).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_chesed",
@@ -180,7 +191,8 @@
         "Genesis 22:20-24"
       ],
       "notes": "Son of Nahor II & Milcah; often linked to the Kasdim/Chaldeans.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_hazo",
@@ -194,7 +206,8 @@
         "Genesis 22:20-24"
       ],
       "notes": "Son of Nahor II & Milcah.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_pildash",
@@ -208,7 +221,8 @@
         "Genesis 22:20-24"
       ],
       "notes": "Son of Nahor II & Milcah.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_jidlaph",
@@ -222,7 +236,8 @@
         "Genesis 22:20-24"
       ],
       "notes": "Son of Nahor II & Milcah.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_bethuel",
@@ -236,7 +251,8 @@
         "Genesis 22:20-24"
       ],
       "notes": "Son of Nahor II & Milcah; father of Rebekah (wife of Isaac) and Laban (father of Leah & Rachel).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_tebah",
@@ -250,7 +266,8 @@
         "Genesis 22:20-24"
       ],
       "notes": "Son of Nahor II & Reumah (Gen 22:24).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_gaham",
@@ -264,7 +281,8 @@
         "Genesis 22:20-24"
       ],
       "notes": "Son of Nahor II & Reumah (Gen 22:24).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_tahash",
@@ -278,7 +296,8 @@
         "Genesis 22:20-24"
       ],
       "notes": "Son of Nahor II & Reumah (Gen 22:24).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_maacah_nahor",
@@ -292,7 +311,8 @@
         "Genesis 22:20-24"
       ],
       "notes": "Child of Nahor II & Reumah (Gen 22:24); eponym of Aramean Maacah.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_rebekah",
@@ -307,7 +327,8 @@
         "Book of Jasher 24"
       ],
       "notes": "Marries Isaac; mother of Esau and Jacob.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_laban",
@@ -322,7 +343,8 @@
         "Book of Jasher 28-31"
       ],
       "notes": "Father of Leah and Rachel (wives of Jacob).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_ishmael",
@@ -341,7 +363,8 @@
         "Ibn Ishaq Sirah"
       ],
       "notes": "Jasher 21 names his wives Meribah (divorced) and Malchuth of Egypt. Fathers 12 Arabian tribal princes and daughter Mahalath/Basemath (who marries Esau).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ish_nebaioth",
@@ -356,7 +379,8 @@
         "Book of Jasher 25:14"
       ],
       "notes": "1st son of Ishmael; attested as Nabayati in Neo-Assyrian inscriptions and linked to Nabataeans / Adnanite lineage.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ish_kedar",
@@ -371,7 +395,8 @@
         "Book of Jasher 25:14"
       ],
       "notes": "2nd son of Ishmael; attested as the Qedarite Kingdom (Qidri) in Neo-Assyrian records; traditional ancestor of Adnan & Quraysh.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ish_adbeel",
@@ -386,7 +411,8 @@
         "Book of Jasher 25:14"
       ],
       "notes": "3rd son of Ishmael; attested as Idibi'ilu in Tiglath-Pileser III annals.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ish_mibsam",
@@ -401,7 +427,8 @@
         "Book of Jasher 25:14"
       ],
       "notes": "4th son of Ishmael.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ish_mishma",
@@ -416,7 +443,8 @@
         "Book of Jasher 25:14"
       ],
       "notes": "5th son of Ishmael.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ish_dumah",
@@ -431,7 +459,8 @@
         "Book of Jasher 25:14"
       ],
       "notes": "6th son of Ishmael; oasis of Dumat al-Jandal (Adummatu) in Northern Arabia.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ish_massa",
@@ -446,7 +475,8 @@
         "Book of Jasher 25:14"
       ],
       "notes": "7th son of Ishmael; North Arabian tribe of Mas'a.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ish_hadad",
@@ -461,7 +491,8 @@
         "Book of Jasher 25:14"
       ],
       "notes": "8th son of Ishmael.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ish_tema",
@@ -476,7 +507,8 @@
         "Book of Jasher 25:14"
       ],
       "notes": "9th son of Ishmael; famous NW Arabian caravan oasis of Tayma.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ish_jetur",
@@ -491,7 +523,8 @@
         "Book of Jasher 25:14"
       ],
       "notes": "10th son of Ishmael; Ituraean tribes of northern Transjordan/Lebanon.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ish_naphish",
@@ -506,7 +539,8 @@
         "Book of Jasher 25:14"
       ],
       "notes": "11th son of Ishmael.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ish_kedemah",
@@ -521,7 +555,8 @@
         "Book of Jasher 25:14"
       ],
       "notes": "12th son of Ishmael.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ish_mahalath",
@@ -535,7 +570,8 @@
         "Genesis 28:9, 36:3"
       ],
       "notes": "Sister of Nebaioth; marries her cousin Esau, uniting Ishmaelite and Edomite lines!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ar_adnan_quraysh",
@@ -554,7 +590,8 @@
         "Ibn al-Kalbi"
       ],
       "notes": "Classical Arabian genealogies trace the Northern Arabs from Ishmael (via Kedar/Nebaioth) through Adnan -> Ma'add -> Nizar -> Mudar -> Fihr (Quraysh) -> Qusayy -> Abd Manaf -> Hashim -> Abd al-Muttalib -> Abdullah -> Muhammad.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ket_zimran",
@@ -569,7 +606,8 @@
         "Book of Jasher 25:2-3"
       ],
       "notes": "1st son of Abraham & Keturah. Jasher 25:3 names his 3 sons: Abihen, Molich, Narim.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ket_jokshan",
@@ -584,7 +622,8 @@
         "Book of Jasher 25:2"
       ],
       "notes": "2nd son of Abraham & Keturah; father of Sheba and Dedan.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ket_medan",
@@ -599,7 +638,8 @@
         "Book of Jasher 25:2, 25:4"
       ],
       "notes": "3rd son of Abraham & Keturah. Jasher 25:4 names his 5 sons: Amida, Joab, Gochi, Elisha, Nothach.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ket_midian",
@@ -615,7 +655,8 @@
         "Book of Jasher 25:2"
       ],
       "notes": "4th son of Abraham & Keturah; father of Ephah, Epher, Hanoch, Abida, Eldaah. Ancestor of Reuel/Jethro and Moses's wife Zipporah.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ket_ishbak",
@@ -630,7 +671,8 @@
         "Book of Jasher 25:2, 25:5"
       ],
       "notes": "5th son of Abraham & Keturah. Jasher 25:5 names his 3 sons: Makiro, Beydod, Tator.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ket_shuah",
@@ -645,7 +687,8 @@
         "Book of Jasher 25:2, 25:5"
       ],
       "notes": "6th son of Abraham & Keturah; eponym of Shuhites (Bildad in Job). Jasher 25:5 names his 4 sons: Bildad, Mamdad, Munan, Meban.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jas_zim_abihen",
@@ -659,7 +702,8 @@
         "Book of Jasher 25:3"
       ],
       "notes": "Son of Zimran in Book of Jasher 25:3.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_zim_molich",
@@ -673,7 +717,8 @@
         "Book of Jasher 25:3"
       ],
       "notes": "Son of Zimran in Book of Jasher 25:3.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_zim_narim",
@@ -687,7 +732,8 @@
         "Book of Jasher 25:3"
       ],
       "notes": "Son of Zimran in Book of Jasher 25:3.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ket_sheba",
@@ -701,7 +747,8 @@
         "Genesis 25:3"
       ],
       "notes": "Grandson of Abraham via Jokshan (Northern Sabaean trade network).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ket_dedan",
@@ -715,7 +762,8 @@
         "Genesis 25:3"
       ],
       "notes": "Grandson of Abraham via Jokshan; father of Asshurim, Letushim, Leummim.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ket_asshurim",
@@ -729,7 +777,8 @@
         "Genesis 25:3"
       ],
       "notes": "Descendant tribe of Abraham via Jokshan -> Dedan (Gen 25:3).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ket_letushim",
@@ -743,7 +792,8 @@
         "Genesis 25:3"
       ],
       "notes": "Descendant tribe of Abraham via Jokshan -> Dedan (Gen 25:3).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ket_leummim",
@@ -757,7 +807,8 @@
         "Genesis 25:3"
       ],
       "notes": "Descendant tribe of Abraham via Jokshan -> Dedan (Gen 25:3).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_med_amida",
@@ -771,7 +822,8 @@
         "Book of Jasher 25:4"
       ],
       "notes": "Son of Medan in Book of Jasher 25:4.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_med_joab",
@@ -785,7 +837,8 @@
         "Book of Jasher 25:4"
       ],
       "notes": "Son of Medan in Book of Jasher 25:4.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_med_gochi",
@@ -799,7 +852,8 @@
         "Book of Jasher 25:4"
       ],
       "notes": "Son of Medan in Book of Jasher 25:4.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_med_elisha",
@@ -813,7 +867,8 @@
         "Book of Jasher 25:4"
       ],
       "notes": "Son of Medan in Book of Jasher 25:4.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_med_nothach",
@@ -827,7 +882,8 @@
         "Book of Jasher 25:4"
       ],
       "notes": "Son of Medan in Book of Jasher 25:4.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mid_ephah",
@@ -842,7 +898,8 @@
         "Book of Jasher 25:4"
       ],
       "notes": "1st son of Midian (Gen 25:4; attested as Khayappa in Assyrian annals).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mid_epher",
@@ -857,7 +914,8 @@
         "Book of Jasher 25:4"
       ],
       "notes": "2nd son of Midian (Gen 25:4).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mid_hanoch",
@@ -872,7 +930,8 @@
         "Book of Jasher 25:4"
       ],
       "notes": "3rd son of Midian (Gen 25:4).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mid_abida",
@@ -887,7 +946,8 @@
         "Book of Jasher 25:4"
       ],
       "notes": "4th son of Midian (Gen 25:4).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mid_eldaah",
@@ -902,7 +962,8 @@
         "Book of Jasher 25:4"
       ],
       "notes": "5th son of Midian (Gen 25:4).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mid_jethro",
@@ -917,7 +978,8 @@
         "Book of Jasher 76"
       ],
       "notes": "Midianite priest (Shu'ayb in Islamic tradition) who shelters Moses after his reign in Cush (Jasher 76) and gives him his daughter Zipporah.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jas_ishb_makiro",
@@ -931,7 +993,8 @@
         "Book of Jasher 25:5"
       ],
       "notes": "Son of Ishbak in Book of Jasher 25:5.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_ishb_beydod",
@@ -945,7 +1008,8 @@
         "Book of Jasher 25:5"
       ],
       "notes": "Son of Ishbak in Book of Jasher 25:5.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_ishb_tator",
@@ -959,7 +1023,8 @@
         "Book of Jasher 25:5"
       ],
       "notes": "Son of Ishbak in Book of Jasher 25:5.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_shu_bildad",
@@ -973,7 +1038,8 @@
         "Book of Jasher 25:5"
       ],
       "notes": "Son of Shuah in Book of Jasher 25:5 — connects Shuah to Bildad the Shuhite in the Book of Job!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_shu_mamdad",
@@ -987,7 +1053,8 @@
         "Book of Jasher 25:5"
       ],
       "notes": "Son of Shuah in Book of Jasher 25:5.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_shu_munan",
@@ -1001,7 +1068,8 @@
         "Book of Jasher 25:5"
       ],
       "notes": "Son of Shuah in Book of Jasher 25:5.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_shu_meban",
@@ -1015,7 +1083,8 @@
         "Book of Jasher 25:5"
       ],
       "notes": "Son of Shuah in Book of Jasher 25:5.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_isaac",
@@ -1034,7 +1103,8 @@
         "Book of Jasher 22-35"
       ],
       "notes": "Marries Rebekah (daughter of Bethuel, granddaughter of Nahor II). Father of twin sons Esau (Edom) and Jacob (Israel).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_esau",
@@ -1051,7 +1121,8 @@
         "Book of Jasher 27, 36, 57, 61"
       ],
       "notes": "Marries Adah (Hittite), Oholibamah (Hivite/Horite), and Basemath/Mahalath (daughter of Ishmael). Jasher 27 narrates Esau slaying Nimrod and taking Adam's garments!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "esa_eliphaz",
@@ -1066,7 +1137,8 @@
         "Book of Jasher 36, 57"
       ],
       "notes": "Firstborn of Esau (via Adah); father of Teman, Omar, Zepho, Gatam, Kenaz, and Amalek (via Timna).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "esa_reuel",
@@ -1081,7 +1153,8 @@
         "Book of Jasher 36"
       ],
       "notes": "Son of Esau & Basemath (daughter of Ishmael) — uniting Edom and Ishmael! Father of Nahath, Zerah, Shammah, Mizzah.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "esa_jeush",
@@ -1095,7 +1168,8 @@
         "Genesis 36:5"
       ],
       "notes": "Son of Esau & Oholibamah (daughter of Anah the Horite).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "esa_jalam",
@@ -1109,7 +1183,8 @@
         "Genesis 36:5"
       ],
       "notes": "Son of Esau & Oholibamah.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "esa_korah",
@@ -1123,7 +1198,8 @@
         "Genesis 36:5"
       ],
       "notes": "Son of Esau & Oholibamah.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "esa_teman",
@@ -1137,7 +1213,8 @@
         "Genesis 36:11-12"
       ],
       "notes": "Eponym of Teman in Edom (linked to Eliphaz the Temanite in Job).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "esa_omar",
@@ -1151,7 +1228,8 @@
         "Genesis 36:11-12"
       ],
       "notes": "Son of Eliphaz (Gen 36:11).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "esa_zepho",
@@ -1166,7 +1244,8 @@
         "Book of Jasher 57, 61"
       ],
       "notes": "In Book of Jasher ch. 57-61, Zepho escapes Joseph's prison in Egypt, flees to Kittim (Italy), slays a beast and defeats Angeas king of Africa, and becomes King of Chittim (father of Janeus/Janus)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "esa_gatam",
@@ -1180,7 +1259,8 @@
         "Genesis 36:11-12"
       ],
       "notes": "Son of Eliphaz (Gen 36:11).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "esa_kenaz",
@@ -1194,7 +1274,8 @@
         "Genesis 36:11-12"
       ],
       "notes": "Son of Eliphaz (Gen 36:11); linked to the Kenizzites.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "esa_amalek",
@@ -1209,7 +1290,8 @@
         "Exodus 17"
       ],
       "notes": "Son of Eliphaz & Timna (sister of Lotan the Horite); ancestor of the Amalekites.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "esa_nahath",
@@ -1223,7 +1305,8 @@
         "Genesis 36:13"
       ],
       "notes": "Son of Reuel (Gen 36:13).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "esa_zerah",
@@ -1237,7 +1320,8 @@
         "Genesis 36:13"
       ],
       "notes": "Son of Reuel (Gen 36:13); father of Jobab king of Edom (Gen 36:33).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "esa_shammah",
@@ -1251,7 +1335,8 @@
         "Genesis 36:13"
       ],
       "notes": "Son of Reuel (Gen 36:13).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "esa_mizzah",
@@ -1265,7 +1350,8 @@
         "Genesis 36:13"
       ],
       "notes": "Son of Reuel (Gen 36:13).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_janeus",
@@ -1280,7 +1366,8 @@
         "Book of Jasher 64"
       ],
       "notes": "Son of Zepho in Book of Jasher 62:25, succeeding him as king over Kittim (Italy) — echoing Roman Janus!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_jacob",
@@ -1299,7 +1386,8 @@
         "Book of Jasher 28-56"
       ],
       "notes": "Marries Leah and Rachel (daughters of Laban) plus Bilhah and Zilpah. Fathers 12 sons and daughter Dinah, with all 70 household members enumerated in Genesis 46 & Jasher 59.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "tri_reuben",
@@ -1314,7 +1402,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Child of Jacob & Leah (Gen 29-30, 46; Jasher 45, 59).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "tri_reuben_hanoch",
@@ -1329,7 +1418,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Reuben listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_reuben_pallu",
@@ -1344,7 +1434,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Reuben listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_reuben_hezron",
@@ -1359,7 +1450,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Reuben listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_reuben_carmi",
@@ -1374,7 +1466,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Reuben listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_simeon",
@@ -1389,7 +1482,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Child of Jacob & Leah (Gen 29-30, 46; Jasher 45, 59).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_simeon_jemuel",
@@ -1404,7 +1498,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Simeon listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_simeon_jamin",
@@ -1419,7 +1514,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Simeon listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_simeon_ohad",
@@ -1434,7 +1530,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Simeon listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_simeon_jachin",
@@ -1449,7 +1546,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Simeon listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_simeon_zohar",
@@ -1464,7 +1562,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Simeon listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_simeon_shaul",
@@ -1479,7 +1578,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Simeon listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_levi",
@@ -1494,7 +1594,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Child of Jacob & Leah (Gen 29-30, 46; Jasher 45, 59).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "tri_judah",
@@ -1509,7 +1610,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Child of Jacob & Leah (Gen 29-30, 46; Jasher 45, 59).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "tri_dan",
@@ -1524,7 +1626,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Child of Jacob & Bilhah (Gen 29-30, 46; Jasher 45, 59).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_dan_hushim",
@@ -1539,7 +1642,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Dan listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_naphtali",
@@ -1554,7 +1658,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Child of Jacob & Bilhah (Gen 29-30, 46; Jasher 45, 59).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_naphtali_jahzeel",
@@ -1569,7 +1674,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Naphtali listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_naphtali_guni",
@@ -1584,7 +1690,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Naphtali listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_naphtali_jezer",
@@ -1599,7 +1706,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Naphtali listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_naphtali_shillem",
@@ -1614,7 +1722,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Naphtali listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_gad",
@@ -1629,7 +1738,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Child of Jacob & Zilpah (Gen 29-30, 46; Jasher 45, 59).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_gad_ziphion",
@@ -1644,7 +1754,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Gad listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_gad_haggi",
@@ -1659,7 +1770,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Gad listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_gad_shuni",
@@ -1674,7 +1786,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Gad listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_gad_ezbon",
@@ -1689,7 +1802,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Gad listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_gad_eri",
@@ -1704,7 +1818,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Gad listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_gad_arodi",
@@ -1719,7 +1834,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Gad listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_gad_areli",
@@ -1734,7 +1850,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Gad listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_asher",
@@ -1749,7 +1866,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Child of Jacob & Zilpah (Gen 29-30, 46; Jasher 45, 59).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_asher_imnah",
@@ -1764,7 +1882,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Asher listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_asher_ishvah",
@@ -1779,7 +1898,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Asher listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_asher_ishvi",
@@ -1794,7 +1914,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Asher listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_asher_beriah",
@@ -1809,7 +1930,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Asher listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_asher_serah_dau",
@@ -1824,7 +1946,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Daughter of Asher; celebrated in Book of Jasher 54:35 as the harp-playing maiden who broke the news to Jacob that Joseph was alive in Egypt!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_issachar",
@@ -1839,7 +1962,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Child of Jacob & Leah (Gen 29-30, 46; Jasher 45, 59).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_issachar_tola",
@@ -1854,7 +1978,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Issachar listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_issachar_puvah",
@@ -1869,7 +1994,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Issachar listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_issachar_job_jashub",
@@ -1884,7 +2010,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Issachar listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_issachar_shimron",
@@ -1899,7 +2026,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Issachar listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_zebulun",
@@ -1914,7 +2042,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Child of Jacob & Leah (Gen 29-30, 46; Jasher 45, 59).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_zebulun_sered",
@@ -1929,7 +2058,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Zebulun listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_zebulun_elon",
@@ -1944,7 +2074,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Zebulun listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_zebulun_jahleel",
@@ -1959,7 +2090,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Zebulun listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_dinah",
@@ -1974,7 +2106,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Daughter of Jacob & Leah. Book of Jasher 49:16-18 (and Pirkei de-Rabbi Eliezer) famously states that Asenath (Joseph's Egyptian wife) was Dinah's daughter adopted by Poti-phera in Egypt!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_joseph",
@@ -1993,7 +2126,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Vizier of Egypt under Pharaoh; given the Egyptian name Zaphenath-Paneah (Gen 41:45; Jasher 49:18) and wed to Asenath daughter of Poti-phera, Priest of On/Heliopolis. Often compared to Imhotep (vizier of Djoser during a 7-year famine).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "tri_benjamin",
@@ -2008,7 +2142,8 @@
         "Book of Jasher 45, 59"
       ],
       "notes": "Child of Jacob & Rachel (Gen 29-30, 46; Jasher 45, 59).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "tri_benjamin_bela",
@@ -2023,7 +2158,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Benjamin listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_benjamin_becher",
@@ -2038,7 +2174,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Benjamin listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_benjamin_ashbel",
@@ -2053,7 +2190,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Benjamin listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_benjamin_gera",
@@ -2068,7 +2206,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Benjamin listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_benjamin_naaman",
@@ -2083,7 +2222,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Benjamin listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_benjamin_ehi",
@@ -2098,7 +2238,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Benjamin listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_benjamin_rosh",
@@ -2113,7 +2254,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Benjamin listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_benjamin_muppim",
@@ -2128,7 +2270,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Benjamin listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_benjamin_huppim",
@@ -2143,7 +2286,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Benjamin listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "tri_benjamin_ard",
@@ -2158,7 +2302,8 @@
         "Book of Jasher 59"
       ],
       "notes": "Child of Benjamin listed in Genesis 46 & Book of Jasher 59.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "lev_gershon",
@@ -2173,7 +2318,8 @@
         "Exodus 6:16-20"
       ],
       "notes": "1st son of Levi (Gen 46:11; Exod 6:16).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "lev_kohath",
@@ -2188,7 +2334,8 @@
         "Exodus 6:16-20"
       ],
       "notes": "2nd son of Levi; grandfather of Moses, Aaron & Miriam.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "lev_merari",
@@ -2203,7 +2350,8 @@
         "Exodus 6:16-20"
       ],
       "notes": "3rd son of Levi (Gen 46:11; Exod 6:16).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "lev_jochebed",
@@ -2219,7 +2367,8 @@
         "Book of Jasher 67:2"
       ],
       "notes": "Daughter of Levi born in Egypt; wife of Amram and mother of Miriam, Aaron, and Moses.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "lev_amram",
@@ -2234,7 +2383,8 @@
         "Book of Jasher 67"
       ],
       "notes": "Father of Miriam, Aaron, and Moses.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "lev_izhar",
@@ -2248,7 +2398,8 @@
         "Exodus 6:18"
       ],
       "notes": "Son of Kohath; father of Korah (Exod 6:21).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "lev_hebron",
@@ -2262,7 +2413,8 @@
         "Exodus 6:18"
       ],
       "notes": "Son of Kohath (Exod 6:18).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "lev_uzziel",
@@ -2276,7 +2428,8 @@
         "Exodus 6:18"
       ],
       "notes": "Son of Kohath (Exod 6:18).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "lev_miriam",
@@ -2291,7 +2444,8 @@
         "Book of Jasher 67:12"
       ],
       "notes": "Prophetess, sister of Moses and Aaron.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "lev_aaron",
@@ -2305,7 +2459,8 @@
         "Exodus 6:20-23"
       ],
       "notes": "First High Priest of Israel; marries Elisheba (father of Nadab, Abihu, Eleazar, Ithamar).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_moses",
@@ -2327,7 +2482,8 @@
         "Josephus Against Apion 1.26"
       ],
       "notes": "Raised by Pharaoh's daughter Bithiah (1 Chr 4:18; Jasher 68). Book of Jasher 72-76 (and Josephus Ant. 2.10) recounts Moses serving as King of Cush (Ethiopia) for 40 years with Queen Adoniah before marrying Zipporah in Midian! Identified in Manetho as Egyptian priest Osarseph and in Artapanus as Musaeus/Hermes.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mos_gershom",
@@ -2342,7 +2498,8 @@
         "Book of Jasher 77"
       ],
       "notes": "Firstborn son of Moses & Zipporah (daughter of Jethro of Midian).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mos_eliezer",
@@ -2357,7 +2514,8 @@
         "Book of Jasher 77"
       ],
       "notes": "Second son of Moses & Zipporah.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jud_er",
@@ -2372,7 +2530,8 @@
         "Genesis 46:12"
       ],
       "notes": "1st son of Judah & Shua's daughter (Gen 38:3).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jud_onan",
@@ -2387,7 +2546,8 @@
         "Genesis 46:12"
       ],
       "notes": "2nd son of Judah (Gen 38:4).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jud_shelah",
@@ -2402,7 +2562,8 @@
         "Genesis 46:12"
       ],
       "notes": "3rd son of Judah (Gen 38:5).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jud_zerah",
@@ -2417,7 +2578,8 @@
         "Genesis 46:12"
       ],
       "notes": "Twin son of Judah & Tamar (Gen 38:30); linked in some classical/Irish traditions to Mediterranean migrations.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jud_perez",
@@ -2432,7 +2594,8 @@
         "Ruth 4:18-22"
       ],
       "notes": "Twin son of Judah & Tamar; direct ancestor of Boaz, King David, and the royal Davidic line.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jud_boaz_jesse",
@@ -2447,7 +2610,8 @@
         "1 Chronicles 2:5-15"
       ],
       "notes": "Boaz marries Ruth the Moabitess (descendant of Lot!), uniting the Israelite line of Judah with the Moabite line of Lot.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jud_david",
@@ -2462,7 +2626,8 @@
         "1 Chronicles 3"
       ],
       "notes": "Son of Jesse; father of Solomon, Absalom, Adonijah, Nathan, and Tamar.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jud_solomon",
@@ -2480,7 +2645,8 @@
         "Kebra Nagast"
       ],
       "notes": "Father of Rehoboam (Judah). In Ethiopia's national epic Kebra Nagast, Solomon and Makeda (Queen of Sheba) parent Menelik I, bridging Israel, Arabia/Sheba, and Ethiopia!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eth_menelik",
@@ -2497,7 +2663,8 @@
         "Kebra Nagast (Ethiopian National Epic)"
       ],
       "notes": "Son of King Solomon and Queen Makeda of Sheba (Saba). Creates a famous African-Arabian-Israelite royal genealogy bridging Cush/Ethiopia, Sheba, and Judah!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jos_manasseh",
@@ -2512,7 +2679,8 @@
         "Book of Jasher 50"
       ],
       "notes": "Firstborn of Joseph & Asenath (daughter of Poti-phera, Priest of On).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jos_ephraim",
@@ -2527,7 +2695,8 @@
         "Book of Jasher 50"
       ],
       "notes": "Second son of Joseph & Asenath; ancestor of Joshua.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jud_david_children",
@@ -2543,7 +2712,8 @@
         "Luke 3:31"
       ],
       "notes": "1 Chronicles 3 lists all 19 sons of David (Amnon, Chileab, Absalom, Adonijah, Shephatiah, Ithream, Shammua, Shobab, Nathan, Solomon, etc.) and daughter Tamar. Luke 3 traces Jesus's genealogy through Nathan, while Matthew 1 traces through Solomon!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jud_rehoboam_josiah",
@@ -2559,7 +2729,8 @@
         "Ezra 3"
       ],
       "notes": "Solomon -> Rehoboam (raided by Pharaoh Shishak/Shoshenq I!) -> ... -> Hezekiah (allied with Cushite King Taharqa against Sennacherib!) -> Josiah -> Jehoiachin -> Zerubbabel (who leads the return from Babylon under Cyrus the Great!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     }
   ],
   "edges": [

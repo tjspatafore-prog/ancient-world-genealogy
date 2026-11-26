@@ -17,7 +17,8 @@
         "Al-Mas'udi Meadows of Gold Vol. I pp. 312-313"
       ],
       "notes": "Al-Mas'udi explicitly derives the Chinese sovereigns from Japheth b. Noah: 'The majority of the children of Abur followed the course of the river to the extremity of China... Their first king in this new settlement was Lotsatis ben Na'ur ben Yarej ben Abur ben Yafeth ben Nuh' at Anku.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_masudi_successors",
@@ -36,7 +37,8 @@
         "Al-Mas'udi Meadows of Gold Vol. I pp. 313-317"
       ],
       "notes": "Al-Mas'udi continues Lotsatis's lineage through 'Arun, 'Abirun, 'Athinan (bordering the Turks, descendants of his uncle), Jaraban (who sent ships to India & Babylon) & his temple-building lawgiver successor.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ind_hind_sind_noah",
@@ -55,7 +57,8 @@
         "Al-Mas'udi Meadows of Gold"
       ],
       "notes": "Al-Tabari records both major traditions linking India to Noah: (1) Indians & Sindis descending from Ham -> Cush/Canaan (p. 15), and (2) Ibn 'Abbas & Hisham al-Kalbi's line Shem -> Arphaxad -> Shelah -> Eber -> Qahtan (Joktan) -> Buqayin, father of Hind & Sind (p. 17).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ind_mahasammata_okkaka",
@@ -74,7 +77,8 @@
         "The Blue Annals"
       ],
       "notes": "The Pali Mahavamsa opens its royal pedigree with first elected king Mahāsammata (cognate of Manu) -> Roja -> Mandhatar -> Okkaka (Pali form of Solar Dynasty founder Ikshvaku!) -> the Śākya clan of Kapilavastu.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "kas_gonanda_ashoka",
@@ -92,7 +96,8 @@
         "Kalhana's Rajatarangini Vol. 1 (M.A. Stein 1900)"
       ],
       "notes": "Kalhana's Rajatarangini begins Kashmir's royal chronology at the Kurukshetra War under Gonanda I (contemporary of the Pandavas) and directly includes Emperor Ashoka (who exchanged envoys with Ptolemy II of Egypt!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ceylon_vijaya_mahinda",
@@ -110,7 +115,8 @@
         "Mahavamsa (Geiger Ch. II, VI-VII, XIII)"
       ],
       "notes": "The Mahavamsa connects Sri Lanka's first monarch Vijaya (landing on the exact day of Buddha's Parinirvana) -> Devanampiya Tissa with Emperor Ashoka's own son Mahinda and daughter Sanghamitta.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "burma_abhiraza_tagaung",
@@ -127,7 +133,8 @@
         "Glass Palace Chronicle of the Kings of Burma (Pe Maung Tin & Luce)"
       ],
       "notes": "The Hmannan Yazawin (Glass Palace Chronicle) traces the founding kings of Burma to Śākya prince Abhiraza, descendant of Mahāsammata and Okkaka (Ikshvaku), who marched from northern India to build Tagaung.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "tib_nyatri_songtsen",
@@ -144,7 +151,8 @@
         "The Blue Annals (Deb-ther sngon-po, George Roerich tr., Book I)"
       ],
       "notes": "'Gos Lo-tsā-ba's Blue Annals Book I opens the Royal Chronicle of Tibet with the Indian Śākya/Licchavi origin of Tibet's first king Nyatri Tsenpo (gNya'-khri btsan-po) descending to Buddhist unifier Songtsen Gampo.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     }
   ],
   "edges": [

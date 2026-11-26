@@ -19,7 +19,8 @@
         "Manetho"
       ],
       "notes": "Atum-Ra emerges from the primeval flood-waters of Nun (often compared to cosmic Flood waters) to generate Shu & Tefnut.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_ptah",
@@ -37,7 +38,8 @@
         "Manetho Aegyptiaca"
       ],
       "notes": "Manetho places Ptah (Hephaestus) at the head of Egypt's divine kings! His temple Hikuptah ('House of the Ka of Ptah') gave Greece the word 'Aigyptos' (Egypt), and 'Na-Ptah' ('People of Ptah') is the exact linguistic cognate of Biblical Naphtuhim (Gen 10:13)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_shu_tefnut",
@@ -52,7 +54,8 @@
         "Turin King List"
       ],
       "notes": "Parents of Osiris, Isis, Set, and Nephthys — recorded as divine pre-dynastic sovereigns in the Turin King List.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_ennead",
@@ -71,7 +74,8 @@
         "Turin King List"
       ],
       "notes": "Osiris reigns as Egypt's first mortal-like civilizing king, is sealed in a chest/ark floated down the Nile by Set (compared by syncretists to Noah's Ark!), and resurrects via Isis to sire Horus. Nephthys & Osiris/Set parent Anubis.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_horus",
@@ -86,7 +90,8 @@
         "Manetho"
       ],
       "notes": "Son of Osiris & Isis; rules Egypt before passing sovereignty through the Shemsu-Hor ('Followers of Horus' / demigods) to Narmer/Menes.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_thoth_saurid",
@@ -109,7 +114,8 @@
         "Bar Hebraeus"
       ],
       "notes": "Manetho lists Thoth (Hermes) among Egypt's divine sovereigns. Greco-Egyptian, Hermetic, and Coptic-Arabic histories explicitly identify Biblical Enoch (Idris) with Thoth / Hermes Trismegistus and antediluvian King Saurid, who foresaw the Flood and built the Pyramids to preserve astronomy!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_philemon",
@@ -124,7 +130,8 @@
         "al-Maqrizi Khitat"
       ],
       "notes": "Coptic-Arabic chronicles describe Philemon (descendant/priest of King Saurid's line) joining Noah on the Ark and guiding Ham's grandson Misrayim (Mizraim) back to resettle Egypt after the Flood!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_baysar_misr",
@@ -143,7 +150,8 @@
         "Akhbar al-Zaman"
       ],
       "notes": "Medieval Coptic-Arabic histories trace post-Flood Egypt from Ham -> Baysar -> Misrayim (Mizraim), whose 4 sons Qift (eponym of the Copts/Qift!), Ashmun (Hermopolis), Atrib (Athribis), and Sa (Sais) divide Egypt!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_jas_rikayon",
@@ -161,7 +169,8 @@
         "Book of Jasher 14, 66-68, 77-81"
       ],
       "notes": "Book of Jasher 14 recounts Rikayon rising to power in Shinar/Egypt and receiving the title 'Pharaoh', followed in later generations by King Melol (Pharaoh at Moses's birth, father of Princess Bithiah) and short-statured King Adikam (Pharaoh of the Exodus!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "le_sanchuniathon",
@@ -179,7 +188,8 @@
         "Philo of Byblos / Sanchuniathon (via Eusebius Praep. Ev. I.10)"
       ],
       "notes": "Explicitly names Misor (direct cognate of Biblical Mizraim!) as brother of Sydyk (cf. Melchizedek) and father of Taaut (Egyptian Thoth), alongside Chna (Canaan).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_menes",
@@ -200,7 +210,8 @@
         "Manetho"
       ],
       "notes": "Unified Upper and Lower Egypt and founded Memphis (city of Ptah); historical anchor for the land of Mizraim.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_hor_aha",
@@ -215,7 +226,8 @@
         "Palermo Stone"
       ],
       "notes": "Hor-Aha (son of Narmer) -> Djer -> Djet + Regent Queen Merneith (first known female ruler/regent in Egyptian history!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_den_qaa",
@@ -230,7 +242,8 @@
         "Abydos King List"
       ],
       "notes": "Den (son of Djet & Merneith) first wore the Double Crown of Egypt; followed by Anedjib, Semerkhet, and Qa'a.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_dyn2_khasekhemwy",
@@ -245,7 +258,8 @@
         "Abydos Inscriptions"
       ],
       "notes": "Khasekhemwy reunited Egypt under both Horus and Set symbols; with Queen Nimaathap he founded the line leading to 3rd Dynasty pyramid builders!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_djoser",
@@ -261,7 +275,8 @@
         "Turin King List"
       ],
       "notes": "Commissioned the world's first monumental stone pyramid at Saqqara through his vizier Imhotep.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_imhotep",
@@ -278,7 +293,8 @@
         "Manetho"
       ],
       "notes": "High Priest of Heliopolis (On) and vizier of Djoser. The Sehel Island Famine Stela credits Imhotep with ending a 7-year Nile famine — famously compared to Joseph (Zaphenath-Paneah), who wed the daughter of the Priest of On!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_sneferu",
@@ -293,7 +309,8 @@
         "Dahshur Pyramids"
       ],
       "notes": "Sneferu built three giant pyramids (Meidum, Bent, Red) and with Hetepheres I fathered Khufu.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_khufu",
@@ -311,7 +328,8 @@
         "Herodotus II"
       ],
       "notes": "Son of Sneferu & Hetepheres I; commissioned the Great Pyramid of Giza (attributed in Coptic-Arabic folklore to antediluvian King Saurid/Enoch!). Father of Djedefre and Khafre.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_khafre_menkaure",
@@ -326,7 +344,8 @@
         "Turin King List"
       ],
       "notes": "Sons of Khufu (Djedefre & Khafre, builder of 2nd Giza Pyramid & Great Sphinx) -> Menkaure (3rd Giza Pyramid) -> Shepseskaf.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_dyn5_6",
@@ -342,7 +361,8 @@
         "Manetho"
       ],
       "notes": "Unas inscribed the world's oldest surviving religious corpus (Pyramid Texts); Pepi II reigned ~94 years before the Old Kingdom collapsed.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_mentuhotep2",
@@ -358,7 +378,8 @@
         "Beni Hasan Tomb"
       ],
       "notes": "Mentuhotep II reunites Egypt; Amenemhat I & Senusret I inaugurate the Middle Kingdom (the Beni Hasan tomb depicts Semitic Aamu caravans entering Egypt in this exact era, paralleling Abraham & Jacob!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_senusret3_amenemhat3",
@@ -373,7 +394,8 @@
         "Turin King List"
       ],
       "notes": "Senusret III expands into Nubia (Kush); Amenemhat III builds the Faiyum irrigation system (later called Bahr Yussef, 'Canal of Joseph' in Egyptian tradition!); Sobekneferu is the first verified female Pharaoh.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_hyksos",
@@ -391,7 +413,8 @@
         "Turin King List"
       ],
       "notes": "Canaanite/West-Semitic kings ruling Lower Egypt from Avaris (Goshen/Delta!). Both Manetho and Josephus linked the Hyksos era to the arrival/expulsion of the Israelites under Joseph and Moses.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_seqenenre",
@@ -406,7 +429,8 @@
         "Royal Mummies"
       ],
       "notes": "Theban royal family who fought to expel the Hyksos from Avaris; parents of Ahmose I (founder of the New Kingdom).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_ahmose1",
@@ -421,7 +445,8 @@
         "Tomb of Ahmose son of Ibana"
       ],
       "notes": "Son of Seqenenre Tao & Ahhotep I; expels the Hyksos from Avaris and conquers Sharuhen in Canaan.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_thutmose1",
@@ -438,7 +463,8 @@
         "Punt Expedition Reliefs"
       ],
       "notes": "Thutmose I campaigns to the Euphrates and Kush; daughter Hatshepsut rules as Pharaoh and dispatches the famed expedition to the Land of Punt (East Africa/Horn of Africa) — sometimes compared in early-Exodus chronology to Pharaoh's daughter who raised Moses!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_thutmose3",
@@ -453,7 +479,8 @@
         "Dream Stele"
       ],
       "notes": "Thutmose III wins the Battle of Megiddo in Canaan and extends Egyptian rule from the Euphrates to the 4th Cataract of Nubia.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_amenhotep3",
@@ -468,7 +495,8 @@
         "Colossi of Memnon"
       ],
       "notes": "Corresponded with Babylon, Assyria, Mitanni, and Canaanite vassals (Amarna Letters mentioning 'Habiru'!). With Queen Tiye fathered Akhenaten.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_akhenaten",
@@ -486,7 +514,8 @@
         "Amarna Letters"
       ],
       "notes": "Son of Amenhotep III & Tiye; established solar monotheism at Akhetaten (Amarna). Frequently linked in comparative history (e.g., Psalm 104 <-> Great Hymn to Aten; Manetho's Osarseph memory) to the Mosaic era!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_tutankhamun",
@@ -501,7 +530,8 @@
         "Restoration Stele"
       ],
       "notes": "Son of Akhenaten; marries half-sister Ankhesenamun (who famously wrote to Hittite King Suppiluliuma I asking for a Hittite prince to marry — bridging Egypt and Heth/Hittites!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_ramesses2",
@@ -520,7 +550,8 @@
         "Exodus 1:11"
       ],
       "notes": "Built the Delta capital Pi-Ramesses (named 'Raamses' in Exodus 1:11!) and signed history's oldest surviving peace treaty with the Hittites (Hattusili III). Most widely cited Pharaoh of the late-date Exodus!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_merneptah",
@@ -536,7 +567,8 @@
         "Merneptah Stele (Cairo CG 34025)"
       ],
       "notes": "Son of Ramesses II; his 1208 BCE Victory Stele contains the earliest extra-biblical mention of 'Israel' as a people in Canaan!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_ramesses3",
@@ -551,7 +583,8 @@
         "Papyrus Harris I"
       ],
       "notes": "Repelled the Sea Peoples invasion including the Peleset (Philistines — Caphtorim/Casluhim of Gen 10:14!), who subsequently settled coastal Canaan!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_shoshenq1",
@@ -568,7 +601,8 @@
         "1 Kings 14:25-26"
       ],
       "notes": "Founder of the Libyan (Phut/Lehabim) 22nd Dynasty; explicitly named 'Shishak' in 1 Kings 14:25, sheltering Jeroboam and campaigning in Judah and Israel after Solomon's death!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eg_ptolemy_cleopatra",
@@ -586,7 +620,8 @@
         "Manetho Aegyptiaca"
       ],
       "notes": "Under Ptolemy II Philadelphus, Jewish scholars translated the Torah into Greek (Septuagint) at Alexandria while Egyptian priest Manetho compiled the 30-dynasty history of Egypt and the Osarseph/Moses account; ends with Cleopatra VII.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eg_osarseph_bithiah",
@@ -607,7 +642,8 @@
         "Book of Jasher 68, 72-76"
       ],
       "notes": "Manetho preserves an Egyptian tradition of a Heliopolitan priest named Osarseph who took the name Moses; Artapanus calls Moses 'Musaeus' (teacher of Orpheus) and Egyptian 'Hermes', leading an expedition into Cush/Ethiopia — echoing Book of Jasher 72-76 where Moses rules Cush with Queen Adoniah!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     }
   ],
   "edges": [

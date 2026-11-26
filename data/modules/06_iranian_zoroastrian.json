@@ -19,7 +19,8 @@
         "Shahnameh"
       ],
       "notes": "Created by Ahura Mazda ('Mortal Life'). From his seed purified in the earth grew a rhubarb plant splitting into Mashya and Mashyana.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_mashya_mashyana",
@@ -35,7 +36,8 @@
         "Bundahishn Ch. 14"
       ],
       "notes": "Twin first man and woman who bore 7 pairs of twins, including Siamak & Nashak (ancestors of Iran) and Fravak & Fravakain (ancestors of all 15 human races!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_fravak",
@@ -51,7 +53,8 @@
         "Bundahishn Ch. 14:36-39"
       ],
       "notes": "Bundahishn Ch. 14 traces 15 distinct human nations across the 7 climes (karshvars) to Fravak & Fravakain — including Iranians (Hoshang), Arabs (Taz), Mazandaran, India, Turan, China (Chin), and the West (Rum)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_taz",
@@ -65,7 +68,8 @@
         "Bundahishn Ch. 14, 35"
       ],
       "notes": "Son of Fravak; eponym of the Arabian peoples (Middle Persian Tazig) and ancestor of Merdas -> Zahhak!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_bund_mazandaran",
@@ -79,7 +83,8 @@
         "Bundahishn Ch. 14"
       ],
       "notes": "One of the races descended from Fravak in Bundahishn Ch. 14.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_bund_hindug",
@@ -93,7 +98,8 @@
         "Bundahishn Ch. 14"
       ],
       "notes": "Branch of humanity settling India from Fravak's 15 pairs.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_bund_chin",
@@ -107,7 +113,8 @@
         "Bundahishn Ch. 14"
       ],
       "notes": "Branch of humanity settling East Asia/China in Zoroastrian ethnography.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_bund_rum",
@@ -121,7 +128,8 @@
         "Bundahishn Ch. 14"
       ],
       "notes": "Branch settling the western Mediterranean/Anatolian clime.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_merdas",
@@ -136,7 +144,8 @@
         "Shahnameh"
       ],
       "notes": "Pious Arabian king descended from Taz, slain by his own son Zahhak under Ahriman's deception.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_zahhak",
@@ -155,7 +164,8 @@
         "Shahnameh"
       ],
       "notes": "Son of Merdas; overthrows Jamshid and rules 1,000 years from Bawri (Babylon!) before being bound on Mt. Damavand by Fereydun. Ancestor of Mehrab Kaboli -> Rudabeh (mother of Rostam!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_siamak",
@@ -170,7 +180,8 @@
         "Shahnameh"
       ],
       "notes": "Slain by the Black Div; avenged by his son Hushang.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_hushang",
@@ -186,7 +197,8 @@
         "Shahnameh"
       ],
       "notes": "Founder of the Pishdadian ('First Lawgivers') dynasty; establishes Sadeh upon discovering fire.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_tahmuras",
@@ -201,7 +213,8 @@
         "Shahnameh"
       ],
       "notes": "Binds Ahriman for 30 years and learns 30 scripts from captive demons to teach humanity.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_vivanghant",
@@ -219,7 +232,8 @@
         "Bundahishn 35"
       ],
       "notes": "EXACT Proto-Indo-Iranian linguistic & genealogical cognate of Vedic Vivasvan (Surya)! Strongest verified prehistoric ancestral bridge between Iran and India.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_yima",
@@ -239,7 +253,8 @@
         "Shahnameh"
       ],
       "notes": "Son of Vivanghant — exact cognate of Vedic Yama! Builds the subterranean Vara preserving pairs of humans, animals, and seeds against the great cosmic winter/meltwater cataclysm.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_shahrnaz_arnavaz",
@@ -253,7 +268,8 @@
         "Shahnameh"
       ],
       "notes": "Daughters/sisters of Jamshid rescued from Zahhak by Fereydun; Shahrnaz bears Salm & Tur, and Arnavaz bears Iraj!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_athwya",
@@ -272,7 +288,8 @@
         "Shahnameh"
       ],
       "notes": "Descendant of Jamshid (via Pur-Tora/Sog-Tora in Bundahishn 35); EXACT Proto-Indo-Iranian cognate of Vedic Aptya (father of Trita Aptya)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_fereydun",
@@ -292,7 +309,8 @@
         "Shahnameh"
       ],
       "notes": "Son of Athwya (Abtin) & Faranak — cognate of Vedic Trita! Weds Shahrnaz & Arnavaz, binds Zahhak on Mt. Damavand, and divides the world among Salm, Tur, and Iraj.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_salm",
@@ -307,7 +325,8 @@
         "Shahnameh"
       ],
       "notes": "Eldest son of Fereydun & Shahrnaz; receives Rum/West.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_tur",
@@ -322,7 +341,8 @@
         "Shahnameh"
       ],
       "notes": "Second son of Fereydun & Shahrnaz; receives Central Asia & Steppe.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_zadsham",
@@ -337,7 +357,8 @@
         "Shahnameh"
       ],
       "notes": "Father of Pashang.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_pashang",
@@ -352,7 +373,8 @@
         "Shahnameh"
       ],
       "notes": "Son of Zadsham; launches the great Iran-Turan wars.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_afrasiab",
@@ -370,7 +392,8 @@
         "Shahnameh"
       ],
       "notes": "Son of Pashang; legendary rival of Iran whose daughter Farangis marries Siyavash, uniting Iran and Turan in Kay Khosrow!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_garsivaz_aghriras",
@@ -384,7 +407,8 @@
         "Shahnameh"
       ],
       "notes": "Aghriras (noble brother who saved Iranian captives) and Garsivaz (instigator of Siyavash's murder).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_farangis",
@@ -398,7 +422,8 @@
         "Shahnameh"
       ],
       "notes": "Daughter of Afrasiab; marries Iranian prince Siyavash and gives birth to Kay Khosrow, uniting Turan and Iran!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_iraj",
@@ -413,7 +438,8 @@
         "Shahnameh"
       ],
       "notes": "Youngest son of Fereydun & Arnavaz; receives Iran. Slain by Salm & Tur.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_mahafarid",
@@ -427,7 +453,8 @@
         "Shahnameh"
       ],
       "notes": "Daughter of Iraj wed to Pashang (nephew of Fereydun), preserving Iraj's bloodline into Manuchehr.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_manuchehr",
@@ -443,7 +470,8 @@
         "Shahnameh"
       ],
       "notes": "Avenges Iraj against Salm & Tur; defines Iran's border via Arash the Archer's legendary shot!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_nowzar",
@@ -457,7 +485,8 @@
         "Shahnameh"
       ],
       "notes": "Slain by Afrasiab; his sons Tus and Gostaham become leading Iranian generals.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_tus_gostaham",
@@ -471,7 +500,8 @@
         "Shahnameh"
       ],
       "notes": "Sons of Nowzar who serve the Kayanian kings.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_zav",
@@ -486,7 +516,8 @@
         "Shahnameh"
       ],
       "notes": "Descendant of Manuchehr who restores agriculture after Afrasiab's drought.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_garshasp",
@@ -502,7 +533,8 @@
         "Shahnameh"
       ],
       "notes": "Avestan champion and final Pishdadian ruler; ancestor of the Sistan paladins (Nariman -> Sam -> Zal -> Rostam).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_nariman",
@@ -517,7 +549,8 @@
         "Garshaspnameh"
       ],
       "notes": "Warrior ancestor of the House of Sistan.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_sam",
@@ -531,7 +564,8 @@
         "Shahnameh"
       ],
       "notes": "Champion under Manuchehr; initially abandoned his white-haired infant Zal on Mt. Alborz before reclaiming him from the Simurgh.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_zal",
@@ -545,7 +579,8 @@
         "Shahnameh"
       ],
       "notes": "White-haired sage-warrior raised by the mythical Simurgh; weds Rudabeh of Kabul.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_mehrab",
@@ -559,7 +594,8 @@
         "Shahnameh"
       ],
       "notes": "Ruler of Kabul descended from Zahhak; father of Rudabeh.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_rudabeh",
@@ -573,7 +609,8 @@
         "Shahnameh"
       ],
       "notes": "Her union with Zal bridges Kabul/Zahhak's line with Iran's greatest heroic house!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_rostam",
@@ -587,7 +624,8 @@
         "Shahnameh"
       ],
       "notes": "Son of Zal & Rudabeh; serves the Kayanian kings for centuries. Marries Tahmineh of Samangan (Turan) -> Sohrab, plus Faramarz and warrior daughter Banu Goshasp.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_shaghad",
@@ -601,7 +639,8 @@
         "Shahnameh"
       ],
       "notes": "Rostam's treacherous half-brother who conspires with the King of Kabul.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_sohrab",
@@ -615,7 +654,8 @@
         "Shahnameh"
       ],
       "notes": "Born in Samangan (Turan); tragically slain in single combat by his father Rostam before they recognize one another.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_faramarz",
@@ -630,7 +670,8 @@
         "Banu Goshaspnameh"
       ],
       "notes": "Faramarz leads expeditions into India and avenges Rostam; Banu Goshasp is a celebrated Iranian warrior heroine.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_kay_kavad",
@@ -646,7 +687,8 @@
         "Shahnameh"
       ],
       "notes": "Descendant of Manuchehr brought from Mt. Alborz by Rostam; father of Kay Kavus and Kay Apiveh.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_kay_apiveh",
@@ -661,7 +703,8 @@
         "Avesta (Yasht 19)"
       ],
       "notes": "Branch of Kay Kavad leading to Kay Lohrasp and Kay Goshtasp (patron of Zoroaster).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_kay_kavus",
@@ -680,7 +723,8 @@
         "Shahnameh"
       ],
       "notes": "Linguistic cognate of Vedic sage Kavi Ushanas! Father of Prince Siyavash.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_siyavash",
@@ -695,7 +739,8 @@
         "Shahnameh"
       ],
       "notes": "Passes through fire unscathed; weds Afrasiab's daughter Farangis in Turan; father of Kay Khosrow and Farud.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_farud",
@@ -709,7 +754,8 @@
         "Shahnameh"
       ],
       "notes": "Son of Siyavash and Jarireh (daughter of Turanian sage Piran Viseh).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_kay_khosrow",
@@ -725,7 +771,8 @@
         "Shahnameh"
       ],
       "notes": "Son of Siyavash (Iran) & Farangis (Turan); unites both houses, defeats Afrasiab, and passes the crown to Kay Lohrasp.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_kay_lohrasp",
@@ -741,7 +788,8 @@
         "Shahnameh"
       ],
       "notes": "Descended from Kay Apiveh -> Kay Pishin -> Kay Lohrasp; builds the fire temple at Balkh.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_kay_goshtasp",
@@ -759,7 +807,8 @@
         "Shahnameh"
       ],
       "notes": "Champions Prophet Zarathustra's religion; father of hero Esfandiyar and brother Zarir.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_esfandiyar",
@@ -774,7 +823,8 @@
         "Shahnameh"
       ],
       "notes": "Bronze-bodied champion of Zoroastrianism slain by Rostam's tamarisk arrow; father of Kay Bahman.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_bahman",
@@ -789,7 +839,8 @@
         "Shahnameh"
       ],
       "notes": "Kay Bahman (equated in Persian lore with Artaxerxes Longimanus) -> Queen Homai -> Darab -> Dara (Darius III, rival of Alexander!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_pourushaspa",
@@ -804,7 +855,8 @@
         "Bundahishn Ch. 35"
       ],
       "notes": "Bundahishn traces Spitama (descended from Manuchehr) -> Haechataspa -> Pourushaspa, who marries Dughdova to birth Zarathustra.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_zoroaster",
@@ -822,7 +874,8 @@
         "Bundahishn Ch. 35:50-56"
       ],
       "notes": "Author of the Gathas; weds Hvovi (of the Hvova clan, kin of Frashaoshtra & Jamaspa) and fathers 3 sons and 3 daughters.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_zor_isatvastra",
@@ -837,7 +890,8 @@
         "Yasht 13.98"
       ],
       "notes": "Eldest son of Zarathustra; head of the priestly estate (Athornan).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_zor_urvatatnara",
@@ -851,7 +905,8 @@
         "Bundahishn 35:56"
       ],
       "notes": "Son of Zarathustra; head of the pastoral/agricultural estate.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_zor_hvarechithra",
@@ -865,7 +920,8 @@
         "Bundahishn 35:56"
       ],
       "notes": "Son of Zarathustra; head of the warrior estate.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_zor_freni",
@@ -880,7 +936,8 @@
         "Yasht 13.139"
       ],
       "notes": "1st daughter of Zarathustra.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_zor_thriti",
@@ -895,7 +952,8 @@
         "Yasht 13.139"
       ],
       "notes": "2nd daughter of Zarathustra.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_zor_pouruchista",
@@ -910,7 +968,8 @@
         "Bundahishn 35:56"
       ],
       "notes": "Youngest daughter of Zarathustra celebrated in Gatha Yasna 53; marries sage Jamaspa (counselor of King Vishtaspa).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_deioces",
@@ -924,7 +983,8 @@
         "Herodotus I.96-102"
       ],
       "notes": "Deioces (Dayukku) unifies the Median tribes at Ecbatana; followed by his son Phraortes.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_cyaxares",
@@ -941,7 +1001,8 @@
         "Babylonian Chronicle"
       ],
       "notes": "Cyaxares destroys Nineveh (612 BCE) in alliance with Babylon; his son Astyages fathers Princess Mandane (mother of Cyrus the Great!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_mandane",
@@ -955,7 +1016,8 @@
         "Herodotus I.107"
       ],
       "notes": "Unites the Median (Madai) and Persian/Elamite (Anshan) royal houses!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_achaemenes",
@@ -970,7 +1032,8 @@
         "Cyrus Cylinder"
       ],
       "notes": "Achaemenes -> Teispes (Chishpish), who divides his kingdom between Cyrus I (Anshan/Elam) and Ariaramnes (Persia).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_cambyses1",
@@ -984,7 +1047,8 @@
         "Cyrus Cylinder"
       ],
       "notes": "Cambyses I marries Median princess Mandane and fathers Cyrus the Great.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_cyrus",
@@ -1004,7 +1068,8 @@
         "Herodotus"
       ],
       "notes": "Son of Cambyses I (Anshan/Elam) & Mandane (Media/Madai). Conquers Babylon (539 BCE) and decrees the return of Judean exiles to rebuild Jerusalem! Father of Cambyses II, Bardiya, and Atossa.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_cambyses2_atossa",
@@ -1019,7 +1084,8 @@
         "Herodotus III"
       ],
       "notes": "Cambyses II conquers Egypt (525 BCE); Queen Atossa marries Darius I and becomes mother of Xerxes I (Ahasuerus)!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_hystaspes",
@@ -1033,7 +1099,8 @@
         "Behistun Inscription"
       ],
       "notes": "Line from Teispes to Hystaspes, father of Darius I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "ir_darius1",
@@ -1048,7 +1115,8 @@
         "Ezra 6"
       ],
       "notes": "Son of Hystaspes; marries Cyrus's daughter Atossa, uniting both Achaemenid lines, and confirms Cyrus's decree to complete the Second Temple in Jerusalem.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_xerxes1",
@@ -1067,7 +1135,8 @@
         "Herodotus VII"
       ],
       "notes": "Son of Darius I & Atossa; widely identified with King Ahasuerus (Achashverosh) in the Book of Esther!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "ir_artaxerxes1",
@@ -1082,7 +1151,8 @@
         "Nehemiah 2"
       ],
       "notes": "Son of Xerxes I; commissions Ezra and Nehemiah to rebuild Jerusalem; dynasty continues down to Darius III (Shahnameh's Dara).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     }
   ],
   "edges": [

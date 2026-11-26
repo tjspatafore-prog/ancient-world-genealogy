@@ -1,0 +1,392 @@
+{
+  "module": "13_americas_polynesia",
+  "title": "Americas & Polynesia (Maya, Aztec, Inca, North America, Hawaii, Aotearoa & Tonga — Pending Bridge)",
+  "nodes": [
+    {
+      "id": "amp_maya_creators",
+      "name": "Tepeu, Gucumatz (Feathered Serpent) & Huracán (Heart of Sky)",
+      "altNames": [
+        "Gucumatz",
+        "Kukulkan",
+        "Huracán"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 1,
+      "era": "Popol Vuh Creation Horizon",
+      "role": "Maya Sovereign Creator Deities",
+      "sources": [
+        "Popol Vuh (K'iche' Maya)"
+      ],
+      "notes": "Creator assembly in Popol Vuh shaping earth, animals, wooden men destroyed by a great flood of resin, and finally humanity from white and yellow maize.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_maya_twins",
+      "name": "Xpiyacoc & Xmucane → Hun Hunahpu (+ Xquic) → Hero Twins (Hunahpu & Xbalanque)",
+      "altNames": [
+        "Hunahpu",
+        "Xbalanque",
+        "Xmucane"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 3,
+      "era": "Popol Vuh Heroic Age",
+      "role": "Divine Grandfather/Grandmother & Maya Hero Twins",
+      "sources": [
+        "Popol Vuh Parts II-III"
+      ],
+      "notes": "First diviners Xpiyacoc & Xmucane father Hun Hunahpu, whose Hero Twins Hunahpu and Xbalanque descend to Xibalba and rise as Sun and Moon.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_maya_four_men",
+      "name": "Four Maize Ancestors: Balam-Quitzé, Balam-Acab, Mahucutah & Iqui-Balam",
+      "altNames": [
+        "Balam-Quitzé",
+        "Maize Humanity"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 5,
+      "era": "Early K'iche' & Classical Maya Ancestral Horizon",
+      "role": "Four Founding Patriarchs of Maya Royal Lineages",
+      "sources": [
+        "Popol Vuh Part IV"
+      ],
+      "notes": "The four first humans fashioned from yellow and white corn alongside their four wives (Cahá-Paluma, Chomihá, Tzununihá, Caquixahá), progenitors of the K'iche' & Maya lineages.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_aztec_ometeotl",
+      "name": "Ometeotl → Quetzalcoatl, Tezcatlipoca, Xipe Totec & Huitzilopochtli",
+      "altNames": [
+        "Quetzalcoatl",
+        "Huitzilopochtli",
+        "Tezcatlipoca"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 1,
+      "era": "Nahua Five Suns Cosmogony",
+      "role": "Dual Supreme Creator & Four Tezcatlipocas",
+      "sources": [
+        "Codex Chimalpopoca",
+        "Histoyre du Mechique",
+        "Florentine Codex"
+      ],
+      "notes": "Ometeotl (Ometecuhtli & Omecihuatl) births the four cosmic directions: Quetzalcoatl (Feathered Serpent), Tezcatlipoca, Xipe Totec, and Huitzilopochtli.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_aztec_flood",
+      "name": "Tata & Nene (Fourth Sun Flood) → Quetzalcoatl Recreates Fifth Sun Humanity",
+      "altNames": [
+        "Tata & Nene",
+        "Fourth Sun Flood"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 4,
+      "era": "Legend of the Five Suns (Codex Chimalpopoca)",
+      "role": "Mesoamerican Great Flood Survivors",
+      "sources": [
+        "Codex Chimalpopoca (Leyenda de los Soles)"
+      ],
+      "notes": "In the Fourth Sun (Chalchiuhtlicue), Tata and Nene are warned to hollow out a giant ahuehuete cypress trunk to survive the Deluge; Quetzalcoatl later descends to Mictlan for sacred bones.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_aztec_tenochtitlan",
+      "name": "Aztlán / Chicomoztoc → Acamapichtli → Moctezuma I → Moctezuma II",
+      "altNames": [
+        "Aztlán",
+        "Chicomoztoc",
+        "Mexica Tlatoani"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 12,
+      "era": "c. 1325–1520 CE (Valley of Mexico)",
+      "role": "Mexica Imperial Tlatoani Lineage Root",
+      "sources": [
+        "Codex Mendoza",
+        "Durán History",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Seven tribes emerge from Chicomoztoc ('Seven Caves'); Mexica settle Lake Texcoco (Tenochtitlan) under Huitzilopochtli's eagle sign, elevating Acamapichtli as 1st Tlatoani.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_inca_viracocha",
+      "name": "Viracocha (Uno Pachacuti Flood) → Inti (Sun) & Mama Quilla (Moon)",
+      "altNames": [
+        "Kon-Tici Viracocha",
+        "Inti"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 1,
+      "era": "Andean Cosmogony (Lake Titicaca)",
+      "role": "Creator Deity of Tiwanaku & Great Flood",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Sarmiento de Gamboa"
+      ],
+      "notes": "Viracocha wipes away the first giants with Uno Pachacuti (Great Flood) before carving nations out of stone at Tiwanaku and birthing Inti and Mama Quilla.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_inca_manco",
+      "name": "Manco Cápac & Mama Ocllo (Four Ayar Brothers → Founders of Cusco)",
+      "altNames": [
+        "Manco Cápac",
+        "Mama Ocllo",
+        "Ayar Brothers"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 10,
+      "era": "c. 12th c. CE (Tawantinsuyu / Cusco)",
+      "role": "Founding Sapa Inca Royal Couple",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Cieza de León"
+      ],
+      "notes": "Sibling-spouses sent from Lake Titicaca with a golden rod to sink into fertile Cusco earth, establishing the Hanan and Hurin Inca dynasty.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_inca_pachacuti",
+      "name": "Sinchi Roca → Pachacuti (Machu Picchu) → Tupac Inca → Huayna Capac → Atahualpa",
+      "altNames": [
+        "Pachacuti",
+        "Atahualpa"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 14,
+      "era": "c. 1230–1533 CE (Inca Empire)",
+      "role": "Sapa Inca Imperial Expansion Line",
+      "sources": [
+        "Garcilaso de la Vega",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "From Sinchi Roca through empire-builder Pachacuti, conqueror Tupac Inca Yupanqui, Huayna Capac, and civil-war brothers Huascar and Atahualpa.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_na_skywoman",
+      "name": "Sky Woman (Atahensic) → Twin Brothers → Hiawatha & The Great Peacemaker",
+      "altNames": [
+        "Atahensic",
+        "Turtle Island"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 2,
+      "era": "Haudenosaunee (Iroquois) Tradition",
+      "role": "Turtle Island Creation & Haudenosaunee Confederacy Founders",
+      "sources": [
+        "Haudenosaunee Oral Tradition",
+        "Great Law of Peace"
+      ],
+      "notes": "Sky Woman descends onto Turtle Island; grandsons Sapling (Tharonhiawakon) and Flint shape humanity, leading historically to Deganawida and Hiawatha uniting the Five Nations.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_na_dine_lakota",
+      "name": "First Man & First Woman / Changing Woman (Diné) & White Buffalo Calf Woman (Lakota)",
+      "altNames": [
+        "Changing Woman",
+        "White Buffalo Calf Woman"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 2,
+      "era": "North American Indigenous Cosmologies",
+      "role": "Diné (Navajo) & Lakota Sacred Progenitors",
+      "sources": [
+        "Diné Bahane'",
+        "Lakota Sacred Pipe Tradition"
+      ],
+      "notes": "Changing Woman (Asdzą́ą́ Nádleehé) creates the four original Diné clans; White Buffalo Calf Woman brings the Sacred Pipe (Chanunpa) to the Oceti Sakowin (Seven Council Fires).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_poly_rangi_papa",
+      "name": "Te Kore / Te Pō → Ranginui (Sky Father) & Papatūānuku (Earth Mother)",
+      "altNames": [
+        "Rangi & Papa"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 1,
+      "era": "Polynesian / Māori Creation",
+      "role": "Primordial Sky-Earth Parents of Polynesia",
+      "sources": [
+        "Māori Whakapapa Tradition",
+        "Polynesian Oral Cosmology"
+      ],
+      "notes": "Locked in eternal embrace within Te Pō until their children separate Heaven and Earth so light (Te Ao Mārama) enters the world.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_poly_tane_tangaroa",
+      "name": "Tāne-mahuta (+ Hine-ahu-one from Clay!), Tangaroa & Tūmatauenga",
+      "altNames": [
+        "Tāne-mahuta",
+        "Hine-ahu-one"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 2,
+      "era": "Polynesian / Māori Horizon",
+      "role": "Creator of First Mortal Woman from Red Earth & Lords of Sea/War",
+      "sources": [
+        "Māori Whakapapa Tradition"
+      ],
+      "notes": "Tāne separates Rangi & Papa and fashions Hine-ahu-one (the Earth-formed Maid) from red clay at Kurawaka, breathing mauri (life) into her nostrils to begin human whakapapa.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_poly_maui",
+      "name": "Māui (Māui-tikitiki-a-Taranga — Pan-Polynesian Hero)",
+      "altNames": [
+        "Māui-tikitiki-a-Taranga"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 4,
+      "era": "Pan-Polynesian Heroic Era",
+      "role": "Trickster Hero Who Fished Up Islands & Snared the Sun",
+      "sources": [
+        "Māori, Hawaiian, Tahitian & Tongan Traditions"
+      ],
+      "notes": "Culture hero across Aotearoa, Hawai'i, Tonga & Samoa who slowed the Sun, stole fire from Mahuika, and hauled up Te Ika-a-Māui (North Island).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_poly_kumulipo",
+      "name": "Wākea & Papahānaumoku → Hoʻohōkūkalani → Hāloa → King Kamehameha I",
+      "altNames": [
+        "Wākea & Papa",
+        "Hāloa",
+        "Kumulipo"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 6,
+      "era": "Hawaiian Kumulipo Sacred Chant (To 1819 CE)",
+      "role": "Hawaiian Aliʻi Royal Genealogy",
+      "sources": [
+        "The Kumulipo (Chant of Creation)",
+        "Hawaiian Royal Moʻokūʻauhau"
+      ],
+      "notes": "Over 2,000 chant lines tracing Wākea (Sky) and Papa (Earth) to Hāloa (taro ancestor and first Hawaiian chief) down to unifier King Kamehameha I.",
+      "major": true,
+      "biblicalConnected": false
+    },
+    {
+      "id": "amp_poly_kupe_tonga",
+      "name": "Hawaiki → Kupe (Aotearoa), ʻAhoʻeitu (Tuʻi Tonga) & Hotu Matuʻa (Rapa Nui)",
+      "altNames": [
+        "Kupe",
+        "Hotu Matuʻa",
+        "Hawaiki"
+      ],
+      "tradition": "americas_pacific",
+      "tier": 10,
+      "era": "c. 900–1350 CE (Polynesian Voyaging Horizon)",
+      "role": "Great Double-Hulled Waka Explorers & Island Dynasty Founders",
+      "sources": [
+        "Māori Waka Traditions",
+        "Tongan Tuʻi Tonga List",
+        "Rapa Nui Ariki Genealogy"
+      ],
+      "notes": "Kupe navigates Matahourua to Aotearoa; ʻAhoʻeitu inaugurates the 39-king Tuʻi Tonga dynasty; Hotu Matuʻa settles Rapa Nui (Easter Island).",
+      "major": true,
+      "biblicalConnected": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "amp_maya_creators",
+      "to": "amp_maya_twins",
+      "type": "expansion",
+      "label": "Popol Vuh: Creator assembly -> Xpiyacoc & Xmucane -> Hero Twins"
+    },
+    {
+      "from": "amp_maya_twins",
+      "to": "amp_maya_four_men",
+      "type": "expansion",
+      "label": "Popol Vuh Part IV: Four Maize Ancestors of K'iche' Maya lineages"
+    },
+    {
+      "from": "amp_aztec_ometeotl",
+      "to": "amp_aztec_flood",
+      "type": "direct",
+      "label": "Codex Chimalpopoca: Five Suns cosmology -> Fourth Sun Flood"
+    },
+    {
+      "from": "amp_maya_creators",
+      "to": "amp_aztec_ometeotl",
+      "type": "cognate",
+      "label": "Mesoamerican Feathered Serpent cognate (Gucumatz = Quetzalcoatl)"
+    },
+    {
+      "from": "amp_aztec_flood",
+      "to": "amp_aztec_tenochtitlan",
+      "type": "expansion",
+      "label": "Fifth Sun humanity -> Chicomoztoc -> Founding of Tenochtitlan"
+    },
+    {
+      "from": "amp_inca_viracocha",
+      "to": "amp_inca_manco",
+      "type": "direct",
+      "label": "Andean royal charter from Viracocha & Inti -> Manco Cápac & Mama Ocllo"
+    },
+    {
+      "from": "amp_inca_manco",
+      "to": "amp_inca_pachacuti",
+      "type": "direct",
+      "label": "Early Tawantinsuyu Sapa Inca royal succession"
+    },
+    {
+      "from": "amp_poly_rangi_papa",
+      "to": "amp_poly_tane_tangaroa",
+      "type": "direct",
+      "label": "Children of Ranginui & Papatūānuku"
+    },
+    {
+      "from": "amp_poly_tane_tangaroa",
+      "to": "amp_poly_maui",
+      "type": "expansion",
+      "label": "Whakapapa lines descending into Māui-tikitiki-a-Taranga"
+    },
+    {
+      "from": "amp_poly_rangi_papa",
+      "to": "amp_poly_kumulipo",
+      "type": "cognate",
+      "label": "Polynesian Sky-Earth cognate: Māori Rangi/Papa = Hawaiian Wākea/Papa"
+    },
+    {
+      "from": "amp_poly_maui",
+      "to": "amp_poly_kumulipo",
+      "type": "cognate",
+      "label": "Pan-Polynesian Māui lineage shared between Māori and Hawai'i"
+    },
+    {
+      "from": "amp_poly_maui",
+      "to": "amp_poly_kupe_tonga",
+      "type": "cognate",
+      "label": "Waka voyaging lineages of Polynesia"
+    },
+    {
+      "from": "amp_inca_pachacuti",
+      "to": "amp_poly_kupe_tonga",
+      "type": "parallel",
+      "label": "Trans-Pacific sweet potato (kumara / camote) maritime contact horizon"
+    }
+  ]
+}

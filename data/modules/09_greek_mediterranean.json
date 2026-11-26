@@ -14,7 +14,8 @@
         "Hesiod Theogony 116-153"
       ],
       "notes": "Out of Chaos emerges Gaia (Earth), who births Uranus (Starry Sky); their union generates the 12 Titans.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_cronus_rhea",
@@ -28,7 +29,8 @@
         "Hesiod Theogony 453-506"
       ],
       "notes": "Youngest Titan who overthrows Uranus; parents of the six elder Olympians (Zeus, Hera, Poseidon, Demeter, Hestia, Hades). In Phoenician Sanchuniathon, El is equated with Kronos!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_iapetus",
@@ -45,7 +47,8 @@
         "Apollodorus I.2.3"
       ],
       "notes": "Titan father of Atlas, Prometheus, Epimetheus, and Menoetius — frequently compared by classical and biblical scholars to Noah's son Japheth (Hebrew Yefet <-> Greek Iapetos)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_oceanus_hyperion",
@@ -59,7 +62,8 @@
         "Hesiod Theogony 337-408"
       ],
       "notes": "Oceanus & Tethys sire the 3,000 River Gods (including Inachus of Argos and Nile!) and Oceanids; Hyperion sires Helios (Sun) & Selene; Coeus sires Leto (mother of Apollo & Artemis).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_zeus_olympians",
@@ -77,7 +81,8 @@
         "Homer Iliad"
       ],
       "notes": "Zeus (exact Proto-Indo-European linguistic cognate of Vedic Sky-Father Dyaus Pitr & Roman Jupiter!) and Poseidon become the divine progenitors of Greece's heroic royal houses.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_atlas",
@@ -92,7 +97,8 @@
         "Apollodorus III.10"
       ],
       "notes": "Son of Iapetus; father of the Seven Pleiades including Electra (mother of Dardanus, founder of Troy!) and Maia (mother of Hermes).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_prometheus",
@@ -109,7 +115,8 @@
         "Apollodorus I.7.1"
       ],
       "notes": "Sons of Iapetus. Prometheus molds mortals from clay and water and brings fire from heaven; Epimetheus weds Pandora (first mortal woman) -> Pyrrha!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_deucalion",
@@ -127,7 +134,8 @@
         "Ovid Metamorphoses I"
       ],
       "notes": "Deucalion (son of Prometheus) and Pyrrha (daughter of Epimetheus & Pandora) survive Zeus's world-destroying Flood in a wooden chest/ark (larnax) landing on Mt. Parnassus!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_hellen",
@@ -142,7 +150,8 @@
         "Apollodorus I.7.3"
       ],
       "notes": "Son of Deucalion & Pyrrha; divides the Greek world among his three sons Dorus, Xuthus, and Aeolus — the Greek 'Table of Nations'!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_dorus",
@@ -157,7 +166,8 @@
         "Apollodorus I.7.3"
       ],
       "notes": "Eponymous ancestor of the Dorians.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_xuthus",
@@ -172,7 +182,8 @@
         "Apollodorus I.7.3"
       ],
       "notes": "Father of Ion (Ionians) and Achaeus (Achaeans).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_ion",
@@ -190,7 +201,8 @@
         "Genesis 10:2"
       ],
       "notes": "Son of Xuthus (or Apollo) & Creusa; eponym of the Ionians (Archaic Greek Iawones) — EXACT linguistic cognate of Biblical Javan (Yawan, son of Japheth, Gen 10:2)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_achaeus",
@@ -205,7 +217,8 @@
         "Apollodorus I.7.3"
       ],
       "notes": "Eponymous ancestor of the Achaeans (Homer's Greeks).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_aeolus",
@@ -220,7 +233,8 @@
         "Apollodorus I.7.3"
       ],
       "notes": "Eponym of the Aeolians; father of Sisyphus, Cretheus, Athamas, Salmoneus, Deion, Magnes, and Perieres.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_sisyphus",
@@ -235,7 +249,8 @@
         "Apollodorus I.7"
       ],
       "notes": "Son of Aeolus; founder of Corinth, grandfather of Pegasus-rider Bellerophon.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_cretheus",
@@ -250,7 +265,8 @@
         "Apollodorus I.7"
       ],
       "notes": "Son of Aeolus; founder of Iolcus, grandfather of Jason (leader of the Argonauts to Colchis on the Black Sea!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_salmoneus",
@@ -265,7 +281,8 @@
         "Apollodorus I.7"
       ],
       "notes": "Son of Aeolus; ancestor of Neleus and wise King Nestor of Pylos.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_athamas",
@@ -280,7 +297,8 @@
         "Apollodorus I.7"
       ],
       "notes": "Son of Aeolus; father of Phrixus & Helle (eponym of the Hellespont).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_inachus_io",
@@ -295,7 +313,8 @@
         "Aeschylus Prometheus Bound"
       ],
       "notes": "Inachus (son of Oceanus) fathers Phoroneus (first mortal king of Argos) and Io, who wanders across the Bosporus into Egypt!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_epaphus",
@@ -312,7 +331,8 @@
         "Herodotus II.153"
       ],
       "notes": "Born to Io beside the Nile; becomes King of Egypt, marries Memphis (eponym of Egypt's capital!), and fathers Libya.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_libya",
@@ -326,7 +346,8 @@
         "Apollodorus II.1.4"
       ],
       "notes": "Daughter of Epaphus & Memphis; by Poseidon bears twin sons Belus (Egypt/Babylon/Aethiopia) and Agenor (Tyre/Phoenicia)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_agenor",
@@ -341,7 +362,8 @@
         "Herodotus IV.147"
       ],
       "notes": "Moves from Egypt to Phoenicia (Tyre/Sidon) and fathers Europa, Cadmus, Phoenix, Cilix, and Thasus!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_europa_minos",
@@ -359,7 +381,8 @@
         "Apollodorus III.1.1-2"
       ],
       "notes": "Carried from Phoenicia to Crete (Biblical Caphtorim!) by Zeus; bears King Minos (lawgiver of Knossos; father of Ariadne & Phaedra), Rhadamanthus, and Sarpedon.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_cadmus",
@@ -376,7 +399,8 @@
         "Apollodorus III.4.1-2"
       ],
       "notes": "Son of Agenor of Tyre; settles in Boeotia, founds Thebes, and introduces the 'Phoenician letters' (alphabet!) to Greece! Fathers Semele (-> Dionysus), Ino, Autonoe, Agave, and Polydorus.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_dionysus_oedipus",
@@ -391,7 +415,8 @@
         "Apollodorus III.4-5"
       ],
       "notes": "Cadmus's daughter Semele bears Dionysus; his son Polydorus leads via Labdacus -> Laius to Oedipus -> Antigone, Eteocles, and Polynices.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_phoenix_cilix",
@@ -405,7 +430,8 @@
         "Apollodorus III.1.1"
       ],
       "notes": "Brothers of Cadmus and Europa who settle Phoenicia and Cilicia (SE Anatolia).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_belus",
@@ -420,7 +446,8 @@
         "Nonnus Dionysiaca"
       ],
       "notes": "Reigns in Egypt (name reflects Semitic Ba'al/Bel); fathers Aegyptus, Danaus, Cepheus (King of Aethiopia), and Phineus.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_aegyptus_danaus",
@@ -438,7 +465,8 @@
         "Apollodorus II.1.4-5"
       ],
       "notes": "Aegyptus gives his name to Egypt; his twin brother Danaus flees Egypt with his 50 daughters (Danaids) to become King of Argos in Greece (Homer's 'Danaans'!). Daughter Hypermnestra marries Aegyptus's son Lynceus!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_cepheus_andromeda",
@@ -453,7 +481,8 @@
         "Ovid Metamorphoses IV"
       ],
       "notes": "Brother of Danaus & Aegyptus; rules Aethiopia/Joppa coast. Daughter Andromeda is rescued from the sea monster Cetus by Perseus!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_perseus",
@@ -468,7 +497,8 @@
         "Herodotus VII.61"
       ],
       "notes": "Descendant of Egyptian Danaus & Aegyptus; slays Medusa, rescues and marries Princess Andromeda of Aethiopia, founds Mycenae, and fathers Perses (mythic eponym of Persia!) and the ancestors of Heracles!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_perses",
@@ -483,7 +513,8 @@
         "Apollodorus II.4.5"
       ],
       "notes": "Herodotus (VII.61) explicitly records the ancient tradition that the Persians took their name from Perses, son of Perseus and Andromeda — a classic Greek-Iranian genealogical bridge!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_heracles",
@@ -502,7 +533,8 @@
         "1 Maccabees 12:21"
       ],
       "notes": "Great-grandson of Perseus & Andromeda (via Alcmene & Zeus). His sons (Heraclidae: Hyllus, Temenus) become the royal houses of Sparta and Macedon — and 1 Maccabees 12:21 records Sparta claiming kinship with Abraham!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_sparta_macedon",
@@ -518,7 +550,8 @@
         "Josephus Ant. 12.4.10"
       ],
       "notes": "Heraclidae conquer the Peloponnese (Sparta: Leonidas, King Areus I who wrote to Jerusalem's High Priest claiming descent from Abraham!) and Temenus's line founds Macedon (Perdiccas I -> Philip II).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_alexander",
@@ -538,7 +571,8 @@
         "Shahnameh (Eskandar)"
       ],
       "notes": "Son of Philip II (Heraclid) and Olympias (claiming descent from Achilles!). Conquers Darius III of Persia, is crowned Pharaoh in Egypt, and marches to the Indus — even woven into the Persian Shahnameh as 'Eskandar' (half-brother of Dara)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_pelops_atreus",
@@ -554,7 +588,8 @@
         "Apollodorus Epitome 2"
       ],
       "notes": "Tantalus of Anatolia/Lydia fathers Pelops (eponym of the Peloponnese!), who fathers Atreus and Thyestes.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_agamemnon_menelaus",
@@ -568,7 +603,8 @@
         "Homer Iliad & Odyssey"
       ],
       "notes": "Agamemnon leads the Achaeans against Troy (father of Orestes, Electra, Iphigenia); Menelaus weds Helen (daughter of Zeus & Leda, sister of Castor, Pollux & Clytemnestra).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_achilles_odysseus",
@@ -582,7 +618,8 @@
         "Homer Iliad & Odyssey"
       ],
       "notes": "Achilles (son of Peleus & Thetis, grandson of Aeacus; father of Neoptolemus — claimed ancestor of Alexander's mother Olympias!) and Odysseus (King of Ithaca, father of Telemachus).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_dardanus_tros",
@@ -597,7 +634,8 @@
         "Apollodorus III.12"
       ],
       "notes": "Dardanus (son of Zeus & Atlas's daughter Electra) founds Dardania near the Hellespont; grandson Tros gives his name to Troy and fathers Ilus, Assaracus, and Ganymede!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_priam_hector",
@@ -612,7 +650,8 @@
         "Apollodorus III.12.5"
       ],
       "notes": "Senior branch of Troy: Ilus -> Laomedon -> King Priam & Queen Hecuba, parents of Hector, Paris (Alexander), Cassandra, Helenus, and Creusa (first wife of Aeneas).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_aeneas",
@@ -630,7 +669,8 @@
         "Livy I.1"
       ],
       "notes": "Junior Trojan branch: Assaracus -> Capys -> Anchises (+ Aphrodite) -> Aeneas, who escapes burning Troy to Italy (Latium), marries Lavinia (daughter of King Latinus), and fathers Ascanius (Iulus) and Silvius!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_romulus_remus",
@@ -649,7 +689,8 @@
         "Plutarch Romulus"
       ],
       "notes": "Ascanius (Iulus, ancestor of the Julian clan / Julius Caesar!) & Silvius found Alba Longa -> 12 Alban kings -> Numitor -> Rhea Silvia (+ Mars) -> twin founders Romulus & Remus! Directly intersects Book of Jasher's Kittim/Zepho/Janeus chronicle of early Italy!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_dido_carthage",
@@ -668,7 +709,8 @@
         "Virgil Aeneid I & IV"
       ],
       "notes": "Tyrian royal records (Menander of Ephesus, quoted by Josephus) trace King Ethbaal (Ithobaal I of Sidon/Tyre, father of Biblical Jezebel!) -> Baal-Eser II -> Mattan I -> Pygmalion & Queen Elissa (Dido), who sails from Tyre to North Africa and founds Carthage!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_lydus_tyrrhenus",
@@ -685,7 +727,8 @@
         "Herodotus Histories I.94"
       ],
       "notes": "Herodotus records that during an 18-year famine in Lydia (Biblical Lud, Gen 10:22!), King Atys split his people between Lydus (staying in Anatolia) and Tyrrhenus, who sailed to Italy to found the Etruscans (Tyrsenians — widely linked by scholars to Biblical Tiras, Gen 10:2)!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_julius_augustus",
@@ -700,7 +743,8 @@
         "Suetonius Divus Julius"
       ],
       "notes": "Julius Caesar publicly claimed descent from Aeneas's son Iulus (Ascanius) and goddess Venus/Aphrodite; his adopted heir Augustus commissioned Virgil's Aeneid to immortalize Rome's Trojan genealogy!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     }
   ],
   "edges": [

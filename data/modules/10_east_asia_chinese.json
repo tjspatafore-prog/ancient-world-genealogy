@@ -15,7 +15,8 @@
         "Shan Hai Jing"
       ],
       "notes": "Emerges from the cosmic egg, separates Yin (Earth) and Yang (Heaven), and transforms his body into mountains, rivers, sun, and moon.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "chn_fuxi_nuwa",
@@ -35,7 +36,8 @@
         "Yijing"
       ],
       "notes": "Serpent-tailed sovereigns holding compass and square. Fuxi invents the Eight Trigrams (Bagua), fishing nets, and music; Nüwa repairs the shattered sky after Gonggong's flood and molds humanity from yellow clay. Preserved in SW Chinese Miao/Yao lore as Great Flood survivors!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_shaodian",
@@ -50,7 +52,8 @@
         "Shiji Ch. 1"
       ],
       "notes": "Guoyu explicitly records Shaodian and Lady Youqiao as parents of BOTH Yandi (Jiang surname) and Huangdi (Ji surname) — explaining the ancestral brotherhood of 'Yan-Huang Zisun'!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "chn_yandi",
@@ -69,7 +72,8 @@
         "Shennong Bencaojing"
       ],
       "notes": "Inventor of agriculture, plows, and herbal medicine; ancestor of the Jiang clan (later Jiang Ziya & the State of Qi!). Allies with Huangdi after the Battle of Banquan to defeat Chiyou.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_chiyou_jiangziya",
@@ -84,7 +88,8 @@
         "Shan Hai Jing"
       ],
       "notes": "Chiyou (legendary bronze-working leader of the Nine Li / Miao-Hmong ancestor!) fought Huangdi at Zhuolu; Jiang Ziya (descendant of Yandi's clan) helped King Wu found the Zhou Dynasty and became Duke of Qi.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "chn_huangdi",
@@ -103,7 +108,8 @@
         "Da Dai Liji"
       ],
       "notes": "Marries Leizu (inventor of silk sericulture) and sires 25 sons bearing 14 surnames. Sima Qian systematically traces ALL Five Emperors, Xia, Shang, Zhou, Qin, Chu, Confucius, and the Xiongnu back to Huangdi!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_shaohao",
@@ -118,7 +124,8 @@
         "Zuo Zhuan"
       ],
       "notes": "Son of Huangdi & Leizu; ancestor of Eastern Yi bird-totem clans and father of Jiaoji -> Emperor Ku.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "chn_diku",
@@ -135,7 +142,8 @@
         "Da Dai Liji"
       ],
       "notes": "By his four consorts, Di Ku fathers Emperor Zhi, Emperor Yao (via Qingdu), Xie (founder of Shang via Jiandi), and Hou Ji (founder of Zhou via Jiang Yuan)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_yao",
@@ -150,7 +158,8 @@
         "Shiji Ch. 1, 8"
       ],
       "notes": "Son of Di Ku & Qingdu; appoints Gun & Yu to combat the Great Flood, marries his daughters Ehuang & Nüying to Emperor Shun, and passes the throne by merit. Han Dynasty emperors (Liu Bang) claimed descent from Yao!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_xie",
@@ -165,7 +174,8 @@
         "Shijing"
       ],
       "notes": "Conceived when Jiandi swallowed a black bird's egg; assisted Yu the Great with the Flood; leads through 14 predynastic lords (including Wang Hai) to Tang of Shang.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "chn_shang",
@@ -181,7 +191,8 @@
         "Bamboo Annals"
       ],
       "notes": "Overthrew Xia tyrant Jie to found the Shang Dynasty; 19th king Pan Geng moved the capital to Yin (Anyang), where tens of thousands of oracle bones confirm Sima Qian's king list!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_wuding_fuhao",
@@ -196,7 +207,8 @@
         "Tomb of Fu Hao"
       ],
       "notes": "21st Shang king attested in contemporary oracle bones; his consort Fu Hao served as supreme general and high priestess (her intact tomb at Anyang is one of archaeology's greatest treasures!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_dixin",
@@ -211,7 +223,8 @@
         "Shangshu"
       ],
       "notes": "Defeated by King Wu of Zhou in 1046 BCE, ending the Shang Dynasty.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "chn_weizi_confucius",
@@ -229,7 +242,8 @@
         "Analects"
       ],
       "notes": "Sima Qian's Shiji Ch. 47 traces Confucius (Kong Qiu) directly back through the Dukes of Song to Weizi Qi (brother of Di Xin) -> Shang Dynasty -> Xie -> Di Ku -> Yellow Emperor!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_jizi",
@@ -245,7 +259,8 @@
         "Samguk Yusa"
       ],
       "notes": "Uncle/kinsman of Shang king Di Xin; recorded in both Chinese (*Shiji*) and Korean (*Samguk Yusa*) chronicles as migrating east to Joseon with 5,000 followers after the fall of Shang!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "chn_houji",
@@ -260,7 +275,8 @@
         "Shijing (Sheng Min)"
       ],
       "notes": "Son of Di Ku & Jiang Yuan; taught millet farming and founded the Ji lineage leading via Buzhu -> Gong Liu -> Gugong Danfu (whose elder sons Taibo & Zhongyong founded the State of Wu!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "chn_zhou",
@@ -276,7 +292,8 @@
         "Yijing"
       ],
       "notes": "King Wen expanded the Yijing (Book of Changes); his son King Wu allied with Jiang Ziya to defeat Shang at Muye (1046 BCE), establishing China's longest dynasty (800 years!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_duke_of_zhou",
@@ -291,7 +308,8 @@
         "Mu Tianzi Zhuan"
       ],
       "notes": "Duke of Zhou (brother of King Wu) founded the State of Lu (homeland of Confucius!) and codified classical ritual; 5th king King Mu journeyed far west into Central Asia to meet Xiwangmu (Queen Mother of the West)!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "chn_zhuanxu",
@@ -306,7 +324,8 @@
         "Shan Hai Jing"
       ],
       "notes": "Grandson of Huangdi via Changyi; ordered the separation of Heaven and Earth (Jue Di Tian Tong). Progenitor of FOUR huge dynasties: Xia, Shun/Chen, Qin, and Chu!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_gun",
@@ -322,7 +341,8 @@
         "Chu Ci"
       ],
       "notes": "Descendant of Zhuanxu tasked by Emperor Yao with halting the Great Flood; stole the heavenly self-expanding earth (Xirang) to build dikes, was executed on Feather Mountain, and from his body emerged Yu the Great!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "chn_yu_xia",
@@ -341,7 +361,8 @@
         "Bamboo Annals"
       ],
       "notes": "Spent 13 years dredging channels to drain the Gun-Yu Great Flood into the sea, mapping the Nine Provinces; his son Qi established China's first hereditary dynasty (Xia)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_shaokang_yue",
@@ -356,7 +377,8 @@
         "Bamboo Annals"
       ],
       "notes": "Shao Kang restored the Xia Dynasty after Hou Yi's usurpation; his son Wuyu founded the southern State of Yue (later led by King Goujian); Xia ended under tyrant Jie.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "chn_shun",
@@ -371,7 +393,8 @@
         "Shiji Ch. 1"
       ],
       "notes": "Descended from Zhuanxu via Qiongchan -> Jingkang -> Juwang -> Qiaoniu -> Gusou; married Yao's two daughters Ehuang & Nüying and passed the throne to Yu the Great. Ancestor of the State of Chen!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "chn_boyi_qin",
@@ -388,7 +411,8 @@
         "Shiji Ch. 5 (Qin Benji) & Ch. 6"
       ],
       "notes": "Sima Qian's Shiji Ch. 5 traces the Ying clan from Zhuanxu's granddaughter Nüxiu -> Daye -> Boyi (Yu the Great's companion!) -> Feizi -> Dukes of Qin -> Ying Zheng (**Qin Shi Huang**, First Emperor of unified China, 221 BCE)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_chu_zhurong",
@@ -406,7 +430,8 @@
         "Chu Ci"
       ],
       "notes": "Shiji Ch. 40 traces the southern Chu royal house from Zhuanxu -> Zhurong (Fire deity!) -> Wuhui -> Luzhong (father of 6 sons including 800-year longevity sage Pengzu and Jilian!) -> Xiong Yi -> poet Qu Yuan & Hegemon Xiang Yu!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "stp_xiongnu",
@@ -423,7 +448,8 @@
         "Sima Qian Shiji Ch. 110 (Account of the Xiongnu)"
       ],
       "notes": "Sima Qian explicitly records that the Xiongnu descended from Chunwei, a prince of the Xia Dynasty who migrated to the northern steppes; unified under Touman -> Modu Chanyu (209 BCE)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "stp_oghuz",
@@ -442,7 +468,8 @@
         "Abulghazi Shajara-i Tarakima"
       ],
       "notes": "Rashid al-Din & Abulghazi explicitly graft Turkic/Mongol ancestry onto Biblical Japheth (Yafith -> Oljai -> Alinja -> Tatar & Mongol -> Kara Khan -> Oghuz Khagan) and Iranian Turan!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "stp_oghuz_six",
@@ -457,7 +484,8 @@
         "Jami al-Tawarikh"
       ],
       "notes": "Oghuz's 3 elder sons (Bozok: Gün, Ay, Yildiz) and 3 younger sons (Üçok: Gök, Dağ, Deniz) each sire 4 sons = the 24 Oghuz clans (including Kayı -> Ottomans and Kınık -> Seljuks!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     }
   ],
   "edges": [

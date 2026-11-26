@@ -20,7 +20,8 @@
         "Tacitus Germania"
       ],
       "notes": "Mascou traces the major Germanic confederations from Tacitus's Tuisto and Mannus (linked in universal chronologies to Ashkenaz/Gomer) through the Cimbri & Teutones, Suevi, Alemanni, Saxons, Franks, Vandals (Gaiseric), and Lombards (Alboin).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bur_gonderic_gundobad",
@@ -39,7 +40,8 @@
         "Modern Universal History Vol. 14"
       ],
       "notes": "Mascou and Modern Universal History Vol. 14 trace the Burgundian kings from Gonderic and Gundobad (codifier of Lex Burgundionum) to St. Sigismund before Frankish absorption and the later Kingdom of Burgundy/Arles.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "sav_witichind_hubert_victor",
@@ -58,7 +60,8 @@
         "Modern Universal History Vol. 14 pp. 125-140"
       ],
       "notes": "Mod. Univ. Hist. Vol. 14 p. 125 derives the House of Savoy from Saxony's Duke Witichind (contemporary of Charlemagne) via Bertold (who received Savoy from Rodolf of Burgundy) and Hubert with the White Hands (d. c. 1050) to Amadeo and King Victor Amadeus II.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "fra_capet_stlouis",
@@ -77,7 +80,8 @@
         "Modern Universal History Vol. 9 (History of France)"
       ],
       "notes": "Hugh Capet (crowned 987 CE) founded the Capetian line; King Henry I married Yaroslav the Wise's daughter Anne of Kiev, uniting Rurikid Rus' and France through Philip II Augustus and St. Louis IX.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "fra_valois_bourbon",
@@ -95,7 +99,8 @@
         "Modern Universal History Vol. 9 (History of France)"
       ],
       "notes": "Mod. Univ. Hist. Vol. 9 traces the Capetian cadet successions from Philip VI of Valois and Francis I to Henry IV of Navarre (first Bourbon King of France, 1589), Louis XIII, and Louis XIV.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eng_howell_roman_saxon",
@@ -112,7 +117,8 @@
         "William Howell Lives and Reigns of the Monarchs of England (1685)"
       ],
       "notes": "Howell (1685) opens the English monarchy with Julius Caesar and Claudius, Christian British king Lucius, the Saxon Heptarchy unified under Egbert and Alfred the Great, and the Danish conquest under Canute (Cnut).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eng_plantagenet_kings",
@@ -131,7 +137,8 @@
         "William Howell Lives and Reigns of the Monarchs of England (1685)"
       ],
       "notes": "Ascending from the Anglo-Norman & Wessex heritage via Empress Matilda, Henry II inaugurated the Plantagenet line leading through Richard I, King John, Edward I, Edward III, and Henry V.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eng_tudor_monarchs",
@@ -150,7 +157,8 @@
         "William Howell Lives and Reigns of the Monarchs of England (1685)"
       ],
       "notes": "Owen Tudor's grandson Henry VII (uniting Lancaster and York at Bosworth Field, 1485) brought Welsh royal pedigree onto the English throne through Henry VIII, Edward VI, and Elizabeth I.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eng_stuart_great_britain",
@@ -170,7 +178,8 @@
         "Sir Walter Raleigh History of the World (1736 Preface p. ix)"
       ],
       "notes": "Descended both from Scottish Dal Riada (Fergus Mor & Kenneth MacAlpin) and from Henry VII's daughter Margaret Tudor, King James VI of Scotland became James I of Great Britain in 1603 (celebrated in Raleigh's 1736 Preface p. ix), continuing through Charles I, Charles II, and James II.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "por_afonso_henriques",
@@ -189,7 +198,8 @@
         "A Compendious Chronicle of the Kingdom of Portugal"
       ],
       "notes": "Connecting Iberian monarchy (Tubal/Spain -> Castile) with the Capetian House of Burgundy: Count Henry of Burgundy married Alfonso VI's daughter Teresa, and their son Afonso I Henriques won independence at the Battle of Ourique (1139).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "por_aviz_discoveries",
@@ -208,7 +218,8 @@
         "Faria y Sousa The Portuguese Asia"
       ],
       "notes": "King John I of Aviz (son-in-law of John of Gaunt / Plantagenet) and Prince Henry the Navigator launched the Atlantic voyages culminating under King Manuel I in Vasco da Gama's 1498 voyage to India.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "por_braganza_restoration",
@@ -227,7 +238,8 @@
         "A Compendious Chronicle of the Kingdom of Portugal"
       ],
       "notes": "John, Duke of Braganza (descending from Afonso, son of King John I of Aviz), restored Portuguese independence as King John IV in 1640, succeeded by Afonso VI and Peter II.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "rus_nevsky_ivan_tsars",
@@ -245,7 +257,8 @@
         "Modern Universal History Vol. 13 (History of Russia)"
       ],
       "notes": "Mod. Univ. Hist. Vol. 13 continues the Rurikid lineage from Yaroslav the Wise via St. Alexander Nevsky and Ivan III the Great (who ended Golden Horde tribute at the Ugra in 1480) to Tsar Ivan IV the Terrible.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "rus_romanov_peter_great",
@@ -263,7 +276,8 @@
         "Modern Universal History Vol. 13 (History of Russia)"
       ],
       "notes": "Connected to the Rurikids through Tsar Ivan IV's marriage to Anastasia Romanovna, the House of Romanov ascended in 1613 under Michael I, continuing via Alexis I to Emperor Peter the Great.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     }
   ],
   "edges": [

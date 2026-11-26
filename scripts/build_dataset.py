@@ -11,6 +11,7 @@ from collections import Counter, deque
 from pathlib import Path
 
 from modules import (
+    mod13_americas_polynesia,
     mod16_biblical_nt_syriac,
     mod17_mesopotamia_complete,
     mod18_egypt_31_dynasties,
@@ -31,6 +32,8 @@ from modules import (
     mod33_africa_songhai_ethiopia_arabia_palmyra,
     mod34_spain_britain_france_portugal_chronicles,
     mod35_newton_ussher_smith_records_classical,
+    mod36_unbridged_world_kingdoms,
+    mod37_individual_monarchs_world_chronicles,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -38,11 +41,8 @@ MODULES_DIR = ROOT / "data" / "modules"
 OUT_ALL = ROOT / "data" / "world_genealogy.json"
 OUT_CORE = ROOT / "data" / "genealogy_core.json"
 
-PRUNE_PREFIXES = (
-    "indr_", "egr_", "aklr_", "chnr_", "grkr_", "babr_",
-    "sklr_", "mngr_", "birr_", "jpnr_", "celr_", "amp_", "hub_", "geor_kgs_",
-)
-PRUNE_EXACT = {"af_kintu_gikuyu"}
+PRUNE_PREFIXES = ("hub_",)
+PRUNE_EXACT = set()
 
 TRADITIONS = {
     "dna":             {"label": "Archaeogenetics (Y-DNA & mtDNA)","region": "Global Population Genetics",   "color": "#14b8a6", "order": 0.5},
@@ -58,6 +58,8 @@ TRADITIONS = {
     "steppe":          {"label": "Eurasian Steppe / Turkic",       "region": "Inner Asia / Eurasian Steppe", "color": "#059669", "order": 11},
     "chinese":         {"label": "Ancient Chinese (Sinitic)",      "region": "East Asia / Yellow River",     "color": "#dc2626", "order": 12},
     "japan_korea":     {"label": "Ancient Japanese & Korean",      "region": "East Asia / Archipelago",      "color": "#db2777", "order": 13},
+    "southeast_asia":  {"label": "Southeast Asia (Khmer, Siam, Java & Dai Viet)", "region": "Mainland & Maritime SE Asia", "color": "#e11d48", "order": 13.5},
+    "americas_pacific":{"label": "Americas & Polynesia (Maya, Aztec, Inca & Pacific)", "region": "Americas & Oceania", "color": "#0891b2", "order": 14},
 }
 
 LINK_TYPES = {
@@ -1233,7 +1235,7 @@ def is_pruned_id(nid):
 
 def main():
     MODULES_DIR.mkdir(parents=True, exist_ok=True)
-    for stale_name in ("07_asia_steppe.json", "13_americas_polynesia.json"):
+    for stale_name in ("07_asia_steppe.json",):
         stale = MODULES_DIR / stale_name
         if stale.exists():
             stale.unlink()
@@ -1255,6 +1257,7 @@ def main():
         build_module_10_east_asia_chinese(),
         build_module_11_korean_japanese(),
         build_module_12_celtic_norse_europe(),
+        mod13_americas_polynesia.build_module(),
         build_module_14_archaeogenetics_dna(),
         build_module_15_adam2jesus_biblical(),
         mod16_biblical_nt_syriac.build_module(),
@@ -1277,6 +1280,8 @@ def main():
         mod33_africa_songhai_ethiopia_arabia_palmyra.build_module(),
         mod34_spain_britain_france_portugal_chronicles.build_module(),
         mod35_newton_ussher_smith_records_classical.build_module(),
+        mod36_unbridged_world_kingdoms.build_module(),
+        mod37_individual_monarchs_world_chronicles.build_module(),
     ]
 
     for mod in modules:
@@ -1288,11 +1293,11 @@ def main():
 
     all_nodes, all_edges = [], []
     module_summaries = []
+    node_module_map = {}
 
     for mod in modules:
-        mod_path = MODULES_DIR / f"{mod['module']}.json"
-        with open(mod_path, "w", encoding="utf-8") as f:
-            json.dump(mod, f, indent=2, ensure_ascii=False)
+        for n in mod["nodes"]:
+            node_module_map[n["id"]] = mod["module"]
         all_nodes.extend(mod["nodes"])
         all_edges.extend(mod["edges"])
         module_summaries.append({"file": mod["module"], "title": mod["title"], "nodes": len(mod["nodes"]), "edges": len(mod["edges"])})
@@ -1314,31 +1319,57 @@ def main():
             seen_edges.add(key)
             clean_edges.append(e)
 
-    # Strict Adam & Noahic connectivity check (every non-DNA node must connect to bib_adam without genetic/parallel shortcuts)
+    # Dynamic Adam & Noahic connectivity classification across every node
     adj = {nid: [] for nid in nodes_by_id}
     for e in clean_edges:
         if e["type"] in ("direct", "expansion", "cognate", "syncretic"):
             adj[e["from"]].append(e["to"])
             adj[e["to"]].append(e["from"])
-    visited = {"bib_adam"}
+    visited_adam = {"bib_adam"}
     q = deque(["bib_adam"])
     while q:
         u = q.popleft()
         for v in adj[u]:
-            if v not in visited:
-                visited.add(v)
+            if v not in visited_adam:
+                visited_adam.add(v)
                 q.append(v)
-    disconnected_non_dna = [
-        f"{n['id']} ({n['tradition']}): {n['name']}"
-        for n in all_nodes
-        if n["tradition"] != "dna" and n["id"] not in visited
-    ]
-    assert not disconnected_non_dna, f"Unconnected non-DNA nodes found ({len(disconnected_non_dna)}): {disconnected_non_dna[:10]}"
+    assert "bib_noah" in visited_adam, "bib_noah must be connected to bib_adam"
+
+    unbridged_modules = {"13_americas_polynesia", "36_unbridged_world_kingdoms"}
+    unexpected_disconnected = []
+    unexpected_connected = []
+    for n in all_nodes:
+        connected = n["id"] in visited_adam
+        n["biblicalConnected"] = connected
+        if n["tradition"] != "dna":
+            src_mod = node_module_map[n["id"]]
+            if src_mod in unbridged_modules and connected:
+                unexpected_connected.append(f"{n['id']} ({src_mod})")
+            elif src_mod not in unbridged_modules and not connected:
+                unexpected_disconnected.append(f"{n['id']} ({src_mod}): {n['name']}")
+
+    assert not unexpected_disconnected, f"Unexpected disconnected core nodes ({len(unexpected_disconnected)}): {unexpected_disconnected[:10]}"
+    assert not unexpected_connected, f"Unexpected bridged nodes in unbridged modules ({len(unexpected_connected)}): {unexpected_connected[:10]}"
+
+    for mod in modules:
+        mod_path = MODULES_DIR / f"{mod['module']}.json"
+        with open(mod_path, "w", encoding="utf-8") as f:
+            json.dump(mod, f, indent=2, ensure_ascii=False)
+
+    bib_count = sum(1 for n in all_nodes if n["tradition"] != "dna" and n["biblicalConnected"])
+    pending_count = sum(1 for n in all_nodes if n["tradition"] != "dna" and not n["biblicalConnected"])
+    dna_count = sum(1 for n in all_nodes if n["tradition"] == "dna")
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — 207 Sources Rooted in Adam, Noah & His 4 Sons (v15.0)",
-            "version": "15.0.0",
+            "title": "Ancient World Genealogy Atlas — 207 Sources: Biblically Connected & Complete World Rulers (v16.0)",
+            "version": "16.0.0",
+            "counts": {
+                "total": len(all_nodes),
+                "biblicalConnected": bib_count,
+                "pendingBridge": pending_count,
+                "dna": dna_count,
+            },
             "modules": module_summaries,
             "linkTypes": LINK_TYPES,
         },

@@ -16,7 +16,8 @@
         "Enuma Elish Tablet I"
       ],
       "notes": "Primordial cosmic waters whose mingling generates the elder gods Lahmu and Lahamu.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_lahmu_lahamu",
@@ -30,7 +31,8 @@
         "Enuma Elish Tablet I"
       ],
       "notes": "Born of Apsu & Tiamat; parents of Anshar & Kishar.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_anshar_kishar",
@@ -44,7 +46,8 @@
         "Enuma Elish Tablet I"
       ],
       "notes": "Parents of the Sky Father Anu.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_anu",
@@ -61,7 +64,8 @@
         "Sumerian Myths"
       ],
       "notes": "Supreme sky deity of Uruk; father of Enki (Ea) and Enlil.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_enki",
@@ -80,7 +84,8 @@
         "Eridu Genesis"
       ],
       "notes": "Patron of Eridu; with Nintu/Belet-ili fashions the first humans (Lullu) from clay mixed with divine blood, and secretly warns Ziusudra/Atrahasis of the Flood.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_enlil",
@@ -95,7 +100,8 @@
         "Enlil and Ninlil"
       ],
       "notes": "Father of Nanna (Sin) and Ninurta; decrees the Deluge in Atrahasis.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_marduk",
@@ -111,7 +117,8 @@
         "Enuma Elish IV-VI"
       ],
       "notes": "Son of Enki (Ea) & Damkina; slays Tiamat, builds Babylon, and fashions humanity from Qingu's blood.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_nabu",
@@ -125,7 +132,8 @@
         "Babylonian Pantheon"
       ],
       "notes": "Son of Marduk; keeper of the Tablets of Destiny and patron of scribes.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_ninurta",
@@ -143,7 +151,8 @@
         "Anzu Myth"
       ],
       "notes": "Mythic hunter and champion of the gods — widely proposed by Assyriologists as a mythological source for Biblical Nimrod ('mighty hunter')!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_nanna",
@@ -157,7 +166,8 @@
         "Sumerian Hymns"
       ],
       "notes": "Moon god of Ur; marries Ningal and fathers Utu (Shamash) and Inanna (Ishtar).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_shamash",
@@ -172,7 +182,8 @@
         "Enmeduranki Text"
       ],
       "notes": "Son of Nanna; reveals celestial tablets to 7th king Enmeduranki at Sippar and fathers Meskiaggasher of Uruk!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_inanna",
@@ -187,7 +198,8 @@
         "Epic of Gilgamesh"
       ],
       "notes": "Patron goddess of Uruk (Eanna) and consort of Dumuzid.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_lullu_adapa",
@@ -206,7 +218,8 @@
         "Berossus Babyloniaca"
       ],
       "notes": "Lullu is fashioned from clay + divine blood of We-ilu/Qingu. Adapa (1st Apkallu sage under Alulim, called Oannes by Berossus) ascends to heaven and forfeits eternal life — widely compared to Adam!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_k1_alulim",
@@ -224,7 +237,8 @@
         "Uruk List of Kings & Sages"
       ],
       "notes": "1st Antediluvian King of Eridu; advised by 1st Apkallu sage Uanna/Adapa.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_k2_alalngar",
@@ -242,7 +256,8 @@
         "Uruk List of Kings & Sages"
       ],
       "notes": "2nd Antediluvian King of Eridu; sage Uannedugga.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_k3_enmenluana",
@@ -260,7 +275,8 @@
         "Uruk List of Kings & Sages"
       ],
       "notes": "3rd Antediluvian King; kingship moves to Bad-tibira; sage Enmedugga.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_k4_enmengalana",
@@ -278,7 +294,8 @@
         "Uruk List of Kings & Sages"
       ],
       "notes": "4th Antediluvian King of Bad-tibira; sage Enmegalamma.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_k5_dumuzid",
@@ -296,7 +313,8 @@
         "Uruk List of Kings & Sages"
       ],
       "notes": "5th Antediluvian King of Bad-tibira; sage Enmebulugga.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_k6_ensipadzidana",
@@ -314,7 +332,8 @@
         "Uruk List of Kings & Sages"
       ],
       "notes": "6th Antediluvian King; kingship moves to Larak; sage An-Enlilda.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_enmeduranki",
@@ -333,7 +352,8 @@
         "Uruk List of Kings & Sages"
       ],
       "notes": "7th Antediluvian King (Euedorachos in Berossus); ruler of sun-city Sippar, initiated by Shamash & Adad into heavenly secrets and divination alongside 7th sage Utuabzu (who ascends to heaven) — exact structural parallel to Enoch (7th patriarch, 365 solar years)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_k8_megalaros",
@@ -351,7 +371,8 @@
         "Uruk List of Kings & Sages"
       ],
       "notes": "Included in Berossus's 10-king antediluvian list (matching Genesis 5's 10 patriarchs).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_k9_ubaratutu",
@@ -370,7 +391,8 @@
         "Uruk List of Kings & Sages"
       ],
       "notes": "Last king of Shuruppak before the Deluge; father of Ziusudra / Utnapishtim!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_ziusudra",
@@ -390,7 +412,8 @@
         "Uruk List of Kings & Sages"
       ],
       "notes": "10th Antediluvian ruler (Xisouthros in Berossus). Warned by Enki/Ea of the Deluge; builds a vessel preserving family and animals; releases dove, swallow, and raven; lands on Mt. Nimush.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_utuabzu",
@@ -407,7 +430,8 @@
         "Bit Meseri"
       ],
       "notes": "The 7th antediluvian sage, counselor to 7th king Enmeduranki, explicitly recorded as 'having ascended to heaven' — a stunning Mesopotamian parallel to Enoch (7th from Adam, taken to heaven)!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_kish_jushur",
@@ -421,7 +445,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "First king after the Flood swept over and kingship descended from heaven anew at Kish.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_kish_kullassinabel",
@@ -435,7 +460,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "2nd king of Kish I ('All of them were lord').",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_kish_nangishlishma",
@@ -449,7 +475,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "3rd king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_kish_entarahana",
@@ -463,7 +490,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "4th king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_kish_babum",
@@ -477,7 +505,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "5th king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_kish_puannum",
@@ -491,7 +520,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "6th king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_kish_kalibum",
@@ -505,7 +535,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "7th king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_kish_kalumum",
@@ -519,7 +550,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "8th king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_kish_zuqaqip",
@@ -533,7 +565,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "9th king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_kish_atab",
@@ -547,7 +580,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "10th king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_kish_mashda",
@@ -561,7 +595,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "11th king of Kish I; son of Atab.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_kish_arwium",
@@ -575,7 +610,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "12th king of Kish I; son of Mashda.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_etana",
@@ -589,7 +625,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "13th king of Kish I; 'the shepherd who ascended to heaven and consolidated all foreign countries' on an eagle's back to obtain the Plant of Birth.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_balih",
@@ -603,7 +640,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "14th king of Kish I; son of Etana.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_enmenuna",
@@ -617,7 +655,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "15th king of Kish I; father of Melem-Kish and Barsal-nuna.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_melemkish",
@@ -631,7 +670,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "16th king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_barsalnuna",
@@ -645,7 +685,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "17th king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_zamug",
@@ -659,7 +700,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "18th king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_tizqar",
@@ -673,7 +715,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "19th king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_ilku",
@@ -687,7 +730,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "20th king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_iltasadum",
@@ -701,7 +745,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "21st king of Kish I.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_enmebaragesi",
@@ -715,7 +760,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "22nd king of Kish I; earliest Sumerian king confirmed by contemporary inscriptions! 'Carried away as spoil the weapons of Elam'.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_aga_kish",
@@ -729,7 +775,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "23rd and final king of Kish I; son of Enmebaragesi, besieged Uruk and clashed with Gilgamesh.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_meskiaggasher",
@@ -743,7 +790,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "High priest and king of Eanna; 'entered the sea and ascended to the mountains'. Father of Enmerkar.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_enmerkar",
@@ -761,7 +809,8 @@
         "Enmerkar and the Lord of Aratta"
       ],
       "notes": "Son of Meskiaggasher; built Uruk (Biblical Erech, Gen 10:10) and invented cuneiform clay tablets in rivalry with Aratta (Iranian plateau!). Widely compared to Nimrod ('Enmer the Hunter').",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_lugalbanda",
@@ -777,7 +826,8 @@
         "Epic of Gilgamesh"
       ],
       "notes": "Companion of Enmerkar; weds goddess Ninsun and fathers Gilgamesh.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_dumuzid_fisherman",
@@ -791,7 +841,8 @@
         "Sumerian King List"
       ],
       "notes": "Captured Enmebaragesi of Kish single-handedly before Gilgamesh.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_uruk_gilgamesh",
@@ -811,7 +862,8 @@
         "Qumran Book of Giants (4Q530)"
       ],
       "notes": "Son of Lugalbanda & Ninsun; visits Flood survivor Utnapishtim. Uruk is explicitly 'Erech' in Gen 10:10 — and 'Gilgamesh' is literally named as a Giant in Qumran Book of Giants (4Q530)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_urnungal",
@@ -825,7 +877,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "6th king of Uruk I; son of Gilgamesh (reigned 30 yrs).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_udulkalama",
@@ -839,7 +892,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "7th king of Uruk I; grandson of Gilgamesh (15 yrs).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_labashum",
@@ -853,7 +907,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "8th king of Uruk I (9 yrs).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_ennuntarahana",
@@ -867,7 +922,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "9th king of Uruk I (8 yrs).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_meshhe",
@@ -881,7 +937,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "10th king of Uruk I (36 yrs).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_melemana",
@@ -895,7 +952,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "11th king of Uruk I (6 yrs).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_lugalkitun",
@@ -909,7 +967,8 @@
         "Sumerian King List (WB 444)"
       ],
       "notes": "12th and final king of Uruk I (36 yrs).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_mesannepada",
@@ -924,7 +983,8 @@
         "Royal Cemetery of Ur"
       ],
       "notes": "Overthrew Uruk I; attested by royal seals from Ur.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_meshkiangnanna",
@@ -938,7 +998,8 @@
         "Sumerian King List"
       ],
       "notes": "Son of Mesannepada; followed by Elulu and Balulu.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_sargon",
@@ -956,7 +1017,8 @@
         "Birth Legend of Sargon"
       ],
       "notes": "Cupbearer of Ur-Zababa of Kish who founded the world's first empire (Biblical Accad, Gen 10:10). His Birth Legend ('reed basket sealed with bitumen on the river') parallels Moses in Exodus 2!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_enheduanna",
@@ -972,7 +1034,8 @@
         "Disk of Enheduanna"
       ],
       "notes": "Daughter of Sargon of Akkad appointed High Priestess of Nanna at Ur; world's earliest known named author!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_rimush",
@@ -986,7 +1049,8 @@
         "Sumerian King List"
       ],
       "notes": "Son of Sargon; campaigned against rebellious Sumerian cities and Elam.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_manishtushu",
@@ -1001,7 +1065,8 @@
         "Manishtushu Obelisk"
       ],
       "notes": "Son of Sargon; father of Naram-Sin.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_naramsin",
@@ -1016,7 +1081,8 @@
         "Curse of Agade"
       ],
       "notes": "Son of Manishtushu; peak of Akkadian Empire.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_sharkalisharri",
@@ -1030,7 +1096,8 @@
         "Sumerian King List"
       ],
       "notes": "Son of Naram-Sin; reigned as the Akkadian Empire faced Gutian invasions.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_urnammu",
@@ -1047,7 +1114,8 @@
         "Sumerian King List"
       ],
       "notes": "Founded Ur III and issued history's oldest surviving law code — the exact historical era of Ur of the Chaldees before Terah & Abraham's migration (Gen 11:31)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_shulgi",
@@ -1062,7 +1130,8 @@
         "Shulgi Hymns"
       ],
       "notes": "Son of Ur-Nammu; reigned 48 years, standardized weights, measures, and scribal academies.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_amarsin",
@@ -1076,7 +1145,8 @@
         "Sumerian King List"
       ],
       "notes": "Son of Shulgi.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_shusin",
@@ -1090,7 +1160,8 @@
         "Sumerian King List"
       ],
       "notes": "Built the Martu Wall to hold back western Amorite tribes.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_ibbisin",
@@ -1105,7 +1176,8 @@
         "Sumerian King List"
       ],
       "notes": "Ur fell to Elamite and Shimashki invaders in 2004 BCE — matching the historical backdrop of Terah & Abraham leaving Ur!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_sumuabum",
@@ -1119,7 +1191,8 @@
         "Babylonian King List"
       ],
       "notes": "Amorite chieftains who established the First Dynasty of Babylon: Sumu-abum -> Sumu-la-El -> Sabium -> Apil-Sin -> Sin-Muballit (father of Hammurabi).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mes_hammurabi",
@@ -1136,7 +1209,8 @@
         "Babylonian King List"
       ],
       "notes": "6th king of the Amorite Dynasty of Babylon; unified Mesopotamia and issued the Code of Hammurabi. Father of Samsu-iluna.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mes_assyria_kings",
@@ -1154,7 +1228,8 @@
         "Library of Ashurbanipal"
       ],
       "notes": "Begins with '17 Kings Who Lived in Tents' (Tudiya -> Ushpia) and leads to Tukulti-Ninurta I (often cited as a historical prototype for Nimrod!), Sennacherib, and Ashurbanipal (whose library preserved Gilgamesh & Enuma Elish!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     }
   ],
   "edges": [

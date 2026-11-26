@@ -20,7 +20,8 @@
         "Apollodorus Library I.ii.6-7"
       ],
       "notes": "Pontus + Gaia -> Phorcys & Ceto (Graiae, Gorgons Stheno/Euryale/Medusa -> Pegasus & Chrysaor -> Geryon & Echidna!) and Nereus + Doris -> 50 Nereids (Amphitrite, Thetis [mother of Achilles!], Calypso, Galatea).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_titans_complete",
@@ -40,7 +41,8 @@
         "Hesiod Theogony 337-452"
       ],
       "notes": "Hyperion + Theia -> Helios (father of Circe, Pasiphae & Aeetes of Colchis -> Medea!), Selene, Eos (mother of Memnon & Phaethon). Coeus + Phoebe -> Leto (mother of Apollo & Artemis) & Asteria (mother of Hecate). Pallas + Styx -> Nike, Cratos, Zelus, Bia.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_muses_orpheus",
@@ -60,7 +62,8 @@
         "Hesiod Theogony 901-920"
       ],
       "notes": "Calliope + Oeagrus (or Apollo) -> Orpheus (Argonaut & singer) & Linus; Zeus + Themis -> 3 Horae (Eirene, Eunomia, Dike) & 3 Fates (Clotho, Lachesis, Atropos); Zeus + Demeter -> Persephone; Zeus + Metis -> Athena.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_aetolia_meleager_diomedes",
@@ -80,7 +83,8 @@
         "Apollodorus Library I.vii.5-I.viii.6"
       ],
       "notes": "Calyce (daughter of Aeolus) + Aethlius (son of Protogonia dau. of Deucalion) -> Endymion -> Aetolus -> Pleuron/Calydon -> Agenor -> Porthaon -> Oeneus (+ Althaea -> Meleager & Deianira [wife of Heracles!]; + Periboea -> Tydeus [Seven Against Thebes] -> Diomedes [Iliad hero!]).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_neleus_nestor_pelias",
@@ -99,7 +103,8 @@
         "Apollodorus Library I.ix.8-9"
       ],
       "notes": "Tyro bore twins Pelias (usurped Iolcus -> Alcestis & Acastus) and Neleus (+ Chloris -> 12 sons, of whom only Nestor survived Heracles's raid, becoming the wise elder king of Pylos at Troy -> Antilochus & Pisistratus!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_jason_argonauts_medea",
@@ -120,7 +125,8 @@
         "Hesiod Theogony 992-1002"
       ],
       "notes": "Aeson -> Jason (led the Argonauts to Colchis to win the Golden Fleece from King Aeetes; married Medea -> Medeus/Medus, eponymous ancestor of the Medes in Greek myth!). Amythaon -> Melampus (seer -> Amphiaraus) & Bias -> Talaus -> King Adrastus of Argos.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_bellerophon_glaucus",
@@ -137,7 +143,8 @@
         "Apollodorus Library I.ix.1-3"
       ],
       "notes": "Sisyphus (founder of Corinth) -> Glaucus -> Bellerophon (rode winged Pegasus to slay the Chimera in Lycia -> grandfather of Trojan War allies Glaucus & Sarpedon!). Athamas -> Phrixus & Helle (origin of the Golden Fleece & Hellespont!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_hypermnestra_abas_danae",
@@ -156,7 +163,8 @@
         "Apollodorus Library II.i.5-II.iv.4"
       ],
       "notes": "Hypermnestra spared her husband Lynceus (son of Aegyptus), becoming ancestor of all later Argive & Mycenaean kings: Abas -> twin kings Acrisius (Argos -> Danae + Zeus -> Perseus!) and Proetus (Tiryns -> Megapenthes).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_perseids_alcmene",
@@ -175,7 +183,8 @@
         "Apollodorus Library II.iv.5-8"
       ],
       "notes": "Perseus's sons married daughters of Pelops: Sthenelus -> Eurystheus (taskmaster of Heracles's 12 Labors); Alcaeus -> Amphitryon; Electryon -> Alcmene (bore Heracles by Zeus & twin Iphicles -> Iolaus by Amphitryon!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_heraclidae_return",
@@ -194,7 +203,8 @@
         "Apollodorus Library II.viii.1-5"
       ],
       "notes": "Three generations after Hyllus, the Heraclidae conquered the Peloponnese with the Dorians: Temenus received Argos (ancestors of the Argead Kings of Macedon -> Alexander the Great!); Cresphontes took Messene; Aristodemus's twins Eurysthenes & Procles founded the Agiad & Eurypontid dual royal dynasties of Sparta (down to Leonidas of Thermopylae!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_minos_crete_family",
@@ -214,7 +224,8 @@
         "Apollodorus Library III.i.2-III.iii.2"
       ],
       "notes": "Minos's son Catreus fathered Aerope (mother of Agamemnon & Menelaus!) and Clymene (mother of Palamedes); son Deucalion fathered Trojan War commander Idomeneus; daughters Ariadne & Phaedra linked Crete to Theseus of Athens.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_thebes_oedipus_epigoni",
@@ -235,7 +246,8 @@
         "Apollodorus Library III.iv.1-III.vii.7"
       ],
       "notes": "Cadmus's daughters: Semele (mother of Dionysus), Ino, Autonoe (mother of Actaeon), Agave (mother of Pentheus). Son Illyrius (eponym of Illyria!). Polydorus -> Labdacus -> Laius -> Oedipus -> Seven Against Thebes (Polynices, Adrastus, Tydeus, Amphiaraus, Capaneus, Hippomedon, Parthenopaeus) & Epigoni (Alcmaeon, Diomedes, Thersander).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_arcadia_pelasgus_atalanta",
@@ -255,7 +267,8 @@
         "Apollodorus Library III.viii.1-III.ix.2"
       ],
       "notes": "Lycaon's impiety triggered Deucalion's Flood (only son Nyctimus survived); Callisto + Zeus -> Arcas (eponym of Arcadia & Ursa Major) -> Elatus & Aphidas -> Aleus -> Auge (+ Heracles -> King Telephus of Mysia!) & Lycurgus -> Iasus -> Atalanta (mother of Parthenopaeus).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "grk_sparta_tyndareus_helen",
@@ -279,7 +292,8 @@
         "Hesiod Catalogue fr. 66"
       ],
       "notes": "Lacedaemon (+ Sparta) -> Amyclas -> Cynortes -> Perieres/Oebalus -> Tyndareus (+ Leda -> Helen, Clytemnestra, Dioscuri Castor & Pollux) & Icarius (father of Penelope, wife of Odysseus!). Leucippus's daughter Arsinoe/Coronis + Apollo -> Asclepius (god of medicine!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_asopids_aeacus_ajax",
@@ -298,7 +312,8 @@
         "Apollodorus Library III.xii.6-III.xiii.8"
       ],
       "notes": "Aeacus (Judge of the Dead) fathered Telamon (King of Salamis -> Ajax the Great & Teucer [founder of Salamis in Cyprus!]) and Peleus (+ Nereid Thetis -> Achilles -> Neoptolemus/Pyrrhus, ancestor of the Molossian Kings of Epirus, Queen Olympias [mother of Alexander the Great!], and King Pyrrhus!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_athens_cecrops_theseus",
@@ -319,7 +334,8 @@
         "Eusebius Chronicle (Athenian Kings)"
       ],
       "notes": "Earth-born Cecrops (1st King of Athens) -> Erichthonius -> Pandion I -> Erechtheus (daughter Creusa married Xuthus -> Ion, eponym of Ionians!) -> Pandion II -> Aegeus (+ Aethra of Troezen, dau. of Pittheus son of Pelops!) -> Theseus (slew Minotaur; + Antiope -> Hippolytus; + Phaedra -> Acamas & Demophon).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "grk_pelopids_orestes",
@@ -339,7 +355,1255 @@
         "Apollodorus Library Epitome II-VI"
       ],
       "notes": "Tantalus -> Pelops (eponym of Peloponnese!) -> Atreus (+ Aerope of Crete -> Agamemnon & Menelaus), Thyestes (-> Aegisthus), Pittheus (grandfather of Theseus!), plus daughters Astydamia/Nicippe/Lysidice (mothers of Perseids!). Agamemnon + Clytemnestra -> Orestes (+ Hermione -> Tisamenus, slain by Heraclidae!), Electra & Iphigenia.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_01_hestia_eldest_olympian",
+      "name": "Hestia (Eldest Olympian)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_02_demeter_goddess_of_harvest",
+      "name": "Demeter (Goddess of Harvest)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_03_hera_queen_of_olympus",
+      "name": "Hera (Queen of Olympus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_04_hades_pluto_underworld",
+      "name": "Hades / Pluto (Underworld)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_05_poseidon_lord_of_the_sea",
+      "name": "Poseidon (Lord of the Sea)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_06_athena_daughter_of_zeus_meti",
+      "name": "Athena (Daughter of Zeus & Metis)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_07_apollo_artemis_twins_of_zeus",
+      "name": "Apollo & Artemis (Twins of Zeus & Leto)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_08_aphrodite_goddess_of_love",
+      "name": "Aphrodite (Goddess of Love)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_09_ares_god_of_war",
+      "name": "Ares (God of War)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_10_hephaestus_divine_smith",
+      "name": "Hephaestus (Divine Smith)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_11_persephone_queen_of_underwor",
+      "name": "Persephone (Queen of Underworld)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_12_orpheus_son_of_calliope",
+      "name": "Orpheus (Son of Calliope)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_13_helios_sun_titan",
+      "name": "Helios (Sun Titan)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_14_selene_eos_moon_dawn",
+      "name": "Selene & Eos (Moon & Dawn)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_15_hecate_daughter_of_perses_as",
+      "name": "Hecate (Daughter of Perses & Asteria)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_16_chiron_the_centaur_son_of_cr",
+      "name": "Chiron the Centaur (Son of Cronus & Philyra)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_div_17_medusa_pegasus",
+      "name": "Medusa & Pegasus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 3,
+      "era": "Hesiod Theogony & Apollodorus I",
+      "role": "Olympian / Titan / Muse",
+      "sources": [
+        "Apollodorus Library Book I",
+        "Hesiod Theogony"
+      ],
+      "notes": "Olympian / Titan / Muse (Hesiod Theogony & Apollodorus I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_01_endymion_founder_of_elis",
+      "name": "Endymion (Founder of Elis)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_02_aetolus_eponym_of_aetolia",
+      "name": "Aetolus (Eponym of Aetolia)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_03_king_oeneus_of_calydon",
+      "name": "King Oeneus of Calydon",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_04_meleager_calydonian_boar",
+      "name": "Meleager (Calydonian Boar)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_05_deianira_wife_of_heracles",
+      "name": "Deianira (Wife of Heracles)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_06_tydeus_seven_against_thebes",
+      "name": "Tydeus (Seven Against Thebes)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_07_diomedes_hero_of_the_iliad",
+      "name": "Diomedes (Hero of the Iliad)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_08_phrixus_helle_golden_fleece",
+      "name": "Phrixus & Helle (Golden Fleece)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_09_bellerophon_slayer_of_chimer",
+      "name": "Bellerophon (Slayer of Chimera)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_10_tyro_daughter_of_salmoneus",
+      "name": "Tyro (Daughter of Salmoneus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_11_pelias_of_iolcus",
+      "name": "Pelias of Iolcus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_12_neleus_of_pylos",
+      "name": "Neleus of Pylos",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_13_king_nestor_of_pylos",
+      "name": "King Nestor of Pylos",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_14_aeson_father_of_jason",
+      "name": "Aeson (Father of Jason)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_15_jason_leader_of_argonauts",
+      "name": "Jason (Leader of Argonauts)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_16_medea_of_colchis_granddaught",
+      "name": "Medea of Colchis (Granddaughter of Helios)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_17_melampus_the_seer",
+      "name": "Melampus the Seer",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_18_amphiaraus_seven_against_the",
+      "name": "Amphiaraus (Seven Against Thebes)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_19_king_adrastus_of_argos",
+      "name": "King Adrastus of Argos",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_aeo_20_admetus_alcestis",
+      "name": "Admetus & Alcestis",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 9,
+      "era": "Apollodorus Book I.vii-ix",
+      "role": "Aeolid / Argonaut / Aetolian Hero",
+      "sources": [
+        "Apollodorus Library I.vii-ix"
+      ],
+      "notes": "Aeolid / Argonaut / Aetolian Hero (Apollodorus Book I.vii-ix).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_01_phoroneus_first_man_of_argos",
+      "name": "Phoroneus (First Man of Argos)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_02_argus_panoptes",
+      "name": "Argus Panoptes",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_03_hypermnestra_lynceus",
+      "name": "Hypermnestra & Lynceus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_04_abas_king_of_argos",
+      "name": "Abas (King of Argos)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_05_acrisius_proetus",
+      "name": "Acrisius & Proetus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_06_dana_mother_of_perseus",
+      "name": "Danaë (Mother of Perseus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_07_alcmene_mother_of_heracles",
+      "name": "Alcmene (Mother of Heracles)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_08_amphitryon_iphicles",
+      "name": "Amphitryon & Iphicles",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_09_king_eurystheus_of_mycenae",
+      "name": "King Eurystheus of Mycenae",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_10_hyllus_son_of_heracles_deian",
+      "name": "Hyllus (Son of Heracles & Deianira)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_11_telephus_of_mysia_son_of_her",
+      "name": "Telephus of Mysia (Son of Heracles & Auge)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_12_temenus_conqueror_of_argos_m",
+      "name": "Temenus (Conqueror of Argos -> Macedon)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_13_cresphontes_conqueror_of_mes",
+      "name": "Cresphontes (Conqueror of Messene)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_14_aristodemus_father_of_sparta",
+      "name": "Aristodemus (Father of Spartan Twins)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_15_eurysthenes_agiad_founder_of",
+      "name": "Eurysthenes (Agiad Founder of Sparta)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_her_16_procles_eurypontid_founder_o",
+      "name": "Procles (Eurypontid Founder of Sparta)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Apollodorus Book II.i-viii",
+      "role": "Perseid / Heraclid Hero",
+      "sources": [
+        "Apollodorus Library Book II"
+      ],
+      "notes": "Perseid / Heraclid Hero (Apollodorus Book II.i-viii).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_01_pasipha_the_minotaur",
+      "name": "Pasiphaë & the Minotaur",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_02_ariadne_phaedra_daughters_of",
+      "name": "Ariadne & Phaedra (Daughters of Minos)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_03_king_idomeneus_of_crete",
+      "name": "King Idomeneus of Crete",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_04_semele_dionysus",
+      "name": "Semele & Dionysus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_05_polydorus_labdacus_laius",
+      "name": "Polydorus -> Labdacus -> Laius",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_06_king_oedipus_of_thebes_jocas",
+      "name": "King Oedipus of Thebes (+ Jocasta)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_07_eteocles_polynices",
+      "name": "Eteocles & Polynices",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_08_antigone_ismene",
+      "name": "Antigone & Ismene",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_09_illyrius_son_of_cadmus_epony",
+      "name": "Illyrius (Son of Cadmus, Eponym of Illyria)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_10_alcmaeon_leader_of_epigoni",
+      "name": "Alcmaeon (Leader of Epigoni)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_11_pelasgus_lycaon_of_arcadia",
+      "name": "Pelasgus & Lycaon of Arcadia",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_12_callisto_arcas",
+      "name": "Callisto & Arcas",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_13_atalanta_the_huntress",
+      "name": "Atalanta the Huntress",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_14_lacedaemon_sparta",
+      "name": "Lacedaemon & Sparta",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_15_tyndareus_leda",
+      "name": "Tyndareus & Leda",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_16_helen_of_troy_clytemnestra",
+      "name": "Helen of Troy & Clytemnestra",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_17_castor_pollux_dioscuri",
+      "name": "Castor & Pollux (Dioscuri)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_18_penelope_daughter_of_icarius",
+      "name": "Penelope (Daughter of Icarius, Wife of Odysseus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_19_asclepius_god_of_medicine",
+      "name": "Asclepius (God of Medicine)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_20_aeacus_telamon_ajax_the_grea",
+      "name": "Aeacus -> Telamon -> Ajax the Great",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_21_teucer_founder_of_cypriot_sa",
+      "name": "Teucer (Founder of Cypriot Salamis)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_22_peleus_thetis_neoptolemus",
+      "name": "Peleus & Thetis -> Neoptolemus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_23_king_cecrops_of_athens",
+      "name": "King Cecrops of Athens",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_24_king_erechtheus_of_athens",
+      "name": "King Erechtheus of Athens",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_25_king_aegeus_theseus_of_athen",
+      "name": "King Aegeus & Theseus of Athens",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_26_tantalus_niobe",
+      "name": "Tantalus & Niobe",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_27_thyestes_aegisthus",
+      "name": "Thyestes & Aegisthus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_28_orestes_electra_iphigenia",
+      "name": "Orestes, Electra & Iphigenia",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "grkr_b3_29_paris_alexander_cassandra_he",
+      "name": "Paris (Alexander), Cassandra & Helenus of Troy",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 10,
+      "era": "Apollodorus Book III",
+      "role": "Cretan / Theban / Spartan / Trojan / Athenian Hero",
+      "sources": [
+        "Apollodorus Library Book III"
+      ],
+      "notes": "Cretan / Theban / Spartan / Trojan / Athenian Hero (Apollodorus Book III).",
+      "major": false,
+      "biblicalConnected": true
     }
   ],
   "edges": [
@@ -516,6 +1780,498 @@
       "to": "grk_agamemnon_menelaus",
       "type": "direct",
       "label": "Atreids Agamemnon & Menelaus -> Orestes"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_01_hestia_eldest_olympian",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_02_demeter_goddess_of_harvest",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_03_hera_queen_of_olympus",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_04_hades_pluto_underworld",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_05_poseidon_lord_of_the_sea",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_06_athena_daughter_of_zeus_meti",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_07_apollo_artemis_twins_of_zeus",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_08_aphrodite_goddess_of_love",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_09_ares_god_of_war",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_10_hephaestus_divine_smith",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_11_persephone_queen_of_underwor",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_12_orpheus_son_of_calliope",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_13_helios_sun_titan",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_14_selene_eos_moon_dawn",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_15_hecate_daughter_of_perses_as",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_16_chiron_the_centaur_son_of_cr",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_muses_orpheus",
+      "to": "grkr_div_17_medusa_pegasus",
+      "type": "direct",
+      "label": "Greek Divine Lineage (Apollodorus & Hesiod)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_01_endymion_founder_of_elis",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_02_aetolus_eponym_of_aetolia",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_03_king_oeneus_of_calydon",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_04_meleager_calydonian_boar",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_05_deianira_wife_of_heracles",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_06_tydeus_seven_against_thebes",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_07_diomedes_hero_of_the_iliad",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_08_phrixus_helle_golden_fleece",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_09_bellerophon_slayer_of_chimer",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_10_tyro_daughter_of_salmoneus",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_11_pelias_of_iolcus",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_12_neleus_of_pylos",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_13_king_nestor_of_pylos",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_14_aeson_father_of_jason",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_15_jason_leader_of_argonauts",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_16_medea_of_colchis_granddaught",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_17_melampus_the_seer",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_18_amphiaraus_seven_against_the",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_19_king_adrastus_of_argos",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_jason_argonauts_medea",
+      "to": "grkr_aeo_20_admetus_alcestis",
+      "type": "direct",
+      "label": "Deucalionid / Aeolid Hero (Apollodorus I)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_01_phoroneus_first_man_of_argos",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_02_argus_panoptes",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_03_hypermnestra_lynceus",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_04_abas_king_of_argos",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_05_acrisius_proetus",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_06_dana_mother_of_perseus",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_07_alcmene_mother_of_heracles",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_08_amphitryon_iphicles",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_09_king_eurystheus_of_mycenae",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_10_hyllus_son_of_heracles_deian",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_11_telephus_of_mysia_son_of_her",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_12_temenus_conqueror_of_argos_m",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_13_cresphontes_conqueror_of_mes",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_14_aristodemus_father_of_sparta",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_15_eurysthenes_agiad_founder_of",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_heraclidae_return",
+      "to": "grkr_her_16_procles_eurypontid_founder_o",
+      "type": "direct",
+      "label": "Inachid / Perseid / Heraclid Lineage (Apollodorus II)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_01_pasipha_the_minotaur",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_02_ariadne_phaedra_daughters_of",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_03_king_idomeneus_of_crete",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_04_semele_dionysus",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_05_polydorus_labdacus_laius",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_06_king_oedipus_of_thebes_jocas",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_07_eteocles_polynices",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_08_antigone_ismene",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_09_illyrius_son_of_cadmus_epony",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_10_alcmaeon_leader_of_epigoni",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_11_pelasgus_lycaon_of_arcadia",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_12_callisto_arcas",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_13_atalanta_the_huntress",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_14_lacedaemon_sparta",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_15_tyndareus_leda",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_16_helen_of_troy_clytemnestra",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_17_castor_pollux_dioscuri",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_18_penelope_daughter_of_icarius",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_19_asclepius_god_of_medicine",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_20_aeacus_telamon_ajax_the_grea",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_21_teucer_founder_of_cypriot_sa",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_22_peleus_thetis_neoptolemus",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_23_king_cecrops_of_athens",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_24_king_erechtheus_of_athens",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_25_king_aegeus_theseus_of_athen",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_26_tantalus_niobe",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_27_thyestes_aegisthus",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_28_orestes_electra_iphigenia",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
+    },
+    {
+      "from": "grk_thebes_oedipus_epigoni",
+      "to": "grkr_b3_29_paris_alexander_cassandra_he",
+      "type": "direct",
+      "label": "Heroic Lineage (Apollodorus Book III)"
     }
   ]
 }

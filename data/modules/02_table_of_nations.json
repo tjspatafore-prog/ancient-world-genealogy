@@ -19,7 +19,8 @@
         "Book of Jasher 7:10-13"
       ],
       "notes": "Assigned Africa and southern lands in Jubilees 8. Father of Cush, Mizraim (Egypt), Phut (Libya/Punt), and Canaan.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_shem",
@@ -38,7 +39,8 @@
         "Book of Jasher 7:14-22"
       ],
       "notes": "Assigned central Asia from the Mediterranean to India (Tinas) in Jubilees 8. Father of Elam, Asshur, Arphaxad, Lud, and Aram.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_japheth",
@@ -58,7 +60,8 @@
         "Book of Jasher 7:3-9, 10"
       ],
       "notes": "Assigned Europe, Anatolia, Iranian highlands, and Northern Eurasia in Jubilees 8. Father of Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_gomer",
@@ -73,7 +76,8 @@
         "Book of Jasher 7:3, 10:8"
       ],
       "notes": "Father of Ashkenaz, Riphath, and Togarmah. Jasher 10:8 locates his descendants along the Franca/European rivers.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_magog",
@@ -89,7 +93,8 @@
         "Book of Jasher 7:4"
       ],
       "notes": "Josephus identifies Magog with the Scythians; Jasher 7:4 names his sons Elichanaf and Lubal.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_madai",
@@ -105,7 +110,8 @@
         "Book of Jasher 7:5"
       ],
       "notes": "Direct historical cognate of the Medes. Jubilees 10:35 says Madai married a daughter of Shem and settled the Iranian plateau. Jasher 7:5 lists his 4 sons: Achon, Zeelo, Chazoni, Lot.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_javan",
@@ -120,7 +126,8 @@
         "Book of Jasher 7:6, 10:15"
       ],
       "notes": "Linguistic cognate of Ionia. Father of Elishah, Tarshish, Kittim, and Dodanim.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_tubal",
@@ -135,7 +142,8 @@
         "Book of Jasher 7:7, 10:12"
       ],
       "notes": "Jasher 7:7 names his 3 sons: Ariphi, Kesed, Taari (Jasher 10:12 places Tubal in Tuscany/Pisa).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_meshech",
@@ -150,7 +158,8 @@
         "Book of Jasher 7:8"
       ],
       "notes": "Jasher 7:8 names his 3 sons: Dedon, Zaron, Shebashni.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_tiras",
@@ -165,7 +174,8 @@
         "Book of Jasher 7:9, 10:14"
       ],
       "notes": "Jasher 7:9 names his 4 sons: Benib, Gera, Lupirion, Gilak (Jasher 10:14 links Tiras to Rushash/Kushni/Ongolis).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_ashkenaz",
@@ -180,7 +190,8 @@
         "Book of Jasher 7:3, 10:9"
       ],
       "notes": "Assyrian Ashkuza (Scythians); later medieval Jewish name for Rhineland/Germany.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_riphath",
@@ -195,7 +206,8 @@
         "Book of Jasher 7:3, 10:9"
       ],
       "notes": "Associated by Josephus with Paphlagonia; Jasher 10:9 connects Rephath with Western Europe (Bartonim/Bretons).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_togarmah",
@@ -210,7 +222,8 @@
         "Book of Jasher 7:3, 10:10"
       ],
       "notes": "Armenian chronicles (Moses of Chorene) trace Armenians to Togarmah; Book of Jasher 10:10 (via Josippon) lists 10 sons representing Turkic, Bulgar, Khazar, Pecheneg, and Hungarian steppe tribes!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tog_buzar",
@@ -224,7 +237,8 @@
         "Book of Jasher 10:10"
       ],
       "notes": "Son of Togarmah in Book of Jasher 10:10; linked to the Khazars.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tog_parzunac",
@@ -238,7 +252,8 @@
         "Book of Jasher 10:10"
       ],
       "notes": "Son of Togarmah in Book of Jasher 10:10.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tog_balgar",
@@ -252,7 +267,8 @@
         "Book of Jasher 10:10"
       ],
       "notes": "Son of Togarmah in Book of Jasher 10:10; linked to the Volga/Danube Bulgars.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tog_elicanum",
@@ -266,7 +282,8 @@
         "Book of Jasher 10:10"
       ],
       "notes": "Son of Togarmah in Book of Jasher 10:10.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tog_ragbib",
@@ -280,7 +297,8 @@
         "Book of Jasher 10:10"
       ],
       "notes": "Son of Togarmah in Book of Jasher 10:10.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tog_tarki",
@@ -294,7 +312,8 @@
         "Book of Jasher 10:10"
       ],
       "notes": "Son of Togarmah in Book of Jasher 10:10 — explicit Jasher/Josippon bridge from Japheth to the Turkic peoples of the Eurasian Steppe!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tog_bid",
@@ -308,7 +327,8 @@
         "Book of Jasher 10:10"
       ],
       "notes": "Son of Togarmah in Book of Jasher 10:10.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tog_zebuc",
@@ -322,7 +342,8 @@
         "Book of Jasher 10:10"
       ],
       "notes": "Son of Togarmah in Book of Jasher 10:10.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tog_ongal",
@@ -336,7 +357,8 @@
         "Book of Jasher 10:10"
       ],
       "notes": "Son of Togarmah in Book of Jasher 10:10.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tog_tilmaz",
@@ -350,7 +372,8 @@
         "Book of Jasher 10:10"
       ],
       "notes": "Son of Togarmah in Book of Jasher 10:10.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_mag_elichanaf",
@@ -364,7 +387,8 @@
         "Book of Jasher 7:4"
       ],
       "notes": "Son of Magog listed in Book of Jasher 7:4.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_mag_lubal",
@@ -378,7 +402,8 @@
         "Book of Jasher 7:4"
       ],
       "notes": "Son of Magog listed in Book of Jasher 7:4.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_mad_achon",
@@ -392,7 +417,8 @@
         "Book of Jasher 7:5"
       ],
       "notes": "Son of Madai listed in Book of Jasher 7:5.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_mad_zeelo",
@@ -406,7 +432,8 @@
         "Book of Jasher 7:5"
       ],
       "notes": "Son of Madai listed in Book of Jasher 7:5.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_mad_chazoni",
@@ -420,7 +447,8 @@
         "Book of Jasher 7:5"
       ],
       "notes": "Son of Madai listed in Book of Jasher 7:5.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_mad_lot",
@@ -434,7 +462,8 @@
         "Book of Jasher 7:5"
       ],
       "notes": "Son of Madai listed in Book of Jasher 7:5.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_elishah",
@@ -449,7 +478,8 @@
         "Book of Jasher 7:6, 10:15"
       ],
       "notes": "Historically Alashiya (Cyprus); Jasher 10:15 links his descendants to the Almanim/Lombards.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_tarshish",
@@ -464,7 +494,8 @@
         "Book of Jasher 7:6"
       ],
       "notes": "Mediterranean maritime center (Tartessos in Spain or Tarsus in Cilicia).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_kittim",
@@ -479,7 +510,8 @@
         "Book of Jasher 7:6, 10:16, 61"
       ],
       "notes": "Historically Kition (Cyprus) and western Mediterranean islands. In Book of Jasher 10:16 & 61, Kittim settles Italy/Rome (Romim), where Esau's grandson Zepho becomes king!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_dodanim",
@@ -495,7 +527,8 @@
         "Book of Jasher 7:6, 10:17"
       ],
       "notes": "Historically Rhodes (Rodanim in 1 Chr 1:7/LXX); Jasher 10:17 links them to Mediterranean coastal peoples.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tub_ariphi",
@@ -509,7 +542,8 @@
         "Book of Jasher 7:7"
       ],
       "notes": "Son of Tubal in Book of Jasher 7:7.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tub_kesed",
@@ -523,7 +557,8 @@
         "Book of Jasher 7:7"
       ],
       "notes": "Son of Tubal in Book of Jasher 7:7.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tub_taari",
@@ -537,7 +572,8 @@
         "Book of Jasher 7:7"
       ],
       "notes": "Son of Tubal in Book of Jasher 7:7.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_mes_dedon",
@@ -551,7 +587,8 @@
         "Book of Jasher 7:8"
       ],
       "notes": "Son of Meshech in Book of Jasher 7:8.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_mes_zaron",
@@ -565,7 +602,8 @@
         "Book of Jasher 7:8"
       ],
       "notes": "Son of Meshech in Book of Jasher 7:8.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_mes_shebashni",
@@ -579,7 +617,8 @@
         "Book of Jasher 7:8"
       ],
       "notes": "Son of Meshech in Book of Jasher 7:8.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tir_benib",
@@ -593,7 +632,8 @@
         "Book of Jasher 7:9"
       ],
       "notes": "Son of Tiras in Book of Jasher 7:9.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tir_gera",
@@ -607,7 +647,8 @@
         "Book of Jasher 7:9"
       ],
       "notes": "Son of Tiras in Book of Jasher 7:9.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tir_lupirion",
@@ -621,7 +662,8 @@
         "Book of Jasher 7:9"
       ],
       "notes": "Son of Tiras in Book of Jasher 7:9.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_tir_gilak",
@@ -635,7 +677,8 @@
         "Book of Jasher 7:9"
       ],
       "notes": "Son of Tiras in Book of Jasher 7:9.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_cush",
@@ -650,7 +693,8 @@
         "Book of Jasher 7:10, 23"
       ],
       "notes": "Progenitor of Seba, Havilah, Sabtah, Raamah, Sabteca, and Nimrod. Jasher 7:24 says Cush inherited Adam's garments from Ham and gave them to Nimrod.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_mizraim",
@@ -665,7 +709,8 @@
         "Book of Jasher 7:11, 10:25"
       ],
       "notes": "Hebrew/Semitic name for Egypt, cognate with Phoenician Misor (Sanchuniathon) and Coptic/Arabic Misrayim/Baysar.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_phut",
@@ -680,7 +725,8 @@
         "Book of Jasher 7:12"
       ],
       "notes": "Jasher 7:12 names his 4 sons: Gebul, Hadan, Benah, and Adan.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_canaan",
@@ -695,7 +741,8 @@
         "Book of Jasher 7:13"
       ],
       "notes": "Father of 11 Levantine nations including Sidon (Phoenicia), Heth (Hittites), and the Sinites.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_seba",
@@ -710,7 +757,8 @@
         "Book of Jasher 7:10"
       ],
       "notes": "Son of Cush; linked to Upper Nile / Meroe / Red Sea coast.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_havilah_cush",
@@ -725,7 +773,8 @@
         "Book of Jasher 7:10"
       ],
       "notes": "Son of Cush; associated with Red Sea / SW Arabian-African gold lands.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_sabtah",
@@ -740,7 +789,8 @@
         "Book of Jasher 7:10"
       ],
       "notes": "Son of Cush (often linked to Shabwah in Hadhramaut).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_raamah",
@@ -755,7 +805,8 @@
         "Book of Jasher 7:10"
       ],
       "notes": "Son of Cush; father of Sheba and Dedan.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_sabteca",
@@ -770,7 +821,8 @@
         "Book of Jasher 7:10"
       ],
       "notes": "Son of Cush.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_nimrod",
@@ -786,7 +838,8 @@
         "Josephus Ant. 1.4"
       ],
       "notes": "Crucial Biblical-Mesopotamian bridge: Gen 10:10 links him to Shinar (Sumer), Babel, Erech (Uruk), Accad (Akkad), and Nineveh. Jasher 7:47 names his son Mardon, and Jasher 27 narrates Esau slaying Nimrod!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_sheba_raamah",
@@ -800,7 +853,8 @@
         "Genesis 10:7"
       ],
       "notes": "Grandson of Cush via Raamah; Arabian/Red Sea trade lineage.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_dedan_raamah",
@@ -814,7 +868,8 @@
         "Genesis 10:7"
       ],
       "notes": "Grandson of Cush via Raamah; NW Arabian oasis of Dedan (Al-Ula).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_mardon",
@@ -828,7 +883,8 @@
         "Book of Jasher 7:47-48"
       ],
       "notes": "Named in Book of Jasher 7:47 as Nimrod's son, 'more wicked than his father', origin of the proverb 'from the wicked goeth forth wickedness'.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_ludim",
@@ -843,7 +899,8 @@
         "Book of Jasher 7:11"
       ],
       "notes": "Descendant of Mizraim; Egyptian/North African archer peoples.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_anamim",
@@ -858,7 +915,8 @@
         "Book of Jasher 7:11, 10:25"
       ],
       "notes": "Descendant of Mizraim; Jasher 10:25 places Anamim in Alexandria/coastal Egypt.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_lehabim",
@@ -873,7 +931,8 @@
         "Book of Jasher 7:11"
       ],
       "notes": "Libyans / western Nile delta peoples.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_naphtuhim",
@@ -888,7 +947,8 @@
         "Book of Jasher 7:11"
       ],
       "notes": "Lower Egypt / Memphis ('People of Ptah' — Na-Ptah!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_pathrusim",
@@ -903,7 +963,8 @@
         "Book of Jasher 7:11"
       ],
       "notes": "Upper Egypt (Egyptian Pa-to-ris, 'the Southland').",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_casluhim",
@@ -918,7 +979,8 @@
         "Book of Jasher 7:11"
       ],
       "notes": "Genesis 10:14 notes 'from whom came the Philistines'.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_caphtorim",
@@ -933,7 +995,8 @@
         "Book of Jasher 7:11"
       ],
       "notes": "Historically Keftiu / Minoan Crete, linked to Sea Peoples / Philistines.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_phut_gebul",
@@ -947,7 +1010,8 @@
         "Book of Jasher 7:12"
       ],
       "notes": "Son of Phut listed in Book of Jasher 7:12.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_phut_hadan",
@@ -961,7 +1025,8 @@
         "Book of Jasher 7:12"
       ],
       "notes": "Son of Phut listed in Book of Jasher 7:12.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_phut_benah",
@@ -975,7 +1040,8 @@
         "Book of Jasher 7:12"
       ],
       "notes": "Son of Phut listed in Book of Jasher 7:12.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_phut_adan",
@@ -989,7 +1055,8 @@
         "Book of Jasher 7:12"
       ],
       "notes": "Son of Phut listed in Book of Jasher 7:12.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_sidon",
@@ -1004,7 +1071,8 @@
         "Book of Jasher 7:13"
       ],
       "notes": "Firstborn of Canaan; eponym of Phoenician Sidon.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_heth",
@@ -1019,7 +1087,8 @@
         "Book of Jasher 7:13"
       ],
       "notes": "Eponym of the Hittites / Children of Heth (from whom Abraham purchased Machpelah).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_jebusite",
@@ -1034,7 +1103,8 @@
         "Book of Jasher 7:13"
       ],
       "notes": "Pre-Israelite inhabitants of Jerusalem (Jebus).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_amorite",
@@ -1049,7 +1119,8 @@
         "Book of Jasher 7:13"
       ],
       "notes": "Western Semitic Amurru peoples of Syria and Canaan.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_girgashite",
@@ -1064,7 +1135,8 @@
         "Book of Jasher 7:13"
       ],
       "notes": "Canaanite nation listed in Genesis 10:16.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_hivite",
@@ -1079,7 +1151,8 @@
         "Book of Jasher 7:13"
       ],
       "notes": "Inhabitants of Shechem, Gibeon, and Mt. Hermon foothills.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_arkite",
@@ -1094,7 +1167,8 @@
         "Book of Jasher 7:13"
       ],
       "notes": "Ancient city of Arqa in northern Lebanon.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_sinite",
@@ -1109,7 +1183,8 @@
         "Book of Jasher 7:13"
       ],
       "notes": "Coastal Phoenician city of Sinna/Siannu (later speculated by early European writers as China/Sinim, though historically Levantine).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_arvadite",
@@ -1124,7 +1199,8 @@
         "Book of Jasher 7:13"
       ],
       "notes": "Phoenician island city of Arwad (Syria).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_zemarite",
@@ -1139,7 +1215,8 @@
         "Book of Jasher 7:13"
       ],
       "notes": "Ancient Syrian coastal city of Sumur/Simyra.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_hamathite",
@@ -1154,7 +1231,8 @@
         "Book of Jasher 7:13"
       ],
       "notes": "Ancient Syrian kingdom of Hamath (Hama) on the Orontes.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_elam",
@@ -1169,7 +1247,8 @@
         "Book of Jasher 7:15"
       ],
       "notes": "Historical kingdom of Elam in SW Iran. Book of Jasher 7:15 names his 3 sons: Shushan (Susa!), Machul, and Harmon.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_asshur",
@@ -1184,7 +1263,8 @@
         "Book of Jasher 7:16"
       ],
       "notes": "Historical Assyria. Book of Jasher 7:16 names his 2 sons: Mirus and Mokil.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_arphaxad",
@@ -1200,7 +1280,8 @@
         "Book of Jasher 7:17"
       ],
       "notes": "Father of Shelach (and Cainan in LXX/Jubilees 8:1). Book of Jasher 7:17 also names his sons Anar and Ashcol.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_lud",
@@ -1215,7 +1296,8 @@
         "Book of Jasher 7:18"
       ],
       "notes": "Book of Jasher 7:18 names his 2 sons: Pethor and Bizayon.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_aram",
@@ -1230,7 +1312,8 @@
         "Book of Jasher 7:19"
       ],
       "notes": "Father of Uz, Hul, Gether, and Mash.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jas_elam_shushan",
@@ -1244,7 +1327,8 @@
         "Book of Jasher 7:15"
       ],
       "notes": "Son of Elam in Book of Jasher 7:15 — eponym of the historical Elamite capital Susa!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_elam_machul",
@@ -1258,7 +1342,8 @@
         "Book of Jasher 7:15"
       ],
       "notes": "Son of Elam in Book of Jasher 7:15.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_elam_harmon",
@@ -1272,7 +1357,8 @@
         "Book of Jasher 7:15"
       ],
       "notes": "Son of Elam in Book of Jasher 7:15.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_ass_mirus",
@@ -1286,7 +1372,8 @@
         "Book of Jasher 7:16"
       ],
       "notes": "Son of Asshur in Book of Jasher 7:16.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_ass_mokil",
@@ -1300,7 +1387,8 @@
         "Book of Jasher 7:16"
       ],
       "notes": "Son of Asshur in Book of Jasher 7:16.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_lud_pethor",
@@ -1314,7 +1402,8 @@
         "Book of Jasher 7:18"
       ],
       "notes": "Son of Lud in Book of Jasher 7:18.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_lud_bizayon",
@@ -1328,7 +1417,8 @@
         "Book of Jasher 7:18"
       ],
       "notes": "Son of Lud in Book of Jasher 7:18.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_uz_aram",
@@ -1343,7 +1433,8 @@
         "Book of Jasher 7:19"
       ],
       "notes": "Often connected with the Land of Uz (Book of Job) / Damascus region.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_hul",
@@ -1358,7 +1449,8 @@
         "Book of Jasher 7:19"
       ],
       "notes": "Son of Aram; linked to Huleh valley or Armenia (Josephus).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_gether",
@@ -1373,7 +1465,8 @@
         "Book of Jasher 7:19"
       ],
       "notes": "Son of Aram; linked in Arab tradition to Thamud/Jadhis.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_mash",
@@ -1388,7 +1481,8 @@
         "Book of Jasher 7:19"
       ],
       "notes": "Son of Aram; associated with Mount Masius in Upper Mesopotamia.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jub_cainan_post",
@@ -1404,7 +1498,8 @@
         "Luke 3:36"
       ],
       "notes": "Present in Jubilees and Septuagint; Jubilees 8:3 says he discovered an antediluvian rock inscription of the Watchers' astrological teachings.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_shelah",
@@ -1419,7 +1514,8 @@
         "Book of Jasher 7:17"
       ],
       "notes": "Father of Eber (son of Arphaxad in Masoretic/Jasher; son of Cainan in Jubilees/LXX).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jas_anar",
@@ -1433,7 +1529,8 @@
         "Book of Jasher 7:17"
       ],
       "notes": "Additional son of Arphaxad listed in Book of Jasher 7:17.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_ashcol",
@@ -1447,7 +1544,8 @@
         "Book of Jasher 7:17"
       ],
       "notes": "Additional son of Arphaxad listed in Book of Jasher 7:17.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_eber",
@@ -1466,7 +1564,8 @@
         "Book of Jasher 7:20-21"
       ],
       "notes": "Eponym of the Hebrews and identified in Arabian tradition with Prophet Hud. Father of Peleg and Joktan (Qahtan).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_peleg",
@@ -1482,7 +1581,8 @@
         "Book of Jasher 7:21-22"
       ],
       "notes": "'In his days the earth was divided' (Tower of Babel). Father of Reu (and Yen in Jasher 7:22).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_joktan",
@@ -1501,7 +1601,8 @@
         "al-Tabari"
       ],
       "notes": "Brother of Peleg; father of 13 Arabian tribes spanning from Mesha to Sephar (Yemen/Hadhramaut/Oman). Identified in Arabian genealogy with Qahtan.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_almodad",
@@ -1516,7 +1617,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "1st of 13 sons of Joktan (Gen 10:26; Jasher 7:21).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_sheleph",
@@ -1531,7 +1633,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "2nd son of Joktan; linked to Sulaf tribe of Yemen.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_hazarmaveth",
@@ -1546,7 +1649,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "3rd son of Joktan; exact historical cognate of Hadhramaut in southern Yemen!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_jerah",
@@ -1561,7 +1665,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "4th son of Joktan; linked to South Arabian lunar sanctuary/tribe.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_hadoram",
@@ -1576,7 +1681,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "5th son of Joktan.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_uzal",
@@ -1591,7 +1697,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "6th son of Joktan; classical ancient name of Sana'a, Yemen!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_diklah",
@@ -1606,7 +1713,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "7th son of Joktan.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_obal",
@@ -1621,7 +1729,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "8th son of Joktan (Ebal in 1 Chr 1:22).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_abimael",
@@ -1636,7 +1745,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "9th son of Joktan.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_sheba_joktan",
@@ -1651,7 +1761,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "10th son of Joktan; linked to the Sabaean Kingdom of Yemen (Queen of Sheba / Makeda!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_ophir",
@@ -1666,7 +1777,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "11th son of Joktan; famed ancient source of gold (1 Kings 9:28).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_havilah_joktan",
@@ -1681,7 +1793,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "12th son of Joktan; Arabian gold/myrrh region.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_jobab",
@@ -1696,7 +1809,8 @@
         "Book of Jasher 7:21"
       ],
       "notes": "13th son of Joktan.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_yen",
@@ -1710,7 +1824,8 @@
         "Book of Jasher 7:22"
       ],
       "notes": "Additional son of Peleg listed alongside Reu in Book of Jasher 7:22.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_reu",
@@ -1726,7 +1841,8 @@
         "Book of Jasher 7:22"
       ],
       "notes": "Jubilees 11:1 names his wife Ora, daughter of Ur (founder of Ur of the Chaldees!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_serug",
@@ -1742,7 +1858,8 @@
         "Book of Jasher 7:22"
       ],
       "notes": "Jubilees 11:6 notes his original name Seroh and wife Milka; Ur/Haran region (Saruj).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_nahor1",
@@ -1758,7 +1875,8 @@
         "Book of Jasher 7:49"
       ],
       "notes": "Jubilees 11:9 names his wife Iyaska, daughter of Nestag of the Chaldeans.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_terah",
@@ -1776,7 +1894,8 @@
         "Book of Jasher 7:49-51, 8-12"
       ],
       "notes": "Jasher 7:49 names his wife Amthelo daughter of Cornebo (Jubilees 11:14 names Edna). Jasher portrays Terah as captain of Nimrod's host in Shinar before departing Ur for Haran.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     }
   ],
   "edges": [

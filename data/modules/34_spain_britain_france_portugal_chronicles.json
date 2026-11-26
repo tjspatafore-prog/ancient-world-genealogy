@@ -17,7 +17,8 @@
         "Juan de Mariana The General History of Spain (tr. Stevens 1699) Book I Ch. I p. 1"
       ],
       "notes": "Mariana opens his monumental history of Spain (p. 1): 'Tubal, the son of Japheth, was the first man that peopled Spain after the Flood... the 5th son of Japheth, was sent to the farthest regions westward, that is, to Spain, where he founded the Spanish monarchy.'",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "esp_visigoths_reccared_roderick",
@@ -36,7 +37,8 @@
         "Juan de Mariana The General History of Spain (1699)"
       ],
       "notes": "Traces Visigothic Hispania from Alaric's successor Ataulf and Toledo unifier Leovigild to King Reccared I (589 CE) and last Visigothic king Roderick (711 CE).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "esp_pelayo_castile_aragon",
@@ -55,7 +57,8 @@
         "Juan de Mariana The General History of Spain (1699)"
       ],
       "notes": "Follows the Christian continuity from Don Pelayo at Covadonga (718 CE) through Alfonso VI of Castile and Leon (father-in-law of Count Henry of Burgundy/Portugal), St. Ferdinand III, and James I the Conqueror of Aragon.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "esp_ferdinand_isabella_habsburg",
@@ -73,7 +76,8 @@
         "Juan de Mariana The General History of Spain (1699)"
       ],
       "notes": "Unites Castile and Aragon under Ferdinand II and Isabella I (1492), continuing through Joanna the Mad and Philip the Handsome to Emperor Charles V (Charles I of Spain) and King Philip II.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bri_sammes_phoenicians_britain",
@@ -91,7 +95,8 @@
         "Aylett Sammes Antiquities of Ancient Britain (1676) p. 2"
       ],
       "notes": "Sammes rejects later fables in favor of classical Phoenician sources, arguing that Phoenician navigators from Sidon and Tyre ('Barat-anac' / land of tin) discovered and settled Britain alongside Gomerite Cimmerian peoples.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bri_strutt_cassivellaunus_boadicea",
@@ -111,7 +116,8 @@
         "Julius Caesar Commentaries"
       ],
       "notes": "Combines Caesar's eyewitness Commentaries (55-54 BCE) and Strutt's Chronicle of England: Cassivellaunus (commander against Julius Caesar) -> Tasciovanus -> Cunobelinus ('Cymbeline') -> Caractacus, alongside Iceni Queen Boadicea.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bri_bede_heptarchy_woden",
@@ -131,7 +137,8 @@
         "Joseph Strutt Chronicle of England (1779)"
       ],
       "notes": "Bede explicitly traces Kentish brothers Hengist & Horsa (and fellow Heptarchy dynasties of Kent, Northumbria, Mercia, East Anglia & Wessex) to Woden -> Ethelbert of Kent (baptized 597), St. Edwin & St. Oswald of Northumbria, and Offa of Mercia.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "fra_mezeray_pharamond_clovis",
@@ -150,7 +157,8 @@
         "François Eudes de Mézeray General Chronological History of France (1683) p. 10"
       ],
       "notes": "Mézeray (1683) documents the First Race of French monarchs from Pharamond and Clodion through Meroveus (King III, p. 10, who allied with Aëtius and Theodoric against Attila at the Catalaunian Plains, 451 CE), Childeric I, and Clovis I.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "por_sandford_burgundy_capet",
@@ -168,7 +176,8 @@
         "Francis Sandford Genealogical History of the Kings of Portugal (1662) pp. 2-3"
       ],
       "notes": "Quoting Théodore Godefroy and ancient Fleury manuscripts (pp. 2-3), Sandford demonstrates Count Henry of Burgundy descended in direct male line from Robert the Pious & Robert I, Duke of Burgundy (House of France), marrying Alfonso VI's daughter Teresa in 1089/1090 to found Portugal's crown.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     }
   ],
   "edges": [

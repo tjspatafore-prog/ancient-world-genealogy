@@ -19,7 +19,8 @@
         "Book of Jasher 1"
       ],
       "notes": "First human couple. Book of Jasher 1:12-13 notes they bore two sons (Cain, Abel) and three daughters; Jubilees 4 explicitly names their daughters Awan and Azura.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_abel",
@@ -38,7 +39,8 @@
         "Book of Jasher 1:12-25"
       ],
       "notes": "Shepherd slain by Cain. In Jasher 1:13-25 the conflict involves the division of fields, flocks, and twin sisters.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_cain",
@@ -57,7 +59,8 @@
         "Book of Jasher 1"
       ],
       "notes": "Founder of the Cainite line. Jubilees 4:9 names his wife Awan (his sister). Jasher 2:26-27 recounts his accidental death by blind Lamech's arrow.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_seth",
@@ -77,7 +80,8 @@
         "Josephus Ant. 1.2.3"
       ],
       "notes": "Appointed in place of Abel. Jubilees 4:11 names his wife Azura. Josephus credits Seth's descendants with inventing astronomy and inscribing it on two pillars to survive flood and fire.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_cain_enoch",
@@ -92,7 +96,8 @@
         "Jasher 1:35"
       ],
       "notes": "Eponym of the first city built by Cain.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_irad",
@@ -107,7 +112,8 @@
         "Jasher 2:16"
       ],
       "notes": "Son of Cainite Enoch.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_mehujael",
@@ -122,7 +128,8 @@
         "Jasher 2:16"
       ],
       "notes": "Son of Irad.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_methushael",
@@ -137,7 +144,8 @@
         "Jasher 2:17"
       ],
       "notes": "Son of Mehujael; father of Cainite Lamech.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_cain_lamech",
@@ -152,7 +160,8 @@
         "Jasher 2:17-37"
       ],
       "notes": "Marries Adah and Zillah (daughters of Sethite Cainan in Jasher 2:18!). Father of Jabal, Jubal, Tubal-cain, and Naamah.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_jabal",
@@ -167,7 +176,8 @@
         "Book of Jasher 2:20"
       ],
       "notes": "Son of Lamech & Adah; father of those who dwell in tents and keep livestock.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_jubal",
@@ -182,7 +192,8 @@
         "Book of Jasher 2:20"
       ],
       "notes": "Son of Lamech & Adah; inventor of harp and flute/organ.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_tubalcain",
@@ -197,7 +208,8 @@
         "Book of Jasher 2:25-27"
       ],
       "notes": "Son of Lamech & Zillah. Jasher 2:26-27 relates how he guided blind Lamech's bow, accidentally killing Cain before being slain by Lamech.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_naamah_cain",
@@ -212,7 +224,8 @@
         "Genesis Rabbah 23:3"
       ],
       "notes": "Named in Genesis 4:22. Rabbinic tradition (Genesis Rabbah 23:3) identifies her as Noah's wife (while Book of Jasher 5:15 names Noah's wife as Naamah daughter of Enoch).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_enosh",
@@ -231,7 +244,8 @@
         "Book of Jasher 2:2-7"
       ],
       "notes": "Jubilees 4:13 names his wife Noam. Jasher 2:4-7 says idol worship began in his days and the sea (Gihon) flooded a third of the earth.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_kenan",
@@ -250,7 +264,8 @@
         "Book of Jasher 2:8-15"
       ],
       "notes": "Jubilees 4:14 names his wife Mualeleth. Book of Jasher 2:11-12 says Kenan ruled wisely, inscribed prophecies of the Flood on stone tablets, and fathered 3 sons (Mahalalel, Enan, Mered) and 2 daughters (Adah, Zillah).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_mahalalel",
@@ -269,7 +284,8 @@
         "Book of Jasher 2:11-15"
       ],
       "notes": "Jubilees 4:15 names his wife Dinah, daughter of Barakiel.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_jared",
@@ -289,7 +305,8 @@
         "Book of Jasher 2:37"
       ],
       "notes": "Jubilees 4:16 names his wife Baraka (dau. of Rasujal). 1 Enoch 6 and Jubilees 4:15 connect his name ('descent') to the descent of the Watchers on Mount Hermon.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_enoch",
@@ -311,7 +328,8 @@
         "Book of Jasher 3"
       ],
       "notes": "7th from Adam; lived 365 years and ascended to heaven. Jubilees 4:17 credits him as first to learn writing, calendar, and astronomy. Book of Jasher 3:1 names his 3 sons (Methuselah, Elisha, Elimelech) and 2 daughters (Melca, Nahmah/Naamah). Widely equated in Greco-Egyptian & Arabic lore with Thoth/Hermes/King Saurid and compared to 7th Sumerian king Enmeduranki!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_methuselah",
@@ -331,7 +349,8 @@
         "Book of Jasher 3-5"
       ],
       "notes": "Custodian of Enoch's books. Jubilees 4:27 names his wife Edna. Jasher 5:35 also names his son Eliakim, whose 3 daughters marry Noah's 3 sons!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "bib_lamech_seth",
@@ -352,7 +371,8 @@
         "Book of Jasher 4:11-14"
       ],
       "notes": "Jubilees 4:28 names his wife Betenos; Book of Jasher 4:11 names her Ashmua, daughter of Elisha son of Enoch! 1 Enoch 106 & Qumran 1Q20 recount his awe at Noah's luminous birth.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "bib_noah",
@@ -373,7 +393,8 @@
         "Book of Jasher 4-6"
       ],
       "notes": "Called Noah by Lamech and Menahem by Methuselah (Jasher 4:14). Jubilees 4:33 names his wife Emzara; Jasher 5:15 names her Naamah daughter of Enoch (while Genesis Rabbah identifies her with Cainite Naamah). Father of Japheth, Ham, and Shem.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jas_enan",
@@ -387,7 +408,8 @@
         "Book of Jasher 2:11"
       ],
       "notes": "Listed in Book of Jasher 2:11 as one of Kenan's three sons alongside Mahalalel and Mered.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_mered",
@@ -401,7 +423,8 @@
         "Book of Jasher 2:11"
       ],
       "notes": "Listed in Book of Jasher 2:11 as one of Kenan's three sons.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_adah_kenan",
@@ -415,7 +438,8 @@
         "Book of Jasher 2:11, 2:18"
       ],
       "notes": "In Book of Jasher 2:18, Adah daughter of Sethite Kenan marries Cainite Lamech (mother of Jabal & Jubal), bridging the Sethite and Cainite lines!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_zillah_kenan",
@@ -429,7 +453,8 @@
         "Book of Jasher 2:11, 2:18"
       ],
       "notes": "In Book of Jasher 2:18, Zillah daughter of Sethite Kenan marries Cainite Lamech (mother of Tubal-cain & Naamah).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_elisha_enoch",
@@ -443,7 +468,8 @@
         "Book of Jasher 3:1, 4:11"
       ],
       "notes": "Son of Enoch in Jasher 3:1; father of Ashmua, who marries Lamech and births Noah (Jasher 4:11)!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_elimelech_enoch",
@@ -457,7 +483,8 @@
         "Book of Jasher 3:1"
       ],
       "notes": "One of three sons of Enoch named in Book of Jasher 3:1.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_melca_enoch",
@@ -471,7 +498,8 @@
         "Book of Jasher 3:1"
       ],
       "notes": "Daughter of Enoch named in Book of Jasher 3:1.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_naamah_enoch",
@@ -485,7 +513,8 @@
         "Book of Jasher 3:1, 5:15"
       ],
       "notes": "Named in Book of Jasher 3:1 & 5:15 as daughter of Enoch who marries Noah (at age 580) and becomes mother of Shem, Ham, and Japheth!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jas_eliakim",
@@ -499,7 +528,8 @@
         "Book of Jasher 5:35"
       ],
       "notes": "Named in Book of Jasher 5:35 as son of Methuselah whose three daughters Noah chose as wives for Shem, Ham, and Japheth.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eno_watchers",
@@ -518,7 +548,8 @@
         "Jubilees 5:1-10"
       ],
       "notes": "200 Watchers descend on Mount Hermon in the days of Jared; chiefs include Semyaza, Azazel (metallurgy/weapons), Araqiel, Kokabiel, Baraqiel, Armaros, Penemue, and Gadreel.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eno_ohya_hahya",
@@ -536,7 +567,8 @@
         "1 Enoch 7"
       ],
       "notes": "Named Giant brothers in the Dead Sea Scrolls Book of Giants who dream of the impending Flood and send Mahaway to ask Enoch to interpret it.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eno_mahaway",
@@ -550,7 +582,8 @@
         "Qumran Book of Giants (4Q530)"
       ],
       "notes": "Winged Giant son of Baraqiel who flies across the world to consult Enoch on behalf of the Nephilim.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     }
   ],
   "edges": [

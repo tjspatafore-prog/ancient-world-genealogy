@@ -74,14 +74,20 @@
           <h1 class="text-xs sm:text-sm font-semibold leading-tight truncate">Ancient World Genealogy Atlas</h1>
           <span id="versionBadge" class="text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono shrink-0">Loading…</span>
         </div>
-        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">207 Primary Sources • Every Lineage Rooted in Adam → Noah (Shem, Ham, Japheth &amp; Yonton) • Songhai, Spain, Newton, Ussher &amp; Living Lines to 2026</p>
+        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">207 Primary Sources • Biblically Connected &amp; Complete World Rulers • Switch Scope Tabs to Explore All</p>
       </div>
     </div>
 
     <!-- Search & View Switchers -->
     <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 w-full lg:w-auto">
-      <input id="searchInput" type="text" placeholder="Search 1,260+ Biblical/Noahic people..."
-        class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] flex-1 sm:flex-none sm:w-52 lg:w-60 min-w-[140px] focus:outline-none focus:ring-1 focus:ring-[var(--primary)]" />
+      <input id="searchInput" type="text" placeholder="Search 2,460+ kings, patriarchs &amp; lineages..."
+        class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] flex-1 sm:flex-none sm:w-48 lg:w-56 min-w-[130px] focus:outline-none focus:ring-1 focus:ring-[var(--primary)]" />
+
+      <!-- Biblical Scope Switcher -->
+      <div class="flex items-center gap-0.5 border border-[var(--border)] rounded-md p-0.5 bg-[var(--background)]">
+        <button onclick="setScope('biblical')" id="scope-biblical" class="text-xs px-2 sm:px-2.5 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)] whitespace-nowrap" title="Show lineages currently traced to Adam &amp; Noah">Biblically Connected</button>
+        <button onclick="setScope('all')" id="scope-all" class="text-xs px-2 sm:px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)] whitespace-nowrap" title="Show ALL world kings &amp; dynasties (connected + pending bridge)">All</button>
+      </div>
 
       <!-- 4-Way Primary View Switcher -->
       <div class="flex items-center gap-0.5 border border-[var(--border)] rounded-md p-0.5 bg-[var(--background)] overflow-x-auto">
@@ -112,6 +118,7 @@
     <span class="text-[var(--muted-foreground)] font-medium shrink-0 mr-1">Spotlights:</span>
     <button onclick="applyPreset('all')" id="preset-all" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Full World Atlas</button>
     <button onclick="applyPreset('strict')" id="preset-strict" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Strict Textual + Cognates</button>
+    <button onclick="showPendingBridge()" id="preset-pending" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-amber-500/40 text-amber-400 hover:bg-[var(--accent)]">Pending Bridge (Unconnected)</button>
     <button onclick="applyPreset('dna')" id="preset-dna" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Archaeogenetics (Y-DNA &amp; mtDNA)</button>
     <button onclick="focusSubtree('bib_abraham')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Abraham's Full Tree</button>
     <button onclick="focusSubtree('bib_noah')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Noah &amp; 4 Sons (Shem/Ham/Japheth/Yonton)</button>
@@ -134,6 +141,8 @@
     <button onclick="applyPreset('india')" id="preset-india" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">India, Tibet &amp; Ceylon</button>
     <button onclick="applyPreset('china')" id="preset-china" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">China &amp; Steppe</button>
     <button onclick="applyPreset('korea_japan')" id="preset-korea_japan" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Korea &amp; Japan</button>
+    <button onclick="applyPreset('se_asia')" id="preset-se_asia" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Southeast Asia</button>
+    <button onclick="applyPreset('americas')" id="preset-americas" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Americas &amp; Polynesia</button>
   </div>
 
   <!-- Main Workspace -->
@@ -432,7 +441,17 @@ const MAP_PINS = [
   { id:"pin_morocco", label:"Rabat (Living Alaouites 2026)", lat:34, lon:-6.8, nodeId:"mod_alaouite_morocco", trad:"arabian", desc:"Hasan al-Muthanna -> Hassan al-Dakhil -> Living King Mohammed VI & Crown Prince Moulay Hassan of Morocco" },
   { id:"pin_timbuktu", label:"Gao & Timbuktu (Songhai Empire)", lat:16.8, lon:-3.0, nodeId:"sng_sonni_askia_timbuktu", trad:"african", desc:"Tarikh es-Soudan: Za-Al-Ayaman ('Came from Yemen') -> 14 Za Kings -> Sonni Ali & Askia El-Hadj Mohammed the Great" },
   { id:"pin_palmyra", label:"Palmyra / Tadmor (Solomon & Zenobia)", lat:34.5, lon:38.3, nodeId:"pal_odenathus_zenobia", trad:"greek", desc:"Seller 1696: King Solomon's Tadmor -> Nabataean Aretas (Al-Harith) -> Odenathus & Queen Zenobia (Cleopatra VII / Dido)" },
-  { id:"pin_gondar", label:"Gondar (Solomonic Ethiopia)", lat:12.6, lon:37.5, nodeId:"eth_ludolf_gondar_kings", trad:"african", desc:"Hiob Ludolf 1684: Aksumite Kaleb (Himyar War) -> Lebna Dengel -> Galawdewos -> Susenyos -> Emperor Fasilides of Gondar" }
+  { id:"pin_gondar", label:"Gondar (Solomonic Ethiopia)", lat:12.6, lon:37.5, nodeId:"eth_ludolf_gondar_kings", trad:"african", desc:"Hiob Ludolf 1684: Aksumite Kaleb (Himyar War) -> Lebna Dengel -> Galawdewos -> Susenyos -> Emperor Fasilides of Gondar" },
+  { id:"pin_tenochtitlan", label:"Tenochtitlan (Aztec Empire)", lat:19.4, lon:-99.1, nodeId:"amp_aztec_tenochtitlan", trad:"americas_pacific", desc:"Pending Bridge: Ometeotl -> Acamapichtli -> Moctezuma I -> Moctezuma II -> Cuauhtemoc (Mod. Univ. Hist. Vol. 14)" },
+  { id:"pin_cusco", label:"Cusco (Inca Empire)", lat:-13.5, lon:-71.9, nodeId:"amp_inca_manco", trad:"americas_pacific", desc:"Pending Bridge: Viracocha -> Manco Capac -> Pachacuti -> Huayna Capac -> Atahualpa -> Tupac Amaru" },
+  { id:"pin_tikal", label:"Tikal & Palenque (Maya)", lat:17.2, lon:-89.6, nodeId:"amp_maya_four_men", trad:"americas_pacific", desc:"Pending Bridge: Popol Vuh Four Maize Ancestors -> Yax Ehb Xook, Pakal the Great & Lady Six Sky" },
+  { id:"pin_hawaii", label:"Hawai'i (Kumulipo Ali'i)", lat:20.8, lon:-156.3, nodeId:"amp_poly_kumulipo", trad:"americas_pacific", desc:"Pending Bridge: Wakea & Papa -> Haloa -> King Kamehameha I -> Queen Lili'uokalani" },
+  { id:"pin_aotearoa", label:"Aotearoa / Polynesia (Kupe)", lat:-41.3, lon:174.8, nodeId:"amp_poly_kupe_tonga", trad:"americas_pacific", desc:"Pending Bridge: Kupe (Aotearoa), Tu'i Tonga 'Aho'eitu & Queen Salamasina (Samoa)" },
+  { id:"pin_angkor", label:"Angkor & Ayutthaya (Khmer / Siam)", lat:13.4, lon:103.9, nodeId:"sea_khmer_jayavarman2", trad:"southeast_asia", desc:"Pending Bridge: Jayavarman II -> Suryavarman II -> Jayavarman VII, Sukhothai & Dai Viet" },
+  { id:"pin_majapahit", label:"Java & Malacca (Majapahit)", lat:-7.5, lon:112.4, nodeId:"sea_java_raden_wijaya", trad:"southeast_asia", desc:"Pending Bridge: Srivijaya -> Raden Wijaya -> Hayam Wuruk -> Parameswara (Malacca)" },
+  { id:"pin_kongo", label:"Mbanza-Kongo (Kingdom of Kongo)", lat:-6.3, lon:14.2, nodeId:"afr_kongo_lukeni", trad:"african", desc:"Pending Bridge: Lukeni lua Nimi -> Afonso I -> Queen Nzinga Mbande (Mod. Univ. Hist. Vols. 6-7)" },
+  { id:"pin_zimbabwe", label:"Great Zimbabwe & Mutapa", lat:-20.3, lon:30.9, nodeId:"afr_zimbabwe_mutota", trad:"african", desc:"Pending Bridge: Nyatsimba Mutota -> Nyanhewe Matope & Zulu Kingdom (Shaka)" },
+  { id:"pin_warsaw", label:"Poland, Hungary & Baltics", lat:52.2, lon:21.0, nodeId:"eur_poland_mieszko", trad:"europe_norse", desc:"Pending Bridge: Piast -> Mieszko I -> Jadwiga/Jagiello, Arpad (Hungary) & Gediminas (Lithuania)" }
 ];
 
 const MAP_ARCS = [
@@ -501,7 +520,13 @@ const MAP_ARCS = [
   { from:"pin_west_africa", to:"pin_timbuktu", type:"cognate", label:"Tarikh es-Soudan Ch. 2-3: Mali Mansa Musa -> Songhai Liberation under Sonni Ali & Askia the Great" },
   { from:"pin_levant", to:"pin_palmyra", type:"cognate", label:"Seller 1696: King Solomon builds Tadmor -> Nabataean Aretas -> King Odenathus & Queen Zenobia" },
   { from:"pin_ethiopia", to:"pin_gondar", type:"cognate", label:"Ludolf 1684: Aksumite Emperor Kaleb -> Solomonic Emperors Susenyos & Fasilides at Gondar" },
-  { from:"pin_maghreb", to:"pin_spain", type:"cognate", label:"Ibn 'Abd al-Hakam Futuh Misr & Mariana 1699: 711 CE Maghreb–Al-Andalus Crossing & Reconquista" }
+  { from:"pin_maghreb", to:"pin_spain", type:"cognate", label:"Ibn 'Abd al-Hakam Futuh Misr & Mariana 1699: 711 CE Maghreb–Al-Andalus Crossing & Reconquista" },
+  { from:"pin_tikal", to:"pin_tenochtitlan", type:"cognate", label:"Mesoamerican Feathered Serpent horizon: Maya Quiche/Tikal & Mexica Tenochtitlan" },
+  { from:"pin_cusco", to:"pin_aotearoa", type:"cognate", label:"Trans-Pacific sweet potato (kumara / camote) horizon between Andes & Polynesia" },
+  { from:"pin_hawaii", to:"pin_aotearoa", type:"cognate", label:"Polynesian Sky-Earth (Rangi/Wakea & Papa) & Maui voyaging traditions" },
+  { from:"pin_india", to:"pin_angkor", type:"cognate", label:"Indianized maritime & royal scripts reaching Funan/Angkor, Siam & Majapahit" },
+  { from:"pin_angkor", to:"pin_majapahit", type:"cognate", label:"Mainland Angkor/Ayutthaya & Maritime Srivijaya/Majapahit/Malacca trade" },
+  { from:"pin_kongo", to:"pin_zimbabwe", type:"cognate", label:"Sub-Saharan Bantuphone kingdoms: Kongo, Ndongo & Great Zimbabwe / Mutapa" }
 ];
 
 // Runtime State
@@ -516,6 +541,8 @@ let allAdjMap = {};
 
 let activeLinkTypes = new Set(Object.keys(LINK_META).filter(k => k !== "genetic"));
 let activeTraditions = new Set();
+let activeScope = "biblical";
+let pendingOnly = false;
 let expandedParents = new Set();
 let expandMode = "landmarks";
 let mainView = "tree";
@@ -609,11 +636,10 @@ async function boot() {
     });
 
     document.getElementById("versionBadge").textContent = `${NODES.length} Nodes • ${EDGES.length} Links`;
-    const allBtn = document.getElementById("mode-all");
-    if (allBtn) allBtn.textContent = `Expand All (${NODES.length})`;
     const searchEl = document.getElementById("searchInput");
-    if (searchEl) searchEl.placeholder = `Search ${NODES.length.toLocaleString()}+ Biblical/Noahic people...`;
+    if (searchEl) searchEl.placeholder = `Search ${NODES.length.toLocaleString()}+ kings, patriarchs & lineages...`;
     initUI();
+    updateScopeUI();
   } catch (err) {
     document.getElementById("inspector").innerHTML = `<div class="text-xs text-red-400">Failed to load data/world_genealogy.json: ${err.message}</div>`;
   }
@@ -653,14 +679,14 @@ function initUI() {
 
   const tf = document.getElementById("traditionFilters");
   Object.entries(TRADITIONS).forEach(([k, t]) => {
-    const count = NODES.filter(n => n.tradition === k).length;
+    const count = NODES.filter(n => n.tradition === k && isNodeInScope(n)).length;
     const row = document.createElement("label");
     row.className = "flex items-center gap-2 px-1.5 py-1 rounded hover:bg-[var(--accent)] cursor-pointer text-xs";
     row.innerHTML = `
       <input type="checkbox" ${activeTraditions.has(k) ? "checked" : ""} data-trad="${k}" class="accent-[var(--primary)]" />
       <span class="w-2.5 h-2.5 rounded-full shrink-0" style="background:${t.color}"></span>
       <span class="flex-1 truncate">${t.label}</span>
-      <span class="text-[var(--muted-foreground)] font-mono">${count}</span>`;
+      <span class="text-[var(--muted-foreground)] font-mono" data-trad-count="${k}">${count}</span>`;
     row.querySelector("input").addEventListener("change", (e) => {
       if (e.target.checked) activeTraditions.add(k); else activeTraditions.delete(k);
       render();
@@ -815,6 +841,76 @@ function initUI() {
   setTimeout(fitView, 50);
 }
 
+function isNodeInScope(n) {
+  if (!n) return false;
+  if (n.tradition === "dna") return activeTraditions.has("dna");
+  if (pendingOnly) return n.biblicalConnected === false;
+  if (activeScope === "biblical") return n.biblicalConnected !== false;
+  return true;
+}
+
+function updateScopeUI() {
+  const bibCount = NODES.filter(n => n.tradition !== "dna" && n.biblicalConnected !== false).length;
+  const nonDnaAll = NODES.filter(n => n.tradition !== "dna").length;
+  const scopeCount = NODES.filter(n => activeTraditions.has(n.tradition) && isNodeInScope(n)).length;
+
+  const bBtn = document.getElementById("scope-biblical");
+  const aBtn = document.getElementById("scope-all");
+  if (bBtn) {
+    const on = (activeScope === "biblical" && !pendingOnly);
+    bBtn.textContent = `Biblically Connected (${bibCount.toLocaleString()})`;
+    bBtn.className = `text-xs px-2 sm:px-2.5 py-1 rounded font-medium whitespace-nowrap ${on ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
+  }
+  if (aBtn) {
+    const on = (activeScope === "all");
+    aBtn.textContent = `All (${nonDnaAll.toLocaleString()})`;
+    aBtn.className = `text-xs px-2 sm:px-2.5 py-1 rounded font-medium whitespace-nowrap ${on ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
+  }
+  const allBtn = document.getElementById("mode-all");
+  if (allBtn) allBtn.textContent = `Expand All (${scopeCount.toLocaleString()})`;
+  document.querySelectorAll("[data-trad-count]").forEach(el => {
+    const k = el.dataset.tradCount;
+    el.textContent = NODES.filter(n => n.tradition === k && isNodeInScope(n)).length;
+  });
+}
+
+function setScope(scope) {
+  activeScope = scope;
+  pendingOnly = false;
+  if (activePreset === "pending") activePreset = "all";
+  if (focusRootId && nodesById[focusRootId] && !isNodeInScope(nodesById[focusRootId])) {
+    focusRootId = null;
+    document.getElementById("focusBanner").classList.add("hidden");
+  }
+  if (selectedNodeId && nodesById[selectedNodeId] && !isNodeInScope(nodesById[selectedNodeId])) {
+    selectedNodeId = "bib_abraham";
+  }
+  syncCheckboxes();
+  updateScopeUI();
+  if (mainView === "directory") renderDirectory();
+  else if (mainView === "map") renderWorldMap();
+  else if (mainView === "timeline") renderTimeline();
+  else { render(); fitView(); }
+  if (selectedNodeId) renderInspector(selectedNodeId);
+}
+
+function showPendingBridge() {
+  focusRootId = null;
+  document.getElementById("focusBanner").classList.add("hidden");
+  activeScope = "all";
+  pendingOnly = true;
+  activePreset = "pending";
+  clearPath(false);
+  activeTraditions = new Set(Object.keys(TRADITIONS).filter(k => k !== "dna"));
+  expandedParents.clear();
+  setModeUI("landmarks");
+  if (mainView !== "tree") setMainView("tree");
+  syncCheckboxes();
+  updateScopeUI();
+  render();
+  fitView();
+}
+
 function setMainView(v) {
   mainView = v;
   ["tree", "map", "timeline", "directory"].forEach(k => {
@@ -850,7 +946,8 @@ function getActiveChildren(id) {
     if (!isOut) return;
     if (!activeLinkTypes.has(edge.type)) return;
     if (edge.type !== "direct" && edge.type !== "expansion" && edge.type !== "genetic") return;
-    if (!activeTraditions.has(nodesById[other]?.tradition)) return;
+    const on = nodesById[other];
+    if (!on || !activeTraditions.has(on.tradition) || !isNodeInScope(on)) return;
     if (!seen.has(other)) { seen.add(other); out.push(other); }
   });
   return out;
@@ -863,7 +960,8 @@ function getActiveParents(id) {
     if (isOut) return;
     if (!activeLinkTypes.has(edge.type)) return;
     if (edge.type !== "direct" && edge.type !== "expansion" && edge.type !== "genetic") return;
-    if (!activeTraditions.has(nodesById[other]?.tradition)) return;
+    const on = nodesById[other];
+    if (!on || !activeTraditions.has(on.tradition) || !isNodeInScope(on)) return;
     if (!seen.has(other)) { seen.add(other); out.push(other); }
   });
   return out;
@@ -873,6 +971,11 @@ function focusSubtree(rootId) {
   closeDrawers();
   focusRootId = rootId;
   activePreset = "";
+  pendingOnly = false;
+  const rootNode = nodesById[rootId];
+  if (rootNode && rootNode.tradition !== "dna" && rootNode.biblicalConnected === false) {
+    activeScope = "all";
+  }
   setMainView("tree");
   document.getElementById("focusBanner").classList.remove("hidden");
   document.getElementById("focusTitle").textContent = nodesById[rootId]?.name || rootId;
@@ -880,6 +983,7 @@ function focusSubtree(rootId) {
   activeTraditions = new Set(Object.keys(TRADITIONS).filter(k => isDnaRoot || k !== "dna"));
   activeLinkTypes = new Set(Object.keys(LINK_META).filter(k => isDnaRoot || k !== "genetic"));
   syncCheckboxes();
+  updateScopeUI();
   selectNode(rootId, false, false);
   render();
   fitView();
@@ -917,12 +1021,12 @@ function getFocusNodeSet(rootId) {
 function getVisibleNodes() {
   if (focusRootId) {
     const fset = getFocusNodeSet(focusRootId);
-    return NODES.filter(n => fset.has(n.id) && activeTraditions.has(n.tradition));
+    return NODES.filter(n => fset.has(n.id) && activeTraditions.has(n.tradition) && isNodeInScope(n));
   }
   const activeSelChildren = selectedNodeId ? new Set(getActiveChildren(selectedNodeId)) : new Set();
   const activeSelParents = selectedNodeId ? new Set(getActiveParents(selectedNodeId)) : new Set();
   return NODES.filter(n => {
-    if (!activeTraditions.has(n.tradition)) return false;
+    if (!activeTraditions.has(n.tradition) || !isNodeInScope(n)) return false;
     if (expandMode === "all") return true;
     if (n.major) return true;
     if (activePathNodes.has(n.id)) return true;
@@ -1048,14 +1152,18 @@ function applyPreset(name) {
   focusRootId = null;
   document.getElementById("focusBanner").classList.add("hidden");
   activePreset = name;
+  pendingOnly = false;
   clearPath(false);
   if (mainView !== "tree") setMainView("tree");
 
   const singlePresets = {
     dna: ["dna"], egypt: ["levant_egypt"], africa: ["african"], greek: ["greek"],
     europe: ["europe_norse"], mesopotamia: ["mesopotamian"],
-    iranian: ["iranian"], india: ["vedic"], china: ["chinese", "steppe"], korea_japan: ["japan_korea"]
+    iranian: ["iranian"], india: ["vedic"], china: ["chinese", "steppe"], korea_japan: ["japan_korea"],
+    se_asia: ["southeast_asia"], americas: ["americas_pacific"]
   };
+
+  if (name === "se_asia" || name === "americas") activeScope = "all";
 
   if (name === "all") {
     activeLinkTypes = new Set(Object.keys(LINK_META).filter(k => k !== "genetic"));
@@ -1075,6 +1183,7 @@ function applyPreset(name) {
     setModeUI("all");
   }
   syncCheckboxes();
+  updateScopeUI();
   render();
   if (selectedNodeId) renderInspector(selectedNodeId);
   fitView();
@@ -1130,10 +1239,14 @@ function runPathfinder() {
 
   found.forEach(s => {
     activePathNodes.add(s.nodeId);
-    activeTraditions.add(nodesById[s.nodeId].tradition);
+    const sn = nodesById[s.nodeId];
+    activeTraditions.add(sn.tradition);
+    if (sn.tradition !== "dna" && sn.biblicalConnected === false) activeScope = "all";
     if (s.edgeIdx !== null) activePathEdges.add(s.edgeIdx);
   });
+  pendingOnly = false;
   syncCheckboxes();
+  updateScopeUI();
 
   const hops = found.length - 1;
   box.innerHTML = `<div class="font-medium text-[var(--foreground)] mb-1">Connected in ${hops} step${hops===1?"":"s"}:</div>` +
@@ -1161,9 +1274,13 @@ function clearPath(doRender = true) {
 function jumpToNode(id) {
   if (!nodesById[id]) return;
   closeDrawers();
-  activeTraditions.add(nodesById[id].tradition);
+  const tn = nodesById[id];
+  activeTraditions.add(tn.tradition);
+  if (tn.tradition !== "dna" && tn.biblicalConnected === false) activeScope = "all";
+  pendingOnly = false;
   (parentsMap[id] || []).forEach(p => expandedParents.add(p));
   syncCheckboxes();
+  updateScopeUI();
   setMainView("tree");
   selectNode(id, false);
   setTimeout(() => centerOnNode(id), 40);
@@ -1228,6 +1345,11 @@ function renderInspector(id) {
           <span class="text-[11px] font-mono text-[var(--muted-foreground)]">Tier ${n.tier}</span>
         </div>
         <h2 class="text-base font-bold leading-snug">${escapeHtml(n.name)}</h2>
+        ${n.tradition === "dna"
+          ? `<div class="inline-flex items-center gap-1.5 mt-1.5 mr-1 px-2 py-0.5 rounded-full text-[11px] font-semibold" style="background:#14b8a622;color:#2dd4bf;border:1px solid #14b8a655">🧬 Archaeogenetics (Y-DNA / mtDNA)</div>`
+          : (n.biblicalConnected !== false
+            ? `<div class="inline-flex items-center gap-1.5 mt-1.5 mr-1 px-2 py-0.5 rounded-full text-[11px] font-semibold" style="background:#10b98122;color:#10b981;border:1px solid #10b98155">✓ Biblically Connected (Adam &amp; Noah)</div>`
+            : `<div class="inline-flex items-center gap-1.5 mt-1.5 mr-1 px-2 py-0.5 rounded-full text-[11px] font-semibold" style="background:#f59e0b22;color:#fbbf24;border:1px solid #f59e0b55">○ Pending Bridge (Awaiting Biblical Link)</div>`)}
         ${childCount > 0 ? `<div class="inline-flex items-center gap-1.5 mt-1.5 px-2 py-0.5 rounded-full text-[11px] font-semibold" style="background:#f59e0b22;color:#f59e0b;border:1px solid #f59e0b55">↓ ${childCount} Next-Generation ${childCount === 1 ? "Child / Branch" : "Children / Branches"} Highlighted</div>` : ""}
         ${n.altNames && n.altNames.length ? `<p class="text-xs text-[var(--muted-foreground)] mt-1">Also known as: <span class="text-[var(--foreground)]">${escapeHtml(n.altNames.join(" • "))}</span></p>` : ""}
       </div>
@@ -1306,9 +1428,19 @@ function renderWorldMap() {
   const showSyn = document.getElementById("mapShowSyncretic").checked;
   const tooltip = document.getElementById("edgeTooltip");
 
+  const inScopePinIds = new Set();
+  MAP_PINS.forEach(raw => {
+    const p = pinsById[raw.id];
+    if (p.trad === "dna" && !activeTraditions.has("dna") && !showDna) return;
+    const pn = nodesById[p.nodeId];
+    if (p.trad !== "dna" && pn && !isNodeInScope(pn)) return;
+    inScopePinIds.add(p.id);
+  });
+
   const arcsG = document.getElementById("mapArcs");
   arcsG.innerHTML = "";
   MAP_ARCS.forEach(arc => {
+    if (!inScopePinIds.has(arc.from) || !inScopePinIds.has(arc.to)) return;
     if (arc.type === "genetic" && !showDna) return;
     if (arc.type === "cognate" && !showCog) return;
     if (arc.type === "syncretic" && !showSyn) return;
@@ -1343,8 +1475,8 @@ function renderWorldMap() {
   const pinsG = document.getElementById("mapPins");
   pinsG.innerHTML = "";
   MAP_PINS.forEach(raw => {
+    if (!inScopePinIds.has(raw.id)) return;
     const p = pinsById[raw.id];
-    if (p.trad === "dna" && !activeTraditions.has("dna") && !showDna) return;
     const trad = TRADITIONS[p.trad] || { color: "#f59e0b", label: p.trad };
     const visible = activeTraditions.has(p.trad) || (p.trad === "dna" && showDna);
     const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
@@ -1388,7 +1520,7 @@ const TIMELINE_EPOCHS = [
 function renderTimeline() {
   const body = document.getElementById("timelineBody");
   body.innerHTML = TIMELINE_EPOCHS.map(ep => {
-    const items = NODES.filter(n => activeTraditions.has(n.tradition) && matchesSearch(n) && ep.filter(n))
+    const items = NODES.filter(n => activeTraditions.has(n.tradition) && isNodeInScope(n) && matchesSearch(n) && ep.filter(n))
       .sort((a, b) => (TRADITIONS[a.tradition]?.order ?? 99) - (TRADITIONS[b.tradition]?.order ?? 99));
     if (!items.length) return "";
     return `
@@ -1431,16 +1563,23 @@ function showAllDirectory() { dirDisplayLimit = NODES.length; renderDirectory(tr
 
 function renderDirectory(keepLimit) {
   if (!keepLimit) dirDisplayLimit = 250;
-  const filtered = NODES.filter(n => activeTraditions.has(n.tradition) && matchesSearch(n))
+  const scopeTotal = NODES.filter(n => isNodeInScope(n)).length;
+  const filtered = NODES.filter(n => activeTraditions.has(n.tradition) && isNodeInScope(n) && matchesSearch(n))
     .sort((a, b) => a.tier - b.tier || a.name.localeCompare(b.name));
   const slice = filtered.slice(0, dirDisplayLimit);
-  document.getElementById("dirCount").textContent = `Showing ${slice.length} of ${filtered.length} matching (${NODES.length} total individuals & haplogroups)`;
+  const scopeLabel = pendingOnly ? "Pending Bridge" : (activeScope === "biblical" ? "Biblically Connected" : "All Rulers & Lineages");
+  document.getElementById("dirCount").textContent = `Showing ${slice.length} of ${filtered.length} matching (${scopeTotal.toLocaleString()} in ${scopeLabel} • ${NODES.length.toLocaleString()} total)`;
   const tbody = document.getElementById("dirBody");
   let html = slice.map(n => {
     const t = TRADITIONS[n.tradition];
+    const badge = n.tradition === "dna"
+      ? `<span class="text-[10px] px-1 rounded bg-teal-500/15 text-teal-400">DNA</span>`
+      : (n.biblicalConnected === false
+        ? `<span class="text-[10px] px-1 rounded bg-amber-500/15 text-amber-400">Pending</span>`
+        : `<span class="text-[10px] px-1 rounded bg-emerald-500/15 text-emerald-400">Noahic</span>`);
     return `
       <tr class="hover:bg-[var(--accent)] cursor-pointer" onclick="selectNode('${n.id}')">
-        <td class="py-2 px-3 font-medium">${escapeHtml(n.name)}</td>
+        <td class="py-2 px-3 font-medium">${escapeHtml(n.name)} <span class="ml-1">${badge}</span></td>
         <td class="py-2 px-3 text-[var(--muted-foreground)]">${escapeHtml((n.altNames || []).join(", ") || "—")}</td>
         <td class="py-2 px-3"><span class="inline-flex items-center gap-1.5"><span class="w-2 h-2 rounded-full" style="background:${t.color}"></span>${escapeHtml(t.label.split(" ")[0])}</span></td>
         <td class="py-2 px-3 text-[var(--muted-foreground)]">${escapeHtml(n.era)}</td>
@@ -1470,7 +1609,9 @@ function render() {
     .filter(({ e }) => activeLinkTypes.has(e.type) && visIds.has(e.from) && visIds.has(e.to));
 
   const sortedTiers = computeLayout(visNodes);
-  document.getElementById("statsBox").textContent = `Showing ${visNodes.length} of ${NODES.length} nodes • ${visEdges.length} visible links`;
+  const scopePool = NODES.filter(n => isNodeInScope(n)).length;
+  const scopeDesc = pendingOnly ? "Pending Bridge" : (activeScope === "biblical" ? "Biblically Connected" : "All");
+  document.getElementById("statsBox").textContent = `Showing ${visNodes.length} of ${scopePool} in ${scopeDesc} (${NODES.length} total) • ${visEdges.length} visible links`;
 
   let minX = -600, maxX = 600;
   Object.values(layoutPos).forEach(p => { minX = Math.min(minX, p.x - 160); maxX = Math.max(maxX, p.x + 160); });
@@ -1620,9 +1761,10 @@ function render() {
     const allKids = getActiveChildren(n.id);
     const hiddenKids = allKids.filter(cid => !visIds.has(cid)).length;
 
+    const pendingDash = (n.tradition !== "dna" && n.biblicalConnected === false && !isSel && !inPath) ? 'stroke-dasharray="4,2"' : "";
     g.innerHTML = `
       ${isSel ? `<rect x="-3.5" y="-3.5" width="${w + 7}" height="${h + 7}" rx="11.5" fill="none" stroke="#f59e0b" stroke-width="1.6" opacity="0.6" />` : ""}
-      <rect width="${w}" height="${h}" rx="9" fill="var(--card)" stroke="${strokeColor}" stroke-width="${strokeW}" />
+      <rect width="${w}" height="${h}" rx="9" fill="var(--card)" stroke="${strokeColor}" stroke-width="${strokeW}" ${pendingDash} />
       <rect width="6" height="${h}" rx="3" fill="${trad.color}" />
       <text x="13" y="20" fill="var(--foreground)" font-size="11.5" font-weight="650">${escapeXml(truncate(n.name, 25))}</text>
       <text x="13" y="36" fill="var(--muted-foreground)" font-size="9.8">${escapeXml(truncate(n.era, 29))}</text>

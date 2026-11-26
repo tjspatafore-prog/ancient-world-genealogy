@@ -20,7 +20,8 @@
         "Al-Mas'udi"
       ],
       "notes": "Opening genealogy of the Rus' Primary Chronicle: after the Flood, Japheth received the northern/western rivers (Danube, Dnieper, Volga, Baltic/Varangian Sea), explicitly numbering Rus', Varangians, Slavs (Norici), Moravians, Czechs, White Croats, Serbs, Polyanians, Derevlians & Poles (Lyakhs) in the race of Japheth.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "rus_kiev_founders",
@@ -37,7 +38,8 @@
         "Russian Primary Chronicle (Laurentian Text pp. 55-56)"
       ],
       "notes": "Three Polyanian Slavic brothers Kiy, Shchek, Khoriv and sister Lybed' founded Kiev on the Dnieper; Lyakh brothers Radim & Vyatko founded the Radimichians & Vyatichians.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "rus_rurik_dynasty",
@@ -55,7 +57,8 @@
         "Anderson 1732 Royal Genealogies"
       ],
       "notes": "Varangian prince Rurik (expressly placed under the race of Japheth in the Primary Chronicle p. 52) settled Novgorod with brothers Sineus & Truvor (862 CE); regent Oleg united Novgorod & Kiev for Rurik's son Igor' and St. Olga of Pskov.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "rus_svyatoslav",
@@ -71,7 +74,8 @@
         "Russian Primary Chronicle (Laurentian Text p. 59)"
       ],
       "notes": "Son of Igor' and St. Olga; campaigned across the Volga, Khazaria, and the Danube; father of Vladimir the Great.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "rus_vladimir_great",
@@ -87,7 +91,8 @@
         "Russian Primary Chronicle (Laurentian Text p. 59)"
       ],
       "notes": "Grandson of Rurik and St. Olga; married Byzantine Princess Anna Porphyrogenita and established Christianity across Rus' in 988 CE.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "rus_yaroslav_wise",
@@ -105,7 +110,8 @@
         "Anderson 1732 Royal Genealogies"
       ],
       "notes": "Son of St. Vladimir; linked the Rurikid line into Western & Northern European monarchies through his daughters Anne of Kiev (Queen of France), Anastasia (Hungary) & Elisiv (Norway).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "arm_hayk_pat",
@@ -123,7 +129,8 @@
         "Kartlis Tskhovreba"
       ],
       "notes": "Movses Khorenatsi traces Hayk from Noah -> Japheth -> Gomer -> Tiras -> Togarmah (Torgom), describing his refusal to serve the tyrant Bel (Nimrod) at Babel and his victory over Bel near Lake Van.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "arm_haykid_line",
@@ -141,7 +148,8 @@
         "Movses Khorenatsi History of Armenia I.12-15"
       ],
       "notes": "Direct Haykid generational succession in Movses Khorenatsi leading through Aram (from whom neighbors named Armenia) to Ara the Handsome, contemporary of Assyrian queen Semiramis.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "arm_shambat_bagratuni",
@@ -158,7 +166,8 @@
         "Movses Khorenatsi History of Armenia I.22, II.3"
       ],
       "notes": "Khorenatsi records that Armenian king Hracheay brought a prominent Jewish captive named Shambat (Smbat) from Nebuchadnezzar's Babylonian exile — establishing the Armenian Bagratuni & Georgian Bagrationi royal claim.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "goth_magog_berig",
@@ -177,7 +186,8 @@
         "Josephus Antiquities I.6.1"
       ],
       "notes": "Jordanes (following Josephus) connects the Scythian & Gothic peoples to Magog son of Japheth and recounts King Berig leading three ships of Goths from Scandza across the Baltic to Gothiscandza, followed by Filimer to Oium.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "goth_amali_theoderic",
@@ -196,7 +206,8 @@
         "Jordanes Getica XIII-LX"
       ],
       "notes": "Complete royal genealogy of the Gothic Amali from Gapt (Gaut) -> Hulmul -> Augis -> Amal -> Ostrogotha -> Achiulf -> Hermanaric & Vandalarius -> Thiudimer -> Theoderic the Great, alongside Alaric I of the Visigoths.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "irl_baath_fenius",
@@ -214,7 +225,8 @@
         "Annals of the Four Masters"
       ],
       "notes": "O'Hart traces the stem of the Irish nation directly from Adam -> Seth -> ... -> Noah -> Japheth -> Magog -> Baath (King of Scythia) -> Fenius Farsa, who established a school of the 72 languages on the plain of Shinar after Babel.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "irl_niul_gaedhal",
@@ -234,7 +246,8 @@
         "Lebor Gabála Érenn"
       ],
       "notes": "Fenius Farsa's younger son Niul was invited to Egypt by Pharaoh, married Princess Scota, befriended Moses & the Israelites at the Red Sea, and begat Gaodhal Glas (Gael), father of the Goidelic language and line through Asruth, Sruth & Heber Scot.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "irl_breoghan_milesius",
@@ -251,7 +264,8 @@
         "O'Hart Irish Pedigrees Part I pp. 29-35"
       ],
       "notes": "O'Hart generations #34-36 from Adam: Breoghan (Brigus, builder of Brigantia in Spain) -> Bile -> Galamh / Milesius of Spain, who married a second Pharaoh's daughter Scota.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "irl_milesian_sons",
@@ -271,7 +285,8 @@
         "Annals of the Four Masters"
       ],
       "notes": "Milesius's sons Heber (Munster lines), Heremon (Connacht, Leinster, High Kings & Dal Riada Scots), and Ir (Ulster), alongside uncle Ith, established the Milesian roll of Irish monarchs.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "irl_niall_brian_boru",
@@ -288,7 +303,8 @@
         "O'Hart Irish Pedigrees Parts I-II"
       ],
       "notes": "Traces Heremon's line to Conn of the Hundred Battles -> Niall of the Nine Hostages (Uí Néill) and Heber's line to Brian Boru (d. 1014 CE) & MacCarthy/O'Brien families.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "sco_picts_cruithne",
@@ -305,7 +321,8 @@
         "Skene Chronicles of the Picts & Scots pp. 209-252"
       ],
       "notes": "The Pictish Chronicle derives both Scots and Picts from Scythia/Albani (Noah -> Japheth -> Magog/Gomer), recording Cruithne and his seven sons giving their names to the seven provinces of Pictish Scotland.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "sco_fergus_macalpin",
@@ -323,7 +340,8 @@
         "O'Hart Irish Pedigrees"
       ],
       "notes": "Fergus Mor mac Erc crossed from Irish Dal Riada (Heremon's Milesian line) to Argyll in 498 CE; his descendant Cináed mac Ailpín (Kenneth MacAlpin) united the Scottish and Pictish kingdoms in 843 CE.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "wal_cunedda_rhodri_llywelyn",
@@ -343,7 +361,8 @@
         "Skene Four Ancient Books of Wales"
       ],
       "notes": "Follows the Welsh chronicle tradition from Cunedda Wledig and Cadwaladr the Blessed through Rhodri Mawr (the Great), lawgiver Hywel Dda, Gruffudd ap Rhys & Llywelyn the Great, tracing Welsh sovereignty back to Brutus of Troy & Camber.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eur_ashkenaz_tuisco",
@@ -361,7 +380,8 @@
         "Aventinus"
       ],
       "notes": "Anderson Table p. 464 identifies Japheth's grandson Ashkenaz (Askanez) with Tacitus & Aventinus's Tuisco/Tuisto, pioneer ruler near the Tanais and Germany.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eur_tubal_spain",
@@ -378,7 +398,8 @@
         "James Anderson Royal Genealogies (1732)"
       ],
       "notes": "Josephus Antiquities I.6.1 identifies Tubal son of Japheth with the Iberi ('Thobelites'), later joined in royal chronologies to the ancient kingdoms of Spain.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eur_gomer_samothes_gaul",
@@ -397,7 +418,8 @@
         "James Anderson Royal Genealogies (1732 p. 464)"
       ],
       "notes": "Josephus states 'Gomer founded those whom the Greeks now call Galatians [Gauls], but were then called Gomerites'; Anderson links Gomer (Cimbri) and his son Samothes/Meshech to the Celts.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eur_noah_janus_italy",
@@ -415,7 +437,8 @@
         "James Anderson Royal Genealogies (1732 Table CCCCXXIV p. 702)"
       ],
       "notes": "Anderson Table CCCCXXIV places Noah (identified as Janus / Ogyges) planting colonies in Italy with Gomer & Kittim, succeeded by Sabatius Saga and the ancient Kings of Tuscany & Italy.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     }
   ],
   "edges": [

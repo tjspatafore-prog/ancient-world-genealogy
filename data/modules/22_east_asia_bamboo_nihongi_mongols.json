@@ -18,7 +18,8 @@
         "Legge Chinese Classics Vol. III (Proleg. pp. 117-127; Shoo pp. 160-171)"
       ],
       "notes": "Complete father-son & brother succession from Yu the Great (son of Gun) through the usurpation of Hou Yi & Han Zhuo, restoration by posthumous son Shao Kang (+ Empress Min), 59-yr reign of Bu Jiang, and final tyrant Jie (overthrown by Tang of Shang).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_shang_complete",
@@ -37,7 +38,8 @@
         "Legge Chinese Classics Vol. III (Proleg. pp. 128-141; Shoo pp. 193-278)"
       ],
       "notes": "Descended from Emperor Ku & Jiandi -> Xie (13 generations to Tang the Victorious). Features lateral brother-to-brother succession (e.g., 4 brothers Yang Jia -> Pan Geng -> Xiao Xin -> Xiao Yi!), Pan Geng's move to Yin, Wu Ding's 59-yr golden age, and Di Xin's fall at Muye to King Wu of Zhou.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_zhou_western_eastern",
@@ -56,7 +58,8 @@
         "Legge Chinese Classics Vol. III (Proleg. pp. 142-183)"
       ],
       "notes": "From Emperor Ku & Jiang Yuan -> Hou Ji -> Gong Liu -> Old Duke Danfu (King Tai) -> Jili -> King Wen -> King Wu & Duke of Zhou -> 12 Western Zhou kings (ending when King You fell in 771 BCE) -> 22 Eastern Zhou kings at Luoyang (Ping through King Nan, era of Confucius & Laozi!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "chn_han_tang_empires",
@@ -77,7 +80,1253 @@
         "Anderson 1732 Tables 161-162"
       ],
       "notes": "Han Gaozu (Liu Bang) founded the 400-year Han Dynasty; Han Wudi opened the Silk Road via Zhang Qian to Fergana/Bactria/Parthia (and court historian Sima Qian wrote the Shiji!). Tang Taizong & Wu Zetian presided over cosmopolitan Chang'an.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_01_1_yu_the_great_hea_how",
+      "name": "1. Yu the Great (Hea-how)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_02_2_qi_k_e_son_of_yu",
+      "name": "2. Qi / K'e (Son of Yu)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_03_3_tai_kang_eldest_son_of_qi",
+      "name": "3. Tai Kang (Eldest Son of Qi)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_04_4_zhong_kang_brother_of_tai_",
+      "name": "4. Zhong Kang (Brother of Tai Kang)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_05_5_xiang_seang_son_of_zhong_k",
+      "name": "5. Xiang / Seang (Son of Zhong Kang)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_06_6_shao_kang_posthumous_son_o",
+      "name": "6. Shao Kang (Posthumous Son of Xiang & Empress Min)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_07_7_zhu_ch_oo_son_of_shao_kang",
+      "name": "7. Zhu / Ch'oo (Son of Shao Kang)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_08_8_huai_fun_son_of_zhu_44_yrs",
+      "name": "8. Huai / Fun (Son of Zhu, 44 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_09_9_mang_son_of_huai_58_yrs",
+      "name": "9. Mang (Son of Huai, 58 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_10_10_xie_se_h_son_of_mang",
+      "name": "10. Xie / Seëh (Son of Mang)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_11_11_bu_jiang_son_of_xie_59_yr",
+      "name": "11. Bu Jiang (Son of Xie, 59 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_12_12_jiong_keung_brother_of_bu",
+      "name": "12. Jiong / Keung (Brother of Bu Jiang)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_13_13_jin_kin_son_of_jiong",
+      "name": "13. Jin / Kin (Son of Jiong)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_14_14_kong_jia_son_of_bu_jiang",
+      "name": "14. Kong Jia (Son of Bu Jiang)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_15_15_gao_haou_son_of_kong_jia",
+      "name": "15. Gao / Haou (Son of Kong Jia)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_16_16_fa_fah_son_of_gao",
+      "name": "16. Fa / Fah (Son of Gao)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_xia_17_17_jie_kwei_son_of_fa_last_x",
+      "name": "17. Jie / Kwei (Son of Fa, Last Xia King)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 8,
+      "era": "c. 1989-1557 BCE (Bamboo Books)",
+      "role": "Xia Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 117-127)"
+      ],
+      "notes": "Xia Dynasty King (c. 1989-1557 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_01_1_tang_the_victorious_da_yi",
+      "name": "1. Tang the Victorious / Da Yi",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_02_2_wai_bing_son_of_tang",
+      "name": "2. Wai Bing (Son of Tang)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_03_3_zhong_ren_son_of_tang",
+      "name": "3. Zhong Ren (Son of Tang)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_04_4_tai_jia_grandson_of_tang_v",
+      "name": "4. Tai Jia (Grandson of Tang via Tai Ding)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_05_5_wo_ding_son_of_tai_jia",
+      "name": "5. Wo Ding (Son of Tai Jia)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_06_6_tai_geng_xiao_geng_brother",
+      "name": "6. Tai Geng / Xiao Geng (Brother of Wo Ding)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_07_7_xiao_jia_son_of_tai_geng",
+      "name": "7. Xiao Jia (Son of Tai Geng)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_08_8_yong_ji_brother_of_xiao_ji",
+      "name": "8. Yong Ji (Brother of Xiao Jia)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_09_9_tai_wu_tai_tsung_brother_o",
+      "name": "9. Tai Wu / Tai-tsung (Brother of Yong Ji, 75 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_10_10_zhong_ding_son_of_tai_wu",
+      "name": "10. Zhong Ding (Son of Tai Wu)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_11_11_wai_ren_brother_of_zhong_",
+      "name": "11. Wai Ren (Brother of Zhong Ding)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_12_12_he_dan_jia_brother_of_wai",
+      "name": "12. He Dan Jia (Brother of Wai Ren)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_13_13_zu_yi_son_of_he_dan_jia",
+      "name": "13. Zu Yi (Son of He Dan Jia)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_14_14_zu_xin_son_of_zu_yi",
+      "name": "14. Zu Xin (Son of Zu Yi)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_15_15_wo_jia_k_ae_keah_brother_",
+      "name": "15. Wo Jia / K'ae-keah (Brother of Zu Xin)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_16_16_zu_ding_son_of_zu_xin",
+      "name": "16. Zu Ding (Son of Zu Xin)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_17_17_nan_geng_son_of_wo_jia",
+      "name": "17. Nan Geng (Son of Wo Jia)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_18_18_yang_jia_son_of_zu_ding",
+      "name": "18. Yang Jia (Son of Zu Ding)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_19_19_pan_geng_moved_to_yin_28_",
+      "name": "19. Pan Geng (Moved to Yin, 28 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_20_20_xiao_xin_brother_of_pan_g",
+      "name": "20. Xiao Xin (Brother of Pan Geng)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_21_21_xiao_yi_brother_of_xiao_x",
+      "name": "21. Xiao Yi (Brother of Xiao Xin)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_22_22_wu_ding_gaozong_son_of_xi",
+      "name": "22. Wu Ding / Gaozong (Son of Xiao Yi, 59 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_23_23_zu_geng_son_of_wu_ding",
+      "name": "23. Zu Geng (Son of Wu Ding)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_24_24_zu_jia_brother_of_zu_geng",
+      "name": "24. Zu Jia (Brother of Zu Geng, 33 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_25_25_lin_xin_fung_sin_son_of_z",
+      "name": "25. Lin Xin / Fung-sin (Son of Zu Jia)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_26_26_geng_ding_brother_of_lin_",
+      "name": "26. Geng Ding (Brother of Lin Xin)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_27_27_wu_yi_son_of_geng_ding",
+      "name": "27. Wu Yi (Son of Geng Ding)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_28_28_wen_ding_tai_ding_son_of_",
+      "name": "28. Wen Ding / Tai Ding (Son of Wu Yi)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_29_29_di_yi_son_of_wen_ding",
+      "name": "29. Di Yi (Son of Wen Ding)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_shg_30_30_di_xin_king_zhou_daji_las",
+      "name": "30. Di Xin / King Zhou (+ Daji, Last Shang King)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 11,
+      "era": "c. 1557-1049 BCE (Bamboo Books)",
+      "role": "Shang / Yin Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 128-141)"
+      ],
+      "notes": "Shang / Yin Dynasty King (c. 1557-1049 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_01_danfu_old_duke_king_tai_pre_",
+      "name": "Danfu / Old Duke King Tai (Pre-Dynastic)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_02_jili_king_ji_tai_ren",
+      "name": "Jili / King Ji (+ Tai Ren)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_03_1_king_wu_fa_conqueror_of_sh",
+      "name": "1. King Wu / Fa (Conqueror of Shang)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_04_2_king_cheng_sung_37_yrs",
+      "name": "2. King Cheng / Sung (37 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_05_3_king_kang_ch_aou_26_yrs",
+      "name": "3. King Kang / Ch'aou (26 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_06_4_king_zhao_hea",
+      "name": "4. King Zhao / Hea",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_07_5_king_mu_mwan_55_yrs",
+      "name": "5. King Mu / Mwan (55 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_08_6_king_gong_e",
+      "name": "6. King Gong / E",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_09_7_king_yi_keen",
+      "name": "7. King Yi / Keen",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_10_8_king_xiao_peih_fang",
+      "name": "8. King Xiao / Peih-fang",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_11_9_king_yi_se",
+      "name": "9. King Yi / Seë",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_12_10_king_li_hoo_gonghe_regenc",
+      "name": "10. King Li / Hoo (Gonghe Regency)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_13_11_king_xuan_tsing_46_yrs",
+      "name": "11. King Xuan / Tsing (46 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_14_12_king_you_ne_end_of_wester",
+      "name": "12. King You / Neë (End of Western Zhou, 771 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_15_13_king_ping_e_k_ew_1st_east",
+      "name": "13. King Ping / E-k'ew (1st Eastern Zhou, 51 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_16_14_king_huan",
+      "name": "14. King Huan",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_17_15_king_zhuang",
+      "name": "15. King Zhuang",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_18_16_king_xi",
+      "name": "16. King Xi",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_19_17_king_hui",
+      "name": "17. King Hui",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_20_18_king_xiang",
+      "name": "18. King Xiang",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_21_19_king_qing",
+      "name": "19. King Qing",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_22_20_king_kuang",
+      "name": "20. King Kuang",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_23_21_king_ding",
+      "name": "21. King Ding",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_24_22_king_jian",
+      "name": "22. King Jian",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_25_23_king_ling",
+      "name": "23. King Ling",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_26_24_king_jing_kwei",
+      "name": "24. King Jing / Kwei",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_27_25_king_jing_k_ae",
+      "name": "25. King Jing / K'ae",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_28_26_king_yuan",
+      "name": "26. King Yuan",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_29_27_king_zhending",
+      "name": "27. King Zhending",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_30_28_king_kao",
+      "name": "28. King Kao",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_31_29_king_weilie",
+      "name": "29. King Weilie",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_32_30_king_an",
+      "name": "30. King An",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_33_31_king_lie",
+      "name": "31. King Lie",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_34_32_king_xian",
+      "name": "32. King Xian",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_35_33_king_shenjing",
+      "name": "33. King Shenjing",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chnr_zho_36_34_king_nan_last_zhou_king",
+      "name": "34. King Nan (Last Zhou King)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 15,
+      "era": "1049-256 BCE (Bamboo Books)",
+      "role": "Zhou Dynasty King",
+      "sources": [
+        "Bamboo Books (Legge Vol. III pp. 142-183)"
+      ],
+      "notes": "Zhou Dynasty King (1049-256 BCE (Bamboo Books)).",
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jpn_nihongi_7heaven_5earth",
@@ -96,7 +1345,8 @@
         "Nihongi Vol. I Books I-II (Aston pp. 3-108)"
       ],
       "notes": "Seven Heavenly Generations: 1. Kuni-toko-tachi, 2. Kuni-no-sa-tsuchi, 3. Toyo-kumu-nu, 4. Uhiji-ni & Suhiji-ni, 5. Oho-to-nochi & Oho-to-mahe, 6. Omo-taru & Kashiko-ne, 7. Izanagi & Izanami. Five Earthly Generations descend from Amaterasu & Taka-mi-musubi via Ninigi (+ Kono-hana-saku-ya-hime) & Hiko-hoho-demi (+ Sea-Princess Toyo-tama-hime) to Jimmu!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "jpn_nihongi_emperors_1_25",
@@ -115,7 +1365,8 @@
         "Nihongi Vol. I Books III-XV (Aston pp. 109-407)"
       ],
       "notes": "Complete father-son & brother succession from 1st Jimmu (Hime-tatara-Isuzu) through Suizei, Annei, Itoku, Kosho, Koan, Korei, Kogen, Kaika, Sujin, Suinin, Keiko (-> Yamato-dake), Seimu, Chuai + Regent Empress Jingo, Ojin, Nintoku (giant keyhole kofun tomb!), Richu, Hanzei, Ingyo, Anko, Yuryaku, Seinei, Kenzo, Ninken, and 25th Buretsu.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "jpn_ancestral_clans_nihongi",
@@ -133,7 +1384,383 @@
         "Nihongi Vol. I (Aston pp. 42, 128, 148, 190, 306)"
       ],
       "notes": "Ame-no-Koyane -> Nakatomi (ancestors of the Fujiwara Regents!); Futo-dama -> Imibe priests; Heavenly deity Nigi-haya-hi -> Mononobe military clan; Michi-no-Omi -> Ohotomo guards; Emperor Kogen -> Takechi no Sukune (legendary 300-yr Prime Minister!) -> Soga no Manchi & Soga clan!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_01_2_suizei_tenno_son_of_jimmu_",
+      "name": "2. Suizei Tenno (Son of Jimmu & Hime-tatara-Isuzu)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_02_3_annei_tenno_son_of_suizei",
+      "name": "3. Annei Tenno (Son of Suizei)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_03_4_itoku_tenno_son_of_annei",
+      "name": "4. Itoku Tenno (Son of Annei)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_04_5_kosho_tenno_son_of_itoku",
+      "name": "5. Kosho Tenno (Son of Itoku)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_05_6_koan_tenno_son_of_kosho",
+      "name": "6. Koan Tenno (Son of Kosho)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_06_7_korei_tenno_son_of_koan",
+      "name": "7. Korei Tenno (Son of Koan)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_07_8_kogen_tenno_ancestor_of_so",
+      "name": "8. Kogen Tenno (Ancestor of Soga/Abe)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_08_9_kaika_tenno_son_of_kogen",
+      "name": "9. Kaika Tenno (Son of Kogen)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_09_10_sujin_tenno_first_histori",
+      "name": "10. Sujin Tenno (First Historically Attested Yamato King)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_10_11_suinin_tenno_son_of_sujin",
+      "name": "11. Suinin Tenno (Son of Sujin)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_11_12_keiko_tenno_father_of_yam",
+      "name": "12. Keiko Tenno (Father of Yamato-dake)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_12_13_seimu_tenno_son_of_keiko",
+      "name": "13. Seimu Tenno (Son of Keiko)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_13_14_chuai_tenno_son_of_yamato",
+      "name": "14. Chuai Tenno (Son of Yamato-dake)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_14_empress_jingo_regent_great_g",
+      "name": "Empress Jingo (Regent, Great-Grandchild of Kaika)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_15_15_ojin_tenno_son_of_chuai_e",
+      "name": "15. Ojin Tenno (Son of Chuai & Empress Jingo)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_16_16_nintoku_tenno_son_of_ojin",
+      "name": "16. Nintoku Tenno (Son of Ojin — Daisen Kofun)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_17_17_richu_tenno_eldest_son_of",
+      "name": "17. Richu Tenno (Eldest Son of Nintoku)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_18_18_hanzei_tenno_brother_of_r",
+      "name": "18. Hanzei Tenno (Brother of Richu)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_19_19_ingyo_tenno_brother_of_ha",
+      "name": "19. Ingyo Tenno (Brother of Hanzei)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_20_20_anko_tenno_son_of_ingyo",
+      "name": "20. Anko Tenno (Son of Ingyo)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_21_21_yuryaku_tenno_5th_child_o",
+      "name": "21. Yuryaku Tenno (5th Child of Ingyo)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_22_22_seinei_tenno_son_of_yurya",
+      "name": "22. Seinei Tenno (Son of Yuryaku)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_23_23_kenzo_tenno_grandson_of_r",
+      "name": "23. Kenzo Tenno (Grandson of Richu)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_24_24_ninken_tenno_brother_of_k",
+      "name": "24. Ninken Tenno (Brother of Kenzo)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jpnr_emp_25_25_buretsu_muretsu_tenno_son",
+      "name": "25. Buretsu / Muretsu Tenno (Son of Ninken, End of Nihongi Vol. I)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 17,
+      "era": "Nihongi Books III-XV (Aston)",
+      "role": "Emperor / Empress of Japan",
+      "sources": [
+        "Nihongi Vol. I (Aston pp. 109-407)"
+      ],
+      "notes": "Emperor / Empress of Japan (Nihongi Books III-XV (Aston)).",
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mng_borte_chino",
@@ -150,7 +1777,8 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Crossed the Tenggis Sea to Burqan Qaldun at the headwaters of the Onan River (Secret History of the Mongols §1, Rachewiltz p. 1).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mng_batachiqan_to_toroqoljin",
@@ -168,7 +1796,8 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Borjigidai Mergen (+ Mongqoljin Qo'a) -> Toroqoljin Bayan (+ Boroqčin Qo'a), father of Du'a Soqor (Dörben clan) and Dobun Mergen.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mng_alan_qoa_bodonchar",
@@ -186,7 +1815,8 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Alan Qo'a (of Qori Tumat) taught her five sons unity using the famous parable of the five arrows. Her youngest son Bodončar Mungqaq (conceived by a radiant golden light!) founded the Borjigin clan — while his stepson Jajiradai became ancestor of Genghis Khan's blood-brother & rival Jamuqa!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mng_qabichi_qaidu_qabul",
@@ -206,7 +1836,8 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Menen Tudun's sons Qači'u/Qačula founded the Barulas (Barlas) clan — later ancestors of Timur (Tamerlane) and the Mughal Emperors! Qabul Qa'an became 1st Khan of All Mongols; his sons included Qutula Qa'an and Bartan Ba'atur.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mng_yesugei_hoelun",
@@ -225,7 +1856,8 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Yisügei Ba'atur (poisoned by Tatars when Temüjin was 9) & fierce mother Lady Hö'elün raised Temüjin (born clutching a blood clot at Deli'ün Boldaq!), brothers Joči Qasar, Qači'un, Temüge Otčigin, sister Temülün, and half-brothers Bekter & Belgütei (by Mother Sučigil).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mng_genghis_khan_borte",
@@ -243,7 +1875,8 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Unified the Steppe in 1206 CE as Činggis Qa'an. With principal wife Lady Börte (plus Yisüi, Yisügen, Qulan & Ibaqa Beki) fathered the 4 Great Imperial Sons (Jöči, Ča'adai, Ögödei, Tolui) and 5 diplomat daughters (Qojin, Al Altun, Čečeyigen, Alaqa, Tümelün).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mng_four_sons_grandsons",
@@ -265,10 +1898,1214 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Tolui & Kereyit Christian princess Sorqaqtani Beki produced Möngke (4th Great Khan), Kublai Khan (founder of China's Yuan Dynasty, host of Marco Polo!), and Hülegü (founder of the Persian Ilkhanate). Jöči's son Batu founded the Golden Horde; Ögödei & Güyük ruled Karakorum!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_01_bata_iqan_gen_2",
+      "name": "Batačiqan (Gen 2)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_02_tama_a_gen_3",
+      "name": "Tamača (Gen 3)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_03_qori_ar_mergen_gen_4",
+      "name": "Qoričar Mergen (Gen 4)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_04_a_ujam_boro_ul_gen_5",
+      "name": "A'ujam Boro'ul (Gen 5)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_05_sali_qa_a_u_gen_6",
+      "name": "Sali Qača'u (Gen 6)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_06_yeke_nid_n_gen_7",
+      "name": "Yeke Nidün (Gen 7)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_07_sem_so_i_gen_8",
+      "name": "Sem Soči (Gen 8)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_08_qar_u_gen_9",
+      "name": "Qarču (Gen 9)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_09_borjigidai_mergen_gen_10",
+      "name": "Borjigidai Mergen (Gen 10)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_10_toroqoljin_bayan_gen_11",
+      "name": "Toroqoljin Bayan (Gen 11)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_11_du_a_soqor_d_rben_clan",
+      "name": "Du'a Soqor (Dörben Clan)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_12_dobun_mergen_gen_12",
+      "name": "Dobun Mergen (Gen 12)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_13_b_g_n_tei_belg_n_tei",
+      "name": "Bügünütei & Belgünütei",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_14_buqu_qatagi_buqatu_salji",
+      "name": "Buqu Qatagi & Buqatu Salji",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_15_jajiradai_jamuqa_jadaran_cla",
+      "name": "Jajiradai -> Jamuqa (Jadaran Clan)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_16_qabi_i_ba_atur_gen_14",
+      "name": "Qabiči Ba'atur (Gen 14)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_17_menen_tudun_gen_15",
+      "name": "Menen Tudun (Gen 15)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_18_qa_i_k_l_k_mother_nomolun_ge",
+      "name": "Qači Külük & Mother Nomolun (Gen 16)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_19_qaidu_gen_17",
+      "name": "Qaidu (Gen 17)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_20_ambaqai_qa_an_tayi_i_ut",
+      "name": "Ambaqai Qa'an (Tayiči'ut)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_21_bai_ingqor_doq_in_gen_18",
+      "name": "Bai Šingqor Doqšin (Gen 18)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_22_tumbinai_se_en_gen_19",
+      "name": "Tumbinai Sečen (Gen 19)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_23_qabul_qa_an_1st_all_mongol_q",
+      "name": "Qabul Qa'an (1st All-Mongol Qan)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_24_qutula_qa_an",
+      "name": "Qutula Qa'an",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_anc_25_bartan_ba_atur",
+      "name": "Bartan Ba'atur",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "SHM Ch. 1 §§1-48",
+      "role": "Borjigin Ancestor",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz §§1-48)"
+      ],
+      "notes": "Borjigin Ancestor (SHM Ch. 1 §§1-48).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_imp_01_j_i_eldest_son_of_genghis_kh",
+      "name": "Jöči (Eldest Son of Genghis Khan)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "1206-1368 CE (SHM)",
+      "role": "Chinggisid Imperial Prince / Princess",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz)"
+      ],
+      "notes": "Chinggisid Imperial Prince / Princess (1206-1368 CE (SHM)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_imp_02_batu_khan_founder_of_golden_",
+      "name": "Batu Khan (Founder of Golden Horde)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "1206-1368 CE (SHM)",
+      "role": "Chinggisid Imperial Prince / Princess",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz)"
+      ],
+      "notes": "Chinggisid Imperial Prince / Princess (1206-1368 CE (SHM)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_imp_03_a_adai_2nd_son_chagatai_khan",
+      "name": "Ča'adai (2nd Son, Chagatai Khanate)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "1206-1368 CE (SHM)",
+      "role": "Chinggisid Imperial Prince / Princess",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz)"
+      ],
+      "notes": "Chinggisid Imperial Prince / Princess (1206-1368 CE (SHM)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_imp_04_b_ri_grandson_of_a_adai",
+      "name": "Büri (Grandson of Ča'adai)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "1206-1368 CE (SHM)",
+      "role": "Chinggisid Imperial Prince / Princess",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz)"
+      ],
+      "notes": "Chinggisid Imperial Prince / Princess (1206-1368 CE (SHM)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_imp_05_g_dei_qa_an_2nd_great_khan_t",
+      "name": "Ögödei Qa'an (2nd Great Khan, + Töregene)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "1206-1368 CE (SHM)",
+      "role": "Chinggisid Imperial Prince / Princess",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz)"
+      ],
+      "notes": "Chinggisid Imperial Prince / Princess (1206-1368 CE (SHM)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_imp_06_g_y_k_qa_an_3rd_great_khan",
+      "name": "Güyük Qa'an (3rd Great Khan)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "1206-1368 CE (SHM)",
+      "role": "Chinggisid Imperial Prince / Princess",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz)"
+      ],
+      "notes": "Chinggisid Imperial Prince / Princess (1206-1368 CE (SHM)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_imp_07_prince_tolui_4th_son",
+      "name": "Prince Tolui (4th Son)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "1206-1368 CE (SHM)",
+      "role": "Chinggisid Imperial Prince / Princess",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz)"
+      ],
+      "notes": "Chinggisid Imperial Prince / Princess (1206-1368 CE (SHM)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_imp_08_sorqaqtani_beki_kereyit_prin",
+      "name": "Sorqaqtani Beki (Kereyit Princess, Mother of 3 Khans)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "1206-1368 CE (SHM)",
+      "role": "Chinggisid Imperial Prince / Princess",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz)"
+      ],
+      "notes": "Chinggisid Imperial Prince / Princess (1206-1368 CE (SHM)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_imp_09_m_ngke_qa_an_4th_great_khan",
+      "name": "Möngke Qa'an (4th Great Khan)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "1206-1368 CE (SHM)",
+      "role": "Chinggisid Imperial Prince / Princess",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz)"
+      ],
+      "notes": "Chinggisid Imperial Prince / Princess (1206-1368 CE (SHM)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_imp_10_qubilai_qa_an_kublai_khan_fo",
+      "name": "Qubilai Qa'an / Kublai Khan (Founder of Yuan Dynasty)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "1206-1368 CE (SHM)",
+      "role": "Chinggisid Imperial Prince / Princess",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz)"
+      ],
+      "notes": "Chinggisid Imperial Prince / Princess (1206-1368 CE (SHM)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_imp_11_h_leg_khan_ilkhanate_of_pers",
+      "name": "Hülegü Khan (Ilkhanate of Persia)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "1206-1368 CE (SHM)",
+      "role": "Chinggisid Imperial Prince / Princess",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz)"
+      ],
+      "notes": "Chinggisid Imperial Prince / Princess (1206-1368 CE (SHM)).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mngr_imp_12_timur_tamerlane_barlas_clan_",
+      "name": "Timur / Tamerlane (Barlas Clan -> Babur / Mughals)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 19,
+      "era": "1206-1368 CE (SHM)",
+      "role": "Chinggisid Imperial Prince / Princess",
+      "sources": [
+        "The Secret History of the Mongols (Rachewiltz)"
+      ],
+      "notes": "Chinggisid Imperial Prince / Princess (1206-1368 CE (SHM)).",
+      "major": false,
+      "biblicalConnected": true
     }
   ],
   "edges": [
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_01_1_yu_the_great_hea_how",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_02_2_qi_k_e_son_of_yu",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_03_3_tai_kang_eldest_son_of_qi",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_04_4_zhong_kang_brother_of_tai_",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_05_5_xiang_seang_son_of_zhong_k",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_06_6_shao_kang_posthumous_son_o",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_07_7_zhu_ch_oo_son_of_shao_kang",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_08_8_huai_fun_son_of_zhu_44_yrs",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_09_9_mang_son_of_huai_58_yrs",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_10_10_xie_se_h_son_of_mang",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_11_11_bu_jiang_son_of_xie_59_yr",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_12_12_jiong_keung_brother_of_bu",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_13_13_jin_kin_son_of_jiong",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_14_14_kong_jia_son_of_bu_jiang",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_15_15_gao_haou_son_of_kong_jia",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_16_16_fa_fah_son_of_gao",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_xia_complete",
+      "to": "chnr_xia_17_17_jie_kwei_son_of_fa_last_x",
+      "type": "direct",
+      "label": "Xia Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_01_1_tang_the_victorious_da_yi",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_02_2_wai_bing_son_of_tang",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_03_3_zhong_ren_son_of_tang",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_04_4_tai_jia_grandson_of_tang_v",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_05_5_wo_ding_son_of_tai_jia",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_06_6_tai_geng_xiao_geng_brother",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_07_7_xiao_jia_son_of_tai_geng",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_08_8_yong_ji_brother_of_xiao_ji",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_09_9_tai_wu_tai_tsung_brother_o",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_10_10_zhong_ding_son_of_tai_wu",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_11_11_wai_ren_brother_of_zhong_",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_12_12_he_dan_jia_brother_of_wai",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_13_13_zu_yi_son_of_he_dan_jia",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_14_14_zu_xin_son_of_zu_yi",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_15_15_wo_jia_k_ae_keah_brother_",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_16_16_zu_ding_son_of_zu_xin",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_17_17_nan_geng_son_of_wo_jia",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_18_18_yang_jia_son_of_zu_ding",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_19_19_pan_geng_moved_to_yin_28_",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_20_20_xiao_xin_brother_of_pan_g",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_21_21_xiao_yi_brother_of_xiao_x",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_22_22_wu_ding_gaozong_son_of_xi",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_23_23_zu_geng_son_of_wu_ding",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_24_24_zu_jia_brother_of_zu_geng",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_25_25_lin_xin_fung_sin_son_of_z",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_26_26_geng_ding_brother_of_lin_",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_27_27_wu_yi_son_of_geng_ding",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_28_28_wen_ding_tai_ding_son_of_",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_29_29_di_yi_son_of_wen_ding",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_shang_complete",
+      "to": "chnr_shg_30_30_di_xin_king_zhou_daji_las",
+      "type": "direct",
+      "label": "Shang Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_01_danfu_old_duke_king_tai_pre_",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_02_jili_king_ji_tai_ren",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_03_1_king_wu_fa_conqueror_of_sh",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_04_2_king_cheng_sung_37_yrs",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_05_3_king_kang_ch_aou_26_yrs",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_06_4_king_zhao_hea",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_07_5_king_mu_mwan_55_yrs",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_08_6_king_gong_e",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_09_7_king_yi_keen",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_10_8_king_xiao_peih_fang",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_11_9_king_yi_se",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_12_10_king_li_hoo_gonghe_regenc",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_13_11_king_xuan_tsing_46_yrs",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_14_12_king_you_ne_end_of_wester",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_15_13_king_ping_e_k_ew_1st_east",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_16_14_king_huan",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_17_15_king_zhuang",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_18_16_king_xi",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_19_17_king_hui",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_20_18_king_xiang",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_21_19_king_qing",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_22_20_king_kuang",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_23_21_king_ding",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_24_22_king_jian",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_25_23_king_ling",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_26_24_king_jing_kwei",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_27_25_king_jing_k_ae",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_28_26_king_yuan",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_29_27_king_zhending",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_30_28_king_kao",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_31_29_king_weilie",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_32_30_king_an",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_33_31_king_lie",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_34_32_king_xian",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_35_33_king_shenjing",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "chn_zhou_western_eastern",
+      "to": "chnr_zho_36_34_king_nan_last_zhou_king",
+      "type": "direct",
+      "label": "Zhou Dynasty Succession (Bamboo Books)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_01_2_suizei_tenno_son_of_jimmu_",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_02_3_annei_tenno_son_of_suizei",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_03_4_itoku_tenno_son_of_annei",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_04_5_kosho_tenno_son_of_itoku",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_05_6_koan_tenno_son_of_kosho",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_06_7_korei_tenno_son_of_koan",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_07_8_kogen_tenno_ancestor_of_so",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_08_9_kaika_tenno_son_of_kogen",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_09_10_sujin_tenno_first_histori",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_10_11_suinin_tenno_son_of_sujin",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_11_12_keiko_tenno_father_of_yam",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_12_13_seimu_tenno_son_of_keiko",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_13_14_chuai_tenno_son_of_yamato",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_14_empress_jingo_regent_great_g",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_15_15_ojin_tenno_son_of_chuai_e",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_16_16_nintoku_tenno_son_of_ojin",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_17_17_richu_tenno_eldest_son_of",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_18_18_hanzei_tenno_brother_of_r",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_19_19_ingyo_tenno_brother_of_ha",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_20_20_anko_tenno_son_of_ingyo",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_21_21_yuryaku_tenno_5th_child_o",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_22_22_seinei_tenno_son_of_yurya",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_23_23_kenzo_tenno_grandson_of_r",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_24_24_ninken_tenno_brother_of_k",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
+    {
+      "from": "jpn_nihongi_emperors_1_25",
+      "to": "jpnr_emp_25_25_buretsu_muretsu_tenno_son",
+      "type": "direct",
+      "label": "Imperial Yamato Succession (Nihongi Vol. I)"
+    },
     {
       "from": "stp_xiongnu",
       "to": "mng_borte_chino",
@@ -310,6 +3147,228 @@
       "to": "mng_four_sons_grandsons",
       "type": "direct",
       "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_01_bata_iqan_gen_2",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_02_tama_a_gen_3",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_03_qori_ar_mergen_gen_4",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_04_a_ujam_boro_ul_gen_5",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_05_sali_qa_a_u_gen_6",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_06_yeke_nid_n_gen_7",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_07_sem_so_i_gen_8",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_08_qar_u_gen_9",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_09_borjigidai_mergen_gen_10",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_10_toroqoljin_bayan_gen_11",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_11_du_a_soqor_d_rben_clan",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_12_dobun_mergen_gen_12",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_13_b_g_n_tei_belg_n_tei",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_14_buqu_qatagi_buqatu_salji",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_15_jajiradai_jamuqa_jadaran_cla",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_16_qabi_i_ba_atur_gen_14",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_17_menen_tudun_gen_15",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_18_qa_i_k_l_k_mother_nomolun_ge",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_19_qaidu_gen_17",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_20_ambaqai_qa_an_tayi_i_ut",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_21_bai_ingqor_doq_in_gen_18",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_22_tumbinai_se_en_gen_19",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_23_qabul_qa_an_1st_all_mongol_q",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_24_qutula_qa_an",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_batachiqan_to_toroqoljin",
+      "to": "mngr_anc_25_bartan_ba_atur",
+      "type": "direct",
+      "label": "Borjigin Patrilineal Ancestor (SHM Ch. 1)"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "mngr_imp_01_j_i_eldest_son_of_genghis_kh",
+      "type": "direct",
+      "label": "Chinggisid Imperial Descendant"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "mngr_imp_02_batu_khan_founder_of_golden_",
+      "type": "direct",
+      "label": "Chinggisid Imperial Descendant"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "mngr_imp_03_a_adai_2nd_son_chagatai_khan",
+      "type": "direct",
+      "label": "Chinggisid Imperial Descendant"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "mngr_imp_04_b_ri_grandson_of_a_adai",
+      "type": "direct",
+      "label": "Chinggisid Imperial Descendant"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "mngr_imp_05_g_dei_qa_an_2nd_great_khan_t",
+      "type": "direct",
+      "label": "Chinggisid Imperial Descendant"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "mngr_imp_06_g_y_k_qa_an_3rd_great_khan",
+      "type": "direct",
+      "label": "Chinggisid Imperial Descendant"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "mngr_imp_07_prince_tolui_4th_son",
+      "type": "direct",
+      "label": "Chinggisid Imperial Descendant"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "mngr_imp_08_sorqaqtani_beki_kereyit_prin",
+      "type": "direct",
+      "label": "Chinggisid Imperial Descendant"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "mngr_imp_09_m_ngke_qa_an_4th_great_khan",
+      "type": "direct",
+      "label": "Chinggisid Imperial Descendant"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "mngr_imp_10_qubilai_qa_an_kublai_khan_fo",
+      "type": "direct",
+      "label": "Chinggisid Imperial Descendant"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "mngr_imp_11_h_leg_khan_ilkhanate_of_pers",
+      "type": "direct",
+      "label": "Chinggisid Imperial Descendant"
+    },
+    {
+      "from": "mng_four_sons_grandsons",
+      "to": "mngr_imp_12_timur_tamerlane_barlas_clan_",
+      "type": "direct",
+      "label": "Chinggisid Imperial Descendant"
     },
     {
       "from": "chn_yu_xia",

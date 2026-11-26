@@ -19,7 +19,8 @@
         "Meccan Sharifate Chronicles"
       ],
       "notes": "Through Prophet Muhammad's daughter Fatimah & Ali ibn Abi Talib -> eldest grandson Imam Hasan ibn Ali -> Hasan al-Muthanna (married Fatimah bint al-Husayn, uniting BOTH grandsons of Muhammad!) -> Abdallah al-Kamil -> Musa al-Jawn -> Idris (father of Qatadah).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mod_qatadah_sharifs",
@@ -39,7 +40,8 @@
         "Meccan Sharifate Chronicles"
       ],
       "notes": "Contemporaneously documented patrilineal sequence from Qatadah ibn Idris (Emir of Mecca, 1201-1220) through Ali al-Akbar, Abu Sa'd al-Hasan, Abu Numayy I, Rumaithah, Ajlan, Ali, Hasan, Barakat I, Muhammad, Barakat II, Abu Numayy II, Hasan, Abdullah, Hussein, Abdullah, Muhammad, Awn, Abd al-Mu'in, Muhammad & Ali Pasha!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mod_hussein_abdullah1",
@@ -59,7 +61,8 @@
         "Meccan Sharifate Chronicles"
       ],
       "notes": "Sharif Hussein bin Ali led the Great Arab Revolt (1916); his sons Faisal I (King of Iraq) and Abdullah I (Founder of Jordan, r. 1921-1951) established modern Hashemite monarchies -> King Talal -> King Hussein bin Talal (r. 1952-1999).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mod_abdullah2_hussein_iman",
@@ -78,7 +81,8 @@
         "Meccan Sharifate Chronicles"
       ],
       "notes": "Reigning Hashemite King Abdullah II bin Al-Hussein (acceded 1999) + Queen Rania -> Crown Prince Al-Hussein bin Abdullah II (b. 1994, + Princess Rajwa Al Saif) -> Princess Iman bint Al-Hussein (born August 3, 2024 — 43rd generation from Prophet Muhammad; alongside her aunt Princess Iman bint Abdullah, b. 1996, & Prince Hashem, b. 2005!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mod_alaouite_morocco",
@@ -98,7 +102,8 @@
         "Official Royal Registers"
       ],
       "notes": "Descended from Hasan al-Muthanna -> Muhammad al-Nafs al-Zakiyya -> Hassan al-Dakhil (migrated from Yanbu in Arabia to Tafilalt, Morocco in the 13th c.) -> Moulay Ali Cherif (1631) -> Moulay Ismail -> Mohammed V -> Hassan II -> reigning King Mohammed VI (b. 1963) & Crown Prince Moulay Hassan (b. 2003).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mod_agakhan5_ismaili",
@@ -118,7 +123,8 @@
         "Fatimid Chronicles"
       ],
       "notes": "Traces continuous hereditary Imamat from Fatimah & Ali -> Imam Husayn -> Ali Zayn al-Abidin -> Muhammad al-Baqir -> Ja'far al-Sadiq -> Isma'il -> Fatimid Caliphs (Cairo) -> Alamut & Persian Imams -> Aga Khan I–IV -> Prince Rahim al-Hussaini (Aga Khan V, living, b. 1971, acceded Feb 2025 as 50th Imam!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mod_eth_yekuno_to_lebna",
@@ -137,7 +143,8 @@
         "Crown Council of Ethiopia"
       ],
       "notes": "Nine unbroken father-to-son emperors from Yekuno Amlak (1270) through scholar-emperor Zara Yaqob (1434-1468) down to Dawit II (Lebna Dengel, r. 1508-1540).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mod_eth_shewa_sahle",
@@ -158,7 +165,8 @@
         "Crown Council of Ethiopia"
       ],
       "notes": "Lebna Dengel's 4th son Abeto Yaqob settled in Menz (Shewa) -> Negasi Krestos founded the Kingdom of Shewa (c. 1682) -> King Sahle Selassie (1813-1847, grandfather of Emperor Menelik II & great-grandfather of Haile Selassie via Princess Tenagnework -> Ras Makonnen!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mod_eth_living_2026",
@@ -177,7 +185,8 @@
         "Crown Council of Ethiopia"
       ],
       "notes": "Emperor Haile Selassie I (Tafari Makonnen, r. 1930-1974) -> Crown Prince Asfaw Wossen (Amha Selassie) -> Prince Zera Yacob Amha Selassie (living, b. 1953, Head of the Imperial House of Ethiopia) alongside his cousin Prince Ermias Sahle Selassie (living, b. 1960, President of the Crown Council of Ethiopia).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mod_geo_tamar_to_constantine2",
@@ -196,7 +205,8 @@
         "Royal House of Georgia"
       ],
       "notes": "George V the Brilliant freed Georgia from Mongol rule; Alexander I the Great (1412-1442) and Constantine II (1478-1505) were the last kings before the kingdom divided into Kartli/Mukhrani, Kakheti, and Imereti.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mod_geo_mukhrani_erekle2",
@@ -215,7 +225,8 @@
         "Royal House of Georgia"
       ],
       "notes": "Bagrat I founded the senior male-line House of Mukhrani; King Heraclius II (Erekle II) & King George XII were the final reigning Georgian monarchs before Russian annexation in 1800, continuing through the Gruzinsky branch.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "mod_geo_giorgi_2011",
@@ -234,7 +245,8 @@
         "Royal House of Georgia"
       ],
       "notes": "Born in 2011 and baptized by Georgian Patriarch Ilia II, Prince Giorgi Bagrationi unites both historic surviving branches of the world's oldest Christian royal house (Mukhrani via father Prince David & Kakheti/Gruzinsky via mother Princess Ana)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mod_exilarchs_bostanai",
@@ -255,7 +267,8 @@
         "Rabbinic Genealogical Archives"
       ],
       "notes": "The Babylonian Exilarchs (Resh Galuta) maintained a recognized Davidic succession via Zerubbabel under Parthian, Sasanian & Abbasid rule! Exilarch Bostanai (c. 618-670) married Sasanian Princess Izdundad (daughter of Shah Khosrow II!). After last Exilarch Hezekiah Gaon (d. 1058), surviving branches migrated to Spain and France.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mod_abravanel_sephardic",
@@ -275,7 +288,8 @@
         "Rabbinic Genealogical Archives"
       ],
       "notes": "Don Isaac Abravanel (statesman, Torah commentator & Treasurer of Portugal and Spain before 1492) and his son Judah (philosopher Leone Ebreo) preserved one of the best-documented Iberian family pedigrees claiming descent from the Babylonian Exilarchs — with thousands of living Abravanel/Abarbanel descendants worldwide today!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "mod_rashi_maharal_living",
@@ -295,7 +309,8 @@
         "Rabbinic Genealogical Archives"
       ],
       "notes": "Historically proven lineages descend continuously from Rashi (Rabbi Shlomo Yitzchaki, Troyes, 1040-1105 -> daughters Yocheved, Miriam & Rachel -> Rabbeinu Tam) and the Maharal of Prague (1525-1609) into living families today (Katzenellenbogen, Luria, Horowitz, Shapiro, Treves, Charlap, Dayan [incl. Moshe Dayan], & Chabad-Lubavitch Schneersohns). Scholarly integrity note: modern genealogists (Avotaynu) note the pre-1040 bridge from Rashi/Maharal back to Hillel & King David is traditional rather than contemporaneously documented.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "dna_living_kohanim_j1",
@@ -315,7 +330,8 @@
         "FTDNA / YFull J-Z18271"
       ],
       "notes": "Over 46% of living Ashkenazi and Sephardic Kohanim (and Samaritan priestly lines) share an extended Y-chromosome signature on Haplogroup J1-P58 (specifically clade J-Z18271, TMRCA ~3,100 yrs ago) — directly matching the Iron Age Levantine timeframe of the Aaronite priesthood!",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     },
     {
       "id": "dna_living_hashemites_l859",
@@ -334,7 +350,8 @@
         "Arabian Y-DNA Consortium"
       ],
       "notes": "Modern whole-Y sequencing of geographically separated Ashraf/Sayyid families across Jordan, Hejaz, Iraq, Yemen & Morocco reveals a striking shared J1-P58 downstream clade (J1-L859 / FGC8703) coalescing ~1,400–1,600 years ago — providing independent genetic corroboration of medieval Quraysh/Hashemite patrilineal continuity!",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     },
     {
       "id": "modr_has_01_1_qatadah_ibn_idris_emir_of_",
@@ -349,7 +366,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_02_2_ali_al_akbar_ibn_qatadah",
@@ -364,7 +382,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_03_3_abu_sa_d_al_hasan_ibn_ali",
@@ -379,7 +398,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_04_4_muhammad_abu_numayy_i_d_13",
@@ -394,7 +414,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_05_5_rumaithah_ibn_abu_numayy_i",
@@ -409,7 +430,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_06_6_ajlan_ibn_rumaithah",
@@ -424,7 +446,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_07_7_ali_ibn_ajlan",
@@ -439,7 +462,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_08_8_hasan_ibn_ajlan",
@@ -454,7 +478,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_09_9_barakat_i_ibn_hasan",
@@ -469,7 +494,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_10_10_muhammad_ibn_barakat",
@@ -484,7 +510,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_11_11_barakat_ii_ibn_muhammad",
@@ -499,7 +526,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_12_12_muhammad_abu_numayy_ii_15",
@@ -514,7 +542,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_13_13_hasan_ibn_abu_numayy_ii",
@@ -529,7 +558,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_14_14_abdullah_ibn_hasan_ancest",
@@ -544,7 +574,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_15_15_hussein_16_abdullah_17_mu",
@@ -559,7 +590,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_16_19_abd_al_mu_in_20_muhammad_",
@@ -574,7 +606,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_17_22_sharif_hussein_bin_ali_ki",
@@ -589,7 +622,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_18_23_king_abdullah_i_of_jordan",
@@ -604,7 +638,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_has_19_24_king_talal_king_hussein_o",
@@ -619,7 +654,8 @@
         "Hashemite Royal Court"
       ],
       "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_eth_01_wedem_arad_son_of_yekuno_aml",
@@ -633,7 +669,8 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_eth_02_amda_seyon_i_1314_1344",
@@ -647,7 +684,8 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_eth_03_newaya_krestos_dawit_i",
@@ -661,7 +699,8 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_eth_04_emperor_zara_yaqob_1434_1468",
@@ -675,7 +714,8 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_eth_05_ba_eda_maryam_i_naod",
@@ -689,7 +729,8 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_eth_06_dawit_ii_lebna_dengel_1508_1",
@@ -703,7 +744,8 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_eth_07_abeto_yaqob_segwe_qal_werede",
@@ -717,7 +759,8 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_eth_08_negasi_krestos_1st_ruler_of_",
@@ -731,7 +774,8 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_eth_09_sebaste_abuye_amha_iyesus_as",
@@ -745,7 +789,8 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_eth_10_negus_sahle_selassie_of_shew",
@@ -759,7 +804,8 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_eth_11_princess_tenagnework_sahle_s",
@@ -773,7 +819,8 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "modr_eth_12_emperor_menelik_ii_victor_of",
@@ -787,7 +834,8 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     }
   ],
   "edges": [

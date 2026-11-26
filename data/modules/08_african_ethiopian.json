@@ -15,7 +15,8 @@
         "Napatan Royal Stelae"
       ],
       "notes": "Unified Upper Nubia around Napata (Jebel Barkal); revered by all later Kushite pharaohs as their founding ancestor.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "af_kashta",
@@ -29,7 +30,8 @@
         "Elephantine Stele"
       ],
       "notes": "Extended Kushite rule into Upper Egypt and installed his daughter Amenirdis I as God's Wife of Amun at Thebes; father of Piye and Shabaka.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "af_piye",
@@ -47,7 +49,8 @@
         "Shabaka Stone"
       ],
       "notes": "Piye conquered all of Egypt from Nubia to the Delta; his brother Shabaka preserved the ancient Memphite Theology of Ptah on the Shabaka Stone!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "af_taharqa",
@@ -65,7 +68,8 @@
         "Kawa Stelae"
       ],
       "notes": "Son of Piye; explicitly named in the Bible as 'Tirhakah, King of Cush' who marched to relieve King Hezekiah's Jerusalem from Assyrian Emperor Sennacherib (701 BCE)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "af_tantamani",
@@ -80,7 +84,8 @@
         "Diodorus Siculus"
       ],
       "notes": "Tantamani (son of Shabaka) was the last 25th Dynasty king in Egypt; Aspelta shifted the royal capital south to Meroe (creating the Meroitic script and pyramid fields!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "af_kandakes",
@@ -100,7 +105,8 @@
         "Meroe Reliefs"
       ],
       "notes": "Meroe was ruled by powerful Candaces (Kandakes): Amanirenas battled Roman Augustus's legions (capturing his bronze head at Meroe!), and Queen Amanitore corresponds to 'Candace, Queen of the Ethiopians' in Acts 8:27!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "af_jas_kikanos",
@@ -115,7 +121,8 @@
         "Josephus Ant. 2.10"
       ],
       "notes": "Book of Jasher 72-76 recounts Moses aiding King Kikanos against the rebel Balaam, marrying Queen Adoniah, and ruling Cush for 40 years before turning the kingdom over to Kikanos's son Menakrus!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eth_ityopis",
@@ -133,7 +140,8 @@
         "Book of Aksum"
       ],
       "notes": "Traditional Ethiopian royal chronicles trace Ethiopia directly from Ham -> Cush -> Ityopis (eponym of Ethiopia) -> Aksumawi (founder of Aksum) -> Malakya Aksum!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eth_angabo",
@@ -148,7 +156,8 @@
         "Ethiopian Oral Chronicles"
       ],
       "notes": "Angabo slays the tyrant serpent-king Arwe and founds the Agazian dynasty of Aksum leading directly to Queen Makeda!",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eth_makeda",
@@ -168,7 +177,8 @@
         "Qur'an 27 (Bilqis)"
       ],
       "notes": "Journeys from Aksum/Sheba to Jerusalem to test King Solomon's wisdom; bears Menelik I, uniting the lineages of Judah/Israel, Saba/Arabia, and Cush/Ethiopia!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eth_ezana",
@@ -186,7 +196,8 @@
         "Kebra Nagast"
       ],
       "notes": "King Bazen reigned at the turn of the 1st century CE; Emperor Ezana converted Aksum to Christianity (c. 330 CE) and conquered Meroe; King Kaleb (Ella Atsbeha) campaigned in Himyar/Yemen!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eth_lalibela",
@@ -204,7 +215,8 @@
         "Ethiopian Chronicles"
       ],
       "notes": "Ethiopian Zagwe chronicles trace the Zagwe kings to a daughter of the Aksumite line AND traditionally claim descent from Moses & Zipporah! Lalibela carved the 11 monolithic churches of 'New Jerusalem'.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "eth_haile_selassie",
@@ -222,7 +234,8 @@
         "Ethiopian Imperial Chronicles"
       ],
       "notes": "Yekuno Amlak restored the Solomonic Dynasty in 1270 CE; continued through Zara Yaqob, Menelik II (victor at Adwa), down to Haile Selassie I (225th ruler from Menelik I!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "af_oduduwa",
@@ -241,7 +254,8 @@
         "Samuel Johnson History of the Yorubas"
       ],
       "notes": "In indigenous Ifa cosmology, Olodumare sends Obatala and Oduduwa to establish Ile-Ife (cradle of humanity). A later 19th-c. syncretic oral chronicle (Samuel Johnson) compares Oduduwa's eastern migration to 'Lamurudu' (Nimrod) from the East!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "af_okanbi",
@@ -255,7 +269,8 @@
         "Yoruba Royal Chronicles"
       ],
       "notes": "Only son of Oduduwa in core Ife genealogy; father of 7 royal children who founded the major Yoruba kingdoms and the Benin dynasty.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "af_bayajidda",
@@ -273,7 +288,8 @@
         "Daura Oral Tradition"
       ],
       "notes": "Prince Bayajidda journeys from Baghdad across Bornu to Daura (Nigeria), slays the well-serpent Sarki, weds Queen Magajiya Daurama, and sires Bawo — father of the 7 Hausa Bakwai states (Daura, Kano, Katsina, Zaria, Gobir, Rano, Biram)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "af_sundiata",
@@ -291,7 +307,8 @@
         "Ibn Battuta"
       ],
       "notes": "Mande royal griots trace the Keita dynasty from Bilali Bounama (traditionally linked to Bilal ibn Rabah, Ethiopian companion of Muhammad!) to Sundiata Keita (founder of Mali, 1235 CE) and Mansa Musa!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "af_mazigh",
@@ -310,7 +327,8 @@
         "Herodotus IV (Maxyes)"
       ],
       "notes": "Imazighen ('Free People', attested in Herodotus as Maxyes and Egyptian inscriptions as Meshwesh!). Medieval North African genealogists (Ibn Khaldun) linked Mazigh to Ham's sons Phut/Canaan, branching into the Baranis & Botr confederations and heroic Queen Dihya (al-Kahina).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "af_oranmiyan",
@@ -324,7 +342,8 @@
         "Yoruba & Benin Oral Chronicles"
       ],
       "notes": "Youngest and mightiest grandson of Oduduwa; founded the Oyo Empire (father of Ajaka & Shango!) and fathered Eweka I, founder of the Oba Dynasty of Benin!",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "af_eweka1",
@@ -338,7 +357,8 @@
         "Benin Royal Chronicle"
       ],
       "notes": "Son of Oranmiyan & Princess Erinmwinde of Benin; founder of the historic Oba Dynasty of the Kingdom of Benin.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "af_olowu",
@@ -352,7 +372,8 @@
         "Yoruba Royal Chronicles"
       ],
       "notes": "1st crowned grandchild of Oduduwa (son of Okanbi's eldest daughter).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "af_alaketu",
@@ -366,7 +387,8 @@
         "Yoruba Royal Chronicles"
       ],
       "notes": "Founder of the Yoruba kingdom of Ketu (Benin Republic/Nigeria).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "af_onisabe",
@@ -380,7 +402,8 @@
         "Yoruba Royal Chronicles"
       ],
       "notes": "Founder of the kingdom of Sabe.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "af_olupopo",
@@ -394,7 +417,8 @@
         "Yoruba Royal Chronicles"
       ],
       "notes": "Founder of the Popo kingdom.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "af_orangun",
@@ -408,7 +432,8 @@
         "Yoruba Royal Chronicles"
       ],
       "notes": "Founder of the kingdom of Ila-Orangun.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "af_hausa_kano",
@@ -423,7 +448,8 @@
         "Daura Tradition"
       ],
       "notes": "Founding Hausa Bakwai kingdoms descended from Bawo.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "af_hausa_katsina",
@@ -438,7 +464,8 @@
         "Daura Tradition"
       ],
       "notes": "Founding Hausa Bakwai kingdoms (Zaria later famed for Warrior Queen Amina!).",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "af_hausa_gobir",
@@ -453,7 +480,8 @@
         "Daura Tradition"
       ],
       "notes": "Founding Hausa Bakwai kingdoms.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     }
   ],
   "edges": [

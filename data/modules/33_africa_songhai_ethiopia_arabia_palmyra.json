@@ -18,7 +18,8 @@
         "Abderrahman es-Sa'di Tarikh es-Soudan (tr. Houdas 1900) Ch. 1 pp. 35-38"
       ],
       "notes": "Tarikh es-Soudan derives the royal Za (Dia) dynasty of Kukya/Songhai from two brothers who traveled from Yemen ('dja men el-Yemen' -> Za-Al-Ayaman), slaying the pagan river-idol and ruling through 14 pre-Islamic kings until Za-Kosoi (Moslem-dam) embraced Islam in AH 400 (1009-1010 CE).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "sng_sonni_askia_timbuktu",
@@ -36,7 +37,8 @@
         "Abderrahman es-Sa'di Tarikh es-Soudan (tr. Houdas 1900) Ch. 2-3 pp. 39-44"
       ],
       "notes": "Brothers Ali-Kolon and Selman-Nar (sons of Za-Yasiboy) freed Songhai from Mansa Musa's Mali suzerainty, inaugurating the Sonni line culminating in Sonni Ali before Askia El-Hadj Mohammed (the Great, 1493) elevated Timbuktu and Songhai.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "hak_futuh_misr_andalus",
@@ -54,7 +56,8 @@
         "Ibn 'Abd al-Hakam Futuh Misr (ed. C.C. Torrey, Yale Oriental Series III)"
       ],
       "notes": "Earliest extant Arabic historical narrative covering 'Amr ibn al-'As's Coptic treaty in Egypt (Misr), Uqba ibn Nafi's campaigns across the Amazigh/Berber Maghreb, and Tariq ibn Ziyad & Musa ibn Nusayr's 711 CE crossing into Visigothic Spain.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "cdp_ariba_cush_amaliqa",
@@ -72,7 +75,8 @@
         "Caussin de Perceval Essai sur l'Histoire des Arabes Vol. 1 (1847) pp. 21-39"
       ],
       "notes": "Caussin de Perceval synthesizes Jewish and classical Arab genealogies (Ibn Sa'id, Ibn Habib, Tabari) tracing the primitive Arab al-'Ariba — Cushites along the Arabian peninsula, 'Ad (Uz b. Aram / Amalek b. Ham, including Loqman of the Seven Vultures), and the Samayda Amaliqa of Ayla.",
-      "major": false
+      "major": false,
+      "biblicalConnected": true
     },
     {
       "id": "cdp_qahtan_adnan_tribes",
@@ -90,7 +94,8 @@
         "Caussin de Perceval Essai sur l'Histoire des Arabes Vol. 1 (1847) pp. 23-39+"
       ],
       "notes": "Maps the dual trunk of Arabian ethnogenesis: Southern Al-'Ariba / Mutariba descending from Qahtan (Joktan b. Eber -> Ya'rub -> Himyar, Kahlan, Azd, Ghassan, Lakhm & Kindah) and Northern Musta'riba descending from Ishmael via Adnan -> Ma'add -> Nizar -> Mudar & Rabi'a.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eth_ludolf_kaleb_himyar",
@@ -108,7 +113,8 @@
         "Hiob Ludolf A New History of Ethiopia (1684) pp. 166-167"
       ],
       "notes": "Ludolf chronicles King Kaleb (Caleb / Elesbaan) of Aksum avenging the Christian martyrs of Najran against Himyarite king Dhu Nuwas, placing Abreha in Yemen until Himyarite prince Saif ibn Dhi Yazan regained Yemen with Sasanian Emperor Khosrow I Anushirvan's aid.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "eth_ludolf_gondar_kings",
@@ -126,7 +132,8 @@
         "Hiob Ludolf A New History of Ethiopia (1684)"
       ],
       "notes": "Continues the Ethiopian Solomonic line documented in Ludolf's 1684 chronicle from Lebna Dengel (Dawit II) and Galawdewos (Claudius) through Emperor Susenyos I and his son Emperor Fasilides, who established the royal capital at Gondar in 1632.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "pal_solomon_aretas_tadmor",
@@ -144,7 +151,8 @@
         "1 Kings 9:18 / 2 Chr 8:4"
       ],
       "notes": "Seller (1696) links ancient Palmyra directly to Biblical Tadmor fortified by King Solomon in the Syrian desert, tracing subsequent Arabian mastery from Nabataean king Aretas (equated by Seller with the Al-Harith rulers of Petra and Ghassan, contemporary of Pompey c. 63 BCE).",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     },
     {
       "id": "pal_odenathus_zenobia",
@@ -163,7 +171,8 @@
         "Historia Augusta"
       ],
       "notes": "Seller details the rise of Palmyra under Septimius Odaenathus ('King of Kings') and his learned queen Zenobia Bat-Zabbai — who claimed royal ancestry from Egypt's Cleopatra VII and Carthaginian Dido while ruling Syria, Egypt & Anatolia before Aurelian's triumph.",
-      "major": true
+      "major": true,
+      "biblicalConnected": true
     }
   ],
   "edges": [

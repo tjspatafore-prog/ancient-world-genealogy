@@ -1,0 +1,4893 @@
+{
+  "module": "37_individual_monarchs_world_chronicles",
+  "title": "Individualized Roman, European, Ottoman, Caliphate, Persian, Mughal, Indian, Ethiopian & West African Sovereigns",
+  "nodes": [
+    {
+      "id": "mon_rom_brutus_founder",
+      "name": "Lucius Junius Brutus (1st Consul of Rome, 509 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 15,
+      "era": "509 BCE",
+      "role": "Consul",
+      "sources": [
+        "Livy",
+        "Plutarch Lives",
+        "Echard Roman History"
+      ],
+      "notes": "Lucius Junius Brutus (1st Consul of Rome, 509 BCE) (Livy, Plutarch Lives, Echard Roman History).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_cincinnatus",
+      "name": "Lucius Quinctius Cincinnatus (458 BCE Dictator)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 15,
+      "era": "c. 519–430 BCE",
+      "role": "Dictator",
+      "sources": [
+        "Livy",
+        "Plutarch Lives",
+        "Echard Roman History"
+      ],
+      "notes": "Lucius Quinctius Cincinnatus (458 BCE Dictator) (Livy, Plutarch Lives, Echard Roman History).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_scipio_africanus",
+      "name": "Scipio Africanus (Victor of Zama, 202 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "236–183 BCE",
+      "role": "Roman General",
+      "sources": [
+        "Livy",
+        "Plutarch Lives",
+        "Echard Roman History"
+      ],
+      "notes": "Scipio Africanus (Victor of Zama, 202 BCE) (Livy, Plutarch Lives, Echard Roman History).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_cato_elder",
+      "name": "Cato the Elder (234–149 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "234–149 BCE",
+      "role": "Censor & Historian",
+      "sources": [
+        "Livy",
+        "Plutarch Lives",
+        "Echard Roman History"
+      ],
+      "notes": "Cato the Elder (234–149 BCE) (Livy, Plutarch Lives, Echard Roman History).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_gracchi",
+      "name": "Tiberius & Gaius Gracchus (133–121 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "2nd c. BCE",
+      "role": "Tribunes of the Plebs",
+      "sources": [
+        "Livy",
+        "Plutarch Lives",
+        "Echard Roman History"
+      ],
+      "notes": "Tiberius & Gaius Gracchus (133–121 BCE) (Livy, Plutarch Lives, Echard Roman History).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_marius_sulla",
+      "name": "Gaius Marius & Lucius Cornelius Sulla",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "157–78 BCE",
+      "role": "Consuls & Dictator",
+      "sources": [
+        "Livy",
+        "Plutarch Lives",
+        "Echard Roman History"
+      ],
+      "notes": "Gaius Marius & Lucius Cornelius Sulla (Livy, Plutarch Lives, Echard Roman History).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_pompey_cicero",
+      "name": "Pompey the Great & Marcus Tullius Cicero",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "106–43 BCE",
+      "role": "Consul & Statesman",
+      "sources": [
+        "Livy",
+        "Plutarch Lives",
+        "Echard Roman History"
+      ],
+      "notes": "Pompey the Great & Marcus Tullius Cicero (Livy, Plutarch Lives, Echard Roman History).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_mark_antony",
+      "name": "Mark Antony (Triumvir, d. 30 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "83–30 BCE",
+      "role": "Roman Triumvir",
+      "sources": [
+        "Livy",
+        "Plutarch Lives",
+        "Echard Roman History"
+      ],
+      "notes": "Mark Antony (Triumvir, d. 30 BCE) (Livy, Plutarch Lives, Echard Roman History).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_tiberius",
+      "name": "Emperor Tiberius (14–37 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "14–37 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Suetonius Twelve Caesars",
+        "Tacitus Annals"
+      ],
+      "notes": "Emperor Tiberius (14–37 CE) (Suetonius Twelve Caesars, Tacitus Annals).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_caligula",
+      "name": "Emperor Caligula (37–41 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "37–41 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Suetonius Twelve Caesars",
+        "Tacitus Annals"
+      ],
+      "notes": "Emperor Caligula (37–41 CE) (Suetonius Twelve Caesars, Tacitus Annals).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_claudius",
+      "name": "Emperor Claudius (41–54 CE, Conquest of Britain)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "41–54 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Suetonius Twelve Caesars",
+        "Tacitus Annals"
+      ],
+      "notes": "Emperor Claudius (41–54 CE, Conquest of Britain) (Suetonius Twelve Caesars, Tacitus Annals).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_nero",
+      "name": "Emperor Nero (54–68 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "54–68 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Suetonius Twelve Caesars",
+        "Tacitus Annals"
+      ],
+      "notes": "Emperor Nero (54–68 CE) (Suetonius Twelve Caesars, Tacitus Annals).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_vespasian",
+      "name": "Emperor Vespasian (69–79 CE, Flavian Founder)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "69–79 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Vespasian (69–79 CE, Flavian Founder) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_titus",
+      "name": "Emperor Titus (79–81 CE, Siege of Jerusalem 70 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "79–81 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Titus (79–81 CE, Siege of Jerusalem 70 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_domitian",
+      "name": "Emperor Domitian (81–96 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "81–96 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Domitian (81–96 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_nerva",
+      "name": "Emperor Nerva (96–98 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "96–98 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Nerva (96–98 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_trajan",
+      "name": "Emperor Trajan (98–117 CE, Imperial Zenith)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "98–117 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Trajan (98–117 CE, Imperial Zenith) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_hadrian",
+      "name": "Emperor Hadrian (117–138 CE, Hadrian's Wall)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "117–138 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Hadrian (117–138 CE, Hadrian's Wall) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_antoninus_pius",
+      "name": "Emperor Antoninus Pius (138–161 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "138–161 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Antoninus Pius (138–161 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_marcus_aurelius",
+      "name": "Emperor Marcus Aurelius (161–180 CE, Philosopher)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "161–180 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Marcus Aurelius (161–180 CE, Philosopher) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_commodus",
+      "name": "Emperor Commodus (180–192 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "180–192 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Commodus (180–192 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_septimius_severus",
+      "name": "Emperor Septimius Severus (193–211 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "193–211 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Septimius Severus (193–211 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_caracalla",
+      "name": "Emperor Caracalla (198–217 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "198–217 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Caracalla (198–217 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_elagabalus",
+      "name": "Emperor Elagabalus (218–222 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "218–222 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Elagabalus (218–222 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_severus_alexander",
+      "name": "Emperor Severus Alexander (222–235 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "222–235 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Severus Alexander (222–235 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_aurelian",
+      "name": "Emperor Aurelian (270–275 CE, Conqueror of Palmyra)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "270–275 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Aurelian (270–275 CE, Conqueror of Palmyra) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_diocletian",
+      "name": "Emperor Diocletian (284–305 CE, Tetrarchy)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "284–305 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History",
+        "Herodian",
+        "Pliny",
+        "Suetonius"
+      ],
+      "notes": "Emperor Diocletian (284–305 CE, Tetrarchy) (Echard Roman History, Herodian, Pliny, Suetonius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_constantine1",
+      "name": "Emperor Constantine I the Great (306–337 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "306–337 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History Vol. 4-5",
+        "Ammianus Marcellinus"
+      ],
+      "notes": "Emperor Constantine I the Great (306–337 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_julian",
+      "name": "Emperor Julian (361–363 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "361–363 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History Vol. 4-5",
+        "Ammianus Marcellinus"
+      ],
+      "notes": "Emperor Julian (361–363 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_theodosius1",
+      "name": "Emperor Theodosius I the Great (379–395 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "379–395 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History Vol. 4-5",
+        "Ammianus Marcellinus"
+      ],
+      "notes": "Emperor Theodosius I the Great (379–395 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_justinian1",
+      "name": "Emperor Justinian I & Empress Theodora (527–565 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "527–565 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History Vol. 4-5",
+        "Ammianus Marcellinus"
+      ],
+      "notes": "Emperor Justinian I & Empress Theodora (527–565 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_heraclius",
+      "name": "Emperor Heraclius (610–641 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "610–641 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History Vol. 4-5",
+        "Ammianus Marcellinus"
+      ],
+      "notes": "Emperor Heraclius (610–641 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_leo3",
+      "name": "Emperor Leo III the Isaurian (717–741 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "717–741 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History Vol. 4-5",
+        "Ammianus Marcellinus"
+      ],
+      "notes": "Emperor Leo III the Isaurian (717–741 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_basil1",
+      "name": "Emperor Basil I the Macedonian (867–886 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "867–886 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History Vol. 4-5",
+        "Ammianus Marcellinus"
+      ],
+      "notes": "Emperor Basil I the Macedonian (867–886 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_basil2",
+      "name": "Emperor Basil II Bulgaroktonos (976–1025 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "976–1025 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History Vol. 4-5",
+        "Ammianus Marcellinus"
+      ],
+      "notes": "Emperor Basil II Bulgaroktonos (976–1025 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_alexios1",
+      "name": "Emperor Alexios I Komnenos (1081–1118 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "1081–1118 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History Vol. 4-5",
+        "Ammianus Marcellinus"
+      ],
+      "notes": "Emperor Alexios I Komnenos (1081–1118 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_michael8",
+      "name": "Emperor Michael VIII Palaiologos (1259–1282 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "1259–1282 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History Vol. 4-5",
+        "Ammianus Marcellinus"
+      ],
+      "notes": "Emperor Michael VIII Palaiologos (1259–1282 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rom_constantine11",
+      "name": "Emperor Constantine XI Palaiologos (d. 1453 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "1449–1453 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Echard Roman History Vol. 4-5",
+        "Ammianus Marcellinus"
+      ],
+      "notes": "Emperor Constantine XI Palaiologos (d. 1453 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_egbert",
+      "name": "King Egbert of Wessex (802–839 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "802–839 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King Egbert of Wessex (802–839 CE) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_ethewulf",
+      "name": "King Ethelwulf of Wessex (839–858 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "839–858 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King Ethelwulf of Wessex (839–858 CE) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_alfred",
+      "name": "King Alfred the Great (871–899 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "871–899 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King Alfred the Great (871–899 CE) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_edward_elder",
+      "name": "King Edward the Elder (899–924 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "899–924 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King Edward the Elder (899–924 CE) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_athelstan",
+      "name": "King Athelstan (1st King of All England, 924–939)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "924–939 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King Athelstan (1st King of All England, 924–939) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_edgar",
+      "name": "King Edgar the Peaceful (959–975 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "959–975 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King Edgar the Peaceful (959–975 CE) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_ethelred2",
+      "name": "King Ethelred II the Unready (978–1016 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "978–1016 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King Ethelred II the Unready (978–1016 CE) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_canute",
+      "name": "King Canute / Cnut the Great (1016–1035 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1016–1035 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King Canute / Cnut the Great (1016–1035 CE) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_edward_confessor",
+      "name": "King St. Edward the Confessor (1042–1066)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1042–1066 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King St. Edward the Confessor (1042–1066) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_harold2",
+      "name": "King Harold II Godwinson (1066)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1066 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King Harold II Godwinson (1066) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_william1",
+      "name": "King William I the Conqueror (1066–1087)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1066–1087 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King William I the Conqueror (1066–1087) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_william2",
+      "name": "King William II Rufus (1087–1100)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1087–1100 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King William II Rufus (1087–1100) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_henry1",
+      "name": "King Henry I Beauclerc (1100–1135)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1100–1135 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King Henry I Beauclerc (1100–1135) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_stephen",
+      "name": "King Stephen of Blois (1135–1154)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1135–1154 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Strutt 1779"
+      ],
+      "notes": "King Stephen of Blois (1135–1154) (William Howell 1685, Strutt 1779).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_henry2",
+      "name": "King Henry II Plantagenet (1154–1189)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1154–1189 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Henry II Plantagenet (1154–1189) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_richard1",
+      "name": "King Richard I the Lionheart (1189–1199)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1189–1199 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Richard I the Lionheart (1189–1199) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_john",
+      "name": "King John of England (Magna Carta, 1199–1216)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1199–1216 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King John of England (Magna Carta, 1199–1216) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_henry3",
+      "name": "King Henry III (1216–1272)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1216–1272 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Henry III (1216–1272) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_edward1",
+      "name": "King Edward I Longshanks (1272–1307)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1272–1307 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Edward I Longshanks (1272–1307) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_edward2",
+      "name": "King Edward II (1307–1327)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1307–1327 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Edward II (1307–1327) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_edward3",
+      "name": "King Edward III (1327–1377)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1327–1377 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Edward III (1327–1377) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_richard2",
+      "name": "King Richard II (1377–1399)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1377–1399 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Richard II (1377–1399) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_henry4",
+      "name": "King Henry IV of Lancaster (1399–1413)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1399–1413 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Henry IV of Lancaster (1399–1413) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_henry5",
+      "name": "King Henry V (Agincourt, 1413–1422)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1413–1422 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Henry V (Agincourt, 1413–1422) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_henry6",
+      "name": "King Henry VI (1422–1461)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1422–1461 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Henry VI (1422–1461) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_edward4",
+      "name": "King Edward IV of York (1461–1483)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1461–1483 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Edward IV of York (1461–1483) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_richard3",
+      "name": "King Richard III (1483–1485)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1483–1485 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Richard III (1483–1485) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_henry7",
+      "name": "King Henry VII Tudor (1485–1509)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1485–1509 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Henry VII Tudor (1485–1509) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_henry8",
+      "name": "King Henry VIII (1509–1547)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1509–1547 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Henry VIII (1509–1547) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_edward6",
+      "name": "King Edward VI (1547–1553)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1547–1553 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "King Edward VI (1547–1553) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_mary1",
+      "name": "Queen Mary I of England (1553–1558)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1553–1558 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "Queen Mary I of England (1553–1558) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_elizabeth1",
+      "name": "Queen Elizabeth I (1558–1603)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1558–1603 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685"
+      ],
+      "notes": "Queen Elizabeth I (1558–1603) (William Howell 1685).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_james1",
+      "name": "King James VI & I (1603–1625, KJV Bible)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1603–1625 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "King James VI & I (1603–1625, KJV Bible) (William Howell 1685, Anderson 1732).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_charles1",
+      "name": "King Charles I (1625–1649)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1625–1649 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "King Charles I (1625–1649) (William Howell 1685, Anderson 1732).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_charles2",
+      "name": "King Charles II (Restoration, 1660–1685)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1660–1685 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "King Charles II (Restoration, 1660–1685) (William Howell 1685, Anderson 1732).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_james2",
+      "name": "King James II & VII (1685–1688)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1685–1688 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "King James II & VII (1685–1688) (William Howell 1685, Anderson 1732).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_william_mary",
+      "name": "King William III & Queen Mary II (1689–1702)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1689–1702 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "King William III & Queen Mary II (1689–1702) (William Howell 1685, Anderson 1732).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_queen_anne",
+      "name": "Queen Anne (Act of Union, 1702–1714)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1702–1714 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "Queen Anne (Act of Union, 1702–1714) (William Howell 1685, Anderson 1732).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_george1",
+      "name": "King George I of Hanover (1714–1727)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1714–1727 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "King George I of Hanover (1714–1727) (William Howell 1685, Anderson 1732).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_george2",
+      "name": "King George II (1727–1760)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1727–1760 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "King George II (1727–1760) (William Howell 1685, Anderson 1732).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_george3",
+      "name": "King George III (1760–1820)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1760–1820 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "King George III (1760–1820) (William Howell 1685, Anderson 1732).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eng_victoria",
+      "name": "Queen Victoria (1837–1901)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1837–1901 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "Queen Victoria (1837–1901) (William Howell 1685, Anderson 1732).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_clovis1",
+      "name": "King Clovis I of the Franks (481–511 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "481–511 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mézeray History of France 1683"
+      ],
+      "notes": "King Clovis I of the Franks (481–511 CE) (Mézeray History of France 1683).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_chlothar1",
+      "name": "King Chlothar I (511–561 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "511–561 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mézeray History of France 1683"
+      ],
+      "notes": "King Chlothar I (511–561 CE) (Mézeray History of France 1683).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_dagobert1",
+      "name": "King Dagobert I (629–639 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "629–639 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mézeray History of France 1683"
+      ],
+      "notes": "King Dagobert I (629–639 CE) (Mézeray History of France 1683).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_charles_martel",
+      "name": "Charles Martel (Tours, 732 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "714–741 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mézeray 1683",
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "Charles Martel (Tours, 732 CE) (Mézeray 1683, Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_pepin_short",
+      "name": "King Pepin the Short (751–768 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "751–768 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mézeray 1683",
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Pepin the Short (751–768 CE) (Mézeray 1683, Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_charlemagne",
+      "name": "Emperor Charlemagne (768–814 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "768–814 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mézeray 1683",
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "Emperor Charlemagne (768–814 CE) (Mézeray 1683, Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_louis_pious",
+      "name": "Emperor Louis the Pious (814–840 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "814–840 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mézeray 1683",
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "Emperor Louis the Pious (814–840 CE) (Mézeray 1683, Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_charles_bald",
+      "name": "King & Emperor Charles the Bald (843–877 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "843–877 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mézeray 1683",
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King & Emperor Charles the Bald (843–877 CE) (Mézeray 1683, Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_hugh_capet",
+      "name": "King Hugh Capet (987–996 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "987–996 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Hugh Capet (987–996 CE) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_robert2",
+      "name": "King Robert II the Pious (996–1031 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "996–1031 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Robert II the Pious (996–1031 CE) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_henry1",
+      "name": "King Henry I of France (+ Anne of Kiev, 1031–1060)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1031–1060 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Henry I of France (+ Anne of Kiev, 1031–1060) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_philip1",
+      "name": "King Philip I of France (1060–1108)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1060–1108 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Philip I of France (1060–1108) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_louis6",
+      "name": "King Louis VI the Fat (1108–1137)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1108–1137 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Louis VI the Fat (1108–1137) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_louis7",
+      "name": "King Louis VII of France (1137–1180)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1137–1180 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Louis VII of France (1137–1180) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_philip2",
+      "name": "King Philip II Augustus (1180–1223)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1180–1223 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Philip II Augustus (1180–1223) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_louis8",
+      "name": "King Louis VIII the Lion (1223–1226)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1223–1226 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Louis VIII the Lion (1223–1226) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_louis9",
+      "name": "King St. Louis IX (1226–1270)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1226–1270 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King St. Louis IX (1226–1270) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_philip4",
+      "name": "King Philip IV the Fair (1285–1314)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1285–1314 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Philip IV the Fair (1285–1314) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_philip6",
+      "name": "King Philip VI of Valois (1328–1350)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1328–1350 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Philip VI of Valois (1328–1350) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_charles5",
+      "name": "King Charles V the Wise (1364–1380)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1364–1380 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Charles V the Wise (1364–1380) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_charles6",
+      "name": "King Charles VI (1380–1422)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1380–1422 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Charles VI (1380–1422) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_charles7_joan",
+      "name": "King Charles VII & St. Joan of Arc (1422–1461)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1422–1461 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Charles VII & St. Joan of Arc (1422–1461) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_louis11",
+      "name": "King Louis XI (1461–1483)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1461–1483 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Louis XI (1461–1483) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_francis1",
+      "name": "King Francis I of France (1515–1547)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1515–1547 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Francis I of France (1515–1547) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_henry2",
+      "name": "King Henry II of France (1547–1559)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1547–1559 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Henry II of France (1547–1559) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_charles9",
+      "name": "King Charles IX (1560–1574)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1560–1574 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Charles IX (1560–1574) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_henry3",
+      "name": "King Henry III of France (1574–1589)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1574–1589 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Henry III of France (1574–1589) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_henry4",
+      "name": "King Henry IV of Navarre (1st Bourbon, 1589–1610)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1589–1610 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Henry IV of Navarre (1st Bourbon, 1589–1610) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_louis13",
+      "name": "King Louis XIII (1610–1643)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1610–1643 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Louis XIII (1610–1643) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_louis14",
+      "name": "King Louis XIV the Sun King (1643–1715)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1643–1715 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Louis XIV the Sun King (1643–1715) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_louis15",
+      "name": "King Louis XV (1715–1774)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1715–1774 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Louis XV (1715–1774) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_louis16",
+      "name": "King Louis XVI (1774–1792)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1774–1792 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "King Louis XVI (1774–1792) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_fra_napoleon",
+      "name": "Emperor Napoleon I Bonaparte (1804–1815)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1804–1815 CE",
+      "role": "Emperor of the French",
+      "sources": [
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "Emperor Napoleon I Bonaparte (1804–1815) (Modern Universal History Vol. 9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_reccared1",
+      "name": "King Reccared I of the Visigoths (586–601 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "586–601 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana General History of Spain 1699"
+      ],
+      "notes": "King Reccared I of the Visigoths (586–601 CE) (Mariana General History of Spain 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_roderick",
+      "name": "King Roderick of Toledo (d. 711 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "710–711 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana General History of Spain 1699"
+      ],
+      "notes": "King Roderick of Toledo (d. 711 CE) (Mariana General History of Spain 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_pelayo",
+      "name": "King Don Pelayo of Asturias (718–737 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "718–737 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "King Don Pelayo of Asturias (718–737 CE) (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_alfonso3",
+      "name": "King Alfonso III the Great of Asturias (866–910)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "866–910 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "King Alfonso III the Great of Asturias (866–910) (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_alfonso6",
+      "name": "King Alfonso VI of Castile & Leon (1065–1109)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1065–1109 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "King Alfonso VI of Castile & Leon (1065–1109) (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_el_cid",
+      "name": "Rodrigo Díaz de Vivar ('El Cid Campeador', d. 1099)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1043–1099 CE",
+      "role": "Castilian Noble",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "Rodrigo Díaz de Vivar ('El Cid Campeador', d. 1099) (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_alfonso8",
+      "name": "King Alfonso VIII of Castile (Las Navas de Tolosa)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1158–1214 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "King Alfonso VIII of Castile (Las Navas de Tolosa) (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_ferdinand3",
+      "name": "King St. Ferdinand III of Castile & Leon (1217–1252)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1217–1252 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "King St. Ferdinand III of Castile & Leon (1217–1252) (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_alfonso10",
+      "name": "King Alfonso X the Wise of Castile (1252–1284)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1252–1284 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "King Alfonso X the Wise of Castile (1252–1284) (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_isabella_ferdinand",
+      "name": "Queen Isabella I of Castile & King Ferdinand II of Aragon",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1474–1516 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "Queen Isabella I of Castile & King Ferdinand II of Aragon (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_charles5",
+      "name": "Emperor Charles V / Charles I of Spain (1516–1556)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1516–1556 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "Emperor Charles V / Charles I of Spain (1516–1556) (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_philip2",
+      "name": "King Philip II of Spain & Portugal (1556–1598)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1556–1598 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "King Philip II of Spain & Portugal (1556–1598) (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_philip3",
+      "name": "King Philip III of Spain (1598–1621)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1598–1621 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "King Philip III of Spain (1598–1621) (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_philip4",
+      "name": "King Philip IV of Spain (1621–1665)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1621–1665 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "King Philip IV of Spain (1621–1665) (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_esp_philip5",
+      "name": "King Philip V of Spain (1st Bourbon of Spain, 1700)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1700–1746 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Mariana 1699"
+      ],
+      "notes": "King Philip V of Spain (1st Bourbon of Spain, 1700) (Mariana 1699).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_afonso1",
+      "name": "King Afonso I Henriques (1139–1185)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1139–1185 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Sandford 1662",
+        "History of Portugal 1661"
+      ],
+      "notes": "King Afonso I Henriques (1139–1185) (Sandford 1662, History of Portugal 1661).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_sancho1",
+      "name": "King Sancho I the Populator (1185–1211)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1185–1211 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Sandford 1662",
+        "History of Portugal 1661"
+      ],
+      "notes": "King Sancho I the Populator (1185–1211) (Sandford 1662, History of Portugal 1661).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_dinis",
+      "name": "King Dinis the Farmer-Poet (1279–1325)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1279–1325 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Sandford 1662",
+        "History of Portugal 1661"
+      ],
+      "notes": "King Dinis the Farmer-Poet (1279–1325) (Sandford 1662, History of Portugal 1661).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_john1",
+      "name": "King John I of Aviz (1385–1433)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1385–1433 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "History of Portugal 1661 & 1726",
+        "Portuguese Asia"
+      ],
+      "notes": "King John I of Aviz (1385–1433) (History of Portugal 1661 & 1726, Portuguese Asia).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_henry_nav",
+      "name": "Infante Prince Henry the Navigator (1394–1460)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1394–1460 CE",
+      "role": "Portuguese Prince",
+      "sources": [
+        "History of Portugal 1661 & 1726",
+        "Portuguese Asia"
+      ],
+      "notes": "Infante Prince Henry the Navigator (1394–1460) (History of Portugal 1661 & 1726, Portuguese Asia).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_afonso5",
+      "name": "King Afonso V the African (1438–1481)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1438–1481 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "History of Portugal 1661 & 1726",
+        "Portuguese Asia"
+      ],
+      "notes": "King Afonso V the African (1438–1481) (History of Portugal 1661 & 1726, Portuguese Asia).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_john2",
+      "name": "King John II the Perfect Prince (1481–1495)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1481–1495 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "History of Portugal 1661 & 1726",
+        "Portuguese Asia"
+      ],
+      "notes": "King John II the Perfect Prince (1481–1495) (History of Portugal 1661 & 1726, Portuguese Asia).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_manuel1",
+      "name": "King Manuel I the Fortunate (1495–1521)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1495–1521 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "History of Portugal 1661 & 1726",
+        "Portuguese Asia"
+      ],
+      "notes": "King Manuel I the Fortunate (1495–1521) (History of Portugal 1661 & 1726, Portuguese Asia).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_john3",
+      "name": "King John III of Portugal (1521–1557)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1521–1557 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "History of Portugal 1661 & 1726",
+        "Portuguese Asia"
+      ],
+      "notes": "King John III of Portugal (1521–1557) (History of Portugal 1661 & 1726, Portuguese Asia).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_sebastian",
+      "name": "King Sebastian I of Portugal (1557–1578)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1557–1578 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "History of Portugal 1661 & 1726",
+        "Portuguese Asia"
+      ],
+      "notes": "King Sebastian I of Portugal (1557–1578) (History of Portugal 1661 & 1726, Portuguese Asia).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_john4",
+      "name": "King John IV the Restorer (1640–1656)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1640–1656 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "History of Portugal 1726"
+      ],
+      "notes": "King John IV the Restorer (1640–1656) (History of Portugal 1726).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_peter2",
+      "name": "King Peter II of Portugal (1683–1706)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1683–1706 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "History of Portugal 1726"
+      ],
+      "notes": "King Peter II of Portugal (1683–1706) (History of Portugal 1726).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_por_john5",
+      "name": "King John V the Magnanimous (1706–1750)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1706–1750 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "History of Portugal 1726"
+      ],
+      "notes": "King John V the Magnanimous (1706–1750) (History of Portugal 1726).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_hre_otto1",
+      "name": "Emperor Otto I the Great (962–973 CE, HRE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "936–973 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vols. 10-11",
+        "Mascou 1737"
+      ],
+      "notes": "Emperor Otto I the Great (962–973 CE, HRE) (Modern Universal History Vols. 10-11, Mascou 1737).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_hre_henry4",
+      "name": "Emperor Henry IV (1056–1105 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1056–1105 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vols. 10-11",
+        "Mascou 1737"
+      ],
+      "notes": "Emperor Henry IV (1056–1105 CE) (Modern Universal History Vols. 10-11, Mascou 1737).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_hre_barbarossa",
+      "name": "Emperor Frederick I Barbarossa (1155–1190 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1152–1190 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vols. 10-11",
+        "Mascou 1737"
+      ],
+      "notes": "Emperor Frederick I Barbarossa (1155–1190 CE) (Modern Universal History Vols. 10-11, Mascou 1737).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_hre_frederick2",
+      "name": "Emperor Frederick II Hohenstaufen (1220–1250 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1212–1250 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vols. 10-11",
+        "Mascou 1737"
+      ],
+      "notes": "Emperor Frederick II Hohenstaufen (1220–1250 CE) (Modern Universal History Vols. 10-11, Mascou 1737).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_hre_rudolf1",
+      "name": "King Rudolf I of Habsburg (1273–1291 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1273–1291 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vols. 10-11",
+        "Mascou 1737"
+      ],
+      "notes": "King Rudolf I of Habsburg (1273–1291 CE) (Modern Universal History Vols. 10-11, Mascou 1737).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_hre_maximilian1",
+      "name": "Emperor Maximilian I of Habsburg (1493–1519)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1493–1519 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vols. 10-11",
+        "Mascou 1737"
+      ],
+      "notes": "Emperor Maximilian I of Habsburg (1493–1519) (Modern Universal History Vols. 10-11, Mascou 1737).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_hre_leopold1",
+      "name": "Emperor Leopold I of Habsburg (1658–1705)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1658–1705 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vols. 10-11",
+        "Mascou 1737"
+      ],
+      "notes": "Emperor Leopold I of Habsburg (1658–1705) (Modern Universal History Vols. 10-11, Mascou 1737).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_hre_maria_theresa",
+      "name": "Empress Maria Theresa of Austria (1740–1780)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1740–1780 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vols. 10-11",
+        "Mascou 1737"
+      ],
+      "notes": "Empress Maria Theresa of Austria (1740–1780) (Modern Universal History Vols. 10-11, Mascou 1737).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_hre_frederick_great",
+      "name": "King Frederick II the Great of Prussia (1740–1786)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1740–1786 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vols. 10-11",
+        "Mascou 1737"
+      ],
+      "notes": "King Frederick II the Great of Prussia (1740–1786) (Modern Universal History Vols. 10-11, Mascou 1737).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rus_nevsky",
+      "name": "Grand Prince St. Alexander Nevsky (1221–1263 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1221–1263 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Grand Prince St. Alexander Nevsky (1221–1263 CE) (Modern Universal History Vol. 13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rus_kalita",
+      "name": "Grand Prince Ivan I Kalita of Moscow (1325–1340)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1325–1340 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Grand Prince Ivan I Kalita of Moscow (1325–1340) (Modern Universal History Vol. 13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rus_donskoy",
+      "name": "Grand Prince Dmitry Donskoy (Kulikovo, 1380 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1359–1389 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Grand Prince Dmitry Donskoy (Kulikovo, 1380 CE) (Modern Universal History Vol. 13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rus_ivan3",
+      "name": "Grand Prince Ivan III the Great (1462–1505)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1462–1505 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Grand Prince Ivan III the Great (1462–1505) (Modern Universal History Vol. 13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rus_vasili3",
+      "name": "Grand Prince Vasili III of Moscow (1505–1533)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1505–1533 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Grand Prince Vasili III of Moscow (1505–1533) (Modern Universal History Vol. 13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rus_ivan4",
+      "name": "Tsar Ivan IV the Terrible (1st Tsar of All Russia, 1547)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1533–1584 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Tsar Ivan IV the Terrible (1st Tsar of All Russia, 1547) (Modern Universal History Vol. 13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rus_boris_godunov",
+      "name": "Tsar Boris Godunov (1598–1605)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1598–1605 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Tsar Boris Godunov (1598–1605) (Modern Universal History Vol. 13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rus_michael1",
+      "name": "Tsar Michael I Romanov (1613–1645)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1613–1645 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Tsar Michael I Romanov (1613–1645) (Modern Universal History Vol. 13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rus_alexis1",
+      "name": "Tsar Alexis I Mikhailovich (1645–1676)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1645–1676 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Tsar Alexis I Mikhailovich (1645–1676) (Modern Universal History Vol. 13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rus_peter1",
+      "name": "Emperor Peter I the Great (1682–1725)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1682–1725 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Emperor Peter I the Great (1682–1725) (Modern Universal History Vol. 13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rus_elizabeth",
+      "name": "Empress Elizabeth Petrovna of Russia (1741–1762)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1741–1762 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Empress Elizabeth Petrovna of Russia (1741–1762) (Modern Universal History Vol. 13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_rus_catherine2",
+      "name": "Empress Catherine II the Great (1762–1796)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1762–1796 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Empress Catherine II the Great (1762–1796) (Modern Universal History Vol. 13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_osman1",
+      "name": "Sultan Osman I (Founder of Ottoman Empire, 1299–1324)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "1299–1324 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut The Turkish History Vols. 1-3"
+      ],
+      "notes": "Sultan Osman I (Founder of Ottoman Empire, 1299–1324) (Knolles & Rycaut The Turkish History Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_orhan",
+      "name": "Sultan Orhan Ghazi (1324–1362)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "1324–1362 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut The Turkish History Vols. 1-3"
+      ],
+      "notes": "Sultan Orhan Ghazi (1324–1362) (Knolles & Rycaut The Turkish History Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_murad1",
+      "name": "Sultan Murad I (1362–1389)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "1362–1389 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut The Turkish History Vols. 1-3"
+      ],
+      "notes": "Sultan Murad I (1362–1389) (Knolles & Rycaut The Turkish History Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_bayezid1",
+      "name": "Sultan Bayezid I Yildirim (1389–1402)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "1389–1402 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut The Turkish History Vols. 1-3"
+      ],
+      "notes": "Sultan Bayezid I Yildirim (1389–1402) (Knolles & Rycaut The Turkish History Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_mehmed1",
+      "name": "Sultan Mehmed I Celebi (1413–1421)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "1413–1421 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut The Turkish History Vols. 1-3"
+      ],
+      "notes": "Sultan Mehmed I Celebi (1413–1421) (Knolles & Rycaut The Turkish History Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_murad2",
+      "name": "Sultan Murad II (1421–1451)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "1421–1451 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut The Turkish History Vols. 1-3"
+      ],
+      "notes": "Sultan Murad II (1421–1451) (Knolles & Rycaut The Turkish History Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_mehmed2",
+      "name": "Sultan Mehmed II Fatih (1451–1481)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1451–1481 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut Vols. 1-3"
+      ],
+      "notes": "Sultan Mehmed II Fatih (1451–1481) (Knolles & Rycaut Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_bayezid2",
+      "name": "Sultan Bayezid II (1481–1512)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1481–1512 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut Vols. 1-3"
+      ],
+      "notes": "Sultan Bayezid II (1481–1512) (Knolles & Rycaut Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_selim1",
+      "name": "Sultan Selim I Yavuz (1512–1520)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1512–1520 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut Vols. 1-3"
+      ],
+      "notes": "Sultan Selim I Yavuz (1512–1520) (Knolles & Rycaut Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_suleiman1",
+      "name": "Sultan Suleiman I the Magnificent (1520–1566)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1520–1566 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut Vols. 1-3"
+      ],
+      "notes": "Sultan Suleiman I the Magnificent (1520–1566) (Knolles & Rycaut Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_selim2",
+      "name": "Sultan Selim II (1566–1574)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1566–1574 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut Vols. 1-3"
+      ],
+      "notes": "Sultan Selim II (1566–1574) (Knolles & Rycaut Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_murad3",
+      "name": "Sultan Murad III (1574–1595)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1574–1595 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut Vols. 1-3"
+      ],
+      "notes": "Sultan Murad III (1574–1595) (Knolles & Rycaut Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_ahmed1",
+      "name": "Sultan Ahmed I (Blue Mosque, 1603–1617)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1603–1617 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut Vols. 1-3"
+      ],
+      "notes": "Sultan Ahmed I (Blue Mosque, 1603–1617) (Knolles & Rycaut Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_murad4",
+      "name": "Sultan Murad IV (1623–1640)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1623–1640 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut Vols. 1-3"
+      ],
+      "notes": "Sultan Murad IV (1623–1640) (Knolles & Rycaut Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_mehmed4",
+      "name": "Sultan Mehmed IV (1648–1687)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1648–1687 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut Vols. 1-3"
+      ],
+      "notes": "Sultan Mehmed IV (1648–1687) (Knolles & Rycaut Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ott_mahmud2",
+      "name": "Sultan Mahmud II (1808–1839)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1808–1839 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Knolles & Rycaut Vols. 1-3"
+      ],
+      "notes": "Sultan Mahmud II (1808–1839) (Knolles & Rycaut Vols. 1-3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_abubakr",
+      "name": "Caliph Abu Bakr al-Siddiq (1st Rashidun Caliph, 632–634)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "632–634 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Caliph Abu Bakr al-Siddiq (1st Rashidun Caliph, 632–634) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_umar",
+      "name": "Caliph Umar ibn al-Khattab (634–644 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "634–644 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Caliph Umar ibn al-Khattab (634–644 CE) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_uthman",
+      "name": "Caliph Uthman ibn Affan (644–656 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "644–656 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Caliph Uthman ibn Affan (644–656 CE) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_ali",
+      "name": "Caliph Ali ibn Abi Talib (656–661 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "656–661 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Caliph Ali ibn Abi Talib (656–661 CE) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_muawiya1",
+      "name": "Caliph Mu'awiya I (Umayyad Founder, 661–680)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "661–680 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Caliph Mu'awiya I (Umayyad Founder, 661–680) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_abd_al_malik",
+      "name": "Caliph Abd al-Malik (Dome of the Rock, 685–705)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "685–705 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Caliph Abd al-Malik (Dome of the Rock, 685–705) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_al_mansur",
+      "name": "Caliph Al-Mansur (Founder of Baghdad, 754–775)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "754–775 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Caliph Al-Mansur (Founder of Baghdad, 754–775) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_harun_rashid",
+      "name": "Caliph Harun al-Rashid (House of Wisdom, 786–809)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "786–809 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Caliph Harun al-Rashid (House of Wisdom, 786–809) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_al_mamun",
+      "name": "Caliph Al-Ma'mun (813–833 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "813–833 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Caliph Al-Ma'mun (813–833 CE) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_abdarrahman1",
+      "name": "Emir Abd al-Rahman I of Cordoba (756–788)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "756–788 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Emir Abd al-Rahman I of Cordoba (756–788) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_abdarrahman3",
+      "name": "Caliph Abd al-Rahman III of Cordoba (912–961)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "912–961 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Caliph Abd al-Rahman III of Cordoba (912–961) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_saladin",
+      "name": "Sultan Saladin (Salah ad-Din al-Ayyubi, 1174–1193)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1174–1193 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Sultan Saladin (Salah ad-Din al-Ayyubi, 1174–1193) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_baybars",
+      "name": "Mamluk Sultan Baybars I (1260–1277)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1260–1277 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Mamluk Sultan Baybars I (1260–1277) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_isl_mahmud_ghazni",
+      "name": "Sultan Mahmud of Ghazni (998–1030)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "998–1030 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Al-Tabari",
+        "Modern Universal History Vols. 1-2",
+        "Ibn 'Abd al-Hakam"
+      ],
+      "notes": "Sultan Mahmud of Ghazni (998–1030) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ir_shah_ismail1",
+      "name": "Shah Ismail I (Founder of Safavid Persia, 1501–1524)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 21,
+      "era": "1501–1524 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Persian Chronicles",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Shah Ismail I (Founder of Safavid Persia, 1501–1524) (Persian Chronicles, Modern Universal History Vol. 4).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ir_tahmasp1",
+      "name": "Shah Tahmasp I (1524–1576)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 21,
+      "era": "1524–1576 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Persian Chronicles",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Shah Tahmasp I (1524–1576) (Persian Chronicles, Modern Universal History Vol. 4).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ir_abbas1",
+      "name": "Shah Abbas I the Great (Isfahan, 1588–1629)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 21,
+      "era": "1588–1629 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Persian Chronicles",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Shah Abbas I the Great (Isfahan, 1588–1629) (Persian Chronicles, Modern Universal History Vol. 4).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ir_nader_shah",
+      "name": "Nader Shah Afshar (1736–1747)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 21,
+      "era": "1736–1747 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Persian Chronicles",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Nader Shah Afshar (1736–1747) (Persian Chronicles, Modern Universal History Vol. 4).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ir_karim_khan",
+      "name": "Karim Khan Zand (1751–1779)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 21,
+      "era": "1751–1779 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Persian Chronicles",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Karim Khan Zand (1751–1779) (Persian Chronicles, Modern Universal History Vol. 4).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ir_agha_mohammad",
+      "name": "Agha Mohammad Khan Qajar (Founder of Qajar Iran, 1789)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 21,
+      "era": "1789–1797 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Persian Chronicles",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Agha Mohammad Khan Qajar (Founder of Qajar Iran, 1789) (Persian Chronicles, Modern Universal History Vol. 4).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_mug_babur_ind",
+      "name": "Emperor Babur (1526–1530, Panipat)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1526–1530 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 3",
+        "Abulghazi"
+      ],
+      "notes": "Emperor Babur (1526–1530, Panipat) (Modern Universal History Vol. 3, Abulghazi).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_mug_humayun_ind",
+      "name": "Emperor Humayun (1530–1556)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1530–1556 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 3",
+        "Abulghazi"
+      ],
+      "notes": "Emperor Humayun (1530–1556) (Modern Universal History Vol. 3, Abulghazi).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_mug_akbar_ind",
+      "name": "Emperor Akbar the Great (1556–1605)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1556–1605 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 3",
+        "Abulghazi"
+      ],
+      "notes": "Emperor Akbar the Great (1556–1605) (Modern Universal History Vol. 3, Abulghazi).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_mug_jahangir_ind",
+      "name": "Emperor Jahangir (1605–1627)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1605–1627 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 3",
+        "Abulghazi"
+      ],
+      "notes": "Emperor Jahangir (1605–1627) (Modern Universal History Vol. 3, Abulghazi).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_mug_shahjahan_ind",
+      "name": "Emperor Shah Jahan (Taj Mahal, 1628–1658)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1628–1658 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 3",
+        "Abulghazi"
+      ],
+      "notes": "Emperor Shah Jahan (Taj Mahal, 1628–1658) (Modern Universal History Vol. 3, Abulghazi).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_mug_aurangzeb_ind",
+      "name": "Emperor Aurangzeb Alamgir (1658–1707)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1658–1707 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Modern Universal History Vol. 3",
+        "Abulghazi"
+      ],
+      "notes": "Emperor Aurangzeb Alamgir (1658–1707) (Modern Universal History Vol. 3, Abulghazi).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ind_harsha",
+      "name": "Emperor Harshavardhana of Kannauj (606–647 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "606–647 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Indian Royal Chronicles",
+        "Modern Universal History Vol. 3"
+      ],
+      "notes": "Emperor Harshavardhana of Kannauj (606–647 CE) (Indian Royal Chronicles, Modern Universal History Vol. 3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ind_rajaraja1",
+      "name": "Rajaraja Chola I (Thanjavur Brihadisvara, 985–1014)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "985–1014 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Indian Royal Chronicles",
+        "Modern Universal History Vol. 3"
+      ],
+      "notes": "Rajaraja Chola I (Thanjavur Brihadisvara, 985–1014) (Indian Royal Chronicles, Modern Universal History Vol. 3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ind_rajendra1",
+      "name": "Rajendra Chola I (1014–1044)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "1014–1044 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Indian Royal Chronicles",
+        "Modern Universal History Vol. 3"
+      ],
+      "notes": "Rajendra Chola I (1014–1044) (Indian Royal Chronicles, Modern Universal History Vol. 3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ind_krishnadevaraya",
+      "name": "Emperor Krishnadevaraya of Vijayanagara (1509–1529)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1509–1529 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Indian Royal Chronicles",
+        "Modern Universal History Vol. 3"
+      ],
+      "notes": "Emperor Krishnadevaraya of Vijayanagara (1509–1529) (Indian Royal Chronicles, Modern Universal History Vol. 3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ind_shivaji",
+      "name": "Chhatrapati Shivaji Bhonsle (Founder of Maratha Empire, 1674)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1630–1680 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Indian Royal Chronicles",
+        "Modern Universal History Vol. 3"
+      ],
+      "notes": "Chhatrapati Shivaji Bhonsle (Founder of Maratha Empire, 1674) (Indian Royal Chronicles, Modern Universal History Vol. 3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_ind_ranjit_singh",
+      "name": "Maharaja Ranjit Singh (Founder of Sikh Empire, 1799–1839)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1780–1839 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Indian Royal Chronicles",
+        "Modern Universal History Vol. 3"
+      ],
+      "notes": "Maharaja Ranjit Singh (Founder of Sikh Empire, 1799–1839) (Indian Royal Chronicles, Modern Universal History Vol. 3).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eth_ezana",
+      "name": "Emperor Ezana of Aksum (Christianized Aksum, 4th c.)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "320s–360 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Hiob Ludolf 1684",
+        "Kebra Nagast"
+      ],
+      "notes": "Emperor Ezana of Aksum (Christianized Aksum, 4th c.) (Hiob Ludolf 1684, Kebra Nagast).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eth_kaleb",
+      "name": "Emperor Kaleb / Elesbaan of Aksum (c. 520 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "c. 520 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Hiob Ludolf 1684",
+        "Kebra Nagast"
+      ],
+      "notes": "Emperor Kaleb / Elesbaan of Aksum (c. 520 CE) (Hiob Ludolf 1684, Kebra Nagast).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eth_lalibela",
+      "name": "King Gebre Mesqel Lalibela (Rock Churches, 12th c.)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "c. 1181–1221 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Hiob Ludolf 1684",
+        "Kebra Nagast"
+      ],
+      "notes": "King Gebre Mesqel Lalibela (Rock Churches, 12th c.) (Hiob Ludolf 1684, Kebra Nagast).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eth_yekuno_amlak",
+      "name": "Emperor Yekuno Amlak (Solomonic Restoration, 1270)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1270–1285 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Hiob Ludolf 1684",
+        "Kebra Nagast"
+      ],
+      "notes": "Emperor Yekuno Amlak (Solomonic Restoration, 1270) (Hiob Ludolf 1684, Kebra Nagast).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eth_zara_yaqob",
+      "name": "Emperor Zara Yaqob (1434–1468)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1434–1468 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Hiob Ludolf 1684",
+        "Kebra Nagast"
+      ],
+      "notes": "Emperor Zara Yaqob (1434–1468) (Hiob Ludolf 1684, Kebra Nagast).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eth_lebna_dengel",
+      "name": "Emperor Lebna Dengel (1508–1540)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1508–1540 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Hiob Ludolf 1684",
+        "Kebra Nagast"
+      ],
+      "notes": "Emperor Lebna Dengel (1508–1540) (Hiob Ludolf 1684, Kebra Nagast).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eth_galawdewos",
+      "name": "Emperor Galawdewos (1540–1559)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1540–1559 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Hiob Ludolf 1684",
+        "Kebra Nagast"
+      ],
+      "notes": "Emperor Galawdewos (1540–1559) (Hiob Ludolf 1684, Kebra Nagast).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eth_susenyos",
+      "name": "Emperor Susenyos I (1607–1632)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1607–1632 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Hiob Ludolf 1684",
+        "Kebra Nagast"
+      ],
+      "notes": "Emperor Susenyos I (1607–1632) (Hiob Ludolf 1684, Kebra Nagast).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eth_fasilides",
+      "name": "Emperor Fasilides (Founder of Gondar, 1632–1667)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1632–1667 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Hiob Ludolf 1684",
+        "Kebra Nagast"
+      ],
+      "notes": "Emperor Fasilides (Founder of Gondar, 1632–1667) (Hiob Ludolf 1684, Kebra Nagast).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eth_tewodros2",
+      "name": "Emperor Tewodros II (1855–1868)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1855–1868 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Hiob Ludolf 1684",
+        "Kebra Nagast"
+      ],
+      "notes": "Emperor Tewodros II (1855–1868) (Hiob Ludolf 1684, Kebra Nagast).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_eth_menelik2",
+      "name": "Emperor Menelik II (Battle of Adwa, 1896)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1889–1913 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Hiob Ludolf 1684",
+        "Kebra Nagast"
+      ],
+      "notes": "Emperor Menelik II (Battle of Adwa, 1896) (Hiob Ludolf 1684, Kebra Nagast).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_afr_mansa_musa",
+      "name": "Mansa Musa I of Mali (Pilgrimage 1324 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1312–1337 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Tarikh es-Soudan"
+      ],
+      "notes": "Mansa Musa I of Mali (Pilgrimage 1324 CE) (Tarikh es-Soudan).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_afr_sonni_ali",
+      "name": "Emperor Sonni Ali of Songhai (1464–1492)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1464–1492 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Tarikh es-Soudan"
+      ],
+      "notes": "Emperor Sonni Ali of Songhai (1464–1492) (Tarikh es-Soudan).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mon_afr_askia_mohammed",
+      "name": "Emperor Askia Mohammed I the Great (1493–1528)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1493–1528 CE",
+      "role": "Sovereign / Monarch",
+      "sources": [
+        "Tarikh es-Soudan"
+      ],
+      "notes": "Emperor Askia Mohammed I the Great (1493–1528) (Tarikh es-Soudan).",
+      "major": false,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "grk_julius_augustus",
+      "to": "mon_rom_brutus_founder",
+      "type": "expansion",
+      "label": "Livy, Plutarch Lives, Echard Roman History: succession"
+    },
+    {
+      "from": "mon_rom_brutus_founder",
+      "to": "mon_rom_cincinnatus",
+      "type": "expansion",
+      "label": "Livy, Plutarch Lives, Echard Roman History: succession"
+    },
+    {
+      "from": "mon_rom_cincinnatus",
+      "to": "mon_rom_scipio_africanus",
+      "type": "expansion",
+      "label": "Livy, Plutarch Lives, Echard Roman History: succession"
+    },
+    {
+      "from": "mon_rom_scipio_africanus",
+      "to": "mon_rom_cato_elder",
+      "type": "expansion",
+      "label": "Livy, Plutarch Lives, Echard Roman History: succession"
+    },
+    {
+      "from": "mon_rom_cato_elder",
+      "to": "mon_rom_gracchi",
+      "type": "expansion",
+      "label": "Livy, Plutarch Lives, Echard Roman History: succession"
+    },
+    {
+      "from": "mon_rom_gracchi",
+      "to": "mon_rom_marius_sulla",
+      "type": "expansion",
+      "label": "Livy, Plutarch Lives, Echard Roman History: succession"
+    },
+    {
+      "from": "mon_rom_marius_sulla",
+      "to": "mon_rom_pompey_cicero",
+      "type": "expansion",
+      "label": "Livy, Plutarch Lives, Echard Roman History: succession"
+    },
+    {
+      "from": "mon_rom_pompey_cicero",
+      "to": "mon_rom_mark_antony",
+      "type": "expansion",
+      "label": "Livy, Plutarch Lives, Echard Roman History: succession"
+    },
+    {
+      "from": "rom_julio_claudians",
+      "to": "mon_rom_tiberius",
+      "type": "direct",
+      "label": "Suetonius Twelve Caesars, Tacitus Annals: succession"
+    },
+    {
+      "from": "mon_rom_tiberius",
+      "to": "mon_rom_caligula",
+      "type": "direct",
+      "label": "Suetonius Twelve Caesars, Tacitus Annals: succession"
+    },
+    {
+      "from": "mon_rom_caligula",
+      "to": "mon_rom_claudius",
+      "type": "direct",
+      "label": "Suetonius Twelve Caesars, Tacitus Annals: succession"
+    },
+    {
+      "from": "mon_rom_claudius",
+      "to": "mon_rom_nero",
+      "type": "direct",
+      "label": "Suetonius Twelve Caesars, Tacitus Annals: succession"
+    },
+    {
+      "from": "rom_echard_imperial_bridge",
+      "to": "mon_rom_vespasian",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_vespasian",
+      "to": "mon_rom_titus",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_titus",
+      "to": "mon_rom_domitian",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_domitian",
+      "to": "mon_rom_nerva",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_nerva",
+      "to": "mon_rom_trajan",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_trajan",
+      "to": "mon_rom_hadrian",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_hadrian",
+      "to": "mon_rom_antoninus_pius",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_antoninus_pius",
+      "to": "mon_rom_marcus_aurelius",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_marcus_aurelius",
+      "to": "mon_rom_commodus",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_commodus",
+      "to": "mon_rom_septimius_severus",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_septimius_severus",
+      "to": "mon_rom_caracalla",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_caracalla",
+      "to": "mon_rom_elagabalus",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_elagabalus",
+      "to": "mon_rom_severus_alexander",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_severus_alexander",
+      "to": "mon_rom_aurelian",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "mon_rom_aurelian",
+      "to": "mon_rom_diocletian",
+      "type": "expansion",
+      "label": "Echard Roman History, Herodian, Pliny, Suetonius: succession"
+    },
+    {
+      "from": "rom_constantine_byzantium",
+      "to": "mon_rom_constantine1",
+      "type": "expansion",
+      "label": "Echard Roman History Vol. 4-5, Ammianus Marcellinus: succession"
+    },
+    {
+      "from": "mon_rom_constantine1",
+      "to": "mon_rom_julian",
+      "type": "expansion",
+      "label": "Echard Roman History Vol. 4-5, Ammianus Marcellinus: succession"
+    },
+    {
+      "from": "mon_rom_julian",
+      "to": "mon_rom_theodosius1",
+      "type": "expansion",
+      "label": "Echard Roman History Vol. 4-5, Ammianus Marcellinus: succession"
+    },
+    {
+      "from": "mon_rom_theodosius1",
+      "to": "mon_rom_justinian1",
+      "type": "expansion",
+      "label": "Echard Roman History Vol. 4-5, Ammianus Marcellinus: succession"
+    },
+    {
+      "from": "mon_rom_justinian1",
+      "to": "mon_rom_heraclius",
+      "type": "expansion",
+      "label": "Echard Roman History Vol. 4-5, Ammianus Marcellinus: succession"
+    },
+    {
+      "from": "mon_rom_heraclius",
+      "to": "mon_rom_leo3",
+      "type": "expansion",
+      "label": "Echard Roman History Vol. 4-5, Ammianus Marcellinus: succession"
+    },
+    {
+      "from": "mon_rom_leo3",
+      "to": "mon_rom_basil1",
+      "type": "expansion",
+      "label": "Echard Roman History Vol. 4-5, Ammianus Marcellinus: succession"
+    },
+    {
+      "from": "mon_rom_basil1",
+      "to": "mon_rom_basil2",
+      "type": "expansion",
+      "label": "Echard Roman History Vol. 4-5, Ammianus Marcellinus: succession"
+    },
+    {
+      "from": "mon_rom_basil2",
+      "to": "mon_rom_alexios1",
+      "type": "expansion",
+      "label": "Echard Roman History Vol. 4-5, Ammianus Marcellinus: succession"
+    },
+    {
+      "from": "mon_rom_alexios1",
+      "to": "mon_rom_michael8",
+      "type": "expansion",
+      "label": "Echard Roman History Vol. 4-5, Ammianus Marcellinus: succession"
+    },
+    {
+      "from": "mon_rom_michael8",
+      "to": "mon_rom_constantine11",
+      "type": "expansion",
+      "label": "Echard Roman History Vol. 4-5, Ammianus Marcellinus: succession"
+    },
+    {
+      "from": "eur_wessex_alfred_norman",
+      "to": "mon_eng_egbert",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_egbert",
+      "to": "mon_eng_ethewulf",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_ethewulf",
+      "to": "mon_eng_alfred",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_alfred",
+      "to": "mon_eng_edward_elder",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_edward_elder",
+      "to": "mon_eng_athelstan",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_athelstan",
+      "to": "mon_eng_edgar",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_edgar",
+      "to": "mon_eng_ethelred2",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_ethelred2",
+      "to": "mon_eng_canute",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_canute",
+      "to": "mon_eng_edward_confessor",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_edward_confessor",
+      "to": "mon_eng_harold2",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_harold2",
+      "to": "mon_eng_william1",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_william1",
+      "to": "mon_eng_william2",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_william2",
+      "to": "mon_eng_henry1",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "mon_eng_henry1",
+      "to": "mon_eng_stephen",
+      "type": "direct",
+      "label": "William Howell 1685, Strutt 1779: succession"
+    },
+    {
+      "from": "eng_plantagenet_kings",
+      "to": "mon_eng_henry2",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_henry2",
+      "to": "mon_eng_richard1",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_richard1",
+      "to": "mon_eng_john",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_john",
+      "to": "mon_eng_henry3",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_henry3",
+      "to": "mon_eng_edward1",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_edward1",
+      "to": "mon_eng_edward2",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_edward2",
+      "to": "mon_eng_edward3",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_edward3",
+      "to": "mon_eng_richard2",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_richard2",
+      "to": "mon_eng_henry4",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_henry4",
+      "to": "mon_eng_henry5",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_henry5",
+      "to": "mon_eng_henry6",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_henry6",
+      "to": "mon_eng_edward4",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_edward4",
+      "to": "mon_eng_richard3",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "eng_tudor_monarchs",
+      "to": "mon_eng_henry7",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_henry7",
+      "to": "mon_eng_henry8",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_henry8",
+      "to": "mon_eng_edward6",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_edward6",
+      "to": "mon_eng_mary1",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "mon_eng_mary1",
+      "to": "mon_eng_elizabeth1",
+      "type": "direct",
+      "label": "William Howell 1685: succession"
+    },
+    {
+      "from": "eng_stuart_great_britain",
+      "to": "mon_eng_james1",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "mon_eng_james1",
+      "to": "mon_eng_charles1",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "mon_eng_charles1",
+      "to": "mon_eng_charles2",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "mon_eng_charles2",
+      "to": "mon_eng_james2",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "mon_eng_james2",
+      "to": "mon_eng_william_mary",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "mon_eng_william_mary",
+      "to": "mon_eng_queen_anne",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "mon_eng_queen_anne",
+      "to": "mon_eng_george1",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "mon_eng_george1",
+      "to": "mon_eng_george2",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "mon_eng_george2",
+      "to": "mon_eng_george3",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "mon_eng_george3",
+      "to": "mon_eng_victoria",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "fra_mezeray_pharamond_clovis",
+      "to": "mon_fra_clovis1",
+      "type": "direct",
+      "label": "Mézeray History of France 1683: succession"
+    },
+    {
+      "from": "mon_fra_clovis1",
+      "to": "mon_fra_chlothar1",
+      "type": "direct",
+      "label": "Mézeray History of France 1683: succession"
+    },
+    {
+      "from": "mon_fra_chlothar1",
+      "to": "mon_fra_dagobert1",
+      "type": "direct",
+      "label": "Mézeray History of France 1683: succession"
+    },
+    {
+      "from": "eur_merovingian_carolingian",
+      "to": "mon_fra_charles_martel",
+      "type": "direct",
+      "label": "Mézeray 1683, Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_charles_martel",
+      "to": "mon_fra_pepin_short",
+      "type": "direct",
+      "label": "Mézeray 1683, Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_pepin_short",
+      "to": "mon_fra_charlemagne",
+      "type": "direct",
+      "label": "Mézeray 1683, Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_charlemagne",
+      "to": "mon_fra_louis_pious",
+      "type": "direct",
+      "label": "Mézeray 1683, Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_louis_pious",
+      "to": "mon_fra_charles_bald",
+      "type": "direct",
+      "label": "Mézeray 1683, Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "fra_capet_stlouis",
+      "to": "mon_fra_hugh_capet",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_hugh_capet",
+      "to": "mon_fra_robert2",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_robert2",
+      "to": "mon_fra_henry1",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_henry1",
+      "to": "mon_fra_philip1",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_philip1",
+      "to": "mon_fra_louis6",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_louis6",
+      "to": "mon_fra_louis7",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_louis7",
+      "to": "mon_fra_philip2",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_philip2",
+      "to": "mon_fra_louis8",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_louis8",
+      "to": "mon_fra_louis9",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_louis9",
+      "to": "mon_fra_philip4",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "fra_valois_bourbon",
+      "to": "mon_fra_philip6",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_philip6",
+      "to": "mon_fra_charles5",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_charles5",
+      "to": "mon_fra_charles6",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_charles6",
+      "to": "mon_fra_charles7_joan",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_charles7_joan",
+      "to": "mon_fra_louis11",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_louis11",
+      "to": "mon_fra_francis1",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_francis1",
+      "to": "mon_fra_henry2",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_henry2",
+      "to": "mon_fra_charles9",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_charles9",
+      "to": "mon_fra_henry3",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_henry3",
+      "to": "mon_fra_henry4",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_henry4",
+      "to": "mon_fra_louis13",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_louis13",
+      "to": "mon_fra_louis14",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_louis14",
+      "to": "mon_fra_louis15",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_louis15",
+      "to": "mon_fra_louis16",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "mon_fra_louis16",
+      "to": "mon_fra_napoleon",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9: succession"
+    },
+    {
+      "from": "esp_visigoths_reccared_roderick",
+      "to": "mon_esp_reccared1",
+      "type": "direct",
+      "label": "Mariana General History of Spain 1699: succession"
+    },
+    {
+      "from": "mon_esp_reccared1",
+      "to": "mon_esp_roderick",
+      "type": "direct",
+      "label": "Mariana General History of Spain 1699: succession"
+    },
+    {
+      "from": "esp_pelayo_castile_aragon",
+      "to": "mon_esp_pelayo",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "mon_esp_pelayo",
+      "to": "mon_esp_alfonso3",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "mon_esp_alfonso3",
+      "to": "mon_esp_alfonso6",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "mon_esp_alfonso6",
+      "to": "mon_esp_el_cid",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "mon_esp_el_cid",
+      "to": "mon_esp_alfonso8",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "mon_esp_alfonso8",
+      "to": "mon_esp_ferdinand3",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "mon_esp_ferdinand3",
+      "to": "mon_esp_alfonso10",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "esp_ferdinand_isabella_habsburg",
+      "to": "mon_esp_isabella_ferdinand",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "mon_esp_isabella_ferdinand",
+      "to": "mon_esp_charles5",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "mon_esp_charles5",
+      "to": "mon_esp_philip2",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "mon_esp_philip2",
+      "to": "mon_esp_philip3",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "mon_esp_philip3",
+      "to": "mon_esp_philip4",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "mon_esp_philip4",
+      "to": "mon_esp_philip5",
+      "type": "direct",
+      "label": "Mariana 1699: succession"
+    },
+    {
+      "from": "por_afonso_henriques",
+      "to": "mon_por_afonso1",
+      "type": "direct",
+      "label": "Sandford 1662, History of Portugal 1661: succession"
+    },
+    {
+      "from": "mon_por_afonso1",
+      "to": "mon_por_sancho1",
+      "type": "direct",
+      "label": "Sandford 1662, History of Portugal 1661: succession"
+    },
+    {
+      "from": "mon_por_sancho1",
+      "to": "mon_por_dinis",
+      "type": "direct",
+      "label": "Sandford 1662, History of Portugal 1661: succession"
+    },
+    {
+      "from": "por_aviz_discoveries",
+      "to": "mon_por_john1",
+      "type": "direct",
+      "label": "History of Portugal 1661 & 1726, Portuguese Asia: succession"
+    },
+    {
+      "from": "mon_por_john1",
+      "to": "mon_por_henry_nav",
+      "type": "direct",
+      "label": "History of Portugal 1661 & 1726, Portuguese Asia: succession"
+    },
+    {
+      "from": "mon_por_henry_nav",
+      "to": "mon_por_afonso5",
+      "type": "direct",
+      "label": "History of Portugal 1661 & 1726, Portuguese Asia: succession"
+    },
+    {
+      "from": "mon_por_afonso5",
+      "to": "mon_por_john2",
+      "type": "direct",
+      "label": "History of Portugal 1661 & 1726, Portuguese Asia: succession"
+    },
+    {
+      "from": "mon_por_john2",
+      "to": "mon_por_manuel1",
+      "type": "direct",
+      "label": "History of Portugal 1661 & 1726, Portuguese Asia: succession"
+    },
+    {
+      "from": "mon_por_manuel1",
+      "to": "mon_por_john3",
+      "type": "direct",
+      "label": "History of Portugal 1661 & 1726, Portuguese Asia: succession"
+    },
+    {
+      "from": "mon_por_john3",
+      "to": "mon_por_sebastian",
+      "type": "direct",
+      "label": "History of Portugal 1661 & 1726, Portuguese Asia: succession"
+    },
+    {
+      "from": "por_braganza_restoration",
+      "to": "mon_por_john4",
+      "type": "direct",
+      "label": "History of Portugal 1726: succession"
+    },
+    {
+      "from": "mon_por_john4",
+      "to": "mon_por_peter2",
+      "type": "direct",
+      "label": "History of Portugal 1726: succession"
+    },
+    {
+      "from": "mon_por_peter2",
+      "to": "mon_por_john5",
+      "type": "direct",
+      "label": "History of Portugal 1726: succession"
+    },
+    {
+      "from": "eur_merovingian_carolingian",
+      "to": "mon_hre_otto1",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 10-11, Mascou 1737: succession"
+    },
+    {
+      "from": "mon_hre_otto1",
+      "to": "mon_hre_henry4",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 10-11, Mascou 1737: succession"
+    },
+    {
+      "from": "mon_hre_henry4",
+      "to": "mon_hre_barbarossa",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 10-11, Mascou 1737: succession"
+    },
+    {
+      "from": "mon_hre_barbarossa",
+      "to": "mon_hre_frederick2",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 10-11, Mascou 1737: succession"
+    },
+    {
+      "from": "mon_hre_frederick2",
+      "to": "mon_hre_rudolf1",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 10-11, Mascou 1737: succession"
+    },
+    {
+      "from": "mon_hre_rudolf1",
+      "to": "mon_hre_maximilian1",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 10-11, Mascou 1737: succession"
+    },
+    {
+      "from": "mon_hre_maximilian1",
+      "to": "mon_hre_leopold1",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 10-11, Mascou 1737: succession"
+    },
+    {
+      "from": "mon_hre_leopold1",
+      "to": "mon_hre_maria_theresa",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 10-11, Mascou 1737: succession"
+    },
+    {
+      "from": "mon_hre_maria_theresa",
+      "to": "mon_hre_frederick_great",
+      "type": "expansion",
+      "label": "Modern Universal History Vols. 10-11, Mascou 1737: succession"
+    },
+    {
+      "from": "rus_nevsky_ivan_tsars",
+      "to": "mon_rus_nevsky",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13: succession"
+    },
+    {
+      "from": "mon_rus_nevsky",
+      "to": "mon_rus_kalita",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13: succession"
+    },
+    {
+      "from": "mon_rus_kalita",
+      "to": "mon_rus_donskoy",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13: succession"
+    },
+    {
+      "from": "mon_rus_donskoy",
+      "to": "mon_rus_ivan3",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13: succession"
+    },
+    {
+      "from": "mon_rus_ivan3",
+      "to": "mon_rus_vasili3",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13: succession"
+    },
+    {
+      "from": "mon_rus_vasili3",
+      "to": "mon_rus_ivan4",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13: succession"
+    },
+    {
+      "from": "mon_rus_ivan4",
+      "to": "mon_rus_boris_godunov",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13: succession"
+    },
+    {
+      "from": "rus_romanov_peter_great",
+      "to": "mon_rus_michael1",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13: succession"
+    },
+    {
+      "from": "mon_rus_michael1",
+      "to": "mon_rus_alexis1",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13: succession"
+    },
+    {
+      "from": "mon_rus_alexis1",
+      "to": "mon_rus_peter1",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13: succession"
+    },
+    {
+      "from": "mon_rus_peter1",
+      "to": "mon_rus_elizabeth",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13: succession"
+    },
+    {
+      "from": "mon_rus_elizabeth",
+      "to": "mon_rus_catherine2",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13: succession"
+    },
+    {
+      "from": "ott_osman_ertughrul",
+      "to": "mon_ott_osman1",
+      "type": "direct",
+      "label": "Knolles & Rycaut The Turkish History Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_osman1",
+      "to": "mon_ott_orhan",
+      "type": "direct",
+      "label": "Knolles & Rycaut The Turkish History Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_orhan",
+      "to": "mon_ott_murad1",
+      "type": "direct",
+      "label": "Knolles & Rycaut The Turkish History Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_murad1",
+      "to": "mon_ott_bayezid1",
+      "type": "direct",
+      "label": "Knolles & Rycaut The Turkish History Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_bayezid1",
+      "to": "mon_ott_mehmed1",
+      "type": "direct",
+      "label": "Knolles & Rycaut The Turkish History Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_mehmed1",
+      "to": "mon_ott_murad2",
+      "type": "direct",
+      "label": "Knolles & Rycaut The Turkish History Vols. 1-3: succession"
+    },
+    {
+      "from": "ott_mehmed2_suleiman",
+      "to": "mon_ott_mehmed2",
+      "type": "direct",
+      "label": "Knolles & Rycaut Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_mehmed2",
+      "to": "mon_ott_bayezid2",
+      "type": "direct",
+      "label": "Knolles & Rycaut Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_bayezid2",
+      "to": "mon_ott_selim1",
+      "type": "direct",
+      "label": "Knolles & Rycaut Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_selim1",
+      "to": "mon_ott_suleiman1",
+      "type": "direct",
+      "label": "Knolles & Rycaut Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_suleiman1",
+      "to": "mon_ott_selim2",
+      "type": "direct",
+      "label": "Knolles & Rycaut Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_selim2",
+      "to": "mon_ott_murad3",
+      "type": "direct",
+      "label": "Knolles & Rycaut Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_murad3",
+      "to": "mon_ott_ahmed1",
+      "type": "direct",
+      "label": "Knolles & Rycaut Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_ahmed1",
+      "to": "mon_ott_murad4",
+      "type": "direct",
+      "label": "Knolles & Rycaut Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_murad4",
+      "to": "mon_ott_mehmed4",
+      "type": "direct",
+      "label": "Knolles & Rycaut Vols. 1-3: succession"
+    },
+    {
+      "from": "mon_ott_mehmed4",
+      "to": "mon_ott_mahmud2",
+      "type": "direct",
+      "label": "Knolles & Rycaut Vols. 1-3: succession"
+    },
+    {
+      "from": "isl_umayyad_abbasid_fatimid",
+      "to": "mon_isl_abubakr",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_abubakr",
+      "to": "mon_isl_umar",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_umar",
+      "to": "mon_isl_uthman",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_uthman",
+      "to": "mon_isl_ali",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_ali",
+      "to": "mon_isl_muawiya1",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_muawiya1",
+      "to": "mon_isl_abd_al_malik",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_abd_al_malik",
+      "to": "mon_isl_al_mansur",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_al_mansur",
+      "to": "mon_isl_harun_rashid",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_harun_rashid",
+      "to": "mon_isl_al_mamun",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_al_mamun",
+      "to": "mon_isl_abdarrahman1",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_abdarrahman1",
+      "to": "mon_isl_abdarrahman3",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_abdarrahman3",
+      "to": "mon_isl_saladin",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_saladin",
+      "to": "mon_isl_baybars",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "mon_isl_baybars",
+      "to": "mon_isl_mahmud_ghazni",
+      "type": "expansion",
+      "label": "Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam: succession"
+    },
+    {
+      "from": "bir_sasanians_complete",
+      "to": "mon_ir_shah_ismail1",
+      "type": "expansion",
+      "label": "Persian Chronicles, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "mon_ir_shah_ismail1",
+      "to": "mon_ir_tahmasp1",
+      "type": "expansion",
+      "label": "Persian Chronicles, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "mon_ir_tahmasp1",
+      "to": "mon_ir_abbas1",
+      "type": "expansion",
+      "label": "Persian Chronicles, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "mon_ir_abbas1",
+      "to": "mon_ir_nader_shah",
+      "type": "expansion",
+      "label": "Persian Chronicles, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "mon_ir_nader_shah",
+      "to": "mon_ir_karim_khan",
+      "type": "expansion",
+      "label": "Persian Chronicles, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "mon_ir_karim_khan",
+      "to": "mon_ir_agha_mohammad",
+      "type": "expansion",
+      "label": "Persian Chronicles, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "mug_akbar_aurangzeb",
+      "to": "mon_mug_babur_ind",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 3, Abulghazi: succession"
+    },
+    {
+      "from": "mon_mug_babur_ind",
+      "to": "mon_mug_humayun_ind",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 3, Abulghazi: succession"
+    },
+    {
+      "from": "mon_mug_humayun_ind",
+      "to": "mon_mug_akbar_ind",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 3, Abulghazi: succession"
+    },
+    {
+      "from": "mon_mug_akbar_ind",
+      "to": "mon_mug_jahangir_ind",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 3, Abulghazi: succession"
+    },
+    {
+      "from": "mon_mug_jahangir_ind",
+      "to": "mon_mug_shahjahan_ind",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 3, Abulghazi: succession"
+    },
+    {
+      "from": "mon_mug_shahjahan_ind",
+      "to": "mon_mug_aurangzeb_ind",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 3, Abulghazi: succession"
+    },
+    {
+      "from": "ind_gupta_golden_age",
+      "to": "mon_ind_harsha",
+      "type": "expansion",
+      "label": "Indian Royal Chronicles, Modern Universal History Vol. 3: succession"
+    },
+    {
+      "from": "mon_ind_harsha",
+      "to": "mon_ind_rajaraja1",
+      "type": "expansion",
+      "label": "Indian Royal Chronicles, Modern Universal History Vol. 3: succession"
+    },
+    {
+      "from": "mon_ind_rajaraja1",
+      "to": "mon_ind_rajendra1",
+      "type": "expansion",
+      "label": "Indian Royal Chronicles, Modern Universal History Vol. 3: succession"
+    },
+    {
+      "from": "mon_ind_rajendra1",
+      "to": "mon_ind_krishnadevaraya",
+      "type": "expansion",
+      "label": "Indian Royal Chronicles, Modern Universal History Vol. 3: succession"
+    },
+    {
+      "from": "mon_ind_krishnadevaraya",
+      "to": "mon_ind_shivaji",
+      "type": "expansion",
+      "label": "Indian Royal Chronicles, Modern Universal History Vol. 3: succession"
+    },
+    {
+      "from": "mon_ind_shivaji",
+      "to": "mon_ind_ranjit_singh",
+      "type": "expansion",
+      "label": "Indian Royal Chronicles, Modern Universal History Vol. 3: succession"
+    },
+    {
+      "from": "eth_ludolf_gondar_kings",
+      "to": "mon_eth_ezana",
+      "type": "expansion",
+      "label": "Hiob Ludolf 1684, Kebra Nagast: succession"
+    },
+    {
+      "from": "mon_eth_ezana",
+      "to": "mon_eth_kaleb",
+      "type": "expansion",
+      "label": "Hiob Ludolf 1684, Kebra Nagast: succession"
+    },
+    {
+      "from": "mon_eth_kaleb",
+      "to": "mon_eth_lalibela",
+      "type": "expansion",
+      "label": "Hiob Ludolf 1684, Kebra Nagast: succession"
+    },
+    {
+      "from": "mon_eth_lalibela",
+      "to": "mon_eth_yekuno_amlak",
+      "type": "expansion",
+      "label": "Hiob Ludolf 1684, Kebra Nagast: succession"
+    },
+    {
+      "from": "mon_eth_yekuno_amlak",
+      "to": "mon_eth_zara_yaqob",
+      "type": "expansion",
+      "label": "Hiob Ludolf 1684, Kebra Nagast: succession"
+    },
+    {
+      "from": "mon_eth_zara_yaqob",
+      "to": "mon_eth_lebna_dengel",
+      "type": "expansion",
+      "label": "Hiob Ludolf 1684, Kebra Nagast: succession"
+    },
+    {
+      "from": "mon_eth_lebna_dengel",
+      "to": "mon_eth_galawdewos",
+      "type": "expansion",
+      "label": "Hiob Ludolf 1684, Kebra Nagast: succession"
+    },
+    {
+      "from": "mon_eth_galawdewos",
+      "to": "mon_eth_susenyos",
+      "type": "expansion",
+      "label": "Hiob Ludolf 1684, Kebra Nagast: succession"
+    },
+    {
+      "from": "mon_eth_susenyos",
+      "to": "mon_eth_fasilides",
+      "type": "expansion",
+      "label": "Hiob Ludolf 1684, Kebra Nagast: succession"
+    },
+    {
+      "from": "mon_eth_fasilides",
+      "to": "mon_eth_tewodros2",
+      "type": "expansion",
+      "label": "Hiob Ludolf 1684, Kebra Nagast: succession"
+    },
+    {
+      "from": "mon_eth_tewodros2",
+      "to": "mon_eth_menelik2",
+      "type": "expansion",
+      "label": "Hiob Ludolf 1684, Kebra Nagast: succession"
+    },
+    {
+      "from": "sng_sonni_askia_timbuktu",
+      "to": "mon_afr_mansa_musa",
+      "type": "direct",
+      "label": "Tarikh es-Soudan: succession"
+    },
+    {
+      "from": "mon_afr_mansa_musa",
+      "to": "mon_afr_sonni_ali",
+      "type": "direct",
+      "label": "Tarikh es-Soudan: succession"
+    },
+    {
+      "from": "mon_afr_sonni_ali",
+      "to": "mon_afr_askia_mohammed",
+      "type": "direct",
+      "label": "Tarikh es-Soudan: succession"
+    }
+  ]
+}

@@ -18,7 +18,8 @@
         "ISOGG / PhyloTree"
       ],
       "notes": "Every living human carries mitochondrial DNA descended from African matrilineal root L (splitting into L0, L1, L2 across Sub-Saharan Africa and L3 in East Africa, source of the Out-of-Africa expansion ~70 kya).",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     },
     {
       "id": "dna_y_adam",
@@ -36,7 +37,8 @@
         "ISOGG Y-Tree"
       ],
       "notes": "Deepest patrilineal root of humanity (A00 discovered in Cameroon/Central-West Africa; A & B across Southern/East Africa; BT -> CT giving rise to ALL non-African and most African Y-DNA lineages).",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     },
     {
       "id": "dna_ooa_l3_ct",
@@ -54,7 +56,8 @@
         "Ancient DNA Synthesis"
       ],
       "notes": "Small ancestral groups crossed from East Africa via the Bab-el-Mandeb / Sinai corridor carrying mtDNA L3 (-> M, N, R) and Y-DNA CT (-> DE, CF), later encountering Neanderthals (~55 kya) and Denisovans (~45 kya) in Eurasia!",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     },
     {
       "id": "dna_e1b1a",
@@ -69,7 +72,8 @@
         "ISOGG E-V38"
       ],
       "notes": "Dominant paternal haplogroup across West, Central, East, and Southern Africa — bridging Yoruba, Benin, Mande/Mali, and Bantu Great Lakes populations!",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     },
     {
       "id": "dna_e1b1b",
@@ -84,7 +88,8 @@
         "Ancient Egyptian aDNA"
       ],
       "notes": "Unites the Horn of Africa (Ethiopia/Kush), Ancient Egypt (attested in Ramesses III!), North African Amazigh/Berbers (E-M81), and Natufian Levantines!",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     },
     {
       "id": "dna_j1_j2",
@@ -102,7 +107,8 @@
         "Haber et al. 2017"
       ],
       "notes": "J1 expanded across the Arabian Peninsula, Levant, and Mesopotamia (highly enriched in Jewish, Arab, and Assyrian populations — including the Cohen Modal Haplotype!); J2 expanded from the Zagros/Anatolia across Phoenicia, Minoan Crete, Greece, and Etruscan Italy!",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     },
     {
       "id": "dna_g2a",
@@ -117,7 +123,8 @@
         "Lazaridis et al."
       ],
       "notes": "Carried by early Neolithic farmers (including Ötzi the Iceman!) from Anatolia and the Caucasus across the Mediterranean and Central Europe.",
-      "major": false
+      "major": false,
+      "biblicalConnected": false
     },
     {
       "id": "dna_r1b",
@@ -132,7 +139,8 @@
         "Olalde et al. 2018"
       ],
       "notes": "Expanded dramatically from Pontic-Caspian Steppe Yamnaya/Bell Beaker pastoralists into Central Europe, Italy, Iberia, Britain, and Ireland (accounting for ~80%+ of modern Irish/Celtic paternal lineages!).",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     },
     {
       "id": "dna_r1a",
@@ -147,7 +155,8 @@
         "Allentoft et al. 2015"
       ],
       "notes": "Sintashta/Andronovo chariot pastoralists carrying R1a-Z93 expanded southward across Central Asia into the Iranian Plateau and Northern India (~2000–1500 BCE), directly mirroring the shared Vedic-Avestan linguistic & genealogical layer!",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     },
     {
       "id": "dna_i1_i2",
@@ -162,7 +171,8 @@
         "Margaryan et al. 2020 (Viking aDNA)"
       ],
       "notes": "Ancient pre-Neolithic European haplogroup (sister clade of Near Eastern J via IJ!) that surged across Scandinavia and the Balkans.",
-      "major": false
+      "major": false,
+      "biblicalConnected": false
     },
     {
       "id": "dna_hl_indus",
@@ -177,7 +187,8 @@
         "Narasimhan et al. 2019"
       ],
       "notes": "Indus Valley Civilization (Harappa/Rakhigarhi) combined Iranian-plateau farmer ancestry with indigenous South Asian hunter-gatherers (AASI), later admixing with Steppe R1a pastoralists to form modern South Asia!",
-      "major": false
+      "major": false,
+      "biblicalConnected": false
     },
     {
       "id": "dna_o2_china",
@@ -192,7 +203,8 @@
         "Wang et al. 2021 (Nature)"
       ],
       "notes": "Three major 'super-grandfather' star expansions of Y-DNA O2 around ~6,000–5,000 BP in the Yellow River basin mirror the Neolithic consolidation remembered in the Yan-Huang (Yandi & Huangdi) traditions!",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     },
     {
       "id": "dna_o1_austronesian",
@@ -207,7 +219,8 @@
         "Ioannidis et al. 2021 (Nature)"
       ],
       "notes": "Traces the Out-of-Taiwan Austronesian voyage through the Philippines, Lapita Melanesia (admixing with Papuan C1b2a), out to Tonga, Samoa, Hawaii, Aotearoa/New Zealand, and Rapa Nui — even detecting pre-Columbian contact with South America (~1200 CE)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     },
     {
       "id": "dna_d_c_n_asia",
@@ -222,7 +235,8 @@
         "Jeong et al. 2020"
       ],
       "notes": "Y-DNA D1a2 represents ancient Jōmon Japan (which admixed with Korean/Yayoi O1b2 arrivals to form modern Japanese!), while C2 & N anchor the Xiongnu, Turkic, and Mongol Steppe confederacies!",
-      "major": false
+      "major": false,
+      "biblicalConnected": false
     },
     {
       "id": "dna_q_americas",
@@ -240,7 +254,8 @@
         "Posth et al. 2018 (Cell)"
       ],
       "notes": "Ancestral Native Americans diverged in Siberia/Beringia carrying Y-DNA Q-M3 (sister branch of Eurasian R via P!) and mtDNA A2, B2, C1, D1, rapidly settling North America, Mesoamerica (Maya/Aztec), and the Andes (Inca)!",
-      "major": true
+      "major": true,
+      "biblicalConnected": false
     }
   ],
   "edges": [
@@ -435,6 +450,36 @@
       "to": "stp_xiongnu",
       "type": "genetic",
       "label": "Steppe C2, N & R1a/Q admixture confirmed in ancient Xiongnu burials"
+    },
+    {
+      "from": "dna_o1_austronesian",
+      "to": "amp_poly_kupe_tonga",
+      "type": "genetic",
+      "label": "Out-of-Taiwan -> Lapita -> Tonga, Hawaii, Aotearoa & Rapa Nui maritime DNA trail!"
+    },
+    {
+      "from": "dna_o1_austronesian",
+      "to": "amp_inca_pachacuti",
+      "type": "genetic",
+      "label": "Ioannidis et al. (Nature 2020) confirmed pre-Columbian Polynesian-South American DNA contact (~1200 CE)!"
+    },
+    {
+      "from": "dna_q_americas",
+      "to": "amp_na_skywoman",
+      "type": "genetic",
+      "label": "Beringian Y-DNA Q-M3 & mtDNA A2/B2/C1/D1 ancestral roots of North America"
+    },
+    {
+      "from": "dna_q_americas",
+      "to": "amp_maya_four_men",
+      "type": "genetic",
+      "label": "Ancestral Native American genetic continuity in Mesoamerica (Maya & Aztec)"
+    },
+    {
+      "from": "dna_q_americas",
+      "to": "amp_inca_manco",
+      "type": "genetic",
+      "label": "Rapid Pacific-coast southward migration reaching Andean South America by ~14,500 BCE"
     }
   ]
 }
