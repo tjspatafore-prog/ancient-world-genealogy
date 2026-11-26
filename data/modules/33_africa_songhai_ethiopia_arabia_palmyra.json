@@ -1,0 +1,333 @@
+{
+  "module": "33_africa_songhai_ethiopia_arabia_palmyra",
+  "title": "Songhai & Timbuktu (Tarikh es-Soudan), Futuh Misr, Arabian Ariba/Qahtan/Adnan, Ludolf Ethiopia & Palmyra/Zenobia",
+  "nodes": [
+    {
+      "id": "sng_za_al_ayaman",
+      "name": "Za-Al-Ayaman ('Came from Yemen' → Kukya on the Niger) → 14 Pre-Islamic Za Kings → Za-Kosoi (1st Muslim King of Songhai, 1009 CE)",
+      "altNames": [
+        "Za-Al-Ayaman",
+        "Dja men el-Yemen",
+        "Za-Kosoi (1009 CE)"
+      ],
+      "tradition": "african",
+      "tier": 18,
+      "era": "Early Niger Bend → 1010 CE (Tarikh es-Soudan Ch. 1 pp. 35-38)",
+      "role": "Yemeni-Originated Founder of the Songhai Za Dynasty on the Niger",
+      "sources": [
+        "Abderrahman es-Sa'di Tarikh es-Soudan (tr. Houdas 1900) Ch. 1 pp. 35-38"
+      ],
+      "notes": "Tarikh es-Soudan derives the royal Za (Dia) dynasty of Kukya/Songhai from two brothers who traveled from Yemen ('dja men el-Yemen' -> Za-Al-Ayaman), slaying the pagan river-idol and ruling through 14 pre-Islamic kings until Za-Kosoi (Moslem-dam) embraced Islam in AH 400 (1009-1010 CE).",
+      "major": true
+    },
+    {
+      "id": "sng_sonni_askia_timbuktu",
+      "name": "Songhai Empire & Timbuktu: Sonni Ali-Kolon → Sonni Ali (1464) → Askia El-Hadj Mohammed (Askia the Great, 1493)",
+      "altNames": [
+        "Sonni Ali-Kolon",
+        "Sonni Ali",
+        "Askia El-Hadj Mohammed"
+      ],
+      "tradition": "african",
+      "tier": 20,
+      "era": "13th–16th c. CE (Tarikh es-Soudan Ch. 2-3 pp. 39-44)",
+      "role": "Imperial Sultans of Gao & Timbuktu Following Mali Supremacy",
+      "sources": [
+        "Abderrahman es-Sa'di Tarikh es-Soudan (tr. Houdas 1900) Ch. 2-3 pp. 39-44"
+      ],
+      "notes": "Brothers Ali-Kolon and Selman-Nar (sons of Za-Yasiboy) freed Songhai from Mansa Musa's Mali suzerainty, inaugurating the Sonni line culminating in Sonni Ali before Askia El-Hadj Mohammed (the Great, 1493) elevated Timbuktu and Songhai.",
+      "major": true
+    },
+    {
+      "id": "hak_futuh_misr_andalus",
+      "name": "Futuh Misr (Ibn 'Abd al-Hakam): 'Amr ibn al-'As (Egypt), Uqba ibn Nafi (Maghreb) & Tariq ibn Ziyad (Al-Andalus, 711 CE)",
+      "altNames": [
+        "'Amr ibn al-'As",
+        "Uqba ibn Nafi",
+        "Tariq ibn Ziyad"
+      ],
+      "tradition": "african",
+      "tier": 19,
+      "era": "7th–8th c. CE (Ibn 'Abd al-Hakam Futuh Misr, Torrey ed.)",
+      "role": "Earliest Arabic Chronicle of Egypt, Berbers of North Africa & Al-Andalus",
+      "sources": [
+        "Ibn 'Abd al-Hakam Futuh Misr (ed. C.C. Torrey, Yale Oriental Series III)"
+      ],
+      "notes": "Earliest extant Arabic historical narrative covering 'Amr ibn al-'As's Coptic treaty in Egypt (Misr), Uqba ibn Nafi's campaigns across the Amazigh/Berber Maghreb, and Tariq ibn Ziyad & Musa ibn Nusayr's 711 CE crossing into Visigothic Spain.",
+      "major": true
+    },
+    {
+      "id": "cdp_ariba_cush_amaliqa",
+      "name": "Ancient Arabian Ariba (Caussin de Perceval Vol. 1): Cushites of Arabia, 'Ad (Loqman) & Amaliqa / Samayda of Ayla",
+      "altNames": [
+        "Al-'Ariba",
+        "Samayda of Ayla",
+        "Loqman"
+      ],
+      "tradition": "arabian",
+      "tier": 8,
+      "era": "Pre-Islamic Antiquity (Caussin de Perceval Vol. 1 pp. 21-39)",
+      "role": "Extinct Ancient Arabian Tribes Bridged to Cush, Uz/Aram & Ham",
+      "sources": [
+        "Caussin de Perceval Essai sur l'Histoire des Arabes Vol. 1 (1847) pp. 21-39"
+      ],
+      "notes": "Caussin de Perceval synthesizes Jewish and classical Arab genealogies (Ibn Sa'id, Ibn Habib, Tabari) tracing the primitive Arab al-'Ariba — Cushites along the Arabian peninsula, 'Ad (Uz b. Aram / Amalek b. Ham, including Loqman of the Seven Vultures), and the Samayda Amaliqa of Ayla.",
+      "major": false
+    },
+    {
+      "id": "cdp_qahtan_adnan_tribes",
+      "name": "Pre-Islamic Arabian Tribal Tree (Caussin de Perceval Vol. 1): Qahtan (Himyar, Kahlan, Azd, Kindah) & Adnan (Ma'add → Nizar → Mudar & Rabi'a)",
+      "altNames": [
+        "Himyar & Kahlan",
+        "Azd & Kindah",
+        "Mudar & Rabi'a"
+      ],
+      "tradition": "arabian",
+      "tier": 13,
+      "era": "Bronze Age → 6th c. CE (Caussin de Perceval Vol. 1 pp. 23-39+)",
+      "role": "Complete Bifurcation of Southern Qahtanite & Northern Adnanite Arab Confederations",
+      "sources": [
+        "Caussin de Perceval Essai sur l'Histoire des Arabes Vol. 1 (1847) pp. 23-39+"
+      ],
+      "notes": "Maps the dual trunk of Arabian ethnogenesis: Southern Al-'Ariba / Mutariba descending from Qahtan (Joktan b. Eber -> Ya'rub -> Himyar, Kahlan, Azd, Ghassan, Lakhm & Kindah) and Northern Musta'riba descending from Ishmael via Adnan -> Ma'add -> Nizar -> Mudar & Rabi'a.",
+      "major": true
+    },
+    {
+      "id": "eth_ludolf_kaleb_himyar",
+      "name": "Ludolf's Ethiopian-Himyarite War (1684): King Kaleb (Elesbaan) vs. Dhu Nuwas, Abreha & Saif ibn Dhi Yazan (+ Khosrow I Anushirvan)",
+      "altNames": [
+        "Elesbaan (Kaleb)",
+        "Abreha",
+        "Saif ibn Dhi Yazan"
+      ],
+      "tradition": "african",
+      "tier": 19,
+      "era": "525–575 CE (Hiob Ludolf 1684 pp. 166-167)",
+      "role": "6th c. Aksumite–Himyarite–Sasanian Geopolitical Pedigree Bridge",
+      "sources": [
+        "Hiob Ludolf A New History of Ethiopia (1684) pp. 166-167"
+      ],
+      "notes": "Ludolf chronicles King Kaleb (Caleb / Elesbaan) of Aksum avenging the Christian martyrs of Najran against Himyarite king Dhu Nuwas, placing Abreha in Yemen until Himyarite prince Saif ibn Dhi Yazan regained Yemen with Sasanian Emperor Khosrow I Anushirvan's aid.",
+      "major": true
+    },
+    {
+      "id": "eth_ludolf_gondar_kings",
+      "name": "Gondar Solomonic Emperors (Ludolf 1684): Lebna Dengel → Galawdewos → Emperor Susenyos → Emperor Fasilides (Founder of Gondar, 1632)",
+      "altNames": [
+        "Lebna Dengel",
+        "Susenyos I",
+        "Emperor Fasilides"
+      ],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1508–1667 CE (Hiob Ludolf 1684)",
+      "role": "Renaissance & Early Modern Ethiopian Solomonic Sovereign Succession",
+      "sources": [
+        "Hiob Ludolf A New History of Ethiopia (1684)"
+      ],
+      "notes": "Continues the Ethiopian Solomonic line documented in Ludolf's 1684 chronicle from Lebna Dengel (Dawit II) and Galawdewos (Claudius) through Emperor Susenyos I and his son Emperor Fasilides, who established the royal capital at Gondar in 1632.",
+      "major": true
+    },
+    {
+      "id": "pal_solomon_aretas_tadmor",
+      "name": "Palmyra / Tadmor (Seller 1696): Founded by King Solomon → Nabataean King Aretas (Al-Harith of Ghassan / Petra)",
+      "altNames": [
+        "Tadmor in the Wilderness",
+        "King Aretas / Al-Harith"
+      ],
+      "tradition": "arabian",
+      "tier": 16,
+      "era": "10th–1st c. BCE (Abednego Seller 1696 Preface)",
+      "role": "Solomonic Foundation of Tadmor & Arab-Nabataean Princes of Syria",
+      "sources": [
+        "Abednego Seller The Antiquities of Palmyra (1696) Preface",
+        "1 Kings 9:18 / 2 Chr 8:4"
+      ],
+      "notes": "Seller (1696) links ancient Palmyra directly to Biblical Tadmor fortified by King Solomon in the Syrian desert, tracing subsequent Arabian mastery from Nabataean king Aretas (equated by Seller with the Al-Harith rulers of Petra and Ghassan, contemporary of Pompey c. 63 BCE).",
+      "major": true
+    },
+    {
+      "id": "pal_odenathus_zenobia",
+      "name": "Palmyrene Empire (Seller 1696): King Odenathus → Queen Zenobia (Claiming Descent from Cleopatra VII & Dido) & Vaballathus",
+      "altNames": [
+        "Odaenathus",
+        "Queen Zenobia",
+        "Vaballathus"
+      ],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "250–274 CE (Abednego Seller 1696)",
+      "role": "Palmyrene Imperial House Claiming Ptolemaic & Phoenician Royal Bloodlines",
+      "sources": [
+        "Abednego Seller The Antiquities of Palmyra (1696)",
+        "Historia Augusta"
+      ],
+      "notes": "Seller details the rise of Palmyra under Septimius Odaenathus ('King of Kings') and his learned queen Zenobia Bat-Zabbai — who claimed royal ancestry from Egypt's Cleopatra VII and Carthaginian Dido while ruling Syria, Egypt & Anatolia before Aurelian's triumph.",
+      "major": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "bib_joktan",
+      "to": "sng_za_al_ayaman",
+      "type": "syncretic",
+      "label": "Tarikh es-Soudan Ch. 1 pp. 36-38: Za-Al-Ayaman ('dja men el-Yemen') originates in Yemeni / Qahtanite migration to the Niger River"
+    },
+    {
+      "from": "bir_himyar_lakhmid_ghassan",
+      "to": "sng_za_al_ayaman",
+      "type": "syncretic",
+      "label": "Yemeni royal dispersion tradition connecting South Arabia to Kukya / Songhai (Tarikh es-Soudan)"
+    },
+    {
+      "from": "bib_moses",
+      "to": "sng_za_al_ayaman",
+      "type": "syncretic",
+      "label": "Tarikh es-Soudan p. 37 records traditional association of Kukya antiquity with Pharaoh's magicians vs. Moses"
+    },
+    {
+      "from": "sng_za_al_ayaman",
+      "to": "sng_sonni_askia_timbuktu",
+      "type": "direct",
+      "label": "Tarikh es-Soudan Ch. 2-3 pp. 39-44: Za-Yasiboy -> Sonni Ali-Kolon -> Sonni Ali -> Askia El-Hadj Mohammed"
+    },
+    {
+      "from": "af_sundiata",
+      "to": "sng_sonni_askia_timbuktu",
+      "type": "cognate",
+      "label": "Tarikh es-Soudan pp. 36, 42-44: Kankan-Mousa (Mansa Musa of Mali) -> liberation of Songhai under Sonni Ali-Kolon"
+    },
+    {
+      "from": "isl_umayyad_abbasid_fatimid",
+      "to": "hak_futuh_misr_andalus",
+      "type": "expansion",
+      "label": "Ibn 'Abd al-Hakam Futuh Misr: Quraysh/Companions & Umayyad commanders across Egypt, Maghreb & Spain"
+    },
+    {
+      "from": "bib_mizraim",
+      "to": "hak_futuh_misr_andalus",
+      "type": "cognate",
+      "label": "Futuh Misr opens with pre-Islamic traditions of Misr/Egypt before 'Amr ibn al-'As"
+    },
+    {
+      "from": "ber_branes_botr",
+      "to": "hak_futuh_misr_andalus",
+      "type": "cognate",
+      "label": "Futuh Misr documents Uqba ibn Nafi & Tariq ibn Ziyad alongside North African Berber tribes"
+    },
+    {
+      "from": "bib_cush",
+      "to": "cdp_ariba_cush_amaliqa",
+      "type": "syncretic",
+      "label": "Caussin de Perceval Vol. 1 p. 21: Ancient Jewish & Arab traditions placing Cushites across Arabia prior to Ethiopia"
+    },
+    {
+      "from": "tab_ad_thamud_hud_salih",
+      "to": "cdp_ariba_cush_amaliqa",
+      "type": "cognate",
+      "label": "Caussin de Perceval Vol. 1 pp. 28-32: 'Ad, Prophet Hud & survivor Loqman"
+    },
+    {
+      "from": "tab_lud_amalek_tasm",
+      "to": "cdp_ariba_cush_amaliqa",
+      "type": "cognate",
+      "label": "Caussin de Perceval Vol. 1 pp. 35-39: Amaliqa & Samayda princes of Ayla on the Red Sea"
+    },
+    {
+      "from": "bib_joktan",
+      "to": "cdp_qahtan_adnan_tribes",
+      "type": "direct",
+      "label": "Caussin de Perceval Vol. 1 p. 23: Qahtan (Yoktan/Joktan b. Eber) progenitor of Yemenite Arab tribes"
+    },
+    {
+      "from": "bib_ishmael",
+      "to": "cdp_qahtan_adnan_tribes",
+      "type": "expansion",
+      "label": "Caussin de Perceval Vol. 1 p. 23: Ishmael b. Abraham -> Adnanite northern tribes"
+    },
+    {
+      "from": "ar_adnan_quraysh",
+      "to": "cdp_qahtan_adnan_tribes",
+      "type": "cognate",
+      "label": "Same Adnan -> Ma'add -> Nizar northern Arab tribal genealogy"
+    },
+    {
+      "from": "bir_himyar_lakhmid_ghassan",
+      "to": "cdp_qahtan_adnan_tribes",
+      "type": "cognate",
+      "label": "Southern Qahtanite confederations (Himyar, Lakhm, Ghassan, Kindah) mapped in Caussin de Perceval Vol. 1"
+    },
+    {
+      "from": "keb_kaleb_gabramaskal_yekuno",
+      "to": "eth_ludolf_kaleb_himyar",
+      "type": "cognate",
+      "label": "Ludolf 1684 pp. 166-167: Detailed synchronism of King Kaleb (Elesbaan) of Aksum with Himyar"
+    },
+    {
+      "from": "bir_himyar_lakhmid_ghassan",
+      "to": "eth_ludolf_kaleb_himyar",
+      "type": "cognate",
+      "label": "Ludolf 1684 pp. 166-167: Dhu Nuwas, Abreha & Saif ibn Dhi Yazan of the Homerites (Himyar)"
+    },
+    {
+      "from": "bir_sasanians_complete",
+      "to": "eth_ludolf_kaleb_himyar",
+      "type": "cognate",
+      "label": "Ludolf 1684 p. 166: Khosrow I Anushirvan aids Saif ibn Dhi Yazan in Yemen"
+    },
+    {
+      "from": "eth_haile_selassie",
+      "to": "eth_ludolf_gondar_kings",
+      "type": "expansion",
+      "label": "Ludolf 1684: Solomonic line Lebna Dengel -> Galawdewos -> Susenyos -> Fasilides (Gondar)"
+    },
+    {
+      "from": "jud_solomon",
+      "to": "pal_solomon_aretas_tadmor",
+      "type": "direct",
+      "label": "Seller 1696 & 1 Kings 9:18: King Solomon built Tadmor / Palmyra in the Syrian desert"
+    },
+    {
+      "from": "bib_ishmael",
+      "to": "pal_solomon_aretas_tadmor",
+      "type": "expansion",
+      "label": "Seller 1696 connects Nabataean Arabs under King Aretas directly with Palmyrene desert sovereignty"
+    },
+    {
+      "from": "her_antipater_cypros",
+      "to": "pal_solomon_aretas_tadmor",
+      "type": "cognate",
+      "label": "Nabataean royal dynasty of Petra allied/intermarried with Idumeans & Herodians"
+    },
+    {
+      "from": "bir_himyar_lakhmid_ghassan",
+      "to": "pal_solomon_aretas_tadmor",
+      "type": "cognate",
+      "label": "Seller 1696 Preface explicitly identifies Appian's Aretas with the Al-Harith princes of Ghassan"
+    },
+    {
+      "from": "pal_solomon_aretas_tadmor",
+      "to": "pal_odenathus_zenobia",
+      "type": "expansion",
+      "label": "Seller 1696: Imperial Palmyra rising to Odaenathus, Queen Zenobia & Vaballathus"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "pal_odenathus_zenobia",
+      "type": "syncretic",
+      "label": "Seller 1696 & Historia Augusta: Queen Zenobia claimed descent from Cleopatra VII of Egypt"
+    },
+    {
+      "from": "grk_dido_carthage",
+      "to": "pal_odenathus_zenobia",
+      "type": "syncretic",
+      "label": "Seller 1696: Palmyrene tradition linking Zenobia's Syrian lineage with Dido of Tyre/Carthage"
+    },
+    {
+      "from": "rom_echard_imperial_bridge",
+      "to": "pal_odenathus_zenobia",
+      "type": "cognate",
+      "label": "Emperor Aurelian defeats Zenobia (272-274 CE) and integrates Palmyra into Rome"
+    }
+  ]
+}

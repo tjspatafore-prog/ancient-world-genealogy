@@ -120,6 +120,10 @@ def main():
         ("bib_noah", "eng_stuart_great_britain", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Wessex/Scottish/Tudor Lines -> King James I of Great Britain"),
         ("bib_noah", "por_braganza_restoration", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Tubal/Iberia -> Afonso I Henriques -> Aviz & Braganza of Portugal"),
         ("bib_noah", "rus_romanov_peter_great", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Russ/Slavs -> Rurik -> Yaroslav -> Romanovs & Peter the Great"),
+        ("bib_noah", "sng_sonni_askia_timbuktu", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Shem/Joktan (Yemen) -> Za-Al-Ayaman -> Sonni Ali & Askia the Great (Songhai/Timbuktu)"),
+        ("bib_noah", "esp_ferdinand_isabella_habsburg", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Tubal (Mariana 1699) -> Visigoths -> Pelayo -> Ferdinand & Isabella"),
+        ("bib_noah", "pal_odenathus_zenobia", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Shem -> King Solomon (Tadmor/Palmyra) -> Aretas -> Queen Zenobia"),
+        ("bib_noah", "asm_records_past_inscriptions", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Shem -> Asshur -> George Smith Eponym Canon & Records of the Past (Sennacherib/Hezekiah)"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

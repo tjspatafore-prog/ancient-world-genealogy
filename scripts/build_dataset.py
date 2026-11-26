@@ -28,6 +28,9 @@ from modules import (
     mod30_abulghazi_turks_mongols_mughals,
     mod31_europe_england_france_portugal_russia_germans,
     mod32_raleigh_petavius_gautruche_parian_classical,
+    mod33_africa_songhai_ethiopia_arabia_palmyra,
+    mod34_spain_britain_france_portugal_chronicles,
+    mod35_newton_ussher_smith_records_classical,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1271,6 +1274,9 @@ def main():
         mod30_abulghazi_turks_mongols_mughals.build_module(),
         mod31_europe_england_france_portugal_russia_germans.build_module(),
         mod32_raleigh_petavius_gautruche_parian_classical.build_module(),
+        mod33_africa_songhai_ethiopia_arabia_palmyra.build_module(),
+        mod34_spain_britain_france_portugal_chronicles.build_module(),
+        mod35_newton_ussher_smith_records_classical.build_module(),
     ]
 
     for mod in modules:
@@ -1331,8 +1337,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — 140 Sources Rooted in Adam, Noah & His 4 Sons (v14.0)",
-            "version": "14.0.0",
+            "title": "Ancient World Genealogy Atlas — 207 Sources Rooted in Adam, Noah & His 4 Sons (v15.0)",
+            "version": "15.0.0",
             "modules": module_summaries,
             "linkTypes": LINK_TYPES,
         },

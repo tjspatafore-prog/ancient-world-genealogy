@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Ancient World Genealogy Atlas — 140 Sources Rooted in Adam, Noah & His 4 Sons (v14.0)",
-    "version": "14.0.0",
+    "title": "Ancient World Genealogy Atlas — 207 Sources Rooted in Adam, Noah & His 4 Sons (v15.0)",
+    "version": "15.0.0",
     "modules": [
       {
         "file": "01_antediluvian",
@@ -188,6 +188,24 @@
         "title": "Sir Walter Raleigh, Petavius, Gautruche Poetical Cognates, Parian Chronicle, Classical Rome & Periplus",
         "nodes": 9,
         "edges": 38
+      },
+      {
+        "file": "33_africa_songhai_ethiopia_arabia_palmyra",
+        "title": "Songhai & Timbuktu (Tarikh es-Soudan), Futuh Misr, Arabian Ariba/Qahtan/Adnan, Ludolf Ethiopia & Palmyra/Zenobia",
+        "nodes": 9,
+        "edges": 27
+      },
+      {
+        "file": "34_spain_britain_france_portugal_chronicles",
+        "title": "Mariana's Spain (from Tubal), Sammes's Phoenician Britain, Strutt & Bede's Heptarchy, Mézeray's France & Sandford's Portugal",
+        "nodes": 9,
+        "edges": 19
+      },
+      {
+        "file": "35_newton_ussher_smith_records_classical",
+        "title": "George Smith Eponym Canon, Records of the Past, Turin Canon, Sir Isaac Newton, Ussher, Justin, Suetonius/Herodian & Cradock",
+        "nodes": 10,
+        "edges": 32
       }
     ],
     "linkTypes": {
@@ -20487,6 +20505,523 @@
       ],
       "notes": "Vincent's scholarly commentary identifies King Zoscales of Aksum (Adulis, 1st c. CE), maps classical Saba/Mariaba to Biblical Sheba, examines the Ophir trade corridor, and documents direct monsoon voyages linking Ethiopia and Arabia to western India.",
       "major": true
+    },
+    {
+      "id": "sng_za_al_ayaman",
+      "name": "Za-Al-Ayaman ('Came from Yemen' → Kukya on the Niger) → 14 Pre-Islamic Za Kings → Za-Kosoi (1st Muslim King of Songhai, 1009 CE)",
+      "altNames": [
+        "Za-Al-Ayaman",
+        "Dja men el-Yemen",
+        "Za-Kosoi (1009 CE)"
+      ],
+      "tradition": "african",
+      "tier": 18,
+      "era": "Early Niger Bend → 1010 CE (Tarikh es-Soudan Ch. 1 pp. 35-38)",
+      "role": "Yemeni-Originated Founder of the Songhai Za Dynasty on the Niger",
+      "sources": [
+        "Abderrahman es-Sa'di Tarikh es-Soudan (tr. Houdas 1900) Ch. 1 pp. 35-38"
+      ],
+      "notes": "Tarikh es-Soudan derives the royal Za (Dia) dynasty of Kukya/Songhai from two brothers who traveled from Yemen ('dja men el-Yemen' -> Za-Al-Ayaman), slaying the pagan river-idol and ruling through 14 pre-Islamic kings until Za-Kosoi (Moslem-dam) embraced Islam in AH 400 (1009-1010 CE).",
+      "major": true
+    },
+    {
+      "id": "sng_sonni_askia_timbuktu",
+      "name": "Songhai Empire & Timbuktu: Sonni Ali-Kolon → Sonni Ali (1464) → Askia El-Hadj Mohammed (Askia the Great, 1493)",
+      "altNames": [
+        "Sonni Ali-Kolon",
+        "Sonni Ali",
+        "Askia El-Hadj Mohammed"
+      ],
+      "tradition": "african",
+      "tier": 20,
+      "era": "13th–16th c. CE (Tarikh es-Soudan Ch. 2-3 pp. 39-44)",
+      "role": "Imperial Sultans of Gao & Timbuktu Following Mali Supremacy",
+      "sources": [
+        "Abderrahman es-Sa'di Tarikh es-Soudan (tr. Houdas 1900) Ch. 2-3 pp. 39-44"
+      ],
+      "notes": "Brothers Ali-Kolon and Selman-Nar (sons of Za-Yasiboy) freed Songhai from Mansa Musa's Mali suzerainty, inaugurating the Sonni line culminating in Sonni Ali before Askia El-Hadj Mohammed (the Great, 1493) elevated Timbuktu and Songhai.",
+      "major": true
+    },
+    {
+      "id": "hak_futuh_misr_andalus",
+      "name": "Futuh Misr (Ibn 'Abd al-Hakam): 'Amr ibn al-'As (Egypt), Uqba ibn Nafi (Maghreb) & Tariq ibn Ziyad (Al-Andalus, 711 CE)",
+      "altNames": [
+        "'Amr ibn al-'As",
+        "Uqba ibn Nafi",
+        "Tariq ibn Ziyad"
+      ],
+      "tradition": "african",
+      "tier": 19,
+      "era": "7th–8th c. CE (Ibn 'Abd al-Hakam Futuh Misr, Torrey ed.)",
+      "role": "Earliest Arabic Chronicle of Egypt, Berbers of North Africa & Al-Andalus",
+      "sources": [
+        "Ibn 'Abd al-Hakam Futuh Misr (ed. C.C. Torrey, Yale Oriental Series III)"
+      ],
+      "notes": "Earliest extant Arabic historical narrative covering 'Amr ibn al-'As's Coptic treaty in Egypt (Misr), Uqba ibn Nafi's campaigns across the Amazigh/Berber Maghreb, and Tariq ibn Ziyad & Musa ibn Nusayr's 711 CE crossing into Visigothic Spain.",
+      "major": true
+    },
+    {
+      "id": "cdp_ariba_cush_amaliqa",
+      "name": "Ancient Arabian Ariba (Caussin de Perceval Vol. 1): Cushites of Arabia, 'Ad (Loqman) & Amaliqa / Samayda of Ayla",
+      "altNames": [
+        "Al-'Ariba",
+        "Samayda of Ayla",
+        "Loqman"
+      ],
+      "tradition": "arabian",
+      "tier": 8,
+      "era": "Pre-Islamic Antiquity (Caussin de Perceval Vol. 1 pp. 21-39)",
+      "role": "Extinct Ancient Arabian Tribes Bridged to Cush, Uz/Aram & Ham",
+      "sources": [
+        "Caussin de Perceval Essai sur l'Histoire des Arabes Vol. 1 (1847) pp. 21-39"
+      ],
+      "notes": "Caussin de Perceval synthesizes Jewish and classical Arab genealogies (Ibn Sa'id, Ibn Habib, Tabari) tracing the primitive Arab al-'Ariba — Cushites along the Arabian peninsula, 'Ad (Uz b. Aram / Amalek b. Ham, including Loqman of the Seven Vultures), and the Samayda Amaliqa of Ayla.",
+      "major": false
+    },
+    {
+      "id": "cdp_qahtan_adnan_tribes",
+      "name": "Pre-Islamic Arabian Tribal Tree (Caussin de Perceval Vol. 1): Qahtan (Himyar, Kahlan, Azd, Kindah) & Adnan (Ma'add → Nizar → Mudar & Rabi'a)",
+      "altNames": [
+        "Himyar & Kahlan",
+        "Azd & Kindah",
+        "Mudar & Rabi'a"
+      ],
+      "tradition": "arabian",
+      "tier": 13,
+      "era": "Bronze Age → 6th c. CE (Caussin de Perceval Vol. 1 pp. 23-39+)",
+      "role": "Complete Bifurcation of Southern Qahtanite & Northern Adnanite Arab Confederations",
+      "sources": [
+        "Caussin de Perceval Essai sur l'Histoire des Arabes Vol. 1 (1847) pp. 23-39+"
+      ],
+      "notes": "Maps the dual trunk of Arabian ethnogenesis: Southern Al-'Ariba / Mutariba descending from Qahtan (Joktan b. Eber -> Ya'rub -> Himyar, Kahlan, Azd, Ghassan, Lakhm & Kindah) and Northern Musta'riba descending from Ishmael via Adnan -> Ma'add -> Nizar -> Mudar & Rabi'a.",
+      "major": true
+    },
+    {
+      "id": "eth_ludolf_kaleb_himyar",
+      "name": "Ludolf's Ethiopian-Himyarite War (1684): King Kaleb (Elesbaan) vs. Dhu Nuwas, Abreha & Saif ibn Dhi Yazan (+ Khosrow I Anushirvan)",
+      "altNames": [
+        "Elesbaan (Kaleb)",
+        "Abreha",
+        "Saif ibn Dhi Yazan"
+      ],
+      "tradition": "african",
+      "tier": 19,
+      "era": "525–575 CE (Hiob Ludolf 1684 pp. 166-167)",
+      "role": "6th c. Aksumite–Himyarite–Sasanian Geopolitical Pedigree Bridge",
+      "sources": [
+        "Hiob Ludolf A New History of Ethiopia (1684) pp. 166-167"
+      ],
+      "notes": "Ludolf chronicles King Kaleb (Caleb / Elesbaan) of Aksum avenging the Christian martyrs of Najran against Himyarite king Dhu Nuwas, placing Abreha in Yemen until Himyarite prince Saif ibn Dhi Yazan regained Yemen with Sasanian Emperor Khosrow I Anushirvan's aid.",
+      "major": true
+    },
+    {
+      "id": "eth_ludolf_gondar_kings",
+      "name": "Gondar Solomonic Emperors (Ludolf 1684): Lebna Dengel → Galawdewos → Emperor Susenyos → Emperor Fasilides (Founder of Gondar, 1632)",
+      "altNames": [
+        "Lebna Dengel",
+        "Susenyos I",
+        "Emperor Fasilides"
+      ],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1508–1667 CE (Hiob Ludolf 1684)",
+      "role": "Renaissance & Early Modern Ethiopian Solomonic Sovereign Succession",
+      "sources": [
+        "Hiob Ludolf A New History of Ethiopia (1684)"
+      ],
+      "notes": "Continues the Ethiopian Solomonic line documented in Ludolf's 1684 chronicle from Lebna Dengel (Dawit II) and Galawdewos (Claudius) through Emperor Susenyos I and his son Emperor Fasilides, who established the royal capital at Gondar in 1632.",
+      "major": true
+    },
+    {
+      "id": "pal_solomon_aretas_tadmor",
+      "name": "Palmyra / Tadmor (Seller 1696): Founded by King Solomon → Nabataean King Aretas (Al-Harith of Ghassan / Petra)",
+      "altNames": [
+        "Tadmor in the Wilderness",
+        "King Aretas / Al-Harith"
+      ],
+      "tradition": "arabian",
+      "tier": 16,
+      "era": "10th–1st c. BCE (Abednego Seller 1696 Preface)",
+      "role": "Solomonic Foundation of Tadmor & Arab-Nabataean Princes of Syria",
+      "sources": [
+        "Abednego Seller The Antiquities of Palmyra (1696) Preface",
+        "1 Kings 9:18 / 2 Chr 8:4"
+      ],
+      "notes": "Seller (1696) links ancient Palmyra directly to Biblical Tadmor fortified by King Solomon in the Syrian desert, tracing subsequent Arabian mastery from Nabataean king Aretas (equated by Seller with the Al-Harith rulers of Petra and Ghassan, contemporary of Pompey c. 63 BCE).",
+      "major": true
+    },
+    {
+      "id": "pal_odenathus_zenobia",
+      "name": "Palmyrene Empire (Seller 1696): King Odenathus → Queen Zenobia (Claiming Descent from Cleopatra VII & Dido) & Vaballathus",
+      "altNames": [
+        "Odaenathus",
+        "Queen Zenobia",
+        "Vaballathus"
+      ],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "250–274 CE (Abednego Seller 1696)",
+      "role": "Palmyrene Imperial House Claiming Ptolemaic & Phoenician Royal Bloodlines",
+      "sources": [
+        "Abednego Seller The Antiquities of Palmyra (1696)",
+        "Historia Augusta"
+      ],
+      "notes": "Seller details the rise of Palmyra under Septimius Odaenathus ('King of Kings') and his learned queen Zenobia Bat-Zabbai — who claimed royal ancestry from Egypt's Cleopatra VII and Carthaginian Dido while ruling Syria, Egypt & Anatolia before Aurelian's triumph.",
+      "major": true
+    },
+    {
+      "id": "esp_mariana_tubal_iberia",
+      "name": "Mariana's General History of Spain (1699 Book I Ch. I): Tubal (5th Son of Japheth, 131 yrs after Flood) → Ancient Kings of Spain",
+      "altNames": [
+        "Tubal in Spain",
+        "Hesperia / Celtiberia"
+      ],
+      "tradition": "europe_norse",
+      "tier": 7,
+      "era": "Post-Flood Dispersion (Mariana 1699 Book I Ch. I p. 1)",
+      "role": "Spaniards Traced Directly from Tubal, 5th Son of Japheth",
+      "sources": [
+        "Juan de Mariana The General History of Spain (tr. Stevens 1699) Book I Ch. I p. 1"
+      ],
+      "notes": "Mariana opens his monumental history of Spain (p. 1): 'Tubal, the son of Japheth, was the first man that peopled Spain after the Flood... the 5th son of Japheth, was sent to the farthest regions westward, that is, to Spain, where he founded the Spanish monarchy.'",
+      "major": true
+    },
+    {
+      "id": "esp_visigoths_reccared_roderick",
+      "name": "Visigothic Kingdom of Spain (Mariana 1699): Ataulf → Leovigild → King Reccared I (589 CE) → King Roderick (711 CE)",
+      "altNames": [
+        "Ataulf",
+        "Leovigild",
+        "Reccared I",
+        "King Roderick"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "415–711 CE (Mariana 1699)",
+      "role": "Gothic Sovereigns of Hispania Bridged to Islamic Al-Andalus",
+      "sources": [
+        "Juan de Mariana The General History of Spain (1699)"
+      ],
+      "notes": "Traces Visigothic Hispania from Alaric's successor Ataulf and Toledo unifier Leovigild to King Reccared I (589 CE) and last Visigothic king Roderick (711 CE).",
+      "major": true
+    },
+    {
+      "id": "esp_pelayo_castile_aragon",
+      "name": "Reconquista Spain (Mariana 1699): Don Pelayo of Asturias (718) → Alfonso VI of Castile & Leon → Ferdinand III & James I of Aragon",
+      "altNames": [
+        "Don Pelayo",
+        "Alfonso VI",
+        "St. Ferdinand III",
+        "James I of Aragon"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "718–13th c. CE (Mariana 1699)",
+      "role": "Asturian, Castilian, Leonese & Aragonese Christian Crowns",
+      "sources": [
+        "Juan de Mariana The General History of Spain (1699)"
+      ],
+      "notes": "Follows the Christian continuity from Don Pelayo at Covadonga (718 CE) through Alfonso VI of Castile and Leon (father-in-law of Count Henry of Burgundy/Portugal), St. Ferdinand III, and James I the Conqueror of Aragon.",
+      "major": true
+    },
+    {
+      "id": "esp_ferdinand_isabella_habsburg",
+      "name": "Unified Catholic & Habsburg Spain (Mariana 1699): Ferdinand of Aragon & Isabella of Castile (1492) → Emperor Charles V → King Philip II",
+      "altNames": [
+        "Ferdinand & Isabella",
+        "Emperor Charles V",
+        "King Philip II"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1469–1598 CE (Mariana 1699)",
+      "role": "Unifiers of Aragon & Castile and Spanish Habsburg Dynasty",
+      "sources": [
+        "Juan de Mariana The General History of Spain (1699)"
+      ],
+      "notes": "Unites Castile and Aragon under Ferdinand II and Isabella I (1492), continuing through Joanna the Mad and Philip the Handsome to Emperor Charles V (Charles I of Spain) and King Philip II.",
+      "major": true
+    },
+    {
+      "id": "bri_sammes_phoenicians_britain",
+      "name": "Aylett Sammes's Phoenician Britain (1676): Tyre & Sidon Tin Trade ('Bratanac') + Cimmerian / Gomerite Britons",
+      "altNames": [
+        "Phoenician Britain",
+        "Bratanac (Tin)",
+        "Sammes 1676"
+      ],
+      "tradition": "europe_norse",
+      "tier": 9,
+      "era": "Bronze Age Britain (Aylett Sammes 1676 p. 2)",
+      "role": "Phoenician & Cimmerian-Gomerite Origin of Ancient Britain",
+      "sources": [
+        "Aylett Sammes Antiquities of Ancient Britain (1676) p. 2"
+      ],
+      "notes": "Sammes rejects later fables in favor of classical Phoenician sources, arguing that Phoenician navigators from Sidon and Tyre ('Barat-anac' / land of tin) discovered and settled Britain alongside Gomerite Cimmerian peoples.",
+      "major": true
+    },
+    {
+      "id": "bri_strutt_cassivellaunus_boadicea",
+      "name": "Ancient British Kings vs. Rome (Strutt 1779 & Caesar Commentaries): Cassivellaunus (54 BCE) → Cunobelinus → Caractacus & Queen Boadicea",
+      "altNames": [
+        "Cassivellaunus",
+        "Cunobelinus",
+        "Caractacus",
+        "Boadicea"
+      ],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "55 BCE – 61 CE (Strutt 1779; Julius Caesar Commentaries)",
+      "role": "Pre-Roman & Early Romano-British Dynasty",
+      "sources": [
+        "Joseph Strutt Chronicle of England (1779) p. 3",
+        "Julius Caesar Commentaries"
+      ],
+      "notes": "Combines Caesar's eyewitness Commentaries (55-54 BCE) and Strutt's Chronicle of England: Cassivellaunus (commander against Julius Caesar) -> Tasciovanus -> Cunobelinus ('Cymbeline') -> Caractacus, alongside Iceni Queen Boadicea.",
+      "major": false
+    },
+    {
+      "id": "bri_bede_heptarchy_woden",
+      "name": "Venerable Bede's Anglo-Saxon Heptarchy (731 CE): Hengist & Horsa (from Woden) → King Ethelbert of Kent, Edwin & St. Oswald of Northumbria & Offa of Mercia",
+      "altNames": [
+        "Hengist & Horsa",
+        "Ethelbert of Kent",
+        "St. Oswald",
+        "Offa of Mercia"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "449–796 CE (Venerable Bede 1723 ed.; Strutt 1779)",
+      "role": "Germanic-Wodenic Kingdoms of the Anglo-Saxon Heptarchy",
+      "sources": [
+        "Venerable Bede Ecclesiastical History of the English Nation (1723 ed.)",
+        "Joseph Strutt Chronicle of England (1779)"
+      ],
+      "notes": "Bede explicitly traces Kentish brothers Hengist & Horsa (and fellow Heptarchy dynasties of Kent, Northumbria, Mercia, East Anglia & Wessex) to Woden -> Ethelbert of Kent (baptized 597), St. Edwin & St. Oswald of Northumbria, and Offa of Mercia.",
+      "major": true
+    },
+    {
+      "id": "fra_mezeray_pharamond_clovis",
+      "name": "Mézeray's First Race of France (1683): King Pharamond → Clodion → Meroveus (King III, Defeated Attila 451 CE) → Childeric I → Clovis I",
+      "altNames": [
+        "Pharamond",
+        "Clodion",
+        "Meroveus",
+        "Childeric I"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 420–511 CE (Mézeray 1683 p. 10)",
+      "role": "Salian Frankish Founders of the First Race (Merovingians)",
+      "sources": [
+        "François Eudes de Mézeray General Chronological History of France (1683) p. 10"
+      ],
+      "notes": "Mézeray (1683) documents the First Race of French monarchs from Pharamond and Clodion through Meroveus (King III, p. 10, who allied with Aëtius and Theodoric against Attila at the Catalaunian Plains, 451 CE), Childeric I, and Clovis I.",
+      "major": true
+    },
+    {
+      "id": "por_sandford_burgundy_capet",
+      "name": "Sandford's Genealogical Proof of Portugal (1662): Robert Duke of Burgundy (Capetian Male Line) → Count Henry of Burgundy → Kings of Portugal",
+      "altNames": [
+        "Robert I of Burgundy",
+        "Count Henry of Bourgogne",
+        "Théodore Godefroy"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1032–1112 CE (Francis Sandford 1662 pp. 2-3)",
+      "role": "Strict Agnate Capetian Pedigree Refuting Alternative Legends for Count Henry",
+      "sources": [
+        "Francis Sandford Genealogical History of the Kings of Portugal (1662) pp. 2-3"
+      ],
+      "notes": "Quoting Théodore Godefroy and ancient Fleury manuscripts (pp. 2-3), Sandford demonstrates Count Henry of Burgundy descended in direct male line from Robert the Pious & Robert I, Duke of Burgundy (House of France), marrying Alfonso VI's daughter Teresa in 1089/1090 to found Portugal's crown.",
+      "major": false
+    },
+    {
+      "id": "asm_smith_eponym_canon",
+      "name": "Assyrian Eponym Canon Synchronisms (George Smith 1875): Shalmaneser III (↔ Ahab & Jehu), Tiglath-Pileser III (↔ Uzziah/Menahem/Ahaz) & Sargon II (722 BCE Samaria)",
+      "altNames": [
+        "Limmu Eponym Canon",
+        "George Smith 1875",
+        "Biblical-Assyrian Synchronism"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "860–648 BCE (George Smith Assyrian Eponym Canon 1875)",
+      "role": "Cuneiform Year-by-Year Lock Linking Biblical Kings of Israel & Judah with Assyria",
+      "sources": [
+        "George Smith The Assyrian Eponym Canon (1875) pp. 10-77"
+      ],
+      "notes": "British Museum Assyriologist George Smith edits the limmu eponym canon from Shalmaneser III through Sennacherib and Esarhaddon, locking Biblical reigns (Ahab, Jehu, Uzziah, Menahem, Pekah, Ahaz, Hezekiah & Tirhakah) to astronomical & eponym dates.",
+      "major": true
+    },
+    {
+      "id": "asm_records_past_inscriptions",
+      "name": "Records of the Past Vols. 9 & 11 (Cuneiform & Phoenician): Rimmon-Nirari I, Khorsabad Palace, Sennacherib Nebbi Yunus (46 Cities of Hezekiah), Ashurbanipal & King Eshmunazar of Sidon",
+      "altNames": [
+        "Nebbi Yunus Prism",
+        "Khorsabad Palace",
+        "Rimmon-Nirari I",
+        "Eshmunazar of Sidon"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "1320–5th c. BCE (Records of the Past Vols. 9 & 11)",
+      "role": "Primary Translated Assyrian, Babylonian & Phoenician Royal Inscriptions",
+      "sources": [
+        "Records of the Past Vol. 9 (Oppert, Pinches, George Smith)",
+        "Records of the Past Vol. 11 (Sayce, Budge)"
+      ],
+      "notes": "Primary translations of Adad-nirari I (son of Pudil, grandson of Bel-nirari, great-grandson of Assur-uballit I), Sargon's Khorsabad Annals, Sennacherib's Bavian & Nebbi Yunus inscriptions (46 cities of Hezekiah & Luli/Tubali of Sidon), Ashurbanipal's Cylinder B, and Sidon King Eshmunazar's sarcophagus.",
+      "major": true
+    },
+    {
+      "id": "eg_turin_royal_canon",
+      "name": "The Turin King-List / Royal Canon of Turin (Kim Ryholt): Gods → Spirit Kings (Ax.w / Shemsu-Hor) → Historical Human Pharaohs",
+      "altNames": [
+        "Papyrus Turin 1874",
+        "Ax.w Spirit Kings"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 5,
+      "era": "Ramesside Papyrus inv. 1874 verso (Kim Ryholt)",
+      "role": "Only Native Pre-Ptolemaic True Royal Canon of Ancient Egypt",
+      "sources": [
+        "Kim Ryholt The Turin King-List (Papyrus Turin inv. 1874 verso)"
+      ],
+      "notes": "Ryholt analyzes the 19th-Dynasty Turin King-List structuring Egyptian kingship into three tiers: mythological gods (Cols. I-II, ending in Seth & Horus), spirit/demigod kings (Ax.w / Shemsu-Hor), and exact human pharaohs through the Second Intermediate Period.",
+      "major": true
+    },
+    {
+      "id": "nwt_newton_chronology_1728",
+      "name": "Sir Isaac Newton's Chronology Amended (1728): Sesostris = Shishak (1 Kings 14), Canaanites Fleeing Joshua, Danaus & Nabonassar (747 BCE)",
+      "altNames": [
+        "Sesostris = Shishak",
+        "Canaanites from Joshua",
+        "Newton 1728"
+      ],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Newtonian Synchronism Model (Sir Isaac Newton 1728 pp. 9-93)",
+      "role": "Sir Isaac Newton's Compression of Pagan Chronologies to Biblical Anchors",
+      "sources": [
+        "Sir Isaac Newton The Chronology of Ancient Kingdoms Amended (1728) pp. 9-93"
+      ],
+      "notes": "Newton synchronizes Mediterranean antiquity to Scripture by identifying Egyptian conqueror Sesostris with Biblical Shishak (1 Kings 14), tracing the Canaanite flight from Joshua into Egypt and Greece (Danaus), and anchoring Babylon & Assyria at Pul (747 BCE) and Nabonassar.",
+      "major": true
+    },
+    {
+      "id": "ush_ussher_annals_4004",
+      "name": "Archbishop Ussher's Annals of the World (1658), Blair (1753), Guthrie (1764) & Betham Tables (1795): Universal Biblical-Classical Chronology (4004 BCE – 70 CE)",
+      "altNames": [
+        "Ussher 4004 BCE",
+        "Guthrie 13 Vols",
+        "Blair 1753"
+      ],
+      "tradition": "biblical",
+      "tier": 4,
+      "era": "Universal Chronography (Ussher 1658 p. 7; Blair 1753; Guthrie 1764; Betham 1795)",
+      "role": "Grand Comparative Synchronism Unifying Creation, Patriarchs, Egypt & Greece",
+      "sources": [
+        "Archbishop James Ussher Annals of the World (1658) p. 7",
+        "John Blair Chronology (1753)",
+        "Guthrie & Gray General History (1764 Vols. 1-13)",
+        "William Betham Genealogical Tables (1795)"
+      ],
+      "notes": "Ussher's Annals (with Blair's Tables, Guthrie & Gray's 13-volume Universal History, the Universal History of the Holy Bible & British Family Bible) align Creation (4004 BCE), the Flood, Abraham, Jacob, Sicyon/Argos (Aegialeus/Inachus), and Manetho's Hyksos Pharaohs into one continuous timeline.",
+      "major": true
+    },
+    {
+      "id": "jus_trogus_jews_moses",
+      "name": "Justin / Pompeius Trogus Book XXXVI (Pagan Roman Testimony): Damascus → Abraham → Israhel (Jacob) → Judah, Joseph in Egypt & Moses",
+      "altNames": [
+        "Trogus Book XXXVI",
+        "Israhel & Judas",
+        "Pagan Testimony"
+      ],
+      "tradition": "biblical",
+      "tier": 11,
+      "era": "1st c. BCE / 2nd c. CE (Justin Epitome of Pompeius Trogus XXXVI.2)",
+      "role": "Independent Greco-Roman Ethnographic Summary of Israelite Origins",
+      "sources": [
+        "Justin / Pompeius Trogus Book XXXVI (Watson 1853 p. 245)"
+      ],
+      "notes": "Trogus & Justin independently attest Hebrew patriarchs as historical kings/rulers in Syria ('Damascus -> Azelus -> Adores -> Abraham -> Israhel' with ten/twelve sons, Judas, Joseph in Egyptian dreamcraft & magic, and Moses leading the Exodus).",
+      "major": true
+    },
+    {
+      "id": "jus_parthians_scythians",
+      "name": "Justin Book XLI (Scythian Origin of Parthia): Exiled Scythians ('Parthi') → King Arsaces I → Mithridates I → Phraates",
+      "altNames": [
+        "Scythian Parthi",
+        "Arsaces I",
+        "Mithridates I"
+      ],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "247 BCE – 20 CE (Justin Epitome Book XLI pp. 272-297)",
+      "role": "Classical Testimony Tracing the Arsacid Parthian Empire to Scythia",
+      "sources": [
+        "Justin / Pompeius Trogus Book XLI (Watson 1853 pp. 272-297)"
+      ],
+      "notes": "Justin Book XLI explains that the Parthians — rivals who divided the world with Rome — originated as 'Parthi' (exiles) from Scythia before rising under Arsaces I, Mithridates I, and Phraates.",
+      "major": false
+    },
+    {
+      "id": "rom_suetonius_herodian_severans",
+      "name": "Suetonius (Twelve Caesars), Pliny & Herodian: Commodus → Pertinax → Septimius Severus → Caracalla → Elagabalus → Severus Alexander",
+      "altNames": [
+        "Twelve Caesars",
+        "Septimius Severus",
+        "Severus Alexander"
+      ],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "49 BCE – 238 CE (Suetonius; Pliny; Herodian; Basil Kennett)",
+      "role": "Julio-Claudian / Flavian Documentation & Severan Roman Emperors",
+      "sources": [
+        "Suetonius Lives of the Twelve Caesars",
+        "Herodian History of the Roman Emperors (1689 / 1749)",
+        "Pliny Panegyrick on Trajan",
+        "Basil Kennett Antiquities of Rome"
+      ],
+      "notes": "Combines Suetonius's biographies of the Twelve Caesars, Pliny's Panegyrick on Trajan, Kennett's Roman Antiquities, and Herodian's eyewitness narrative from Marcus Aurelius & Commodus through Pertinax, Septimius Severus (campaigns in Britain), Caracalla, Elagabalus, and Severus Alexander.",
+      "major": true
+    },
+    {
+      "id": "cls_herodotus_polybius_bridge",
+      "name": "Herodotus (Egypt, Persia & Greece) & Polybius (Punic Wars / Scipio & Hannibal): Classical Mediterranean Synchronisms",
+      "altNames": [
+        "Herodotus Father of History",
+        "Polybius Punic Bridge"
+      ],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "5th–2nd c. BCE (Herodotus Vols. 1-2; Polybius Books I-V)",
+      "role": "Father of History (Egypt/Cyrus/Xerxes) & Carthage–Rome Constitutional Bridge",
+      "sources": [
+        "Herodotus Egyptian and Grecian History (Vols. 1-2)",
+        "Polybius General History in Five Books"
+      ],
+      "notes": "Anchors Achaemenid, Saitic Egyptian, and Ionian/Athenian lineages (Herodotus Vols. 1-2) alongside Polybius's analytical account of the Punic Wars uniting Barcid Carthage, Numidia, Hellenistic Macedon/Seleucids, and Republican Rome.",
+      "major": false
+    },
+    {
+      "id": "nt_cradock_apostolic_missions",
+      "name": "Cradock's Apostolical History (1672): Global Missions of the Apostles — Paul's 5 Journeys to Rome, Peter, James, John, Thomas & the Early Churches",
+      "altNames": [
+        "Paul's 5 Journeys",
+        "Apostolic Churches"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "30–68 CE (Samuel Cradock 1672)",
+      "role": "Complete Narrative Chronotaxis of the Apostolic Era & Epistles",
+      "sources": [
+        "Samuel Cradock The Apostolical History (1672) Preface"
+      ],
+      "notes": "Cradock maps all five missionary journeys of Apostle Paul (Syria, Cyprus, Galatia, Macedonia, Greece, Ephesus & Rome), alongside the churches founded by Peter, James, John, and the Twelve Apostles.",
+      "major": true
     }
   ],
   "edges": [
@@ -30137,6 +30672,474 @@
       "to": "ral_east_indies_shem",
       "type": "cognate",
       "label": "Erythraean Sea monsoon route linking Red Sea, Sheba & Ophir directly to India"
+    },
+    {
+      "from": "bib_joktan",
+      "to": "sng_za_al_ayaman",
+      "type": "syncretic",
+      "label": "Tarikh es-Soudan Ch. 1 pp. 36-38: Za-Al-Ayaman ('dja men el-Yemen') originates in Yemeni / Qahtanite migration to the Niger River"
+    },
+    {
+      "from": "bir_himyar_lakhmid_ghassan",
+      "to": "sng_za_al_ayaman",
+      "type": "syncretic",
+      "label": "Yemeni royal dispersion tradition connecting South Arabia to Kukya / Songhai (Tarikh es-Soudan)"
+    },
+    {
+      "from": "bib_moses",
+      "to": "sng_za_al_ayaman",
+      "type": "syncretic",
+      "label": "Tarikh es-Soudan p. 37 records traditional association of Kukya antiquity with Pharaoh's magicians vs. Moses"
+    },
+    {
+      "from": "sng_za_al_ayaman",
+      "to": "sng_sonni_askia_timbuktu",
+      "type": "direct",
+      "label": "Tarikh es-Soudan Ch. 2-3 pp. 39-44: Za-Yasiboy -> Sonni Ali-Kolon -> Sonni Ali -> Askia El-Hadj Mohammed"
+    },
+    {
+      "from": "af_sundiata",
+      "to": "sng_sonni_askia_timbuktu",
+      "type": "cognate",
+      "label": "Tarikh es-Soudan pp. 36, 42-44: Kankan-Mousa (Mansa Musa of Mali) -> liberation of Songhai under Sonni Ali-Kolon"
+    },
+    {
+      "from": "isl_umayyad_abbasid_fatimid",
+      "to": "hak_futuh_misr_andalus",
+      "type": "expansion",
+      "label": "Ibn 'Abd al-Hakam Futuh Misr: Quraysh/Companions & Umayyad commanders across Egypt, Maghreb & Spain"
+    },
+    {
+      "from": "bib_mizraim",
+      "to": "hak_futuh_misr_andalus",
+      "type": "cognate",
+      "label": "Futuh Misr opens with pre-Islamic traditions of Misr/Egypt before 'Amr ibn al-'As"
+    },
+    {
+      "from": "ber_branes_botr",
+      "to": "hak_futuh_misr_andalus",
+      "type": "cognate",
+      "label": "Futuh Misr documents Uqba ibn Nafi & Tariq ibn Ziyad alongside North African Berber tribes"
+    },
+    {
+      "from": "bib_cush",
+      "to": "cdp_ariba_cush_amaliqa",
+      "type": "syncretic",
+      "label": "Caussin de Perceval Vol. 1 p. 21: Ancient Jewish & Arab traditions placing Cushites across Arabia prior to Ethiopia"
+    },
+    {
+      "from": "tab_ad_thamud_hud_salih",
+      "to": "cdp_ariba_cush_amaliqa",
+      "type": "cognate",
+      "label": "Caussin de Perceval Vol. 1 pp. 28-32: 'Ad, Prophet Hud & survivor Loqman"
+    },
+    {
+      "from": "tab_lud_amalek_tasm",
+      "to": "cdp_ariba_cush_amaliqa",
+      "type": "cognate",
+      "label": "Caussin de Perceval Vol. 1 pp. 35-39: Amaliqa & Samayda princes of Ayla on the Red Sea"
+    },
+    {
+      "from": "bib_joktan",
+      "to": "cdp_qahtan_adnan_tribes",
+      "type": "direct",
+      "label": "Caussin de Perceval Vol. 1 p. 23: Qahtan (Yoktan/Joktan b. Eber) progenitor of Yemenite Arab tribes"
+    },
+    {
+      "from": "bib_ishmael",
+      "to": "cdp_qahtan_adnan_tribes",
+      "type": "expansion",
+      "label": "Caussin de Perceval Vol. 1 p. 23: Ishmael b. Abraham -> Adnanite northern tribes"
+    },
+    {
+      "from": "ar_adnan_quraysh",
+      "to": "cdp_qahtan_adnan_tribes",
+      "type": "cognate",
+      "label": "Same Adnan -> Ma'add -> Nizar northern Arab tribal genealogy"
+    },
+    {
+      "from": "bir_himyar_lakhmid_ghassan",
+      "to": "cdp_qahtan_adnan_tribes",
+      "type": "cognate",
+      "label": "Southern Qahtanite confederations (Himyar, Lakhm, Ghassan, Kindah) mapped in Caussin de Perceval Vol. 1"
+    },
+    {
+      "from": "keb_kaleb_gabramaskal_yekuno",
+      "to": "eth_ludolf_kaleb_himyar",
+      "type": "cognate",
+      "label": "Ludolf 1684 pp. 166-167: Detailed synchronism of King Kaleb (Elesbaan) of Aksum with Himyar"
+    },
+    {
+      "from": "bir_himyar_lakhmid_ghassan",
+      "to": "eth_ludolf_kaleb_himyar",
+      "type": "cognate",
+      "label": "Ludolf 1684 pp. 166-167: Dhu Nuwas, Abreha & Saif ibn Dhi Yazan of the Homerites (Himyar)"
+    },
+    {
+      "from": "bir_sasanians_complete",
+      "to": "eth_ludolf_kaleb_himyar",
+      "type": "cognate",
+      "label": "Ludolf 1684 p. 166: Khosrow I Anushirvan aids Saif ibn Dhi Yazan in Yemen"
+    },
+    {
+      "from": "eth_haile_selassie",
+      "to": "eth_ludolf_gondar_kings",
+      "type": "expansion",
+      "label": "Ludolf 1684: Solomonic line Lebna Dengel -> Galawdewos -> Susenyos -> Fasilides (Gondar)"
+    },
+    {
+      "from": "jud_solomon",
+      "to": "pal_solomon_aretas_tadmor",
+      "type": "direct",
+      "label": "Seller 1696 & 1 Kings 9:18: King Solomon built Tadmor / Palmyra in the Syrian desert"
+    },
+    {
+      "from": "bib_ishmael",
+      "to": "pal_solomon_aretas_tadmor",
+      "type": "expansion",
+      "label": "Seller 1696 connects Nabataean Arabs under King Aretas directly with Palmyrene desert sovereignty"
+    },
+    {
+      "from": "her_antipater_cypros",
+      "to": "pal_solomon_aretas_tadmor",
+      "type": "cognate",
+      "label": "Nabataean royal dynasty of Petra allied/intermarried with Idumeans & Herodians"
+    },
+    {
+      "from": "bir_himyar_lakhmid_ghassan",
+      "to": "pal_solomon_aretas_tadmor",
+      "type": "cognate",
+      "label": "Seller 1696 Preface explicitly identifies Appian's Aretas with the Al-Harith princes of Ghassan"
+    },
+    {
+      "from": "pal_solomon_aretas_tadmor",
+      "to": "pal_odenathus_zenobia",
+      "type": "expansion",
+      "label": "Seller 1696: Imperial Palmyra rising to Odaenathus, Queen Zenobia & Vaballathus"
+    },
+    {
+      "from": "eg_ptolemies_complete",
+      "to": "pal_odenathus_zenobia",
+      "type": "syncretic",
+      "label": "Seller 1696 & Historia Augusta: Queen Zenobia claimed descent from Cleopatra VII of Egypt"
+    },
+    {
+      "from": "grk_dido_carthage",
+      "to": "pal_odenathus_zenobia",
+      "type": "syncretic",
+      "label": "Seller 1696: Palmyrene tradition linking Zenobia's Syrian lineage with Dido of Tyre/Carthage"
+    },
+    {
+      "from": "rom_echard_imperial_bridge",
+      "to": "pal_odenathus_zenobia",
+      "type": "cognate",
+      "label": "Emperor Aurelian defeats Zenobia (272-274 CE) and integrates Palmyra into Rome"
+    },
+    {
+      "from": "bib_tubal",
+      "to": "esp_mariana_tubal_iberia",
+      "type": "syncretic",
+      "label": "Mariana 1699 Book I Ch. I p. 1: Tubal, 5th son of Japheth, first settled and founded the monarchy of Spain"
+    },
+    {
+      "from": "eur_tubal_spain",
+      "to": "esp_mariana_tubal_iberia",
+      "type": "cognate",
+      "label": "Same Japheth -> Tubal progenitor tradition across Josephus, Anderson & Mariana (1699)"
+    },
+    {
+      "from": "goth_amali_theoderic",
+      "to": "esp_visigoths_reccared_roderick",
+      "type": "direct",
+      "label": "Visigothic Balti succession from Alaric I -> Ataulf -> Leovigild -> Reccared -> Roderick (Mariana 1699)"
+    },
+    {
+      "from": "esp_mariana_tubal_iberia",
+      "to": "esp_visigoths_reccared_roderick",
+      "type": "expansion",
+      "label": "Hispania continuity from ancient Iberian realms into Visigothic Toledo (Mariana 1699)"
+    },
+    {
+      "from": "hak_futuh_misr_andalus",
+      "to": "esp_visigoths_reccared_roderick",
+      "type": "cognate",
+      "label": "711 CE conquest of Visigothic Spain recorded by both Ibn 'Abd al-Hakam & Mariana"
+    },
+    {
+      "from": "esp_visigoths_reccared_roderick",
+      "to": "esp_pelayo_castile_aragon",
+      "type": "expansion",
+      "label": "Mariana 1699: Visigothic noble Don Pelayo rallies Asturias (718 CE) -> Kings of Leon, Castile & Aragon"
+    },
+    {
+      "from": "esp_pelayo_castile_aragon",
+      "to": "esp_ferdinand_isabella_habsburg",
+      "type": "direct",
+      "label": "Mariana 1699: Direct Castile-Aragon marriage union (1469) -> Charles V -> Philip II"
+    },
+    {
+      "from": "esp_pelayo_castile_aragon",
+      "to": "por_afonso_henriques",
+      "type": "direct",
+      "label": "Sandford 1662 p. 3 & Mariana: King Alfonso VI of Castile gives daughter Teresa & County of Portugal to Henry of Burgundy"
+    },
+    {
+      "from": "bib_sidon",
+      "to": "bri_sammes_phoenicians_britain",
+      "type": "syncretic",
+      "label": "Sammes 1676 p. 2: Phoenician merchants from Sidon & Tyre colonized tin-rich Britain ('Bratanac')"
+    },
+    {
+      "from": "bib_canaan",
+      "to": "bri_sammes_phoenicians_britain",
+      "type": "syncretic",
+      "label": "Canaanite-Phoenician westward maritime expansion to Britain (Sammes 1676)"
+    },
+    {
+      "from": "eur_gomer_samothes_gaul",
+      "to": "bri_sammes_phoenicians_britain",
+      "type": "syncretic",
+      "label": "Sammes 1676 links early Britons with Continental Cimmerian / Gomerite peoples"
+    },
+    {
+      "from": "eur_brutus_troy",
+      "to": "bri_sammes_phoenicians_britain",
+      "type": "cognate",
+      "label": "Sammes 1676 critiques Brutus legend while mapping pre-Roman British antiquities"
+    },
+    {
+      "from": "bri_sammes_phoenicians_britain",
+      "to": "bri_strutt_cassivellaunus_boadicea",
+      "type": "expansion",
+      "label": "Pre-Roman British tribal continuity to Cassivellaunus, Cunobelinus & Caractacus (Strutt 1779 & Caesar)"
+    },
+    {
+      "from": "grk_julius_augustus",
+      "to": "bri_strutt_cassivellaunus_boadicea",
+      "type": "cognate",
+      "label": "Julius Caesar's 55-54 BCE British expeditions against Cassivellaunus (Caesar Commentaries; Strutt p. 3)"
+    },
+    {
+      "from": "eur_wessex_alfred_norman",
+      "to": "bri_bede_heptarchy_woden",
+      "type": "expansion",
+      "label": "Venerable Bede: Wodenic Heptarchy pedigrees shared with Cerdic & Wessex"
+    },
+    {
+      "from": "bri_strutt_cassivellaunus_boadicea",
+      "to": "bri_bede_heptarchy_woden",
+      "type": "expansion",
+      "label": "Strutt Chronicle of England: Transition from Romano-Britons to Hengist, Horsa & Anglo-Saxon Heptarchy"
+    },
+    {
+      "from": "eur_merovingian_carolingian",
+      "to": "fra_mezeray_pharamond_clovis",
+      "type": "cognate",
+      "label": "Mézeray 1683 p. 10 documents Pharamond -> Clodion -> Meroveus -> Childeric -> Clovis I"
+    },
+    {
+      "from": "fra_capet_stlouis",
+      "to": "por_sandford_burgundy_capet",
+      "type": "direct",
+      "label": "Sandford 1662 pp. 2-3 (Godefroy): Robert II of France -> Robert I Duke of Burgundy -> Count Henry of Burgundy"
+    },
+    {
+      "from": "por_sandford_burgundy_capet",
+      "to": "por_afonso_henriques",
+      "type": "direct",
+      "label": "Sandford 1662 p. 3: Count Henry of Burgundy + Teresa of Castile -> King Afonso I Henriques"
+    },
+    {
+      "from": "for_neo_assyria",
+      "to": "asm_smith_eponym_canon",
+      "type": "cognate",
+      "label": "George Smith 1875 edits the Assyrian Eponym Canon directly underlying Neo-Assyrian royal chronology"
+    },
+    {
+      "from": "asm_smith_eponym_canon",
+      "to": "kg_i3_omri_ahab",
+      "type": "cognate",
+      "label": "Shalmaneser III Kurkh Monolith / Eponym Canon synchronizes 853 BCE Battle of Qarqar with Ahab of Israel"
+    },
+    {
+      "from": "asm_smith_eponym_canon",
+      "to": "kg_i4_jehu",
+      "type": "cognate",
+      "label": "Black Obelisk & Eponym Canon record tribute of Jehu ('Son of Omri') to Shalmaneser III"
+    },
+    {
+      "from": "asm_smith_eponym_canon",
+      "to": "kg_i5_hoshea",
+      "type": "cognate",
+      "label": "Eponym Canon fixes Tiglath-Pileser III (Menahem/Pekah/Hoshea) and Sargon II's 722 BCE fall of Samaria"
+    },
+    {
+      "from": "for_neo_assyria",
+      "to": "asm_records_past_inscriptions",
+      "type": "cognate",
+      "label": "Records of the Past Vols. 9 & 11 provide full translations of Rimmon-Nirari I, Khorsabad, Nebbi Yunus & Ashurbanipal"
+    },
+    {
+      "from": "asm_records_past_inscriptions",
+      "to": "kg_j9_hezekiah",
+      "type": "cognate",
+      "label": "Records of the Past Vol. 11 p. 47 (Nebbi Yunus): Sennacherib captures 46 fortified cities of Hezekiah"
+    },
+    {
+      "from": "asm_records_past_inscriptions",
+      "to": "af_taharqa",
+      "type": "cognate",
+      "label": "George Smith (Vol. 9) & Esarhaddon/Ashurbanipal texts detail Assyrian campaigns against Pharaoh Tirhakah (Taharqa)"
+    },
+    {
+      "from": "asm_records_past_inscriptions",
+      "to": "bib_sidon",
+      "type": "cognate",
+      "label": "Records of the Past Vol. 9 p. 109 (Eshmunazar of Sidon) & Vol. 11 p. 51 (Luli/Tubali of Sidon)"
+    },
+    {
+      "from": "asm_records_past_inscriptions",
+      "to": "ir_cyrus",
+      "type": "cognate",
+      "label": "Records of the Past Vol. 9 p. 67 translates the Persian Inscriptions of Cyrus the Achaemenian"
+    },
+    {
+      "from": "eg_manetho_demigods",
+      "to": "eg_turin_royal_canon",
+      "type": "cognate",
+      "label": "Kim Ryholt compares the native Papyrus Turin Royal Canon (Gods -> Ax.w -> Pharaohs) with Manetho"
+    },
+    {
+      "from": "eg_turin_royal_canon",
+      "to": "eg_dyn15_17_hyksos_thebes",
+      "type": "cognate",
+      "label": "Turin King-List spans Egyptian pharaohs down to the end of the Second Intermediate Period / Hyksos"
+    },
+    {
+      "from": "eg_shoshenq1",
+      "to": "nwt_newton_chronology_1728",
+      "type": "syncretic",
+      "label": "Isaac Newton 1728 identifies Egyptian conqueror Sesostris directly with Biblical Shishak (Shoshenq I)"
+    },
+    {
+      "from": "kg_j1_rehoboam",
+      "to": "nwt_newton_chronology_1728",
+      "type": "cognate",
+      "label": "Newton anchors Shishak's invasion in the 5th year of King Rehoboam (1 Kings 14)"
+    },
+    {
+      "from": "bib_joshua_caleb",
+      "to": "nwt_newton_chronology_1728",
+      "type": "syncretic",
+      "label": "Newton 1728 p. 10: Canaanites fleeing Joshua migrate into Egypt and across the Mediterranean"
+    },
+    {
+      "from": "bib_canaan",
+      "to": "nwt_newton_chronology_1728",
+      "type": "syncretic",
+      "label": "Canaanite/Phoenician mariners spreading letters and navigation west (Newton 1728)"
+    },
+    {
+      "from": "grk_aegyptus_danaus",
+      "to": "nwt_newton_chronology_1728",
+      "type": "syncretic",
+      "label": "Newton 1728 p. 71 synchronizes Danaus's flight from Egypt into Greece with Shishak's era"
+    },
+    {
+      "from": "bib_noah",
+      "to": "ush_ussher_annals_4004",
+      "type": "expansion",
+      "label": "Ussher (1658), Blair (1753) & Guthrie (1764) frame universal world history from Creation and Noah's Flood"
+    },
+    {
+      "from": "ush_ussher_annals_4004",
+      "to": "bib_abraham",
+      "type": "cognate",
+      "label": "Ussher 1658 p. 6-7 fixes Terah, Abraham, Isaac, Jacob & Arphaxad/Salah patriarchal years"
+    },
+    {
+      "from": "ush_ussher_annals_4004",
+      "to": "eg_dyn15_17_hyksos_thebes",
+      "type": "cognate",
+      "label": "Ussher 1658 p. 7 (citing Manetho, Apion & Josephus) equates Hyksos expulsion with early Israelite-Egyptian synchronisms"
+    },
+    {
+      "from": "bib_abraham",
+      "to": "jus_trogus_jews_moses",
+      "type": "cognate",
+      "label": "Justin Book XXXVI (Watson 1853 p. 245) names Abraham and Israhel among ancient Syrian rulers"
+    },
+    {
+      "from": "bib_jacob",
+      "to": "jus_trogus_jews_moses",
+      "type": "cognate",
+      "label": "Justin XXXVI.2 records Israhel dividing his people under his sons and Joseph's rise in Egypt"
+    },
+    {
+      "from": "bib_moses",
+      "to": "jus_trogus_jews_moses",
+      "type": "cognate",
+      "label": "Justin XXXVI.2 documents Moses leading Israel out of Egypt toward Sinai"
+    },
+    {
+      "from": "bib_magog",
+      "to": "jus_parthians_scythians",
+      "type": "syncretic",
+      "label": "Justin XLI.1 derives the Parthians as exiles ('Parthi') from Scythia (Magog horizon)"
+    },
+    {
+      "from": "bir_parthians_ashkanians",
+      "to": "jus_parthians_scythians",
+      "type": "cognate",
+      "label": "Same Arsacid Parthian dynasty (Arsaces I -> Mithridates -> Artabanus) across Al-Biruni & Justin"
+    },
+    {
+      "from": "rom_julio_claudians",
+      "to": "rom_suetonius_herodian_severans",
+      "type": "cognate",
+      "label": "Suetonius Twelve Caesars covers Julius Caesar & Julio-Claudians -> Flavians"
+    },
+    {
+      "from": "rom_echard_imperial_bridge",
+      "to": "rom_suetonius_herodian_severans",
+      "type": "expansion",
+      "label": "Herodian extends Imperial Rome from Marcus Aurelius & Commodus across the Severan dynasty (180-238 CE)"
+    },
+    {
+      "from": "ir_cyrus",
+      "to": "cls_herodotus_polybius_bridge",
+      "type": "cognate",
+      "label": "Herodotus Books I-III chronicle Cyrus, Cambyses & Darius across Lydia, Babylon & Egypt"
+    },
+    {
+      "from": "grk_dido_carthage",
+      "to": "cls_herodotus_polybius_bridge",
+      "type": "cognate",
+      "label": "Polybius Books I-V chronicle Carthaginian-Roman Punic Wars"
+    },
+    {
+      "from": "rom_echard_imperial_bridge",
+      "to": "cls_herodotus_polybius_bridge",
+      "type": "cognate",
+      "label": "Roman Mediterranean hegemony documented in Polybius & Livy"
+    },
+    {
+      "from": "nt_jesus",
+      "to": "nt_cradock_apostolic_missions",
+      "type": "expansion",
+      "label": "Cradock Apostolical History (1672): Post-Resurrection commissions of the Apostles"
+    },
+    {
+      "from": "nt_paul",
+      "to": "nt_cradock_apostolic_missions",
+      "type": "expansion",
+      "label": "Cradock 1672 Preface maps Paul's five apostolic journeys from Antioch to Rome (63 CE)"
+    },
+    {
+      "from": "nt_remaining_apostles",
+      "to": "nt_cradock_apostolic_missions",
+      "type": "expansion",
+      "label": "Cradock 1672 summarizes acts and epistles of Peter, James, John & the Twelve"
     }
   ]
 }

@@ -1,0 +1,290 @@
+{
+  "module": "34_spain_britain_france_portugal_chronicles",
+  "title": "Mariana's Spain (from Tubal), Sammes's Phoenician Britain, Strutt & Bede's Heptarchy, Mézeray's France & Sandford's Portugal",
+  "nodes": [
+    {
+      "id": "esp_mariana_tubal_iberia",
+      "name": "Mariana's General History of Spain (1699 Book I Ch. I): Tubal (5th Son of Japheth, 131 yrs after Flood) → Ancient Kings of Spain",
+      "altNames": [
+        "Tubal in Spain",
+        "Hesperia / Celtiberia"
+      ],
+      "tradition": "europe_norse",
+      "tier": 7,
+      "era": "Post-Flood Dispersion (Mariana 1699 Book I Ch. I p. 1)",
+      "role": "Spaniards Traced Directly from Tubal, 5th Son of Japheth",
+      "sources": [
+        "Juan de Mariana The General History of Spain (tr. Stevens 1699) Book I Ch. I p. 1"
+      ],
+      "notes": "Mariana opens his monumental history of Spain (p. 1): 'Tubal, the son of Japheth, was the first man that peopled Spain after the Flood... the 5th son of Japheth, was sent to the farthest regions westward, that is, to Spain, where he founded the Spanish monarchy.'",
+      "major": true
+    },
+    {
+      "id": "esp_visigoths_reccared_roderick",
+      "name": "Visigothic Kingdom of Spain (Mariana 1699): Ataulf → Leovigild → King Reccared I (589 CE) → King Roderick (711 CE)",
+      "altNames": [
+        "Ataulf",
+        "Leovigild",
+        "Reccared I",
+        "King Roderick"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "415–711 CE (Mariana 1699)",
+      "role": "Gothic Sovereigns of Hispania Bridged to Islamic Al-Andalus",
+      "sources": [
+        "Juan de Mariana The General History of Spain (1699)"
+      ],
+      "notes": "Traces Visigothic Hispania from Alaric's successor Ataulf and Toledo unifier Leovigild to King Reccared I (589 CE) and last Visigothic king Roderick (711 CE).",
+      "major": true
+    },
+    {
+      "id": "esp_pelayo_castile_aragon",
+      "name": "Reconquista Spain (Mariana 1699): Don Pelayo of Asturias (718) → Alfonso VI of Castile & Leon → Ferdinand III & James I of Aragon",
+      "altNames": [
+        "Don Pelayo",
+        "Alfonso VI",
+        "St. Ferdinand III",
+        "James I of Aragon"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "718–13th c. CE (Mariana 1699)",
+      "role": "Asturian, Castilian, Leonese & Aragonese Christian Crowns",
+      "sources": [
+        "Juan de Mariana The General History of Spain (1699)"
+      ],
+      "notes": "Follows the Christian continuity from Don Pelayo at Covadonga (718 CE) through Alfonso VI of Castile and Leon (father-in-law of Count Henry of Burgundy/Portugal), St. Ferdinand III, and James I the Conqueror of Aragon.",
+      "major": true
+    },
+    {
+      "id": "esp_ferdinand_isabella_habsburg",
+      "name": "Unified Catholic & Habsburg Spain (Mariana 1699): Ferdinand of Aragon & Isabella of Castile (1492) → Emperor Charles V → King Philip II",
+      "altNames": [
+        "Ferdinand & Isabella",
+        "Emperor Charles V",
+        "King Philip II"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1469–1598 CE (Mariana 1699)",
+      "role": "Unifiers of Aragon & Castile and Spanish Habsburg Dynasty",
+      "sources": [
+        "Juan de Mariana The General History of Spain (1699)"
+      ],
+      "notes": "Unites Castile and Aragon under Ferdinand II and Isabella I (1492), continuing through Joanna the Mad and Philip the Handsome to Emperor Charles V (Charles I of Spain) and King Philip II.",
+      "major": true
+    },
+    {
+      "id": "bri_sammes_phoenicians_britain",
+      "name": "Aylett Sammes's Phoenician Britain (1676): Tyre & Sidon Tin Trade ('Bratanac') + Cimmerian / Gomerite Britons",
+      "altNames": [
+        "Phoenician Britain",
+        "Bratanac (Tin)",
+        "Sammes 1676"
+      ],
+      "tradition": "europe_norse",
+      "tier": 9,
+      "era": "Bronze Age Britain (Aylett Sammes 1676 p. 2)",
+      "role": "Phoenician & Cimmerian-Gomerite Origin of Ancient Britain",
+      "sources": [
+        "Aylett Sammes Antiquities of Ancient Britain (1676) p. 2"
+      ],
+      "notes": "Sammes rejects later fables in favor of classical Phoenician sources, arguing that Phoenician navigators from Sidon and Tyre ('Barat-anac' / land of tin) discovered and settled Britain alongside Gomerite Cimmerian peoples.",
+      "major": true
+    },
+    {
+      "id": "bri_strutt_cassivellaunus_boadicea",
+      "name": "Ancient British Kings vs. Rome (Strutt 1779 & Caesar Commentaries): Cassivellaunus (54 BCE) → Cunobelinus → Caractacus & Queen Boadicea",
+      "altNames": [
+        "Cassivellaunus",
+        "Cunobelinus",
+        "Caractacus",
+        "Boadicea"
+      ],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "55 BCE – 61 CE (Strutt 1779; Julius Caesar Commentaries)",
+      "role": "Pre-Roman & Early Romano-British Dynasty",
+      "sources": [
+        "Joseph Strutt Chronicle of England (1779) p. 3",
+        "Julius Caesar Commentaries"
+      ],
+      "notes": "Combines Caesar's eyewitness Commentaries (55-54 BCE) and Strutt's Chronicle of England: Cassivellaunus (commander against Julius Caesar) -> Tasciovanus -> Cunobelinus ('Cymbeline') -> Caractacus, alongside Iceni Queen Boadicea.",
+      "major": false
+    },
+    {
+      "id": "bri_bede_heptarchy_woden",
+      "name": "Venerable Bede's Anglo-Saxon Heptarchy (731 CE): Hengist & Horsa (from Woden) → King Ethelbert of Kent, Edwin & St. Oswald of Northumbria & Offa of Mercia",
+      "altNames": [
+        "Hengist & Horsa",
+        "Ethelbert of Kent",
+        "St. Oswald",
+        "Offa of Mercia"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "449–796 CE (Venerable Bede 1723 ed.; Strutt 1779)",
+      "role": "Germanic-Wodenic Kingdoms of the Anglo-Saxon Heptarchy",
+      "sources": [
+        "Venerable Bede Ecclesiastical History of the English Nation (1723 ed.)",
+        "Joseph Strutt Chronicle of England (1779)"
+      ],
+      "notes": "Bede explicitly traces Kentish brothers Hengist & Horsa (and fellow Heptarchy dynasties of Kent, Northumbria, Mercia, East Anglia & Wessex) to Woden -> Ethelbert of Kent (baptized 597), St. Edwin & St. Oswald of Northumbria, and Offa of Mercia.",
+      "major": true
+    },
+    {
+      "id": "fra_mezeray_pharamond_clovis",
+      "name": "Mézeray's First Race of France (1683): King Pharamond → Clodion → Meroveus (King III, Defeated Attila 451 CE) → Childeric I → Clovis I",
+      "altNames": [
+        "Pharamond",
+        "Clodion",
+        "Meroveus",
+        "Childeric I"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 420–511 CE (Mézeray 1683 p. 10)",
+      "role": "Salian Frankish Founders of the First Race (Merovingians)",
+      "sources": [
+        "François Eudes de Mézeray General Chronological History of France (1683) p. 10"
+      ],
+      "notes": "Mézeray (1683) documents the First Race of French monarchs from Pharamond and Clodion through Meroveus (King III, p. 10, who allied with Aëtius and Theodoric against Attila at the Catalaunian Plains, 451 CE), Childeric I, and Clovis I.",
+      "major": true
+    },
+    {
+      "id": "por_sandford_burgundy_capet",
+      "name": "Sandford's Genealogical Proof of Portugal (1662): Robert Duke of Burgundy (Capetian Male Line) → Count Henry of Burgundy → Kings of Portugal",
+      "altNames": [
+        "Robert I of Burgundy",
+        "Count Henry of Bourgogne",
+        "Théodore Godefroy"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1032–1112 CE (Francis Sandford 1662 pp. 2-3)",
+      "role": "Strict Agnate Capetian Pedigree Refuting Alternative Legends for Count Henry",
+      "sources": [
+        "Francis Sandford Genealogical History of the Kings of Portugal (1662) pp. 2-3"
+      ],
+      "notes": "Quoting Théodore Godefroy and ancient Fleury manuscripts (pp. 2-3), Sandford demonstrates Count Henry of Burgundy descended in direct male line from Robert the Pious & Robert I, Duke of Burgundy (House of France), marrying Alfonso VI's daughter Teresa in 1089/1090 to found Portugal's crown.",
+      "major": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "bib_tubal",
+      "to": "esp_mariana_tubal_iberia",
+      "type": "syncretic",
+      "label": "Mariana 1699 Book I Ch. I p. 1: Tubal, 5th son of Japheth, first settled and founded the monarchy of Spain"
+    },
+    {
+      "from": "eur_tubal_spain",
+      "to": "esp_mariana_tubal_iberia",
+      "type": "cognate",
+      "label": "Same Japheth -> Tubal progenitor tradition across Josephus, Anderson & Mariana (1699)"
+    },
+    {
+      "from": "goth_amali_theoderic",
+      "to": "esp_visigoths_reccared_roderick",
+      "type": "direct",
+      "label": "Visigothic Balti succession from Alaric I -> Ataulf -> Leovigild -> Reccared -> Roderick (Mariana 1699)"
+    },
+    {
+      "from": "esp_mariana_tubal_iberia",
+      "to": "esp_visigoths_reccared_roderick",
+      "type": "expansion",
+      "label": "Hispania continuity from ancient Iberian realms into Visigothic Toledo (Mariana 1699)"
+    },
+    {
+      "from": "hak_futuh_misr_andalus",
+      "to": "esp_visigoths_reccared_roderick",
+      "type": "cognate",
+      "label": "711 CE conquest of Visigothic Spain recorded by both Ibn 'Abd al-Hakam & Mariana"
+    },
+    {
+      "from": "esp_visigoths_reccared_roderick",
+      "to": "esp_pelayo_castile_aragon",
+      "type": "expansion",
+      "label": "Mariana 1699: Visigothic noble Don Pelayo rallies Asturias (718 CE) -> Kings of Leon, Castile & Aragon"
+    },
+    {
+      "from": "esp_pelayo_castile_aragon",
+      "to": "esp_ferdinand_isabella_habsburg",
+      "type": "direct",
+      "label": "Mariana 1699: Direct Castile-Aragon marriage union (1469) -> Charles V -> Philip II"
+    },
+    {
+      "from": "esp_pelayo_castile_aragon",
+      "to": "por_afonso_henriques",
+      "type": "direct",
+      "label": "Sandford 1662 p. 3 & Mariana: King Alfonso VI of Castile gives daughter Teresa & County of Portugal to Henry of Burgundy"
+    },
+    {
+      "from": "bib_sidon",
+      "to": "bri_sammes_phoenicians_britain",
+      "type": "syncretic",
+      "label": "Sammes 1676 p. 2: Phoenician merchants from Sidon & Tyre colonized tin-rich Britain ('Bratanac')"
+    },
+    {
+      "from": "bib_canaan",
+      "to": "bri_sammes_phoenicians_britain",
+      "type": "syncretic",
+      "label": "Canaanite-Phoenician westward maritime expansion to Britain (Sammes 1676)"
+    },
+    {
+      "from": "eur_gomer_samothes_gaul",
+      "to": "bri_sammes_phoenicians_britain",
+      "type": "syncretic",
+      "label": "Sammes 1676 links early Britons with Continental Cimmerian / Gomerite peoples"
+    },
+    {
+      "from": "eur_brutus_troy",
+      "to": "bri_sammes_phoenicians_britain",
+      "type": "cognate",
+      "label": "Sammes 1676 critiques Brutus legend while mapping pre-Roman British antiquities"
+    },
+    {
+      "from": "bri_sammes_phoenicians_britain",
+      "to": "bri_strutt_cassivellaunus_boadicea",
+      "type": "expansion",
+      "label": "Pre-Roman British tribal continuity to Cassivellaunus, Cunobelinus & Caractacus (Strutt 1779 & Caesar)"
+    },
+    {
+      "from": "grk_julius_augustus",
+      "to": "bri_strutt_cassivellaunus_boadicea",
+      "type": "cognate",
+      "label": "Julius Caesar's 55-54 BCE British expeditions against Cassivellaunus (Caesar Commentaries; Strutt p. 3)"
+    },
+    {
+      "from": "eur_wessex_alfred_norman",
+      "to": "bri_bede_heptarchy_woden",
+      "type": "expansion",
+      "label": "Venerable Bede: Wodenic Heptarchy pedigrees shared with Cerdic & Wessex"
+    },
+    {
+      "from": "bri_strutt_cassivellaunus_boadicea",
+      "to": "bri_bede_heptarchy_woden",
+      "type": "expansion",
+      "label": "Strutt Chronicle of England: Transition from Romano-Britons to Hengist, Horsa & Anglo-Saxon Heptarchy"
+    },
+    {
+      "from": "eur_merovingian_carolingian",
+      "to": "fra_mezeray_pharamond_clovis",
+      "type": "cognate",
+      "label": "Mézeray 1683 p. 10 documents Pharamond -> Clodion -> Meroveus -> Childeric -> Clovis I"
+    },
+    {
+      "from": "fra_capet_stlouis",
+      "to": "por_sandford_burgundy_capet",
+      "type": "direct",
+      "label": "Sandford 1662 pp. 2-3 (Godefroy): Robert II of France -> Robert I Duke of Burgundy -> Count Henry of Burgundy"
+    },
+    {
+      "from": "por_sandford_burgundy_capet",
+      "to": "por_afonso_henriques",
+      "type": "direct",
+      "label": "Sandford 1662 p. 3: Count Henry of Burgundy + Teresa of Castile -> King Afonso I Henriques"
+    }
+  ]
+}
