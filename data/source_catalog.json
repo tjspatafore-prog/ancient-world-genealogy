@@ -1,0 +1,2197 @@
+{
+  "summary": {
+    "total_files": 274,
+    "counts_by_category": {
+      "clean_text_sources": 120,
+      "image_only_hybrid_sources": 146,
+      "excluded_fiction_non_genealogical": 5,
+      "excluded_incomplete": 3
+    },
+    "active_genealogical_sources": 266,
+    "excluded_sources": 8
+  },
+  "sources": [
+    {
+      "file": "045_068 Pruzsinszky.pdf",
+      "category": "clean_text_sources",
+      "mb": 0.43,
+      "pages": 24,
+      "avg_chars_sample": 4453,
+      "alpha_ratio": 0.73
+    },
+    {
+      "file": "10689.2432.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 29.76,
+      "pages": 583,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "124482365-Bible-Genealogy-a1-Chart.pdf",
+      "category": "clean_text_sources",
+      "mb": 2.83,
+      "pages": 2,
+      "avg_chars_sample": 544,
+      "alpha_ratio": 0.79
+    },
+    {
+      "file": "13302.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 14.53,
+      "pages": 421,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "1900 Kalhana's Rajatarangini Vol 1 Translated By Stein S.pdf",
+      "category": "clean_text_sources",
+      "mb": 30.26,
+      "pages": 577,
+      "avg_chars_sample": 2605,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "2015.103135.History-Of-Sudan-From-The-Earliest-Times-To-1821_text.pdf",
+      "category": "clean_text_sources",
+      "mb": 6.75,
+      "pages": 298,
+      "avg_chars_sample": 1831,
+      "alpha_ratio": 0.71
+    },
+    {
+      "file": "2015.105388.Chinese-Classics-Vol3-Plate-1_text.pdf",
+      "category": "clean_text_sources",
+      "mb": 28.16,
+      "pages": 504,
+      "avg_chars_sample": 3165,
+      "alpha_ratio": 0.73
+    },
+    {
+      "file": "2015.282571.Pausanias-Description.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 95.45,
+      "pages": 203,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "2015.283021.The-Blue.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 429.37,
+      "pages": 1303,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "2015.358147.Manuel-De.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 24.18,
+      "pages": 449,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "2015.461512.The-Shahnama-Of-Firdausi-Vol-1.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 21.13,
+      "pages": 418,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "2015.55354.Kalhanas-Rajtarangini-A-Chronicle-Of-The-Kings-Of-Kashmir.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 31.71,
+      "pages": 580,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "2015.57205.Diodorus-Of-Sicily-Vol-1.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 25.57,
+      "pages": 512,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "2015.83132.Malay-Annals.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 24.2,
+      "pages": 380,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "2015.99723.The-Glass-Palace-Chronicle-Of-The-Kings-Of-Burma.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 19.46,
+      "pages": 208,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "2edhistoryofwale01lloyuoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 33.58,
+      "pages": 392,
+      "avg_chars_sample": 3038,
+      "alpha_ratio": 0.63
+    },
+    {
+      "file": "4. Geneal_Synch.pdf",
+      "category": "clean_text_sources",
+      "mb": 0.22,
+      "pages": 38,
+      "avg_chars_sample": 1434,
+      "alpha_ratio": 0.72
+    },
+    {
+      "file": "8688.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 352.71,
+      "pages": 316,
+      "avg_chars_sample": 1781,
+      "alpha_ratio": 0.52
+    },
+    {
+      "file": "a011458.pdf",
+      "category": "clean_text_sources",
+      "mb": 14.31,
+      "pages": 325,
+      "avg_chars_sample": 2797,
+      "alpha_ratio": 0.75
+    },
+    {
+      "file": "A208100.pdf",
+      "category": "clean_text_sources",
+      "mb": 187.97,
+      "pages": 771,
+      "avg_chars_sample": 7433,
+      "alpha_ratio": 0.7
+    },
+    {
+      "file": "A_Prose_English_Translation_of_Harivamsh.pdf",
+      "category": "clean_text_sources",
+      "mb": 28.78,
+      "pages": 987,
+      "avg_chars_sample": 1846,
+      "alpha_ratio": 0.78
+    },
+    {
+      "file": "ab1Chronicles2nd MyersJM 1965-opt.pdf",
+      "category": "clean_text_sources",
+      "mb": 5.11,
+      "pages": 339,
+      "avg_chars_sample": 2235,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "ABridgeOfTheRomanHistoriesFromTitusLiviusToCorneliusTacitus.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 15.63,
+      "pages": 118,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "ACompendiousChronicleOfTheKingdomOfPortugal.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 14.3,
+      "pages": 120,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "ACompleatUniversalHistoryOfTheSeveralEmpiresKingdomsStates.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 103.43,
+      "pages": 967,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "ACompleteCollectionOfAllTheStoriesmythsForUnderstandingTheGreekAndLatinPoets.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 28.6,
+      "pages": 240,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "ADescriptionOfTheEmpireOfChinaAndChinese-tartaryKoreaAndTibet-1738-Vol1.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 123.63,
+      "pages": 738,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "ADescriptionOfTheLandOfCanaan.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 59.37,
+      "pages": 296,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "ADiscoveryOfANewWorld-JohnWilkins1684.pdf",
+      "category": "excluded_fiction_non_genealogical",
+      "mb": 11.36,
+      "pages": 0,
+      "reason": "Pure fiction / non-genealogical work"
+    },
+    {
+      "file": "aeundl135_156.pdf",
+      "category": "clean_text_sources",
+      "mb": 0.3,
+      "pages": 22,
+      "avg_chars_sample": 4604,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "AGenealogicalHistoryOfTheKingsOfPortugal.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 20.12,
+      "pages": 106,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralChronologicalHistoryOfFrance1683-Copy2.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 92.17,
+      "pages": 514,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralChronologicalHistoryOfFrance1683.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 111.59,
+      "pages": 506,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol1.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 42.52,
+      "pages": 580,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol10.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 33.3,
+      "pages": 477,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol11.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 35.01,
+      "pages": 502,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol12.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 46.75,
+      "pages": 636,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol13.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 14.61,
+      "pages": 240,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol2.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 42.7,
+      "pages": 570,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol3.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 40.84,
+      "pages": 536,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol4.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 40.57,
+      "pages": 585,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol5.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 34.24,
+      "pages": 497,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol6.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 36.6,
+      "pages": 517,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol7.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 37.76,
+      "pages": 530,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol8.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 34.3,
+      "pages": 498,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "AGeneralHistoryOfTheWorldFromTheCreationToThePresentTime1764-Vol9.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 35.35,
+      "pages": 469,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "Ancient Records Of Egypt Vol-1.pdf",
+      "category": "clean_text_sources",
+      "mb": 5.95,
+      "pages": 370,
+      "avg_chars_sample": 1897,
+      "alpha_ratio": 0.69
+    },
+    {
+      "file": "ancientindianhis00parguoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 25.19,
+      "pages": 386,
+      "avg_chars_sample": 2840,
+      "alpha_ratio": 0.57
+    },
+    {
+      "file": "ANewAndCompleteUniversalHistoryOfTheHolyBible.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 86.92,
+      "pages": 788,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "ANewDiscoveryOfAVastCountryInAmerica1699.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 14.36,
+      "pages": 138,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "ANewGeneralAtlasContainingAGeographicalAndHistoricalAccountOfAllTheEmpires.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 97.07,
+      "pages": 458,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "ANewHistoryOfEthiopia1684.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 29.68,
+      "pages": 200,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "annals01odonuoft.htm",
+      "category": "clean_text_sources",
+      "mb": 75.89,
+      "pages": 0,
+      "ext": ".htm"
+    },
+    {
+      "file": "annalsantiquitie01todj.pdf",
+      "category": "clean_text_sources",
+      "mb": 34.98,
+      "pages": 694,
+      "avg_chars_sample": 2580,
+      "alpha_ratio": 0.78
+    },
+    {
+      "file": "annalsantiquitie02todj.pdf",
+      "category": "clean_text_sources",
+      "mb": 36.48,
+      "pages": 758,
+      "avg_chars_sample": 2637,
+      "alpha_ratio": 0.78
+    },
+    {
+      "file": "anstey.pdf",
+      "category": "clean_text_sources",
+      "mb": 2.82,
+      "pages": 347,
+      "avg_chars_sample": 2850,
+      "alpha_ratio": 0.58
+    },
+    {
+      "file": "anstey2.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 2.86,
+      "pages": 56,
+      "avg_chars_sample": 1915,
+      "alpha_ratio": 0.5
+    },
+    {
+      "file": "antenicenefather06robeuoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 52.56,
+      "pages": 590,
+      "avg_chars_sample": 5578,
+      "alpha_ratio": 0.77
+    },
+    {
+      "file": "AnUniversalAtlasAncientAndModern.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 4.1,
+      "pages": 56,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "ApocalypseOfPseudoMethodius.pdf",
+      "category": "clean_text_sources",
+      "mb": 15.87,
+      "pages": 460,
+      "avg_chars_sample": 1672,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "apocryphaarabica00gibsuoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 13.34,
+      "pages": 212,
+      "avg_chars_sample": 1967,
+      "alpha_ratio": 0.69
+    },
+    {
+      "file": "Apollodorus_Library_Loeb_Frazer.pdf",
+      "category": "clean_text_sources",
+      "mb": 30.35,
+      "pages": 1043,
+      "avg_chars_sample": 1993,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "as11.pdf",
+      "category": "clean_text_sources",
+      "mb": 5.06,
+      "pages": 238,
+      "avg_chars_sample": 3267,
+      "alpha_ratio": 0.73
+    },
+    {
+      "file": "assyrianeponymca00smitiala.pdf",
+      "category": "clean_text_sources",
+      "mb": 8.51,
+      "pages": 222,
+      "avg_chars_sample": 889,
+      "alpha_ratio": 0.72
+    },
+    {
+      "file": "AylettSammes-TheAntiquitiesOfAncientBritain-UntilTheYear800.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 62.23,
+      "pages": 301,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "b29010482_0005.pdf",
+      "category": "clean_text_sources",
+      "mb": 18.54,
+      "pages": 468,
+      "avg_chars_sample": 2584,
+      "alpha_ratio": 0.72
+    },
+    {
+      "file": "b29318981.pdf",
+      "category": "clean_text_sources",
+      "mb": 28.91,
+      "pages": 462,
+      "avg_chars_sample": 1439,
+      "alpha_ratio": 0.78
+    },
+    {
+      "file": "b30414131.pdf",
+      "category": "clean_text_sources",
+      "mb": 30.67,
+      "pages": 410,
+      "avg_chars_sample": 1072,
+      "alpha_ratio": 0.75
+    },
+    {
+      "file": "BarHebraeus_Chronography.pdf",
+      "category": "clean_text_sources",
+      "mb": 12.39,
+      "pages": 403,
+      "avg_chars_sample": 2817,
+      "alpha_ratio": 0.78
+    },
+    {
+      "file": "BasilKenneth-RomAntiquNotitiaOrTheAntiquitiesOfRome1793.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 16.54,
+      "pages": 462,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "Bede-TheEcclesiasticalHistoryOfTheEnglishNation1723.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 15.66,
+      "pages": 531,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "BedeTheVenerable-EcclesiasticalHistoryOfTheEnglishNation.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 15.5,
+      "pages": 529,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "bib_fict_4102575.pdf",
+      "category": "clean_text_sources",
+      "mb": 132.15,
+      "pages": 860,
+      "avg_chars_sample": 4961,
+      "alpha_ratio": 0.77
+    },
+    {
+      "file": "Bibliorum Sacrorum Concordanti - Dutripone, F. P._4145 (1).pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 299.49,
+      "pages": 1512,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "bim_early-english-books-1475-1640_a-seder-olam-that-is-o_broughton-hugh_1594.pdf",
+      "category": "clean_text_sources",
+      "mb": 25.7,
+      "pages": 45,
+      "avg_chars_sample": 1736,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "bim_early-english-books-1475-1640_the-genealogies-recorded_speed-john-genealogies-_1627.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 55.09,
+      "pages": 36,
+      "avg_chars_sample": 825,
+      "alpha_ratio": 0.46
+    },
+    {
+      "file": "bim_eighteenth-century_chronological-antiquitie_jackson-john_1752_1.pdf",
+      "category": "clean_text_sources",
+      "mb": 524.52,
+      "pages": 539,
+      "avg_chars_sample": 2592,
+      "alpha_ratio": 0.7
+    },
+    {
+      "file": "bim_eighteenth-century_royal-genealogies-or-t_anderson-james_1732.epub",
+      "category": "clean_text_sources",
+      "mb": 484.13,
+      "pages": 0,
+      "ext": ".epub"
+    },
+    {
+      "file": "bookofjubileesor00char.pdf",
+      "category": "clean_text_sources",
+      "mb": 21.47,
+      "pages": 380,
+      "avg_chars_sample": 2794,
+      "alpha_ratio": 0.71
+    },
+    {
+      "file": "bookofsecretsofe00morf.pdf",
+      "category": "clean_text_sources",
+      "mb": 9.33,
+      "pages": 164,
+      "avg_chars_sample": 2364,
+      "alpha_ratio": 0.68
+    },
+    {
+      "file": "booksettlementi00ellwgoog.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 6.1,
+      "pages": 299,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "brutytywysogiono00cara.pdf",
+      "category": "clean_text_sources",
+      "mb": 40.4,
+      "pages": 576,
+      "avg_chars_sample": 1784,
+      "alpha_ratio": 0.73
+    },
+    {
+      "file": "bub_gb_agd-eLVNRMMC.pdf",
+      "category": "clean_text_sources",
+      "mb": 61.14,
+      "pages": 686,
+      "avg_chars_sample": 3306,
+      "alpha_ratio": 0.67
+    },
+    {
+      "file": "bub_gb_DTpRAAAAYAAJ.pdf",
+      "category": "clean_text_sources",
+      "mb": 40.08,
+      "pages": 553,
+      "avg_chars_sample": 2406,
+      "alpha_ratio": 0.72
+    },
+    {
+      "file": "bub_gb_eikPAAAAYAAJ.pdf",
+      "category": "clean_text_sources",
+      "mb": 60.16,
+      "pages": 696,
+      "avg_chars_sample": 2693,
+      "alpha_ratio": 0.77
+    },
+    {
+      "file": "Budge_1927_Cave_of_Treasures.pdf",
+      "category": "clean_text_sources",
+      "mb": 7.4,
+      "pages": 369,
+      "avg_chars_sample": 1291,
+      "alpha_ratio": 0.76
+    },
+    {
+      "file": "Chamberlain_1932.pdf",
+      "category": "clean_text_sources",
+      "mb": 53.35,
+      "pages": 589,
+      "avg_chars_sample": 2044,
+      "alpha_ratio": 0.71
+    },
+    {
+      "file": "charles2.pdf",
+      "category": "clean_text_sources",
+      "mb": 67.89,
+      "pages": 886,
+      "avg_chars_sample": 4935,
+      "alpha_ratio": 0.72
+    },
+    {
+      "file": "chineseclassics31legg.pdf",
+      "category": "clean_text_sources",
+      "mb": 35.45,
+      "pages": 522,
+      "avg_chars_sample": 2109,
+      "alpha_ratio": 0.72
+    },
+    {
+      "file": "chroniclesconcer01londuoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 11.84,
+      "pages": 284,
+      "avg_chars_sample": 1880,
+      "alpha_ratio": 0.64
+    },
+    {
+      "file": "chroniclesofpict00sken.pdf",
+      "category": "clean_text_sources",
+      "mb": 26.09,
+      "pages": 712,
+      "avg_chars_sample": 1776,
+      "alpha_ratio": 0.75
+    },
+    {
+      "file": "Chronicon_Paschale_284-628.pdf",
+      "category": "clean_text_sources",
+      "mb": 11.34,
+      "pages": 272,
+      "avg_chars_sample": 2706,
+      "alpha_ratio": 0.69
+    },
+    {
+      "file": "chroniconpascha00dindgoog.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 31.86,
+      "pages": 760,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "Chronological_Antiquities_Or_The_Antiqui.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 32.12,
+      "pages": 517,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "chronologyofanci00biru.pdf",
+      "category": "clean_text_sources",
+      "mb": 30.79,
+      "pages": 492,
+      "avg_chars_sample": 1750,
+      "alpha_ratio": 0.75
+    },
+    {
+      "file": "chronologyofindi00rickrich.pdf",
+      "category": "clean_text_sources",
+      "mb": 30.58,
+      "pages": 467,
+      "avg_chars_sample": 2124,
+      "alpha_ratio": 0.67
+    },
+    {
+      "file": "complete.pdf",
+      "category": "clean_text_sources",
+      "mb": 9.97,
+      "pages": 1639,
+      "avg_chars_sample": 3257,
+      "alpha_ratio": 0.78
+    },
+    {
+      "file": "Comprehensive Biblical, Jubilees, Jasher & Enoch Genealogy Tree.pdf",
+      "category": "clean_text_sources",
+      "mb": 0.36,
+      "pages": 19,
+      "avg_chars_sample": 1767,
+      "alpha_ratio": 0.64
+    },
+    {
+      "file": "Copy of M_F_Gervais UsefulChart Book of Genesis.pdf",
+      "category": "clean_text_sources",
+      "mb": 5.74,
+      "pages": 1,
+      "avg_chars_sample": 10978,
+      "alpha_ratio": 0.78
+    },
+    {
+      "file": "Copy of M_F_Gervais UsefulChart Exodus to Nebuchadnezzar.pdf",
+      "category": "clean_text_sources",
+      "mb": 8.98,
+      "pages": 1,
+      "avg_chars_sample": 22355,
+      "alpha_ratio": 0.79
+    },
+    {
+      "file": "Copy of M_F_Gervais UsefulChart Jesus Christ.pdf",
+      "category": "clean_text_sources",
+      "mb": 4.12,
+      "pages": 1,
+      "avg_chars_sample": 1584,
+      "alpha_ratio": 0.81
+    },
+    {
+      "file": "Copy of M_F_Gervais UsefulChart New Testament.pdf",
+      "category": "clean_text_sources",
+      "mb": 8.12,
+      "pages": 1,
+      "avg_chars_sample": 12703,
+      "alpha_ratio": 0.79
+    },
+    {
+      "file": "cu31924063410827.pdf",
+      "category": "clean_text_sources",
+      "mb": 6.72,
+      "pages": 292,
+      "avg_chars_sample": 1743,
+      "alpha_ratio": 0.76
+    },
+    {
+      "file": "cu31924074296975.pdf",
+      "category": "clean_text_sources",
+      "mb": 21.92,
+      "pages": 710,
+      "avg_chars_sample": 1898,
+      "alpha_ratio": 0.75
+    },
+    {
+      "file": "cu31924092516297.pdf",
+      "category": "clean_text_sources",
+      "mb": 10.39,
+      "pages": 446,
+      "avg_chars_sample": 2323,
+      "alpha_ratio": 0.77
+    },
+    {
+      "file": "dead-sea-genesis-apocryphon.pdf",
+      "category": "clean_text_sources",
+      "mb": 14.31,
+      "pages": 349,
+      "avg_chars_sample": 1805,
+      "alpha_ratio": 0.68
+    },
+    {
+      "file": "Downey_1940_Malalas_Books08-18.pdf",
+      "category": "clean_text_sources",
+      "mb": 12.86,
+      "pages": 155,
+      "avg_chars_sample": 1839,
+      "alpha_ratio": 0.73
+    },
+    {
+      "file": "essaisurlhistoir01caus.pdf",
+      "category": "clean_text_sources",
+      "mb": 32.0,
+      "pages": 474,
+      "avg_chars_sample": 1605,
+      "alpha_ratio": 0.75
+    },
+    {
+      "file": "Eusebius_Chronicle.pdf",
+      "category": "clean_text_sources",
+      "mb": 1.36,
+      "pages": 90,
+      "avg_chars_sample": 2294,
+      "alpha_ratio": 0.73
+    },
+    {
+      "file": "familytree.PDF",
+      "category": "image_only_hybrid_sources",
+      "mb": 17.64,
+      "pages": 1,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "fastihellenic01clin.pdf",
+      "category": "clean_text_sources",
+      "mb": 45.63,
+      "pages": 664,
+      "avg_chars_sample": 3503,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "fastihellenic03clin.pdf",
+      "category": "clean_text_sources",
+      "mb": 46.47,
+      "pages": 474,
+      "avg_chars_sample": 4237,
+      "alpha_ratio": 0.7
+    },
+    {
+      "file": "fastihellenicici01clinuoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 35.58,
+      "pages": 472,
+      "avg_chars_sample": 3291,
+      "alpha_ratio": 0.68
+    },
+    {
+      "file": "fourancientbooks01skenuoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 27.09,
+      "pages": 626,
+      "avg_chars_sample": 1082,
+      "alpha_ratio": 0.65
+    },
+    {
+      "file": "genealogicaltabl00beth.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 40.96,
+      "pages": 574,
+      "avg_chars_sample": 3424,
+      "alpha_ratio": 0.51
+    },
+    {
+      "file": "GenealogicalTablesOfTheSovereignsOfTheWorldFromTheEarliestToThePresentPeriod.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 38.95,
+      "pages": 563,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "Genealogies-in-the-Bible-COLOR-2026-11-12.pdf",
+      "category": "clean_text_sources",
+      "mb": 0.88,
+      "pages": 1,
+      "avg_chars_sample": 22304,
+      "alpha_ratio": 0.77
+    },
+    {
+      "file": "genealogiesofour00herv.pdf",
+      "category": "clean_text_sources",
+      "mb": 18.86,
+      "pages": 404,
+      "avg_chars_sample": 1615,
+      "alpha_ratio": 0.75
+    },
+    {
+      "file": "gothichistoryofj00jorduoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 12.33,
+      "pages": 206,
+      "avg_chars_sample": 1987,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "Guillaume, A - The Life of Muhammad.pdf",
+      "category": "clean_text_sources",
+      "mb": 25.82,
+      "pages": 431,
+      "avg_chars_sample": 5162,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "HerodiansHistoryOfHisOwnTimesOrOfTheRomanEmpireAfterMarcus.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 21.1,
+      "pages": 413,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "HerodiansHistoryOfTheRomanEmperors.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 13.99,
+      "pages": 215,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "hesiodhomerichym1914hesi.pdf",
+      "category": "clean_text_sources",
+      "mb": 34.86,
+      "pages": 714,
+      "avg_chars_sample": 1302,
+      "alpha_ratio": 0.75
+    },
+    {
+      "file": "HighRes_39020025955496.pdf",
+      "category": "clean_text_sources",
+      "mb": 458.58,
+      "pages": 436,
+      "avg_chars_sample": 1901,
+      "alpha_ratio": 0.77
+    },
+    {
+      "file": "histoiredesberbe01ibnk.pdf",
+      "category": "clean_text_sources",
+      "mb": 39.79,
+      "pages": 688,
+      "avg_chars_sample": 1371,
+      "alpha_ratio": 0.73
+    },
+    {
+      "file": "histoiredesberbe03ibnk.pdf",
+      "category": "clean_text_sources",
+      "mb": 47.95,
+      "pages": 540,
+      "avg_chars_sample": 2139,
+      "alpha_ratio": 0.77
+    },
+    {
+      "file": "historicalencycl00masrich.pdf",
+      "category": "clean_text_sources",
+      "mb": 33.88,
+      "pages": 548,
+      "avg_chars_sample": 1597,
+      "alpha_ratio": 0.66
+    },
+    {
+      "file": "historyofarabsin00macm.pdf",
+      "category": "clean_text_sources",
+      "mb": 18.73,
+      "pages": 386,
+      "avg_chars_sample": 2588,
+      "alpha_ratio": 0.77
+    },
+    {
+      "file": "historyofconques00ibna.pdf",
+      "category": "clean_text_sources",
+      "mb": 26.17,
+      "pages": 456,
+      "avg_chars_sample": 1499,
+      "alpha_ratio": 0.63
+    },
+    {
+      "file": "historyoffranks00greguoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 28.48,
+      "pages": 318,
+      "avg_chars_sample": 2347,
+      "alpha_ratio": 0.65
+    },
+    {
+      "file": "historyofkorea02hulbuoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 25.94,
+      "pages": 432,
+      "avg_chars_sample": 2808,
+      "alpha_ratio": 0.66
+    },
+    {
+      "file": "historyoflangoba00pauluoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 21.92,
+      "pages": 494,
+      "avg_chars_sample": 1855,
+      "alpha_ratio": 0.65
+    },
+    {
+      "file": "Ibn Khaldun Histoire des Berberes et des dynasties musulmanes de lAfrique Septentrionale v 4.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 64.21,
+      "pages": 624,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "irishpedigreeso02ohar.pdf",
+      "category": "clean_text_sources",
+      "mb": 24.37,
+      "pages": 432,
+      "avg_chars_sample": 1970,
+      "alpha_ratio": 0.73
+    },
+    {
+      "file": "JesusGenealogy.PDF",
+      "category": "clean_text_sources",
+      "mb": 0.18,
+      "pages": 17,
+      "avg_chars_sample": 1968,
+      "alpha_ratio": 0.71
+    },
+    {
+      "file": "Kartlis Cxovreba 2012 Eng.pdf",
+      "category": "clean_text_sources",
+      "mb": 3.75,
+      "pages": 444,
+      "avg_chars_sample": 2470,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "King list 1-6.pdf",
+      "category": "clean_text_sources",
+      "mb": 0.76,
+      "pages": 16,
+      "avg_chars_sample": 1995,
+      "alpha_ratio": 0.64
+    },
+    {
+      "file": "leborgablare04macauoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 19.24,
+      "pages": 358,
+      "avg_chars_sample": 1661,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "legendsofjews0007ginz.pdf",
+      "category": "clean_text_sources",
+      "mb": 27.31,
+      "pages": 632,
+      "avg_chars_sample": 2882,
+      "alpha_ratio": 0.56
+    },
+    {
+      "file": "legendsofjews01ginz.pdf",
+      "category": "clean_text_sources",
+      "mb": 17.39,
+      "pages": 450,
+      "avg_chars_sample": 1683,
+      "alpha_ratio": 0.78
+    },
+    {
+      "file": "lesmmoireshisto05chgoog.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 15.64,
+      "pages": 632,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "LivysRomanHistory1659.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 192.61,
+      "pages": 633,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "mahavamsagreatch00geigrich.pdf",
+      "category": "clean_text_sources",
+      "mb": 24.36,
+      "pages": 380,
+      "avg_chars_sample": 2037,
+      "alpha_ratio": 0.76
+    },
+    {
+      "file": "Malalas_1986_Books16-18.pdf",
+      "category": "clean_text_sources",
+      "mb": 7.5,
+      "pages": 135,
+      "avg_chars_sample": 3134,
+      "alpha_ratio": 0.71
+    },
+    {
+      "file": "manethowithengli00maneuoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 26.48,
+      "pages": 802,
+      "avg_chars_sample": 1450,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "mlbd.pahlavitextssacr0000ewwe_v3m0.pdf",
+      "category": "clean_text_sources",
+      "mb": 29.98,
+      "pages": 524,
+      "avg_chars_sample": 2020,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "mohammadandynast00lane.pdf",
+      "category": "clean_text_sources",
+      "mb": 12.64,
+      "pages": 424,
+      "avg_chars_sample": 791,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "mohammedandynast00lane.pdf",
+      "category": "clean_text_sources",
+      "mb": 9.66,
+      "pages": 422,
+      "avg_chars_sample": 1138,
+      "alpha_ratio": 0.73
+    },
+    {
+      "file": "narrativesofbegi00kent.pdf",
+      "category": "clean_text_sources",
+      "mb": 41.11,
+      "pages": 444,
+      "avg_chars_sample": 3700,
+      "alpha_ratio": 0.65
+    },
+    {
+      "file": "New-Evidence-for-Kainan_Henry-Smith-Bible-and-Spade.pdf",
+      "category": "clean_text_sources",
+      "mb": 6.38,
+      "pages": 9,
+      "avg_chars_sample": 2844,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "newanalysisofchr01hale.pdf",
+      "category": "clean_text_sources",
+      "mb": 33.73,
+      "pages": 518,
+      "avg_chars_sample": 2244,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "nihongi1asto.pdf",
+      "category": "clean_text_sources",
+      "mb": 25.3,
+      "pages": 444,
+      "avg_chars_sample": 2080,
+      "alpha_ratio": 0.75
+    },
+    {
+      "file": "originofnationso00rawl.pdf",
+      "category": "clean_text_sources",
+      "mb": 12.65,
+      "pages": 320,
+      "avg_chars_sample": 1740,
+      "alpha_ratio": 0.8
+    },
+    {
+      "file": "pahlavitexts01west.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 29.34,
+      "pages": 554,
+      "avg_chars_sample": 2546,
+      "alpha_ratio": 0.55
+    },
+    {
+      "file": "patriarchaldynas00crawrich.pdf",
+      "category": "clean_text_sources",
+      "mb": 8.82,
+      "pages": 182,
+      "avg_chars_sample": 1099,
+      "alpha_ratio": 0.76
+    },
+    {
+      "file": "PlanOfAncientRomeForTheUnderstandingOfTheRomanHistoryOfMr.Rollin.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 0.13,
+      "pages": 1,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "PlinysPanegyrickUponTheEmperorTrajan.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 7.51,
+      "pages": 176,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "Plutarch-TheLivesOfTheNobleGreciansAndRomans1657.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 156.62,
+      "pages": 563,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "Plutarch.ThePhilosophyCommonlyCalledTheMorals1657-Copy2.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 179.23,
+      "pages": 722,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "PlutarchsLives-FifthVolume.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 27.53,
+      "pages": 399,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "PlutarchsLives-FourthVolume.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 30.75,
+      "pages": 447,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "PlutarchsLives-SecondVolume.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 22.34,
+      "pages": 343,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "PlutarchsLives-ThirdVolume.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 23.75,
+      "pages": 343,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "queenofshebahero00kebr.pdf",
+      "category": "clean_text_sources",
+      "mb": 29.66,
+      "pages": 402,
+      "avg_chars_sample": 1923,
+      "alpha_ratio": 0.76
+    },
+    {
+      "file": "Rachewiltz-The-Secret-History-of-the-Mongols.pdf",
+      "category": "clean_text_sources",
+      "mb": 5.42,
+      "pages": 296,
+      "avg_chars_sample": 2096,
+      "alpha_ratio": 0.68
+    },
+    {
+      "file": "recordsofpastbei09sociiala.pdf",
+      "category": "clean_text_sources",
+      "mb": 5.48,
+      "pages": 186,
+      "avg_chars_sample": 1242,
+      "alpha_ratio": 0.76
+    },
+    {
+      "file": "recordsofpastbei11sociuoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 6.43,
+      "pages": 184,
+      "avg_chars_sample": 906,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "romanantiquities01dionuoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 27.65,
+      "pages": 620,
+      "avg_chars_sample": 1661,
+      "alpha_ratio": 0.77
+    },
+    {
+      "file": "samaritanchronic00josh.pdf",
+      "category": "clean_text_sources",
+      "mb": 10.83,
+      "pages": 186,
+      "avg_chars_sample": 1808,
+      "alpha_ratio": 0.77
+    },
+    {
+      "file": "samaritanstheirh00gast.pdf",
+      "category": "clean_text_sources",
+      "mb": 22.87,
+      "pages": 264,
+      "avg_chars_sample": 2296,
+      "alpha_ratio": 0.76
+    },
+    {
+      "file": "SBH 17 - Matsyapurana English Translation Part 1 - Taluqdar of Oudh 1916.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 16.18,
+      "pages": 488,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "SBLMS1.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 2.58,
+      "pages": 60,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "st isidore in english.pdf",
+      "category": "clean_text_sources",
+      "mb": 6.51,
+      "pages": 489,
+      "avg_chars_sample": 3686,
+      "alpha_ratio": 0.73
+    },
+    {
+      "file": "stories-of-the prophets-by-ibn-kathir-english-pdf.pdf",
+      "category": "clean_text_sources",
+      "mb": 3.71,
+      "pages": 228,
+      "avg_chars_sample": 3185,
+      "alpha_ratio": 0.78
+    },
+    {
+      "file": "Suetonius-theHistorieOfTheTwelveCaesars.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 54.55,
+      "pages": 172,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "Tabari_Volume_01.pdf",
+      "category": "clean_text_sources",
+      "mb": 20.83,
+      "pages": 436,
+      "avg_chars_sample": 2553,
+      "alpha_ratio": 0.72
+    },
+    {
+      "file": "Tabari_Volume_02.pdf",
+      "category": "clean_text_sources",
+      "mb": 9.84,
+      "pages": 220,
+      "avg_chars_sample": 1965,
+      "alpha_ratio": 0.74
+    },
+    {
+      "file": "Tabari_Volume_03.pdf",
+      "category": "clean_text_sources",
+      "mb": 10.17,
+      "pages": 207,
+      "avg_chars_sample": 2715,
+      "alpha_ratio": 0.72
+    },
+    {
+      "file": "Tabari_Volume_04.pdf",
+      "category": "clean_text_sources",
+      "mb": 9.02,
+      "pages": 220,
+      "avg_chars_sample": 1984,
+      "alpha_ratio": 0.76
+    },
+    {
+      "file": "Tabari_Volume_05.pdf",
+      "category": "clean_text_sources",
+      "mb": 27.04,
+      "pages": 495,
+      "avg_chars_sample": 2929,
+      "alpha_ratio": 0.75
+    },
+    {
+      "file": "Tabari_Volume_06.pdf",
+      "category": "clean_text_sources",
+      "mb": 9.96,
+      "pages": 227,
+      "avg_chars_sample": 2063,
+      "alpha_ratio": 0.77
+    },
+    {
+      "file": "tarikhessoudanpa00sadauoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 36.44,
+      "pages": 584,
+      "avg_chars_sample": 2246,
+      "alpha_ratio": 0.61
+    },
+    {
+      "file": "testamentsoftwel08char.pdf",
+      "category": "clean_text_sources",
+      "mb": 21.31,
+      "pages": 358,
+      "avg_chars_sample": 2349,
+      "alpha_ratio": 0.59
+    },
+    {
+      "file": "The book of Enoch, or 1 Enoch. Translated from the editor's Ethiopic text by R H Charles 1912.pdf",
+      "category": "clean_text_sources",
+      "mb": 23.88,
+      "pages": 454,
+      "avg_chars_sample": 2481,
+      "alpha_ratio": 0.71
+    },
+    {
+      "file": "The book of the kings of Egypt.pdf",
+      "category": "clean_text_sources",
+      "mb": 20.06,
+      "pages": 311,
+      "avg_chars_sample": 649,
+      "alpha_ratio": 0.56
+    },
+    {
+      "file": "The testament of abraham_text.pdf",
+      "category": "clean_text_sources",
+      "mb": 9.18,
+      "pages": 123,
+      "avg_chars_sample": 1697,
+      "alpha_ratio": 0.75
+    },
+    {
+      "file": "TheAegyptianAndGrecianHistoryOfHerodotus-Vol.1.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 16.46,
+      "pages": 479,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheAegyptianAndGrecianHistoryOfHerodotus-Vol.2.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 15.22,
+      "pages": 446,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheAmoursOfClitophonAndLeucippe.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 2.23,
+      "pages": 121,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheAnnalsAndHistoryOfTacitus-Vol.2-1698.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 35.23,
+      "pages": 235,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheAnnalsAndHistoryOfTacitus-Vol.3-1698.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 36.5,
+      "pages": 291,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheAnnalsAndHistoryOfTacitus-Vol3.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 36.5,
+      "pages": 291,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheAnnalsOfTheWorldDedeucedFromTheOriginOfTime.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 120.83,
+      "pages": 489,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheAntiquitiesNaturalHistoryRuinsAndOtherCuriositiesOfEgyptNubiaAndThebes.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 27.34,
+      "pages": 165,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheAntiquitiesOfPalmyra1696.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 13.94,
+      "pages": 224,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheAntiquitiesOfRome-BasilKennett.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 30.07,
+      "pages": 236,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheApostolicalHistory.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 37.37,
+      "pages": 241,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheChristiansNewAndCompleteBritishFamilyBible.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 190.4,
+      "pages": 1077,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheChronicleOfEnglandOrACompleatHistoryOfTheAncientBritonsAndSaxons1779.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 48.99,
+      "pages": 714,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheChronologyAndHistoryOfTheWorld.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 10.8,
+      "pages": 151,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheChronologyAndHistoryOfTheWorldFromTheCreationToTheYearOfChrist1753.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 23.75,
+      "pages": 166,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheCommentariesOfCsarTranslatedIntoEnglish1753.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 67.66,
+      "pages": 553,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheCommentariesOfJuliusCaesar1655.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 43.01,
+      "pages": 224,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheCommentariesOfJuliusCaesar1677.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 46.53,
+      "pages": 214,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheCommentariesOfJuliusCaesar1695.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 77.14,
+      "pages": 202,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheCommentariesOfJuliusCaesar1695Copy2.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 39.61,
+      "pages": 191,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheGeneralHistoryOfPolybius.InFiveBooks.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 35.06,
+      "pages": 592,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheGeneralHistoryOfSpain1699.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 121.4,
+      "pages": 375,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheHistoryOfPortugal1661.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 3.77,
+      "pages": 67,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheHistoryOfTheAncientGermans-JohnJacobMascou1737.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 55.92,
+      "pages": 736,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheHistoryOfTheLifeAndActionsOfAlexanderTheGreat.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 21.5,
+      "pages": 317,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheHistoryOfThePeloponnesianWarTranslatedFromTheGreekOfThucydides1753.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 42.04,
+      "pages": 909,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheHistoryOfTheWorld-1736Edition-Volume1.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 73.26,
+      "pages": 690,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheHistoryOfTheWorld-1736Edition-Volume2.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 49.51,
+      "pages": 496,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheHistoryOfTheWorldOrAnAccountOfTime1659.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 50.74,
+      "pages": 410,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheHistoryOfTheWorldTheSecondPart.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 117.8,
+      "pages": 403,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheImperialHistoryOrLivesOfTheEmperors.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 137.24,
+      "pages": 454,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheLivesOfIllustriousMen.WrittenInLatinByCorneliusNepos1723.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 7.99,
+      "pages": 290,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheLivesOfTheAncientPhilosophers1702.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 20.81,
+      "pages": 634,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheLivesOfTheIllustriousRomans-SextusAureliusVictor1693.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 6.34,
+      "pages": 115,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheLivesOfTheMostHeroicGreekAndRomansCompared.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 37.66,
+      "pages": 396,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheLivesOfTheRomanEmperorsFromDomitianToConstantine1693.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 34.56,
+      "pages": 454,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.1.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 95.9,
+      "pages": 753,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.10.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 95.22,
+      "pages": 733,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.11.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 87.11,
+      "pages": 716,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.13.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 81.87,
+      "pages": 666,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.14.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 88.3,
+      "pages": 729,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.15.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 80.84,
+      "pages": 636,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.16.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 95.75,
+      "pages": 680,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.2.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 88.38,
+      "pages": 752,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.3.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 94.46,
+      "pages": 758,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.4.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 78.9,
+      "pages": 669,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.5.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 87.78,
+      "pages": 726,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.6.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 91.3,
+      "pages": 727,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.7.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 88.53,
+      "pages": 717,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.8.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 93.87,
+      "pages": 721,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheModernPartOfTheUniversalHistory.FolioVol.9.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 92.59,
+      "pages": 721,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheMuchEsteemedHistoryOfTheEverFamousKnightDonQuixote1699.pdf",
+      "category": "excluded_fiction_non_genealogical",
+      "mb": 9.97,
+      "pages": 0,
+      "reason": "Pure fiction / non-genealogical work"
+    },
+    {
+      "file": "TheNaturalAndPoliticalHistoryOfPortugal.FromItsFirstErectionIntoAKingdom1726.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 13.61,
+      "pages": 447,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheParianChronicleOrTheChronicleOfTheArundelianMarbles1788.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 7.02,
+      "pages": 253,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "ThePastoralAmoursOfDaphnisAndChloe.ANovel1764.pdf",
+      "category": "excluded_fiction_non_genealogical",
+      "mb": 4.41,
+      "pages": 0,
+      "reason": "Pure fiction / non-genealogical work"
+    },
+    {
+      "file": "ThePeriplusOfTheErythreanSea1800.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 30.78,
+      "pages": 781,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "ThePortugueseAsiaOrTheHistoryOfTheDiscoveryAndConquestOfIndia.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 74.54,
+      "pages": 754,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "theracesoftheold00saycuoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 7.63,
+      "pages": 194,
+      "avg_chars_sample": 1533,
+      "alpha_ratio": 0.8
+    },
+    {
+      "file": "TheRomanHistoryByTitusLivius-Vol.1.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 29.98,
+      "pages": 476,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheRomanHistoryByTitusLivius-Vol.2.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 29.99,
+      "pages": 491,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheRomanHistoryByTitusLivius-Vol.3.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 32.3,
+      "pages": 505,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheRomanHistoryByTitusLivius-Vol.4.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 33.53,
+      "pages": 543,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheRomanHistoryByTitusLivius-Vol.5.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 41.05,
+      "pages": 550,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheRomanHistoryByTitusLivius-Vol.6.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 43.65,
+      "pages": 575,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheRomanHistoryFromCharlesTheGreatToTheFallOfConstantinople-Echard1720.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 18.09,
+      "pages": 441,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheRomanHistoryFromTheBuildingOfTheCityToAugustusCaesar-Echard-1724.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 21.07,
+      "pages": 494,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheRomanHistoryFromTheRemovalOfTheImperialSeatByConstantineToAugustulus-Echard1720.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 15.19,
+      "pages": 413,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheRomanHistoryFromTheSettlementOfTheEmpireByAugustusCsarToConstantine-Echard-1719.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 23.11,
+      "pages": 575,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheRomanHistoryFromTheTotalFailureOfTheWesternEmpireInAugustulusToCharlesTheGreat-Echard1720.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 15.59,
+      "pages": 416,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheRomanHistoryOfAmmianusMarcellinus1609.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 93.69,
+      "pages": 260,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheRomanHistoryOfLuciusJuliusFlorus1675.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 9.44,
+      "pages": 130,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheTurkishHistoryFromTheOriginalOfThatNation-Vol.1.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 139.09,
+      "pages": 505,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheTurkishHistoryFromTheOriginalOfThatNation-Vol.2.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 59.18,
+      "pages": 243,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheTurkishHistoryFromTheOriginalOfThatNation-Vol.3.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 69.09,
+      "pages": 326,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheWorksOfCorneliusTacitus-Vol.1.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 26.71,
+      "pages": 594,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheWorksOfCorneliusTacitus-Vol.2.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 23.69,
+      "pages": 536,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheWorksOfCorneliusTacitus-Vol.3.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 24.47,
+      "pages": 542,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheWorksOfCorneliusTacitus-Vol.4.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 24.48,
+      "pages": 571,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "TheWorksOfLucianFromTheGreek-Vol.1.pdf",
+      "category": "excluded_fiction_non_genealogical",
+      "mb": 20.28,
+      "pages": 0,
+      "reason": "Pure fiction / non-genealogical work"
+    },
+    {
+      "file": "TheWorksOfLucianFromTheGreek-Vol.2.pdf",
+      "category": "excluded_fiction_non_genealogical",
+      "mb": 24.79,
+      "pages": 0,
+      "reason": "Pure fiction / non-genealogical work"
+    },
+    {
+      "file": "tribesofnorthern00macmuoft.pdf",
+      "category": "clean_text_sources",
+      "mb": 24.06,
+      "pages": 322,
+      "avg_chars_sample": 1727,
+      "alpha_ratio": 0.65
+    },
+    {
+      "file": "Unconfirmed 428858.crdownload",
+      "category": "excluded_incomplete",
+      "mb": 458.58,
+      "pages": 0,
+      "reason": "Incomplete browser download (.crdownload)"
+    },
+    {
+      "file": "Unconfirmed 484994.crdownload",
+      "category": "excluded_incomplete",
+      "mb": 1102.4,
+      "pages": 0,
+      "reason": "Incomplete browser download (.crdownload)"
+    },
+    {
+      "file": "Unconfirmed 548473.crdownload",
+      "category": "excluded_incomplete",
+      "mb": 53.04,
+      "pages": 0,
+      "reason": "Incomplete browser download (.crdownload)"
+    },
+    {
+      "file": "Watson_1853_Justin_Nepos_Eutropius.pdf",
+      "category": "clean_text_sources",
+      "mb": 24.03,
+      "pages": 566,
+      "avg_chars_sample": 2481,
+      "alpha_ratio": 0.79
+    },
+    {
+      "file": "WilliamHowell-HistoryOfTheLivesAndReignsOfTheMonarchsOfEngland1685.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 23.15,
+      "pages": 250,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "Xenophon-TheExpeditionOfCyrusIntoPersiaAndTheRetreatOfTheTenThousandGreeks1776.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 19.46,
+      "pages": 710,
+      "avg_chars_sample": 0,
+      "alpha_ratio": 0.0
+    },
+    {
+      "file": "Xorenatsi_1913_grabar.pdf",
+      "category": "image_only_hybrid_sources",
+      "mb": 41.9,
+      "pages": 463,
+      "avg_chars_sample": 3550,
+      "alpha_ratio": 0.49
+    }
+  ]
+}

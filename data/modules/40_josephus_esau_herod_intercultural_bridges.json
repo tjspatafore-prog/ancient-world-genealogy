@@ -1,0 +1,525 @@
+{
+  "module": "40_josephus_esau_herod_intercultural_bridges",
+  "title": "Josephus Deep Bloodlines (Esau → Agag → Haman, Herod → Armenia/Cilicia/Rome, Sparta–Abraham Charter & Cleodemus–Heracles) + Intercultural Alias Atlas",
+  "nodes": [
+    {
+      "id": "jos_king_agag",
+      "name": "King Agag of Amalek (1 Sam 15; Josephus Ant. VI.7 pp.339–342)",
+      "altNames": [
+        "Agag ben Amalek"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "c. 1030 BCE (Josephus Ant. VI.7; 1 Sam 15)",
+      "role": "Amalekite Monarch Descended from Esau → Eliphaz → Amalek",
+      "sources": [
+        "Flavius Josephus Antiquities VI.7 (pp.339–342)",
+        "1 Samuel 15",
+        "Pseudo-Philo Ch. 58"
+      ],
+      "notes": "Captured by King Saul and executed by Samuel; Pseudo-Philo Ch. 58 & Rabbinic Targum record Agag siring an heir before death whose line produced Haman the Agagite.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_haman_amalekite",
+      "name": "Haman ben Hammedatha the Agagite/Amalekite (+ Wife Zeresh & 10 Sons, Josephus Ant. XI.6.5)",
+      "altNames": [
+        "Haman the Amalekite",
+        "Zeresh"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Susa / Persia — Josephus Ant. XI.6.5 p.618)",
+      "role": "Grand Vizier of Xerxes I / Agagite-Amalekite Descendant of Esau",
+      "sources": [
+        "Flavius Josephus Antiquities XI.6.5 (p.618)",
+        "Book of Esther 3 & 9"
+      ],
+      "notes": "Josephus explicitly calls Haman 'by birth an Amalekite' (Ant. XI.6.5) — connecting Esau's grandson Amalek and King Agag straight into the Achaemenid Persian court opposite Benjaminite Mordecai & Queen Esther! Sons: Parshandatha, Dalphon, Aspatha, Poratha, Adalia, Aridatha, Parmashta, Arisai, Aridai & Vaizatha.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_herod_remaining_wives",
+      "name": "Herod the Great's Remaining 5 Wives & Children (Josephus Ant. XVII.1.3): Pallas (→ Phasael II), Phaedra (→ Roxane), Elpis (→ Salome II), Niece & Cousin",
+      "altNames": [
+        "Pallas, Phaedra & Elpis"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "37–4 BCE (Josephus Ant. XVII.1.3 p.1197)",
+      "role": "Complete 10-Wife Roster of Herod the Great",
+      "sources": [
+        "Flavius Josephus Antiquities XVII.1.3 (p.1197)",
+        "Wars I.28.4"
+      ],
+      "notes": "Completes Josephus's full inventory of Herod the Great's ten wives and their offspring: Pallas (Phasael II), Phaedra (Roxane), Elpis (Salome II), plus his unnamed niece and cousin.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_herod_armenia_cilicia",
+      "name": "Herodian Kings of Armenia & Cilicia (Josephus Ant. XVIII.5.4): Alexander + Glaphyra → Kings Tigranes V & Tigranes VI of Armenia → Gaius Julius Alexander (+ Iotape) → Roman Consuls",
+      "altNames": [
+        "Tigranes V of Armenia",
+        "Tigranes VI of Armenia",
+        "Gaius Julius Alexander",
+        "Glaphyra of Cappadocia"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "c. 15 BCE – 115 CE (Josephus Ant. XVII.1, XVIII.5.4 p.1196)",
+      "role": "Esau/Idumean & Hasmonean Royal Bloodline Ruling Armenia, Cilicia & Entering Roman Senate",
+      "sources": [
+        "Flavius Josephus Antiquities XVIII.5.4",
+        "Tacitus Annals XV",
+        "Cassius Dio"
+      ],
+      "notes": "Herod's son Alexander (+ Cappadocian princess Glaphyra, also widow of King Juba II of Mauretania!) fathered King Tigranes V of Armenia and Alexander II -> King Tigranes VI of Armenia -> King Gaius Julius Alexander of Cetis/Cilicia (+ Iotape of Commagene!) -> Roman suffect consuls Julius Agrippa & Julius Alexander Berenicianus!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_herod_emesa_rome",
+      "name": "Herodian–Roman–Emesa Marriages (Josephus Ant. XX.7): Berenice II (+ Emperor Titus & Polemon II), Drusilla (+ Azizus of Emesa & Felix → Agrippa, d. 79 CE Vesuvius!) & Mariamne",
+      "altNames": [
+        "Queen Berenice II",
+        "Drusilla & Felix",
+        "King Azizus of Emesa"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "40–79 CE (Josephus Antiquities XX.7; Acts 24:24)",
+      "role": "Final Herodian Intermarriages With Emesa, Cilicia & Flavian Rome",
+      "sources": [
+        "Flavius Josephus Antiquities XX.7",
+        "Tacitus Histories II",
+        "Acts 24:24"
+      ],
+      "notes": "Herod Agrippa I's daughters carried the Idumean-Hasmonean bloodline across the Roman Empire: Queen Berenice II (+ Marcus Julius Alexander, Herod of Chalcis, King Polemon II of Pontus & future Roman Emperor Titus!), and Drusilla (+ King Azizus of Emesa, then Roman Procurator Felix -> son Agrippa, who perished at Pompeii in the 79 CE eruption of Mt. Vesuvius!).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_esau_edom_rome_bridge",
+      "name": "Esau / Edom = Rome & Byzantium Cross-Tradition Bridge (Josephus, Talmud, Jasher 60–61 Zepho/Janus & Al-Tabari Banu al-Asfar)",
+      "altNames": [
+        "Edom = Rome",
+        "Banu al-Asfar (al-Rum)"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Antiquity → Medieval Chronicles",
+      "role": "Classical Jewish & Islamic Identification of Rome/Byzantium With Esau (Edom)",
+      "sources": [
+        "Book of Jasher 60–61",
+        "Al-Tabari Vol. 2 p.17",
+        "Talmud Megillah 6a",
+        "Ibn Ezra Gen 27"
+      ],
+      "notes": "Explains why Jewish, Sefer ha-Yashar (Zepho/Janus king of Kittim/Rome), and early Islamic (Banu al-Asfar / al-Rum descended from Esau) traditions link Rome and Byzantium spiritually and genealogically to Esau.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_sparta_areus_abraham",
+      "name": "King Areus I of Sparta → High Priest Onias (1 Macc 12:21; Josephus Ant. XII.4.10): Spartans & Jews Brethren From Abraham!",
+      "altNames": [
+        "Spartan-Abraham Charter",
+        "King Areus I"
+      ],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 309–265 BCE (1 Macc 12:20–23; Josephus Ant. XII.4.10)",
+      "role": "Diplomatic Blood-Brotherhood Charter Linking Sparta Directly to Abraham",
+      "sources": [
+        "Flavius Josephus Antiquities XII.4.10 (p.661)",
+        "1 Maccabees 12:20–23"
+      ],
+      "notes": "Both 1 Maccabees 12 and Josephus Ant. XII.4.10 preserve King Areus I of Sparta's official sealed letter to High Priest Onias in Jerusalem declaring: 'It has been found in writing that the Spartans and the Jews are brethren, and that they are of the stock of Abraham!' Graduates classical Sparta into Biblically Connected!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_sparta_lycurgus_leonidas",
+      "name": "Spartan Royal Houses (Agiad & Eurypontid): Lawgiver Lycurgus → King Leonidas I (Thermopylae, 480 BCE) → Agesilaus II → Cleomenes III",
+      "altNames": [
+        "King Leonidas I",
+        "Lawgiver Lycurgus",
+        "Queen Gorgo"
+      ],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 8th–3rd c. BCE (Herodotus; Plutarch; Josephus)",
+      "role": "Kings & Lawgiver of Lacedaemon (Graduated via Abraham–Sparta Charter!)",
+      "sources": [
+        "Josephus Antiquities XII.4.10",
+        "Herodotus VII",
+        "Plutarch Lives"
+      ],
+      "notes": "Moved out of Pending Bridge via the explicit Abraham-descent claim attested in 1 Maccabees 12:21 and Josephus Ant. XII.4.10, uniting Lawgiver Lycurgus, Leonidas I (+ Queen Gorgo), Agesilaus II, and Agiad King Areus I.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_cleodemus_heracles_africa",
+      "name": "Josephus Ant. I.15 (Cleodemus Malchus): Abraham + Keturah → Epher / Apher ('Africa') → Heracles Weds Abraham's Granddaughter → Diodorus → Sophax (Mauretania / Juba II)",
+      "altNames": [
+        "Cleodemus Malchus",
+        "Apher ('Africa')",
+        "Sophax"
+      ],
+      "tradition": "biblical",
+      "tier": 11,
+      "era": "Patriarchal → African-Greek Mythic Horizon (Josephus Ant. I.15 p.102)",
+      "role": "Oldest Quoted Greek-Jewish Bloodline Bridging Abraham, Heracles & North Africa",
+      "sources": [
+        "Flavius Josephus Antiquities I.15 (quoting Alexander Polyhistor / Cleodemus Malchus)",
+        "Plutarch Life of Sertorius"
+      ],
+      "notes": "Josephus Ant. I.15 cites Hellenistic Jewish historian Cleodemus Malchus: Abraham's sons by Keturah (Epher/Apher, Asshur & Japhran) conquered Libya — giving AFRICA its name from Apher — and Heracles wed Apher's daughter, siring Diodorus -> Sophax (ancestor of King Juba II & Cleopatra Selene of Mauretania!).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_moses_tharbis",
+      "name": "Princess Tharbis of Ethiopia (Meroe/Saba) — Wife of General Moses (Josephus Ant. II.10 pp.152–154)",
+      "altNames": [
+        "Tharbis of Meroe"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "2nd Millennium BCE (Josephus Ant. II.10.2)",
+      "role": "Ethiopian Royal Daughter Married to Moses During Nile Campaign",
+      "sources": [
+        "Flavius Josephus Antiquities II.10.2 (pp.152–154)"
+      ],
+      "notes": "Josephus recounts how Moses commanded Egypt's army against Ethiopia using stork/ibis baskets against serpents, besieged Saba (Meroe), and wed Ethiopian royal princess Tharbis (matching the 'Cushite woman' of Numbers 12:1).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_adiabene_helena_izates",
+      "name": "Royal House of Adiabene (Assyria/Kurdistan, Josephus Ant. XX.2–4): King Monobazus I + Queen Helena → King Izates II & Monobazus II",
+      "altNames": [
+        "Queen Helena of Adiabene",
+        "King Izates II"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 19,
+      "era": "c. 1–70 CE (Josephus Ant. XX.2–4 pp.1069–1075)",
+      "role": "Mesopotamian Royal Converts to Judaism Buried in Jerusalem",
+      "sources": [
+        "Flavius Josephus Antiquities XX.2–4 (pp.1069–1075)"
+      ],
+      "notes": "King Monobazus I (Bazeus) and Queen Helena of Adiabene (ancient Assyria/Erbil) and their son King Izates II converted to Judaism, fed Jerusalem during the famine of Acts 11:28, and built the monumental Tomb of the Kings in Jerusalem.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alias_abraham_cross",
+      "name": "Intercultural Aliases of Abraham: Abram / Ibrahim (Arabic) / Berossus's 10th Chaldean / Cleodemus's Africa-Heracles / Spartan Kinsman / Brahma-Syncretic",
+      "altNames": [
+        "Ibrahim",
+        "Abram",
+        "Chaldean Astronomer",
+        "Brahma (Syncretic)"
+      ],
+      "tradition": "biblical",
+      "tier": 9,
+      "era": "Cross-Cultural Patriarchal Resonance",
+      "role": "Unified Alias Index Across Hebrew, Arabic, Greek, Babylonian & Indian Traditions",
+      "sources": [
+        "Genesis 11–25",
+        "Josephus Ant. I.7, I.15, XII.4.10",
+        "Quran / Ibn Kathir",
+        "Post-Medieval Syncretists"
+      ],
+      "notes": "Maps how Abraham appears across world traditions: Hebrew Abram/Abraham; Arabic Prophet Ibrahim (Ibn Kathir / Sirah); Berossus's 'righteous Chaldean skilled in heavenly lore' (Ant. I.7.2); Cleodemus's grandfather-in-law of Heracles & ancestor of Africa (Ant. I.15); Spartan kindred charter (1 Macc 12:21); and 17th-c. folkloric comparison of Abraham/Sarah <-> Brahma/Saraswati.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alias_moses_cross",
+      "name": "Intercultural Aliases of Moses: Moshe / Musa (Arabic) / Osarseph (Manetho) / Musaeus (Artapanus) / King of Cush (Jasher 73) / Husband of Tharbis (Josephus)",
+      "altNames": [
+        "Musa",
+        "Osarseph",
+        "Musaeus",
+        "King of Cush"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Cross-Cultural Prophet-King Resonance",
+      "role": "Unified Alias Index Across Bible, Egypt, Greece, Nubia & Arabia",
+      "sources": [
+        "Exodus–Deuteronomy",
+        "Josephus Ant. II.10 & Against Apion I.26",
+        "Artapanus",
+        "Book of Jasher 73"
+      ],
+      "notes": "Unites Moses's names across ancient accounts: Hebrew Moshe; Quranic Prophet Musa; Egyptian priest-chronicler Manetho's Osarseph; Greco-Jewish Artapanus's Musaeus (teacher of Orpheus & Hermes); Book of Jasher's 40-year King of Cush (+ Adoniah); and Josephus's victorious Egyptian general (+ Tharbis).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alias_noah_cross",
+      "name": "Intercultural Aliases of Noah: Noach / Nuh / Ziusudra (Sumer) / Utnapishtim (Atrahasis) / Xisuthros (Berossus) / Vaivasvata Manu (India) / Yima (Iran) / Deucalion (Greece) / Janus / Fuxi (Figurist)",
+      "altNames": [
+        "Nuh",
+        "Ziusudra",
+        "Utnapishtim",
+        "Vaivasvata Manu",
+        "Deucalion"
+      ],
+      "tradition": "biblical",
+      "tier": 4,
+      "era": "Universal Great Flood Survivor Matrix",
+      "role": "Global Cognate & Parallel Hub Linking Humanity After the Deluge",
+      "sources": [
+        "Genesis 6–9",
+        "Epic of Gilgamesh XI",
+        "Shatapatha Brahmana",
+        "Apollodorus",
+        "Bar Hebraeus"
+      ],
+      "notes": "Side-by-side comparison showing Noah's exact equivalents/parallels: Sumerian Ziusudra, Akkadian Atrahasis/Utnapishtim, Berossus's Xisuthros, Indian Vaivasvata Manu, Avestan Yima, Greek Deucalion & Ogyges, 18th-c. Janus/Oenotrus (Betham/Anderson), and Jesuit Figurist Fuxi.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alias_enoch_cross",
+      "name": "Intercultural Aliases of Enoch: Khanokh / Idris (Arabic) / Hermes Trismegistus / Thoth (Egypt) / King Saurid (Pyramid Builder) / Enmeduranki (7th Sage)",
+      "altNames": [
+        "Idris",
+        "Thoth / Hermes",
+        "King Saurid",
+        "Enmeduranki"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian 7th Patriarch / Astronomer Scribe Matrix",
+      "role": "Greco-Egyptian, Coptic-Arabic & Mesopotamian 7th-Sage Matrix",
+      "sources": [
+        "Genesis 5:21–24",
+        "1 Enoch",
+        "Al-Mas'udi",
+        "Ibn Kathir",
+        "Mesopotamian SKL (Enmeduranki)"
+      ],
+      "notes": "Tracks how the 7th Patriarch Enoch (inventor of writing & calendar in Jubilees 4:17) is identified in Coptic-Arabic chronicles with King Saurid (builder of Great Pyramids), in Hermeticism with Thoth/Hermes Trismegistus, in Islam with Prophet Idris, and compared structurally with Enmeduranki of Sippar.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alias_nimrod_cross",
+      "name": "Intercultural Aliases of Nimrod: Nebrod / Belus (Babylon) / Ninus (Assyria) / Al-Dahhak (Shahnameh) / Lamurudu (Yoruba Oduduwa Chronicle) / Orion",
+      "altNames": [
+        "Belus",
+        "Ninus",
+        "Lamurudu",
+        "Al-Dahhak"
+      ],
+      "tradition": "biblical",
+      "tier": 7,
+      "era": "First Post-Flood Empire Builder Matrix",
+      "role": "Near Eastern, Persian & West African Royal Syncretisms",
+      "sources": [
+        "Genesis 10:8–12",
+        "Dutripon p.9",
+        "Al-Tabari",
+        "Samuel Johnson History of the Yorubas"
+      ],
+      "notes": "Maps Nimrod son of Cush across chronicles: Latin Vulgate/Dutripon Belus; classical Ninus of Nineveh; Persian/Arabic tyrants Zuhhak/Al-Dahhak (Tabari); and West African Yoruba chronicle ancestor Lamurudu -> Oduduwa.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alias_joseph_solomon_cross",
+      "name": "Intercultural Aliases of Joseph & Solomon: Zaphenath-Paneah / Yusuf / Imhotep Parallel; Sulayman / King of Tadmor-Palmyra / Father of Menelik I (Ethiopia)",
+      "altNames": [
+        "Zaphenath-Paneah",
+        "Yusuf",
+        "Sulayman"
+      ],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Egyptian Vizier & Near Eastern Sovereign Matrix",
+      "role": "Biblical-Egyptian-Ethiopic-Palmyrene Royal Resonances",
+      "sources": [
+        "Genesis 41",
+        "Kebra Nagast",
+        "Seller Antiquities of Palmyra (1696)",
+        "Quran / Ibn Kathir"
+      ],
+      "notes": "Collects Joseph's Egyptian court title Zaphenath-Paneah (Arabic Yusuf, and 7-year-famine vizier parallel to Djoser's Imhotep) alongside Solomon (Sulayman), revered across Jerusalem, Aksumite Ethiopia (Menelik I), Yemen (Sheba/Bilqis), and Tadmor/Palmyra.",
+      "major": true,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "esa_amalek",
+      "to": "jos_king_agag",
+      "type": "direct",
+      "label": "1 Sam 15 & Josephus Ant. VI.7: Agag royal house of Amalek (Esau)"
+    },
+    {
+      "from": "jos_king_agag",
+      "to": "jos_haman_amalekite",
+      "type": "direct",
+      "label": "Esth 3:1 & Josephus Ant. XI.6.5: Haman ben Hammedatha the Agagite/Amalekite"
+    },
+    {
+      "from": "jos_haman_amalekite",
+      "to": "bib_esther_mordecai",
+      "type": "cognate",
+      "label": "Purim confrontation: Haman (Esau/Amalek) vs. Esther & Mordecai (Benjamin/Kish)"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "jos_herod_remaining_wives",
+      "type": "direct",
+      "label": "Josephus Ant. XVII.1.3: remaining 5 wives & children of Herod the Great"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "jos_herod_armenia_cilicia",
+      "type": "direct",
+      "label": "Josephus Ant. XVIII.5.4: Alexander (+ Glaphyra) -> Armenian Kings Tigranes V/VI & Cilician/Roman lines"
+    },
+    {
+      "from": "her_agrippa_herodias",
+      "to": "jos_herod_emesa_rome",
+      "type": "direct",
+      "label": "Josephus Ant. XX.7: Berenice II (+ Titus) & Drusilla (+ Emesa & Felix -> Pompeii 79 CE)"
+    },
+    {
+      "from": "bib_esau",
+      "to": "jos_esau_edom_rome_bridge",
+      "type": "syncretic",
+      "label": "Jasher 60–61, Talmud & Tabari: Edom / Zepho (Janus) -> Rome & al-Rum"
+    },
+    {
+      "from": "esa_zepho",
+      "to": "jos_esau_edom_rome_bridge",
+      "type": "syncretic",
+      "label": "Jasher 60–61: Zepho ben Eliphaz ben Esau becomes 1st King of Kittim/Italy"
+    },
+    {
+      "from": "jos_esau_edom_rome_bridge",
+      "to": "grk_romulus_remus",
+      "type": "syncretic",
+      "label": "Syncretic Jewish & Islamic identification of Edom/Kittim with Rome"
+    },
+    {
+      "from": "jos_esau_edom_rome_bridge",
+      "to": "rom_constantine_byzantium",
+      "type": "syncretic",
+      "label": "Al-Tabari & Talmudic Edom/al-Rum identification with Eastern Rome (Byzantium)"
+    },
+    {
+      "from": "bib_abraham",
+      "to": "jos_sparta_areus_abraham",
+      "type": "syncretic",
+      "label": "1 Macc 12:21 & Josephus Ant. XII.4.10: Spartan King Areus declares Spartans 'of the stock of Abraham'"
+    },
+    {
+      "from": "jos_sparta_areus_abraham",
+      "to": "pri_onias_dynasty",
+      "type": "cognate",
+      "label": "Areus I of Sparta sends fraternal letter & seal to High Priest Onias in Jerusalem"
+    },
+    {
+      "from": "jos_sparta_areus_abraham",
+      "to": "jos_sparta_lycurgus_leonidas",
+      "type": "direct",
+      "label": "Agiad/Eurypontid Spartan royal house uniting Lycurgus, Leonidas I & Areus I"
+    },
+    {
+      "from": "ket_midian",
+      "to": "jos_cleodemus_heracles_africa",
+      "type": "expansion",
+      "label": "Josephus Ant. I.15 (Cleodemus): Midian's son Epher/Apher -> eponym of Africa"
+    },
+    {
+      "from": "mid_epher",
+      "to": "jos_cleodemus_heracles_africa",
+      "type": "expansion",
+      "label": "Abraham -> Midian -> Epher (Apher) -> daughter marries Heracles"
+    },
+    {
+      "from": "jos_cleodemus_heracles_africa",
+      "to": "grk_heracles",
+      "type": "syncretic",
+      "label": "Cleodemus Malchus: Heracles marries Abraham's granddaughter -> Diodorus -> Sophax"
+    },
+    {
+      "from": "jos_cleodemus_heracles_africa",
+      "to": "eg_ptolemy_cleopatra",
+      "type": "cognate",
+      "label": "Mauretania (Sophax -> Juba II) + Cleopatra Selene (daughter of Cleopatra VII!)"
+    },
+    {
+      "from": "bib_moses",
+      "to": "jos_moses_tharbis",
+      "type": "expansion",
+      "label": "Josephus Ant. II.10.2: Ethiopian Princess Tharbis marries Moses at Saba/Meroe"
+    },
+    {
+      "from": "bib_asshur",
+      "to": "jos_adiabene_helena_izates",
+      "type": "expansion",
+      "label": "Adiabene (ancient Assyria/Hadiab) -> King Monobazus I & Queen Helena"
+    },
+    {
+      "from": "her_agrippa_herodias",
+      "to": "jos_adiabene_helena_izates",
+      "type": "cognate",
+      "label": "Royal converts Queen Helena & Izates allied with 1st-c. Jerusalem & Judean famine relief"
+    },
+    {
+      "from": "bib_abraham",
+      "to": "alias_abraham_cross",
+      "type": "cognate",
+      "label": "Cross-cultural aliases & attestations of Abraham"
+    },
+    {
+      "from": "bib_moses",
+      "to": "alias_moses_cross",
+      "type": "cognate",
+      "label": "Cross-cultural aliases & attestations of Moses"
+    },
+    {
+      "from": "bib_noah",
+      "to": "alias_noah_cross",
+      "type": "cognate",
+      "label": "Global Great Flood hero aliases & parallels of Noah"
+    },
+    {
+      "from": "bib_enoch",
+      "to": "alias_enoch_cross",
+      "type": "cognate",
+      "label": "7th-Patriarch / Hermes / Thoth / Idris / Saurid aliases of Enoch"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "alias_nimrod_cross",
+      "type": "cognate",
+      "label": "First world-monarch aliases (Belus / Ninus / Lamurudu) of Nimrod"
+    },
+    {
+      "from": "tri_joseph",
+      "to": "alias_joseph_solomon_cross",
+      "type": "cognate",
+      "label": "Egyptian title Zaphenath-Paneah & Yusuf aliases of Joseph"
+    },
+    {
+      "from": "jud_solomon",
+      "to": "alias_joseph_solomon_cross",
+      "type": "cognate",
+      "label": "Pan-Afro-Eurasian royal traditions of King Solomon / Sulayman"
+    }
+  ]
+}

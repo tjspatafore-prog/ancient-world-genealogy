@@ -36,6 +36,9 @@ from modules import (
     mod37_individual_monarchs_world_chronicles,
     mod38_comprehensive_biblical_jubilees_jasher_enoch,
     mod39_malay_pseudo_methodius_chronicles_world,
+    mod40_josephus_esau_herod_intercultural_bridges,
+    mod41_1chronicles_keating_deep_extract,
+    mod42_global_royalty_offspring_plan_c,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1286,6 +1289,9 @@ def main():
         mod37_individual_monarchs_world_chronicles.build_module(),
         mod38_comprehensive_biblical_jubilees_jasher_enoch.build_module(),
         mod39_malay_pseudo_methodius_chronicles_world.build_module(),
+        mod40_josephus_esau_herod_intercultural_bridges.build_module(),
+        mod41_1chronicles_keating_deep_extract.build_module(),
+        mod42_global_royalty_offspring_plan_c.build_module(),
     ]
 
     for mod in modules:
@@ -1366,8 +1372,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — 265 Sources: Exhaustive Biblical/Jubilees/Jasher/Enoch & World Rulers (v17.0)",
-            "version": "17.0.0",
+            "title": "Ancient World Genealogy Atlas — Hybrid + Plan C Master Edition (v18.0)",
+            "version": "18.0.0",
             "counts": {
                 "total": len(all_nodes),
                 "biblicalConnected": bib_count,

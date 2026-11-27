@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ancient World Genealogy Atlas — Universal Biblical &amp; Noahic Lineages</title>
-  <meta name="description" content="Complete global ancient genealogy atlas connecting every nation and dynasty back to Adam &amp; Eve and Noah (Shem, Ham, Japheth &amp; Yonton) across 265 primary sources: Bible, Enoch, Jasher, Jubilees, Cave of Treasures, Pseudo-Philo, Genesis Apocryphon, Malay Annals (Malacca-Iskandar Bridge), Pseudo-Methodius, Bochart, Isidore, Josephus, Abulghazi, Knolles, Raleigh, Tarikh es-Soudan, Mariana, Bede, Paul the Deacon (Lombards), Landnamabok (Iceland), Lloyd (Wales), Tod (Rajasthan), Tarikh-i-Rashidi, Ladakh &amp; Living Lines to 2026." />
+  <meta name="description" content="Universal World Genealogy Atlas (v18.0 Hybrid + Plan C): Connecting global monarchs, offspring &amp; famous lineages back to Adam, Noah, Abraham, Moses &amp; Esau across primary sources — Josephus (Esau → Agag/Haman/Herod/Armenia/Rome; Sparta–Abraham Charter; Heracles/Africa), 1 Chronicles, Keating, Bible/Jubilees/Jasher/Enoch, Malay Annals, Poland/Hungary/Sweden/Denmark/Bohemia, Habsburgs, Bourbons, Windsors (2026) &amp; intercultural aliases." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :root {
@@ -74,7 +74,7 @@
           <h1 class="text-xs sm:text-sm font-semibold leading-tight truncate">Ancient World Genealogy Atlas</h1>
           <span id="versionBadge" class="text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono shrink-0">Loading…</span>
         </div>
-        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">265 Primary Sources • Biblically Connected &amp; Complete World Rulers • Switch Scope Tabs to Explore All</p>
+        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">Hybrid + Plan C Edition (v18.0) • Global Royalty, Offspring, Josephus Bloodlines &amp; Intercultural Aliases</p>
       </div>
     </div>
 
@@ -118,6 +118,7 @@
     <span class="text-[var(--muted-foreground)] font-medium shrink-0 mr-1">Spotlights:</span>
     <button onclick="applyPreset('all')" id="preset-all" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Full World Atlas</button>
     <button onclick="applyPreset('strict')" id="preset-strict" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Strict Textual + Cognates</button>
+    <button onclick="showBridgesSpotlight()" id="preset-bridges" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-emerald-500/40 text-emerald-400 hover:bg-[var(--accent)]">✨ Bloodline Bridges &amp; Aliases</button>
     <button onclick="showPendingBridge()" id="preset-pending" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-amber-500/40 text-amber-400 hover:bg-[var(--accent)]">Pending Bridge (Unconnected)</button>
     <button onclick="applyPreset('dna')" id="preset-dna" class="preset-btn shrink-0 px-2 py-0.5 rounded border border-[var(--border)]">Archaeogenetics (Y-DNA &amp; mtDNA)</button>
     <button onclick="focusSubtree('bib_abraham')" class="shrink-0 px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Abraham's Full Tree</button>
@@ -457,7 +458,8 @@ const MAP_PINS = [
   { id:"pin_rajasthan", label:"Mewar & Rajasthan (Bappa Rawal / Pratap)", lat:24.6, lon:73.7, nodeId:"ind_raj_mewar_sisodia", trad:"vedic", desc:"James Tod Annals of Rajasthan: Solar Lava/Kusha -> Bappa Rawal -> Maharana Pratap & Rathores/Kachwahas" },
   { id:"pin_kongo", label:"Mbanza-Kongo (Kingdom of Kongo)", lat:-6.3, lon:14.2, nodeId:"afr_kongo_lukeni", trad:"african", desc:"Pending Bridge: Lukeni lua Nimi -> Afonso I -> Queen Nzinga Mbande (Mod. Univ. Hist. Vols. 6-7)" },
   { id:"pin_zimbabwe", label:"Great Zimbabwe & Mutapa", lat:-20.3, lon:30.9, nodeId:"afr_zimbabwe_mutota", trad:"african", desc:"Pending Bridge: Nyatsimba Mutota -> Nyanhewe Matope & Zulu Kingdom (Shaka)" },
-  { id:"pin_warsaw", label:"Poland, Hungary & Baltics", lat:52.2, lon:21.0, nodeId:"eur_poland_mieszko", trad:"europe_norse", desc:"Pending Bridge: Piast -> Mieszko I -> Jadwiga/Jagiello, Arpad (Hungary) & Gediminas (Lithuania)" }
+  { id:"pin_warsaw", label:"Poland, Hungary, Bohemia & Baltics", lat:52.2, lon:21.0, nodeId:"eur_poland_mieszko", trad:"europe_norse", desc:"Bridged via Yaroslav & Capetians: Piasts, Arpads, Premyslids, Jadwiga & Jagiello (Lithuania), Habsburgs" },
+  { id:"pin_sparta", label:"Sparta (Abraham Fraternity Charter)", lat:37.1, lon:22.4, nodeId:"jos_sparta_areus_abraham", trad:"greek", desc:"1 Macc 12:21 & Josephus Ant. XII.4.10: King Areus I declares Spartans brethren from Abraham (Lycurgus & Leonidas I)" }
 ];
 
 const MAP_ARCS = [
@@ -538,6 +540,9 @@ const MAP_ARCS = [
   { from:"pin_scotland", to:"pin_wales", type:"expansion", label:"J.E. Lloyd: Cunedda migrates from Gododdin (Scotland) to found Gwynedd -> Llywelyn of Wales" },
   { from:"pin_kashmir", to:"pin_ladakh", type:"expansion", label:"Francke Chronicles of Ladakh: Yarlung royal prince Skyid-lde Nyi-ma-mgon -> Sengge Namgyal" },
   { from:"pin_india", to:"pin_rajasthan", type:"expansion", label:"Tod Annals of Rajasthan: Ayodhya Solar Lava/Kusha -> Mewar Sisodias (Bappa Rawal & Pratap)" },
+  { from:"pin_levant", to:"pin_sparta", type:"syncretic", label:"1 Macc 12:21 & Josephus Ant. XII.4.10: Spartan King Areus I claims descent from Abraham -> Leonidas I" },
+  { from:"pin_russia", to:"pin_warsaw", type:"cognate", label:"Yaroslav the Wise Royal Marriages: Maria Dobroniega (Poland) & Anastasia of Kiev (Hungary) -> Jagiellonians" },
+  { from:"pin_norse", to:"pin_warsaw", type:"cognate", label:"Sigrid/Gunhild & King Cnut the Great bridging Scandinavia, Poland & England -> Bernadotte & Glucksburg" },
   { from:"pin_kongo", to:"pin_zimbabwe", type:"cognate", label:"Sub-Saharan Bantuphone kingdoms: Kongo, Ndongo & Great Zimbabwe / Mutapa" }
 ];
 
@@ -559,6 +564,7 @@ let expandedParents = new Set();
 let expandMode = "landmarks";
 let mainView = "tree";
 let focusRootId = null;
+let bridgeSpotlightIds = null;
 let selectedNodeId = "bib_abraham";
 let searchQuery = "";
 let activePreset = "all";
@@ -710,11 +716,16 @@ function initUI() {
     tf.appendChild(row);
   });
 
+  let searchTimer = null;
   document.getElementById("searchInput").addEventListener("input", (e) => {
-    searchQuery = e.target.value.trim().toLowerCase();
-    render();
-    if (mainView === "directory") renderDirectory();
-    if (mainView === "timeline") renderTimeline();
+    const val = e.target.value.trim().toLowerCase();
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(() => {
+      searchQuery = val;
+      render();
+      if (mainView === "directory") renderDirectory();
+      if (mainView === "timeline") renderTimeline();
+    }, 120);
   });
 
   const svg = document.getElementById("treeSvg");
@@ -908,6 +919,7 @@ function setScope(scope) {
 
 function showPendingBridge() {
   focusRootId = null;
+  bridgeSpotlightIds = null;
   document.getElementById("focusBanner").classList.add("hidden");
   activeScope = "all";
   pendingOnly = true;
@@ -920,6 +932,39 @@ function showPendingBridge() {
   syncCheckboxes();
   updateScopeUI();
   render();
+  fitView();
+}
+
+function showBridgesSpotlight() {
+  focusRootId = null;
+  document.getElementById("focusBanner").classList.add("hidden");
+  activeScope = "biblical";
+  pendingOnly = false;
+  activePreset = "bridges";
+  clearPath(false);
+  activeTraditions = new Set(Object.keys(TRADITIONS).filter(k => k !== "dna"));
+  activeLinkTypes = new Set(Object.keys(LINK_META).filter(k => k !== "genetic"));
+  bridgeSpotlightIds = new Set([
+    "bib_adam", "bib_noah", "bib_enoch", "bib_nimrod", "bib_abraham", "bib_esau", "bib_moses", "tri_joseph", "jud_solomon",
+    "alias_abraham_cross", "alias_moses_cross", "alias_noah_cross", "alias_enoch_cross", "alias_nimrod_cross", "alias_joseph_solomon_cross",
+    "esa_amalek", "jos_king_agag", "jos_haman_amalekite", "bib_esther_mordecai",
+    "her_herod_great_family", "jos_herod_armenia_cilicia", "jos_herod_emesa_rome",
+    "esa_zepho", "jos_esau_edom_rome_bridge", "grk_romulus_remus", "rom_constantine_byzantium",
+    "jos_sparta_areus_abraham", "jos_sparta_lycurgus_leonidas",
+    "ket_midian", "mid_epher", "jos_cleodemus_heracles_africa", "grk_heracles", "eg_ptolemy_cleopatra", "pc_ptolemy_cleopatra_kids",
+    "chr41_sheshan_jarha_egypt", "chr41_mered_bithiah_pharaoh", "jos_adiabene_helena_izates",
+    "grk_alexander", "mal_iskandar_shaher", "mal_parameswara_iskandar",
+    "rus_yaroslav_wise", "eur_poland_mieszko", "eur42_jadwiga_jagiello", "eur42_eric_olof_sweden", "eur42_almos_arpad_stephen",
+    "pc_hanover_windsor_victoria", "fam_washington_jefferson"
+  ]);
+  expandedParents.clear();
+  setModeUI("landmarks");
+  if (mainView !== "tree") setMainView("tree");
+  syncCheckboxes();
+  updateScopeUI();
+  selectedNodeId = "alias_abraham_cross";
+  render();
+  renderInspector(selectedNodeId);
   fitView();
 }
 
@@ -981,6 +1026,7 @@ function getActiveParents(id) {
 
 function focusSubtree(rootId) {
   closeDrawers();
+  bridgeSpotlightIds = null;
   focusRootId = rootId;
   activePreset = "";
   pendingOnly = false;
@@ -1034,6 +1080,9 @@ function getVisibleNodes() {
   if (focusRootId) {
     const fset = getFocusNodeSet(focusRootId);
     return NODES.filter(n => fset.has(n.id) && activeTraditions.has(n.tradition) && isNodeInScope(n));
+  }
+  if (bridgeSpotlightIds) {
+    return NODES.filter(n => (bridgeSpotlightIds.has(n.id) || n.id === selectedNodeId) && activeTraditions.has(n.tradition) && isNodeInScope(n));
   }
   const activeSelChildren = selectedNodeId ? new Set(getActiveChildren(selectedNodeId)) : new Set();
   const activeSelParents = selectedNodeId ? new Set(getActiveParents(selectedNodeId)) : new Set();
@@ -1162,6 +1211,7 @@ function setModeUI(mode) {
 
 function applyPreset(name) {
   focusRootId = null;
+  bridgeSpotlightIds = null;
   document.getElementById("focusBanner").classList.add("hidden");
   activePreset = name;
   pendingOnly = false;

@@ -1,12 +1,9 @@
 """
 Module 36: Unbridged World Kingdoms, Dynasties & Classical Thinkers (Pending Bridge).
-Contains 220+ individual world rulers, queens, dynasties, and classical philosophers
+Contains 200+ individual world rulers, queens, offspring, dynasties, and classical thinkers
 across the Americas, Polynesia, Sub-Saharan Africa, Southeast Asia, Japanese Shogunates,
-Korean Goryeo/Joseon, Chinese Three Kingdoms/Song/Ming, Classical Greek Thinkers, and
-Central/Northern European Houses — awaiting primary-source Biblical/Noahic bridges.
-
-IMPORTANT: Zero edges from this module connect to Adam, Noah, or any Biblical/Noahic node.
-They populate the 'All' scope tab cleanly and appear under 'Pending Bridge'.
+Korean Goryeo/Joseon, Chinese Three Kingdoms/Song/Ming, and Classical Greek Thinkers — awaiting
+primary-source Biblical/Noahic bridges. (Malacca graduated in v17; Sparta & N./Central Europe graduated in v18!)
 """
 
 from . import N, E
@@ -51,6 +48,7 @@ def build_module():
         ("unb_azt_nezahualcoyotl", "Nezahualcoyotl (Poet-King of Texcoco, Triple Alliance)", 15, "1402–1472 CE", "Tlatoani of Texcoco", "Codex Xolotl & Triple Alliance co-founder."),
         ("unb_azt_tlacaelel", "Tlacaelel (Cihuacoatl Architect of Mexica Empire)", 15, "1397–1487 CE", "Chief Vizier (Cihuacoatl)", "Advised Itzcoatl, Moctezuma I, Axayacatl & Ahuitzotl."),
         ("unb_azt_xicotencatl", "Xicotencatl the Younger (General of Tlaxcala)", 17, "1484–1521 CE", "Tlaxcalan Commander", "Opposed Cortes in Modern Universal History Vol. 14 p. 200."),
+        ("unb_azt_malintzin_tecuichpotzin", "Tecuichpotzin / Doña Isabel Moctezuma (dau. of Moctezuma II) & Malintzin", 18, "1509–1550 CE", "Mexica Imperial Heiress", "Daughter of Moctezuma II whose descendants entered Spanish Ducal houses (Dukes of Moctezuma de Tultengo)."),
         ("unb_car_guacanagari", "Cacique Guacanagari (Marién, Hispaniola, 1492)", 17, "1492–1494 CE", "Taíno Cacique", "Greeted Columbus on Hispaniola (Mod. Univ. Hist. Vol. 14 p. 145)."),
         ("unb_car_caonabo", "King Caonabo of Maguana (Hispaniola)", 17, "d. 1496 CE", "Taíno Sovereign", "Sovereign who resisted early Spanish forts (Mod. Univ. Hist. Vol. 14 p. 145)."),
     ]:
@@ -75,8 +73,12 @@ def build_module():
         ("unb_inc_sayri_tupac", "Sayri Tupac (Vilcabamba)", 19, "1544–1561 CE"),
         ("unb_inc_titu_cusi", "Titu Cusi Yupanqui (Vilcabamba)", 20, "1563–1571 CE"),
         ("unb_inc_tupac_amaru", "Tupac Amaru (Last Sapa Inca of Vilcabamba, 1572)", 20, "1571–1572 CE"),
+        ("unb_inc_mama_ocllo_garcilaso", "Coya Mama Ocllo, Quispe Sisa & Chronicler Inca Garcilaso de la Vega (1539–1616)", 20, "15th–17th c. CE"),
     ], "americas_pacific", "13th–16th c. CE", ["Garcilaso de la Vega Royal Commentaries", "Modern Universal History Vol. 14"])
     edges.append(E("amp_inca_pachacuti", "unb_inc_pachacuti", "cognate", "Same Inca sovereign chain expanded individually"))
+    nodes.append(N("unb_may_lady_sak_kuk", "Lady Sak K'uk' (Queen Regent & Mother of Pakal the Great of Palenque)", "americas_pacific", 15, "612–640 CE", "Maya Royal Mother", ["Palenque Inscriptions"], "Conveyed the royal Palenque diadem directly to her son K'inich Janaab Pakal I.", major=False))
+    edges.append(E("unb_may_lady_yohl_iknal", "unb_may_lady_sak_kuk", "direct", "Palenque royal matrilineal succession -> Pakal"))
+    edges.append(E("unb_may_lady_sak_kuk", "unb_may_pakal_great", "direct", "Mother of Pakal the Great"))
 
     # Maya Classic Royal Houses under amp_maya_four_men
     add_chain(nodes, edges, "amp_maya_four_men", [
@@ -162,6 +164,7 @@ def build_module():
     add_chain(nodes, edges, None, [
         ("afr_zimbabwe_mutota", "Great Zimbabwe & Mutapa: Nyatsimba Mutota → Nyanhewe Matope", 19, "c. 1420–1480 CE", "Mwene Mutapa Founders", "Central-Southern African stone-citadel kingdoms.", True),
         ("unb_afr_senzangakhona", "Senzangakhona kaJama (Zulu Chief)", 21, "1762–1816 CE"),
+        ("unb_afr_queen_nandi", "Queen Nandi kaBhebhe (Mother of King Shaka Zulu, c. 1760–1827)", 21, "c. 1760–1827 CE"),
         ("unb_afr_shaka_zulu", "King Shaka kaSenzangakhona (Founder of Zulu Kingdom, 1816–1828)", 21, "1816–1828 CE"),
         ("unb_afr_dingane", "King Dingane & King Mpande of the Zulus", 21, "1828–1872 CE"),
         ("unb_afr_cetshwayo", "King Cetshwayo kaMpande (1872–1884)", 21, "1872–1884 CE"),
@@ -185,6 +188,7 @@ def build_module():
         ("unb_afr_agaja", "King Agaja & King Ghezo of Dahomey", "1708–1858 CE", "Kings of Dahomey"),
         ("unb_afr_behanzin", "King Behanzin of Dahomey (1889–1894)", "1889–1894 CE", "Final Independent Dahomey King"),
         ("unb_afr_ewuare_benin", "Oba Ewuare the Great of Benin (1440–1473)", "1440–1473 CE", "Oba of Benin"),
+        ("unb_afr_queen_idia", "Iyoba Queen Idia of Benin (Mother of Oba Esigie, c. 1504)", "15th–16th c. CE", "First Iyoba (Queen Mother) of Benin"),
         ("unb_afr_esigie_ovonramwen", "Oba Ozolua → Oba Esigie → Oba Ovonramwen of Benin", "1481–1897 CE", "Obas of Benin"),
     ]:
         nodes.append(N(cid, cname, "african", 21, era, role, ["West African Kingdom Chronicles", "Mod. Univ. Hist. Vol. 7"], f"{cname}.", major=False))
@@ -243,12 +247,14 @@ def build_module():
     # =========================================================================
     add_chain(nodes, edges, None, [
         ("unb_jpn_yoritomo", "Minamoto no Yoritomo (1st Kamakura Shogun, 1192)", 20, "1147–1199 CE", "1st Shogun of Japan", "Mod. Univ. Hist. Vol. 5 & Azuma Kagami.", True),
+        ("unb_jpn_hojo_masako_yoshitsune", "Hojo Masako ('Nun Shogun') & General Minamoto no Yoshitsune", 20, "1156–1225 CE"),
         ("unb_jpn_hojo_tokimasa", "Hojo Tokimasa (Shikken Regency of Kamakura)", 20, "1138–1215 CE"),
         ("unb_jpn_ashikaga_takauji", "Ashikaga Takauji (1st Muromachi Shogun, 1338)", 20, "1305–1358 CE"),
         ("unb_jpn_ashikaga_yoshimitsu", "Ashikaga Yoshimitsu (Golden Pavilion Kinkaku-ji)", 20, "1358–1408 CE"),
         ("unb_jpn_oda_nobunaga", "Oda Nobunaga (1st Great Unifier of Sengoku Japan)", 21, "1534–1582 CE"),
         ("unb_jpn_hideyoshi", "Toyotomi Hideyoshi (2nd Great Unifier)", 21, "1537–1598 CE"),
         ("unb_jpn_tokugawa_ieyasu", "Tokugawa Ieyasu (Founder of Edo Shogunate, 1603)", 21, "1543–1616 CE"),
+        ("unb_jpn_date_masamune", "Date Masamune ('One-Eyed Dragon' of Sendai, Hasekura Tsunenaga Mission)", 21, "1567–1636 CE"),
         ("unb_jpn_tokugawa_hidetada", "Tokugawa Hidetada (2nd Tokugawa Shogun)", 21, "1579–1632 CE"),
         ("unb_jpn_tokugawa_iemitsu", "Tokugawa Iemitsu (3rd Tokugawa Shogun)", 21, "1604–1651 CE"),
         ("unb_jpn_tokugawa_yoshinobu", "Tokugawa Yoshinobu (15th & Final Tokugawa Shogun)", 21, "1837–1913 CE"),
@@ -274,7 +280,9 @@ def build_module():
         ("unb_chn_wen_sui", "Emperor Wen of Sui (Yang Jian, Reunified China 581 CE)", 19, "541–604 CE"),
         ("unb_chn_song_taizu", "Emperor Taizu of Song (Zhao Kuangyin, 960 CE)", 20, "927–976 CE"),
         ("unb_chn_song_huizong", "Emperor Huizong of Song", 20, "1082–1135 CE"),
+        ("unb_chn_yue_fei_zhuxi", "General Yue Fei (1103–1142) & Neo-Confucian Master Zhu Xi (1130–1200)", 20, "12th c. CE"),
         ("unb_chn_ming_hongwu", "Emperor Hongwu (Zhu Yuanzhang, Founder of Ming Dynasty, 1368)", 20, "1328–1398 CE"),
+        ("unb_chn_empress_ma", "Empress Ma (Consort of Hongwu) & Prince Zhu Biao", 20, "1332–1382 CE"),
         ("unb_chn_ming_yongle", "Emperor Yongle (Zhu Di) & Admiral Zheng He (Treasure Fleets)", 20, "1360–1424 CE"),
     ], "chinese", "3rd–15th c. CE", ["Records of the Three Kingdoms", "History of Song & Ming"])
     for cid, cname, role in [
@@ -312,56 +320,13 @@ def build_module():
         edges.append(E("unb_grk_thales", cid, "cognate", "Greek philosophical and literary lineage"))
 
     add_chain(nodes, edges, None, [
-        ("unb_grk_solon_lycurgus", "Greek Lawgivers: Lycurgus of Sparta & Solon of Athens → Cleisthenes", 17, "8th–6th c. BCE", "Constitutional Founders", "Plutarch Lives Vols. 1-5.", True),
+        ("unb_grk_solon_lycurgus", "Greek Lawgivers: Solon of Athens → Cleisthenes (Athenian Democracy)", 17, "8th–6th c. BCE", "Constitutional Founders", "Plutarch Lives Vols. 1-5.", True),
         ("unb_grk_miltiades_themistocles", "Miltiades (Marathon, 490 BCE) & Themistocles (Salamis, 480 BCE)", 18, "5th c. BCE"),
-        ("unb_grk_leonidas", "King Leonidas I of Sparta (Thermopylae, 480 BCE)", 18, "d. 480 BCE"),
         ("unb_grk_pericles", "Pericles of Athens (Golden Age Statesman, d. 429 BCE)", 18, "495–429 BCE"),
-        ("unb_grk_alcibiades_lysander", "Alcibiades of Athens & Lysander of Sparta", 18, "5th c. BCE"),
+        ("unb_grk_alcibiades_lysander", "Alcibiades of Athens & Lysander", 18, "5th c. BCE"),
         ("unb_grk_epaminondas", "Epaminondas of Thebes (Battle of Leuctra, 371 BCE)", 18, "d. 362 BCE"),
         ("unb_grk_pyrrhus_epirus", "King Pyrrhus of Epirus (319–272 BCE)", 18, "319–272 BCE"),
     ], "greek", "8th–3rd c. BCE", ["Plutarch's Lives", "Thucydides", "Herodotus"])
-
-    # Central & Northern European Houses (Mod. Univ. Hist. Vols. 11-12)
-    add_chain(nodes, edges, None, [
-        ("eur_poland_mieszko", "Piast Dynasty of Poland: Piast → Mieszko I (966 CE) → Boleslaw I the Brave (1025)", 19, "9th–11th c. CE", "Founders of Poland", "Mod. Univ. Hist. Vol. 12.", True),
-        ("unb_eur_casimir3_poland", "King Casimir III the Great of Poland (1333–1370)", 20, "1333–1370 CE"),
-        ("unb_eur_jadwiga_jagiello", "Queen Jadwiga & Wladyslaw II Jagiello (Polish-Lithuanian Union, 1386)", 20, "1386–1434 CE"),
-        ("unb_eur_sigismund_poland", "King Sigismund I the Old (Jagiellonian Golden Age)", 21, "1506–1548 CE"),
-        ("unb_eur_john_sobieski", "King John III Sobieski of Poland (Vienna, 1683)", 21, "1674–1696 CE"),
-    ], "europe_norse", "10th–17th c. CE", ["Modern Universal History Vol. 12"])
-
-    add_chain(nodes, edges, None, [
-        ("unb_eur_almos_arpad", "Hungary (Arpad Dynasty): Almos → Grand Prince Arpad (895 CE) → St. Stephen I (1000 CE)", 19, "895–1038 CE", "Founders of Hungary", "Mod. Univ. Hist. & Hungarian Chronicles.", True),
-        ("unb_eur_bela3_hungary", "King Bela III of Hungary (1172–1196)", 20, "1172–1196 CE"),
-        ("unb_eur_louis_great_hungary", "King Louis I the Great of Hungary & Poland", 20, "1342–1382 CE"),
-        ("unb_eur_hunyadi_corvinus", "John Hunyadi → King Matthias Corvinus of Hungary (1458–1490)", 20, "1446–1490 CE"),
-    ], "europe_norse", "9th–15th c. CE", ["European Royal Chronicles"])
-
-    add_chain(nodes, edges, None, [
-        ("unb_eur_premysl_bohemia", "Bohemia (Czechia): Premysl & Princess Libuse → St. Wenceslas I (d. 935)", 19, "c. 8th–10th c. CE", "Premyslid Founders", "Cosmas Chronicle.", True),
-        ("unb_eur_ottokar2_bohemia", "King Ottokar II of Bohemia ('Iron and Golden King')", 20, "1253–1278 CE"),
-        ("unb_eur_charles4_bohemia", "Emperor & King Charles IV of Bohemia (Golden Bull, 1356)", 20, "1346–1378 CE"),
-    ], "europe_norse", "8th–14th c. CE", ["Chronicle of the Bohemians"])
-
-    add_chain(nodes, edges, None, [
-        ("unb_eur_eric_sweden", "Sweden: Eric the Victorious → Olof Skotkonung → Birger Jarl", 19, "970–1266 CE", "Early Swedish Monarchs", "Mod. Univ. Hist. Vol. 12.", True),
-        ("unb_eur_gustav_vasa", "King Gustav I Vasa (Founder of Modern Sweden, 1523)", 21, "1523–1560 CE"),
-        ("unb_eur_gustavus_adolphus", "King Gustavus Adolphus & Queen Christina of Sweden", 21, "1611–1654 CE"),
-        ("unb_eur_charles12_sweden", "King Charles XII of Sweden (1697–1718)", 21, "1697–1718 CE"),
-    ], "europe_norse", "10th–18th c. CE", ["Modern Universal History Vol. 12"])
-
-    add_chain(nodes, edges, None, [
-        ("unb_eur_gorm_bluetooth", "Denmark: Gorm the Old → Harald Bluetooth → Sweyn Forkbeard", 19, "c. 936–1014 CE", "Jelling Dynasty", "Mod. Univ. Hist. Vol. 12.", True),
-        ("unb_eur_valdemar1_denmark", "King Valdemar I the Great of Denmark (1157–1182)", 20, "1157–1182 CE"),
-        ("unb_eur_margaret_kalmar", "Queen Margaret I of Denmark (Kalmar Union, 1397)", 20, "1387–1412 CE"),
-        ("unb_eur_christian4_denmark", "King Christian IV of Denmark & Norway (1588–1648)", 21, "1588–1648 CE"),
-    ], "europe_norse", "10th–17th c. CE", ["Modern Universal History Vol. 12"])
-
-    add_chain(nodes, edges, "eur_poland_mieszko", [
-        ("unb_eur_mindaugas_lithuania", "King Mindaugas of Lithuania (Crowned 1253)", 20, "1236–1263 CE"),
-        ("unb_eur_gediminas", "Grand Duke Gediminas of Lithuania (1316–1341)", 20, "1316–1341 CE"),
-        ("unb_eur_algirdas_vytautas", "Algirdas & Grand Duke Vytautas the Great (1392–1430)", 20, "1345–1430 CE"),
-    ], "europe_norse", "13th–15th c. CE", ["Lithuanian Chronicles", "Mod. Univ. Hist. Vol. 12"])
 
     return {
         "module": "36_unbridged_world_kingdoms",

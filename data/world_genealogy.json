@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Ancient World Genealogy Atlas — 265 Sources: Exhaustive Biblical/Jubilees/Jasher/Enoch & World Rulers (v17.0)",
-    "version": "17.0.0",
+    "title": "Ancient World Genealogy Atlas — Hybrid + Plan C Master Edition (v18.0)",
+    "version": "18.0.0",
     "counts": {
-      "total": 2666,
-      "biblicalConnected": 2432,
-      "pendingBridge": 217,
+      "total": 2737,
+      "biblicalConnected": 2518,
+      "pendingBridge": 202,
       "dna": 17
     },
     "modules": [
@@ -222,8 +222,8 @@
       {
         "file": "36_unbridged_world_kingdoms",
         "title": "World Kingdoms, Dynasties & Classical Thinkers Awaiting Primary-Source Biblical Bridge (Pending Bridge)",
-        "nodes": 201,
-        "edges": 184
+        "nodes": 186,
+        "edges": 175
       },
       {
         "file": "37_individual_monarchs_world_chronicles",
@@ -242,6 +242,24 @@
         "title": "Malay Annals (Malacca-Iskandar Bridge), Pseudo-Methodius, Bochart, Isidore, Africanus, Paschale, Gregory of Tours, Lombards, Iceland, Wales, Keating Ireland, Tarikh-i-Rashidi, Ladakh, Rajasthan, Harivamsha, Matsya Purana, Classical Greece/Rome, Kojiki & Korea",
         "nodes": 37,
         "edges": 53
+      },
+      {
+        "file": "40_josephus_esau_herod_intercultural_bridges",
+        "title": "Josephus Deep Bloodlines (Esau → Agag → Haman, Herod → Armenia/Cilicia/Rome, Sparta–Abraham Charter & Cleodemus–Heracles) + Intercultural Alias Atlas",
+        "nodes": 17,
+        "edges": 27
+      },
+      {
+        "file": "41_1chronicles_keating_deep_extract",
+        "title": "1 Chronicles 2–8 Exhaustive Sub-Clans (Jarha the Egyptian, Bithiah dau. of Pharaoh, Simeon, Reuben, Gad, Benjamin, Asher) & Geoffrey Keating's Complete Irish Gaelic Genealogies",
+        "nodes": 19,
+        "edges": 21
+      },
+      {
+        "file": "42_global_royalty_offspring_plan_c",
+        "title": "Plan C Global Royalty, Offspring & Intermarriages (Graduated Poland/Hungary/Bohemia/Sweden/Denmark/Lithuania, Habsburgs, Bourbons, Windsors to 2026, Classical/Islamic/Asian Empires & Famous Figures)",
+        "nodes": 50,
+        "edges": 74
       }
     ],
     "linkTypes": {
@@ -34406,6 +34424,22 @@
       "biblicalConnected": false
     },
     {
+      "id": "unb_azt_malintzin_tecuichpotzin",
+      "name": "Tecuichpotzin / Doña Isabel Moctezuma (dau. of Moctezuma II) & Malintzin",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 18,
+      "era": "1509–1550 CE",
+      "role": "Mexica Imperial Heiress",
+      "sources": [
+        "Modern Universal History Vol. 14",
+        "Codex Mendoza"
+      ],
+      "notes": "Daughter of Moctezuma II whose descendants entered Spanish Ducal houses (Dukes of Moctezuma de Tultengo).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
       "id": "unb_car_guacanagari",
       "name": "Cacique Guacanagari (Marién, Hispaniola, 1492)",
       "altNames": [],
@@ -34690,6 +34724,37 @@
         "Modern Universal History Vol. 14"
       ],
       "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_mama_ocllo_garcilaso",
+      "name": "Coya Mama Ocllo, Quispe Sisa & Chronicler Inca Garcilaso de la Vega (1539–1616)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 20,
+      "era": "15th–17th c. CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_lady_sak_kuk",
+      "name": "Lady Sak K'uk' (Queen Regent & Mother of Pakal the Great of Palenque)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 15,
+      "era": "612–640 CE",
+      "role": "Maya Royal Mother",
+      "sources": [
+        "Palenque Inscriptions"
+      ],
+      "notes": "Conveyed the royal Palenque diadem directly to her son K'inich Janaab Pakal I.",
       "major": false,
       "biblicalConnected": false
     },
@@ -35436,6 +35501,21 @@
       "biblicalConnected": false
     },
     {
+      "id": "unb_afr_queen_nandi",
+      "name": "Queen Nandi kaBhebhe (Mother of King Shaka Zulu, c. 1760–1827)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "c. 1760–1827 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Southern African Oral & Historical Chronicles"
+      ],
+      "notes": "Chronicle succession in Southern African Oral & Historical Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
       "id": "unb_afr_shaka_zulu",
       "name": "King Shaka kaSenzangakhona (Founder of Zulu Kingdom, 1816–1828)",
       "altNames": [],
@@ -35650,6 +35730,22 @@
         "Mod. Univ. Hist. Vol. 7"
       ],
       "notes": "Oba Ewuare the Great of Benin (1440–1473).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_queen_idia",
+      "name": "Iyoba Queen Idia of Benin (Mother of Oba Esigie, c. 1504)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "15th–16th c. CE",
+      "role": "First Iyoba (Queen Mother) of Benin",
+      "sources": [
+        "West African Kingdom Chronicles",
+        "Mod. Univ. Hist. Vol. 7"
+      ],
+      "notes": "Iyoba Queen Idia of Benin (Mother of Oba Esigie, c. 1504).",
       "major": false,
       "biblicalConnected": false
     },
@@ -36132,6 +36228,22 @@
       "biblicalConnected": false
     },
     {
+      "id": "unb_jpn_hojo_masako_yoshitsune",
+      "name": "Hojo Masako ('Nun Shogun') & General Minamoto no Yoshitsune",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "1156–1225 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
       "id": "unb_jpn_hojo_tokimasa",
       "name": "Hojo Tokimasa (Shikken Regency of Kamakura)",
       "altNames": [],
@@ -36218,6 +36330,22 @@
       "tradition": "japan_korea",
       "tier": 21,
       "era": "1543–1616 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_date_masamune",
+      "name": "Date Masamune ('One-Eyed Dragon' of Sendai, Hasekura Tsunenaga Mission)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1567–1636 CE",
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Modern Universal History Vol. 5",
@@ -36543,12 +36671,44 @@
       "biblicalConnected": false
     },
     {
+      "id": "unb_chn_yue_fei_zhuxi",
+      "name": "General Yue Fei (1103–1142) & Neo-Confucian Master Zhu Xi (1130–1200)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "12th c. CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Records of the Three Kingdoms",
+        "History of Song & Ming"
+      ],
+      "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
       "id": "unb_chn_ming_hongwu",
       "name": "Emperor Hongwu (Zhu Yuanzhang, Founder of Ming Dynasty, 1368)",
       "altNames": [],
       "tradition": "chinese",
       "tier": 20,
       "era": "1328–1398 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Records of the Three Kingdoms",
+        "History of Song & Ming"
+      ],
+      "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_chn_empress_ma",
+      "name": "Empress Ma (Consort of Hongwu) & Prince Zhu Biao",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "1332–1382 CE",
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Records of the Three Kingdoms",
@@ -36890,7 +37050,7 @@
     },
     {
       "id": "unb_grk_solon_lycurgus",
-      "name": "Greek Lawgivers: Lycurgus of Sparta & Solon of Athens → Cleisthenes",
+      "name": "Greek Lawgivers: Solon of Athens → Cleisthenes (Athenian Democracy)",
       "altNames": [],
       "tradition": "greek",
       "tier": 17,
@@ -36923,23 +37083,6 @@
       "biblicalConnected": false
     },
     {
-      "id": "unb_grk_leonidas",
-      "name": "King Leonidas I of Sparta (Thermopylae, 480 BCE)",
-      "altNames": [],
-      "tradition": "greek",
-      "tier": 18,
-      "era": "d. 480 BCE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Plutarch's Lives",
-        "Thucydides",
-        "Herodotus"
-      ],
-      "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
       "id": "unb_grk_pericles",
       "name": "Pericles of Athens (Golden Age Statesman, d. 429 BCE)",
       "altNames": [],
@@ -36958,7 +37101,7 @@
     },
     {
       "id": "unb_grk_alcibiades_lysander",
-      "name": "Alcibiades of Athens & Lysander of Sparta",
+      "name": "Alcibiades of Athens & Lysander",
       "altNames": [],
       "tradition": "greek",
       "tier": 18,
@@ -37004,354 +37147,6 @@
         "Herodotus"
       ],
       "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "eur_poland_mieszko",
-      "name": "Piast Dynasty of Poland: Piast → Mieszko I (966 CE) → Boleslaw I the Brave (1025)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 19,
-      "era": "9th–11th c. CE",
-      "role": "Founders of Poland",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Mod. Univ. Hist. Vol. 12.",
-      "major": true,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_casimir3_poland",
-      "name": "King Casimir III the Great of Poland (1333–1370)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1333–1370 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_jadwiga_jagiello",
-      "name": "Queen Jadwiga & Wladyslaw II Jagiello (Polish-Lithuanian Union, 1386)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1386–1434 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_sigismund_poland",
-      "name": "King Sigismund I the Old (Jagiellonian Golden Age)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 21,
-      "era": "1506–1548 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_john_sobieski",
-      "name": "King John III Sobieski of Poland (Vienna, 1683)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 21,
-      "era": "1674–1696 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_almos_arpad",
-      "name": "Hungary (Arpad Dynasty): Almos → Grand Prince Arpad (895 CE) → St. Stephen I (1000 CE)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 19,
-      "era": "895–1038 CE",
-      "role": "Founders of Hungary",
-      "sources": [
-        "European Royal Chronicles"
-      ],
-      "notes": "Mod. Univ. Hist. & Hungarian Chronicles.",
-      "major": true,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_bela3_hungary",
-      "name": "King Bela III of Hungary (1172–1196)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1172–1196 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "European Royal Chronicles"
-      ],
-      "notes": "Chronicle succession in European Royal Chronicles.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_louis_great_hungary",
-      "name": "King Louis I the Great of Hungary & Poland",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1342–1382 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "European Royal Chronicles"
-      ],
-      "notes": "Chronicle succession in European Royal Chronicles.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_hunyadi_corvinus",
-      "name": "John Hunyadi → King Matthias Corvinus of Hungary (1458–1490)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1446–1490 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "European Royal Chronicles"
-      ],
-      "notes": "Chronicle succession in European Royal Chronicles.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_premysl_bohemia",
-      "name": "Bohemia (Czechia): Premysl & Princess Libuse → St. Wenceslas I (d. 935)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 19,
-      "era": "c. 8th–10th c. CE",
-      "role": "Premyslid Founders",
-      "sources": [
-        "Chronicle of the Bohemians"
-      ],
-      "notes": "Cosmas Chronicle.",
-      "major": true,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_ottokar2_bohemia",
-      "name": "King Ottokar II of Bohemia ('Iron and Golden King')",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1253–1278 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Chronicle of the Bohemians"
-      ],
-      "notes": "Chronicle succession in Chronicle of the Bohemians.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_charles4_bohemia",
-      "name": "Emperor & King Charles IV of Bohemia (Golden Bull, 1356)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1346–1378 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Chronicle of the Bohemians"
-      ],
-      "notes": "Chronicle succession in Chronicle of the Bohemians.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_eric_sweden",
-      "name": "Sweden: Eric the Victorious → Olof Skotkonung → Birger Jarl",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 19,
-      "era": "970–1266 CE",
-      "role": "Early Swedish Monarchs",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Mod. Univ. Hist. Vol. 12.",
-      "major": true,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_gustav_vasa",
-      "name": "King Gustav I Vasa (Founder of Modern Sweden, 1523)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 21,
-      "era": "1523–1560 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_gustavus_adolphus",
-      "name": "King Gustavus Adolphus & Queen Christina of Sweden",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 21,
-      "era": "1611–1654 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_charles12_sweden",
-      "name": "King Charles XII of Sweden (1697–1718)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 21,
-      "era": "1697–1718 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_gorm_bluetooth",
-      "name": "Denmark: Gorm the Old → Harald Bluetooth → Sweyn Forkbeard",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 19,
-      "era": "c. 936–1014 CE",
-      "role": "Jelling Dynasty",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Mod. Univ. Hist. Vol. 12.",
-      "major": true,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_valdemar1_denmark",
-      "name": "King Valdemar I the Great of Denmark (1157–1182)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1157–1182 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_margaret_kalmar",
-      "name": "Queen Margaret I of Denmark (Kalmar Union, 1397)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1387–1412 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_christian4_denmark",
-      "name": "King Christian IV of Denmark & Norway (1588–1648)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 21,
-      "era": "1588–1648 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_mindaugas_lithuania",
-      "name": "King Mindaugas of Lithuania (Crowned 1253)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1236–1263 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Lithuanian Chronicles",
-        "Mod. Univ. Hist. Vol. 12"
-      ],
-      "notes": "Chronicle succession in Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_gediminas",
-      "name": "Grand Duke Gediminas of Lithuania (1316–1341)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1316–1341 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Lithuanian Chronicles",
-        "Mod. Univ. Hist. Vol. 12"
-      ],
-      "notes": "Chronicle succession in Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_algirdas_vytautas",
-      "name": "Algirdas & Grand Duke Vytautas the Great (1392–1430)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1345–1430 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Lithuanian Chronicles",
-        "Mod. Univ. Hist. Vol. 12"
-      ],
-      "notes": "Chronicle succession in Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12.",
       "major": false,
       "biblicalConnected": false
     },
@@ -44602,6 +44397,1621 @@
         "Homer B. Hulbert The History of Korea Vols. 1–2 (1905)"
       ],
       "notes": "Synchronizes Goguryeo (Jumong -> Gwanggaeto), Baekje (Onjo), Gaya (Suro), and Silla (Queen Seondeok, General Kim Yu-sin & King Muyeol unifying the peninsula in 668 CE).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_king_agag",
+      "name": "King Agag of Amalek (1 Sam 15; Josephus Ant. VI.7 pp.339–342)",
+      "altNames": [
+        "Agag ben Amalek"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "c. 1030 BCE (Josephus Ant. VI.7; 1 Sam 15)",
+      "role": "Amalekite Monarch Descended from Esau → Eliphaz → Amalek",
+      "sources": [
+        "Flavius Josephus Antiquities VI.7 (pp.339–342)",
+        "1 Samuel 15",
+        "Pseudo-Philo Ch. 58"
+      ],
+      "notes": "Captured by King Saul and executed by Samuel; Pseudo-Philo Ch. 58 & Rabbinic Targum record Agag siring an heir before death whose line produced Haman the Agagite.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_haman_amalekite",
+      "name": "Haman ben Hammedatha the Agagite/Amalekite (+ Wife Zeresh & 10 Sons, Josephus Ant. XI.6.5)",
+      "altNames": [
+        "Haman the Amalekite",
+        "Zeresh"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Susa / Persia — Josephus Ant. XI.6.5 p.618)",
+      "role": "Grand Vizier of Xerxes I / Agagite-Amalekite Descendant of Esau",
+      "sources": [
+        "Flavius Josephus Antiquities XI.6.5 (p.618)",
+        "Book of Esther 3 & 9"
+      ],
+      "notes": "Josephus explicitly calls Haman 'by birth an Amalekite' (Ant. XI.6.5) — connecting Esau's grandson Amalek and King Agag straight into the Achaemenid Persian court opposite Benjaminite Mordecai & Queen Esther! Sons: Parshandatha, Dalphon, Aspatha, Poratha, Adalia, Aridatha, Parmashta, Arisai, Aridai & Vaizatha.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_herod_remaining_wives",
+      "name": "Herod the Great's Remaining 5 Wives & Children (Josephus Ant. XVII.1.3): Pallas (→ Phasael II), Phaedra (→ Roxane), Elpis (→ Salome II), Niece & Cousin",
+      "altNames": [
+        "Pallas, Phaedra & Elpis"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "37–4 BCE (Josephus Ant. XVII.1.3 p.1197)",
+      "role": "Complete 10-Wife Roster of Herod the Great",
+      "sources": [
+        "Flavius Josephus Antiquities XVII.1.3 (p.1197)",
+        "Wars I.28.4"
+      ],
+      "notes": "Completes Josephus's full inventory of Herod the Great's ten wives and their offspring: Pallas (Phasael II), Phaedra (Roxane), Elpis (Salome II), plus his unnamed niece and cousin.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_herod_armenia_cilicia",
+      "name": "Herodian Kings of Armenia & Cilicia (Josephus Ant. XVIII.5.4): Alexander + Glaphyra → Kings Tigranes V & Tigranes VI of Armenia → Gaius Julius Alexander (+ Iotape) → Roman Consuls",
+      "altNames": [
+        "Tigranes V of Armenia",
+        "Tigranes VI of Armenia",
+        "Gaius Julius Alexander",
+        "Glaphyra of Cappadocia"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "c. 15 BCE – 115 CE (Josephus Ant. XVII.1, XVIII.5.4 p.1196)",
+      "role": "Esau/Idumean & Hasmonean Royal Bloodline Ruling Armenia, Cilicia & Entering Roman Senate",
+      "sources": [
+        "Flavius Josephus Antiquities XVIII.5.4",
+        "Tacitus Annals XV",
+        "Cassius Dio"
+      ],
+      "notes": "Herod's son Alexander (+ Cappadocian princess Glaphyra, also widow of King Juba II of Mauretania!) fathered King Tigranes V of Armenia and Alexander II -> King Tigranes VI of Armenia -> King Gaius Julius Alexander of Cetis/Cilicia (+ Iotape of Commagene!) -> Roman suffect consuls Julius Agrippa & Julius Alexander Berenicianus!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_herod_emesa_rome",
+      "name": "Herodian–Roman–Emesa Marriages (Josephus Ant. XX.7): Berenice II (+ Emperor Titus & Polemon II), Drusilla (+ Azizus of Emesa & Felix → Agrippa, d. 79 CE Vesuvius!) & Mariamne",
+      "altNames": [
+        "Queen Berenice II",
+        "Drusilla & Felix",
+        "King Azizus of Emesa"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "40–79 CE (Josephus Antiquities XX.7; Acts 24:24)",
+      "role": "Final Herodian Intermarriages With Emesa, Cilicia & Flavian Rome",
+      "sources": [
+        "Flavius Josephus Antiquities XX.7",
+        "Tacitus Histories II",
+        "Acts 24:24"
+      ],
+      "notes": "Herod Agrippa I's daughters carried the Idumean-Hasmonean bloodline across the Roman Empire: Queen Berenice II (+ Marcus Julius Alexander, Herod of Chalcis, King Polemon II of Pontus & future Roman Emperor Titus!), and Drusilla (+ King Azizus of Emesa, then Roman Procurator Felix -> son Agrippa, who perished at Pompeii in the 79 CE eruption of Mt. Vesuvius!).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_esau_edom_rome_bridge",
+      "name": "Esau / Edom = Rome & Byzantium Cross-Tradition Bridge (Josephus, Talmud, Jasher 60–61 Zepho/Janus & Al-Tabari Banu al-Asfar)",
+      "altNames": [
+        "Edom = Rome",
+        "Banu al-Asfar (al-Rum)"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Antiquity → Medieval Chronicles",
+      "role": "Classical Jewish & Islamic Identification of Rome/Byzantium With Esau (Edom)",
+      "sources": [
+        "Book of Jasher 60–61",
+        "Al-Tabari Vol. 2 p.17",
+        "Talmud Megillah 6a",
+        "Ibn Ezra Gen 27"
+      ],
+      "notes": "Explains why Jewish, Sefer ha-Yashar (Zepho/Janus king of Kittim/Rome), and early Islamic (Banu al-Asfar / al-Rum descended from Esau) traditions link Rome and Byzantium spiritually and genealogically to Esau.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_sparta_areus_abraham",
+      "name": "King Areus I of Sparta → High Priest Onias (1 Macc 12:21; Josephus Ant. XII.4.10): Spartans & Jews Brethren From Abraham!",
+      "altNames": [
+        "Spartan-Abraham Charter",
+        "King Areus I"
+      ],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 309–265 BCE (1 Macc 12:20–23; Josephus Ant. XII.4.10)",
+      "role": "Diplomatic Blood-Brotherhood Charter Linking Sparta Directly to Abraham",
+      "sources": [
+        "Flavius Josephus Antiquities XII.4.10 (p.661)",
+        "1 Maccabees 12:20–23"
+      ],
+      "notes": "Both 1 Maccabees 12 and Josephus Ant. XII.4.10 preserve King Areus I of Sparta's official sealed letter to High Priest Onias in Jerusalem declaring: 'It has been found in writing that the Spartans and the Jews are brethren, and that they are of the stock of Abraham!' Graduates classical Sparta into Biblically Connected!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_sparta_lycurgus_leonidas",
+      "name": "Spartan Royal Houses (Agiad & Eurypontid): Lawgiver Lycurgus → King Leonidas I (Thermopylae, 480 BCE) → Agesilaus II → Cleomenes III",
+      "altNames": [
+        "King Leonidas I",
+        "Lawgiver Lycurgus",
+        "Queen Gorgo"
+      ],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 8th–3rd c. BCE (Herodotus; Plutarch; Josephus)",
+      "role": "Kings & Lawgiver of Lacedaemon (Graduated via Abraham–Sparta Charter!)",
+      "sources": [
+        "Josephus Antiquities XII.4.10",
+        "Herodotus VII",
+        "Plutarch Lives"
+      ],
+      "notes": "Moved out of Pending Bridge via the explicit Abraham-descent claim attested in 1 Maccabees 12:21 and Josephus Ant. XII.4.10, uniting Lawgiver Lycurgus, Leonidas I (+ Queen Gorgo), Agesilaus II, and Agiad King Areus I.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_cleodemus_heracles_africa",
+      "name": "Josephus Ant. I.15 (Cleodemus Malchus): Abraham + Keturah → Epher / Apher ('Africa') → Heracles Weds Abraham's Granddaughter → Diodorus → Sophax (Mauretania / Juba II)",
+      "altNames": [
+        "Cleodemus Malchus",
+        "Apher ('Africa')",
+        "Sophax"
+      ],
+      "tradition": "biblical",
+      "tier": 11,
+      "era": "Patriarchal → African-Greek Mythic Horizon (Josephus Ant. I.15 p.102)",
+      "role": "Oldest Quoted Greek-Jewish Bloodline Bridging Abraham, Heracles & North Africa",
+      "sources": [
+        "Flavius Josephus Antiquities I.15 (quoting Alexander Polyhistor / Cleodemus Malchus)",
+        "Plutarch Life of Sertorius"
+      ],
+      "notes": "Josephus Ant. I.15 cites Hellenistic Jewish historian Cleodemus Malchus: Abraham's sons by Keturah (Epher/Apher, Asshur & Japhran) conquered Libya — giving AFRICA its name from Apher — and Heracles wed Apher's daughter, siring Diodorus -> Sophax (ancestor of King Juba II & Cleopatra Selene of Mauretania!).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_moses_tharbis",
+      "name": "Princess Tharbis of Ethiopia (Meroe/Saba) — Wife of General Moses (Josephus Ant. II.10 pp.152–154)",
+      "altNames": [
+        "Tharbis of Meroe"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "2nd Millennium BCE (Josephus Ant. II.10.2)",
+      "role": "Ethiopian Royal Daughter Married to Moses During Nile Campaign",
+      "sources": [
+        "Flavius Josephus Antiquities II.10.2 (pp.152–154)"
+      ],
+      "notes": "Josephus recounts how Moses commanded Egypt's army against Ethiopia using stork/ibis baskets against serpents, besieged Saba (Meroe), and wed Ethiopian royal princess Tharbis (matching the 'Cushite woman' of Numbers 12:1).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_adiabene_helena_izates",
+      "name": "Royal House of Adiabene (Assyria/Kurdistan, Josephus Ant. XX.2–4): King Monobazus I + Queen Helena → King Izates II & Monobazus II",
+      "altNames": [
+        "Queen Helena of Adiabene",
+        "King Izates II"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 19,
+      "era": "c. 1–70 CE (Josephus Ant. XX.2–4 pp.1069–1075)",
+      "role": "Mesopotamian Royal Converts to Judaism Buried in Jerusalem",
+      "sources": [
+        "Flavius Josephus Antiquities XX.2–4 (pp.1069–1075)"
+      ],
+      "notes": "King Monobazus I (Bazeus) and Queen Helena of Adiabene (ancient Assyria/Erbil) and their son King Izates II converted to Judaism, fed Jerusalem during the famine of Acts 11:28, and built the monumental Tomb of the Kings in Jerusalem.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alias_abraham_cross",
+      "name": "Intercultural Aliases of Abraham: Abram / Ibrahim (Arabic) / Berossus's 10th Chaldean / Cleodemus's Africa-Heracles / Spartan Kinsman / Brahma-Syncretic",
+      "altNames": [
+        "Ibrahim",
+        "Abram",
+        "Chaldean Astronomer",
+        "Brahma (Syncretic)"
+      ],
+      "tradition": "biblical",
+      "tier": 9,
+      "era": "Cross-Cultural Patriarchal Resonance",
+      "role": "Unified Alias Index Across Hebrew, Arabic, Greek, Babylonian & Indian Traditions",
+      "sources": [
+        "Genesis 11–25",
+        "Josephus Ant. I.7, I.15, XII.4.10",
+        "Quran / Ibn Kathir",
+        "Post-Medieval Syncretists"
+      ],
+      "notes": "Maps how Abraham appears across world traditions: Hebrew Abram/Abraham; Arabic Prophet Ibrahim (Ibn Kathir / Sirah); Berossus's 'righteous Chaldean skilled in heavenly lore' (Ant. I.7.2); Cleodemus's grandfather-in-law of Heracles & ancestor of Africa (Ant. I.15); Spartan kindred charter (1 Macc 12:21); and 17th-c. folkloric comparison of Abraham/Sarah <-> Brahma/Saraswati.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alias_moses_cross",
+      "name": "Intercultural Aliases of Moses: Moshe / Musa (Arabic) / Osarseph (Manetho) / Musaeus (Artapanus) / King of Cush (Jasher 73) / Husband of Tharbis (Josephus)",
+      "altNames": [
+        "Musa",
+        "Osarseph",
+        "Musaeus",
+        "King of Cush"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Cross-Cultural Prophet-King Resonance",
+      "role": "Unified Alias Index Across Bible, Egypt, Greece, Nubia & Arabia",
+      "sources": [
+        "Exodus–Deuteronomy",
+        "Josephus Ant. II.10 & Against Apion I.26",
+        "Artapanus",
+        "Book of Jasher 73"
+      ],
+      "notes": "Unites Moses's names across ancient accounts: Hebrew Moshe; Quranic Prophet Musa; Egyptian priest-chronicler Manetho's Osarseph; Greco-Jewish Artapanus's Musaeus (teacher of Orpheus & Hermes); Book of Jasher's 40-year King of Cush (+ Adoniah); and Josephus's victorious Egyptian general (+ Tharbis).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alias_noah_cross",
+      "name": "Intercultural Aliases of Noah: Noach / Nuh / Ziusudra (Sumer) / Utnapishtim (Atrahasis) / Xisuthros (Berossus) / Vaivasvata Manu (India) / Yima (Iran) / Deucalion (Greece) / Janus / Fuxi (Figurist)",
+      "altNames": [
+        "Nuh",
+        "Ziusudra",
+        "Utnapishtim",
+        "Vaivasvata Manu",
+        "Deucalion"
+      ],
+      "tradition": "biblical",
+      "tier": 4,
+      "era": "Universal Great Flood Survivor Matrix",
+      "role": "Global Cognate & Parallel Hub Linking Humanity After the Deluge",
+      "sources": [
+        "Genesis 6–9",
+        "Epic of Gilgamesh XI",
+        "Shatapatha Brahmana",
+        "Apollodorus",
+        "Bar Hebraeus"
+      ],
+      "notes": "Side-by-side comparison showing Noah's exact equivalents/parallels: Sumerian Ziusudra, Akkadian Atrahasis/Utnapishtim, Berossus's Xisuthros, Indian Vaivasvata Manu, Avestan Yima, Greek Deucalion & Ogyges, 18th-c. Janus/Oenotrus (Betham/Anderson), and Jesuit Figurist Fuxi.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alias_enoch_cross",
+      "name": "Intercultural Aliases of Enoch: Khanokh / Idris (Arabic) / Hermes Trismegistus / Thoth (Egypt) / King Saurid (Pyramid Builder) / Enmeduranki (7th Sage)",
+      "altNames": [
+        "Idris",
+        "Thoth / Hermes",
+        "King Saurid",
+        "Enmeduranki"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian 7th Patriarch / Astronomer Scribe Matrix",
+      "role": "Greco-Egyptian, Coptic-Arabic & Mesopotamian 7th-Sage Matrix",
+      "sources": [
+        "Genesis 5:21–24",
+        "1 Enoch",
+        "Al-Mas'udi",
+        "Ibn Kathir",
+        "Mesopotamian SKL (Enmeduranki)"
+      ],
+      "notes": "Tracks how the 7th Patriarch Enoch (inventor of writing & calendar in Jubilees 4:17) is identified in Coptic-Arabic chronicles with King Saurid (builder of Great Pyramids), in Hermeticism with Thoth/Hermes Trismegistus, in Islam with Prophet Idris, and compared structurally with Enmeduranki of Sippar.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alias_nimrod_cross",
+      "name": "Intercultural Aliases of Nimrod: Nebrod / Belus (Babylon) / Ninus (Assyria) / Al-Dahhak (Shahnameh) / Lamurudu (Yoruba Oduduwa Chronicle) / Orion",
+      "altNames": [
+        "Belus",
+        "Ninus",
+        "Lamurudu",
+        "Al-Dahhak"
+      ],
+      "tradition": "biblical",
+      "tier": 7,
+      "era": "First Post-Flood Empire Builder Matrix",
+      "role": "Near Eastern, Persian & West African Royal Syncretisms",
+      "sources": [
+        "Genesis 10:8–12",
+        "Dutripon p.9",
+        "Al-Tabari",
+        "Samuel Johnson History of the Yorubas"
+      ],
+      "notes": "Maps Nimrod son of Cush across chronicles: Latin Vulgate/Dutripon Belus; classical Ninus of Nineveh; Persian/Arabic tyrants Zuhhak/Al-Dahhak (Tabari); and West African Yoruba chronicle ancestor Lamurudu -> Oduduwa.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alias_joseph_solomon_cross",
+      "name": "Intercultural Aliases of Joseph & Solomon: Zaphenath-Paneah / Yusuf / Imhotep Parallel; Sulayman / King of Tadmor-Palmyra / Father of Menelik I (Ethiopia)",
+      "altNames": [
+        "Zaphenath-Paneah",
+        "Yusuf",
+        "Sulayman"
+      ],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Egyptian Vizier & Near Eastern Sovereign Matrix",
+      "role": "Biblical-Egyptian-Ethiopic-Palmyrene Royal Resonances",
+      "sources": [
+        "Genesis 41",
+        "Kebra Nagast",
+        "Seller Antiquities of Palmyra (1696)",
+        "Quran / Ibn Kathir"
+      ],
+      "notes": "Collects Joseph's Egyptian court title Zaphenath-Paneah (Arabic Yusuf, and 7-year-famine vizier parallel to Djoser's Imhotep) alongside Solomon (Sulayman), revered across Jerusalem, Aksumite Ethiopia (Menelik I), Yemen (Sheba/Bilqis), and Tadmor/Palmyra.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_jerahmeel_atarah",
+      "name": "Jerahmeel ben Hezron (+ Atarah) → Ram, Bunah, Oren, Ozem, Ahijah & Onam (1 Chr 2:25–33)",
+      "altNames": [
+        "Atarah wife of Jerahmeel"
+      ],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "1 Chronicles 2:25–33 (Myers Anchor Bible 1965)",
+      "role": "Firstborn Clan of Hezron of Judah",
+      "sources": [
+        "1 Chronicles 2:25–33",
+        "Jacob M. Myers 1 Chronicles (1965)"
+      ],
+      "notes": "Hezron's firstborn Jerahmeel wed a second wife Atarah, mother of Onam (-> Shammai, Jada -> Peleth & Zaza); elder line via Ram -> Maaz, Jamin & Eker.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_sheshan_jarha_egypt",
+      "name": "Sheshan → Daughter Ahlai + Jarha the Egyptian → Attai → Nathan → Zabad → Elishama (1 Chr 2:34–41)",
+      "altNames": [
+        "Jarha the Egyptian",
+        "Ahlai bat Sheshan"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:34–41 (Judah–Egypt Intermarriage)",
+      "role": "Explicit 13-Generation Egyptian Bloodline Grafted Into Tribe of Judah!",
+      "sources": [
+        "1 Chronicles 2:34–41",
+        "Jacob M. Myers Anchor Bible 1 Chronicles (1965)"
+      ],
+      "notes": "Sheshan of Jerahmeel had no sons, so he gave his daughter Ahlai to his Egyptian servant Jarha — establishing a 13-generation documented Egyptian-Judahite pedigree: Jarha + Ahlai -> Attai -> Nathan -> Zabad -> Ephlal -> Obed -> Jehu -> Azariah -> Helez -> Eleasah -> Sismai -> Shallum -> Jekamiah -> Elishama!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_ashhur_tekoa",
+      "name": "Ashhur Father of Tekoa (+ Helah & Naarah) → Ahuzzam, Hepher, Temeni, Haahashtari & Zohar (1 Chr 4:5–7)",
+      "altNames": [
+        "Helah & Naarah"
+      ],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "1 Chronicles 4:5–7 (Posthumous Son of Hezron)",
+      "role": "Founder of Judahite Tekoa (Home of Prophet Amos)",
+      "sources": [
+        "1 Chronicles 4:5–7",
+        "Myers 1 Chronicles (1965)"
+      ],
+      "notes": "Posthumous son of Hezron & Abijah; wed Helah and Naarah, founding Tekoa and Bethlehem-area clans.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_jabez",
+      "name": "Jabez ('More Honorable Than His Brothers', 1 Chr 4:9–10)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 4:9–10 (Myers Anchor Bible 1965)",
+      "role": "Judahite Patriarch of Scribal Clans of Jabez",
+      "sources": [
+        "1 Chronicles 4:9–10",
+        "Myers 1 Chronicles (1965)"
+      ],
+      "notes": "Famed in 1 Chronicles 4 for his prayer of blessing and associated in 1 Chr 2:55 with the Kenite scribal families (Rechabites -> Hammath).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_mered_bithiah_pharaoh",
+      "name": "Mered of Judah + Bithiah Daughter of Pharaoh (1 Chr 4:18) → Miriam, Shammai & Ishbah",
+      "altNames": [
+        "Bithiah dau. of Pharaoh",
+        "Mered of Judah"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 4:17–18 (Judah–Pharaoh Royal Marriage)",
+      "role": "Second Explicit Egyptian Royal Princess Wed Into Judahite Line!",
+      "sources": [
+        "1 Chronicles 4:17–18",
+        "Myers 1 Chronicles (1965)",
+        "Talmud Sanhedrin 19b"
+      ],
+      "notes": "Beside Caleb's line in 1 Chr 4:17–18, Mered married BOTH a Jewish wife (Jered, Heber, Jekuthiel) AND 'Bithiah the daughter of Pharaoh' — bearing Miriam, Shammai, and Ishbah (rabbinic tradition identifies Mered with Caleb and Bithiah with Moses's adoptive mother!).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_shobal_salma",
+      "name": "Shobal (Father of Kiriath-jearim) & Salma (Father of Bethlehem) — Sons of Hur (1 Chr 2:50–55)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:50–55 (Caleb → Hur)",
+      "role": "Judahite Founders of Bethlehem & Kiriath-jearim",
+      "sources": [
+        "1 Chronicles 2:50–55",
+        "Myers 1 Chronicles (1965)"
+      ],
+      "notes": "Sons of Hur (firstborn of Ephrath & Caleb) who settled Bethlehem, Kiriath-jearim, Zorathites & Kenite scribes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_simeon_clans",
+      "name": "Simeonites (1 Chr 4:24–43): Shallum → Mibsam → Mishma → Hammuel → Zaccur → Shimei (16 Sons & 6 Daughters)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 4:24–43 (Myers 1965)",
+      "role": "Simeonite Desert Princes & Mt. Seir Settlers",
+      "sources": [
+        "1 Chronicles 4:24–43",
+        "Myers Anchor Bible 1 Chronicles"
+      ],
+      "notes": "Details Simeon's southern clans including Shimei's 16 sons and 6 daughters and 500 Simeonites under Ishi's sons (Pelatiah, Neariah, Rephaiah, Uzziel) who settled Mt. Seir.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_reuben_beerah",
+      "name": "Reubenites (1 Chr 5:4–6): Joel → Shemaiah → Gog → Shimei → Micah → Reaiah → Baal → Prince Beerah",
+      "altNames": [
+        "Prince Beerah of Reuben"
+      ],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 5:4–6 (Assyrian Exile 733 BCE)",
+      "role": "Transjordanian House of Reuben Until Tiglath-Pileser III",
+      "sources": [
+        "1 Chronicles 5:4–6",
+        "Myers 1 Chronicles (1965)"
+      ],
+      "notes": "Complete 8-generation Reubenite lineage ending with tribal prince Beerah, carried captive to Halah and Habor by Assyrian emperor Tiglath-Pileser III (Pul).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_gad_clans",
+      "name": "Gadites in Bashan (1 Chr 5:11–17): Joel, Shapham, Janai, Shaphat & Abihail ben Huri",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 5:11–17 (Gilead & Bashan)",
+      "role": "Chiefs of Gad in Transjordan",
+      "sources": [
+        "1 Chronicles 5:11–17",
+        "Myers 1 Chronicles (1965)"
+      ],
+      "notes": "Traces Gadite houses in Gilead and Bashan registered under Kings Jotham of Judah and Jeroboam II of Israel.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_manasseh_east",
+      "name": "Half-Tribe of Manasseh in Bashan & Mt. Hermon (1 Chr 5:24): Epher, Ishi, Eliel, Azriel, Jeremiah, Hodaviah & Jahdiel",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 5:23–26 (Myers 1965)",
+      "role": "Transjordanian Mighty Warriors of Manasseh",
+      "sources": [
+        "1 Chronicles 5:23–26",
+        "Myers 1 Chronicles (1965)"
+      ],
+      "notes": "Seven named tribal heads of eastern Manasseh from Bashan to Mount Hermon.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_issachar_tola",
+      "name": "Issachar (1 Chr 7:1–5): Tola → Uzzi → Izrahiah → Michael, Obadiah, Joel & Isshiah",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "1 Chronicles 7:1–5 (Myers 1965)",
+      "role": "Principal Sub-Clans of Issachar",
+      "sources": [
+        "1 Chronicles 7:1–5",
+        "Myers 1 Chronicles (1965)"
+      ],
+      "notes": "Traces Tola's six warrior clans (Uzzi, Rephaiah, Jeriel, Jahmai, Ibsam, Shemuel) and Izrahiah's five chief sons.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_benjamin_clans",
+      "name": "Benjamin (1 Chr 7:6–12, 8:1–32): Jediael, Shaharaim (+ Hushim & Baara/Hodesh in Moab), Beriah & Shema (Aijalon)",
+      "altNames": [
+        "Shaharaim in Moab",
+        "Hodesh & Hushim"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 7:6–12, 8:1–32 (Myers 1965)",
+      "role": "Complete Benjamite Houses of Geba, Moab, Aijalon & Jerusalem",
+      "sources": [
+        "1 Chronicles 7:6–12, 8:1–32",
+        "Myers 1 Chronicles (1965)"
+      ],
+      "notes": "Includes Shaharaim (who fathered seven sons by Hodesh and Hushim in the country of Moab), Beriah & Shema (founders of Ono, Lod & Aijalon), and Jeiel's Gibeon clan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr41_asher_shua",
+      "name": "Asher (1 Chr 7:30–40): Heber → Japhlet, Shomer, Hotham & Sister Shua (F) → Zophah & Ithran",
+      "altNames": [
+        "Shua bat Heber"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 7:30–40 (Myers 1965)",
+      "role": "Northern Coastal Asherite Pedigree & Named Daughter Shua",
+      "sources": [
+        "1 Chronicles 7:30–40",
+        "Myers 1 Chronicles (1965)"
+      ],
+      "notes": "Complete 4-generation pedigree from Heber ben Beriah ben Asher down through Birzaith, Shomer, Hotham, and named sister Shua (1 Chr 7:32).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kea_obrien_dalgcais",
+      "name": "O'Brien / Dal gCais Pedigree (Keating pp.2–10): Cormac Cas → Brian Boru → Turlough → Muirchertach → Donnchadh Cairbreach",
+      "altNames": [
+        "O'Brien of Thomond",
+        "Dal gCais"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "4th–17th c. CE (Keating Foras Feasa Genealogies)",
+      "role": "Munster / Thomond High-King Pedigree From Eber Finn",
+      "sources": [
+        "Geoffrey Keating Foras Feasa ar Eirinn Genealogies (4. Geneal_Synch.pdf)"
+      ],
+      "notes": "Complete unbroken generational stem of the Dal gCais (O'Briens, O'Carrolls, McMahons & MacNamaras) from Milesius's son Eber Finn -> Oilioll Olum -> Cormac Cas -> Cass -> Brian Boru -> Turlough -> Conor na Siudaine.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kea_maccarthy_cashel",
+      "name": "Eoghanacht of Cashel & Desmond (Keating): Eoghan Mor → Fiacha Muilleathan → Corc → Ceallachan of Cashel → MacCarthy Mor & O'Sullivan",
+      "altNames": [
+        "MacCarthy Mor",
+        "Ceallachan of Cashel",
+        "O'Sullivan"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "3rd–17th c. CE (Keating Foras Feasa Genealogies)",
+      "role": "Royal Eoghanacht Kings of Cashel & Munster",
+      "sources": [
+        "Geoffrey Keating Foras Feasa ar Eirinn Genealogies (4. Geneal_Synch.pdf pp.3–9)"
+      ],
+      "notes": "Traces the elder Milesian line of Eber Finn through Eoghan Mor -> Fiacha Muilleathan -> Corc of Cashel -> Nad Fraoich -> Ceallachan Caisil -> Carthach (eponym of MacCarthy Mor) & O'Sullivan Beara.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kea_oneill_odonnell_columba",
+      "name": "Northern Ui Neill (Keating): Eoghan (O'Neill of Tyrone) & Conall Gulban (O'Donnell of Tyrconnell & St. Columba of Iona!)",
+      "altNames": [
+        "St. Columba (Colum Cille)",
+        "O'Neill",
+        "O'Donnell"
+      ],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "5th–17th c. CE (Keating Foras Feasa Genealogies)",
+      "role": "Most Famous Northern Irish Royal & Monastic Bloodline From Niall",
+      "sources": [
+        "Geoffrey Keating Foras Feasa ar Eirinn Genealogies (4. Geneal_Synch.pdf)"
+      ],
+      "notes": "Two eldest sons of Niall of the Nine Hostages: Eoghan -> Cenel nEoghain -> Hugh O'Neill (Earl of Tyrone); Conall Gulban -> Fedlimid -> St. Columba (Colum Cille, Apostle of Scotland!) & Red Hugh O'Donnell.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kea_oconnor_connacht",
+      "name": "O'Connor Kings of Connacht (Keating): Eochaid Mugmedon → Brion → Turlough Mor → Rory O'Connor (Last High King of Ireland, d. 1198)",
+      "altNames": [
+        "Rory O'Connor",
+        "O'Connor Connacht"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "4th–17th c. CE (Keating Foras Feasa Genealogies)",
+      "role": "Western High Kings of Ireland (Ui Briuin)",
+      "sources": [
+        "Geoffrey Keating Foras Feasa ar Eirinn Genealogies (4. Geneal_Synch.pdf)"
+      ],
+      "notes": "Half-brother of Niall of the Nine Hostages -> Brión -> Ui Briuin -> Turlough Mor -> Rory O'Connor (Ruaidri Ua Conchobair, last High King of Ireland before the Anglo-Norman arrival).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kea_macmurrough_leinster",
+      "name": "Kings of Leinster (Keating): Cathaoir Mor → Diarmait Mac Murchada → Princess Aoife (+ Strongbow → Isabel de Clare!)",
+      "altNames": [
+        "Aoife MacMurrough",
+        "Diarmait Mac Murchada",
+        "Strongbow Bridge"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "2nd–13th c. CE (Keating Foras Feasa Genealogies)",
+      "role": "Milesian Eremon Line Bridging Into Anglo-Norman & British Royalty!",
+      "sources": [
+        "Geoffrey Keating Foras Feasa ar Eirinn Genealogies (4. Geneal_Synch.pdf)"
+      ],
+      "notes": "Traces Eremon -> Ugaine Mor -> Cathaoir Mor -> Diarmait Mac Murchada, whose daughter Aoife MacMurrough wed Richard de Clare ('Strongbow') -> Isabel de Clare (+ William Marshal!) — directly injecting ancient Milesian/Gaelic royal blood into English, Scottish & European royalty!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kea_dalriada_scotland",
+      "name": "Dal Riada & Ulster/Pictish Clans (Keating): Cairbre Riada → Fergus Mor mac Erc; plus Ir (Magennis/O'More) & Ith (O'Driscoll)",
+      "altNames": [
+        "Magennis & O'Driscoll",
+        "Cairbre Riada"
+      ],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "3rd–17th c. CE (Keating Foras Feasa Genealogies)",
+      "role": "Irish-Scottish Dal Riada Link & Lines of Ir and Ith",
+      "sources": [
+        "Geoffrey Keating Foras Feasa ar Eirinn Genealogies (4. Geneal_Synch.pdf)"
+      ],
+      "notes": "Completes the four Milesian stems in Keating: Eremon's Dal Riada branch crossing to Argyll/Scotland under Fergus Mor, plus Ir (Magennis, O'More, Conall Cearnach) and Ith (O'Driscoll).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_eric_olof_sweden",
+      "name": "Eric the Victorious → Olof Skotkonung → Princess Ingegerd (+ Yaroslav of Kiev!) & Birger Jarl",
+      "altNames": [
+        "Olof Skotkonung",
+        "Ingegerd of Sweden",
+        "Birger Jarl"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "970–1266 CE (Heimskringla; Modern Universal History Vol. 12)",
+      "role": "Munsö & Bjalbo Houses of Sweden (Bridged via Yaroslav the Wise & Mieszko I!)",
+      "sources": [
+        "Snorri Sturluson Heimskringla",
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Olof Skotkonung (+ Estrid of the Obotrites)'s daughter Ingegerd Olofsdotter wed Yaroslav the Wise of Kiev (1019), placing Swedish Munsö blood directly into Kiev, France, England, Norway, and Hungary!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_gustav_vasa",
+      "name": "King Gustav I Vasa (Founder of Independent Sweden, 1523–1560)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1496–1560 CE",
+      "role": "Founder of House of Vasa",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Led Sweden out of the Kalmar Union (1523); father of Eric XIV, John III, and Charles IX.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_gustavus_christina",
+      "name": "King Gustavus Adolphus (1611–1632) → Queen Christina of Sweden",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1594–1689 CE",
+      "role": "Lion of the North & Learned Queen of Sweden",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Son of Charles IX; transformed Sweden into a European Great Power; succeeded by his daughter Queen Christina.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_charles12_bernadotte",
+      "name": "King Charles XII (1697–1718) → House of Bernadotte (Carl XVI Gustaf & Crown Princess Victoria 2026)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1682–2026 CE",
+      "role": "Modern Living Royal House of Sweden",
+      "sources": [
+        "European Royal Genealogies"
+      ],
+      "notes": "Connects Vasa/Palatinate Sweden through the Bernadottes (allied by marriage with Queen Victoria & Napoleonic/Wurtemberg houses) to the present day.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_gorm_bluetooth_cnut",
+      "name": "Gorm the Old → Harald Bluetooth → Sweyn Forkbeard (+ Sigrid/Gunhild of Poland!) → King Cnut the Great (+ Emma of Normandy!)",
+      "altNames": [
+        "Harald Bluetooth",
+        "King Cnut the Great",
+        "Emma of Normandy"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 936–1035 CE (Heimskringla; Anglo-Saxon Chronicle)",
+      "role": "Jelling North Sea Empire (Denmark, England, Norway & Poland Union)",
+      "sources": [
+        "Anglo-Saxon Chronicle",
+        "Heimskringla",
+        "Adam of Bremen"
+      ],
+      "notes": "Sweyn Forkbeard wed Gunhild/Sigrid (Piast Poland / Sweden), fathering King Cnut the Great of England, Denmark & Norway (+ Emma of Normandy -> Harthacnut & Gunhilda -> Emperor Henry III; sister Estrid -> Sweyn II Estridsen)!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_valdemar_margaret",
+      "name": "King Valdemar I the Great → Queen Margaret I of Denmark (Unifier of Kalmar Union, 1397)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1131–1412 CE",
+      "role": "Architect of the Nordic Kalmar Union",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Margaret I united Denmark, Norway, and Sweden (1397) and adopted Eric of Pomerania.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_christian4_denmark",
+      "name": "King Christian IV of Denmark & Norway (1588–1648) → House of Glucksburg (King Frederik X 2026)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1577–2026 CE",
+      "role": "Oldenburg & Living Glucksburg Royal House of Denmark",
+      "sources": [
+        "European Royal Genealogies"
+      ],
+      "notes": "Longest-reigning Scandinavian monarch (ancestor via Princess Anne of Scotland/England to Britain's Stuarts & Windsors!).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur_poland_mieszko",
+      "name": "Piast Dynasty of Poland: Piast → Mieszko I (966 CE) → Boleslaw I the Brave & Daughter Gunhild/Sigrid",
+      "altNames": [
+        "Mieszko I",
+        "Boleslaw I the Brave"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "9th–11th c. CE (Gallus Anonymus; Mod. Univ. Hist. Vol. 12)",
+      "role": "Graduated Founders of Christian Poland (Kiev & Nordic Royal Marriages)",
+      "sources": [
+        "Gallus Anonymus",
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Mieszko I's daughter wed Eric the Victorious of Sweden & Sweyn Forkbeard of Denmark (birthing Cnut the Great!); his son Mieszko II fathered Casimir I (+ Maria Dobroniega of Kiev, sister of Yaroslav the Wise!) — graduating Poland cleanly into Biblically Connected!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_casimir1_poland",
+      "name": "Mieszko II → Casimir I the Restorer (+ Maria Dobroniega of Kiev) → Boleslaw II & Wladyslaw Herman",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1016–1102 CE",
+      "role": "Piast–Rurikid Royal Union of Poland & Kiev",
+      "sources": [
+        "Gallus Anonymus"
+      ],
+      "notes": "Grandson of Mieszko I & Boleslaw I; married Yaroslav the Wise's sister Maria Dobroniega of Kiev, fusing Piast Poland directly with Rurikid Rus' and the Byzantine/Wessex networks!",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_casimir3_poland",
+      "name": "Wladyslaw I Lokietek → King Casimir III the Great of Poland (1333–1370)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1310–1370 CE",
+      "role": "Last Piast King of Poland & Founder of Krakow University",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Doubled Poland's territory; sister Elizabeth married Charles I of Hungary, birthing King Louis I the Great of Hungary & Poland.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_jadwiga_jagiello",
+      "name": "Queen Jadwiga (Anjou-Capet) & King Wladyslaw II Jagiello (Polish-Lithuanian Union, 1386)",
+      "altNames": [
+        "Queen Jadwiga",
+        "Wladyslaw II Jagiello"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1373–1434 CE",
+      "role": "Capetian-Piast Heiress & Lithuanian Union Founder",
+      "sources": [
+        "Jan Dlugosz",
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Daughter of Capetian-Anjou King Louis I of Hungary & Poland; crowned Rex Poloniae (1384) and married Grand Duke Jogaila (Wladyslaw II Jagiello) of Lithuania, creating the Jagiellonian superpower!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_sigismund_sobieski",
+      "name": "Casimir IV (+ Elizabeth of Habsburg) → Sigismund I the Old (+ Bona Sforza) → King John III Sobieski (Vienna, 1683)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1427–1696 CE",
+      "role": "Jagiellonian Golden Age & Hero of Vienna",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Casimir IV's sons & daughters ruled Poland, Lithuania, Bohemia, and Hungary; descendant King John III Sobieski relieved the 1683 Siege of Vienna.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_almos_arpad_stephen",
+      "name": "Almos → Grand Prince Arpad (895) → St. Stephen I (1000) & Andrew I (+ Anastasia of Kiev!)",
+      "altNames": [
+        "Grand Prince Arpad",
+        "St. Stephen I",
+        "Anastasia of Kiev"
+      ],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "895–1060 CE (Illuminated Chronicle; Mod. Univ. Hist.)",
+      "role": "Graduated Founders of Hungary (Yaroslav the Wise Royal Marriage!)",
+      "sources": [
+        "Hungarian Illuminated Chronicle",
+        "Modern Universal History"
+      ],
+      "notes": "Arpad dynasty converted under St. Stephen I (+ Gisela of Bavaria); cousin King Andrew I married Princess Anastasia of Kiev (eldest daughter of Yaroslav the Wise & Ingegerd of Sweden!), graduating Hungary directly into Biblically Connected!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_bela3_louis_great",
+      "name": "King Bela III (+ Margaret of France) → St. Elizabeth of Hungary → King Louis I the Great (Hungary & Poland)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1148–1382 CE",
+      "role": "Arpad & Capetian-Anjou Kings of Hungary",
+      "sources": [
+        "European Royal Chronicles"
+      ],
+      "notes": "Bela III (+ Capetian Princess Margaret of France!) -> Andrew II (+ Gertrude of Merania -> St. Elizabeth of Hungary & Bela IV) -> Capetian Anjou Charles I -> King Louis the Great (father of Queen Jadwiga!).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_hunyadi_corvinus",
+      "name": "John Hunyadi (Defender of Belgrade, 1456) → King Matthias Corvinus of Hungary (1458–1490)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1406–1490 CE",
+      "role": "Renaissance Monarch & Library Corviniana Founder",
+      "sources": [
+        "European Royal Chronicles"
+      ],
+      "notes": "Defended Central Europe and built the Bibliotheca Corviniana at Buda.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_premysl_wenceslas",
+      "name": "Premysl & Princess Libuse → St. Wenceslas I (d. 935) → King Ottokar II of Bohemia (+ Cunigunda of Kiev/Hungary!)",
+      "altNames": [
+        "St. Wenceslas",
+        "Ottokar II"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 8th–13th c. CE (Cosmas of Prague)",
+      "role": "Graduated Premyslid Dynasty of Bohemia (Czechia)",
+      "sources": [
+        "Cosmas of Prague Chronica Boemorum"
+      ],
+      "notes": "Premyslid rulers unified Bohemia & Moravia; King Ottokar II married Kunigunda of Halych (granddaughter of Bela IV of Hungary & Rurikid Rostislav Mikhailovich of Kiev!).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_charles4_bohemia",
+      "name": "Emperor & King Charles IV of Bohemia (1346–1378) → King Sigismund, Anne (+ Richard II) & Bonne (+ John II of France)",
+      "altNames": [
+        "Emperor Charles IV",
+        "Bonne of Bohemia"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1316–1437 CE",
+      "role": "Premyslid-Luxembourg Holy Roman Emperor & Bohemian Royal Motherline",
+      "sources": [
+        "European Royal Chronicles"
+      ],
+      "notes": "Son of Premyslid Queen Elisabeth of Bohemia & John of Luxembourg; Golden Bull of 1356, founder of Charles University Prague; sister Bonne wed King John II of France and daughter Anne wed King Richard II of England!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur42_mindaugas_gediminas",
+      "name": "King Mindaugas (1253) → Grand Duke Gediminas (1316–1341) → Algirdas (+ Uliana of Tver!) & Grand Duke Vytautas the Great",
+      "altNames": [
+        "Gediminas",
+        "Vytautas the Great"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1236–1430 CE (Lithuanian Chronicles)",
+      "role": "Graduated Grand Duchy of Lithuania (Rurikid-Tver & Polish-Capetian Marriages)",
+      "sources": [
+        "Lithuanian Chronicles",
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Grand Duke Algirdas wed Russian Rurikid Princess Uliana of Tver (fathering Wladyslaw II Jagiello -> Polish-Lithuanian Commonwealth!), while nephew Vytautas's daughter Sophia wed Grand Prince Vasily I of Moscow!",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_charlemagne_kids",
+      "name": "Offspring of Charlemagne: Louis the Pious, Pepin of Italy, Charles the Younger, Rotrude & Bertha (→ Nithard)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "772–840 CE",
+      "role": "Carolingian Royal Children Uniting France, Germany, Italy & Wessex",
+      "sources": [
+        "Einhard",
+        "Annales Regni Francorum"
+      ],
+      "notes": "Louis the Pious (Emperor -> Lothair I, Louis the German, Charles the Bald + Judith/Gisela -> Alfred the Great's stepmother Judith of Flanders!).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_william_conqueror_kids",
+      "name": "Offspring of William I (+ Matilda of Flanders): Robert Curthose, William II, Henry I (+ Matilda of Scotland!), Adela (→ Stephen)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1051–1135 CE",
+      "role": "Anglo-Norman Royal Children Bridging Wessex, Scotland & Champagne",
+      "sources": [
+        "Orderic Vitalis",
+        "William of Malmesbury"
+      ],
+      "notes": "Henry I wed Edith/Matilda of Scotland (uniting Norman & Wessex/Celtic Scottish royal bloodlines!) -> Empress Matilda -> Henry II Plantagenet!",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_eleanor_aquitaine",
+      "name": "Queen Eleanor of Aquitaine (+ Louis VII of France; + Henry II of England) → Richard I, John, Henry the Young King, Matilda (+ Saxony) & Eleanor of Castile",
+      "altNames": [
+        "Eleanor of Aquitaine",
+        "Blanche of Castile"
+      ],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1122–1204 CE",
+      "role": "Matriarch Bridging France, England, Spain (Castile) & Germany (Guelphs)",
+      "sources": [
+        "European Royal Chronicles"
+      ],
+      "notes": "Wed both Louis VII of France (Marie & Alix of France) and Henry II of England (Richard I, King John, Eleanor of Castile -> Ferdinand III -> Blanche of Castile + Louis VIII -> St. Louis IX!).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_ferdinand_isabella_kids",
+      "name": "Offspring of Ferdinand & Isabella: Juana the Mad (+ Philip the Handsome), Queen Catherine of Aragon (+ Henry VIII → Mary I) & Maria (+ Manuel I of Portugal)",
+      "altNames": [
+        "Juana the Mad",
+        "Catherine of Aragon"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1470–1555 CE",
+      "role": "Trastamara–Habsburg–Tudor–Aviz Marriage Web",
+      "sources": [
+        "Mariana History of Spain (1699)",
+        "Howell (1685)"
+      ],
+      "notes": "All five children of Ferdinand & Isabella wed Europe's major crowns (Habsburg Austria/Netherlands, Tudor England, Aviz Portugal), fathering Emperor Charles V & Queen Mary I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_habsburg_dynasty",
+      "name": "House of Habsburg: Rudolf I → Maximilian I → Emperor Charles V & Ferdinand I → Empress Maria Theresa → Emperor Franz II & Marie Antoinette",
+      "altNames": [
+        "Empress Maria Theresa",
+        "Maximilian I",
+        "Marie Antoinette"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1273–1918 CE",
+      "role": "Imperial Austrian, Spanish, Hungarian & Bohemian House",
+      "sources": [
+        "European Royal Genealogies",
+        "Betham Tables (1795)"
+      ],
+      "notes": "Maximilian I (+ Mary of Burgundy) -> Philip the Handsome (+ Juana) -> Charles V & Ferdinand I (Bohemia/Hungary); Empress Maria Theresa (16 children incl. Joseph II, Leopold II & Queen Marie Antoinette -> Bourbon France)!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_medici_house",
+      "name": "House of Medici (Florence & France): Cosimo il Vecchio → Lorenzo the Magnificent → Popes Leo X & Clement VII → Queens Catherine de' Medici & Marie de' Medici",
+      "altNames": [
+        "Lorenzo de' Medici",
+        "Catherine de' Medici",
+        "Marie de' Medici"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1389–1743 CE",
+      "role": "Renaissance Banking Patrons & Queens of France",
+      "sources": [
+        "Florentine Chronicles",
+        "Betham (1795)"
+      ],
+      "notes": "Catherine de' Medici (+ King Henry II -> Francis II, Charles IX, Henry III, Margot) and Marie de' Medici (+ King Henry IV -> Louis XIII & Queen Henrietta Maria of England!).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_bourbons_napoleon",
+      "name": "Bourbons & Bonaparte: Henry IV → Louis XIII → Louis XIV ('Sun King') → Louis XVI & Emperor Napoleon Bonaparte (+ Archduchess Marie Louise → Napoleon II)",
+      "altNames": [
+        "Louis XIV",
+        "Napoleon Bonaparte",
+        "Napoleon II"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1553–1832 CE",
+      "role": "French Bourbon Sovereigns & Napoleonic Imperial Marriage",
+      "sources": [
+        "Modern Universal History Vol. 14",
+        "Betham (1795)"
+      ],
+      "notes": "Louis XIV's Bourbon line ruled France, Spain (Philip V) & Naples/Sicily; Napoleon wed Habsburg Archduchess Marie Louise (niece of Marie Antoinette!), fathering Napoleon II (King of Rome).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_hohenzollern_prussia",
+      "name": "House of Hohenzollern (Prussia/Germany): Frederick William ('Great Elector') → Frederick the Great (1740–1786) → Kaiser Wilhelm I → Kaiser Wilhelm II (1888–1918)",
+      "altNames": [
+        "Frederick the Great",
+        "Kaiser Wilhelm II"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1620–1941 CE",
+      "role": "Kings of Prussia & German Emperors (Queen Victoria's Eldest Daughter Vicky!)",
+      "sources": [
+        "Betham Tables (1795)",
+        "Modern Universal History"
+      ],
+      "notes": "Frederick the Great modernized Prussia; Crown Prince Frederick III wed Britain's Princess Royal Victoria -> Kaiser Wilhelm II (first cousin of King George V & Tsaritsa Alexandra!).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_hanover_windsor_victoria",
+      "name": "House of Hanover & Windsor (Living 2026!): Electress Sophia (Stewart) → George I → George III → Queen Victoria ('Grandmother of Europe'!) → Edward VII → George V → George VI → Queen Elizabeth II → King Charles III → Prince William",
+      "altNames": [
+        "Queen Victoria",
+        "Queen Elizabeth II",
+        "King Charles III",
+        "Prince William"
+      ],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1714–2026 CE (Stuart → Windsor)",
+      "role": "Modern & Living British Royal House Bridging Every European Crown to Wessex/Alfred/Noah",
+      "sources": [
+        "Howell (1685)",
+        "Betham Tables (1795)",
+        "Burke's Royal Genealogies"
+      ],
+      "notes": "Via Stuart heiress Elizabeth (dau. of James I) -> Electress Sophia -> George I -> Queen Victoria (+ Prince Albert), whose 9 children wed Prussia/Germany, Russia (Tsaritsa Alexandra!), Denmark/Greece (Prince Philip!), Spain (Queen Victoria Eugenie!), Sweden, Norway & Romania down to King Charles III & Prince William today!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_romanovs_late",
+      "name": "Late Russian Empire (Romanovs): Empress Catherine the Great → Paul I → Alexander I & Nicholas I → Alexander II → Tsar Nicholas II (+ Alix of Hesse, Granddau. of Queen Victoria) → Anastasia & Alexei",
+      "altNames": [
+        "Catherine the Great",
+        "Tsar Nicholas II",
+        "Grand Duchess Anastasia"
+      ],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1762–1918 CE",
+      "role": "Romanov–Holstein-Gottorp Emperors of Russia",
+      "sources": [
+        "Modern Universal History Vol. 13",
+        "European Royal Genealogies"
+      ],
+      "notes": "Peter the Great -> Anna & Peter III (+ Catherine the Great) -> Alexander I (defeated Napoleon) -> Tsar Nicholas II & Romanov children.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_ptolemy_cleopatra_kids",
+      "name": "Offspring of Cleopatra VII: Ptolemy XV Caesarion (by Julius Caesar), Alexander Helios, Cleopatra Selene II (+ Juba II of Mauretania!) & Ptolemy of Mauretania",
+      "altNames": [
+        "Caesarion",
+        "Cleopatra Selene II",
+        "Juba II"
+      ],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "47 BCE – 40 CE (Plutarch Antony; Suetonius; Josephus)",
+      "role": "Last Lagid/Ptolemaic–Roman–Amazigh Royal Offspring",
+      "sources": [
+        "Plutarch Life of Antony",
+        "Josephus Ant. XVII",
+        "Suetonius"
+      ],
+      "notes": "Cleopatra VII's twins Alexander Helios & Cleopatra Selene II wed into Emesa/Media and Mauretania: Cleopatra Selene II married scholar-king Juba II of Mauretania/Numidia, fathering King Ptolemy of Mauretania!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_seleucids_pontus",
+      "name": "Seleucid & Pontic Offspring: Seleucus I → Antiochus III the Great → Antiochus IV Epiphanes; Mithridates VI of Pontus (+ Laodice)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "312–63 BCE (1–2 Maccabees; Appian; Justin)",
+      "role": "Hellenistic Successor Kingdoms Bridging Macedonia, Persia, Judea & Rome",
+      "sources": [
+        "1 Maccabees 1",
+        "Appian Syriaca",
+        "Justin"
+      ],
+      "notes": "Antiochus III (+ daughter Cleopatra I Syra married Ptolemy V!), Antiochus IV Epiphanes (Maccabean Revolt), and Mithridates VI Eupator of Pontus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_barcids_scipios",
+      "name": "Barcids & Scipios: Hamilcar Barca → Hannibal, Hasdrubal & Mago; Scipio Africanus → Daughter Cornelia → Tiberius & Gaius Gracchus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "264–121 BCE (Livy; Polybius; Plutarch)",
+      "role": "Carthaginian & Roman Republican Dynastic Houses",
+      "sources": [
+        "Polybius",
+        "Livy",
+        "Plutarch Gracchi"
+      ],
+      "notes": "Hamilcar Barca's sons crossed the Alps; Scipio Africanus's learned daughter Cornelia ('Mother of the Gracchi') mothered reformers Tiberius and Gaius Gracchus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_roman_julio_flavian_antonine",
+      "name": "Julio-Claudians, Flavians & Five Good Emperors: Augustus + Livia → Tiberius, Germanicus → Caligula, Claudius, Nero; Vespasian → Titus & Domitian; Trajan, Hadrian & Marcus Aurelius → Commodus",
+      "altNames": [
+        "Trajan & Hadrian",
+        "Marcus Aurelius",
+        "Vespasian & Titus"
+      ],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "27 BCE – 192 CE (Suetonius; Tacitus; Cassius Dio)",
+      "role": "Complete Early Imperial Roman Succession",
+      "sources": [
+        "Suetonius Twelve Caesars",
+        "Tacitus Annals",
+        "Herodian"
+      ],
+      "notes": "Full imperial Roman sequence intersecting Jesus, the Apostles, Jerusalem 70 CE (Vespasian & Titus), Queen Berenice II, and Bar Kokhba (Hadrian).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_byzantine_palaiologoi_moscow",
+      "name": "Byzantine Dynasties: Basil I → Basil II ('Bulgar-Slayer') → Alexios I Komnenos (+ Anna Komnene) → Michael VIII Palaiologos → Zoe/Sophia Palaiologina (+ Ivan III of Moscow!)",
+      "altNames": [
+        "Anna Komnene",
+        "Sophia Palaiologina"
+      ],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "867–1503 CE (Anna Komnene Alexiad; Sphrantzes)",
+      "role": "Macedonian, Komnenian & Palaiologan Byzantium Bridging to Tsar Russia ('Third Rome')",
+      "sources": [
+        "Anna Komnene Alexiad",
+        "Modern Universal History Vol. 13"
+      ],
+      "notes": "Princess Zoe (Sophia) Palaiologina, niece of final Byzantine Emperor Constantine XI (d. 1453), married Grand Prince Ivan III the Great of Moscow in 1472 — making the Romanov/Rurikid Tsars direct biological heirs of Christian Constantinople!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_islamic_abbasid_cordoba",
+      "name": "Islamic Caliphates: Cordoba Umayyads (Abd al-Rahman I → Abd al-Rahman III) & Abbasid Golden Age (Al-Mansur → Harun al-Rashid → Al-Ma'mun)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "754–1031 CE (Al-Tabari; Lane-Poole; Ibn Khaldun)",
+      "role": "Caliphs of Cordoba & House of Wisdom in Baghdad",
+      "sources": [
+        "Al-Tabari",
+        "Lane-Poole Mohammadan Dynasties",
+        "Mariana (Spain)"
+      ],
+      "notes": "Harun al-Rashid exchanged embassies with Charlemagne; Abd al-Rahman III proclaimed the Caliphate of Cordoba.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_ayyubid_saladin_mamluk",
+      "name": "Ayyubids & Mamluks: Najm ad-Din Ayyub → Sultan Saladin (Salah ad-Din, d. 1193) → Al-Afdal, Al-Aziz & Al-Adil → Sultan Baibars & Qalawun",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1137–1310 CE (Ibn Shaddad; Al-Maqrizi)",
+      "role": "Unifier of Egypt & Syria + Mamluk Sultans of Cairo",
+      "sources": [
+        "Ibn Shaddad",
+        "Lane-Poole"
+      ],
+      "notes": "Saladin (counterpart of Richard I Lionheart in the Third Crusade) -> Ayyubid Sultans of Cairo/Damascus -> Mamluk Sultans Baibars & Qalawun.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_ottoman_imperial_women",
+      "name": "Ottoman Imperial Sultanate & Kadinlar: Hurrem Sultan (Roxelana) → Sultan Selim II & Princess Mihrimah Sultan → Ahmed I → Kösem Sultan",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1505–1651 CE (Knolles Turkish History; Ottoman Registers)",
+      "role": "Royal Mothers & Princesses of the Sublime Porte",
+      "sources": [
+        "Knolles Turkish History",
+        "Zambaur Manuel"
+      ],
+      "notes": "From Rurikid-Ruthenian captive Hurrem Sultan (+ Suleiman the Magnificent -> Selim II & Mihrimah Sultan) to Regent Kösem Sultan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_safavid_persia_abbas",
+      "name": "Safavid & Afsharid Persia: Shah Ismail I → Shah Tahmasp I → Shah Abbas I the Great (1588–1629) → Nader Shah Afshar",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 21,
+      "era": "1501–1747 CE (Malcolm History of Persia)",
+      "role": "Early Modern Persian Empire Sovereign & Offspring Line",
+      "sources": [
+        "Sir John Malcolm History of Persia",
+        "Modern Universal History"
+      ],
+      "notes": "Shah Abbas the Great reshaped Isfahan and partnered diplomatically with Mughal Jahangir and European courts.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_african_kings_queens",
+      "name": "African Sovereign Offspring & Queens: Mansa Musa → Mansa Maghan I & Mansa Sulayman (Mali); Queen Amina of Zazzau (Hausa); Ethiopian Empresses Eleni, Mentewab & Taytu Betul",
+      "altNames": [
+        "Queen Amina of Zazzau",
+        "Empress Mentewab",
+        "Empress Taytu Betul"
+      ],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1312–1918 CE (Tarikh es-Soudan; Kano Chronicle; Ludolf)",
+      "role": "Great Monarchs & Regnant Empresses of Mali, Hausaland & Ethiopia",
+      "sources": [
+        "Tarikh es-Soudan",
+        "Kano Chronicle",
+        "Hiob Ludolf"
+      ],
+      "notes": "Highlights Africa's towering female & male sovereigns alongside Sundiata, Bayajidda, Sonni Ali, and Solomonic Gondar.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_india_gupta_chola_maratha",
+      "name": "Classical & Early Modern Indian Empires: Chandragupta I → Samudragupta → Chandragupta II (Guptas); Rajaraja Chola I → Rajendra Chola I (Cholas!); Krishnadevaraya; Chhatrapati Shivaji Maharaj → Sambhaji",
+      "altNames": [
+        "Samudragupta",
+        "Rajendra Chola I",
+        "Krishnadevaraya",
+        "Shivaji Maharaj"
+      ],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "320–1700 CE (Allahabad Pillar; Tiruvalangadu Plates; Maratha Bakhar)",
+      "role": "Golden Age Imperial Houses Across North & South India",
+      "sources": [
+        "Indian Epigraphy",
+        "K.A. Nilakanta Sastri Cholas",
+        "James Tod"
+      ],
+      "notes": "Completes India's imperial spine: Gupta Golden Age; Cholas (Rajaraja I & Rajendra I, historical counterpart of Malay Annals 'Raja Suran'!); Vijayanagara's Krishnadevaraya; and Maratha founder Shivaji Maharaj (claiming Sisodia Mewar Solar Rajput descent!).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_sikh_guru_nanak",
+      "name": "Guru Nanak Dev Ji (1469–1539, Bedi Khatri Solar Rajput Line via Kusha) → Siri Chand & Lakhmi Das → Ten Sikh Gurus → Maharaja Ranjit Singh",
+      "altNames": [
+        "Guru Nanak Dev Ji",
+        "Guru Gobind Singh",
+        "Maharaja Ranjit Singh"
+      ],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1469–1849 CE (Janamsakhis; Bachittar Natak)",
+      "role": "Founder of Sikhism (Traditional Solar Kusha/Lava Lineage) & Sikh Empire",
+      "sources": [
+        "Bachittar Natak",
+        "Janamsakhis",
+        "Tod Annals"
+      ],
+      "notes": "Traditional Punjabi & Sodhi/Bedi chronicles (Bachittar Natak) trace Guru Nanak (Bedi) and Guru Gobind Singh (Sodhi) to Rama's twin sons Kusha & Lava -> Sodhi/Bedi houses -> Maharaja Ranjit Singh.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_china_han_tang_qing",
+      "name": "Han, Tang & Late Qing Offspring: Emperor Wu of Han → Guangwu; Emperor Taizong → Empress Wu Zetian (Sole Female Emperor!) → Xuanzong; Qianlong & Empress Dowager Cixi → Puyi",
+      "altNames": [
+        "Emperor Wu of Han",
+        "Empress Wu Zetian",
+        "Qianlong Emperor",
+        "Emperor Puyi"
+      ],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "141 BCE – 1967 CE (Han Shu; Jiu Tang Shu; Draft History of Qing)",
+      "role": "Peak Imperial Houses of Han, Tang & Qing China",
+      "sources": [
+        "Book of Han",
+        "Old Book of Tang",
+        "Du Halde (1738)"
+      ],
+      "notes": "Expands China's connected imperial lines from Liu Bang/Yao -> Han Wudi & Tang Taizong -> China's only female Emperor Wu Zetian, plus Kangxi -> Yongzheng -> Qianlong -> Empress Dowager Cixi -> Last Emperor Puyi.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pc_japan_nara_heian",
+      "name": "Nara & Heian Imperial Court: Emperor Tenji & Fujiwara no Kamatari → Emperor Kammu → Lady Murasaki Shikibu (Tale of Genji) & Emperor Go-Daigo",
+      "altNames": [
+        "Emperor Kammu",
+        "Murasaki Shikibu",
+        "Fujiwara no Kamatari"
+      ],
+      "tradition": "japan_korea",
+      "tier": 19,
+      "era": "626–1339 CE (Nihon Shoki; Shoku Nihongi)",
+      "role": "Heian Golden Age Court & Fujiwara Clan Lineage",
+      "sources": [
+        "Nihongi",
+        "Chamberlain Kojiki"
+      ],
+      "notes": "Fujiwara no Kamatari (allied with Emperor Tenji) founded the Fujiwara regent house that produced Lady Murasaki Shikibu (author of The Tale of Genji, world's first novel!) and intermarried with every Heian Emperor.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam_maimonides",
+      "name": "Maimonides / Rambam (Rabbi Moses ben Maimon, 1138–1204) → Rabbi Abraham ben Maimon",
+      "altNames": [
+        "Rambam",
+        "Rabbi Abraham ben Maimon"
+      ],
+      "tradition": "biblical",
+      "tier": 20,
+      "era": "1138–1237 CE (Cordoba → Cairo)",
+      "role": "Greatest Medieval Jewish Sage (Documented Davidic Tradition)",
+      "sources": [
+        "Talmudic & Sephardic Responsa",
+        "Gedalyah ibn Yahya Shalshelet ha-Kabbalah"
+      ],
+      "notes": "Traced in Sephardic & Rabbinic genealogies (alongside Rashi & Abravanel) to Hillel the Elder -> King David; father of Nagid Abraham ben Maimon.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam_ibn_sina_rushd_rumi",
+      "name": "Islamic Golden Age Masters: Ibn Sina (Avicenna), Ibn Rushd (Averroes), Omar Khayyam & Jalal al-Din Rumi (→ Sultan Walad)",
+      "altNames": [
+        "Avicenna",
+        "Averroes",
+        "Rumi"
+      ],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "980–1273 CE (Bukhara, Nishapur, Cordoba, Konya)",
+      "role": "Philosophers, Physicians & Sufi Lineage",
+      "sources": [
+        "Biographical Dictionaries of Islam",
+        "Mevlevi Silsila"
+      ],
+      "notes": "Baha ud-Din Walad -> Mevlana Jalal al-Din Rumi -> Sultan Walad (founder of the Mevlevi order in Seljuk Konya!), alongside Avicenna, Averroes, and Omar Khayyam.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam_columbus_vasco_polo",
+      "name": "Age of Discovery Navigators: Marco Polo, Vasco da Gama (→ Estêvão da Gama) & Christopher Columbus (→ Diego Columbus, Dukes of Veragua!)",
+      "altNames": [
+        "Christopher Columbus",
+        "Diego Columbus",
+        "Marco Polo",
+        "Vasco da Gama"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1254–1560 CE (Venice, Portugal, Castile)",
+      "role": "Transoceanic Explorers & Their Noble Offspring",
+      "sources": [
+        "History of Portugal (1726)",
+        "Mariana Spain",
+        "Colombian Archives"
+      ],
+      "notes": "Vasco da Gama served King Manuel I of Portugal; Christopher Columbus sailed for Ferdinand & Isabella and fathered Diego Columbus (+ Maria de Toledo, niece of Duke of Alba & cousin of Ferdinand of Aragon!), creating the Dukes of Veragua.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam_renaissance_science",
+      "name": "Renaissance & Scientific Revolution: Leonardo da Vinci, Michelangelo, Galileo Galilei (→ Vincenzo & Virginia) & Sir Isaac Newton",
+      "altNames": [
+        "Leonardo da Vinci",
+        "Michelangelo",
+        "Galileo",
+        "Sir Isaac Newton"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1452–1727 CE (Florence, Padua, Cambridge)",
+      "role": "Architects of Renaissance Art & Modern Physics",
+      "sources": [
+        "Vasari Lives",
+        "Isaac Newton Chronology Amended (1728)"
+      ],
+      "notes": "Includes Sir Isaac Newton (whose 1728 Chronology of Ancient Kingdoms Amended is one of our 265 sources!) alongside Leonardo, Michelangelo, and Galileo.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam_shakespeare_joan",
+      "name": "William Shakespeare (→ Susanna, Hamnet & Judith) & St. Joan of Arc (1412–1431)",
+      "altNames": [
+        "William Shakespeare",
+        "Joan of Arc"
+      ],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1412–1616 CE (Domrémy & Stratford-upon-Avon)",
+      "role": "Tudor/Valois Cultural & National Icons",
+      "sources": [
+        "Parish & Valois Trial Records",
+        "Modern Universal History"
+      ],
+      "notes": "Joan of Arc crowned Valois Dauphin Charles VII; William Shakespeare wed Anne Hathaway and fathered Susanna (-> Elizabeth Barnard), Hamnet, and Judith (Quiney).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam_washington_jefferson",
+      "name": "American Founders With Documented Royal/Plantagenet Descents: President George Washington (via King Edward III / Wessex!) & President Thomas Jefferson (via King David I of Scotland / Edward III!)",
+      "altNames": [
+        "George Washington",
+        "Thomas Jefferson"
+      ],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1732–1826 CE (Virginia — Magna Carta / Plantagenet Gateways)",
+      "role": "Historical U.S. Presidents Linked via Documented English/Scottish Royal Gateways",
+      "sources": [
+        "Burke's Presidential Families",
+        "Gary Boyd Roberts Royal Descents",
+        "Howell (1685)"
+      ],
+      "notes": "Well-documented colonial Virginia gateway ancestries: George Washington (via John Washington & Lawrence Butler/Mildred Warner -> Magna Carta Barons & King Edward III/King Alfred!) and Thomas Jefferson (via Jane Randolph -> King David I of Scotland, Henry I & Edward III!) carry verified Plantagenet/Wessex lines into the modern era!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam_churchill_lincoln",
+      "name": "Sir Winston Churchill (Spencer-Churchill Dukes of Marlborough) & President Abraham Lincoln (1809–1865 → Robert Todd Lincoln)",
+      "altNames": [
+        "Winston Churchill",
+        "Abraham Lincoln"
+      ],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1809–1965 CE (USA & United Kingdom)",
+      "role": "Modern World Statesmen & Offspring",
+      "sources": [
+        "Burke's Peerage",
+        "Lincoln Family Papers"
+      ],
+      "notes": "Winston Churchill descended directly from John Churchill, 1st Duke of Marlborough (and via both Churchill and Jerome lines traces to medieval English barons/Edward I!), alongside Abraham Lincoln -> Robert Todd Lincoln.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam_asian_sages",
+      "name": "Asian Classical Masters: Laozi, Sun Tzu, Mencius, Sima Qian (Shiji), Li Bai; Chanakya, Kalidasa, Adi Shankara & Miyamoto Musashi",
+      "altNames": [
+        "Sima Qian",
+        "Laozi",
+        "Sun Tzu",
+        "Mencius",
+        "Adi Shankara"
+      ],
+      "tradition": "chinese",
+      "tier": 14,
+      "era": "6th c. BCE – 1645 CE (China, India & Japan)",
+      "role": "Philosophers, Historians & Poets Across Asian Chronicles",
+      "sources": [
+        "Sima Qian Shiji",
+        "Nihongi",
+        "Rajatarangini"
+      ],
+      "notes": "Celebrated thinkers whose chronicles preserve our Asian genealogies: Sima Qian (whose Shiji traces Yellow Emperor -> Xia/Shang/Zhou/Confucius/Xiongnu!), Laozi (Tang imperial Li ancestor claim!), Mencius (Duke of Lu/Zhou line!), Sun Tzu, Chanakya, Kalidasa & Adi Shankara.",
       "major": false,
       "biblicalConnected": true
     }
@@ -59465,6 +60875,12 @@
     },
     {
       "from": "amp_aztec_tenochtitlan",
+      "to": "unb_azt_malintzin_tecuichpotzin",
+      "type": "expansion",
+      "label": "Mesoamerican / Caribbean contact-era dynasty"
+    },
+    {
+      "from": "amp_aztec_tenochtitlan",
       "to": "unb_car_guacanagari",
       "type": "expansion",
       "label": "Mesoamerican / Caribbean contact-era dynasty"
@@ -59572,10 +60988,28 @@
       "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
     },
     {
+      "from": "unb_inc_tupac_amaru",
+      "to": "unb_inc_mama_ocllo_garcilaso",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
       "from": "amp_inca_pachacuti",
       "to": "unb_inc_pachacuti",
       "type": "cognate",
       "label": "Same Inca sovereign chain expanded individually"
+    },
+    {
+      "from": "unb_may_lady_yohl_iknal",
+      "to": "unb_may_lady_sak_kuk",
+      "type": "direct",
+      "label": "Palenque royal matrilineal succession -> Pakal"
+    },
+    {
+      "from": "unb_may_lady_sak_kuk",
+      "to": "unb_may_pakal_great",
+      "type": "direct",
+      "label": "Mother of Pakal the Great"
     },
     {
       "from": "amp_maya_four_men",
@@ -59849,6 +61283,12 @@
     },
     {
       "from": "unb_afr_senzangakhona",
+      "to": "unb_afr_queen_nandi",
+      "type": "expansion",
+      "label": "Southern African Oral & Historical Chronicles: succession"
+    },
+    {
+      "from": "unb_afr_queen_nandi",
       "to": "unb_afr_shaka_zulu",
       "type": "expansion",
       "label": "Southern African Oral & Historical Chronicles: succession"
@@ -59916,6 +61356,12 @@
     {
       "from": "unb_afr_osei_tutu",
       "to": "unb_afr_ewuare_benin",
+      "type": "expansion",
+      "label": "West African forest-belt sovereign tradition"
+    },
+    {
+      "from": "unb_afr_osei_tutu",
+      "to": "unb_afr_queen_idia",
       "type": "expansion",
       "label": "West African forest-belt sovereign tradition"
     },
@@ -60083,6 +61529,12 @@
     },
     {
       "from": "unb_jpn_yoritomo",
+      "to": "unb_jpn_hojo_masako_yoshitsune",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_hojo_masako_yoshitsune",
       "to": "unb_jpn_hojo_tokimasa",
       "type": "expansion",
       "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
@@ -60119,6 +61571,12 @@
     },
     {
       "from": "unb_jpn_tokugawa_ieyasu",
+      "to": "unb_jpn_date_masamune",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_date_masamune",
       "to": "unb_jpn_tokugawa_hidetada",
       "type": "expansion",
       "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
@@ -60221,12 +61679,24 @@
     },
     {
       "from": "unb_chn_song_huizong",
+      "to": "unb_chn_yue_fei_zhuxi",
+      "type": "expansion",
+      "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
+    },
+    {
+      "from": "unb_chn_yue_fei_zhuxi",
       "to": "unb_chn_ming_hongwu",
       "type": "expansion",
       "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
     },
     {
       "from": "unb_chn_ming_hongwu",
+      "to": "unb_chn_empress_ma",
+      "type": "expansion",
+      "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
+    },
+    {
+      "from": "unb_chn_empress_ma",
       "to": "unb_chn_ming_yongle",
       "type": "expansion",
       "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
@@ -60347,12 +61817,6 @@
     },
     {
       "from": "unb_grk_miltiades_themistocles",
-      "to": "unb_grk_leonidas",
-      "type": "expansion",
-      "label": "Plutarch's Lives, Thucydides, Herodotus: succession"
-    },
-    {
-      "from": "unb_grk_leonidas",
       "to": "unb_grk_pericles",
       "type": "expansion",
       "label": "Plutarch's Lives, Thucydides, Herodotus: succession"
@@ -60374,114 +61838,6 @@
       "to": "unb_grk_pyrrhus_epirus",
       "type": "expansion",
       "label": "Plutarch's Lives, Thucydides, Herodotus: succession"
-    },
-    {
-      "from": "eur_poland_mieszko",
-      "to": "unb_eur_casimir3_poland",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_casimir3_poland",
-      "to": "unb_eur_jadwiga_jagiello",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_jadwiga_jagiello",
-      "to": "unb_eur_sigismund_poland",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_sigismund_poland",
-      "to": "unb_eur_john_sobieski",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_almos_arpad",
-      "to": "unb_eur_bela3_hungary",
-      "type": "expansion",
-      "label": "European Royal Chronicles: succession"
-    },
-    {
-      "from": "unb_eur_bela3_hungary",
-      "to": "unb_eur_louis_great_hungary",
-      "type": "expansion",
-      "label": "European Royal Chronicles: succession"
-    },
-    {
-      "from": "unb_eur_louis_great_hungary",
-      "to": "unb_eur_hunyadi_corvinus",
-      "type": "expansion",
-      "label": "European Royal Chronicles: succession"
-    },
-    {
-      "from": "unb_eur_premysl_bohemia",
-      "to": "unb_eur_ottokar2_bohemia",
-      "type": "expansion",
-      "label": "Chronicle of the Bohemians: succession"
-    },
-    {
-      "from": "unb_eur_ottokar2_bohemia",
-      "to": "unb_eur_charles4_bohemia",
-      "type": "expansion",
-      "label": "Chronicle of the Bohemians: succession"
-    },
-    {
-      "from": "unb_eur_eric_sweden",
-      "to": "unb_eur_gustav_vasa",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_gustav_vasa",
-      "to": "unb_eur_gustavus_adolphus",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_gustavus_adolphus",
-      "to": "unb_eur_charles12_sweden",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_gorm_bluetooth",
-      "to": "unb_eur_valdemar1_denmark",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_valdemar1_denmark",
-      "to": "unb_eur_margaret_kalmar",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_margaret_kalmar",
-      "to": "unb_eur_christian4_denmark",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "eur_poland_mieszko",
-      "to": "unb_eur_mindaugas_lithuania",
-      "type": "expansion",
-      "label": "Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_mindaugas_lithuania",
-      "to": "unb_eur_gediminas",
-      "type": "expansion",
-      "label": "Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_gediminas",
-      "to": "unb_eur_algirdas_vytautas",
-      "type": "expansion",
-      "label": "Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12: succession"
     },
     {
       "from": "grk_julius_augustus",
@@ -63638,6 +64994,738 @@
       "to": "kor_hulbert_three_kingdoms",
       "type": "direct",
       "label": "Hulbert Korea: Silla Queen Seondeok & Unified Silla (668 CE)"
+    },
+    {
+      "from": "esa_amalek",
+      "to": "jos_king_agag",
+      "type": "direct",
+      "label": "1 Sam 15 & Josephus Ant. VI.7: Agag royal house of Amalek (Esau)"
+    },
+    {
+      "from": "jos_king_agag",
+      "to": "jos_haman_amalekite",
+      "type": "direct",
+      "label": "Esth 3:1 & Josephus Ant. XI.6.5: Haman ben Hammedatha the Agagite/Amalekite"
+    },
+    {
+      "from": "jos_haman_amalekite",
+      "to": "bib_esther_mordecai",
+      "type": "cognate",
+      "label": "Purim confrontation: Haman (Esau/Amalek) vs. Esther & Mordecai (Benjamin/Kish)"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "jos_herod_remaining_wives",
+      "type": "direct",
+      "label": "Josephus Ant. XVII.1.3: remaining 5 wives & children of Herod the Great"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "jos_herod_armenia_cilicia",
+      "type": "direct",
+      "label": "Josephus Ant. XVIII.5.4: Alexander (+ Glaphyra) -> Armenian Kings Tigranes V/VI & Cilician/Roman lines"
+    },
+    {
+      "from": "her_agrippa_herodias",
+      "to": "jos_herod_emesa_rome",
+      "type": "direct",
+      "label": "Josephus Ant. XX.7: Berenice II (+ Titus) & Drusilla (+ Emesa & Felix -> Pompeii 79 CE)"
+    },
+    {
+      "from": "bib_esau",
+      "to": "jos_esau_edom_rome_bridge",
+      "type": "syncretic",
+      "label": "Jasher 60–61, Talmud & Tabari: Edom / Zepho (Janus) -> Rome & al-Rum"
+    },
+    {
+      "from": "esa_zepho",
+      "to": "jos_esau_edom_rome_bridge",
+      "type": "syncretic",
+      "label": "Jasher 60–61: Zepho ben Eliphaz ben Esau becomes 1st King of Kittim/Italy"
+    },
+    {
+      "from": "jos_esau_edom_rome_bridge",
+      "to": "grk_romulus_remus",
+      "type": "syncretic",
+      "label": "Syncretic Jewish & Islamic identification of Edom/Kittim with Rome"
+    },
+    {
+      "from": "jos_esau_edom_rome_bridge",
+      "to": "rom_constantine_byzantium",
+      "type": "syncretic",
+      "label": "Al-Tabari & Talmudic Edom/al-Rum identification with Eastern Rome (Byzantium)"
+    },
+    {
+      "from": "bib_abraham",
+      "to": "jos_sparta_areus_abraham",
+      "type": "syncretic",
+      "label": "1 Macc 12:21 & Josephus Ant. XII.4.10: Spartan King Areus declares Spartans 'of the stock of Abraham'"
+    },
+    {
+      "from": "jos_sparta_areus_abraham",
+      "to": "pri_onias_dynasty",
+      "type": "cognate",
+      "label": "Areus I of Sparta sends fraternal letter & seal to High Priest Onias in Jerusalem"
+    },
+    {
+      "from": "jos_sparta_areus_abraham",
+      "to": "jos_sparta_lycurgus_leonidas",
+      "type": "direct",
+      "label": "Agiad/Eurypontid Spartan royal house uniting Lycurgus, Leonidas I & Areus I"
+    },
+    {
+      "from": "ket_midian",
+      "to": "jos_cleodemus_heracles_africa",
+      "type": "expansion",
+      "label": "Josephus Ant. I.15 (Cleodemus): Midian's son Epher/Apher -> eponym of Africa"
+    },
+    {
+      "from": "mid_epher",
+      "to": "jos_cleodemus_heracles_africa",
+      "type": "expansion",
+      "label": "Abraham -> Midian -> Epher (Apher) -> daughter marries Heracles"
+    },
+    {
+      "from": "jos_cleodemus_heracles_africa",
+      "to": "grk_heracles",
+      "type": "syncretic",
+      "label": "Cleodemus Malchus: Heracles marries Abraham's granddaughter -> Diodorus -> Sophax"
+    },
+    {
+      "from": "jos_cleodemus_heracles_africa",
+      "to": "eg_ptolemy_cleopatra",
+      "type": "cognate",
+      "label": "Mauretania (Sophax -> Juba II) + Cleopatra Selene (daughter of Cleopatra VII!)"
+    },
+    {
+      "from": "bib_moses",
+      "to": "jos_moses_tharbis",
+      "type": "expansion",
+      "label": "Josephus Ant. II.10.2: Ethiopian Princess Tharbis marries Moses at Saba/Meroe"
+    },
+    {
+      "from": "bib_asshur",
+      "to": "jos_adiabene_helena_izates",
+      "type": "expansion",
+      "label": "Adiabene (ancient Assyria/Hadiab) -> King Monobazus I & Queen Helena"
+    },
+    {
+      "from": "her_agrippa_herodias",
+      "to": "jos_adiabene_helena_izates",
+      "type": "cognate",
+      "label": "Royal converts Queen Helena & Izates allied with 1st-c. Jerusalem & Judean famine relief"
+    },
+    {
+      "from": "bib_abraham",
+      "to": "alias_abraham_cross",
+      "type": "cognate",
+      "label": "Cross-cultural aliases & attestations of Abraham"
+    },
+    {
+      "from": "bib_moses",
+      "to": "alias_moses_cross",
+      "type": "cognate",
+      "label": "Cross-cultural aliases & attestations of Moses"
+    },
+    {
+      "from": "bib_noah",
+      "to": "alias_noah_cross",
+      "type": "cognate",
+      "label": "Global Great Flood hero aliases & parallels of Noah"
+    },
+    {
+      "from": "bib_enoch",
+      "to": "alias_enoch_cross",
+      "type": "cognate",
+      "label": "7th-Patriarch / Hermes / Thoth / Idris / Saurid aliases of Enoch"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "alias_nimrod_cross",
+      "type": "cognate",
+      "label": "First world-monarch aliases (Belus / Ninus / Lamurudu) of Nimrod"
+    },
+    {
+      "from": "tri_joseph",
+      "to": "alias_joseph_solomon_cross",
+      "type": "cognate",
+      "label": "Egyptian title Zaphenath-Paneah & Yusuf aliases of Joseph"
+    },
+    {
+      "from": "jud_solomon",
+      "to": "alias_joseph_solomon_cross",
+      "type": "cognate",
+      "label": "Pan-Afro-Eurasian royal traditions of King Solomon / Sulayman"
+    },
+    {
+      "from": "chr_hezron_ram",
+      "to": "chr41_jerahmeel_atarah",
+      "type": "direct",
+      "label": "1 Chr 2:25–33: Hezron -> Jerahmeel (+ Atarah) -> Onam"
+    },
+    {
+      "from": "chr41_jerahmeel_atarah",
+      "to": "chr41_sheshan_jarha_egypt",
+      "type": "direct",
+      "label": "1 Chr 2:34–41: Sheshan -> Ahlai + Jarha the Egyptian -> 13 gens"
+    },
+    {
+      "from": "chr_hezron_ram",
+      "to": "chr41_ashhur_tekoa",
+      "type": "direct",
+      "label": "1 Chr 4:5–7: Hezron -> Ashhur (+ Helah & Naarah) -> Tekoa"
+    },
+    {
+      "from": "tri_judah",
+      "to": "chr41_jabez",
+      "type": "direct",
+      "label": "1 Chr 4:9–10: Judah -> Jabez"
+    },
+    {
+      "from": "tri_judah",
+      "to": "chr41_mered_bithiah_pharaoh",
+      "type": "direct",
+      "label": "1 Chr 4:17–18: Mered + Bithiah daughter of Pharaoh -> Miriam, Shammai & Ishbah"
+    },
+    {
+      "from": "chr_hezron_ram",
+      "to": "chr41_shobal_salma",
+      "type": "direct",
+      "label": "1 Chr 2:50–55: Caleb ben Hezron -> Hur -> Shobal & Salma (Bethlehem)"
+    },
+    {
+      "from": "tri_simeon",
+      "to": "chr41_simeon_clans",
+      "type": "direct",
+      "label": "1 Chr 4:24–43: Simeonite princes & Mt. Seir clan"
+    },
+    {
+      "from": "tri_reuben",
+      "to": "chr41_reuben_beerah",
+      "type": "direct",
+      "label": "1 Chr 5:4–6: Joel -> ... -> Prince Beerah"
+    },
+    {
+      "from": "tri_gad",
+      "to": "chr41_gad_clans",
+      "type": "direct",
+      "label": "1 Chr 5:11–17: Gadite chiefs of Bashan & Gilead"
+    },
+    {
+      "from": "jos_manasseh",
+      "to": "chr41_manasseh_east",
+      "type": "direct",
+      "label": "1 Chr 5:24: Transjordan Manasseh chiefs"
+    },
+    {
+      "from": "tri_issachar",
+      "to": "chr41_issachar_tola",
+      "type": "direct",
+      "label": "1 Chr 7:1–5: Tola -> Uzzi -> Izrahiah"
+    },
+    {
+      "from": "tri_benjamin",
+      "to": "chr41_benjamin_clans",
+      "type": "direct",
+      "label": "1 Chr 7–8: Benjamite clans of Gibeon, Moab & Aijalon"
+    },
+    {
+      "from": "tri_asher",
+      "to": "chr41_asher_shua",
+      "type": "direct",
+      "label": "1 Chr 7:30–40: Heber -> Japhlet, Shomer, Hotham & Sister Shua"
+    },
+    {
+      "from": "eur_irl_keating_saorchlanna",
+      "to": "kea_obrien_dalgcais",
+      "type": "direct",
+      "label": "Keating Genealogies: Eber Finn -> Cormac Cas -> Brian Boru -> O'Brien"
+    },
+    {
+      "from": "irl_niall_brian_boru",
+      "to": "kea_obrien_dalgcais",
+      "type": "direct",
+      "label": "Brian Boru -> Turlough -> Muirchertach -> O'Brien of Thomond"
+    },
+    {
+      "from": "eur_irl_keating_saorchlanna",
+      "to": "kea_maccarthy_cashel",
+      "type": "direct",
+      "label": "Keating Genealogies: Eber Finn -> Eoghan Mor -> Ceallachan -> MacCarthy"
+    },
+    {
+      "from": "irl_niall_brian_boru",
+      "to": "kea_oneill_odonnell_columba",
+      "type": "direct",
+      "label": "Niall -> Eoghan (O'Neill) & Conall Gulban (O'Donnell & St. Columba)"
+    },
+    {
+      "from": "eur_irl_keating_saorchlanna",
+      "to": "kea_oconnor_connacht",
+      "type": "direct",
+      "label": "Eochaid Mugmedon -> Brion -> Turlough Mor -> Rory O'Connor"
+    },
+    {
+      "from": "eur_irl_keating_saorchlanna",
+      "to": "kea_macmurrough_leinster",
+      "type": "direct",
+      "label": "Eremon -> Cathaoir Mor -> Diarmait -> Aoife (+ Strongbow)"
+    },
+    {
+      "from": "eur_irl_keating_saorchlanna",
+      "to": "kea_dalriada_scotland",
+      "type": "direct",
+      "label": "Eremon (Dal Riada) + Ir (Magennis) + Ith (O'Driscoll)"
+    },
+    {
+      "from": "kea_dalriada_scotland",
+      "to": "sco_fergus_macalpin",
+      "type": "direct",
+      "label": "Keating Dal Riada stem -> Fergus Mor mac Erc -> Scottish Kings"
+    },
+    {
+      "from": "rus_yaroslav_wise",
+      "to": "eur42_eric_olof_sweden",
+      "type": "cognate",
+      "label": "Ingegerd (dau. of Olof Skotkonung) marries Yaroslav the Wise of Kiev (1019)"
+    },
+    {
+      "from": "eur_ynglings_skjoldungs",
+      "to": "eur42_eric_olof_sweden",
+      "type": "expansion",
+      "label": "Early Swedish Munsö / Yngling sovereign tradition"
+    },
+    {
+      "from": "eur42_eric_olof_sweden",
+      "to": "eur42_gustav_vasa",
+      "type": "direct",
+      "label": "Medieval Sweden -> House of Vasa (Gustav I Vasa, 1523)"
+    },
+    {
+      "from": "eur42_gustav_vasa",
+      "to": "eur42_gustavus_christina",
+      "type": "direct",
+      "label": "Gustav I -> Charles IX -> Gustavus Adolphus -> Queen Christina"
+    },
+    {
+      "from": "eur42_gustavus_christina",
+      "to": "eur42_charles12_bernadotte",
+      "type": "direct",
+      "label": "Charles XII -> House of Bernadotte (Living Swedish Royalty 2026)"
+    },
+    {
+      "from": "eur_ynglings_skjoldungs",
+      "to": "eur42_gorm_bluetooth_cnut",
+      "type": "expansion",
+      "label": "Skjoldung / Jelling dynasty of Denmark"
+    },
+    {
+      "from": "eur_poland_mieszko",
+      "to": "eur42_gorm_bluetooth_cnut",
+      "type": "direct",
+      "label": "Mieszko I's daughter Gunhild/Sigrid + Sweyn Forkbeard -> King Cnut the Great (+ Emma of Normandy)!"
+    },
+    {
+      "from": "eur42_gorm_bluetooth_cnut",
+      "to": "eur42_valdemar_margaret",
+      "type": "direct",
+      "label": "Sweyn II Estridsen -> Valdemar I -> Queen Margaret I (Kalmar Union, 1397)"
+    },
+    {
+      "from": "eur42_valdemar_margaret",
+      "to": "eur42_christian4_denmark",
+      "type": "direct",
+      "label": "Oldenburg -> Christian IV -> Living Glucksburg Dynasty (Denmark 2026)"
+    },
+    {
+      "from": "rus_yaroslav_wise",
+      "to": "eur_poland_mieszko",
+      "type": "cognate",
+      "label": "Yaroslav's sister Maria Dobroniega marries Casimir I (Piast) & Boleslaw I marries into Kiev"
+    },
+    {
+      "from": "eur_poland_mieszko",
+      "to": "eur42_casimir1_poland",
+      "type": "direct",
+      "label": "Mieszko I -> Boleslaw I -> Mieszko II -> Casimir I (+ Maria Dobroniega)"
+    },
+    {
+      "from": "eur42_casimir1_poland",
+      "to": "eur42_casimir3_poland",
+      "type": "direct",
+      "label": "Wladyslaw Herman -> Wladyslaw Lokietek -> Casimir III the Great"
+    },
+    {
+      "from": "eur42_casimir3_poland",
+      "to": "eur42_jadwiga_jagiello",
+      "type": "direct",
+      "label": "Sister Elizabeth -> Louis I of Hungary & Poland -> Queen Jadwiga (+ Wladyslaw II Jagiello)"
+    },
+    {
+      "from": "fra_capet_stlouis",
+      "to": "eur42_jadwiga_jagiello",
+      "type": "direct",
+      "label": "House of Anjou (Capetian descent) -> Louis I -> Queen Jadwiga"
+    },
+    {
+      "from": "eur42_jadwiga_jagiello",
+      "to": "eur42_sigismund_sobieski",
+      "type": "direct",
+      "label": "Wladyslaw II Jagiello -> Casimir IV -> Sigismund I -> John III Sobieski"
+    },
+    {
+      "from": "rus_yaroslav_wise",
+      "to": "eur42_almos_arpad_stephen",
+      "type": "cognate",
+      "label": "Yaroslav's daughter Anastasia of Kiev marries King Andrew I of Hungary!"
+    },
+    {
+      "from": "eur42_almos_arpad_stephen",
+      "to": "eur42_bela3_louis_great",
+      "type": "direct",
+      "label": "Arpad -> Bela III (+ Margaret of France) -> Bela IV -> Anjou Louis the Great"
+    },
+    {
+      "from": "fra_capet_stlouis",
+      "to": "eur42_bela3_louis_great",
+      "type": "direct",
+      "label": "Margaret of France & Charles I of Anjou unite Capetian France & Hungary"
+    },
+    {
+      "from": "eur42_bela3_louis_great",
+      "to": "eur42_hunyadi_corvinus",
+      "type": "expansion",
+      "label": "Late medieval Hungary -> John Hunyadi -> Matthias Corvinus"
+    },
+    {
+      "from": "eur42_bela3_louis_great",
+      "to": "eur42_premysl_wenceslas",
+      "type": "cognate",
+      "label": "Ottokar II marries Kunigunda (granddaughter of Bela IV of Hungary & Kiev)"
+    },
+    {
+      "from": "eur42_premysl_wenceslas",
+      "to": "eur42_charles4_bohemia",
+      "type": "direct",
+      "label": "Premyslid Elisabeth -> Emperor Charles IV of Bohemia -> Bonne & Anne"
+    },
+    {
+      "from": "eur42_charles4_bohemia",
+      "to": "fra_capet_stlouis",
+      "type": "direct",
+      "label": "Bonne of Bohemia marries King John II of France (Valois ancestors!)"
+    },
+    {
+      "from": "rus_romanov_peter_great",
+      "to": "eur42_mindaugas_gediminas",
+      "type": "cognate",
+      "label": "Rurikid Princess Uliana of Tver marries Algirdas; Sophia of Lithuania marries Vasily I of Moscow"
+    },
+    {
+      "from": "eur42_mindaugas_gediminas",
+      "to": "eur42_jadwiga_jagiello",
+      "type": "direct",
+      "label": "Gediminas -> Algirdas -> Wladyslaw II Jagiello (1386 Polish-Lithuanian Union)"
+    },
+    {
+      "from": "eur_merovingian_carolingian",
+      "to": "pc_charlemagne_kids",
+      "type": "direct",
+      "label": "Charlemagne (+ Hildegard) -> Louis the Pious, Pepin & Bertha"
+    },
+    {
+      "from": "eng_stuart_great_britain",
+      "to": "pc_william_conqueror_kids",
+      "type": "direct",
+      "label": "William the Conqueror -> Henry I (+ Matilda of Scotland) -> Empress Matilda"
+    },
+    {
+      "from": "mon_eng_henry2",
+      "to": "pc_eleanor_aquitaine",
+      "type": "direct",
+      "label": "Eleanor of Aquitaine + Henry II (and + Louis VII of France!)"
+    },
+    {
+      "from": "pc_eleanor_aquitaine",
+      "to": "fra_capet_stlouis",
+      "type": "direct",
+      "label": "Eleanor of Aquitaine -> Alfonso VIII -> Blanche of Castile (+ Louis VIII) -> St. Louis IX!"
+    },
+    {
+      "from": "esp_ferdinand_isabella_habsburg",
+      "to": "pc_ferdinand_isabella_kids",
+      "type": "direct",
+      "label": "Juana the Mad, Catherine of Aragon & Maria of Portugal"
+    },
+    {
+      "from": "pc_ferdinand_isabella_kids",
+      "to": "pc_habsburg_dynasty",
+      "type": "direct",
+      "label": "Juana + Philip the Handsome -> Charles V & Ferdinand I -> Maria Theresa"
+    },
+    {
+      "from": "fra_capet_stlouis",
+      "to": "pc_medici_house",
+      "type": "direct",
+      "label": "Catherine de' Medici (+ Henry II) & Marie de' Medici (+ Henry IV)"
+    },
+    {
+      "from": "pc_medici_house",
+      "to": "pc_bourbons_napoleon",
+      "type": "direct",
+      "label": "Marie de' Medici + Henry IV -> Louis XIII -> Louis XIV -> Louis XVI"
+    },
+    {
+      "from": "pc_habsburg_dynasty",
+      "to": "pc_bourbons_napoleon",
+      "type": "direct",
+      "label": "Marie Antoinette & Archduchess Marie Louise (+ Napoleon Bonaparte -> Napoleon II)"
+    },
+    {
+      "from": "pc_habsburg_dynasty",
+      "to": "pc_hohenzollern_prussia",
+      "type": "cognate",
+      "label": "Habsburg–Prussian Imperial Houses -> Frederick the Great -> Kaiser Wilhelm II"
+    },
+    {
+      "from": "eng_stuart_great_britain",
+      "to": "pc_hanover_windsor_victoria",
+      "type": "direct",
+      "label": "James I -> Elizabeth Stuart -> Sophia -> George I -> Queen Victoria -> Queen Elizabeth II -> King Charles III"
+    },
+    {
+      "from": "pc_hanover_windsor_victoria",
+      "to": "pc_hohenzollern_prussia",
+      "type": "direct",
+      "label": "Queen Victoria's daughter Victoria -> Kaiser Wilhelm II of Germany"
+    },
+    {
+      "from": "rus_romanov_peter_great",
+      "to": "pc_romanovs_late",
+      "type": "direct",
+      "label": "Peter the Great -> Catherine the Great -> Alexander I -> Nicholas II"
+    },
+    {
+      "from": "pc_hanover_windsor_victoria",
+      "to": "pc_romanovs_late",
+      "type": "direct",
+      "label": "Queen Victoria's granddaughter Alix of Hesse marries Tsar Nicholas II"
+    },
+    {
+      "from": "eg_ptolemy_cleopatra",
+      "to": "pc_ptolemy_cleopatra_kids",
+      "type": "direct",
+      "label": "Cleopatra VII -> Caesarion, Alexander Helios, Cleopatra Selene II (+ Juba II)"
+    },
+    {
+      "from": "grk_julius_augustus",
+      "to": "pc_ptolemy_cleopatra_kids",
+      "type": "direct",
+      "label": "Julius Caesar + Cleopatra VII -> Caesarion"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "pc_seleucids_pontus",
+      "type": "direct",
+      "label": "Seleucus I -> Antiochus III -> Antiochus IV & Pontus"
+    },
+    {
+      "from": "eg_ptolemy_cleopatra",
+      "to": "pc_seleucids_pontus",
+      "type": "direct",
+      "label": "Antiochus III's daughter Cleopatra I Syra marries Ptolemy V"
+    },
+    {
+      "from": "grk_dido_carthage",
+      "to": "pc_barcids_scipios",
+      "type": "direct",
+      "label": "Punic Carthage -> Hamilcar Barca -> Hannibal Barca & Roman Scipios/Gracchi"
+    },
+    {
+      "from": "grk_julius_augustus",
+      "to": "pc_roman_julio_flavian_antonine",
+      "type": "direct",
+      "label": "Augustus -> Tiberius -> Caligula, Claudius, Nero, Flavians & Antonines"
+    },
+    {
+      "from": "rom_suetonius_herodian_severans",
+      "to": "pc_roman_julio_flavian_antonine",
+      "type": "cognate",
+      "label": "Suetonius & Herodian Roman imperial prosopography"
+    },
+    {
+      "from": "rom_constantine_byzantium",
+      "to": "pc_byzantine_palaiologoi_moscow",
+      "type": "direct",
+      "label": "Basil I -> Alexios I Komnenos -> Palaiologoi -> Sophia Palaiologina"
+    },
+    {
+      "from": "pc_byzantine_palaiologoi_moscow",
+      "to": "rus_romanov_peter_great",
+      "type": "direct",
+      "label": "Byzantine Princess Sophia Palaiologina marries Grand Prince Ivan III of Moscow (1472)!"
+    },
+    {
+      "from": "isl_umayyad_abbasid_fatimid",
+      "to": "pc_islamic_abbasid_cordoba",
+      "type": "direct",
+      "label": "Cordoba Umayyads & Abbasid Caliphs Harun al-Rashid -> Al-Ma'mun"
+    },
+    {
+      "from": "pc_islamic_abbasid_cordoba",
+      "to": "pc_ayyubid_saladin_mamluk",
+      "type": "expansion",
+      "label": "Saladin (Ayyubids) -> Mamluks restoring Abbasid caliphs in Cairo"
+    },
+    {
+      "from": "pc_eleanor_aquitaine",
+      "to": "pc_ayyubid_saladin_mamluk",
+      "type": "cognate",
+      "label": "Third Crusade royal rivalry & diplomacy: Richard I Lionheart <-> Saladin"
+    },
+    {
+      "from": "ott_mehmed2_suleiman",
+      "to": "pc_ottoman_imperial_women",
+      "type": "direct",
+      "label": "Suleiman the Magnificent + Hurrem Sultan -> Selim II & Mihrimah"
+    },
+    {
+      "from": "mon_ir_shah_ismail1",
+      "to": "pc_safavid_persia_abbas",
+      "type": "direct",
+      "label": "Shah Ismail I -> Tahmasp I -> Shah Abbas I -> Nader Shah"
+    },
+    {
+      "from": "af_oduduwa",
+      "to": "pc_african_kings_queens",
+      "type": "expansion",
+      "label": "Hausa Bayajidda -> Queen Amina of Zazzau"
+    },
+    {
+      "from": "sng_sonni_askia_timbuktu",
+      "to": "pc_african_kings_queens",
+      "type": "cognate",
+      "label": "Mali (Mansa Musa & Sulayman) & Songhai sovereign continuum"
+    },
+    {
+      "from": "eth_ludolf_gondar_kings",
+      "to": "pc_african_kings_queens",
+      "type": "direct",
+      "label": "Solomonic Ethiopian Empresses Eleni, Mentewab & Taytu Betul"
+    },
+    {
+      "from": "ved_maurya_ashoka",
+      "to": "pc_india_gupta_chola_maratha",
+      "type": "expansion",
+      "label": "Classical Indian Imperial continuity -> Guptas -> Cholas -> Vijayanagara -> Marathas"
+    },
+    {
+      "from": "mal_aristun_suran",
+      "to": "pc_india_gupta_chola_maratha",
+      "type": "cognate",
+      "label": "Malay Annals Raja Suran mirrors 11th-c. Chola maritime campaigns of Rajendra Chola I"
+    },
+    {
+      "from": "ind_raj_mewar_sisodia",
+      "to": "pc_india_gupta_chola_maratha",
+      "type": "expansion",
+      "label": "Shivaji Maharaj's Bhonsle house traced to Sisodia Rajputs of Mewar"
+    },
+    {
+      "from": "ved_lava_kusha",
+      "to": "pc_sikh_guru_nanak",
+      "type": "expansion",
+      "label": "Bachittar Natak: Bedi/Sodhi lines from Kusha & Lava -> Guru Nanak -> Guru Gobind Singh"
+    },
+    {
+      "from": "chn_zhou",
+      "to": "pc_china_han_tang_qing",
+      "type": "direct",
+      "label": "Han -> Tang Taizong & Empress Wu Zetian -> Qing Qianlong -> Puyi"
+    },
+    {
+      "from": "chn_ming_qing_manchu",
+      "to": "pc_china_han_tang_qing",
+      "type": "direct",
+      "label": "Kangxi -> Yongzheng -> Qianlong -> Cixi -> Puyi"
+    },
+    {
+      "from": "jk_jimmu",
+      "to": "pc_japan_nara_heian",
+      "type": "direct",
+      "label": "Emperor Tenji (+ Fujiwara) -> Emperor Kammu -> Lady Murasaki Shikibu -> Go-Daigo"
+    },
+    {
+      "from": "mod_rashi_maharal_living",
+      "to": "fam_maimonides",
+      "type": "cognate",
+      "label": "Rabbinic-Davidic scholarly network uniting Rashi, Rambam (Maimonides) & Abravanel"
+    },
+    {
+      "from": "pc_islamic_abbasid_cordoba",
+      "to": "fam_ibn_sina_rushd_rumi",
+      "type": "expansion",
+      "label": "Cordoba, Baghdad & Seljuk Konya intellectual houses (Avicenna, Averroes & Rumi)"
+    },
+    {
+      "from": "por_braganza_restoration",
+      "to": "fam_columbus_vasco_polo",
+      "type": "direct",
+      "label": "Portuguese & Castilian crowns commissioning Vasco da Gama & Christopher Columbus (-> Diego)"
+    },
+    {
+      "from": "esp_ferdinand_isabella_habsburg",
+      "to": "fam_columbus_vasco_polo",
+      "type": "direct",
+      "label": "Ferdinand & Isabella -> Columbus -> Dukes of Veragua (Spanish nobility)"
+    },
+    {
+      "from": "pc_medici_house",
+      "to": "fam_renaissance_science",
+      "type": "expansion",
+      "label": "Medici patronage of Leonardo, Michelangelo & Galileo"
+    },
+    {
+      "from": "eng_stuart_great_britain",
+      "to": "fam_renaissance_science",
+      "type": "expansion",
+      "label": "Royal Society & Sir Isaac Newton (author of Chronology 1728)"
+    },
+    {
+      "from": "eng_stuart_great_britain",
+      "to": "fam_shakespeare_joan",
+      "type": "expansion",
+      "label": "Tudor-Stuart patron of Shakespeare; Valois Charles VII -> Joan of Arc"
+    },
+    {
+      "from": "mon_eng_edward3",
+      "to": "fam_washington_jefferson",
+      "type": "direct",
+      "label": "Verified Plantagenet-Wessex colonial gateway descents to George Washington & Thomas Jefferson!"
+    },
+    {
+      "from": "sco_fergus_macalpin",
+      "to": "fam_washington_jefferson",
+      "type": "direct",
+      "label": "Jane Randolph -> King David I of Scotland -> Thomas Jefferson"
+    },
+    {
+      "from": "mon_eng_edward3",
+      "to": "fam_churchill_lincoln",
+      "type": "direct",
+      "label": "Spencer-Churchill Dukes of Marlborough -> Sir Winston Churchill"
+    },
+    {
+      "from": "chn_weizi_confucius",
+      "to": "fam_asian_sages",
+      "type": "direct",
+      "label": "Confucius/Mencius/Sima Qian classical Chinese scholarly tradition"
+    },
+    {
+      "from": "ved_maurya_ashoka",
+      "to": "fam_asian_sages",
+      "type": "direct",
+      "label": "Chanakya (advisor to Chandragupta Maurya) & classical Indian sages"
     }
   ]
 }

@@ -111,7 +111,7 @@ def main():
             else:
                 pending_ids.add(n["id"])
 
-    unexpected_pending = [nid for nid in sorted(pending_ids) if not (nid.startswith("amp_") or nid.startswith("unb_") or nid in {"afr_buganda_kintu", "afr_kongo_lukeni", "afr_zimbabwe_mutota", "sea_khmer_jayavarman2", "sea_java_raden_wijaya", "eur_poland_mieszko"})]
+    unexpected_pending = [nid for nid in sorted(pending_ids) if not (nid.startswith("amp_") or nid.startswith("unb_") or nid in {"afr_buganda_kintu", "afr_kongo_lukeni", "afr_zimbabwe_mutota", "sea_khmer_jayavarman2", "sea_java_raden_wijaya"})]
     assert not unexpected_pending, f"Unexpected non-DNA nodes disconnected from Adam/Noah: {unexpected_pending[:10]}"
     dna_total = sum(1 for n in nodes if n["tradition"] == "dna")
     print(f"SCOPE GATE OK: {len(bib_conn_ids)} Biblically Connected + {len(pending_ids)} Pending Bridge (All non-DNA={len(non_dna_ids)}, DNA={dna_total})")
@@ -142,6 +142,12 @@ def main():
         ("bib_noah", "tib_ladakh_sengge_namgyal", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Tibet Yarlung -> Skyid-lde Nyi-ma-mgon -> Sengge Namgyal (Ladakh)"),
         ("bib_noah", "ind_raj_mewar_sisodia", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Vaivasvata Manu -> Rama -> Lava -> Bappa Rawal -> Maharana Pratap (Mewar Rajputs)"),
         ("bib_noah", "stp_moghul_said_haidar", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Turk -> Genghis Khan -> Chagatai -> Tughlugh Timur -> Tarikh-i-Rashidi (Moghulistan)"),
+        ("bib_esau", "jos_haman_amalekite", {"direct", "expansion"}, "Esau -> Eliphaz -> Amalek -> King Agag -> Haman (Josephus Ant. VI.7 & XI.6)"),
+        ("bib_esau", "jos_herod_armenia_cilicia", {"direct", "expansion"}, "Esau -> Idumea -> Herod the Great -> Kings Tigranes V/VI of Armenia & Roman Consuls"),
+        ("bib_abraham", "jos_sparta_lycurgus_leonidas", {"direct", "expansion", "cognate", "syncretic"}, "Abraham -> Sparta Charter (1 Macc 12:21 / Josephus XII.4.10) -> King Leonidas I"),
+        ("bib_abraham", "grk_heracles", {"direct", "expansion", "cognate", "syncretic"}, "Abraham + Keturah -> Epher (Africa) -> Heracles Marriage (Josephus Ant. I.15)"),
+        ("bib_noah", "eur42_jadwiga_jagiello", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Rus' Yaroslav -> Poland/Hungary -> Queen Jadwiga & Jagiello (Lithuania)"),
+        ("bib_noah", "fam_washington_jefferson", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Wessex -> Edward III -> George Washington & Thomas Jefferson"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

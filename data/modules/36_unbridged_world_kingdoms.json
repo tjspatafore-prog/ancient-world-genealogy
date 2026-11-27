@@ -227,6 +227,22 @@
       "biblicalConnected": false
     },
     {
+      "id": "unb_azt_malintzin_tecuichpotzin",
+      "name": "Tecuichpotzin / Doña Isabel Moctezuma (dau. of Moctezuma II) & Malintzin",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 18,
+      "era": "1509–1550 CE",
+      "role": "Mexica Imperial Heiress",
+      "sources": [
+        "Modern Universal History Vol. 14",
+        "Codex Mendoza"
+      ],
+      "notes": "Daughter of Moctezuma II whose descendants entered Spanish Ducal houses (Dukes of Moctezuma de Tultengo).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
       "id": "unb_car_guacanagari",
       "name": "Cacique Guacanagari (Marién, Hispaniola, 1492)",
       "altNames": [],
@@ -511,6 +527,37 @@
         "Modern Universal History Vol. 14"
       ],
       "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_inc_mama_ocllo_garcilaso",
+      "name": "Coya Mama Ocllo, Quispe Sisa & Chronicler Inca Garcilaso de la Vega (1539–1616)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 20,
+      "era": "15th–17th c. CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Garcilaso de la Vega Royal Commentaries",
+        "Modern Universal History Vol. 14"
+      ],
+      "notes": "Chronicle succession in Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_may_lady_sak_kuk",
+      "name": "Lady Sak K'uk' (Queen Regent & Mother of Pakal the Great of Palenque)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 15,
+      "era": "612–640 CE",
+      "role": "Maya Royal Mother",
+      "sources": [
+        "Palenque Inscriptions"
+      ],
+      "notes": "Conveyed the royal Palenque diadem directly to her son K'inich Janaab Pakal I.",
       "major": false,
       "biblicalConnected": false
     },
@@ -1257,6 +1304,21 @@
       "biblicalConnected": false
     },
     {
+      "id": "unb_afr_queen_nandi",
+      "name": "Queen Nandi kaBhebhe (Mother of King Shaka Zulu, c. 1760–1827)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "c. 1760–1827 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Southern African Oral & Historical Chronicles"
+      ],
+      "notes": "Chronicle succession in Southern African Oral & Historical Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
       "id": "unb_afr_shaka_zulu",
       "name": "King Shaka kaSenzangakhona (Founder of Zulu Kingdom, 1816–1828)",
       "altNames": [],
@@ -1471,6 +1533,22 @@
         "Mod. Univ. Hist. Vol. 7"
       ],
       "notes": "Oba Ewuare the Great of Benin (1440–1473).",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_afr_queen_idia",
+      "name": "Iyoba Queen Idia of Benin (Mother of Oba Esigie, c. 1504)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "15th–16th c. CE",
+      "role": "First Iyoba (Queen Mother) of Benin",
+      "sources": [
+        "West African Kingdom Chronicles",
+        "Mod. Univ. Hist. Vol. 7"
+      ],
+      "notes": "Iyoba Queen Idia of Benin (Mother of Oba Esigie, c. 1504).",
       "major": false,
       "biblicalConnected": false
     },
@@ -1953,6 +2031,22 @@
       "biblicalConnected": false
     },
     {
+      "id": "unb_jpn_hojo_masako_yoshitsune",
+      "name": "Hojo Masako ('Nun Shogun') & General Minamoto no Yoshitsune",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "1156–1225 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
       "id": "unb_jpn_hojo_tokimasa",
       "name": "Hojo Tokimasa (Shikken Regency of Kamakura)",
       "altNames": [],
@@ -2039,6 +2133,22 @@
       "tradition": "japan_korea",
       "tier": 21,
       "era": "1543–1616 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Modern Universal History Vol. 5",
+        "Japanese Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_jpn_date_masamune",
+      "name": "Date Masamune ('One-Eyed Dragon' of Sendai, Hasekura Tsunenaga Mission)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1567–1636 CE",
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Modern Universal History Vol. 5",
@@ -2364,12 +2474,44 @@
       "biblicalConnected": false
     },
     {
+      "id": "unb_chn_yue_fei_zhuxi",
+      "name": "General Yue Fei (1103–1142) & Neo-Confucian Master Zhu Xi (1130–1200)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "12th c. CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Records of the Three Kingdoms",
+        "History of Song & Ming"
+      ],
+      "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
       "id": "unb_chn_ming_hongwu",
       "name": "Emperor Hongwu (Zhu Yuanzhang, Founder of Ming Dynasty, 1368)",
       "altNames": [],
       "tradition": "chinese",
       "tier": 20,
       "era": "1328–1398 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Records of the Three Kingdoms",
+        "History of Song & Ming"
+      ],
+      "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_chn_empress_ma",
+      "name": "Empress Ma (Consort of Hongwu) & Prince Zhu Biao",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "1332–1382 CE",
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Records of the Three Kingdoms",
@@ -2711,7 +2853,7 @@
     },
     {
       "id": "unb_grk_solon_lycurgus",
-      "name": "Greek Lawgivers: Lycurgus of Sparta & Solon of Athens → Cleisthenes",
+      "name": "Greek Lawgivers: Solon of Athens → Cleisthenes (Athenian Democracy)",
       "altNames": [],
       "tradition": "greek",
       "tier": 17,
@@ -2744,23 +2886,6 @@
       "biblicalConnected": false
     },
     {
-      "id": "unb_grk_leonidas",
-      "name": "King Leonidas I of Sparta (Thermopylae, 480 BCE)",
-      "altNames": [],
-      "tradition": "greek",
-      "tier": 18,
-      "era": "d. 480 BCE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Plutarch's Lives",
-        "Thucydides",
-        "Herodotus"
-      ],
-      "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
       "id": "unb_grk_pericles",
       "name": "Pericles of Athens (Golden Age Statesman, d. 429 BCE)",
       "altNames": [],
@@ -2779,7 +2904,7 @@
     },
     {
       "id": "unb_grk_alcibiades_lysander",
-      "name": "Alcibiades of Athens & Lysander of Sparta",
+      "name": "Alcibiades of Athens & Lysander",
       "altNames": [],
       "tradition": "greek",
       "tier": 18,
@@ -2825,354 +2950,6 @@
         "Herodotus"
       ],
       "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "eur_poland_mieszko",
-      "name": "Piast Dynasty of Poland: Piast → Mieszko I (966 CE) → Boleslaw I the Brave (1025)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 19,
-      "era": "9th–11th c. CE",
-      "role": "Founders of Poland",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Mod. Univ. Hist. Vol. 12.",
-      "major": true,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_casimir3_poland",
-      "name": "King Casimir III the Great of Poland (1333–1370)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1333–1370 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_jadwiga_jagiello",
-      "name": "Queen Jadwiga & Wladyslaw II Jagiello (Polish-Lithuanian Union, 1386)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1386–1434 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_sigismund_poland",
-      "name": "King Sigismund I the Old (Jagiellonian Golden Age)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 21,
-      "era": "1506–1548 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_john_sobieski",
-      "name": "King John III Sobieski of Poland (Vienna, 1683)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 21,
-      "era": "1674–1696 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_almos_arpad",
-      "name": "Hungary (Arpad Dynasty): Almos → Grand Prince Arpad (895 CE) → St. Stephen I (1000 CE)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 19,
-      "era": "895–1038 CE",
-      "role": "Founders of Hungary",
-      "sources": [
-        "European Royal Chronicles"
-      ],
-      "notes": "Mod. Univ. Hist. & Hungarian Chronicles.",
-      "major": true,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_bela3_hungary",
-      "name": "King Bela III of Hungary (1172–1196)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1172–1196 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "European Royal Chronicles"
-      ],
-      "notes": "Chronicle succession in European Royal Chronicles.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_louis_great_hungary",
-      "name": "King Louis I the Great of Hungary & Poland",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1342–1382 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "European Royal Chronicles"
-      ],
-      "notes": "Chronicle succession in European Royal Chronicles.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_hunyadi_corvinus",
-      "name": "John Hunyadi → King Matthias Corvinus of Hungary (1458–1490)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1446–1490 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "European Royal Chronicles"
-      ],
-      "notes": "Chronicle succession in European Royal Chronicles.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_premysl_bohemia",
-      "name": "Bohemia (Czechia): Premysl & Princess Libuse → St. Wenceslas I (d. 935)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 19,
-      "era": "c. 8th–10th c. CE",
-      "role": "Premyslid Founders",
-      "sources": [
-        "Chronicle of the Bohemians"
-      ],
-      "notes": "Cosmas Chronicle.",
-      "major": true,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_ottokar2_bohemia",
-      "name": "King Ottokar II of Bohemia ('Iron and Golden King')",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1253–1278 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Chronicle of the Bohemians"
-      ],
-      "notes": "Chronicle succession in Chronicle of the Bohemians.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_charles4_bohemia",
-      "name": "Emperor & King Charles IV of Bohemia (Golden Bull, 1356)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1346–1378 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Chronicle of the Bohemians"
-      ],
-      "notes": "Chronicle succession in Chronicle of the Bohemians.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_eric_sweden",
-      "name": "Sweden: Eric the Victorious → Olof Skotkonung → Birger Jarl",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 19,
-      "era": "970–1266 CE",
-      "role": "Early Swedish Monarchs",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Mod. Univ. Hist. Vol. 12.",
-      "major": true,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_gustav_vasa",
-      "name": "King Gustav I Vasa (Founder of Modern Sweden, 1523)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 21,
-      "era": "1523–1560 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_gustavus_adolphus",
-      "name": "King Gustavus Adolphus & Queen Christina of Sweden",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 21,
-      "era": "1611–1654 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_charles12_sweden",
-      "name": "King Charles XII of Sweden (1697–1718)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 21,
-      "era": "1697–1718 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_gorm_bluetooth",
-      "name": "Denmark: Gorm the Old → Harald Bluetooth → Sweyn Forkbeard",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 19,
-      "era": "c. 936–1014 CE",
-      "role": "Jelling Dynasty",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Mod. Univ. Hist. Vol. 12.",
-      "major": true,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_valdemar1_denmark",
-      "name": "King Valdemar I the Great of Denmark (1157–1182)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1157–1182 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_margaret_kalmar",
-      "name": "Queen Margaret I of Denmark (Kalmar Union, 1397)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1387–1412 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_christian4_denmark",
-      "name": "King Christian IV of Denmark & Norway (1588–1648)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 21,
-      "era": "1588–1648 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Modern Universal History Vol. 12"
-      ],
-      "notes": "Chronicle succession in Modern Universal History Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_mindaugas_lithuania",
-      "name": "King Mindaugas of Lithuania (Crowned 1253)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1236–1263 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Lithuanian Chronicles",
-        "Mod. Univ. Hist. Vol. 12"
-      ],
-      "notes": "Chronicle succession in Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_gediminas",
-      "name": "Grand Duke Gediminas of Lithuania (1316–1341)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1316–1341 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Lithuanian Chronicles",
-        "Mod. Univ. Hist. Vol. 12"
-      ],
-      "notes": "Chronicle succession in Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_eur_algirdas_vytautas",
-      "name": "Algirdas & Grand Duke Vytautas the Great (1392–1430)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 20,
-      "era": "1345–1430 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Lithuanian Chronicles",
-        "Mod. Univ. Hist. Vol. 12"
-      ],
-      "notes": "Chronicle succession in Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12.",
       "major": false,
       "biblicalConnected": false
     }
@@ -3259,6 +3036,12 @@
     {
       "from": "amp_aztec_tenochtitlan",
       "to": "unb_azt_xicotencatl",
+      "type": "expansion",
+      "label": "Mesoamerican / Caribbean contact-era dynasty"
+    },
+    {
+      "from": "amp_aztec_tenochtitlan",
+      "to": "unb_azt_malintzin_tecuichpotzin",
       "type": "expansion",
       "label": "Mesoamerican / Caribbean contact-era dynasty"
     },
@@ -3371,10 +3154,28 @@
       "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
     },
     {
+      "from": "unb_inc_tupac_amaru",
+      "to": "unb_inc_mama_ocllo_garcilaso",
+      "type": "expansion",
+      "label": "Garcilaso de la Vega Royal Commentaries, Modern Universal History Vol. 14: succession"
+    },
+    {
       "from": "amp_inca_pachacuti",
       "to": "unb_inc_pachacuti",
       "type": "cognate",
       "label": "Same Inca sovereign chain expanded individually"
+    },
+    {
+      "from": "unb_may_lady_yohl_iknal",
+      "to": "unb_may_lady_sak_kuk",
+      "type": "direct",
+      "label": "Palenque royal matrilineal succession -> Pakal"
+    },
+    {
+      "from": "unb_may_lady_sak_kuk",
+      "to": "unb_may_pakal_great",
+      "type": "direct",
+      "label": "Mother of Pakal the Great"
     },
     {
       "from": "amp_maya_four_men",
@@ -3648,6 +3449,12 @@
     },
     {
       "from": "unb_afr_senzangakhona",
+      "to": "unb_afr_queen_nandi",
+      "type": "expansion",
+      "label": "Southern African Oral & Historical Chronicles: succession"
+    },
+    {
+      "from": "unb_afr_queen_nandi",
       "to": "unb_afr_shaka_zulu",
       "type": "expansion",
       "label": "Southern African Oral & Historical Chronicles: succession"
@@ -3715,6 +3522,12 @@
     {
       "from": "unb_afr_osei_tutu",
       "to": "unb_afr_ewuare_benin",
+      "type": "expansion",
+      "label": "West African forest-belt sovereign tradition"
+    },
+    {
+      "from": "unb_afr_osei_tutu",
+      "to": "unb_afr_queen_idia",
       "type": "expansion",
       "label": "West African forest-belt sovereign tradition"
     },
@@ -3882,6 +3695,12 @@
     },
     {
       "from": "unb_jpn_yoritomo",
+      "to": "unb_jpn_hojo_masako_yoshitsune",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_hojo_masako_yoshitsune",
       "to": "unb_jpn_hojo_tokimasa",
       "type": "expansion",
       "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
@@ -3918,6 +3737,12 @@
     },
     {
       "from": "unb_jpn_tokugawa_ieyasu",
+      "to": "unb_jpn_date_masamune",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
+    },
+    {
+      "from": "unb_jpn_date_masamune",
       "to": "unb_jpn_tokugawa_hidetada",
       "type": "expansion",
       "label": "Modern Universal History Vol. 5, Japanese Chronicles: succession"
@@ -4020,12 +3845,24 @@
     },
     {
       "from": "unb_chn_song_huizong",
+      "to": "unb_chn_yue_fei_zhuxi",
+      "type": "expansion",
+      "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
+    },
+    {
+      "from": "unb_chn_yue_fei_zhuxi",
       "to": "unb_chn_ming_hongwu",
       "type": "expansion",
       "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
     },
     {
       "from": "unb_chn_ming_hongwu",
+      "to": "unb_chn_empress_ma",
+      "type": "expansion",
+      "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
+    },
+    {
+      "from": "unb_chn_empress_ma",
       "to": "unb_chn_ming_yongle",
       "type": "expansion",
       "label": "Records of the Three Kingdoms, History of Song & Ming: succession"
@@ -4146,12 +3983,6 @@
     },
     {
       "from": "unb_grk_miltiades_themistocles",
-      "to": "unb_grk_leonidas",
-      "type": "expansion",
-      "label": "Plutarch's Lives, Thucydides, Herodotus: succession"
-    },
-    {
-      "from": "unb_grk_leonidas",
       "to": "unb_grk_pericles",
       "type": "expansion",
       "label": "Plutarch's Lives, Thucydides, Herodotus: succession"
@@ -4173,114 +4004,6 @@
       "to": "unb_grk_pyrrhus_epirus",
       "type": "expansion",
       "label": "Plutarch's Lives, Thucydides, Herodotus: succession"
-    },
-    {
-      "from": "eur_poland_mieszko",
-      "to": "unb_eur_casimir3_poland",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_casimir3_poland",
-      "to": "unb_eur_jadwiga_jagiello",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_jadwiga_jagiello",
-      "to": "unb_eur_sigismund_poland",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_sigismund_poland",
-      "to": "unb_eur_john_sobieski",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_almos_arpad",
-      "to": "unb_eur_bela3_hungary",
-      "type": "expansion",
-      "label": "European Royal Chronicles: succession"
-    },
-    {
-      "from": "unb_eur_bela3_hungary",
-      "to": "unb_eur_louis_great_hungary",
-      "type": "expansion",
-      "label": "European Royal Chronicles: succession"
-    },
-    {
-      "from": "unb_eur_louis_great_hungary",
-      "to": "unb_eur_hunyadi_corvinus",
-      "type": "expansion",
-      "label": "European Royal Chronicles: succession"
-    },
-    {
-      "from": "unb_eur_premysl_bohemia",
-      "to": "unb_eur_ottokar2_bohemia",
-      "type": "expansion",
-      "label": "Chronicle of the Bohemians: succession"
-    },
-    {
-      "from": "unb_eur_ottokar2_bohemia",
-      "to": "unb_eur_charles4_bohemia",
-      "type": "expansion",
-      "label": "Chronicle of the Bohemians: succession"
-    },
-    {
-      "from": "unb_eur_eric_sweden",
-      "to": "unb_eur_gustav_vasa",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_gustav_vasa",
-      "to": "unb_eur_gustavus_adolphus",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_gustavus_adolphus",
-      "to": "unb_eur_charles12_sweden",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_gorm_bluetooth",
-      "to": "unb_eur_valdemar1_denmark",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_valdemar1_denmark",
-      "to": "unb_eur_margaret_kalmar",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_margaret_kalmar",
-      "to": "unb_eur_christian4_denmark",
-      "type": "expansion",
-      "label": "Modern Universal History Vol. 12: succession"
-    },
-    {
-      "from": "eur_poland_mieszko",
-      "to": "unb_eur_mindaugas_lithuania",
-      "type": "expansion",
-      "label": "Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_mindaugas_lithuania",
-      "to": "unb_eur_gediminas",
-      "type": "expansion",
-      "label": "Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12: succession"
-    },
-    {
-      "from": "unb_eur_gediminas",
-      "to": "unb_eur_algirdas_vytautas",
-      "type": "expansion",
-      "label": "Lithuanian Chronicles, Mod. Univ. Hist. Vol. 12: succession"
     }
   ]
 }
