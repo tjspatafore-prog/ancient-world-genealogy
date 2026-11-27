@@ -1,0 +1,2520 @@
+{
+  "module": "45_wave3_classical_mediterranean_rome",
+  "title": "Wave 3 Person-by-Person Classical Mediterranean, Phoenicia/Carthage, Hellenistic Kingdoms, Alba Longa (14 Kings), 7 Kings of Rome & Julio-Claudian/Paschale Families",
+  "nodes": [
+    {
+      "id": "cls3_abibaal",
+      "name": "King Abibaal of Tyre (Father of Hiram I, Josephus Ag. Ap. I.18)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "c. 1000–990 BCE (Josephus Ag. Ap. I.18)",
+      "role": "Founder of Tyrian Royal Line",
+      "sources": [
+        "Josephus Against Apion I.18 (Menander)",
+        "Betham Tab. XCII"
+      ],
+      "notes": "Father of Solomon's ally King Hiram I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_hiram1",
+      "name": "King Hiram I of Tyre (980–947 BCE; Ally of David & Solomon, 1 Kgs 5)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 16,
+      "era": "980–947 BCE (1 Kgs 5; Josephus Ag. Ap. I.18)",
+      "role": "King of Tyre & Lebanon Cedar Ally",
+      "sources": [
+        "Josephus Against Apion I.18 (Menander)",
+        "Betham Tab. XCII"
+      ],
+      "notes": "Son of Abibaal; supplied cedar and craftsman Huram-Abi for Solomon's Temple.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_baalezer1",
+      "name": "King Baal-ezer I of Tyre (Son of Hiram I, 946–930 BCE)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 16,
+      "era": "946–930 BCE (Josephus Ag. Ap. I.18)",
+      "role": "Son of Hiram I",
+      "sources": [
+        "Josephus Against Apion I.18 (Menander)",
+        "Betham Tab. XCII"
+      ],
+      "notes": "Succeeded Hiram I through Abdastartus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_baalezer2",
+      "name": "King Baal-ezer II of Tyre (Son of Ethbaal I; Brother of Jezebel, 846–841 BCE)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "846–841 BCE (Kurkh Monolith; Josephus Ag. Ap. I.18)",
+      "role": "Son of Ethbaal & Brother of Queen Jezebel",
+      "sources": [
+        "Josephus Against Apion I.18 (Menander)",
+        "Betham Tab. XCII"
+      ],
+      "notes": "Paid tribute to Shalmaneser III in 841 BCE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_mattan1",
+      "name": "King Mattan I of Tyre (Father of Pygmalion & Queen Dido, 840–832 BCE)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "840–832 BCE (Josephus Ag. Ap. I.18)",
+      "role": "Father of Dido & Pygmalion",
+      "sources": [
+        "Josephus Against Apion I.18 (Menander)",
+        "Betham Tab. XCII"
+      ],
+      "notes": "Son of Baal-ezer II; father of Pygmalion and Elissa/Dido.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_pygmalion",
+      "name": "King Pygmalion / Pumayyaton of Tyre (Brother of Dido, 831–785 BCE)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "831–785 BCE (Josephus Ag. Ap. I.18; Nora Stone)",
+      "role": "Son of Mattan I",
+      "sources": [
+        "Josephus Against Apion I.18 (Menander)",
+        "Betham Tab. XCII"
+      ],
+      "notes": "Reigned 47 years; sister Elissa/Dido founded Carthage in his 7th year (814 BCE).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_hamilcar_barca",
+      "name": "General Hamilcar Barca (First Punic War & Iberia, d. 228 BCE)",
+      "altNames": true,
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "275–228 BCE (Polybius I; Nepos)",
+      "role": "Founder of Barcid Dynasty",
+      "sources": [
+        "Polybius I–II",
+        "Betham Tab. LXXXVIII"
+      ],
+      "notes": "Father of Hannibal, Hasdrubal, and Mago Barca.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_hannibal_barca",
+      "name": "Hannibal Barca of Carthage (247–183 BCE; Crossed Alps 218 BCE)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "247–183 BCE (Polybius III; Livy XXI)",
+      "role": "Supreme Carthaginian General",
+      "sources": [
+        "Polybius III",
+        "Livy XXI–XXX"
+      ],
+      "notes": "Eldest son of Hamilcar Barca; victor of Trebia, Trasimene & Cannae.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_hasdrubal_barca",
+      "name": "Hasdrubal Barca (Brother of Hannibal; Commander in Hispania, d. 207 BCE)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "d. 207 BCE (Livy XXVII.49)",
+      "role": "Barcid General",
+      "sources": [
+        "Livy XXVII"
+      ],
+      "notes": "Fell at the Battle of the Metaurus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_mago_barca",
+      "name": "Mago Barca (Youngest Son of Hamilcar Barca, d. 203 BCE)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "d. 203 BCE (Livy XXX.19)",
+      "role": "Youngest Barcid Brother",
+      "sources": [
+        "Livy XXX"
+      ],
+      "notes": "Founded Port Mahon and fought in Italy.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_hasdrubal_gisco",
+      "name": "General Hasdrubal Gisco (Father of Sophonisba, d. 202 BCE)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "d. 202 BCE (Livy XXIX)",
+      "role": "Carthaginian Commander",
+      "sources": [
+        "Livy XXIX–XXX"
+      ],
+      "notes": "Father of Sophonisba.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_sophonisba",
+      "name": "Queen Sophonisba (Daughter of Hasdrubal Gisco; Wife of Syphax & Masinissa)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "d. 203 BCE (Livy XXX.12–15)",
+      "role": "Carthaginian-Numidian Queen",
+      "sources": [
+        "Livy XXX.12–15"
+      ],
+      "notes": "Married Numidian kings Syphax and Masinissa during the 2nd Punic War.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_gaia",
+      "name": "King Gaia of the Massylii (Father of Masinissa, d. 206 BCE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "d. 206 BCE (Livy XXIV.48)",
+      "role": "Numidian King",
+      "sources": [
+        "Sallust Jugurtha",
+        "Betham Tab. XC–XCI"
+      ],
+      "notes": "Father of unifier King Masinissa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_masinissa",
+      "name": "King Masinissa of Numidia (202–148 BCE; Ally of Rome at Zama)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "238–148 BCE (Polybius; Livy XXX)",
+      "role": "First King of Unified Numidia",
+      "sources": [
+        "Sallust Jugurtha",
+        "Betham Tab. XC–XCI"
+      ],
+      "notes": "Allied with Scipio Africanus at Zama; father of Micipsa, Mastanabal & Gulussa.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_micipsa",
+      "name": "King Micipsa of Numidia (148–118 BCE; Adoptive Father of Jugurtha)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "148–118 BCE (Sallust Jugurtha 5–11)",
+      "role": "Son of Masinissa",
+      "sources": [
+        "Sallust Jugurtha",
+        "Betham Tab. XC–XCI"
+      ],
+      "notes": "Father of Adherbal & Hiempsal I; adopted nephew Jugurtha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_jugurtha",
+      "name": "King Jugurtha of Numidia (Nephew of Micipsa, 118–104 BCE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "160–104 BCE (Sallust Bellum Jugurthinum)",
+      "role": "Adversary of Marius & Sulla",
+      "sources": [
+        "Sallust Jugurtha",
+        "Betham Tab. XC–XCI"
+      ],
+      "notes": "Son of Mastanabal; resisted Rome in the Jugurthine War.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_juba1",
+      "name": "King Juba I of Numidia (Father of Juba II, d. 46 BCE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "c. 85–46 BCE (Caesar Bellum Africum)",
+      "role": "Son of Hiempsal II",
+      "sources": [
+        "Sallust Jugurtha",
+        "Betham Tab. XC–XCI"
+      ],
+      "notes": "Allied with Cato & Scipio at Thapsus; father of scholar-king Juba II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_ptolemy_mauretania",
+      "name": "King Ptolemy of Mauretania (Son of Juba II & Cleopatra Selene II, 23–40 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "c. 10 BCE – 40 CE (Tacitus Annals IV.23; Suetonius Caligula 35)",
+      "role": "Last Ptolemaic-Numidian King of Mauretania",
+      "sources": [
+        "Sallust Jugurtha",
+        "Betham Tab. XC–XCI"
+      ],
+      "notes": "Son of King Juba II and Queen Cleopatra Selene II; grandson of Mark Antony & Cleopatra VII!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_cleopatra_selene2",
+      "name": "Queen Cleopatra Selene II (Daughter of Cleopatra VII & Mark Antony; Wife of Juba II)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "40 BCE – c. 5 CE (Plutarch Antony 36; Dio)",
+      "role": "Ptolemaic Princess & Queen of Mauretania",
+      "sources": [
+        "Plutarch Life of Antony 36",
+        "Josephus Ant. I.15",
+        "Betham Tab. XCI"
+      ],
+      "notes": "Twin daughter of Cleopatra VII and Mark Antony; raised by Octavia Minor in Rome, wed King Juba II of Mauretania, and bore King Ptolemy of Mauretania.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_gyges",
+      "name": "King Gyges of Lydia (Mermnad Founder, 680–644 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "680–644 BCE (Herodotus I.8–14; Eusebius)",
+      "role": "Founder of Mermnad Lydia",
+      "sources": [
+        "Herodotus I.7–91",
+        "Eusebius Chronicle",
+        "Betham Tab. LXVI"
+      ],
+      "notes": "Overthrew Heraclid Candaules; allied with Assyria under Ashurbanipal.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_ardys",
+      "name": "King Ardys II of Lydia (644–624 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "644–624 BCE (Herodotus I.15)",
+      "role": "Son of Gyges",
+      "sources": [
+        "Herodotus I.7–91",
+        "Eusebius Chronicle",
+        "Betham Tab. LXVI"
+      ],
+      "notes": "Son of Gyges.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_sadyattes",
+      "name": "King Sadyattes of Lydia (624–612 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "624–612 BCE (Herodotus I.16)",
+      "role": "Son of Ardys",
+      "sources": [
+        "Herodotus I.7–91",
+        "Eusebius Chronicle",
+        "Betham Tab. LXVI"
+      ],
+      "notes": "Father of Alyattes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_alyattes",
+      "name": "King Alyattes of Lydia (612–560 BCE; Coinage Pioneer)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "612–560 BCE (Herodotus I.16–25)",
+      "role": "Father of Croesus & Queen Aryenis",
+      "sources": [
+        "Herodotus I.7–91",
+        "Eusebius Chronicle",
+        "Betham Tab. LXVI"
+      ],
+      "notes": "Minted earliest electrum coins; wed daughter Aryenis to Median Crown Prince Astyages.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_croesus",
+      "name": "King Croesus of Lydia (560–546 BCE; Conquered by Cyrus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "560–546 BCE (Herodotus I.26–91; Eusebius)",
+      "role": "Last Mermnad King of Lydia",
+      "sources": [
+        "Herodotus I.7–91",
+        "Eusebius Chronicle",
+        "Betham Tab. LXVI"
+      ],
+      "notes": "Famed for wealth; fought Cyrus the Great at Thymbra & Sardis (546 BCE).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_aryenis",
+      "name": "Queen Aryenis of Media (Daughter of Alyattes; Wife of Astyages, Herodotus I.74)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "fl. 585 BCE (Herodotus I.74)",
+      "role": "Lydian Princess & Median Queen",
+      "sources": [
+        "Herodotus I.74"
+      ],
+      "notes": "Married Astyages of Media to seal the Battle of the Eclipse peace treaty (585 BCE).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_seleucus1",
+      "name": "Emperor Seleucus I Nicator (312–281 BCE; Husband of Apama)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "358–281 BCE (Eusebius; Appian)",
+      "role": "Founder of Seleucid Empire",
+      "sources": [
+        "Eusebius Chronicle",
+        "Appian Syriaca",
+        "1–2 Maccabees",
+        "Betham Tab. CIII"
+      ],
+      "notes": "General of Alexander; wed Sogdian princess Apama.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_antiochus1",
+      "name": "Emperor Antiochus I Soter (281–261 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "324–261 BCE (Eusebius; Betham Tab. CIII)",
+      "role": "Son of Seleucus I & Apama",
+      "sources": [
+        "Eusebius Chronicle",
+        "Appian Syriaca",
+        "1–2 Maccabees",
+        "Betham Tab. CIII"
+      ],
+      "notes": "Co-regent in Babylon & victor over Galatians.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_antiochus2",
+      "name": "Emperor Antiochus II Theos (261–246 BCE; Husband of Laodice & Berenice)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "286–246 BCE (Dan 11:6; Eusebius)",
+      "role": "Son of Antiochus I",
+      "sources": [
+        "Eusebius Chronicle",
+        "Appian Syriaca",
+        "1–2 Maccabees",
+        "Betham Tab. CIII"
+      ],
+      "notes": "Married Ptolemaic princess Berenice (Daniel 11:6 'King of the North').",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_seleucus2",
+      "name": "Emperor Seleucus II Callinicus (246–225 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "265–225 BCE (Eusebius)",
+      "role": "Son of Antiochus II & Laodice I",
+      "sources": [
+        "Eusebius Chronicle",
+        "Appian Syriaca",
+        "1–2 Maccabees",
+        "Betham Tab. CIII"
+      ],
+      "notes": "Father of Seleucus III & Antiochus III.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_antiochus3",
+      "name": "Emperor Antiochus III the Great (223–187 BCE; Dan 11:11)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "241–187 BCE (Eusebius; Polybius)",
+      "role": "Rebuilder of Seleucid Asia",
+      "sources": [
+        "Eusebius Chronicle",
+        "Appian Syriaca",
+        "1–2 Maccabees",
+        "Betham Tab. CIII"
+      ],
+      "notes": "Restored Seleucid authority east to Bactria/India; wed daughter Cleopatra I Syra to Ptolemy V.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_seleucus4",
+      "name": "Emperor Seleucus IV Philopator (187–175 BCE; 2 Macc 3)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "218–175 BCE (2 Macc 3; Dan 11:20)",
+      "role": "Elder Son of Antiochus III",
+      "sources": [
+        "Eusebius Chronicle",
+        "Appian Syriaca",
+        "1–2 Maccabees",
+        "Betham Tab. CIII"
+      ],
+      "notes": "Dispatched Heliodorus to Jerusalem Temple.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_demetrius1_soter",
+      "name": "Emperor Demetrius I Soter (161–150 BCE; 1 Macc 7)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "185–150 BCE (1 Macc 7; Josephus Ant. XII)",
+      "role": "Son of Seleucus IV",
+      "sources": [
+        "Eusebius Chronicle",
+        "Appian Syriaca",
+        "1–2 Maccabees",
+        "Betham Tab. CIII"
+      ],
+      "notes": "Authorized High Priest Alcimus against Judas Maccabeus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_apama",
+      "name": "Queen Apama of Sogdia (Daughter of Spitamenes; Wife of Seleucus I)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "d. after 299 BCE (Arrian VII.4)",
+      "role": "Sogdian Queen of the Seleucid Empire",
+      "sources": [
+        "Arrian Anabasis VII.4"
+      ],
+      "notes": "Daughter of Sogdian leader Spitamenes; sole Alexander-era queen marriage never repudiated.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_cleopatra1_syra",
+      "name": "Queen Cleopatra I Syra of Egypt (Daughter of Antiochus III; Wife of Ptolemy V)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 204–176 BCE (Dan 11:17; Livy XXXV)",
+      "role": "Seleucid Princess Who Brought Name 'Cleopatra' to Egypt",
+      "sources": [
+        "Daniel 11:17",
+        "Appian Syr. 5"
+      ],
+      "notes": "Introduced Seleucid marriage link and name Cleopatra into the Ptolemaic house.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_antiochus4",
+      "name": "Emperor Antiochus IV Epiphanes (175–164 BCE; Sparked Maccabean Revolt)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 18,
+      "era": "215–164 BCE (1 Macc 1; Dan 11:21)",
+      "role": "Younger Son of Antiochus III",
+      "sources": [
+        "1 Maccabees 1",
+        "Josephus Ant. XII.5"
+      ],
+      "notes": "Desecrated the Second Temple in 167 BCE, provoking Mattathias & Judas Maccabeus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_antiochus5",
+      "name": "Emperor Antiochus V Eupator (Son of Antiochus IV, 164–161 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "173–161 BCE (1 Macc 6; Josephus Ant. XII.9)",
+      "role": "Boy-King of Syria",
+      "sources": [
+        "1 Maccabees 6"
+      ],
+      "notes": "Young son of Antiochus IV.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_antigonus1",
+      "name": "King Antigonus I Monophthalmus (d. 301 BCE at Ipsus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "382–301 BCE (Diodorus; Plutarch)",
+      "role": "Diadochos & Antigonid Founder",
+      "sources": [
+        "Eusebius Chronicle",
+        "Plutarch Lives",
+        "Betham Tab. LXXVII"
+      ],
+      "notes": "Unifier of Asia until Battle of Ipsus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_demetrius_poliorcetes",
+      "name": "King Demetrius I Poliorcetes (337–283 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "337–283 BCE (Plutarch Demetrius)",
+      "role": "Son of Antigonus I",
+      "sources": [
+        "Eusebius Chronicle",
+        "Plutarch Lives",
+        "Betham Tab. LXXVII"
+      ],
+      "notes": "Father of Antigonus II Gonatas.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_antigonus2",
+      "name": "King Antigonus II Gonatas of Macedon (277–239 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "319–239 BCE (Eusebius Chronicle)",
+      "role": "Restorer of Antigonid Macedonia",
+      "sources": [
+        "Eusebius Chronicle",
+        "Plutarch Lives",
+        "Betham Tab. LXXVII"
+      ],
+      "notes": "Son of Demetrius Poliorcetes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_philip5",
+      "name": "King Philip V of Macedon (221–179 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "238–179 BCE (Polybius; Livy)",
+      "role": "Antigonid Adversary of Rome",
+      "sources": [
+        "Eusebius Chronicle",
+        "Plutarch Lives",
+        "Betham Tab. LXXVII"
+      ],
+      "notes": "Father of final king Perseus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_perseus_macedon",
+      "name": "King Perseus of Macedon (Last King of Macedon, 179–168 BCE; Pydna)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "212–166 BCE (Livy XLIV; Eusebius p.75)",
+      "role": "Last Sovereign of Antigonid Macedonia",
+      "sources": [
+        "Eusebius Chronicle",
+        "Plutarch Lives",
+        "Betham Tab. LXXVII"
+      ],
+      "notes": "Defeated by Aemilius Paullus at Pydna (168 BCE) and interned at Alba Fucens.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_pyrrhus_epirus",
+      "name": "King Pyrrhus of Epirus (319–272 BCE; Aeacid Cousin of Alexander)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "319–272 BCE (Plutarch Life of Pyrrhus)",
+      "role": "Molossian King Claiming Descent From Achilles",
+      "sources": [
+        "Plutarch Life of Pyrrhus 1–34",
+        "Betham Tab. LXXXI"
+      ],
+      "notes": "Son of Aeacides; second cousin of Alexander the Great and renowned adversary of Rome ('Pyrrhic victory').",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_mithridates1",
+      "name": "King Mithridates I Ktistes of Pontus (281–266 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "281–266 BCE (Appian Mith. 9)",
+      "role": "Founder of Pontic Kingdom",
+      "sources": [
+        "Appian Mithridatic Wars",
+        "Betham Tab. XCV"
+      ],
+      "notes": "Claimed Achaemenid Persian noble lineage.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_pharnaces1",
+      "name": "King Pharnaces I of Pontus (185–155 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "185–155 BCE (Polybius)",
+      "role": "Son of Mithridates III",
+      "sources": [
+        "Appian Mithridatic Wars",
+        "Betham Tab. XCV"
+      ],
+      "notes": "Captured Sinope.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_mithridates6",
+      "name": "King Mithridates VI Eupator ('The Great' / Poison King, 120–63 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "135–63 BCE (Appian; Plutarch Pompey)",
+      "role": "Greatest Anatolian Adversary of Rome",
+      "sources": [
+        "Appian Mithridatic Wars",
+        "Betham Tab. XCV"
+      ],
+      "notes": "Fought three Mithridatic Wars against Sulla, Lucullus & Pompey; father of Cleopatra of Pontus & Pharnaces II.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_pharnaces2",
+      "name": "King Pharnaces II of Pontus & Bosporus (Son of Mithridates VI; Battle of Zela 47 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "97–47 BCE (Suetonius Julius 37)",
+      "role": "Subject of Caesar's 'Veni, vidi, vici'",
+      "sources": [
+        "Appian Mithridatic Wars",
+        "Betham Tab. XCV"
+      ],
+      "notes": "Son of Mithridates VI defeated by Julius Caesar at Zela (47 BCE).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_cleopatra_pontus",
+      "name": "Queen Cleopatra of Pontus (Daughter of Mithridates VI; Wife of Tigranes the Great)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "fl. 94–66 BCE (Plutarch Lucullus; Betham Tab. LXXXIII)",
+      "role": "Pontic Princess Married to Armenia",
+      "sources": [
+        "Plutarch Lucullus",
+        "Betham Tab. LXXXIII"
+      ],
+      "notes": "Daughter of Mithridates VI; married Tigranes II the Great of Armenia and bore Artavasdes II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_artaxias1",
+      "name": "King Artaxias I of Armenia (189–160 BCE; Founder of Artaxata)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "189–160 BCE (Strabo XI.14)",
+      "role": "Founder of Artaxiad Armenia",
+      "sources": [
+        "Betham Tab. LXXXIII",
+        "Strabo XI"
+      ],
+      "notes": "Established Artaxiad Dynasty & capital Artaxata.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_tigranes2_great",
+      "name": "Emperor Tigranes II the Great of Armenia (95–55 BCE; King of Kings)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "140–55 BCE (Plutarch Lucullus; Betham Tab. LXXXIII)",
+      "role": "Emperor of Greater Armenia",
+      "sources": [
+        "Betham Tab. LXXXIII",
+        "Strabo XI"
+      ],
+      "notes": "Built empire from Caspian to Syria; wed Cleopatra of Pontus.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_artavasdes2",
+      "name": "King Artavasdes II of Armenia (55–34 BCE; Son of Tigranes II)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "d. 31 BCE (Plutarch Antony; Dio)",
+      "role": "Author-King of Artaxiad Armenia",
+      "sources": [
+        "Betham Tab. LXXXIII",
+        "Strabo XI"
+      ],
+      "notes": "Scholarly son of Tigranes the Great & Cleopatra of Pontus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_diodotus1",
+      "name": "King Diodotus I Soter of Bactria (250–239 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "250–239 BCE (Justin XLI.4; Strabo XI)",
+      "role": "Founder of Greco-Bactrian Kingdom",
+      "sources": [
+        "Strabo XI",
+        "Milinda Panha",
+        "Betham Tab. LXVIII"
+      ],
+      "notes": "Broke away from Antiochus II in Bactria/Sogdia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_euthydemus1",
+      "name": "King Euthydemus I of Bactria (230–200 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "230–200 BCE (Polybius XI.34)",
+      "role": "Defender of Bactra Against Antiochus III",
+      "sources": [
+        "Strabo XI",
+        "Milinda Panha",
+        "Betham Tab. LXVIII"
+      ],
+      "notes": "Father of Indo-Greek conqueror Demetrius I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_demetrius1_bactria",
+      "name": "King Demetrius I of Bactria (c. 200–180 BCE; Conqueror of Gandhara)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 200–180 BCE (Strabo XI.11.1)",
+      "role": "Son of Euthydemus I",
+      "sources": [
+        "Strabo XI",
+        "Milinda Panha",
+        "Betham Tab. LXVIII"
+      ],
+      "notes": "Extended Hellenistic rule into Northwest India.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_menander1",
+      "name": "King Menander I Soter / King Milinda (165–130 BCE; Milinda Panha)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 165–130 BCE (Strabo XI; Milinda Panha)",
+      "role": "Indo-Greek Monarch of Sagala",
+      "sources": [
+        "Strabo XI",
+        "Milinda Panha",
+        "Betham Tab. LXVIII"
+      ],
+      "notes": "Central royal interlocutor of Buddhist classic Milinda Panha.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_aegialeus_sicyon",
+      "name": "King Aegialeus of Sicyon (1st King in Eusebius Chronicle, p. 53)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 8,
+      "era": "Eusebius Chronicle p.53 (Synchronized With Belus & Ninus)",
+      "role": "First Attested Greek City-King in Eusebius",
+      "sources": [
+        "Eusebius Chronicle p.53",
+        "Apollodorus II.i.1"
+      ],
+      "notes": "Son of Inachus in Apollodorus; placed by Eusebius at the dawn of Greek chronology as contemporary of Nimrod/Belus & Ninus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls3_abgar5_edessa",
+      "name": "King Abgar V Ukkama of Osroene / Edessa (4 BCE–7 CE, 13–50 CE)",
+      "altNames": true,
+      "tradition": "mesopotamian",
+      "tier": 19,
+      "era": "1st c. CE (Edessa — Eusebius HE I.13; Doctrine of Addai)",
+      "role": "Abgarid King of Syriac Edessa",
+      "sources": [
+        "Eusebius HE I.13",
+        "Doctrine of Addai",
+        "Betham Tab. LXXI"
+      ],
+      "notes": "Abgarid king of Edessa prominent in early Syriac Christian historiography.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_king_latinus",
+      "name": "King Latinus of Laurentum (Father of Lavinia, Dionysius I.57–64)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 13,
+      "era": "12th c. BCE (Dionysius Ant. I.57–64; Livy I.1)",
+      "role": "Aboriginal King of Latium",
+      "sources": [
+        "Dionysius Roman Antiquities I.57–64"
+      ],
+      "notes": "Welcomed Aeneas and gave daughter Lavinia in marriage.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_lavinia",
+      "name": "Queen Lavinia (Daughter of Latinus; Wife of Aeneas; Mother of Silvius)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 13,
+      "era": "12th c. BCE (Dionysius I.60–70)",
+      "role": "Latin Princess & Mother of Alban Dynasty",
+      "sources": [
+        "Dionysius I.60–70",
+        "Virgil Aeneid VII"
+      ],
+      "notes": "Eponym of Lavinium; mother of Silvius Posthumus by Aeneas.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_ascanius_iulus",
+      "name": "King Ascanius / Iulus (Son of Aeneas & Creusa; Founder of Alba Longa, Dionysius I.65–70)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 14,
+      "era": "c. 1150 BCE (Dionysius I.65–70; Livy I.3)",
+      "role": "Founder of Alba Longa & Claimed Ancestor of Gens Julia",
+      "sources": [
+        "Dionysius Roman Antiquities I.65–70",
+        "Virgil Aeneid I"
+      ],
+      "notes": "Son of Aeneas & Trojan Creusa; built Alba Longa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_silvius",
+      "name": "1. King Silvius Posthumus (Son of Aeneas & Lavinia, 29 yrs)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "c. 1139–1110 BCE (Dionysius I.70–71)",
+      "role": "Second King of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Half-brother of Ascanius; ancestor of all Alban Silvii.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_aeneas_silvius",
+      "name": "2. King Aeneas Silvius (31 yrs, Dionysius I.71)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "Dionysius I.71; Livy I.3",
+      "role": "King of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Son of Silvius.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_latinus_silvius",
+      "name": "3. King Latinus Silvius (51 yrs, Dionysius I.71)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "Dionysius I.71",
+      "role": "King of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Son of Aeneas Silvius.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_alba",
+      "name": "4. King Alba Silvius (39 yrs, Dionysius I.71)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "Dionysius I.71",
+      "role": "King of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Son of Latinus Silvius.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_atys_alba",
+      "name": "5. King Atys / Capetus I Silvius (26 yrs, Livy I.3)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "Livy I.3; Dionysius I.71",
+      "role": "King of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Son of Alba.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_capys_alba",
+      "name": "6. King Capys Silvius (28 yrs, Dionysius I.71)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "Dionysius I.71",
+      "role": "King of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Son of Atys.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_capetus",
+      "name": "7. King Capetus / Calpetus Silvius (13 yrs, Dionysius I.71)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "Dionysius I.71",
+      "role": "King of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Son of Capys.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_tiberinus",
+      "name": "8. King Tiberinus Silvius (Eponym of River Tiber, Dionysius I.71)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "Dionysius I.71; Livy I.3",
+      "role": "King of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Drowned in the Albula, thereafter named the Tiber River.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_agrippa_alba",
+      "name": "9. King Agrippa Silvius (41 yrs, Dionysius I.71)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "Dionysius I.71",
+      "role": "King of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Son of Tiberinus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_romulus_silvius",
+      "name": "10. King Romulus / Alladius Silvius (19 yrs, Dionysius I.71)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "Dionysius I.71",
+      "role": "King of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Son of Agrippa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_aventinus",
+      "name": "11. King Aventinus Silvius (37 yrs; Eponym of Aventine Hill)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 15,
+      "era": "Dionysius I.71; Livy I.3",
+      "role": "King of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Buried on the Aventine Hill.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_procas",
+      "name": "12. King Procas Silvius (23 yrs; Father of Numitor & Amulius)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 15,
+      "era": "c. 817–794 BCE (Dionysius I.71)",
+      "role": "King of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Father of rightful heir Numitor and usurper Amulius.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_numitor",
+      "name": "13. King Numitor Silvius of Alba Longa (Grandfather of Romulus & Remus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 15,
+      "era": "c. 794–753 BCE (Dionysius I.76–85)",
+      "role": "Father of Rhea Silvia",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Restored to Alba Longa's throne by grandsons Romulus & Remus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_rhea_silvia",
+      "name": "Rhea Silvia / Ilia (Daughter of Numitor; Mother of Romulus & Remus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 15,
+      "era": "8th c. BCE (Dionysius I.76–78)",
+      "role": "Vestal Princess of Alba Longa",
+      "sources": [
+        "Dionysius Roman Antiquities I.70–85",
+        "Livy I.3",
+        "Eusebius Chronicle"
+      ],
+      "notes": "Mother of Rome's twin founders Romulus & Remus.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_amulius",
+      "name": "King Amulius of Alba Longa (42-Year Usurper, Dionysius I.71, 76)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 15,
+      "era": "c. 794–753 BCE (Dionysius I.71, 76)",
+      "role": "Younger Brother of Numitor",
+      "sources": [
+        "Dionysius I.71–83"
+      ],
+      "notes": "Overthrew Numitor before being slain by Romulus & Remus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_remus",
+      "name": "Remus (Twin Brother of Romulus, 753 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 15,
+      "era": "d. 753 BCE (Livy I.7; Dionysius I.87)",
+      "role": "Co-Founder Twin of Rome",
+      "sources": [
+        "Livy I.6–7",
+        "Dionysius I.87"
+      ],
+      "notes": "Twin brother of Romulus born to Rhea Silvia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_numa_pompilius",
+      "name": "2. King Numa Pompilius (Sabine Lawgiver King, 715–673 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "715–673 BCE (Livy I.18; Dionysius II)",
+      "role": "2nd King of Rome",
+      "sources": [
+        "Livy Book I",
+        "Dionysius Roman Antiquities II–IV",
+        "Betham Tab. CXII"
+      ],
+      "notes": "Instituted Roman religious calendar, temples & priestly colleges.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_tullus_hostilius",
+      "name": "3. King Tullus Hostilius (673–642 BCE; Absorbed Alba Longa)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "673–642 BCE (Livy I.22–31)",
+      "role": "3rd King of Rome",
+      "sources": [
+        "Livy Book I",
+        "Dionysius Roman Antiquities II–IV",
+        "Betham Tab. CXII"
+      ],
+      "notes": "Destroyed Alba Longa and incorporated its noble Alban clans into Rome.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_ancus_marcius",
+      "name": "4. King Ancus Marcius (642–617 BCE; Grandson of Numa)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "642–617 BCE (Livy I.32–35)",
+      "role": "4th King of Rome",
+      "sources": [
+        "Livy Book I",
+        "Dionysius Roman Antiquities II–IV",
+        "Betham Tab. CXII"
+      ],
+      "notes": "Grandson of Numa Pompilius; built Sublician Bridge & Ostia port.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_tarquinius_priscus",
+      "name": "5. King Lucius Tarquinius Priscus (+ Tanaquil, 616–579 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "616–579 BCE (Livy I.35–40)",
+      "role": "5th King of Rome (Etruscan)",
+      "sources": [
+        "Livy Book I",
+        "Dionysius Roman Antiquities II–IV",
+        "Betham Tab. CXII"
+      ],
+      "notes": "Initiated Circus Maximus & Cloaca Maxima.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_servius_tullius",
+      "name": "6. King Servius Tullius (578–535 BCE; Servian Constitution & Walls)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "578–535 BCE (Livy I.41–48)",
+      "role": "6th King of Rome",
+      "sources": [
+        "Livy Book I",
+        "Dionysius Roman Antiquities II–IV",
+        "Betham Tab. CXII"
+      ],
+      "notes": "Reformed Roman centuriate classes; son-in-law of Tarquinius Priscus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_tarquinius_superbus",
+      "name": "7. King Lucius Tarquinius Superbus (535–509 BCE; Expelled at Republic's Founding)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "535–509 BCE (Livy I.49–60)",
+      "role": "7th & Final King of Rome",
+      "sources": [
+        "Livy Book I",
+        "Dionysius Roman Antiquities II–IV",
+        "Betham Tab. CXII"
+      ],
+      "notes": "Expelled in 509 BCE by Lucius Junius Brutus, inaugurating the Roman Republic.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_julius_caesar",
+      "name": "Gaius Julius Caesar (100–44 BCE; Dictator Perpetuo)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 18,
+      "era": "100–44 BCE (Suetonius Divus Julius)",
+      "role": "Dictator of Rome & Great-Uncle / Adoptive Father of Augustus",
+      "sources": [
+        "Suetonius Divus Julius",
+        "Plutarch Caesar"
+      ],
+      "notes": "Descendant of Gens Julia; crossed Rubicon 49 BCE, wed Cornelia/Calpurnia, fathered Julia & Ptolemy XV Caesarion, adopted Octavian.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_julia_minor",
+      "name": "Julia Minor (Sister of Julius Caesar; Grandmother of Augustus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "101–51 BCE (Suetonius Augustus 4, 8)",
+      "role": "Grandmother of Emperor Augustus",
+      "sources": [
+        "Suetonius Augustus 4, 8"
+      ],
+      "notes": "Sister of Julius Caesar; wed Marcus Atius Balbus and bore Atia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_atia",
+      "name": "Atia Balba (Niece of Julius Caesar; Mother of Augustus & Octavia Minor)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "85–43 BCE (Suetonius Augustus 4)",
+      "role": "Mother of Emperor Augustus",
+      "sources": [
+        "Suetonius Augustus 4"
+      ],
+      "notes": "Daughter of Julia Minor & Balbus; wed Gaius Octavius and bore Octavia Minor & Augustus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_octavia_minor",
+      "name": "Octavia Minor (Sister of Augustus; Wife of Mark Antony; Progenitress of Caligula, Claudius & Nero!)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 18,
+      "era": "69–11 BCE (Plutarch Antony; Suetonius)",
+      "role": "Key Matriarch Linking Julii, Antonii & Julio-Claudians",
+      "sources": [
+        "Suetonius Augustus 61",
+        "Plutarch Antony"
+      ],
+      "notes": "Elder sister of Augustus; bore Antonia Minor by Mark Antony — uniting Julian & Antonian lines in Caligula, Claudius, and Nero!",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_augustus",
+      "name": "Emperor Augustus / Gaius Octavius (27 BCE–14 CE; Luke 2:1)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 19,
+      "era": "63 BCE – 14 CE (Luke 2:1; Suetonius Augustus)",
+      "role": "First Roman Emperor",
+      "sources": [
+        "Luke 2:1",
+        "Suetonius Divus Augustus",
+        "Betham Tab. CXXI"
+      ],
+      "notes": "Adopted heir of Julius Caesar; ruled 27 BCE–14 CE during the birth of Jesus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_livia_drusilla",
+      "name": "Empress Livia Drusilla / Julia Augusta (Wife of Augustus; Mother of Tiberius & Drusus)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 19,
+      "era": "58 BCE – 29 CE (Tacitus Annals I, V)",
+      "role": "First Empress of Rome & Mother of Tiberius",
+      "sources": [
+        "Tacitus Annals V.1",
+        "Suetonius Tiberius"
+      ],
+      "notes": "Mother of Emperor Tiberius and General Drusus the Elder by Tiberius Claudius Nero; wed Augustus for 51 years.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_marcus_agrippa",
+      "name": "Marcus Vipsanius Agrippa (c. 63–12 BCE; Builder of Pantheon & Co-Ruler)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "63–12 BCE (Cassius Dio LIV)",
+      "role": "Son-in-Law of Augustus & Maternal Grandfather of Caligula",
+      "sources": [
+        "Cassius Dio LIII–LIV",
+        "Suetonius Augustus 63"
+      ],
+      "notes": "Wed Augustus's daughter Julia the Elder, fathering Gaius, Lucius, Agrippina the Elder & Agrippa Postumus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_julia_elder",
+      "name": "Julia the Elder (Sole Biological Child of Emperor Augustus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "39 BCE – 14 CE (Suetonius Augustus 63–65)",
+      "role": "Daughter of Augustus & Scribonia",
+      "sources": [
+        "Suetonius Augustus 63–65"
+      ],
+      "notes": "Mother of Agrippina the Elder by Marcus Agrippa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_drusus_elder",
+      "name": "General Nero Claudius Drusus (Son of Livia; Brother of Tiberius; Husband of Antonia)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "38–9 BCE (Suetonius Claudius 1)",
+      "role": "Stepson of Augustus & Father of Germanicus & Claudius",
+      "sources": [
+        "Suetonius Claudius 1"
+      ],
+      "notes": "Brother of Emperor Tiberius; wed Antonia Minor and fathered Germanicus and Emperor Claudius.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_antonia_minor",
+      "name": "Antonia Minor (Daughter of Mark Antony & Octavia; Mother of Germanicus & Claudius)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 19,
+      "era": "36 BCE – 37 CE (Suetonius Claudius 11; Josephus Ant. XVIII.6)",
+      "role": "Matriarch of Three Generations of Roman Emperors",
+      "sources": [
+        "Suetonius Claudius 1, 11",
+        "Josephus Ant. XVIII.6.6"
+      ],
+      "notes": "Befriended Berenice I & young Herod Agrippa I in Rome; bore Germanicus, Livilla & Emperor Claudius.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_germanicus",
+      "name": "General Germanicus Julius Caesar (15 BCE–19 CE; Father of Caligula)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "15 BCE – 19 CE (Tacitus Annals I–II; Suetonius Caligula 1–7)",
+      "role": "Celebrated Heir Adopted by Tiberius",
+      "sources": [
+        "Tacitus Annals I–II",
+        "Suetonius Caligula 1–7"
+      ],
+      "notes": "Son of Drusus the Elder & Antonia Minor; wed Agrippina the Elder, bearing Caligula & Agrippina the Younger.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_agrippina_elder",
+      "name": "Agrippina the Elder (Daughter of Julia & Agrippa; Mother of Caligula & Agrippina II)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "c. 14 BCE – 33 CE (Tacitus Annals I–VI)",
+      "role": "Granddaughter of Augustus",
+      "sources": [
+        "Tacitus Annals I–VI"
+      ],
+      "notes": "Granddaughter of Augustus; mother of Emperor Caligula and Agrippina the Younger.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_agrippina_younger",
+      "name": "Empress Agrippina the Younger (Sister of Caligula; Wife of Claudius; Mother of Nero)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "15–59 CE (Tacitus Annals XII–XIV; Suetonius Nero 6)",
+      "role": "Daughter of Germanicus & Mother of Emperor Nero",
+      "sources": [
+        "Tacitus Annals XII–XIV",
+        "Suetonius Nero"
+      ],
+      "notes": "Great-granddaughter of Augustus; mother of Emperor Nero.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_constantius_chlorus",
+      "name": "Emperor Constantius I Chlorus (Tetrarch, 293–306 CE; Father of Constantine I)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "250–306 CE (Chronicon Paschale; Eusebius)",
+      "role": "Western Augustus & Father of Constantine the Great",
+      "sources": [
+        "Chronicon Paschale",
+        "Eusebius VC I"
+      ],
+      "notes": "Father of Constantine the Great by St. Helena.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_st_helena",
+      "name": "Empress St. Helena Augusta (Mother of Constantine the Great, c. 246–330 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "c. 246–330 CE (Eusebius VC III; Chronicon Paschale)",
+      "role": "Mother of Constantine I",
+      "sources": [
+        "Eusebius Vita Constantini III",
+        "Chronicon Paschale"
+      ],
+      "notes": "Mother of first Christian Emperor Constantine I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_constantine2",
+      "name": "Emperor Constantine II (Son of Constantine I, 337–340 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "316–340 CE (Chronicon Paschale)",
+      "role": "Eldest Son of Constantine & Fausta",
+      "sources": [
+        "Chronicon Paschale"
+      ],
+      "notes": "Ruled Gaul, Spain & Britain after 337 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_constantius2",
+      "name": "Emperor Constantius II (Son of Constantine I, 337–361 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "317–361 CE (Chronicon Paschale)",
+      "role": "Middle Son of Constantine & Eastern Emperor",
+      "sources": [
+        "Chronicon Paschale"
+      ],
+      "notes": "Ruled the Eastern Roman Empire 337–361 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_constans",
+      "name": "Emperor Constans I (Son of Constantine I, 337–350 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "323–350 CE (Chronicon Paschale)",
+      "role": "Youngest Son of Constantine & Fausta",
+      "sources": [
+        "Chronicon Paschale"
+      ],
+      "notes": "Ruled Italy, Africa & Illyricum.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_arcadius",
+      "name": "Emperor Arcadius (Elder Son of Theodosius I, 395–408 CE; Chronicon Paschale p. 80)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 19,
+      "era": "377–408 CE (Chronicon Paschale p.80)",
+      "role": "First Emperor of Permanently Divided Eastern Roman Empire",
+      "sources": [
+        "Chronicon Paschale (Whitby p.80)"
+      ],
+      "notes": "Proclaimed Augustus by father Theodosius I at the Hebdomon in Constantinople (383 CE); father of Theodosius II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_honorius",
+      "name": "Emperor Honorius (Younger Son of Theodosius I, 395–423 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "384–423 CE (Chronicon Paschale)",
+      "role": "Western Roman Emperor",
+      "sources": [
+        "Chronicon Paschale"
+      ],
+      "notes": "Son of Theodosius I & Aelia Flaccilla.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_galla_placidia",
+      "name": "Empress Galla Placidia (Daughter of Theodosius I; Queen of Visigoths & Augusta, c. 390–450 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "c. 390–450 CE (Chronicon Paschale)",
+      "role": "Daughter of Theodosius I & Mother of Valentinian III",
+      "sources": [
+        "Chronicon Paschale"
+      ],
+      "notes": "Daughter of Theodosius I & Galla; wed Visigothic King Athaulf and later Emperor Constantius III.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "rom3_valentinian3",
+      "name": "Emperor Valentinian III (Son of Galla Placidia, 425–455 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "419–455 CE (Chronicon Paschale)",
+      "role": "Grandson of Theodosius I",
+      "sources": [
+        "Chronicon Paschale"
+      ],
+      "notes": "Western Emperor during Attila's campaigns.",
+      "major": false,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "cls_tyre_royal_line",
+      "to": "cls3_abibaal",
+      "type": "direct",
+      "label": "Tyrian Royal Line (Josephus Ag. Ap. I.18)"
+    },
+    {
+      "from": "cls3_abibaal",
+      "to": "cls3_hiram1",
+      "type": "direct",
+      "label": "Tyrian Royal Line (Josephus Ag. Ap. I.18)"
+    },
+    {
+      "from": "cls3_hiram1",
+      "to": "cls3_baalezer1",
+      "type": "direct",
+      "label": "Tyrian Royal Line (Josephus Ag. Ap. I.18)"
+    },
+    {
+      "from": "isr_ethbaal_sidon",
+      "to": "cls3_baalezer2",
+      "type": "direct",
+      "label": "Tyrian Royal Line (Josephus Ag. Ap. I.18)"
+    },
+    {
+      "from": "cls3_baalezer2",
+      "to": "cls3_mattan1",
+      "type": "direct",
+      "label": "Tyrian Royal Line (Josephus Ag. Ap. I.18)"
+    },
+    {
+      "from": "cls3_mattan1",
+      "to": "cls3_pygmalion",
+      "type": "direct",
+      "label": "Tyrian Royal Line (Josephus Ag. Ap. I.18)"
+    },
+    {
+      "from": "for_hiram_syria_moab",
+      "to": "cls3_hiram1",
+      "type": "direct",
+      "label": "1 Kgs 5: Tyrian King Hiram I"
+    },
+    {
+      "from": "cls3_mattan1",
+      "to": "grk_dido_carthage",
+      "type": "direct",
+      "label": "Josephus Ag. Ap. I.18: Mattan I -> Elissa / Queen Dido of Carthage"
+    },
+    {
+      "from": "grk_dido_carthage",
+      "to": "cls3_hamilcar_barca",
+      "type": "expansion",
+      "label": "Carthaginian Punic aristocracy -> Barcid House"
+    },
+    {
+      "from": "cls_carthage_barcids",
+      "to": "cls3_hamilcar_barca",
+      "type": "direct",
+      "label": "Barcid Dynasty founder"
+    },
+    {
+      "from": "cls3_hamilcar_barca",
+      "to": "cls3_hannibal_barca",
+      "type": "direct",
+      "label": "Father Hamilcar -> Hannibal Barca"
+    },
+    {
+      "from": "cls3_hamilcar_barca",
+      "to": "cls3_hasdrubal_barca",
+      "type": "direct",
+      "label": "Father Hamilcar -> Hasdrubal Barca"
+    },
+    {
+      "from": "cls3_hamilcar_barca",
+      "to": "cls3_mago_barca",
+      "type": "direct",
+      "label": "Father Hamilcar -> Mago Barca"
+    },
+    {
+      "from": "cls3_hamilcar_barca",
+      "to": "cls3_hasdrubal_gisco",
+      "type": "cognate",
+      "label": "Carthaginian leadership of Second Punic War"
+    },
+    {
+      "from": "cls3_hasdrubal_gisco",
+      "to": "cls3_sophonisba",
+      "type": "direct",
+      "label": "Father Hasdrubal Gisco -> Sophonisba"
+    },
+    {
+      "from": "cls_numidia_mauretania",
+      "to": "cls3_gaia",
+      "type": "direct",
+      "label": "Numidian & Mauretanian Royal Succession"
+    },
+    {
+      "from": "cls3_gaia",
+      "to": "cls3_masinissa",
+      "type": "direct",
+      "label": "Numidian & Mauretanian Royal Succession"
+    },
+    {
+      "from": "cls3_masinissa",
+      "to": "cls3_micipsa",
+      "type": "direct",
+      "label": "Numidian & Mauretanian Royal Succession"
+    },
+    {
+      "from": "cls3_micipsa",
+      "to": "cls3_jugurtha",
+      "type": "direct",
+      "label": "Numidian & Mauretanian Royal Succession"
+    },
+    {
+      "from": "cls3_jugurtha",
+      "to": "cls3_juba1",
+      "type": "direct",
+      "label": "Numidian & Mauretanian Royal Succession"
+    },
+    {
+      "from": "jos_juba2",
+      "to": "cls3_ptolemy_mauretania",
+      "type": "direct",
+      "label": "Numidian & Mauretanian Royal Succession"
+    },
+    {
+      "from": "cls3_masinissa",
+      "to": "cls3_sophonisba",
+      "type": "direct",
+      "label": "Brief marriage of Masinissa & Sophonisba"
+    },
+    {
+      "from": "eg_ptolemy_cleopatra",
+      "to": "cls3_cleopatra_selene2",
+      "type": "direct",
+      "label": "Mother Cleopatra VII -> Cleopatra Selene II"
+    },
+    {
+      "from": "mon_rom_mark_antony",
+      "to": "cls3_cleopatra_selene2",
+      "type": "direct",
+      "label": "Father Mark Antony -> Cleopatra Selene II"
+    },
+    {
+      "from": "jos_juba2",
+      "to": "cls3_cleopatra_selene2",
+      "type": "direct",
+      "label": "Marriage of King Juba II & Cleopatra Selene II"
+    },
+    {
+      "from": "cls3_cleopatra_selene2",
+      "to": "cls3_ptolemy_mauretania",
+      "type": "direct",
+      "label": "Mother Cleopatra Selene II -> King Ptolemy of Mauretania"
+    },
+    {
+      "from": "cls_lydia_gyges_croesus",
+      "to": "cls3_gyges",
+      "type": "direct",
+      "label": "Mermnad Lydian Royal Succession"
+    },
+    {
+      "from": "cls3_gyges",
+      "to": "cls3_ardys",
+      "type": "direct",
+      "label": "Mermnad Lydian Royal Succession"
+    },
+    {
+      "from": "cls3_ardys",
+      "to": "cls3_sadyattes",
+      "type": "direct",
+      "label": "Mermnad Lydian Royal Succession"
+    },
+    {
+      "from": "cls3_sadyattes",
+      "to": "cls3_alyattes",
+      "type": "direct",
+      "label": "Mermnad Lydian Royal Succession"
+    },
+    {
+      "from": "cls3_alyattes",
+      "to": "cls3_croesus",
+      "type": "direct",
+      "label": "Mermnad Lydian Royal Succession"
+    },
+    {
+      "from": "cls3_alyattes",
+      "to": "cls3_aryenis",
+      "type": "direct",
+      "label": "Herodotus I.74: Alyattes -> Aryenis"
+    },
+    {
+      "from": "ir_cyaxares",
+      "to": "cls3_aryenis",
+      "type": "direct",
+      "label": "Astyages ben Cyaxares marries Aryenis of Lydia"
+    },
+    {
+      "from": "cls3_croesus",
+      "to": "ir_cyrus",
+      "type": "cognate",
+      "label": "546 BCE: Cyrus defeats Croesus"
+    },
+    {
+      "from": "cls_seleucids",
+      "to": "cls3_seleucus1",
+      "type": "direct",
+      "label": "Seleucid Imperial Succession"
+    },
+    {
+      "from": "cls3_seleucus1",
+      "to": "cls3_antiochus1",
+      "type": "direct",
+      "label": "Seleucid Imperial Succession"
+    },
+    {
+      "from": "cls3_antiochus1",
+      "to": "cls3_antiochus2",
+      "type": "direct",
+      "label": "Seleucid Imperial Succession"
+    },
+    {
+      "from": "cls3_antiochus2",
+      "to": "cls3_seleucus2",
+      "type": "direct",
+      "label": "Seleucid Imperial Succession"
+    },
+    {
+      "from": "cls3_seleucus2",
+      "to": "cls3_antiochus3",
+      "type": "direct",
+      "label": "Seleucid Imperial Succession"
+    },
+    {
+      "from": "cls3_antiochus3",
+      "to": "cls3_seleucus4",
+      "type": "direct",
+      "label": "Seleucid Imperial Succession"
+    },
+    {
+      "from": "cls3_seleucus4",
+      "to": "cls3_demetrius1_soter",
+      "type": "direct",
+      "label": "Seleucid Imperial Succession"
+    },
+    {
+      "from": "cls3_seleucus1",
+      "to": "cls3_apama",
+      "type": "direct",
+      "label": "Susa Marriage (324 BCE): Seleucus I & Apama"
+    },
+    {
+      "from": "cls3_apama",
+      "to": "cls3_antiochus1",
+      "type": "direct",
+      "label": "Mother Apama -> Antiochus I"
+    },
+    {
+      "from": "cls3_antiochus3",
+      "to": "cls3_cleopatra1_syra",
+      "type": "direct",
+      "label": "Antiochus III -> Cleopatra I Syra"
+    },
+    {
+      "from": "cls3_cleopatra1_syra",
+      "to": "egr_ptol_05_ptolemy_v_epiphanes_cleopatr",
+      "type": "direct",
+      "label": "Marriage of Cleopatra I Syra & Ptolemy V (193 BCE)"
+    },
+    {
+      "from": "cls3_antiochus3",
+      "to": "cls3_antiochus4",
+      "type": "direct",
+      "label": "Younger son: Antiochus IV Epiphanes"
+    },
+    {
+      "from": "cls3_antiochus4",
+      "to": "has_mattathias",
+      "type": "cognate",
+      "label": "167 BCE persecution triggers Mattathias's revolt"
+    },
+    {
+      "from": "cls3_antiochus4",
+      "to": "cls3_antiochus5",
+      "type": "direct",
+      "label": "Antiochus IV -> Antiochus V"
+    },
+    {
+      "from": "cls_antigonids_epirus",
+      "to": "cls3_antigonus1",
+      "type": "direct",
+      "label": "Antigonid Macedonian Succession"
+    },
+    {
+      "from": "cls3_antigonus1",
+      "to": "cls3_demetrius_poliorcetes",
+      "type": "direct",
+      "label": "Antigonid Macedonian Succession"
+    },
+    {
+      "from": "cls3_demetrius_poliorcetes",
+      "to": "cls3_antigonus2",
+      "type": "direct",
+      "label": "Antigonid Macedonian Succession"
+    },
+    {
+      "from": "cls3_antigonus2",
+      "to": "cls3_philip5",
+      "type": "direct",
+      "label": "Antigonid Macedonian Succession"
+    },
+    {
+      "from": "cls3_philip5",
+      "to": "cls3_perseus_macedon",
+      "type": "direct",
+      "label": "Antigonid Macedonian Succession"
+    },
+    {
+      "from": "grkr_b3_neoptolemus",
+      "to": "cls3_pyrrhus_epirus",
+      "type": "direct",
+      "label": "Molossian Aeacid descent -> King Pyrrhus"
+    },
+    {
+      "from": "cls_pontus_mithridates",
+      "to": "cls3_mithridates1",
+      "type": "direct",
+      "label": "Pontic Royal Succession"
+    },
+    {
+      "from": "cls3_mithridates1",
+      "to": "cls3_pharnaces1",
+      "type": "direct",
+      "label": "Pontic Royal Succession"
+    },
+    {
+      "from": "cls3_pharnaces1",
+      "to": "cls3_mithridates6",
+      "type": "direct",
+      "label": "Pontic Royal Succession"
+    },
+    {
+      "from": "cls3_mithridates6",
+      "to": "cls3_pharnaces2",
+      "type": "direct",
+      "label": "Pontic Royal Succession"
+    },
+    {
+      "from": "cls3_mithridates6",
+      "to": "cls3_cleopatra_pontus",
+      "type": "direct",
+      "label": "Mithridates VI -> daughter Cleopatra"
+    },
+    {
+      "from": "cls_armenia_tigranes",
+      "to": "cls3_artaxias1",
+      "type": "direct",
+      "label": "Artaxiad Armenian Succession"
+    },
+    {
+      "from": "cls3_artaxias1",
+      "to": "cls3_tigranes2_great",
+      "type": "direct",
+      "label": "Artaxiad Armenian Succession"
+    },
+    {
+      "from": "cls3_tigranes2_great",
+      "to": "cls3_artavasdes2",
+      "type": "direct",
+      "label": "Artaxiad Armenian Succession"
+    },
+    {
+      "from": "cls3_cleopatra_pontus",
+      "to": "cls3_artavasdes2",
+      "type": "direct",
+      "label": "Mother Cleopatra of Pontus -> Artavasdes II"
+    },
+    {
+      "from": "cls_bactria_menander",
+      "to": "cls3_diodotus1",
+      "type": "direct",
+      "label": "Greco-Bactrian & Indo-Greek Succession"
+    },
+    {
+      "from": "cls3_diodotus1",
+      "to": "cls3_euthydemus1",
+      "type": "direct",
+      "label": "Greco-Bactrian & Indo-Greek Succession"
+    },
+    {
+      "from": "cls3_euthydemus1",
+      "to": "cls3_demetrius1_bactria",
+      "type": "direct",
+      "label": "Greco-Bactrian & Indo-Greek Succession"
+    },
+    {
+      "from": "cls3_demetrius1_bactria",
+      "to": "cls3_menander1",
+      "type": "direct",
+      "label": "Greco-Bactrian & Indo-Greek Succession"
+    },
+    {
+      "from": "grk_inachus_io",
+      "to": "cls3_aegialeus_sicyon",
+      "type": "direct",
+      "label": "Apollodorus II.i.1 & Eusebius p.53: Inachus -> Aegialeus of Sicyon"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "cls3_aegialeus_sicyon",
+      "type": "cognate",
+      "label": "Eusebius Chronicle p.53: Synchronizes Aegialeus with Nimrod/Belus"
+    },
+    {
+      "from": "cls_adiabene_edessa",
+      "to": "cls3_abgar5_edessa",
+      "type": "direct",
+      "label": "Osroene / Edessa royal house"
+    },
+    {
+      "from": "rom3_king_latinus",
+      "to": "rom3_lavinia",
+      "type": "direct",
+      "label": "Dionysius I.60: King Latinus -> Lavinia"
+    },
+    {
+      "from": "grk_aeneas",
+      "to": "rom3_lavinia",
+      "type": "direct",
+      "label": "Marriage of Aeneas & Lavinia"
+    },
+    {
+      "from": "grk_aeneas",
+      "to": "rom3_ascanius_iulus",
+      "type": "direct",
+      "label": "Dionysius I.65: Aeneas -> Ascanius / Iulus"
+    },
+    {
+      "from": "grkr_b3_creusa_troy",
+      "to": "rom3_ascanius_iulus",
+      "type": "direct",
+      "label": "Mother Creusa -> Ascanius"
+    },
+    {
+      "from": "rom_alba_longa",
+      "to": "rom3_ascanius_iulus",
+      "type": "direct",
+      "label": "Founder of Alba Longa"
+    },
+    {
+      "from": "grk_aeneas",
+      "to": "rom3_silvius",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_silvius",
+      "to": "rom3_aeneas_silvius",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_aeneas_silvius",
+      "to": "rom3_latinus_silvius",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_latinus_silvius",
+      "to": "rom3_alba",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_alba",
+      "to": "rom3_atys_alba",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_atys_alba",
+      "to": "rom3_capys_alba",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_capys_alba",
+      "to": "rom3_capetus",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_capetus",
+      "to": "rom3_tiberinus",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_tiberinus",
+      "to": "rom3_agrippa_alba",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_agrippa_alba",
+      "to": "rom3_romulus_silvius",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_romulus_silvius",
+      "to": "rom3_aventinus",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_aventinus",
+      "to": "rom3_procas",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_procas",
+      "to": "rom3_numitor",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_numitor",
+      "to": "rom3_rhea_silvia",
+      "type": "direct",
+      "label": "Alban Royal Succession (Dionysius I.70–71)"
+    },
+    {
+      "from": "rom3_lavinia",
+      "to": "rom3_silvius",
+      "type": "direct",
+      "label": "Mother Lavinia -> Silvius"
+    },
+    {
+      "from": "rom3_procas",
+      "to": "rom3_amulius",
+      "type": "direct",
+      "label": "Procas -> Amulius"
+    },
+    {
+      "from": "rom3_rhea_silvia",
+      "to": "rom3_remus",
+      "type": "direct",
+      "label": "Rhea Silvia -> Remus"
+    },
+    {
+      "from": "rom_alba_longa",
+      "to": "rom3_procas",
+      "type": "expansion",
+      "label": "Alba Longa royal summary anchor"
+    },
+    {
+      "from": "grk_romulus_remus",
+      "to": "rom3_numa_pompilius",
+      "type": "direct",
+      "label": "Roman Regal Succession (753–509 BCE)"
+    },
+    {
+      "from": "rom3_numa_pompilius",
+      "to": "rom3_tullus_hostilius",
+      "type": "direct",
+      "label": "Roman Regal Succession (753–509 BCE)"
+    },
+    {
+      "from": "rom3_tullus_hostilius",
+      "to": "rom3_ancus_marcius",
+      "type": "direct",
+      "label": "Roman Regal Succession (753–509 BCE)"
+    },
+    {
+      "from": "rom3_ancus_marcius",
+      "to": "rom3_tarquinius_priscus",
+      "type": "direct",
+      "label": "Roman Regal Succession (753–509 BCE)"
+    },
+    {
+      "from": "rom3_tarquinius_priscus",
+      "to": "rom3_servius_tullius",
+      "type": "direct",
+      "label": "Roman Regal Succession (753–509 BCE)"
+    },
+    {
+      "from": "rom3_servius_tullius",
+      "to": "rom3_tarquinius_superbus",
+      "type": "direct",
+      "label": "Roman Regal Succession (753–509 BCE)"
+    },
+    {
+      "from": "rom_seven_kings",
+      "to": "rom3_numa_pompilius",
+      "type": "direct",
+      "label": "Seven Kings of Rome anchor"
+    },
+    {
+      "from": "grk_julius_augustus",
+      "to": "rom3_julius_caesar",
+      "type": "direct",
+      "label": "Gens Julia -> Gaius Julius Caesar"
+    },
+    {
+      "from": "grk_julius_augustus",
+      "to": "rom3_julia_minor",
+      "type": "direct",
+      "label": "Gens Julia -> Julia Minor"
+    },
+    {
+      "from": "rom3_julia_minor",
+      "to": "rom3_atia",
+      "type": "direct",
+      "label": "Mother Julia Minor -> Atia Balba"
+    },
+    {
+      "from": "rom3_atia",
+      "to": "rom3_octavia_minor",
+      "type": "direct",
+      "label": "Mother Atia -> Octavia Minor"
+    },
+    {
+      "from": "rom3_atia",
+      "to": "rom3_augustus",
+      "type": "direct",
+      "label": "Mother Atia -> Emperor Augustus"
+    },
+    {
+      "from": "rom3_julius_caesar",
+      "to": "rom3_augustus",
+      "type": "expansion",
+      "label": "Adoptive father Julius Caesar -> Augustus"
+    },
+    {
+      "from": "rom_julio_claudians",
+      "to": "rom3_augustus",
+      "type": "direct",
+      "label": "Julio-Claudian Dynasty founder Augustus"
+    },
+    {
+      "from": "rom3_augustus",
+      "to": "rom3_livia_drusilla",
+      "type": "direct",
+      "label": "51-year marriage of Augustus & Empress Livia"
+    },
+    {
+      "from": "rom3_augustus",
+      "to": "rom3_julia_elder",
+      "type": "direct",
+      "label": "Father Augustus -> Julia the Elder"
+    },
+    {
+      "from": "rom3_julia_elder",
+      "to": "rom3_marcus_agrippa",
+      "type": "direct",
+      "label": "Marriage of Julia & Marcus Agrippa"
+    },
+    {
+      "from": "rom3_julia_elder",
+      "to": "rom3_agrippina_elder",
+      "type": "direct",
+      "label": "Mother Julia -> Agrippina the Elder"
+    },
+    {
+      "from": "rom3_marcus_agrippa",
+      "to": "rom3_agrippina_elder",
+      "type": "direct",
+      "label": "Father Marcus Agrippa -> Agrippina the Elder"
+    },
+    {
+      "from": "rom3_livia_drusilla",
+      "to": "mon_rom_tiberius",
+      "type": "direct",
+      "label": "Mother Livia -> Emperor Tiberius"
+    },
+    {
+      "from": "rom3_livia_drusilla",
+      "to": "rom3_drusus_elder",
+      "type": "direct",
+      "label": "Mother Livia -> Drusus the Elder"
+    },
+    {
+      "from": "mon_rom_mark_antony",
+      "to": "rom3_octavia_minor",
+      "type": "direct",
+      "label": "Marriage of Mark Antony & Octavia Minor"
+    },
+    {
+      "from": "rom3_octavia_minor",
+      "to": "rom3_antonia_minor",
+      "type": "direct",
+      "label": "Mother Octavia Minor -> Antonia Minor"
+    },
+    {
+      "from": "mon_rom_mark_antony",
+      "to": "rom3_antonia_minor",
+      "type": "direct",
+      "label": "Father Mark Antony -> Antonia Minor"
+    },
+    {
+      "from": "rom3_drusus_elder",
+      "to": "rom3_antonia_minor",
+      "type": "direct",
+      "label": "Marriage of Drusus the Elder & Antonia Minor"
+    },
+    {
+      "from": "rom3_drusus_elder",
+      "to": "rom3_germanicus",
+      "type": "direct",
+      "label": "Father Drusus -> General Germanicus"
+    },
+    {
+      "from": "rom3_antonia_minor",
+      "to": "rom3_germanicus",
+      "type": "direct",
+      "label": "Mother Antonia Minor -> General Germanicus"
+    },
+    {
+      "from": "rom3_drusus_elder",
+      "to": "mon_rom_claudius",
+      "type": "direct",
+      "label": "Father Drusus -> Emperor Claudius"
+    },
+    {
+      "from": "rom3_antonia_minor",
+      "to": "mon_rom_claudius",
+      "type": "direct",
+      "label": "Mother Antonia Minor -> Emperor Claudius"
+    },
+    {
+      "from": "rom3_germanicus",
+      "to": "rom3_agrippina_elder",
+      "type": "direct",
+      "label": "Marriage of Germanicus & Agrippina the Elder"
+    },
+    {
+      "from": "rom3_germanicus",
+      "to": "mon_rom_caligula",
+      "type": "direct",
+      "label": "Father Germanicus -> Emperor Caligula"
+    },
+    {
+      "from": "rom3_agrippina_elder",
+      "to": "mon_rom_caligula",
+      "type": "direct",
+      "label": "Mother Agrippina -> Emperor Caligula"
+    },
+    {
+      "from": "rom3_germanicus",
+      "to": "rom3_agrippina_younger",
+      "type": "direct",
+      "label": "Father Germanicus -> Agrippina the Younger"
+    },
+    {
+      "from": "rom3_agrippina_elder",
+      "to": "rom3_agrippina_younger",
+      "type": "direct",
+      "label": "Mother Agrippina I -> Agrippina the Younger"
+    },
+    {
+      "from": "rom3_agrippina_younger",
+      "to": "mon_rom_nero",
+      "type": "direct",
+      "label": "Mother Agrippina II -> Emperor Nero"
+    },
+    {
+      "from": "rom_constantine_byzantium",
+      "to": "rom3_constantius_chlorus",
+      "type": "direct",
+      "label": "Constantinian Dynasty founder"
+    },
+    {
+      "from": "rom3_constantius_chlorus",
+      "to": "rom3_st_helena",
+      "type": "direct",
+      "label": "Constantius Chlorus & St. Helena"
+    },
+    {
+      "from": "rom3_constantius_chlorus",
+      "to": "mon_rom_constantine1",
+      "type": "direct",
+      "label": "Constantius Chlorus -> Constantine I"
+    },
+    {
+      "from": "rom3_st_helena",
+      "to": "mon_rom_constantine1",
+      "type": "direct",
+      "label": "Mother St. Helena -> Constantine I"
+    },
+    {
+      "from": "mon_rom_constantine1",
+      "to": "rom3_constantine2",
+      "type": "direct",
+      "label": "Constantine I -> Constantine II"
+    },
+    {
+      "from": "mon_rom_constantine1",
+      "to": "rom3_constantius2",
+      "type": "direct",
+      "label": "Constantine I -> Constantius II"
+    },
+    {
+      "from": "mon_rom_constantine1",
+      "to": "rom3_constans",
+      "type": "direct",
+      "label": "Constantine I -> Constans I"
+    },
+    {
+      "from": "mon_rom_theodosius1",
+      "to": "rom3_arcadius",
+      "type": "direct",
+      "label": "Chronicon Paschale p.80: Theodosius I -> Arcadius"
+    },
+    {
+      "from": "mon_rom_theodosius1",
+      "to": "rom3_honorius",
+      "type": "direct",
+      "label": "Theodosius I -> Honorius"
+    },
+    {
+      "from": "mon_rom_theodosius1",
+      "to": "rom3_galla_placidia",
+      "type": "direct",
+      "label": "Theodosius I -> Galla Placidia"
+    },
+    {
+      "from": "rom3_galla_placidia",
+      "to": "rom3_valentinian3",
+      "type": "direct",
+      "label": "Mother Galla Placidia -> Valentinian III"
+    }
+  ]
+}

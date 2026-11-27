@@ -154,6 +154,12 @@ def main():
         ("bib_abraham", "tri_dan", {"direct", "expansion"}, "Abraham -> Rotheus -> Bilhah -> Tribe of Dan (Testament of Naphtali / Ginzberg)"),
         ("chr41_sheshan_jarha_egypt", "chr2_elishama", {"direct", "expansion"}, "Sheshan -> Ahlai + Jarha the Egyptian -> 13-Generation Pedigree to Elishama (1 Chr 2:34-41)"),
         ("pri_eleazar_zadok", "bib16_pri_14_high_priest_onias_iv_built_l", {"direct", "expansion"}, "Zadok I -> ... -> Jehozadak -> Jeshua -> Jaddua -> Onias I -> Simon I -> Onias II -> Simon II -> Onias III -> Onias IV"),
+        ("eg_menes", "grk_aegyptus_danaus", {"direct", "expansion", "syncretic"}, "Menes -> Dynasties I–XVIII -> Horemheb/Harmais -> Danaus (Manetho Fr. 50/53)"),
+        ("grk_inachus_io", "jos_sparta_lycurgus_leonidas", {"direct", "expansion", "cognate", "syncretic"}, "Inachus -> Perseus -> Heracles -> Eurysthenes -> Agiad Kings of Sparta (Leonidas I)"),
+        ("grk_aeneas", "grk_romulus_remus", {"direct", "expansion"}, "Aeneas -> Silvius -> 14 Kings of Alba Longa -> Numitor -> Rhea Silvia -> Romulus"),
+        ("rom3_julius_caesar", "mon_rom_caligula", {"direct", "expansion"}, "Julius Caesar -> Julia Minor -> Atia -> Octavia Minor -> Antonia Minor -> Germanicus -> Caligula"),
+        ("cls3_abibaal", "cls3_hannibal_barca", {"direct", "expansion"}, "Abibaal -> Hiram I -> Ethbaal I -> Mattan I -> Dido (Carthage) -> Hamilcar -> Hannibal Barca"),
+        ("eg_ptolemies_complete", "cls3_ptolemy_mauretania", {"direct", "expansion"}, "Ptolemies -> Cleopatra VII -> Cleopatra Selene II -> King Ptolemy of Mauretania"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

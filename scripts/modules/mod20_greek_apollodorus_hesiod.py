@@ -1,177 +1,406 @@
 """
-Module 20: Complete Greek Mythological & Heroic Genealogical System
+Module 20: Person-by-Person Greek Mythological & Heroic Genealogical System
 from Pseudo-Apollodorus's Bibliotheca (Loeb/Frazer) & Hesiod's Theogony / Catalogue of Women.
 
-Covers all 8 great heroic houses:
+Rewired into exact parent->child, marriage, and dynastic arrows across all 8 great heroic houses:
 1. Hesiodic Cosmogony, Titans, Pontus/Nereids, 12 Olympians & 9 Muses
-2. Deucalionids, Aeolids (7 sons & 5 daughters), Aetolians (Meleager/Diomedes) & Argonauts (Jason/Medea)
+2. Deucalionids, Aeolids, Aetolians & Argonauts (Jason/Medea)
 3. Inachids, Belus/Danaids (Hypermnestra/Lynceus), Perseus/Perseids & Complete Heracles / Heraclidae
-4. Agenorids: Europa -> Minos (Crete/Minotaur/Idomeneus) & Cadmus -> Thebes (Dionysus, Oedipus, Seven & Epigoni)
+4. Agenorids: Europa -> Minos (Crete) & Cadmus -> Thebes (Dionysus, Oedipus, Epigoni)
 5. Pelasgids (Arcadia: Lycaon, Callisto, Arcas, Telephus, Atalanta)
-6. Atlantids (7 Pleiades -> Hermes, Sparta [Lacedaemon, Tyndareus, Leda, Helen, Castor/Pollux], Troy [Dardanus -> Priam & Aeneas])
-7. Asopids (Aeacus -> Peleus/Achilles/Neoptolemus & Telamon/Ajax/Teucer)
-8. Cecropids/Erechtheids (Kings of Athens: Cecrops, Erichthonius, Pandion, Erechtheus, Aegeus, Theseus) & Pelopids (Tantalus, Pelops, Atreus, Agamemnon, Orestes)
+6. Atlantids (Pleiades -> Hermes, Sparta [Lacedaemon, Tyndareus, Leda, Helen, Castor, Pollux], Troy [Dardanus -> Priam & Aeneas])
+7. Asopids (Aeacus -> Telamon/Ajax/Teucer & Peleus/Thetis/Achilles/Neoptolemus -> Olympias -> Alexander)
+8. Cecropids/Erechtheids (Kings of Athens) & Pelopids (Tantalus, Pelops, Atreus, Agamemnon, Orestes)
 """
 
-from . import N, E, add_chain, add_roster
+from . import N, E
 
 
 def build_module():
     nodes, edges = [], []
 
-    # 1. Primordials, Titans, Pontus, Olympians & Muses (Apollodorus I.i-vi; Hesiod Theogony)
+    # -------------------------------------------------------------------------
+    # 1. STRUCTURAL HEROIC HOUSE ANCHORS (Preserving Existing mod20 Anchor IDs)
+    # -------------------------------------------------------------------------
     nodes += [
-        N("grk_nyx_pontus_nereids", "Hesiodic Primordials: Chaos → Nyx/Erebus & Gaia → Pontus (Phorcys, Ceto, Gorgons, Nereus & 50 Nereids incl. Thetis)", "greek", 1, "Greek Cosmogony (Hesiod Theog. 116-264; Apollodorus I.ii.6)",
-          "Sea Deities, Gorgons & Ancestors of Achilles's Mother Thetis", ["Hesiod Theogony 116-264", "Apollodorus Library I.ii.6-7"],
-          "Pontus + Gaia -> Phorcys & Ceto (Graiae, Gorgons Stheno/Euryale/Medusa -> Pegasus & Chrysaor -> Geryon & Echidna!) and Nereus + Doris -> 50 Nereids (Amphitrite, Thetis [mother of Achilles!], Calypso, Galatea).",
-          ["Nyx & Erebus", "Pontus", "Medusa & Pegasus", "Nereus & 50 Nereids"]),
-        N("grk_titans_complete", "Complete 12 Titans: Oceanus/Tethys, Coeus/Phoebe (Leto/Asteria), Hyperion/Theia (Helios/Selene/Eos), Crius (Astraeus/Pallas/Perses → Hecate), Iapetus & Cronus/Rhea", "greek", 2, "Titanomachy Era (Apollodorus I.i.3-I.ii.4; Hesiod Theog.)",
-          "Complete Titan Generation & Sun/Moon/Dawn Lineages", ["Apollodorus Library I.i.3-I.ii.4", "Hesiod Theogony 337-452"],
-          "Hyperion + Theia -> Helios (father of Circe, Pasiphae & Aeetes of Colchis -> Medea!), Selene, Eos (mother of Memnon & Phaethon). Coeus + Phoebe -> Leto (mother of Apollo & Artemis) & Asteria (mother of Hecate). Pallas + Styx -> Nike, Cratos, Zelus, Bia.",
-          ["Helios -> Aeetes -> Medea", "Leto -> Apollo & Artemis", "Hecate", "Nike"]),
-        N("grk_muses_orpheus", "Zeus & Mnemosyne → 9 Muses (Calliope → Orpheus & Linus), Horae, Moerae (Fates) & Charites (Graces)", "greek", 3, "Olympian Generation (Apollodorus I.iii.1-4; Hesiod Theog. 901-920)",
-          "Divine Patrons of Arts, Fate & Mythic Poets", ["Apollodorus Library I.iii.1-4", "Hesiod Theogony 901-920"],
-          "Calliope + Oeagrus (or Apollo) -> Orpheus (Argonaut & singer) & Linus; Zeus + Themis -> 3 Horae (Eirene, Eunomia, Dike) & 3 Fates (Clotho, Lachesis, Atropos); Zeus + Demeter -> Persephone; Zeus + Metis -> Athena.",
-          ["9 Muses", "Orpheus", "Persephone", "Three Fates"]),
-
-        # 2. Deucalionids, Aeolids, Aetolians & Argonauts (Apollodorus I.vii-ix)
-        N("grk_aetolia_meleager_diomedes", "Aethlius & Calyce → Endymion → Aetolus → Porthaon → Oeneus → Meleager, Deianira & Tydeus → Diomedes", "greek", 9, "Heroic Age (Apollodorus I.vii.5-I.viii.6)",
-          "Aetolian Royal House (Calydonian Boar Hunt & Hero Diomedes of Troy)", ["Apollodorus Library I.vii.5-I.viii.6"],
-          "Calyce (daughter of Aeolus) + Aethlius (son of Protogonia dau. of Deucalion) -> Endymion -> Aetolus -> Pleuron/Calydon -> Agenor -> Porthaon -> Oeneus (+ Althaea -> Meleager & Deianira [wife of Heracles!]; + Periboea -> Tydeus [Seven Against Thebes] -> Diomedes [Iliad hero!]).",
-          ["Endymion", "Meleager", "Deianira", "Tydeus", "Diomedes"]),
-        N("grk_neleus_nestor_pelias", "Salmoneus → Tyro (+ Poseidon) → Pelias (Iolcus) & Neleus (Pylos) → Nestor (Trojan War Counselor)", "greek", 9, "Heroic Age (Apollodorus I.ix.8-9)",
-          "Neleid Kings of Pylos & Pelias of Iolcus", ["Apollodorus Library I.ix.8-9"],
-          "Tyro bore twins Pelias (usurped Iolcus -> Alcestis & Acastus) and Neleus (+ Chloris -> 12 sons, of whom only Nestor survived Heracles's raid, becoming the wise elder king of Pylos at Troy -> Antilochus & Pisistratus!).",
-          ["Tyro", "Pelias", "Neleus", "King Nestor of Pylos"]),
-        N("grk_jason_argonauts_medea", "Cretheus → Aeson → Jason (Argonauts + Medea of Colchis), Amythaon (Melampus/Adrastus) & Pheres (Admetus)", "greek", 9, "Generation Before Troy (Apollodorus I.ix.11-28)",
-          "Cretheid House of Iolcus, Seer Melampus & Leader of the Argonauts", ["Apollodorus Library I.ix.11-28", "Hesiod Theogony 992-1002"],
-          "Aeson -> Jason (led the Argonauts to Colchis to win the Golden Fleece from King Aeetes; married Medea -> Medeus/Medus, eponymous ancestor of the Medes in Greek myth!). Amythaon -> Melampus (seer -> Amphiaraus) & Bias -> Talaus -> King Adrastus of Argos.",
-          ["Jason & the Argonauts", "Medea", "Melampus", "Adrastus", "Admetus & Alcestis"], major=True),
-        N("grk_bellerophon_glaucus", "Sisyphus (+ Merope) → Glaucus → Bellerophon (Slayer of the Chimera) & Phrixus/Helle (Athamas)", "greek", 9, "Heroic Age (Apollodorus I.ix.1-3)",
-          "Corinthian & Boeotian Aeolids (Pegasus, Chimera & Golden Fleece)", ["Apollodorus Library I.ix.1-3"],
-          "Sisyphus (founder of Corinth) -> Glaucus -> Bellerophon (rode winged Pegasus to slay the Chimera in Lycia -> grandfather of Trojan War allies Glaucus & Sarpedon!). Athamas -> Phrixus & Helle (origin of the Golden Fleece & Hellespont!).",
-          ["Bellerophon", "Phrixus & Helle"]),
-
-        # 3. Inachids, Danaids, Perseus & Complete Heraclidae (Apollodorus II.i-viii)
-        N("grk_hypermnestra_abas_danae", "Hypermnestra & Lynceus → Abas → Acrisius (→ Danaë → Perseus) & Proetus (Tiryns)", "greek", 9, "Argive Heroic Era (Apollodorus II.i.5-II.iv.4)",
-          "Sole Surviving Danaid Line Bridging Egypt (Belus/Aegyptus) to Perseus", ["Apollodorus Library II.i.5-II.iv.4"],
-          "Hypermnestra spared her husband Lynceus (son of Aegyptus), becoming ancestor of all later Argive & Mycenaean kings: Abas -> twin kings Acrisius (Argos -> Danae + Zeus -> Perseus!) and Proetus (Tiryns -> Megapenthes).",
-          ["Hypermnestra & Lynceus", "Abas", "Acrisius", "Danae"]),
-        N("grk_perseids_alcmene", "Perseus & Andromeda → Perses, Alcaeus (→ Amphitryon), Sthenelus (→ Eurystheus) & Electryon (→ Alcmene → Heracles)", "greek", 10, "Mycenaean Heroic Era (Apollodorus II.iv.5-8)",
-          "Complete Perseid Royal House of Mycenae & Tiryns", ["Apollodorus Library II.iv.5-8"],
-          "Perseus's sons married daughters of Pelops: Sthenelus -> Eurystheus (taskmaster of Heracles's 12 Labors); Alcaeus -> Amphitryon; Electryon -> Alcmene (bore Heracles by Zeus & twin Iphicles -> Iolaus by Amphitryon!).",
-          ["Alcmene", "Amphitryon", "Eurystheus", "Iphicles & Iolaus"]),
-        N("grk_heraclidae_return", "Return of the Heraclidae: Heracles → Hyllus → Cleodaeus → Aristomachus → Temenus (Argos), Cresphontes (Messene) & Aristodemus (→ Eurysthenes & Procles of Sparta!)", "greek", 12, "c. 1104 BCE Traditional (Apollodorus II.viii.1-5)",
-          "Dorian Conquest of the Peloponnese & Dual Kingship of Sparta", ["Apollodorus Library II.viii.1-5"],
-          "Three generations after Hyllus, the Heraclidae conquered the Peloponnese with the Dorians: Temenus received Argos (ancestors of the Argead Kings of Macedon -> Alexander the Great!); Cresphontes took Messene; Aristodemus's twins Eurysthenes & Procles founded the Agiad & Eurypontid dual royal dynasties of Sparta (down to Leonidas of Thermopylae!).",
-          ["Hyllus", "Temenus (Argos/Macedon)", "Eurysthenes & Procles (Sparta)", "King Leonidas"], major=True),
-
-        # 4. Agenorids: Crete (Minos) & Thebes (Cadmus -> Oedipus -> Epigoni) (Apollodorus III.i-vii)
-        N("grk_minos_crete_family", "Minos & Pasiphaë → Catreus (→ Aerope), Deucalion (→ Idomeneus), Ariadne, Phaedra & Minotaur", "greek", 10, "Minoan Crete Heroic Era (Apollodorus III.i.2-III.iii.2)",
-          "Complete Cretan Royal Family (Bridging Minos to Agamemnon & Theseus!)", ["Apollodorus Library III.i.2-III.iii.2"],
-          "Minos's son Catreus fathered Aerope (mother of Agamemnon & Menelaus!) and Clymene (mother of Palamedes); son Deucalion fathered Trojan War commander Idomeneus; daughters Ariadne & Phaedra linked Crete to Theseus of Athens.",
-          ["Pasiphae", "Ariadne", "Phaedra", "Idomeneus", "Aerope"]),
-        N("grk_thebes_oedipus_epigoni", "Cadmus & Harmonia → Polydorus → Labdacus → Laius (+ Jocasta) → Oedipus → Eteocles, Polynices, Antigone & Ismene (Seven Against Thebes & Epigoni)", "greek", 10, "Theban Cycle (Apollodorus III.iv.1-III.vii.7)",
-          "Complete Labdacid Dynasty of Thebes (Plus Semele → Dionysus & Illyrius)", ["Apollodorus Library III.iv.1-III.vii.7"],
-          "Cadmus's daughters: Semele (mother of Dionysus), Ino, Autonoe (mother of Actaeon), Agave (mother of Pentheus). Son Illyrius (eponym of Illyria!). Polydorus -> Labdacus -> Laius -> Oedipus -> Seven Against Thebes (Polynices, Adrastus, Tydeus, Amphiaraus, Capaneus, Hippomedon, Parthenopaeus) & Epigoni (Alcmaeon, Diomedes, Thersander).",
-          ["Labdacus", "Laius & Jocasta", "Oedipus", "Antigone", "Illyrius", "Alcmaeon"], major=True),
-
-        # 5. Pelasgids (Arcadia) & Atlantids (Pleiades -> Sparta) (Apollodorus III.viii-xi)
-        N("grk_arcadia_pelasgus_atalanta", "Pelasgus → Lycaon (50 Sons & Callisto) → Arcas → Aleus (→ Auge + Heracles → Telephus) & Atalanta", "greek", 9, "Arcadian Heroic Era (Apollodorus III.viii.1-III.ix.2)",
-          "Autochthonous Pelasgian Kings of Arcadia & Heroine Atalanta", ["Apollodorus Library III.viii.1-III.ix.2"],
-          "Lycaon's impiety triggered Deucalion's Flood (only son Nyctimus survived); Callisto + Zeus -> Arcas (eponym of Arcadia & Ursa Major) -> Elatus & Aphidas -> Aleus -> Auge (+ Heracles -> King Telephus of Mysia!) & Lycurgus -> Iasus -> Atalanta (mother of Parthenopaeus).",
-          ["Pelasgus", "Lycaon", "Callisto & Arcas", "Telephus of Mysia", "Atalanta"]),
-        N("grk_sparta_tyndareus_helen", "Atlas & Pleione → 7 Pleiades (Maia → Hermes; Taygete → Lacedaemon → Tyndareus + Leda → Helen, Clytemnestra, Castor & Pollux; Icarius → Penelope)", "greek", 10, "Spartan Heroic Era (Apollodorus III.x.1-III.xi.2)",
-          "Complete Atlantid Line of Hermes, Sparta, Helen of Troy & Penelope", ["Apollodorus Library III.x.1-III.xi.2", "Hesiod Catalogue fr. 66"],
-          "Lacedaemon (+ Sparta) -> Amyclas -> Cynortes -> Perieres/Oebalus -> Tyndareus (+ Leda -> Helen, Clytemnestra, Dioscuri Castor & Pollux) & Icarius (father of Penelope, wife of Odysseus!). Leucippus's daughter Arsinoe/Coronis + Apollo -> Asclepius (god of medicine!).",
-          ["7 Pleiades", "Hermes", "Lacedaemon", "Tyndareus & Leda", "Helen of Troy", "Castor & Pollux", "Penelope", "Asclepius"], major=True),
-
-        # 6. Asopids (Aeacus -> Achilles & Ajax) & Cecropids (Athens -> Theseus) (Apollodorus III.xii-xv)
-        N("grk_asopids_aeacus_ajax", "Asopus → Aegina (+ Zeus) → Aeacus → Telamon (→ Ajax & Teucer) & Peleus (+ Thetis → Achilles → Neoptolemus)", "greek", 10, "Aegina, Salamis & Phthia (Apollodorus III.xii.6-III.xiii.8)",
-          "Aeacid Heroes of the Trojan War & Ancestors of Olympias/Alexander!", ["Apollodorus Library III.xii.6-III.xiii.8"],
-          "Aeacus (Judge of the Dead) fathered Telamon (King of Salamis -> Ajax the Great & Teucer [founder of Salamis in Cyprus!]) and Peleus (+ Nereid Thetis -> Achilles -> Neoptolemus/Pyrrhus, ancestor of the Molossian Kings of Epirus, Queen Olympias [mother of Alexander the Great!], and King Pyrrhus!).",
-          ["Aeacus", "Telamon & Ajax", "Peleus & Thetis", "Neoptolemus / Pyrrhus"], major=True),
-        N("grk_athens_cecrops_theseus", "Kings of Athens: Cecrops → Erichthonius → Pandion I (Procne/Philomela) → Erechtheus (Creusa/Orithyia) → Aegeus → Theseus → Demophon", "greek", 10, "Attic Heroic Era (Apollodorus III.xiv.1-Epit. I; Eusebius)",
-          "Complete Mythic Royal Genealogy of Athens (Slayer of the Minotaur)", ["Apollodorus Library III.xiv.1-III.xv.8", "Eusebius Chronicle (Athenian Kings)"],
-          "Earth-born Cecrops (1st King of Athens) -> Erichthonius -> Pandion I -> Erechtheus (daughter Creusa married Xuthus -> Ion, eponym of Ionians!) -> Pandion II -> Aegeus (+ Aethra of Troezen, dau. of Pittheus son of Pelops!) -> Theseus (slew Minotaur; + Antiope -> Hippolytus; + Phaedra -> Acamas & Demophon).",
-          ["Cecrops", "Erichthonius", "Erechtheus", "Aegeus", "Theseus of Athens"], major=True),
-        N("grk_pelopids_orestes", "Tantalus → Niobe & Pelops (+ Hippodamia) → Atreus, Thyestes & Pittheus → Agamemnon, Menelaus, Aegisthus, Iphigenia, Electra & Orestes", "greek", 10, "Mycenaean Pelopid Cycle (Apollodorus Epit. II-VI)",
-          "Complete House of Atreus from Tantalus to Orestes & Tisamenus", ["Apollodorus Library Epitome II-VI"],
-          "Tantalus -> Pelops (eponym of Peloponnese!) -> Atreus (+ Aerope of Crete -> Agamemnon & Menelaus), Thyestes (-> Aegisthus), Pittheus (grandfather of Theseus!), plus daughters Astydamia/Nicippe/Lysidice (mothers of Perseids!). Agamemnon + Clytemnestra -> Orestes (+ Hermione -> Tisamenus, slain by Heraclidae!), Electra & Iphigenia.",
-          ["Tantalus", "Niobe", "Thyestes & Aegisthus", "Orestes & Electra", "Iphigenia"]),
+        N("grk_nyx_pontus_nereids", "Pontus, Phorcys, Ceto & Nereus (Greek Sea Cosmogony)", "greek", 1, "Greek Cosmogony (Hesiod Theog. 116-264; Apollodorus I.ii.6)",
+          "Sea Deities & Ancestors of Thetis", ["Hesiod Theogony 116-264", "Apollodorus Library I.ii.6-7"],
+          "Pontus + Gaia -> Phorcys & Ceto (-> Graiae & Gorgon Medusa) and Nereus + Doris -> 50 Nereids (including Thetis, mother of Achilles).",
+          ["Nyx & Erebus", "Pontus", "Nereus & 50 Nereids"]),
+        N("grk_titans_complete", "Hyperion, Coeus, Crius & Titan House (Hesiod / Apollodorus I.ii)", "greek", 2, "Titanomachy Era (Apollodorus I.i.3-I.ii.4; Hesiod Theog.)",
+          "Titan Generation Anchor", ["Apollodorus Library I.i.3-I.ii.4", "Hesiod Theogony 337-452"],
+          "Unites Hyperion/Theia (-> Helios, Selene, Eos), Coeus/Phoebe (-> Leto, Asteria), and Crius (-> Perses -> Hecate)."),
+        N("grk_muses_orpheus", "Calliope & the Nine Muses (Zeus + Mnemosyne, Hesiod Theog. 53–920)", "greek", 3, "Olympian Generation (Apollodorus I.iii.1-4; Hesiod Theog. 901-920)",
+          "Patrons of Arts & Poetry", ["Apollodorus Library I.iii.1-4", "Hesiod Theogony 901-920"],
+          "Calliope (+ Oeagrus/Apollo) -> Orpheus & Linus; Zeus + Themis -> Horae & Fates."),
+        N("grk_aetolia_meleager_diomedes", "Calyce (Daughter of Aeolus; Ancestress of Aetolia, Apollodorus I.vii.5)", "greek", 9, "Heroic Age (Apollodorus I.vii.5)",
+          "Aeolid Ancestress of Elis & Calydon", ["Apollodorus Library I.vii.5"],
+          "Daughter of Aeolus who bore Endymion -> Aetolus -> Oeneus -> Meleager, Deianira & Tydeus -> Diomedes."),
+        N("grk_neleus_nestor_pelias", "Enipeus / Tyro Pylos-Iolcus Lineage Anchor (Apollodorus I.ix.8)", "greek", 9, "Heroic Age (Apollodorus I.ix.8-9)",
+          "Iolcus & Pylos Aeolid Anchor", ["Apollodorus Library I.ix.8-9"],
+          "Salmoneus's daughter Tyro bore Pelias of Iolcus and Neleus of Pylos (-> wise King Nestor)."),
+        N("grk_jason_argonauts_medea", "Cretheid House of Iolcus & Argonauts Anchor (Apollodorus I.ix.11–28)", "greek", 9, "Generation Before Troy (Apollodorus I.ix.11-28)",
+          "Cretheus & Amythaon Lineages Anchor", ["Apollodorus Library I.ix.11-28"],
+          "Cretheus's sons Aeson (-> Jason), Pheres (-> Admetus), and Amythaon (-> Melampus & Bias -> Adrastus)."),
+        N("grk_bellerophon_glaucus", "Glaucus of Corinth (Son of Sisyphus; Father of Bellerophon, Apollodorus I.ix.3)", "greek", 9, "Heroic Age (Apollodorus I.ix.1-3)",
+          "Corinthian Aeolid Prince", ["Apollodorus Library I.ix.1-3"],
+          "Son of Sisyphus & Merope; father of Bellerophon."),
+        N("grk_hypermnestra_abas_danae", "Danaid Survival Line Anchor (Hypermnestra & Lynceus, Apollodorus II.i.5)", "greek", 9, "Argive Heroic Era (Apollodorus II.i.5)",
+          "Bridge From Belus/Aegyptus to Perseus", ["Apollodorus Library II.i.5-II.iv.4"],
+          "Hypermnestra spared Lynceus, continuing the Argive royal stem to Abas -> Acrisius & Proetus."),
+        N("grk_perseids_alcmene", "Perseid Royal Line Anchor (Mycenae & Tiryns, Apollodorus II.iv.5)", "greek", 10, "Mycenaean Heroic Era (Apollodorus II.iv.5-8)",
+          "House of Perseus & Andromeda", ["Apollodorus Library II.iv.5-8"],
+          "Connects Perseus & Andromeda to Alcaeus, Sthenelus, and Electryon (-> Alcmene -> Heracles)."),
+        N("grk_heraclidae_return", "Heraclid Cleodaeus → Aristomachus (Return of the Heraclidae Anchor, c. 1104 BCE)", "greek", 12, "c. 1104 BCE Traditional (Apollodorus II.viii.1-5)",
+          "Dorian Conquest & Return of the Heraclidae", ["Apollodorus Library II.viii.1-5"],
+          "Hyllus's son Cleodaeus -> Aristomachus, whose sons Temenus (Argos), Cresphontes (Messene) & Aristodemus (Sparta) led the Dorian return."),
+        N("grk_minos_crete_family", "Cretan House of Minos Anchor (Catreus & Deucalion, Apollodorus III.i–iii)", "greek", 10, "Minoan Crete Heroic Era (Apollodorus III.i.2-III.iii.2)",
+          "Cretan Royal Bridge to Atreids & Athens", ["Apollodorus Library III.i.2-III.iii.2"],
+          "Minos + Pasiphae -> Catreus (-> Aerope), Deucalion (-> Idomeneus), Ariadne, and Phaedra."),
+        N("grk_thebes_oedipus_epigoni", "Cadmean Labdacid House of Thebes Anchor (Apollodorus III.iv–vii)", "greek", 10, "Theban Cycle (Apollodorus III.iv.1-III.vii.7)",
+          "Complete Royal House of Thebes", ["Apollodorus Library III.iv.1-III.vii.7"],
+          "Cadmus & Harmonia -> Semele (-> Dionysus), Illyrius, and Polydorus -> Labdacus -> Laius -> Oedipus -> Eteocles, Polynices, Antigone."),
+        N("grk_arcadia_pelasgus_atalanta", "Aleus & Auge of Arcadia (Ancestors of Telephus of Mysia, Apollodorus III.ix)", "greek", 9, "Arcadian Heroic Era (Apollodorus III.viii.1-III.ix.2)",
+          "Arcadian Pelasgid Bridge to Heracles & Mysia", ["Apollodorus Library III.viii.1-III.ix.2"],
+          "Arcas -> Aleus -> Princess Auge (+ Heracles -> King Telephus of Mysia)."),
+        N("grk_sparta_tyndareus_helen", "Pleiades Maia & Taygete (Ancestresses of Hermes & Sparta, Apollodorus III.x)", "greek", 10, "Spartan Heroic Era (Apollodorus III.x.1-III.xi.2)",
+          "Atlantid Matriarchs of Hermes & Lacedaemon", ["Apollodorus Library III.x.1-III.xi.2", "Hesiod Catalogue fr. 66"],
+          "Daughters of Atlas & Pleione: Maia -> Hermes; Taygete -> Lacedaemon -> Tyndareus & Icarius."),
+        N("grk_asopids_aeacus_ajax", "Asopus & Aegina (Aeacid Ancestors of Achilles, Ajax & Alexander, Apollodorus III.xii)", "greek", 10, "Aegina, Salamis & Phthia (Apollodorus III.xii.6-III.xiii.8)",
+          "Asopid Root of Telamon & Peleus", ["Apollodorus Library III.xii.6-III.xiii.8"],
+          "River god Asopus -> Aegina -> King Aeacus -> Telamon (Ajax & Teucer) and Peleus (Achilles -> Neoptolemus -> Olympias -> Alexander!)."),
+        N("grk_athens_cecrops_theseus", "Erichthonius & Pandion I (Early Kings of Athens Anchor, Apollodorus III.xiv)", "greek", 10, "Attic Heroic Era (Apollodorus III.xiv.1-III.xv.8)",
+          "Athenian Royal Succession Bridge", ["Apollodorus Library III.xiv.1-III.xv.8", "Eusebius Chronicle"],
+          "Cecrops -> Erichthonius -> Pandion I -> Erechtheus -> Pandion II -> Aegeus -> Theseus."),
+        N("grk_pelopids_orestes", "House of Atreus Anchor (Pelopids of Mycenae, Apollodorus Epit. II–VI)", "greek", 10, "Mycenaean Pelopid Cycle (Apollodorus Epit. II-VI)",
+          "Mycenaean Pelopid Lineage Anchor", ["Apollodorus Library Epitome II-VI"],
+          "Tantalus -> Pelops -> Atreus/Thyestes/Pittheus -> Agamemnon/Menelaus -> Orestes."),
     ]
-
     edges += [
-        E("grk_chaos_gaia", "grk_nyx_pontus_nereids", "direct", "Hesiod Theogony: Chaos -> Nyx/Erebus; Gaia -> Pontus -> Nereus & 50 Nereids"),
-        E("grk_oceanus_hyperion", "grk_titans_complete", "direct", "Complete Titan offspring (Helios, Leto, Hecate, Nike)"),
-        E("grk_zeus_olympians", "grk_muses_orpheus", "direct", "Zeus + Mnemosyne/Themis -> 9 Muses (Orpheus), Horae & Fates"),
-        E("grk_aeolus", "grk_aetolia_meleager_diomedes", "direct", "Calyce (dau. of Aeolus) -> Endymion -> Aetolus -> Oeneus -> Meleager & Diomedes"),
-        E("grk_salmoneus", "grk_neleus_nestor_pelias", "direct", "Salmoneus -> Tyro -> Pelias & Neleus -> King Nestor of Pylos"),
-        E("grk_cretheus", "grk_jason_argonauts_medea", "direct", "Cretheus -> Aeson -> Jason (Argonauts + Medea) & Melampus/Adrastus"),
-        E("grk_titans_complete", "grk_jason_argonauts_medea", "direct", "Helios -> Aeetes of Colchis -> Medea (wife of Jason)"),
-        E("grk_sisyphus", "grk_bellerophon_glaucus", "direct", "Sisyphus -> Glaucus -> Bellerophon (Pegasus & Chimera)"),
-        E("grk_aegyptus_danaus", "grk_hypermnestra_abas_danae", "direct", "Hypermnestra + Lynceus -> Abas -> Acrisius -> Danae -> Perseus"),
-        E("grk_hypermnestra_abas_danae", "grk_perseus", "direct", "Danae + Zeus -> Perseus (Apollodorus II.iv.1)"),
-        E("grk_perseus", "grk_perseids_alcmene", "direct", "Perseus + Andromeda -> Electryon -> Alcmene & Sthenelus -> Eurystheus"),
-        E("grk_perseids_alcmene", "grk_heracles", "direct", "Alcmene + Zeus -> Heracles (Apollodorus II.iv.8)"),
-        E("grk_heracles", "grk_heraclidae_return", "direct", "Heracles -> Hyllus -> Cleodaeus -> Aristomachus -> Temenus, Cresphontes & Aristodemus"),
-        E("grk_heraclidae_return", "grk_sparta_macedon", "direct", "Eurysthenes & Procles (Sparta) + Temenids (Argos -> Macedon)"),
-        E("grk_europa_minos", "grk_minos_crete_family", "direct", "Minos + Pasiphae -> Catreus (Aerope), Deucalion (Idomeneus), Ariadne, Phaedra"),
-        E("grk_cadmus", "grk_thebes_oedipus_epigoni", "direct", "Cadmus + Harmonia -> Polydorus -> Labdacus -> Laius -> Oedipus -> Epigoni"),
-        E("grk_thebes_oedipus_epigoni", "grk_dionysus_oedipus", "direct", "Semele -> Dionysus & Labdacid Oedipus cycle"),
-        E("grk_inachus_io", "grk_arcadia_pelasgus_atalanta", "direct", "Niobe (dau. of Phoroneus) -> Pelasgus -> Lycaon -> Arcas -> Telephus & Atalanta"),
-        E("grk_atlas", "grk_sparta_tyndareus_helen", "direct", "Atlas + Pleione -> 7 Pleiades (Maia -> Hermes; Taygete -> Sparta/Helen/Penelope)"),
-        E("grk_sparta_tyndareus_helen", "grk_dardanus_tros", "direct", "Electra (Pleiades) + Zeus -> Dardanus (founder of Troy)"),
-        E("grk_oceanus_hyperion", "grk_asopids_aeacus_ajax", "direct", "Asopus -> Aegina -> Aeacus -> Peleus (Achilles) & Telamon (Ajax)"),
-        E("grk_nyx_pontus_nereids", "grk_asopids_aeacus_ajax", "direct", "Nereid Thetis + Peleus -> Achilles (Apollodorus III.xiii.5)"),
-        E("grk_asopids_aeacus_ajax", "grk_achilles_odysseus", "direct", "Peleus -> Achilles -> Neoptolemus (ancestor of Alexander's mother Olympias!)"),
-        E("grk_asopids_aeacus_ajax", "grk_alexander", "expansion", "Olympias of Epirus (mother of Alexander) descended from Achilles's son Neoptolemus!"),
-        E("grk_chaos_gaia", "grk_athens_cecrops_theseus", "direct", "Autochthonous Kings of Athens: Cecrops -> Erechtheus -> Aegeus -> Theseus"),
-        E("grk_athens_cecrops_theseus", "grk_xuthus", "direct", "Creusa (dau. of King Erechtheus of Athens) marries Xuthus -> Ion & Achaeus"),
-        E("grk_pelops_atreus", "grk_pelopids_orestes", "direct", "Tantalus -> Pelops -> Atreus/Thyestes -> Agamemnon/Menelaus -> Orestes"),
-        E("grk_minos_crete_family", "grk_pelopids_orestes", "direct", "Aerope (granddaughter of Minos) marries Atreus -> Agamemnon & Menelaus"),
-        E("grk_pelopids_orestes", "grk_agamemnon_menelaus", "direct", "Atreids Agamemnon & Menelaus -> Orestes"),
+        E("grk_chaos_gaia", "grk_nyx_pontus_nereids", "direct", "Hesiod Theogony: Gaia + Pontus -> Phorcys, Ceto & Nereus"),
+        E("grk_oceanus_hyperion", "grk_titans_complete", "direct", "Titan generation anchor"),
+        E("grk_zeus_olympians", "grk_muses_orpheus", "direct", "Zeus + Mnemosyne -> Calliope & Nine Muses"),
+        E("grk_aeolus", "grk_aetolia_meleager_diomedes", "direct", "Aeolus -> daughter Calyce"),
+        E("grk_salmoneus", "grk_neleus_nestor_pelias", "direct", "Salmoneus -> Tyro lineage anchor"),
+        E("grk_cretheus", "grk_jason_argonauts_medea", "direct", "Cretheid house of Iolcus"),
+        E("grk_sisyphus", "grk_bellerophon_glaucus", "direct", "Sisyphus -> son Glaucus"),
+        E("grk_aegyptus_danaus", "grk_hypermnestra_abas_danae", "direct", "Danaid survival anchor"),
+        E("grk_perseus", "grk_perseids_alcmene", "direct", "Perseus -> Perseid sons"),
+        E("grk_heracles", "grk_heraclidae_return", "direct", "Heracles -> Hyllus -> Cleodaeus -> Aristomachus"),
+        E("grk_europa_minos", "grk_minos_crete_family", "direct", "Minos of Crete family anchor"),
+        E("grk_cadmus", "grk_thebes_oedipus_epigoni", "direct", "Cadmus -> Labdacid Thebes anchor"),
+        E("grk_thebes_oedipus_epigoni", "grk_dionysus_oedipus", "direct", "Cadmean Semele/Oedipus bridge"),
+        E("grk_inachus_io", "grk_arcadia_pelasgus_atalanta", "expansion", "Niobe -> Pelasgus -> Arcas -> Aleus -> Auge"),
+        E("grk_atlas", "grk_sparta_tyndareus_helen", "direct", "Atlas + Pleione -> Maia & Taygete"),
+        E("grk_oceanus_hyperion", "grk_asopids_aeacus_ajax", "direct", "Oceanus -> Asopus -> Aegina"),
+        E("grk_chaos_gaia", "grk_athens_cecrops_theseus", "direct", "Early Attic royal succession"),
+        E("grk_pelops_atreus", "grk_pelopids_orestes", "direct", "Pelopid Mycenaean anchor"),
     ]
 
-    # Individual-level rosters for complete Greek heroic searchability
-    add_roster(nodes, edges, "grk_muses_orpheus", "grkr_div", "greek", 3, "Hesiod Theogony & Apollodorus I", "Olympian / Titan / Muse", ["Apollodorus Library Book I", "Hesiod Theogony"], [
-        "Hestia (Eldest Olympian)", "Demeter (Goddess of Harvest)", "Hera (Queen of Olympus)", "Hades / Pluto (Underworld)",
-        "Poseidon (Lord of the Sea)", "Athena (Daughter of Zeus & Metis)", "Apollo & Artemis (Twins of Zeus & Leto)",
-        "Aphrodite (Goddess of Love)", "Ares (God of War)", "Hephaestus (Divine Smith)", "Persephone (Queen of Underworld)",
-        "Orpheus (Son of Calliope)", "Helios (Sun Titan)", "Selene & Eos (Moon & Dawn)", "Hecate (Daughter of Perses & Asteria)",
-        "Chiron the Centaur (Son of Cronus & Philyra)", "Medusa & Pegasus"
-    ], edge_type="direct", edge_label="Greek Divine Lineage (Apollodorus & Hesiod)")
+    # -------------------------------------------------------------------------
+    # 2. DIVINE, TITAN & OLYMPIAN INDIVIDUALS (Replacing grkr_div roster)
+    # -------------------------------------------------------------------------
+    div_nodes = [
+        ("grkr_div_01_hestia_eldest_olympian", "Hestia (Eldest Olympian, Daughter of Cronus & Rhea)", 2, "grk_cronus_rhea", "Hesiod Theog. 454: Cronus & Rhea -> Hestia", False),
+        ("grkr_div_02_demeter_goddess_of_harvest", "Demeter (Goddess of Harvest, Daughter of Cronus & Rhea)", 2, "grk_cronus_rhea", "Hesiod Theog. 454: Cronus & Rhea -> Demeter", False),
+        ("grkr_div_03_hera_queen_of_olympus", "Hera (Queen of Olympus, Daughter of Cronus & Rhea)", 2, "grk_cronus_rhea", "Hesiod Theog. 454: Cronus & Rhea -> Hera", False),
+        ("grkr_div_04_hades_pluto_underworld", "Hades / Pluto (Lord of Underworld, Son of Cronus & Rhea)", 2, "grk_cronus_rhea", "Hesiod Theog. 455: Cronus & Rhea -> Hades", False),
+        ("grkr_div_05_poseidon_lord_of_the_sea", "Poseidon (Lord of the Sea, Son of Cronus & Rhea)", 2, "grk_cronus_rhea", "Hesiod Theog. 456: Cronus & Rhea -> Poseidon", False),
+        ("grkr_div_06_athena_daughter_of_zeus_meti", "Athena (Goddess of Wisdom, Daughter of Zeus & Metis)", 3, "grk_zeus_olympians", "Apollodorus I.iii.6: Zeus + Metis -> Athena", False),
+        ("grkr_div_07_apollo_artemis_twins_of_zeus", "Apollo (God of Light & Prophecy, Son of Zeus & Leto)", 3, "grk_zeus_olympians", "Apollodorus I.iv.1: Zeus + Leto -> Apollo", True),
+        ("grkr_div_artemis", "Artemis (Twin of Apollo; Goddess of the Hunt, Zeus & Leto)", 3, "grk_zeus_olympians", "Apollodorus I.iv.1: Zeus + Leto -> Artemis", False),
+        ("grkr_div_08_aphrodite_goddess_of_love", "Aphrodite (Goddess of Love; Mother of Aeneas, Hesiod Theog. 190)", 3, "grk_chaos_gaia", "Hesiod Theog. 190: Born from Uranus / Zeus & Dione", False),
+        ("grkr_div_09_ares_god_of_war", "Ares (God of War; Son of Zeus & Hera; Father of Harmonia)", 3, "grk_zeus_olympians", "Apollodorus I.iii.1: Zeus & Hera -> Ares", False),
+        ("grkr_div_10_hephaestus_divine_smith", "Hephaestus (Divine Smith; Son of Hera & Zeus)", 3, "grkr_div_03_hera_queen_of_olympus", "Hesiod Theog. 927: Hera -> Hephaestus", False),
+        ("grkr_div_11_persephone_queen_of_underwor", "Persephone (Queen of Underworld; Daughter of Zeus & Demeter)", 3, "grk_div_02_demeter_goddess_of_harvest", "Hesiod Theog. 912: Zeus + Demeter -> Persephone", False),
+        ("grkr_div_12_orpheus_son_of_calliope", "Orpheus (Thracian Singer & Argonaut, Son of Calliope)", 4, "grk_muses_orpheus", "Apollodorus I.iii.2: Calliope + Oeagrus/Apollo -> Orpheus", False),
+        ("grkr_div_13_helios_sun_titan", "Helios (Sun Titan; Son of Hyperion & Theia; Father of Aeetes)", 2, "grk_titans_complete", "Hesiod Theog. 371: Hyperion + Theia -> Helios", False),
+        ("grkr_div_14_selene_eos_moon_dawn", "Selene (Moon Titaness; Daughter of Hyperion & Theia)", 2, "grk_titans_complete", "Hesiod Theog. 371: Hyperion + Theia -> Selene", False),
+        ("grkr_div_eos", "Eos (Dawn Titaness; Mother of Memnon, Hyperion & Theia)", 2, "grk_titans_complete", "Hesiod Theog. 372: Hyperion + Theia -> Eos", False),
+        ("grkr_div_15_hecate_daughter_of_perses_as", "Hecate (Daughter of Perses & Asteria, Hesiod Theog. 411)", 3, "grk_titans_complete", "Hesiod Theog. 411: Perses + Asteria -> Hecate", False),
+        ("grkr_div_16_chiron_the_centaur_son_of_cr", "Chiron the Wise Centaur (Son of Cronus & Philyra; Tutor of Achilles)", 2, "grk_cronus_rhea", "Apollodorus I.ii.4: Cronus + Philyra -> Chiron", False),
+        ("grkr_div_17_medusa_pegasus", "Medusa (Mortal Gorgon; Daughter of Phorcys & Ceto)", 2, "grk_nyx_pontus_nereids", "Apollodorus II.iv.2: Phorcys & Ceto -> Medusa", False),
+        ("grkr_div_pegasus", "Pegasus (Winged Steed Sprung From Medusa & Poseidon)", 3, "grk_div_17_medusa_pegasus", "Hesiod Theog. 280: Medusa + Poseidon -> Pegasus", False),
+    ]
+    for nid, nm, tr, par, lbl, mj in div_nodes:
+        nodes.append(N(nid, nm, "greek", tr, "Hesiodic Cosmogony (Theogony & Apollodorus I)", "Greek Deity / Titan / Cosmic Figure",
+                       ["Apollodorus Library I", "Hesiod Theogony"], f"{nm}.", major=mj))
+        edges.append(E(par, nid, "direct", lbl))
+    edges += [
+        E("grkr_div_05_poseidon_lord_of_the_sea", "grkr_div_pegasus", "direct", "Father Poseidon -> Pegasus"),
+        E("grkr_div_04_hades_pluto_underworld", "grkr_div_11_persephone_queen_of_underwor", "direct", "Marriage of Hades & Persephone"),
+        E("grkr_div_09_ares_god_of_war", "grk_cadmus", "direct", "Ares & Aphrodite -> Harmonia (wife of Cadmus)"),
+        E("grkr_div_08_aphrodite_goddess_of_love", "grk_aeneas", "direct", "Anchises + Aphrodite -> Aeneas of Troy"),
+    ]
 
-    add_roster(nodes, edges, "grk_jason_argonauts_medea", "grkr_aeo", "greek", 9, "Apollodorus Book I.vii-ix", "Aeolid / Argonaut / Aetolian Hero", ["Apollodorus Library I.vii-ix"], [
-        "Endymion (Founder of Elis)", "Aetolus (Eponym of Aetolia)", "King Oeneus of Calydon", "Meleager (Calydonian Boar)",
-        "Deianira (Wife of Heracles)", "Tydeus (Seven Against Thebes)", "Diomedes (Hero of the Iliad)", "Phrixus & Helle (Golden Fleece)",
-        "Bellerophon (Slayer of Chimera)", "Tyro (Daughter of Salmoneus)", "Pelias of Iolcus", "Neleus of Pylos",
-        "King Nestor of Pylos", "Aeson (Father of Jason)", "Jason (Leader of Argonauts)", "Medea of Colchis (Granddaughter of Helios)",
-        "Melampus the Seer", "Amphiaraus (Seven Against Thebes)", "King Adrastus of Argos", "Admetus & Alcestis"
-    ], edge_type="direct", edge_label="Deucalionid / Aeolid Hero (Apollodorus I)")
+    # -------------------------------------------------------------------------
+    # 3. DEUCALIONIDS, AEOLIDS, AETOLIANS & ARGONAUTS (Replacing grkr_aeo roster)
+    # -------------------------------------------------------------------------
+    nodes += [
+        N("grkr_aeo_01_endymion_founder_of_elis", "King Endymion of Elis (Son of Aethlius & Calyce)", "greek", 9, "Apollodorus I.vii.5", "Aeolid Founder of Elis", ["Apollodorus I.vii.5"], "Son of Calyce (dau. of Aeolus) & Aethlius; father of Aetolus."),
+        N("grkr_aeo_02_aetolus_eponym_of_aetolia", "King Aetolus (Son of Endymion; Eponym of Aetolia)", "greek", 9, "Apollodorus I.vii.6", "Eponym of Aetolia", ["Apollodorus I.vii.6"], "Son of Endymion; father of Pleuron & Calydon (-> Oeneus)."),
+        N("grkr_aeo_03_king_oeneus_of_calydon", "King Oeneus of Calydon (Father of Meleager, Deianira & Tydeus)", "greek", 10, "Apollodorus I.viii.1–5", "Aetolian King of Calydon", ["Apollodorus I.viii.1–5"], "Great-grandson of Aetolus; father of Meleager, Deianira (wife of Heracles), and Tydeus."),
+        N("grkr_aeo_04_meleager_calydonian_boar", "Meleager (Hero of Calydonian Boar Hunt, Son of Oeneus & Althaea)", "greek", 11, "Apollodorus I.viii.2", "Aetolian Argonaut & Boar Hunter", ["Apollodorus I.viii.2–3"], "Slew the Calydonian Boar alongside Atalanta."),
+        N("grkr_aeo_05_deianira_wife_of_heracles", "Deianira (Daughter of Oeneus; Last Mortal Wife of Heracles)", "greek", 11, "Apollodorus I.viii.1, II.vii.5", "Princess of Calydon & Mother of Hyllus", ["Apollodorus I.viii.1, II.vii.5"], "Married Heracles and bore Hyllus, ancestor of the Dorian Heraclidae & Spartan kings."),
+        N("grkr_aeo_06_tydeus_seven_against_thebes", "Tydeus (Son of Oeneus; Hero of Seven Against Thebes)", "greek", 11, "Apollodorus I.viii.5, III.vi.1", "Aetolian Warrior & Son-in-Law of Adrastus", ["Apollodorus I.viii.5"], "Wed Deipyle (daughter of Adrastus of Argos) and fathered Diomedes."),
+        N("grkr_aeo_07_diomedes_hero_of_the_iliad", "King Diomedes of Argos (Son of Tydeus; Iliad & Epigoni Hero)", "greek", 12, "Apollodorus I.viii.6, III.vii.2", "Champion of the Iliad & Epigoni", ["Apollodorus I.viii.6", "Homer Iliad V"], "Led 80 Argive ships to Troy; succeeded maternal grandfather Adrastus."),
+        N("grkr_aeo_08_phrixus_helle_golden_fleece", "Phrixus (Son of Athamas; Carrier of the Golden Fleece to Colchis)", "greek", 9, "Apollodorus I.ix.1", "Aeolid Prince Carried by the Golden Ram", ["Apollodorus I.ix.1"], "Fled to King Aeetes in Colchis, marrying Chalciope and bequeathing the Golden Fleece."),
+        N("grkr_aeo_helle", "Helle (Daughter of Athamas; Eponym of the Hellespont)", "greek", 9, "Apollodorus I.ix.1", "Aeolid Princess", ["Apollodorus I.ix.1"], "Twin sister of Phrixus who fell into the strait named Hellespont."),
+        N("grkr_aeo_09_bellerophon_slayer_of_chimer", "Bellerophon (Son of Glaucus; Slayer of the Chimera)", "greek", 10, "Apollodorus I.ix.3, II.iii.1", "Corinthian Hero Who Rode Pegasus", ["Apollodorus I.ix.3, II.iii.1"], "Son of Glaucus of Corinth; slew the Chimera in Lycia; grandfather of Glaucus & Sarpedon."),
+        N("grkr_aeo_10_tyro_daughter_of_salmoneus", "Tyro (Daughter of Salmoneus; Mother of Pelias, Neleus & Aeson)", "greek", 9, "Apollodorus I.ix.8–11", "Aeolid Matriarch of Pylos & Iolcus", ["Apollodorus I.ix.8–11"], "Bore twins Pelias & Neleus by Poseidon, and Aeson, Pheres & Amythaon by Cretheus."),
+        N("grkr_aeo_11_pelias_of_iolcus", "King Pelias of Iolcus (Half-Brother of Aeson; Opponent of Jason)", "greek", 10, "Apollodorus I.ix.8, 16", "Usurper King of Iolcus", ["Apollodorus I.ix.8, 27"], "Sent nephew Jason for the Golden Fleece; father of Alcestis & Acastus."),
+        N("grkr_aeo_12_neleus_of_pylos", "King Neleus of Pylos (+ Chloris; Father of Nestor)", "greek", 10, "Apollodorus I.ix.9", "Founder of Neleid Dynasty of Pylos", ["Apollodorus I.ix.9"], "Father of 12 sons, of whom youngest Nestor survived to rule Pylos."),
+        N("grkr_aeo_13_king_nestor_of_pylos", "King Nestor of Pylos (Wise Counselor of the Iliad, Son of Neleus)", "greek", 11, "Apollodorus I.ix.9", "Aged Counselor of Greeks at Troy", ["Apollodorus I.ix.9", "Homer Odyssey III"], "Wise elder king of Pylos; father of Antilochus & Pisistratus.", major=True),
+        N("grkr_aeo_14_aeson_father_of_jason", "Aeson (Eldest Son of Cretheus & Tyro; Father of Jason)", "greek", 10, "Apollodorus I.ix.11, 16", "Rightful Heir of Iolcus", ["Apollodorus I.ix.11, 16"], "Eldest son of Cretheus; entrusted infant Jason to Centaur Chiron."),
+        N("grkr_aeo_15_jason_leader_of_argonauts", "Jason (Leader of the Argonauts, Son of Aeson)", "greek", 11, "Apollodorus I.ix.16–28", "Captain of the Argo & Winner of the Golden Fleece", ["Apollodorus I.ix.16–28"], "Led the 50 Argonauts to Colchis and married Princess Medea.", major=True),
+        N("grkr_aeo_16_medea_of_colchis_granddaught", "Medea of Colchis (Daughter of King Aeetes; Granddaughter of Helios)", "greek", 11, "Apollodorus I.ix.23–28; Hesiod Theog. 992", "Colchian Princess & Ancestress of Medus", ["Apollodorus I.ix.23–28", "Hesiod Theogony 992–1002"], "Daughter of King Aeetes of Colchis; bore Medus/Medeus (mythic Greek eponym of the Medes)."),
+        N("grkr_aeo_17_melampus_the_seer", "Melampus the Seer (Son of Amythaon; King of Argos, Apollodorus I.ix.11)", "greek", 10, "Apollodorus I.ix.11–12, II.ii.2", "Founder of Argive Seer Line", ["Apollodorus I.ix.11–12"], "Cured Proetus's daughters and received a third of Argos; ancestor of Amphiaraus."),
+        N("grkr_aeo_18_amphiaraus_seven_against_the", "Amphiaraus the Seer (Argonaut & Seven Against Thebes; Descendant of Melampus)", "greek", 11, "Apollodorus III.vi.2–8", "Argive Seer-King & Father of Alcmaeon", ["Apollodorus III.vi.2–8"], "Great-grandson of Melampus; married Eriphyle (sister of Adrastus) and fathered Epigoni leader Alcmaeon."),
+        N("grkr_aeo_19_king_adrastus_of_argos", "King Adrastus of Argos (Son of Talaus; Leader of Seven Against Thebes)", "greek", 11, "Apollodorus I.ix.13, III.vi.1", "Argive Leader of the Seven Against Thebes", ["Apollodorus I.ix.13, III.vi"], "Grandson of Bias (brother of Melampus); survived the expedition on winged horse Arion."),
+        N("grkr_aeo_20_admetus_alcestis", "King Admetus of Pherae (Son of Pheres; Husband of Alcestis)", "greek", 11, "Apollodorus I.ix.14–15", "Aeolid King of Pherae in Thessaly", ["Apollodorus I.ix.14–15"], "Served by Apollo for a year; wed Princess Alcestis."),
+        N("grkr_aeo_alcestis", "Queen Alcestis (Daughter of Pelias; Wife of Admetus)", "greek", 11, "Apollodorus I.ix.15", "Devoted Queen Rescued From Hades by Heracles", ["Apollodorus I.ix.15"], "Gave her life for husband Admetus before Heracles restored her from the underworld."),
+    ]
+    edges += [
+        E("grk_aetolia_meleager_diomedes", "grkr_aeo_01_endymion_founder_of_elis", "direct", "Apollodorus I.vii.5: Calyce -> Endymion"),
+        E("grkr_aeo_01_endymion_founder_of_elis", "grkr_aeo_02_aetolus_eponym_of_aetolia", "direct", "Apollodorus I.vii.6: Endymion -> Aetolus"),
+        E("grkr_aeo_02_aetolus_eponym_of_aetolia", "grkr_aeo_03_king_oeneus_of_calydon", "direct", "Apollodorus I.vii.7–10: Aetolus -> Pleuron -> Agenor -> Porthaon -> Oeneus"),
+        E("grkr_aeo_03_king_oeneus_of_calydon", "grkr_aeo_04_meleager_calydonian_boar", "direct", "Oeneus -> Meleager"),
+        E("grkr_aeo_03_king_oeneus_of_calydon", "grkr_aeo_05_deianira_wife_of_heracles", "direct", "Oeneus -> Deianira"),
+        E("grkr_aeo_03_king_oeneus_of_calydon", "grkr_aeo_06_tydeus_seven_against_thebes", "direct", "Oeneus -> Tydeus"),
+        E("grkr_aeo_06_tydeus_seven_against_thebes", "grkr_aeo_07_diomedes_hero_of_the_iliad", "direct", "Tydeus -> Diomedes"),
+        E("grkr_aeo_19_king_adrastus_of_argos", "grkr_aeo_07_diomedes_hero_of_the_iliad", "direct", "Deipyle (dau. of Adrastus) -> Diomedes"),
+        E("grk_athamas", "grkr_aeo_08_phrixus_helle_golden_fleece", "direct", "Athamas -> Phrixus"),
+        E("grk_athamas", "grkr_aeo_helle", "direct", "Athamas -> Helle"),
+        E("grk_bellerophon_glaucus", "grkr_aeo_09_bellerophon_slayer_of_chimer", "direct", "Glaucus -> Bellerophon"),
+        E("grk_salmoneus", "grkr_aeo_10_tyro_daughter_of_salmoneus", "direct", "Salmoneus -> Tyro"),
+        E("grkr_aeo_10_tyro_daughter_of_salmoneus", "grkr_aeo_11_pelias_of_iolcus", "direct", "Tyro + Poseidon -> Pelias"),
+        E("grkr_aeo_10_tyro_daughter_of_salmoneus", "grkr_aeo_12_neleus_of_pylos", "direct", "Tyro + Poseidon -> Neleus"),
+        E("grkr_aeo_12_neleus_of_pylos", "grkr_aeo_13_king_nestor_of_pylos", "direct", "Neleus -> Nestor"),
+        E("grk_cretheus", "grkr_aeo_14_aeson_father_of_jason", "direct", "Cretheus + Tyro -> Aeson"),
+        E("grkr_aeo_10_tyro_daughter_of_salmoneus", "grkr_aeo_14_aeson_father_of_jason", "direct", "Mother Tyro -> Aeson"),
+        E("grkr_aeo_14_aeson_father_of_jason", "grkr_aeo_15_jason_leader_of_argonauts", "direct", "Aeson -> Jason"),
+        E("grkr_div_13_helios_sun_titan", "grkr_aeo_16_medea_of_colchis_granddaught", "direct", "Helios -> Aeetes of Colchis -> Medea"),
+        E("grkr_aeo_15_jason_leader_of_argonauts", "grkr_aeo_16_medea_of_colchis_granddaught", "direct", "Marriage of Jason & Medea"),
+        E("grk_cretheus", "grkr_aeo_17_melampus_the_seer", "direct", "Cretheus -> Amythaon -> Melampus"),
+        E("grkr_aeo_17_melampus_the_seer", "grkr_aeo_18_amphiaraus_seven_against_the", "direct", "Melampus -> Antiphates -> Oicles -> Amphiaraus"),
+        E("grk_cretheus", "grkr_aeo_19_king_adrastus_of_argos", "direct", "Cretheus -> Amythaon -> Bias -> Talaus -> Adrastus"),
+        E("grk_cretheus", "grkr_aeo_20_admetus_alcestis", "direct", "Cretheus -> Pheres -> Admetus"),
+        E("grkr_aeo_11_pelias_of_iolcus", "grkr_aeo_alcestis", "direct", "Pelias -> daughter Alcestis"),
+        E("grkr_aeo_20_admetus_alcestis", "grkr_aeo_alcestis", "direct", "Marriage of Admetus & Alcestis"),
+    ]
 
-    add_roster(nodes, edges, "grk_heraclidae_return", "grkr_her", "greek", 11, "Apollodorus Book II.i-viii", "Perseid / Heraclid Hero", ["Apollodorus Library Book II"], [
-        "Phoroneus (First Man of Argos)", "Argus Panoptes", "Hypermnestra & Lynceus", "Abas (King of Argos)",
-        "Acrisius & Proetus", "Danaë (Mother of Perseus)", "Alcmene (Mother of Heracles)", "Amphitryon & Iphicles",
-        "King Eurystheus of Mycenae", "Hyllus (Son of Heracles & Deianira)", "Telephus of Mysia (Son of Heracles & Auge)",
-        "Temenus (Conqueror of Argos -> Macedon)", "Cresphontes (Conqueror of Messene)", "Aristodemus (Father of Spartan Twins)",
-        "Eurysthenes (Agiad Founder of Sparta)", "Procles (Eurypontid Founder of Sparta)"
-    ], edge_type="direct", edge_label="Inachid / Perseid / Heraclid Lineage (Apollodorus II)")
+    # -------------------------------------------------------------------------
+    # 4. INACHIDS, DANAIDS, PERSEIDS & HERACLIDAE (Replacing grkr_her roster)
+    # -------------------------------------------------------------------------
+    nodes += [
+        N("grkr_her_01_phoroneus_first_man_of_argos", "King Phoroneus of Argos (Son of Inachus; First Man of Greece)", "greek", 8, "Apollodorus II.i.1", "Founder of Argive Kingship", ["Apollodorus II.i.1"], "Son of Inachus; father of Niobe (mother of Argus & Pelasgus)."),
+        N("grkr_her_02_argus_panoptes", "Argus Panoptes (All-Seeing Descendant of Niobe & Phoroneus)", "greek", 8, "Apollodorus II.i.2–3", "Guardian Descendant of Inachid Line", ["Apollodorus II.i.2–3"], "All-seeing Argive hero slain by Hermes."),
+        N("grkr_her_03_hypermnestra_lynceus", "Hypermnestra (Eldest Danaid Who Spared Her Husband)", "greek", 9, "Apollodorus II.i.5", "Ancestress of Perseus & Heracles", ["Apollodorus II.i.5"], "Sole Danaid to spare Lynceus; mother of Abas."),
+        N("grkr_her_lynceus", "King Lynceus of Argos (Son of Aegyptus; Husband of Hypermnestra)", "greek", 9, "Apollodorus II.i.5", "Egyptian-Argive King of Argos", ["Apollodorus II.i.5"], "Son of Aegyptus; wed Hypermnestra and founded the later Argive dynasty."),
+        N("grkr_her_04_abas_king_of_argos", "King Abas of Argos (Son of Lynceus & Hypermnestra)", "greek", 9, "Apollodorus II.ii.1", "Father of Twin Kings Acrisius & Proetus", ["Apollodorus II.ii.1"], "Father of Acrisius of Argos and Proetus of Tiryns."),
+        N("grkr_her_05_acrisius_proetus", "King Acrisius of Argos (Father of Danaë)", "greek", 9, "Apollodorus II.ii.1, iv.1", "Twin Son of Abas & King of Argos", ["Apollodorus II.ii.1"], "Father of Danaë; accidentally slain at Larissa by grandson Perseus."),
+        N("grkr_her_proetus", "King Proetus of Tiryns (Twin Brother of Acrisius)", "greek", 9, "Apollodorus II.ii.1–2", "King of Tiryns & Builder of Cyclopean Walls", ["Apollodorus II.ii.1–2"], "Twin brother of Acrisius; shared Argos with Melampus & Bias."),
+        N("grkr_her_06_dana_mother_of_perseus", "Princess Danaë of Argos (Daughter of Acrisius; Mother of Perseus)", "greek", 10, "Apollodorus II.iv.1", "Mother of Perseus by Zeus", ["Apollodorus II.iv.1"], "Placed in a wooden chest with infant Perseus and washed ashore at Seriphos."),
+        N("grkr_her_07_alcmene_mother_of_heracles", "Princess Alcmene of Mycenae (Daughter of Electryon; Mother of Heracles)", "greek", 10, "Apollodorus II.iv.5–8", "Perseid Mother of Heracles & Iphicles", ["Apollodorus II.iv.5–8"], "Daughter of Electryon (son of Perseus); bore Heracles by Zeus and twin Iphicles by Amphitryon."),
+        N("grkr_her_08_amphitryon_iphicles", "Prince Amphitryon (Son of Alcaeus; Stepfather of Heracles)", "greek", 10, "Apollodorus II.iv.6–8", "Perseid Husband of Alcmene", ["Apollodorus II.iv.6–8"], "Son of Alcaeus (son of Perseus); husband of Alcmene and biological father of Iphicles."),
+        N("grkr_her_iphicles", "Iphicles (Twin Brother of Heracles; Father of Iolaus)", "greek", 11, "Apollodorus II.iv.8–11", "Twin Brother of Heracles", ["Apollodorus II.iv.8–11"], "Son of Amphitryon & Alcmene; father of Heracles's charioteer Iolaus."),
+        N("grkr_her_09_king_eurystheus_of_mycenae", "King Eurystheus of Mycenae (Son of Sthenelus; Imposer of 12 Labors)", "greek", 11, "Apollodorus II.iv.5, v.1", "Perseid King of Mycenae", ["Apollodorus II.iv.5–viii.1"], "Grandson of Perseus via Sthenelus & Nicippe; ordered Heracles's Twelve Labors."),
+        N("grkr_her_10_hyllus_son_of_heracles_deian", "Hyllus (Eldest Son of Heracles & Deianira; Forefather of Spartan Kings)", "greek", 11, "Apollodorus II.vii.7, viii.1", "Leader of First Heraclid Return", ["Apollodorus II.vii.7–viii.1"], "Eldest son of Heracles & Deianira; wed Iole; ancestor of Cleodaeus -> Aristomachus -> Temenus & Aristodemus."),
+        N("grkr_her_11_telephus_of_mysia_son_of_her", "King Telephus of Mysia (Son of Heracles & Auge)", "greek", 11, "Apollodorus II.vii.4, III.ix.1", "Heraclid King of Teuthrania / Pergamum", ["Apollodorus II.vii.4, III.ix.1"], "Son of Heracles & Arcadian princess Auge; healed by Achilles's spear rust before Troy."),
+        N("grkr_her_12_temenus_conqueror_of_argos_m", "King Temenus of Argos (Great-Great-Grandson of Heracles; Ancestor of Macedon!)", "greek", 13, "Apollodorus II.viii.4; Herodotus VIII.137", "Heraclid Conqueror of Argos & Founder of Argead Line", ["Apollodorus II.viii.4", "Herodotus VIII.137"], "Dorian Heraclid king of Argos from whom Alexander the Great's Argead house traced descent.", major=True),
+        N("grkr_her_13_cresphontes_conqueror_of_mes", "King Cresphontes of Messene (Brother of Temenus & Aristodemus)", "greek", 13, "Apollodorus II.viii.4–5", "Heraclid Conqueror of Messenia", ["Apollodorus II.viii.4–5"], "Drew Messene by lot alongside brothers Temenus and Aristodemus."),
+        N("grkr_her_14_aristodemus_father_of_sparta", "Aristodemus (Heraclid Father of Spartan Twin Kings)", "greek", 13, "Apollodorus II.viii.2, 4; Herodotus VI.52", "Father of Eurysthenes & Procles of Sparta", ["Apollodorus II.viii.2–4", "Herodotus VI.52"], "Married Argia and sired twins Eurysthenes & Procles, founding Sparta's dual kingship."),
+        N("grkr_her_15_eurysthenes_agiad_founder_of", "King Eurysthenes (Founder of Agiad Dynasty of Sparta — Line of Leonidas!)", "greek", 14, "Apollodorus II.viii.4; Herodotus VI.52", "First Agiad King of Sparta", ["Herodotus VI.52", "Apollodorus II.viii.4"], "Elder twin son of Aristodemus; forefather of Agis I, Leonidas I & Areus I.", major=True),
+        N("grkr_her_16_procles_eurypontid_founder_o", "King Procles (Founder of Eurypontid Dynasty of Sparta — Line of Agesilaus II!)", "greek", 14, "Apollodorus II.viii.4; Herodotus VI.52", "First Eurypontid King of Sparta", ["Herodotus VI.52", "Apollodorus II.viii.4"], "Younger twin son of Aristodemus; forefather of Lycurgan-era Charilaus & Agesilaus II."),
+    ]
+    edges += [
+        E("grk_inachus_io", "grkr_her_01_phoroneus_first_man_of_argos", "direct", "Apollodorus II.i.1: Inachus -> Phoroneus"),
+        E("grkr_her_01_phoroneus_first_man_of_argos", "grkr_her_02_argus_panoptes", "direct", "Apollodorus II.i.2: Niobe -> Argus -> Ecbasus -> Agenor -> Argus Panoptes"),
+        E("grk_hypermnestra_abas_danae", "grkr_her_03_hypermnestra_lynceus", "direct", "Danaus -> Hypermnestra"),
+        E("grk_hypermnestra_abas_danae", "grkr_her_lynceus", "direct", "Aegyptus -> Lynceus"),
+        E("grkr_her_03_hypermnestra_lynceus", "grkr_her_lynceus", "direct", "Marriage of Hypermnestra & Lynceus"),
+        E("grkr_her_03_hypermnestra_lynceus", "grkr_her_04_abas_king_of_argos", "direct", "Mother Hypermnestra -> Abas"),
+        E("grkr_her_lynceus", "grkr_her_04_abas_king_of_argos", "direct", "Father Lynceus -> Abas"),
+        E("grkr_her_04_abas_king_of_argos", "grkr_her_05_acrisius_proetus", "direct", "Abas -> Acrisius"),
+        E("grkr_her_04_abas_king_of_argos", "grkr_her_proetus", "direct", "Abas -> Proetus"),
+        E("grkr_her_05_acrisius_proetus", "grkr_her_06_dana_mother_of_perseus", "direct", "Acrisius -> Danae"),
+        E("grkr_her_06_dana_mother_of_perseus", "grk_perseus", "direct", "Danae + Zeus -> Perseus"),
+        E("grk_perseids_alcmene", "grkr_her_07_alcmene_mother_of_heracles", "direct", "Perseus -> Electryon -> Alcmene"),
+        E("grk_perseids_alcmene", "grkr_her_08_amphitryon_iphicles", "direct", "Perseus -> Alcaeus -> Amphitryon"),
+        E("grkr_her_08_amphitryon_iphicles", "grkr_her_07_alcmene_mother_of_heracles", "direct", "Marriage of Amphitryon & Alcmene"),
+        E("grkr_her_07_alcmene_mother_of_heracles", "grk_heracles", "direct", "Alcmene + Zeus -> Heracles"),
+        E("grkr_her_07_alcmene_mother_of_heracles", "grkr_her_iphicles", "direct", "Alcmene + Amphitryon -> Iphicles"),
+        E("grkr_her_08_amphitryon_iphicles", "grkr_her_iphicles", "direct", "Father Amphitryon -> Iphicles"),
+        E("grk_perseids_alcmene", "grkr_her_09_king_eurystheus_of_mycenae", "direct", "Perseus -> Sthenelus -> Eurystheus"),
+        E("grk_heracles", "grkr_her_10_hyllus_son_of_heracles_deian", "direct", "Heracles -> Hyllus"),
+        E("grkr_aeo_05_deianira_wife_of_heracles", "grkr_her_10_hyllus_son_of_heracles_deian", "direct", "Deianira -> Hyllus"),
+        E("grkr_her_10_hyllus_son_of_heracles_deian", "grk_heraclidae_return", "direct", "Hyllus -> Cleodaeus -> Aristomachus"),
+        E("grk_heracles", "grkr_her_11_telephus_of_mysia_son_of_her", "direct", "Heracles -> Telephus"),
+        E("grk_arcadia_pelasgus_atalanta", "grkr_her_11_telephus_of_mysia_son_of_her", "direct", "Auge -> Telephus"),
+        E("grk_heraclidae_return", "grkr_her_12_temenus_conqueror_of_argos_m", "direct", "Aristomachus -> Temenus"),
+        E("grk_heraclidae_return", "grkr_her_13_cresphontes_conqueror_of_mes", "direct", "Aristomachus -> Cresphontes"),
+        E("grk_heraclidae_return", "grkr_her_14_aristodemus_father_of_sparta", "direct", "Aristomachus -> Aristodemus"),
+        E("grkr_her_14_aristodemus_father_of_sparta", "grkr_her_15_eurysthenes_agiad_founder_of", "direct", "Aristodemus -> Eurysthenes"),
+        E("grkr_her_14_aristodemus_father_of_sparta", "grkr_her_16_procles_eurypontid_founder_o", "direct", "Aristodemus -> Procles"),
+        E("grkr_her_12_temenus_conqueror_of_argos_m", "grk_alexander", "expansion", "Argead Kings of Macedon descend from Temenus of Argos"),
+        E("grkr_her_15_eurysthenes_agiad_founder_of", "jos_sparta_lycurgus_leonidas", "direct", "Agiad royal line: Eurysthenes -> ... -> King Leonidas I"),
+        E("grkr_her_16_procles_eurypontid_founder_o", "jos_sparta_agesilaus2", "direct", "Eurypontid royal line: Procles -> ... -> King Agesilaus II"),
+    ]
 
-    add_roster(nodes, edges, "grk_thebes_oedipus_epigoni", "grkr_b3", "greek", 10, "Apollodorus Book III", "Cretan / Theban / Spartan / Trojan / Athenian Hero", ["Apollodorus Library Book III"], [
-        "Pasiphaë & the Minotaur", "Ariadne & Phaedra (Daughters of Minos)", "King Idomeneus of Crete", "Semele & Dionysus",
-        "Polydorus -> Labdacus -> Laius", "King Oedipus of Thebes (+ Jocasta)", "Eteocles & Polynices", "Antigone & Ismene",
-        "Illyrius (Son of Cadmus, Eponym of Illyria)", "Alcmaeon (Leader of Epigoni)", "Pelasgus & Lycaon of Arcadia",
-        "Callisto & Arcas", "Atalanta the Huntress", "Lacedaemon & Sparta", "Tyndareus & Leda", "Helen of Troy & Clytemnestra",
-        "Castor & Pollux (Dioscuri)", "Penelope (Daughter of Icarius, Wife of Odysseus)", "Asclepius (God of Medicine)",
-        "Aeacus -> Telamon -> Ajax the Great", "Teucer (Founder of Cypriot Salamis)", "Peleus & Thetis -> Neoptolemus",
-        "King Cecrops of Athens", "King Erechtheus of Athens", "King Aegeus & Theseus of Athens", "Tantalus & Niobe",
-        "Thyestes & Aegisthus", "Orestes, Electra & Iphigenia", "Paris (Alexander), Cassandra & Helenus of Troy"
-    ], edge_type="direct", edge_label="Heroic Lineage (Apollodorus Book III)")
+    # -------------------------------------------------------------------------
+    # 5. CRETE, THEBES, ARCADIA, SPARTA, ASOPIDS, ATHENS, PELOPIDS & TROY (Replacing grkr_b3 roster)
+    # -------------------------------------------------------------------------
+    nodes += [
+        # Crete
+        N("grkr_b3_01_pasipha_the_minotaur", "Queen Pasiphaë of Crete (Daughter of Helios; Wife of Minos)", "greek", 10, "Apollodorus III.i.2", "Queen of Minoan Crete", ["Apollodorus III.i.2"], "Daughter of Sun Titan Helios; wife of King Minos."),
+        N("grkr_b3_minotaur", "Asterion / The Minotaur (Born to Pasiphaë, Apollodorus III.i.4)", "greek", 10, "Apollodorus III.i.4", "Cretan Labyrinth Creature", ["Apollodorus III.i.4"], "Housed in Daedalus's Knossos Labyrinth until slain by Theseus."),
+        N("grkr_b3_02_ariadne_phaedra_daughters_of", "Princess Ariadne of Crete (Daughter of Minos & Pasiphaë; Wife of Dionysus)", "greek", 11, "Apollodorus III.i.2, Epit. I.9", "Cretan Princess Who Aided Theseus", ["Apollodorus Epit. I.8–9"], "Gave Theseus the thread to escape the Labyrinth; wed Dionysus at Naxos."),
+        N("grkr_b3_phaedra", "Queen Phaedra of Athens (Daughter of Minos & Pasiphaë; Wife of Theseus)", "greek", 11, "Apollodorus III.i.2, Epit. I.17", "Cretan Princess & Queen of Athens", ["Apollodorus III.i.2"], "Younger sister of Ariadne; wed Theseus and bore Acamas & Demophon."),
+        N("grkr_b3_03_king_idomeneus_of_crete", "King Idomeneus of Crete (Son of Deucalion; Trojan War Commander)", "greek", 11, "Apollodorus III.iii.1; Homer Iliad XIII", "Cretan Leader of 80 Ships at Troy", ["Apollodorus III.iii.1"], "Grandson of Minos via Deucalion."),
+        # Thebes
+        N("grkr_b3_04_semele_dionysus", "Princess Semele of Thebes (Daughter of Cadmus; Mother of Dionysus)", "greek", 10, "Apollodorus III.iv.2", "Theban Princess & Mother of Dionysus", ["Apollodorus III.iv.2–3"], "Daughter of Cadmus & Harmonia; bore Dionysus by Zeus."),
+        N("grkr_b3_dionysus", "Dionysus (God of Wine & Ecstasy, Son of Zeus & Semele)", "greek", 11, "Apollodorus III.iv.3", "Olympian Son of Cadmean Semele", ["Apollodorus III.iv.3", "Hesiod Theog. 940"], "Became an Olympian god and husband of Cretan princess Ariadne.", major=True),
+        N("grkr_b3_05_polydorus_labdacus_laius", "King Polydorus of Thebes (Son of Cadmus & Harmonia)", "greek", 10, "Apollodorus III.iv.2, v.5", "Son of Cadmus & Labdacid Founder", ["Apollodorus III.iv.2, v.5"], "Son of Cadmus; father of Labdacus."),
+        N("grkr_b3_labdacus", "King Labdacus of Thebes (Son of Polydorus)", "greek", 10, "Apollodorus III.v.5", "Eponym of the Labdacids", ["Apollodorus III.v.5"], "Father of King Laius."),
+        N("grkr_b3_laius", "King Laius of Thebes (Son of Labdacus; Husband of Jocasta)", "greek", 10, "Apollodorus III.v.5–7", "Father of Oedipus", ["Apollodorus III.v.5–7"], "Wed Jocasta (Epicaste), daughter of Menoeceus."),
+        N("grkr_b3_06_king_oedipus_of_thebes_jocas", "King Oedipus of Thebes (Son of Laius & Jocasta; Solver of the Sphinx)", "greek", 11, "Apollodorus III.v.7–9", "Tragic King of Thebes", ["Apollodorus III.v.7–9"], "Solved the Sphinx's riddle and fathered Eteocles, Polynices, Antigone & Ismene.", major=True),
+        N("grkr_b3_07_eteocles_polynices", "King Eteocles of Thebes (Elder Son of Oedipus)", "greek", 11, "Apollodorus III.v.8, vi.8", "Defender of Thebes Against the Seven", ["Apollodorus III.vi.1–8"], "Fell in single combat against brother Polynices at the Seventh Gate."),
+        N("grkr_b3_polynices", "Polynices of Thebes (Younger Son of Oedipus; Initiator of Seven Against Thebes)", "greek", 11, "Apollodorus III.vi.1–8", "Claimant of Thebes", ["Apollodorus III.vi.1–8"], "Wed Argeia (daughter of Adrastus) and marched with the Seven."),
+        N("grkr_b3_08_antigone_ismene", "Antigone (Daughter of Oedipus Who Buried Polynices)", "greek", 11, "Apollodorus III.v.8, vii.1; Sophocles", "Theban Heroine of Moral Duty", ["Apollodorus III.vii.1", "Sophocles Antigone"], "Defied King Creon's decree to bury brother Polynices."),
+        N("grkr_b3_ismene", "Ismene (Younger Daughter of Oedipus)", "greek", 11, "Apollodorus III.v.8", "Theban Princess", ["Apollodorus III.v.8"], "Younger sister of Antigone."),
+        N("grkr_b3_09_illyrius_son_of_cadmus_epony", "Illyrius (Youngest Son of Cadmus; Eponym of Illyria)", "greek", 10, "Apollodorus III.v.4", "Eponymous Hero of the Illyrians", ["Apollodorus III.v.4"], "Born in Encheleia / Illyria in Cadmus's old age."),
+        N("grkr_b3_10_alcmaeon_leader_of_epigoni", "Alcmaeon (Son of Amphiaraus; Leader of the Epigoni)", "greek", 12, "Apollodorus III.vii.2–5", "Conqueror of Thebes With the Epigoni", ["Apollodorus III.vii.2–5"], "Led the sons of the Seven to capture Thebes a decade later."),
+        # Arcadia
+        N("grkr_b3_11_pelasgus_lycaon_of_arcadia", "King Pelasgus of Arcadia (Autochthonous Progenitor / Son of Niobe)", "greek", 8, "Apollodorus III.viii.1", "Eponym of the Pelasgians", ["Apollodorus III.viii.1"], "Father of Lycaon in Arcadia."),
+        N("grkr_b3_lycaon", "King Lycaon of Arcadia (Father of 50 Sons & Callisto)", "greek", 8, "Apollodorus III.viii.1", "Impious King Preceding Deucalion's Flood", ["Apollodorus III.viii.1"], "Struck down before Deucalion's Flood; father of Callisto."),
+        N("grkr_b3_12_callisto_arcas", "Callisto (Daughter of Lycaon; Constellation Ursa Major)", "greek", 9, "Apollodorus III.viii.2", "Arcadian Princess & Mother of Arcas", ["Apollodorus III.viii.2"], "Bore Arcas to Zeus."),
+        N("grkr_b3_arcas", "King Arcas of Arcadia (Son of Callisto; Eponym of Arcadia)", "greek", 9, "Apollodorus III.viii.2, ix.1", "Eponymous Ancestor of Arcadians", ["Apollodorus III.viii.2, ix.1"], "Father of Elatus, Aphidas (-> Aleus) & Azan."),
+        N("grkr_b3_13_atalanta_the_huntress", "Atalanta of Arcadia (Daughter of Iasus; Huntress & Argonaut)", "greek", 11, "Apollodorus III.ix.2", "Virgin Huntress of the Calydonian Boar", ["Apollodorus III.ix.2"], "Descendant of Arcas via Clymene; mother of Parthenopaeus."),
+        # Atlantids, Sparta & Troy
+        N("grkr_b3_14_lacedaemon_sparta", "King Lacedaemon (Son of Zeus & Taygete; Eponym of Sparta)", "greek", 10, "Apollodorus III.x.3", "Founder-King of Lacedaemon / Sparta", ["Apollodorus III.x.3"], "Married Sparta (daughter of Eurotas) and named the kingdom after himself & his queen."),
+        N("grkr_b3_sparta", "Queen Sparta (Daughter of River Eurotas; Eponym of City of Sparta)", "greek", 10, "Apollodorus III.x.3", "Queen & Eponym of Sparta", ["Apollodorus III.x.3"], "Wife of Lacedaemon; mother of Amyclas & Eurydice (wife of Acrisius!)."),
+        N("grkr_b3_15_tyndareus_leda", "King Tyndareus of Sparta (Descendant of Lacedaemon; Husband of Leda)", "greek", 11, "Apollodorus III.x.4–6", "Spartan King & Stepfather of Helen & Dioscuri", ["Apollodorus III.x.4–6"], "Brother of Icarius; wed Aetolian princess Leda."),
+        N("grkr_b3_leda", "Queen Leda of Sparta (Daughter of Thestius; Mother of Helen, Clytemnestra, Castor & Pollux)", "greek", 11, "Apollodorus III.x.6–7", "Queen of Sparta", ["Apollodorus III.x.6–7"], "Mother of Castor, Pollux, Helen & Clytemnestra."),
+        N("grkr_b3_16_helen_of_troy_clytemnestra", "Helen of Sparta / Troy (Daughter of Zeus & Leda; Consort of Menelaus & Paris)", "greek", 12, "Apollodorus III.x.7, Epit. III.3", "Queen of Sparta Whose Abduction Sparked the Trojan War", ["Apollodorus III.x.7", "Homer Iliad III"], "Sister of Clytemnestra, Castor & Pollux; married Menelaus.", major=True),
+        N("grkr_b3_clytemnestra", "Queen Clytemnestra of Mycenae (Daughter of Tyndareus & Leda; Wife of Agamemnon)", "greek", 12, "Apollodorus III.x.6, Epit. II.16", "Queen of Mycenae", ["Apollodorus Epit. II.16, VI.23"], "Mother of Orestes, Electra & Iphigenia."),
+        N("grkr_b3_17_castor_pollux_dioscuri", "Castor (Dioscuri Twin, Son of Tyndareus & Leda)", "greek", 12, "Apollodorus III.x.7, xi.2", "Spartan Twin Horseman & Argonaut", ["Apollodorus III.x.7, xi.2"], "Twin brother of Pollux, celebrated among the Argonauts."),
+        N("grkr_b3_pollux", "Pollux / Polydeuces (Dioscuri Immortal Boxer, Son of Zeus & Leda)", "greek", 12, "Apollodorus III.x.7, xi.2", "Immortal Twin & Argonaut", ["Apollodorus III.x.7, xi.2"], "Boxer-twin of Castor who shared immortality between Olympus and Hades."),
+        N("grkr_b3_18_penelope_daughter_of_icarius", "Queen Penelope of Ithaca (Daughter of Icarius of Sparta; Wife of Odysseus)", "greek", 12, "Apollodorus III.x.6; Homer Odyssey", "Faithful Queen of Ithaca & Cousin of Helen", ["Apollodorus III.x.6", "Homer Odyssey"], "Daughter of Spartan prince Icarius; bore Telemachus to Odysseus."),
+        N("grkr_b3_19_asclepius_god_of_medicine", "Asclepius (God of Medicine, Son of Apollo & Arsinoe/Coronis)", "greek", 11, "Apollodorus III.x.3", "Healer God & Ancestor of Hippocrates", ["Apollodorus III.x.3–4"], "Taught medicine by Chiron; father of physicians Machaon & Podalirius at Troy."),
+        # Asopids (Aeacus -> Telamon & Peleus -> Neoptolemus -> Olympias -> Alexander)
+        N("grkr_b3_20_aeacus_telamon_ajax_the_grea", "King Aeacus of Aegina (Son of Zeus & Aegina; Father of Telamon & Peleus)", "greek", 10, "Apollodorus III.xii.6", "Righteous King & Judge of Hades", ["Apollodorus III.xii.6"], "Ancestor of Achilles, Ajax & Alexander the Great."),
+        N("grkr_b3_telamon", "King Telamon of Salamis (Son of Aeacus; Argonaut & Father of Ajax)", "greek", 11, "Apollodorus III.xii.6–7", "King of Salamis & Companion of Heracles", ["Apollodorus III.xii.6–7"], "Fathered Ajax the Great (by Periboea) and Teucer (by Trojan princess Hesione!)."),
+        N("grkr_b3_ajax", "Ajax the Great (Telamonian Bulwark of the Achaeans at Troy)", "greek", 12, "Apollodorus III.xii.7, Epit. V", "Greatest Greek Warrior After Achilles", ["Homer Iliad", "Apollodorus III.xii.7"], "Son of Telamon & Periboea; cousin of Achilles.", major=True),
+        N("grkr_b3_21_teucer_founder_of_cypriot_sa", "Teucer (Son of Telamon & Trojan Princess Hesione; Founder of Salamis in Cyprus)", "greek", 12, "Apollodorus III.xii.7", "Master Archer & Founder of Cypriot Salamis", ["Apollodorus III.xii.7"], "Half-brother of Ajax and nephew of King Priam of Troy through mother Hesione."),
+        N("grkr_b3_22_peleus_thetis_neoptolemus", "King Peleus of Phthia (Son of Aeacus; Father of Achilles)", "greek", 11, "Apollodorus III.xiii.1–8", "Argonaut & Father of Achilles", ["Apollodorus III.xiii.1–8"], "Wed Nereid Thetis in the presence of all the Olympians."),
+        N("grkr_b3_thetis", "Nereid Thetis (Daughter of Nereus & Doris; Mother of Achilles)", "greek", 11, "Apollodorus I.ii.7, III.xiii.5", "Sea Goddess & Mother of Achilles", ["Apollodorus III.xiii.5–6"], "Dipped infant Achilles in the Styx and commissioned Hephaestus's armor."),
+        N("grkr_b3_neoptolemus", "King Neoptolemus / Pyrrhus of Epirus (Son of Achilles; Ancestor of Olympias!)", "greek", 13, "Apollodorus Epit. V.10, VI.12; Plutarch Pyrrhus 1", "Founder of Molossian Royal Line of Epirus", ["Apollodorus Epit. V–VI", "Plutarch Life of Pyrrhus 1"], "Son of Achilles & Deidamia; founded the Aeacid Molossian dynasty of Epirus leading to Olympias & King Pyrrhus.", major=True),
+        N("grkr_b3_olympias", "Queen Olympias of Epirus (Daughter of Neoptolemus I of Epirus; Mother of Alexander!)", "greek", 17, "c. 375–316 BCE (Plutarch Alexander 2)", "Molossian Princess & Mother of Alexander the Great", ["Plutarch Life of Alexander 2"], "Claimed direct descent from Achilles's son Neoptolemus; wed King Philip II of Macedon and bore Alexander the Great.", major=True),
+        # Athens & Pelopids & Troy
+        N("grkr_b3_23_king_cecrops_of_athens", "King Cecrops I of Athens (1st King of Attica; Eusebius 1556 BCE Trad.)", "greek", 9, "Apollodorus III.xiv.1; Eusebius Chronicle p.53", "Founder & First King of Athens", ["Apollodorus III.xiv.1", "Eusebius Chronicle p.53"], "Judged the contest between Athena & Poseidon for Attica."),
+        N("grkr_b3_24_king_erechtheus_of_athens", "King Erechtheus of Athens (Father of Creusa & Orithyia)", "greek", 10, "Apollodorus III.xv.1–4", "Athenian King (Erechtheion Honoree)", ["Apollodorus III.xv.1–4"], "Son of Pandion I; father of Creusa (mother of Ion!) and Cecrops II."),
+        N("grkr_b3_25_king_aegeus_theseus_of_athen", "King Aegeus of Athens (Father of Theseus, Apollodorus III.xv.5)", "greek", 11, "Apollodorus III.xv.5–Epit. I", "9th King of Athens", ["Apollodorus III.xv.5–7"], "Wed Aethra (daughter of King Pittheus of Troezen) and fathered Theseus."),
+        N("grkr_b3_theseus", "King Theseus of Athens (Slayer of the Minotaur; Son of Aegeus & Aethra)", "greek", 12, "Apollodorus III.xvi.1–Epit. I", "Great Unifier & Hero-King of Athens", ["Apollodorus Epit. I.1–24", "Plutarch Life of Theseus"], "Slew the Cretan Minotaur, united Attica, wed Ariadne & Phaedra, and fathered Hippolytus, Acamas & Demophon.", major=True),
+        N("grkr_b3_26_tantalus_niobe", "King Tantalus of Lydia / Sipylus (Father of Pelops & Niobe)", "greek", 9, "Apollodorus Epit. II.1", "Anatolian Founder of the Pelopid House", ["Apollodorus Epitome II.1"], "Father of Pelops (Peloponnese) and Niobe."),
+        N("grkr_b3_niobe", "Queen Niobe of Thebes (Daughter of Tantalus; Wife of Amphion)", "greek", 10, "Apollodorus III.v.6", "Queen of Thebes Weeping on Mt. Sipylus", ["Apollodorus III.v.6"], "Boasted over Leto, bringing grief upon Thebes."),
+        N("grkr_b3_27_thyestes_aegisthus", "Thyestes (Son of Pelops; Rival Brother of Atreus)", "greek", 11, "Apollodorus Epit. II.10–14", "Pelopid Prince of Mycenae", ["Apollodorus Epitome II.10–14"], "Father of Aegisthus."),
+        N("grkr_b3_aegisthus", "Aegisthus (Son of Thyestes; Slain by Orestes)", "greek", 12, "Apollodorus Epit. II.14, VI.23–25", "Usurper of Mycenae", ["Apollodorus Epitome VI.23–25"], "Slain by Orestes after plotting Agamemnon's death."),
+        N("grkr_b3_28_orestes_electra_iphigenia", "King Orestes of Mycenae & Sparta (Son of Agamemnon; Father of Tisamenus)", "greek", 13, "Apollodorus Epit. VI.24–28", "Heir of Atreids Who United Mycenae & Sparta", ["Apollodorus Epitome VI.24–28"], "Married cousin Hermione (daughter of Menelaus & Helen) and fathered Tisamenus."),
+        N("grkr_b3_electra", "Princess Electra (Daughter of Agamemnon & Clytemnestra)", "greek", 13, "Apollodorus Epit. VI.24", "Princess of Mycenae", ["Apollodorus Epitome VI.24"], "Protected young Orestes; later wed Pylades."),
+        N("grkr_b3_iphigenia", "Iphigenia (Eldest Daughter of Agamemnon; Priestess at Tauris)", "greek", 13, "Apollodorus Epit. III.22, VI.27", "Eldest Daughter of Agamemnon", ["Apollodorus Epitome III.22, VI.27"], "Carried by Artemis to Tauris before reuniting with Orestes."),
+        N("grkr_b3_29_paris_alexander_cassandra_he", "Paris / Alexander of Troy (Son of Priam & Hecuba)", "greek", 12, "Apollodorus III.xii.5, Epit. III.3", "Trojan Prince Who Abducted Helen", ["Apollodorus III.xii.5"], "Son of King Priam & Hecuba; awarded the golden apple to Aphrodite."),
+        N("grkr_b3_hector", "Prince Hector of Troy (Champion of Troy; Husband of Andromache)", "greek", 12, "Apollodorus III.xii.5; Homer Iliad", "Crown Prince & Defender of Troy", ["Homer Iliad VI, XXII", "Apollodorus III.xii.5"], "Eldest son of Priam & Hecuba; slain outside Troy's gates by Achilles.", major=True),
+        N("grkr_b3_cassandra", "Princess Cassandra of Troy (Prophetess Daughter of Priam & Hecuba)", "greek", 12, "Apollodorus III.xii.5, Epit. VI.23", "Prophetess Princess of Troy", ["Apollodorus III.xii.5"], "Gifted true prophecy never believed."),
+        N("grkr_b3_helenus", "Prince Helenus of Troy (Prophet Twin of Cassandra; King in Epirus)", "greek", 12, "Apollodorus III.xii.5, Epit. VI.12–13", "Trojan Seer Who Wed Andromache in Epirus", ["Apollodorus Epit. VI.12–13", "Virgil Aeneid III"], "Welcomed Aeneas at Buthrotum in Epirus."),
+        N("grkr_b3_creusa_troy", "Princess Creusa of Troy (Daughter of Priam; 1st Wife of Aeneas & Mother of Ascanius)", "greek", 12, "Apollodorus III.xii.5; Virgil Aeneid II", "Trojan Mother of Ascanius / Iulus", ["Apollodorus III.xii.5", "Virgil Aeneid II.673"], "Daughter of Priam & Hecuba; mother of Ascanius/Iulus by Aeneas."),
+    ]
+    edges += [
+        # Crete edges
+        E("grkr_div_13_helios_sun_titan", "grkr_b3_01_pasipha_the_minotaur", "direct", "Helios -> daughter Pasiphae"),
+        E("grk_minos_crete_family", "grkr_b3_01_pasipha_the_minotaur", "direct", "Marriage of King Minos & Pasiphae"),
+        E("grkr_b3_01_pasipha_the_minotaur", "grkr_b3_minotaur", "direct", "Pasiphae -> Minotaur"),
+        E("grkr_b3_01_pasipha_the_minotaur", "grkr_b3_02_ariadne_phaedra_daughters_of", "direct", "Mother Pasiphae -> Ariadne"),
+        E("grkr_b3_01_pasipha_the_minotaur", "grkr_b3_phaedra", "direct", "Mother Pasiphae -> Phaedra"),
+        E("grk_minos_crete_family", "grkr_b3_03_king_idomeneus_of_crete", "direct", "Minos -> Deucalion -> King Idomeneus"),
+        E("grkr_b3_dionysus", "grkr_b3_02_ariadne_phaedra_daughters_of", "direct", "Marriage of Dionysus & Ariadne"),
+        # Thebes edges
+        E("grk_thebes_oedipus_epigoni", "grkr_b3_04_semele_dionysus", "direct", "Cadmus & Harmonia -> Semele"),
+        E("grkr_b3_04_semele_dionysus", "grkr_b3_dionysus", "direct", "Semele + Zeus -> Dionysus"),
+        E("grk_thebes_oedipus_epigoni", "grkr_b3_09_illyrius_son_of_cadmus_epony", "direct", "Cadmus -> Illyrius"),
+        E("grk_thebes_oedipus_epigoni", "grkr_b3_05_polydorus_labdacus_laius", "direct", "Cadmus -> Polydorus"),
+        E("grkr_b3_05_polydorus_labdacus_laius", "grkr_b3_labdacus", "direct", "Polydorus -> Labdacus"),
+        E("grkr_b3_labdacus", "grkr_b3_laius", "direct", "Labdacus -> Laius"),
+        E("grkr_b3_laius", "grkr_b3_06_king_oedipus_of_thebes_jocas", "direct", "Laius + Jocasta -> Oedipus"),
+        E("grkr_b3_06_king_oedipus_of_thebes_jocas", "grkr_b3_07_eteocles_polynices", "direct", "Oedipus -> Eteocles"),
+        E("grkr_b3_06_king_oedipus_of_thebes_jocas", "grkr_b3_polynices", "direct", "Oedipus -> Polynices"),
+        E("grkr_b3_06_king_oedipus_of_thebes_jocas", "grkr_b3_08_antigone_ismene", "direct", "Oedipus -> Antigone"),
+        E("grkr_b3_06_king_oedipus_of_thebes_jocas", "grkr_b3_ismene", "direct", "Oedipus -> Ismene"),
+        E("grkr_aeo_19_king_adrastus_of_argos", "grkr_b3_polynices", "direct", "Argeia bat Adrastus marries Polynices"),
+        E("grkr_aeo_18_amphiaraus_seven_against_the", "grkr_b3_10_alcmaeon_leader_of_epigoni", "direct", "Amphiaraus -> Alcmaeon"),
+        # Arcadia edges
+        E("grkr_her_01_phoroneus_first_man_of_argos", "grkr_b3_11_pelasgus_lycaon_of_arcadia", "direct", "Phoroneus -> Niobe -> Pelasgus"),
+        E("grkr_b3_11_pelasgus_lycaon_of_arcadia", "grkr_b3_lycaon", "direct", "Pelasgus -> King Lycaon"),
+        E("grkr_b3_lycaon", "grkr_b3_12_callisto_arcas", "direct", "Lycaon -> Callisto"),
+        E("grkr_b3_12_callisto_arcas", "grkr_b3_arcas", "direct", "Callisto + Zeus -> Arcas"),
+        E("grkr_b3_arcas", "grk_arcadia_pelasgus_atalanta", "direct", "Arcas -> Aphidas -> Aleus -> Auge"),
+        E("grkr_b3_arcas", "grkr_b3_13_atalanta_the_huntress", "direct", "Arcas -> Lycurgus/Iasus -> Atalanta"),
+        # Sparta & Atlantids
+        E("grk_sparta_tyndareus_helen", "grkr_b3_14_lacedaemon_sparta", "direct", "Taygete + Zeus -> King Lacedaemon"),
+        E("grkr_b3_14_lacedaemon_sparta", "grkr_b3_sparta", "direct", "Marriage of Lacedaemon & Queen Sparta"),
+        E("grkr_b3_14_lacedaemon_sparta", "grkr_b3_15_tyndareus_leda", "direct", "Lacedaemon -> Amyclas -> Cynortes -> Oebalus -> Tyndareus"),
+        E("grkr_b3_sparta", "grkr_b3_15_tyndareus_leda", "direct", "Mother Sparta -> Spartan line to Tyndareus"),
+        E("grkr_b3_15_tyndareus_leda", "grkr_b3_leda", "direct", "Marriage of Tyndareus & Leda"),
+        E("grkr_b3_leda", "grkr_b3_16_helen_of_troy_clytemnestra", "direct", "Leda + Zeus -> Helen of Troy"),
+        E("grkr_b3_leda", "grkr_b3_clytemnestra", "direct", "Leda + Tyndareus -> Clytemnestra"),
+        E("grkr_b3_15_tyndareus_leda", "grkr_b3_clytemnestra", "direct", "Tyndareus -> Clytemnestra"),
+        E("grkr_b3_15_tyndareus_leda", "grkr_b3_17_castor_pollux_dioscuri", "direct", "Tyndareus & Leda -> Castor"),
+        E("grkr_b3_leda", "grkr_b3_pollux", "direct", "Leda + Zeus -> Pollux"),
+        E("grkr_b3_14_lacedaemon_sparta", "grkr_b3_18_penelope_daughter_of_icarius", "direct", "Oebalus -> Icarius -> Penelope"),
+        E("grkr_div_07_apollo_artemis_twins_of_zeus", "grkr_b3_19_asclepius_god_of_medicine", "direct", "Apollo -> Asclepius"),
+        # Asopids -> Achilles -> Neoptolemus -> Olympias -> Alexander
+        E("grk_asopids_aeacus_ajax", "grkr_b3_20_aeacus_telamon_ajax_the_grea", "direct", "Asopus -> Aegina -> Aeacus"),
+        E("grkr_b3_20_aeacus_telamon_ajax_the_grea", "grkr_b3_telamon", "direct", "Aeacus -> Telamon"),
+        E("grkr_b3_telamon", "grkr_b3_ajax", "direct", "Telamon -> Ajax the Great"),
+        E("grkr_b3_telamon", "grkr_b3_21_teucer_founder_of_cypriot_sa", "direct", "Telamon + Hesione -> Teucer"),
+        E("grkr_b3_20_aeacus_telamon_ajax_the_grea", "grkr_b3_22_peleus_thetis_neoptolemus", "direct", "Aeacus -> Peleus"),
+        E("grk_nyx_pontus_nereids", "grkr_b3_thetis", "direct", "Nereus & Doris -> Thetis"),
+        E("grkr_b3_22_peleus_thetis_neoptolemus", "grkr_b3_thetis", "direct", "Marriage of Peleus & Thetis"),
+        E("grkr_b3_22_peleus_thetis_neoptolemus", "grk_achilles_odysseus", "direct", "Father Peleus -> Achilles"),
+        E("grkr_b3_thetis", "grk_achilles_odysseus", "direct", "Mother Thetis -> Achilles"),
+        E("grk_achilles_odysseus", "grkr_b3_neoptolemus", "direct", "Achilles -> Neoptolemus / Pyrrhus"),
+        E("grkr_b3_neoptolemus", "grkr_b3_olympias", "direct", "Molossian Aeacid Dynasty of Epirus -> Queen Olympias"),
+        E("grkr_b3_olympias", "grk_alexander", "direct", "Mother Queen Olympias (+ Philip II) -> Alexander the Great"),
+        # Athens -> Pelopids -> Troy
+        E("grk_athens_cecrops_theseus", "grkr_b3_23_king_cecrops_of_athens", "direct", "Autochthonous 1st King of Athens"),
+        E("grkr_b3_23_king_cecrops_of_athens", "grkr_b3_24_king_erechtheus_of_athens", "direct", "Cecrops -> Erichthonius -> Pandion I -> Erechtheus"),
+        E("grkr_b3_24_king_erechtheus_of_athens", "grk_xuthus", "direct", "Creusa bat Erechtheus marries Xuthus -> Ion & Achaeus"),
+        E("grkr_b3_24_king_erechtheus_of_athens", "grkr_b3_25_king_aegeus_theseus_of_athen", "direct", "Erechtheus -> Cecrops II -> Pandion II -> Aegeus"),
+        E("grkr_b3_25_king_aegeus_theseus_of_athen", "grkr_b3_theseus", "direct", "Aegeus + Aethra -> Theseus"),
+        E("grkr_b3_theseus", "grkr_b3_phaedra", "direct", "Marriage of Theseus & Phaedra of Crete"),
+        E("grk_pelopids_orestes", "grkr_b3_26_tantalus_niobe", "direct", "Tantalus of Lydia"),
+        E("grkr_b3_26_tantalus_niobe", "grkr_b3_niobe", "direct", "Tantalus -> Niobe"),
+        E("grkr_b3_26_tantalus_niobe", "grk_pelops_atreus", "direct", "Tantalus -> Pelops"),
+        E("grk_pelops_atreus", "grkr_b3_27_thyestes_aegisthus", "direct", "Pelops -> Thyestes"),
+        E("grkr_b3_27_thyestes_aegisthus", "grkr_b3_aegisthus", "direct", "Thyestes -> Aegisthus"),
+        E("grk_minos_crete_family", "grk_agamemnon_menelaus", "direct", "Catreus -> Aerope (+ Atreus) -> Agamemnon & Menelaus"),
+        E("grk_agamemnon_menelaus", "grkr_b3_16_helen_of_troy_clytemnestra", "direct", "Marriage of Menelaus & Helen"),
+        E("grk_agamemnon_menelaus", "grkr_b3_clytemnestra", "direct", "Marriage of Agamemnon & Clytemnestra"),
+        E("grk_agamemnon_menelaus", "grkr_b3_28_orestes_electra_iphigenia", "direct", "Agamemnon -> Orestes"),
+        E("grkr_b3_clytemnestra", "grkr_b3_28_orestes_electra_iphigenia", "direct", "Mother Clytemnestra -> Orestes"),
+        E("grk_agamemnon_menelaus", "grkr_b3_electra", "direct", "Agamemnon -> Electra"),
+        E("grk_agamemnon_menelaus", "grkr_b3_iphigenia", "direct", "Agamemnon -> Iphigenia"),
+        E("grk_sparta_tyndareus_helen", "grk_dardanus_tros", "direct", "Electra (Pleiades) + Zeus -> Dardanus"),
+        E("grk_priam_hector", "grkr_b3_29_paris_alexander_cassandra_he", "direct", "Priam -> Paris / Alexander"),
+        E("grk_priam_hector", "grkr_b3_hector", "direct", "Priam -> Crown Prince Hector"),
+        E("grk_priam_hector", "grkr_b3_cassandra", "direct", "Priam -> Cassandra"),
+        E("grk_priam_hector", "grkr_b3_helenus", "direct", "Priam -> Helenus"),
+        E("grk_priam_hector", "grkr_b3_creusa_troy", "direct", "Priam -> Creusa"),
+        E("grkr_b3_creusa_troy", "grk_aeneas", "direct", "1st marriage of Aeneas & Princess Creusa of Troy"),
+    ]
 
     return {
         "module": "20_greek_apollodorus_hesiod_complete",
-        "title": "Complete Greek Mythological & Heroic Genealogies (Apollodorus The Library Loeb/Frazer & Hesiod Theogony / Catalogue of Women)",
+        "title": "Person-by-Person Greek Mythological & Heroic Stemmata (Apollodorus & Hesiod)",
         "nodes": nodes,
         "edges": edges,
     }
