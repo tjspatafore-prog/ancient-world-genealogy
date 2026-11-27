@@ -1,9 +1,10 @@
 """
-Module 36: Unbridged World Kingdoms, Dynasties & Classical Thinkers (Pending Bridge).
-Contains 200+ individual world rulers, queens, offspring, dynasties, and classical thinkers
-across the Americas, Polynesia, Sub-Saharan Africa, Southeast Asia, Japanese Shogunates,
-Korean Goryeo/Joseon, Chinese Three Kingdoms/Song/Ming, and Classical Greek Thinkers — awaiting
-primary-source Biblical/Noahic bridges. (Malacca graduated in v17; Sparta & N./Central Europe graduated in v18!)
+Module 36: Unbridged World Kingdoms & Dynasties (Pending Bridge).
+Contains remaining pre-Columbian Americas, Polynesia, and unbridged Sub-Saharan African
+royalty & founders awaiting primary-source Biblical/Noahic bridges.
+(Malacca graduated in v17; Sparta & N./Central Europe in v18; Benin, Kanem-Bornu,
+Vietnam, Java/Majapahit, Khmer/Siam, Japanese Shogunates/Meiji, Korean Goryeo/Joseon,
+Chinese Three Kingdoms/Sui/Song/Ming & Classical Greek Sages graduated in Wave 7 / v24.0!)
 """
 
 from . import N, E
@@ -171,12 +172,6 @@ def build_module():
     ], "african", "15th–19th c. CE", ["Southern African Oral & Historical Chronicles"])
 
     add_chain(nodes, edges, None, [
-        ("unb_afr_kanem_dugu", "Kanem-Bornu Empire: King Dugu (Sefawa) → Mai Humai (c. 1075 CE)", 19, "8th–11th c. CE", "Sayfawa / Duguwa Roots", "Girgam Chronicle of Kanem-Bornu.", True),
-        ("unb_afr_dunama_dabbalemi", "Mai Dunama Dabbalemi (Kanem Peak, c. 1210–1248)", 20, "1210–1248 CE"),
-        ("unb_afr_idris_alooma", "Mai Idris Alooma of Bornu (1571–1603)", 21, "1571–1603 CE"),
-    ], "african", "Medieval Chad Basin", ["Diwan / Girgam of Bornu"])
-
-    add_chain(nodes, edges, None, [
         ("unb_afr_osei_tutu", "Ashanti Empire (Kumasi): Asantehene Osei Tutu I (Golden Stool, 1701)", 21, "1701–1717 CE", "Founder of Ashanti Empire", "Akan-Ashanti state foundation.", True),
         ("unb_afr_opoku_ware", "Asantehene Opoku Ware I (1720–1750)", 21, "1720–1750 CE"),
         ("unb_afr_osei_bonsu", "Asantehene Osei Bonsu (1804–1824)", 21, "1804–1824 CE"),
@@ -187,150 +182,13 @@ def build_module():
         ("unb_afr_houegbadja", "King Houegbadja (Founder of Dahomey, c. 1645–1685)", "1645–1685 CE", "King of Dahomey"),
         ("unb_afr_agaja", "King Agaja & King Ghezo of Dahomey", "1708–1858 CE", "Kings of Dahomey"),
         ("unb_afr_behanzin", "King Behanzin of Dahomey (1889–1894)", "1889–1894 CE", "Final Independent Dahomey King"),
-        ("unb_afr_ewuare_benin", "Oba Ewuare the Great of Benin (1440–1473)", "1440–1473 CE", "Oba of Benin"),
-        ("unb_afr_queen_idia", "Iyoba Queen Idia of Benin (Mother of Oba Esigie, c. 1504)", "15th–16th c. CE", "First Iyoba (Queen Mother) of Benin"),
-        ("unb_afr_esigie_ovonramwen", "Oba Ozolua → Oba Esigie → Oba Ovonramwen of Benin", "1481–1897 CE", "Obas of Benin"),
     ]:
         nodes.append(N(cid, cname, "african", 21, era, role, ["West African Kingdom Chronicles", "Mod. Univ. Hist. Vol. 7"], f"{cname}.", major=False))
         edges.append(E("unb_afr_osei_tutu", cid, "expansion", "West African forest-belt sovereign tradition"))
 
-    # =========================================================================
-    # 3. SOUTHEAST ASIAN EMPIRES (~38 nodes — Khmer, Siam, Srivijaya/Java, Vietnam)
-    # =========================================================================
-    add_chain(nodes, edges, None, [
-        ("sea_khmer_jayavarman2", "Funan & Angkor Founders: Kaundinya I (+ Queen Soma) → Jayavarman II (802 CE, Chakravartin)", 19, "1st–9th c. CE", "Founders of Funan & Angkor Empire", "Early Cambodian & Chinese records of Funan/Chenla & Angkor.", True),
-        ("unb_sea_indravarman1", "Indravarman I (Preah Ko & Bakong)", 19, "877–889 CE"),
-        ("unb_sea_yasovarman1", "Yasovarman I (Founder of Yasodharapura / Angkor)", 19, "889–910 CE"),
-        ("unb_sea_suryavarman1", "Suryavarman I of Angkor (1006–1050)", 20, "1006–1050 CE"),
-        ("unb_sea_suryavarman2", "Suryavarman II (Builder of Angkor Wat, 1113–1150)", 20, "1113–1150 CE"),
-        ("unb_sea_jayavarman7", "Jayavarman VII (Builder of Angkor Thom & Bayon, 1181–1218)", 20, "1181–1218 CE"),
-    ], "southeast_asia", "1st–13th c. CE", ["Khmer Inscriptions", "Zhou Daguan"])
-
-    add_chain(nodes, edges, "sea_khmer_jayavarman2", [
-        ("unb_sea_sri_indraditya", "Sri Indraditya (Founder of Sukhothai Kingdom, 1238)", 20, "1238–1270 CE"),
-        ("unb_sea_ram_khamhaeng", "King Ram Khamhaeng the Great (Thai Alphabet, 1279–1298)", 20, "1279–1298 CE"),
-        ("unb_sea_uthong", "King Uthong / Ramathibodi I (Founder of Ayutthaya, 1351)", 20, "1351–1369 CE"),
-        ("unb_sea_trailok", "King Borommatrailokkanat / Trailok (1448–1488)", 20, "1448–1488 CE"),
-        ("unb_sea_naresuan", "King Naresuan the Great of Ayutthaya (1590–1605)", 21, "1590–1605 CE"),
-        ("unb_sea_narai", "King Narai the Great (1656–1688)", 21, "1656–1688 CE"),
-        ("unb_sea_taksin", "King Taksin the Great (Thonburi, 1767–1782)", 21, "1767–1782 CE"),
-        ("unb_sea_rama1_chakri", "King Rama I (Founder of Chakri Dynasty of Siam, 1782)", 21, "1782–1809 CE"),
-        ("unb_sea_mongkut_chulalongkorn", "King Mongkut (Rama IV) → King Chulalongkorn (Rama V)", 21, "1851–1910 CE"),
-    ], "southeast_asia", "13th–20th c. CE", ["Royal Chronicles of Ayutthaya & Siam"])
-
-    add_chain(nodes, edges, None, [
-        ("sea_java_raden_wijaya", "Srivijaya, Medang & Majapahit: Dapunta Hyang → Sanjaya → Airlangga → Raden Wijaya (1293)", 20, "671–1309 CE", "Maritime Indonesian Founders", "Srivijaya, Mataram, Singhasari & Majapahit.", True),
-        ("unb_sea_tribhuwana", "Queen Tribhuwana Wijayatunggadewi of Majapahit (1328–1350)", 20, "1328–1350 CE"),
-        ("unb_sea_hayam_wuruk", "Hayam Wuruk & Prime Minister Gajah Mada (Majapahit Peak, 1350–1389)", 20, "1350–1389 CE"),
-    ], "southeast_asia", "7th–15th c. CE", ["Nagarakretagama", "Pararaton"])
-    for cid, cname, era in [
-        ("unb_sea_balaputradewa", "Balaputradewa of Srivijaya (Shailendra Dynasty)", "9th c. CE"),
-        ("unb_sea_ken_arok", "Ken Arok & King Kertanegara of Singhasari", "1222–1292 CE"),
-    ]:
-        nodes.append(N(cid, cname, "southeast_asia", 19, era, "Javanese/Sumatran Monarch", ["Pararaton", "Nalanda Inscription"], f"{cname}.", major=False))
-        edges.append(E("sea_java_raden_wijaya", cid, "expansion", "Archipelagic Indonesian lineage"))
-
-    add_chain(nodes, edges, None, [
-        ("unb_sea_lac_long_quan", "Vietnam Ancient Origins: Lac Long Quan & Au Co → Hung Vuong Kings (Van Lang)", 8, "Legendary Bronze Age", "Hong Bang Founders", "Dai Viet Su Ky Toan Thu.", True),
-        ("unb_sea_an_duong_vuong", "An Duong Vuong (Kingdom of Au Lac / Co Loa)", 13, "c. 257–207 BCE"),
-        ("unb_sea_trung_sisters", "Trung Sisters (Trung Trac & Trung Nhi, 40–43 CE)", 19, "40–43 CE"),
-        ("unb_sea_ngo_quyen", "Ngo Quyen (Bach Dang Victory & Independence, 938 CE)", 19, "938–944 CE"),
-        ("unb_sea_dinh_bo_linh", "Dinh Bo Linh (Emperor of Dai Co Viet, 968 CE)", 19, "968–979 CE"),
-        ("unb_sea_ly_thai_to", "Ly Thai To (Founder of Later Ly Dynasty, Thang Long / Hanoi, 1009)", 20, "1009–1028 CE"),
-        ("unb_sea_tran_thai_tong", "Tran Thai Tong & General Tran Hung Dao (Defeated Kublai's Fleets)", 20, "1225–1300 CE"),
-        ("unb_sea_le_loi", "Le Loi (Le Thai To, Founder of Later Le Dynasty, 1428)", 20, "1428–1433 CE"),
-        ("unb_sea_gia_long", "Emperor Gia Long (Unifier of Nguyen Dynasty Vietnam, 1802)", 21, "1802–1820 CE"),
-    ], "southeast_asia", "Ancient to 19th c. CE", ["Dai Viet Su Ky Toan Thu"])
-
-    # =========================================================================
-    # 4. EAST ASIAN SHOGUNATES, GORYEO/JOSEON & THREE KINGDOMS/SONG/MING (~31 nodes)
-    # =========================================================================
-    add_chain(nodes, edges, None, [
-        ("unb_jpn_yoritomo", "Minamoto no Yoritomo (1st Kamakura Shogun, 1192)", 20, "1147–1199 CE", "1st Shogun of Japan", "Mod. Univ. Hist. Vol. 5 & Azuma Kagami.", True),
-        ("unb_jpn_hojo_masako_yoshitsune", "Hojo Masako ('Nun Shogun') & General Minamoto no Yoshitsune", 20, "1156–1225 CE"),
-        ("unb_jpn_hojo_tokimasa", "Hojo Tokimasa (Shikken Regency of Kamakura)", 20, "1138–1215 CE"),
-        ("unb_jpn_ashikaga_takauji", "Ashikaga Takauji (1st Muromachi Shogun, 1338)", 20, "1305–1358 CE"),
-        ("unb_jpn_ashikaga_yoshimitsu", "Ashikaga Yoshimitsu (Golden Pavilion Kinkaku-ji)", 20, "1358–1408 CE"),
-        ("unb_jpn_oda_nobunaga", "Oda Nobunaga (1st Great Unifier of Sengoku Japan)", 21, "1534–1582 CE"),
-        ("unb_jpn_hideyoshi", "Toyotomi Hideyoshi (2nd Great Unifier)", 21, "1537–1598 CE"),
-        ("unb_jpn_tokugawa_ieyasu", "Tokugawa Ieyasu (Founder of Edo Shogunate, 1603)", 21, "1543–1616 CE"),
-        ("unb_jpn_date_masamune", "Date Masamune ('One-Eyed Dragon' of Sendai, Hasekura Tsunenaga Mission)", 21, "1567–1636 CE"),
-        ("unb_jpn_tokugawa_hidetada", "Tokugawa Hidetada (2nd Tokugawa Shogun)", 21, "1579–1632 CE"),
-        ("unb_jpn_tokugawa_iemitsu", "Tokugawa Iemitsu (3rd Tokugawa Shogun)", 21, "1604–1651 CE"),
-        ("unb_jpn_tokugawa_yoshinobu", "Tokugawa Yoshinobu (15th & Final Tokugawa Shogun)", 21, "1837–1913 CE"),
-        ("unb_jpn_emperor_meiji", "Emperor Meiji (Meiji Restoration, 1868)", 21, "1852–1912 CE"),
-    ], "japan_korea", "12th–20th c. CE", ["Modern Universal History Vol. 5", "Japanese Chronicles"])
-
-    add_chain(nodes, edges, None, [
-        ("unb_kor_wang_geon", "Taejo Wang Geon (Founder of Goryeo Dynasty, 918 CE)", 19, "877–943 CE", "Goryeo Founder", "Goryeosa & Joseon Wangjo Sillok.", True),
-        ("unb_kor_gwangjong", "King Gwangjong of Goryeo", 19, "925–975 CE"),
-        ("unb_kor_yi_seonggye", "Taejo Yi Seong-gye (Founder of Joseon Dynasty, 1392)", 20, "1335–1408 CE"),
-        ("unb_kor_taejong", "King Taejong of Joseon (Yi Bang-won)", 20, "1367–1422 CE"),
-        ("unb_kor_sejong_great", "King Sejong the Great (Hangul Alphabet, 1418–1450)", 20, "1397–1450 CE"),
-        ("unb_kor_sejo", "King Sejo of Joseon", 20, "1417–1468 CE"),
-        ("unb_kor_yi_sunsin", "Admiral Yi Sun-sin (Joseon Naval Hero)", 21, "1545–1598 CE"),
-        ("unb_kor_yeongjo_jeongjo", "King Yeongjo → King Jeongjo of Joseon", 21, "1694–1800 CE"),
-        ("unb_kor_gojong", "Emperor Gojong (Final Joseon Monarch / Korean Empire)", 21, "1852–1919 CE"),
-        ("unb_kor_injo_sukjong", "King Injo & King Sukjong of Joseon (17th–18th c.)", 21, "1623–1720 CE"),
-        ("unb_kor_daewongun_myeongseong", "Heungseon Daewongun & Empress Myeongseong (Queen Min)", 21, "1820–1895 CE"),
-    ], "japan_korea", "10th–20th c. CE", ["Goryeosa", "Veritable Records of the Joseon Dynasty", "Homer Hulbert History of Korea Vols. 1–2"])
-
-    add_chain(nodes, edges, None, [
-        ("unb_chn_cao_cao", "Cao Cao → Emperor Wen of Wei (Cao Pi, Three Kingdoms)", 19, "155–226 CE", "Cao Wei Founders", "Records of the Three Kingdoms.", True),
-        ("unb_chn_wen_sui", "Emperor Wen of Sui (Yang Jian, Reunified China 581 CE)", 19, "541–604 CE"),
-        ("unb_chn_song_taizu", "Emperor Taizu of Song (Zhao Kuangyin, 960 CE)", 20, "927–976 CE"),
-        ("unb_chn_song_huizong", "Emperor Huizong of Song", 20, "1082–1135 CE"),
-        ("unb_chn_yue_fei_zhuxi", "General Yue Fei (1103–1142) & Neo-Confucian Master Zhu Xi (1130–1200)", 20, "12th c. CE"),
-        ("unb_chn_ming_hongwu", "Emperor Hongwu (Zhu Yuanzhang, Founder of Ming Dynasty, 1368)", 20, "1328–1398 CE"),
-        ("unb_chn_empress_ma", "Empress Ma (Consort of Hongwu) & Prince Zhu Biao", 20, "1332–1382 CE"),
-        ("unb_chn_ming_yongle", "Emperor Yongle (Zhu Di) & Admiral Zheng He (Treasure Fleets)", 20, "1360–1424 CE"),
-    ], "chinese", "3rd–15th c. CE", ["Records of the Three Kingdoms", "History of Song & Ming"])
-    for cid, cname, role in [
-        ("unb_chn_liu_bei_zhuge", "Liu Bei (Emperor of Shu Han) & Chancellor Zhuge Liang", "Shu Han Rulers"),
-        ("unb_chn_sun_quan", "Sun Quan (Emperor of Eastern Wu)", "Eastern Wu Founder"),
-    ]:
-        nodes.append(N(cid, cname, "chinese", 19, "Three Kingdoms (220–280 CE)", role, ["Sanguozhi / Three Kingdoms"], f"{cname}.", major=False))
-        edges.append(E("unb_chn_cao_cao", cid, "cognate", "Contemporaries of China's Three Kingdoms era"))
-
-    # =========================================================================
-    # 5. CLASSICAL GREEK SAGES & CENTRAL/NORTHERN EUROPEAN HOUSES (~64 nodes)
-    # =========================================================================
-    add_chain(nodes, edges, None, [
-        ("unb_grk_thales", "Seven Sages & Ionian Philosophers: Thales of Miletus → Anaximander", 17, "c. 624–546 BCE", "Ionian Philosophy Founders", "Lives of Ancient Philosophers (1702) & Diogenes Laertius.", True),
-        ("unb_grk_pythagoras", "Pythagoras of Samos (Mathematics & Harmonics)", 17, "c. 570–495 BCE"),
-        ("unb_grk_socrates", "Socrates of Athens (Teacher of Classical Philosophy)", 18, "470–399 BCE"),
-        ("unb_grk_plato", "Plato (Founder of the Academy, Athens)", 18, "428–348 BCE"),
-        ("unb_grk_aristotle", "Aristotle of Stagira (Founder of the Lyceum, Tutor of Alexander)", 18, "384–322 BCE"),
-    ], "greek", "6th–4th c. BCE", ["The Lives of the Ancient Philosophers (1702)", "Plutarch Lives"])
-    for cid, cname, era, role in [
-        ("unb_grk_homer_hesiod", "Homer & Hesiod (Epic Poets of Greece)", "c. 8th–7th c. BCE", "Epic Poets"),
-        ("unb_grk_heraclitus", "Heraclitus of Ephesus", "c. 535–475 BCE", "Pre-Socratic Philosopher"),
-        ("unb_grk_parmenides", "Parmenides & Zeno of Elea", "c. 515–430 BCE", "Eleatic Philosophers"),
-        ("unb_grk_empedocles", "Empedocles of Acragas", "c. 494–434 BCE", "Philosopher"),
-        ("unb_grk_democritus", "Leucippus & Democritus (Atomic Theory)", "c. 460–370 BCE", "Atomist Philosophers"),
-        ("unb_grk_hippocrates", "Hippocrates of Kos (Father of Medicine)", "c. 460–370 BCE", "Physician"),
-        ("unb_grk_diogenes", "Diogenes of Sinope (Cynic School)", "c. 412–323 BCE", "Philosopher"),
-        ("unb_grk_epicurus", "Epicurus (The Garden, Athens)", "341–270 BCE", "Philosopher"),
-        ("unb_grk_zeno_stoic", "Zeno of Citium (Founder of Stoicism)", "c. 334–262 BCE", "Stoic Founder"),
-        ("unb_grk_euclid", "Euclid of Alexandria (Elements of Geometry)", "c. 300 BCE", "Mathematician"),
-        ("unb_grk_archimedes", "Archimedes of Syracuse (287–212 BCE)", "287–212 BCE", "Mathematician & Engineer"),
-        ("unb_grk_herodotus_thucydides", "Herodotus of Halicarnassus, Thucydides & Xenophon", "5th–4th c. BCE", "Classical Greek Historians"),
-    ]:
-        nodes.append(N(cid, cname, "greek", 18, era, role, ["Lives of Ancient Philosophers (1702)", "Herodotus", "Thucydides"], f"{cname}.", major=False))
-        edges.append(E("unb_grk_thales", cid, "cognate", "Greek philosophical and literary lineage"))
-
-    add_chain(nodes, edges, None, [
-        ("unb_grk_solon_lycurgus", "Greek Lawgivers: Solon of Athens → Cleisthenes (Athenian Democracy)", 17, "8th–6th c. BCE", "Constitutional Founders", "Plutarch Lives Vols. 1-5.", True),
-        ("unb_grk_miltiades_themistocles", "Miltiades (Marathon, 490 BCE) & Themistocles (Salamis, 480 BCE)", 18, "5th c. BCE"),
-        ("unb_grk_pericles", "Pericles of Athens (Golden Age Statesman, d. 429 BCE)", 18, "495–429 BCE"),
-        ("unb_grk_alcibiades_lysander", "Alcibiades of Athens & Lysander", 18, "5th c. BCE"),
-        ("unb_grk_epaminondas", "Epaminondas of Thebes (Battle of Leuctra, 371 BCE)", 18, "d. 362 BCE"),
-        ("unb_grk_pyrrhus_epirus", "King Pyrrhus of Epirus (319–272 BCE)", 18, "319–272 BCE"),
-    ], "greek", "8th–3rd c. BCE", ["Plutarch's Lives", "Thucydides", "Herodotus"])
-
     return {
         "module": "36_unbridged_world_kingdoms",
-        "title": "World Kingdoms, Dynasties & Classical Thinkers Awaiting Primary-Source Biblical Bridge (Pending Bridge)",
+        "title": "Pre-Columbian Americas, Polynesia & Unbridged Sub-Saharan African Kingdoms (Pending Bridge)",
         "nodes": nodes,
         "edges": edges,
     }

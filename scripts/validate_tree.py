@@ -111,7 +111,7 @@ def main():
             else:
                 pending_ids.add(n["id"])
 
-    unexpected_pending = [nid for nid in sorted(pending_ids) if not (nid.startswith("amp_") or nid.startswith("unb_") or nid in {"afr_buganda_kintu", "afr_kongo_lukeni", "afr_zimbabwe_mutota", "sea_khmer_jayavarman2", "sea_java_raden_wijaya"})]
+    unexpected_pending = [nid for nid in sorted(pending_ids) if not (nid.startswith("amp_") or nid.startswith("unb_") or nid in {"afr_buganda_kintu", "afr_kongo_lukeni", "afr_zimbabwe_mutota"})]
     assert not unexpected_pending, f"Unexpected non-DNA nodes disconnected from Adam/Noah: {unexpected_pending[:10]}"
     dna_total = sum(1 for n in nodes if n["tradition"] == "dna")
     print(f"SCOPE GATE OK: {len(bib_conn_ids)} Biblically Connected + {len(pending_ids)} Pending Bridge (All non-DNA={len(non_dna_ids)}, DNA={dna_total})")
@@ -178,6 +178,16 @@ def main():
         ("eur_wal_cunedda", "mon_eng_henry7", {"direct", "expansion"}, "Cunedda -> Rhodri Mawr -> Hywel Dda -> Llywelyn the Great -> Owen Tudor -> King Henry VII"),
         ("ind5_lava", "chr6_maharana_pratap", {"direct", "expansion"}, "Rama -> Lava -> Bappa Rawal -> Rana Kumbha -> Rana Sanga -> Maharana Pratap"),
         ("mon_eng_edward3", "fam6_george_washington", {"direct", "expansion"}, "King Edward III -> Colonial Virginia Gateway -> President George Washington"),
+        ("bib_heth", "eg_ramesses2", {"direct", "expansion", "cognate", "syncretic"}, "Heth -> Hittite Hattusili III -> Maathorneferure + Pharaoh Ramesses II"),
+        ("mit7_artatama1", "eg_akhenaten", {"direct", "expansion", "cognate", "syncretic"}, "Mitanni Artatama I -> Tushratta -> Tadukhepa + Pharaoh Akhenaten"),
+        ("bib_elam", "babr_3_10_burna_buriash_ii_amarna_lett", {"direct", "expansion", "cognate", "syncretic"}, "Shem -> Elam -> Untash-Napirisha + Kassite King Burna-Buriash II"),
+        ("bib_ishmael", "bib16_her_08_tetrarch_herod_antipas_phasa", {"direct", "expansion", "cognate", "syncretic"}, "Ishmael -> Nebaioth -> Aretas IV (2 Cor 11:32) -> Phasaelis + Herod Antipas"),
+        ("ar4_sayf_ibn_dhi_yazan", "unb_afr_idris_alooma", {"direct", "expansion", "cognate", "syncretic"}, "Himyar Sayf ibn Dhi Yazan -> Kanem-Bornu Sayfawa -> Mai Idris Alooma"),
+        ("af_eweka1", "unb_afr_queen_idia", {"direct", "expansion", "cognate", "syncretic"}, "Oranmiyan -> Eweka I -> Oba Ewuare -> Queen Idia of Benin"),
+        ("jk_jimmu", "jpn7_emperor_naruhito", {"direct", "expansion", "cognate", "syncretic"}, "Emperor Jimmu -> Meiji -> Taisho -> Showa -> Akihito -> Living Emperor Naruhito (2026)"),
+        ("grkr_aeo_12_neleus_of_pylos", "unb_grk_aristotle", {"direct", "expansion", "cognate", "syncretic"}, "Neleus of Pylos -> Solon -> Plato -> Aristotle -> Alexander"),
+        ("chn_yandi", "unb_sea_gia_long", {"direct", "expansion", "cognate", "syncretic"}, "Shennong (Yandi) -> Lac Long Quan -> Dai Viet -> Emperor Gia Long"),
+        ("ind_rishis_vasishtha_agastya", "unb_sea_jayavarman7", {"direct", "expansion", "cognate", "syncretic"}, "Vasishtha/Kaundinya -> Funan & Angkor -> Jayavarman VII"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

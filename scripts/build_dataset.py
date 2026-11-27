@@ -45,6 +45,7 @@ from modules import (
     mod46_wave4_mesopotamia_persia_arabia_chronicles,
     mod47_wave5_india_east_asia_celtic_europe,
     mod48_wave6_global_royalty_person_by_person,
+    mod49_wave7_graduated_empires_and_deep_bridges,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1305,6 +1306,7 @@ def main():
         mod46_wave4_mesopotamia_persia_arabia_chronicles.build_module(),
         mod47_wave5_india_east_asia_celtic_europe.build_module(),
         mod48_wave6_global_royalty_person_by_person.build_module(),
+        mod49_wave7_graduated_empires_and_deep_bridges.build_module(),
     ]
 
     for mod in modules:
@@ -1385,8 +1387,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Wave 6 Person-by-Person Global Royalty & Interactive Pathfinder Edition (v23.0)",
-            "version": "23.0.0",
+            "title": "Ancient World Genealogy Atlas — Wave 7 Graduated Empires, Hittite/Mitanni/Elam/Nabataea & Living 2026 Edition (v24.0)",
+            "version": "24.0.0",
             "counts": {
                 "total": len(all_nodes),
                 "biblicalConnected": bib_count,
