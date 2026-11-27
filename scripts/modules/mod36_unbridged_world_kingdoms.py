@@ -218,9 +218,7 @@ def build_module():
         ("sea_java_raden_wijaya", "Srivijaya, Medang & Majapahit: Dapunta Hyang → Sanjaya → Airlangga → Raden Wijaya (1293)", 20, "671–1309 CE", "Maritime Indonesian Founders", "Srivijaya, Mataram, Singhasari & Majapahit.", True),
         ("unb_sea_tribhuwana", "Queen Tribhuwana Wijayatunggadewi of Majapahit (1328–1350)", 20, "1328–1350 CE"),
         ("unb_sea_hayam_wuruk", "Hayam Wuruk & Prime Minister Gajah Mada (Majapahit Peak, 1350–1389)", 20, "1350–1389 CE"),
-        ("unb_sea_parameswara", "Parameswara / Iskandar Shah (Founder of Malacca Sultanate, 1400)", 20, "1400–1414 CE"),
-        ("unb_sea_mansur_shah", "Sultan Mansur Shah of Malacca (1459–1477)", 20, "1459–1477 CE"),
-    ], "southeast_asia", "7th–15th c. CE", ["Nagarakretagama", "Sejarah Melayu / Malay Annals"])
+    ], "southeast_asia", "7th–15th c. CE", ["Nagarakretagama", "Pararaton"])
     for cid, cname, era in [
         ("unb_sea_balaputradewa", "Balaputradewa of Srivijaya (Shailendra Dynasty)", "9th c. CE"),
         ("unb_sea_ken_arok", "Ken Arok & King Kertanegara of Singhasari", "1222–1292 CE"),
@@ -267,7 +265,9 @@ def build_module():
         ("unb_kor_yi_sunsin", "Admiral Yi Sun-sin (Joseon Naval Hero)", 21, "1545–1598 CE"),
         ("unb_kor_yeongjo_jeongjo", "King Yeongjo → King Jeongjo of Joseon", 21, "1694–1800 CE"),
         ("unb_kor_gojong", "Emperor Gojong (Final Joseon Monarch / Korean Empire)", 21, "1852–1919 CE"),
-    ], "japan_korea", "10th–20th c. CE", ["Goryeosa", "Veritable Records of the Joseon Dynasty"])
+        ("unb_kor_injo_sukjong", "King Injo & King Sukjong of Joseon (17th–18th c.)", 21, "1623–1720 CE"),
+        ("unb_kor_daewongun_myeongseong", "Heungseon Daewongun & Empress Myeongseong (Queen Min)", 21, "1820–1895 CE"),
+    ], "japan_korea", "10th–20th c. CE", ["Goryeosa", "Veritable Records of the Joseon Dynasty", "Homer Hulbert History of Korea Vols. 1–2"])
 
     add_chain(nodes, edges, None, [
         ("unb_chn_cao_cao", "Cao Cao → Emperor Wen of Wei (Cao Pi, Three Kingdoms)", 19, "155–226 CE", "Cao Wei Founders", "Records of the Three Kingdoms.", True),

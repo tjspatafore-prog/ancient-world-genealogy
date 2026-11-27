@@ -1,0 +1,4529 @@
+{
+  "module": "38_comprehensive_biblical_jubilees_jasher_enoch",
+  "title": "Exhaustive Priority Compendium (Bible, Jubilees, Jasher, 1–2 Enoch, Genesis Apocryphon, Pseudo-Philo, Samaritans, Targums & Islamic Prophetic Families — Every Male, Female, Wife, Concubine, Son & Daughter)",
+  "nodes": [
+    {
+      "id": "cb_eve",
+      "name": "Eve (Hawwah — First Mother of All Living)",
+      "altNames": [
+        "Hawwah",
+        "Mother of All Living"
+      ],
+      "tradition": "biblical",
+      "tier": 1,
+      "era": "Creation (Gen 2–4; Jub 3–4; Jasher 1)",
+      "role": "Universal Matriarch / Wife of Adam",
+      "sources": [
+        "Bible Gen 2–4",
+        "Jubilees 3–4",
+        "Book of Jasher 1"
+      ],
+      "notes": "First woman; mother of Cain, Abel, Seth, Awan, Azura, and numerous unnamed sons and daughters (Gen 5:4; Jub 4:10).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_awan",
+      "name": "Awan (Daughter of Adam & Eve; Wife of Cain)",
+      "altNames": [
+        "Awan bat Adam"
+      ],
+      "tradition": "biblical",
+      "tier": 2,
+      "era": "Antediluvian Gen 2 (Jubilees 4:1,9)",
+      "role": "Firstborn Daughter of Adam & Eve",
+      "sources": [
+        "Jubilees 4:1,9",
+        "Comprehensive Tree PDF p.2"
+      ],
+      "notes": "Born after Abel (Jub 4:1); married her brother Cain (Jub 4:9) and bore Cainite Enoch.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_azura_adam",
+      "name": "Azura (Daughter of Adam & Eve; Wife of Seth)",
+      "altNames": [
+        "Azura bat Adam"
+      ],
+      "tradition": "biblical",
+      "tier": 2,
+      "era": "Antediluvian Gen 2 (Jubilees 4:8,11)",
+      "role": "Daughter of Adam & Eve / Sethite Matriarch",
+      "sources": [
+        "Jubilees 4:8,11",
+        "Comprehensive Tree PDF p.2"
+      ],
+      "notes": "Born after Seth (Jub 4:8); married her brother Seth (Jub 4:11) and bore Enosh and Noam.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_noaba_pphilo",
+      "name": "Noaba & Adam's 12 Sons / 8 Daughters (Pseudo-Philo Ch. 1: Eliseel, Suris, Phua, Saba, Asin)",
+      "altNames": [
+        "Noaba",
+        "Pseudo-Philo Ch. 1"
+      ],
+      "tradition": "biblical",
+      "tier": 2,
+      "era": "Antediluvian Gen 2 (Pseudo-Philo Biblical Antiquities I.1–4)",
+      "role": "Antediluvian Patriarchal Sons & Daughters in Pseudo-Philo",
+      "sources": [
+        "Pseudo-Philo Biblical Antiquities (M.R. James 1917 Ch. 1 pp.75–76)"
+      ],
+      "notes": "Pseudo-Philo names Adam's twin daughter Noaba alongside Cain, plus his later 9 named sons (Eliseel, Suris, Elamiel, Brabal, Naat, Zarama, Zasam, Maathal, Anath) and 7 daughters (Phua, Iectas, Arebica, Sifa, Tecia, Saba, Asin).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_cain_adah",
+      "name": "Adah (Wife 1 of Cainite Lamech; Mother of Jabal & Jubal)",
+      "altNames": [
+        "Adah wife of Lamech"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Cainite Line (Gen 4:19; Jasher 2:16)",
+      "role": "First Named Female After Eve in Genesis / Daughter of Sethite Kenan (Jasher)",
+      "sources": [
+        "Genesis 4:19–21",
+        "Book of Jasher 2:11,16–18",
+        "Comprehensive Tree PDF p.4"
+      ],
+      "notes": "First wife of Cainite Lamech (identified in Jasher 2:18 as daughter of Sethite Kenan); mother of Jabal (nomadic herders) and Jubal (musicians).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_cain_zillah",
+      "name": "Zillah (Wife 2 of Cainite Lamech; Mother of Tubal-cain & Naamah)",
+      "altNames": [
+        "Zillah / Sella"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Cainite Line (Gen 4:19; Jasher 2:16)",
+      "role": "Second Wife of Cainite Lamech",
+      "sources": [
+        "Genesis 4:19,22",
+        "Book of Jasher 2:16–18",
+        "Comprehensive Tree PDF p.4"
+      ],
+      "notes": "Second wife of Cainite Lamech (also daughter of Sethite Kenan in Jasher 2:18); mother of master metallurgist Tubal-cain and sister Naamah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_themech_pphilo",
+      "name": "Themech (Cain's Wife in Pseudo-Philo) & Cainite Children (Olad, Lizaph, Fosal, Citha, Maac)",
+      "altNames": [
+        "Themech"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Cainite Line (Pseudo-Philo Ch. 2)",
+      "role": "Cainite Household in Pseudo-Philo",
+      "sources": [
+        "Pseudo-Philo Biblical Antiquities Ch. 2 p.78"
+      ],
+      "notes": "Pseudo-Philo names Cain's wife Themech and adds later Cainite children Olad, Lizaph, Fosal, Citha, and Maac before Lamech's household.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_noam",
+      "name": "Noam (Daughter of Seth & Azura; Wife of Enosh)",
+      "altNames": [
+        "Noam bat Seth"
+      ],
+      "tradition": "biblical",
+      "tier": 2,
+      "era": "Antediluvian Gen 3 (Jubilees 4:13)",
+      "role": "Matriarch / Mother of Kenan",
+      "sources": [
+        "Jubilees 4:13",
+        "Comprehensive Tree PDF p.2"
+      ],
+      "notes": "Daughter of Seth and Azura; married her brother Enosh and bore Kenan and Mualeleth.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_mualeleth",
+      "name": "Mualeleth (Daughter of Enosh & Noam; Wife of Kenan)",
+      "altNames": [
+        "Mualeleth bat Enosh"
+      ],
+      "tradition": "biblical",
+      "tier": 2,
+      "era": "Antediluvian Gen 4 (Jubilees 4:14)",
+      "role": "Matriarch / Mother of Mahalalel",
+      "sources": [
+        "Jubilees 4:14",
+        "Comprehensive Tree PDF p.2"
+      ],
+      "notes": "Daughter of Enosh and Noam; married her brother Kenan and bore Mahalalel and Barakiel.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_barakiel_jub",
+      "name": "Barakiel (Brother of Kenan / Father of Dinah, Jub 4:15)",
+      "altNames": [
+        "Barakiel of Jubilees"
+      ],
+      "tradition": "biblical",
+      "tier": 2,
+      "era": "Antediluvian Gen 4 (Jubilees 4:15)",
+      "role": "Collateral Sethite Son of Enosh",
+      "sources": [
+        "Jubilees 4:15",
+        "Comprehensive Tree PDF p.2"
+      ],
+      "notes": "Named in Jubilees 4:15 as paternal uncle of Mahalalel whose daughter Dinah married Mahalalel.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_dinah_mahalalel",
+      "name": "Dinah (Daughter of Barakiel; Wife of Mahalalel)",
+      "altNames": [
+        "Dinah bat Barakiel"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 5 (Jubilees 4:15)",
+      "role": "Matriarch / Mother of Jared",
+      "sources": [
+        "Jubilees 4:15",
+        "Comprehensive Tree PDF p.2"
+      ],
+      "notes": "Daughter of Barakiel; married her cousin Mahalalel and bore Jared.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_rasujal",
+      "name": "Rasujal (Brother of Mahalalel / Father of Baraka, Jub 4:16)",
+      "altNames": [
+        "Rasujal"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 5 (Jubilees 4:16)",
+      "role": "Collateral Sethite Son of Kenan",
+      "sources": [
+        "Jubilees 4:16",
+        "Comprehensive Tree PDF p.2"
+      ],
+      "notes": "Named in Jubilees 4:16 as paternal uncle of Jared whose daughter Baraka married Jared.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_baraka",
+      "name": "Baraka (Daughter of Rasujal; Wife of Jared)",
+      "altNames": [
+        "Baraka bat Rasujal"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 6 (Jubilees 4:16)",
+      "role": "Matriarch / Mother of Enoch",
+      "sources": [
+        "Jubilees 4:16",
+        "Comprehensive Tree PDF p.2"
+      ],
+      "notes": "Daughter of Rasujal; married Jared and bore the prophet Enoch.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_danel_jub",
+      "name": "Danel (Brother of Jared / Father of Edni, Jub 4:20)",
+      "altNames": [
+        "Danel of Jubilees"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 6 (Jubilees 4:20)",
+      "role": "Collateral Sethite Son of Mahalalel",
+      "sources": [
+        "Jubilees 4:20",
+        "Comprehensive Tree PDF p.2"
+      ],
+      "notes": "Named in Jubilees 4:20 as paternal uncle of Enoch whose daughter Edni married Enoch.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_edni",
+      "name": "Edni (Daughter of Danel; Wife of Enoch)",
+      "altNames": [
+        "Edni bat Danel"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 7 (Jubilees 4:20)",
+      "role": "Matriarch / Mother of Methuselah",
+      "sources": [
+        "Jubilees 4:20",
+        "Comprehensive Tree PDF p.3"
+      ],
+      "notes": "Daughter of Danel; married Enoch and bore Methuselah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_elishama_enoch",
+      "name": "Elishama (Son of Enoch, Jasher 3:1)",
+      "altNames": [
+        "Elishama ben Enoch"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 8 (Book of Jasher 3:1)",
+      "role": "Son of Enoch",
+      "sources": [
+        "Book of Jasher 3:1",
+        "Comprehensive Tree PDF p.3"
+      ],
+      "notes": "Listed in Book of Jasher 3:1 alongside Methuselah and Elisha as a son of Enoch.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_regim_2enoch",
+      "name": "Regim, Riman, Uchan, Chermion & Gaidad (5 Sons of Enoch, 2 Enoch 1:10)",
+      "altNames": [
+        "Regim",
+        "Riman",
+        "Gaidad"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 8 (2 Enoch 1:10)",
+      "role": "Additional Sons of Enoch in Slavonic 2 Enoch",
+      "sources": [
+        "2 Enoch 1:10 (Morfill & Charles 1896)",
+        "Comprehensive Tree PDF p.3"
+      ],
+      "notes": "Variant manuscripts of 2 Enoch (Book of the Secrets of Enoch 1:10) name Regim, Riman, Uchan, Chermion, and Gaidad among Enoch's sons summoned before his ascension.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_azrial",
+      "name": "Azrial (Brother of Enoch / Father of Edna, Jub 4:27)",
+      "altNames": [
+        "Azrial of Jubilees"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 7 (Jubilees 4:27)",
+      "role": "Collateral Sethite Son of Jared",
+      "sources": [
+        "Jubilees 4:27",
+        "Comprehensive Tree PDF p.3"
+      ],
+      "notes": "Named in Jubilees 4:27 as paternal uncle of Methuselah whose daughter Edna married Methuselah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_edna_meth",
+      "name": "Edna (Daughter of Azrial; Wife of Methuselah)",
+      "altNames": [
+        "Edna bat Azrial"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 8 (Jubilees 4:27)",
+      "role": "Matriarch / Mother of Lamech",
+      "sources": [
+        "Jubilees 4:27",
+        "Comprehensive Tree PDF p.3"
+      ],
+      "notes": "Daughter of Azrial; married Methuselah and bore Lamech (and in 2 Enoch traditions, grandfather of Nir & Noah).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_barakiil_meth",
+      "name": "Barakiil (Brother of Methuselah / Father of Betenos, Jub 4:28)",
+      "altNames": [
+        "Barakiil of Jubilees"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 8 (Jubilees 4:28)",
+      "role": "Collateral Sethite Son of Enoch",
+      "sources": [
+        "Jubilees 4:28",
+        "Comprehensive Tree PDF p.3"
+      ],
+      "notes": "Named in Jubilees 4:28 as paternal uncle of Lamech whose daughter Betenos married Lamech.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_betenos",
+      "name": "Betenos / Bitenosh (Daughter of Barakiil; Wife of Lamech, Jub 4:28 & Qumran 1QapGen)",
+      "altNames": [
+        "Bitenosh",
+        "Batenosh"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 9 (Jubilees 4:28; Dead Sea Genesis Apocryphon)",
+      "role": "Mother of Noah in Jubilees & Dead Sea Scrolls",
+      "sources": [
+        "Jubilees 4:28",
+        "Dead Sea Genesis Apocryphon 1QapGen Col. II (Machiela 2009)",
+        "Comprehensive Tree PDF p.3"
+      ],
+      "notes": "Both Jubilees 4:28 and the Qumran Aramaic Genesis Apocryphon (1QapGen Col. II) name Noah's mother Bitenosh/Betenos, recording Lamech's vivid dialogue swearing by the Most High that Noah was truly his son!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_ashmua",
+      "name": "Ashmua (Daughter of Elisha son of Enoch; Wife of Lamech, Jasher 4:11)",
+      "altNames": [
+        "Ashmua bat Elisha"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 9 (Book of Jasher 4:11)",
+      "role": "Mother of Noah in Book of Jasher",
+      "sources": [
+        "Book of Jasher 4:11",
+        "Comprehensive Tree PDF p.3"
+      ],
+      "notes": "In Jasher 4:11, Ashmua daughter of Elisha son of Enoch marries Lamech and births Noah ('Menahem').",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_rakeel",
+      "name": "Rake'el (Brother of Lamech / Father of Emzara, Jub 4:33)",
+      "altNames": [
+        "Rake'el of Jubilees"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Gen 9 (Jubilees 4:33)",
+      "role": "Collateral Sethite Son of Methuselah",
+      "sources": [
+        "Jubilees 4:33",
+        "Comprehensive Tree PDF p.3"
+      ],
+      "notes": "Named in Jubilees 4:33 as uncle of Noah whose daughter Emzara married Noah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_emzara",
+      "name": "Emzara (Daughter of Rake'el; Wife of Noah, Jub 4:33 & Genesis Apocryphon)",
+      "altNames": [
+        "Emzara bat Rake'el"
+      ],
+      "tradition": "biblical",
+      "tier": 4,
+      "era": "Flood Horizon (Jubilees 4:33; 1QapGen Col. VI)",
+      "role": "Matriarch of All Post-Flood Humanity (Mother of Shem, Ham & Japheth)",
+      "sources": [
+        "Jubilees 4:33",
+        "Genesis Apocryphon 1QapGen Col. VI",
+        "Comprehensive Tree PDF p.3"
+      ],
+      "notes": "Daughter of Rake'el; named in Jubilees 4:33 and Qumran Genesis Apocryphon as Noah's wife who entered the Ark and bore Shem, Ham, and Japheth.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_nir_2enoch",
+      "name": "Nir (Younger Brother of Noah & Pre-Flood Priest, 2 Enoch 70–71)",
+      "altNames": [
+        "Nir brother of Noah"
+      ],
+      "tradition": "biblical",
+      "tier": 4,
+      "era": "Antediluvian Gen 10 (2 Enoch 70–71)",
+      "role": "Pre-Flood High Priest Succeeded Methuselah",
+      "sources": [
+        "2 Enoch 70–71 (Morfill & Charles 1896 pp.85–93)",
+        "Charles APOT Vol. 2",
+        "Comprehensive Tree PDF p.4"
+      ],
+      "notes": "In Slavonic 2 Enoch (Ch. 70–71), Methuselah's ministry passes to Noah's younger brother Nir, who marries Sopanim and protects infant Melchizedek before the Deluge.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_sopanim_2enoch",
+      "name": "Sopanim (Wife of Nir & Miraculous Mother of Melchizedek, 2 Enoch 71)",
+      "altNames": [
+        "Sopanim wife of Nir"
+      ],
+      "tradition": "biblical",
+      "tier": 4,
+      "era": "Antediluvian Gen 10 (2 Enoch 71)",
+      "role": "Mother of Pre-Flood Melchizedek in 2 Enoch",
+      "sources": [
+        "2 Enoch 71 (Morfill & Charles 1896 pp.87–91)",
+        "Comprehensive Tree PDF p.4"
+      ],
+      "notes": "Barren aged wife of priest Nir who conceives Melchizedek miraculously and dies just as the fully formed child speaks and blesses the Lord before being carried by Archangel Michael to Paradise/Eden ahead of the Flood!",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_watchers_20",
+      "name": "All 20 Watcher Chiefs (1 Enoch 6:7–8, 69): Samyaza, Araklba, Rameel, Kokabiel, Tamiel, Ramiel, Danel, Ezeqeel, Baraqijal, Asael, Armaros, Batarel, Ananel, Zaqiel, Samsapeel, Satarel, Turel, Jomjael, Sariel, Penemue, Kasdeja & Gadreel",
+      "altNames": [
+        "20 Chiefs of the Watchers",
+        "Decarchs of 1 Enoch 6"
+      ],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian Mt. Hermon (1 Enoch 6:7–8, 69)",
+      "role": "Full 20 Leaders of the Watchers (Decarchs of 200)",
+      "sources": [
+        "1 Enoch 6:7–8, 69 (R.H. Charles 1912)",
+        "Comprehensive Tree PDF p.4"
+      ],
+      "notes": "Every named chief of ten among the 200 Watchers who descended on Mount Hermon in the days of Jared (1 Enoch 6:7–8), plus Penemue, Kasdeja, and Gadreel from the Parables (1 Enoch 69).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_elioud",
+      "name": "Naphil (Nephilim) → Elioud (Third Generation of Giants, 1 Enoch 7 & Jubilees 7:22)",
+      "altNames": [
+        "Elioud",
+        "Naphil"
+      ],
+      "tradition": "biblical",
+      "tier": 4,
+      "era": "Antediluvian Giants (1 Enoch 7; Jub 7:22)",
+      "role": "Three Generations of Pre-Flood Giants",
+      "sources": [
+        "1 Enoch 7:1–2",
+        "Jubilees 7:22",
+        "Comprehensive Tree PDF p.4"
+      ],
+      "notes": "Jubilees 7:22 explicitly distinguishes three giant generations from the Watchers and 'daughters of men': Giants (Gibborim) -> Naphil (Nephilim) -> Elioud!",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_sedeqetelebab",
+      "name": "Sedeqetelebab (Wife of Shem, Jub 7:16)",
+      "altNames": [
+        "Sedeqetelebab bat Eliakim"
+      ],
+      "tradition": "biblical",
+      "tier": 5,
+      "era": "Post-Flood Gen 1 (Jubilees 7:16)",
+      "role": "Semitic Matriarch / Wife of Shem",
+      "sources": [
+        "Jubilees 7:16",
+        "Comprehensive Tree PDF p.4"
+      ],
+      "notes": "Named in Jubilees 7:16 as Noah's eldest daughter-in-law, wife of Shem and ancestress of Elam, Asshur, Arphaxad, Lud, and Aram.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_naeltamauk",
+      "name": "Na'eltama'uk (Wife of Ham, Jub 7:16)",
+      "altNames": [
+        "Na'eltama'uk"
+      ],
+      "tradition": "biblical",
+      "tier": 5,
+      "era": "Post-Flood Gen 1 (Jubilees 7:16)",
+      "role": "Hamitic Matriarch / Wife of Ham",
+      "sources": [
+        "Jubilees 7:16",
+        "Comprehensive Tree PDF p.4"
+      ],
+      "notes": "Named in Jubilees 7:16 as wife of Ham and mother of Cush, Mizraim, Phut, and Canaan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_adataneses",
+      "name": "Adataneses (Wife of Japheth, Jub 7:16)",
+      "altNames": [
+        "Adataneses"
+      ],
+      "tradition": "biblical",
+      "tier": 5,
+      "era": "Post-Flood Gen 1 (Jubilees 7:16)",
+      "role": "Japhetic Matriarch / Wife of Japheth",
+      "sources": [
+        "Jubilees 7:16",
+        "Comprehensive Tree PDF p.4"
+      ],
+      "notes": "Named in Jubilees 7:16 as wife of Japheth and mother of Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_rasueja",
+      "name": "Rasu'eja (Daughter of Susan/Shushan of Elam; Wife of Arphaxad, Jub 8:1)",
+      "altNames": [
+        "Rasu'eja bat Susan"
+      ],
+      "tradition": "biblical",
+      "tier": 7,
+      "era": "Post-Flood Gen 3 (Jubilees 8:1)",
+      "role": "Mother of Post-Flood Cainan II / Shelah",
+      "sources": [
+        "Jubilees 8:1",
+        "Comprehensive Tree PDF pp.5–6"
+      ],
+      "notes": "Daughter of Susan son of Elam; married Arphaxad in Jubilees 8:1, uniting Elamite and Arphaxadite lines.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_melka_madai",
+      "name": "Melka (Daughter of Madai son of Japheth; Wife of Cainan II, Jub 8:5)",
+      "altNames": [
+        "Melka bat Madai"
+      ],
+      "tradition": "biblical",
+      "tier": 7,
+      "era": "Post-Flood Gen 3 (Jubilees 8:5)",
+      "role": "Japhetic–Semitic Matriarchal Bridge",
+      "sources": [
+        "Jubilees 8:5",
+        "Comprehensive Tree PDF pp.5–6"
+      ],
+      "notes": "Daughter of Madai (Japheth's 3rd son); married Cainan II (LXX/Jubilees) and birthed Shelah — uniting Japheth and Shem in Abraham's direct ancestry!",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_kainan_papyrus961",
+      "name": "Post-Flood Kainan Evidence (Henry Smith 2018: Chester Beatty LXX Papyrus 961, Luke 3:36 & Jub 8:1)",
+      "altNames": [
+        "Papyrus 961 Kainan",
+        "Luke 3:36 Kainan"
+      ],
+      "tradition": "biblical",
+      "tier": 7,
+      "era": "Post-Flood Textual Chronology (Gen 11:12–14 LXX; Luke 3:36)",
+      "role": "4th-Century Papyrus Evidence for Post-Flood Kainan",
+      "sources": [
+        "Henry B. Smith Jr., Bible and Spade 31.3 (2018) pp.70–78"
+      ],
+      "notes": "Henry Smith (2018) demonstrates via line-length lacuna analysis of 4th-century Chester Beatty IV (LXX Papyrus 961) that Kainan son of Arphaxad stood originally in early Alexandrian Genesis manuscripts alongside Luke 3:36 and Jubilees 8:1.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_muak",
+      "name": "Mu'ak (Daughter of Kesed; Wife of Shelah, Jub 8:6)",
+      "altNames": [
+        "Mu'ak bat Kesed"
+      ],
+      "tradition": "biblical",
+      "tier": 7,
+      "era": "Post-Flood Gen 4 (Jubilees 8:6)",
+      "role": "Matriarch / Mother of Eber",
+      "sources": [
+        "Jubilees 8:6",
+        "Comprehensive Tree PDF p.6"
+      ],
+      "notes": "Daughter of Kesed (her father's brother); married Shelah and bore Eber in the 31st Jubilee.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_azurad",
+      "name": "Azurad (Daughter of Nimrod/Nebrod; Wife of Eber, Jub 8:7)",
+      "altNames": [
+        "Azurad bat Nebrod"
+      ],
+      "tradition": "biblical",
+      "tier": 7,
+      "era": "Post-Flood Gen 5 (Jubilees 8:7)",
+      "role": "Hamitic (Nimrod)–Semitic (Eber) Bridge",
+      "sources": [
+        "Jubilees 8:7",
+        "Comprehensive Tree PDF p.6"
+      ],
+      "notes": "Daughter of Nebrod/Nimrod (line of Cush & Ham); married Eber and birthed Peleg and Joktan, bridging Ham and Abraham's Hebrew ancestry!",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_lomna",
+      "name": "Lomna (Daughter of Sina'ar / Shinar; Wife of Peleg, Jub 10:18)",
+      "altNames": [
+        "Lomna bat Sina'ar"
+      ],
+      "tradition": "biblical",
+      "tier": 7,
+      "era": "Post-Flood Gen 6 (Jubilees 10:18)",
+      "role": "Matriarch / Mother of Reu",
+      "sources": [
+        "Jubilees 10:18",
+        "Comprehensive Tree PDF p.6"
+      ],
+      "notes": "Daughter of Sina'ar (Shinar); married Peleg at the Tower of Babel division and bore Reu.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_ora_ur",
+      "name": "Ora (Daughter of Ur son of Kesed; Wife of Reu, Jub 11:1)",
+      "altNames": [
+        "Ora bat Ur"
+      ],
+      "tradition": "biblical",
+      "tier": 7,
+      "era": "Post-Flood Gen 7 (Jubilees 11:1)",
+      "role": "Matriarch of Ur of the Chaldees",
+      "sources": [
+        "Jubilees 11:1",
+        "Comprehensive Tree PDF p.6"
+      ],
+      "notes": "Daughter of Ur (builder of Ur of the Chaldees); married Reu and bore Serug.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_sera_reu",
+      "name": "Sera (Son of Reu, Book of Jasher 7:21)",
+      "altNames": [
+        "Sera ben Reu"
+      ],
+      "tradition": "biblical",
+      "tier": 8,
+      "era": "Post-Flood Gen 7 (Book of Jasher 7:21)",
+      "role": "Son of Reu & Brother of Serug",
+      "sources": [
+        "Book of Jasher 7:21",
+        "Comprehensive Tree PDF p.6"
+      ],
+      "notes": "Named alongside Serug as a son of Reu in Jasher 7:21.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_milka_kaber",
+      "name": "Milka (Daughter of Kaber; Wife of Serug, Jub 11:7)",
+      "altNames": [
+        "Milka bat Kaber"
+      ],
+      "tradition": "biblical",
+      "tier": 8,
+      "era": "Post-Flood Gen 8 (Jubilees 11:7)",
+      "role": "Matriarch / Mother of Nahor I",
+      "sources": [
+        "Jubilees 11:7",
+        "Comprehensive Tree PDF p.6"
+      ],
+      "notes": "Daughter of Kaber; married Serug and bore Nahor I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_iyoska",
+      "name": "Iyoska / Yasaka (Daughter of Nestag of the Chaldeans; Wife of Nahor I, Jub 11:9)",
+      "altNames": [
+        "Iyoska bat Nestag",
+        "Yasaka"
+      ],
+      "tradition": "biblical",
+      "tier": 8,
+      "era": "Post-Flood Gen 9 (Jubilees 11:9)",
+      "role": "Chaldean Matriarch / Mother of Terah",
+      "sources": [
+        "Jubilees 11:9",
+        "Comprehensive Tree PDF p.6"
+      ],
+      "notes": "Daughter of Nestag of the Chaldeans; married Nahor I and bore Terah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_edna_terah",
+      "name": "Edna (Daughter of Abram; Wife of Terah, Jub 11:14)",
+      "altNames": [
+        "Edna wife of Terah"
+      ],
+      "tradition": "biblical",
+      "tier": 9,
+      "era": "Ur of the Chaldees (Jubilees 11:14)",
+      "role": "Mother of Abraham in Book of Jubilees",
+      "sources": [
+        "Jubilees 11:14",
+        "Comprehensive Tree PDF p.6"
+      ],
+      "notes": "Named in Jubilees 11:14 as wife of Terah (named after her grandfather Abram) and mother of Abram, Nahor II, and Haran.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_amthelo",
+      "name": "Amthelo (Daughter of Cornebo; Mother of Abraham, Jasher 7:51 & Talmud)",
+      "altNames": [
+        "Amthelo bat Cornebo",
+        "Amathlai"
+      ],
+      "tradition": "biblical",
+      "tier": 9,
+      "era": "Ur of the Chaldees (Book of Jasher 7:51; Bava Batra 91a)",
+      "role": "Mother of Abraham in Jasher & Rabbinic Tradition",
+      "sources": [
+        "Book of Jasher 7:51",
+        "Talmud Bava Batra 91a",
+        "Comprehensive Tree PDF p.7"
+      ],
+      "notes": "Named in Jasher 7:51 and Bava Batra 91a as Amthelo/Amathlai bat Cornebo, wife of Terah who concealed newborn Abraham in a cave from Nimrod.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_kitab_magall_rolls",
+      "name": "Arabic Book of the Rolls (Kitab al-Magall, Gibson): Antediluvian Twins, Bouniter/Yonton & Post-Flood Matriarchs",
+      "altNames": [
+        "Kitab al-Magall",
+        "Book of the Rolls"
+      ],
+      "tradition": "biblical",
+      "tier": 5,
+      "era": "Early Christian Arabic Cave-of-Treasures Recension",
+      "role": "Arabic Clementine Apocryphon Synchronizing Patriarchal Mothers",
+      "sources": [
+        "Apocrypha Arabica (Margaret Dunlop Gibson 1901, Studia Sinaitica VIII pp.1–56)"
+      ],
+      "notes": "Gibson's edition of Kitab al-Magall (Sinai Arabic MS 508) preserves the Arabic Christian Cave-of-Treasures chain of Adam's daughters, Yonton/Bouniter the 4th son of Noah, and Melchizedek's guardianship at Golgotha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_reumah",
+      "name": "Reumah (Concubine of Nahor II; Mother of Tebah, Gaham, Tahash & Maacah)",
+      "altNames": [
+        "Reumah concubine of Nahor"
+      ],
+      "tradition": "biblical",
+      "tier": 9,
+      "era": "Patriarchal Era (Gen 22:24)",
+      "role": "Named Concubine of Abraham's Brother Nahor II",
+      "sources": [
+        "Genesis 22:24",
+        "Comprehensive Tree PDF p.7"
+      ],
+      "notes": "Concubine of Nahor II in Haran/Paddan-Aram who bore four Aramean tribal ancestors: Tebah, Gaham, Tahash, and Maacah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_laban_sons",
+      "name": "Beor, Alib & Morash (Sons of Laban, Jasher 28:28)",
+      "altNames": [
+        "Beor, Alib & Morash"
+      ],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Patriarchal Era (Gen 31:1; Jasher 28:28)",
+      "role": "Three Brothers of Leah & Rachel",
+      "sources": [
+        "Genesis 31:1",
+        "Book of Jasher 28:28",
+        "Comprehensive Tree PDF p.7"
+      ],
+      "notes": "Unnamed in Gen 31:1; explicitly named Beor, Alib, and Morash in Book of Jasher 28:28.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_lot_wife_ado",
+      "name": "Ado / Edith (Wife of Lot, Gen 19:26; Jasher 19:52)",
+      "altNames": [
+        "Ado wife of Lot",
+        "Edith (Pirke Ch. 25)"
+      ],
+      "tradition": "biblical",
+      "tier": 10,
+      "era": "Sodom & Gomorrah Horizon (Gen 19:26; Jasher 19:52)",
+      "role": "Wife of Lot / Turned to Pillar of Salt",
+      "sources": [
+        "Genesis 19:26",
+        "Book of Jasher 19:52",
+        "Comprehensive Tree PDF p.7"
+      ],
+      "notes": "Unnamed in Gen 19:26; named Ado in Book of Jasher 19:52 and Edith/Irit in Pirke de Rabbi Eliezer Ch. 25.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_lot_paltith",
+      "name": "Paltith (Martyred Daughter of Lot in Sodom, Jasher 19:24)",
+      "altNames": [
+        "Paltith bat Lot",
+        "Pelotit"
+      ],
+      "tradition": "biblical",
+      "tier": 11,
+      "era": "Sodom Horizon (Book of Jasher 19:24)",
+      "role": "Daughter of Lot Named in Jasher",
+      "sources": [
+        "Book of Jasher 19:24",
+        "Comprehensive Tree PDF p.7"
+      ],
+      "notes": "Pious married daughter of Lot in Sodom who secretly fed the poor and was executed by Sodom's citizens (Jasher 19:24–33; Pirke de R. Eliezer Ch. 25 calls her Pelotit).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_lot_daughters",
+      "name": "Elder & Younger Daughters of Lot (Mothers of Moab & Ben-Ammi, Gen 19:30–38)",
+      "altNames": [
+        "Lot's Two Daughters"
+      ],
+      "tradition": "biblical",
+      "tier": 11,
+      "era": "Zoar Cave Horizon (Gen 19:30–38)",
+      "role": "Progenitrices of Moab & Ammon",
+      "sources": [
+        "Genesis 19:30–38",
+        "Comprehensive Tree PDF p.7"
+      ],
+      "notes": "Preserved Lot's seed in the mountain cave above Zoar, becoming mothers of Moab (Great-ancestors of Ruth!) and Ben-Ammi (Ammonites).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_hagar",
+      "name": "Hagar (Egyptian Wife/Concubine of Abraham; Mother of Ishmael)",
+      "altNames": [
+        "Hajar (Arabic)",
+        "Pharaoh's Daughter (Jasher)"
+      ],
+      "tradition": "biblical",
+      "tier": 9,
+      "era": "Patriarchal Era (Gen 16 & 21; Jasher 16:33)",
+      "role": "Mother of Ishmael & Ancestress of Northern Arabs",
+      "sources": [
+        "Genesis 16 & 21",
+        "Book of Jasher 16:33",
+        "Comprehensive Tree PDF p.7"
+      ],
+      "notes": "Egyptian handmaid given to Abraham; identified in Jasher 16:33 and Genesis Rabbah as daughter of Pharaoh by a concubine. Mother of Ishmael.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_keturah",
+      "name": "Keturah (Wife/Concubine of Abraham; Mother of 6 Nations, Gen 25:1; Jub 19:11)",
+      "altNames": [
+        "Qeturah"
+      ],
+      "tradition": "biblical",
+      "tier": 9,
+      "era": "Patriarchal Era (Gen 25:1–6; Jub 19:11; Jasher 25:1)",
+      "role": "Matriarch of Midian, Sheba, Dedan & Eastern Tribes",
+      "sources": [
+        "Genesis 25:1–6",
+        "Jubilees 19:11",
+        "Book of Jasher 25:1",
+        "Comprehensive Tree PDF p.7"
+      ],
+      "notes": "Third wife of Abraham after Sarah's death (distinct in Jubilees & Jasher; identified with returning Hagar in Pirke de Rabbi Eliezer Ch. 30). Mother of Zimran, Jokshan, Medan, Midian, Ishbak, and Shuah.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_meribah_ishmael",
+      "name": "Meribah (1st Egyptian Wife of Ishmael, Jasher 21:31)",
+      "altNames": [
+        "Meribah of Egypt"
+      ],
+      "tradition": "arabian",
+      "tier": 11,
+      "era": "Paran Horizon (Book of Jasher 21:31–38)",
+      "role": "First Wife of Ishmael (Mother of 4 Sons & 1 Daughter in Jasher 25:14)",
+      "sources": [
+        "Book of Jasher 21:31, 25:14",
+        "Comprehensive Tree PDF p.8"
+      ],
+      "notes": "Egyptian wife of Ishmael (Gen 21:21; named Meribah in Jasher 21:31); divorced following Abraham's parabolic counsel before Ishmael wed Malchuth.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_malchuth_ishmael",
+      "name": "Malchuth (2nd Wife of Ishmael; Mother of 12 Princes & Mahalath, Jasher 21:39)",
+      "altNames": [
+        "Malchuth wife of Ishmael"
+      ],
+      "tradition": "arabian",
+      "tier": 11,
+      "era": "Paran Horizon (Book of Jasher 21:39)",
+      "role": "Canaanite/Paran Wife of Ishmael",
+      "sources": [
+        "Book of Jasher 21:39",
+        "Comprehensive Tree PDF p.8"
+      ],
+      "notes": "Canaanite wife praised for hospitality to Abraham in Jasher 21:39; mother of the 12 Princes of Ishmael and daughter Mahalath/Basemath.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_adah_esau",
+      "name": "Adah / Basemath (Daughter of Elon the Hittite; Wife 1 of Esau, Gen 36:2)",
+      "altNames": [
+        "Adah bat Elon"
+      ],
+      "tradition": "biblical",
+      "tier": 11,
+      "era": "Seir / Hebron (Gen 26:34, 36:2)",
+      "role": "Wife of Esau & Mother of Eliphaz",
+      "sources": [
+        "Genesis 26:34, 36:2",
+        "Comprehensive Tree PDF p.8"
+      ],
+      "notes": "Daughter of Elon the Hittite; mother of Esau's firstborn Eliphaz (ancestor of Teman, Amalek & Zepho).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_oholibamah_esau",
+      "name": "Oholibamah / Judith (Daughter of Anah/Beeri; Wife 2 of Esau, Gen 36:2)",
+      "altNames": [
+        "Oholibamah",
+        "Judith bat Beeri"
+      ],
+      "tradition": "biblical",
+      "tier": 11,
+      "era": "Seir / Edom (Gen 26:34, 36:2,25)",
+      "role": "Horite-Hivite Wife of Esau & Mother of Jeush, Jalam & Korah",
+      "sources": [
+        "Genesis 26:34, 36:2",
+        "Comprehensive Tree PDF p.8"
+      ],
+      "notes": "Daughter of Anah (son of Zibeon the Horite/Hivite); united Seir the Horite's line directly with Esau, bearing Jeush, Jalam, and Korah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_timna_concubine",
+      "name": "Timna (Sister of Lotan the Horite; Concubine of Eliphaz; Mother of Amalek, Gen 36:12,22)",
+      "altNames": [
+        "Timna bat Seir"
+      ],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Mount Seir (Gen 36:12,22; 1 Chr 1:36)",
+      "role": "Concubine of Eliphaz & Mother of Amalek",
+      "sources": [
+        "Genesis 36:12,22",
+        "Comprehensive Tree PDF p.8"
+      ],
+      "notes": "Noble Horite sister of Chief Lotan who became Eliphaz's concubine and birthed Amalek, progenitor of the Amalekites.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_janania_latinus",
+      "name": "Janania (Wife of Zepho/Janus) → Janeas → King Latinus of Italy (Jasher 60–61)",
+      "altNames": [
+        "Janania",
+        "Janeas",
+        "Latinus (Jasher)"
+      ],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "Mediterranean Synchronism (Book of Jasher 60–61)",
+      "role": "Jasher Italian/Latin Royal Bridge via Zepho ben Eliphaz",
+      "sources": [
+        "Book of Jasher 60–61",
+        "Comprehensive Tree PDF p.8"
+      ],
+      "notes": "Jasher 60–61 traces Esau's grandson Zepho (renamed Janus, king of Kittim/Italy) marrying Janania and fathering Janeas -> Latinus, ancestor of the early Latin/Roman kings.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_hor_lotan",
+      "name": "Lotan (1st Son of Seir the Horite → Hori & Heman; Brother of Timna)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Mount Seir (Gen 36:20,22)",
+      "role": "Horite Duke",
+      "sources": [
+        "Genesis 36:20,22",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Eldest son of Seir the Horite; father of Hori and Heman and brother of Timna.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_hor_shobal",
+      "name": "Shobal (2nd Son of Seir → Alvan, Manahath, Ebal, Shepho & Onam)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Mount Seir (Gen 36:20,23)",
+      "role": "Horite Duke",
+      "sources": [
+        "Genesis 36:20,23",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Second son of Seir the Horite; father of five Horite clans.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_hor_zibeon",
+      "name": "Zibeon (3rd Son of Seir → Aiah & Anah → Dishon & Oholibamah)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Mount Seir (Gen 36:20,24)",
+      "role": "Horite Duke",
+      "sources": [
+        "Genesis 36:20,24",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Third son of Seir; grandfather of Esau's wife Oholibamah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_hor_anah",
+      "name": "Anah (4th Son / Grandson of Seir → Dishon & Daughter Oholibamah)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Mount Seir (Gen 36:20,25)",
+      "role": "Horite Duke",
+      "sources": [
+        "Genesis 36:20,25",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Discovered hot springs in the wilderness; father of Dishon and Oholibamah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_hor_dishon",
+      "name": "Dishon (5th Son of Seir → Hemdan, Eshban, Ithran & Cheran)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Mount Seir (Gen 36:20,26)",
+      "role": "Horite Duke",
+      "sources": [
+        "Genesis 36:20,26",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Fifth Horite duke of Seir.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_hor_ezer",
+      "name": "Ezer (6th Son of Seir → Bilhan, Zaavan & Akan)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Mount Seir (Gen 36:20,27)",
+      "role": "Horite Duke",
+      "sources": [
+        "Genesis 36:20,27",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Sixth Horite duke of Seir.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_hor_dishan",
+      "name": "Dishan (7th Son of Seir → Uz & Aran)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Mount Seir (Gen 36:20,28)",
+      "role": "Horite Duke",
+      "sources": [
+        "Genesis 36:20,28",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Seventh Horite duke of Seir.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_edom_bela",
+      "name": "1. Bela (Son of Beor, King of Edom at Dinhabah, Gen 36:32)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Pre-Monarchic Edom (Gen 36:32)",
+      "role": "1st King of Edom",
+      "sources": [
+        "Genesis 36:32",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "First king listed in the pre-Israelite Edomite king list.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_edom_jobab",
+      "name": "2. Jobab (Son of Zerah of Bozrah, 2nd King of Edom = Job in LXX)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Pre-Monarchic Edom (Gen 36:33)",
+      "role": "2nd King of Edom",
+      "sources": [
+        "Genesis 36:33",
+        "LXX Job 42:17",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Identified by Septuagint Job 42:17 with Patriarch Job.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_edom_husham",
+      "name": "3. Husham (of Teman, 3rd King of Edom, Gen 36:34)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Pre-Monarchic Edom (Gen 36:34)",
+      "role": "3rd King of Edom",
+      "sources": [
+        "Genesis 36:34",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Succeeded Jobab from the land of the Temanites.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_edom_hadad1",
+      "name": "4. Hadad (Son of Bedad, 4th King of Edom at Avith, Gen 36:35)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Pre-Monarchic Edom (Gen 36:35)",
+      "role": "4th King of Edom",
+      "sources": [
+        "Genesis 36:35",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Defeated Midian in the field of Moab.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_edom_samlah",
+      "name": "5. Samlah (of Masrekah, 5th King of Edom, Gen 36:36)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Pre-Monarchic Edom (Gen 36:36)",
+      "role": "5th King of Edom",
+      "sources": [
+        "Genesis 36:36",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Fifth Edomite monarch.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_edom_shaul",
+      "name": "6. Shaul (of Rehoboth-by-the-River, 6th King of Edom, Gen 36:37)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Pre-Monarchic Edom (Gen 36:37)",
+      "role": "6th King of Edom",
+      "sources": [
+        "Genesis 36:37",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Sixth Edomite monarch.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_edom_baalhanan",
+      "name": "7. Baal-hanan (Son of Achbor, 7th King of Edom, Gen 36:38)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Pre-Monarchic Edom (Gen 36:38)",
+      "role": "7th King of Edom",
+      "sources": [
+        "Genesis 36:38",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Seventh Edomite monarch.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_edom_hadar_mehetabel",
+      "name": "8. King Hadar / Hadad & Queen Mehetabel (Daughter of Matred, Daughter of Mezahab, Gen 36:39)",
+      "altNames": [
+        "Mehetabel bat Matred",
+        "Mezahab"
+      ],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Pre-Monarchic Edom (Gen 36:39)",
+      "role": "8th King of Edom & Royal Matriarch Line",
+      "sources": [
+        "Genesis 36:39",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Eighth king of Edom whose wife Mehetabel receives a rare three-generation female pedigree: daughter of Matred, daughter of Mezahab.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_leah",
+      "name": "Leah (Wife 1 of Jacob; Daughter of Laban; Mother of 6 Sons & Dinah)",
+      "altNames": [
+        "Leah bat Laban"
+      ],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Patriarchal Era (Gen 29–30)",
+      "role": "Matriarch of Reuben, Simeon, Levi, Judah, Issachar, Zebulun & Dinah",
+      "sources": [
+        "Genesis 29:16–35, 30:17–21",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Elder daughter of Laban; mother of the Priestly tribe (Levi) and Royal Messianic tribe (Judah), buried in the Cave of Machpelah.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_rachel",
+      "name": "Rachel (Wife 2 of Jacob; Daughter of Laban; Mother of Joseph & Benjamin)",
+      "altNames": [
+        "Rachel bat Laban"
+      ],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Patriarchal Era (Gen 29–35)",
+      "role": "Matriarch of Joseph & Benjamin",
+      "sources": [
+        "Genesis 29:16–35:19",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Younger daughter of Laban; mother of Joseph (Ephraim & Manasseh) and Benjamin.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_bilhah",
+      "name": "Bilhah (Concubine 1 of Jacob; Mother of Dan & Naphtali)",
+      "altNames": [
+        "Bilhah"
+      ],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Patriarchal Era (Gen 30:3–8; Testaments)",
+      "role": "Mother of Dan & Naphtali (Jasher 36:24 / Jub 34)",
+      "sources": [
+        "Genesis 30:3–8",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Rachel's maidservant given as Jacob's wife/concubine; mother of Dan and Naphtali (in Testament of Naphtali 1:9, daughter of Rutheus and Hannah).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_zilpah",
+      "name": "Zilpah (Concubine 2 of Jacob; Mother of Gad & Asher)",
+      "altNames": [
+        "Zilpah"
+      ],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "Patriarchal Era (Gen 30:9–13)",
+      "role": "Mother of Gad & Asher",
+      "sources": [
+        "Genesis 30:9–13",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Leah's maidservant given as Jacob's wife/concubine; mother of Gad and Asher.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_reuben",
+      "name": "Ada (Jubilees 34:20) & Eliuram bat Avi the Canaanite (Jasher 45) — Wives of Reuben",
+      "altNames": [
+        "Ada wife of Reuben",
+        "Eliuram"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Jub 34:20; Jasher 45; T. Reuben)",
+      "role": "Named Mothers of Reuben's 4 Sons",
+      "sources": [
+        "Jubilees 34:20",
+        "Book of Jasher 45",
+        "Testaments of 12 Patriarchs (Charles 1908)",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Unnamed in Genesis; named Ada in Jubilees 34:20 and Eliuram daughter of Avi the Canaanite in Jasher 45.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_simeon",
+      "name": "Adiba'a (Jubilees 34:20) & Bunah (Jasher 45; Canaanite Captive) — Wives of Simeon",
+      "altNames": [
+        "Adiba'a",
+        "Bunah"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Gen 46:10; Jub 34:20; Jasher 45)",
+      "role": "Wives of Simeon (Alongside Sister Dinah in Jasher 45)",
+      "sources": [
+        "Genesis 46:10",
+        "Jubilees 34:20",
+        "Book of Jasher 45",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Gen 46:10 notes Shaul son of a Canaanite woman; Jubilees names Adiba'a while Jasher 45 names Dinah and Canaanite captive Bunah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_levi",
+      "name": "Melka (Jubilees 34:20, Aram's Line) & Adinah bat Jobab (Jasher 45) — Wives of Levi",
+      "altNames": [
+        "Melka wife of Levi",
+        "Adinah bat Jobab"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Jub 34:20; Jasher 45; T. Levi 11)",
+      "role": "Matriarchs of the Levitical & Aaronic Priesthood",
+      "sources": [
+        "Jubilees 34:20",
+        "Book of Jasher 45",
+        "Testament of Levi 11",
+        "Comprehensive Tree PDF p.9"
+      ],
+      "notes": "Mother of Gershon, Kohath, Merari, and Jochebed (Exod 6:20; Num 26:59); Testament of Levi 11 names Melcha daughter of Bathuel son of Laban.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_shua_dau_judah",
+      "name": "Bath-shua / Betasuel (Jubilees 34:20) / Aliyath bat Shua (Jasher 45) — Wife 1 of Judah",
+      "altNames": [
+        "Betasuel",
+        "Aliyath bat Shua",
+        "Bath-shua"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Gen 38:2; Jub 34:20; Jasher 45)",
+      "role": "Canaanite Wife of Judah (Mother of Er, Onan & Shelah)",
+      "sources": [
+        "Genesis 38:2–5",
+        "Jubilees 34:20",
+        "Book of Jasher 45",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Daughter of Shua the Canaanite; mother of Er, Onan, and Shelah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_tamar_judah",
+      "name": "Tamar (Mother of Perez & Zerah by Judah; Messianic Matriarch in Matt 1:3)",
+      "altNames": [
+        "Tamar of Judah"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Gen 38; Ruth 4:12; Matt 1:3; Jasher 45)",
+      "role": "Ancestor of King David & Jesus Christ",
+      "sources": [
+        "Genesis 38:6–30",
+        "Matthew 1:3",
+        "Book of Jasher 45 (daughter of Elam)",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Daughter-in-law of Judah (identified in Jasher 45 as daughter of Elam son of Shem); birthed twins Perez (royal Messianic ancestor of Boaz, David & Jesus!) and Zerah.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_dan",
+      "name": "Eglah (Jubilees 34:20) & Aphlaleth bat Chamudan (Jasher 45) — Wives of Dan",
+      "altNames": [
+        "Eglah wife of Dan",
+        "Aphlaleth"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Jub 34:20; Jasher 45; T. Dan)",
+      "role": "Mother of Hushim / Shuham",
+      "sources": [
+        "Jubilees 34:20",
+        "Book of Jasher 45",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Mother of Dan's son Hushim (Shuham).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_naphtali",
+      "name": "Rasuyu of Mesopotamia (Jub 34:20) & Merimah bat Amuram (Jasher 45) — Wives of Naphtali",
+      "altNames": [
+        "Rasuyu",
+        "Merimah bat Amuram"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Jub 34:20; Jasher 45; T. Naphtali)",
+      "role": "Mother of Jahzeel, Guni, Jezer & Shillem",
+      "sources": [
+        "Jubilees 34:20",
+        "Book of Jasher 45",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Mesopotamian wife of Naphtali (Jubilees 34:20) / Merimah daughter of Amuram son of Uz (Jasher 45).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_gad",
+      "name": "Maka (Jubilees 34:20) & Uzith (Jasher 45) — Wives of Gad",
+      "altNames": [
+        "Maka wife of Gad",
+        "Uzith"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Jub 34:20; Jasher 45; T. Gad)",
+      "role": "Mother of Gad's 7 Sons",
+      "sources": [
+        "Jubilees 34:20",
+        "Book of Jasher 45",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Mother of Ziphion, Haggi, Shuni, Ezbon, Eri, Arodi, and Areli.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_asher",
+      "name": "Iyona (Jub 34:20), Adon & Hadurah (Jasher 45) — Wives of Asher (Mother/Stepmother of Serah)",
+      "altNames": [
+        "Iyona",
+        "Adon",
+        "Hadurah"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Jub 34:20; Jasher 45; Gen 46:17)",
+      "role": "Asher's Wives & Origin of Serah bat Asher",
+      "sources": [
+        "Jubilees 34:20",
+        "Book of Jasher 45",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Jubilees names Iyona; Jasher 45 names barren Adon bat Aphlal and widow Hadurah (who brought young Serah into Asher's house, blessed with extraordinary longevity!).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_issachar",
+      "name": "Hezaqa (Jubilees 34:20) & Aridah (Jasher 45) — Wives of Issachar",
+      "altNames": [
+        "Hezaqa",
+        "Aridah"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Jub 34:20; Jasher 45; T. Issachar)",
+      "role": "Mother of Tola, Puvah, Job & Shimron",
+      "sources": [
+        "Jubilees 34:20",
+        "Book of Jasher 45",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Aridah was younger sister of Levi's wife Adinah (both daughters of Jobab ben Joktan in Jasher 45).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_zebulun",
+      "name": "Ni'iman (Jubilees 34:20) & Merushah bat Molilad (Jasher 45, Midian's Line) — Wives of Zebulun",
+      "altNames": [
+        "Ni'iman",
+        "Merushah"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Jub 34:20; Jasher 45; T. Zebulun)",
+      "role": "Mother of Sered, Elon & Jahleel",
+      "sources": [
+        "Jubilees 34:20",
+        "Book of Jasher 45",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Jasher 45 traces Zebulun's wife Merushah directly back to Abida son of Midian son of Abraham!",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_asenath",
+      "name": "Asenath (Daughter of Potiphera / Daughter of Dinah Adopted in Egypt; Wife of Joseph, Gen 41:45)",
+      "altNames": [
+        "Asenath bat Potiphera",
+        "Asenath bat Dinah"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Egypt Horizon (Gen 41:45; Jasher 38:15, 49:29; Joseph & Aseneth)",
+      "role": "Matriarch of Tribes of Manasseh & Ephraim",
+      "sources": [
+        "Genesis 41:45, 46:20",
+        "Jubilees 34:20",
+        "Book of Jasher 38:15, 49:29",
+        "Pirke de R. Eliezer Ch. 38",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Given to Joseph by Pharaoh (Gen 41:45); Book of Jasher and Pirke de Rabbi Eliezer Ch. 38 explain she was Dinah's daughter adopted by Potiphera in Heliopolis/On!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_benjamin",
+      "name": "Iyasaka (Jub 34:21), Mechalia bat Aram & Aribath bat Shomron (Jasher 45) — Wives of Benjamin",
+      "altNames": [
+        "Iyasaka",
+        "Mechalia",
+        "Aribath"
+      ],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Gen 46:21; Jub 34:21; Jasher 45)",
+      "role": "Mothers of Benjamin's 10 Sons",
+      "sources": [
+        "Genesis 46:21",
+        "Jubilees 34:21",
+        "Book of Jasher 45",
+        "Comprehensive Tree PDF p.11"
+      ],
+      "notes": "Jasher 45 specifies Benjamin's 10 sons came equally: 5 by Mechalia bat Aram and 5 by Aribath bat Shomron.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_jud_hamul",
+      "name": "Hamul (Son of Perez, Gen 46:12)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Egypt Horizon (Gen 46:12; 1 Chr 2:5)",
+      "role": "Brother of Hezron",
+      "sources": [
+        "Genesis 46:12",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Younger twin-line son of Perez alongside Hezron.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_zerah_sons",
+      "name": "Zimri, Ethan, Heman, Calcol & Dara / Darda (5 Sons of Zerah, 1 Chr 2:6)",
+      "altNames": [
+        "Ethan, Heman, Calcol & Darda"
+      ],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Egypt / Wisdom Tradition (1 Chr 2:6; 1 Kgs 4:31)",
+      "role": "Famed Sages Descended from Zerah ben Judah",
+      "sources": [
+        "1 Chronicles 2:6",
+        "1 Kings 4:31",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "1 Chronicles 2:6 names Zerah's five sons, celebrated in 1 Kings 4:31 as sages surpassed only by Solomon.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_asher_heber_malchiel",
+      "name": "Heber & Malchiel (Sons of Beriah ben Asher, Gen 46:17)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Egypt Horizon (Gen 46:17)",
+      "role": "Asherite Clan Heads",
+      "sources": [
+        "Genesis 46:17",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Sons of Beriah son of Asher listed in Jacob's 70 entering Egypt.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_maacah_machir",
+      "name": "Maacah (Wife of Machir ben Manasseh; Mother of Gilead, 1 Chr 7:15)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Egypt / Transjordan (1 Chr 7:15)",
+      "role": "Matriarch of Machirite Manasseh",
+      "sources": [
+        "1 Chronicles 7:15",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Named wife of Machir who bore Peresh, Sheresh, and Gilead.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_zel_mahlah",
+      "name": "Mahlah (Daughter 1 of Zelophehad, Num 27:1)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Wilderness Horizon (Num 27:1)",
+      "role": "Female Inheritance Pioneer",
+      "sources": [
+        "Numbers 27:1",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Eldest of Zelophehad's five daughters who won land-inheritance rights for daughters in Mosaic Law.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_zel_noah",
+      "name": "Noah (Daughter 2 of Zelophehad, Num 27:1)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Wilderness Horizon (Num 27:1)",
+      "role": "Female Inheritance Pioneer",
+      "sources": [
+        "Numbers 27:1",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Second of Zelophehad's five daughters.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_zel_hoglah",
+      "name": "Hoglah (Daughter 3 of Zelophehad, Num 27:1)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Wilderness Horizon (Num 27:1)",
+      "role": "Female Inheritance Pioneer",
+      "sources": [
+        "Numbers 27:1",
+        "Comprehensive Tree PDF p.10"
+      ],
+      "notes": "Third of Zelophehad's five daughters.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_zel_milcah",
+      "name": "Milcah (Daughter 4 of Zelophehad, Num 27:1)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Wilderness Horizon (Num 27:1)",
+      "role": "Female Inheritance Pioneer",
+      "sources": [
+        "Numbers 27:1",
+        "Comprehensive Tree PDF p.11"
+      ],
+      "notes": "Fourth of Zelophehad's five daughters.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_zel_tirzah",
+      "name": "Tirzah (Daughter 5 of Zelophehad, Num 27:1)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Wilderness Horizon (Num 27:1)",
+      "role": "Female Inheritance Pioneer",
+      "sources": [
+        "Numbers 27:1",
+        "Comprehensive Tree PDF p.11"
+      ],
+      "notes": "Fifth of Zelophehad's five daughters.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_ephraim_sheerah",
+      "name": "Sheerah (Daughter of Ephraim; Builder of Beth-horon) & Shuthelah, Becher, Tahan (1 Chr 7:20–24)",
+      "altNames": [
+        "Sheerah bat Ephraim"
+      ],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Egypt / Canaan Settlement (Num 26:35; 1 Chr 7:20–24)",
+      "role": "Only Woman Credited With Building Cities in Chronicles",
+      "sources": [
+        "1 Chronicles 7:20–24",
+        "Numbers 26:35",
+        "Comprehensive Tree PDF p.11"
+      ],
+      "notes": "1 Chronicles 7:24 credits Ephraim's daughter Sheerah with founding Lower and Upper Beth-horon and Uzzen-sheerah; Num 26:35 lists Shuthelah, Becher, and Tahan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_elisheba",
+      "name": "Elisheba (Daughter of Amminadab; Sister of Nahshon; Wife of Aaron, Exod 6:23)",
+      "altNames": [
+        "Elisheba bat Amminadab"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Exodus Horizon (Exod 6:23)",
+      "role": "Tribal Union of Judah (Royal) & Levi (Priestly)",
+      "sources": [
+        "Exodus 6:23",
+        "Comprehensive Tree PDF p.11"
+      ],
+      "notes": "Judahite sister of Prince Nahshon who married Aaron, uniting Israel's royal and priestly tribes in Eleazar and Ithamar.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_nadab_abihu",
+      "name": "Nadab & Abihu (Elder Sons of Aaron & Elisheba, Num 3:4)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Sinai Wilderness (Exod 28; Num 3:4)",
+      "role": "Elder Sons of Aaron (Died Childless)",
+      "sources": [
+        "Numbers 3:4",
+        "Comprehensive Tree PDF p.11"
+      ],
+      "notes": "Eldest two sons of Aaron and Elisheba who perished offering unauthorized fire without children.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_eleazar_putiel",
+      "name": "Eleazar (High Priest) + Daughter of Putiel → Phinehas (Exod 6:25)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Wilderness & Conquest (Exod 6:25; Num 25)",
+      "role": "Second High Priest & Perpetual Covenant of Phinehas",
+      "sources": [
+        "Exodus 6:25",
+        "Numbers 25:7–13",
+        "Comprehensive Tree PDF p.11"
+      ],
+      "notes": "Third son of Aaron; married an unnamed daughter of Putiel and fathered zealous High Priest Phinehas.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_ithamar_eli",
+      "name": "Ithamar (4th Son of Aaron) → Eli → Hophni, Phinehas (+ Wife → Ichabod) → Ahitub → Ahimelech → Abiathar",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Sinai → Shiloh → David (1 Sam 1–22; 1 Kgs 2)",
+      "role": "Shiloh Priestly Line of Ithamar",
+      "sources": [
+        "1 Samuel 1–22",
+        "1 Kings 2:27",
+        "Comprehensive Tree PDF p.11"
+      ],
+      "notes": "Complete line of Aaron's fourth son Ithamar down through Eli, Phinehas's unnamed widow (-> Ichabod), Nob priests Ahimelech/Abiathar, and Jonathan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_zipporah",
+      "name": "Zipporah (Daughter of Reuel/Jethro; Wife 1 of Moses, Exod 2:21)",
+      "altNames": [
+        "Zipporah bat Jethro"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Midian & Exodus (Exod 2:21, 4:24–26, 18)",
+      "role": "Midianite Wife of Moses / Descendant of Abraham & Keturah",
+      "sources": [
+        "Exodus 2:21, 4:25",
+        "Comprehensive Tree PDF p.11"
+      ],
+      "notes": "Daughter of Priest Jethro/Reuel of Midian; saved Moses's life by circumcising their son; mother of Gershom and Eliezer.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_moses_grandsons",
+      "name": "Jonathan (Son of Gershom, Judg 18:30) & Rehabiah (Son of Eliezer, 1 Chr 23:17)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "Judges Era (Judg 18:30; 1 Chr 23:17)",
+      "role": "Named Grandsons of Moses",
+      "sources": [
+        "Judges 18:30",
+        "1 Chronicles 23:17",
+        "Comprehensive Tree PDF p.11"
+      ],
+      "notes": "Only grandsons of Moses named in canonical Scripture: Jonathan (Gershom's line, Danite shrine) and Rehabiah (Eliezer's line, chief of Temple treasury).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_adoniah_cush",
+      "name": "Adoniah, Queen of Cush (Cushite Wife 2 of Moses, Num 12:1; Jasher 23–26)",
+      "altNames": [
+        "Adoniah of Cush",
+        "Tharbis (Josephus)"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Wilderness / Cush (Num 12:1; Book of Jasher 23–26)",
+      "role": "Cushite Queen Married to Moses",
+      "sources": [
+        "Numbers 12:1",
+        "Book of Jasher 23–26",
+        "Comprehensive Tree PDF pp.11–12"
+      ],
+      "notes": "Identified in Num 12:1 as Moses's Cushite wife; Jasher 23–26 expands her as Queen Adoniah, widow of King Kikanos of Cush.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_pri_abishua",
+      "name": "High Priest Abishua (Son of Phinehas, 1 Chr 6:4)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Judges Era",
+      "role": "First Temple High Priest",
+      "sources": [
+        "1 Chronicles 6:4",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Grandson of Eleazar; credited in Samaritan tradition with penning the ancient Abisha Scroll.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_pri_bukki",
+      "name": "High Priest Bukki (Son of Abishua, 1 Chr 6:5)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Judges Era",
+      "role": "First Temple High Priest",
+      "sources": [
+        "1 Chronicles 6:5",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Father of Uzzi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_pri_uzzi",
+      "name": "High Priest Uzzi (Son of Bukki, 1 Chr 6:5)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Judges Era",
+      "role": "First Temple High Priest",
+      "sources": [
+        "1 Chronicles 6:5",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Father of Zerahiah; pivotal figure in Samaritan Gerizim chronology.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_pri_zerahiah_meraioth",
+      "name": "High Priests Zerahiah → Meraioth → Amariah I → Ahitub I (1 Chr 6:6–7)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Pre-Monarchic Judah",
+      "role": "First Temple High Priests",
+      "sources": [
+        "1 Chronicles 6:6–7",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Direct fathers of David's High Priest Zadok.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_pri_zadok1",
+      "name": "High Priest Zadok I (David & Solomon) → Ahimaaz → Azariah I → Johanan (1 Chr 6:8–10)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "c. 1000–900 BCE",
+      "role": "First Temple High Priests",
+      "sources": [
+        "1 Chronicles 6:8–10",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "High Priest who anointed Solomon and inaugurated the First Temple priesthood.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_pri_azariah2_hilkiah",
+      "name": "Azariah II → Amariah II → Ahitub II → Zadok II → Shallum → Hilkiah → Azariah III → Seraiah → Jehozadak",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "c. 850–586 BCE",
+      "role": "First Temple High Priests",
+      "sources": [
+        "1 Chronicles 6:10–15",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Every generation from Azariah II through Josiah's High Priest Hilkiah to Seraiah (slain at Riblah, 586 BCE) and exilic Jehozadak.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_samaritan_high_priests",
+      "name": "Samaritan High Priests of Mt. Gerizim (Tolidah & Samaritan Chronicle): Abisha → Shisha → Bahqi → Uzzi → Unbroken Line",
+      "altNames": [
+        "Tolidah Chain",
+        "Samaritan Book of Joshua"
+      ],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "Conquest → Living Gerizim Priesthood (Gaster 1925; Crane 1890)",
+      "role": "Samaritan High Priestly Succession on Mount Gerizim",
+      "sources": [
+        "Moses Gaster The Samaritans (1925)",
+        "O.T. Crane The Samaritan Chronicle / Book of Joshua (1890)"
+      ],
+      "notes": "The Samaritan Tolidah ('Genealogy') and Arabic Book of Joshua preserve an unbroken High Priestly chain (Shalshaleth ha-Kohanim) descending from Phinehas -> Abisha -> Shisha -> Bahqi -> Uzzi down to the modern Samaritan priesthood at Nablus/Mt. Gerizim.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_elkanah_hannah_peninnah",
+      "name": "Elkanah (+ Wife 1 Hannah & Wife 2 Peninnah) — Parents of Samuel (+ 3 Sons & 2 Daughters)",
+      "altNames": [
+        "Hannah mother of Samuel",
+        "Peninnah"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Shiloh Horizon (1 Sam 1–2)",
+      "role": "Kohathite Levitical Household of Prophet Samuel",
+      "sources": [
+        "1 Samuel 1–2",
+        "1 Chronicles 6:33–38",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Elkanah wed barren Hannah (whose prayer birthed Prophet Samuel, followed by 3 more sons and 2 daughters, 1 Sam 2:21) and Peninnah (unnamed sons & daughters).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_samuel_sons_heman",
+      "name": "Joel & Abijah (Sons of Samuel) → Heman the Singer (14 Sons & 3 Daughters, 1 Chr 25:4–5)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Judges → Davidic Temple Choir (1 Sam 8; 1 Chr 6:33, 25:4–5)",
+      "role": "Descendants of Prophet Samuel",
+      "sources": [
+        "1 Samuel 8:1–2",
+        "1 Chronicles 6:33, 25:4–5",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Samuel's elder son Joel fathered Heman, David's chief Temple seer-musician, blessed with 14 sons and 3 daughters.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_caleb_household",
+      "name": "Caleb's Household: Wives Azubah (Jerioth) & Ephrath (→ Hur); Concubines Ephah & Maacah (1 Chr 2:18–48)",
+      "altNames": [
+        "Azubah",
+        "Ephrath",
+        "Ephah",
+        "Maacah"
+      ],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Conquest of Hebron (1 Chr 2:18–48)",
+      "role": "Full Family of Caleb ben Jephunneh",
+      "sources": [
+        "1 Chronicles 2:18–48",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Wives Azubah/Jerioth and Ephrath (mother of Hur -> Uri -> Bezalel); concubines Ephah (Haran, Moza, Gazez) and Maacah (Sheber, Tirhanah, Shaaph, Sheva).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_achsah",
+      "name": "Achsah (Daughter of Caleb; Wife of 1st Judge Othniel, Judg 1:13)",
+      "altNames": [
+        "Achsah bat Caleb"
+      ],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Conquest of Debir (Josh 15:16–19; Judg 1:13)",
+      "role": "Wife of Othniel & Receiver of Springs of Water",
+      "sources": [
+        "Judges 1:13–15",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Given in marriage to Othniel upon capturing Debir; famously petitioned father Caleb for upper and lower springs.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_pphilo_kenaz",
+      "name": "Judge Kenaz (1st Great Judge in Pseudo-Philo Ch. 25–28) & Zebul",
+      "altNames": [
+        "Kenaz (Pseudo-Philo)"
+      ],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Post-Joshua Era (Pseudo-Philo Biblical Antiquities Ch. 25–29)",
+      "role": "Expanded First Judge Narrative in Pseudo-Philo",
+      "sources": [
+        "Pseudo-Philo Biblical Antiquities Ch. 25–29 (M.R. James 1917 pp.148–168)"
+      ],
+      "notes": "Pseudo-Philo devotes four full chapters to Kenaz (father of Othniel, tribe of Judah) rooting out tribal idolatry and judging Israel for 57 years before Zebul.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_lappidoth",
+      "name": "Lappidoth (Husband of Prophetess-Judge Deborah, Judg 4:4)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Judges Era (Judg 4:4)",
+      "role": "Husband of Judge Deborah",
+      "sources": [
+        "Judges 4:4",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Explicitly named in Judges 4:4 as husband of Prophetess Deborah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_gideon_jotham_abimelech",
+      "name": "Jotham (Youngest Survivor of 70 Sons) & Abimelech (Son of Gideon by Shechemite Concubine)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Judges Era (Judg 8:30–9:57)",
+      "role": "Sons of Judge Gideon (Jerubbaal)",
+      "sources": [
+        "Judges 8:30–9:57",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Abimelech slew 69 brothers at Ophrah; youngest brother Jotham escaped and delivered the Fable of the Trees.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_seila_jephthah",
+      "name": "Seila (Daughter of Judge Jephthah, Judg 11:34; Named 'Seila' in Pseudo-Philo Ch. 40)",
+      "altNames": [
+        "Seila bat Jephthah"
+      ],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Judges Era (Judg 11:34; Pseudo-Philo Ch. 40)",
+      "role": "Vow Daughter of Jephthah",
+      "sources": [
+        "Judges 11:34–40",
+        "Pseudo-Philo Biblical Antiquities Ch. 40",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Unnamed in Judges 11; explicitly named Seila in Pseudo-Philo Ch. 40, where her lament is preserved in full.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_samson_women",
+      "name": "Manoah & Wife (Samson's Parents), Philistine Wife of Timnah & Delilah (Judg 13–16)",
+      "altNames": [
+        "Manoah",
+        "Eluma bat Remac",
+        "Delilah"
+      ],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Judges Era (Judg 13–16)",
+      "role": "Household & Women in Samson's Narrative",
+      "sources": [
+        "Judges 13–16",
+        "Comprehensive Tree PDF p.12"
+      ],
+      "notes": "Note: Pseudo-Philo Ch. 42 names Manoah's wife Eluma bat Remac! Samson wed an unnamed Philistine woman of Timnah and later loved Delilah of the Valley of Sorek.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_rahab",
+      "name": "Rahab of Jericho (Wife of Salmon; Mother of Boaz — Messianic Matriarch in Matt 1:5)",
+      "altNames": [
+        "Rahab (Matt 1:5)"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Conquest of Jericho (Josh 2 & 6; Matt 1:5)",
+      "role": "Ancestor of King David & Jesus Christ",
+      "sources": [
+        "Joshua 2 & 6",
+        "Matthew 1:5",
+        "Comprehensive Tree PDF p.13"
+      ],
+      "notes": "Canaanite woman of Jericho spared with her entire household; married Judahite prince Salmon (son of Nahshon) and bore Boaz!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_naomi_orpah",
+      "name": "Naomi (Wife of Elimelech) & Orpah (Wife of Chilion, Ruth 1)",
+      "altNames": [
+        "Naomi wife of Elimelech",
+        "Orpah"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Bethlehem & Moab (Book of Ruth 1)",
+      "role": "Matriarchs of the Book of Ruth",
+      "sources": [
+        "Ruth 1:1–18",
+        "Comprehensive Tree PDF p.13"
+      ],
+      "notes": "Naomi guided widowed Moabite daughter-in-law Ruth back to Bethlehem, while sister-in-law Orpah returned to Moab.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_ruth",
+      "name": "Ruth the Moabite (Wife of Mahlon & Boaz; Great-Grandmother of King David, Matt 1:5)",
+      "altNames": [
+        "Ruth of Moab"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Bethlehem Horizon (Book of Ruth; Matt 1:5)",
+      "role": "Moabite Matriarch in the Messianic Line",
+      "sources": [
+        "Book of Ruth 1–4",
+        "Matthew 1:5",
+        "Comprehensive Tree PDF p.13"
+      ],
+      "notes": "Widow of Mahlon; redeemed by Boaz to preserve Elimelech's line, birthing Obed -> Jesse -> King David!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_zeruiah",
+      "name": "Zeruiah (Sister of King David; Mother of Generals Abishai, Joab & Asahel, 1 Chr 2:16)",
+      "altNames": [
+        "Zeruiah bat Jesse"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Bethlehem / United Monarchy (1 Chr 2:16)",
+      "role": "Elder Sister of King David",
+      "sources": [
+        "2 Samuel 2:18",
+        "1 Chronicles 2:16",
+        "Comprehensive Tree PDF p.13"
+      ],
+      "notes": "Sister of David; mother of David's three famed commanders Joab, Abishai, and Asahel.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_abigail_jesse",
+      "name": "Abigail (Sister of King David; + Jether/Ithra the Ishmaelite → Amasa, 1 Chr 2:17)",
+      "altNames": [
+        "Abigail bat Jesse"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Bethlehem / United Monarchy (1 Chr 2:17)",
+      "role": "Sister of David Bridging Jesse & Ishmael",
+      "sources": [
+        "2 Samuel 17:25",
+        "1 Chronicles 2:17",
+        "Comprehensive Tree PDF p.13"
+      ],
+      "notes": "Sister of David who married Jether/Ithra the Ishmaelite and bore General Amasa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_ahinoam_saul",
+      "name": "Ahinoam (Daughter of Ahimaaz; Queen of King Saul, 1 Sam 14:50)",
+      "altNames": [
+        "Ahinoam bat Ahimaaz"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Gibeah (1 Sam 14:50)",
+      "role": "Wife of King Saul & Mother of Jonathan, Ish-bosheth, Merab & Michal",
+      "sources": [
+        "1 Samuel 14:49–50",
+        "Comprehensive Tree PDF p.13"
+      ],
+      "notes": "Mother of Crown Prince Jonathan, Ishvi/Abinadab, Malchi-shua, Ish-bosheth, Merab, and Michal.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_rizpah",
+      "name": "Rizpah (Daughter of Aiah; Concubine of Saul; Mother of Armoni & Mephibosheth II, 2 Sam 21:8)",
+      "altNames": [
+        "Rizpah bat Aiah"
+      ],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Gibeah (2 Sam 3:7, 21:8–11)",
+      "role": "Concubine of King Saul",
+      "sources": [
+        "2 Samuel 3:7, 21:8–11",
+        "Comprehensive Tree PDF p.13"
+      ],
+      "notes": "Faithful mother who guarded the bodies of her slain sons Armoni and Mephibosheth on the rock until David buried Saul's bones.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_merab",
+      "name": "Merab (Elder Daughter of King Saul; Wife of Adriel of Meholah → 5 Sons, 1 Sam 18:19)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "House of Saul (1 Sam 18:19; 2 Sam 21:8)",
+      "role": "Elder Princess of Saul's House",
+      "sources": [
+        "1 Samuel 18:19",
+        "2 Samuel 21:8",
+        "Comprehensive Tree PDF p.13"
+      ],
+      "notes": "Eldest daughter of Saul and Ahinoam; married Adriel the Meholathite and bore five sons.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_michal",
+      "name": "Michal (Younger Daughter of King Saul; Wife 1 of David, then Paltiel ben Laish)",
+      "altNames": [
+        "Princess Michal"
+      ],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "House of Saul & David (1 Sam 18–19; 2 Sam 6:23)",
+      "role": "First Wife of King David",
+      "sources": [
+        "1 Samuel 18:20–27",
+        "2 Samuel 6:23",
+        "Comprehensive Tree PDF p.13"
+      ],
+      "notes": "Saved David's life from Saul's assassins; later given to Paltiel and reclaimed by David; died without children (2 Sam 6:23).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_mephibosheth_mica",
+      "name": "Mephibosheth / Merib-baal (Son of Jonathan) → Mica → Pithon, Melech, Tarea & Ahaz (1 Chr 8:34–35)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "Gibeah / Jerusalem (2 Sam 9; 1 Chr 8:34–35)",
+      "role": "Surviving Royal Line of Jonathan",
+      "sources": [
+        "2 Samuel 9",
+        "1 Chronicles 8:34–35",
+        "Comprehensive Tree PDF p.13"
+      ],
+      "notes": "Lame son of Jonathan honored at David's table; continued Jonathan's line through son Mica and four grandsons (ancestor of 150 Benjamite archers).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_dav_ahinoam",
+      "name": "Ahinoam of Jezreel (Wife 2 of David; Mother of Firstborn Amnon)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Hebron (2 Sam 3:2)",
+      "role": "Wife 2 of King David",
+      "sources": [
+        "2 Samuel 3:2",
+        "Comprehensive Tree PDF p.13"
+      ],
+      "notes": "Mother of David's firstborn son Amnon.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_dav_abigail",
+      "name": "Abigail of Carmel (Wife 3 of David; Widow of Nabal; Mother of Chileab/Daniel)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Hebron (1 Sam 25; 2 Sam 3:3)",
+      "role": "Wife 3 of King David",
+      "sources": [
+        "1 Samuel 25",
+        "2 Samuel 3:3",
+        "Comprehensive Tree PDF p.13"
+      ],
+      "notes": "Wise wife of Nabal of Carmel who wed David and bore Chileab/Daniel.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_dav_maacah",
+      "name": "Maacah (Daughter of King Talmai of Geshur; Wife 4 of David; Mother of Absalom & Tamar)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Hebron / Geshur (2 Sam 3:3)",
+      "role": "Aramean Princess / Wife 4 of King David",
+      "sources": [
+        "2 Samuel 3:3",
+        "Comprehensive Tree PDF p.14"
+      ],
+      "notes": "Princess of Geshur; mother of Absalom and Princess Tamar.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_dav_haggith",
+      "name": "Haggith (Wife 5 of David; Mother of Adonijah)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Hebron (2 Sam 3:4)",
+      "role": "Wife 5 of King David",
+      "sources": [
+        "2 Samuel 3:4",
+        "Comprehensive Tree PDF p.14"
+      ],
+      "notes": "Mother of Adonijah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_dav_abital",
+      "name": "Abital (Wife 6 of David; Mother of Shephatiah)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Hebron (2 Sam 3:4)",
+      "role": "Wife 6 of King David",
+      "sources": [
+        "2 Samuel 3:4",
+        "Comprehensive Tree PDF p.14"
+      ],
+      "notes": "Mother of Shephatiah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_dav_eglah",
+      "name": "Eglah (Wife 7 of David; Mother of Ithream)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Hebron (2 Sam 3:5)",
+      "role": "Wife 7 of King David",
+      "sources": [
+        "2 Samuel 3:5",
+        "Comprehensive Tree PDF p.14"
+      ],
+      "notes": "Mother of sixth Hebron-born son Ithream.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_w_dav_bathsheba",
+      "name": "Bathsheba / Bath-shua (Wife 8 of David; Mother of Shammua, Shobab, Nathan & Solomon, Matt 1:6)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Jerusalem (2 Sam 11–12; 1 Chr 3:5)",
+      "role": "Queen Mother of Israel & Messianic Ancestress",
+      "sources": [
+        "2 Samuel 11–12",
+        "1 Chronicles 3:5",
+        "Matthew 1:6",
+        "Comprehensive Tree PDF p.14"
+      ],
+      "notes": "Bore David's four surviving Jerusalem sons: Shammua, Shobab, Nathan (Luke 3 line), and Solomon (Matthew 1 line) — named 'wife of Uriah' in Matt 1:6.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_tamar_absalom",
+      "name": "Tamar (Daughter of Absalom, 2 Sam 14:27) & Absalom's 3 Sons",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "Jerusalem (2 Sam 14:27)",
+      "role": "Granddaughter of King David",
+      "sources": [
+        "2 Samuel 14:27",
+        "Comprehensive Tree PDF p.14"
+      ],
+      "notes": "Named after Absalom's sister Tamar; tradition links her to Rehoboam's wife Maacah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_sol_pharaoh_dau",
+      "name": "Pharaoh's Daughter (Egyptian Royal Wife of King Solomon, 1 Kgs 3:1, 9:16)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 965 BCE (1 Kgs 3:1)",
+      "role": "Egyptian Princess Married to Solomon",
+      "sources": [
+        "1 Kings 3:1, 9:16",
+        "Comprehensive Tree PDF p.14"
+      ],
+      "notes": "Daughter of 21st-Dynasty Pharaoh Siamun wed to King Solomon; brought Gezer as dowry.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_sol_naamah",
+      "name": "Naamah the Ammonite (Wife of Solomon; Mother of King Rehoboam, 1 Kgs 14:21)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "c. 960 BCE (1 Kgs 14:21)",
+      "role": "Ammonite Queen Mother of Judah",
+      "sources": [
+        "1 Kings 14:21",
+        "Comprehensive Tree PDF p.14"
+      ],
+      "notes": "Only named mother of Solomon's heir among his 700 wives & 300 concubines; mother of King Rehoboam, bridging Ammon (Lot) back into the Davidic line!",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_sol_taphath",
+      "name": "Taphath (Daughter of Solomon; Wife of Ben-Abinadab, 1 Kgs 4:11)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "United Monarchy (1 Kgs 4:11)",
+      "role": "Princess of Israel",
+      "sources": [
+        "1 Kings 4:11",
+        "Comprehensive Tree PDF p.14"
+      ],
+      "notes": "Married Ben-Abinadab, royal district governor of Naphoth-dor.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_sol_basemath",
+      "name": "Basemath (Daughter of Solomon; Wife of Ahimaaz of Naphtali, 1 Kgs 4:15)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "United Monarchy (1 Kgs 4:15)",
+      "role": "Princess of Israel",
+      "sources": [
+        "1 Kings 4:15",
+        "Comprehensive Tree PDF p.14"
+      ],
+      "notes": "Married Ahimaaz, royal district governor in Naphtali.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_q_mahalath_maacah",
+      "name": "Mahalath (Granddau. of David → Jeush, Shemariah, Zaham) & Queen Maacah (→ Abijah, Attai, Ziza, Shelomith)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "c. 931–910 BCE (2 Chr 11:18–21)",
+      "role": "Named Wives & Children of King Rehoboam",
+      "sources": [
+        "2 Chronicles 11:18–21",
+        "Comprehensive Tree PDF p.14"
+      ],
+      "notes": "Out of Rehoboam's 18 wives, 60 concubines, 28 sons, and 60 daughters, Chronicles names Mahalath (granddau. of Eliab & Jerimoth) and Queen Maacah (mother of King Abijah, Attai, Ziza, Shelomith).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_q_azubah_asa",
+      "name": "Azubah (Daughter of Shilhi; Queen of King Asa; Mother of Jehoshaphat, 1 Kgs 22:42)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "c. 900 BCE (1 Kgs 22:42)",
+      "role": "Queen Mother of Judah",
+      "sources": [
+        "1 Kings 22:42",
+        "Comprehensive Tree PDF p.14"
+      ],
+      "notes": "Wife of King Asa and mother of King Jehoshaphat.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_jehoshaphat_sons",
+      "name": "Azariah, Jehiel, Zechariah, Azariahu, Michael & Shephatiah (6 Sons of Jehoshaphat, 2 Chr 21:2)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "c. 848 BCE (2 Chr 21:2)",
+      "role": "Princes of Judah",
+      "sources": [
+        "2 Chronicles 21:2–4",
+        "Comprehensive Tree PDF p.15"
+      ],
+      "notes": "Six younger sons of King Jehoshaphat gifted fortified cities before Jehoram seized the throne.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_q_athaliah",
+      "name": "Queen Athaliah (Daughter of Ahab & Jezebel; Queen of Judah 841–835 BCE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "841–835 BCE (2 Kgs 11; 2 Chr 22)",
+      "role": "Sole Female Regnant Monarch of Judah",
+      "sources": [
+        "2 Kings 8:26, 11:1–16",
+        "Comprehensive Tree PDF p.15"
+      ],
+      "notes": "Daughter of Northern King Ahab & Phoenician Queen Jezebel; wed Jehoram of Judah, mothered Ahaziah, and ruled Judah six years after Ahaziah's death.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_jehosheba",
+      "name": "Princess Jehosheba (Daughter of Jehoram; Wife of High Priest Jehoiada; Rescuer of Joash, 2 Kgs 11:2)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "c. 841 BCE (2 Kgs 11:2; 2 Chr 22:11)",
+      "role": "Royal Princess Bridging David & Zadokite Priesthood",
+      "sources": [
+        "2 Kings 11:2",
+        "2 Chronicles 22:11",
+        "Comprehensive Tree PDF p.15"
+      ],
+      "notes": "Hid infant nephew Joash in the Temple for six years with her husband High Priest Jehoiada to preserve the House of David.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_q_zibiah_jehoaddan_jecoliah",
+      "name": "Queen Mothers Zibiah of Beersheba (Mother of Joash), Jehoaddan (Mother of Amaziah) & Jecoliah (Mother of Uzziah)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "835–740 BCE (2 Kgs 12, 14, 15)",
+      "role": "Three Consecutive Queen Mothers of Judah",
+      "sources": [
+        "2 Kings 12:1, 14:2, 15:2",
+        "Comprehensive Tree PDF p.15"
+      ],
+      "notes": "Preserved by name in the royal regnal formulas of Kings and Chronicles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_q_jerusha_abi_hephzibah",
+      "name": "Queen Mothers Jerusha bat Zadok (Mother of Jotham), Abi / Abijah bat Zechariah (Mother of Hezekiah; + Maaseiah) & Hephzibah (Mother of Manasseh)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "740–686 BCE (2 Kgs 15, 18, 21; 2 Chr 28:7)",
+      "role": "Queen Mothers of Hezekiah & Manasseh",
+      "sources": [
+        "2 Kings 15:33, 18:2, 21:1",
+        "2 Chronicles 28:7",
+        "Comprehensive Tree PDF p.15"
+      ],
+      "notes": "Jerusha (dau. of Zadok), Abi/Abijah (mother of Hezekiah), and Hephzibah (wife of Hezekiah, mother of Manasseh).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_q_meshullemeth_jedidah",
+      "name": "Queen Mothers Meshullemeth bat Haruz of Jotbah (Mother of Amon) & Jedidah bat Adaiah of Bozkath (Mother of Josiah)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "664–640 BCE (2 Kgs 21:19, 22:1)",
+      "role": "Queen Mothers of Amon & King Josiah",
+      "sources": [
+        "2 Kings 21:19, 22:1",
+        "Comprehensive Tree PDF p.15"
+      ],
+      "notes": "Mothers of late-7th-century Kings Amon and reforming King Josiah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_q_zebidah_hamutal_nehushta",
+      "name": "Queens Zebidah bat Pedaiah (Mother of Jehoiakim), Hamutal bat Jeremiah (Mother of Jehoahaz & Zedekiah), Nehushta (Mother of Jehoiachin) & Prince Johanan",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "609–586 BCE (2 Kgs 23–24; 1 Chr 3:15)",
+      "role": "Final Queen Mothers Before the Babylonian Exile",
+      "sources": [
+        "2 Kings 23:31,36, 24:8,18",
+        "1 Chronicles 3:15",
+        "Comprehensive Tree PDF p.15"
+      ],
+      "notes": "Josiah's queens Zebidah and Hamutal, Jehoiachin's deported mother Nehushta (2 Kgs 24:12), plus Josiah's firstborn Johanan (1 Chr 3:15).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_jehoiachin_7sons",
+      "name": "7 Exilic Sons of Jehoiachin (1 Chr 3:17–18): Shealtiel, Malchiram, Pedaiah, Shenazzar, Jekamiah, Hoshama & Nedabiah",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 597–538 BCE (1 Chr 3:17–18)",
+      "role": "Babylonian-Exile Davidic Princes",
+      "sources": [
+        "1 Chronicles 3:17–18",
+        "Comprehensive Tree PDF p.15"
+      ],
+      "notes": "Seven sons born to exiled King Jehoiachin in Babylon; father/uncle of Governor Zerubbabel.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_zerubbabel_house",
+      "name": "Zerubbabel's 7 Sons & Daughter Shelomith (1 Chr 3:19–24): Meshullam, Hananiah (→ Rephaiah → Neariah → Elioenai → Anani), Hashubah, Ohel, Berechiah, Hasadiah, Jushab-hesed & Shelomith (F)",
+      "altNames": [
+        "Shelomith bat Zerubbabel",
+        "Anani"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 538–350 BCE (1 Chr 3:19–24)",
+      "role": "Post-Exilic Davidic Descendants in Chronicles",
+      "sources": [
+        "1 Chronicles 3:19–24",
+        "Jacob M. Myers Anchor Bible 1 Chronicles (1965)",
+        "Comprehensive Tree PDF p.15"
+      ],
+      "notes": "Complete 8-generation post-exilic Davidic trunk in 1 Chr 3:19–24 through Hananiah -> Pelatiah/Jeshaiah -> Rephaiah -> Arnan -> Obadiah -> Shecaniah -> Shemaiah -> Neariah -> Elioenai -> Anani, plus Zerubbabel's named daughter Shelomith!",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_q_zeruah_jezebel",
+      "name": "Zeruah (Widow Mother of Jeroboam I, 1 Kgs 11:26) & Queen Jezebel (Daughter of Ethbaal of Sidon; Wife of Ahab)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "931–841 BCE (1 Kgs 11:26, 16:31)",
+      "role": "Named Queens/Mothers of Northern Israel",
+      "sources": [
+        "1 Kings 11:26, 16:31",
+        "Comprehensive Tree PDF p.15"
+      ],
+      "notes": "Zeruah, mother of Israel's first northern king Jeroboam I, and Phoenician princess Jezebel, wife of Ahab.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_isaiah_hosea_families",
+      "name": "Prophets' Families: Isaiah's Prophetess Wife (→ Shear-jashub & Maher-shalal-hash-baz); Hosea + Gomer bat Diblaim (→ Jezreel, Lo-ruhamah (F), Lo-ammi)",
+      "altNames": [
+        "Gomer bat Diblaim",
+        "Lo-ruhamah",
+        "Shear-jashub"
+      ],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "8th c. BCE (Isa 7–8; Hos 1)",
+      "role": "Named & Symbolic Households of OT Prophets",
+      "sources": [
+        "Isaiah 7:3, 8:3",
+        "Hosea 1:2–9",
+        "Comprehensive Tree PDF p.16"
+      ],
+      "notes": "Accounts for every member of Isaiah's and Hosea's prophetic households including daughter Lo-ruhamah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_esther_vashti",
+      "name": "Abihail (Father of Esther), Queen Vashti & Queen Esther (Hadassah, Esth 1–2)",
+      "altNames": [
+        "Abihail",
+        "Queen Vashti"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Book of Esther)",
+      "role": "Persian Court Queens & Benjaminite Father",
+      "sources": [
+        "Esther 1–2, 2:15",
+        "Comprehensive Tree PDF p.16"
+      ],
+      "notes": "Mordecai's uncle Abihail fathered Hadassah (Queen Esther), who succeeded deposed Queen Vashti in Susa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_job_3daughters",
+      "name": "Jemimah (F), Keziah (F) & Keren-happuch (F) — Three Named Daughters of Job (Job 42:14)",
+      "altNames": [
+        "Jemimah",
+        "Keziah",
+        "Keren-happuch"
+      ],
+      "tradition": "biblical",
+      "tier": 10,
+      "era": "Post-Trial Restoration (Job 42:13–15)",
+      "role": "Three Fairest Daughters Granted Equal Inheritance With Their 7 Brothers",
+      "sources": [
+        "Job 42:14",
+        "Comprehensive Tree PDF p.16"
+      ],
+      "notes": "Uniquely named daughters of Job who received an equal inheritance alongside their brothers.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_lives_of_prophets",
+      "name": "Lives of the Prophets (Torrey 1946 / SBLMS 1): Tribal Pedigrees & Biographies of 23 OT Prophets",
+      "altNames": [
+        "Torrey 1946 SBLMS1"
+      ],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "1st c. CE Jewish-Christian Pseudepigraphon (SBLMS 1)",
+      "role": "Tribal & Village Lineages of Isaiah, Jeremiah, Ezekiel, Daniel & the Minor Prophets",
+      "sources": [
+        "Charles Cutler Torrey The Lives of the Prophets (SBLMS 1, 1946)",
+        "Testament of Abraham (G.H. Box)"
+      ],
+      "notes": "Ancient biographical catalog recording tribal origins and burial places for 23 Old Testament prophets alongside G.H. Box's Testament of Abraham traditions.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_luke3_complete_chain",
+      "name": "Complete 41-Link Luke 3:23–31 Line (Nathan → Mattatha → Menna → Melea → Eliakim → Neri → Shealtiel → Zerubbabel → Rhesa → Joanan → Joda → Josech → Semein → Matthat → Heli → Mary/Jesus)",
+      "altNames": [
+        "Luke 3 Full 41 Names",
+        "Hervey 1853 Reconciliation"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "1000 BCE – 1 CE (Luke 3:23–31; Hervey 1853; Speed 1627)",
+      "role": "Complete Unabbreviated Luke 3 Intertestamental Lineage",
+      "sources": [
+        "Luke 3:23–31",
+        "Lord Arthur Hervey Genealogies of Our Lord (1853)",
+        "John Speed Genealogies (1627)",
+        "Comprehensive Tree PDF p.17"
+      ],
+      "notes": "Accounts for every single name in Luke 3:23–31 alongside Lord Arthur Hervey's 1853 reconciliation of Matthew 1 (royal legal succession) and Luke 3 (biological/Levirate line).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_bible_chronology_harmonizers",
+      "name": "Sacred Chronology Harmonists: Hugh Broughton (Seder Olam 1594), John Speed (1627), Hales (1830), Crawford (1877), Kent (1904) & Martin Anstey (1913)",
+      "altNames": [
+        "John Speed 1627",
+        "Hugh Broughton 1594",
+        "Martin Anstey 1913"
+      ],
+      "tradition": "biblical",
+      "tier": 9,
+      "era": "Classical & Early Modern Chronological Systems (1594–1913)",
+      "role": "Master Synchronizers of Masoretic, Septuagint & Samaritan Genealogies",
+      "sources": [
+        "Hugh Broughton A Seder Olam (1594)",
+        "John Speed Genealogies Recorded in the Sacred Scriptures (1627)",
+        "William Hales New Analysis Vol. 1",
+        "T.P. Crawford Patriarchal Dynasties",
+        "C.F. Kent (1904)",
+        "Martin Anstey Romance of Bible Chronology Vols. 1–2 (1913)"
+      ],
+      "notes": "Six foundational works harmonizing Biblical lifespans, Anno Mundi dates, 1 Chronicles tribal charters, and Messianic pedigrees.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_herodian_women",
+      "name": "Herodian Queens & Princesses: Cypros, Doris, Mariamne I (Hasmonean), Mariamne II, Malthace, Cleopatra of Jerusalem, Herodias, Salome, Bernice & Drusilla",
+      "altNames": [
+        "Doris",
+        "Mariamne II",
+        "Malthace",
+        "Cleopatra of Jerusalem"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "47 BCE – 93 CE (Josephus; Matt 14; Acts 24–25)",
+      "role": "All Named Women of the Herodian Court",
+      "sources": [
+        "Comprehensive Tree PDF pp.17–18",
+        "Josephus Antiquities XV–XX"
+      ],
+      "notes": "Every named queen, mother, sister, and daughter of the Herodian dynasty from Antipater's Nabataean wife Cypros down to Agrippa II's sisters Bernice and Drusilla.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_nt_households_women",
+      "name": "New Testament Church Households & Women: Aquila & Priscilla (F), Ananias & Sapphira (F), Philip (+ 4 Prophesying Daughters), Simon of Cyrene (→ Alexander & Rufus), Mary of Jerusalem, Lois → Eunice → Timothy & Paul's Sister/Nephew",
+      "altNames": [
+        "Aquila & Priscilla",
+        "Lois & Eunice",
+        "Simon of Cyrene",
+        "Philip's 4 Daughters"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (Mark 15:21; Acts 5, 12, 18, 21, 23; 2 Tim 1:5)",
+      "role": "Complete Named NT Family Networks & Women Disciples",
+      "sources": [
+        "Acts 5, 12:12, 18:2, 21:9, 23:16",
+        "2 Timothy 1:5",
+        "Mark 15:21",
+        "Comprehensive Tree PDF p.18"
+      ],
+      "notes": "Accounts for every remaining named family in Part VIII: Simon Peter's wife/mother-in-law, Aquila & Priscilla, Ananias & Sapphira, Evangelist Philip's four prophetess daughters, Simon of Cyrene's sons Alexander & Rufus, Lois -> Eunice -> Timothy, Mary of Jerusalem (Mark's mother / Barnabas's aunt), and Apostle Paul's sister & nephew.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_rabbinic_targum_pirke",
+      "name": "Rabbinic & Aramaic Genealogical Compendia: Pirke de Rabbi Eliezer, Ginzberg's Legends of the Jews (Vols. 1, 5, 7) & Etheridge's Targums Onkelos/Jonathan",
+      "altNames": [
+        "Pirke de Rabbi Eliezer",
+        "Ginzberg Legends Vols 1/5/7",
+        "Etheridge Targums"
+      ],
+      "tradition": "biblical",
+      "tier": 10,
+      "era": "Aramaic Targum & Midrashic Tradition",
+      "role": "Jewish Midrashic Expansions on Patriarchal Wives, Garments of Adam & Nimrod",
+      "sources": [
+        "Pirke de Rabbi Eliezer (Friedlander trans.)",
+        "Louis Ginzberg Legends of the Jews Vols. 1, 5 & 7 Index",
+        "J.W. Etheridge Targums of Onkelos & Jonathan"
+      ],
+      "notes": "Comprehensive rabbinic expansions on Sethite wives, Edith (Lot's wife), Dinah/Asenath, Serah bat Asher, and Bityah/Bithiah (Pharaoh's daughter who adopted Moses).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_muhammad_wives",
+      "name": "Wives of Prophet Muhammad (Ibn Ishaq / Guillaume Sirah): Khadija bint Khuwaylid, Sawda, Aisha bint Abi Bakr, Hafsa, Umm Salama, Zaynab bint Jahsh & Mariya al-Qibtiyya",
+      "altNames": [
+        "Khadija bint Khuwaylid",
+        "Aisha bint Abi Bakr",
+        "Mariya al-Qibtiyya"
+      ],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "595–632 CE (Mecca & Medina — Ibn Ishaq / Guillaume)",
+      "role": "Mothers of the Believers in Early Islamic Historiography",
+      "sources": [
+        "Ibn Ishaq / A. Guillaume The Life of Muhammad (1955 pp.82–83, 493–500)"
+      ],
+      "notes": "Primary early Islamic biography recording Muhammad's marriage to Khadija bint Khuwaylid (mother of all children except Ibrahim) and his Medinan marriages.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_muhammad_children",
+      "name": "Children of Prophet Muhammad (Ibn Ishaq / Guillaume): Qasim, Zaynab (F), Ruqayya (F), Umm Kulthum (F), Fatima al-Zahra (F → Hasan & Husayn), Abdallah & Ibrahim",
+      "altNames": [
+        "Fatima al-Zahra",
+        "Zaynab, Ruqayya, Umm Kulthum",
+        "Qasim & Ibrahim"
+      ],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "c. 598–632 CE (Mecca & Medina — Ibn Ishaq / Guillaume)",
+      "role": "All 7 Children of Prophet Muhammad",
+      "sources": [
+        "Ibn Ishaq / A. Guillaume The Life of Muhammad pp.83, 653"
+      ],
+      "notes": "Complete progeny of Muhammad & Khadija (Qasim, Zaynab, Ruqayya, Umm Kulthum, Fatima, Abdallah) plus son Ibrahim by Mariya al-Qibtiyya; Fatima's line with Ali continues through Hasan & Husayn to living Hashemites and Alaouites.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cb_ibn_kathir_prophets",
+      "name": "Ibn Kathir's Qisas al-Anbiya (Stories of the Prophets): Unified Prophetic Chain (Adam → Idris/Enoch → Nuh → Hud → Salih → Ibrahim → Shu'ayb → Musa → Isa)",
+      "altNames": [
+        "Ibn Kathir Stories of the Prophets"
+      ],
+      "tradition": "arabian",
+      "tier": 9,
+      "era": "Creation to 1st c. CE (Ibn Kathir)",
+      "role": "Classical Islamic Universal Prophetic Genealogy",
+      "sources": [
+        "Ibn Kathir Stories of the Prophets (English trans.)"
+      ],
+      "notes": "Synchronizes Arabian prophets (Hud to 'Ad, Salih to Thamud, Shu'ayb to Midian) with Biblical patriarchs Adam, Idris (Enoch), Nuh, Ibrahim, Dawud, Sulayman, and Isa.",
+      "major": false,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "bib_adam",
+      "to": "cb_eve",
+      "type": "direct",
+      "label": "Creation consort / wife of Adam (Gen 2:22)"
+    },
+    {
+      "from": "bib_adam",
+      "to": "cb_awan",
+      "type": "expansion",
+      "label": "Jubilees 4:1: daughter of Adam & Eve"
+    },
+    {
+      "from": "cb_awan",
+      "to": "bib_cain",
+      "type": "expansion",
+      "label": "Jubilees 4:9: wife of Cain -> mother of Enoch"
+    },
+    {
+      "from": "bib_adam",
+      "to": "cb_azura_adam",
+      "type": "expansion",
+      "label": "Jubilees 4:8: daughter of Adam & Eve"
+    },
+    {
+      "from": "cb_azura_adam",
+      "to": "bib_seth",
+      "type": "expansion",
+      "label": "Jubilees 4:11: wife of Seth -> mother of Enosh"
+    },
+    {
+      "from": "bib_adam",
+      "to": "cb_noaba_pphilo",
+      "type": "expansion",
+      "label": "Pseudo-Philo Ch. 1: Noaba + 12 sons & 8 daughters of Adam"
+    },
+    {
+      "from": "bib_cain_lamech",
+      "to": "cb_cain_adah",
+      "type": "direct",
+      "label": "Gen 4:19: Wife 1 of Cainite Lamech"
+    },
+    {
+      "from": "cb_cain_adah",
+      "to": "bib_jabal",
+      "type": "direct",
+      "label": "Gen 4:20: Mother of Jabal"
+    },
+    {
+      "from": "cb_cain_adah",
+      "to": "bib_jubal",
+      "type": "direct",
+      "label": "Gen 4:21: Mother of Jubal"
+    },
+    {
+      "from": "bib_cain_lamech",
+      "to": "cb_cain_zillah",
+      "type": "direct",
+      "label": "Gen 4:19: Wife 2 of Cainite Lamech"
+    },
+    {
+      "from": "cb_cain_zillah",
+      "to": "bib_tubalcain",
+      "type": "direct",
+      "label": "Gen 4:22: Mother of Tubal-cain"
+    },
+    {
+      "from": "cb_cain_zillah",
+      "to": "bib_naamah_cain",
+      "type": "direct",
+      "label": "Gen 4:22: Mother of Naamah"
+    },
+    {
+      "from": "bib_cain",
+      "to": "cb_themech_pphilo",
+      "type": "expansion",
+      "label": "Pseudo-Philo Ch. 2: Cain's wife Themech & later children"
+    },
+    {
+      "from": "bib_seth",
+      "to": "cb_noam",
+      "type": "expansion",
+      "label": "Jubilees 4:13: daughter of Seth"
+    },
+    {
+      "from": "cb_noam",
+      "to": "bib_enosh",
+      "type": "expansion",
+      "label": "Jubilees 4:13: wife of Enosh"
+    },
+    {
+      "from": "bib_enosh",
+      "to": "cb_mualeleth",
+      "type": "expansion",
+      "label": "Jubilees 4:14: daughter of Enosh"
+    },
+    {
+      "from": "cb_mualeleth",
+      "to": "bib_kenan",
+      "type": "expansion",
+      "label": "Jubilees 4:14: wife of Kenan"
+    },
+    {
+      "from": "bib_enosh",
+      "to": "cb_barakiel_jub",
+      "type": "expansion",
+      "label": "Jubilees 4:15: brother of Kenan / uncle of Mahalalel"
+    },
+    {
+      "from": "cb_barakiel_jub",
+      "to": "cb_dinah_mahalalel",
+      "type": "expansion",
+      "label": "Jubilees 4:15: daughter of Barakiel"
+    },
+    {
+      "from": "cb_dinah_mahalalel",
+      "to": "bib_mahalalel",
+      "type": "expansion",
+      "label": "Jubilees 4:15: wife of Mahalalel"
+    },
+    {
+      "from": "bib_kenan",
+      "to": "cb_rasujal",
+      "type": "expansion",
+      "label": "Jubilees 4:16: brother of Mahalalel / uncle of Jared"
+    },
+    {
+      "from": "cb_rasujal",
+      "to": "cb_baraka",
+      "type": "expansion",
+      "label": "Jubilees 4:16: daughter of Rasujal"
+    },
+    {
+      "from": "cb_baraka",
+      "to": "bib_jared",
+      "type": "expansion",
+      "label": "Jubilees 4:16: wife of Jared"
+    },
+    {
+      "from": "bib_mahalalel",
+      "to": "cb_danel_jub",
+      "type": "expansion",
+      "label": "Jubilees 4:20: brother of Jared / uncle of Enoch"
+    },
+    {
+      "from": "cb_danel_jub",
+      "to": "cb_edni",
+      "type": "expansion",
+      "label": "Jubilees 4:20: daughter of Danel"
+    },
+    {
+      "from": "cb_edni",
+      "to": "bib_enoch",
+      "type": "expansion",
+      "label": "Jubilees 4:20: wife of Enoch"
+    },
+    {
+      "from": "bib_enoch",
+      "to": "cb_elishama_enoch",
+      "type": "expansion",
+      "label": "Book of Jasher 3:1: son of Enoch"
+    },
+    {
+      "from": "bib_enoch",
+      "to": "cb_regim_2enoch",
+      "type": "expansion",
+      "label": "2 Enoch 1:10: Regim, Riman, Uchan, Chermion & Gaidad"
+    },
+    {
+      "from": "bib_jared",
+      "to": "cb_azrial",
+      "type": "expansion",
+      "label": "Jubilees 4:27: brother of Enoch / uncle of Methuselah"
+    },
+    {
+      "from": "cb_azrial",
+      "to": "cb_edna_meth",
+      "type": "expansion",
+      "label": "Jubilees 4:27: daughter of Azrial"
+    },
+    {
+      "from": "cb_edna_meth",
+      "to": "bib_methuselah",
+      "type": "expansion",
+      "label": "Jubilees 4:27: wife of Methuselah"
+    },
+    {
+      "from": "bib_enoch",
+      "to": "cb_barakiil_meth",
+      "type": "expansion",
+      "label": "Jubilees 4:28: brother of Methuselah / uncle of Lamech"
+    },
+    {
+      "from": "cb_barakiil_meth",
+      "to": "cb_betenos",
+      "type": "expansion",
+      "label": "Jubilees 4:28: daughter of Barakiil"
+    },
+    {
+      "from": "cb_betenos",
+      "to": "bib_lamech_seth",
+      "type": "expansion",
+      "label": "Jubilees 4:28 & 1QapGen Col. II: wife of Lamech"
+    },
+    {
+      "from": "cb_betenos",
+      "to": "bib_noah",
+      "type": "expansion",
+      "label": "Jubilees 4:28 & 1QapGen Col. II: mother of Noah"
+    },
+    {
+      "from": "jas_elisha_enoch",
+      "to": "cb_ashmua",
+      "type": "expansion",
+      "label": "Jasher 4:11: daughter of Elisha son of Enoch"
+    },
+    {
+      "from": "cb_ashmua",
+      "to": "bib_lamech_seth",
+      "type": "expansion",
+      "label": "Jasher 4:11: wife of Lamech / mother of Noah"
+    },
+    {
+      "from": "bib_methuselah",
+      "to": "cb_rakeel",
+      "type": "expansion",
+      "label": "Jubilees 4:33: brother of Lamech / uncle of Noah"
+    },
+    {
+      "from": "cb_rakeel",
+      "to": "cb_emzara",
+      "type": "expansion",
+      "label": "Jubilees 4:33: daughter of Rake'el"
+    },
+    {
+      "from": "cb_emzara",
+      "to": "bib_noah",
+      "type": "expansion",
+      "label": "Jubilees 4:33 & 1QapGen Col. VI: wife of Noah"
+    },
+    {
+      "from": "bib_lamech_seth",
+      "to": "cb_nir_2enoch",
+      "type": "expansion",
+      "label": "2 Enoch 70–71: younger son of Lamech / brother of Noah"
+    },
+    {
+      "from": "cb_nir_2enoch",
+      "to": "cb_sopanim_2enoch",
+      "type": "expansion",
+      "label": "2 Enoch 71: wife of Priest Nir"
+    },
+    {
+      "from": "cb_sopanim_2enoch",
+      "to": "bib_melchizedek",
+      "type": "expansion",
+      "label": "2 Enoch 71: miraculous mother of pre-Flood Melchizedek"
+    },
+    {
+      "from": "eno_watchers",
+      "to": "cb_watchers_20",
+      "type": "expansion",
+      "label": "1 Enoch 6:7–8, 69: full roster of 20 Watcher decarchs"
+    },
+    {
+      "from": "eno_watchers",
+      "to": "cb_elioud",
+      "type": "expansion",
+      "label": "1 Enoch 7 & Jubilees 7:22: Nephilim -> Elioud"
+    },
+    {
+      "from": "bib_shem",
+      "to": "cb_sedeqetelebab",
+      "type": "expansion",
+      "label": "Jubilees 7:16: wife of Shem"
+    },
+    {
+      "from": "bib_ham",
+      "to": "cb_naeltamauk",
+      "type": "expansion",
+      "label": "Jubilees 7:16: wife of Ham"
+    },
+    {
+      "from": "bib_japheth",
+      "to": "cb_adataneses",
+      "type": "expansion",
+      "label": "Jubilees 7:16: wife of Japheth"
+    },
+    {
+      "from": "jas_elam_shushan",
+      "to": "cb_rasueja",
+      "type": "expansion",
+      "label": "Jubilees 8:1: daughter of Susan/Shushan son of Elam"
+    },
+    {
+      "from": "cb_rasueja",
+      "to": "bib_arphaxad",
+      "type": "expansion",
+      "label": "Jubilees 8:1: wife of Arphaxad"
+    },
+    {
+      "from": "bib_madai",
+      "to": "cb_melka_madai",
+      "type": "expansion",
+      "label": "Jubilees 8:5: daughter of Madai son of Japheth"
+    },
+    {
+      "from": "cb_melka_madai",
+      "to": "jub_cainan_post",
+      "type": "expansion",
+      "label": "Jubilees 8:5: wife of Cainan II -> mother of Shelah"
+    },
+    {
+      "from": "jub_cainan_post",
+      "to": "cb_kainan_papyrus961",
+      "type": "expansion",
+      "label": "Henry Smith 2018: Papyrus 961 & Luke 3:36 textual evidence"
+    },
+    {
+      "from": "bib_shelah",
+      "to": "cb_muak",
+      "type": "expansion",
+      "label": "Jubilees 8:6: wife of Shelah (dau. of Kesed)"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "cb_azurad",
+      "type": "expansion",
+      "label": "Jubilees 8:7: daughter of Nebrod/Nimrod"
+    },
+    {
+      "from": "cb_azurad",
+      "to": "bib_eber",
+      "type": "expansion",
+      "label": "Jubilees 8:7: wife of Eber -> mother of Peleg & Joktan"
+    },
+    {
+      "from": "bib_peleg",
+      "to": "cb_lomna",
+      "type": "expansion",
+      "label": "Jubilees 10:18: wife of Peleg (dau. of Sina'ar)"
+    },
+    {
+      "from": "bib_reu",
+      "to": "cb_ora_ur",
+      "type": "expansion",
+      "label": "Jubilees 11:1: wife of Reu (dau. of Ur)"
+    },
+    {
+      "from": "bib_reu",
+      "to": "cb_sera_reu",
+      "type": "expansion",
+      "label": "Jasher 7:21: son of Reu"
+    },
+    {
+      "from": "bib_serug",
+      "to": "cb_milka_kaber",
+      "type": "expansion",
+      "label": "Jubilees 11:7: wife of Serug (dau. of Kaber)"
+    },
+    {
+      "from": "bib_nahor1",
+      "to": "cb_iyoska",
+      "type": "expansion",
+      "label": "Jubilees 11:9: wife of Nahor I (dau. of Nestag)"
+    },
+    {
+      "from": "bib_terah",
+      "to": "cb_edna_terah",
+      "type": "expansion",
+      "label": "Jubilees 11:14: wife of Terah (mother of Abraham)"
+    },
+    {
+      "from": "bib_terah",
+      "to": "cb_amthelo",
+      "type": "expansion",
+      "label": "Jasher 7:51: wife of Terah"
+    },
+    {
+      "from": "cb_amthelo",
+      "to": "bib_abraham",
+      "type": "expansion",
+      "label": "Jasher 7:51 & Bava Batra 91a: mother of Abraham"
+    },
+    {
+      "from": "syr_adam_twins_matriarchs",
+      "to": "cb_kitab_magall_rolls",
+      "type": "expansion",
+      "label": "Arabic Kitab al-Magall / Book of the Rolls (Gibson 1901)"
+    },
+    {
+      "from": "syr_yonton_4th_son",
+      "to": "cb_kitab_magall_rolls",
+      "type": "expansion",
+      "label": "Kitab al-Magall preserves Bouniter / Yonton tradition"
+    },
+    {
+      "from": "bib_nahor2",
+      "to": "cb_reumah",
+      "type": "direct",
+      "label": "Genesis 22:24: concubine of Nahor II"
+    },
+    {
+      "from": "bib_laban",
+      "to": "cb_laban_sons",
+      "type": "expansion",
+      "label": "Gen 31:1; Jasher 28:28: Beor, Alib & Morash"
+    },
+    {
+      "from": "bib_lot",
+      "to": "cb_lot_wife_ado",
+      "type": "direct",
+      "label": "Gen 19:26; Jasher 19:52: wife of Lot"
+    },
+    {
+      "from": "bib_lot",
+      "to": "cb_lot_paltith",
+      "type": "expansion",
+      "label": "Jasher 19:24: martyred daughter of Lot"
+    },
+    {
+      "from": "bib_lot",
+      "to": "cb_lot_daughters",
+      "type": "direct",
+      "label": "Gen 19:30–38: Elder & Younger daughters of Lot"
+    },
+    {
+      "from": "cb_lot_daughters",
+      "to": "bib_moab",
+      "type": "direct",
+      "label": "Gen 19:37: Elder daughter -> Moab"
+    },
+    {
+      "from": "cb_lot_daughters",
+      "to": "bib_ammon",
+      "type": "direct",
+      "label": "Gen 19:38: Younger daughter -> Ben-Ammi"
+    },
+    {
+      "from": "bib_abraham",
+      "to": "cb_hagar",
+      "type": "direct",
+      "label": "Gen 16:3: Egyptian wife/concubine of Abraham"
+    },
+    {
+      "from": "cb_hagar",
+      "to": "bib_ishmael",
+      "type": "direct",
+      "label": "Gen 16:15: mother of Ishmael"
+    },
+    {
+      "from": "bib_abraham",
+      "to": "cb_keturah",
+      "type": "direct",
+      "label": "Gen 25:1: wife of Abraham"
+    },
+    {
+      "from": "cb_keturah",
+      "to": "ket_zimran",
+      "type": "direct",
+      "label": "Gen 25:2: son of Keturah"
+    },
+    {
+      "from": "cb_keturah",
+      "to": "ket_jokshan",
+      "type": "direct",
+      "label": "Gen 25:2: son of Keturah"
+    },
+    {
+      "from": "cb_keturah",
+      "to": "ket_medan",
+      "type": "direct",
+      "label": "Gen 25:2: son of Keturah"
+    },
+    {
+      "from": "cb_keturah",
+      "to": "ket_midian",
+      "type": "direct",
+      "label": "Gen 25:2: son of Keturah"
+    },
+    {
+      "from": "cb_keturah",
+      "to": "ket_ishbak",
+      "type": "direct",
+      "label": "Gen 25:2: son of Keturah"
+    },
+    {
+      "from": "cb_keturah",
+      "to": "ket_shuah",
+      "type": "direct",
+      "label": "Gen 25:2: son of Keturah"
+    },
+    {
+      "from": "bib_ishmael",
+      "to": "cb_meribah_ishmael",
+      "type": "expansion",
+      "label": "Jasher 21:31: 1st Egyptian wife of Ishmael"
+    },
+    {
+      "from": "bib_ishmael",
+      "to": "cb_malchuth_ishmael",
+      "type": "expansion",
+      "label": "Jasher 21:39: 2nd wife of Ishmael"
+    },
+    {
+      "from": "bib_esau",
+      "to": "cb_adah_esau",
+      "type": "direct",
+      "label": "Gen 36:2: Wife 1 of Esau"
+    },
+    {
+      "from": "cb_adah_esau",
+      "to": "esa_eliphaz",
+      "type": "direct",
+      "label": "Gen 36:4: mother of Eliphaz"
+    },
+    {
+      "from": "bib_esau",
+      "to": "cb_oholibamah_esau",
+      "type": "direct",
+      "label": "Gen 36:2: Wife 2 of Esau"
+    },
+    {
+      "from": "cb_oholibamah_esau",
+      "to": "esa_jeush",
+      "type": "direct",
+      "label": "Gen 36:5: mother of Jeush"
+    },
+    {
+      "from": "cb_oholibamah_esau",
+      "to": "esa_jalam",
+      "type": "direct",
+      "label": "Gen 36:5: mother of Jalam"
+    },
+    {
+      "from": "cb_oholibamah_esau",
+      "to": "esa_korah",
+      "type": "direct",
+      "label": "Gen 36:5: mother of Korah"
+    },
+    {
+      "from": "esa_eliphaz",
+      "to": "cb_timna_concubine",
+      "type": "direct",
+      "label": "Gen 36:12: concubine of Eliphaz"
+    },
+    {
+      "from": "cb_timna_concubine",
+      "to": "esa_amalek",
+      "type": "direct",
+      "label": "Gen 36:12: mother of Amalek"
+    },
+    {
+      "from": "cb_hor_lotan",
+      "to": "cb_timna_concubine",
+      "type": "direct",
+      "label": "Gen 36:22: sister of Lotan the Horite"
+    },
+    {
+      "from": "jas_janeus",
+      "to": "cb_janania_latinus",
+      "type": "expansion",
+      "label": "Jasher 60–61: Janania -> Janeas -> King Latinus"
+    },
+    {
+      "from": "bib_seir_horite",
+      "to": "cb_hor_lotan",
+      "type": "direct",
+      "label": "Gen 36:20: 1st son of Seir"
+    },
+    {
+      "from": "bib_seir_horite",
+      "to": "cb_hor_shobal",
+      "type": "direct",
+      "label": "Gen 36:20: 2nd son of Seir"
+    },
+    {
+      "from": "bib_seir_horite",
+      "to": "cb_hor_zibeon",
+      "type": "direct",
+      "label": "Gen 36:20: 3rd son of Seir"
+    },
+    {
+      "from": "bib_seir_horite",
+      "to": "cb_hor_anah",
+      "type": "direct",
+      "label": "Gen 36:20: son/grandson of Seir"
+    },
+    {
+      "from": "bib_seir_horite",
+      "to": "cb_hor_dishon",
+      "type": "direct",
+      "label": "Gen 36:20: 5th son of Seir"
+    },
+    {
+      "from": "bib_seir_horite",
+      "to": "cb_hor_ezer",
+      "type": "direct",
+      "label": "Gen 36:20: 6th son of Seir"
+    },
+    {
+      "from": "bib_seir_horite",
+      "to": "cb_hor_dishan",
+      "type": "direct",
+      "label": "Gen 36:20: 7th son of Seir"
+    },
+    {
+      "from": "cb_hor_anah",
+      "to": "cb_oholibamah_esau",
+      "type": "direct",
+      "label": "Gen 36:25: Anah -> Oholibamah wife of Esau"
+    },
+    {
+      "from": "chr_edom_kings",
+      "to": "cb_edom_bela",
+      "type": "direct",
+      "label": "Gen 36:32: 1st King of Edom"
+    },
+    {
+      "from": "chr_edom_kings",
+      "to": "cb_edom_jobab",
+      "type": "direct",
+      "label": "Gen 36:33: 2nd King of Edom"
+    },
+    {
+      "from": "cb_edom_jobab",
+      "to": "bib_job",
+      "type": "syncretic",
+      "label": "LXX Job 42:17 identifies King Jobab with Job"
+    },
+    {
+      "from": "chr_edom_kings",
+      "to": "cb_edom_husham",
+      "type": "direct",
+      "label": "Gen 36:34: 3rd King of Edom"
+    },
+    {
+      "from": "chr_edom_kings",
+      "to": "cb_edom_hadad1",
+      "type": "direct",
+      "label": "Gen 36:35: 4th King of Edom"
+    },
+    {
+      "from": "chr_edom_kings",
+      "to": "cb_edom_samlah",
+      "type": "direct",
+      "label": "Gen 36:36: 5th King of Edom"
+    },
+    {
+      "from": "chr_edom_kings",
+      "to": "cb_edom_shaul",
+      "type": "direct",
+      "label": "Gen 36:37: 6th King of Edom"
+    },
+    {
+      "from": "chr_edom_kings",
+      "to": "cb_edom_baalhanan",
+      "type": "direct",
+      "label": "Gen 36:38: 7th King of Edom"
+    },
+    {
+      "from": "chr_edom_kings",
+      "to": "cb_edom_hadar_mehetabel",
+      "type": "direct",
+      "label": "Gen 36:39: 8th King Hadar + Queen Mehetabel"
+    },
+    {
+      "from": "bib_laban",
+      "to": "cb_leah",
+      "type": "direct",
+      "label": "Gen 29:16: elder daughter of Laban"
+    },
+    {
+      "from": "bib_jacob",
+      "to": "cb_leah",
+      "type": "direct",
+      "label": "Gen 29:23: Wife 1 of Jacob"
+    },
+    {
+      "from": "cb_leah",
+      "to": "tri_reuben",
+      "type": "direct",
+      "label": "Gen 29:32: Mother of Reuben"
+    },
+    {
+      "from": "cb_leah",
+      "to": "tri_simeon",
+      "type": "direct",
+      "label": "Gen 29:33: Mother of Simeon"
+    },
+    {
+      "from": "cb_leah",
+      "to": "tri_levi",
+      "type": "direct",
+      "label": "Gen 29:34: Mother of Levi"
+    },
+    {
+      "from": "cb_leah",
+      "to": "tri_judah",
+      "type": "direct",
+      "label": "Gen 29:35: Mother of Judah"
+    },
+    {
+      "from": "cb_leah",
+      "to": "tri_issachar",
+      "type": "direct",
+      "label": "Gen 30:18: Mother of Issachar"
+    },
+    {
+      "from": "cb_leah",
+      "to": "tri_zebulun",
+      "type": "direct",
+      "label": "Gen 30:20: Mother of Zebulun"
+    },
+    {
+      "from": "cb_leah",
+      "to": "tri_dinah",
+      "type": "direct",
+      "label": "Gen 30:21: Mother of Dinah"
+    },
+    {
+      "from": "bib_laban",
+      "to": "cb_rachel",
+      "type": "direct",
+      "label": "Gen 29:16: younger daughter of Laban"
+    },
+    {
+      "from": "bib_jacob",
+      "to": "cb_rachel",
+      "type": "direct",
+      "label": "Gen 29:28: Wife 2 of Jacob"
+    },
+    {
+      "from": "cb_rachel",
+      "to": "tri_joseph",
+      "type": "direct",
+      "label": "Gen 30:24: Mother of Joseph"
+    },
+    {
+      "from": "cb_rachel",
+      "to": "tri_benjamin",
+      "type": "direct",
+      "label": "Gen 35:18: Mother of Benjamin"
+    },
+    {
+      "from": "bib_jacob",
+      "to": "cb_bilhah",
+      "type": "direct",
+      "label": "Gen 30:4: Concubine 1 of Jacob"
+    },
+    {
+      "from": "cb_bilhah",
+      "to": "tri_dan",
+      "type": "direct",
+      "label": "Gen 30:6: Mother of Dan"
+    },
+    {
+      "from": "cb_bilhah",
+      "to": "tri_naphtali",
+      "type": "direct",
+      "label": "Gen 30:8: Mother of Naphtali"
+    },
+    {
+      "from": "bib_jacob",
+      "to": "cb_zilpah",
+      "type": "direct",
+      "label": "Gen 30:9: Concubine 2 of Jacob"
+    },
+    {
+      "from": "cb_zilpah",
+      "to": "tri_gad",
+      "type": "direct",
+      "label": "Gen 30:11: Mother of Gad"
+    },
+    {
+      "from": "cb_zilpah",
+      "to": "tri_asher",
+      "type": "direct",
+      "label": "Gen 30:13: Mother of Asher"
+    },
+    {
+      "from": "tri_reuben",
+      "to": "cb_w_reuben",
+      "type": "expansion",
+      "label": "Jubilees 34:20 & Jasher 45: wives of Reuben"
+    },
+    {
+      "from": "tri_simeon",
+      "to": "cb_w_simeon",
+      "type": "expansion",
+      "label": "Jubilees 34:20 & Jasher 45: wives of Simeon"
+    },
+    {
+      "from": "tri_levi",
+      "to": "cb_w_levi",
+      "type": "expansion",
+      "label": "Jubilees 34:20 & Jasher 45: wives of Levi"
+    },
+    {
+      "from": "tri_judah",
+      "to": "cb_shua_dau_judah",
+      "type": "direct",
+      "label": "Gen 38:2: Bath-shua / Betasuel / Aliyath"
+    },
+    {
+      "from": "cb_shua_dau_judah",
+      "to": "jud_er",
+      "type": "direct",
+      "label": "Gen 38:3: Mother of Er"
+    },
+    {
+      "from": "cb_shua_dau_judah",
+      "to": "jud_onan",
+      "type": "direct",
+      "label": "Gen 38:4: Mother of Onan"
+    },
+    {
+      "from": "cb_shua_dau_judah",
+      "to": "jud_shelah",
+      "type": "direct",
+      "label": "Gen 38:5: Mother of Shelah"
+    },
+    {
+      "from": "tri_judah",
+      "to": "cb_tamar_judah",
+      "type": "direct",
+      "label": "Gen 38:24: Mother of Perez & Zerah"
+    },
+    {
+      "from": "cb_tamar_judah",
+      "to": "jud_perez",
+      "type": "direct",
+      "label": "Gen 38:29 / Matt 1:3: Mother of Perez"
+    },
+    {
+      "from": "cb_tamar_judah",
+      "to": "jud_zerah",
+      "type": "direct",
+      "label": "Gen 38:30: Mother of Zerah"
+    },
+    {
+      "from": "tri_dan",
+      "to": "cb_w_dan",
+      "type": "expansion",
+      "label": "Jubilees 34:20 & Jasher 45: wives of Dan"
+    },
+    {
+      "from": "tri_naphtali",
+      "to": "cb_w_naphtali",
+      "type": "expansion",
+      "label": "Jubilees 34:20 & Jasher 45: wives of Naphtali"
+    },
+    {
+      "from": "tri_gad",
+      "to": "cb_w_gad",
+      "type": "expansion",
+      "label": "Jubilees 34:20 & Jasher 45: wives of Gad"
+    },
+    {
+      "from": "tri_asher",
+      "to": "cb_w_asher",
+      "type": "expansion",
+      "label": "Jubilees 34:20 & Jasher 45: wives of Asher"
+    },
+    {
+      "from": "tri_issachar",
+      "to": "cb_w_issachar",
+      "type": "expansion",
+      "label": "Jubilees 34:20 & Jasher 45: wives of Issachar"
+    },
+    {
+      "from": "tri_zebulun",
+      "to": "cb_w_zebulun",
+      "type": "expansion",
+      "label": "Jubilees 34:20 & Jasher 45: wives of Zebulun"
+    },
+    {
+      "from": "tri_joseph",
+      "to": "cb_asenath",
+      "type": "direct",
+      "label": "Gen 41:45: Wife of Joseph"
+    },
+    {
+      "from": "tri_dinah",
+      "to": "cb_asenath",
+      "type": "expansion",
+      "label": "Jasher 38:15 & Pirke Ch. 38: Daughter of Dinah adopted by Potiphera"
+    },
+    {
+      "from": "cb_asenath",
+      "to": "jos_manasseh",
+      "type": "direct",
+      "label": "Gen 41:51: Mother of Manasseh"
+    },
+    {
+      "from": "cb_asenath",
+      "to": "jos_ephraim",
+      "type": "direct",
+      "label": "Gen 41:52: Mother of Ephraim"
+    },
+    {
+      "from": "tri_benjamin",
+      "to": "cb_w_benjamin",
+      "type": "expansion",
+      "label": "Jubilees 34:21 & Jasher 45: wives of Benjamin"
+    },
+    {
+      "from": "jud_perez",
+      "to": "cb_jud_hamul",
+      "type": "direct",
+      "label": "Gen 46:12: son of Perez"
+    },
+    {
+      "from": "jud_zerah",
+      "to": "cb_zerah_sons",
+      "type": "direct",
+      "label": "1 Chr 2:6: 5 sons of Zerah"
+    },
+    {
+      "from": "tri_asher_beriah",
+      "to": "cb_asher_heber_malchiel",
+      "type": "direct",
+      "label": "Gen 46:17: sons of Beriah"
+    },
+    {
+      "from": "jos_manasseh",
+      "to": "cb_maacah_machir",
+      "type": "direct",
+      "label": "1 Chr 7:15: wife of Machir"
+    },
+    {
+      "from": "bib_zelophehad_bezalel",
+      "to": "cb_zel_mahlah",
+      "type": "direct",
+      "label": "Num 27:1: daughter 1 of Zelophehad"
+    },
+    {
+      "from": "bib_zelophehad_bezalel",
+      "to": "cb_zel_noah",
+      "type": "direct",
+      "label": "Num 27:1: daughter 2 of Zelophehad"
+    },
+    {
+      "from": "bib_zelophehad_bezalel",
+      "to": "cb_zel_hoglah",
+      "type": "direct",
+      "label": "Num 27:1: daughter 3 of Zelophehad"
+    },
+    {
+      "from": "bib_zelophehad_bezalel",
+      "to": "cb_zel_milcah",
+      "type": "direct",
+      "label": "Num 27:1: daughter 4 of Zelophehad"
+    },
+    {
+      "from": "bib_zelophehad_bezalel",
+      "to": "cb_zel_tirzah",
+      "type": "direct",
+      "label": "Num 27:1: daughter 5 of Zelophehad"
+    },
+    {
+      "from": "jos_ephraim",
+      "to": "cb_ephraim_sheerah",
+      "type": "direct",
+      "label": "1 Chr 7:20–24 & Num 26:35: Sheerah & sons of Ephraim"
+    },
+    {
+      "from": "lev_aaron",
+      "to": "cb_elisheba",
+      "type": "direct",
+      "label": "Exod 6:23: wife of Aaron (sister of Nahshon)"
+    },
+    {
+      "from": "lev_aaron",
+      "to": "cb_nadab_abihu",
+      "type": "direct",
+      "label": "Exod 6:23: elder sons of Aaron"
+    },
+    {
+      "from": "lev_aaron",
+      "to": "cb_eleazar_putiel",
+      "type": "direct",
+      "label": "Exod 6:25: Eleazar + daughter of Putiel -> Phinehas"
+    },
+    {
+      "from": "lev_aaron",
+      "to": "cb_ithamar_eli",
+      "type": "direct",
+      "label": "Exod 6:23; 1 Sam 1–22: Ithamar -> Eli -> Abiathar"
+    },
+    {
+      "from": "cb_ithamar_eli",
+      "to": "jdg_eli",
+      "type": "direct",
+      "label": "High Priest Eli of Ithamar's line"
+    },
+    {
+      "from": "mid_jethro",
+      "to": "cb_zipporah",
+      "type": "direct",
+      "label": "Exod 2:21: daughter of Reuel/Jethro"
+    },
+    {
+      "from": "bib_moses",
+      "to": "cb_zipporah",
+      "type": "direct",
+      "label": "Exod 2:21: Wife 1 of Moses"
+    },
+    {
+      "from": "cb_zipporah",
+      "to": "mos_gershom",
+      "type": "direct",
+      "label": "Exod 2:22: mother of Gershom"
+    },
+    {
+      "from": "cb_zipporah",
+      "to": "mos_eliezer",
+      "type": "direct",
+      "label": "Exod 18:4: mother of Eliezer"
+    },
+    {
+      "from": "mos_gershom",
+      "to": "cb_moses_grandsons",
+      "type": "direct",
+      "label": "Judg 18:30: Jonathan son of Gershom"
+    },
+    {
+      "from": "mos_eliezer",
+      "to": "cb_moses_grandsons",
+      "type": "direct",
+      "label": "1 Chr 23:17: Rehabiah son of Eliezer"
+    },
+    {
+      "from": "bib_moses",
+      "to": "cb_adoniah_cush",
+      "type": "expansion",
+      "label": "Num 12:1 & Jasher 23–26: Cushite wife of Moses"
+    },
+    {
+      "from": "pri_eleazar_zadok",
+      "to": "cb_pri_abishua",
+      "type": "direct",
+      "label": "1 Chr 6:4: Phinehas -> Abishua"
+    },
+    {
+      "from": "cb_pri_abishua",
+      "to": "cb_pri_bukki",
+      "type": "direct",
+      "label": "1 Chr 6:5: Abishua -> Bukki"
+    },
+    {
+      "from": "cb_pri_bukki",
+      "to": "cb_pri_uzzi",
+      "type": "direct",
+      "label": "1 Chr 6:5: Bukki -> Uzzi"
+    },
+    {
+      "from": "cb_pri_uzzi",
+      "to": "cb_pri_zerahiah_meraioth",
+      "type": "direct",
+      "label": "1 Chr 6:6–7: Uzzi -> Zerahiah -> Meraioth -> Amariah -> Ahitub"
+    },
+    {
+      "from": "cb_pri_zerahiah_meraioth",
+      "to": "cb_pri_zadok1",
+      "type": "direct",
+      "label": "1 Chr 6:8–10: Ahitub -> Zadok I -> Ahimaaz -> Azariah -> Johanan"
+    },
+    {
+      "from": "cb_pri_zadok1",
+      "to": "cb_pri_azariah2_hilkiah",
+      "type": "direct",
+      "label": "1 Chr 6:10–15: Azariah II -> Hilkiah -> Seraiah -> Jehozadak"
+    },
+    {
+      "from": "pri_eleazar_zadok",
+      "to": "cb_samaritan_high_priests",
+      "type": "expansion",
+      "label": "Gaster & Samaritan Book of Joshua: Gerizim High Priests from Phinehas/Abisha/Uzzi"
+    },
+    {
+      "from": "lev_izhar",
+      "to": "cb_elkanah_hannah_peninnah",
+      "type": "direct",
+      "label": "1 Sam 1; 1 Chr 6:33: Elkanah + Hannah & Peninnah"
+    },
+    {
+      "from": "cb_elkanah_hannah_peninnah",
+      "to": "jdg_samuel",
+      "type": "direct",
+      "label": "1 Sam 1:20: Samuel born to Hannah"
+    },
+    {
+      "from": "jdg_samuel",
+      "to": "cb_samuel_sons_heman",
+      "type": "direct",
+      "label": "1 Sam 8:1; 1 Chr 6:33, 25:4–5: Joel, Abijah & Heman"
+    },
+    {
+      "from": "bib_joshua_caleb",
+      "to": "cb_caleb_household",
+      "type": "direct",
+      "label": "1 Chr 2:18–48: Caleb's wives & concubines"
+    },
+    {
+      "from": "bib_joshua_caleb",
+      "to": "cb_achsah",
+      "type": "direct",
+      "label": "Judg 1:13: daughter of Caleb"
+    },
+    {
+      "from": "cb_achsah",
+      "to": "jdg_othniel",
+      "type": "direct",
+      "label": "Judg 1:13: wife of Judge Othniel"
+    },
+    {
+      "from": "jdg_othniel",
+      "to": "cb_pphilo_kenaz",
+      "type": "expansion",
+      "label": "Pseudo-Philo Ch. 25–29: Judge Kenaz & Zebul"
+    },
+    {
+      "from": "jdg_deborah",
+      "to": "cb_lappidoth",
+      "type": "direct",
+      "label": "Judg 4:4: husband of Deborah"
+    },
+    {
+      "from": "jdg_gideon",
+      "to": "cb_gideon_jotham_abimelech",
+      "type": "direct",
+      "label": "Judg 9: Jotham & Abimelech"
+    },
+    {
+      "from": "jdg_jephthah",
+      "to": "cb_seila_jephthah",
+      "type": "expansion",
+      "label": "Judg 11:34 & Pseudo-Philo Ch. 40: daughter Seila"
+    },
+    {
+      "from": "jdg_samson",
+      "to": "cb_samson_women",
+      "type": "direct",
+      "label": "Judg 13–16: Manoah, Eluma, Wife of Timnah & Delilah"
+    },
+    {
+      "from": "cb_rahab",
+      "to": "jud_boaz_jesse",
+      "type": "direct",
+      "label": "Matt 1:5: Salmon + Rahab -> Boaz"
+    },
+    {
+      "from": "chr_elimelech_naomi",
+      "to": "cb_naomi_orpah",
+      "type": "direct",
+      "label": "Ruth 1: Naomi & Orpah"
+    },
+    {
+      "from": "bib_moab",
+      "to": "cb_ruth",
+      "type": "direct",
+      "label": "Ruth 1–4: Ruth the Moabite"
+    },
+    {
+      "from": "cb_ruth",
+      "to": "jud_boaz_jesse",
+      "type": "direct",
+      "label": "Ruth 4:13 / Matt 1:5: Boaz + Ruth -> Obed -> Jesse"
+    },
+    {
+      "from": "jud_boaz_jesse",
+      "to": "cb_zeruiah",
+      "type": "direct",
+      "label": "1 Chr 2:16: daughter/sister of Jesse's house"
+    },
+    {
+      "from": "jud_boaz_jesse",
+      "to": "cb_abigail_jesse",
+      "type": "direct",
+      "label": "1 Chr 2:17: daughter/sister of Jesse's house"
+    },
+    {
+      "from": "bib_saul",
+      "to": "cb_ahinoam_saul",
+      "type": "direct",
+      "label": "1 Sam 14:50: wife of King Saul"
+    },
+    {
+      "from": "bib_saul",
+      "to": "cb_rizpah",
+      "type": "direct",
+      "label": "2 Sam 3:7, 21:8: concubine of Saul"
+    },
+    {
+      "from": "bib_saul",
+      "to": "cb_merab",
+      "type": "direct",
+      "label": "1 Sam 14:49: elder daughter of Saul"
+    },
+    {
+      "from": "bib_saul",
+      "to": "cb_michal",
+      "type": "direct",
+      "label": "1 Sam 14:49: younger daughter of Saul"
+    },
+    {
+      "from": "cb_michal",
+      "to": "jud_david",
+      "type": "direct",
+      "label": "1 Sam 18:27: Wife 1 of King David"
+    },
+    {
+      "from": "bib_saul",
+      "to": "cb_mephibosheth_mica",
+      "type": "direct",
+      "label": "1 Chr 8:34–35: Jonathan -> Mephibosheth -> Mica"
+    },
+    {
+      "from": "jud_david",
+      "to": "cb_w_dav_ahinoam",
+      "type": "direct",
+      "label": "2 Sam 3:2: Wife 2 of David"
+    },
+    {
+      "from": "jud_david",
+      "to": "cb_w_dav_abigail",
+      "type": "direct",
+      "label": "2 Sam 3:3: Wife 3 of David"
+    },
+    {
+      "from": "jud_david",
+      "to": "cb_w_dav_maacah",
+      "type": "direct",
+      "label": "2 Sam 3:3: Wife 4 of David"
+    },
+    {
+      "from": "jud_david",
+      "to": "cb_w_dav_haggith",
+      "type": "direct",
+      "label": "2 Sam 3:4: Wife 5 of David"
+    },
+    {
+      "from": "jud_david",
+      "to": "cb_w_dav_abital",
+      "type": "direct",
+      "label": "2 Sam 3:4: Wife 6 of David"
+    },
+    {
+      "from": "jud_david",
+      "to": "cb_w_dav_eglah",
+      "type": "direct",
+      "label": "2 Sam 3:5: Wife 7 of David"
+    },
+    {
+      "from": "jud_david",
+      "to": "cb_w_dav_bathsheba",
+      "type": "direct",
+      "label": "2 Sam 12:24; 1 Chr 3:5: Wife 8 of David"
+    },
+    {
+      "from": "cb_w_dav_maacah",
+      "to": "cb_tamar_absalom",
+      "type": "direct",
+      "label": "2 Sam 14:27: Absalom -> daughter Tamar"
+    },
+    {
+      "from": "jud_solomon",
+      "to": "cb_sol_pharaoh_dau",
+      "type": "direct",
+      "label": "1 Kgs 3:1: Pharaoh's daughter wed to Solomon"
+    },
+    {
+      "from": "jud_solomon",
+      "to": "cb_sol_naamah",
+      "type": "direct",
+      "label": "1 Kgs 14:21: Naamah the Ammonite wife of Solomon"
+    },
+    {
+      "from": "cb_sol_naamah",
+      "to": "kg_j1_rehoboam",
+      "type": "direct",
+      "label": "1 Kgs 14:21: Naamah -> King Rehoboam"
+    },
+    {
+      "from": "jud_solomon",
+      "to": "cb_sol_taphath",
+      "type": "direct",
+      "label": "1 Kgs 4:11: daughter of Solomon"
+    },
+    {
+      "from": "jud_solomon",
+      "to": "cb_sol_basemath",
+      "type": "direct",
+      "label": "1 Kgs 4:15: daughter of Solomon"
+    },
+    {
+      "from": "kg_j1_rehoboam",
+      "to": "cb_q_mahalath_maacah",
+      "type": "direct",
+      "label": "2 Chr 11:18–21: Mahalath & Queen Maacah -> Abijah"
+    },
+    {
+      "from": "kg_j3_asa",
+      "to": "cb_q_azubah_asa",
+      "type": "direct",
+      "label": "1 Kgs 22:42: Azubah -> Jehoshaphat"
+    },
+    {
+      "from": "kg_j4_jehoshaphat",
+      "to": "cb_jehoshaphat_sons",
+      "type": "direct",
+      "label": "2 Chr 21:2: 6 younger sons of Jehoshaphat"
+    },
+    {
+      "from": "kg_i3_omri_ahab",
+      "to": "cb_q_athaliah",
+      "type": "direct",
+      "label": "2 Kgs 8:26: daughter of Ahab & Jezebel"
+    },
+    {
+      "from": "cb_q_athaliah",
+      "to": "kg_j5_jehoram",
+      "type": "direct",
+      "label": "2 Kgs 8:18: queen of Jehoram"
+    },
+    {
+      "from": "kg_j5_jehoram",
+      "to": "cb_jehosheba",
+      "type": "direct",
+      "label": "2 Kgs 11:2: daughter of Jehoram / sister of Ahaziah"
+    },
+    {
+      "from": "kg_j6_ahaziah",
+      "to": "cb_q_zibiah_jehoaddan_jecoliah",
+      "type": "direct",
+      "label": "2 Kgs 12:1: Zibiah (Joash)"
+    },
+    {
+      "from": "kg_j7_joash",
+      "to": "cb_q_zibiah_jehoaddan_jecoliah",
+      "type": "direct",
+      "label": "2 Kgs 14:2, 15:2: Jehoaddan & Jecoliah"
+    },
+    {
+      "from": "kg_j8_uzziah",
+      "to": "cb_q_jerusha_abi_hephzibah",
+      "type": "direct",
+      "label": "2 Kgs 15:33: Jerusha bat Zadok"
+    },
+    {
+      "from": "kg_j9_hezekiah",
+      "to": "cb_q_jerusha_abi_hephzibah",
+      "type": "direct",
+      "label": "2 Kgs 18:2, 21:1: Abi & Hephzibah"
+    },
+    {
+      "from": "kg_j10_manasseh",
+      "to": "cb_q_meshullemeth_jedidah",
+      "type": "direct",
+      "label": "2 Kgs 21:19: Meshullemeth"
+    },
+    {
+      "from": "kg_j11_josiah",
+      "to": "cb_q_meshullemeth_jedidah",
+      "type": "direct",
+      "label": "2 Kgs 22:1: Jedidah mother of Josiah"
+    },
+    {
+      "from": "kg_j11_josiah",
+      "to": "cb_q_zebidah_hamutal_nehushta",
+      "type": "direct",
+      "label": "2 Kgs 23:31,36: Zebidah & Hamutal"
+    },
+    {
+      "from": "kg_j12_jehoiakim_zedekiah",
+      "to": "cb_q_zebidah_hamutal_nehushta",
+      "type": "direct",
+      "label": "2 Kgs 24:8: Nehushta mother of Jehoiachin"
+    },
+    {
+      "from": "kg_j13_jehoiachin",
+      "to": "cb_jehoiachin_7sons",
+      "type": "direct",
+      "label": "1 Chr 3:17–18: 7 exilic sons of Jehoiachin"
+    },
+    {
+      "from": "kg_j13_jehoiachin",
+      "to": "cb_zerubbabel_house",
+      "type": "direct",
+      "label": "1 Chr 3:19–24: Zerubbabel -> 7 sons + Shelomith -> Anani"
+    },
+    {
+      "from": "kg_i1_jeroboam",
+      "to": "cb_q_zeruah_jezebel",
+      "type": "direct",
+      "label": "1 Kgs 11:26: Zeruah mother of Jeroboam I"
+    },
+    {
+      "from": "kg_i3_omri_ahab",
+      "to": "cb_q_zeruah_jezebel",
+      "type": "direct",
+      "label": "1 Kgs 16:31: Queen Jezebel wife of Ahab"
+    },
+    {
+      "from": "pro_isaiah_zephaniah",
+      "to": "cb_isaiah_hosea_families",
+      "type": "direct",
+      "label": "Isa 7:3, 8:3: Isaiah's wife & sons"
+    },
+    {
+      "from": "pro_minor_prophets",
+      "to": "cb_isaiah_hosea_families",
+      "type": "direct",
+      "label": "Hos 1: Gomer -> Jezreel, Lo-ruhamah, Lo-ammi"
+    },
+    {
+      "from": "bib_esther_mordecai",
+      "to": "cb_esther_vashti",
+      "type": "direct",
+      "label": "Esth 1–2: Abihail, Vashti & Esther"
+    },
+    {
+      "from": "bib_job",
+      "to": "cb_job_3daughters",
+      "type": "direct",
+      "label": "Job 42:14: Jemimah, Keziah & Keren-happuch"
+    },
+    {
+      "from": "pro_isaiah_zephaniah",
+      "to": "cb_lives_of_prophets",
+      "type": "expansion",
+      "label": "Torrey 1946 SBLMS 1: Lives of the Prophets"
+    },
+    {
+      "from": "nt_luke_mary",
+      "to": "cb_luke3_complete_chain",
+      "type": "direct",
+      "label": "Luke 3:23–31 & Hervey 1853: complete 41-link Nathan line"
+    },
+    {
+      "from": "bib_adam",
+      "to": "cb_bible_chronology_harmonizers",
+      "type": "expansion",
+      "label": "Broughton 1594, Speed 1627, Hales, Crawford, Kent & Anstey 1913"
+    },
+    {
+      "from": "nt_matthew_joseph",
+      "to": "cb_bible_chronology_harmonizers",
+      "type": "expansion",
+      "label": "Hervey 1853 & Speed 1627 Messianic tables"
+    },
+    {
+      "from": "her_herod_great_family",
+      "to": "cb_herodian_women",
+      "type": "direct",
+      "label": "Josephus & NT: all named Herodian queens & princesses"
+    },
+    {
+      "from": "nt_disciples_bethany",
+      "to": "cb_nt_households_women",
+      "type": "direct",
+      "label": "NT Epistles & Acts: early church households & women"
+    },
+    {
+      "from": "nt_paul",
+      "to": "cb_nt_households_women",
+      "type": "direct",
+      "label": "Acts 23:16: Paul's sister & nephew; Timothy"
+    },
+    {
+      "from": "bib_abraham",
+      "to": "cb_rabbinic_targum_pirke",
+      "type": "expansion",
+      "label": "Pirke de R. Eliezer, Ginzberg Legends & Etheridge Targums"
+    },
+    {
+      "from": "ar_hashim_muhammad_caliphs",
+      "to": "cb_muhammad_wives",
+      "type": "direct",
+      "label": "Ibn Ishaq / Guillaume Sirah: wives of Prophet Muhammad"
+    },
+    {
+      "from": "ar_hashim_muhammad_caliphs",
+      "to": "cb_muhammad_children",
+      "type": "direct",
+      "label": "Ibn Ishaq / Guillaume Sirah: 7 children of Prophet Muhammad"
+    },
+    {
+      "from": "bib_noah",
+      "to": "cb_ibn_kathir_prophets",
+      "type": "expansion",
+      "label": "Ibn Kathir Stories of the Prophets: Adam to Isa"
+    }
+  ]
+}

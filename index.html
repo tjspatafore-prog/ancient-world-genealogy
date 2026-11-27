@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ancient World Genealogy Atlas — Universal Biblical &amp; Noahic Lineages</title>
-  <meta name="description" content="Complete global ancient genealogy atlas connecting every nation and dynasty back to Adam &amp; Eve and Noah (Shem, Ham, Japheth &amp; Yonton) across 207 primary sources: Bible, Enoch, Jasher, Jubilees, Cave of Treasures, Josephus, Abulghazi, Knolles, Raleigh, Tarikh es-Soudan (Timbuktu/Songhai), Mariana (Spain), Sammes &amp; Bede (Britain), Ludolf (Ethiopia), Seller (Palmyra), Sir Isaac Newton (1728), Ussher (1658), George Smith (Assyrian Eponym Canon), Records of the Past, Caussin de Perceval, Ibn 'Abd al-Hakam, Justin &amp; Living Lines to 2026." />
+  <meta name="description" content="Complete global ancient genealogy atlas connecting every nation and dynasty back to Adam &amp; Eve and Noah (Shem, Ham, Japheth &amp; Yonton) across 265 primary sources: Bible, Enoch, Jasher, Jubilees, Cave of Treasures, Pseudo-Philo, Genesis Apocryphon, Malay Annals (Malacca-Iskandar Bridge), Pseudo-Methodius, Bochart, Isidore, Josephus, Abulghazi, Knolles, Raleigh, Tarikh es-Soudan, Mariana, Bede, Paul the Deacon (Lombards), Landnamabok (Iceland), Lloyd (Wales), Tod (Rajasthan), Tarikh-i-Rashidi, Ladakh &amp; Living Lines to 2026." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :root {
@@ -74,13 +74,13 @@
           <h1 class="text-xs sm:text-sm font-semibold leading-tight truncate">Ancient World Genealogy Atlas</h1>
           <span id="versionBadge" class="text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono shrink-0">Loading…</span>
         </div>
-        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">207 Primary Sources • Biblically Connected &amp; Complete World Rulers • Switch Scope Tabs to Explore All</p>
+        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">265 Primary Sources • Biblically Connected &amp; Complete World Rulers • Switch Scope Tabs to Explore All</p>
       </div>
     </div>
 
     <!-- Search & View Switchers -->
     <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 w-full lg:w-auto">
-      <input id="searchInput" type="text" placeholder="Search 2,460+ kings, patriarchs &amp; lineages..."
+      <input id="searchInput" type="text" placeholder="Search 2,600+ kings, patriarchs &amp; lineages..."
         class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] flex-1 sm:flex-none sm:w-48 lg:w-56 min-w-[130px] focus:outline-none focus:ring-1 focus:ring-[var(--primary)]" />
 
       <!-- Biblical Scope Switcher -->
@@ -448,7 +448,13 @@ const MAP_PINS = [
   { id:"pin_hawaii", label:"Hawai'i (Kumulipo Ali'i)", lat:20.8, lon:-156.3, nodeId:"amp_poly_kumulipo", trad:"americas_pacific", desc:"Pending Bridge: Wakea & Papa -> Haloa -> King Kamehameha I -> Queen Lili'uokalani" },
   { id:"pin_aotearoa", label:"Aotearoa / Polynesia (Kupe)", lat:-41.3, lon:174.8, nodeId:"amp_poly_kupe_tonga", trad:"americas_pacific", desc:"Pending Bridge: Kupe (Aotearoa), Tu'i Tonga 'Aho'eitu & Queen Salamasina (Samoa)" },
   { id:"pin_angkor", label:"Angkor & Ayutthaya (Khmer / Siam)", lat:13.4, lon:103.9, nodeId:"sea_khmer_jayavarman2", trad:"southeast_asia", desc:"Pending Bridge: Jayavarman II -> Suryavarman II -> Jayavarman VII, Sukhothai & Dai Viet" },
-  { id:"pin_majapahit", label:"Java & Malacca (Majapahit)", lat:-7.5, lon:112.4, nodeId:"sea_java_raden_wijaya", trad:"southeast_asia", desc:"Pending Bridge: Srivijaya -> Raden Wijaya -> Hayam Wuruk -> Parameswara (Malacca)" },
+  { id:"pin_majapahit", label:"Java (Srivijaya & Majapahit)", lat:-7.5, lon:112.4, nodeId:"sea_java_raden_wijaya", trad:"southeast_asia", desc:"Pending Bridge: Srivijaya -> Raden Wijaya -> Queen Tribhuwana -> Hayam Wuruk" },
+  { id:"pin_malacca", label:"Malacca & Singapura (Malay Annals)", lat:2.2, lon:102.2, nodeId:"mal_parameswara_iskandar", trad:"southeast_asia", desc:"Sejarah Melayu Bridge: Raja Secander (Alexander) -> Raja Suran -> Sang Nila Utama -> Parameswara -> Mansur Shah" },
+  { id:"pin_iceland", label:"Iceland & Vinland (Landnamabok)", lat:64.1, lon:-21.9, nodeId:"eur_ice_ingolfur", trad:"europe_norse", desc:"Landnamabok: Ingolfur Arnarson (874 CE), Aud the Deep-Minded -> Erik the Red -> Leif Erikson (Vinland)" },
+  { id:"pin_lombardy", label:"Lombard Italy (Paul the Deacon)", lat:45.2, lon:9.2, nodeId:"eur_lom_gambara", trad:"europe_norse", desc:"Paul the Deacon: Gambara -> Ibor & Aio -> Agelmund -> Alboin (568 CE) -> Rothari -> Liutprand" },
+  { id:"pin_wales", label:"Gwynedd & Wales (Cunedda / Llywelyn)", lat:53.1, lon:-4.1, nodeId:"eur_wal_cunedda", trad:"europe_norse", desc:"J.E. Lloyd History of Wales: Cunedda -> Maelgwn -> Rhodri Mawr -> Hywel Dda -> Llywelyn the Great" },
+  { id:"pin_ladakh", label:"Ladakh & Ngari (Sengge Namgyal)", lat:34.2, lon:77.6, nodeId:"tib_ladakh_nyimagon", trad:"vedic", desc:"Chronicles of Ladakh (Francke): Tibetan Yarlung -> Skyid-lde Nyi-ma-mgon -> King Sengge Namgyal" },
+  { id:"pin_rajasthan", label:"Mewar & Rajasthan (Bappa Rawal / Pratap)", lat:24.6, lon:73.7, nodeId:"ind_raj_mewar_sisodia", trad:"vedic", desc:"James Tod Annals of Rajasthan: Solar Lava/Kusha -> Bappa Rawal -> Maharana Pratap & Rathores/Kachwahas" },
   { id:"pin_kongo", label:"Mbanza-Kongo (Kingdom of Kongo)", lat:-6.3, lon:14.2, nodeId:"afr_kongo_lukeni", trad:"african", desc:"Pending Bridge: Lukeni lua Nimi -> Afonso I -> Queen Nzinga Mbande (Mod. Univ. Hist. Vols. 6-7)" },
   { id:"pin_zimbabwe", label:"Great Zimbabwe & Mutapa", lat:-20.3, lon:30.9, nodeId:"afr_zimbabwe_mutota", trad:"african", desc:"Pending Bridge: Nyatsimba Mutota -> Nyanhewe Matope & Zulu Kingdom (Shaka)" },
   { id:"pin_warsaw", label:"Poland, Hungary & Baltics", lat:52.2, lon:21.0, nodeId:"eur_poland_mieszko", trad:"europe_norse", desc:"Pending Bridge: Piast -> Mieszko I -> Jadwiga/Jagiello, Arpad (Hungary) & Gediminas (Lithuania)" }
@@ -525,7 +531,13 @@ const MAP_ARCS = [
   { from:"pin_cusco", to:"pin_aotearoa", type:"cognate", label:"Trans-Pacific sweet potato (kumara / camote) horizon between Andes & Polynesia" },
   { from:"pin_hawaii", to:"pin_aotearoa", type:"cognate", label:"Polynesian Sky-Earth (Rangi/Wakea & Papa) & Maui voyaging traditions" },
   { from:"pin_india", to:"pin_angkor", type:"cognate", label:"Indianized maritime & royal scripts reaching Funan/Angkor, Siam & Majapahit" },
-  { from:"pin_angkor", to:"pin_majapahit", type:"cognate", label:"Mainland Angkor/Ayutthaya & Maritime Srivijaya/Majapahit/Malacca trade" },
+  { from:"pin_angkor", to:"pin_majapahit", type:"cognate", label:"Mainland Angkor/Ayutthaya & Maritime Srivijaya/Majapahit trade" },
+  { from:"pin_greece", to:"pin_malacca", type:"syncretic", label:"Malay Annals (Sejarah Melayu Ch. 1): Raja Secander (Alexander) -> Raja Suran -> Singapura -> Malacca" },
+  { from:"pin_norse", to:"pin_iceland", type:"expansion", label:"Landnamabok (874 CE): Norwegian Vikings -> Ingolfur Arnarson & Aud -> Erik the Red -> Leif Erikson" },
+  { from:"pin_norse", to:"pin_lombardy", type:"expansion", label:"Paul the Deacon: Winnili/Langobards from Scandinavia under Gambara -> Alboin & Rothari in Italy" },
+  { from:"pin_scotland", to:"pin_wales", type:"expansion", label:"J.E. Lloyd: Cunedda migrates from Gododdin (Scotland) to found Gwynedd -> Llywelyn of Wales" },
+  { from:"pin_kashmir", to:"pin_ladakh", type:"expansion", label:"Francke Chronicles of Ladakh: Yarlung royal prince Skyid-lde Nyi-ma-mgon -> Sengge Namgyal" },
+  { from:"pin_india", to:"pin_rajasthan", type:"expansion", label:"Tod Annals of Rajasthan: Ayodhya Solar Lava/Kusha -> Mewar Sisodias (Bappa Rawal & Pratap)" },
   { from:"pin_kongo", to:"pin_zimbabwe", type:"cognate", label:"Sub-Saharan Bantuphone kingdoms: Kongo, Ndongo & Great Zimbabwe / Mutapa" }
 ];
 

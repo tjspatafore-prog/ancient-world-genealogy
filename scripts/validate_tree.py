@@ -136,6 +136,12 @@ def main():
         ("bib_noah", "esp_ferdinand_isabella_habsburg", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Tubal (Mariana 1699) -> Visigoths -> Pelayo -> Ferdinand & Isabella"),
         ("bib_noah", "pal_odenathus_zenobia", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Shem -> King Solomon (Tadmor/Palmyra) -> Aretas -> Queen Zenobia"),
         ("bib_noah", "asm_records_past_inscriptions", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Shem -> Asshur -> George Smith Eponym Canon & Records of the Past (Sennacherib/Hezekiah)"),
+        ("bib_noah", "mal_parameswara_iskandar", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Javan -> Alexander (Iskandar Zulkarnain) -> Malay Annals -> Parameswara (Malacca!)"),
+        ("bib_adam", "cb_sopanim_2enoch", {"direct", "expansion"}, "Adam -> Seth -> Lamech -> Nir + Sopanim -> Melchizedek (2 Enoch 70-71)"),
+        ("bib_noah", "eur_ice_erik_leif", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Norse Ynglings -> Ingolfur Arnarson (Iceland) -> Erik the Red -> Leif Erikson (Vinland)"),
+        ("bib_noah", "tib_ladakh_sengge_namgyal", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Tibet Yarlung -> Skyid-lde Nyi-ma-mgon -> Sengge Namgyal (Ladakh)"),
+        ("bib_noah", "ind_raj_mewar_sisodia", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Vaivasvata Manu -> Rama -> Lava -> Bappa Rawal -> Maharana Pratap (Mewar Rajputs)"),
+        ("bib_noah", "stp_moghul_said_haidar", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Japheth -> Turk -> Genghis Khan -> Chagatai -> Tughlugh Timur -> Tarikh-i-Rashidi (Moghulistan)"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

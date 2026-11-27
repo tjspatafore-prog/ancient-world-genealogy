@@ -1731,7 +1731,7 @@
       "role": "Maritime Indonesian Founders",
       "sources": [
         "Nagarakretagama",
-        "Sejarah Melayu / Malay Annals"
+        "Pararaton"
       ],
       "notes": "Srivijaya, Mataram, Singhasari & Majapahit.",
       "major": true,
@@ -1747,9 +1747,9 @@
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Nagarakretagama",
-        "Sejarah Melayu / Malay Annals"
+        "Pararaton"
       ],
-      "notes": "Chronicle succession in Nagarakretagama, Sejarah Melayu / Malay Annals.",
+      "notes": "Chronicle succession in Nagarakretagama, Pararaton.",
       "major": false,
       "biblicalConnected": false
     },
@@ -1763,41 +1763,9 @@
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Nagarakretagama",
-        "Sejarah Melayu / Malay Annals"
+        "Pararaton"
       ],
-      "notes": "Chronicle succession in Nagarakretagama, Sejarah Melayu / Malay Annals.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_sea_parameswara",
-      "name": "Parameswara / Iskandar Shah (Founder of Malacca Sultanate, 1400)",
-      "altNames": [],
-      "tradition": "southeast_asia",
-      "tier": 20,
-      "era": "1400–1414 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Nagarakretagama",
-        "Sejarah Melayu / Malay Annals"
-      ],
-      "notes": "Chronicle succession in Nagarakretagama, Sejarah Melayu / Malay Annals.",
-      "major": false,
-      "biblicalConnected": false
-    },
-    {
-      "id": "unb_sea_mansur_shah",
-      "name": "Sultan Mansur Shah of Malacca (1459–1477)",
-      "altNames": [],
-      "tradition": "southeast_asia",
-      "tier": 20,
-      "era": "1459–1477 CE",
-      "role": "Sovereign / Royal Lineage",
-      "sources": [
-        "Nagarakretagama",
-        "Sejarah Melayu / Malay Annals"
-      ],
-      "notes": "Chronicle succession in Nagarakretagama, Sejarah Melayu / Malay Annals.",
+      "notes": "Chronicle succession in Nagarakretagama, Pararaton.",
       "major": false,
       "biblicalConnected": false
     },
@@ -2154,7 +2122,8 @@
       "role": "Goryeo Founder",
       "sources": [
         "Goryeosa",
-        "Veritable Records of the Joseon Dynasty"
+        "Veritable Records of the Joseon Dynasty",
+        "Homer Hulbert History of Korea Vols. 1–2"
       ],
       "notes": "Goryeosa & Joseon Wangjo Sillok.",
       "major": true,
@@ -2170,9 +2139,10 @@
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Goryeosa",
-        "Veritable Records of the Joseon Dynasty"
+        "Veritable Records of the Joseon Dynasty",
+        "Homer Hulbert History of Korea Vols. 1–2"
       ],
-      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
       "major": false,
       "biblicalConnected": false
     },
@@ -2186,9 +2156,10 @@
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Goryeosa",
-        "Veritable Records of the Joseon Dynasty"
+        "Veritable Records of the Joseon Dynasty",
+        "Homer Hulbert History of Korea Vols. 1–2"
       ],
-      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
       "major": false,
       "biblicalConnected": false
     },
@@ -2202,9 +2173,10 @@
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Goryeosa",
-        "Veritable Records of the Joseon Dynasty"
+        "Veritable Records of the Joseon Dynasty",
+        "Homer Hulbert History of Korea Vols. 1–2"
       ],
-      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
       "major": false,
       "biblicalConnected": false
     },
@@ -2218,9 +2190,10 @@
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Goryeosa",
-        "Veritable Records of the Joseon Dynasty"
+        "Veritable Records of the Joseon Dynasty",
+        "Homer Hulbert History of Korea Vols. 1–2"
       ],
-      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
       "major": false,
       "biblicalConnected": false
     },
@@ -2234,9 +2207,10 @@
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Goryeosa",
-        "Veritable Records of the Joseon Dynasty"
+        "Veritable Records of the Joseon Dynasty",
+        "Homer Hulbert History of Korea Vols. 1–2"
       ],
-      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
       "major": false,
       "biblicalConnected": false
     },
@@ -2250,9 +2224,10 @@
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Goryeosa",
-        "Veritable Records of the Joseon Dynasty"
+        "Veritable Records of the Joseon Dynasty",
+        "Homer Hulbert History of Korea Vols. 1–2"
       ],
-      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
       "major": false,
       "biblicalConnected": false
     },
@@ -2266,9 +2241,10 @@
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Goryeosa",
-        "Veritable Records of the Joseon Dynasty"
+        "Veritable Records of the Joseon Dynasty",
+        "Homer Hulbert History of Korea Vols. 1–2"
       ],
-      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
       "major": false,
       "biblicalConnected": false
     },
@@ -2282,9 +2258,44 @@
       "role": "Sovereign / Royal Lineage",
       "sources": [
         "Goryeosa",
-        "Veritable Records of the Joseon Dynasty"
+        "Veritable Records of the Joseon Dynasty",
+        "Homer Hulbert History of Korea Vols. 1–2"
       ],
-      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty.",
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_kor_injo_sukjong",
+      "name": "King Injo & King Sukjong of Joseon (17th–18th c.)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1623–1720 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Goryeosa",
+        "Veritable Records of the Joseon Dynasty",
+        "Homer Hulbert History of Korea Vols. 1–2"
+      ],
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
+      "major": false,
+      "biblicalConnected": false
+    },
+    {
+      "id": "unb_kor_daewongun_myeongseong",
+      "name": "Heungseon Daewongun & Empress Myeongseong (Queen Min)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1820–1895 CE",
+      "role": "Sovereign / Royal Lineage",
+      "sources": [
+        "Goryeosa",
+        "Veritable Records of the Joseon Dynasty",
+        "Homer Hulbert History of Korea Vols. 1–2"
+      ],
+      "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
       "major": false,
       "biblicalConnected": false
     },
@@ -3801,25 +3812,13 @@
       "from": "sea_java_raden_wijaya",
       "to": "unb_sea_tribhuwana",
       "type": "expansion",
-      "label": "Nagarakretagama, Sejarah Melayu / Malay Annals: succession"
+      "label": "Nagarakretagama, Pararaton: succession"
     },
     {
       "from": "unb_sea_tribhuwana",
       "to": "unb_sea_hayam_wuruk",
       "type": "expansion",
-      "label": "Nagarakretagama, Sejarah Melayu / Malay Annals: succession"
-    },
-    {
-      "from": "unb_sea_hayam_wuruk",
-      "to": "unb_sea_parameswara",
-      "type": "expansion",
-      "label": "Nagarakretagama, Sejarah Melayu / Malay Annals: succession"
-    },
-    {
-      "from": "unb_sea_parameswara",
-      "to": "unb_sea_mansur_shah",
-      "type": "expansion",
-      "label": "Nagarakretagama, Sejarah Melayu / Malay Annals: succession"
+      "label": "Nagarakretagama, Pararaton: succession"
     },
     {
       "from": "sea_java_raden_wijaya",
@@ -3945,49 +3944,61 @@
       "from": "unb_kor_wang_geon",
       "to": "unb_kor_gwangjong",
       "type": "expansion",
-      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2: succession"
     },
     {
       "from": "unb_kor_gwangjong",
       "to": "unb_kor_yi_seonggye",
       "type": "expansion",
-      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2: succession"
     },
     {
       "from": "unb_kor_yi_seonggye",
       "to": "unb_kor_taejong",
       "type": "expansion",
-      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2: succession"
     },
     {
       "from": "unb_kor_taejong",
       "to": "unb_kor_sejong_great",
       "type": "expansion",
-      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2: succession"
     },
     {
       "from": "unb_kor_sejong_great",
       "to": "unb_kor_sejo",
       "type": "expansion",
-      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2: succession"
     },
     {
       "from": "unb_kor_sejo",
       "to": "unb_kor_yi_sunsin",
       "type": "expansion",
-      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2: succession"
     },
     {
       "from": "unb_kor_yi_sunsin",
       "to": "unb_kor_yeongjo_jeongjo",
       "type": "expansion",
-      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2: succession"
     },
     {
       "from": "unb_kor_yeongjo_jeongjo",
       "to": "unb_kor_gojong",
       "type": "expansion",
-      "label": "Goryeosa, Veritable Records of the Joseon Dynasty: succession"
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2: succession"
+    },
+    {
+      "from": "unb_kor_gojong",
+      "to": "unb_kor_injo_sukjong",
+      "type": "expansion",
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2: succession"
+    },
+    {
+      "from": "unb_kor_injo_sukjong",
+      "to": "unb_kor_daewongun_myeongseong",
+      "type": "expansion",
+      "label": "Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2: succession"
     },
     {
       "from": "unb_chn_cao_cao",
