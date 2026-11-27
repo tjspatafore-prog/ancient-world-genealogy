@@ -1,0 +1,2649 @@
+{
+  "module": "46_wave4_mesopotamia_persia_arabia_chronicles",
+  "title": "Wave 4 Person-by-Person Medes, Achaemenids, Parthians, Armenian Haikids, 21-Gen Quraysh, Caliphal Houses, Himyar, Palmyra & Amazigh Patriarchs",
+  "nodes": [
+    {
+      "id": "per4_deioces",
+      "name": "King Deioces of Media (Daiukku, r. c. 700–647 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "c. 700–647 BCE (Herodotus I.96–102)",
+      "role": "Founder of Median Kingdom at Ecbatana",
+      "sources": [
+        "Herodotus Book I",
+        "Babylonian Chronicles"
+      ],
+      "notes": "Son of Phraortes; first king of unified Media according to Herodotus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_phraortes",
+      "name": "King Phraortes of Media (Fravartish, Son of Deioces, r. c. 647–625 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "c. 647–625 BCE (Herodotus I.102)",
+      "role": "Son of Deioces",
+      "sources": [
+        "Herodotus Book I",
+        "Babylonian Chronicles"
+      ],
+      "notes": "Subjugated Persians and fell against Assyria.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_cyaxares",
+      "name": "King Cyaxares of Media (Uvakhshatra, Son of Phraortes, r. 625–585 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "625–585 BCE (Herodotus I.103–106; Babylonian Chronicles)",
+      "role": "Conqueror of Nineveh (612 BCE)",
+      "sources": [
+        "Herodotus Book I",
+        "Babylonian Chronicles"
+      ],
+      "notes": "Allied with Nabopolassar of Babylon to overthrow Assyria; father of Astyages & Amytis.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_astyages",
+      "name": "King Astyages of Media (Ishtumegu, Son of Cyaxares, r. 585–550 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "585–550 BCE (Herodotus I.107–130; Nabonidus Chronicle)",
+      "role": "Last King of Media & Maternal Grandfather of Cyrus",
+      "sources": [
+        "Herodotus Book I",
+        "Babylonian Chronicles"
+      ],
+      "notes": "Father of Princess Mandane; defeated by his grandson Cyrus the Great in 550 BCE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_achaemenes",
+      "name": "Achaemenes (Hakhamanish, Eponymous Founder of Achaemenids)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "c. 705–675 BCE (Behistun Inscription)",
+      "role": "Patriarch of Achaemenid Persia",
+      "sources": [
+        "Behistun Inscription",
+        "Cyrus Cylinder",
+        "Herodotus Books I–IX"
+      ],
+      "notes": "Ancestor of both royal branches proclaimed in Darius I's Behistun Inscription.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_teispes",
+      "name": "King Teispes of Anshan (Chishpish, Son of Achaemenes)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "c. 675–640 BCE (Cyrus Cylinder)",
+      "role": "King of Anshan",
+      "sources": [
+        "Behistun Inscription",
+        "Cyrus Cylinder",
+        "Herodotus Books I–IX"
+      ],
+      "notes": "Father of Cyrus I (Senior line) and Ariaramnes (Junior line).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_cyrus1",
+      "name": "King Cyrus I of Anshan (Kurash I, Son of Teispes)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "c. 640–600 BCE (Cyrus Cylinder)",
+      "role": "Early King of Anshan",
+      "sources": [
+        "Behistun Inscription",
+        "Cyrus Cylinder",
+        "Herodotus Books I–IX"
+      ],
+      "notes": "Paid tribute to Ashurbanipal; father of Cambyses I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_cambyses1",
+      "name": "King Cambyses I of Anshan (Kambujiya I, Father of Cyrus the Great)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "c. 600–559 BCE (Herodotus I.107; Cyrus Cylinder)",
+      "role": "Father of Cyrus the Great",
+      "sources": [
+        "Behistun Inscription",
+        "Cyrus Cylinder",
+        "Herodotus Books I–IX"
+      ],
+      "notes": "Married Median Princess Mandane (daughter of Astyages).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_cambyses2",
+      "name": "Shahanshah Cambyses II (Son of Cyrus the Great, r. 530–522 BCE; Conquered Egypt)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "530–522 BCE (Herodotus III; Udjahorresnet)",
+      "role": "Conqueror of Saite Egypt (27th Dynasty)",
+      "sources": [
+        "Behistun Inscription",
+        "Cyrus Cylinder",
+        "Herodotus Books I–IX"
+      ],
+      "notes": "Eldest son of Cyrus the Great; defeated Psamtik III at Pelusium (525 BCE).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_bardiya",
+      "name": "Prince Bardiya / Smerdis (Younger Son of Cyrus the Great, d. 522 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "d. 522 BCE (Behistun; Herodotus III)",
+      "role": "Younger Son of Cyrus the Great",
+      "sources": [
+        "Behistun Inscription",
+        "Herodotus Book III"
+      ],
+      "notes": "Brother of Cambyses II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_atossa",
+      "name": "Queen Atossa (Daughter of Cyrus the Great; Wife of Darius I; Mother of Xerxes I)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "c. 550–475 BCE (Herodotus III.88, VII.2–3)",
+      "role": "Achaemenid Empress Uniting Senior & Junior Lines",
+      "sources": [
+        "Herodotus Books III & VII"
+      ],
+      "notes": "Daughter of Cyrus the Great; married Darius I and bore Xerxes I, uniting both Achaemenid branches.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_ariaramnes",
+      "name": "Ariaramnes (Ariyaramna, Son of Teispes)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "c. 640 BCE (Behistun DB I.4)",
+      "role": "Junior Achaemenid Patriarch",
+      "sources": [
+        "Behistun Inscription",
+        "Ezra / Nehemiah",
+        "Arrian Anabasis"
+      ],
+      "notes": "Younger son of Teispes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_arsames",
+      "name": "Arsames (Arshama, Son of Ariaramnes)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "c. 600–550 BCE (Behistun DB I.4)",
+      "role": "Father of Hystaspes",
+      "sources": [
+        "Behistun Inscription",
+        "Ezra / Nehemiah",
+        "Arrian Anabasis"
+      ],
+      "notes": "Grandfather of Darius I the Great.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_hystaspes",
+      "name": "Hystaspes / Vishtaspa (Satrap of Parthia; Father of Darius I)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "c. 570–520 BCE (Behistun; Herodotus I.209)",
+      "role": "Father of Darius I the Great",
+      "sources": [
+        "Behistun Inscription",
+        "Ezra / Nehemiah",
+        "Arrian Anabasis"
+      ],
+      "notes": "Son of Arsames; father of Darius I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_artaxerxes1",
+      "name": "Shahanshah Artaxerxes I Longimanus (Son of Xerxes I, r. 465–424 BCE; Ezra 7 & Nehemiah 2)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "465–424 BCE (Ezra 7; Nehemiah 2; Thucydides)",
+      "role": "Persian Patron of Ezra & Nehemiah",
+      "sources": [
+        "Behistun Inscription",
+        "Ezra / Nehemiah",
+        "Arrian Anabasis"
+      ],
+      "notes": "Commissioned Ezra (458 BCE) and Nehemiah (445 BCE) to restore Jerusalem.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_darius2",
+      "name": "Shahanshah Darius II Ochus (Son of Artaxerxes I, r. 423–404 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "423–404 BCE (Xenophon Hellenica; Elephantine)",
+      "role": "Son of Artaxerxes I",
+      "sources": [
+        "Behistun Inscription",
+        "Ezra / Nehemiah",
+        "Arrian Anabasis"
+      ],
+      "notes": "Married half-sister Parysatis; father of Artaxerxes II & Cyrus the Younger.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_artaxerxes2",
+      "name": "Shahanshah Artaxerxes II Mnemon (Son of Darius II, r. 404–358 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "404–358 BCE (Plutarch Artaxerxes; Xenophon)",
+      "role": "Victor of Cunaxa",
+      "sources": [
+        "Behistun Inscription",
+        "Ezra / Nehemiah",
+        "Arrian Anabasis"
+      ],
+      "notes": "Reigned 46 years; father of Artaxerxes III.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_artaxerxes3",
+      "name": "Shahanshah Artaxerxes III Ochus (Son of Artaxerxes II, r. 358–338 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "358–338 BCE (Diodorus XVI; Manetho)",
+      "role": "Reconqueror of Egypt (343 BCE)",
+      "sources": [
+        "Behistun Inscription",
+        "Ezra / Nehemiah",
+        "Arrian Anabasis"
+      ],
+      "notes": "Ended the 30th native dynasty of Egypt.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_arses",
+      "name": "Shahanshah Arses / Artaxerxes IV (Son of Artaxerxes III, r. 338–336 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "338–336 BCE (Diodorus XVII.5)",
+      "role": "Short-Reigning Achaemenid Heir",
+      "sources": [
+        "Behistun Inscription",
+        "Ezra / Nehemiah",
+        "Arrian Anabasis"
+      ],
+      "notes": "Son of Artaxerxes III.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_darius3",
+      "name": "Shahanshah Darius III Codomannus (Great-Grandson of Darius II, r. 336–330 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "380–330 BCE (Arrian Anabasis; Diodorus XVII)",
+      "role": "Last Achaemenid Shahanshah",
+      "sources": [
+        "Behistun Inscription",
+        "Ezra / Nehemiah",
+        "Arrian Anabasis"
+      ],
+      "notes": "Grandson of Ostanes (brother of Artaxerxes II); defeated by Alexander the Great at Gaugamela (331 BCE); father of Stateira II.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_stateira2",
+      "name": "Princess Stateira II (Daughter of Darius III; Married Alexander the Great at Susa, 324 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "d. 323 BCE (Arrian Anabasis VII.4; Plutarch Alexander 70)",
+      "role": "Achaemenid Princess Married to Alexander the Great",
+      "sources": [
+        "Behistun Inscription",
+        "Ezra / Nehemiah",
+        "Arrian Anabasis"
+      ],
+      "notes": "United the Achaemenid Persian and Argead Macedonian royal houses at the Susa Weddings (324 BCE).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_cyrus_younger",
+      "name": "Prince Cyrus the Younger (Son of Darius II; Battle of Cunaxa 401 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "d. 401 BCE (Xenophon Anabasis)",
+      "role": "Patron of Xenophon's Ten Thousand",
+      "sources": [
+        "Xenophon Anabasis I"
+      ],
+      "notes": "Younger son of Darius II & Parysatis who fell at Cunaxa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_homai",
+      "name": "Queen Homai Chehrzad (Daughter & Successor of Kay Bahman)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "Kayanian Era (Shahnameh; Al-Biruni p. 111)",
+      "role": "Mythic Kayanian Queen",
+      "sources": [
+        "Ferdowsi Shahnameh",
+        "Al-Biruni Chronology"
+      ],
+      "notes": "Mother of Darab.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_darab",
+      "name": "King Darab (Son of Kay Bahman & Homai; Father of Dara II & Iskandar in Shahnameh)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "Kayanian Era (Shahnameh)",
+      "role": "Shahnameh King Linking Iran & Alexander",
+      "sources": [
+        "Ferdowsi Shahnameh",
+        "Al-Biruni Chronology"
+      ],
+      "notes": "In Ferdowsi's Shahnameh, fathered both Dara II and (via Nahid daughter of Failaqus/Philip) Iskandar.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_dara2",
+      "name": "King Dara II ibn Darab (Last Kayanian Shah)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "c. 336–330 BCE (Shahnameh / Tabari)",
+      "role": "Persian Epic Counterpart of Darius III",
+      "sources": [
+        "Ferdowsi Shahnameh",
+        "Al-Biruni Chronology"
+      ],
+      "notes": "Fought half-brother Iskandar (Alexander) in Shahnameh epic chronology.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_arsaces1",
+      "name": "King Arsaces I / Ashk ben Ashkan (Founder of Parthia, 247–217 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "247–217 BCE (Al-Biruni p. 116; Strabo XI)",
+      "role": "Founder of Parthian Empire (Al-Biruni -> Siyavush)",
+      "sources": [
+        "Al-Biruni Chronology pp. 116-120",
+        "Justin XLI-XLII"
+      ],
+      "notes": "Progenitor of the Ashkanian/Arsacid Dynasty traced by Al-Biruni to Kayanian Siyavush.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_tiridates1",
+      "name": "King Tiridates I / Arsaces II (Brother of Arsaces I, c. 217–211 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "c. 217–211 BCE (Justin XLI.5)",
+      "role": "Early Arsacid Consolidator",
+      "sources": [
+        "Al-Biruni Chronology pp. 116-120",
+        "Justin XLI-XLII"
+      ],
+      "notes": "Brother of Arsaces I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_mithridates1",
+      "name": "King Mithridates I the Great of Parthia (171–132 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "171–132 BCE (Justin XLI; Al-Biruni)",
+      "role": "Creator of the Parthian Empire",
+      "sources": [
+        "Al-Biruni Chronology pp. 116-120",
+        "Justin XLI-XLII"
+      ],
+      "notes": "Conquered Media and Mesopotamia from the Seleucids.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_phraates2",
+      "name": "King Phraates II of Parthia (Son of Mithridates I, 132–127 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "132–127 BCE (Justin XLII)",
+      "role": "Son of Mithridates I",
+      "sources": [
+        "Al-Biruni Chronology pp. 116-120",
+        "Justin XLI-XLII"
+      ],
+      "notes": "Defeated Antiochus VII Sidetes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_mithridates2",
+      "name": "King Mithridates II the Great of Parthia (124–91 BCE; 'King of Kings')",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "124–91 BCE (Justin XLII.2)",
+      "role": "Parthian Hegemon From Euphrates to Bactria",
+      "sources": [
+        "Al-Biruni Chronology pp. 116-120",
+        "Justin XLI-XLII"
+      ],
+      "notes": "Established the Silk Road embassy with Han China & allied with Sulla.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_orodes2",
+      "name": "King Orodes II of Parthia (57–37 BCE; Victor of Carrhae 53 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "57–37 BCE (Plutarch Crassus; Dio XL)",
+      "role": "Parthian Monarch at Carrhae",
+      "sources": [
+        "Al-Biruni Chronology pp. 116-120",
+        "Justin XLI-XLII"
+      ],
+      "notes": "Father of Pacorus I & Phraates IV.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_phraates4",
+      "name": "King Phraates IV of Parthia (37–2 BCE; Returned Crassus's Eagles to Augustus)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "37–2 BCE (Tacitus Annals II.1)",
+      "role": "Son of Orodes II",
+      "sources": [
+        "Al-Biruni Chronology pp. 116-120",
+        "Justin XLI-XLII"
+      ],
+      "notes": "Made 20 BCE treaty with Emperor Augustus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_vologases1",
+      "name": "King Vologases I of Parthia (51–78 CE; Patron of Avesta Compilation)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 19,
+      "era": "51–78 CE (Tacitus; Denkard IV)",
+      "role": "Placed Brother Tiridates on Armenian Throne",
+      "sources": [
+        "Al-Biruni Chronology pp. 116-120",
+        "Justin XLI-XLII"
+      ],
+      "notes": "Preserved Zoroastrian Avestan texts and founded Vologesocerta.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per4_artabanus4",
+      "name": "King Artabanus IV / Ardawan (Last Parthian Shahanshah, d. 224 CE at Hormozdgan)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 19,
+      "era": "213–224 CE (Al-Biruni p. 118; Cassius Dio)",
+      "role": "Last Arsacid Monarch of Persia",
+      "sources": [
+        "Al-Biruni Chronology pp. 116-120",
+        "Justin XLI-XLII"
+      ],
+      "notes": "Fell in battle against Ardashir I, ending the 470-year Arsacid Empire.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arm4_aramaneak",
+      "name": "Aramaneak (Eldest Son of Hayk Nahapet)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 7,
+      "era": "c. 21st c. BCE (Movses Khorenatsi I.12)",
+      "role": "Armenian Patriarch",
+      "sources": [
+        "Movses Khorenatsi History of Armenia I.12-15",
+        "Kartlis Tskhovreba"
+      ],
+      "notes": "Settled in Ayrarat plain.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arm4_aramayis",
+      "name": "Aramayis (Son of Aramaneak; Builder of Armavir)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "c. 20th c. BCE (Khorenatsi I.12)",
+      "role": "Builder of Armavir",
+      "sources": [
+        "Movses Khorenatsi History of Armenia I.12-15",
+        "Kartlis Tskhovreba"
+      ],
+      "notes": "Built capital Armavir on the Araxes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arm4_amasia",
+      "name": "Amasia (Son of Aramayis; Named Mt. Masis)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 8,
+      "era": "Khorenatsi I.12",
+      "role": "Armenian Patriarch",
+      "sources": [
+        "Movses Khorenatsi History of Armenia I.12-15",
+        "Kartlis Tskhovreba"
+      ],
+      "notes": "Father of Gegham.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arm4_gegham",
+      "name": "Gegham (Son of Amasia; Eponym of Lake Sevan / Gegharkunik)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "Khorenatsi I.12",
+      "role": "Armenian Patriarch",
+      "sources": [
+        "Movses Khorenatsi History of Armenia I.12-15",
+        "Kartlis Tskhovreba"
+      ],
+      "notes": "Father of Harma & Sisak (Syunik).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arm4_harma",
+      "name": "Harma (Son of Gegham)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 9,
+      "era": "Khorenatsi I.12",
+      "role": "Armenian Patriarch",
+      "sources": [
+        "Movses Khorenatsi History of Armenia I.12-15",
+        "Kartlis Tskhovreba"
+      ],
+      "notes": "Father of Aram.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arm4_aram",
+      "name": "Patriarch Aram (Son of Harma; Classical Eponym of Armenia)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 10,
+      "era": "Khorenatsi I.12–14",
+      "role": "Great Armenian Warrior Patriarch",
+      "sources": [
+        "Movses Khorenatsi History of Armenia I.12-15",
+        "Kartlis Tskhovreba"
+      ],
+      "notes": "Extended borders into Cappadocia and Assyria; father of Ara.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arm4_ara_beautiful",
+      "name": "Ara the Handsome (Son of Aram; Coveted by Queen Semiramis)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 10,
+      "era": "Khorenatsi I.15",
+      "role": "Heroic Patriarch-King of Armenia",
+      "sources": [
+        "Movses Khorenatsi History of Armenia I.12-15",
+        "Kartlis Tskhovreba"
+      ],
+      "notes": "Fell defending Armenia against Semiramis (Shammuramat).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_maadd",
+      "name": "Ma'add ibn Adnan (Son of Adnan)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 15,
+      "era": "Pre-Islamic Arabia (Tabari Vol. 6 p. 36)",
+      "role": "2nd Gen Northern Arab Ancestor",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Son of Adnan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_nizar",
+      "name": "Nizar ibn Ma'add (Father of Mudar & Rabi'ah)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 16,
+      "era": "Tabari Vol. 6 p. 36",
+      "role": "3rd Gen Ancestor",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Progenitor of the Nizarite Arab confederations.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_mudar",
+      "name": "Mudar ibn Nizar (Brother of Rabi'ah)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 16,
+      "era": "Tabari Vol. 6 p. 35",
+      "role": "4th Gen Ancestor of Mudarites",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Eponym of the Mudar tribes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_ilyas",
+      "name": "Ilyas ibn Mudar",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 16,
+      "era": "Tabari Vol. 6 p. 34",
+      "role": "5th Gen Ancestor",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Married Khindif.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_mudrikah",
+      "name": "Mudrikah ('Amr) ibn Ilyas",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 16,
+      "era": "Tabari Vol. 6 p. 33",
+      "role": "6th Gen Ancestor",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Son of Ilyas.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_khuzaymah",
+      "name": "Khuzaymah ibn Mudrikah",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 17,
+      "era": "Tabari Vol. 6 p. 32",
+      "role": "7th Gen Ancestor",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Father of Kinanah & Asad.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_kinanah",
+      "name": "Kinanah ibn Khuzaymah",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 17,
+      "era": "Tabari Vol. 6 p. 31",
+      "role": "8th Gen Ancestor of Banu Kinanah",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Ancestor of Quraysh and allied Hijazi clans.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_al_nadr",
+      "name": "Al-Nadr ibn Kinanah",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 17,
+      "era": "Tabari Vol. 6 p. 29",
+      "role": "9th Gen Ancestor",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Considered founder of Quraysh in some traditions.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_malik",
+      "name": "Malik ibn al-Nadr",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 17,
+      "era": "Tabari Vol. 6 p. 28",
+      "role": "10th Gen Ancestor",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Father of Fihr.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_fihr_quraysh",
+      "name": "Fihr ibn Malik (Quraysh — Eponym of Tribe of Quraysh)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 17,
+      "era": "c. 200 CE (Tabari Vol. 6 p. 28)",
+      "role": "11th Gen Eponym of Quraysh",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "United the Hijazi clans around Mecca as Quraysh.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_ghalib",
+      "name": "Ghalib ibn Fihr",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 17,
+      "era": "Tabari Vol. 6 p. 27",
+      "role": "12th Gen Ancestor",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Son of Fihr.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_luayy",
+      "name": "Lu'ayy ibn Ghalib",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 18,
+      "era": "Tabari Vol. 6 p. 27",
+      "role": "13th Gen Ancestor",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Father of Ka'b.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_kab",
+      "name": "Ka'b ibn Lu'ayy",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 18,
+      "era": "Tabari Vol. 6 p. 26",
+      "role": "14th Gen Ancestor",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Preached at Mecca; father of Murrah & Adi (Umar's line).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_murrah",
+      "name": "Murrah ibn Ka'b",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 18,
+      "era": "Tabari Vol. 6 p. 26",
+      "role": "15th Gen Ancestor",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Father of Kilab & Taym (Abu Bakr's clan).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_kilab",
+      "name": "Kilab ibn Murrah",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 18,
+      "era": "c. 4th c. CE (Tabari Vol. 6 p. 25)",
+      "role": "16th Gen Ancestor",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Married Fatimah bint Sa'd; father of Qusayy.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_qusayy",
+      "name": "Qusayy ibn Kilab (Zayd — Unifier & Custodian of Mecca, c. 400–480 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 18,
+      "era": "c. 400–480 CE (Tabari Vol. 6 pp. 18–25)",
+      "role": "17th Gen Unifier of Mecca",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Reclaimed custody of the Ka'bah and established Dar al-Nadwah in Mecca.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_abd_manaf",
+      "name": "'Abd Manaf ibn Qusayy (Al-Mughirah — Father of Hashim & 'Abd Shams)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 18,
+      "era": "c. 430–500 CE (Tabari Vol. 6 p. 16)",
+      "role": "18th Gen Common Ancestor of Prophet, Umayyads & Abbasids",
+      "sources": [
+        "Al-Tabari Vol. 6 (Muhammad at Mecca)",
+        "Ibn Hisham"
+      ],
+      "notes": "Fathered twin lines: Hashim (Prophet, Alids, Abbasids) and 'Abd Shams (Umayyads).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_hashim",
+      "name": "Hashim ibn 'Abd Manaf ('Amr al-'Ula — Eponym of Banu Hashim, d. c. 497 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "c. 464–497 CE (Tabari Vol. 6 pp. 9–15)",
+      "role": "19th Gen Ancestor & Eponym of Hashemites",
+      "sources": [
+        "Al-Tabari Vol. 6",
+        "Hashemite Royal Registers"
+      ],
+      "notes": "Led the winter & summer trade caravans of Quraysh; married Salma bint 'Amr of Medina.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_abd_al_muttalib",
+      "name": "'Abd al-Muttalib ibn Hashim (Shaybah al-Hamd, c. 497–578 CE — Rediscovered Zamzam)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "c. 497–578 CE (Tabari Vol. 6 pp. 1–9)",
+      "role": "20th Gen Chief of Quraysh",
+      "sources": [
+        "Al-Tabari Vol. 6",
+        "Hashemite Royal Registers"
+      ],
+      "notes": "Custodian of Mecca during the Year of the Elephant (570 CE); father of 'Abdallah, Abu Talib, Hamza & al-'Abbas.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_abdallah",
+      "name": "'Abdallah ibn 'Abd al-Muttalib (545–570 CE; Father of Prophet Muhammad)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "545–570 CE (Tabari Vol. 6 p. 1)",
+      "role": "21st Gen Father of Prophet Muhammad",
+      "sources": [
+        "Al-Tabari Vol. 6",
+        "Hashemite Royal Registers"
+      ],
+      "notes": "Wed Aminah bint Wahb and passed away before Muhammad's birth.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_prophet_muhammad",
+      "name": "Prophet Muhammad ibn 'Abdallah (570–632 CE; Seal of the Prophets in Islam)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "570–632 CE (Tabari Vols. 6–9)",
+      "role": "Prophet of Islam & Unifier of Arabia",
+      "sources": [
+        "Al-Tabari Vol. 6",
+        "Hashemite Royal Registers"
+      ],
+      "notes": "Son of 'Abdallah & Aminah bint Wahb; married Khadijah bint Khuwaylid; father of Fatimah al-Zahra.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_fatimah",
+      "name": "Fatimah al-Zahra bint Muhammad (c. 605–632 CE; Wife of Caliph Ali)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "c. 605–632 CE (Tabari)",
+      "role": "Daughter of Prophet Muhammad & Khadijah",
+      "sources": [
+        "Al-Tabari Vol. 6",
+        "Hashemite Royal Registers"
+      ],
+      "notes": "Married cousin Ali ibn Abi Talib; mother of Imams Hasan and Husayn.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_imam_hasan",
+      "name": "Imam al-Hasan ibn Ali (625–670 CE; Eldest Grandson of Prophet Muhammad)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "625–670 CE (Tabari)",
+      "role": "5th Caliph & Ancestor of Hashemites & Alaouites",
+      "sources": [
+        "Al-Tabari Vol. 6",
+        "Hashemite Royal Registers"
+      ],
+      "notes": "Father of Hasan al-Muthanna -> living Hashemites of Jordan & Alaouites of Morocco.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_aminah_bint_wahb",
+      "name": "Aminah bint Wahb ibn 'Abd Manaf ibn Zuhrah (d. 577 CE; Mother of Prophet Muhammad)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "d. 577 CE (Tabari Vol. 6)",
+      "role": "Mother of Prophet Muhammad",
+      "sources": [
+        "Al-Tabari Vol. 6"
+      ],
+      "notes": "Noblewoman of Banu Zuhrah (descended from Kilab ibn Murrah); mother of Prophet Muhammad.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_khadijah",
+      "name": "Khadijah bint Khuwaylid (c. 555–619 CE; First Wife of Prophet Muhammad)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "c. 555–619 CE (Tabari Vol. 6)",
+      "role": "Mother of Fatimah & First Believer",
+      "sources": [
+        "Al-Tabari Vol. 6"
+      ],
+      "notes": "Merchant of Quraysh (descended from Qusayy's brother 'Abd al-'Uzza); bore Fatimah al-Zahra.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_abu_talib",
+      "name": "Abu Talib ibn 'Abd al-Muttalib ('Abd Manaf, c. 535–619 CE; Uncle & Protector of Muhammad)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "c. 535–619 CE (Tabari Vol. 6)",
+      "role": "Chief of Banu Hashim & Father of Ali",
+      "sources": [
+        "Al-Tabari Vol. 6"
+      ],
+      "notes": "Father of Ja'far al-Tayyar and Caliph Ali ibn Abi Talib.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_imam_husayn",
+      "name": "Imam al-Husayn ibn Ali (626–680 CE; Martyr of Karbala)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "626–680 CE (Tabari Vol. 19)",
+      "role": "Grandson of Prophet Muhammad",
+      "sources": [
+        "Al-Tabari Vol. 19"
+      ],
+      "notes": "Son of Ali & Fatimah; ancestor of Husaynid Sayyids and Nizari Ismaili Imams.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_ali_zayn_abidin",
+      "name": "Imam Ali Zayn al-Abidin (659–713 CE; Son of Imam Husayn)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "659–713 CE (Nizari Archives)",
+      "role": "4th Husaynid Imam",
+      "sources": [
+        "Al-Tabari",
+        "Nizari Archives"
+      ],
+      "notes": "Survived Karbala; father of Muhammad al-Baqir.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_muhammad_baqir",
+      "name": "Imam Muhammad al-Baqir (677–733 CE; Son of Zayn al-Abidin)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "677–733 CE",
+      "role": "5th Husaynid Imam",
+      "sources": [
+        "Al-Tabari"
+      ],
+      "notes": "Father of Ja'far al-Sadiq.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_jafar_sadiq",
+      "name": "Imam Ja'far al-Sadiq (702–765 CE; Jurist & 6th Husaynid Imam)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "702–765 CE",
+      "role": "Ancestor of Fatimids & Aga Khan V",
+      "sources": [
+        "Al-Tabari",
+        "Nizari Archives"
+      ],
+      "notes": "Teacher of Sunni & Shia jurists; father of Isma'il -> Fatimids -> Aga Khan V.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_al_abbas",
+      "name": "Al-'Abbas ibn 'Abd al-Muttalib (c. 566–653 CE; Eponym of the Abbasid Caliphate)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "c. 566–653 CE (Tabari)",
+      "role": "Paternal Uncle of Muhammad & Progenitor of Abbasids",
+      "sources": [
+        "Al-Tabari"
+      ],
+      "notes": "Father of scholar 'Abdallah ibn al-'Abbas.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_abdallah_ibn_abbas",
+      "name": "'Abdallah ibn al-'Abbas (619–687 CE; Foremost Qur'anic Exegete & Grandfather of Caliphs)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "619–687 CE (Tabari)",
+      "role": "Companion & Father of Ali ibn 'Abdallah",
+      "sources": [
+        "Al-Tabari"
+      ],
+      "notes": "Grandfather of Abbasid caliphs al-Saffah and al-Mansur via Ali ibn 'Abdallah -> Muhammad.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_al_saffah",
+      "name": "Caliph Abu al-'Abbas al-Saffah (1st Abbasid Caliph, r. 750–754 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "721–754 CE (Tabari Vol. 27)",
+      "role": "Founder of the Abbasid Caliphate",
+      "sources": [
+        "Al-Tabari Vol. 27"
+      ],
+      "notes": "Brother of Caliph al-Mansur.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_al_mahdi",
+      "name": "Caliph al-Mahdi (Son of al-Mansur; Father of Harun al-Rashid, r. 775–785 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "744–785 CE (Tabari Vol. 29)",
+      "role": "3rd Abbasid Caliph",
+      "sources": [
+        "Al-Tabari Vol. 29"
+      ],
+      "notes": "Father of Caliphs al-Hadi and Harun al-Rashid.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_abd_shams",
+      "name": "'Abd Shams ibn 'Abd Manaf (Progenitor of the Umayyad Caliphs)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "c. 464–520 CE (Tabari Vol. 6 p. 16)",
+      "role": "Son of 'Abd Manaf & Twin Brother of Hashim",
+      "sources": [
+        "Al-Tabari Vols. 6, 15, 19",
+        "Lane-Poole"
+      ],
+      "notes": "Father of Umayyah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_umayyah",
+      "name": "Umayyah ibn 'Abd Shams (Eponym of Banu Umayyah)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "6th c. CE (Tabari)",
+      "role": "Eponym of the Umayyad Dynasty",
+      "sources": [
+        "Al-Tabari Vols. 6, 15, 19",
+        "Lane-Poole"
+      ],
+      "notes": "Father of Harb (Sufyanids) and Abu al-'As (Caliph Uthman & Marwanids).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_harb",
+      "name": "Harb ibn Umayyah (Commander of Quraysh at Fijar)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "6th c. CE (Tabari)",
+      "role": "Son of Umayyah",
+      "sources": [
+        "Al-Tabari Vols. 6, 15, 19",
+        "Lane-Poole"
+      ],
+      "notes": "Father of Abu Sufyan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_abu_sufyan",
+      "name": "Abu Sufyan Sakhr ibn Harb (c. 565–653 CE; Father of Mu'awiya I)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "c. 565–653 CE (Tabari)",
+      "role": "Meccan Leader & Umayyad Patriarch",
+      "sources": [
+        "Al-Tabari Vols. 6, 15, 19",
+        "Lane-Poole"
+      ],
+      "notes": "Father of Caliph Mu'awiya I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_yazid1",
+      "name": "Caliph Yazid I ibn Mu'awiya (r. 680–683 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "647–683 CE (Tabari Vol. 19)",
+      "role": "2nd Umayyad Caliph",
+      "sources": [
+        "Al-Tabari Vols. 6, 15, 19",
+        "Lane-Poole"
+      ],
+      "notes": "Son of Mu'awiya I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_abu_al_as",
+      "name": "Abu al-'As ibn Umayyah (Son of Umayyah; Ancestor of Uthman & Marwanids)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "6th c. CE (Tabari)",
+      "role": "Father of 'Affan & al-Hakam",
+      "sources": [
+        "Al-Tabari"
+      ],
+      "notes": "Brother of Harb; ancestor of Caliph Uthman and the Marwanid Umayyad Caliphs of Damascus and Cordoba.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_affan",
+      "name": "'Affan ibn Abi al-'As (Father of Caliph Uthman)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "6th c. CE (Tabari)",
+      "role": "Grandson of Umayyah",
+      "sources": [
+        "Al-Tabari"
+      ],
+      "notes": "Father of 3rd Rashidun Caliph Uthman ibn 'Affan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_al_hakam",
+      "name": "Al-Hakam ibn Abi al-'As (Brother of 'Affan; Father of Marwan I)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "d. 652 CE (Tabari)",
+      "role": "Father of Caliph Marwan I",
+      "sources": [
+        "Al-Tabari"
+      ],
+      "notes": "Uncle of Caliph Uthman.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_marwan1",
+      "name": "Caliph Marwan I ibn al-Hakam (623–685 CE; Founder of Marwanid Umayyads)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "623–685 CE (Tabari Vol. 20)",
+      "role": "4th Umayyad Caliph",
+      "sources": [
+        "Al-Tabari Vol. 20"
+      ],
+      "notes": "Father of Caliph 'Abd al-Malik.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_al_walid1",
+      "name": "Caliph al-Walid I (r. 705–715 CE; Builder of Damascus Mosque & Expansion to Spain/Sindh)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "668–715 CE (Tabari Vol. 23)",
+      "role": "6th Umayyad Caliph",
+      "sources": [
+        "Al-Tabari Vol. 23"
+      ],
+      "notes": "Eldest son of 'Abd al-Malik; under his reign Muslim armies reached Iberia & the Indus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_hisham",
+      "name": "Caliph Hisham ibn 'Abd al-Malik (r. 724–743 CE; Grandfather of 'Abd al-Rahman I)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "691–743 CE (Tabari Vol. 25)",
+      "role": "10th Umayyad Caliph",
+      "sources": [
+        "Al-Tabari Vol. 25"
+      ],
+      "notes": "Son of 'Abd al-Malik; grandfather of Emir 'Abd al-Rahman I of Cordoba via Mu'awiya ibn Hisham.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_yarub",
+      "name": "King Ya'rub ibn Qahtan (1st Arabic-Speaking King of Yemen)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 9,
+      "era": "Proto-Arabian Era (Tabari; Caussin de Perceval Vol. 1)",
+      "role": "Son of Qahtan / Joktan",
+      "sources": [
+        "Al-Tabari Vol. 5",
+        "Al-Biruni Chronology",
+        "Caussin de Perceval"
+      ],
+      "notes": "Ancestor of Yemeni & South Arabian Arabized tribes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_yashjub",
+      "name": "Yashjub ibn Ya'rub",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 10,
+      "era": "South Arabian Tradition",
+      "role": "Father of 'Abd Shams / Saba",
+      "sources": [
+        "Al-Tabari Vol. 5",
+        "Al-Biruni Chronology",
+        "Caussin de Perceval"
+      ],
+      "notes": "Son of Ya'rub.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_saba",
+      "name": "Saba ibn Yashjub ('Abd Shams — Builder of Marib Dam)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 11,
+      "era": "South Arabian Tradition (Tabari)",
+      "role": "Eponym of Sabaeans; Father of Himyar & Kahlan",
+      "sources": [
+        "Al-Tabari Vol. 5",
+        "Al-Biruni Chronology",
+        "Caussin de Perceval"
+      ],
+      "notes": "Fathered twin branches Himyar (Tubba kings) and Kahlan (Lakhmids, Ghassanids & Azd).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_himyar",
+      "name": "Himyar ibn Saba (Eponym of Himyarite Kingdom of Yemen)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 12,
+      "era": "South Arabian Tradition (Al-Biruni)",
+      "role": "Founder of Himyarite Lineage",
+      "sources": [
+        "Al-Tabari Vol. 5",
+        "Al-Biruni Chronology",
+        "Caussin de Perceval"
+      ],
+      "notes": "Eponym of the Himyarite Tubba monarchs.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_tubba_abu_karib",
+      "name": "Tubba As'ad Abu Karib of Himyar (c. 390–440 CE; Embraced Judaism in Yathrib)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "c. 390–440 CE (Tabari Vol. 5; Himyarite Inscriptions)",
+      "role": "Greatest Himyarite Unifier & Tubba King",
+      "sources": [
+        "Al-Tabari Vol. 5",
+        "Al-Biruni Chronology",
+        "Caussin de Perceval"
+      ],
+      "notes": "Adopted Judaism in Yathrib and clothed the Ka'bah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_dhu_nuwas",
+      "name": "King Yusuf As'ar Dhu-Nuwas of Himyar (r. 517–525 CE; Clashed with King Kaleb of Aksum)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "517–525 CE (Tabari Vol. 5; Kebra Nagast Ch. 117)",
+      "role": "Last Independent Jewish Tubba of Himyar",
+      "sources": [
+        "Al-Tabari Vol. 5",
+        "Al-Biruni Chronology",
+        "Caussin de Perceval"
+      ],
+      "notes": "Defeated at the Red Sea by Aksumite King Kaleb (Elesbaan) in 525 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_sayf_ibn_dhi_yazan",
+      "name": "Sayf ibn Dhi Yazan (Restorer of Himyar against Aksum, c. 575 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "c. 575 CE (Tabari Vol. 5)",
+      "role": "Late Himyarite Hero-King",
+      "sources": [
+        "Al-Tabari Vol. 5",
+        "Al-Biruni Chronology",
+        "Caussin de Perceval"
+      ],
+      "notes": "Reclaimed Yemen from Aksumite rule.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_kahlan",
+      "name": "Kahlan ibn Saba (Brother of Himyar; Ancestor of Lakhmids, Ghassanids & Ansar of Medina)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 12,
+      "era": "South Arabian Tradition",
+      "role": "Progenitor of Azd, Lakhm & Ghassan",
+      "sources": [
+        "Al-Tabari Vol. 5",
+        "Caussin de Perceval"
+      ],
+      "notes": "Son of Saba; ancestral trunk of the Lakhmid kings of Al-Hirah and Ghassanid kings of Syria.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_jafnah_ghassan",
+      "name": "Jafnah ibn 'Amr (1st Ghassanid King of Syria, c. 220 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 18,
+      "era": "c. 220 CE (Al-Biruni p. 49)",
+      "role": "Founder of Christian Ghassanid Dynasty",
+      "sources": [
+        "Al-Biruni",
+        "Caussin de Perceval"
+      ],
+      "notes": "Founded the Arab Christian Jafnid/Ghassanid kingdom allied with Rome/Byzantium.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_al_harith_ghassan",
+      "name": "King al-Harith V ibn Jabalah of Ghassan (Arethas, r. 529–569 CE; Ally of Justinian I)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "529–569 CE (Procopius; Al-Biruni)",
+      "role": "Patricius & Paramount Phylarch of the Arabs",
+      "sources": [
+        "Procopius Wars",
+        "Al-Biruni"
+      ],
+      "notes": "Elevated by Byzantine Emperor Justinian I to king over Syria's Arab foederati.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_imru_al_qays_lakhmid",
+      "name": "King Imru' al-Qays I ibn 'Amr of Al-Hirah (d. 328 CE; Namara Inscription)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "d. 328 CE (Namara Arabic Inscription)",
+      "role": "Early Lakhmid 'King of All Arabs'",
+      "sources": [
+        "Namara Inscription (328 CE)",
+        "Tabari Vol. 5"
+      ],
+      "notes": "Attested in the 328 CE Namara inscription — oldest dated classical Arabic royal epitaph.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_al_mundhir3",
+      "name": "King al-Mundhir III ibn al-Nu'man of Al-Hirah (r. 505–554 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "505–554 CE (Tabari Vol. 5; Procopius)",
+      "role": "Paramount Lakhmid Rival of Ghassan",
+      "sources": [
+        "Al-Tabari Vol. 5",
+        "Procopius"
+      ],
+      "notes": "Fought Roman-allied Ghassanid King al-Harith V across Syria.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ar4_al_numan3",
+      "name": "King al-Nu'man III ibn al-Mundhir of Al-Hirah (r. 582–602 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "582–602 CE (Tabari Vol. 5; Kitab al-Aghani)",
+      "role": "Last Christian Lakhmid King of Al-Hirah",
+      "sources": [
+        "Al-Tabari Vol. 5"
+      ],
+      "notes": "Patron of Pre-Islamic Arabic poets; executed by Khosrow II Parviz, sparking the Battle of Dhu Qar.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pal4_odenathus",
+      "name": "King Septimius Odaenathus of Palmyra (Husband of Zenobia, d. 267 CE)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 19,
+      "era": "d. 267 CE (Historia Augusta; Seller 1696)",
+      "role": "Corrector Totius Orientis & King of Kings of Palmyra",
+      "sources": [
+        "Seller 1696 (Antiquities of Palmyra)",
+        "Historia Augusta"
+      ],
+      "notes": "Defeated Shapur I of Persia after Valerian's capture; husband of Zenobia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pal4_zenobia",
+      "name": "Empress Zenobia / Bat-Zabbai of Palmyra (r. 267–272 CE)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 19,
+      "era": "240–c. 275 CE (Historia Augusta; Seller 1696)",
+      "role": "Queen of the Palmyrene Empire",
+      "sources": [
+        "Seller 1696",
+        "Zosimus Book I"
+      ],
+      "notes": "Ruled Syria, Egypt, and Anatolia; claimed descent from Cleopatra VII of Egypt and Dido of Carthage.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pal4_vaballathus",
+      "name": "Emperor Vaballathus of Palmyra (Son of Odaenathus & Zenobia, r. 267–272 CE)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 19,
+      "era": "c. 259–273 CE (Palmyrene Coins; Zosimus)",
+      "role": "Son & Co-Ruler Under Zenobia",
+      "sources": [
+        "Seller 1696",
+        "Zosimus"
+      ],
+      "notes": "Bore titles of Augustus until defeated by Roman Emperor Aurelian in 272 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ber4_berr",
+      "name": "Berr / Mazigh (Patriarch of the Imazighen in Ibn Khaldun)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 9,
+      "era": "Ibn Khaldun Histoire des Berberes v4",
+      "role": "Patriarch of Branes & Botr",
+      "sources": [
+        "Ibn Khaldun Histoire des Berberes"
+      ],
+      "notes": "Ancestor of Bernes (Branes) and Madghis al-Abtar (Botr).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ber4_bernes",
+      "name": "Bernes (Progenitor of Sanhaja, Masmuda & Kutama Berbers)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 10,
+      "era": "Ibn Khaldun v4",
+      "role": "Founder of the Branes Confederation",
+      "sources": [
+        "Ibn Khaldun"
+      ],
+      "notes": "Father of the great sedentary Amazigh confederations.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ber4_sanhaja",
+      "name": "Sanhaja (Son of Bernes; Ancestor of Almoravids & Zirids)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 11,
+      "era": "Ibn Khaldun v4",
+      "role": "Patriarch of Sanhaja",
+      "sources": [
+        "Ibn Khaldun"
+      ],
+      "notes": "Forebear of the Sahara and Maghreb Sanhaja confederations.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ber4_masmuda",
+      "name": "Masmuda (Son of Bernes; Ancestor of Atlas Almohads)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 11,
+      "era": "Ibn Khaldun v4",
+      "role": "Patriarch of Masmuda",
+      "sources": [
+        "Ibn Khaldun"
+      ],
+      "notes": "Forebear of the High Atlas Masmuda tribes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ber4_kutama",
+      "name": "Kutama (Son of Bernes; Supporters of Fatimid North Africa)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 11,
+      "era": "Ibn Khaldun v4",
+      "role": "Patriarch of Kutama",
+      "sources": [
+        "Ibn Khaldun"
+      ],
+      "notes": "Kabyle confederation key to North African state formation.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ber4_madghis",
+      "name": "Madghis al-Abtar (Progenitor of Zenata, Luwata & Hawwara Berbers)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 10,
+      "era": "Ibn Khaldun v4",
+      "role": "Founder of the Botr Confederation",
+      "sources": [
+        "Ibn Khaldun"
+      ],
+      "notes": "Progenitor of the Zenata nomadic confederations.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ber4_zenata",
+      "name": "Zana / Zenata (Descendant of Madghis al-Abtar; Ancestor of Marinids & Zayyanids)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 12,
+      "era": "Ibn Khaldun v4",
+      "role": "Patriarch of the Zenata",
+      "sources": [
+        "Ibn Khaldun"
+      ],
+      "notes": "Progenitor of Queen al-Kahina's Jerawa Zenata tribe.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ber4_koceila",
+      "name": "King Kusayla / Aksil of Altava (d. 688 CE; Awraba Berber Monarch)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "d. 688 CE (Ibn Khaldun)",
+      "role": "Leader of Awraba Amazigh Confederation",
+      "sources": [
+        "Ibn Khaldun"
+      ],
+      "notes": "United Amazigh and Byzantine forces in Numidia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ber4_kahina",
+      "name": "Queen Dihya al-Kahina (d. 703 CE; Jerawa Zenata Queen of the Aures)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "d. 703 CE (Ibn Khaldun)",
+      "role": "Berber Queen & Military Commander",
+      "sources": [
+        "Ibn Khaldun"
+      ],
+      "notes": "Jerawa Zenata queen who led Amazigh resistance in the Aures Mountains.",
+      "major": true,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "ir_deioces",
+      "to": "per4_deioces",
+      "type": "direct",
+      "label": "Median Royal Succession"
+    },
+    {
+      "from": "per4_deioces",
+      "to": "per4_phraortes",
+      "type": "direct",
+      "label": "Median Royal Succession"
+    },
+    {
+      "from": "per4_phraortes",
+      "to": "per4_cyaxares",
+      "type": "direct",
+      "label": "Median Royal Succession"
+    },
+    {
+      "from": "per4_cyaxares",
+      "to": "per4_astyages",
+      "type": "direct",
+      "label": "Median Royal Succession"
+    },
+    {
+      "from": "per4_cyaxares",
+      "to": "ir_cyaxares",
+      "type": "direct",
+      "label": "Cyaxares individual -> Median anchor"
+    },
+    {
+      "from": "ir_achaemenes",
+      "to": "per4_achaemenes",
+      "type": "direct",
+      "label": "Achaemenid Senior Succession"
+    },
+    {
+      "from": "per4_achaemenes",
+      "to": "per4_teispes",
+      "type": "direct",
+      "label": "Achaemenid Senior Succession"
+    },
+    {
+      "from": "per4_teispes",
+      "to": "per4_cyrus1",
+      "type": "direct",
+      "label": "Achaemenid Senior Succession"
+    },
+    {
+      "from": "per4_cyrus1",
+      "to": "per4_cambyses1",
+      "type": "direct",
+      "label": "Achaemenid Senior Succession"
+    },
+    {
+      "from": "ir_cyrus",
+      "to": "per4_cambyses2",
+      "type": "direct",
+      "label": "Achaemenid Senior Succession"
+    },
+    {
+      "from": "per4_cambyses1",
+      "to": "ir_cambyses1",
+      "type": "direct",
+      "label": "Cambyses I individual -> Anshan anchor"
+    },
+    {
+      "from": "ir_cyrus",
+      "to": "per4_bardiya",
+      "type": "direct",
+      "label": "Cyrus the Great -> son Bardiya"
+    },
+    {
+      "from": "ir_cyrus",
+      "to": "per4_atossa",
+      "type": "direct",
+      "label": "Cyrus the Great -> daughter Queen Atossa"
+    },
+    {
+      "from": "ir_cambyses2_atossa",
+      "to": "per4_cambyses2",
+      "type": "direct",
+      "label": "Cambyses II / Atossa anchor -> Cambyses II"
+    },
+    {
+      "from": "per4_atossa",
+      "to": "ir_xerxes1",
+      "type": "direct",
+      "label": "Mother Queen Atossa -> Shahanshah Xerxes I"
+    },
+    {
+      "from": "per4_teispes",
+      "to": "per4_ariaramnes",
+      "type": "direct",
+      "label": "Achaemenid Junior & Late Imperial Line"
+    },
+    {
+      "from": "per4_ariaramnes",
+      "to": "per4_arsames",
+      "type": "direct",
+      "label": "Achaemenid Junior & Late Imperial Line"
+    },
+    {
+      "from": "per4_arsames",
+      "to": "per4_hystaspes",
+      "type": "direct",
+      "label": "Achaemenid Junior & Late Imperial Line"
+    },
+    {
+      "from": "ir_xerxes1",
+      "to": "per4_artaxerxes1",
+      "type": "direct",
+      "label": "Achaemenid Junior & Late Imperial Line"
+    },
+    {
+      "from": "per4_artaxerxes1",
+      "to": "per4_darius2",
+      "type": "direct",
+      "label": "Achaemenid Junior & Late Imperial Line"
+    },
+    {
+      "from": "per4_darius2",
+      "to": "per4_artaxerxes2",
+      "type": "direct",
+      "label": "Achaemenid Junior & Late Imperial Line"
+    },
+    {
+      "from": "per4_artaxerxes2",
+      "to": "per4_artaxerxes3",
+      "type": "direct",
+      "label": "Achaemenid Junior & Late Imperial Line"
+    },
+    {
+      "from": "per4_artaxerxes3",
+      "to": "per4_arses",
+      "type": "direct",
+      "label": "Achaemenid Junior & Late Imperial Line"
+    },
+    {
+      "from": "per4_arses",
+      "to": "per4_darius3",
+      "type": "direct",
+      "label": "Achaemenid Junior & Late Imperial Line"
+    },
+    {
+      "from": "per4_darius3",
+      "to": "per4_stateira2",
+      "type": "direct",
+      "label": "Achaemenid Junior & Late Imperial Line"
+    },
+    {
+      "from": "per4_hystaspes",
+      "to": "ir_hystaspes",
+      "type": "direct",
+      "label": "Hystaspes individual -> Junior Achaemenid anchor"
+    },
+    {
+      "from": "ir_darius1",
+      "to": "per4_atossa",
+      "type": "direct",
+      "label": "Marriage of Darius I & Atossa"
+    },
+    {
+      "from": "per4_artaxerxes1",
+      "to": "ir_artaxerxes1",
+      "type": "direct",
+      "label": "Artaxerxes I individual -> Late Achaemenid anchor"
+    },
+    {
+      "from": "per4_darius2",
+      "to": "per4_cyrus_younger",
+      "type": "direct",
+      "label": "Darius II -> son Cyrus the Younger"
+    },
+    {
+      "from": "ir_bahman",
+      "to": "per4_homai",
+      "type": "direct",
+      "label": "Late Kayanian Succession"
+    },
+    {
+      "from": "per4_homai",
+      "to": "per4_darab",
+      "type": "direct",
+      "label": "Late Kayanian Succession"
+    },
+    {
+      "from": "per4_darab",
+      "to": "per4_dara2",
+      "type": "direct",
+      "label": "Late Kayanian Succession"
+    },
+    {
+      "from": "bir_parthians_ashkanians",
+      "to": "per4_arsaces1",
+      "type": "direct",
+      "label": "Parthian Arsacid Succession"
+    },
+    {
+      "from": "per4_arsaces1",
+      "to": "per4_tiridates1",
+      "type": "direct",
+      "label": "Parthian Arsacid Succession"
+    },
+    {
+      "from": "per4_tiridates1",
+      "to": "per4_mithridates1",
+      "type": "direct",
+      "label": "Parthian Arsacid Succession"
+    },
+    {
+      "from": "per4_mithridates1",
+      "to": "per4_phraates2",
+      "type": "direct",
+      "label": "Parthian Arsacid Succession"
+    },
+    {
+      "from": "per4_phraates2",
+      "to": "per4_mithridates2",
+      "type": "direct",
+      "label": "Parthian Arsacid Succession"
+    },
+    {
+      "from": "per4_mithridates2",
+      "to": "per4_orodes2",
+      "type": "direct",
+      "label": "Parthian Arsacid Succession"
+    },
+    {
+      "from": "per4_orodes2",
+      "to": "per4_phraates4",
+      "type": "direct",
+      "label": "Parthian Arsacid Succession"
+    },
+    {
+      "from": "per4_phraates4",
+      "to": "per4_vologases1",
+      "type": "direct",
+      "label": "Parthian Arsacid Succession"
+    },
+    {
+      "from": "per4_vologases1",
+      "to": "per4_artabanus4",
+      "type": "direct",
+      "label": "Parthian Arsacid Succession"
+    },
+    {
+      "from": "arm_hayk_pat",
+      "to": "arm4_aramaneak",
+      "type": "direct",
+      "label": "Armenian Haikid Patriarchal Line"
+    },
+    {
+      "from": "arm4_aramaneak",
+      "to": "arm4_aramayis",
+      "type": "direct",
+      "label": "Armenian Haikid Patriarchal Line"
+    },
+    {
+      "from": "arm4_aramayis",
+      "to": "arm4_amasia",
+      "type": "direct",
+      "label": "Armenian Haikid Patriarchal Line"
+    },
+    {
+      "from": "arm4_amasia",
+      "to": "arm4_gegham",
+      "type": "direct",
+      "label": "Armenian Haikid Patriarchal Line"
+    },
+    {
+      "from": "arm4_gegham",
+      "to": "arm4_harma",
+      "type": "direct",
+      "label": "Armenian Haikid Patriarchal Line"
+    },
+    {
+      "from": "arm4_harma",
+      "to": "arm4_aram",
+      "type": "direct",
+      "label": "Armenian Haikid Patriarchal Line"
+    },
+    {
+      "from": "arm4_aram",
+      "to": "arm4_ara_beautiful",
+      "type": "direct",
+      "label": "Armenian Haikid Patriarchal Line"
+    },
+    {
+      "from": "arm4_ara_beautiful",
+      "to": "arm_haykid_line",
+      "type": "direct",
+      "label": "Ara the Handsome -> Haykid royal anchor"
+    },
+    {
+      "from": "arm_haykid_line",
+      "to": "cls3_artaxias1",
+      "type": "expansion",
+      "label": "Orontid / Artaxiad succession -> Artaxias I of Armenia"
+    },
+    {
+      "from": "tab_adnan_21gen_quraysh",
+      "to": "ar4_maadd",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_maadd",
+      "to": "ar4_nizar",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_nizar",
+      "to": "ar4_mudar",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_mudar",
+      "to": "ar4_ilyas",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_ilyas",
+      "to": "ar4_mudrikah",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_mudrikah",
+      "to": "ar4_khuzaymah",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_khuzaymah",
+      "to": "ar4_kinanah",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_kinanah",
+      "to": "ar4_al_nadr",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_al_nadr",
+      "to": "ar4_malik",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_malik",
+      "to": "ar4_fihr_quraysh",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_fihr_quraysh",
+      "to": "ar4_ghalib",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_ghalib",
+      "to": "ar4_luayy",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_luayy",
+      "to": "ar4_kab",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_kab",
+      "to": "ar4_murrah",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_murrah",
+      "to": "ar4_kilab",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_kilab",
+      "to": "ar4_qusayy",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar4_qusayy",
+      "to": "ar4_abd_manaf",
+      "type": "direct",
+      "label": "21-Generation Quraysh Lineage (Tabari Vol. 6)"
+    },
+    {
+      "from": "ar_adnan_quraysh",
+      "to": "ar4_maadd",
+      "type": "direct",
+      "label": "Adnan -> son Ma'add"
+    },
+    {
+      "from": "ar4_abd_manaf",
+      "to": "ar4_hashim",
+      "type": "direct",
+      "label": "Banu Hashim Patrilineal & Prophetic Stem"
+    },
+    {
+      "from": "ar4_hashim",
+      "to": "ar4_abd_al_muttalib",
+      "type": "direct",
+      "label": "Banu Hashim Patrilineal & Prophetic Stem"
+    },
+    {
+      "from": "ar4_abd_al_muttalib",
+      "to": "ar4_abdallah",
+      "type": "direct",
+      "label": "Banu Hashim Patrilineal & Prophetic Stem"
+    },
+    {
+      "from": "ar4_abdallah",
+      "to": "ar4_prophet_muhammad",
+      "type": "direct",
+      "label": "Banu Hashim Patrilineal & Prophetic Stem"
+    },
+    {
+      "from": "ar4_prophet_muhammad",
+      "to": "ar4_fatimah",
+      "type": "direct",
+      "label": "Banu Hashim Patrilineal & Prophetic Stem"
+    },
+    {
+      "from": "ar4_fatimah",
+      "to": "ar4_imam_hasan",
+      "type": "direct",
+      "label": "Banu Hashim Patrilineal & Prophetic Stem"
+    },
+    {
+      "from": "ar4_kilab",
+      "to": "ar4_aminah_bint_wahb",
+      "type": "direct",
+      "label": "Kilab -> Zuhrah -> Wahb -> Aminah bint Wahb"
+    },
+    {
+      "from": "ar4_aminah_bint_wahb",
+      "to": "ar4_prophet_muhammad",
+      "type": "direct",
+      "label": "Mother Aminah -> Prophet Muhammad"
+    },
+    {
+      "from": "ar4_prophet_muhammad",
+      "to": "ar_hashim_muhammad_caliphs",
+      "type": "direct",
+      "label": "Prophet Muhammad -> Hashimite Caliphal anchor"
+    },
+    {
+      "from": "ar4_qusayy",
+      "to": "ar4_khadijah",
+      "type": "direct",
+      "label": "Qusayy's brother 'Abd al-'Uzza -> Asad -> Khuwaylid -> Khadijah"
+    },
+    {
+      "from": "ar4_khadijah",
+      "to": "ar4_fatimah",
+      "type": "direct",
+      "label": "Mother Khadijah -> Fatimah al-Zahra"
+    },
+    {
+      "from": "ar4_abd_al_muttalib",
+      "to": "ar4_abu_talib",
+      "type": "direct",
+      "label": "'Abd al-Muttalib -> son Abu Talib"
+    },
+    {
+      "from": "ar4_abu_talib",
+      "to": "mon_isl_ali",
+      "type": "direct",
+      "label": "Abu Talib -> Caliph Ali ibn Abi Talib"
+    },
+    {
+      "from": "mon_isl_ali",
+      "to": "ar4_imam_hasan",
+      "type": "direct",
+      "label": "Father Ali -> Imam al-Hasan"
+    },
+    {
+      "from": "ar4_fatimah",
+      "to": "ar4_imam_husayn",
+      "type": "direct",
+      "label": "Fatimah & Ali -> Imam al-Husayn"
+    },
+    {
+      "from": "mon_isl_ali",
+      "to": "ar4_imam_husayn",
+      "type": "direct",
+      "label": "Father Ali -> Imam al-Husayn"
+    },
+    {
+      "from": "ar4_imam_husayn",
+      "to": "ar4_ali_zayn_abidin",
+      "type": "direct",
+      "label": "Imam Husayn -> Ali Zayn al-Abidin"
+    },
+    {
+      "from": "ar4_ali_zayn_abidin",
+      "to": "ar4_muhammad_baqir",
+      "type": "direct",
+      "label": "Zayn al-Abidin -> Muhammad al-Baqir"
+    },
+    {
+      "from": "ar4_muhammad_baqir",
+      "to": "ar4_jafar_sadiq",
+      "type": "direct",
+      "label": "Muhammad al-Baqir -> Ja'far al-Sadiq"
+    },
+    {
+      "from": "ar4_jafar_sadiq",
+      "to": "mod_agakhan5_ismaili",
+      "type": "direct",
+      "label": "Ja'far al-Sadiq -> Isma'il -> Fatimids -> Living Aga Khan V"
+    },
+    {
+      "from": "ar4_abd_al_muttalib",
+      "to": "ar4_al_abbas",
+      "type": "direct",
+      "label": "'Abd al-Muttalib -> son al-'Abbas"
+    },
+    {
+      "from": "ar4_al_abbas",
+      "to": "ar4_abdallah_ibn_abbas",
+      "type": "direct",
+      "label": "Al-'Abbas -> 'Abdallah ibn al-'Abbas"
+    },
+    {
+      "from": "ar4_abdallah_ibn_abbas",
+      "to": "ar4_al_saffah",
+      "type": "direct",
+      "label": "'Abdallah -> Ali -> Muhammad -> 1st Abbasid Caliph al-Saffah"
+    },
+    {
+      "from": "ar4_abdallah_ibn_abbas",
+      "to": "mon_isl_al_mansur",
+      "type": "direct",
+      "label": "'Abdallah -> Ali -> Muhammad -> Caliph al-Mansur"
+    },
+    {
+      "from": "mon_isl_al_mansur",
+      "to": "ar4_al_mahdi",
+      "type": "direct",
+      "label": "Caliph al-Mansur -> son Caliph al-Mahdi"
+    },
+    {
+      "from": "ar4_al_mahdi",
+      "to": "mon_isl_harun_rashid",
+      "type": "direct",
+      "label": "Caliph al-Mahdi -> son Harun al-Rashid"
+    },
+    {
+      "from": "mon_isl_harun_rashid",
+      "to": "mon_isl_al_mamun",
+      "type": "direct",
+      "label": "Harun al-Rashid -> son al-Ma'mun"
+    },
+    {
+      "from": "ar4_murrah",
+      "to": "mon_isl_abubakr",
+      "type": "direct",
+      "label": "Murrah -> Taym -> Quraysh Abu Quhafa -> Caliph Abu Bakr"
+    },
+    {
+      "from": "ar4_kab",
+      "to": "mon_isl_umar",
+      "type": "direct",
+      "label": "Ka'b -> 'Adi -> al-Khattab -> Caliph Umar ibn al-Khattab"
+    },
+    {
+      "from": "ar4_abd_manaf",
+      "to": "ar4_abd_shams",
+      "type": "direct",
+      "label": "Umayyad Sufyanid Lineage"
+    },
+    {
+      "from": "ar4_abd_shams",
+      "to": "ar4_umayyah",
+      "type": "direct",
+      "label": "Umayyad Sufyanid Lineage"
+    },
+    {
+      "from": "ar4_umayyah",
+      "to": "ar4_harb",
+      "type": "direct",
+      "label": "Umayyad Sufyanid Lineage"
+    },
+    {
+      "from": "ar4_harb",
+      "to": "ar4_abu_sufyan",
+      "type": "direct",
+      "label": "Umayyad Sufyanid Lineage"
+    },
+    {
+      "from": "mon_isl_muawiya1",
+      "to": "ar4_yazid1",
+      "type": "direct",
+      "label": "Umayyad Sufyanid Lineage"
+    },
+    {
+      "from": "ar4_umayyah",
+      "to": "ar4_abu_al_as",
+      "type": "direct",
+      "label": "Umayyah -> son Abu al-'As"
+    },
+    {
+      "from": "ar4_abu_al_as",
+      "to": "ar4_affan",
+      "type": "direct",
+      "label": "Abu al-'As -> 'Affan"
+    },
+    {
+      "from": "ar4_affan",
+      "to": "mon_isl_uthman",
+      "type": "direct",
+      "label": "'Affan -> Caliph Uthman ibn 'Affan"
+    },
+    {
+      "from": "ar4_abu_al_as",
+      "to": "ar4_al_hakam",
+      "type": "direct",
+      "label": "Abu al-'As -> al-Hakam"
+    },
+    {
+      "from": "ar4_al_hakam",
+      "to": "ar4_marwan1",
+      "type": "direct",
+      "label": "Al-Hakam -> Caliph Marwan I"
+    },
+    {
+      "from": "ar4_marwan1",
+      "to": "mon_isl_abd_al_malik",
+      "type": "direct",
+      "label": "Marwan I -> Caliph 'Abd al-Malik"
+    },
+    {
+      "from": "mon_isl_abd_al_malik",
+      "to": "ar4_al_walid1",
+      "type": "direct",
+      "label": "'Abd al-Malik -> son Caliph al-Walid I"
+    },
+    {
+      "from": "mon_isl_abd_al_malik",
+      "to": "ar4_hisham",
+      "type": "direct",
+      "label": "'Abd al-Malik -> son Caliph Hisham"
+    },
+    {
+      "from": "ar4_hisham",
+      "to": "mon_isl_abdarrahman1",
+      "type": "direct",
+      "label": "Caliph Hisham -> Mu'awiya -> Emir 'Abd al-Rahman I of Cordoba"
+    },
+    {
+      "from": "ar_hashim_muhammad_caliphs",
+      "to": "isl_umayyad_abbasid_fatimid",
+      "type": "direct",
+      "label": "Umayyad, Abbasid & Fatimid Caliphal anchor"
+    },
+    {
+      "from": "bib_joktan",
+      "to": "ar4_yarub",
+      "type": "direct",
+      "label": "Qahtanite / Himyarite Succession"
+    },
+    {
+      "from": "ar4_yarub",
+      "to": "ar4_yashjub",
+      "type": "direct",
+      "label": "Qahtanite / Himyarite Succession"
+    },
+    {
+      "from": "ar4_yashjub",
+      "to": "ar4_saba",
+      "type": "direct",
+      "label": "Qahtanite / Himyarite Succession"
+    },
+    {
+      "from": "ar4_saba",
+      "to": "ar4_himyar",
+      "type": "direct",
+      "label": "Qahtanite / Himyarite Succession"
+    },
+    {
+      "from": "ar4_himyar",
+      "to": "ar4_tubba_abu_karib",
+      "type": "direct",
+      "label": "Qahtanite / Himyarite Succession"
+    },
+    {
+      "from": "ar4_tubba_abu_karib",
+      "to": "ar4_dhu_nuwas",
+      "type": "direct",
+      "label": "Qahtanite / Himyarite Succession"
+    },
+    {
+      "from": "ar4_dhu_nuwas",
+      "to": "ar4_sayf_ibn_dhi_yazan",
+      "type": "direct",
+      "label": "Qahtanite / Himyarite Succession"
+    },
+    {
+      "from": "tab_yarub_jurhum_himyar",
+      "to": "ar4_yarub",
+      "type": "direct",
+      "label": "Qahtanite anchor -> Ya'rub"
+    },
+    {
+      "from": "bir_himyar_lakhmid_ghassan",
+      "to": "ar4_himyar",
+      "type": "expansion",
+      "label": "Al-Biruni South Arabian anchor -> Himyar"
+    },
+    {
+      "from": "ar4_dhu_nuwas",
+      "to": "mon_eth_kaleb",
+      "type": "cognate",
+      "label": "Aksumite King Kaleb defeats Dhu-Nuwas in Yemen (525 CE)"
+    },
+    {
+      "from": "ar4_saba",
+      "to": "ar4_kahlan",
+      "type": "direct",
+      "label": "Saba -> son Kahlan"
+    },
+    {
+      "from": "ar4_kahlan",
+      "to": "ar4_jafnah_ghassan",
+      "type": "expansion",
+      "label": "Kahlan -> Azd -> Jafnah of Ghassan"
+    },
+    {
+      "from": "ar4_jafnah_ghassan",
+      "to": "ar4_al_harith_ghassan",
+      "type": "direct",
+      "label": "Jafnah -> Ghassanid King al-Harith V ibn Jabalah"
+    },
+    {
+      "from": "ar4_kahlan",
+      "to": "ar4_imru_al_qays_lakhmid",
+      "type": "expansion",
+      "label": "Kahlan -> Lakhm -> Imru' al-Qays I of Al-Hirah"
+    },
+    {
+      "from": "ar4_imru_al_qays_lakhmid",
+      "to": "ar4_al_mundhir3",
+      "type": "direct",
+      "label": "Imru' al-Qays -> Lakhmid succession -> al-Mundhir III"
+    },
+    {
+      "from": "ar4_al_mundhir3",
+      "to": "ar4_al_numan3",
+      "type": "direct",
+      "label": "Al-Mundhir III -> al-Mundhir IV -> last king al-Nu'man III"
+    },
+    {
+      "from": "pal_odenathus_zenobia",
+      "to": "pal4_odenathus",
+      "type": "direct",
+      "label": "Palmyrene anchor -> King Odaenathus"
+    },
+    {
+      "from": "pal4_odenathus",
+      "to": "pal4_zenobia",
+      "type": "direct",
+      "label": "Marriage of Odaenathus & Zenobia"
+    },
+    {
+      "from": "pal4_odenathus",
+      "to": "pal4_vaballathus",
+      "type": "direct",
+      "label": "Odaenathus -> son Vaballathus"
+    },
+    {
+      "from": "pal4_zenobia",
+      "to": "pal4_vaballathus",
+      "type": "direct",
+      "label": "Queen Zenobia -> son Vaballathus"
+    },
+    {
+      "from": "eg_ptolemy_cleopatra",
+      "to": "pal4_zenobia",
+      "type": "syncretic",
+      "label": "Palmyrene royal tradition claiming Zenobia descended from Cleopatra VII"
+    },
+    {
+      "from": "grk_dido_carthage",
+      "to": "pal4_zenobia",
+      "type": "syncretic",
+      "label": "Seller 1696 / Historia Augusta: Zenobia claimed kinship with Dido"
+    },
+    {
+      "from": "pal4_zenobia",
+      "to": "mon_rom_aurelian",
+      "type": "cognate",
+      "label": "Emperor Aurelian captures Queen Zenobia & Palmyra (272 CE)"
+    },
+    {
+      "from": "ber_branes_botr",
+      "to": "ber4_berr",
+      "type": "direct",
+      "label": "Berber Noahic anchor -> Berr / Mazigh"
+    },
+    {
+      "from": "ber4_berr",
+      "to": "ber4_bernes",
+      "type": "direct",
+      "label": "Berr -> son Bernes"
+    },
+    {
+      "from": "ber4_berr",
+      "to": "ber4_madghis",
+      "type": "direct",
+      "label": "Berr -> son Madghis al-Abtar"
+    },
+    {
+      "from": "ber4_bernes",
+      "to": "ber4_sanhaja",
+      "type": "direct",
+      "label": "Bernes -> Sanhaja"
+    },
+    {
+      "from": "ber4_bernes",
+      "to": "ber4_masmuda",
+      "type": "direct",
+      "label": "Bernes -> Masmuda"
+    },
+    {
+      "from": "ber4_bernes",
+      "to": "ber4_kutama",
+      "type": "direct",
+      "label": "Bernes -> Kutama"
+    },
+    {
+      "from": "ber4_madghis",
+      "to": "ber4_zenata",
+      "type": "direct",
+      "label": "Madghis -> Zenata"
+    },
+    {
+      "from": "ber4_zenata",
+      "to": "ber4_kahina",
+      "type": "expansion",
+      "label": "Jerawa Zenata -> Queen Dihya al-Kahina"
+    },
+    {
+      "from": "ber_koceila_kahina",
+      "to": "ber4_koceila",
+      "type": "direct",
+      "label": "Berber sovereign anchor -> King Kusayla"
+    },
+    {
+      "from": "ber_koceila_kahina",
+      "to": "ber4_kahina",
+      "type": "direct",
+      "label": "Berber sovereign anchor -> Queen al-Kahina"
+    }
+  ]
+}

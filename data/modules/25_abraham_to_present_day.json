@@ -24,7 +24,7 @@
     },
     {
       "id": "mod_qatadah_sharifs",
-      "name": "Qatadah ibn Idris (1st Qatadid Sharif of Mecca, 1201) → Abu Numayy I → Barakat I & II → Abu Numayy II → Dhawu Awn Clan",
+      "name": "Qatadah ibn Idris (1st Qatadid Sharif of Mecca, 1201) Anchor",
       "altNames": [
         "Qatadah ibn Idris",
         "Abu Numayy I & II",
@@ -34,18 +34,18 @@
       "tradition": "arabian",
       "tier": 20,
       "era": "1201-1850 CE (700-Year Sharifate of Mecca)",
-      "role": "Unbroken Seven-Century Sharifian Rulers of Mecca (Banu Qatadah)",
+      "role": "Unbroken Seven-Century Sharifian Rulers of Mecca Anchor",
       "sources": [
         "Hashemite Royal Registers",
         "Meccan Sharifate Chronicles"
       ],
-      "notes": "Contemporaneously documented patrilineal sequence from Qatadah ibn Idris (Emir of Mecca, 1201-1220) through Ali al-Akbar, Abu Sa'd al-Hasan, Abu Numayy I, Rumaithah, Ajlan, Ali, Hasan, Barakat I, Muhammad, Barakat II, Abu Numayy II, Hasan, Abdullah, Hussein, Abdullah, Muhammad, Awn, Abd al-Mu'in, Muhammad & Ali Pasha!",
+      "notes": "Anchor for the unbroken Banu Qatadah line (generations 1-21) unrolled individually below.",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "mod_hussein_abdullah1",
-      "name": "Sharif Hussein bin Ali (King of Hejaz, 1854–1931) → King Abdullah I → King Talal → King Hussein of Jordan (1935–1999)",
+      "name": "Sharif Hussein bin Ali → King Abdullah I → King Talal → King Hussein Anchor",
       "altNames": [
         "Sharif Hussein bin Ali",
         "King Abdullah I",
@@ -55,12 +55,12 @@
       "tradition": "arabian",
       "tier": 21,
       "era": "1854-1999 CE (Modern Hashemite Kingdoms)",
-      "role": "Founders of Modern Jordan, Iraq (Faisal I) & Syria",
+      "role": "Founders of Modern Jordan, Iraq (Faisal I) & Syria Anchor",
       "sources": [
         "Hashemite Royal Registers",
         "Meccan Sharifate Chronicles"
       ],
-      "notes": "Sharif Hussein bin Ali led the Great Arab Revolt (1916); his sons Faisal I (King of Iraq) and Abdullah I (Founder of Jordan, r. 1921-1951) established modern Hashemite monarchies -> King Talal -> King Hussein bin Talal (r. 1952-1999).",
+      "notes": "Modern Hashemite royal line from Sharif Hussein bin Ali through King Hussein of Jordan, unrolled individually below.",
       "major": true,
       "biblicalConnected": true
     },
@@ -80,8 +80,423 @@
         "Hashemite Royal Registers",
         "Meccan Sharifate Chronicles"
       ],
-      "notes": "Reigning Hashemite King Abdullah II bin Al-Hussein (acceded 1999) + Queen Rania -> Crown Prince Al-Hussein bin Abdullah II (b. 1994, + Princess Rajwa Al Saif) -> Princess Iman bint Al-Hussein (born August 3, 2024 — 43rd generation from Prophet Muhammad; alongside her aunt Princess Iman bint Abdullah, b. 1996, & Prince Hashem, b. 2005!).",
+      "notes": "Reigning Hashemite King Abdullah II bin Al-Hussein (acceded 1999) + Queen Rania -> Crown Prince Al-Hussein bin Abdullah II (b. 1994, + Princess Rajwa Al Saif) -> Princess Iman bint Al-Hussein (born August 3, 2024 — 43rd generation from Prophet Muhammad!).",
       "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_01_1_qatadah_ibn_idris_emir_of_",
+      "name": "1. Qatadah ibn Idris (Emir of Mecca, 1201–1220 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 1. Qatadah ibn Idris (Emir of Mecca, 1201–1220 CE).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_02_2_ali_al_akbar_ibn_qatadah",
+      "name": "2. Ali al-Akbar ibn Qatadah",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 2. Ali al-Akbar ibn Qatadah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_03_3_abu_sa_d_al_hasan_ibn_ali",
+      "name": "3. Abu Sa'd al-Hasan ibn Ali",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 3. Abu Sa'd al-Hasan ibn Ali.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_04_4_muhammad_abu_numayy_i_d_13",
+      "name": "4. Muhammad Abu Numayy I ibn Abi Sa'd (d. 1301 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 4. Muhammad Abu Numayy I ibn Abi Sa'd (d. 1301 CE).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_05_5_rumaithah_ibn_abu_numayy_i",
+      "name": "5. Rumaithah ibn Abu Numayy I",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 5. Rumaithah ibn Abu Numayy I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_06_6_ajlan_ibn_rumaithah",
+      "name": "6. Ajlan ibn Rumaithah",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 6. Ajlan ibn Rumaithah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_07_7_ali_ibn_ajlan",
+      "name": "7. Ali ibn Ajlan",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 7. Ali ibn Ajlan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_08_8_hasan_ibn_ajlan",
+      "name": "8. Hasan ibn Ajlan",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 8. Hasan ibn Ajlan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_09_9_barakat_i_ibn_hasan",
+      "name": "9. Barakat I ibn Hasan",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 9. Barakat I ibn Hasan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_10_10_muhammad_ibn_barakat",
+      "name": "10. Muhammad ibn Barakat",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 10. Muhammad ibn Barakat.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_11_11_barakat_ii_ibn_muhammad",
+      "name": "11. Barakat II ibn Muhammad",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 11. Barakat II ibn Muhammad.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_12_12_muhammad_abu_numayy_ii_15",
+      "name": "12. Muhammad Abu Numayy II ibn Barakat (1525–1584)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 12. Muhammad Abu Numayy II ibn Barakat (1525–1584).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_13_13_hasan_ibn_abu_numayy_ii",
+      "name": "13. Hasan ibn Abu Numayy II",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 13. Hasan ibn Abu Numayy II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_14_14_abdullah_ibn_hasan_ancest",
+      "name": "14. Abdullah ibn Hasan (Ancestor of Abadilah Clan)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 14. Abdullah ibn Hasan (Ancestor of Abadilah Clan).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_15_15_hussein_16_abdullah_17_mu",
+      "name": "15. Hussein ibn Abdullah",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 15. Hussein ibn Abdullah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_16_abdullah",
+      "name": "16. Abdullah ibn Hussein",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 16. Abdullah ibn Hussein.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_17_muhsin",
+      "name": "17. Muhsin ibn Abdullah",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 17. Muhsin ibn Abdullah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_18_awn",
+      "name": "18. Awn ibn Muhsin (Eponym of Dhawu Awn)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 18. Awn ibn Muhsin (Eponym of Dhawu Awn).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_16_19_abd_al_mu_in_20_muhammad_",
+      "name": "19. Abd al-Mu'in ibn Awn",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 19. Abd al-Mu'in ibn Awn.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_20_muhammad",
+      "name": "20. Sharif Muhammad ibn Abd al-Mu'in",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 20. Sharif Muhammad ibn Abd al-Mu'in.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_21_ali_pasha",
+      "name": "21. Ali Pasha ibn Muhammad",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 21. Ali Pasha ibn Muhammad.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_17_22_sharif_hussein_bin_ali_ki",
+      "name": "22. Sharif Hussein bin Ali (King of Hejaz, 1854–1931)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 22. Sharif Hussein bin Ali (King of Hejaz, 1854–1931).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_18_23_king_abdullah_i_of_jordan",
+      "name": "23. King Abdullah I of Jordan (Founder, r. 1921–1951)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 23. King Abdullah I of Jordan (Founder, r. 1921–1951).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_19_24_king_talal_king_hussein_o",
+      "name": "24. King Talal ibn Abdullah of Jordan (1909–1972)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 24. King Talal ibn Abdullah of Jordan (1909–1972).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_king_hussein",
+      "name": "25. King Hussein ibn Talal of Jordan (1935–1999)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1201-1999 CE (Banu Qatadah)",
+      "role": "Sharif of Mecca / Hashemite Monarch",
+      "sources": [
+        "Hashemite Royal Registers",
+        "Meccan Sharifate Chronicles"
+      ],
+      "notes": "Banu Qatadah / Hashemite patrilineal succession: 25. King Hussein ibn Talal of Jordan (1935–1999).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_has_faisal1_iraq",
+      "name": "King Faisal I of Iraq & Syria (Son of Sharif Hussein bin Ali, 1885–1933)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1885-1933 CE (Hashemite Kingdom of Iraq)",
+      "role": "Brother of King Abdullah I; King of Iraq",
+      "sources": [
+        "Hashemite Royal Registers"
+      ],
+      "notes": "Son of Sharif Hussein bin Ali; King of Greater Syria (1920) and first King of Iraq (1921-1933).",
+      "major": false,
       "biblicalConnected": true
     },
     {
@@ -101,7 +516,7 @@
         "Moroccan Alaouite Chronicles",
         "Official Royal Registers"
       ],
-      "notes": "Descended from Hasan al-Muthanna -> Muhammad al-Nafs al-Zakiyya -> Hassan al-Dakhil (migrated from Yanbu in Arabia to Tafilalt, Morocco in the 13th c.) -> Moulay Ali Cherif (1631) -> Moulay Ismail -> Mohammed V -> Hassan II -> reigning King Mohammed VI (b. 1963) & Crown Prince Moulay Hassan (b. 2003).",
+      "notes": "Descended from Hasan al-Muthanna -> Muhammad al-Nafs al-Zakiyya -> Hassan al-Dakhil -> Moulay Ali Cherif (1631) -> reigning King Mohammed VI (b. 1963) & Crown Prince Moulay Hassan (b. 2003).",
       "major": true,
       "biblicalConnected": true
     },
@@ -122,13 +537,13 @@
         "Nizari Ismaili Imamat Archives",
         "Fatimid Chronicles"
       ],
-      "notes": "Traces continuous hereditary Imamat from Fatimah & Ali -> Imam Husayn -> Ali Zayn al-Abidin -> Muhammad al-Baqir -> Ja'far al-Sadiq -> Isma'il -> Fatimid Caliphs (Cairo) -> Alamut & Persian Imams -> Aga Khan I–IV -> Prince Rahim al-Hussaini (Aga Khan V, living, b. 1971, acceded Feb 2025 as 50th Imam!).",
+      "notes": "Traces continuous hereditary Imamat from Fatimah & Ali -> Imam Husayn -> Ja'far al-Sadiq -> Fatimid Caliphs -> Aga Khan IV -> Prince Rahim al-Hussaini (Aga Khan V, living, b. 1971, 50th Imam!).",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "mod_eth_yekuno_to_lebna",
-      "name": "Solomonic Imperial Spine (1270–1540): Yekuno Amlak → Wedem Arad → Amda Seyon I → Newaya Krestos → Dawit I → Zara Yaqob → Ba'eda Maryam I → Naod → Dawit II (Lebna Dengel)",
+      "name": "Solomonic Imperial Spine Anchor (Yekuno Amlak 1270 to Lebna Dengel 1540)",
       "altNames": [
         "Amda Seyon I",
         "Emperor Zara Yaqob",
@@ -137,18 +552,18 @@
       "tradition": "african",
       "tier": 20,
       "era": "1270-1540 CE (Ethiopian Royal Chronicles)",
-      "role": "Medieval Golden Age of the Restored Solomonic Empire of Ethiopia",
+      "role": "Medieval Golden Age of the Restored Solomonic Empire Anchor",
       "sources": [
         "Ethiopian Royal Chronicles",
         "Crown Council of Ethiopia"
       ],
-      "notes": "Nine unbroken father-to-son emperors from Yekuno Amlak (1270) through scholar-emperor Zara Yaqob (1434-1468) down to Dawit II (Lebna Dengel, r. 1508-1540).",
+      "notes": "Anchor connecting Yekuno Amlak through Zara Yaqob to Lebna Dengel (Dawit II), unrolled individually below.",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "mod_eth_shewa_sahle",
-      "name": "Shewan Solomonic Branch (1540–1930): Abeto Yaqob → Segwe Qal → Werede Qal → Libse Qal → Negasi Krestos (1682) → Sebaste → Abuye → Amha Iyesus → Asfa Wossen → Wossen Seged → Negus Sahle Selassie → Princess Tenagnework → Ras Makonnen",
+      "name": "Shewan Solomonic Branch Anchor (Abeto Yaqob to Ras Makonnen)",
       "altNames": [
         "Negasi Krestos",
         "Negus Sahle Selassie",
@@ -159,12 +574,12 @@
       "tradition": "african",
       "tier": 21,
       "era": "1540-1906 CE (Shewan Royal Chronicles)",
-      "role": "14-Generation Shewan Bridge Connecting Lebna Dengel to Emperor Haile Selassie I",
+      "role": "14-Generation Shewan Bridge to Haile Selassie I Anchor",
       "sources": [
         "Ethiopian Royal Chronicles",
         "Crown Council of Ethiopia"
       ],
-      "notes": "Lebna Dengel's 4th son Abeto Yaqob settled in Menz (Shewa) -> Negasi Krestos founded the Kingdom of Shewa (c. 1682) -> King Sahle Selassie (1813-1847, grandfather of Emperor Menelik II & great-grandfather of Haile Selassie via Princess Tenagnework -> Ras Makonnen!).",
+      "notes": "Shewan branch from Lebna Dengel's son Abeto Yaqob through Negasi Krestos, Sahle Selassie, and Ras Makonnen.",
       "major": false,
       "biblicalConnected": true
     },
@@ -184,13 +599,253 @@
         "Ethiopian Royal Chronicles",
         "Crown Council of Ethiopia"
       ],
-      "notes": "Emperor Haile Selassie I (Tafari Makonnen, r. 1930-1974) -> Crown Prince Asfaw Wossen (Amha Selassie) -> Prince Zera Yacob Amha Selassie (living, b. 1953, Head of the Imperial House of Ethiopia) alongside his cousin Prince Ermias Sahle Selassie (living, b. 1960, President of the Crown Council of Ethiopia).",
+      "notes": "Emperor Haile Selassie I -> Crown Prince Amha Selassie -> Prince Zera Yacob Amha Selassie (living, b. 1953) alongside Prince Ermias Sahle Selassie (living, b. 1960).",
       "major": true,
       "biblicalConnected": true
     },
     {
+      "id": "modr_eth_01_wedem_arad_son_of_yekuno_aml",
+      "name": "Emperor Wedem Arad (Son of Yekuno Amlak, r. 1299–1314)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Emperor Wedem Arad (Son of Yekuno Amlak, r. 1299–1314).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_02_amda_seyon_i_1314_1344",
+      "name": "Emperor Amda Seyon I (Son of Wedem Arad, r. 1314–1344)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Emperor Amda Seyon I (Son of Wedem Arad, r. 1314–1344).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_03_newaya_krestos_dawit_i",
+      "name": "Emperor Newaya Krestos (Son of Amda Seyon I, r. 1344–1372)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Emperor Newaya Krestos (Son of Amda Seyon I, r. 1344–1372).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_dawit1",
+      "name": "Emperor Dawit I (Son of Newaya Krestos, r. 1382–1413)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Emperor Dawit I (Son of Newaya Krestos, r. 1382–1413).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_04_emperor_zara_yaqob_1434_1468",
+      "name": "Emperor Zara Yaqob (Son of Dawit I, r. 1434–1468)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Emperor Zara Yaqob (Son of Dawit I, r. 1434–1468).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_05_ba_eda_maryam_i_naod",
+      "name": "Emperor Ba'eda Maryam I (Son of Zara Yaqob, r. 1468–1478)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Emperor Ba'eda Maryam I (Son of Zara Yaqob, r. 1468–1478).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_naod",
+      "name": "Emperor Na'od (Son of Ba'eda Maryam I, r. 1494–1508)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Emperor Na'od (Son of Ba'eda Maryam I, r. 1494–1508).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_06_dawit_ii_lebna_dengel_1508_1",
+      "name": "Emperor Dawit II / Lebna Dengel (Son of Na'od, r. 1508–1540)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Emperor Dawit II / Lebna Dengel (Son of Na'od, r. 1508–1540).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_07_abeto_yaqob_segwe_qal_werede",
+      "name": "Prince Abeto Yaqob of Menz (4th Son of Lebna Dengel)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Prince Abeto Yaqob of Menz (4th Son of Lebna Dengel).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_08_negasi_krestos_1st_ruler_of_",
+      "name": "Negasi Krestos (Descendant via Segwe Qal -> Libse Qal; 1st Ruler of Shewa, 1682)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Negasi Krestos (Descendant via Segwe Qal -> Libse Qal; 1st Ruler of Shewa, 1682).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_09_sebaste_abuye_amha_iyesus_as",
+      "name": "Meridazmach Sebaste -> Abuye -> Amha Iyesus -> Asfa Wossen -> Wossen Seged of Shewa",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Meridazmach Sebaste -> Abuye -> Amha Iyesus -> Asfa Wossen -> Wossen Seged of Shewa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_10_negus_sahle_selassie_of_shew",
+      "name": "King Sahle Selassie of Shewa (Son of Wossen Seged, r. 1813–1847)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: King Sahle Selassie of Shewa (Son of Wossen Seged, r. 1813–1847).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_11_princess_tenagnework_sahle_s",
+      "name": "Princess Tenagnework Sahle Selassie (Daughter of Negus Sahle Selassie)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Princess Tenagnework Sahle Selassie (Daughter of Negus Sahle Selassie).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_ras_makonnen",
+      "name": "Ras Makonnen Wolde Mikael (Son of Tenagnework; Governor of Harar, 1852–1906)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1299-1906 CE (Ethiopian Royal Chronicles)",
+      "role": "Solomonic Emperor / Prince of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Solomonic Ethiopian succession: Ras Makonnen Wolde Mikael (Son of Tenagnework; Governor of Harar, 1852–1906).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_haile_melekot",
+      "name": "King Haile Melekot of Shewa (Eldest Son of Negus Sahle Selassie, r. 1847–1855)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1824-1855 CE (Shewan Chronicles)",
+      "role": "Father of Emperor Menelik II",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Eldest son of Sahle Selassie; father of Emperor Menelik II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "modr_eth_12_emperor_menelik_ii_victor_of",
+      "name": "Emperor Menelik II of Ethiopia (Son of Haile Melekot; Victor of Adwa, 1896)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1844-1913 CE (Ethiopian Imperial Chronicles)",
+      "role": "Modernizer of Ethiopia & Cousin of Haile Selassie",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Reigned 1889-1913; defended Ethiopian independence at the Battle of Adwa (1896).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
       "id": "mod_geo_tamar_to_constantine2",
-      "name": "Late Medieval Bagrationis (1213–1505): Queen Tamar → George IV & Queen Rusudan → Demetrius II → George V the Brilliant → David IX → Bagrat V → Constantine I → Alexander I the Great → Constantine II",
+      "name": "Late Medieval Bagrationis (1213–1505): Queen Tamar → George IV & Rusudan → George V → Alexander I → Constantine II",
       "altNames": [
         "George V the Brilliant",
         "Alexander I the Great",
@@ -204,13 +859,13 @@
         "Georgian Royal Annals",
         "Royal House of Georgia"
       ],
-      "notes": "George V the Brilliant freed Georgia from Mongol rule; Alexander I the Great (1412-1442) and Constantine II (1478-1505) were the last kings before the kingdom divided into Kartli/Mukhrani, Kakheti, and Imereti.",
+      "notes": "George V the Brilliant freed Georgia from Mongol rule; Constantine II (1478-1505) was last monarch of unified Georgia before Mukhrani/Kakheti split.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "mod_geo_mukhrani_erekle2",
-      "name": "Mukhrani & Kakheti Royal Houses (1505–2008): Prince Bagrat I of Mukhrani → Vakhtang V & VI → Prince George Mukhrani; AND King Heraclius II (Erekle II, 1720–1798) → King George XII → Prince Nugzar Bagration-Gruzinsky",
+      "name": "Mukhrani & Kakheti Royal Houses (1505–2008): Bagrat I of Mukhrani → Vakhtang V; AND Erekle II → George XII → Nugzar",
       "altNames": [
         "Bagrat I of Mukhrani",
         "King Heraclius II (Erekle II)",
@@ -224,7 +879,7 @@
         "Georgian Royal Annals",
         "Royal House of Georgia"
       ],
-      "notes": "Bagrat I founded the senior male-line House of Mukhrani; King Heraclius II (Erekle II) & King George XII were the final reigning Georgian monarchs before Russian annexation in 1800, continuing through the Gruzinsky branch.",
+      "notes": "Bagrat I founded the House of Mukhrani; Heraclius II (Erekle II) & George XII led the Kakheti/Gruzinsky royal line.",
       "major": false,
       "biblicalConnected": true
     },
@@ -244,13 +899,13 @@
         "Georgian Royal Annals",
         "Royal House of Georgia"
       ],
-      "notes": "Born in 2011 and baptized by Georgian Patriarch Ilia II, Prince Giorgi Bagrationi unites both historic surviving branches of the world's oldest Christian royal house (Mukhrani via father Prince David & Kakheti/Gruzinsky via mother Princess Ana)!",
+      "notes": "Born in 2011 and baptized by Patriarch Ilia II, Prince Giorgi Bagrationi unites both surviving branches (Mukhrani & Kakheti/Gruzinsky).",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "mod_exilarchs_bostanai",
-      "name": "Babylonian Exilarchs (Resh Galuta): Huna I → Mar Ukba → Mar Zutra II → Bostanai ben Haninai (+ Sasanian Princess Izdundad!) → Hisdai → David ben Zakkai → Hezekiah Gaon (d. 1058)",
+      "name": "Babylonian Exilarchs (Resh Galuta): Huna I → Mar Ukba → Bostanai ben Haninai (+ Izdundad!) → David ben Zakkai → Hezekiah Gaon",
       "altNames": [
         "Exilarch Bostanai",
         "Princess Izdundad",
@@ -266,7 +921,7 @@
         "Letter of Sherira Gaon",
         "Rabbinic Genealogical Archives"
       ],
-      "notes": "The Babylonian Exilarchs (Resh Galuta) maintained a recognized Davidic succession via Zerubbabel under Parthian, Sasanian & Abbasid rule! Exilarch Bostanai (c. 618-670) married Sasanian Princess Izdundad (daughter of Shah Khosrow II!). After last Exilarch Hezekiah Gaon (d. 1058), surviving branches migrated to Spain and France.",
+      "notes": "Exilarch Bostanai (c. 618-670) married Sasanian Princess Izdundad (daughter of Shah Khosrow II); continued through Hezekiah Gaon (d. 1058).",
       "major": true,
       "biblicalConnected": true
     },
@@ -287,7 +942,7 @@
         "Letter of Sherira Gaon",
         "Rabbinic Genealogical Archives"
       ],
-      "notes": "Don Isaac Abravanel (statesman, Torah commentator & Treasurer of Portugal and Spain before 1492) and his son Judah (philosopher Leone Ebreo) preserved one of the best-documented Iberian family pedigrees claiming descent from the Babylonian Exilarchs — with thousands of living Abravanel/Abarbanel descendants worldwide today!",
+      "notes": "Don Isaac Abravanel (Torah commentator & Treasurer of Portugal/Spain) preserved Iberian family pedigrees claiming Exilarchic Davidic descent.",
       "major": true,
       "biblicalConnected": true
     },
@@ -302,13 +957,13 @@
       "tradition": "biblical",
       "tier": 22,
       "era": "1040 – Present Day (2026 • Living Rabbinic & Hasidic Dynasties)",
-      "role": "Primary Ancestral Trunk of Living Ashkenazi & Hasidic Davidic Traditions (Note: Pre-Rashi Link Traditional)",
+      "role": "Primary Ancestral Trunk of Living Ashkenazi & Hasidic Davidic Traditions (Pre-Rashi Link Traditional)",
       "sources": [
         "Seder Olam Zuta",
         "Letter of Sherira Gaon",
         "Rabbinic Genealogical Archives"
       ],
-      "notes": "Historically proven lineages descend continuously from Rashi (Rabbi Shlomo Yitzchaki, Troyes, 1040-1105 -> daughters Yocheved, Miriam & Rachel -> Rabbeinu Tam) and the Maharal of Prague (1525-1609) into living families today (Katzenellenbogen, Luria, Horowitz, Shapiro, Treves, Charlap, Dayan [incl. Moshe Dayan], & Chabad-Lubavitch Schneersohns). Scholarly integrity note: modern genealogists (Avotaynu) note the pre-1040 bridge from Rashi/Maharal back to Hillel & King David is traditional rather than contemporaneously documented.",
+      "notes": "Historically proven lineages descend continuously from Rashi (1040-1105) and Maharal of Prague (1525-1609) into living families today.",
       "major": true,
       "biblicalConnected": true
     },
@@ -329,7 +984,7 @@
         "Behar et al. 2017",
         "FTDNA / YFull J-Z18271"
       ],
-      "notes": "Over 46% of living Ashkenazi and Sephardic Kohanim (and Samaritan priestly lines) share an extended Y-chromosome signature on Haplogroup J1-P58 (specifically clade J-Z18271, TMRCA ~3,100 yrs ago) — directly matching the Iron Age Levantine timeframe of the Aaronite priesthood!",
+      "notes": "Over 46% of living Ashkenazi and Sephardic Kohanim (and Samaritan priestly lines) share Y-DNA clade J1-Z18271 (TMRCA ~3,100 yrs ago).",
       "major": true,
       "biblicalConnected": false
     },
@@ -349,493 +1004,9 @@
         "YFull J-L859 / FGC8703 Phylogeny",
         "Arabian Y-DNA Consortium"
       ],
-      "notes": "Modern whole-Y sequencing of geographically separated Ashraf/Sayyid families across Jordan, Hejaz, Iraq, Yemen & Morocco reveals a striking shared J1-P58 downstream clade (J1-L859 / FGC8703) coalescing ~1,400–1,600 years ago — providing independent genetic corroboration of medieval Quraysh/Hashemite patrilineal continuity!",
+      "notes": "Whole-Y sequencing of separated Ashraf/Sayyid families across Jordan, Hejaz, Iraq, Yemen & Morocco converges on Y-DNA J1-L859 / FGC8703.",
       "major": true,
       "biblicalConnected": false
-    },
-    {
-      "id": "modr_has_01_1_qatadah_ibn_idris_emir_of_",
-      "name": "1. Qatadah ibn Idris (Emir of Mecca, 1201-1220)",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_02_2_ali_al_akbar_ibn_qatadah",
-      "name": "2. Ali al-Akbar ibn Qatadah",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_03_3_abu_sa_d_al_hasan_ibn_ali",
-      "name": "3. Abu Sa'd al-Hasan ibn Ali",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_04_4_muhammad_abu_numayy_i_d_13",
-      "name": "4. Muhammad Abu Numayy I (d. 1301)",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_05_5_rumaithah_ibn_abu_numayy_i",
-      "name": "5. Rumaithah ibn Abu Numayy I",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_06_6_ajlan_ibn_rumaithah",
-      "name": "6. Ajlan ibn Rumaithah",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_07_7_ali_ibn_ajlan",
-      "name": "7. Ali ibn Ajlan",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_08_8_hasan_ibn_ajlan",
-      "name": "8. Hasan ibn Ajlan",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_09_9_barakat_i_ibn_hasan",
-      "name": "9. Barakat I ibn Hasan",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_10_10_muhammad_ibn_barakat",
-      "name": "10. Muhammad ibn Barakat",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_11_11_barakat_ii_ibn_muhammad",
-      "name": "11. Barakat II ibn Muhammad",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_12_12_muhammad_abu_numayy_ii_15",
-      "name": "12. Muhammad Abu Numayy II (1525-1584)",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_13_13_hasan_ibn_abu_numayy_ii",
-      "name": "13. Hasan ibn Abu Numayy II",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_14_14_abdullah_ibn_hasan_ancest",
-      "name": "14. Abdullah ibn Hasan (Ancestor of Abadilah)",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_15_15_hussein_16_abdullah_17_mu",
-      "name": "15. Hussein -> 16. Abdullah -> 17. Muhsin -> 18. Awn",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_16_19_abd_al_mu_in_20_muhammad_",
-      "name": "19. Abd al-Mu'in -> 20. Muhammad -> 21. Ali Pasha",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_17_22_sharif_hussein_bin_ali_ki",
-      "name": "22. Sharif Hussein bin Ali (King of Hejaz, 1854-1931)",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_18_23_king_abdullah_i_of_jordan",
-      "name": "23. King Abdullah I of Jordan & King Faisal I of Iraq",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_has_19_24_king_talal_king_hussein_o",
-      "name": "24. King Talal -> King Hussein of Jordan (1935-1999)",
-      "altNames": [],
-      "tradition": "arabian",
-      "tier": 20,
-      "era": "1201-1999 CE (Banu Qatadah)",
-      "role": "Sharif of Mecca / Hashemite Monarch",
-      "sources": [
-        "Meccan Sharifate Chronicles",
-        "Hashemite Royal Court"
-      ],
-      "notes": "Sharif of Mecca / Hashemite Monarch (1201-1999 CE (Banu Qatadah)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_eth_01_wedem_arad_son_of_yekuno_aml",
-      "name": "Wedem Arad (Son of Yekuno Amlak)",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 21,
-      "era": "1270-1975 CE (Solomonic Dynasty)",
-      "role": "Solomonic Emperor / Prince of Ethiopia",
-      "sources": [
-        "Ethiopian Royal Chronicles"
-      ],
-      "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_eth_02_amda_seyon_i_1314_1344",
-      "name": "Amda Seyon I (1314-1344)",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 21,
-      "era": "1270-1975 CE (Solomonic Dynasty)",
-      "role": "Solomonic Emperor / Prince of Ethiopia",
-      "sources": [
-        "Ethiopian Royal Chronicles"
-      ],
-      "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_eth_03_newaya_krestos_dawit_i",
-      "name": "Newaya Krestos -> Dawit I",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 21,
-      "era": "1270-1975 CE (Solomonic Dynasty)",
-      "role": "Solomonic Emperor / Prince of Ethiopia",
-      "sources": [
-        "Ethiopian Royal Chronicles"
-      ],
-      "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_eth_04_emperor_zara_yaqob_1434_1468",
-      "name": "Emperor Zara Yaqob (1434-1468)",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 21,
-      "era": "1270-1975 CE (Solomonic Dynasty)",
-      "role": "Solomonic Emperor / Prince of Ethiopia",
-      "sources": [
-        "Ethiopian Royal Chronicles"
-      ],
-      "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_eth_05_ba_eda_maryam_i_naod",
-      "name": "Ba'eda Maryam I -> Naod",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 21,
-      "era": "1270-1975 CE (Solomonic Dynasty)",
-      "role": "Solomonic Emperor / Prince of Ethiopia",
-      "sources": [
-        "Ethiopian Royal Chronicles"
-      ],
-      "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_eth_06_dawit_ii_lebna_dengel_1508_1",
-      "name": "Dawit II / Lebna Dengel (1508-1540)",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 21,
-      "era": "1270-1975 CE (Solomonic Dynasty)",
-      "role": "Solomonic Emperor / Prince of Ethiopia",
-      "sources": [
-        "Ethiopian Royal Chronicles"
-      ],
-      "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_eth_07_abeto_yaqob_segwe_qal_werede",
-      "name": "Abeto Yaqob -> Segwe Qal -> Werede Qal -> Libse Qal",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 21,
-      "era": "1270-1975 CE (Solomonic Dynasty)",
-      "role": "Solomonic Emperor / Prince of Ethiopia",
-      "sources": [
-        "Ethiopian Royal Chronicles"
-      ],
-      "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_eth_08_negasi_krestos_1st_ruler_of_",
-      "name": "Negasi Krestos (1st Ruler of Shewa, 1682)",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 21,
-      "era": "1270-1975 CE (Solomonic Dynasty)",
-      "role": "Solomonic Emperor / Prince of Ethiopia",
-      "sources": [
-        "Ethiopian Royal Chronicles"
-      ],
-      "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_eth_09_sebaste_abuye_amha_iyesus_as",
-      "name": "Sebaste -> Abuye -> Amha Iyesus -> Asfa Wossen -> Wossen Seged",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 21,
-      "era": "1270-1975 CE (Solomonic Dynasty)",
-      "role": "Solomonic Emperor / Prince of Ethiopia",
-      "sources": [
-        "Ethiopian Royal Chronicles"
-      ],
-      "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_eth_10_negus_sahle_selassie_of_shew",
-      "name": "Negus Sahle Selassie of Shewa (1813-1847)",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 21,
-      "era": "1270-1975 CE (Solomonic Dynasty)",
-      "role": "Solomonic Emperor / Prince of Ethiopia",
-      "sources": [
-        "Ethiopian Royal Chronicles"
-      ],
-      "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_eth_11_princess_tenagnework_sahle_s",
-      "name": "Princess Tenagnework Sahle Selassie -> Ras Makonnen",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 21,
-      "era": "1270-1975 CE (Solomonic Dynasty)",
-      "role": "Solomonic Emperor / Prince of Ethiopia",
-      "sources": [
-        "Ethiopian Royal Chronicles"
-      ],
-      "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "modr_eth_12_emperor_menelik_ii_victor_of",
-      "name": "Emperor Menelik II (Victor of Adwa, 1896)",
-      "altNames": [],
-      "tradition": "african",
-      "tier": 21,
-      "era": "1270-1975 CE (Solomonic Dynasty)",
-      "role": "Solomonic Emperor / Prince of Ethiopia",
-      "sources": [
-        "Ethiopian Royal Chronicles"
-      ],
-      "notes": "Solomonic Emperor / Prince of Ethiopia (1270-1975 CE (Solomonic Dynasty)).",
-      "major": false,
-      "biblicalConnected": true
     }
   ],
   "edges": [
@@ -864,6 +1035,174 @@
       "label": "Dynastic / Genealogical Succession"
     },
     {
+      "from": "mod_hasan_muthanna",
+      "to": "modr_has_01_1_qatadah_ibn_idris_emir_of_",
+      "type": "direct",
+      "label": "Idris -> son Qatadah ibn Idris (1st Qatadid Sharif)"
+    },
+    {
+      "from": "mod_qatadah_sharifs",
+      "to": "modr_has_01_1_qatadah_ibn_idris_emir_of_",
+      "type": "direct",
+      "label": "Qatadid anchor link"
+    },
+    {
+      "from": "modr_has_01_1_qatadah_ibn_idris_emir_of_",
+      "to": "modr_has_02_2_ali_al_akbar_ibn_qatadah",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_02_2_ali_al_akbar_ibn_qatadah",
+      "to": "modr_has_03_3_abu_sa_d_al_hasan_ibn_ali",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_03_3_abu_sa_d_al_hasan_ibn_ali",
+      "to": "modr_has_04_4_muhammad_abu_numayy_i_d_13",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_04_4_muhammad_abu_numayy_i_d_13",
+      "to": "modr_has_05_5_rumaithah_ibn_abu_numayy_i",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_05_5_rumaithah_ibn_abu_numayy_i",
+      "to": "modr_has_06_6_ajlan_ibn_rumaithah",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_06_6_ajlan_ibn_rumaithah",
+      "to": "modr_has_07_7_ali_ibn_ajlan",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_07_7_ali_ibn_ajlan",
+      "to": "modr_has_08_8_hasan_ibn_ajlan",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_08_8_hasan_ibn_ajlan",
+      "to": "modr_has_09_9_barakat_i_ibn_hasan",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_09_9_barakat_i_ibn_hasan",
+      "to": "modr_has_10_10_muhammad_ibn_barakat",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_10_10_muhammad_ibn_barakat",
+      "to": "modr_has_11_11_barakat_ii_ibn_muhammad",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_11_11_barakat_ii_ibn_muhammad",
+      "to": "modr_has_12_12_muhammad_abu_numayy_ii_15",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_12_12_muhammad_abu_numayy_ii_15",
+      "to": "modr_has_13_13_hasan_ibn_abu_numayy_ii",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_13_13_hasan_ibn_abu_numayy_ii",
+      "to": "modr_has_14_14_abdullah_ibn_hasan_ancest",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_14_14_abdullah_ibn_hasan_ancest",
+      "to": "modr_has_15_15_hussein_16_abdullah_17_mu",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_15_15_hussein_16_abdullah_17_mu",
+      "to": "modr_has_16_abdullah",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_16_abdullah",
+      "to": "modr_has_17_muhsin",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_17_muhsin",
+      "to": "modr_has_18_awn",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_18_awn",
+      "to": "modr_has_16_19_abd_al_mu_in_20_muhammad_",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_16_19_abd_al_mu_in_20_muhammad_",
+      "to": "modr_has_20_muhammad",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_20_muhammad",
+      "to": "modr_has_21_ali_pasha",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_21_ali_pasha",
+      "to": "modr_has_17_22_sharif_hussein_bin_ali_ki",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_17_22_sharif_hussein_bin_ali_ki",
+      "to": "modr_has_18_23_king_abdullah_i_of_jordan",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_18_23_king_abdullah_i_of_jordan",
+      "to": "modr_has_19_24_king_talal_king_hussein_o",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_19_24_king_talal_king_hussein_o",
+      "to": "modr_has_king_hussein",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_king_hussein",
+      "to": "mod_abdullah2_hussein_iman",
+      "type": "direct",
+      "label": "Father-to-son Hashemite royal succession"
+    },
+    {
+      "from": "modr_has_17_22_sharif_hussein_bin_ali_ki",
+      "to": "modr_has_faisal1_iraq",
+      "type": "direct",
+      "label": "Sharif Hussein bin Ali -> son King Faisal I of Iraq"
+    },
+    {
       "from": "keb_kaleb_gabramaskal_yekuno",
       "to": "mod_eth_yekuno_to_lebna",
       "type": "direct",
@@ -880,6 +1219,120 @@
       "to": "mod_eth_living_2026",
       "type": "direct",
       "label": "Dynastic / Genealogical Succession"
+    },
+    {
+      "from": "mod_eth_yekuno_to_lebna",
+      "to": "modr_eth_01_wedem_arad_son_of_yekuno_aml",
+      "type": "direct",
+      "label": "Yekuno Amlak -> son Wedem Arad"
+    },
+    {
+      "from": "modr_eth_01_wedem_arad_son_of_yekuno_aml",
+      "to": "modr_eth_02_amda_seyon_i_1314_1344",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_02_amda_seyon_i_1314_1344",
+      "to": "modr_eth_03_newaya_krestos_dawit_i",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_03_newaya_krestos_dawit_i",
+      "to": "modr_eth_dawit1",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_dawit1",
+      "to": "modr_eth_04_emperor_zara_yaqob_1434_1468",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_04_emperor_zara_yaqob_1434_1468",
+      "to": "modr_eth_05_ba_eda_maryam_i_naod",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_05_ba_eda_maryam_i_naod",
+      "to": "modr_eth_naod",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_naod",
+      "to": "modr_eth_06_dawit_ii_lebna_dengel_1508_1",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_06_dawit_ii_lebna_dengel_1508_1",
+      "to": "modr_eth_07_abeto_yaqob_segwe_qal_werede",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_07_abeto_yaqob_segwe_qal_werede",
+      "to": "modr_eth_08_negasi_krestos_1st_ruler_of_",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_08_negasi_krestos_1st_ruler_of_",
+      "to": "modr_eth_09_sebaste_abuye_amha_iyesus_as",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_09_sebaste_abuye_amha_iyesus_as",
+      "to": "modr_eth_10_negus_sahle_selassie_of_shew",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_10_negus_sahle_selassie_of_shew",
+      "to": "modr_eth_11_princess_tenagnework_sahle_s",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_11_princess_tenagnework_sahle_s",
+      "to": "modr_eth_ras_makonnen",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_ras_makonnen",
+      "to": "eth_haile_selassie",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "eth_haile_selassie",
+      "to": "mod_eth_living_2026",
+      "type": "direct",
+      "label": "Father/Mother-to-child Solomonic succession to 2026"
+    },
+    {
+      "from": "modr_eth_10_negus_sahle_selassie_of_shew",
+      "to": "modr_eth_haile_melekot",
+      "type": "direct",
+      "label": "Sahle Selassie -> eldest son Haile Melekot"
+    },
+    {
+      "from": "modr_eth_haile_melekot",
+      "to": "modr_eth_12_emperor_menelik_ii_victor_of",
+      "type": "direct",
+      "label": "Haile Melekot -> Emperor Menelik II"
+    },
+    {
+      "from": "mod_eth_shewa_sahle",
+      "to": "eth_haile_selassie",
+      "type": "direct",
+      "label": "Shewan Solomonic anchor -> Emperor Haile Selassie I"
     },
     {
       "from": "geo_bagrationi_davidic",
@@ -918,192 +1371,6 @@
       "label": "Dynastic / Genealogical Succession"
     },
     {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_01_1_qatadah_ibn_idris_emir_of_",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_02_2_ali_al_akbar_ibn_qatadah",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_03_3_abu_sa_d_al_hasan_ibn_ali",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_04_4_muhammad_abu_numayy_i_d_13",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_05_5_rumaithah_ibn_abu_numayy_i",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_06_6_ajlan_ibn_rumaithah",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_07_7_ali_ibn_ajlan",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_08_8_hasan_ibn_ajlan",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_09_9_barakat_i_ibn_hasan",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_10_10_muhammad_ibn_barakat",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_11_11_barakat_ii_ibn_muhammad",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_12_12_muhammad_abu_numayy_ii_15",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_13_13_hasan_ibn_abu_numayy_ii",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_14_14_abdullah_ibn_hasan_ancest",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_15_15_hussein_16_abdullah_17_mu",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_16_19_abd_al_mu_in_20_muhammad_",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_17_22_sharif_hussein_bin_ali_ki",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_18_23_king_abdullah_i_of_jordan",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_qatadah_sharifs",
-      "to": "modr_has_19_24_king_talal_king_hussein_o",
-      "type": "direct",
-      "label": "Banu Qatadah Sharifian Line"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "modr_eth_01_wedem_arad_son_of_yekuno_aml",
-      "type": "direct",
-      "label": "Solomonic Imperial Succession"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "modr_eth_02_amda_seyon_i_1314_1344",
-      "type": "direct",
-      "label": "Solomonic Imperial Succession"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "modr_eth_03_newaya_krestos_dawit_i",
-      "type": "direct",
-      "label": "Solomonic Imperial Succession"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "modr_eth_04_emperor_zara_yaqob_1434_1468",
-      "type": "direct",
-      "label": "Solomonic Imperial Succession"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "modr_eth_05_ba_eda_maryam_i_naod",
-      "type": "direct",
-      "label": "Solomonic Imperial Succession"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "modr_eth_06_dawit_ii_lebna_dengel_1508_1",
-      "type": "direct",
-      "label": "Solomonic Imperial Succession"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "modr_eth_07_abeto_yaqob_segwe_qal_werede",
-      "type": "direct",
-      "label": "Solomonic Imperial Succession"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "modr_eth_08_negasi_krestos_1st_ruler_of_",
-      "type": "direct",
-      "label": "Solomonic Imperial Succession"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "modr_eth_09_sebaste_abuye_amha_iyesus_as",
-      "type": "direct",
-      "label": "Solomonic Imperial Succession"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "modr_eth_10_negus_sahle_selassie_of_shew",
-      "type": "direct",
-      "label": "Solomonic Imperial Succession"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "modr_eth_11_princess_tenagnework_sahle_s",
-      "type": "direct",
-      "label": "Solomonic Imperial Succession"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "modr_eth_12_emperor_menelik_ii_victor_of",
-      "type": "direct",
-      "label": "Solomonic Imperial Succession"
-    },
-    {
       "from": "mod_hasan_muthanna",
       "to": "mod_alaouite_morocco",
       "type": "direct",
@@ -1114,18 +1381,6 @@
       "to": "mod_agakhan5_ismaili",
       "type": "direct",
       "label": "Fatimah & Ali -> Imam Husayn -> Fatimids -> Living Aga Khan V (2025)"
-    },
-    {
-      "from": "mod_eth_shewa_sahle",
-      "to": "eth_haile_selassie",
-      "type": "direct",
-      "label": "Ras Makonnen -> Emperor Haile Selassie I (1892-1975)"
-    },
-    {
-      "from": "eth_haile_selassie",
-      "to": "mod_eth_living_2026",
-      "type": "direct",
-      "label": "Haile Selassie -> Amha Selassie -> Living Princes Zera Yacob & Ermias"
     },
     {
       "from": "bir_sasanians_complete",

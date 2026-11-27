@@ -160,6 +160,12 @@ def main():
         ("rom3_julius_caesar", "mon_rom_caligula", {"direct", "expansion"}, "Julius Caesar -> Julia Minor -> Atia -> Octavia Minor -> Antonia Minor -> Germanicus -> Caligula"),
         ("cls3_abibaal", "cls3_hannibal_barca", {"direct", "expansion"}, "Abibaal -> Hiram I -> Ethbaal I -> Mattan I -> Dido (Carthage) -> Hamilcar -> Hannibal Barca"),
         ("eg_ptolemies_complete", "cls3_ptolemy_mauretania", {"direct", "expansion"}, "Ptolemies -> Cleopatra VII -> Cleopatra Selene II -> King Ptolemy of Mauretania"),
+        ("akl_01_tudiya", "aklr_neo_17_ashur_uballit_ii_612_609_bce", {"direct", "expansion"}, "Tudiya -> Adasi -> Ashur-uballit I -> Shalmaneser III -> Sennacherib -> Ashur-uballit II (Complete AKL)"),
+        ("mes_hammurabi", "babr_10_06_crown_prince_belshazzar_dani", {"direct", "expansion"}, "Hammurabi -> Samsu-iluna -> Kassites -> Nabopolassar -> Nebuchadnezzar II -> Nabonidus -> Belshazzar"),
+        ("per4_achaemenes", "grk_alexander", {"direct", "expansion", "cognate"}, "Achaemenes -> Cyrus the Great -> Atossa + Darius I -> Xerxes I -> Darius III -> Stateira II + Alexander"),
+        ("bib_togarmah", "mod_geo_giorgi_2011", {"direct", "expansion", "syncretic"}, "Togarmah -> Kartlos -> Parnavaz I -> Mirian III -> Vakhtang Gorgasali -> Bagrationis -> Living Prince Giorgi (2011)"),
+        ("tab_adnan_21gen_quraysh", "mod_abdullah2_hussein_iman", {"direct", "expansion"}, "Adnan -> 21-Gen Quraysh -> Prophet Muhammad -> Fatimah -> Hasan -> 24 Qatadid Sharifs -> Living King Abdullah II"),
+        ("ar4_abd_shams", "mon_isl_abdarrahman1", {"direct", "expansion"}, "Abd Shams -> Umayyah -> Marwan I -> Abd al-Malik -> Hisham -> Abd al-Rahman I of Cordoba"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

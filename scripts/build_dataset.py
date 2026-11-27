@@ -42,6 +42,7 @@ from modules import (
     mod43_wave2_biblical_person_by_person,
     mod44_wave2_apocrypha_ginzberg_chronicles,
     mod45_wave3_classical_mediterranean_rome,
+    mod46_wave4_mesopotamia_persia_arabia_chronicles,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1299,6 +1300,7 @@ def main():
         mod43_wave2_biblical_person_by_person.build_module(),
         mod44_wave2_apocrypha_ginzberg_chronicles.build_module(),
         mod45_wave3_classical_mediterranean_rome.build_module(),
+        mod46_wave4_mesopotamia_persia_arabia_chronicles.build_module(),
     ]
 
     for mod in modules:
@@ -1379,8 +1381,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Wave 3 Person-by-Person Mediterranean, Egypt, Greece & Rome Edition (v20.0)",
-            "version": "20.0.0",
+            "title": "Ancient World Genealogy Atlas — Wave 4 Person-by-Person Mesopotamia, Persia, Caucasus & Arabia Edition (v21.0)",
+            "version": "21.0.0",
             "counts": {
                 "total": len(all_nodes),
                 "biblicalConnected": bib_count,
