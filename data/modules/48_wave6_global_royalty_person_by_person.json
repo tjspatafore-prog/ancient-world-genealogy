@@ -1,0 +1,3785 @@
+{
+  "module": "48_wave6_global_royalty_person_by_person",
+  "title": "Wave 6 Person-by-Person Global Royalty (Northern/Central Europe, Habsburgs, Windsors to 2026, Lombards, Iceland/Vinland, Wales, Rajputs, Ladakh, Moghulistan, Malay Annals, African Queens & Historical Figures)",
+  "nodes": [
+    {
+      "id": "eur6_eric_victorious",
+      "name": "King Eric VI the Victorious of Sweden (r. c. 970–995 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 945–995 CE (Heimskringla)",
+      "role": "Munsö King of Sweden",
+      "sources": [
+        "Snorri Sturluson Heimskringla",
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "First historically verified king of unified Sweden; father of Olof Skötkonung.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_olof_skotkonung",
+      "name": "King Olof Skötkonung of Sweden (r. 995–1022 CE; 1st Christian King)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 980–1022 CE (Heimskringla)",
+      "role": "1st Baptized King of Sweden",
+      "sources": [
+        "Snorri Sturluson Heimskringla",
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Father of Ingegerd of Sweden (+ Yaroslav the Wise) and Anund Jacob.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_ingegerd_sweden",
+      "name": "Princess Ingegerd Olofsdotter (St. Anna of Novgorod; Wife of Yaroslav the Wise)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1001–1050 CE (Primary Chronicle; Heimskringla)",
+      "role": "Grand Princess of Kiev Linking Sweden to France, Hungary & England",
+      "sources": [
+        "Snorri Sturluson Heimskringla",
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Married Yaroslav the Wise (1019 CE), mothering Anne of Kiev, Anastasia of Hungary, Elizabeth of Norway & Vsevolod I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_birger_jarl",
+      "name": "Birger Jarl of Bjälbo (Founder of Stockholm, r. 1248–1266 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1210–1266 CE",
+      "role": "Bjälbo Regent & Father of Kings Valdemar & Magnus",
+      "sources": [
+        "Erikskrönikan"
+      ],
+      "notes": "Married Ingeborg of Sweden (descendant of Munsö kings); consolidated medieval Sweden.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_charles9_sweden",
+      "name": "King Charles IX of Sweden (Son of Gustav I Vasa, r. 1604–1611)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1550–1611 CE",
+      "role": "Youngest Son of Gustav Vasa",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Father of Gustavus Adolphus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_gustavus_adolphus",
+      "name": "King Gustavus Adolphus of Sweden (r. 1611–1632; Lion of the North)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1594–1632 CE",
+      "role": "Thirty Years' War Champion",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Father of Queen Christina.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_queen_christina",
+      "name": "Queen Christina of Sweden (r. 1632–1654)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1626–1689 CE",
+      "role": "Learned Sovereign Queen of Sweden",
+      "sources": [
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Daughter of Gustavus Adolphus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_charles12_sweden",
+      "name": "King Charles XII of Sweden (r. 1697–1718)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1682–1718 CE",
+      "role": "Palatinate-Zweibrücken King of Sweden",
+      "sources": [
+        "European Royal Genealogies"
+      ],
+      "notes": "Great Northern War commander.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_carl16_gustaf",
+      "name": "LIVING (2026): King Carl XVI Gustaf of Sweden (b. 1946; Great-Grandson of Queen Victoria via Princess Margaret!)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1946 – Present Day (2026)",
+      "role": "Reigning King of Sweden",
+      "sources": [
+        "European Royal Genealogies"
+      ],
+      "notes": "Descendant of both Gustav Vasa and Queen Victoria.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_crown_princess_victoria",
+      "name": "LIVING (2026): Crown Princess Victoria of Sweden (b. 1977; Future Queen)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1977 – Present Day (2026)",
+      "role": "Heir Apparent to the Swedish Throne",
+      "sources": [
+        "European Royal Genealogies"
+      ],
+      "notes": "Eldest child of King Carl XVI Gustaf.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_gorm_old",
+      "name": "King Gorm the Old of Denmark (r. c. 936–958 CE; Jelling Stones)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. c. 958 CE",
+      "role": "Founder of Danish Jelling Dynasty",
+      "sources": [
+        "Heimskringla",
+        "European Royal Genealogies"
+      ],
+      "notes": "Father of Harald Bluetooth.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_harald_bluetooth",
+      "name": "King Harald I Bluetooth of Denmark & Norway (r. c. 958–986 CE; Christianizer)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. c. 986 CE",
+      "role": "Baptized & Unified Denmark",
+      "sources": [
+        "Heimskringla",
+        "European Royal Genealogies"
+      ],
+      "notes": "Father of Sweyn Forkbeard.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_sweyn_forkbeard",
+      "name": "King Sweyn Forkbeard (+ Gunhild/Sigrid of Poland; King of Denmark & England, d. 1014)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "963–1014 CE",
+      "role": "Father of Cnut the Great & Estrid",
+      "sources": [
+        "Heimskringla",
+        "European Royal Genealogies"
+      ],
+      "notes": "Fathered Cnut the Great.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_valdemar1",
+      "name": "King Valdemar I the Great of Denmark (r. 1157–1182; Grandson of Harald & Kiev!)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1131–1182 CE",
+      "role": "Restorer of Medieval Denmark",
+      "sources": [
+        "Heimskringla",
+        "European Royal Genealogies"
+      ],
+      "notes": "Descendant of Estrid Svendsdatter & Yaroslav the Wise via Canute Lavard & Ingeborg of Kiev.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_queen_margaret1",
+      "name": "Queen Margaret I of Denmark, Norway & Sweden (Architect of Kalmar Union, 1397)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1353–1412 CE",
+      "role": "6th-Gen Descendant of Valdemar I",
+      "sources": [
+        "Heimskringla",
+        "European Royal Genealogies"
+      ],
+      "notes": "Founder of the Kalmar Union.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_christian4_denmark",
+      "name": "King Christian IV of Denmark & Norway (r. 1588–1648; Oldenburg)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1577–1648 CE",
+      "role": "Brother of Queen Anne (+ James VI & I)",
+      "sources": [
+        "Heimskringla",
+        "European Royal Genealogies"
+      ],
+      "notes": "Uncle of King Charles I of England.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_king_frederik10",
+      "name": "LIVING (2026): King Frederik X of Denmark (b. 1968; Glücksburg Heir of Christian IV & Victoria)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1968 – Present Day (2026)",
+      "role": "Reigning King of Denmark",
+      "sources": [
+        "Heimskringla",
+        "European Royal Genealogies"
+      ],
+      "notes": "Acceded in 2024.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_emma_normandy",
+      "name": "Queen Emma of Normandy (Daughter of Richard I; Wife of Ethelred II & Cnut; Mother of Edward the Confessor & Harthacnut)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 984–1052 CE",
+      "role": "Twice Queen of England & Normandy Bridge",
+      "sources": [
+        "Anglo-Saxon Chronicle"
+      ],
+      "notes": "Bridged Norman Dukes with Anglo-Saxon and Danish crowns.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_mieszko1",
+      "name": "Duke Mieszko I of Poland (r. c. 960–992 CE; Baptism of Poland 966)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 930–992 CE (Gallus Anonymus)",
+      "role": "Founder of Christian Polish State",
+      "sources": [
+        "Gallus Anonymus",
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Father of Boleslaw I & Gunhild/Sigríðr.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_boleslaw1_brave",
+      "name": "King Boleslaw I the Brave of Poland (r. 992–1025; 1st Crowned King)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "967–1025 CE",
+      "role": "First Crowned King of Poland",
+      "sources": [
+        "Gallus Anonymus",
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Father of Mieszko II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_mieszko2",
+      "name": "King Mieszko II Lambert of Poland (r. 1025–1034)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 990–1034 CE",
+      "role": "Son of Boleslaw I",
+      "sources": [
+        "Gallus Anonymus",
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Father of Casimir I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_casimir1_poland",
+      "name": "Duke Casimir I the Restorer (+ Maria Dobroniega of Kiev, r. 1039–1058)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1016–1058 CE",
+      "role": "Piast-Rurikid Unifier",
+      "sources": [
+        "Gallus Anonymus",
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Married Yaroslav the Wise's sister Maria Dobroniega of Kiev.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_casimir3_great",
+      "name": "King Casimir III the Great of Poland (r. 1333–1370; Codifier & University Founder)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1310–1370 CE",
+      "role": "Last Piast King of Poland",
+      "sources": [
+        "Gallus Anonymus",
+        "Modern Universal History Vol. 12"
+      ],
+      "notes": "Great lawgiver; sister Elizabeth married Charles I of Hungary -> Louis the Great.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_gunhild_sigrid",
+      "name": "Princess Gunhild / Świętosława of Poland (Daughter of Mieszko I; Mother of Cnut the Great)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "10th–11th c. CE",
+      "role": "Queen of Sweden & Denmark",
+      "sources": [
+        "Adam of Bremen",
+        "Sagas"
+      ],
+      "notes": "Daughter of Mieszko I who wed Eric the Victorious of Sweden and Sweyn Forkbeard of Denmark.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_maria_dobroniega",
+      "name": "Princess Maria Dobroniega of Kiev (Daughter of St. Vladimir; Wife of Casimir I)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1012–1087 CE",
+      "role": "Sister of Yaroslav & Duchess of Poland",
+      "sources": [
+        "Primary Chronicle"
+      ],
+      "notes": "Daughter of St. Vladimir the Great of Kiev; mother of Boleslaw II & Wladyslaw Herman.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_mindaugas",
+      "name": "King Mindaugas of Lithuania (r. c. 1236–1263)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "d. 1263 CE",
+      "role": "First Christian King of Lithuania",
+      "sources": [
+        "Lithuanian Chronicles",
+        "Jan Dlugosz"
+      ],
+      "notes": "United Baltic Aukštaitija.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_gediminas",
+      "name": "Grand Duke Gediminas of Lithuania (r. 1316–1341; Founder of Vilnius)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1275–1341 CE",
+      "role": "Progenitor of Gediminids",
+      "sources": [
+        "Lithuanian Chronicles",
+        "Jan Dlugosz"
+      ],
+      "notes": "Father of Algirdas and Kęstutis.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_algirdas",
+      "name": "Grand Duke Algirdas (+ Uliana of Tver, r. 1345–1377)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1296–1377 CE",
+      "role": "Father of King Jagiello",
+      "sources": [
+        "Lithuanian Chronicles",
+        "Jan Dlugosz"
+      ],
+      "notes": "Wed Rurikid Princess Uliana of Tver.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_wladyslaw2_jagiello",
+      "name": "King Wladyslaw II Jagiello (1386–1434; Victor of Grunwald 1410)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1352–1434 CE",
+      "role": "Founder of Jagiellonian Dynasty",
+      "sources": [
+        "Lithuanian Chronicles",
+        "Jan Dlugosz"
+      ],
+      "notes": "Wed Queen Jadwiga of Poland, uniting Poland and Lithuania.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_casimir4",
+      "name": "King Casimir IV Jagiellon (Son of Jagiello, r. 1447–1492)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1427–1492 CE",
+      "role": "Father of Four Kings",
+      "sources": [
+        "Lithuanian Chronicles",
+        "Jan Dlugosz"
+      ],
+      "notes": "Father of Kings of Poland, Bohemia & Hungary.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_sigismund1_old",
+      "name": "King Sigismund I the Old (+ Bona Sforza, r. 1506–1548)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1467–1548 CE",
+      "role": "Polish Renaissance Golden Age",
+      "sources": [
+        "Lithuanian Chronicles",
+        "Jan Dlugosz"
+      ],
+      "notes": "Son of Casimir IV.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_john3_sobieski",
+      "name": "King John III Sobieski of Poland-Lithuania (r. 1674–1696; Relief of Vienna 1683)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1629–1696 CE",
+      "role": "Defender of Vienna (1683)",
+      "sources": [
+        "Lithuanian Chronicles",
+        "Jan Dlugosz"
+      ],
+      "notes": "Maternal lineage connected back to Rurikid & Polish nobility.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_vytautas_great",
+      "name": "Grand Duke Vytautas the Great of Lithuania (Son of Kęstutis; Cousin of Jagiello, 1392–1430)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1350–1430 CE",
+      "role": "Great Sovereign of Lithuania (Grunwald 1410)",
+      "sources": [
+        "Lithuanian Chronicles"
+      ],
+      "notes": "Daughter Sophia of Lithuania married Grand Prince Vasily I of Moscow.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_queen_jadwiga",
+      "name": "Queen St. Jadwiga of Poland (Daughter of Louis I of Hungary; Rex Poloniae, 1384–1399)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1373–1399 CE",
+      "role": "Piast-Capetian Queen Regnant of Poland",
+      "sources": [
+        "Jan Dlugosz"
+      ],
+      "notes": "Married Grand Duke Jagiello (Wladyslaw II), uniting Poland & Lithuania.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_almos",
+      "name": "Chieftain Álmos (Father of Árpád, c. 820–895 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 820–895 CE",
+      "role": "Progenitor of Hungarian Árpád House",
+      "sources": [
+        "Hungarian Illuminated Chronicle",
+        "Modern Universal History"
+      ],
+      "notes": "Led Magyars westward.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_arpad",
+      "name": "Grand Prince Árpád of Hungary (r. c. 895–907 CE; Conquest of Carpathian Basin)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 845–907 CE",
+      "role": "Founder of Árpád Dynasty",
+      "sources": [
+        "Hungarian Illuminated Chronicle",
+        "Modern Universal History"
+      ],
+      "notes": "Father of Zoltán.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_st_stephen1",
+      "name": "King St. Stephen I of Hungary (r. 1000–1038 CE; 1st Christian King)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 975–1038 CE",
+      "role": "Apostolic King & Patron of Hungary",
+      "sources": [
+        "Hungarian Illuminated Chronicle",
+        "Modern Universal History"
+      ],
+      "notes": "Great-great-grandson of Árpád; wed Gisela of Bavaria.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_andrew1_hungary",
+      "name": "King Andrew I of Hungary (+ Anastasia of Kiev, r. 1046–1060)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1015–1060 CE",
+      "role": "Árpád Cousin & Son-in-Law of Yaroslav",
+      "sources": [
+        "Hungarian Illuminated Chronicle",
+        "Modern Universal History"
+      ],
+      "notes": "Married Anastasia Yaroslavna of Kiev.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_bela3",
+      "name": "King Béla III of Hungary (+ Margaret of France, r. 1172–1196)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1148–1196 CE",
+      "role": "Árpád-Capetian Union",
+      "sources": [
+        "Hungarian Illuminated Chronicle",
+        "Modern Universal History"
+      ],
+      "notes": "Father of Andrew II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_andrew2",
+      "name": "King Andrew II of Hungary (r. 1205–1235; Golden Bull 1222)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1177–1235 CE",
+      "role": "Father of St. Elizabeth & Béla IV",
+      "sources": [
+        "Hungarian Illuminated Chronicle",
+        "Modern Universal History"
+      ],
+      "notes": "Issued the Golden Bull of 1222.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_bela4",
+      "name": "King Béla IV of Hungary (Rebuilder after Mongol Invasion, r. 1235–1270)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1206–1270 CE",
+      "role": "Second Founder of Hungary",
+      "sources": [
+        "Hungarian Illuminated Chronicle",
+        "Modern Universal History"
+      ],
+      "notes": "Grandfather of Charles I & Kunigunda of Bohemia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_louis1_great",
+      "name": "King Louis I the Great of Hungary & Poland (Anjou-Capet, r. 1342–1382)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1326–1382 CE",
+      "role": "Unifier of Hungary & Poland Crowns",
+      "sources": [
+        "Hungarian Illuminated Chronicle",
+        "Modern Universal History"
+      ],
+      "notes": "Father of Queen Jadwiga of Poland and Queen Mary of Hungary.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_st_elizabeth_hungary",
+      "name": "Princess St. Elizabeth of Hungary (Daughter of Andrew II, 1207–1231)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1207–1231 CE",
+      "role": "Árpád Princess of Thuringia",
+      "sources": [
+        "Hungarian Chronicles"
+      ],
+      "notes": "Daughter of King Andrew II & Gertrude of Merania.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_john_hunyadi",
+      "name": "Regent John Hunyadi (Defender of Belgrade 1456, d. 1456)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1406–1456 CE",
+      "role": "Voivode & Regent of Hungary",
+      "sources": [
+        "European Chronicles"
+      ],
+      "notes": "Father of King Matthias Corvinus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_matthias_corvinus",
+      "name": "King Matthias Corvinus of Hungary (r. 1458–1490; Bibliotheca Corviniana)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1443–1490 CE",
+      "role": "Renaissance King of Hungary",
+      "sources": [
+        "European Chronicles"
+      ],
+      "notes": "Son of John Hunyadi; famed Renaissance patron.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_st_wenceslas1",
+      "name": "Duke St. Wenceslas I of Bohemia (Přemyslid Martyr, r. 921–935 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 907–935 CE",
+      "role": "Patron Saint of Bohemia / Czechia",
+      "sources": [
+        "Cosmas of Prague"
+      ],
+      "notes": "Grandson of St. Ludmila & Bořivoj I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_ottokar2",
+      "name": "King Ottokar II of Bohemia (r. 1253–1278; + Kunigunda of Kiev/Hungary)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1233–1278 CE",
+      "role": "Iron and Golden King of Bohemia",
+      "sources": [
+        "Cosmas of Prague"
+      ],
+      "notes": "Married Kunigunda (granddaughter of Béla IV & Rostislav of Kiev).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_emperor_charles4",
+      "name": "Emperor & King Charles IV of Bohemia (r. 1346–1378; Golden Bull & Charles Univ.)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1316–1378 CE",
+      "role": "Přemyslid-Luxembourg Emperor",
+      "sources": [
+        "European Chronicles"
+      ],
+      "notes": "Son of Queen Elisabeth of Bohemia (Přemyslid); father of Sigismund & Anne of Bohemia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_anne_bohemia",
+      "name": "Queen Anne of Bohemia (Daughter of Charles IV; Wife of King Richard II of England)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1366–1394 CE",
+      "role": "Beloved Queen Consort of England",
+      "sources": [
+        "English Chronicles"
+      ],
+      "notes": "Daughter of Emperor Charles IV who wed King Richard II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_bonne_bohemia",
+      "name": "Princess Bonne of Bohemia (Sister of Charles IV; Wife of King John II of France)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1315–1349 CE",
+      "role": "Ancestral Mother of Valois Kings of France",
+      "sources": [
+        "French Chronicles"
+      ],
+      "notes": "Mother of Charles V the Wise of France.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur6_emperor_sigismund",
+      "name": "Emperor Sigismund of Luxembourg (Son of Charles IV; King of Hungary & Bohemia)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1368–1437 CE",
+      "role": "Holy Roman Emperor & Knightly Sovereign",
+      "sources": [
+        "European Chronicles"
+      ],
+      "notes": "Daughter Elizabeth of Luxembourg wed Habsburg Albert II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_eleanor_aquitaine",
+      "name": "Queen Eleanor of Aquitaine (Duchess of Aquitaine; Queen of France & England, 1122–1204)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1122–1204 CE",
+      "role": "Mother of Richard I, King John & Eleanor of Castile",
+      "sources": [
+        "Chronicles of England & France"
+      ],
+      "notes": "Mother of Europe's greatest medieval royal network.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_blanche_castile",
+      "name": "Queen Blanche of Castile (Granddaughter of Eleanor; Mother of King St. Louis IX of France)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1188–1252 CE",
+      "role": "Queen Regent of France",
+      "sources": [
+        "French Royal Chronicles"
+      ],
+      "notes": "Daughter of Alfonso VIII & Eleanor of England; mother of St. Louis IX.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_juana_mad",
+      "name": "Queen Juana of Castile & Aragon ('Juana la Loca', Daughter of Ferdinand & Isabella, 1479–1555)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1479–1555 CE",
+      "role": "Spanish-Habsburg Heiress",
+      "sources": [
+        "Mariana Spain"
+      ],
+      "notes": "Married Philip the Handsome; mother of Emperor Charles V & Ferdinand I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_philip_handsome",
+      "name": "Archduke Philip the Handsome of Burgundy (Son of Emperor Maximilian I; Father of Charles V)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1478–1506 CE",
+      "role": "Habsburg Prince & King Consort of Castile",
+      "sources": [
+        "Betham Tables"
+      ],
+      "notes": "Son of Maximilian I & Mary of Burgundy.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_catherine_aragon",
+      "name": "Queen Catherine of Aragon (Daughter of Ferdinand & Isabella; Mother of Mary I of England)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1485–1536 CE",
+      "role": "Spanish Princess & 1st Queen of Henry VIII",
+      "sources": [
+        "English Chronicles"
+      ],
+      "notes": "Mother of Queen Mary I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_ferdinand1_hre",
+      "name": "Emperor Ferdinand I (Son of Philip & Juana; King of Bohemia & Hungary, 1556–1564)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1503–1564 CE",
+      "role": "Founder of Austrian Habsburg Line",
+      "sources": [
+        "Betham Tables"
+      ],
+      "notes": "Brother of Charles V.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_joseph2_hre",
+      "name": "Emperor Joseph II (Eldest Son of Maria Theresa, r. 1765–1790)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1741–1790 CE",
+      "role": "Enlightened Habsburg Emperor",
+      "sources": [
+        "Betham Tables"
+      ],
+      "notes": "Eldest son of Empress Maria Theresa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_leopold2_hre",
+      "name": "Emperor Leopold II (Son of Maria Theresa; Father of Emperor Francis II, r. 1790–1792)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1747–1792 CE",
+      "role": "Holy Roman Emperor",
+      "sources": [
+        "Betham Tables"
+      ],
+      "notes": "Grandfather of Habsburg Emperor Franz Joseph.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_marie_antoinette",
+      "name": "Queen Marie Antoinette of France (Daughter of Maria Theresa; Wife of Louis XVI, d. 1793)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1755–1793 CE",
+      "role": "Archduchess of Austria & Queen of France",
+      "sources": [
+        "French Chronicles"
+      ],
+      "notes": "Daughter of Empress Maria Theresa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_napoleon2",
+      "name": "Napoleon II Bonaparte ('L'Aiglon', King of Rome; Son of Napoleon I & Marie Louise, 1811–1832)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1811–1832 CE",
+      "role": "Son of Napoleon & Habsburg Archduchess",
+      "sources": [
+        "Modern European History"
+      ],
+      "notes": "United Bonaparte and Habsburg bloodlines.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_cosimo_medici",
+      "name": "Cosimo de' Medici ('Pater Patriae' of Florence, 1389–1464)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1389–1464 CE",
+      "role": "Founder of Medici Political Dynasty",
+      "sources": [
+        "Florentine Chronicles"
+      ],
+      "notes": "Patron of Renaissance humanism.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_lorenzo_magnificent",
+      "name": "Lorenzo de' Medici ('Il Magnifico', 1449–1492; Patron of Leonardo & Michelangelo)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1449–1492 CE",
+      "role": "Grandson of Cosimo; Father of Pope Leo X",
+      "sources": [
+        "Vasari Lives"
+      ],
+      "notes": "Great Renaissance statesman.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_catherine_medici",
+      "name": "Queen Catherine de' Medici (Great-Granddaughter of Lorenzo; Queen of France by Henry II)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1519–1589 CE",
+      "role": "Mother of Francis II, Charles IX & Henry III",
+      "sources": [
+        "French Chronicles"
+      ],
+      "notes": "Dominant Renaissance queen mother of Valois France.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_marie_medici",
+      "name": "Queen Marie de' Medici (Granddaughter of Emperor Ferdinand I; Wife of King Henry IV of France)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1575–1642 CE",
+      "role": "Mother of Louis XIII & Queen Henrietta Maria",
+      "sources": [
+        "French Chronicles"
+      ],
+      "notes": "Mother of Louis XIII and grandmother of Charles II & James II of England.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_kaiser_wilhelm1",
+      "name": "German Emperor Kaiser Wilhelm I of Prussia (1797–1888)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1797–1888 CE",
+      "role": "1st German Emperor (1871)",
+      "sources": [
+        "German Imperial Registers"
+      ],
+      "notes": "Descendant of Frederick William & Hohenzollern electors.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_princess_victoria_royal",
+      "name": "Empress Victoria / Princess Royal (Eldest Daughter of Queen Victoria; Mother of Kaiser Wilhelm II)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1840–1901 CE",
+      "role": "British Princess & German Empress",
+      "sources": [
+        "Burke's Royal Genealogies"
+      ],
+      "notes": "Married Frederick III of Prussia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_frederick3_prussia",
+      "name": "German Emperor Frederick III (Son of Wilhelm I; Husband of Victoria, r. 1888)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1831–1888 CE",
+      "role": "German Emperor & Father of Wilhelm II",
+      "sources": [
+        "Burke's Royal Genealogies"
+      ],
+      "notes": "Father of Kaiser Wilhelm II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_kaiser_wilhelm2",
+      "name": "German Emperor Kaiser Wilhelm II (Son of Frederick III & Victoria, r. 1888–1918)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1859–1941 CE",
+      "role": "Last German Emperor & Grandson of Queen Victoria",
+      "sources": [
+        "Burke's Royal Genealogies"
+      ],
+      "notes": "First cousin of King George V and Tsaritsa Alexandra.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_electress_sophia",
+      "name": "Electress Sophia of Hanover (Granddaughter of King James I; Act of Settlement 1701)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1630–1714 CE",
+      "role": "Stuart Mother of Hanoverian Line",
+      "sources": [
+        "Burke's Royal Genealogies",
+        "Howell (1685)"
+      ],
+      "notes": "Daughter of Elizabeth Stuart & Frederick V; mother of King George I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_edward7",
+      "name": "King Edward VII (Son of Queen Victoria & Prince Albert, r. 1901–1910)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1841–1910 CE",
+      "role": "First Saxe-Coburg-Gotha King",
+      "sources": [
+        "Burke's Royal Genealogies",
+        "Howell (1685)"
+      ],
+      "notes": "Married Alexandra of Denmark.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_george5",
+      "name": "King George V (Son of Edward VII; Renamed House of Windsor 1917, r. 1910–1936)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1865–1936 CE",
+      "role": "Founder of House of Windsor",
+      "sources": [
+        "Burke's Royal Genealogies",
+        "Howell (1685)"
+      ],
+      "notes": "Father of Edward VIII & George VI.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_george6",
+      "name": "King George VI (Son of George V, r. 1936–1952)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1895–1952 CE",
+      "role": "WWII British Monarch",
+      "sources": [
+        "Burke's Royal Genealogies",
+        "Howell (1685)"
+      ],
+      "notes": "Father of Queen Elizabeth II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_elizabeth2",
+      "name": "Queen Elizabeth II (r. 1952–2022; Longest-Reigning British Monarch)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1926–2022 CE",
+      "role": "Queen of the United Kingdom & Commonwealth",
+      "sources": [
+        "Burke's Royal Genealogies",
+        "Howell (1685)"
+      ],
+      "notes": "Daughter of George VI; wed Prince Philip of Greece & Denmark.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_king_charles3",
+      "name": "LIVING (2026): King Charles III of the United Kingdom (b. 1948, r. 2022–present)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1948 – Present Day (2026)",
+      "role": "Reigning Sovereign of the United Kingdom",
+      "sources": [
+        "Burke's Royal Genealogies",
+        "Howell (1685)"
+      ],
+      "notes": "Eldest son of Queen Elizabeth II & Prince Philip.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_prince_william",
+      "name": "LIVING (2026): William, Prince of Wales (b. 1982; Son of King Charles III & Diana)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1982 – Present Day (2026)",
+      "role": "Heir Apparent to the British Crown",
+      "sources": [
+        "Burke's Royal Genealogies",
+        "Howell (1685)"
+      ],
+      "notes": "Father of Prince George, Princess Charlotte & Prince Louis.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_prince_george",
+      "name": "LIVING (2026): Prince George of Wales (b. 2013; Future Windsor Heir)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "2013 – Present Day (2026)",
+      "role": "Eldest Child of Prince William",
+      "sources": [
+        "Burke's Royal Genealogies",
+        "Howell (1685)"
+      ],
+      "notes": "2nd in line to the British throne.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_prince_albert",
+      "name": "Prince Albert of Saxe-Coburg & Gotha (1819–1861; Consort of Queen Victoria)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1819–1861 CE",
+      "role": "Father of Nine Royal Children Across Europe",
+      "sources": [
+        "Burke's Royal Genealogies"
+      ],
+      "notes": "First cousin and husband of Queen Victoria.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_tsar_paul1",
+      "name": "Emperor Paul I of Russia (Son of Peter III & Catherine II, r. 1796–1801)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1754–1801 CE",
+      "role": "Romanov-Holstein-Gottorp Emperor",
+      "sources": [
+        "Russian Imperial Registers",
+        "Burke's Royal Genealogies"
+      ],
+      "notes": "Father of Emperors Alexander I & Nicholas I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_tsar_alexander1",
+      "name": "Emperor Alexander I of Russia (r. 1801–1825; Defeated Napoleon 1812)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1777–1825 CE",
+      "role": "Victor of Patriotic War of 1812",
+      "sources": [
+        "Russian Imperial Registers",
+        "Burke's Royal Genealogies"
+      ],
+      "notes": "Eldest son of Paul I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_tsar_alexander2",
+      "name": "Emperor Alexander II the Liberator (Son of Nicholas I, r. 1855–1881)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1818–1881 CE",
+      "role": "Emancipator of the Serfs (1861)",
+      "sources": [
+        "Russian Imperial Registers",
+        "Burke's Royal Genealogies"
+      ],
+      "notes": "Father of Alexander III; grandfather of Nicholas II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_tsar_nicholas2",
+      "name": "Emperor Tsar Nicholas II (Son of Alexander III, r. 1894–1917)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1868–1918 CE",
+      "role": "Last Emperor of All Russia",
+      "sources": [
+        "Russian Imperial Registers",
+        "Burke's Royal Genealogies"
+      ],
+      "notes": "Married Alix of Hesse (Empress Alexandra, granddaughter of Queen Victoria).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_anastasia_romanov",
+      "name": "Grand Duchess Anastasia Nikolaevna (Daughter of Nicholas II & Alexandra, 1901–1918)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1901–1918 CE",
+      "role": "Youngest Daughter of Tsar Nicholas II",
+      "sources": [
+        "Russian Imperial Registers",
+        "Burke's Royal Genealogies"
+      ],
+      "notes": "Great-granddaughter of Queen Victoria.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_empress_alexandra",
+      "name": "Empress Alexandra Feodorovna / Alix of Hesse (Granddaughter of Queen Victoria; Wife of Nicholas II)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1872–1918 CE",
+      "role": "Last Tsaritsa of Russia",
+      "sources": [
+        "Burke's Royal Genealogies"
+      ],
+      "notes": "Daughter of Princess Alice (daughter of Queen Victoria).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_anna_komnene",
+      "name": "Princess Anna Komnene (1083–1153; Historian Author of The Alexiad)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "1083–1153 CE",
+      "role": "Daughter of Emperor Alexios I Komnenos",
+      "sources": [
+        "Anna Komnene Alexiad"
+      ],
+      "notes": "Renowned medieval historian of the Komnenian Byzantine court.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy6_sophia_palaiologina",
+      "name": "Princess Zoe / Sophia Palaiologina (Niece of Constantine XI; Wife of Ivan III of Moscow)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 21,
+      "era": "c. 1449–1503 CE",
+      "role": "Byzantine Heir Bridging Constantinople to Moscow",
+      "sources": [
+        "Russian Chronicles"
+      ],
+      "notes": "Grandmother of Tsar Ivan IV the Terrible.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_gambara",
+      "name": "Matriarch Gambara of the Winnili / Lombards (Paul the Deacon Book I)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 17,
+      "era": "c. 4th c. CE",
+      "role": "Founding Lombard Matriarch",
+      "sources": [
+        "Paul the Deacon Historia Langobardorum"
+      ],
+      "notes": "Counselor mother of Ibor and Aio.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_ibor_aio",
+      "name": "Duke Ibor & Duke Aio (Sons of Gambara)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 17,
+      "era": "c. 4th c. CE",
+      "role": "Leaders of Lombard Migration",
+      "sources": [
+        "Paul the Deacon Historia Langobardorum"
+      ],
+      "notes": "Led the Lombards out of Scandinavia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_agelmund",
+      "name": "King Agelmund (Son of Aio; 1st King of Lombards, 33 yrs)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "c. 5th c. CE",
+      "role": "1st Sovereign King of Lombards",
+      "sources": [
+        "Paul the Deacon Historia Langobardorum"
+      ],
+      "notes": "First crowned king in Historia Langobardorum.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_alboin",
+      "name": "King Alboin of Lombardy (Son of Audoin; Conqueror of Italy 568 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "r. 560–572 CE",
+      "role": "Founder of Lombard Kingdom of Italy",
+      "sources": [
+        "Paul the Deacon Historia Langobardorum"
+      ],
+      "notes": "Conquered northern Italy (Lombardy).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_authari",
+      "name": "King Authari (+ Catholic Queen Theodelinda of Bavaria, r. 584–590 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "r. 584–590 CE",
+      "role": "Lombard Monarch of Pavia",
+      "sources": [
+        "Paul the Deacon Historia Langobardorum"
+      ],
+      "notes": "Married Bavarian princess Theodelinda.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_rothari",
+      "name": "King Rothari (Promulgated Edictum Rothari 643 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "r. 636–652 CE",
+      "role": "Lombard Lawgiver King",
+      "sources": [
+        "Paul the Deacon Historia Langobardorum"
+      ],
+      "notes": "Codified Lombard customary law.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_liutprand",
+      "name": "King Liutprand of the Lombards (r. 712–744 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "r. 712–744 CE",
+      "role": "Greatest Lombard King of Italy",
+      "sources": [
+        "Paul the Deacon Historia Langobardorum"
+      ],
+      "notes": "Height of Lombard Italy.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_desiderius",
+      "name": "King Desiderius of the Lombards (Last King, r. 756–774 CE; Father-in-Law of Charlemagne)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "r. 756–774 CE",
+      "role": "Last Lombard King of Italy",
+      "sources": [
+        "Paul the Deacon Historia Langobardorum"
+      ],
+      "notes": "Daughter Desiderata wed Charlemagne.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_theodelinda",
+      "name": "Queen Theodelinda of the Lombards (c. 570–628 CE; Correspondent of Pope Gregory I)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 570–628 CE",
+      "role": "Bavarian-Garibalding Queen Converting Lombards",
+      "sources": [
+        "Paul the Deacon Book III-IV"
+      ],
+      "notes": "Bridged Lombard royalty with Catholic Europe.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_ingolfur_arnarson",
+      "name": "Ingólfur Arnarson (1st Permanent Settler of Iceland at Reykjavik, 874 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "874 CE (Landnámabók)",
+      "role": "Founding Settler of Iceland",
+      "sources": [
+        "Landnámabók"
+      ],
+      "notes": "First Norse landnámsmaðr of Iceland.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_ketil_flatnose",
+      "name": "Jarl Ketil Flatnose (Hebridean Norse Lord; Father of Aud the Deep-Minded)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "9th c. CE (Landnámabók)",
+      "role": "Hebridean Sea-Lord",
+      "sources": [
+        "Landnámabók"
+      ],
+      "notes": "Father of Aud the Deep-Minded.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_aud_deepminded",
+      "name": "Aud / Unn the Deep-Minded (Matriarch Settler of Western Iceland)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 834–900 CE (Landnámabók)",
+      "role": "Ancestress of Snorri Sturluson & Western Clans",
+      "sources": [
+        "Landnámabók"
+      ],
+      "notes": "Widow of Olaf the White of Dublin who settled Breiðafjörður.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_erik_the_red",
+      "name": "Erik the Red / Eiríkr Þorvaldsson (Founder of Norse Greenland, 985 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "950–c. 1003 CE (Vinland Sagas)",
+      "role": "Explorer of Greenland",
+      "sources": [
+        "Landnámabók",
+        "Eirik's Saga"
+      ],
+      "notes": "Father of Leif Erikson.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_leif_erikson",
+      "name": "Leif Erikson ('Leif the Lucky', Landed in Vinland / North America c. 1000 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 970–1020 CE (Vinland Sagas)",
+      "role": "First Known European to Reach North America",
+      "sources": [
+        "Saga of the Greenlanders"
+      ],
+      "notes": "Son of Erik the Red who explored Helluland, Markland & Vinland (Newfoundland).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_gudrid_vinland",
+      "name": "Gudrid Thorbjarnardóttir (Mother of Snorri Thorfinnsson, First European Born in America)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 980–1050 CE (Vinland Sagas)",
+      "role": "Matriarch Explorer of Vinland & Rome Pilgrim",
+      "sources": [
+        "Saga of the Greenlanders"
+      ],
+      "notes": "Married Thorstein (son of Erik the Red) & Thorfinn Karlsefni.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_cunedda",
+      "name": "King Cunedda Wledig (Founder of Kingdom of Gwynedd, c. 400 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 400 CE (Lloyd Wales)",
+      "role": "Patriarch of Gwynedd",
+      "sources": [
+        "J.E. Lloyd History of Wales (1912)",
+        "Welsh Royal Genealogies"
+      ],
+      "notes": "Migrated from Manaw Gododdin to North Wales.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_maelgwn_gwynedd",
+      "name": "King Maelgwn Gwynedd (Great-Grandson of Cunedda, d. 547 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. 547 CE (Gildas; Lloyd)",
+      "role": "High King of Gwynedd",
+      "sources": [
+        "J.E. Lloyd History of Wales (1912)",
+        "Welsh Royal Genealogies"
+      ],
+      "notes": "Contemporary of Gildas.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_cadwaladr",
+      "name": "King Cadwaladr ap Cadwallon ('Fendigaid', d. 682 CE; Red Dragon Ancestor)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. 682 CE",
+      "role": "Son of Cadwallon",
+      "sources": [
+        "J.E. Lloyd History of Wales (1912)",
+        "Welsh Royal Genealogies"
+      ],
+      "notes": "Forebear of the Welsh Red Dragon banner.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_rhodri_mawr",
+      "name": "King Rhodri Mawr / Rhodri the Great (r. 844–878 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "820–878 CE (Lloyd Vol. 1)",
+      "role": "Unifier of Gwynedd, Powys & Seisyllwg",
+      "sources": [
+        "J.E. Lloyd History of Wales (1912)",
+        "Welsh Royal Genealogies"
+      ],
+      "notes": "Ancestor of medieval Welsh royal lines.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_hywel_dda",
+      "name": "King Hywel Dda ('Hywel the Good', Grandson of Rhodri Mawr; Lawgiver, d. 950)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "880–950 CE",
+      "role": "Codifier of Welsh Laws",
+      "sources": [
+        "J.E. Lloyd History of Wales (1912)",
+        "Welsh Royal Genealogies"
+      ],
+      "notes": "United nearly all Wales.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_gruffydd_llywelyn",
+      "name": "King Gruffydd ap Llywelyn (Sole Unifier of All Wales, r. 1055–1063)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1007–1063 CE",
+      "role": "King of All Wales",
+      "sources": [
+        "J.E. Lloyd History of Wales (1912)",
+        "Welsh Royal Genealogies"
+      ],
+      "notes": "Contemporary of Edward the Confessor & Harold II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_owain_gwynedd",
+      "name": "King Owain Gwynedd (r. 1137–1170; Grandfather of Llywelyn the Great)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1100–1170 CE",
+      "role": "1st Prince of Wales in Contemporary Charters",
+      "sources": [
+        "J.E. Lloyd History of Wales (1912)",
+        "Welsh Royal Genealogies"
+      ],
+      "notes": "Defeated Henry II's campaigns in Gwynedd.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_llywelyn_great",
+      "name": "Prince Llywelyn ap Iorwerth / Llywelyn the Great (r. 1195–1240; + Joan dau. of King John!)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1173–1240 CE",
+      "role": "Great Prince of Aberffraw & Lord of Snowdon",
+      "sources": [
+        "J.E. Lloyd History of Wales (1912)",
+        "Welsh Royal Genealogies"
+      ],
+      "notes": "Married Princess Joan (daughter of King John of England).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_llywelyn_last",
+      "name": "Prince Llywelyn ap Gruffydd ('The Last', Grandson of Llywelyn the Great, d. 1282)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1223–1282 CE",
+      "role": "Last Sovereign Prince of Independent Wales",
+      "sources": [
+        "J.E. Lloyd History of Wales (1912)",
+        "Welsh Royal Genealogies"
+      ],
+      "notes": "Fell in 1282 against Edward I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_owen_tudor",
+      "name": "Owen Tudor / Owain ap Maredudd (Kinsman of Llywelyn; + Queen Catherine of Valois)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "c. 1400–1461 CE",
+      "role": "Grandfather of King Henry VII Tudor",
+      "sources": [
+        "J.E. Lloyd History of Wales (1912)",
+        "Welsh Royal Genealogies"
+      ],
+      "notes": "United Welsh Gwynedd royal line with French Valois & English Crown.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_bappa_rawal",
+      "name": "Bappa Rawal / Kalbhoja (Founder of Mewar Sovereignty, 734 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "c. 713–753 CE (Tod Rajasthan)",
+      "role": "Solar Guhila Hero of Chittor",
+      "sources": [
+        "James Tod Annals of Rajasthan Vols. 1-2"
+      ],
+      "notes": "Tradition traces from Lava -> Guhaditya -> Bappa Rawal.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_rana_kumbha",
+      "name": "Rana Kumbha of Mewar (r. 1433–1468; Builder of Vijay Stambh & Kumbhalgarh)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1417–1468 CE",
+      "role": "Great Sisodia Builder & Scholar-King",
+      "sources": [
+        "James Tod Annals of Rajasthan Vols. 1-2"
+      ],
+      "notes": "Repelled Malwa and Gujarat sultanates.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_rana_sanga",
+      "name": "Rana Sanga / Sangram Singh (r. 1508–1528; Adversary of Babur at Khanwa)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1482–1528 CE",
+      "role": "Paramount Rajput Monarch",
+      "sources": [
+        "James Tod Annals of Rajasthan Vols. 1-2"
+      ],
+      "notes": "Grandfather of Maharana Pratap.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_maharana_pratap",
+      "name": "Maharana Pratap of Mewar (r. 1572–1597; Battle of Haldighati 1576)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1540–1597 CE (Tod Rajasthan)",
+      "role": "Icon of Rajput Independence",
+      "sources": [
+        "James Tod Annals of Rajasthan Vols. 1-2"
+      ],
+      "notes": "Grandson of Rana Sanga; resisted Mughal Akbar from Kumbhalgarh & Chavand.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_rao_jodha",
+      "name": "Rao Jodha of Marwar (Founded Jodhpur & Mehrangarh Fort, 1459 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1416–1489 CE (Tod Vol. 2)",
+      "role": "Rathore King of Marwar",
+      "sources": [
+        "Tod Rajasthan Vol. 2"
+      ],
+      "notes": "Solar Rathore founder of Jodhpur.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_sawai_jai_singh2",
+      "name": "Maharaja Sawai Jai Singh II of Amber/Jaipur (r. 1699–1743; Jantar Mantar Founder)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1688–1743 CE (Tod Vol. 2)",
+      "role": "Founder of Jaipur & Astronomer-King",
+      "sources": [
+        "Tod Rajasthan Vol. 2"
+      ],
+      "notes": "Kachwaha Suryavamshi king descended from Kusha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_prithviraj_chauhan",
+      "name": "Samrat Prithviraj Chauhan III of Ajmer & Delhi (r. 1178–1192 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "c. 1166–1192 CE",
+      "role": "Last Hindu Emperor of Delhi-Ajmer",
+      "sources": [
+        "Prithviraj Raso",
+        "Tod Vol. 1"
+      ],
+      "notes": "Celebrated in North Indian epic history.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_rawal_jaisal",
+      "name": "Rawal Jaisal of Jaisalmer (Founded Jaisalmer Fort, 1156 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "12th c. CE",
+      "role": "Yadava Bhati Founder of Jaisalmer",
+      "sources": [
+        "Tod Vol. 2"
+      ],
+      "notes": "Bhati Rajput tracing lineage from Krishna's Yadavas.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_lhachen_palgyigon",
+      "name": "King Lhachen Palgyigon (1st Independent King of Ladakh / Maryul, c. 930 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "10th c. CE (Chronicles of Ladakh)",
+      "role": "Eldest Son of Nyi-ma-mgon",
+      "sources": [
+        "A.H. Francke Chronicles of Ladakh"
+      ],
+      "notes": "Established the Yarlung Tibetan dynasty of Ladakh.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_king_bhagan",
+      "name": "King Lhachen Bhagan (Founder of Namgyal Dynasty of Ladakh, c. 1460 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "c. 1460 CE",
+      "role": "Founder of Namgyal House",
+      "sources": [
+        "Francke Chronicles of Ladakh"
+      ],
+      "notes": "Inaugurated the Namgyal line.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_sengge_namgyal",
+      "name": "King Sengge Namgyal ('Lion King' of Ladakh, r. 1616–1642; Built Leh Palace)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "c. 1570–1642 CE",
+      "role": "Greatest Namgyal King of Ladakh",
+      "sources": [
+        "Francke Chronicles of Ladakh"
+      ],
+      "notes": "Built nine-story Leh Palace & Hemis Monastery.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_tughlugh_timur",
+      "name": "Khan Tughlugh Timur of Moghulistan (r. 1347–1363; 1st Muslim Eastern Chagatayid)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "1329–1363 CE (Tarikh-i-Rashidi)",
+      "role": "Founder of Moghulistan Line",
+      "sources": [
+        "Tarikh-i-Rashidi"
+      ],
+      "notes": "Chagatayid khan of Kashgaria & Semirechye.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_yunus_khan",
+      "name": "Khan Yunus Khan of Moghulistan (Maternal Grandfather of Mughal Emperor Babur, d. 1487)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "c. 1416–1487 CE",
+      "role": "Chagatayid Ancestor of Babur & Mughals",
+      "sources": [
+        "Tarikh-i-Rashidi",
+        "Baburnama"
+      ],
+      "notes": "Grandfather of Emperor Babur via daughter Qutlugh Nigar Khanum.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_sultan_said_khan",
+      "name": "Sultan Said Khan of Yarkand (Founder of Yarkent Khanate, r. 1514–1533)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1487–1533 CE",
+      "role": "Grandson of Yunus Khan",
+      "sources": [
+        "Tarikh-i-Rashidi"
+      ],
+      "notes": "Led expeditions across the Pamirs & Ladakh.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_mirza_haidar_dughlat",
+      "name": "Mirza Muhammad Haidar Dughlat (1499–1551; Ruler of Kashmir & Author of Tarikh-i-Rashidi)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1499–1551 CE",
+      "role": "Mughal Cousin & Historian-Conqueror",
+      "sources": [
+        "Tarikh-i-Rashidi"
+      ],
+      "notes": "First cousin of Emperor Babur; conquered Kashmir (1540–1551).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_guru_nanak",
+      "name": "Guru Nanak Dev Ji (1469–1539; Founder of Sikhism, Bedi Khatri Tradition)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1469–1539 CE (Janamsakhis; Bachittar Natak)",
+      "role": "1st Sikh Guru",
+      "sources": [
+        "Janamsakhis",
+        "Bachittar Natak"
+      ],
+      "notes": "Founder of Sikhism.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_guru_gobind_singh",
+      "name": "Guru Gobind Singh Ji (1666–1708; 10th Guru & Founder of Khalsa, Author of Bachittar Natak)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1666–1708 CE",
+      "role": "10th Sikh Guru",
+      "sources": [
+        "Bachittar Natak"
+      ],
+      "notes": "Founded the Khalsa (1699) and composed Bachittar Natak linking Sodhi/Bedi houses to Kusha/Lava.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_sultan_mansur_shah",
+      "name": "Sultan Mansur Shah of Malacca (r. 1459–1477; Golden Age of Malacca)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "d. 1477 CE (Sejarah Melayu)",
+      "role": "Greatest Sultan of Malacca",
+      "sources": [
+        "Sejarah Melayu Ch. 14–19"
+      ],
+      "notes": "Expanded Malacca across the Malay Peninsula & Sumatra.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_sultan_mahmud_shah",
+      "name": "Sultan Mahmud Shah of Malacca & Johor (r. 1488–1528)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "d. 1528 CE (Sejarah Melayu)",
+      "role": "Last Sultan of Malacca & Founder of Johor Line",
+      "sources": [
+        "Sejarah Melayu Ch. 25–34"
+      ],
+      "notes": "Reigned during 1511; sons founded Perak and Johor sultanates.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_queen_amina_zazzau",
+      "name": "Queen Amina of Zazzau / Zaria (fl. 16th c. CE; Warrior Queen in Kano Chronicle)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "16th c. CE (Kano Chronicle)",
+      "role": "Hausa Sovereign Queen of Zaria",
+      "sources": [
+        "Kano Chronicle",
+        "Sultan Bello"
+      ],
+      "notes": "Expanded Zazzau's walled trade cities across northern Nigeria.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_empress_eleni",
+      "name": "Empress Eleni of Ethiopia (d. 1522; Regent Who Initiated Portuguese Alliance)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "c. 1431–1522 CE",
+      "role": "Queen of Hadiya & Ethiopian Regent",
+      "sources": [
+        "Ethiopian Royal Chronicles"
+      ],
+      "notes": "Reigned across Ba'eda Maryam, Eskender, Na'od & young Lebna Dengel.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_empress_mentewab",
+      "name": "Empress Mentewab of Gondar (1706–1773; Regent for Iyasu II & Iyoas)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1706–1773 CE",
+      "role": "Builder of Qusquam Complex in Gondar",
+      "sources": [
+        "Ethiopian Royal Chronicles",
+        "James Bruce"
+      ],
+      "notes": "Dominant Solomonic empress regent of 18th-century Gondar.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_empress_taytu_betul",
+      "name": "Empress Taytu Betul (1851–1918; Wife of Emperor Menelik II & Strategist of Adwa)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1851–1918 CE",
+      "role": "Consort Empress & Defender of Ethiopia",
+      "sources": [
+        "Ethiopian Imperial Chronicles"
+      ],
+      "notes": "Co-architect of the Victory of Adwa (1896).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_empress_dowager_cixi",
+      "name": "Empress Dowager Cixi of Qing China (1835–1908; Regent of Tongzhi & Guangxu)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 22,
+      "era": "1835–1908 CE",
+      "role": "De Facto Ruler of Late Qing China",
+      "sources": [
+        "Draft History of Qing"
+      ],
+      "notes": "Consort of Xianfeng; dominant regent from 1861–1908.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_emperor_puyi",
+      "name": "Emperor Puyi / Xuantong (1906–1967; Last Emperor of Qing China)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 22,
+      "era": "1906–1967 CE",
+      "role": "Final Emperor of Imperial China",
+      "sources": [
+        "Draft History of Qing"
+      ],
+      "notes": "Abdicated in 1912 as 12th and final Aisin Gioro emperor.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_fujiwara_kamatari",
+      "name": "Fujiwara no Kamatari (614–669 CE; Co-Architect of Taika Reforms & Founder of Fujiwara)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 19,
+      "era": "614–669 CE (Nihon Shoki)",
+      "role": "Founder of Fujiwara Regent Clan",
+      "sources": [
+        "Nihongi"
+      ],
+      "notes": "Descendant of Nakatomi/Ame-no-Koyane.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr6_murasaki_shikibu",
+      "name": "Lady Murasaki Shikibu (c. 973–1014 CE; Heian Court Author of The Tale of Genji)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "c. 973–1014 CE",
+      "role": "Fujiwara Author at Empress Shōshi's Court",
+      "sources": [
+        "Heian Literary Annals"
+      ],
+      "notes": "Descendant of Fujiwara no Yoshifusa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_maimonides",
+      "name": "Rabbi Moses ben Maimon / Maimonides / Rambam (1138–1204; Mishneh Torah)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 20,
+      "era": "1138–1204 CE",
+      "role": "Sephardic Nagid & Author of Guide for the Perplexed",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Rabbi Moses ben Maimon / Maimonides / Rambam (1138–1204; Mishneh Torah).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_abraham_ben_maimon",
+      "name": "Rabbi Abraham ben Maimon (1186–1237; Son & Nagid Successor of Rambam)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 21,
+      "era": "1186–1237 CE",
+      "role": "Nagid of Egyptian Jewry",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Rabbi Abraham ben Maimon (1186–1237; Son & Nagid Successor of Rambam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_ibn_sina",
+      "name": "Ibn Sina / Avicenna (980–1037 CE; Author of Canon of Medicine)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "980–1037 CE",
+      "role": "Persian Polymath & Physician",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Ibn Sina / Avicenna (980–1037 CE; Author of Canon of Medicine).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_ibn_rushd",
+      "name": "Ibn Rushd / Averroes (1126–1198 CE; Cordoba Philosopher & Jurist)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1126–1198 CE",
+      "role": "Andalusian Philosopher",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Ibn Rushd / Averroes (1126–1198 CE; Cordoba Philosopher & Jurist).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_omar_khayyam",
+      "name": "Omar Khayyam (1048–1131 CE; Nishapur Astronomer, Mathematician & Poet)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 20,
+      "era": "1048–1131 CE",
+      "role": "Astronomer of Sultan Malik-Shah I",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Omar Khayyam (1048–1131 CE; Nishapur Astronomer, Mathematician & Poet).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_rumi",
+      "name": "Mevlana Jalal al-Din Rumi (1207–1273 CE; Mystical Poet of Balkh & Konya)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1207–1273 CE",
+      "role": "Sufi Poet & Founder of Mevlevi Tradition",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Mevlana Jalal al-Din Rumi (1207–1273 CE; Mystical Poet of Balkh & Konya).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_sultan_walad",
+      "name": "Sultan Walad (1226–1312 CE; Son of Rumi & Organizer of Mevlevi Order)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1226–1312 CE",
+      "role": "Son of Jalal al-Din Rumi",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Sultan Walad (1226–1312 CE; Son of Rumi & Organizer of Mevlevi Order).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_marco_polo",
+      "name": "Marco Polo (1254–1324 CE; Venetian Traveler at Kublai Khan's Court)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1254–1324 CE",
+      "role": "Venetian Silk Road Chronicler",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Marco Polo (1254–1324 CE; Venetian Traveler at Kublai Khan's Court).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_vasco_da_gama",
+      "name": "Vasco da Gama (c. 1460–1524 CE; Navigator to India Under Manuel I)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "c. 1460–1524 CE",
+      "role": "1st Count of Vidigueira & Viceroy of India",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Vasco da Gama (c. 1460–1524 CE; Navigator to India Under Manuel I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_christopher_columbus",
+      "name": "Christopher Columbus (1451–1506 CE; Admiral of the Ocean Sea)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1451–1506 CE",
+      "role": "Transatlantic Navigator for Ferdinand & Isabella",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Christopher Columbus (1451–1506 CE; Admiral of the Ocean Sea).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_diego_columbus",
+      "name": "Diego Columbus (1479–1526 CE; Son of Columbus; + Maria de Toledo -> Dukes of Veragua)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1479–1526 CE",
+      "role": "Viceroy of the Indies",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Diego Columbus (1479–1526 CE; Son of Columbus; + Maria de Toledo -> Dukes of Veragua).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_leonardo_da_vinci",
+      "name": "Leonardo da Vinci (1452–1519 CE; Painter, Engineer & Polymath of Florence)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1452–1519 CE",
+      "role": "Renaissance Polymath",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Leonardo da Vinci (1452–1519 CE; Painter, Engineer & Polymath of Florence).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_michelangelo",
+      "name": "Michelangelo Buonarroti (1475–1564 CE; Sculptor, Painter & Architect)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1475–1564 CE",
+      "role": "Renaissance Master Protected by Lorenzo de' Medici",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Michelangelo Buonarroti (1475–1564 CE; Sculptor, Painter & Architect).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_galileo_galilei",
+      "name": "Galileo Galilei (1564–1642 CE; Astronomer & Physicist of Pisa/Florence)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1564–1642 CE",
+      "role": "Father of Observational Astronomy",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Galileo Galilei (1564–1642 CE; Astronomer & Physicist of Pisa/Florence).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_isaac_newton",
+      "name": "Sir Isaac Newton (1642–1727 CE; Principia & Author of Chronology of Ancient Kingdoms Amended 1728!)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1642–1727 CE",
+      "role": "Physicist, Mathematician & Atlas Primary Source Author",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Sir Isaac Newton (1642–1727 CE; Principia & Author of Chronology of Ancient Kingdoms Amended 1728!).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_william_shakespeare",
+      "name": "William Shakespeare (1564–1616 CE; Playwright Under Elizabeth I & James I)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1564–1616 CE",
+      "role": "English Dramatist & Poet",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "William Shakespeare (1564–1616 CE; Playwright Under Elizabeth I & James I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_susanna_hall",
+      "name": "Susanna Shakespeare Hall (1583–1649 CE; Eldest Daughter & Heir of William Shakespeare)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1583–1649 CE",
+      "role": "Daughter of William Shakespeare",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Susanna Shakespeare Hall (1583–1649 CE; Eldest Daughter & Heir of William Shakespeare).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_george_washington",
+      "name": "President George Washington (1732–1799 CE; 1st U.S. President; Gateway Descent from King Edward III)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1732–1799 CE",
+      "role": "Father of the United States (Plantagenet-Wessex Descent)",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "President George Washington (1732–1799 CE; 1st U.S. President; Gateway Descent from King Edward III).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_thomas_jefferson",
+      "name": "President Thomas Jefferson (1743–1826 CE; 3rd U.S. President; Gateway Descent via King David I & Edward III)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1743–1826 CE",
+      "role": "Author of Declaration of Independence (Scottish-Plantagenet Descent)",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "President Thomas Jefferson (1743–1826 CE; 3rd U.S. President; Gateway Descent via King David I & Edward III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_winston_churchill",
+      "name": "Sir Winston Churchill (1874–1965 CE; Spencer-Churchill Descendant of Duke of Marlborough & Edward I)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1874–1965 CE",
+      "role": "British Prime Minister & Historian",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Sir Winston Churchill (1874–1965 CE; Spencer-Churchill Descendant of Duke of Marlborough & Edward I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_abraham_lincoln",
+      "name": "President Abraham Lincoln (1809–1865 CE; 16th U.S. President)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1809–1865 CE",
+      "role": "16th President of the United States",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "President Abraham Lincoln (1809–1865 CE; 16th U.S. President).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_robert_todd_lincoln",
+      "name": "Robert Todd Lincoln (1843–1926 CE; Son of Abraham Lincoln & U.S. Secretary of War)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1843–1926 CE",
+      "role": "Son of President Abraham Lincoln",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Robert Todd Lincoln (1843–1926 CE; Son of Abraham Lincoln & U.S. Secretary of War).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_laozi",
+      "name": "Laozi / Lao Tzu (Author of Dao De Jing; Ancestral Claim of Tang Dynasty Li Clan)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 16,
+      "era": "c. 6th c. BCE",
+      "role": "Founder of Philosophical Daoism",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Laozi / Lao Tzu (Author of Dao De Jing; Ancestral Claim of Tang Dynasty Li Clan).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_sun_tzu",
+      "name": "Sun Tzu / Sun Wu (c. 544–496 BCE; Military Strategist & Author of Art of War)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 16,
+      "era": "c. 544–496 BCE",
+      "role": "Spring & Autumn Military Philosopher",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Sun Tzu / Sun Wu (c. 544–496 BCE; Military Strategist & Author of Art of War).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_mencius",
+      "name": "Mencius / Meng Ke (c. 372–289 BCE; Confucian Sage Descended from Duke of Lu / Zhou)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 17,
+      "era": "c. 372–289 BCE",
+      "role": "Second Sage of Confucianism",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Mencius / Meng Ke (c. 372–289 BCE; Confucian Sage Descended from Duke of Lu / Zhou).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_sima_qian",
+      "name": "Sima Qian (c. 145–86 BCE; Grand Historian & Author of Shiji Under Han Wudi)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 18,
+      "era": "c. 145–86 BCE",
+      "role": "Author of Records of the Grand Historian (Shiji)",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Sima Qian (c. 145–86 BCE; Grand Historian & Author of Shiji Under Han Wudi).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_chanakya",
+      "name": "Chanakya / Kautilya (fl. 320 BCE; Architect of Maurya Empire & Author of Arthashastra)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 18,
+      "era": "fl. 320 BCE",
+      "role": "Chief Counselor to Chandragupta Maurya",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Chanakya / Kautilya (fl. 320 BCE; Architect of Maurya Empire & Author of Arthashastra).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_kalidasa",
+      "name": "Kalidasa (c. 4th–5th c. CE; Classical Sanskrit Poet at Chandragupta II's Court)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "c. 4th–5th c. CE",
+      "role": "Classical Poet of Abhijnanashakuntalam & Raghuvamsha",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Kalidasa (c. 4th–5th c. CE; Classical Sanskrit Poet at Chandragupta II's Court).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "fam6_adi_shankara",
+      "name": "Adi Shankaracharya (c. 8th c. CE; Unifier of Advaita Vedanta & Four Mathas)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "c. 788–820 CE trad.",
+      "role": "Advaita Vedanta Philosopher-Saint",
+      "sources": [
+        "Primary Biographical & Chronicle Archives"
+      ],
+      "notes": "Adi Shankaracharya (c. 8th c. CE; Unifier of Advaita Vedanta & Four Mathas).",
+      "major": false,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "eur42_eric_olof_sweden",
+      "to": "eur6_eric_victorious",
+      "type": "direct",
+      "label": "Swedish Munsö Succession"
+    },
+    {
+      "from": "eur6_eric_victorious",
+      "to": "eur6_olof_skotkonung",
+      "type": "direct",
+      "label": "Swedish Munsö Succession"
+    },
+    {
+      "from": "eur6_olof_skotkonung",
+      "to": "eur6_ingegerd_sweden",
+      "type": "direct",
+      "label": "Swedish Munsö Succession"
+    },
+    {
+      "from": "eur6_olof_skotkonung",
+      "to": "eur6_birger_jarl",
+      "type": "expansion",
+      "label": "Swedish royal house -> Bjälbo -> Birger Jarl"
+    },
+    {
+      "from": "eur6_ingegerd_sweden",
+      "to": "rus_yaroslav_wise",
+      "type": "direct",
+      "label": "Marriage of Ingegerd of Sweden & Yaroslav the Wise"
+    },
+    {
+      "from": "eur42_gustav_vasa",
+      "to": "eur6_charles9_sweden",
+      "type": "direct",
+      "label": "House of Vasa Succession"
+    },
+    {
+      "from": "eur6_charles9_sweden",
+      "to": "eur6_gustavus_adolphus",
+      "type": "direct",
+      "label": "House of Vasa Succession"
+    },
+    {
+      "from": "eur6_gustavus_adolphus",
+      "to": "eur6_queen_christina",
+      "type": "direct",
+      "label": "House of Vasa Succession"
+    },
+    {
+      "from": "eur42_charles12_bernadotte",
+      "to": "eur6_charles12_sweden",
+      "type": "direct",
+      "label": "Modern Swedish Royal Succession"
+    },
+    {
+      "from": "eur6_charles12_sweden",
+      "to": "eur6_carl16_gustaf",
+      "type": "direct",
+      "label": "Modern Swedish Royal Succession"
+    },
+    {
+      "from": "eur6_carl16_gustaf",
+      "to": "eur6_crown_princess_victoria",
+      "type": "direct",
+      "label": "Modern Swedish Royal Succession"
+    },
+    {
+      "from": "eur42_gorm_bluetooth_cnut",
+      "to": "eur6_gorm_old",
+      "type": "direct",
+      "label": "Danish Jelling-Oldenburg-Glücksburg Line"
+    },
+    {
+      "from": "eur6_gorm_old",
+      "to": "eur6_harald_bluetooth",
+      "type": "direct",
+      "label": "Danish Jelling-Oldenburg-Glücksburg Line"
+    },
+    {
+      "from": "eur6_harald_bluetooth",
+      "to": "eur6_sweyn_forkbeard",
+      "type": "direct",
+      "label": "Danish Jelling-Oldenburg-Glücksburg Line"
+    },
+    {
+      "from": "mon_eng_canute",
+      "to": "eur6_valdemar1",
+      "type": "direct",
+      "label": "Danish Jelling-Oldenburg-Glücksburg Line"
+    },
+    {
+      "from": "eur6_valdemar1",
+      "to": "eur6_queen_margaret1",
+      "type": "direct",
+      "label": "Danish Jelling-Oldenburg-Glücksburg Line"
+    },
+    {
+      "from": "eur6_queen_margaret1",
+      "to": "eur6_christian4_denmark",
+      "type": "direct",
+      "label": "Danish Jelling-Oldenburg-Glücksburg Line"
+    },
+    {
+      "from": "eur6_christian4_denmark",
+      "to": "eur6_king_frederik10",
+      "type": "direct",
+      "label": "Danish Jelling-Oldenburg-Glücksburg Line"
+    },
+    {
+      "from": "eur6_sweyn_forkbeard",
+      "to": "eur6_emma_normandy",
+      "type": "cognate",
+      "label": "Emma wed Ethelred II and Sweyn's son Cnut the Great"
+    },
+    {
+      "from": "mon_eng_canute",
+      "to": "eur6_emma_normandy",
+      "type": "direct",
+      "label": "Marriage of King Cnut & Emma of Normandy"
+    },
+    {
+      "from": "eur_poland_mieszko",
+      "to": "eur6_mieszko1",
+      "type": "direct",
+      "label": "Polish Piast Succession"
+    },
+    {
+      "from": "eur6_mieszko1",
+      "to": "eur6_boleslaw1_brave",
+      "type": "direct",
+      "label": "Polish Piast Succession"
+    },
+    {
+      "from": "eur6_boleslaw1_brave",
+      "to": "eur6_mieszko2",
+      "type": "direct",
+      "label": "Polish Piast Succession"
+    },
+    {
+      "from": "eur6_mieszko2",
+      "to": "eur6_casimir1_poland",
+      "type": "direct",
+      "label": "Polish Piast Succession"
+    },
+    {
+      "from": "eur6_casimir1_poland",
+      "to": "eur6_casimir3_great",
+      "type": "direct",
+      "label": "Polish Piast Succession"
+    },
+    {
+      "from": "eur6_mieszko1",
+      "to": "eur6_gunhild_sigrid",
+      "type": "direct",
+      "label": "Mieszko I -> daughter Gunhild/Świętosława"
+    },
+    {
+      "from": "eur6_gunhild_sigrid",
+      "to": "eur6_sweyn_forkbeard",
+      "type": "direct",
+      "label": "Marriage of Gunhild & Sweyn Forkbeard -> Cnut the Great"
+    },
+    {
+      "from": "rus_vladimir_great",
+      "to": "eur6_maria_dobroniega",
+      "type": "direct",
+      "label": "St. Vladimir of Kiev -> daughter Maria Dobroniega"
+    },
+    {
+      "from": "eur6_maria_dobroniega",
+      "to": "eur6_casimir1_poland",
+      "type": "direct",
+      "label": "Marriage of Maria Dobroniega & Casimir I of Poland"
+    },
+    {
+      "from": "eur6_casimir1_poland",
+      "to": "eur42_casimir1_poland",
+      "type": "direct",
+      "label": "Casimir I -> Casimir anchor"
+    },
+    {
+      "from": "eur42_mindaugas_gediminas",
+      "to": "eur6_mindaugas",
+      "type": "direct",
+      "label": "Lithuanian-Polish Jagiellonian Succession"
+    },
+    {
+      "from": "eur6_mindaugas",
+      "to": "eur6_gediminas",
+      "type": "direct",
+      "label": "Lithuanian-Polish Jagiellonian Succession"
+    },
+    {
+      "from": "eur6_gediminas",
+      "to": "eur6_algirdas",
+      "type": "direct",
+      "label": "Lithuanian-Polish Jagiellonian Succession"
+    },
+    {
+      "from": "eur6_algirdas",
+      "to": "eur6_wladyslaw2_jagiello",
+      "type": "direct",
+      "label": "Lithuanian-Polish Jagiellonian Succession"
+    },
+    {
+      "from": "eur6_wladyslaw2_jagiello",
+      "to": "eur6_casimir4",
+      "type": "direct",
+      "label": "Lithuanian-Polish Jagiellonian Succession"
+    },
+    {
+      "from": "eur6_casimir4",
+      "to": "eur6_sigismund1_old",
+      "type": "direct",
+      "label": "Lithuanian-Polish Jagiellonian Succession"
+    },
+    {
+      "from": "eur6_sigismund1_old",
+      "to": "eur6_john3_sobieski",
+      "type": "direct",
+      "label": "Lithuanian-Polish Jagiellonian Succession"
+    },
+    {
+      "from": "eur6_gediminas",
+      "to": "eur6_vytautas_great",
+      "type": "direct",
+      "label": "Gediminas -> Kęstutis -> Vytautas the Great"
+    },
+    {
+      "from": "eur6_queen_jadwiga",
+      "to": "eur6_wladyslaw2_jagiello",
+      "type": "direct",
+      "label": "Marriage of Queen Jadwiga & Wladyslaw II Jagiello"
+    },
+    {
+      "from": "eur42_almos_arpad_stephen",
+      "to": "eur6_almos",
+      "type": "direct",
+      "label": "Hungarian Árpád & Anjou Succession"
+    },
+    {
+      "from": "eur6_almos",
+      "to": "eur6_arpad",
+      "type": "direct",
+      "label": "Hungarian Árpád & Anjou Succession"
+    },
+    {
+      "from": "eur6_arpad",
+      "to": "eur6_st_stephen1",
+      "type": "direct",
+      "label": "Hungarian Árpád & Anjou Succession"
+    },
+    {
+      "from": "eur6_st_stephen1",
+      "to": "eur6_andrew1_hungary",
+      "type": "direct",
+      "label": "Hungarian Árpád & Anjou Succession"
+    },
+    {
+      "from": "eur6_andrew1_hungary",
+      "to": "eur6_bela3",
+      "type": "direct",
+      "label": "Hungarian Árpád & Anjou Succession"
+    },
+    {
+      "from": "eur6_bela3",
+      "to": "eur6_andrew2",
+      "type": "direct",
+      "label": "Hungarian Árpád & Anjou Succession"
+    },
+    {
+      "from": "eur6_andrew2",
+      "to": "eur6_bela4",
+      "type": "direct",
+      "label": "Hungarian Árpád & Anjou Succession"
+    },
+    {
+      "from": "eur6_bela4",
+      "to": "eur6_louis1_great",
+      "type": "direct",
+      "label": "Hungarian Árpád & Anjou Succession"
+    },
+    {
+      "from": "eur5_anastasia_kiev",
+      "to": "eur6_andrew1_hungary",
+      "type": "direct",
+      "label": "Marriage of Anastasia of Kiev & King Andrew I of Hungary"
+    },
+    {
+      "from": "eur6_andrew2",
+      "to": "eur6_st_elizabeth_hungary",
+      "type": "direct",
+      "label": "Andrew II -> daughter St. Elizabeth of Hungary"
+    },
+    {
+      "from": "eur6_louis1_great",
+      "to": "eur6_queen_jadwiga",
+      "type": "direct",
+      "label": "Louis I the Great -> daughter Queen Jadwiga"
+    },
+    {
+      "from": "eur42_hunyadi_corvinus",
+      "to": "eur6_john_hunyadi",
+      "type": "direct",
+      "label": "Hunyadi anchor -> John Hunyadi"
+    },
+    {
+      "from": "eur6_john_hunyadi",
+      "to": "eur6_matthias_corvinus",
+      "type": "direct",
+      "label": "John Hunyadi -> Matthias Corvinus"
+    },
+    {
+      "from": "eur42_premysl_wenceslas",
+      "to": "eur6_st_wenceslas1",
+      "type": "direct",
+      "label": "Přemyslid anchor -> St. Wenceslas I"
+    },
+    {
+      "from": "eur6_st_wenceslas1",
+      "to": "eur6_ottokar2",
+      "type": "direct",
+      "label": "Přemyslid line -> Ottokar II"
+    },
+    {
+      "from": "eur6_bela4",
+      "to": "eur6_ottokar2",
+      "type": "direct",
+      "label": "Béla IV -> granddaughter Kunigunda (+ Ottokar II)"
+    },
+    {
+      "from": "eur6_ottokar2",
+      "to": "eur6_emperor_charles4",
+      "type": "direct",
+      "label": "Ottokar II -> Wenceslas II -> Elisabeth -> Emperor Charles IV"
+    },
+    {
+      "from": "eur6_ottokar2",
+      "to": "eur6_bonne_bohemia",
+      "type": "direct",
+      "label": "Ottokar II -> Elisabeth -> Bonne of Bohemia (+ John II of France)"
+    },
+    {
+      "from": "eur6_emperor_charles4",
+      "to": "eur6_anne_bohemia",
+      "type": "direct",
+      "label": "Charles IV -> Anne of Bohemia"
+    },
+    {
+      "from": "eur6_anne_bohemia",
+      "to": "mon_eng_richard2",
+      "type": "direct",
+      "label": "Marriage of Anne of Bohemia & King Richard II"
+    },
+    {
+      "from": "eur6_emperor_charles4",
+      "to": "eur6_emperor_sigismund",
+      "type": "direct",
+      "label": "Charles IV -> Emperor Sigismund"
+    },
+    {
+      "from": "pc_eleanor_aquitaine",
+      "to": "roy6_eleanor_aquitaine",
+      "type": "direct",
+      "label": "Eleanor individual"
+    },
+    {
+      "from": "mon_eng_henry2",
+      "to": "roy6_eleanor_aquitaine",
+      "type": "direct",
+      "label": "Marriage of Henry II & Eleanor of Aquitaine"
+    },
+    {
+      "from": "roy6_eleanor_aquitaine",
+      "to": "roy6_blanche_castile",
+      "type": "direct",
+      "label": "Eleanor -> Eleanor of England -> Blanche of Castile"
+    },
+    {
+      "from": "roy6_blanche_castile",
+      "to": "mon_fra_louis9",
+      "type": "direct",
+      "label": "Blanche of Castile -> King St. Louis IX"
+    },
+    {
+      "from": "pc_ferdinand_isabella_kids",
+      "to": "roy6_juana_mad",
+      "type": "direct",
+      "label": "Ferdinand & Isabella -> Juana the Mad"
+    },
+    {
+      "from": "pc_ferdinand_isabella_kids",
+      "to": "roy6_catherine_aragon",
+      "type": "direct",
+      "label": "Ferdinand & Isabella -> Catherine of Aragon"
+    },
+    {
+      "from": "roy6_catherine_aragon",
+      "to": "mon_eng_mary1",
+      "type": "direct",
+      "label": "Catherine of Aragon -> Queen Mary I of England"
+    },
+    {
+      "from": "mon_hre_maximilian1",
+      "to": "roy6_philip_handsome",
+      "type": "direct",
+      "label": "Maximilian I -> Philip the Handsome"
+    },
+    {
+      "from": "roy6_philip_handsome",
+      "to": "roy6_juana_mad",
+      "type": "direct",
+      "label": "Marriage of Philip the Handsome & Juana"
+    },
+    {
+      "from": "roy6_juana_mad",
+      "to": "mon_esp_charles5",
+      "type": "direct",
+      "label": "Juana & Philip -> Emperor Charles V"
+    },
+    {
+      "from": "roy6_juana_mad",
+      "to": "roy6_ferdinand1_hre",
+      "type": "direct",
+      "label": "Juana & Philip -> Emperor Ferdinand I"
+    },
+    {
+      "from": "mon_hre_maria_theresa",
+      "to": "roy6_joseph2_hre",
+      "type": "direct",
+      "label": "Maria Theresa -> Emperor Joseph II"
+    },
+    {
+      "from": "mon_hre_maria_theresa",
+      "to": "roy6_leopold2_hre",
+      "type": "direct",
+      "label": "Maria Theresa -> Emperor Leopold II"
+    },
+    {
+      "from": "mon_hre_maria_theresa",
+      "to": "roy6_marie_antoinette",
+      "type": "direct",
+      "label": "Maria Theresa -> Marie Antoinette"
+    },
+    {
+      "from": "roy6_marie_antoinette",
+      "to": "mon_fra_louis16",
+      "type": "direct",
+      "label": "Marriage of Louis XVI & Marie Antoinette"
+    },
+    {
+      "from": "mon_fra_napoleon",
+      "to": "roy6_napoleon2",
+      "type": "direct",
+      "label": "Napoleon I (+ Marie Louise of Austria) -> Napoleon II"
+    },
+    {
+      "from": "pc_medici_house",
+      "to": "roy6_cosimo_medici",
+      "type": "direct",
+      "label": "Medici anchor -> Cosimo il Vecchio"
+    },
+    {
+      "from": "roy6_cosimo_medici",
+      "to": "roy6_lorenzo_magnificent",
+      "type": "direct",
+      "label": "Cosimo -> Piero -> Lorenzo the Magnificent"
+    },
+    {
+      "from": "roy6_lorenzo_magnificent",
+      "to": "roy6_catherine_medici",
+      "type": "direct",
+      "label": "Lorenzo -> Piero -> Lorenzo II -> Catherine de' Medici"
+    },
+    {
+      "from": "roy6_catherine_medici",
+      "to": "mon_fra_henry2",
+      "type": "direct",
+      "label": "Marriage of Catherine de' Medici & Henry II of France"
+    },
+    {
+      "from": "roy6_ferdinand1_hre",
+      "to": "roy6_marie_medici",
+      "type": "direct",
+      "label": "Joanna of Austria -> Marie de' Medici"
+    },
+    {
+      "from": "roy6_marie_medici",
+      "to": "mon_fra_henry4",
+      "type": "direct",
+      "label": "Marriage of Marie de' Medici & Henry IV"
+    },
+    {
+      "from": "pc_hohenzollern_prussia",
+      "to": "roy6_kaiser_wilhelm1",
+      "type": "direct",
+      "label": "Hohenzollern -> Kaiser Wilhelm I"
+    },
+    {
+      "from": "roy6_kaiser_wilhelm1",
+      "to": "roy6_frederick3_prussia",
+      "type": "direct",
+      "label": "Wilhelm I -> Frederick III"
+    },
+    {
+      "from": "mon_eng_victoria",
+      "to": "roy6_princess_victoria_royal",
+      "type": "direct",
+      "label": "Queen Victoria -> eldest daughter Victoria"
+    },
+    {
+      "from": "roy6_princess_victoria_royal",
+      "to": "roy6_frederick3_prussia",
+      "type": "direct",
+      "label": "Marriage of Princess Victoria & Frederick III"
+    },
+    {
+      "from": "roy6_frederick3_prussia",
+      "to": "roy6_kaiser_wilhelm2",
+      "type": "direct",
+      "label": "Frederick III & Victoria -> Kaiser Wilhelm II"
+    },
+    {
+      "from": "roy6_princess_victoria_royal",
+      "to": "roy6_kaiser_wilhelm2",
+      "type": "direct",
+      "label": "Mother Victoria -> Kaiser Wilhelm II"
+    },
+    {
+      "from": "pc_hanover_windsor_victoria",
+      "to": "roy6_electress_sophia",
+      "type": "direct",
+      "label": "Hanover & Windsor Succession to 2026"
+    },
+    {
+      "from": "mon_eng_victoria",
+      "to": "roy6_edward7",
+      "type": "direct",
+      "label": "Hanover & Windsor Succession to 2026"
+    },
+    {
+      "from": "roy6_edward7",
+      "to": "roy6_george5",
+      "type": "direct",
+      "label": "Hanover & Windsor Succession to 2026"
+    },
+    {
+      "from": "roy6_george5",
+      "to": "roy6_george6",
+      "type": "direct",
+      "label": "Hanover & Windsor Succession to 2026"
+    },
+    {
+      "from": "roy6_george6",
+      "to": "roy6_elizabeth2",
+      "type": "direct",
+      "label": "Hanover & Windsor Succession to 2026"
+    },
+    {
+      "from": "roy6_elizabeth2",
+      "to": "roy6_king_charles3",
+      "type": "direct",
+      "label": "Hanover & Windsor Succession to 2026"
+    },
+    {
+      "from": "roy6_king_charles3",
+      "to": "roy6_prince_william",
+      "type": "direct",
+      "label": "Hanover & Windsor Succession to 2026"
+    },
+    {
+      "from": "roy6_prince_william",
+      "to": "roy6_prince_george",
+      "type": "direct",
+      "label": "Hanover & Windsor Succession to 2026"
+    },
+    {
+      "from": "mon_eng_victoria",
+      "to": "roy6_prince_albert",
+      "type": "direct",
+      "label": "Marriage of Queen Victoria & Prince Albert"
+    },
+    {
+      "from": "roy6_prince_albert",
+      "to": "roy6_edward7",
+      "type": "direct",
+      "label": "Prince Albert -> King Edward VII"
+    },
+    {
+      "from": "mon_rus_catherine2",
+      "to": "roy6_tsar_paul1",
+      "type": "direct",
+      "label": "Late Romanov Imperial Succession"
+    },
+    {
+      "from": "roy6_tsar_paul1",
+      "to": "roy6_tsar_alexander1",
+      "type": "direct",
+      "label": "Late Romanov Imperial Succession"
+    },
+    {
+      "from": "roy6_tsar_alexander1",
+      "to": "roy6_tsar_alexander2",
+      "type": "direct",
+      "label": "Late Romanov Imperial Succession"
+    },
+    {
+      "from": "roy6_tsar_alexander2",
+      "to": "roy6_tsar_nicholas2",
+      "type": "direct",
+      "label": "Late Romanov Imperial Succession"
+    },
+    {
+      "from": "roy6_tsar_nicholas2",
+      "to": "roy6_anastasia_romanov",
+      "type": "direct",
+      "label": "Late Romanov Imperial Succession"
+    },
+    {
+      "from": "mon_eng_victoria",
+      "to": "roy6_empress_alexandra",
+      "type": "direct",
+      "label": "Queen Victoria -> Alice -> Empress Alexandra"
+    },
+    {
+      "from": "roy6_empress_alexandra",
+      "to": "roy6_tsar_nicholas2",
+      "type": "direct",
+      "label": "Marriage of Nicholas II & Empress Alexandra"
+    },
+    {
+      "from": "roy6_empress_alexandra",
+      "to": "roy6_anastasia_romanov",
+      "type": "direct",
+      "label": "Mother Alexandra -> Anastasia"
+    },
+    {
+      "from": "mon_rom_alexios1",
+      "to": "roy6_anna_komnene",
+      "type": "direct",
+      "label": "Alexios I Komnenos -> daughter Anna Komnene"
+    },
+    {
+      "from": "pc_byzantine_palaiologoi_moscow",
+      "to": "roy6_sophia_palaiologina",
+      "type": "direct",
+      "label": "Byzantine Palaiologoi -> Sophia Palaiologina"
+    },
+    {
+      "from": "roy6_sophia_palaiologina",
+      "to": "mon_rus_ivan3",
+      "type": "direct",
+      "label": "Marriage of Sophia Palaiologina & Grand Prince Ivan III of Moscow (1472)"
+    },
+    {
+      "from": "eur_lom_gambara",
+      "to": "chr6_gambara",
+      "type": "direct",
+      "label": "Lombard Royal Succession"
+    },
+    {
+      "from": "chr6_gambara",
+      "to": "chr6_ibor_aio",
+      "type": "direct",
+      "label": "Lombard Royal Succession"
+    },
+    {
+      "from": "chr6_ibor_aio",
+      "to": "chr6_agelmund",
+      "type": "direct",
+      "label": "Lombard Royal Succession"
+    },
+    {
+      "from": "chr6_agelmund",
+      "to": "chr6_alboin",
+      "type": "direct",
+      "label": "Lombard Royal Succession"
+    },
+    {
+      "from": "chr6_alboin",
+      "to": "chr6_authari",
+      "type": "direct",
+      "label": "Lombard Royal Succession"
+    },
+    {
+      "from": "chr6_authari",
+      "to": "chr6_rothari",
+      "type": "direct",
+      "label": "Lombard Royal Succession"
+    },
+    {
+      "from": "chr6_rothari",
+      "to": "chr6_liutprand",
+      "type": "direct",
+      "label": "Lombard Royal Succession"
+    },
+    {
+      "from": "chr6_liutprand",
+      "to": "chr6_desiderius",
+      "type": "direct",
+      "label": "Lombard Royal Succession"
+    },
+    {
+      "from": "chr6_authari",
+      "to": "chr6_theodelinda",
+      "type": "direct",
+      "label": "Marriage of Authari & Queen Theodelinda"
+    },
+    {
+      "from": "eur_ice_ingolfur",
+      "to": "chr6_ingolfur_arnarson",
+      "type": "direct",
+      "label": "Iceland settler anchor -> Ingólfur"
+    },
+    {
+      "from": "eur_ice_aud_deepminded",
+      "to": "chr6_ketil_flatnose",
+      "type": "direct",
+      "label": "Landnámabók -> Ketil Flatnose"
+    },
+    {
+      "from": "chr6_ketil_flatnose",
+      "to": "chr6_aud_deepminded",
+      "type": "direct",
+      "label": "Ketil Flatnose -> daughter Aud the Deep-Minded"
+    },
+    {
+      "from": "eur_ice_erik_leif",
+      "to": "chr6_erik_the_red",
+      "type": "direct",
+      "label": "Thorvald Asvaldsson -> Erik the Red"
+    },
+    {
+      "from": "chr6_erik_the_red",
+      "to": "chr6_leif_erikson",
+      "type": "direct",
+      "label": "Erik the Red -> son Leif Erikson"
+    },
+    {
+      "from": "chr6_leif_erikson",
+      "to": "chr6_gudrid_vinland",
+      "type": "expansion",
+      "label": "Vinland expedition kinship: Erik's family & Gudrid Thorbjarnardóttir"
+    },
+    {
+      "from": "eur_wal_cunedda",
+      "to": "chr6_cunedda",
+      "type": "direct",
+      "label": "Welsh Sovereign Succession to Tudors"
+    },
+    {
+      "from": "chr6_cunedda",
+      "to": "chr6_maelgwn_gwynedd",
+      "type": "direct",
+      "label": "Welsh Sovereign Succession to Tudors"
+    },
+    {
+      "from": "chr6_maelgwn_gwynedd",
+      "to": "chr6_cadwaladr",
+      "type": "direct",
+      "label": "Welsh Sovereign Succession to Tudors"
+    },
+    {
+      "from": "chr6_cadwaladr",
+      "to": "chr6_rhodri_mawr",
+      "type": "direct",
+      "label": "Welsh Sovereign Succession to Tudors"
+    },
+    {
+      "from": "chr6_rhodri_mawr",
+      "to": "chr6_hywel_dda",
+      "type": "direct",
+      "label": "Welsh Sovereign Succession to Tudors"
+    },
+    {
+      "from": "chr6_hywel_dda",
+      "to": "chr6_gruffydd_llywelyn",
+      "type": "direct",
+      "label": "Welsh Sovereign Succession to Tudors"
+    },
+    {
+      "from": "chr6_gruffydd_llywelyn",
+      "to": "chr6_owain_gwynedd",
+      "type": "direct",
+      "label": "Welsh Sovereign Succession to Tudors"
+    },
+    {
+      "from": "chr6_owain_gwynedd",
+      "to": "chr6_llywelyn_great",
+      "type": "direct",
+      "label": "Welsh Sovereign Succession to Tudors"
+    },
+    {
+      "from": "chr6_llywelyn_great",
+      "to": "chr6_llywelyn_last",
+      "type": "direct",
+      "label": "Welsh Sovereign Succession to Tudors"
+    },
+    {
+      "from": "chr6_llywelyn_last",
+      "to": "chr6_owen_tudor",
+      "type": "direct",
+      "label": "Welsh Sovereign Succession to Tudors"
+    },
+    {
+      "from": "ind_raj_mewar_sisodia",
+      "to": "chr6_bappa_rawal",
+      "type": "direct",
+      "label": "Mewar Suryavamshi Rajput Succession"
+    },
+    {
+      "from": "chr6_bappa_rawal",
+      "to": "chr6_rana_kumbha",
+      "type": "direct",
+      "label": "Mewar Suryavamshi Rajput Succession"
+    },
+    {
+      "from": "chr6_rana_kumbha",
+      "to": "chr6_rana_sanga",
+      "type": "direct",
+      "label": "Mewar Suryavamshi Rajput Succession"
+    },
+    {
+      "from": "chr6_rana_sanga",
+      "to": "chr6_maharana_pratap",
+      "type": "direct",
+      "label": "Mewar Suryavamshi Rajput Succession"
+    },
+    {
+      "from": "ind5_lava",
+      "to": "chr6_bappa_rawal",
+      "type": "expansion",
+      "label": "Solar Rama -> Lava -> Mewar Guhila/Sisodias -> Bappa Rawal"
+    },
+    {
+      "from": "ind_raj_marwar_amber",
+      "to": "chr6_rao_jodha",
+      "type": "direct",
+      "label": "Marwar anchor -> Rao Jodha"
+    },
+    {
+      "from": "ind_raj_marwar_amber",
+      "to": "chr6_sawai_jai_singh2",
+      "type": "direct",
+      "label": "Amber Kachwaha anchor -> Sawai Jai Singh II"
+    },
+    {
+      "from": "ind_raj_chauhan_bhati",
+      "to": "chr6_prithviraj_chauhan",
+      "type": "direct",
+      "label": "Chauhan anchor -> Prithviraj Chauhan"
+    },
+    {
+      "from": "ind_raj_chauhan_bhati",
+      "to": "chr6_rawal_jaisal",
+      "type": "direct",
+      "label": "Bhati Yadava anchor -> Rawal Jaisal"
+    },
+    {
+      "from": "tib_ladakh_nyimagon",
+      "to": "chr6_lhachen_palgyigon",
+      "type": "direct",
+      "label": "Nyi-ma-mgon -> eldest son Lhachen Palgyigon"
+    },
+    {
+      "from": "tib_ladakh_sengge_namgyal",
+      "to": "chr6_king_bhagan",
+      "type": "direct",
+      "label": "Ladakh Namgyal anchor -> King Bhagan"
+    },
+    {
+      "from": "chr6_king_bhagan",
+      "to": "chr6_sengge_namgyal",
+      "type": "direct",
+      "label": "Bhagan -> Jamyang -> Sengge Namgyal"
+    },
+    {
+      "from": "stp_moghul_tughlugh",
+      "to": "chr6_tughlugh_timur",
+      "type": "direct",
+      "label": "Moghulistan anchor -> Tughlugh Timur"
+    },
+    {
+      "from": "chr6_tughlugh_timur",
+      "to": "chr6_yunus_khan",
+      "type": "direct",
+      "label": "Tughlugh Timur -> Khizr Khoja -> Shir Ali -> Yunus Khan"
+    },
+    {
+      "from": "chr6_yunus_khan",
+      "to": "mon_mug_babur_ind",
+      "type": "direct",
+      "label": "Yunus Khan -> Qutlugh Nigar Khanum -> Emperor Babur"
+    },
+    {
+      "from": "chr6_yunus_khan",
+      "to": "chr6_sultan_said_khan",
+      "type": "direct",
+      "label": "Yunus Khan -> Sultan Ahmad Alaq -> Sultan Said Khan"
+    },
+    {
+      "from": "chr6_sultan_said_khan",
+      "to": "chr6_mirza_haidar_dughlat",
+      "type": "direct",
+      "label": "Dughlat kinsman & chronicler of Sultan Said Khan"
+    },
+    {
+      "from": "pc_sikh_guru_nanak",
+      "to": "chr6_guru_nanak",
+      "type": "direct",
+      "label": "Sikh Bedi anchor -> Guru Nanak Dev Ji"
+    },
+    {
+      "from": "chr6_guru_nanak",
+      "to": "chr6_guru_gobind_singh",
+      "type": "expansion",
+      "label": "Line of Ten Sikh Gurus -> Guru Gobind Singh Ji"
+    },
+    {
+      "from": "chr6_guru_gobind_singh",
+      "to": "mon_ind_ranjit_singh",
+      "type": "expansion",
+      "label": "Khalsa confederacy -> Maharaja Ranjit Singh"
+    },
+    {
+      "from": "mal_mansur_mahmud",
+      "to": "chr6_sultan_mansur_shah",
+      "type": "direct",
+      "label": "Malacca anchor -> Sultan Mansur Shah"
+    },
+    {
+      "from": "chr6_sultan_mansur_shah",
+      "to": "chr6_sultan_mahmud_shah",
+      "type": "direct",
+      "label": "Mansur Shah -> Alauddin Riayat Shah -> Mahmud Shah"
+    },
+    {
+      "from": "pc_african_kings_queens",
+      "to": "chr6_queen_amina_zazzau",
+      "type": "direct",
+      "label": "African sovereign queens -> Queen Amina"
+    },
+    {
+      "from": "pc_african_kings_queens",
+      "to": "chr6_empress_eleni",
+      "type": "direct",
+      "label": "African sovereign queens -> Empress Eleni"
+    },
+    {
+      "from": "chr6_empress_eleni",
+      "to": "chr6_empress_mentewab",
+      "type": "expansion",
+      "label": "Solomonic royal queens -> Empress Mentewab"
+    },
+    {
+      "from": "chr6_empress_mentewab",
+      "to": "chr6_empress_taytu_betul",
+      "type": "expansion",
+      "label": "Solomonic queens -> Empress Taytu Betul"
+    },
+    {
+      "from": "chr6_empress_taytu_betul",
+      "to": "mon_eth_menelik2",
+      "type": "direct",
+      "label": "Marriage of Emperor Menelik II & Empress Taytu Betul"
+    },
+    {
+      "from": "eas5_qing_qianlong",
+      "to": "chr6_empress_dowager_cixi",
+      "type": "direct",
+      "label": "Qianlong -> Jiaqing -> Daoguang -> Xianfeng (+ Empress Dowager Cixi)"
+    },
+    {
+      "from": "chr6_empress_dowager_cixi",
+      "to": "chr6_emperor_puyi",
+      "type": "direct",
+      "label": "Cixi -> Prince Chun Line -> Emperor Puyi"
+    },
+    {
+      "from": "pc_japan_nara_heian",
+      "to": "chr6_fujiwara_kamatari",
+      "type": "direct",
+      "label": "Heian court anchor -> Fujiwara no Kamatari"
+    },
+    {
+      "from": "chr6_fujiwara_kamatari",
+      "to": "chr6_murasaki_shikibu",
+      "type": "direct",
+      "label": "Fujiwara lineage -> Lady Murasaki Shikibu"
+    },
+    {
+      "from": "fam_maimonides",
+      "to": "fam6_maimonides",
+      "type": "direct",
+      "label": "Maimonides anchor -> Rambam"
+    },
+    {
+      "from": "fam6_maimonides",
+      "to": "fam6_abraham_ben_maimon",
+      "type": "direct",
+      "label": "Rambam -> son Nagid Abraham ben Maimon"
+    },
+    {
+      "from": "fam_ibn_sina_rushd_rumi",
+      "to": "fam6_ibn_sina",
+      "type": "direct",
+      "label": "Islamic Golden Age scholars -> Ibn Sina"
+    },
+    {
+      "from": "fam_ibn_sina_rushd_rumi",
+      "to": "fam6_ibn_rushd",
+      "type": "direct",
+      "label": "Islamic Golden Age scholars -> Ibn Rushd"
+    },
+    {
+      "from": "fam_ibn_sina_rushd_rumi",
+      "to": "fam6_omar_khayyam",
+      "type": "direct",
+      "label": "Islamic Golden Age scholars -> Omar Khayyam"
+    },
+    {
+      "from": "stp5_malik_shah1",
+      "to": "fam6_omar_khayyam",
+      "type": "cognate",
+      "label": "Sultan Malik-Shah I patronized Omar Khayyam's Jalali calendar"
+    },
+    {
+      "from": "fam_ibn_sina_rushd_rumi",
+      "to": "fam6_rumi",
+      "type": "direct",
+      "label": "Scholarly network -> Mevlana Rumi"
+    },
+    {
+      "from": "fam6_rumi",
+      "to": "fam6_sultan_walad",
+      "type": "direct",
+      "label": "Rumi -> son Sultan Walad"
+    },
+    {
+      "from": "fam_columbus_vasco_polo",
+      "to": "fam6_marco_polo",
+      "type": "direct",
+      "label": "Explorers -> Marco Polo"
+    },
+    {
+      "from": "mngr_imp_10_qubilai_qa_an_kublai_khan_fo",
+      "to": "fam6_marco_polo",
+      "type": "cognate",
+      "label": "Marco Polo served at Emperor Kublai Khan's Yuan court"
+    },
+    {
+      "from": "fam_columbus_vasco_polo",
+      "to": "fam6_vasco_da_gama",
+      "type": "direct",
+      "label": "Explorers -> Vasco da Gama"
+    },
+    {
+      "from": "mon_por_manuel1",
+      "to": "fam6_vasco_da_gama",
+      "type": "cognate",
+      "label": "King Manuel I commissioned Vasco da Gama's 1497 voyage to India"
+    },
+    {
+      "from": "fam_columbus_vasco_polo",
+      "to": "fam6_christopher_columbus",
+      "type": "direct",
+      "label": "Explorers -> Christopher Columbus"
+    },
+    {
+      "from": "fam6_christopher_columbus",
+      "to": "fam6_diego_columbus",
+      "type": "direct",
+      "label": "Christopher Columbus -> son Diego Columbus"
+    },
+    {
+      "from": "fam_renaissance_science",
+      "to": "fam6_leonardo_da_vinci",
+      "type": "direct",
+      "label": "Renaissance masters -> Leonardo da Vinci"
+    },
+    {
+      "from": "fam_renaissance_science",
+      "to": "fam6_michelangelo",
+      "type": "direct",
+      "label": "Renaissance masters -> Michelangelo"
+    },
+    {
+      "from": "fam_renaissance_science",
+      "to": "fam6_galileo_galilei",
+      "type": "direct",
+      "label": "Renaissance masters -> Galileo Galilei"
+    },
+    {
+      "from": "fam_renaissance_science",
+      "to": "fam6_isaac_newton",
+      "type": "direct",
+      "label": "Renaissance masters -> Sir Isaac Newton"
+    },
+    {
+      "from": "fam_shakespeare_joan",
+      "to": "fam6_william_shakespeare",
+      "type": "direct",
+      "label": "Tudor-Valois icons -> William Shakespeare"
+    },
+    {
+      "from": "fam6_william_shakespeare",
+      "to": "fam6_susanna_hall",
+      "type": "direct",
+      "label": "William Shakespeare -> daughter Susanna Hall"
+    },
+    {
+      "from": "fam_washington_jefferson",
+      "to": "fam6_george_washington",
+      "type": "direct",
+      "label": "Founders -> George Washington"
+    },
+    {
+      "from": "mon_eng_edward3",
+      "to": "fam6_george_washington",
+      "type": "direct",
+      "label": "Colonial Virginia gateway from King Edward III -> George Washington"
+    },
+    {
+      "from": "fam_washington_jefferson",
+      "to": "fam6_thomas_jefferson",
+      "type": "direct",
+      "label": "Founders -> Thomas Jefferson"
+    },
+    {
+      "from": "eur5_malcolm3",
+      "to": "fam6_thomas_jefferson",
+      "type": "direct",
+      "label": "Jane Randolph -> King David I (son of Malcolm III) -> Thomas Jefferson"
+    },
+    {
+      "from": "fam_churchill_lincoln",
+      "to": "fam6_winston_churchill",
+      "type": "direct",
+      "label": "Churchill/Lincoln anchor -> Sir Winston Churchill"
+    },
+    {
+      "from": "fam_churchill_lincoln",
+      "to": "fam6_abraham_lincoln",
+      "type": "direct",
+      "label": "Churchill/Lincoln anchor -> President Abraham Lincoln"
+    },
+    {
+      "from": "fam6_abraham_lincoln",
+      "to": "fam6_robert_todd_lincoln",
+      "type": "direct",
+      "label": "Abraham Lincoln -> son Robert Todd Lincoln"
+    },
+    {
+      "from": "fam_asian_sages",
+      "to": "fam6_laozi",
+      "type": "direct",
+      "label": "Asian classical masters -> Laozi"
+    },
+    {
+      "from": "fam_asian_sages",
+      "to": "fam6_sun_tzu",
+      "type": "direct",
+      "label": "Asian classical masters -> Sun Tzu"
+    },
+    {
+      "from": "fam_asian_sages",
+      "to": "fam6_mencius",
+      "type": "direct",
+      "label": "Asian classical masters -> Mencius"
+    },
+    {
+      "from": "fam_asian_sages",
+      "to": "fam6_sima_qian",
+      "type": "direct",
+      "label": "Asian classical masters -> Sima Qian"
+    },
+    {
+      "from": "eas5_han_wudi",
+      "to": "fam6_sima_qian",
+      "type": "cognate",
+      "label": "Sima Qian served as Grand Historian at Han Wudi's court"
+    },
+    {
+      "from": "fam_asian_sages",
+      "to": "fam6_chanakya",
+      "type": "direct",
+      "label": "Asian classical masters -> Chanakya"
+    },
+    {
+      "from": "ind5_chandragupta_maurya",
+      "to": "fam6_chanakya",
+      "type": "cognate",
+      "label": "Chanakya mentored Emperor Chandragupta Maurya"
+    },
+    {
+      "from": "fam_asian_sages",
+      "to": "fam6_kalidasa",
+      "type": "direct",
+      "label": "Asian classical masters -> Kalidasa"
+    },
+    {
+      "from": "ind5_chandragupta2",
+      "to": "fam6_kalidasa",
+      "type": "cognate",
+      "label": "Kalidasa adorned Chandragupta II Vikramaditya's court"
+    },
+    {
+      "from": "fam_asian_sages",
+      "to": "fam6_adi_shankara",
+      "type": "direct",
+      "label": "Asian classical masters -> Adi Shankaracharya"
+    }
+  ]
+}

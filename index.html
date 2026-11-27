@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ancient World Genealogy Atlas — Universal Biblical &amp; Noahic Lineages</title>
-  <meta name="description" content="Universal World Genealogy Atlas (v22.0 Wave 5 India, East Asia, Mongols &amp; Celtic-European Edition): Complete Person-by-Person Pargiter 95-Gen Solar/Lunar/Rishi India, Xia/Shang/Zhou/Han/Tang/Qing China, Nihongi Emperors, Korean Dynasties, 22-Gen Mongol Borjigin, Abulghazi Turks, Celtic Lebor Gabala, Normandy, Kievan Rus', Mesopotamia, Persia, Arabia, Egypt, Greece, Rome &amp; Biblical Lineages." />
+  <meta name="description" content="Universal World Genealogy Atlas (v23.0 Wave 6 Person-by-Person Global Royalty &amp; Pathfinder Edition): Complete Individual Monarchs, Living 2026 Windsors/Hashemites/Bagrationis/Solomonids, Lombards, Iceland/Vinland, Wales, Rajputs, Ladakh, Moghulistan, Malay Annals, Famous Scholars &amp; Biblical Lineages." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :root {
@@ -74,13 +74,13 @@
           <h1 class="text-xs sm:text-sm font-semibold leading-tight truncate">Ancient World Genealogy Atlas</h1>
           <span id="versionBadge" class="text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono shrink-0">Loading…</span>
         </div>
-        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">Wave 5 Person-by-Person Global Edition (v22.0) &bull; Individual India, East Asia, Steppe, Celtic, European &amp; Biblical Lineages</p>
+        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">Wave 6 Person-by-Person Global Royalty &amp; Pathfinder Edition (v23.0) &bull; Individual Monarchs, Living 2026 Lines &amp; World Bridges</p>
       </div>
     </div>
 
     <!-- Search & View Switchers -->
     <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 w-full lg:w-auto">
-      <input id="searchInput" type="text" placeholder="Search 3,500+ kings, pharaohs, patriarchs &amp; lineages..."
+      <input id="searchInput" type="text" placeholder="Search 3,600+ kings, pharaohs, patriarchs &amp; lineages..."
         class="text-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] flex-1 sm:flex-none sm:w-48 lg:w-56 min-w-[130px] focus:outline-none focus:ring-1 focus:ring-[var(--primary)]" />
 
       <!-- Biblical Scope Switcher -->
@@ -172,11 +172,35 @@
           <h2 class="text-xs font-semibold uppercase tracking-wide text-[var(--muted-foreground)]">Common Ancestor / Bridge</h2>
           <button onclick="clearPath()" class="text-xs text-[var(--link)] hover:underline">Clear</button>
         </div>
-        <select id="pathFrom" class="w-full text-xs px-2 py-1.5 rounded border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)]"></select>
-        <select id="pathTo" class="w-full text-xs px-2 py-1.5 rounded border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)]"></select>
-        <button onclick="runPathfinder()" class="w-full text-xs py-1.5 px-2.5 rounded-md bg-[var(--primary)] text-[var(--primary-foreground)] font-medium hover:opacity-90">
-          Trace Connection
-        </button>
+        <div class="space-y-1">
+          <input id="pathFromFilter" type="text" placeholder="Filter person A (e.g., Esau, David, Victoria)..." class="w-full text-[11px] px-2 py-1 rounded border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)]" />
+          <select id="pathFrom" class="w-full text-xs px-2 py-1.5 rounded border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)]"></select>
+        </div>
+        <div class="space-y-1">
+          <input id="pathToFilter" type="text" placeholder="Filter person B (e.g., Herod, Washington, Abdullah)..." class="w-full text-[11px] px-2 py-1 rounded border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)]" />
+          <select id="pathTo" class="w-full text-xs px-2 py-1.5 rounded border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)]"></select>
+        </div>
+        <div class="flex gap-1.5">
+          <button onclick="runPathfinder()" class="flex-1 text-xs py-1.5 px-2.5 rounded-md bg-[var(--primary)] text-[var(--primary-foreground)] font-medium hover:opacity-90">
+            Trace Connection
+          </button>
+          <button onclick="swapPathEndpoints()" title="Swap Person A &amp; B" class="text-xs px-2 py-1.5 rounded-md border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)] font-medium">⇄</button>
+        </div>
+        <div class="pt-1 border-t border-[var(--card-border)] space-y-1">
+          <div class="text-[10px] uppercase tracking-wide text-[var(--muted-foreground)] font-semibold">Featured Bloodline Discoveries</div>
+          <div class="flex flex-wrap gap-1">
+            <button onclick="traceFeaturedPath('bib_esau','jos_herod_armenia_cilicia')" class="text-[10px] px-1.5 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)] text-left">Esau → Herod</button>
+            <button onclick="traceFeaturedPath('bib_esau','jos_haman_amalekite')" class="text-[10px] px-1.5 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)] text-left">Esau → Agag → Haman</button>
+            <button onclick="traceFeaturedPath('jud_david','mod_geo_giorgi_2011')" class="text-[10px] px-1.5 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)] text-left">David → Prince Giorgi</button>
+            <button onclick="traceFeaturedPath('tab_adnan_21gen_quraysh','mod_abdullah2_hussein_iman')" class="text-[10px] px-1.5 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)] text-left">Adnan → Abdullah II</button>
+            <button onclick="traceFeaturedPath('bib_noah','fam6_george_washington')" class="text-[10px] px-1.5 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)] text-left">Noah → Washington</button>
+            <button onclick="traceFeaturedPath('mon_eng_victoria','roy6_king_charles3')" class="text-[10px] px-1.5 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)] text-left">Victoria → Charles III</button>
+            <button onclick="traceFeaturedPath('grk_aeneas','mon_rom_caligula')" class="text-[10px] px-1.5 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)] text-left">Aeneas → Caligula</button>
+            <button onclick="traceFeaturedPath('mng_borte_chino','mug_akbar_aurangzeb')" class="text-[10px] px-1.5 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)] text-left">Börte Čino → Akbar</button>
+            <button onclick="traceFeaturedPath('rus_rurik_dynasty','mon_fra_henry1')" class="text-[10px] px-1.5 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)] text-left">Rurik → Henry I</button>
+            <button onclick="traceFeaturedPath('grk_alexander','mal_parameswara_iskandar')" class="text-[10px] px-1.5 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)] text-left">Alexander → Malacca</button>
+          </div>
+        </div>
         <div id="pathSummary" class="text-xs text-[var(--muted-foreground)] hidden pt-1 border-t border-[var(--card-border)] max-h-48 overflow-y-auto thin-scroll"></div>
       </section>
 
@@ -570,6 +594,8 @@ let searchQuery = "";
 let activePreset = "all";
 let activePathNodes = new Set();
 let activePathEdges = new Set();
+let pathOnlyMode = false;
+let sortedPathNodes = [];
 
 let layoutPos = {};
 let panX = 40, panY = 30, scale = 0.65;
@@ -663,19 +689,31 @@ async function boot() {
   }
 }
 
-function initUI() {
-  const sorted = [...NODES].filter(n => n.tradition !== "archetype").sort((a, b) => a.name.localeCompare(b.name));
-  const selFrom = document.getElementById("pathFrom");
-  const selTo = document.getElementById("pathTo");
-  sorted.forEach(n => {
-    const o1 = document.createElement("option");
-    o1.value = n.id;
-    o1.textContent = `${n.name} (${TRADITIONS[n.tradition].label.split(" ")[0]})`;
-    selFrom.appendChild(o1);
-    selTo.appendChild(o1.cloneNode(true));
+function populatePathSelect(selId, filterText = "") {
+  const sel = document.getElementById(selId);
+  if (!sel) return;
+  const prev = sel.value;
+  const q = filterText.trim().toLowerCase();
+  const matches = q ? sortedPathNodes.filter(n => n.name.toLowerCase().includes(q) || (n.altNames || []).some(a => a.toLowerCase().includes(q))) : sortedPathNodes;
+  sel.innerHTML = "";
+  matches.forEach(n => {
+    const o = document.createElement("option");
+    o.value = n.id;
+    o.textContent = `${n.name} (${TRADITIONS[n.tradition].label.split(" ")[0]})`;
+    sel.appendChild(o);
   });
-  selFrom.value = "bib_moses";
-  selTo.value = "ved_bharata_kuru";
+  if (prev && matches.some(n => n.id === prev)) sel.value = prev;
+  else if (matches.length > 0) sel.value = matches[0].id;
+}
+
+function initUI() {
+  sortedPathNodes = [...NODES].filter(n => n.tradition !== "archetype").sort((a, b) => a.name.localeCompare(b.name));
+  populatePathSelect("pathFrom", "");
+  populatePathSelect("pathTo", "");
+  document.getElementById("pathFrom").value = "bib_moses";
+  document.getElementById("pathTo").value = "ved_bharata_kuru";
+  document.getElementById("pathFromFilter")?.addEventListener("input", (e) => populatePathSelect("pathFrom", e.target.value));
+  document.getElementById("pathToFilter")?.addEventListener("input", (e) => populatePathSelect("pathTo", e.target.value));
 
   const lf = document.getElementById("linkTypeFilters");
   Object.entries(LINK_META).forEach(([k, m]) => {
@@ -1084,6 +1122,9 @@ function getVisibleNodes() {
   if (bridgeSpotlightIds) {
     return NODES.filter(n => (bridgeSpotlightIds.has(n.id) || n.id === selectedNodeId) && activeTraditions.has(n.tradition) && isNodeInScope(n));
   }
+  if (pathOnlyMode && activePathNodes.size > 0) {
+    return NODES.filter(n => activePathNodes.has(n.id) || n.id === selectedNodeId);
+  }
   const activeSelChildren = selectedNodeId ? new Set(getActiveChildren(selectedNodeId)) : new Set();
   const activeSelParents = selectedNodeId ? new Set(getActiveParents(selectedNodeId)) : new Set();
   return NODES.filter(n => {
@@ -1311,7 +1352,8 @@ function runPathfinder() {
   updateScopeUI();
 
   const hops = found.length - 1;
-  box.innerHTML = `<div class="font-medium text-[var(--foreground)] mb-1">Connected in ${hops} step${hops===1?"":"s"}:</div>` +
+  const isoLabel = pathOnlyMode ? "Show Full Tree" : "Isolate Path Only";
+  box.innerHTML = `<div class="flex items-center justify-between gap-1 mb-1.5"><span class="font-medium text-[var(--foreground)]">Connected in ${hops} step${hops===1?"":"s"}:</span><button id="pathIsolateBtn" onclick="togglePathOnlyMode()" class="text-[10px] px-1.5 py-0.5 rounded border border-[var(--primary)] bg-[var(--accent)] text-[var(--primary)] font-medium hover:opacity-90">${isoLabel}</button></div>` +
     found.map((s, i) => {
       const n = nodesById[s.nodeId];
       const badge = s.edge ? `<div class="text-[11px] pl-2 border-l-2 border-[var(--primary)] my-0.5 text-[var(--muted-foreground)]"><span class="font-semibold" style="color:${LINK_META[s.edge.type].color}">${s.edge.type}</span>: ${s.edge.label}</div>` : "";
@@ -1325,9 +1367,33 @@ function runPathfinder() {
   if (isMobileViewport()) closeDrawers();
 }
 
+function togglePathOnlyMode() {
+  pathOnlyMode = !pathOnlyMode;
+  const btn = document.getElementById("pathIsolateBtn");
+  if (btn) btn.textContent = pathOnlyMode ? "Show Full Tree" : "Isolate Path Only";
+  render();
+  fitView();
+}
+
+function swapPathEndpoints() {
+  const a = document.getElementById("pathFrom").value;
+  const b = document.getElementById("pathTo").value;
+  setPathEndpoint("from", b);
+  setPathEndpoint("to", a);
+  if (a && b) runPathfinder();
+}
+
+function traceFeaturedPath(fromId, toId) {
+  setPathEndpoint("from", fromId);
+  setPathEndpoint("to", toId);
+  pathOnlyMode = true;
+  runPathfinder();
+}
+
 function clearPath(doRender = true) {
   activePathNodes.clear();
   activePathEdges.clear();
+  pathOnlyMode = false;
   const box = document.getElementById("pathSummary");
   if (box) { box.classList.add("hidden"); box.innerHTML = ""; }
   if (doRender) render();
@@ -1371,7 +1437,15 @@ function selectNode(id, openMobileDrawer = true, keepAnchor = false) {
 }
 
 function setPathEndpoint(which, id) {
-  document.getElementById(which === "from" ? "pathFrom" : "pathTo").value = id;
+  const filterId = which === "from" ? "pathFromFilter" : "pathToFilter";
+  const selId = which === "from" ? "pathFrom" : "pathTo";
+  const filterEl = document.getElementById(filterId);
+  if (filterEl && filterEl.value) {
+    filterEl.value = "";
+    populatePathSelect(selId, "");
+  }
+  const sel = document.getElementById(selId);
+  if (sel) sel.value = id;
 }
 
 function renderInspector(id) {

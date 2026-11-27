@@ -172,6 +172,12 @@ def main():
         ("bib_magog", "celr_tdd1_13_lugh_l_mfada_king_40_yrs_vic", {"direct", "expansion", "syncretic"}, "Magog -> Nemed -> Tat -> Dian Cécht -> Cian + Ethniu (Balor) -> Lugh Lámfada"),
         ("eur_ynglings_skjoldungs", "mon_eng_william1", {"direct", "expansion"}, "Yngvi-Freyr -> Harald Fairhair -> Rollo of Normandy -> Robert I -> William the Conqueror"),
         ("rus_rurik_dynasty", "mon_fra_henry1", {"direct", "expansion"}, "Rurik -> Igor & Olga -> Vladimir -> Yaroslav the Wise -> Anne of Kiev + Henry I of France"),
+        ("bib_noah", "roy6_prince_george", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Wessex -> Victoria -> Elizabeth II -> King Charles III -> Prince William -> Prince George (Living 2026)"),
+        ("rus_vladimir_great", "eur6_john3_sobieski", {"direct", "expansion", "cognate"}, "Vladimir of Kiev -> Maria Dobroniega + Casimir I -> Queen Jadwiga + Jagiello -> John III Sobieski"),
+        ("eur_ice_erik_leif", "chr6_leif_erikson", {"direct", "expansion"}, "Iceland Landnamabok -> Erik the Red -> Leif Erikson (Vinland / North America)"),
+        ("eur_wal_cunedda", "mon_eng_henry7", {"direct", "expansion"}, "Cunedda -> Rhodri Mawr -> Hywel Dda -> Llywelyn the Great -> Owen Tudor -> King Henry VII"),
+        ("ind5_lava", "chr6_maharana_pratap", {"direct", "expansion"}, "Rama -> Lava -> Bappa Rawal -> Rana Kumbha -> Rana Sanga -> Maharana Pratap"),
+        ("mon_eng_edward3", "fam6_george_washington", {"direct", "expansion"}, "King Edward III -> Colonial Virginia Gateway -> President George Washington"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")
