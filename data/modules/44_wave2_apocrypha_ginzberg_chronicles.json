@@ -1,0 +1,1956 @@
+{
+  "module": "44_wave2_apocrypha_ginzberg_chronicles",
+  "title": "Wave 2 Person-by-Person 1 Chronicles (Jarha, Bithiah, Ephraim->Joshua, Reuben, 1 Chr 6 High Priests), Ginzberg Legends & Testaments of the 12 Patriarchs",
+  "nodes": [
+    {
+      "id": "chr2_sheshan",
+      "name": "Sheshan (Jerahmeelite Father of Ahlai, 1 Chr 2:34–35)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "1 Chronicles 2:31, 34–35",
+      "role": "Jerahmeelite Patriarch Without Sons",
+      "sources": [
+        "1 Chronicles 2:31, 34–35",
+        "Myers 1 Chronicles (1965 p.109)"
+      ],
+      "notes": "Descended from Jerahmeel -> Onam -> Shammai -> Nadab -> Appaim -> Ishi -> Sheshan; wed his daughter Ahlai to his Egyptian servant Jarha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_ahlai",
+      "name": "Ahlai (Daughter of Sheshan; Wife of Jarha the Egyptian, 1 Chr 2:31, 35)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:31, 35",
+      "role": "Judahite Heiress Wed to Jarha the Egyptian",
+      "sources": [
+        "1 Chronicles 2:31, 35",
+        "Myers 1 Chronicles p.109"
+      ],
+      "notes": "Daughter and heiress of Sheshan who married Jarha the Egyptian and bore Attai.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_jarha",
+      "name": "Jarha the Egyptian (Son-in-Law of Sheshan, 1 Chr 2:34–35)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1 Chronicles 2:34–35",
+      "role": "Egyptian Grafted Into Tribe of Judah",
+      "sources": [
+        "1 Chronicles 2:34–35",
+        "Myers 1 Chronicles p.109"
+      ],
+      "notes": "Egyptian servant freed and given Sheshan's daughter Ahlai in marriage, founding a 13-generation Judahite lineage.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_attai",
+      "name": "Attai (Son of Jarha & Ahlai, 1 Chr 2:35–36)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Attai (Son of Jarha & Ahlai, 1 Chr 2:35–36).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_nathan",
+      "name": "Nathan ben Attai (1 Chr 2:36)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Nathan ben Attai (1 Chr 2:36).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_zabad",
+      "name": "Zabad ben Nathan (1 Chr 2:36)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Zabad ben Nathan (1 Chr 2:36).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_ephlal",
+      "name": "Ephlal ben Zabad (1 Chr 2:37)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Ephlal ben Zabad (1 Chr 2:37).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_obed",
+      "name": "Obed ben Ephlal (1 Chr 2:37)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Obed ben Ephlal (1 Chr 2:37).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_jehu",
+      "name": "Jehu ben Obed (1 Chr 2:38)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Jehu ben Obed (1 Chr 2:38).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_azariah",
+      "name": "Azariah ben Jehu (1 Chr 2:38)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Azariah ben Jehu (1 Chr 2:38).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_helez",
+      "name": "Helez ben Azariah (1 Chr 2:39)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Helez ben Azariah (1 Chr 2:39).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_eleasah",
+      "name": "Eleasah ben Helez (1 Chr 2:39)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Eleasah ben Helez (1 Chr 2:39).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_sismai",
+      "name": "Sismai ben Eleasah (1 Chr 2:40)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Sismai ben Eleasah (1 Chr 2:40).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_shallum",
+      "name": "Shallum ben Sismai (1 Chr 2:40)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Shallum ben Sismai (1 Chr 2:40).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_jekamiah",
+      "name": "Jekamiah ben Shallum (1 Chr 2:41)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Jekamiah ben Shallum (1 Chr 2:41).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_elishama",
+      "name": "Elishama ben Jekamiah (13th Gen From Jarha, 1 Chr 2:41)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:35–41",
+      "role": "Judah–Egyptian Lineage Member",
+      "sources": [
+        "1 Chronicles 2:35–41",
+        "Myers Anchor Bible 1 Chronicles p.109"
+      ],
+      "notes": "Elishama ben Jekamiah (13th Gen From Jarha, 1 Chr 2:41).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_mered",
+      "name": "Mered of Judah (Son of Ezrah; Husband of Pharaoh's Daughter Bithiah, 1 Chr 4:17–18)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 4:17–18 (Myers p.122)",
+      "role": "Judahite Husband of Egyptian Princess Bithiah",
+      "sources": [
+        "1 Chronicles 4:17–18",
+        "Talmud Sanhedrin 19b"
+      ],
+      "notes": "Son of Ezrah; married both a Judahite wife (Hodiah) and Pharaoh's daughter Bithiah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_bithiah",
+      "name": "Princess Bithiah (Daughter of Pharaoh; Wife of Mered, 1 Chr 4:18; Ginzberg II, 270)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "1 Chronicles 4:18 (Myers p.122; Ginzberg II, 270)",
+      "role": "Egyptian Princess Married Into Tribe of Judah",
+      "sources": [
+        "1 Chronicles 4:18",
+        "Ginzberg Legends II, 270, V, 398"
+      ],
+      "notes": "Explicitly named in 1 Chr 4:18 as 'Bithiah the daughter of Pharaoh, whom Mered married'; identified in Rabbinic tradition (Ginzberg II, 270; VII, 84) as Moses's adoptive mother!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_miriam_bithiah",
+      "name": "Miriam (Daughter of Mered & Bithiah, 1 Chr 4:17)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 4:17",
+      "role": "Daughter of Mered & Pharaoh's Daughter",
+      "sources": [
+        "1 Chronicles 4:17"
+      ],
+      "notes": "First named child of Bithiah in 1 Chr 4:17.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_shammai_bithiah",
+      "name": "Shammai (Son of Mered & Bithiah, 1 Chr 4:17)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 4:17",
+      "role": "Son of Mered & Pharaoh's Daughter",
+      "sources": [
+        "1 Chronicles 4:17"
+      ],
+      "notes": "Father of Maon and Eshtemoa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_ishbah_bithiah",
+      "name": "Ishbah (Father of Eshtemoa; Son of Mered & Bithiah, 1 Chr 4:17)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 4:17",
+      "role": "Son of Mered & Pharaoh's Daughter",
+      "sources": [
+        "1 Chronicles 4:17"
+      ],
+      "notes": "Founder of Eshtemoa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_jered_mered",
+      "name": "Jered (Father of Gedor; Son of Mered & Judahite Wife, 1 Chr 4:18)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 4:18",
+      "role": "Son of Mered",
+      "sources": [
+        "1 Chronicles 4:18"
+      ],
+      "notes": "Father of Gedor.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_heber_mered",
+      "name": "Heber (Father of Soco; Son of Mered & Judahite Wife, 1 Chr 4:18)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 4:18",
+      "role": "Son of Mered",
+      "sources": [
+        "1 Chronicles 4:18"
+      ],
+      "notes": "Father of Soco.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_jekuthiel_mered",
+      "name": "Jekuthiel (Father of Zanoah; Son of Mered & Judahite Wife, 1 Chr 4:18)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 4:18",
+      "role": "Son of Mered",
+      "sources": [
+        "1 Chronicles 4:18"
+      ],
+      "notes": "Father of Zanoah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_hur",
+      "name": "Hur (Son of Caleb ben Hezron & Ephrath; Supported Moses's Hands, Exod 17:10; 1 Chr 2:19)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "Exodus Era (Exod 17:10; 1 Chr 2:19, 50)",
+      "role": "Judahite Elder & Grandfather of Bezalel",
+      "sources": [
+        "Exodus 17:10",
+        "1 Chronicles 2:19–20, 50"
+      ],
+      "notes": "Firstborn of Ephrath; father of Uri, Shobal, Salma, and Hareph.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_uri_hur",
+      "name": "Uri ben Hur (Father of Bezalel, Exod 31:2; 1 Chr 2:20)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:20",
+      "role": "Son of Hur",
+      "sources": [
+        "Exodus 31:2",
+        "1 Chronicles 2:20"
+      ],
+      "notes": "Father of Tabernacle architect Bezalel.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_bezalel",
+      "name": "Bezalel ben Uri (Chief Architect of the Tabernacle & Ark, Exod 31:2)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Exodus Era (Exod 31:2–6, 35:30)",
+      "role": "Chief Artisan of the Ark of the Covenant",
+      "sources": [
+        "Exodus 31:2–6",
+        "1 Chronicles 2:20"
+      ],
+      "notes": "Filled with the Spirit of God to craft the Ark and Tabernacle.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_shobal_hur",
+      "name": "Shobal ben Hur (Founder of Kiriath-jearim, 1 Chr 2:50)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:50",
+      "role": "Eldest Son of Hur",
+      "sources": [
+        "1 Chronicles 2:50"
+      ],
+      "notes": "Father of Kiriath-jearim.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_salma_hur",
+      "name": "Salma ben Hur (Founder of Bethlehem & Kenite Scribes, 1 Chr 2:51, 54)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 2:51, 54",
+      "role": "Son of Hur",
+      "sources": [
+        "1 Chronicles 2:51, 54"
+      ],
+      "notes": "Father of Bethlehem and Netophathites.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_atarah",
+      "name": "Atarah (2nd Wife of Jerahmeel; Mother of Onam, 1 Chr 2:26)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "1 Chronicles 2:26",
+      "role": "Wife of Jerahmeel",
+      "sources": [
+        "1 Chronicles 2:26"
+      ],
+      "notes": "Second wife of Jerahmeel ben Hezron; mother of Onam.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_onam",
+      "name": "Onam (Son of Jerahmeel & Atarah, 1 Chr 2:26, 28)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "1 Chronicles 2:26–28",
+      "role": "Ancestor of Sheshan & Jarha",
+      "sources": [
+        "1 Chronicles 2:26–28"
+      ],
+      "notes": "Son of Jerahmeel & Atarah; grandfather of Appaim/Sheshan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_helah_naarah",
+      "name": "Helah & Naarah (Wives of Ashhur of Tekoa, 1 Chr 4:5–7)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "1 Chronicles 4:5–7",
+      "role": "Wives of Ashhur",
+      "sources": [
+        "1 Chronicles 4:5–7"
+      ],
+      "notes": "Bore Zereth, Izhar, Ethnan, Ahuzzam, Hepher, Temeni, and Haahashtari.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_eph_beriah",
+      "name": "Beriah ben Ephraim (1 Chr 7:23)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 7:23–27",
+      "role": "Ephraimite Ancestor of Joshua",
+      "sources": [
+        "1 Chronicles 7:23–27"
+      ],
+      "notes": "Beriah ben Ephraim (1 Chr 7:23).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_eph_rephah",
+      "name": "Rephah ben Beriah (1 Chr 7:25)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 7:23–27",
+      "role": "Ephraimite Ancestor of Joshua",
+      "sources": [
+        "1 Chronicles 7:23–27"
+      ],
+      "notes": "Rephah ben Beriah (1 Chr 7:25).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_eph_resheph",
+      "name": "Resheph (1 Chr 7:25)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 7:23–27",
+      "role": "Ephraimite Ancestor of Joshua",
+      "sources": [
+        "1 Chronicles 7:23–27"
+      ],
+      "notes": "Resheph (1 Chr 7:25).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_eph_telah",
+      "name": "Telah (1 Chr 7:25)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 7:23–27",
+      "role": "Ephraimite Ancestor of Joshua",
+      "sources": [
+        "1 Chronicles 7:23–27"
+      ],
+      "notes": "Telah (1 Chr 7:25).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_eph_tahan",
+      "name": "Tahan (1 Chr 7:25)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 7:23–27",
+      "role": "Ephraimite Ancestor of Joshua",
+      "sources": [
+        "1 Chronicles 7:23–27"
+      ],
+      "notes": "Tahan (1 Chr 7:25).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_eph_ladan",
+      "name": "Ladan (1 Chr 7:26)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 7:23–27",
+      "role": "Ephraimite Ancestor of Joshua",
+      "sources": [
+        "1 Chronicles 7:23–27"
+      ],
+      "notes": "Ladan (1 Chr 7:26).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_eph_ammihud",
+      "name": "Ammihud ben Ladan (1 Chr 7:26)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 7:23–27",
+      "role": "Ephraimite Ancestor of Joshua",
+      "sources": [
+        "1 Chronicles 7:23–27"
+      ],
+      "notes": "Ammihud ben Ladan (1 Chr 7:26).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_eph_elishama",
+      "name": "Elishama ben Ammihud (Prince of Ephraim, Num 1:10; 1 Chr 7:26)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 7:23–27",
+      "role": "Ephraimite Ancestor of Joshua",
+      "sources": [
+        "1 Chronicles 7:23–27"
+      ],
+      "notes": "Elishama ben Ammihud (Prince of Ephraim, Num 1:10; 1 Chr 7:26).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_eph_nun",
+      "name": "Nun ben Elishama (Father of Joshua, 1 Chr 7:27)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 7:23–27",
+      "role": "Ephraimite Ancestor of Joshua",
+      "sources": [
+        "1 Chronicles 7:23–27"
+      ],
+      "notes": "Nun ben Elishama (Father of Joshua, 1 Chr 7:27).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_sheerah",
+      "name": "Sheerah (Daughter of Ephraim; Founder of Beth-horon, 1 Chr 7:24)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "1 Chronicles 7:24",
+      "role": "City-Builder Daughter of Ephraim",
+      "sources": [
+        "1 Chronicles 7:24"
+      ],
+      "notes": "Built Lower Beth-horon, Upper Beth-horon, and Uzzen-sheerah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_reu_joel",
+      "name": "Joel (Reubenite Chief, 1 Chr 5:4)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 5:4–6",
+      "role": "Reubenite Lineage to Assyrian Exile",
+      "sources": [
+        "1 Chronicles 5:4–6"
+      ],
+      "notes": "Joel (Reubenite Chief, 1 Chr 5:4).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_reu_shemaiah",
+      "name": "Shemaiah (1 Chr 5:4)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 5:4–6",
+      "role": "Reubenite Lineage to Assyrian Exile",
+      "sources": [
+        "1 Chronicles 5:4–6"
+      ],
+      "notes": "Shemaiah (1 Chr 5:4).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_reu_gog",
+      "name": "Gog ben Shemaiah (1 Chr 5:4)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 5:4–6",
+      "role": "Reubenite Lineage to Assyrian Exile",
+      "sources": [
+        "1 Chronicles 5:4–6"
+      ],
+      "notes": "Gog ben Shemaiah (1 Chr 5:4).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_reu_shimei",
+      "name": "Shimei ben Gog (1 Chr 5:4)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 5:4–6",
+      "role": "Reubenite Lineage to Assyrian Exile",
+      "sources": [
+        "1 Chronicles 5:4–6"
+      ],
+      "notes": "Shimei ben Gog (1 Chr 5:4).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_reu_micah",
+      "name": "Micah ben Shimei (1 Chr 5:5)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 5:4–6",
+      "role": "Reubenite Lineage to Assyrian Exile",
+      "sources": [
+        "1 Chronicles 5:4–6"
+      ],
+      "notes": "Micah ben Shimei (1 Chr 5:5).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_reu_reaiah",
+      "name": "Reaiah ben Micah (1 Chr 5:5)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 5:4–6",
+      "role": "Reubenite Lineage to Assyrian Exile",
+      "sources": [
+        "1 Chronicles 5:4–6"
+      ],
+      "notes": "Reaiah ben Micah (1 Chr 5:5).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_reu_baal",
+      "name": "Baal ben Reaiah (1 Chr 5:5)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 5:4–6",
+      "role": "Reubenite Lineage to Assyrian Exile",
+      "sources": [
+        "1 Chronicles 5:4–6"
+      ],
+      "notes": "Baal ben Reaiah (1 Chr 5:5).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_reu_beerah",
+      "name": "Prince Beerah of Reuben (Exiled by Tiglath-Pileser III, 1 Chr 5:6)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 5:4–6",
+      "role": "Reubenite Lineage to Assyrian Exile",
+      "sources": [
+        "1 Chronicles 5:4–6"
+      ],
+      "notes": "Prince Beerah of Reuben (Exiled by Tiglath-Pileser III, 1 Chr 5:6).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_ash_japhlet",
+      "name": "Japhlet ben Heber (Asherite Chief, 1 Chr 7:32)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chr 7:32",
+      "role": "Son of Heber ben Beriah",
+      "sources": [
+        "1 Chronicles 7:32"
+      ],
+      "notes": "Eldest son of Heber; father of Pasach, Bimhal & Ashvath.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_ash_shomer",
+      "name": "Shomer / Shemer ben Heber (1 Chr 7:32, 34)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chr 7:32",
+      "role": "Son of Heber",
+      "sources": [
+        "1 Chronicles 7:32"
+      ],
+      "notes": "Father of Ahi, Rohgah, Jehubbah & Aram.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_ash_hotham",
+      "name": "Hotham / Helem ben Heber (1 Chr 7:32, 35)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chr 7:32",
+      "role": "Son of Heber",
+      "sources": [
+        "1 Chronicles 7:32"
+      ],
+      "notes": "Father of Zophah, Imna, Shelesh & Amal.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_ash_shua",
+      "name": "Shua (Sister of Japhlet, Shomer & Hotham, 1 Chr 7:32)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chr 7:32",
+      "role": "Named Asherite Woman",
+      "sources": [
+        "1 Chronicles 7:32"
+      ],
+      "notes": "Daughter of Heber ben Beriah explicitly named in Chronicles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr2_ben_shaharaim",
+      "name": "Shaharaim (Benjamite in Moab + Hushim & Hodesh, 1 Chr 8:8–11; Myers p.155)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "1 Chronicles 8:8–11",
+      "role": "Benjamite Chief Settled in Moab",
+      "sources": [
+        "1 Chronicles 8:8–11",
+        "Myers 1 Chronicles p.155"
+      ],
+      "notes": "Fathered 7 sons by Hodesh in Moab (Jobab, Zibia, Mesha, Malcam, Jeuz, Sachiah, Mirmah) and Abitub & Elpaal by Hushim.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_zerahiah",
+      "name": "High Priest Zerahiah ben Uzzi (1 Chr 6:6)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Zerahiah ben Uzzi (1 Chr 6:6).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_meraioth",
+      "name": "High Priest Meraioth ben Zerahiah (1 Chr 6:6–7)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Meraioth ben Zerahiah (1 Chr 6:6–7).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_amariah1",
+      "name": "High Priest Amariah I ben Meraioth (1 Chr 6:7)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Amariah I ben Meraioth (1 Chr 6:7).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_ahitub1",
+      "name": "High Priest Ahitub I ben Amariah (1 Chr 6:7–8)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Ahitub I ben Amariah (1 Chr 6:7–8).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_ahimaaz",
+      "name": "High Priest Ahimaaz ben Zadok (2 Sam 15:27; 1 Chr 6:8)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Ahimaaz ben Zadok (2 Sam 15:27; 1 Chr 6:8).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_azariah1",
+      "name": "High Priest Azariah I ben Ahimaaz (Solomon's Temple, 1 Kgs 4:2; 1 Chr 6:9)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Azariah I ben Ahimaaz (Solomon's Temple, 1 Kgs 4:2; 1 Chr 6:9).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_johanan1",
+      "name": "High Priest Johanan ben Azariah (1 Chr 6:9–10)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Johanan ben Azariah (1 Chr 6:9–10).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_azariah2",
+      "name": "High Priest Azariah II ben Johanan (1 Chr 6:10)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Azariah II ben Johanan (1 Chr 6:10).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_amariah2",
+      "name": "High Priest Amariah II (1 Chr 6:11; 2 Chr 19:11)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Amariah II (1 Chr 6:11; 2 Chr 19:11).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_jehoiada",
+      "name": "High Priest Jehoiada (+ Princess Jehosheba; Protector of King Joash, 2 Kgs 11; 2 Chr 23)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Jehoiada (+ Princess Jehosheba; Protector of King Joash, 2 Kgs 11; 2 Chr 23).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_zechariah_jehoiada",
+      "name": "Prophet-Priest Zechariah ben Jehoiada (Martyred, 2 Chr 24:20–22)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "Prophet-Priest Zechariah ben Jehoiada (Martyred, 2 Chr 24:20–22).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_ahitub2",
+      "name": "High Priest Ahitub II (1 Chr 6:11–12)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Ahitub II (1 Chr 6:11–12).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_zadok2",
+      "name": "High Priest Zadok II (1 Chr 6:12)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Zadok II (1 Chr 6:12).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_shallum",
+      "name": "High Priest Shallum / Meshullam (1 Chr 6:12–13)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Shallum / Meshullam (1 Chr 6:12–13).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_hilkiah",
+      "name": "High Priest Hilkiah (Found Book of the Law, 622 BCE; 2 Kgs 22:8; 1 Chr 6:13)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Hilkiah (Found Book of the Law, 622 BCE; 2 Kgs 22:8; 1 Chr 6:13).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_azariah3",
+      "name": "High Priest Azariah III ben Hilkiah (1 Chr 6:13–14)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Azariah III ben Hilkiah (1 Chr 6:13–14).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_seraiah",
+      "name": "High Priest Seraiah ben Azariah (Slain at Riblah, 586 BCE; 2 Kgs 25:18; 1 Chr 6:14)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Seraiah ben Azariah (Slain at Riblah, 586 BCE; 2 Kgs 25:18; 1 Chr 6:14).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pri2_jehozadak",
+      "name": "High Priest Jehozadak ben Seraiah (Exiled to Babylon, 1 Chr 6:14–15)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "1 Chronicles 6:6–15",
+      "role": "First Temple Zadokite High Priest",
+      "sources": [
+        "1 Chronicles 6:6–15",
+        "Dutripon p.23"
+      ],
+      "notes": "High Priest Jehozadak ben Seraiah (Exiled to Babylon, 1 Chr 6:14–15).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ginz_rotheus",
+      "name": "Rotheus of Chaldea (Brother of Rebekah's Nurse Deborah; Father of Bilhah, T. Naph. 1:9–12)",
+      "altNames": [
+        "Rutheus"
+      ],
+      "tradition": "biblical",
+      "tier": 11,
+      "era": "Patriarchal Era (Testament of Naphtali 1:9–12; Ginzberg II, 209)",
+      "role": "Chaldean Kinsman of Abraham & Father of Bilhah",
+      "sources": [
+        "R.H. Charles APOT Vol. 2 / Testaments (charles2.pdf p.350)",
+        "Ginzberg Legends II, 209 & VII Index"
+      ],
+      "notes": "Testament of Naphtali 1:9–12 explicitly states: 'Bilhah, daughter of Rotheus the brother of Deborah, Rebecca's nurse... And Rotheus was of the family of Abraham, a Chaldean, God-fearing, free-born, and noble.'",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ginz_euna",
+      "name": "Euna (Wife of Rotheus; Mother of Bilhah, T. Naph. 1:11–12)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 11,
+      "era": "Patriarchal Era (Testament of Naphtali 1:11–12)",
+      "role": "Chaldean Mother of Bilhah",
+      "sources": [
+        "Testament of Naphtali 1:11–12 (charles2.pdf p.350)"
+      ],
+      "notes": "Wife of Rotheus (named Euna/Hannah in variants) who named her daughter Bilhah in Haran.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ginz_deborah_nurse",
+      "name": "Deborah (Nurse of Rebekah & Sister of Rotheus, Gen 35:8; T. Naph. 1:9)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 11,
+      "era": "Patriarchal Era (Gen 24:59, 35:8; T. Naph. 1:9)",
+      "role": "Rebekah's Nurse Buried Beneath Allon-bacuth",
+      "sources": [
+        "Genesis 35:8",
+        "Testament of Naphtali 1:9 (charles2.pdf p.350)"
+      ],
+      "notes": "Rebekah's lifelong nurse buried beneath the Oak of Weeping below Bethel.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ginz_melcha_levi",
+      "name": "Melcha (Daughter of Bathuel; Wife of Levi, Testament of Levi 11:1)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Testament of Levi 11:1; Jub 34:20)",
+      "role": "Matriarch of All Levites & Mother of Jochebed",
+      "sources": [
+        "Testament of Levi 11:1 (charles2.pdf p.324)"
+      ],
+      "notes": "Testament of Levi 11:1 records: 'When I took a wife I was twenty-eight years old, and her name was Melcha' — bearing Gersam (Gershon), Kohath, Merari & Jochebed.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ginz_hadurah_serah",
+      "name": "Hadurah / Hadorah (Wife of Malchiel / Asher; Mother of Serah, Ginzberg II, 39; Jasher 45)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Egypt / Patriarchal Horizon (Ginzberg II, 39; Jasher 45)",
+      "role": "Mother of Righteous Longevity Matriarch Serah bat Asher",
+      "sources": [
+        "Ginzberg Legends II, 39 & VII p.440",
+        "Book of Jasher 45"
+      ],
+      "notes": "Widow of Malchiel who wed Asher and brought righteous Serah bat Asher into Jacob's household (Ginzberg II, 39, VII p.440).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ginz_aridah_issachar",
+      "name": "Aridah (Daughter of Jobab; Wife of Issachar, Ginzberg Index p.61; Jasher 45)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 13,
+      "era": "Patriarchal Era (Jasher 45; Ginzberg VII Index p.61)",
+      "role": "Wife of Issachar & Sister of Adinah",
+      "sources": [
+        "Book of Jasher 45",
+        "Ginzberg Legends VII p.61"
+      ],
+      "notes": "Daughter of Jobab ben Joktan; younger sister of Levi's wife Adinah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pp_noaba",
+      "name": "Noaba (Twin Daughter of Adam & Eve, Pseudo-Philo I.1)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 2,
+      "era": "Antediluvian (Pseudo-Philo I.1)",
+      "role": "Named Daughter of Adam & Eve",
+      "sources": [
+        "Pseudo-Philo Biblical Antiquities Ch. 1"
+      ],
+      "notes": "Named twin sister/daughter alongside Cain in Pseudo-Philo.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pp_themech",
+      "name": "Themech (Wife of Cain, Pseudo-Philo II.1)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Antediluvian (Pseudo-Philo II.1)",
+      "role": "Wife of Cain in Pseudo-Philo",
+      "sources": [
+        "Pseudo-Philo Biblical Antiquities Ch. 2"
+      ],
+      "notes": "Named wife of Cain in Pseudo-Philo Ch. 2.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pp_kenaz",
+      "name": "Judge Kenaz (57-Year First Judge in Pseudo-Philo Ch. 25–28)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Post-Joshua (Pseudo-Philo Ch. 25–28)",
+      "role": "First Judge of Israel in Pseudo-Philo",
+      "sources": [
+        "Pseudo-Philo Biblical Antiquities Ch. 25–28"
+      ],
+      "notes": "Father of Othniel & uncle/brother in Caleb's Kenizzite house.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pp_zebul",
+      "name": "Judge Zebul (Successor of Kenaz, Pseudo-Philo Ch. 29)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Judges Era (Pseudo-Philo Ch. 29)",
+      "role": "Judge of Israel in Pseudo-Philo",
+      "sources": [
+        "Pseudo-Philo Biblical Antiquities Ch. 29"
+      ],
+      "notes": "Succeeded Kenaz and established a sacred treasury at Shiloh.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "pp_eluma",
+      "name": "Eluma bat Remac (Mother of Judge Samson, Pseudo-Philo Ch. 42)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "Judges Era (Pseudo-Philo Ch. 42)",
+      "role": "Mother of Samson Named in Pseudo-Philo",
+      "sources": [
+        "Pseudo-Philo Biblical Antiquities Ch. 42"
+      ],
+      "notes": "Named wife of Manoah of Zorah in Pseudo-Philo.",
+      "major": false,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "chr41_jerahmeel_atarah",
+      "to": "chr2_sheshan",
+      "type": "direct",
+      "label": "1 Chr 2:28–34: Onam -> Shammai -> Nadab -> Appaim -> Ishi -> Sheshan"
+    },
+    {
+      "from": "chr2_sheshan",
+      "to": "chr2_ahlai",
+      "type": "direct",
+      "label": "1 Chr 2:31, 35: Sheshan -> daughter Ahlai"
+    },
+    {
+      "from": "chr2_ahlai",
+      "to": "chr2_jarha",
+      "type": "direct",
+      "label": "1 Chr 2:35: Marriage of Ahlai & Jarha the Egyptian"
+    },
+    {
+      "from": "chr41_sheshan_jarha_egypt",
+      "to": "chr2_ahlai",
+      "type": "direct",
+      "label": "1 Chr 2:35: Judah-Egypt household anchor"
+    },
+    {
+      "from": "chr2_ahlai",
+      "to": "chr2_attai",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr2_jarha",
+      "to": "chr2_attai",
+      "type": "direct",
+      "label": "1 Chr 2:35: Father Jarha the Egyptian -> Attai"
+    },
+    {
+      "from": "chr2_attai",
+      "to": "chr2_nathan",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr2_nathan",
+      "to": "chr2_zabad",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr2_zabad",
+      "to": "chr2_ephlal",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr2_ephlal",
+      "to": "chr2_obed",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr2_obed",
+      "to": "chr2_jehu",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr2_jehu",
+      "to": "chr2_azariah",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr2_azariah",
+      "to": "chr2_helez",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr2_helez",
+      "to": "chr2_eleasah",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr2_eleasah",
+      "to": "chr2_sismai",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr2_sismai",
+      "to": "chr2_shallum",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr2_shallum",
+      "to": "chr2_jekamiah",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr2_jekamiah",
+      "to": "chr2_elishama",
+      "type": "direct",
+      "label": "1 Chr 2:35–41: Jarha–Ahlai pedigree"
+    },
+    {
+      "from": "chr41_mered_bithiah_pharaoh",
+      "to": "chr2_mered",
+      "type": "direct",
+      "label": "1 Chr 4:17–18: Mered of Judah"
+    },
+    {
+      "from": "chr41_mered_bithiah_pharaoh",
+      "to": "chr2_bithiah",
+      "type": "direct",
+      "label": "1 Chr 4:18: Bithiah daughter of Pharaoh"
+    },
+    {
+      "from": "chr2_mered",
+      "to": "chr2_bithiah",
+      "type": "direct",
+      "label": "1 Chr 4:18: Marriage of Mered & Bithiah bat Pharaoh"
+    },
+    {
+      "from": "chr2_bithiah",
+      "to": "chr2_miriam_bithiah",
+      "type": "direct",
+      "label": "1 Chr 4:17: Bithiah -> Miriam"
+    },
+    {
+      "from": "chr2_mered",
+      "to": "chr2_miriam_bithiah",
+      "type": "direct",
+      "label": "1 Chr 4:17: Mered -> Miriam"
+    },
+    {
+      "from": "chr2_bithiah",
+      "to": "chr2_shammai_bithiah",
+      "type": "direct",
+      "label": "1 Chr 4:17: Bithiah -> Shammai"
+    },
+    {
+      "from": "chr2_mered",
+      "to": "chr2_shammai_bithiah",
+      "type": "direct",
+      "label": "1 Chr 4:17: Mered -> Shammai"
+    },
+    {
+      "from": "chr2_bithiah",
+      "to": "chr2_ishbah_bithiah",
+      "type": "direct",
+      "label": "1 Chr 4:17: Bithiah -> Ishbah"
+    },
+    {
+      "from": "chr2_mered",
+      "to": "chr2_ishbah_bithiah",
+      "type": "direct",
+      "label": "1 Chr 4:17: Mered -> Ishbah"
+    },
+    {
+      "from": "chr2_mered",
+      "to": "chr2_jered_mered",
+      "type": "direct",
+      "label": "1 Chr 4:18: Mered -> Jered"
+    },
+    {
+      "from": "chr2_mered",
+      "to": "chr2_heber_mered",
+      "type": "direct",
+      "label": "1 Chr 4:18: Mered -> Heber"
+    },
+    {
+      "from": "chr2_mered",
+      "to": "chr2_jekuthiel_mered",
+      "type": "direct",
+      "label": "1 Chr 4:18: Mered -> Jekuthiel"
+    },
+    {
+      "from": "w2_caleb_jephunneh",
+      "to": "chr2_hur",
+      "type": "direct",
+      "label": "1 Chr 2:19: Caleb + Ephrath -> Hur"
+    },
+    {
+      "from": "chr2_hur",
+      "to": "chr2_uri_hur",
+      "type": "direct",
+      "label": "1 Chr 2:20: Hur -> Uri"
+    },
+    {
+      "from": "chr2_uri_hur",
+      "to": "chr2_bezalel",
+      "type": "direct",
+      "label": "Exod 31:2 & 1 Chr 2:20: Uri -> Bezalel"
+    },
+    {
+      "from": "chr2_hur",
+      "to": "chr2_shobal_hur",
+      "type": "direct",
+      "label": "1 Chr 2:50: Hur -> Shobal"
+    },
+    {
+      "from": "chr2_hur",
+      "to": "chr2_salma_hur",
+      "type": "direct",
+      "label": "1 Chr 2:51: Hur -> Salma"
+    },
+    {
+      "from": "chr41_jerahmeel_atarah",
+      "to": "chr2_atarah",
+      "type": "direct",
+      "label": "1 Chr 2:26: Wife Atarah"
+    },
+    {
+      "from": "chr2_atarah",
+      "to": "chr2_onam",
+      "type": "direct",
+      "label": "1 Chr 2:26: Atarah -> Onam"
+    },
+    {
+      "from": "chr41_ashhur_tekoa",
+      "to": "chr2_helah_naarah",
+      "type": "direct",
+      "label": "1 Chr 4:5–7: Wives of Ashhur"
+    },
+    {
+      "from": "jos_ephraim",
+      "to": "chr2_eph_beriah",
+      "type": "direct",
+      "label": "1 Chr 7:23–27: Ephraim -> Joshua"
+    },
+    {
+      "from": "chr2_eph_beriah",
+      "to": "chr2_eph_rephah",
+      "type": "direct",
+      "label": "1 Chr 7:23–27: Ephraim -> Joshua"
+    },
+    {
+      "from": "chr2_eph_rephah",
+      "to": "chr2_eph_resheph",
+      "type": "direct",
+      "label": "1 Chr 7:23–27: Ephraim -> Joshua"
+    },
+    {
+      "from": "chr2_eph_resheph",
+      "to": "chr2_eph_telah",
+      "type": "direct",
+      "label": "1 Chr 7:23–27: Ephraim -> Joshua"
+    },
+    {
+      "from": "chr2_eph_telah",
+      "to": "chr2_eph_tahan",
+      "type": "direct",
+      "label": "1 Chr 7:23–27: Ephraim -> Joshua"
+    },
+    {
+      "from": "chr2_eph_tahan",
+      "to": "chr2_eph_ladan",
+      "type": "direct",
+      "label": "1 Chr 7:23–27: Ephraim -> Joshua"
+    },
+    {
+      "from": "chr2_eph_ladan",
+      "to": "chr2_eph_ammihud",
+      "type": "direct",
+      "label": "1 Chr 7:23–27: Ephraim -> Joshua"
+    },
+    {
+      "from": "chr2_eph_ammihud",
+      "to": "chr2_eph_elishama",
+      "type": "direct",
+      "label": "1 Chr 7:23–27: Ephraim -> Joshua"
+    },
+    {
+      "from": "chr2_eph_elishama",
+      "to": "chr2_eph_nun",
+      "type": "direct",
+      "label": "1 Chr 7:23–27: Ephraim -> Joshua"
+    },
+    {
+      "from": "chr2_eph_nun",
+      "to": "bib_joshua_caleb",
+      "type": "direct",
+      "label": "1 Chr 7:27: Nun -> Joshua ben Nun"
+    },
+    {
+      "from": "jos_ephraim",
+      "to": "chr2_sheerah",
+      "type": "direct",
+      "label": "1 Chr 7:24: Ephraim -> daughter Sheerah"
+    },
+    {
+      "from": "tri_reuben",
+      "to": "chr2_reu_joel",
+      "type": "direct",
+      "label": "1 Chr 5:4–6: Reubenite lineage"
+    },
+    {
+      "from": "chr2_reu_joel",
+      "to": "chr2_reu_shemaiah",
+      "type": "direct",
+      "label": "1 Chr 5:4–6: Reubenite lineage"
+    },
+    {
+      "from": "chr2_reu_shemaiah",
+      "to": "chr2_reu_gog",
+      "type": "direct",
+      "label": "1 Chr 5:4–6: Reubenite lineage"
+    },
+    {
+      "from": "chr2_reu_gog",
+      "to": "chr2_reu_shimei",
+      "type": "direct",
+      "label": "1 Chr 5:4–6: Reubenite lineage"
+    },
+    {
+      "from": "chr2_reu_shimei",
+      "to": "chr2_reu_micah",
+      "type": "direct",
+      "label": "1 Chr 5:4–6: Reubenite lineage"
+    },
+    {
+      "from": "chr2_reu_micah",
+      "to": "chr2_reu_reaiah",
+      "type": "direct",
+      "label": "1 Chr 5:4–6: Reubenite lineage"
+    },
+    {
+      "from": "chr2_reu_reaiah",
+      "to": "chr2_reu_baal",
+      "type": "direct",
+      "label": "1 Chr 5:4–6: Reubenite lineage"
+    },
+    {
+      "from": "chr2_reu_baal",
+      "to": "chr2_reu_beerah",
+      "type": "direct",
+      "label": "1 Chr 5:4–6: Reubenite lineage"
+    },
+    {
+      "from": "chr41_reuben_beerah",
+      "to": "chr2_reu_beerah",
+      "type": "direct",
+      "label": "1 Chr 5:6: Prince Beerah"
+    },
+    {
+      "from": "chr41_asher_shua",
+      "to": "chr2_ash_japhlet",
+      "type": "direct",
+      "label": "1 Chr 7:32: Heber -> Japhlet"
+    },
+    {
+      "from": "chr41_asher_shua",
+      "to": "chr2_ash_shomer",
+      "type": "direct",
+      "label": "1 Chr 7:32: Heber -> Shomer"
+    },
+    {
+      "from": "chr41_asher_shua",
+      "to": "chr2_ash_hotham",
+      "type": "direct",
+      "label": "1 Chr 7:32: Heber -> Hotham"
+    },
+    {
+      "from": "chr41_asher_shua",
+      "to": "chr2_ash_shua",
+      "type": "direct",
+      "label": "1 Chr 7:32: Heber -> daughter Shua"
+    },
+    {
+      "from": "chr41_benjamin_clans",
+      "to": "chr2_ben_shaharaim",
+      "type": "direct",
+      "label": "1 Chr 8:8: Benjamite Shaharaim in Moab"
+    },
+    {
+      "from": "cb_pri_uzzi",
+      "to": "pri2_zerahiah",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_zerahiah",
+      "to": "pri2_meraioth",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_meraioth",
+      "to": "pri2_amariah1",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_amariah1",
+      "to": "pri2_ahitub1",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_ahitub1",
+      "to": "pri_eleazar_zadok",
+      "type": "direct",
+      "label": "1 Chr 6:8: Ahitub I -> High Priest Zadok I"
+    },
+    {
+      "from": "pri_eleazar_zadok",
+      "to": "pri2_ahimaaz",
+      "type": "direct",
+      "label": "1 Chr 6:8: High Priest Zadok I -> Ahimaaz"
+    },
+    {
+      "from": "pri2_ahimaaz",
+      "to": "pri2_azariah1",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_azariah1",
+      "to": "pri2_johanan1",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_johanan1",
+      "to": "pri2_azariah2",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_azariah2",
+      "to": "pri2_amariah2",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_amariah2",
+      "to": "pri2_jehoiada",
+      "type": "expansion",
+      "label": "2 Chr 19 & 23: High Priestly succession -> Jehoiada"
+    },
+    {
+      "from": "pri2_jehoiada",
+      "to": "cb_jehosheba",
+      "type": "direct",
+      "label": "2 Chr 22:11: Marriage of Jehoiada & Princess Jehosheba"
+    },
+    {
+      "from": "pri2_jehoiada",
+      "to": "pri2_zechariah_jehoiada",
+      "type": "direct",
+      "label": "2 Chr 24:20: Jehoiada -> Zechariah"
+    },
+    {
+      "from": "pri2_amariah2",
+      "to": "pri2_ahitub2",
+      "type": "direct",
+      "label": "1 Chr 6:11: Amariah II -> Ahitub II"
+    },
+    {
+      "from": "pri2_ahitub2",
+      "to": "pri2_zadok2",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_zadok2",
+      "to": "pri2_shallum",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_shallum",
+      "to": "pri2_hilkiah",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_hilkiah",
+      "to": "pri2_azariah3",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_azariah3",
+      "to": "pri2_seraiah",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_seraiah",
+      "to": "pri2_jehozadak",
+      "type": "direct",
+      "label": "1 Chr 6:6–15: Zadokite High Priestly father->son chain"
+    },
+    {
+      "from": "pri2_jehozadak",
+      "to": "bib16_pri_01_high_priest_jeshua_ben_jehoz",
+      "type": "direct",
+      "label": "1 Chr 6:15 & Ezra 3:2: Jehozadak -> High Priest Jeshua"
+    },
+    {
+      "from": "pri2_seraiah",
+      "to": "pri_ezra_jaddua",
+      "type": "direct",
+      "label": "Ezra 7:1: Seraiah -> Ezra the Scribe"
+    },
+    {
+      "from": "bib_abraham",
+      "to": "ginz_rotheus",
+      "type": "expansion",
+      "label": "Testament of Naphtali 1:10: Rotheus was 'of the family of Abraham, a Chaldean'"
+    },
+    {
+      "from": "ginz_rotheus",
+      "to": "ginz_deborah_nurse",
+      "type": "direct",
+      "label": "T. Naph. 1:9: Brother Rotheus & Sister Deborah"
+    },
+    {
+      "from": "ginz_deborah_nurse",
+      "to": "bib_isaac",
+      "type": "expansion",
+      "label": "Gen 24:59 / 35:8: Nurse of Rebekah"
+    },
+    {
+      "from": "ginz_rotheus",
+      "to": "ginz_euna",
+      "type": "direct",
+      "label": "T. Naph. 1:11: Marriage of Rotheus & Euna"
+    },
+    {
+      "from": "ginz_rotheus",
+      "to": "cb_bilhah",
+      "type": "direct",
+      "label": "T. Naph. 1:9: Father Rotheus -> Bilhah"
+    },
+    {
+      "from": "ginz_euna",
+      "to": "cb_bilhah",
+      "type": "direct",
+      "label": "T. Naph. 1:11: Mother Euna -> Bilhah"
+    },
+    {
+      "from": "ginz_rotheus",
+      "to": "cb_zilpah",
+      "type": "expansion",
+      "label": "Rabbinic midrash (Gen. Rab. 74:13 / Ginzberg): Bilhah & Zilpah half-sisters"
+    },
+    {
+      "from": "tri_levi",
+      "to": "ginz_melcha_levi",
+      "type": "expansion",
+      "label": "T. Levi 11:1: Marriage of Levi & Melcha"
+    },
+    {
+      "from": "ginz_melcha_levi",
+      "to": "lev_gershon",
+      "type": "direct",
+      "label": "T. Levi 11:1: Mother Melcha -> Gershon"
+    },
+    {
+      "from": "ginz_melcha_levi",
+      "to": "lev_kohath",
+      "type": "direct",
+      "label": "T. Levi 11:1: Mother Melcha -> Kohath"
+    },
+    {
+      "from": "ginz_melcha_levi",
+      "to": "lev_merari",
+      "type": "direct",
+      "label": "T. Levi 11:1: Mother Melcha -> Merari"
+    },
+    {
+      "from": "ginz_melcha_levi",
+      "to": "lev_jochebed",
+      "type": "expansion",
+      "label": "Exod 6:20 & T. Levi: Levi & Melcha -> Jochebed"
+    },
+    {
+      "from": "cb_w_levi",
+      "to": "ginz_melcha_levi",
+      "type": "expansion",
+      "label": "Melka / Melcha harmonization"
+    },
+    {
+      "from": "cb_w_asher",
+      "to": "ginz_hadurah_serah",
+      "type": "expansion",
+      "label": "Jasher 45 & Ginzberg II, 39: Hadurah"
+    },
+    {
+      "from": "ginz_hadurah_serah",
+      "to": "tri_asher_serah_dau",
+      "type": "expansion",
+      "label": "Ginzberg II, 39: Hadurah -> Serah bat Asher"
+    },
+    {
+      "from": "cb_w_issachar",
+      "to": "ginz_aridah_issachar",
+      "type": "expansion",
+      "label": "Ginzberg VII p.61 & Jasher 45: Aridah"
+    },
+    {
+      "from": "cb_noaba_pphilo",
+      "to": "pp_noaba",
+      "type": "expansion",
+      "label": "Pseudo-Philo I.1: Noaba"
+    },
+    {
+      "from": "cb_themech_pphilo",
+      "to": "pp_themech",
+      "type": "expansion",
+      "label": "Pseudo-Philo II.1: Themech"
+    },
+    {
+      "from": "cb_pphilo_kenaz",
+      "to": "pp_kenaz",
+      "type": "expansion",
+      "label": "Pseudo-Philo Ch. 25–28: Judge Kenaz"
+    },
+    {
+      "from": "pp_kenaz",
+      "to": "pp_zebul",
+      "type": "direct",
+      "label": "Pseudo-Philo Ch. 29: Kenaz -> Zebul"
+    },
+    {
+      "from": "cb_samson_women",
+      "to": "pp_eluma",
+      "type": "expansion",
+      "label": "Pseudo-Philo Ch. 42: Eluma bat Remac"
+    },
+    {
+      "from": "pp_eluma",
+      "to": "jdg_samson",
+      "type": "direct",
+      "label": "Pseudo-Philo Ch. 42: Mother Eluma -> Samson"
+    }
+  ]
+}

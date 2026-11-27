@@ -22,11 +22,26 @@
       "biblicalConnected": true
     },
     {
+      "id": "jos_hammedatha",
+      "name": "Hammedatha the Agagite (Father of Haman, Esth 3:1)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "6th c. BCE (Persia / Esther 3:1)",
+      "role": "Amalekite Noble & Father of Grand Vizier Haman",
+      "sources": [
+        "Book of Esther 3:1, 8:5",
+        "Flavius Josephus Antiquities XI.6.5"
+      ],
+      "notes": "Amalekite-Agagite noble of the house of King Agag; father of Haman.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
       "id": "jos_haman_amalekite",
-      "name": "Haman ben Hammedatha the Agagite/Amalekite (+ Wife Zeresh & 10 Sons, Josephus Ant. XI.6.5)",
+      "name": "Haman ben Hammedatha the Agagite (Josephus Ant. XI.6.5)",
       "altNames": [
-        "Haman the Amalekite",
-        "Zeresh"
+        "Haman the Amalekite"
       ],
       "tradition": "biblical",
       "tier": 18,
@@ -36,68 +51,336 @@
         "Flavius Josephus Antiquities XI.6.5 (p.618)",
         "Book of Esther 3 & 9"
       ],
-      "notes": "Josephus explicitly calls Haman 'by birth an Amalekite' (Ant. XI.6.5) — connecting Esau's grandson Amalek and King Agag straight into the Achaemenid Persian court opposite Benjaminite Mordecai & Queen Esther! Sons: Parshandatha, Dalphon, Aspatha, Poratha, Adalia, Aridatha, Parmashta, Arisai, Aridai & Vaizatha.",
+      "notes": "Josephus explicitly calls Haman 'by birth an Amalekite' (Ant. XI.6.5) — connecting Esau's grandson Amalek and King Agag straight into the Achaemenid Persian court opposite Benjaminite Mordecai & Queen Esther!",
       "major": true,
       "biblicalConnected": true
     },
     {
-      "id": "jos_herod_remaining_wives",
-      "name": "Herod the Great's Remaining 5 Wives & Children (Josephus Ant. XVII.1.3): Pallas (→ Phasael II), Phaedra (→ Roxane), Elpis (→ Salome II), Niece & Cousin",
-      "altNames": [
-        "Pallas, Phaedra & Elpis"
-      ],
+      "id": "jos_zeresh",
+      "name": "Zeresh (Wife of Haman & Daughter of Tatnai, Esth 5:10; Targum)",
+      "altNames": [],
       "tradition": "biblical",
       "tier": 18,
-      "era": "37–4 BCE (Josephus Ant. XVII.1.3 p.1197)",
-      "role": "Complete 10-Wife Roster of Herod the Great",
+      "era": "5th c. BCE (Susa / Persia — Esther 5:10, 6:13)",
+      "role": "Wife of Haman & Mother of His Ten Sons",
+      "sources": [
+        "Book of Esther 5:10, 6:13",
+        "Flavius Josephus Antiquities XI.6"
+      ],
+      "notes": "Advised Haman to erect the gallows for Mordecai; mother of Haman's ten named sons.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_herod_remaining_wives",
+      "name": "Phasael II (Son of Herod the Great & Pallas, Josephus Ant. XVII.1.3)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 15 BCE – 1st c. CE (Josephus Ant. XVII.1.3 p.1197)",
+      "role": "Son of Herod I the Great by His 6th Wife Pallas",
       "sources": [
         "Flavius Josephus Antiquities XVII.1.3 (p.1197)",
         "Wars I.28.4"
       ],
-      "notes": "Completes Josephus's full inventory of Herod the Great's ten wives and their offspring: Pallas (Phasael II), Phaedra (Roxane), Elpis (Salome II), plus his unnamed niece and cousin.",
+      "notes": "Son of Herod the Great by Pallas, named after Herod's slain elder brother Phasael.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "jos_herod_armenia_cilicia",
-      "name": "Herodian Kings of Armenia & Cilicia (Josephus Ant. XVIII.5.4): Alexander + Glaphyra → Kings Tigranes V & Tigranes VI of Armenia → Gaius Julius Alexander (+ Iotape) → Roman Consuls",
+      "name": "King Tigranes V of Armenia (Herodian Grandson, Josephus Ant. XVIII.5.4)",
       "altNames": [
-        "Tigranes V of Armenia",
-        "Tigranes VI of Armenia",
-        "Gaius Julius Alexander",
-        "Glaphyra of Cappadocia"
+        "Tigranes V of Armenia"
       ],
       "tradition": "biblical",
       "tier": 19,
-      "era": "c. 15 BCE – 115 CE (Josephus Ant. XVII.1, XVIII.5.4 p.1196)",
-      "role": "Esau/Idumean & Hasmonean Royal Bloodline Ruling Armenia, Cilicia & Entering Roman Senate",
+      "era": "c. 10 BCE – 36 CE (Josephus Ant. XVIII.5.4 p.1196)",
+      "role": "Esau/Idumean & Hasmonean King of Armenia Installed by Rome",
       "sources": [
         "Flavius Josephus Antiquities XVIII.5.4",
-        "Tacitus Annals XV",
-        "Cassius Dio"
+        "Tacitus Annals VI.40"
       ],
-      "notes": "Herod's son Alexander (+ Cappadocian princess Glaphyra, also widow of King Juba II of Mauretania!) fathered King Tigranes V of Armenia and Alexander II -> King Tigranes VI of Armenia -> King Gaius Julius Alexander of Cetis/Cilicia (+ Iotape of Commagene!) -> Roman suffect consuls Julius Agrippa & Julius Alexander Berenicianus!",
+      "notes": "Son of Herodian Prince Alexander and Cappadocian princess Glaphyra; ruled Armenia as Rome's client king Tigranes V.",
       "major": true,
       "biblicalConnected": true
     },
     {
-      "id": "jos_herod_emesa_rome",
-      "name": "Herodian–Roman–Emesa Marriages (Josephus Ant. XX.7): Berenice II (+ Emperor Titus & Polemon II), Drusilla (+ Azizus of Emesa & Felix → Agrippa, d. 79 CE Vesuvius!) & Mariamne",
+      "id": "jos_alexander2_herod",
+      "name": "Prince Alexander II (Son of Alexander & Glaphyra, Josephus Ant. XVIII.5.4)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "c. 12 BCE – 1st c. CE (Josephus Ant. XVIII.5.4)",
+      "role": "Herodian-Cappadocian Prince & Father of Tigranes VI",
+      "sources": [
+        "Flavius Josephus Antiquities XVIII.5.4"
+      ],
+      "notes": "Younger son of Prince Alexander and Glaphyra of Cappadocia; father of King Tigranes VI of Armenia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_tigranes6_armenia",
+      "name": "King Tigranes VI of Armenia (Son of Alexander II, d. after 68 CE)",
       "altNames": [
-        "Queen Berenice II",
-        "Drusilla & Felix",
-        "King Azizus of Emesa"
+        "Tigranes VI of Armenia"
       ],
       "tradition": "biblical",
       "tier": 19,
-      "era": "40–79 CE (Josephus Antiquities XX.7; Acts 24:24)",
-      "role": "Final Herodian Intermarriages With Emesa, Cilicia & Flavian Rome",
+      "era": "c. 20–70 CE (Josephus Ant. XVIII.5.4; Tacitus Annals XIV.26)",
+      "role": "Second Herodian-Cappadocian King of Armenia",
       "sources": [
-        "Flavius Josephus Antiquities XX.7",
-        "Tacitus Histories II",
-        "Acts 24:24"
+        "Flavius Josephus Antiquities XVIII.5.4",
+        "Tacitus Annals XIV.26"
       ],
-      "notes": "Herod Agrippa I's daughters carried the Idumean-Hasmonean bloodline across the Roman Empire: Queen Berenice II (+ Marcus Julius Alexander, Herod of Chalcis, King Polemon II of Pontus & future Roman Emperor Titus!), and Drusilla (+ King Azizus of Emesa, then Roman Procurator Felix -> son Agrippa, who perished at Pompeii in the 79 CE eruption of Mt. Vesuvius!).",
+      "notes": "Appointed King of Armenia by Emperor Nero; father of King Gaius Julius Alexander of Cetis/Cilicia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_iotape_commagene",
+      "name": "Princess Iotape of Commagene (Daughter of Antiochus IV; Wife of C. Julius Alexander)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st c. CE (Commagene / Cilicia — Josephus Ant. XVIII.5.4)",
+      "role": "Commagene Royal Princess Married Into the Herodian House",
+      "sources": [
+        "Flavius Josephus Antiquities XVIII.5.4",
+        "Josephus Wars VII.7"
+      ],
+      "notes": "Daughter of King Antiochus IV of Commagene; married King Gaius Julius Alexander of Cilicia, joining Commagene and Herodian/Hasmonean lines.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_gj_alexander_cilicia",
+      "name": "King Gaius Julius Alexander of Cetis / Cilicia (Josephus Ant. XVIII.5.4)",
+      "altNames": [
+        "Gaius Julius Alexander"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "c. 45–105 CE (Cilicia — Josephus Ant. XVIII.5.4)",
+      "role": "Herodian King of Cetis in Cilicia & Roman Senatorial Progenitor",
+      "sources": [
+        "Flavius Josephus Antiquities XVIII.5.4",
+        "OGIS 429"
+      ],
+      "notes": "Son of King Tigranes VI of Armenia; married Princess Iotape of Commagene and fathered Roman suffect consuls Gaius Julius Agrippa and Gaius Julius Alexander Berenicianus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_gj_agrippa",
+      "name": "Consul Gaius Julius Agrippa (Quaestor of Asia, fl. 109 CE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 20,
+      "era": "fl. 90–120 CE (Ephesus / Roman Senate)",
+      "role": "Roman Senatorial Descendant of Herod the Great & Mariamne I",
+      "sources": [
+        "ILS 8822",
+        "Josephus Antiquities XVIII.5.4"
+      ],
+      "notes": "Elder son of King Gaius Julius Alexander of Cilicia and Iotape of Commagene; entered the Roman Senate.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_gj_berenicianus",
+      "name": "Consul Gaius Julius Alexander Berenicianus (Suffect Consul 116 CE, Proconsul of Asia)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 20,
+      "era": "fl. 100–133 CE (Roman Senate / Asia)",
+      "role": "Herodian-Hasmonean Roman Consul & Proconsul of Asia",
+      "sources": [
+        "IGR IV.1302",
+        "Josephus Antiquities XVIII.5.4"
+      ],
+      "notes": "Younger son of Gaius Julius Alexander & Iotape of Commagene; became Roman suffect consul (116 CE) and Proconsul of Asia (132/3 CE), fathering Julia Cassia Alexandra.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_herod_emesa_rome",
+      "name": "King Azizus of Emesa (1st Husband of Princess Drusilla, Josephus Ant. XX.7.1)",
+      "altNames": [
+        "Azizus of Emesa"
+      ],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "c. 20–54 CE (Emesa / Homs, Syria — Josephus Ant. XX.7)",
+      "role": "Priest-King of Emesa Allied With the Herodians",
+      "sources": [
+        "Flavius Josephus Antiquities XX.7.1"
+      ],
+      "notes": "Accepted circumcision in order to wed Herod Agrippa I's daughter Drusilla, linking Emesa's royal priesthood with the Herodian house.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_tobias_father",
+      "name": "Tobias of Judea (+ Sister of High Priest Onias II, Josephus Ant. XII.4.2)",
+      "altNames": [
+        "Tobias the Tobiad"
+      ],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 250 BCE (Josephus Ant. XII.4.2 p.654)",
+      "role": "Patriarch of the Tobiad House & Brother-in-Law of Onias II",
+      "sources": [
+        "Flavius Josephus Antiquities XII.4.2 (p.654)"
+      ],
+      "notes": "Married the sister of High Priest Onias II; father of powerful Judean statesman Joseph ben Tobias.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_joseph_tobiad",
+      "name": "Joseph ben Tobias (Chief Tax-Farmer of Coele-Syria, Josephus Ant. XII.4)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 230–190 BCE (Josephus Ant. XII.4.2–10)",
+      "role": "Nephew of High Priest Onias II & Tobiad Leader",
+      "sources": [
+        "Flavius Josephus Antiquities XII.4"
+      ],
+      "notes": "Won Ptolemy III/IV's royal tax-farming contract for Coele-Syria, Phoenicia & Judea; fathered 7 elder sons plus Hyrcanus by his niece (daughter of brother Solymius).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_hyrcanus_tobiad",
+      "name": "Hyrcanus ben Joseph the Tobiad (Builder of Qasr al-Abd, Iraq al-Amir)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 200–175 BCE (Josephus Ant. XII.4.6–11)",
+      "role": "Youngest Son of Joseph ben Tobias & Transjordanian Magnate",
+      "sources": [
+        "Flavius Josephus Antiquities XII.4.6–11"
+      ],
+      "notes": "Son of Joseph ben Tobias; built the monumental Hellenistic fortress-palace of Tyre/Qasr al-Abd east of the Jordan before Antioch IV's accession.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_nabopolassar",
+      "name": "King Nabopolassar of Babylon (626–605 BCE, Josephus Against Apion I.19–20)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "626–605 BCE (Josephus Against Apion I.19 / Berossus)",
+      "role": "Founder of the Neo-Babylonian Empire",
+      "sources": [
+        "Josephus Against Apion I.19 (citing Berossus)",
+        "Babylonian Chronicles"
+      ],
+      "notes": "Chaldean founder of the Neo-Babylonian Dynasty cited verbatim by Josephus from Berossus; father of Nebuchadnezzar II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_nebuchadnezzar2",
+      "name": "King Nebuchadnezzar II of Babylon (605–562 BCE, Against Apion I.19)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "605–562 BCE (2 Kgs 24–25; Josephus Against Apion I.19–20)",
+      "role": "Conqueror of Jerusalem & Builder of Babylon",
+      "sources": [
+        "2 Kings 24–25",
+        "Daniel 1–4",
+        "Josephus Against Apion I.19–20"
+      ],
+      "notes": "Son of Nabopolassar; captured Jerusalem (597 & 586 BCE), exiled King Jehoiachin, and married Median princess Amytis.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_evil_merodach",
+      "name": "King Evil-Merodach / Amel-Marduk (562–560 BCE, 2 Kgs 25:27; Josephus Ag. Ap. I.20)",
+      "altNames": [
+        "Amel-Marduk"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "562–560 BCE (2 Kgs 25:27; Against Apion I.20)",
+      "role": "Son of Nebuchadnezzar II Who Released King Jehoiachin",
+      "sources": [
+        "2 Kings 25:27–30",
+        "Josephus Against Apion I.20 (Berossus)"
+      ],
+      "notes": "Son and successor of Nebuchadnezzar II; elevated exiled Judahite King Jehoiachin out of prison before being assassinated by brother-in-law Neriglissar.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_neriglissar",
+      "name": "King Neriglissar (Nergal-sharezer, 560–556 BCE, Jer 39:3; Josephus Ag. Ap. I.20)",
+      "altNames": [
+        "Nergal-sharezer"
+      ],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "560–556 BCE (Jeremiah 39:3; Josephus Against Apion I.20)",
+      "role": "Son-in-Law of Nebuchadnezzar II & Neo-Babylonian King",
+      "sources": [
+        "Jeremiah 39:3,13",
+        "Josephus Against Apion I.20 (Berossus)"
+      ],
+      "notes": "Married a daughter of Nebuchadnezzar II and reigned 4 years after Amel-Marduk.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_labashi_marduk",
+      "name": "King Labashi-Marduk (556 BCE, Josephus Against Apion I.20)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "556 BCE (Josephus Against Apion I.20)",
+      "role": "Youthful Son of Neriglissar Deposed After Nine Months",
+      "sources": [
+        "Josephus Against Apion I.20 (Berossus)"
+      ],
+      "notes": "Son of Neriglissar and grandson of Nebuchadnezzar II; ruled nine months before conspirators raised Nabonidus to the throne.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_nabonidus",
+      "name": "King Nabonidus (Nabu-na'id, 556–539 BCE, Josephus Against Apion I.20)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "556–539 BCE (Josephus Against Apion I.20; Cyrus Cylinder)",
+      "role": "Final Sovereign of Neo-Babylon",
+      "sources": [
+        "Josephus Against Apion I.20 (Berossus)",
+        "Nabonidus Chronicle"
+      ],
+      "notes": "Last Babylonian king (defeated by Cyrus the Great in 539 BCE); stationed in Tema while his eldest son Belshazzar governed Babylon.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_belshazzar",
+      "name": "Co-Regent Belshazzar (Son of Nabonidus, Dan 5)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "c. 553–539 BCE (Daniel 5; Nabonidus Cylinders)",
+      "role": "Royal Co-Regent at the Fall of Babylon (539 BCE)",
+      "sources": [
+        "Daniel 5",
+        "Nabonidus Cylinder of Ur"
+      ],
+      "notes": "Eldest son of Nabonidus and acting co-regent in Babylon on the night Cyrus's forces entered the city.",
       "major": false,
       "biblicalConnected": true
     },
@@ -123,63 +406,331 @@
       "biblicalConnected": true
     },
     {
+      "id": "jos_haman_son_01_parshandatha",
+      "name": "Parshandatha (Son 1 of Haman & Zeresh, Esth 9:7)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Susa — Esther 9:7–9)",
+      "role": "Son of Haman the Agagite",
+      "sources": [
+        "Book of Esther 9:7–9",
+        "Flavius Josephus Antiquities XI.6"
+      ],
+      "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_haman_son_02_dalphon",
+      "name": "Dalphon (Son 2 of Haman & Zeresh, Esth 9:8)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Susa — Esther 9:7–9)",
+      "role": "Son of Haman the Agagite",
+      "sources": [
+        "Book of Esther 9:7–9",
+        "Flavius Josephus Antiquities XI.6"
+      ],
+      "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_haman_son_03_aspatha",
+      "name": "Aspatha (Son 3 of Haman & Zeresh, Esth 9:9)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Susa — Esther 9:7–9)",
+      "role": "Son of Haman the Agagite",
+      "sources": [
+        "Book of Esther 9:7–9",
+        "Flavius Josephus Antiquities XI.6"
+      ],
+      "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_haman_son_04_poratha",
+      "name": "Poratha (Son 4 of Haman & Zeresh, Esth 9:9)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Susa — Esther 9:7–9)",
+      "role": "Son of Haman the Agagite",
+      "sources": [
+        "Book of Esther 9:7–9",
+        "Flavius Josephus Antiquities XI.6"
+      ],
+      "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_haman_son_05_adalia",
+      "name": "Adalia (Son 5 of Haman & Zeresh, Esth 9:9)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Susa — Esther 9:7–9)",
+      "role": "Son of Haman the Agagite",
+      "sources": [
+        "Book of Esther 9:7–9",
+        "Flavius Josephus Antiquities XI.6"
+      ],
+      "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_haman_son_06_aridatha",
+      "name": "Aridatha (Son 6 of Haman & Zeresh, Esth 9:9)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Susa — Esther 9:7–9)",
+      "role": "Son of Haman the Agagite",
+      "sources": [
+        "Book of Esther 9:7–9",
+        "Flavius Josephus Antiquities XI.6"
+      ],
+      "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_haman_son_07_parmashta",
+      "name": "Parmashta (Son 7 of Haman & Zeresh, Esth 9:9)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Susa — Esther 9:7–9)",
+      "role": "Son of Haman the Agagite",
+      "sources": [
+        "Book of Esther 9:7–9",
+        "Flavius Josephus Antiquities XI.6"
+      ],
+      "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_haman_son_08_arisai",
+      "name": "Arisai (Son 8 of Haman & Zeresh, Esth 9:9)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Susa — Esther 9:7–9)",
+      "role": "Son of Haman the Agagite",
+      "sources": [
+        "Book of Esther 9:7–9",
+        "Flavius Josephus Antiquities XI.6"
+      ],
+      "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_haman_son_09_aridai",
+      "name": "Aridai (Son 9 of Haman & Zeresh, Esth 9:9)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Susa — Esther 9:7–9)",
+      "role": "Son of Haman the Agagite",
+      "sources": [
+        "Book of Esther 9:7–9",
+        "Flavius Josephus Antiquities XI.6"
+      ],
+      "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_haman_son_10_vaizatha",
+      "name": "Vaizatha (Son 10 of Haman & Zeresh, Esth 9:9)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "5th c. BCE (Susa — Esther 9:7–9)",
+      "role": "Son of Haman the Agagite",
+      "sources": [
+        "Book of Esther 9:7–9",
+        "Flavius Josephus Antiquities XI.6"
+      ],
+      "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
       "id": "jos_sparta_areus_abraham",
-      "name": "King Areus I of Sparta → High Priest Onias (1 Macc 12:21; Josephus Ant. XII.4.10): Spartans & Jews Brethren From Abraham!",
+      "name": "King Areus I of Sparta (309–265 BCE; 1 Macc 12:21 & Josephus Ant. XII.4.10)",
       "altNames": [
         "Spartan-Abraham Charter",
         "King Areus I"
       ],
       "tradition": "greek",
       "tier": 18,
-      "era": "c. 309–265 BCE (1 Macc 12:20–23; Josephus Ant. XII.4.10)",
-      "role": "Diplomatic Blood-Brotherhood Charter Linking Sparta Directly to Abraham",
+      "era": "309–265 BCE (1 Macc 12:20–23; Josephus Ant. XII.4.10)",
+      "role": "Spartan King Who Declared Spartans & Jews Brethren From Abraham",
       "sources": [
         "Flavius Josephus Antiquities XII.4.10 (p.661)",
         "1 Maccabees 12:20–23"
       ],
-      "notes": "Both 1 Maccabees 12 and Josephus Ant. XII.4.10 preserve King Areus I of Sparta's official sealed letter to High Priest Onias in Jerusalem declaring: 'It has been found in writing that the Spartans and the Jews are brethren, and that they are of the stock of Abraham!' Graduates classical Sparta into Biblically Connected!",
+      "notes": "Agiad King of Sparta whose sealed letter to High Priest Onias declared: 'It has been found in writing that the Spartans and the Jews are brethren, and that they are of the stock of Abraham!' Graduates classical Sparta into Biblically Connected!",
       "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_sparta_lycurgus",
+      "name": "Lawgiver Lycurgus of Sparta (Founder of Spartan Constitution)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "c. 8th c. BCE (Herodotus; Plutarch Life of Lycurgus)",
+      "role": "Traditional Lawgiver of Lacedaemon",
+      "sources": [
+        "Herodotus I.65",
+        "Plutarch Life of Lycurgus",
+        "Josephus Against Apion II.31"
+      ],
+      "notes": "Established Sparta's dual kingship, Gerousia, and constitution praised by Josephus.",
+      "major": false,
       "biblicalConnected": true
     },
     {
       "id": "jos_sparta_lycurgus_leonidas",
-      "name": "Spartan Royal Houses (Agiad & Eurypontid): Lawgiver Lycurgus → King Leonidas I (Thermopylae, 480 BCE) → Agesilaus II → Cleomenes III",
+      "name": "King Leonidas I of Sparta (Hero of Thermopylae, 480 BCE)",
       "altNames": [
-        "King Leonidas I",
-        "Lawgiver Lycurgus",
-        "Queen Gorgo"
+        "King Leonidas I"
       ],
       "tradition": "greek",
       "tier": 17,
-      "era": "c. 8th–3rd c. BCE (Herodotus; Plutarch; Josephus)",
-      "role": "Kings & Lawgiver of Lacedaemon (Graduated via Abraham–Sparta Charter!)",
+      "era": "d. 480 BCE (Herodotus VII; Josephus Ant. XII.4.10)",
+      "role": "Agiad King of Sparta (Graduated via Abraham–Sparta Charter)",
       "sources": [
-        "Josephus Antiquities XII.4.10",
-        "Herodotus VII",
-        "Plutarch Lives"
+        "Herodotus VII.204–225",
+        "Plutarch Lives",
+        "Josephus Antiquities XII.4.10"
       ],
-      "notes": "Moved out of Pending Bridge via the explicit Abraham-descent claim attested in 1 Maccabees 12:21 and Josephus Ant. XII.4.10, uniting Lawgiver Lycurgus, Leonidas I (+ Queen Gorgo), Agesilaus II, and Agiad King Areus I.",
+      "notes": "Agiad King of Sparta who fell defending Thermopylae with 300 Spartans; ancestor of King Areus I.",
       "major": true,
       "biblicalConnected": true
     },
     {
+      "id": "jos_sparta_gorgo",
+      "name": "Queen Gorgo of Sparta (Daughter of Cleomenes I; Wife of Leonidas I)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "fl. 490–480 BCE (Herodotus V.51, VII.239)",
+      "role": "Agiad Princess & Queen of Sparta",
+      "sources": [
+        "Herodotus V.51, VII.239",
+        "Plutarch Sayings of Spartan Women"
+      ],
+      "notes": "Daughter of Agiad King Cleomenes I and wife of half-uncle King Leonidas I; mother of King Pleistarchus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_sparta_agesilaus2",
+      "name": "King Agesilaus II of Sparta (Eurypontid King, 400–360 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 444–360 BCE (Xenophon Agesilaus; Plutarch)",
+      "role": "Eurypontid Spartan King & Commander in Asia Minor/Egypt",
+      "sources": [
+        "Xenophon Hellenica",
+        "Plutarch Life of Agesilaus"
+      ],
+      "notes": "Eurypontid King of Sparta who campaigned in Anatolia and Egypt.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_sparta_cleomenes3",
+      "name": "King Cleomenes III of Sparta (Reformer Agiad King, 235–222 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 260–219 BCE (Plutarch Cleomenes; Polybius)",
+      "role": "Last Reformist Agiad King of Classical Sparta",
+      "sources": [
+        "Plutarch Life of Cleomenes",
+        "Polybius II"
+      ],
+      "notes": "Son of Leonidas II (from Areus I's Agiad house) who revived Lycurgan reforms.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
       "id": "jos_cleodemus_heracles_africa",
-      "name": "Josephus Ant. I.15 (Cleodemus Malchus): Abraham + Keturah → Epher / Apher ('Africa') → Heracles Weds Abraham's Granddaughter → Diodorus → Sophax (Mauretania / Juba II)",
+      "name": "Daughter of Epher / Apher (Granddaughter of Abraham; Wife of Heracles, Cleodemus Malchus)",
       "altNames": [
         "Cleodemus Malchus",
-        "Apher ('Africa')",
-        "Sophax"
+        "Apher's Daughter"
       ],
       "tradition": "biblical",
       "tier": 11,
-      "era": "Patriarchal → African-Greek Mythic Horizon (Josephus Ant. I.15 p.102)",
-      "role": "Oldest Quoted Greek-Jewish Bloodline Bridging Abraham, Heracles & North Africa",
+      "era": "Patriarchal Horizon (Josephus Ant. I.15 p.102)",
+      "role": "Midianite Granddaughter of Abraham Who Gave Africa Her Name & Wed Heracles",
       "sources": [
-        "Flavius Josephus Antiquities I.15 (quoting Alexander Polyhistor / Cleodemus Malchus)",
-        "Plutarch Life of Sertorius"
+        "Flavius Josephus Antiquities I.15 (quoting Alexander Polyhistor / Cleodemus Malchus)"
       ],
-      "notes": "Josephus Ant. I.15 cites Hellenistic Jewish historian Cleodemus Malchus: Abraham's sons by Keturah (Epher/Apher, Asshur & Japhran) conquered Libya — giving AFRICA its name from Apher — and Heracles wed Apher's daughter, siring Diodorus -> Sophax (ancestor of King Juba II & Cleopatra Selene of Mauretania!).",
+      "notes": "Josephus Ant. I.15 preserves Cleodemus Malchus: Abraham's grandson Epher/Apher conquered Libya (giving Africa its name) and gave his daughter in marriage to Heracles!",
       "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_diodorus_heracles",
+      "name": "Diodorus (Son of Heracles & Apher's Daughter, Josephus Ant. I.15)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 11,
+      "era": "Mythic-Patriarchal Horizon (Josephus Ant. I.15)",
+      "role": "Son of Heracles & Abraham's Granddaughter",
+      "sources": [
+        "Flavius Josephus Antiquities I.15 (Cleodemus Malchus)"
+      ],
+      "notes": "Born to Heracles and Abraham's granddaughter (Apher's daughter); father of Sophax.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_sophax",
+      "name": "Sophax (Son of Diodorus; Founder of Tingis & Progenitor of Mauretanian Kings)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 12,
+      "era": "North African Horizon (Josephus Ant. I.15; Plutarch Sertorius 9)",
+      "role": "Son of Diodorus & Ancestor of King Juba II",
+      "sources": [
+        "Flavius Josephus Antiquities I.15",
+        "Plutarch Life of Sertorius 9"
+      ],
+      "notes": "Eponymous sovereign of Libya/Mauretania descended from Abraham via Keturah/Epher & Heracles; ancestor claimed by King Juba II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_juba2",
+      "name": "King Juba II of Mauretania (+ Queen Cleopatra Selene II, d. 23 CE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 18,
+      "era": "c. 48 BCE – 23 CE (Plutarch; Cassius Dio)",
+      "role": "Scholar-King of Mauretania Claiming Descent From Heracles/Sophax",
+      "sources": [
+        "Plutarch Sertorius 9",
+        "Josephus Ant. I.15, XVII.13.4"
+      ],
+      "notes": "Scholar-king of Mauretania (+ Cleopatra Selene, daughter of Cleopatra VII; later husband of Herodian widow Glaphyra!) claiming ancestry from Sophax -> Diodorus -> Heracles.",
+      "major": false,
       "biblicalConnected": true
     },
     {
@@ -200,21 +751,66 @@
       "biblicalConnected": true
     },
     {
+      "id": "jos_monobazus1",
+      "name": "King Monobazus I (Bazeus) of Adiabene (Josephus Ant. XX.2.1)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 19,
+      "era": "c. 1–30 CE (Erbil / Adiabene — Josephus Ant. XX.2.1)",
+      "role": "King of Adiabene & Husband of Sister-Queen Helena",
+      "sources": [
+        "Flavius Josephus Antiquities XX.2.1 (p.1069)"
+      ],
+      "notes": "King of Adiabene (ancient Assyria/Erbil) and father of Kings Izates II and Monobazus II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
       "id": "jos_adiabene_helena_izates",
-      "name": "Royal House of Adiabene (Assyria/Kurdistan, Josephus Ant. XX.2–4): King Monobazus I + Queen Helena → King Izates II & Monobazus II",
+      "name": "Queen Helena of Adiabene (Royal Convert Buried in Jerusalem, Josephus Ant. XX.2–4)",
       "altNames": [
-        "Queen Helena of Adiabene",
-        "King Izates II"
+        "Queen Helena of Adiabene"
       ],
       "tradition": "mesopotamian",
       "tier": 19,
-      "era": "c. 1–70 CE (Josephus Ant. XX.2–4 pp.1069–1075)",
-      "role": "Mesopotamian Royal Converts to Judaism Buried in Jerusalem",
+      "era": "c. 1–60 CE (Josephus Ant. XX.2–4 pp.1069–1075)",
+      "role": "Queen Mother of Adiabene & Famine Benefactor of Jerusalem",
       "sources": [
         "Flavius Josephus Antiquities XX.2–4 (pp.1069–1075)"
       ],
-      "notes": "King Monobazus I (Bazeus) and Queen Helena of Adiabene (ancient Assyria/Erbil) and their son King Izates II converted to Judaism, fed Jerusalem during the famine of Acts 11:28, and built the monumental Tomb of the Kings in Jerusalem.",
+      "notes": "Converted to Judaism with her son King Izates II, fed Jerusalem during the famine of Acts 11:28, and built the monumental Tomb of the Kings in Jerusalem.",
       "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_izates2",
+      "name": "King Izates II of Adiabene (c. 36–60 CE, Josephus Ant. XX.2–4)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 19,
+      "era": "c. 1–60 CE (Adiabene — Josephus Ant. XX.2–4)",
+      "role": "Convert King of Adiabene Circumcised & Allied With Parthia",
+      "sources": [
+        "Flavius Josephus Antiquities XX.2–4"
+      ],
+      "notes": "Son of Monobazus I & Queen Helena; married Symacho (daughter of King Abennerig of Charax Spasini) and fathered five sons educated in Jerusalem.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "jos_monobazus2",
+      "name": "King Monobazus II of Adiabene (fl. 55–70 CE, Josephus Ant. XX.4.3)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 19,
+      "era": "fl. 55–70 CE (Adiabene — Josephus Ant. XX.4.3; Wars II.19.2)",
+      "role": "Elder Brother & Successor of Izates II",
+      "sources": [
+        "Flavius Josephus Antiquities XX.4.3",
+        "Wars II.19.2"
+      ],
+      "notes": "Elder brother of Izates II who also converted to Judaism and sent kinsmen Monobazus and Kenedeus to aid Jerusalem.",
+      "major": false,
       "biblicalConnected": true
     },
     {
@@ -367,9 +963,21 @@
     },
     {
       "from": "jos_king_agag",
+      "to": "jos_hammedatha",
+      "type": "direct",
+      "label": "Agagite line -> Hammedatha (Esth 3:1)"
+    },
+    {
+      "from": "jos_hammedatha",
       "to": "jos_haman_amalekite",
       "type": "direct",
-      "label": "Esth 3:1 & Josephus Ant. XI.6.5: Haman ben Hammedatha the Agagite/Amalekite"
+      "label": "Esth 3:1 & Josephus Ant. XI.6.5: Haman son of Hammedatha the Agagite/Amalekite"
+    },
+    {
+      "from": "jos_haman_amalekite",
+      "to": "jos_zeresh",
+      "type": "direct",
+      "label": "Esth 5:10: Zeresh wife of Haman"
     },
     {
       "from": "jos_haman_amalekite",
@@ -381,19 +989,157 @@
       "from": "her_herod_great_family",
       "to": "jos_herod_remaining_wives",
       "type": "direct",
-      "label": "Josephus Ant. XVII.1.3: remaining 5 wives & children of Herod the Great"
+      "label": "Josephus Ant. XVII.1.3: Phasael II (son of Herod & Pallas)"
     },
     {
-      "from": "her_herod_great_family",
+      "from": "jos_herod_armenia_cilicia",
+      "to": "jos_tigranes6_armenia",
+      "type": "expansion",
+      "label": "Direct Armenian-Herodian royal succession from Tigranes V's line"
+    },
+    {
+      "from": "bib16_her_04_prince_alexander_glaphyra_of",
       "to": "jos_herod_armenia_cilicia",
       "type": "direct",
-      "label": "Josephus Ant. XVIII.5.4: Alexander (+ Glaphyra) -> Armenian Kings Tigranes V/VI & Cilician/Roman lines"
+      "label": "Josephus Ant. XVIII.5.4: Prince Alexander -> King Tigranes V of Armenia"
     },
     {
-      "from": "her_agrippa_herodias",
+      "from": "her2_glaphyra",
+      "to": "jos_herod_armenia_cilicia",
+      "type": "direct",
+      "label": "Mother Glaphyra -> King Tigranes V of Armenia"
+    },
+    {
+      "from": "bib16_her_04_prince_alexander_glaphyra_of",
+      "to": "jos_alexander2_herod",
+      "type": "direct",
+      "label": "Josephus Ant. XVIII.5.4: Prince Alexander -> Prince Alexander II"
+    },
+    {
+      "from": "her2_glaphyra",
+      "to": "jos_alexander2_herod",
+      "type": "direct",
+      "label": "Mother Glaphyra -> Prince Alexander II"
+    },
+    {
+      "from": "her2_glaphyra",
+      "to": "jos_juba2",
+      "type": "direct",
+      "label": "Josephus Ant. XVII.13.4: Widow Glaphyra marries King Juba II of Mauretania"
+    },
+    {
+      "from": "her2_drusilla",
       "to": "jos_herod_emesa_rome",
       "type": "direct",
-      "label": "Josephus Ant. XX.7: Berenice II (+ Titus) & Drusilla (+ Emesa & Felix -> Pompeii 79 CE)"
+      "label": "Josephus Ant. XX.7.1: 1st marriage of Drusilla & King Azizus of Emesa"
+    },
+    {
+      "from": "jos_alexander2_herod",
+      "to": "jos_tigranes6_armenia",
+      "type": "direct",
+      "label": "Josephus Ant. XVIII.5.4: Alexander II -> King Tigranes VI of Armenia"
+    },
+    {
+      "from": "jos_tigranes6_armenia",
+      "to": "jos_gj_alexander_cilicia",
+      "type": "direct",
+      "label": "Josephus Ant. XVIII.5.4: Tigranes VI -> Gaius Julius Alexander of Cetis/Cilicia"
+    },
+    {
+      "from": "jos_gj_alexander_cilicia",
+      "to": "jos_iotape_commagene",
+      "type": "direct",
+      "label": "Marriage to Princess Iotape of Commagene (Ant. XVIII.5.4)"
+    },
+    {
+      "from": "jos_gj_alexander_cilicia",
+      "to": "jos_gj_agrippa",
+      "type": "direct",
+      "label": "Son: Roman Senator Gaius Julius Agrippa"
+    },
+    {
+      "from": "jos_iotape_commagene",
+      "to": "jos_gj_agrippa",
+      "type": "direct",
+      "label": "Mother: Iotape of Commagene"
+    },
+    {
+      "from": "jos_gj_alexander_cilicia",
+      "to": "jos_gj_berenicianus",
+      "type": "direct",
+      "label": "Son: Roman Consul Gaius Julius Alexander Berenicianus"
+    },
+    {
+      "from": "jos_iotape_commagene",
+      "to": "jos_gj_berenicianus",
+      "type": "direct",
+      "label": "Mother: Iotape of Commagene"
+    },
+    {
+      "from": "pri_onias_dynasty",
+      "to": "jos_tobias_father",
+      "type": "direct",
+      "label": "Josephus Ant. XII.4.2: Tobias marries sister of High Priest Onias II"
+    },
+    {
+      "from": "jos_tobias_father",
+      "to": "jos_joseph_tobiad",
+      "type": "direct",
+      "label": "Josephus Ant. XII.4.2: Tobias -> Joseph ben Tobias"
+    },
+    {
+      "from": "jos_joseph_tobiad",
+      "to": "jos_hyrcanus_tobiad",
+      "type": "direct",
+      "label": "Josephus Ant. XII.4.6: Joseph ben Tobias -> Hyrcanus ben Joseph"
+    },
+    {
+      "from": "for_nebuchadnezzar",
+      "to": "jos_nabopolassar",
+      "type": "expansion",
+      "label": "Josephus Against Apion I.19 (Berossus): Neo-Babylonian Dynasty"
+    },
+    {
+      "from": "jos_nabopolassar",
+      "to": "jos_nebuchadnezzar2",
+      "type": "direct",
+      "label": "Nabopolassar -> Nebuchadnezzar II"
+    },
+    {
+      "from": "jos_nebuchadnezzar2",
+      "to": "jos_evil_merodach",
+      "type": "direct",
+      "label": "Nebuchadnezzar II -> Evil-Merodach (Amel-Marduk)"
+    },
+    {
+      "from": "jos_evil_merodach",
+      "to": "kg_j13_jehoiachin",
+      "type": "cognate",
+      "label": "2 Kgs 25:27: Evil-Merodach releases King Jehoiachin in Babylon"
+    },
+    {
+      "from": "jos_nebuchadnezzar2",
+      "to": "jos_neriglissar",
+      "type": "direct",
+      "label": "Neriglissar marries daughter of Nebuchadnezzar II"
+    },
+    {
+      "from": "jos_neriglissar",
+      "to": "jos_labashi_marduk",
+      "type": "direct",
+      "label": "Neriglissar -> Labashi-Marduk"
+    },
+    {
+      "from": "jos_labashi_marduk",
+      "to": "jos_nabonidus",
+      "type": "expansion",
+      "label": "556 BCE succession -> Nabonidus"
+    },
+    {
+      "from": "jos_nabonidus",
+      "to": "jos_belshazzar",
+      "type": "direct",
+      "label": "Nabonidus -> co-regent Belshazzar (Dan 5)"
     },
     {
       "from": "bib_esau",
@@ -420,46 +1166,208 @@
       "label": "Al-Tabari & Talmudic Edom/al-Rum identification with Eastern Rome (Byzantium)"
     },
     {
+      "from": "jos_haman_amalekite",
+      "to": "jos_haman_son_01_parshandatha",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Haman"
+    },
+    {
+      "from": "jos_zeresh",
+      "to": "jos_haman_son_01_parshandatha",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Zeresh"
+    },
+    {
+      "from": "jos_haman_amalekite",
+      "to": "jos_haman_son_02_dalphon",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Haman"
+    },
+    {
+      "from": "jos_zeresh",
+      "to": "jos_haman_son_02_dalphon",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Zeresh"
+    },
+    {
+      "from": "jos_haman_amalekite",
+      "to": "jos_haman_son_03_aspatha",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Haman"
+    },
+    {
+      "from": "jos_zeresh",
+      "to": "jos_haman_son_03_aspatha",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Zeresh"
+    },
+    {
+      "from": "jos_haman_amalekite",
+      "to": "jos_haman_son_04_poratha",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Haman"
+    },
+    {
+      "from": "jos_zeresh",
+      "to": "jos_haman_son_04_poratha",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Zeresh"
+    },
+    {
+      "from": "jos_haman_amalekite",
+      "to": "jos_haman_son_05_adalia",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Haman"
+    },
+    {
+      "from": "jos_zeresh",
+      "to": "jos_haman_son_05_adalia",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Zeresh"
+    },
+    {
+      "from": "jos_haman_amalekite",
+      "to": "jos_haman_son_06_aridatha",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Haman"
+    },
+    {
+      "from": "jos_zeresh",
+      "to": "jos_haman_son_06_aridatha",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Zeresh"
+    },
+    {
+      "from": "jos_haman_amalekite",
+      "to": "jos_haman_son_07_parmashta",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Haman"
+    },
+    {
+      "from": "jos_zeresh",
+      "to": "jos_haman_son_07_parmashta",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Zeresh"
+    },
+    {
+      "from": "jos_haman_amalekite",
+      "to": "jos_haman_son_08_arisai",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Haman"
+    },
+    {
+      "from": "jos_zeresh",
+      "to": "jos_haman_son_08_arisai",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Zeresh"
+    },
+    {
+      "from": "jos_haman_amalekite",
+      "to": "jos_haman_son_09_aridai",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Haman"
+    },
+    {
+      "from": "jos_zeresh",
+      "to": "jos_haman_son_09_aridai",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Zeresh"
+    },
+    {
+      "from": "jos_haman_amalekite",
+      "to": "jos_haman_son_10_vaizatha",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Haman"
+    },
+    {
+      "from": "jos_zeresh",
+      "to": "jos_haman_son_10_vaizatha",
+      "type": "direct",
+      "label": "Esth 9:7–9: son of Zeresh"
+    },
+    {
       "from": "bib_abraham",
       "to": "jos_sparta_areus_abraham",
       "type": "syncretic",
       "label": "1 Macc 12:21 & Josephus Ant. XII.4.10: Spartan King Areus declares Spartans 'of the stock of Abraham'"
     },
     {
-      "from": "jos_sparta_areus_abraham",
-      "to": "pri_onias_dynasty",
+      "from": "bib16_pri_07_high_priest_onias_i",
+      "to": "jos_sparta_areus_abraham",
       "type": "cognate",
-      "label": "Areus I of Sparta sends fraternal letter & seal to High Priest Onias in Jerusalem"
+      "label": "Areus I of Sparta sends fraternal letter & seal to High Priest Onias I in Jerusalem"
+    },
+    {
+      "from": "jos_sparta_lycurgus",
+      "to": "jos_sparta_lycurgus_leonidas",
+      "type": "expansion",
+      "label": "Lycurgan constitution -> Agiad King Leonidas I"
+    },
+    {
+      "from": "jos_sparta_lycurgus_leonidas",
+      "to": "jos_sparta_gorgo",
+      "type": "direct",
+      "label": "Marriage of Leonidas I & Queen Gorgo"
+    },
+    {
+      "from": "jos_sparta_lycurgus_leonidas",
+      "to": "jos_sparta_agesilaus2",
+      "type": "expansion",
+      "label": "Spartan royal house -> Eurypontid King Agesilaus II"
+    },
+    {
+      "from": "jos_sparta_lycurgus_leonidas",
+      "to": "jos_sparta_areus_abraham",
+      "type": "direct",
+      "label": "Agiad line -> King Areus I"
     },
     {
       "from": "jos_sparta_areus_abraham",
-      "to": "jos_sparta_lycurgus_leonidas",
+      "to": "jos_sparta_cleomenes3",
       "type": "direct",
-      "label": "Agiad/Eurypontid Spartan royal house uniting Lycurgus, Leonidas I & Areus I"
+      "label": "Agiad line -> King Cleomenes III"
     },
     {
       "from": "ket_midian",
       "to": "jos_cleodemus_heracles_africa",
       "type": "expansion",
-      "label": "Josephus Ant. I.15 (Cleodemus): Midian's son Epher/Apher -> eponym of Africa"
+      "label": "Josephus Ant. I.15: Midian's son Epher (Apher) -> daughter wed to Heracles"
     },
     {
       "from": "mid_epher",
       "to": "jos_cleodemus_heracles_africa",
-      "type": "expansion",
-      "label": "Abraham -> Midian -> Epher (Apher) -> daughter marries Heracles"
+      "type": "direct",
+      "label": "Abraham -> Midian -> Epher (Apher) -> daughter (Ant. I.15)"
     },
     {
       "from": "jos_cleodemus_heracles_africa",
-      "to": "grk_heracles",
+      "to": "jos_diodorus_heracles",
+      "type": "direct",
+      "label": "Mother: Apher's daughter -> Diodorus"
+    },
+    {
+      "from": "grk_heracles",
+      "to": "jos_diodorus_heracles",
       "type": "syncretic",
-      "label": "Cleodemus Malchus: Heracles marries Abraham's granddaughter -> Diodorus -> Sophax"
+      "label": "Father: Heracles -> Diodorus (Cleodemus Malchus)"
     },
     {
-      "from": "jos_cleodemus_heracles_africa",
-      "to": "eg_ptolemy_cleopatra",
+      "from": "jos_diodorus_heracles",
+      "to": "jos_sophax",
+      "type": "direct",
+      "label": "Josephus Ant. I.15: Diodorus -> Sophax"
+    },
+    {
+      "from": "jos_sophax",
+      "to": "jos_juba2",
+      "type": "expansion",
+      "label": "Plutarch Sertorius 9: Sophax -> Mauretanian line -> King Juba II"
+    },
+    {
+      "from": "eg_ptolemy_cleopatra",
+      "to": "jos_juba2",
       "type": "cognate",
-      "label": "Mauretania (Sophax -> Juba II) + Cleopatra Selene (daughter of Cleopatra VII!)"
+      "label": "Juba II weds Cleopatra Selene (daughter of Cleopatra VII)"
     },
     {
       "from": "bib_moses",
@@ -469,12 +1377,48 @@
     },
     {
       "from": "bib_asshur",
-      "to": "jos_adiabene_helena_izates",
+      "to": "jos_monobazus1",
       "type": "expansion",
-      "label": "Adiabene (ancient Assyria/Hadiab) -> King Monobazus I & Queen Helena"
+      "label": "Adiabene (ancient Assyria/Hadiab) -> King Monobazus I"
     },
     {
-      "from": "her_agrippa_herodias",
+      "from": "bib_asshur",
+      "to": "jos_adiabene_helena_izates",
+      "type": "expansion",
+      "label": "Adiabene (ancient Assyria/Hadiab) -> Queen Helena"
+    },
+    {
+      "from": "jos_monobazus1",
+      "to": "jos_adiabene_helena_izates",
+      "type": "direct",
+      "label": "Marriage of King Monobazus I & Queen Helena"
+    },
+    {
+      "from": "jos_monobazus1",
+      "to": "jos_izates2",
+      "type": "direct",
+      "label": "Father Monobazus I -> King Izates II"
+    },
+    {
+      "from": "jos_adiabene_helena_izates",
+      "to": "jos_izates2",
+      "type": "direct",
+      "label": "Mother Queen Helena -> King Izates II"
+    },
+    {
+      "from": "jos_monobazus1",
+      "to": "jos_monobazus2",
+      "type": "direct",
+      "label": "Father Monobazus I -> King Monobazus II"
+    },
+    {
+      "from": "jos_adiabene_helena_izates",
+      "to": "jos_monobazus2",
+      "type": "direct",
+      "label": "Mother Queen Helena -> King Monobazus II"
+    },
+    {
+      "from": "bib16_her_10_king_herod_agrippa_i_acts_12",
       "to": "jos_adiabene_helena_izates",
       "type": "cognate",
       "label": "Royal converts Queen Helena & Izates allied with 1st-c. Jerusalem & Judean famine relief"

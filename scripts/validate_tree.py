@@ -148,6 +148,12 @@ def main():
         ("bib_abraham", "grk_heracles", {"direct", "expansion", "cognate", "syncretic"}, "Abraham + Keturah -> Epher (Africa) -> Heracles Marriage (Josephus Ant. I.15)"),
         ("bib_noah", "eur42_jadwiga_jagiello", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Rus' Yaroslav -> Poland/Hungary -> Queen Jadwiga & Jagiello (Lithuania)"),
         ("bib_noah", "fam_washington_jefferson", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Wessex -> Edward III -> George Washington & Thomas Jefferson"),
+        ("jud_perez", "jud_david", {"direct", "expansion"}, "Perez -> Hezron -> Ram -> Amminadab -> Nahshon -> Salmon -> Boaz -> Obed -> Jesse -> King David (Individual)"),
+        ("jud_david", "dav_zerubbabel", {"direct", "expansion"}, "King David -> Solomon -> Individual 20 Kings of Judah -> Jehoiachin -> Zerubbabel"),
+        ("has_mattathias", "jos_tigranes6_armenia", {"direct", "expansion"}, "Mattathias -> Simon Thassi -> John Hyrcanus I -> Jannaeus -> Hyrcanus II -> Alexandra -> Mariamne I -> Prince Alexander -> Armenia Tigranes VI"),
+        ("bib_abraham", "tri_dan", {"direct", "expansion"}, "Abraham -> Rotheus -> Bilhah -> Tribe of Dan (Testament of Naphtali / Ginzberg)"),
+        ("chr41_sheshan_jarha_egypt", "chr2_elishama", {"direct", "expansion"}, "Sheshan -> Ahlai + Jarha the Egyptian -> 13-Generation Pedigree to Elishama (1 Chr 2:34-41)"),
+        ("pri_eleazar_zadok", "bib16_pri_14_high_priest_onias_iv_built_l", {"direct", "expansion"}, "Zadok I -> ... -> Jehozadak -> Jeshua -> Jaddua -> Onias I -> Simon I -> Onias II -> Simon II -> Onias III -> Onias IV"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")
