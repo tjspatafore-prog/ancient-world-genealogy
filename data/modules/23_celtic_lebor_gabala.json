@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "cel_nemed_pedigree",
-      "name": "Irish Universal Pedigree: Noah → Japheth → Magog → Fathacht → Sera → Agnomain → Nemed (Ancestor of Fir Bolg, Britons & Tuatha Dé Danann!)",
+      "name": "Irish Universal Pedigree: Noah → Japheth → Magog → Fathacht → Sera → Agnomain → Nemed",
       "altNames": [
         "Nemed mac Agnomain",
         "Cessair",
@@ -19,13 +19,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (Macalister ¶280, ¶316, pp. 9, 127)"
       ],
-      "notes": "Macalister R1 ¶316 traces Nemed directly from Noah -> Japheth -> Magog -> Fathacht -> Braimend -> Esru -> Sru -> Sera -> Tat -> Pamp -> Agnomain -> Nemed! Nemed's surviving branches produced the Fir Bolg (via Starn -> Semeon -> Dela), the Britons (Britán Máel), and the Tuatha Dé Danann (via Iarbonel the Soothsayer -> Bethach -> Tat)!",
+      "notes": "Macalister R1 ¶316 traces Nemed directly from Noah -> Japheth -> Magog -> Fathacht -> Esru -> Sru -> Sera -> Tat -> Pamp -> Agnomain -> Nemed.",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "cel_fir_bolg_kings",
-      "name": "Complete Fir Bolg Dynasty (Dela's 5 Sons & All 9 Kings): Sláine, Rudraige, Gann, Genann, Sengann → Fiacha → Rindail → Fodbgenid → Eochu mac Eirc (+ Queen Tailtiu)",
+      "name": "Complete Fir Bolg Dynasty Anchor (Dela's 5 Sons & All 9 Kings to Eochu mac Eirc)",
       "altNames": [
         "Dela",
         "Sláine",
@@ -35,17 +35,17 @@
       "tradition": "europe_norse",
       "tier": 9,
       "era": "Pre-Tuatha Dé Ireland (Lebor Gabála Part IV Sect. VI, pp. 7-21)",
-      "role": "First Organizers of Ireland's Five Provinces & Tailteann Games",
+      "role": "First Organizers of Ireland's Five Provinces Anchor",
       "sources": [
         "Lebor Gabála Érenn Part IV (Macalister ¶278-289, pp. 7-21)"
       ],
-      "notes": "Dela's 5 sons & 5 wives (Sláine+Fuat, Gann+Etar, Sengann+Anust, Genann+Cnucha, Rudraige+Liber) divided Ireland into its 5 provinces (Cóiceda). Last king Eochu mac Eirc married Spanish princess Tailtiu (foster-mother of Lugh!) before falling at 1st Battle of Mag Tuired.",
+      "notes": "Dela's 5 sons divided Ireland into its 5 provinces; unrolled individually below.",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "cel_tdd_nuadu_dian_cecht",
-      "name": "Tuatha Dé Danann Line A & B1: Nuadu Airgetlám ('Silver Hand'), Midir & Esarg's 4 Sons (Goibniu, Creidne, Luichtne & Dian Cécht → Cian + Ethniu → Lugh Lámfada!)",
+      "name": "Tuatha Dé Danann Line A & B1 Anchor (Nuadu Airgetlám, Dian Cécht & Lugh Lámfada)",
       "altNames": [
         "Nuadu Airgetlám",
         "Dian Cécht",
@@ -56,17 +56,17 @@
       "tradition": "europe_norse",
       "tier": 10,
       "era": "Battle of Mag Tuired (Lebor Gabála Part IV Sect. VII, pp. 113-159)",
-      "role": "Silver-Handed King Nuadu, Divine Craftsmen & Hero-King Lugh Lámfada",
+      "role": "Silver-Handed King Nuadu, Divine Craftsmen & Hero-King Lugh Anchor",
       "sources": [
         "Lebor Gabála Érenn Part IV (Macalister ¶310-316, ¶341, pp. 113-159)"
       ],
-      "notes": "Nuadu Airgetlám ruled 27 yrs after healer Dian Cécht & Creidne forged his silver hand. Dian Cécht's son Cian married Ethniu (daughter of Fomorian King Balor of the Evil Eye!), fathering Lugh Lámfada ('Long-Arm', master of all arts!), who slew grandfather Balor at 2nd Mag Tuired and reigned 40 yrs!",
+      "notes": "Unrolled individually below from Tat mac Tabarn -> Nuadu, Dian Cécht -> Cian (+ Ethniu dau. of Balor) -> Lugh Lámfada.",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "cel_tdd_dagda_ogma_eriu",
-      "name": "Tuatha Dé Danann Line B2 (Elada's Sons): The Dagda (Eochu Ollathair → Óengus Mac Óc, Brigit & Cermait → Mac Cuill/Mac Cécht/Mac Gréine) & Ogma (→ Delbaeth → Ériu, Banba, Fódla & 3 Sons of Danu)",
+      "name": "Tuatha Dé Danann Line B2 Anchor (Elada → The Dagda, Brigit, Ogma & Ériu)",
       "altNames": [
         "The Dagda (Eochu Ollathair)",
         "Óengus Mac Óc",
@@ -78,17 +78,17 @@
       "tradition": "europe_norse",
       "tier": 10,
       "era": "Tuatha Dé Danann Golden Age (Lebor Gabála Part IV Sect. VII, pp. 121-197)",
-      "role": "The Great Dagda, Goddess Brigit, Ogma & Eponymous Queens of Ireland",
+      "role": "The Great Dagda, Goddess Brigit, Ogma & Eponymous Queens Anchor",
       "sources": [
         "Lebor Gabála Érenn Part IV (Macalister ¶313-317, ¶335-344, pp. 121-197)"
       ],
-      "notes": "Elada fathered Eochu Ollathair (The Great Dagda, reigned 80 yrs -> Óengus Mac Óc, poetess-goddess Brigit, and Cermait -> joint kings Mac Cuill, Mac Cécht, Mac Gréine), Ogma (inventor of Ogham -> Delbaeth -> Fiachna -> Ériu [Ireland!], Banba & Fódla, plus the 3 Gods of Danann: Brian, Iuchar, Iucharba), and Bres (half-Fomorian king)!",
+      "notes": "Unrolled individually below from Elada -> Dagda, Ogma & Bres down to Ériu, Banba & Fódla.",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "celr_fb_01_1_sl_ine_slanga_mac_dela_fua",
-      "name": "1. Sláine / Slanga mac Dela (+ Fuat)",
+      "name": "1. King Sláine / Slanga mac Dela (+ Queen Fuat)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 9,
@@ -97,13 +97,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
-      "notes": "Fir Bolg Sovereign (Lebor Gabála Sect. VI (Macalister)).",
+      "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 1. King Sláine / Slanga mac Dela (+ Queen Fuat).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_fb_02_2_rudraige_mac_dela_liber",
-      "name": "2. Rudraige mac Dela (+ Liber)",
+      "name": "2. King Rudraige mac Dela (+ Queen Liber)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 9,
@@ -112,13 +112,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
-      "notes": "Fir Bolg Sovereign (Lebor Gabála Sect. VI (Macalister)).",
+      "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 2. King Rudraige mac Dela (+ Queen Liber).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_fb_03_3_gann_mac_dela_etar",
-      "name": "3. Gann mac Dela (+ Etar)",
+      "name": "3. King Gann mac Dela (+ Queen Etar)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 9,
@@ -127,13 +127,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
-      "notes": "Fir Bolg Sovereign (Lebor Gabála Sect. VI (Macalister)).",
+      "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 3. King Gann mac Dela (+ Queen Etar).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_fb_04_4_genann_mac_dela_cnucha",
-      "name": "4. Genann mac Dela (+ Cnucha)",
+      "name": "4. King Genann mac Dela (+ Queen Cnucha)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 9,
@@ -142,13 +142,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
-      "notes": "Fir Bolg Sovereign (Lebor Gabála Sect. VI (Macalister)).",
+      "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 4. King Genann mac Dela (+ Queen Cnucha).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_fb_05_5_sengann_mac_dela_anust",
-      "name": "5. Sengann mac Dela (+ Anust)",
+      "name": "5. King Sengann mac Dela (+ Queen Anust)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 9,
@@ -157,13 +157,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
-      "notes": "Fir Bolg Sovereign (Lebor Gabála Sect. VI (Macalister)).",
+      "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 5. King Sengann mac Dela (+ Queen Anust).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_fb_06_6_fiacha_cendfindan_mac_star",
-      "name": "6. Fiacha Cendfindan mac Starn",
+      "name": "6. King Fiacha Cendfindan mac Starn (Grandson of Rudraige)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 9,
@@ -172,13 +172,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
-      "notes": "Fir Bolg Sovereign (Lebor Gabála Sect. VI (Macalister)).",
+      "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 6. King Fiacha Cendfindan mac Starn (Grandson of Rudraige).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_fb_07_7_rindail_mac_genann",
-      "name": "7. Rindail mac Genann",
+      "name": "7. King Rindail mac Genann (Son of Genann)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 9,
@@ -187,13 +187,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
-      "notes": "Fir Bolg Sovereign (Lebor Gabála Sect. VI (Macalister)).",
+      "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 7. King Rindail mac Genann (Son of Genann).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_fb_08_8_fodbgenid_mac_sengann",
-      "name": "8. Fodbgenid mac Sengann",
+      "name": "8. King Fodbgenid mac Sengann (Son of Sengann)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 9,
@@ -202,13 +202,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
-      "notes": "Fir Bolg Sovereign (Lebor Gabála Sect. VI (Macalister)).",
+      "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 8. King Fodbgenid mac Sengann (Son of Sengann).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_fb_09_9_eochu_mac_eirc_queen_tailt",
-      "name": "9. Eochu mac Eirc (+ Queen Tailtiu of Spain)",
+      "name": "9. King Eochu mac Eirc (+ Queen Tailtiu of Spain; Foster-Parents of Lugh)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 9,
@@ -217,13 +217,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
-      "notes": "Fir Bolg Sovereign (Lebor Gabála Sect. VI (Macalister)).",
+      "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 9. King Eochu mac Eirc (+ Queen Tailtiu of Spain; Foster-Parents of Lugh).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_fb_10_oengus_mac_umor_d_n_aengusa",
-      "name": "Oengus mac Umor (Dún Aengusa)",
+      "name": "Oengus mac Umor (Fir Bolg Chieftain of Dún Aengusa, Aran Islands)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 9,
@@ -232,13 +232,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
-      "notes": "Fir Bolg Sovereign (Lebor Gabála Sect. VI (Macalister)).",
+      "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: Oengus mac Umor (Fir Bolg Chieftain of Dún Aengusa, Aran Islands).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_01_tat_mac_tabarn_common_ancest",
-      "name": "Tat mac Tabarn (Common Ancestor of TDD)",
+      "name": "Tat mac Tabarn (Common Patriarch of Tuatha Dé Danann)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -247,13 +247,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: Tat mac Tabarn (Common Patriarch of Tuatha Dé Danann).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_02_nuadu_airgetl_m_king_27_yrs",
-      "name": "Nuadu Airgetlám (King 27 yrs)",
+      "name": "King Nuadu Airgetlám ('Silver Hand', Son of Eochu mac Etarlám, 27 yrs)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -262,13 +262,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: King Nuadu Airgetlám ('Silver Hand', Son of Eochu mac Etarlám, 27 yrs).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_03_midir_of_br_l_ith",
-      "name": "Midir of Brí Léith",
+      "name": "Midir of Brí Léith (Son of Induí; Noble of Tuatha Dé)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -277,13 +277,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: Midir of Brí Léith (Son of Induí; Noble of Tuatha Dé).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_04_n_t_war_god_fea_neman",
-      "name": "Nét (War God, + Fea & Neman)",
+      "name": "Nét (War God of Tuatha Dé, + Fea & Neman; Great-Grandson of Tat)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -292,13 +292,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: Nét (War God of Tuatha Dé, + Fea & Neman; Great-Grandson of Tat).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_05_goibniu_divine_smith",
-      "name": "Goibniu (Divine Smith)",
+      "name": "Goibniu (Divine Smith, Son of Esarg mac Nét)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -307,13 +307,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: Goibniu (Divine Smith, Son of Esarg mac Nét).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_06_creidne_divine_brazier",
-      "name": "Creidne (Divine Brazier)",
+      "name": "Creidne (Divine Brazier Who Forged Nuadu's Silver Hand)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -322,13 +322,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: Creidne (Divine Brazier Who Forged Nuadu's Silver Hand).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_07_luichtne_divine_carpenter",
-      "name": "Luichtne (Divine Carpenter)",
+      "name": "Luichtne / Luchta (Divine Carpenter of Tuatha Dé)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -337,13 +337,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: Luichtne / Luchta (Divine Carpenter of Tuatha Dé).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_08_dian_c_cht_divine_physician",
-      "name": "Dian Cécht (Divine Physician)",
+      "name": "Dian Cécht (Divine Physician, Son of Esarg mac Nét)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -352,13 +352,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: Dian Cécht (Divine Physician, Son of Esarg mac Nét).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_09_cian_scal_balb_father_of_lug",
-      "name": "Cian / Scal Balb (Father of Lugh)",
+      "name": "Cian / Scal Balb (Son of Dian Cécht; Father of Lugh)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -367,13 +367,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: Cian / Scal Balb (Son of Dian Cécht; Father of Lugh).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_10_miach_airmed_healers",
-      "name": "Miach & Airmed (Healers)",
+      "name": "Miach & Airmed (Children of Dian Cécht; Herbal Physicians)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -382,28 +382,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "celr_tdd1_11_ethniu_daughter_of_balor_mot",
-      "name": "Ethniu (Daughter of Balor, Mother of Lugh)",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 10,
-      "era": "Lebor Gabála Sect. VII (Macalister)",
-      "role": "Tuatha Dé Danann Deity / Sovereign",
-      "sources": [
-        "Lebor Gabála Érenn Part IV (pp. 113-159)"
-      ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: Miach & Airmed (Children of Dian Cécht; Herbal Physicians).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_12_balor_of_the_evil_eye_fomori",
-      "name": "Balor of the Evil Eye (Fomorian King)",
+      "name": "King Balor of the Evil Eye (Fomorian Monarch; Grandfather of Lugh)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -412,13 +397,28 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: King Balor of the Evil Eye (Fomorian Monarch; Grandfather of Lugh).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "celr_tdd1_11_ethniu_daughter_of_balor_mot",
+      "name": "Princess Ethniu (Daughter of Balor; Wife of Cian & Mother of Lugh)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 10,
+      "era": "Lebor Gabála Sect. VII (Macalister)",
+      "role": "Tuatha Dé Danann Deity / Sovereign",
+      "sources": [
+        "Lebor Gabála Érenn Part IV (pp. 113-159)"
+      ],
+      "notes": "Tuatha Dé Danann figure: Princess Ethniu (Daughter of Balor; Wife of Cian & Mother of Lugh).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_13_lugh_l_mfada_king_40_yrs_vic",
-      "name": "Lugh Lámfada (King 40 yrs, Victor at Mag Tuired)",
+      "name": "King Lugh Lámfada ('Long-Arm', Son of Cian & Ethniu; Victor at Mag Tuired, 40 yrs)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -427,13 +427,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: King Lugh Lámfada ('Long-Arm', Son of Cian & Ethniu; Victor at Mag Tuired, 40 yrs).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd1_14_manann_n_mac_lir_sea_god",
-      "name": "Manannán mac Lir (Sea God)",
+      "name": "Manannán mac Lir (Sea God & Sovereign of Emain Ablach)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -442,13 +442,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
-      "notes": "Tuatha Dé Danann Deity / Sovereign (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "Tuatha Dé Danann figure: Manannán mac Lir (Sea God & Sovereign of Emain Ablach).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_01_elada_elathan_father_of_dagd",
-      "name": "Elada / Elathan (Father of Dagda, Ogma & Bres)",
+      "name": "Elada / Elathan mac Delbaeth (Father of Dagda, Ogma & Bres)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -457,13 +457,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: Elada / Elathan mac Delbaeth (Father of Dagda, Ogma & Bres).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_02_bres_mac_elathan_half_fomori",
-      "name": "Bres mac Elathan (Half-Fomorian King)",
+      "name": "King Bres mac Elathan (Half-Fomorian King, 7 yrs)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -472,13 +472,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: King Bres mac Elathan (Half-Fomorian King, 7 yrs).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_03_eochu_ollathair_the_dagda_ki",
-      "name": "Eochu Ollathair / The Dagda (King 80 yrs)",
+      "name": "Eochu Ollathair / The Dagda (Son of Elada; High King 80 yrs)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -487,13 +487,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: Eochu Ollathair / The Dagda (Son of Elada; High King 80 yrs).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_04_engus_mac_c_son_of_dagda_br_",
-      "name": "Óengus Mac Óc (Son of Dagda, Brú na Bóinne)",
+      "name": "Óengus Mac Óc (Son of Dagda & Boann of Brú na Bóinne)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -502,13 +502,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: Óengus Mac Óc (Son of Dagda & Boann of Brú na Bóinne).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_05_brigit_the_poetess_daughter_",
-      "name": "Brigit the Poetess (Daughter of Dagda)",
+      "name": "Brigit the Poetess (Daughter of Dagda; Patroness of Healing & Poetry)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -517,13 +517,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: Brigit the Poetess (Daughter of Dagda; Patroness of Healing & Poetry).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_06_cermait_milbel_son_of_dagda",
-      "name": "Cermait Milbel (Son of Dagda)",
+      "name": "Cermait Milbel (Son of Dagda; Father of the Final Three Kings)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -532,13 +532,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: Cermait Milbel (Son of Dagda; Father of the Final Three Kings).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_07_mac_cuill_sethor_queen_banba",
-      "name": "Mac Cuill / Sethor (+ Queen Banba)",
+      "name": "King Mac Cuill / Éthur (Son of Cermait; Wed Queen Banba)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -547,13 +547,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: King Mac Cuill / Éthur (Son of Cermait; Wed Queen Banba).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_08_mac_c_cht_tethor_queen_f_dla",
-      "name": "Mac Cécht / Tethor (+ Queen Fódla)",
+      "name": "King Mac Cécht / Téthur (Son of Cermait; Wed Queen Fódla)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -562,13 +562,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: King Mac Cécht / Téthur (Son of Cermait; Wed Queen Fódla).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_09_mac_gr_ine_cethor_queen_riu",
-      "name": "Mac Gréine / Cethor (+ Queen Ériu)",
+      "name": "King Mac Gréine / Cethur (Son of Cermait; Wed Queen Ériu)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -577,13 +577,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: King Mac Gréine / Cethur (Son of Cermait; Wed Queen Ériu).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_10_ogma_champion_inventor_of_og",
-      "name": "Ogma (Champion & Inventor of Ogham)",
+      "name": "Ogma (Son of Elada; Champion & Inventor of Ogham Script)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -592,13 +592,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: Ogma (Son of Elada; Champion & Inventor of Ogham Script).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_11_delbaeth_tuirenn_king_10_yrs",
-      "name": "Delbaeth / Tuirenn (King 10 yrs)",
+      "name": "King Delbaeth / Tuirenn mac Ogma (10 yrs)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -607,13 +607,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: King Delbaeth / Tuirenn mac Ogma (10 yrs).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_12_fiachna_mac_delbaeth_king_10",
-      "name": "Fiachna mac Delbaeth (King 10 yrs)",
+      "name": "King Fiachna mac Delbaeth (10 yrs; Father of Ériu, Banba & Fódla)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -622,13 +622,13 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: King Fiachna mac Delbaeth (10 yrs; Father of Ériu, Banba & Fódla).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "celr_tdd2_13_brian_iuchar_iucharba_three_",
-      "name": "Brian, Iuchar & Iucharba (Three Gods of Danu)",
+      "name": "Brian, Iuchar & Iucharba (Sons of Tuirenn / Brigit; Three Gods of Danu)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 10,
@@ -637,7 +637,22 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: Brian, Iuchar & Iucharba (Sons of Tuirenn / Brigit; Three Gods of Danu).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "celr_tdd2_15_ernmas_the_morr_gan",
+      "name": "Ernmas & The Morrígan (Matriarch of Tuatha Dé Goddesses)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 10,
+      "era": "Lebor Gabála Sect. VII (Macalister)",
+      "role": "Tuatha Dé Danann Sovereign / Deity",
+      "sources": [
+        "Lebor Gabála Érenn Part IV (pp. 121-197)"
+      ],
+      "notes": "House of Elada / Dagda / Ogma: Ernmas & The Morrígan (Matriarch of Tuatha Dé Goddesses).",
       "major": false,
       "biblicalConnected": true
     },
@@ -652,22 +667,7 @@
       "sources": [
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
-      "major": false,
-      "biblicalConnected": true
-    },
-    {
-      "id": "celr_tdd2_15_ernmas_the_morr_gan",
-      "name": "Ernmas & The Morrígan",
-      "altNames": [],
-      "tradition": "europe_norse",
-      "tier": 10,
-      "era": "Lebor Gabála Sect. VII (Macalister)",
-      "role": "Tuatha Dé Danann Sovereign / Deity",
-      "sources": [
-        "Lebor Gabála Érenn Part IV (pp. 121-197)"
-      ],
-      "notes": "Tuatha Dé Danann Sovereign / Deity (Lebor Gabála Sect. VII (Macalister)).",
+      "notes": "House of Elada / Dagda / Ogma: Ériu, Banba & Fódla (Sovereignty Goddesses of Ireland).",
       "major": false,
       "biblicalConnected": true
     }
@@ -677,235 +677,277 @@
       "from": "cel_fir_bolg_kings",
       "to": "celr_fb_01_1_sl_ine_slanga_mac_dela_fua",
       "type": "direct",
-      "label": "Fir Bolg King (Macalister Sect. VI)"
+      "label": "Fir Bolg anchor -> 1st King Sláine"
     },
     {
-      "from": "cel_fir_bolg_kings",
+      "from": "celr_fb_01_1_sl_ine_slanga_mac_dela_fua",
       "to": "celr_fb_02_2_rudraige_mac_dela_liber",
       "type": "direct",
-      "label": "Fir Bolg King (Macalister Sect. VI)"
+      "label": "Fir Bolg royal succession (Macalister Sect. VI)"
     },
     {
-      "from": "cel_fir_bolg_kings",
+      "from": "celr_fb_02_2_rudraige_mac_dela_liber",
       "to": "celr_fb_03_3_gann_mac_dela_etar",
       "type": "direct",
-      "label": "Fir Bolg King (Macalister Sect. VI)"
+      "label": "Fir Bolg royal succession (Macalister Sect. VI)"
     },
     {
-      "from": "cel_fir_bolg_kings",
+      "from": "celr_fb_03_3_gann_mac_dela_etar",
       "to": "celr_fb_04_4_genann_mac_dela_cnucha",
       "type": "direct",
-      "label": "Fir Bolg King (Macalister Sect. VI)"
+      "label": "Fir Bolg royal succession (Macalister Sect. VI)"
     },
     {
-      "from": "cel_fir_bolg_kings",
+      "from": "celr_fb_04_4_genann_mac_dela_cnucha",
       "to": "celr_fb_05_5_sengann_mac_dela_anust",
       "type": "direct",
-      "label": "Fir Bolg King (Macalister Sect. VI)"
+      "label": "Fir Bolg royal succession (Macalister Sect. VI)"
     },
     {
-      "from": "cel_fir_bolg_kings",
+      "from": "celr_fb_05_5_sengann_mac_dela_anust",
       "to": "celr_fb_06_6_fiacha_cendfindan_mac_star",
       "type": "direct",
-      "label": "Fir Bolg King (Macalister Sect. VI)"
+      "label": "Fir Bolg royal succession (Macalister Sect. VI)"
     },
     {
-      "from": "cel_fir_bolg_kings",
+      "from": "celr_fb_06_6_fiacha_cendfindan_mac_star",
       "to": "celr_fb_07_7_rindail_mac_genann",
       "type": "direct",
-      "label": "Fir Bolg King (Macalister Sect. VI)"
+      "label": "Fir Bolg royal succession (Macalister Sect. VI)"
     },
     {
-      "from": "cel_fir_bolg_kings",
+      "from": "celr_fb_07_7_rindail_mac_genann",
       "to": "celr_fb_08_8_fodbgenid_mac_sengann",
       "type": "direct",
-      "label": "Fir Bolg King (Macalister Sect. VI)"
+      "label": "Fir Bolg royal succession (Macalister Sect. VI)"
     },
     {
-      "from": "cel_fir_bolg_kings",
+      "from": "celr_fb_08_8_fodbgenid_mac_sengann",
       "to": "celr_fb_09_9_eochu_mac_eirc_queen_tailt",
       "type": "direct",
-      "label": "Fir Bolg King (Macalister Sect. VI)"
+      "label": "Fir Bolg royal succession (Macalister Sect. VI)"
     },
     {
-      "from": "cel_fir_bolg_kings",
+      "from": "celr_fb_09_9_eochu_mac_eirc_queen_tailt",
       "to": "celr_fb_10_oengus_mac_umor_d_n_aengusa",
       "type": "direct",
-      "label": "Fir Bolg King (Macalister Sect. VI)"
+      "label": "Fir Bolg royal succession (Macalister Sect. VI)"
+    },
+    {
+      "from": "celr_fb_04_4_genann_mac_dela_cnucha",
+      "to": "celr_fb_07_7_rindail_mac_genann",
+      "type": "direct",
+      "label": "Genann -> son Rindail"
+    },
+    {
+      "from": "celr_fb_05_5_sengann_mac_dela_anust",
+      "to": "celr_fb_08_8_fodbgenid_mac_sengann",
+      "type": "direct",
+      "label": "Sengann -> son Fodbgenid"
     },
     {
       "from": "cel_tdd_nuadu_dian_cecht",
       "to": "celr_tdd1_01_tat_mac_tabarn_common_ancest",
       "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "label": "Tuatha Dé anchor -> Tat mac Tabarn"
     },
     {
-      "from": "cel_tdd_nuadu_dian_cecht",
+      "from": "celr_tdd1_01_tat_mac_tabarn_common_ancest",
       "to": "celr_tdd1_02_nuadu_airgetl_m_king_27_yrs",
       "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "label": "Tat -> Etarlám -> Eochu -> King Nuadu Airgetlám"
     },
     {
-      "from": "cel_tdd_nuadu_dian_cecht",
+      "from": "celr_tdd1_01_tat_mac_tabarn_common_ancest",
       "to": "celr_tdd1_03_midir_of_br_l_ith",
       "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "label": "Tat -> Induí -> Midir of Brí Léith"
     },
     {
-      "from": "cel_tdd_nuadu_dian_cecht",
+      "from": "celr_tdd1_01_tat_mac_tabarn_common_ancest",
       "to": "celr_tdd1_04_n_t_war_god_fea_neman",
       "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "label": "Tat -> Allai -> Induí -> Nét"
     },
     {
-      "from": "cel_tdd_nuadu_dian_cecht",
+      "from": "celr_tdd1_04_n_t_war_god_fea_neman",
       "to": "celr_tdd1_05_goibniu_divine_smith",
       "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "label": "Nét -> Esarg -> Goibniu"
     },
     {
-      "from": "cel_tdd_nuadu_dian_cecht",
+      "from": "celr_tdd1_04_n_t_war_god_fea_neman",
       "to": "celr_tdd1_06_creidne_divine_brazier",
       "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "label": "Nét -> Esarg -> Creidne"
     },
     {
-      "from": "cel_tdd_nuadu_dian_cecht",
+      "from": "celr_tdd1_04_n_t_war_god_fea_neman",
       "to": "celr_tdd1_07_luichtne_divine_carpenter",
       "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "label": "Nét -> Esarg -> Luichtne"
     },
     {
-      "from": "cel_tdd_nuadu_dian_cecht",
+      "from": "celr_tdd1_04_n_t_war_god_fea_neman",
       "to": "celr_tdd1_08_dian_c_cht_divine_physician",
       "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "label": "Nét -> Esarg -> Dian Cécht"
     },
     {
-      "from": "cel_tdd_nuadu_dian_cecht",
+      "from": "celr_tdd1_01_tat_mac_tabarn_common_ancest",
+      "to": "celr_tdd1_14_manann_n_mac_lir_sea_god",
+      "type": "direct",
+      "label": "Tat -> Allai -> Lir -> Manannán mac Lir"
+    },
+    {
+      "from": "celr_tdd1_08_dian_c_cht_divine_physician",
       "to": "celr_tdd1_09_cian_scal_balb_father_of_lug",
       "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "label": "Dian Cécht -> son Cian"
     },
     {
-      "from": "cel_tdd_nuadu_dian_cecht",
+      "from": "celr_tdd1_08_dian_c_cht_divine_physician",
       "to": "celr_tdd1_10_miach_airmed_healers",
       "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
-    },
-    {
-      "from": "cel_tdd_nuadu_dian_cecht",
-      "to": "celr_tdd1_11_ethniu_daughter_of_balor_mot",
-      "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "label": "Dian Cécht -> children Miach & Airmed"
     },
     {
       "from": "cel_tdd_nuadu_dian_cecht",
       "to": "celr_tdd1_12_balor_of_the_evil_eye_fomori",
-      "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "type": "expansion",
+      "label": "Fomorian ally & adversary Balor of the Evil Eye"
     },
     {
-      "from": "cel_tdd_nuadu_dian_cecht",
+      "from": "celr_tdd1_12_balor_of_the_evil_eye_fomori",
+      "to": "celr_tdd1_11_ethniu_daughter_of_balor_mot",
+      "type": "direct",
+      "label": "Balor -> daughter Ethniu"
+    },
+    {
+      "from": "celr_tdd1_09_cian_scal_balb_father_of_lug",
       "to": "celr_tdd1_13_lugh_l_mfada_king_40_yrs_vic",
       "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "label": "Father Cian -> Lugh Lámfada"
     },
     {
-      "from": "cel_tdd_nuadu_dian_cecht",
-      "to": "celr_tdd1_14_manann_n_mac_lir_sea_god",
+      "from": "celr_tdd1_11_ethniu_daughter_of_balor_mot",
+      "to": "celr_tdd1_13_lugh_l_mfada_king_40_yrs_vic",
       "type": "direct",
-      "label": "Tuatha Dé Danann Lineage (Macalister)"
+      "label": "Mother Ethniu -> Lugh Lámfada"
+    },
+    {
+      "from": "celr_fb_09_9_eochu_mac_eirc_queen_tailt",
+      "to": "celr_tdd1_13_lugh_l_mfada_king_40_yrs_vic",
+      "type": "expansion",
+      "label": "Queen Tailtiu fosters young Lugh Lámfada"
     },
     {
       "from": "cel_tdd_dagda_ogma_eriu",
       "to": "celr_tdd2_01_elada_elathan_father_of_dagd",
       "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
+      "label": "Dagda/Ogma anchor -> Elada"
     },
     {
-      "from": "cel_tdd_dagda_ogma_eriu",
+      "from": "celr_tdd1_04_n_t_war_god_fea_neman",
+      "to": "celr_tdd2_01_elada_elathan_father_of_dagd",
+      "type": "direct",
+      "label": "Nét -> Delbaeth -> Elada"
+    },
+    {
+      "from": "celr_tdd2_01_elada_elathan_father_of_dagd",
       "to": "celr_tdd2_02_bres_mac_elathan_half_fomori",
       "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
+      "label": "Elada + Ériu -> Bres"
     },
     {
-      "from": "cel_tdd_dagda_ogma_eriu",
+      "from": "celr_tdd2_01_elada_elathan_father_of_dagd",
       "to": "celr_tdd2_03_eochu_ollathair_the_dagda_ki",
       "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
+      "label": "Elada -> Eochu Ollathair (The Dagda)"
     },
     {
-      "from": "cel_tdd_dagda_ogma_eriu",
-      "to": "celr_tdd2_04_engus_mac_c_son_of_dagda_br_",
-      "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
-    },
-    {
-      "from": "cel_tdd_dagda_ogma_eriu",
-      "to": "celr_tdd2_05_brigit_the_poetess_daughter_",
-      "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
-    },
-    {
-      "from": "cel_tdd_dagda_ogma_eriu",
-      "to": "celr_tdd2_06_cermait_milbel_son_of_dagda",
-      "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
-    },
-    {
-      "from": "cel_tdd_dagda_ogma_eriu",
-      "to": "celr_tdd2_07_mac_cuill_sethor_queen_banba",
-      "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
-    },
-    {
-      "from": "cel_tdd_dagda_ogma_eriu",
-      "to": "celr_tdd2_08_mac_c_cht_tethor_queen_f_dla",
-      "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
-    },
-    {
-      "from": "cel_tdd_dagda_ogma_eriu",
-      "to": "celr_tdd2_09_mac_gr_ine_cethor_queen_riu",
-      "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
-    },
-    {
-      "from": "cel_tdd_dagda_ogma_eriu",
+      "from": "celr_tdd2_01_elada_elathan_father_of_dagd",
       "to": "celr_tdd2_10_ogma_champion_inventor_of_og",
       "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
+      "label": "Elada -> Ogma"
     },
     {
-      "from": "cel_tdd_dagda_ogma_eriu",
+      "from": "celr_tdd2_03_eochu_ollathair_the_dagda_ki",
+      "to": "celr_tdd2_04_engus_mac_c_son_of_dagda_br_",
+      "type": "direct",
+      "label": "The Dagda -> Óengus Mac Óc"
+    },
+    {
+      "from": "celr_tdd2_03_eochu_ollathair_the_dagda_ki",
+      "to": "celr_tdd2_05_brigit_the_poetess_daughter_",
+      "type": "direct",
+      "label": "The Dagda -> daughter Brigit"
+    },
+    {
+      "from": "celr_tdd2_03_eochu_ollathair_the_dagda_ki",
+      "to": "celr_tdd2_06_cermait_milbel_son_of_dagda",
+      "type": "direct",
+      "label": "The Dagda -> Cermait Milbel"
+    },
+    {
+      "from": "celr_tdd2_06_cermait_milbel_son_of_dagda",
+      "to": "celr_tdd2_07_mac_cuill_sethor_queen_banba",
+      "type": "direct",
+      "label": "Cermait -> Mac Cuill"
+    },
+    {
+      "from": "celr_tdd2_06_cermait_milbel_son_of_dagda",
+      "to": "celr_tdd2_08_mac_c_cht_tethor_queen_f_dla",
+      "type": "direct",
+      "label": "Cermait -> Mac Cécht"
+    },
+    {
+      "from": "celr_tdd2_06_cermait_milbel_son_of_dagda",
+      "to": "celr_tdd2_09_mac_gr_ine_cethor_queen_riu",
+      "type": "direct",
+      "label": "Cermait -> Mac Gréine"
+    },
+    {
+      "from": "celr_tdd2_10_ogma_champion_inventor_of_og",
       "to": "celr_tdd2_11_delbaeth_tuirenn_king_10_yrs",
       "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
+      "label": "Ogma -> Delbaeth / Tuirenn"
     },
     {
-      "from": "cel_tdd_dagda_ogma_eriu",
+      "from": "celr_tdd2_11_delbaeth_tuirenn_king_10_yrs",
       "to": "celr_tdd2_12_fiachna_mac_delbaeth_king_10",
       "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
+      "label": "Delbaeth -> Fiachna"
     },
     {
-      "from": "cel_tdd_dagda_ogma_eriu",
+      "from": "celr_tdd2_11_delbaeth_tuirenn_king_10_yrs",
       "to": "celr_tdd2_13_brian_iuchar_iucharba_three_",
       "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
+      "label": "Tuirenn -> Brian, Iuchar & Iucharba"
     },
     {
-      "from": "cel_tdd_dagda_ogma_eriu",
-      "to": "celr_tdd2_14_riu_banba_f_dla_sovereignty_",
-      "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
-    },
-    {
-      "from": "cel_tdd_dagda_ogma_eriu",
+      "from": "celr_tdd1_04_n_t_war_god_fea_neman",
       "to": "celr_tdd2_15_ernmas_the_morr_gan",
       "type": "direct",
-      "label": "House of Elada / Dagda / Ogma (Macalister)"
+      "label": "Nét -> Ernmas & The Morrígan"
+    },
+    {
+      "from": "celr_tdd2_12_fiachna_mac_delbaeth_king_10",
+      "to": "celr_tdd2_14_riu_banba_f_dla_sovereignty_",
+      "type": "direct",
+      "label": "Fiachna -> Ériu, Banba & Fódla"
+    },
+    {
+      "from": "celr_tdd2_15_ernmas_the_morr_gan",
+      "to": "celr_tdd2_14_riu_banba_f_dla_sovereignty_",
+      "type": "direct",
+      "label": "Mother Ernmas -> Ériu, Banba & Fódla"
+    },
+    {
+      "from": "celr_tdd2_14_riu_banba_f_dla_sovereignty_",
+      "to": "eur_milesians",
+      "type": "expansion",
+      "label": "Sovereignty of Ireland passed to the Milesians (Amairgin's pact with Ériu)"
     },
     {
       "from": "bib_magog",

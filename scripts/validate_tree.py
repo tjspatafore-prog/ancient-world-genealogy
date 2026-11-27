@@ -166,6 +166,12 @@ def main():
         ("bib_togarmah", "mod_geo_giorgi_2011", {"direct", "expansion", "syncretic"}, "Togarmah -> Kartlos -> Parnavaz I -> Mirian III -> Vakhtang Gorgasali -> Bagrationis -> Living Prince Giorgi (2011)"),
         ("tab_adnan_21gen_quraysh", "mod_abdullah2_hussein_iman", {"direct", "expansion"}, "Adnan -> 21-Gen Quraysh -> Prophet Muhammad -> Fatimah -> Hasan -> 24 Qatadid Sharifs -> Living King Abdullah II"),
         ("ar4_abd_shams", "mon_isl_abdarrahman1", {"direct", "expansion"}, "Abd Shams -> Umayyah -> Marwan I -> Abd al-Malik -> Hisham -> Abd al-Rahman I of Cordoba"),
+        ("ved_ikshvaku", "indr_ay3_28_brihatkshaya_gen_95", {"direct", "expansion"}, "Ikshvaku -> 95-Gen Solar Ayodhya Spine -> Rama -> Kusha -> Brihadbala -> Brihatkshaya"),
+        ("chn_yu_xia", "chnr_zho_36_34_king_nan_last_zhou_king", {"direct", "expansion", "cognate"}, "Yu the Great -> 17 Xia Kings -> 30 Shang Kings -> 34 Zhou Kings to King Nan"),
+        ("mng_borte_chino", "mug_akbar_aurangzeb", {"direct", "expansion"}, "Börte Čino -> Alan Qo'a -> Bodončar -> Tumbinai -> Timur (Barlas) -> Babur -> Akbar"),
+        ("bib_magog", "celr_tdd1_13_lugh_l_mfada_king_40_yrs_vic", {"direct", "expansion", "syncretic"}, "Magog -> Nemed -> Tat -> Dian Cécht -> Cian + Ethniu (Balor) -> Lugh Lámfada"),
+        ("eur_ynglings_skjoldungs", "mon_eng_william1", {"direct", "expansion"}, "Yngvi-Freyr -> Harald Fairhair -> Rollo of Normandy -> Robert I -> William the Conqueror"),
+        ("rus_rurik_dynasty", "mon_fra_henry1", {"direct", "expansion"}, "Rurik -> Igor & Olga -> Vladimir -> Yaroslav the Wise -> Anne of Kiev + Henry I of France"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

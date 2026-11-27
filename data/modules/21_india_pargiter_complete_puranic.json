@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "ind_ayodhya_early_1_30",
-      "name": "Ayodhya Solar Spine (Gens 2–30): Ikshvaku → Vikukshi → Kakutstha → Yuvanashva I → Shravasta → Kuvalashva → Yuvanashva II → Mandhatri → Purukutsa → Trasadasyu → Trayyaruna",
+      "name": "Ayodhya Solar Spine Anchor (Gens 2–30: Ikshvaku to Trayyaruna)",
       "altNames": [
         "Vikukshi",
         "Kakutstha",
@@ -15,17 +15,17 @@
       "tradition": "vedic",
       "tier": 6,
       "era": "Satya Yuga (Pargiter Master Table Gens 2-30, p. 145)",
-      "role": "First 30 Generations of the Solar Dynasty of Ayodhya",
+      "role": "First 30 Generations of Solar Ayodhya Anchor",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 90-92, 145"
       ],
-      "notes": "Complete early Aikshvaku kings: Shravasta founded Shravasti; Emperor Mandhatri (Gen 21) conquered the Pauravas & Druhyus; son Purukutsa married Narmada; grandson Trasadasyu is celebrated in the Rigveda!",
+      "notes": "Anchor for the first 30 generations of Aikshvaku kings (Mandhatri, Purukutsa, Trasadasyu), unrolled father-to-son below.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "ind_ayodhya_mid_31_64",
-      "name": "Ayodhya Solar Spine (Gens 31–64): Trishanku → Harishchandra → Rohita → Bahu → Sagara → Asamanjas → Amshumant → Bhagiratha → Ambarisha → Rituparna → Kalmashapada → Dilipa II → Raghu → Aja → Dasharatha",
+      "name": "Ayodhya Solar Spine Anchor (Gens 31–64: Trishanku to Dasharatha)",
       "altNames": [
         "Trishanku",
         "Harishchandra",
@@ -37,17 +37,17 @@
       "tradition": "vedic",
       "tier": 8,
       "era": "Treta Yuga (Pargiter Master Table Gens 31-64, pp. 145, 147)",
-      "role": "Golden Era of the Solar Dynasty Leading to Lord Rama",
+      "role": "Golden Era of Solar Dynasty Leading to Lord Rama Anchor",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 92-94, 145-147"
       ],
-      "notes": "Satyavrata-Trishanku & truthful King Harishchandra (Gen 32); Emperor Sagara (Gen 41, destroyed the Haihaya raiders!); Bhagiratha (Gen 45, brought the Ganges to earth); Rituparna (Gen 51, host of Nala!); Dilipa II -> Raghu -> Aja -> Dasharatha (Gen 64).",
+      "notes": "Anchor for Gens 31-64 (Harishchandra, Sagara, Bhagiratha, Raghu, Dasharatha), chained individually below.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "ind_ayodhya_late_66_95",
-      "name": "Ayodhya Post-Rama Spine (Gens 66–95): Kusha → Atithi → Nishadha → Nala → Hiranyanabha (Yoga Master!) → Pushya → Agnivarna → Maru → Brihadbala (Slain at Kurukshetra) → Brihatkshaya",
+      "name": "Ayodhya Post-Rama Spine Anchor (Gens 66–95: Kusha to Brihatkshaya)",
       "altNames": [
         "Atithi",
         "Hiranyanabha",
@@ -57,17 +57,17 @@
       "tradition": "vedic",
       "tier": 11,
       "era": "Dvapara Yuga (Pargiter Master Table Gens 66-95, p. 149)",
-      "role": "30 Generations from Rama's Son Kusha to the Mahabharata War",
+      "role": "30 Generations from Rama's Son Kusha to Mahabharata Anchor",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 94-95, 149"
       ],
-      "notes": "Complete post-Rama Solar kings down to Gen 94 King Brihadbala of Kosala (slain by Arjuna's son Abhimanyu at the Bharata Battle, c. 950 BCE!) and continuing via Divakara to the Shakya clan of Gautama Buddha!",
+      "notes": "Anchor for post-Rama Solar kings down to Brihadbala (Kurukshetra) & Brihatkshaya, chained below.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "ind_videha_janaka_complete",
-      "name": "Videha / Mithila Solar Dynasty (All 54 Kings): Nimi → Mithi Janaka → Udavasu → Hrasvaroman → Siradhvaja Janaka (Father of Sita!) & Kushadhvaja → Bahulashva → Kritakshana → Janaka-Ugrasena",
+      "name": "Videha / Mithila Solar Dynasty (All 54 Kings: Nimi → Mithi Janaka → Siradhvaja → Janaka-Ugrasena)",
       "altNames": [
         "Mithi Janaka",
         "Siradhvaja Janaka (Father of Sita)",
@@ -81,13 +81,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 95-96, 145-149"
       ],
-      "notes": "Founded by Ikshvaku's son Nimi -> Mithi Janaka (founder of Mithila). Siradhvaja Janaka (Gen 64, contemporary of Dasharatha) discovered Goddess Sita; post-battle Janaka-Ugrasena & Janaka-Dharmadhvaja appear in the Brihadaranyaka Upanishad with sage Yajnavalkya!",
+      "notes": "Founded by Ikshvaku's son Nimi -> Mithi Janaka -> Siradhvaja Janaka (father of Goddess Sita).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "ind_vaisali_sharyata_nabhaga",
-      "name": "Manu's Other Solar Kingdoms: Vaisali (Nabhanedishtha → Bhalandana → Marutta → Trinabindu → Vishala → Pramati), Sharyatas (Anarta/Dvaraka → Raivata Kakudmin) & Nabhagas (Ambarisha → Rathitara)",
+      "name": "Manu's Other Solar Kingdoms: Vaisali (Nabhanedishtha → Marutta → Trinabindu), Sharyatas & Nabhagas",
       "altNames": [
         "Nabhanedishtha",
         "Marutta of Vaisali",
@@ -102,13 +102,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 97-98, 145-147"
       ],
-      "notes": "Nabhanedishtha's line produced Emperor Marutta (Gen 40), Trinabindu (whose daughter Ilavila married Rishi Pulastya -> Vishravas -> Kubera & Ravana!), and Vishala (founder of Vaisali). Sharyati's line ruled Anarta (Gujarat), whose princess Revati married Balarama!",
+      "notes": "Nabhanedishtha's line produced Marutta & Trinabindu; Sharyati's line produced Raivata Kakudmin.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "ind_kanyakubja_vishvamitra",
-      "name": "Kanyakubja Dynasty (Amavasu Line): Amavasu → Bhima → Jahnu → Kusha → Kushika → King Gadhi → Vishvamitra (Kshatriya-Turned-Brahmarshi!) → Ashtaka → Lauhi",
+      "name": "Kanyakubja Dynasty Anchor (Amavasu → Jahnu → Gadhi → Vishvamitra)",
       "altNames": [
         "Amavasu",
         "King Jahnu",
@@ -118,17 +118,17 @@
       "tradition": "vedic",
       "tier": 8,
       "era": "Gens 4-35 (Pargiter Ch. IX pp. 99-101, 144, 146)",
-      "role": "Aila Kingdom of Kanauj & Origin of the Gayatri Mantra Rishi Vishvamitra",
+      "role": "Aila Kingdom of Kanauj & Origin of Vishvamitra Anchor",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 99-101, 234-237"
       ],
-      "notes": "Pururavas's second son Amavasu founded Kanyakubja -> Jahnu (adopted River Ganga as 'Jahnavi') -> Gadhi (whose daughter Satyavati married Bhargava Richika -> Jamadagni -> Parashurama!) -> Vishvaratha-Vishvamitra (composer of Rigveda Mandala III & Gayatri Mantra; adopted Shunahshepa-Devarata!).",
+      "notes": "Pururavas's son Amavasu -> Jahnu -> Gadhi -> Brahmarshi Vishvamitra (Rigveda Mandala III).",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "ind_kasi_dhanvantari_divodasa",
-      "name": "Kasi (Varanasi) Dynasty: Kshatravriddha → Sunahotra → Kasha → Dhanvantari (Father of Ayurveda!) → Divodasa I & II → Pratardana → Alarka → Subahu",
+      "name": "Kasi (Varanasi) Dynasty Anchor (Kshatravriddha → Dhanvantari → Divodasa II → Alarka)",
       "altNames": [
         "Kshatravriddha",
         "Dhanvantari",
@@ -139,17 +139,17 @@
       "tradition": "vedic",
       "tier": 8,
       "era": "Gens 5-94 (Pargiter Ch. IX p. 101; Ch. XIII pp. 153-155)",
-      "role": "Ancient Sacred Kingdom of Varanasi & Origin of Ayurveda",
+      "role": "Ancient Sacred Kingdom of Varanasi & Origin of Ayurveda Anchor",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 101, 145-155"
       ],
-      "notes": "Ayu's son Kshatravriddha founded Kasi (Varanasi); King Dhanvantari is revered as the founder of Ayurvedic medicine; Divodasa II & Pratardana (Gen 41) broke Haihaya dominance alongside Sagara of Ayodhya!",
+      "notes": "Kshatravriddha -> Dhanvantari -> Divodasa II -> Pratardana -> Alarka.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "ind_haihayas_kartavirya",
-      "name": "Haihaya Dynasty (Yadu → Sahasrajit): Haihaya → Mahishmant (Mahishmati) → Bhadrashrenya → Kritavirya → Emperor Kartavirya Arjuna → Jayadhvaja → Talajanghas (5 Clans)",
+      "name": "Haihaya Dynasty Anchor (Yadu → Sahasrajit → Kartavirya Arjuna → Talajanghas)",
       "altNames": [
         "Sahasrajit",
         "Kartavirya Arjuna",
@@ -159,17 +159,17 @@
       "tradition": "vedic",
       "tier": 8,
       "era": "Gens 7-41 (Pargiter Ch. IX p. 102, 144, 146)",
-      "role": "Central Indian Narmada Empire & Nemesis of Parashurama & Sagara",
+      "role": "Central Indian Narmada Empire Anchor",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 102, 144-146, 153-156"
       ],
-      "notes": "Kartavirya Arjuna (Gen 31, thousand-armed emperor of Mahishmati) captured Ravana, raided Kasi and Ayodhya, and clashed fatally with Bhargava Parashurama; his descendants the 5 Talajangha clans (Vitihotras, Bhojas, Avantis, Sharyatas, Tundikeras) were finally crushed by Sagara (Gen 41).",
+      "notes": "Kartavirya Arjuna (Gen 31) of Mahishmati; crushed by Parashurama & Sagara.",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "ind_yadava_kroshtu_satvata",
-      "name": "Yadava Main Line (Kroshtu → Satvata): Shashabindu → Jyamagha → Vidarbha (Cedi & Kratha-Bhima) → Madhu → Satvata → Andhaka (Kukura → Ugrasena → Kamsa) & Vrishni (Shura → Vasudeva → Krishna → Samba & Vajra)",
+      "name": "Yadava Main Line Anchor (Kroshtu → Shashabindu → Vidarbha → Satvata → Vrishni)",
       "altNames": [
         "Kroshtu",
         "Shashabindu",
@@ -181,17 +181,17 @@
       "tradition": "vedic",
       "tier": 10,
       "era": "Gens 7-95 (Pargiter Ch. IX pp. 102-107, 144-148)",
-      "role": "Complete Yadava Pedigree from Yadu to Krishna, Kamsa & Surviving Heir Vajra",
+      "role": "Complete Yadava Pedigree Anchor (Yadu to Krishna & Vajra)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 102-107, 144-148, 284"
       ],
-      "notes": "Unites ALL Yadava branches: Shashabindu (Gen 20), Jyamagha -> Vidarbha (founder of Vidarbha & Cedi), Madhu (eponym of Mathura/Madhava), Satvata -> Andhaka (Ugrasena -> King Kamsa; Kritavarman) & Vrishni (Devamidhusha -> Shura -> Vasudeva & Kunti -> Krishna, Balarama, Satyaki; grandson Vajra installed at Indraprastha!).",
+      "notes": "Kroshtu -> Shashabindu -> Jyamagha -> Vidarbha -> Satvata -> Andhaka & Vrishni.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "ind_druhyu_gandhara_turvasu",
-      "name": "Druhyus (Gandhara → Pracetas — Northward Migration Beyond India!) & Turvasus (Marutta → Adopted Dushyanta → Pandya, Kerala & Chola)",
+      "name": "Druhyus (Gandhara → Pracetas) & Turvasus (Pandya, Kerala & Chola Anchor)",
       "altNames": [
         "Gandhara",
         "Pracetas",
@@ -200,17 +200,17 @@
       "tradition": "vedic",
       "tier": 8,
       "era": "Gens 7-44 (Pargiter Ch. IX p. 108, 144, 146)",
-      "role": "Northwest (Gandhara/Central Asia) & South Indian (Tamil) Aila Bridges",
+      "role": "Northwest (Gandhara/Central Asia) & South Indian Aila Bridges",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 108, 144, 146"
       ],
-      "notes": "Druhyu's descendant Gandhara gave his name to Gandhara (NW Pakistan/Afghanistan); Pracetas's 100 sons migrated north beyond the Himalayas into mleccha lands! Turvasu's line merged into the Pauravas via Marutta's adoption of Dushyanta, with southern Puranic tradition deriving Pandya, Kerala, and Chola from it.",
+      "notes": "Druhyu -> Gandhara -> Pracetas; Turvasu -> Marutta -> Pandya, Kerala, and Chola.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "ind_anava_shibi_anga_karna",
-      "name": "Anavas (Anu's Two Empires): NW Panjab (Ushinara → King Shibi → Kekaya, Madra, Sauvira) & East Bihar (Titikshu → Bali → Anga, Vanga, Kalinga, Pundra, Suhma → Lomapada → King Karna!)",
+      "name": "Anavas Anchor (Ushinara → Shibi & Titikshu → Bali → Anga/Vanga/Kalinga → Karna)",
       "altNames": [
         "Ushinara",
         "King Shibi",
@@ -220,17 +220,17 @@
       "tradition": "vedic",
       "tier": 9,
       "era": "Gens 7-95 (Pargiter Ch. IX pp. 108-109, 145-149)",
-      "role": "Progenitors of Punjab (Shibi/Kekaya) & Eastern India (Bengal/Odisha/Anga)",
+      "role": "Progenitors of Panjab (Shibi) & Eastern India (Bengal/Odisha/Anga) Anchor",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 108-109, 145-149"
       ],
-      "notes": "Mahamanas split the Anavas: Ushinara -> famously compassionate King Shibi (and Kekaya/Madra, mothers of Bharata & Nakula/Sahadeva!); Titikshu -> King Bali -> 5 sons founding Anga, Vanga (Bengal!), Kalinga (Odisha!), Pundra & Suhma -> Lomapada (friend of Dasharatha) -> Mahabharata hero Karna -> Vrishasena!",
+      "notes": "Ushinara -> King Shibi; Titikshu -> King Bali -> Anga, Vanga, Kalinga, Pundra & Suhma -> Karna.",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "ind_panchala_sudas_drupada",
-      "name": "North & South Panchalas (Ajamidha → Nila & Brihadvasu): Mudgala → Divodasa (Atithigva) → King Sudas (Battle of the Ten Kings!) → Drupada → Draupadi & Dhrishtadyumna (+ Drona & Ashvatthama)",
+      "name": "North & South Panchalas Anchor (Mudgala → Sudas → Drupada & Draupadi)",
       "altNames": [
         "Mudgala",
         "Rigvedic King Sudas",
@@ -241,18 +241,18 @@
       "tradition": "vedic",
       "tier": 10,
       "era": "Gens 53-95 (Pargiter Ch. IX pp. 115-117, 146, 148)",
-      "role": "Rigvedic Battle of Ten Kings Hero Sudas & Panchala Allies of the Pandavas",
+      "role": "Rigvedic Battle of Ten Kings Hero Sudas & Panchala Anchor",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 115-117, 146-148",
         "Rigveda VII.18"
       ],
-      "notes": "Ajamidha's son Nila founded North Panchala (Ahicchattra): Bhrmyashva's 5 sons ('Panchalas') -> Mudgala -> Vadhryashva -> Divodasa (sister Ahalya!) -> King Sudas (victor of the Rigvedic Dasharajna / Battle of Ten Kings against Samvarana & the Ten Tribes!) -> Drupada (father of Draupadi & Dhrishtadyumna, rival of Guru Drona!).",
+      "notes": "Ajamidha -> Nila -> Mudgala -> Divodasa -> Sudas -> Drupada -> Draupadi & Dhrishtadyumna.",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "ind_cedi_magadha_jarasandha",
-      "name": "Cedi & Magadha (Kuru → Sudhanvan → Vasu Uparichara): Brihadratha → Jarasandha → Sahadeva → Somadhi (Magadha) & Damaghosha → Shishupala (Cedi)",
+      "name": "Cedi & Magadha Barhadratha Anchor (Vasu Uparichara → Brihadratha → Jarasandha)",
       "altNames": [
         "Vasu Uparichara",
         "Brihadratha",
@@ -262,17 +262,17 @@
       "tradition": "vedic",
       "tier": 11,
       "era": "Gens 73-95 (Pargiter Ch. IX pp. 118-119, 149)",
-      "role": "First Historical Dynasty of Magadha (Barhadrathas) & Cedi",
+      "role": "First Historical Dynasty of Magadha & Cedi Anchor",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 118-119, 149"
       ],
-      "notes": "Kuru's son Sudhanvan's descendant Emperor Vasu Caidyoparichara conquered Cedi & Magadha; his eldest son Brihadratha founded the Barhadratha Dynasty of Magadha -> Emperor Jarasandha (slain by Bhima!) -> Sahadeva -> Somadhi (start of the 22 post-battle Barhadratha kings!).",
+      "notes": "Vasu Uparichara -> Brihadratha -> Emperor Jarasandha & Damaghosha -> Shishupala (Cedi).",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "ind_kuru_post_battle_vatsa",
-      "name": "Post-Mahabharata Kurus (Gens 96–105+): Parikshit II → Janamejaya III → Shatanika → Adhisimakrishna (c. 850 BCE) → Nicakshu (Moved Capital to Kaushambi!) → King Udayana of Vatsa",
+      "name": "Post-Mahabharata Kurus Anchor (Janamejaya III → Adhisimakrishna → Nicakshu → Udayana)",
       "altNames": [
         "Adhisimakrishna",
         "Nicakshu (Kaushambi)",
@@ -281,17 +281,17 @@
       "tradition": "vedic",
       "tier": 12,
       "era": "c. 950-500 BCE (Pargiter Ch. XXIV p. 285; Ch. XXVII p. 330)",
-      "role": "Continuation of the Pandava/Kuru Royal Line After Hastinapura Flood",
+      "role": "Continuation of Pandava/Kuru Royal Line After Hastinapura Flood",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 285, 330"
       ],
-      "notes": "When the Ganges washed away Hastinapura c. 820 BCE, Arjuna's 6th-generation descendant Nicakshu moved the Kuru capital to Kaushambi in Vatsa — culminating in famed King Udayana of Vatsa, contemporary of Gautama Buddha!",
+      "notes": "Nicakshu moved Kuru capital to Kaushambi in Vatsa down to King Udayana.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "ind_rishis_bhargava_angirasa",
-      "name": "Bhargavas (Bhrigu → Shukra, Cyavana, Urva → Richika → Jamadagni → Parashurama, Valmiki) & Angirasas (Atharvan → Brihaspati → Bharadvaja → Drona → Ashvatthama; Dirghatamas → Gautama → Kripa; Kanvas)",
+      "name": "Great Rishi Clans Anchor: Bhargavas & Angirasas / Kanvas",
       "altNames": [
         "Cyavana",
         "Jamadagni & Parashurama",
@@ -302,17 +302,17 @@
       "tradition": "vedic",
       "tier": 8,
       "era": "Gens 2-94 (Pargiter Ch. XVII & XIX, pp. 191-202, 218-227)",
-      "role": "Complete Genealogies of the Bhargava, Angirasa & Kanva Seers",
+      "role": "Complete Genealogies of Bhargava, Angirasa & Kanva Seers Anchor",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-202, 218-227"
       ],
-      "notes": "Synchronizes every great Vedic & Epic sage with the 95-generation royal table: Cyavana (Gen 2), Shukra (Gen 5), Richika/Jamadagni/Parashurama (Gens 31-33), Atharvan/Brihaspati/Dirghatamas/Bharadvaja (Gens 38-41), Valmiki (Gen 64, author of Ramayana!), and Bharadvaja -> Guru Drona -> Ashvatthama (Gens 92-94).",
+      "notes": "Synchronizes Bhrigu/Cyavana/Jamadagni/Parashurama/Valmiki & Atharvan/Brihaspati/Bharadvaja/Drona across the 95-gen master table.",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "ind_rishis_vasishtha_agastya",
-      "name": "Vasishthas (Vasishtha → Shakti → Parashara → Vyasa → Shuka), Atreyas (Datta & Durvasas), Kashyapas (Kanva, Rishyashringa) & Agastya (+ Lopamudra)",
+      "name": "Great Rishi Clans Anchor: Vasishthas (Vyasa), Atreyas, Kashyapas & Agastyas",
       "altNames": [
         "Shakti -> Parashara -> Vyasa",
         "Dattatreya & Durvasas",
@@ -322,17 +322,17 @@
       "tradition": "vedic",
       "tier": 9,
       "era": "Gens 1-94 (Pargiter Ch. XVIII, XX, XXII, pp. 203-242)",
-      "role": "Complete Pedigrees of Vyasa, Durvasas, Rishyashringa & Agastya",
+      "role": "Complete Pedigrees of Vyasa, Durvasas, Rishyashringa & Agastya Anchor",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 203-242"
       ],
-      "notes": "Traces the genuine Vasishtha pedigree (Gen 68 Vasishtha with Sudas -> Shakti -> Parashara -> Krishna Dvaipayana Vyasa [Gen 92, compiler of Vedas & Mahabharata!] -> Shuka), Atreya sages Datta & Durvasas (Gen 31), Kashyapa foster-father Kanva (of Shakuntala) & Rishyashringa, and Agastya (+ Lopamudra of Vidarbha, Gen 42).",
+      "notes": "Synchronizes Vasishtha -> Shakti -> Parashara -> Vyasa -> Shuka alongside Datta/Durvasas, Kanva, Rishyashringa & Agastya.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "ind_magadha_bimbisara_nanda",
-      "name": "Historical Magadha Empires: Barhadrathas (22 Kings) → Pradyotas (5 Kings) → Haryanka/Shishunaga (King Bimbisara & Ajatashatru — Patrons of Buddha!) → 9 Nandas (Mahapadma Nanda)",
+      "name": "Historical Magadha Anchor (22 Barhadrathas → Pradyotas → Shishunaga/Bimbisara → 9 Nandas)",
       "altNames": [
         "King Bimbisara",
         "Ajatashatru",
@@ -342,17 +342,17 @@
       "tradition": "vedic",
       "tier": 16,
       "era": "c. 950-322 BCE (Pargiter pp. 179-182, 286-287)",
-      "role": "Bridge from Mahabharata Magadha to Buddha, Alexander & Chandragupta Maurya",
+      "role": "Bridge from Mahabharata Magadha to Buddha & Chandragupta Maurya",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 179-182, 286-287"
       ],
-      "notes": "Pargiter's critical chronology: 22 Barhadrathas (c. 950-619 BCE) -> 5 Pradyotas -> Shishunaga/Haryanka (Bimbisara & Ajatashatru, contemporaries of Buddha c. 487 BCE!) -> Mahapadma Nanda & 8 sons (exterminated all 10 ancient Kshatriya kingdoms c. 382 BCE, creating the vast empire seized by Chandragupta Maurya in 322 BCE!).",
+      "notes": "22 Barhadrathas -> Pradyotas -> Bimbisara & Ajatashatru -> 9 Nandas -> Chandragupta Maurya (322 BCE).",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "ind_gupta_golden_age",
-      "name": "Gupta Empire (Golden Age of India): Sri Gupta → Chandragupta I (+ Kumaradevi Licchavi) → Samudragupta → Chandragupta II Vikramaditya → Kumaragupta I → Skandagupta",
+      "name": "Gupta Empire Anchor (Sri Gupta → Chandragupta I → Samudragupta → Vikramaditya → Skandagupta)",
       "altNames": [
         "Chandragupta I",
         "Samudragupta",
@@ -361,18 +361,18 @@
       "tradition": "vedic",
       "tier": 19,
       "era": "c. 240-550 CE (Allahabad Pillar Inscription; Puranas)",
-      "role": "Classical Golden Age of Sanskrit, Astronomy (Aryabhata) & Nalanda",
+      "role": "Classical Golden Age of India Anchor",
       "sources": [
         "Allahabad Pillar Inscription",
         "Vishnu Purana IV.24"
       ],
-      "notes": "Chandragupta I married Licchavi princess Kumaradevi (of ancient Vaisali!), launching India's Golden Age under Samudragupta & Chandragupta II Vikramaditya (court of Kalidasa!).",
+      "notes": "Gupta emperors unrolled person-by-person in Wave 5.",
       "major": true,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay1_01_vikukshi_shashada_gen_3",
-      "name": "Vikukshi-Shashada (Gen 3)",
+      "name": "Vikukshi-Shashada (Gen 3, Son of Ikshvaku)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -381,13 +381,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Vikukshi-Shashada (Gen 3, Son of Ikshvaku).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay1_02_kakutstha_gen_4",
-      "name": "Kakutstha (Gen 4)",
+      "name": "Kakutstha / Puranjaya (Gen 4)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -396,7 +396,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Kakutstha / Puranjaya (Gen 4).",
       "major": false,
       "biblicalConnected": true
     },
@@ -411,13 +411,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Anenas (Gen 5).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay1_04_prithu_gen_6",
-      "name": "Prithu (Gen 6)",
+      "name": "Prithu of Ayodhya (Gen 6)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -426,7 +426,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Prithu of Ayodhya (Gen 6).",
       "major": false,
       "biblicalConnected": true
     },
@@ -441,13 +441,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Vishtarashva (Gen 7).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay1_06_ardra_gen_8",
-      "name": "Ardra (Gen 8)",
+      "name": "Ardra / Candra (Gen 8)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -456,7 +456,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Ardra / Candra (Gen 8).",
       "major": false,
       "biblicalConnected": true
     },
@@ -471,7 +471,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Yuvanashva I (Gen 9).",
       "major": false,
       "biblicalConnected": true
     },
@@ -486,7 +486,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Shravasta (Gen 10, Founder of Shravasti).",
       "major": false,
       "biblicalConnected": true
     },
@@ -501,13 +501,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Brihadashva (Gen 11).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay1_10_kuvalashva_gen_12",
-      "name": "Kuvalashva (Gen 12)",
+      "name": "Kuvalashva / Dhundhumara (Gen 12)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -516,7 +516,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Kuvalashva / Dhundhumara (Gen 12).",
       "major": false,
       "biblicalConnected": true
     },
@@ -531,13 +531,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Dridhashva (Gen 13).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay1_12_pramoda_gen_14",
-      "name": "Pramoda (Gen 14)",
+      "name": "Pramoda / Haryashva (Gen 14)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -546,7 +546,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Pramoda / Haryashva (Gen 14).",
       "major": false,
       "biblicalConnected": true
     },
@@ -561,7 +561,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Haryashva I (Gen 15).",
       "major": false,
       "biblicalConnected": true
     },
@@ -576,7 +576,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Nikumbha (Gen 16).",
       "major": false,
       "biblicalConnected": true
     },
@@ -591,13 +591,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Samhatashva (Gen 17).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay1_16_akrishashva_gen_18",
-      "name": "Akrishashva (Gen 18)",
+      "name": "Akrishashva / Krishashva (Gen 18)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -606,7 +606,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Akrishashva / Krishashva (Gen 18).",
       "major": false,
       "biblicalConnected": true
     },
@@ -621,7 +621,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Prasenajit (Gen 19).",
       "major": false,
       "biblicalConnected": true
     },
@@ -636,13 +636,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Yuvanashva II (Gen 20).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay1_19_emperor_mandhatri_gen_21",
-      "name": "Emperor Mandhatri (Gen 21)",
+      "name": "Emperor Mandhatri (Gen 21, Son of Yuvanashva II)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -651,13 +651,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Emperor Mandhatri (Gen 21, Son of Yuvanashva II).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay1_20_purukutsa_gen_22",
-      "name": "Purukutsa (Gen 22)",
+      "name": "Purukutsa (Gen 22, Son of Mandhatri)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -666,7 +666,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Purukutsa (Gen 22, Son of Mandhatri).",
       "major": false,
       "biblicalConnected": true
     },
@@ -681,7 +681,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Trasadasyu (Gen 23, Rigvedic King).",
       "major": false,
       "biblicalConnected": true
     },
@@ -696,7 +696,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Sambhuta (Gen 24).",
       "major": false,
       "biblicalConnected": true
     },
@@ -711,13 +711,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Anaranya (Gen 25).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay1_24_trasashva_gen_26",
-      "name": "Trasashva (Gen 26)",
+      "name": "Trasashva / Prishadashva (Gen 26)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -726,7 +726,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Trasashva / Prishadashva (Gen 26).",
       "major": false,
       "biblicalConnected": true
     },
@@ -741,13 +741,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Haryashva II (Gen 27).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay1_26_vasumata_gen_28",
-      "name": "Vasumata (Gen 28)",
+      "name": "Vasumata / Vasumanas (Gen 28)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 6,
@@ -756,7 +756,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Vasumata / Vasumanas (Gen 28).",
       "major": false,
       "biblicalConnected": true
     },
@@ -771,7 +771,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Tridhanvan (Gen 29).",
       "major": false,
       "biblicalConnected": true
     },
@@ -786,7 +786,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 145"
       ],
-      "notes": "Ayodhya Solar King (Satya Yuga) (Pargiter Master Table Gens 3-30).",
+      "notes": "Solar Aikshvaku succession: Trayyaruna (Gen 30).",
       "major": false,
       "biblicalConnected": true
     },
@@ -801,13 +801,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Satyavrata-Trishanku (Gen 31).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_02_king_harishchandra_gen_32",
-      "name": "King Harishchandra (Gen 32)",
+      "name": "King Harishchandra (Gen 32, Son of Trishanku)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -816,13 +816,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: King Harishchandra (Gen 32, Son of Trishanku).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_03_rohita_gen_33",
-      "name": "Rohita (Gen 33)",
+      "name": "Rohita / Rohitashva (Gen 33)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -831,13 +831,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Rohita / Rohitashva (Gen 33).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_04_harita_cancu_gen_34",
-      "name": "Harita & Cancu (Gen 34)",
+      "name": "Harita & Cancu (Gens 34-35)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -846,13 +846,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Harita & Cancu (Gens 34-35).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_05_vijaya_gen_35",
-      "name": "Vijaya (Gen 35)",
+      "name": "Vijaya (Gen 36)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -861,13 +861,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Vijaya (Gen 36).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_06_ruruka_gen_36",
-      "name": "Ruruka (Gen 36)",
+      "name": "Ruruka (Gen 37)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -876,13 +876,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Ruruka (Gen 37).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_07_vrika_gen_37",
-      "name": "Vrika (Gen 37)",
+      "name": "Vrika (Gen 38)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -891,13 +891,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Vrika (Gen 38).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_08_bahu_asita_gen_38",
-      "name": "Bahu / Asita (Gen 38)",
+      "name": "Bahu / Asita (Gen 39)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -906,13 +906,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Bahu / Asita (Gen 39).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_09_emperor_sagara_gen_41",
-      "name": "Emperor Sagara (Gen 41)",
+      "name": "Emperor Sagara (Gen 41, Destroyer of Haihayas)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -921,7 +921,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Emperor Sagara (Gen 41, Destroyer of Haihayas).",
       "major": false,
       "biblicalConnected": true
     },
@@ -936,7 +936,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Asamanjas (Gen 42).",
       "major": false,
       "biblicalConnected": true
     },
@@ -951,7 +951,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Amshumant (Gen 43).",
       "major": false,
       "biblicalConnected": true
     },
@@ -966,7 +966,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Dilipa I (Gen 44).",
       "major": false,
       "biblicalConnected": true
     },
@@ -981,7 +981,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Bhagiratha (Gen 45, Brought the Ganga).",
       "major": false,
       "biblicalConnected": true
     },
@@ -996,13 +996,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Shruta (Gen 46).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_15_nabhaga_gen_47",
-      "name": "Nabhaga (Gen 47)",
+      "name": "Nabhaga of Ayodhya (Gen 47)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -1011,13 +1011,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Nabhaga of Ayodhya (Gen 47).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_16_ambarisha_gen_48",
-      "name": "Ambarisha (Gen 48)",
+      "name": "Ambarisha of Ayodhya (Gen 48)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -1026,7 +1026,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Ambarisha of Ayodhya (Gen 48).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1041,7 +1041,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Sindhudvipa (Gen 49).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1056,7 +1056,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Ayutayus (Gen 50).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1071,7 +1071,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Rituparna (Gen 51, Host of Nala).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1086,7 +1086,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Sarvakama (Gen 52).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1101,7 +1101,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Sudasa of Ayodhya (Gen 53).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1116,7 +1116,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Mitrasaha-Kalmashapada (Gen 54).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1131,7 +1131,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Ashmaka (Gen 55).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1146,7 +1146,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Mulaka (Gen 56).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1161,13 +1161,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Shataratha (Gen 57).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_26_aidavida_gen_58",
-      "name": "Aidavida (Gen 58)",
+      "name": "Aidavida / Ilavila (Gen 58)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -1176,7 +1176,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Aidavida / Ilavila (Gen 58).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1191,7 +1191,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Vishvasaha I (Gen 59).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1206,7 +1206,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Dilipa II Khatvanga (Gen 60).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1221,7 +1221,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Dirghabahu (Gen 61).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1236,13 +1236,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: Emperor Raghu (Gen 62).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_31_aja_gen_63",
-      "name": "Aja (Gen 63)",
+      "name": "King Aja (Gen 63, Son of Raghu)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -1251,13 +1251,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: King Aja (Gen 63, Son of Raghu).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay2_32_king_dasharatha_gen_64",
-      "name": "King Dasharatha (Gen 64)",
+      "name": "King Dasharatha (Gen 64, Father of Lord Rama)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -1266,22 +1266,22 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 145, 147"
       ],
-      "notes": "Ayodhya Solar King (Treta Yuga) (Pargiter Master Table Gens 31-64).",
+      "notes": "Solar Aikshvaku succession: King Dasharatha (Gen 64, Father of Lord Rama).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay3_01_atithi_gen_67",
-      "name": "Atithi (Gen 67)",
+      "name": "Atithi (Gen 67, Son of Kusha)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Atithi (Gen 67, Son of Kusha).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1291,12 +1291,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Nishadha (Gen 68).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1306,12 +1306,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Nala of Ayodhya (Gen 69).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1321,12 +1321,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Nabhas (Gen 70).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1336,12 +1336,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Pundarika (Gen 71).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1351,12 +1351,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Kshemadhanvan (Gen 72).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1366,12 +1366,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Devanika (Gen 73).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1381,12 +1381,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Ahinagu (Gen 74).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1396,12 +1396,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Paripatra (Gen 75).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1411,27 +1411,27 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Dala & Bala (Gen 76).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay3_11_uktha_gen_77",
-      "name": "Uktha (Gen 77)",
+      "name": "Uktha / Vajranabha Father (Gen 77)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Uktha / Vajranabha Father (Gen 77).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1441,12 +1441,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Vajranabha (Gen 78).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1456,12 +1456,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Shankhana (Gen 79).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1471,12 +1471,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Vyushitashva (Gen 80).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1486,12 +1486,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Vishvasaha II (Gen 81).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1501,12 +1501,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Hiranyanabha (Gen 82, Yoga Master).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1516,12 +1516,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Pushya (Gen 83).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1531,12 +1531,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Dhruvasandhi (Gen 84).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1546,12 +1546,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Sudarshana (Gen 85).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1561,12 +1561,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Agnivarna (Gen 86).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1576,12 +1576,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Shighra (Gen 87).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1591,12 +1591,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Maru (Gen 88).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1606,12 +1606,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Prasushruta (Gen 89).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1621,12 +1621,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Susandhi (Gen 90).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1636,12 +1636,12 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Amarsha & Sahasvant (Gen 91).",
       "major": false,
       "biblicalConnected": true
     },
@@ -1651,513 +1651,513 @@
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Vishrutavant (Gen 92).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay3_27_brihadbala_gen_94_slain_at_k",
-      "name": "Brihadbala (Gen 94, Slain at Kurukshetra)",
+      "name": "Brihadbala (Gen 94, Slain by Abhimanyu at Kurukshetra)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Brihadbala (Gen 94, Slain by Abhimanyu at Kurukshetra).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ay3_28_brihatkshaya_gen_95",
-      "name": "Brihatkshaya (Gen 95)",
+      "name": "Brihatkshaya (Gen 95, Son of Brihadbala)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 11,
-      "era": "Pargiter Master Table Gens 66-95",
+      "era": "Pargiter Master Table Gens 67-95",
       "role": "Ayodhya Solar King (Post-Rama)",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition p. 149"
       ],
-      "notes": "Ayodhya Solar King (Post-Rama) (Pargiter Master Table Gens 66-95).",
+      "notes": "Post-Rama Aikshvaku succession: Brihatkshaya (Gen 95, Son of Brihadbala).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_01_mithi_janaka_founder_of_mith",
-      "name": "Mithi Janaka (Founder of Mithila)",
+      "name": "Mithi Janaka (Founder of Mithila / Videha, Son of Nimi)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: Mithi Janaka (Founder of Mithila / Videha, Son of Nimi).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_02_siradhvaja_janaka_father_of_",
-      "name": "Siradhvaja Janaka (Father of Sita)",
+      "name": "Siradhvaja Janaka of Videha (Gen 64, Father of Sita)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: Siradhvaja Janaka of Videha (Gen 64, Father of Sita).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_03_marutta_of_vaisali_gen_40",
-      "name": "Marutta of Vaisali (Gen 40)",
+      "name": "Emperor Marutta of Vaisali (Gen 40)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: Emperor Marutta of Vaisali (Gen 40).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_04_trinabindu_father_of_ilavila",
-      "name": "Trinabindu (Father of Ilavila)",
+      "name": "King Trinabindu of Vaisali (Father of Ilavila)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Trinabindu of Vaisali (Father of Ilavila).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_05_raivata_kakudmin_anarta_dvar",
-      "name": "Raivata Kakudmin (Anarta/Dvaraka)",
+      "name": "King Raivata Kakudmin of Anarta/Dvaraka (Father of Revati)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Raivata Kakudmin of Anarta/Dvaraka (Father of Revati).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_06_king_jahnu_kanyakubja",
-      "name": "King Jahnu (Kanyakubja)",
+      "name": "King Jahnu of Kanyakubja (Eponym of Ganga Jahnavi)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Jahnu of Kanyakubja (Eponym of Ganga Jahnavi).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_07_king_gadhi_father_of_vishvam",
-      "name": "King Gadhi (Father of Vishvamitra)",
+      "name": "King Gadhi of Kanyakubja (Father of Satyavati & Vishvamitra)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Gadhi of Kanyakubja (Father of Satyavati & Vishvamitra).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_08_dhanvantari_of_kasi_ayurveda",
-      "name": "Dhanvantari of Kasi (Ayurveda)",
+      "name": "King Dhanvantari of Kasi (Founder of Ayurveda)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Dhanvantari of Kasi (Founder of Ayurveda).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_09_divodasa_ii_of_kasi",
-      "name": "Divodasa II of Kasi",
+      "name": "King Divodasa II of Kasi",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Divodasa II of Kasi.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_10_pratardana_of_kasi",
-      "name": "Pratardana of Kasi",
+      "name": "King Pratardana of Kasi (Son of Divodasa II)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Pratardana of Kasi (Son of Divodasa II).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_11_alarka_of_kasi",
-      "name": "Alarka of Kasi",
+      "name": "King Alarka of Kasi (Grandson of Pratardana)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Alarka of Kasi (Grandson of Pratardana).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_12_emperor_kartavirya_arjuna_ha",
-      "name": "Emperor Kartavirya Arjuna (Haihaya, Gen 31)",
+      "name": "Emperor Kartavirya Arjuna (Haihaya Emperor of Mahishmati, Gen 31)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: Emperor Kartavirya Arjuna (Haihaya Emperor of Mahishmati, Gen 31).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_13_shashabindu_yadava_gen_20",
-      "name": "Shashabindu (Yadava, Gen 20)",
+      "name": "Emperor Shashabindu (Yadava Chakravartin, Gen 20)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: Emperor Shashabindu (Yadava Chakravartin, Gen 20).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_14_jyamagha_vidarbha",
-      "name": "Jyamagha -> Vidarbha",
+      "name": "King Jyamagha -> King Vidarbha (Founder of Vidarbha)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Jyamagha -> King Vidarbha (Founder of Vidarbha).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_15_satvata_yadava",
-      "name": "Satvata (Yadava)",
+      "name": "King Satvata (Yadava Progenitor of Satvatas)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Satvata (Yadava Progenitor of Satvatas).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_16_ugrasena_king_kamsa_mathura",
-      "name": "Ugrasena -> King Kamsa (Mathura)",
+      "name": "King Ugrasena -> King Kamsa of Mathura (Andhaka Yadavas)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Ugrasena -> King Kamsa of Mathura (Andhaka Yadavas).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_17_samba_vajra_heirs_of_krishna",
-      "name": "Samba & Vajra (Heirs of Krishna)",
+      "name": "Samba & Vajra (Son & Great-Grandson Heirs of Krishna at Indraprastha)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: Samba & Vajra (Son & Great-Grandson Heirs of Krishna at Indraprastha).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_18_king_shibi_aushinara_panjab",
-      "name": "King Shibi Aushinara (Panjab)",
+      "name": "King Shibi Aushinara (Son of Ushinara; Panjab Ruler)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Shibi Aushinara (Son of Ushinara; Panjab Ruler).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_19_king_bali_father_of_anga_van",
-      "name": "King Bali (Father of Anga, Vanga, Kalinga, Pundra, Suhma)",
+      "name": "King Bali of East Bihar (Father of Anga, Vanga, Kalinga, Pundra & Suhma)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Bali of East Bihar (Father of Anga, Vanga, Kalinga, Pundra & Suhma).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_20_king_karna_of_anga_gen_94",
-      "name": "King Karna of Anga (Gen 94)",
+      "name": "King Karna of Anga (Gen 94; Descendant of Lomapada & Bali's Domain)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Karna of Anga (Gen 94; Descendant of Lomapada & Bali's Domain).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_21_king_mudgala_north_panchala",
-      "name": "King Mudgala (North Panchala)",
+      "name": "King Mudgala of North Panchala (Son of Bhrmyashva)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Mudgala of North Panchala (Son of Bhrmyashva).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_22_rigvedic_king_sudas_battle_o",
-      "name": "Rigvedic King Sudas (Battle of Ten Kings)",
+      "name": "Rigvedic King Sudas (Son of Pijavana; Victor of Battle of Ten Kings)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: Rigvedic King Sudas (Son of Pijavana; Victor of Battle of Ten Kings).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_23_king_drupada_draupadi",
-      "name": "King Drupada & Draupadi",
+      "name": "King Drupada of South Panchala (Father of Draupadi & Dhrishtadyumna)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Drupada of South Panchala (Father of Draupadi & Dhrishtadyumna).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_24_vasu_caidyoparichara_cedi_ma",
-      "name": "Vasu Caidyoparichara (Cedi/Magadha)",
+      "name": "Emperor Vasu Caidyoparichara (Kuru Conqueror of Cedi & Magadha)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: Emperor Vasu Caidyoparichara (Kuru Conqueror of Cedi & Magadha).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_25_brihadratha_emperor_jarasand",
-      "name": "Brihadratha -> Emperor Jarasandha (Magadha)",
+      "name": "King Brihadratha -> Emperor Jarasandha of Magadha",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Brihadratha -> Emperor Jarasandha of Magadha.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_26_shishupala_of_cedi",
-      "name": "Shishupala of Cedi",
+      "name": "King Shishupala of Cedi (Son of Damaghosha)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Shishupala of Cedi (Son of Damaghosha).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_27_nicakshu_moved_kuru_capital_",
-      "name": "Nicakshu (Moved Kuru Capital to Kaushambi)",
+      "name": "King Nicakshu (Moved Kuru Capital to Kaushambi in Vatsa)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Nicakshu (Moved Kuru Capital to Kaushambi in Vatsa).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_28_king_udayana_of_vatsa",
-      "name": "King Udayana of Vatsa",
+      "name": "King Udayana of Vatsa (Descendant of Nicakshu; Contemporary of Buddha)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Udayana of Vatsa (Descendant of Nicakshu; Contemporary of Buddha).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_29_king_bimbisara_ajatashatru_m",
-      "name": "King Bimbisara & Ajatashatru (Magadha)",
+      "name": "King Bimbisara & Ajatashatru of Magadha (Patrons of Buddha)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: King Bimbisara & Ajatashatru of Magadha (Patrons of Buddha).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_30_mahapadma_nanda_nanda_empire",
-      "name": "Mahapadma Nanda (Nanda Empire)",
+      "name": "Emperor Mahapadma Nanda (Founder of Nanda Empire)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: Emperor Mahapadma Nanda (Founder of Nanda Empire).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_ail_31_samudragupta_chandragupta_ii",
-      "name": "Samudragupta & Chandragupta II (Gupta Empire)",
+      "name": "Emperors Samudragupta & Chandragupta II Vikramaditya (Gupta Empire)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 9,
-      "era": "Pargiter Master Table (Lunar Dynasties)",
-      "role": "Lunar (Aila) Dynasty Monarch",
+      "era": "Pargiter Master Table (Gens 2-95+)",
+      "role": "Puranic Royal Dynasty Monarch",
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 144-149"
       ],
-      "notes": "Lunar (Aila) Dynasty Monarch (Pargiter Master Table (Lunar Dynasties)).",
+      "notes": "Synchronized Puranic royal figure: Emperors Samudragupta & Chandragupta II Vikramaditya (Gupta Empire).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_01_rishi_cyavana_bhargava_sukan",
-      "name": "Rishi Cyavana Bhargava (+ Sukanya)",
+      "name": "Rishi Cyavana Bhargava (+ Princess Sukanya)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2166,13 +2166,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Rishi Cyavana Bhargava (+ Princess Sukanya).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_02_ushanas_shukra_preceptor_of_",
-      "name": "Ushanas-Shukra (Preceptor of Asuras)",
+      "name": "Acharya Ushanas-Shukra (Bhargava Preceptor)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2181,13 +2181,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Acharya Ushanas-Shukra (Bhargava Preceptor).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_03_richika_jamadagni_parashuram",
-      "name": "Richika -> Jamadagni -> Parashurama",
+      "name": "Richika -> Jamadagni -> Lord Parashurama (Bhargava)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2196,13 +2196,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Richika -> Jamadagni -> Lord Parashurama (Bhargava).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_04_rishi_valmiki_author_of_rama",
-      "name": "Rishi Valmiki (Author of Ramayana)",
+      "name": "Maharshi Valmiki (Pracetasa / Bhargava Author of Ramayana)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2211,13 +2211,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Maharshi Valmiki (Pracetasa / Bhargava Author of Ramayana).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_05_atharvan_brihaspati_bharadva",
-      "name": "Atharvan -> Brihaspati -> Bharadvaja",
+      "name": "Atharvan -> Brihaspati -> Rishi Bharadvaja (Angirasa)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2226,13 +2226,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Atharvan -> Brihaspati -> Rishi Bharadvaja (Angirasa).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_06_dirghatamas_gautama",
-      "name": "Dirghatamas Gautama",
+      "name": "Rishi Dirghatamas Mamateya & Gautama Clan",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2241,13 +2241,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Rishi Dirghatamas Mamateya & Gautama Clan.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_07_guru_drona_ashvatthama",
-      "name": "Guru Drona & Ashvatthama",
+      "name": "Guru Dronacharya -> Ashvatthama (Bharadvaja Angirasa)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2256,13 +2256,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Guru Dronacharya -> Ashvatthama (Bharadvaja Angirasa).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_08_kripa_kripi",
-      "name": "Kripa & Kripi",
+      "name": "Acharya Kripa & Sister Kripi (Gautama Sharadvata)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2271,13 +2271,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Acharya Kripa & Sister Kripi (Gautama Sharadvata).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_09_rishi_vishvamitra_gayatri_ma",
-      "name": "Rishi Vishvamitra (Gayatri Mantra)",
+      "name": "Brahmarshi Vishvamitra (Son of Gadhi; Seer of Gayatri Mantra)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2286,13 +2286,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Brahmarshi Vishvamitra (Son of Gadhi; Seer of Gayatri Mantra).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_10_shunahshepa_devarata",
-      "name": "Shunahshepa-Devarata",
+      "name": "Rishi Shunahshepa-Devarata (Adopted Eldest Son of Vishvamitra)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2301,13 +2301,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Rishi Shunahshepa-Devarata (Adopted Eldest Son of Vishvamitra).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_11_vasishtha_shakti_parashara",
-      "name": "Vasishtha -> Shakti -> Parashara",
+      "name": "Rishi Vasishtha -> Shakti -> Rishi Parashara",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2316,13 +2316,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Rishi Vasishtha -> Shakti -> Rishi Parashara.",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_12_krishna_dvaipayana_vyasa_shu",
-      "name": "Krishna Dvaipayana Vyasa -> Shuka",
+      "name": "Krishna Dvaipayana Vyasa -> Shuka (Compiler of Vedas & Mahabharata)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2331,13 +2331,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Krishna Dvaipayana Vyasa -> Shuka (Compiler of Vedas & Mahabharata).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_13_dattatreya_durvasas_atreyas",
-      "name": "Dattatreya & Durvasas (Atreyas)",
+      "name": "Dattatreya & Rishi Durvasas (Sons of Atri & Anasuya)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2346,13 +2346,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Dattatreya & Rishi Durvasas (Sons of Atri & Anasuya).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_14_kanva_kashyapa_foster_father",
-      "name": "Kanva Kashyapa (Foster-Father of Shakuntala)",
+      "name": "Maharshi Kanva Kashyapa (Foster-Father of Shakuntala)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2361,13 +2361,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Maharshi Kanva Kashyapa (Foster-Father of Shakuntala).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_15_rishyashringa_kashyapa",
-      "name": "Rishyashringa Kashyapa",
+      "name": "Rishyashringa Kashyapa (Son of Vibhandaka; Officiated at Dasharatha's Ashvamedha)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2376,13 +2376,13 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Rishyashringa Kashyapa (Son of Vibhandaka; Officiated at Dasharatha's Ashvamedha).",
       "major": false,
       "biblicalConnected": true
     },
     {
       "id": "indr_rsh_16_sage_agastya_lopamudra",
-      "name": "Sage Agastya & Lopamudra",
+      "name": "Maharshi Agastya (+ Princess Lopamudra of Vidarbha)",
       "altNames": [],
       "tradition": "vedic",
       "tier": 8,
@@ -2391,7 +2391,7 @@
       "sources": [
         "Pargiter Ancient Indian Historical Tradition pp. 191-242"
       ],
-      "notes": "Vedic / Puranic Great Rishi (Pargiter Rishi Table (pp. 191-242)).",
+      "notes": "Synchronized Puranic sage: Maharshi Agastya (+ Princess Lopamudra of Vidarbha).",
       "major": false,
       "biblicalConnected": true
     }
@@ -2542,814 +2542,856 @@
       "label": "Post-Mauryan imperial succession -> Gupta Golden Age of Magadha"
     },
     {
+      "from": "ved_ikshvaku",
+      "to": "indr_ay1_01_vikukshi_shashada_gen_3",
+      "type": "direct",
+      "label": "Ikshvaku -> eldest son Vikukshi"
+    },
+    {
       "from": "ind_ayodhya_early_1_30",
       "to": "indr_ay1_01_vikukshi_shashada_gen_3",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Solar anchor Gens 2-30 -> Vikukshi"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_01_vikukshi_shashada_gen_3",
       "to": "indr_ay1_02_kakutstha_gen_4",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_02_kakutstha_gen_4",
       "to": "indr_ay1_03_anenas_gen_5",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_03_anenas_gen_5",
       "to": "indr_ay1_04_prithu_gen_6",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_04_prithu_gen_6",
       "to": "indr_ay1_05_vishtarashva_gen_7",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_05_vishtarashva_gen_7",
       "to": "indr_ay1_06_ardra_gen_8",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_06_ardra_gen_8",
       "to": "indr_ay1_07_yuvanashva_i_gen_9",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_07_yuvanashva_i_gen_9",
       "to": "indr_ay1_08_shravasta_gen_10_founder_of_",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_08_shravasta_gen_10_founder_of_",
       "to": "indr_ay1_09_brihadashva_gen_11",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_09_brihadashva_gen_11",
       "to": "indr_ay1_10_kuvalashva_gen_12",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_10_kuvalashva_gen_12",
       "to": "indr_ay1_11_dridhashva_gen_13",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_11_dridhashva_gen_13",
       "to": "indr_ay1_12_pramoda_gen_14",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_12_pramoda_gen_14",
       "to": "indr_ay1_13_haryashva_i_gen_15",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_13_haryashva_i_gen_15",
       "to": "indr_ay1_14_nikumbha_gen_16",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_14_nikumbha_gen_16",
       "to": "indr_ay1_15_samhatashva_gen_17",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_15_samhatashva_gen_17",
       "to": "indr_ay1_16_akrishashva_gen_18",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_16_akrishashva_gen_18",
       "to": "indr_ay1_17_prasenajit_gen_19",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_17_prasenajit_gen_19",
       "to": "indr_ay1_18_yuvanashva_ii_gen_20",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_18_yuvanashva_ii_gen_20",
       "to": "indr_ay1_19_emperor_mandhatri_gen_21",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_19_emperor_mandhatri_gen_21",
       "to": "indr_ay1_20_purukutsa_gen_22",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_20_purukutsa_gen_22",
       "to": "indr_ay1_21_trasadasyu_gen_23_rigvedic_k",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_21_trasadasyu_gen_23_rigvedic_k",
       "to": "indr_ay1_22_sambhuta_gen_24",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_22_sambhuta_gen_24",
       "to": "indr_ay1_23_anaranya_gen_25",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_23_anaranya_gen_25",
       "to": "indr_ay1_24_trasashva_gen_26",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_24_trasashva_gen_26",
       "to": "indr_ay1_25_haryashva_ii_gen_27",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_25_haryashva_ii_gen_27",
       "to": "indr_ay1_26_vasumata_gen_28",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_26_vasumata_gen_28",
       "to": "indr_ay1_27_tridhanvan_gen_29",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
-      "from": "ind_ayodhya_early_1_30",
+      "from": "indr_ay1_27_tridhanvan_gen_29",
       "to": "indr_ay1_28_trayyaruna_gen_30",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 3-30)"
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay1_28_trayyaruna_gen_30",
+      "to": "indr_ay2_01_satyavrata_trishanku_gen_31",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_01_satyavrata_trishanku_gen_31",
+      "to": "indr_ay2_02_king_harishchandra_gen_32",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_02_king_harishchandra_gen_32",
+      "to": "indr_ay2_03_rohita_gen_33",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_03_rohita_gen_33",
+      "to": "indr_ay2_04_harita_cancu_gen_34",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_04_harita_cancu_gen_34",
+      "to": "indr_ay2_05_vijaya_gen_35",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_05_vijaya_gen_35",
+      "to": "indr_ay2_06_ruruka_gen_36",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_06_ruruka_gen_36",
+      "to": "indr_ay2_07_vrika_gen_37",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_07_vrika_gen_37",
+      "to": "indr_ay2_08_bahu_asita_gen_38",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_08_bahu_asita_gen_38",
+      "to": "indr_ay2_09_emperor_sagara_gen_41",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_09_emperor_sagara_gen_41",
+      "to": "indr_ay2_10_asamanjas_gen_42",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_10_asamanjas_gen_42",
+      "to": "indr_ay2_11_amshumant_gen_43",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_11_amshumant_gen_43",
+      "to": "indr_ay2_12_dilipa_i_gen_44",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_12_dilipa_i_gen_44",
+      "to": "indr_ay2_13_bhagiratha_gen_45_brought_th",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_13_bhagiratha_gen_45_brought_th",
+      "to": "indr_ay2_14_shruta_gen_46",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_14_shruta_gen_46",
+      "to": "indr_ay2_15_nabhaga_gen_47",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_15_nabhaga_gen_47",
+      "to": "indr_ay2_16_ambarisha_gen_48",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_16_ambarisha_gen_48",
+      "to": "indr_ay2_17_sindhudvipa_gen_49",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_17_sindhudvipa_gen_49",
+      "to": "indr_ay2_18_ayutayus_gen_50",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_18_ayutayus_gen_50",
+      "to": "indr_ay2_19_rituparna_gen_51_host_of_nal",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_19_rituparna_gen_51_host_of_nal",
+      "to": "indr_ay2_20_sarvakama_gen_52",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_20_sarvakama_gen_52",
+      "to": "indr_ay2_21_sudasa_of_ayodhya_gen_53",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_21_sudasa_of_ayodhya_gen_53",
+      "to": "indr_ay2_22_mitrasaha_kalmashapada_gen_5",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_22_mitrasaha_kalmashapada_gen_5",
+      "to": "indr_ay2_23_ashmaka_gen_55",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_23_ashmaka_gen_55",
+      "to": "indr_ay2_24_mulaka_gen_56",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_24_mulaka_gen_56",
+      "to": "indr_ay2_25_shataratha_gen_57",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_25_shataratha_gen_57",
+      "to": "indr_ay2_26_aidavida_gen_58",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_26_aidavida_gen_58",
+      "to": "indr_ay2_27_vishvasaha_i_gen_59",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_27_vishvasaha_i_gen_59",
+      "to": "indr_ay2_28_dilipa_ii_khatvanga_gen_60",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_28_dilipa_ii_khatvanga_gen_60",
+      "to": "indr_ay2_29_dirghabahu_gen_61",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_29_dirghabahu_gen_61",
+      "to": "indr_ay2_30_emperor_raghu_gen_62",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_30_emperor_raghu_gen_62",
+      "to": "indr_ay2_31_aja_gen_63",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_31_aja_gen_63",
+      "to": "indr_ay2_32_king_dasharatha_gen_64",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
+    },
+    {
+      "from": "indr_ay2_32_king_dasharatha_gen_64",
+      "to": "ved_surya_vamsha",
+      "type": "direct",
+      "label": "Ayodhya Solar Spine father-to-son pedigree (Gens 3-65)"
     },
     {
       "from": "ind_ayodhya_mid_31_64",
       "to": "indr_ay2_01_satyavrata_trishanku_gen_31",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
+      "label": "Solar anchor Gens 31-64 -> Trishanku"
     },
     {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_02_king_harishchandra_gen_32",
+      "from": "ved_lava_kusha",
+      "to": "indr_ay3_01_atithi_gen_67",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_03_rohita_gen_33",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_04_harita_cancu_gen_34",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_05_vijaya_gen_35",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_06_ruruka_gen_36",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_07_vrika_gen_37",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_08_bahu_asita_gen_38",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_09_emperor_sagara_gen_41",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_10_asamanjas_gen_42",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_11_amshumant_gen_43",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_12_dilipa_i_gen_44",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_13_bhagiratha_gen_45_brought_th",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_14_shruta_gen_46",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_15_nabhaga_gen_47",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_16_ambarisha_gen_48",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_17_sindhudvipa_gen_49",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_18_ayutayus_gen_50",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_19_rituparna_gen_51_host_of_nal",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_20_sarvakama_gen_52",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_21_sudasa_of_ayodhya_gen_53",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_22_mitrasaha_kalmashapada_gen_5",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_23_ashmaka_gen_55",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_24_mulaka_gen_56",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_25_shataratha_gen_57",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_26_aidavida_gen_58",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_27_vishvasaha_i_gen_59",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_28_dilipa_ii_khatvanga_gen_60",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_29_dirghabahu_gen_61",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_30_emperor_raghu_gen_62",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_31_aja_gen_63",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
-    },
-    {
-      "from": "ind_ayodhya_mid_31_64",
-      "to": "indr_ay2_32_king_dasharatha_gen_64",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 31-64)"
+      "label": "Kusha -> son Atithi"
     },
     {
       "from": "ind_ayodhya_late_66_95",
       "to": "indr_ay3_01_atithi_gen_67",
       "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "label": "Post-Rama anchor -> Atithi"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_01_atithi_gen_67",
       "to": "indr_ay3_02_nishadha_gen_68",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_02_nishadha_gen_68",
       "to": "indr_ay3_03_nala_of_ayodhya_gen_69",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_03_nala_of_ayodhya_gen_69",
       "to": "indr_ay3_04_nabhas_gen_70",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_04_nabhas_gen_70",
       "to": "indr_ay3_05_pundarika_gen_71",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_05_pundarika_gen_71",
       "to": "indr_ay3_06_kshemadhanvan_gen_72",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_06_kshemadhanvan_gen_72",
       "to": "indr_ay3_07_devanika_gen_73",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_07_devanika_gen_73",
       "to": "indr_ay3_08_ahinagu_gen_74",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_08_ahinagu_gen_74",
       "to": "indr_ay3_09_paripatra_gen_75",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_09_paripatra_gen_75",
       "to": "indr_ay3_10_dala_bala_gen_76",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_10_dala_bala_gen_76",
       "to": "indr_ay3_11_uktha_gen_77",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_11_uktha_gen_77",
       "to": "indr_ay3_12_vajranabha_gen_78",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_12_vajranabha_gen_78",
       "to": "indr_ay3_13_shankhana_gen_79",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_13_shankhana_gen_79",
       "to": "indr_ay3_14_vyushitashva_gen_80",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_14_vyushitashva_gen_80",
       "to": "indr_ay3_15_vishvasaha_ii_gen_81",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_15_vishvasaha_ii_gen_81",
       "to": "indr_ay3_16_hiranyanabha_gen_82_yoga_mas",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_16_hiranyanabha_gen_82_yoga_mas",
       "to": "indr_ay3_17_pushya_gen_83",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_17_pushya_gen_83",
       "to": "indr_ay3_18_dhruvasandhi_gen_84",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_18_dhruvasandhi_gen_84",
       "to": "indr_ay3_19_sudarshana_gen_85",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_19_sudarshana_gen_85",
       "to": "indr_ay3_20_agnivarna_gen_86",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_20_agnivarna_gen_86",
       "to": "indr_ay3_21_shighra_gen_87",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_21_shighra_gen_87",
       "to": "indr_ay3_22_maru_gen_88",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_22_maru_gen_88",
       "to": "indr_ay3_23_prasushruta_gen_89",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_23_prasushruta_gen_89",
       "to": "indr_ay3_24_susandhi_gen_90",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_24_susandhi_gen_90",
       "to": "indr_ay3_25_amarsha_sahasvant_gen_91",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_25_amarsha_sahasvant_gen_91",
       "to": "indr_ay3_26_vishrutavant_gen_92",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_26_vishrutavant_gen_92",
       "to": "indr_ay3_27_brihadbala_gen_94_slain_at_k",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_ayodhya_late_66_95",
+      "from": "indr_ay3_27_brihadbala_gen_94_slain_at_k",
       "to": "indr_ay3_28_brihatkshaya_gen_95",
-      "type": "direct",
-      "label": "Ayodhya Solar Spine (Gens 67-95)"
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ay3_28_brihatkshaya_gen_95",
+      "to": "ved_buddha",
+      "type": "expansion",
+      "label": "Post-Rama Aikshvaku continuation to Gautama Buddha"
+    },
+    {
+      "from": "ind_videha_janaka_complete",
       "to": "indr_ail_01_mithi_janaka_founder_of_mith",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Nimi -> Mithi Janaka"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_01_mithi_janaka_founder_of_mith",
       "to": "indr_ail_02_siradhvaja_janaka_father_of_",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Videha succession -> Siradhvaja Janaka"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_02_siradhvaja_janaka_father_of_",
+      "to": "ved_surya_vamsha",
+      "type": "direct",
+      "label": "Father Siradhvaja Janaka -> Sita (wife of Rama)"
+    },
+    {
+      "from": "ind_vaisali_sharyata_nabhaga",
       "to": "indr_ail_03_marutta_of_vaisali_gen_40",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Nabhanedishtha -> Vaisali -> Emperor Marutta"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_03_marutta_of_vaisali_gen_40",
       "to": "indr_ail_04_trinabindu_father_of_ilavila",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Marutta -> Narishyanta -> Trinabindu"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "ind_vaisali_sharyata_nabhaga",
       "to": "indr_ail_05_raivata_kakudmin_anarta_dvar",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Sharyati -> Anarta -> Raivata Kakudmin"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "ind_kanyakubja_vishvamitra",
       "to": "indr_ail_06_king_jahnu_kanyakubja",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Amavasu -> King Jahnu"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_06_king_jahnu_kanyakubja",
       "to": "indr_ail_07_king_gadhi_father_of_vishvam",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Jahnu -> Kusha -> Kushika -> King Gadhi"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_07_king_gadhi_father_of_vishvam",
+      "to": "indr_rsh_09_rishi_vishvamitra_gayatri_ma",
+      "type": "direct",
+      "label": "King Gadhi -> son Vishvamitra"
+    },
+    {
+      "from": "indr_rsh_09_rishi_vishvamitra_gayatri_ma",
+      "to": "indr_rsh_10_shunahshepa_devarata",
+      "type": "direct",
+      "label": "Vishvamitra adopts Shunahshepa-Devarata"
+    },
+    {
+      "from": "ind_kasi_dhanvantari_divodasa",
       "to": "indr_ail_08_dhanvantari_of_kasi_ayurveda",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Kshatravriddha -> Dhanvantari"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_08_dhanvantari_of_kasi_ayurveda",
       "to": "indr_ail_09_divodasa_ii_of_kasi",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Dhanvantari -> Ketumant -> Bhimaratha -> Divodasa II"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_09_divodasa_ii_of_kasi",
       "to": "indr_ail_10_pratardana_of_kasi",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Divodasa II -> son Pratardana"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_10_pratardana_of_kasi",
       "to": "indr_ail_11_alarka_of_kasi",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Pratardana -> Vatsa -> Alarka"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "ind_haihayas_kartavirya",
       "to": "indr_ail_12_emperor_kartavirya_arjuna_ha",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Sahasrajit -> Haihaya -> Kartavirya Arjuna"
     },
     {
       "from": "ind_yadava_kroshtu_satvata",
       "to": "indr_ail_13_shashabindu_yadava_gen_20",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Kroshtu -> Shashabindu"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_13_shashabindu_yadava_gen_20",
       "to": "indr_ail_14_jyamagha_vidarbha",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Shashabindu -> Jyamagha -> Vidarbha"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_14_jyamagha_vidarbha",
       "to": "indr_ail_15_satvata_yadava",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Vidarbha -> Satvata"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_15_satvata_yadava",
       "to": "indr_ail_16_ugrasena_king_kamsa_mathura",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Satvata -> Andhaka -> Ugrasena -> Kamsa"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "ved_krishna_balarama",
       "to": "indr_ail_17_samba_vajra_heirs_of_krishna",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Krishna -> Samba & Pradyumna -> Aniruddha -> Vajra"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "ind_anava_shibi_anga_karna",
       "to": "indr_ail_18_king_shibi_aushinara_panjab",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Anu -> Ushinara -> King Shibi"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "ind_anava_shibi_anga_karna",
       "to": "indr_ail_19_king_bali_father_of_anga_van",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Anu -> Titikshu -> King Bali"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_19_king_bali_father_of_anga_van",
       "to": "indr_ail_20_king_karna_of_anga_gen_94",
-      "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "type": "expansion",
+      "label": "King Bali -> Anga -> Lomapada -> Karna of Anga"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "ind_panchala_sudas_drupada",
       "to": "indr_ail_21_king_mudgala_north_panchala",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Ajamidha -> Nila -> Mudgala"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_21_king_mudgala_north_panchala",
       "to": "indr_ail_22_rigvedic_king_sudas_battle_o",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Mudgala -> Divodasa -> Pijavana -> King Sudas"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_22_rigvedic_king_sudas_battle_o",
       "to": "indr_ail_23_king_drupada_draupadi",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Somaka -> Prishata -> King Drupada & Draupadi"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "ind_cedi_magadha_jarasandha",
       "to": "indr_ail_24_vasu_caidyoparichara_cedi_ma",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Kuru -> Vasu Caidyoparichara"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_24_vasu_caidyoparichara_cedi_ma",
       "to": "indr_ail_25_brihadratha_emperor_jarasand",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Vasu -> Brihadratha -> Jarasandha"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_24_vasu_caidyoparichara_cedi_ma",
       "to": "indr_ail_26_shishupala_of_cedi",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Vasu -> Pratyagraha -> Damaghosha -> Shishupala"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "ind_kuru_post_battle_vatsa",
       "to": "indr_ail_27_nicakshu_moved_kuru_capital_",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Janamejaya III -> Adhisimakrishna -> Nicakshu"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_27_nicakshu_moved_kuru_capital_",
       "to": "indr_ail_28_king_udayana_of_vatsa",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Nicakshu -> Kaushambi Vatsa -> King Udayana"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "ind_magadha_bimbisara_nanda",
       "to": "indr_ail_29_king_bimbisara_ajatashatru_m",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Shishunaga/Haryanka -> Bimbisara & Ajatashatru"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_29_king_bimbisara_ajatashatru_m",
       "to": "indr_ail_30_mahapadma_nanda_nanda_empire",
-      "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "type": "expansion",
+      "label": "Nanda succession -> Mahapadma Nanda"
     },
     {
-      "from": "ind_yadava_kroshtu_satvata",
+      "from": "indr_ail_30_mahapadma_nanda_nanda_empire",
+      "to": "ved_maurya_ashoka",
+      "type": "expansion",
+      "label": "Chandragupta Maurya overthrows Nandas"
+    },
+    {
+      "from": "ind_gupta_golden_age",
       "to": "indr_ail_31_samudragupta_chandragupta_ii",
       "type": "direct",
-      "label": "Pargiter Master Table Monarch"
+      "label": "Chandragupta I -> Samudragupta & Chandragupta II"
     },
     {
       "from": "ind_rishis_bhargava_angirasa",
       "to": "indr_rsh_01_rishi_cyavana_bhargava_sukan",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Bhrigu -> Cyavana"
     },
     {
       "from": "ind_rishis_bhargava_angirasa",
       "to": "indr_rsh_02_ushanas_shukra_preceptor_of_",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Bhrigu -> Kavi -> Ushanas-Shukra"
     },
     {
-      "from": "ind_rishis_bhargava_angirasa",
+      "from": "indr_rsh_01_rishi_cyavana_bhargava_sukan",
       "to": "indr_rsh_03_richika_jamadagni_parashuram",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Cyavana -> Aurva -> Richika -> Jamadagni -> Parashurama"
     },
     {
       "from": "ind_rishis_bhargava_angirasa",
       "to": "indr_rsh_04_rishi_valmiki_author_of_rama",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Bhargava sage -> Maharshi Valmiki"
     },
     {
       "from": "ind_rishis_bhargava_angirasa",
       "to": "indr_rsh_05_atharvan_brihaspati_bharadva",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Angiras -> Atharvan -> Brihaspati -> Bharadvaja"
+    },
+    {
+      "from": "indr_rsh_05_atharvan_brihaspati_bharadva",
+      "to": "indr_rsh_07_guru_drona_ashvatthama",
+      "type": "direct",
+      "label": "Bharadvaja -> Guru Drona -> Ashvatthama"
     },
     {
       "from": "ind_rishis_bhargava_angirasa",
       "to": "indr_rsh_06_dirghatamas_gautama",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Angiras -> Utathya -> Dirghatamas Gautama"
     },
     {
-      "from": "ind_rishis_bhargava_angirasa",
-      "to": "indr_rsh_07_guru_drona_ashvatthama",
-      "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
-    },
-    {
-      "from": "ind_rishis_bhargava_angirasa",
+      "from": "indr_rsh_06_dirghatamas_gautama",
       "to": "indr_rsh_08_kripa_kripi",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Gautama Sharadvant -> Kripa & Kripi"
     },
     {
-      "from": "ind_rishis_bhargava_angirasa",
-      "to": "indr_rsh_09_rishi_vishvamitra_gayatri_ma",
-      "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
-    },
-    {
-      "from": "ind_rishis_bhargava_angirasa",
-      "to": "indr_rsh_10_shunahshepa_devarata",
-      "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
-    },
-    {
-      "from": "ind_rishis_bhargava_angirasa",
+      "from": "ind_rishis_vasishtha_agastya",
       "to": "indr_rsh_11_vasishtha_shakti_parashara",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Vasishtha -> Shakti -> Parashara"
     },
     {
-      "from": "ind_rishis_bhargava_angirasa",
+      "from": "indr_rsh_11_vasishtha_shakti_parashara",
       "to": "indr_rsh_12_krishna_dvaipayana_vyasa_shu",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Parashara -> Krishna Dvaipayana Vyasa -> Shuka"
     },
     {
-      "from": "ind_rishis_bhargava_angirasa",
+      "from": "ind_rishis_vasishtha_agastya",
       "to": "indr_rsh_13_dattatreya_durvasas_atreyas",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Atri -> Dattatreya & Durvasas"
     },
     {
-      "from": "ind_rishis_bhargava_angirasa",
+      "from": "ind_rishis_vasishtha_agastya",
       "to": "indr_rsh_14_kanva_kashyapa_foster_father",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Kashyapa -> Kanva (foster-father of Shakuntala)"
     },
     {
-      "from": "ind_rishis_bhargava_angirasa",
+      "from": "ind_rishis_vasishtha_agastya",
       "to": "indr_rsh_15_rishyashringa_kashyapa",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Kashyapa -> Vibhandaka -> Rishyashringa"
     },
     {
-      "from": "ind_rishis_bhargava_angirasa",
+      "from": "ind_rishis_vasishtha_agastya",
       "to": "indr_rsh_16_sage_agastya_lopamudra",
       "type": "direct",
-      "label": "Pargiter Synchronized Rishi Lineage"
+      "label": "Agastya + Lopamudra of Vidarbha"
     }
   ]
 }

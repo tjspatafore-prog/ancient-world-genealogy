@@ -1,0 +1,3142 @@
+{
+  "module": "47_wave5_india_east_asia_celtic_europe",
+  "title": "Wave 5 Person-by-Person India (Epics, Maurya, Gupta, Tibet, Lanka), Imperial China/Korea, Abulghazi Turks/Seljuks, Celtic Milesians, Normandy & Kievan Rus'",
+  "nodes": [
+    {
+      "id": "ind5_lord_rama",
+      "name": "Lord Rama / Sri Ramachandra (Gen 65, Son of Dasharatha; Hero of Ramayana)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 9,
+      "era": "Treta Yuga (Valmiki Ramayana; Pargiter p. 147)",
+      "role": "7th Avatar & King of Ayodhya",
+      "sources": [
+        "Valmiki Ramayana",
+        "Pargiter p. 147"
+      ],
+      "notes": "Eldest son of King Dasharatha & Kausalya; husband of Sita; father of Lava & Kusha.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_goddess_sita",
+      "name": "Goddess Sita / Janaki (Daughter of Siradhvaja Janaka; Queen of Ayodhya)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 9,
+      "era": "Treta Yuga (Valmiki Ramayana)",
+      "role": "Princess of Videha & Mother of Lava and Kusha",
+      "sources": [
+        "Valmiki Ramayana"
+      ],
+      "notes": "Daughter of King Siradhvaja Janaka; mother of twins Lava and Kusha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_bharata_ram",
+      "name": "Prince Bharata (Son of Dasharatha & Kaikeyi; Regent of Ayodhya)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 9,
+      "era": "Valmiki Ramayana",
+      "role": "Younger Brother of Rama",
+      "sources": [
+        "Valmiki Ramayana"
+      ],
+      "notes": "Ruled Ayodhya from Nandigrama bearing Rama's sandals during the 14-year exile.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_lakshmana",
+      "name": "Prince Lakshmana (Son of Dasharatha & Sumitra; Companion of Rama)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 9,
+      "era": "Valmiki Ramayana",
+      "role": "Twin Brother of Shatrughna",
+      "sources": [
+        "Valmiki Ramayana"
+      ],
+      "notes": "Accompanied Rama & Sita throughout the 14-year forest exile.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_shatrughna",
+      "name": "Prince Shatrughna (Son of Dasharatha & Sumitra; Founder of Mathura's Solar Line)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 9,
+      "era": "Valmiki Ramayana",
+      "role": "Youngest Brother of Rama",
+      "sources": [
+        "Valmiki Ramayana"
+      ],
+      "notes": "Conquered Lavana and founded Mathura.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_lava",
+      "name": "King Lava of Shravasti (Twin Son of Rama & Sita; Ancestor of Mewar Sisodias)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 10,
+      "era": "Treta/Dvapara Transition (Ramayana; Pargiter)",
+      "role": "Twin Prince of North Kosala & Lahore",
+      "sources": [
+        "Valmiki Ramayana"
+      ],
+      "notes": "Traditional Solar ancestor of North Kosala / Shravasti and Mewar Rajputs.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_kusha",
+      "name": "King Kusha of Kushavati (Twin Son of Rama & Sita; Ancestor of Brihadbala)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 10,
+      "era": "Dvapara Yuga (Ramayana; Pargiter p. 149)",
+      "role": "Twin Prince Continuing Ayodhya Main Line",
+      "sources": [
+        "Valmiki Ramayana",
+        "Pargiter p. 149"
+      ],
+      "notes": "Father of Atithi, continuing the Ayodhya Solar Dynasty to Brihadbala.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_yudhishthira",
+      "name": "Emperor Yudhishthira (Eldest Pandava; Dharmaraja of Indraprastha)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 11,
+      "era": "Mahabharata Era (c. 950 BCE trad.)",
+      "role": "Eldest Son of Pandu & Kunti",
+      "sources": [
+        "Mahabharata"
+      ],
+      "notes": "Victor of Kurukshetra & Emperor of Hastinapura.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_bhima",
+      "name": "Prince Bhima / Bhimasena (2nd Pandava; Slayer of Jarasandha & Duryodhana)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 11,
+      "era": "Mahabharata Era",
+      "role": "2nd Son of Pandu & Kunti",
+      "sources": [
+        "Mahabharata"
+      ],
+      "notes": "Father of Ghatotkacha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_arjuna",
+      "name": "Prince Arjuna (3rd Pandava; Recipient of the Bhagavad Gita; Ancestor of Parikshit)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 11,
+      "era": "Mahabharata Era",
+      "role": "3rd Son of Pandu & Kunti",
+      "sources": [
+        "Mahabharata",
+        "Bhagavad Gita"
+      ],
+      "notes": "Wed Draupadi and Subhadra (sister of Krishna); father of Abhimanyu.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_nakula",
+      "name": "Prince Nakula (4th Pandava; Twin Son of Pandu & Madri)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 11,
+      "era": "Mahabharata Era",
+      "role": "Twin Son of Pandu & Madri",
+      "sources": [
+        "Mahabharata"
+      ],
+      "notes": "Master of horses and swords.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_sahadeva",
+      "name": "Prince Sahadeva (5th Pandava; Twin Son of Pandu & Madri)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 11,
+      "era": "Mahabharata Era",
+      "role": "Twin Son of Pandu & Madri",
+      "sources": [
+        "Mahabharata"
+      ],
+      "notes": "Scholar-warrior of the Pandavas.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_duryodhana",
+      "name": "Crown Prince Duryodhana (Eldest of 100 Kauravas; Son of Dhritarashtra & Gandhari)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 11,
+      "era": "Mahabharata Era",
+      "role": "Leader of Kauravas at Kurukshetra",
+      "sources": [
+        "Mahabharata"
+      ],
+      "notes": "Eldest son of Dhritarashtra & Gandhari.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_abhimanyu",
+      "name": "Prince Abhimanyu (Son of Arjuna & Subhadra; Father of Parikshit)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 11,
+      "era": "Mahabharata Era",
+      "role": "Heroic Pandava Heir",
+      "sources": [
+        "Mahabharata"
+      ],
+      "notes": "Fell at the Chakravyuha; married Uttara and fathered posthumous heir Parikshit.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_parikshit",
+      "name": "Emperor Parikshit (Son of Abhimanyu & Uttara; Sole Surviving Kuru Heir)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 11,
+      "era": "Post-Kurukshetra Era (Bhagavata Purana)",
+      "role": "Post-War Emperor of Hastinapura",
+      "sources": [
+        "Mahabharata",
+        "Bhagavata Purana"
+      ],
+      "notes": "Saved in the womb by Krishna; father of Janamejaya.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_janamejaya",
+      "name": "Emperor Janamejaya (Son of Parikshit; Patron of Mahabharata Recitation)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 12,
+      "era": "Pargiter Gen 96",
+      "role": "Kuru Sovereign at Taxila & Hastinapura",
+      "sources": [
+        "Mahabharata",
+        "Pargiter"
+      ],
+      "notes": "Heard the Mahabharata recited by Vaishampayana.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_chandragupta_maurya",
+      "name": "Emperor Chandragupta Maurya (Founder of Maurya Empire, r. 322–297 BCE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 18,
+      "era": "c. 340–297 BCE (Arthashastra; Megasthenes)",
+      "role": "Unifier of India & Ally/Father-in-Law of Seleucus I",
+      "sources": [
+        "Mauryan Inscriptions",
+        "Mahavamsa",
+        "Pargiter p. 286"
+      ],
+      "notes": "Overthrew the Nandas with Chanakya and forged a treaty with Seleucus I Nicator.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_bindusara",
+      "name": "Emperor Bindusara Amitraghata (Son of Chandragupta Maurya, r. 297–273 BCE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 18,
+      "era": "297–273 BCE (Ashokavadana; Strabo)",
+      "role": "Father of Ashoka & Correspondent of Antiochus I",
+      "sources": [
+        "Mauryan Inscriptions",
+        "Mahavamsa",
+        "Pargiter p. 286"
+      ],
+      "notes": "Extended Mauryan rule south across the Deccan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_emperor_ashoka",
+      "name": "Emperor Ashoka the Great (r. 268–232 BCE; Pillar Edicts Naming Antiochus II & Ptolemy II)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 18,
+      "era": "304–232 BCE (Rock Edicts; Mahavamsa)",
+      "role": "Buddhist Chakravartin of Magadha",
+      "sources": [
+        "Mauryan Inscriptions",
+        "Mahavamsa",
+        "Pargiter p. 286"
+      ],
+      "notes": "Sent Buddhist missions to Sri Lanka, Syria, Egypt, and Macedonia.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_mahendra_sanghamitta",
+      "name": "Arahant Mahinda & Therī Sanghamitta (Son & Daughter of Ashoka Who Brought Buddhism to Lanka)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 18,
+      "era": "c. 285–205 BCE (Mahavamsa V–XIX)",
+      "role": "Imperial Missionaries to Sri Lanka",
+      "sources": [
+        "Mauryan Inscriptions",
+        "Mahavamsa",
+        "Pargiter p. 286"
+      ],
+      "notes": "Brought the Bodhi Tree sapling to Anuradhapura under King Devanampiya Tissa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_sri_gupta",
+      "name": "Maharaja Sri Gupta (Founder of Gupta Line, c. 240–280 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "c. 240–280 CE (Allahabad Pillar)",
+      "role": "Founder of Gupta House",
+      "sources": [
+        "Allahabad Pillar Inscription",
+        "Gupta Epigraphy"
+      ],
+      "notes": "Father of Ghatotkacha Gupta.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_chandragupta1",
+      "name": "Maharajadhiraja Chandragupta I (r. 319–335 CE; + Licchavi Princess Kumaradevi)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "319–335 CE (Gupta Gold Coins)",
+      "role": "Founder of Gupta Era (319 CE)",
+      "sources": [
+        "Allahabad Pillar Inscription",
+        "Gupta Epigraphy"
+      ],
+      "notes": "Allied with the ancient Licchavis of Vaisali through Kumaradevi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_samudragupta",
+      "name": "Emperor Samudragupta (Son of Chandragupta I, r. 335–375 CE; Allahabad Pillar)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "335–375 CE (Prayaga Prashasti)",
+      "role": "Strategist-Emperor & Musician-Poet",
+      "sources": [
+        "Allahabad Pillar Inscription",
+        "Gupta Epigraphy"
+      ],
+      "notes": "Extended Gupta suzerainty from Himalayas to South India.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_chandragupta2",
+      "name": "Emperor Chandragupta II Vikramaditya (Son of Samudragupta, r. 375–415 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "375–415 CE (Mehrauli Iron Pillar; Faxian)",
+      "role": "Patron of Kalidasa & Nine Gems",
+      "sources": [
+        "Allahabad Pillar Inscription",
+        "Gupta Epigraphy"
+      ],
+      "notes": "Overthrew the Western Kshatrapas and hosted Chinese pilgrim Faxian.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_kumaragupta1",
+      "name": "Emperor Kumaragupta I (Son of Chandragupta II, r. 415–455 CE; Founder of Nalanda Mahavihara)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "415–455 CE (Bilsad Inscription)",
+      "role": "Patron of Nalanda University",
+      "sources": [
+        "Allahabad Pillar Inscription",
+        "Gupta Epigraphy"
+      ],
+      "notes": "Founded the great monastic university of Nalanda.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_skandagupta",
+      "name": "Emperor Skandagupta (Son of Kumaragupta I, r. 455–467 CE; Repelled Huna Invasions)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "455–467 CE (Bhitari & Junagadh Inscriptions)",
+      "role": "Defender of Gupta Empire",
+      "sources": [
+        "Allahabad Pillar Inscription",
+        "Gupta Epigraphy"
+      ],
+      "notes": "Defeated the Hephthalites (White Huns) in northern India.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_vijaya_lanka",
+      "name": "King Vijaya of Tambapanni (1st King of Sri Lanka, c. 543 BCE; Mahavamsa VI–VII)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 16,
+      "era": "c. 543–505 BCE (Mahavamsa)",
+      "role": "Founder of Sinhalese Kingdom",
+      "sources": [
+        "Mahavamsa (Geiger)"
+      ],
+      "notes": "Prince from Lala/Vanga who landed at Tambapanni (Lanka).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_pandukabhaya",
+      "name": "King Pandukabhaya of Anuradhapura (r. 437–367 BCE; Mahavamsa X)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 17,
+      "era": "437–367 BCE (Mahavamsa X)",
+      "role": "Builder of Capital Anuradhapura",
+      "sources": [
+        "Mahavamsa (Geiger)"
+      ],
+      "notes": "United Sri Lanka and laid out Anuradhapura.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_devanampiya_tissa",
+      "name": "King Devanampiya Tissa of Anuradhapura (r. 250–210 BCE; Ally of Emperor Ashoka)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 18,
+      "era": "250–210 BCE (Mahavamsa XI–XX)",
+      "role": "First Buddhist Monarch of Sri Lanka",
+      "sources": [
+        "Mahavamsa (Geiger)"
+      ],
+      "notes": "Received Ashoka's son Mahinda and planted the Jaya Sri Maha Bodhi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_dutugemunu",
+      "name": "King Dutugemunu / Dutthagamani Abhaya (r. 161–137 BCE; Built Ruwanwelisaya Stupa)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 18,
+      "era": "161–137 BCE (Mahavamsa XXII–XXXII)",
+      "role": "Great Unifier of Anuradhapura",
+      "sources": [
+        "Mahavamsa (Geiger)"
+      ],
+      "notes": "United all Lanka from Ruhuna.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_nyatri_tsenpo",
+      "name": "King Nyatri Tsenpo (1st Yarlung King of Tibet; Claimed Shakya/Licchavi Descent)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 17,
+      "era": "Traditional 2nd c. BCE (Blue Annals)",
+      "role": "Founder of Tibet's Yarlung Dynasty",
+      "sources": [
+        "The Blue Annals",
+        "Old Tibetan Annals"
+      ],
+      "notes": "First of the 7 Heavenly Throne Kings of Tibet.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_songtsen_gampo",
+      "name": "Emperor Songtsen Gampo (33rd Yarlung King, 617–650 CE; Unifier of Tibetan Empire)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "617–650 CE (Old Tibetan Annals; Blue Annals)",
+      "role": "Unifier of Tibet & Sponsor of Tibetan Script",
+      "sources": [
+        "The Blue Annals",
+        "Old Tibetan Annals"
+      ],
+      "notes": "Married Nepalese princess Bhrikuti and Tang Chinese princess Wencheng.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_trisong_detsen",
+      "name": "Emperor Trisong Detsen (r. 755–797 CE; Founded Samye Monastery with Padmasambhava)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "742–c. 800 CE (Old Tibetan Annals)",
+      "role": "Golden Age Emperor of Tibet",
+      "sources": [
+        "The Blue Annals",
+        "Old Tibetan Annals"
+      ],
+      "notes": "Brought Shantarakshita & Padmasambhava to Tibet.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind5_ralpacan",
+      "name": "Emperor Ralpacan (r. 815–838 CE; Grandson of Trisong Detsen)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "802–838 CE (Blue Annals)",
+      "role": "Sino-Tibetan Peace Treaty Monarch",
+      "sources": [
+        "The Blue Annals",
+        "Old Tibetan Annals"
+      ],
+      "notes": "Expanded Buddhist translations and signed 821 CE treaty with Tang China.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_qin_shi_huang",
+      "name": "Emperor Qin Shi Huang / Ying Zheng (1st Emperor of Unified China, r. 221–210 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 18,
+      "era": "259–210 BCE (Shiji Ch. 6)",
+      "role": "First Emperor of Qin & Builder of Great Wall/Terracotta Army",
+      "sources": [
+        "Sima Qian Shiji Ch. 6"
+      ],
+      "notes": "Unified Warring States China in 221 BCE.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_han_gaozu",
+      "name": "Emperor Han Gaozu / Liu Bang (Founder of Han Dynasty, r. 202–195 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 18,
+      "era": "256–195 BCE (Shiji Ch. 8)",
+      "role": "Founder of 400-Year Han Empire",
+      "sources": [
+        "Sima Qian Shiji",
+        "Han Shu"
+      ],
+      "notes": "Rose from peasant official to defeat Xiang Yu and establish Han.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_han_wen",
+      "name": "Emperor Wen of Han / Liu Heng (Son of Gaozu, r. 180–157 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 18,
+      "era": "203–157 BCE (Shiji Ch. 10)",
+      "role": "Rule of Wen and Jing",
+      "sources": [
+        "Sima Qian Shiji",
+        "Han Shu"
+      ],
+      "notes": "Father of Emperor Jing.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_han_jing",
+      "name": "Emperor Jing of Han / Liu Qi (Son of Emperor Wen, r. 157–141 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 18,
+      "era": "188–141 BCE (Shiji Ch. 11)",
+      "role": "Father of Han Wudi",
+      "sources": [
+        "Sima Qian Shiji",
+        "Han Shu"
+      ],
+      "notes": "Consolidated imperial centralization.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_han_wudi",
+      "name": "Emperor Wu of Han / Liu Che (Han Wudi, r. 141–87 BCE; Opened Silk Road)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 18,
+      "era": "156–87 BCE (Shiji; Han Shu)",
+      "role": "Greatest Han Emperor (Zhang Qian & Sima Qian)",
+      "sources": [
+        "Sima Qian Shiji",
+        "Han Shu"
+      ],
+      "notes": "Sent Zhang Qian to Bactria & Parthia, initiating the Silk Road.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_han_guangwu",
+      "name": "Emperor Guangwu of Han / Liu Xiu (Restorer of Eastern Han, r. 25–57 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "5 BCE–57 CE (Hou Hanshu)",
+      "role": "9th-Gen Descendant of Liu Bang & Eastern Han Founder",
+      "sources": [
+        "Sima Qian Shiji",
+        "Han Shu"
+      ],
+      "notes": "Restored Han Dynasty at Luoyang.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_tang_gaozu",
+      "name": "Emperor Tang Gaozu / Li Yuan (Founder of Tang Dynasty, r. 618–626 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "566–635 CE (Old Book of Tang)",
+      "role": "Founder of Cosmopolitan Tang Empire",
+      "sources": [
+        "Old Book of Tang"
+      ],
+      "notes": "Established Tang capital at Chang'an.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_tang_taizong",
+      "name": "Emperor Tang Taizong / Li Shimin (Son of Li Yuan, r. 626–649 CE; Tian Kehan)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "598–649 CE (Old Book of Tang)",
+      "role": "Greatest Military & Cultural Tang Emperor",
+      "sources": [
+        "Old Book of Tang"
+      ],
+      "notes": "Sponsored Xuanzang's journey to India and Princess Wencheng's marriage to Tibet.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_tang_gaozong",
+      "name": "Emperor Tang Gaozong / Li Zhi (Son of Taizong, r. 649–683 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "628–683 CE",
+      "role": "Husband of Empress Wu Zetian",
+      "sources": [
+        "Old Book of Tang"
+      ],
+      "notes": "Unified the Korean Peninsula campaign in alliance with Silla.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_tang_xuanzong",
+      "name": "Emperor Tang Xuanzong / Li Longji (Grandson of Gaozong & Wu Zetian, r. 712–756 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "685–762 CE",
+      "role": "Kaiyuan Golden Age Monarch (Li Bai & Du Fu)",
+      "sources": [
+        "Old Book of Tang"
+      ],
+      "notes": "Presided over Tang cultural zenith.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_wu_zetian",
+      "name": "Empress Wu Zetian (Sole Female Huangdi of China, r. 690–705 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "624–705 CE (Book of Tang)",
+      "role": "Only Sovereign Empress Regnant in Chinese History",
+      "sources": [
+        "Book of Tang"
+      ],
+      "notes": "Consort of Gaozong; ruled in her own right as Zhou Dynasty Huangdi.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_song_taizu",
+      "name": "Emperor Song Taizu / Zhao Kuangyin (Founder of Song Dynasty, r. 960–976 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "927–976 CE (History of Song)",
+      "role": "Founder of Song China",
+      "sources": [
+        "History of Song"
+      ],
+      "notes": "Ended Five Dynasties fragmentation and inaugurated the Northern Song.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_ming_hongwu",
+      "name": "Emperor Hongwu / Zhu Yuanzhang (Founder of Ming Dynasty, r. 1368–1398 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1328–1398 CE (Ming Shi)",
+      "role": "Founder of Ming Dynasty",
+      "sources": [
+        "Ming Shi"
+      ],
+      "notes": "Drove out Yuan rule and established Nanjing.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_ming_yongle",
+      "name": "Emperor Yongle / Zhu Di (Son of Hongwu, r. 1402–1424 CE; Forbidden City & Zheng He)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1360–1424 CE (Ming Shi)",
+      "role": "Builder of Beijing Forbidden City",
+      "sources": [
+        "Ming Shi"
+      ],
+      "notes": "Commissioned Admiral Zheng He's treasure voyages across Asia and East Africa.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_qing_nurhaci",
+      "name": "Khan Nurhaci (Founder of Later Jin / Manchu Aisin Gioro Clan, r. 1616–1626)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1559–1626 CE (Draft History of Qing)",
+      "role": "Unifier of Jurchen / Manchu Tribes",
+      "sources": [
+        "Draft History of Qing"
+      ],
+      "notes": "Created the Eight Banners; father of Hong Taiji.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_qing_hong_taiji",
+      "name": "Emperor Hong Taiji (Son of Nurhaci; Proclaimed Great Qing, r. 1626–1643)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1592–1643 CE",
+      "role": "Proclaimer of Qing Dynasty",
+      "sources": [
+        "Draft History of Qing"
+      ],
+      "notes": "Father of Shunzhi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_qing_shunzhi",
+      "name": "Emperor Shunzhi / Fulin (1st Qing Emperor in Beijing, r. 1644–1661)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1638–1661 CE",
+      "role": "9th Son of Hong Taiji",
+      "sources": [
+        "Draft History of Qing"
+      ],
+      "notes": "Entered Beijing in 1644 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_qing_kangxi",
+      "name": "Emperor Kangxi / Xuanye (Son of Shunzhi, r. 1661–1722 — 61 yrs)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1654–1722 CE",
+      "role": "Longest-Reigning Emperor in Chinese History",
+      "sources": [
+        "Draft History of Qing"
+      ],
+      "notes": "Compiled the Kangxi Dictionary and consolidated Tibet & Taiwan.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_qing_yongzheng",
+      "name": "Emperor Yongzheng / Yinzhen (4th Son of Kangxi, r. 1722–1735)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1678–1735 CE",
+      "role": "Father of Qianlong",
+      "sources": [
+        "Draft History of Qing"
+      ],
+      "notes": "Centralized Qing imperial administration.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_qing_qianlong",
+      "name": "Emperor Qianlong / Hongli (Son of Yongzheng, r. 1735–1796)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1711–1799 CE",
+      "role": "Summit of Qing Territorial Empire",
+      "sources": [
+        "Draft History of Qing"
+      ],
+      "notes": "Oversaw the Siku Quanshu encyclopedia and zenith of Qing prosperity.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_gwanggaeto",
+      "name": "King Gwanggaeto the Great of Goguryeo (r. 391–413 CE; Hulbert Vol. 1)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 19,
+      "era": "374–413 CE (Samguk Sagi; Gwanggaeto Stele)",
+      "role": "Conqueror King of Goguryeo",
+      "sources": [
+        "Samguk Sagi",
+        "Hulbert History of Korea"
+      ],
+      "notes": "Expanded Goguryeo across Manchuria and the Korean Peninsula.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_queen_seondeok",
+      "name": "Queen Seondeok of Silla (r. 632–647 CE; Cheomseongdae Observatory)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "d. 647 CE (Samguk Sagi)",
+      "role": "First Sovereign Queen of Silla",
+      "sources": [
+        "Samguk Sagi",
+        "Goryeosa",
+        "Joseon Annals"
+      ],
+      "notes": "Built Hwangnyongsa Nine-Story Pagoda and Cheomseongdae.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_king_munmu",
+      "name": "King Munmu of Unified Silla (r. 661–681 CE; Nephew-Line Unifier of Korea)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "626–681 CE (Samguk Sagi)",
+      "role": "Unifier of the Three Kingdoms of Korea",
+      "sources": [
+        "Samguk Sagi",
+        "Goryeosa",
+        "Joseon Annals"
+      ],
+      "notes": "Son of Muyeol; unified Silla in 668–676 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_wang_geon_goryeo",
+      "name": "King Taejo Wang Geon (Founder of Goryeo Dynasty, r. 918–943 CE)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "877–943 CE (Goryeosa)",
+      "role": "Founder of Goryeo (Origin of 'Korea')",
+      "sources": [
+        "Samguk Sagi",
+        "Goryeosa",
+        "Joseon Annals"
+      ],
+      "notes": "United Later Three Kingdoms in 936 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_taejo_joseon",
+      "name": "King Taejo Yi Seong-gye (Founder of Joseon Dynasty, r. 1392–1398 CE)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1335–1408 CE (Joseon Annals)",
+      "role": "Founder of 500-Year Joseon Dynasty",
+      "sources": [
+        "Samguk Sagi",
+        "Goryeosa",
+        "Joseon Annals"
+      ],
+      "notes": "Founded Hanyang (Seoul) as royal capital.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eas5_king_sejong",
+      "name": "King Sejong the Great of Joseon (Son of Taejong, r. 1418–1450 CE; Creator of Hangul)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1397–1450 CE (Sejong Sillok)",
+      "role": "Creator of Korean Alphabet (Hangul)",
+      "sources": [
+        "Samguk Sagi",
+        "Goryeosa",
+        "Joseon Annals"
+      ],
+      "notes": "Grandson of Taejo; promulgated Hunminjeongeum (Hangul) in 1446 CE.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_turk",
+      "name": "Turk / Japhis-Oglany (Eldest Son of Japheth in Abulghazi)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 7,
+      "era": "Abulghazi Genealogy of the Tartars",
+      "role": "Progenitor of Turkic Peoples",
+      "sources": [
+        "Abulghazi Bahadur Khan (1730 trans.)"
+      ],
+      "notes": "Invented felt tents and ruled the Issyk-Kul steppe.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_taunak",
+      "name": "Taunak Khan (Son of Turk)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 8,
+      "era": "Abulghazi Part I",
+      "role": "Son of Turk",
+      "sources": [
+        "Abulghazi Bahadur Khan (1730 trans.)"
+      ],
+      "notes": "Succeeded his father Turk.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_ilchi",
+      "name": "Ilchi Khan (Son of Taunak)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 9,
+      "era": "Abulghazi Part I",
+      "role": "3rd Steppe Khan",
+      "sources": [
+        "Abulghazi Bahadur Khan (1730 trans.)"
+      ],
+      "notes": "Father of Dib Bakuy.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_dib_bakuy",
+      "name": "Dib Bakuy Khan (Son of Ilchi)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 10,
+      "era": "Abulghazi Part I",
+      "role": "4th Steppe Khan",
+      "sources": [
+        "Abulghazi Bahadur Khan (1730 trans.)"
+      ],
+      "notes": "Father of Kayuk.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_kayuk",
+      "name": "Kayuk Khan (Son of Dib Bakuy)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 11,
+      "era": "Abulghazi Part I",
+      "role": "5th Steppe Khan",
+      "sources": [
+        "Abulghazi Bahadur Khan (1730 trans.)"
+      ],
+      "notes": "Father of Alanja.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_alanja_khan",
+      "name": "Alanja Khan (Son of Kayuk; Father of Twins Tatar & Mogul)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 12,
+      "era": "Abulghazi Part I",
+      "role": "Father of Tatar & Mogul",
+      "sources": [
+        "Abulghazi Bahadur Khan (1730 trans.)"
+      ],
+      "notes": "Divided his domains between twin sons Tatar and Mogul.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_mogul_khan",
+      "name": "Mogul / Mung'l Khan (Twin Son of Alanja; Ancestor of Oghuz & Borjigin)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 13,
+      "era": "Abulghazi Part I–II",
+      "role": "Eponym of Mogols",
+      "sources": [
+        "Abulghazi Bahadur Khan (1730 trans.)"
+      ],
+      "notes": "Brother of Tatar Khan; father of Qara Khan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_qara_khan",
+      "name": "Qara Khan (Son of Mogul; Father of Oghuz Khan)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 14,
+      "era": "Abulghazi Part II",
+      "role": "Father of Oghuz Khan",
+      "sources": [
+        "Abulghazi Bahadur Khan (1730 trans.)"
+      ],
+      "notes": "Father of the hero Oghuz.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_oghuz_khan",
+      "name": "Oghuz Khagan (Son of Qara Khan; Epic Founder of the 24 Oghuz Tribes)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 15,
+      "era": "Abulghazi Part II",
+      "role": "Great Khagan of the Oghuz Turks",
+      "sources": [
+        "Abulghazi Bahadur Khan (1730 trans.)"
+      ],
+      "notes": "United the steppe nations and fathered 6 illustrious sons (Üçok & Bozok).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_tatar_khan",
+      "name": "Tatar Khan (Twin Son of Alanja Khan; Eponym of the Tatars)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 13,
+      "era": "Abulghazi Part I",
+      "role": "Twin Brother of Mogul Khan",
+      "sources": [
+        "Abulghazi Part I"
+      ],
+      "notes": "Ancestor of the 7-generation Tatar Khans.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_gun_khan",
+      "name": "Gün Khan ('Sun', Eldest Son of Oghuz; Ancestor of Kayi / Ottomans)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "Abulghazi Part II",
+      "role": "Ancestor of Kayi Tribe (Ottomans)",
+      "sources": [
+        "Abulghazi"
+      ],
+      "notes": "Forebear of the Kayi tribe from whom Suleyman Shah, Ertugrul & Osman I sprang.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_ay_khan",
+      "name": "Ay Khan ('Moon', 2nd Son of Oghuz)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "Abulghazi Part II",
+      "role": "2nd Son of Oghuz",
+      "sources": [
+        "Abulghazi"
+      ],
+      "notes": "Bozok prince.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_yildiz_khan",
+      "name": "Yildiz Khan ('Star', 3rd Son of Oghuz)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "Abulghazi Part II",
+      "role": "3rd Son of Oghuz",
+      "sources": [
+        "Abulghazi"
+      ],
+      "notes": "Bozok prince.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_gok_khan",
+      "name": "Gök Khan ('Sky', 4th Son of Oghuz)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "Abulghazi Part II",
+      "role": "4th Son of Oghuz",
+      "sources": [
+        "Abulghazi"
+      ],
+      "notes": "Üçok prince.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_dag_khan",
+      "name": "Dag Khan ('Mountain', 5th Son of Oghuz)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "Abulghazi Part II",
+      "role": "5th Son of Oghuz",
+      "sources": [
+        "Abulghazi"
+      ],
+      "notes": "Üçok prince.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_deniz_khan",
+      "name": "Deniz Khan ('Sea', 6th Son of Oghuz; Ancestor of Seljuks via Kınık)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 16,
+      "era": "Abulghazi Part II",
+      "role": "Ancestor of Kınık Tribe (Seljuks)",
+      "sources": [
+        "Abulghazi",
+        "Mahmud al-Kashgari"
+      ],
+      "notes": "Üçok prince linked with the Kınık clan of the Seljuks.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_seljuk",
+      "name": "Seljuk Beg ibn Duqaq (10th c. CE; Founder of Seljuk Dynasty)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "10th c. CE (Oghuz Kınık)",
+      "role": "Eponymous Founder of Seljuk Turks",
+      "sources": [
+        "Abulghazi",
+        "Ibn al-Athir"
+      ],
+      "notes": "Son of Duqaq; converted to Islam near Jand; grandfather of Tughril & Chaghri Beg.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_mikail",
+      "name": "Mikail ibn Seljuk (Son of Seljuk; Father of Tughril & Chaghri Beg)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "late 10th c. CE",
+      "role": "Father of Great Seljuk Sultans",
+      "sources": [
+        "Abulghazi"
+      ],
+      "notes": "Father of Tughril Beg & Chaghri Beg.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_tughril_beg",
+      "name": "Sultan Tughril Beg (1st Great Seljuk Sultan, r. 1037–1063)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "990–1063 CE",
+      "role": "Entered Baghdad 1055 CE",
+      "sources": [
+        "Ibn al-Athir"
+      ],
+      "notes": "Restored Abbasid protection in Baghdad and founded the Great Seljuk Empire.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_chaghri_beg",
+      "name": "Chaghri Beg (Brother of Tughril; Father of Alp Arslan, d. 1060)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "989–1060 CE",
+      "role": "Co-Founder & Ruler of Khorasan",
+      "sources": [
+        "Ibn al-Athir"
+      ],
+      "notes": "Father of Great Sultan Alp Arslan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_alp_arslan",
+      "name": "Sultan Alp Arslan (Son of Chaghri Beg; Victor of Manzikert 1071 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "1029–1072 CE",
+      "role": "2nd Great Seljuk Sultan",
+      "sources": [
+        "Ibn al-Athir"
+      ],
+      "notes": "Opened Anatolia to Turkish settlement at Manzikert (1071).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_malik_shah1",
+      "name": "Sultan Malik-Shah I (Son of Alp Arslan; Patron of Omar Khayyam & Nizam al-Mulk, r. 1072–1092)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "1055–1092 CE",
+      "role": "3rd Great Seljuk Sultan",
+      "sources": [
+        "Ibn al-Athir"
+      ],
+      "notes": "Zenith of Great Seljuk power from Syria to Transoxiana.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_suleyman_shah",
+      "name": "Süleyman Shah (Kayi Chieftain; Father of Ertuğrul Ghazi)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "d. c. 1227 CE (Ottoman Chronicles)",
+      "role": "Ancestor of Ottoman Dynasty",
+      "sources": [
+        "Abulghazi",
+        "Ottoman Annals"
+      ],
+      "notes": "Led Kayi clan westward into Anatolia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stp5_ertugrul",
+      "name": "Ertuğrul Ghazi (Son of Süleyman Shah; Father of Osman I, d. c. 1280)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "c. 1198–1280 CE (Ottoman Chronicles)",
+      "role": "Bey of Söğüt & Father of Osman I",
+      "sources": [
+        "Ottoman Chronicles"
+      ],
+      "notes": "Lord of the Seljuk frontier margraviate at Söğüt; father of Sultan Osman I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_fenius_farsa",
+      "name": "Fénius Farsaid (Scythian King Who Studied the 72 Languages at Babel)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 6,
+      "era": "Tower of Babel Era (Lebor Gabála; Keating)",
+      "role": "Ancestor of the Gaels",
+      "sources": [
+        "Lebor Gabála Érenn",
+        "Geoffrey Keating Foras Feasa ar Éirinn"
+      ],
+      "notes": "Founded the school of languages and fathered Nel / Niul.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_niul",
+      "name": "Prince Nel / Niul (Son of Fénius; Wed Egyptian Princess Scota)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 9,
+      "era": "Exodus Era (Lebor Gabála; Keating)",
+      "role": "Linguist Invited to Egypt by Pharaoh",
+      "sources": [
+        "Lebor Gabála Érenn",
+        "Geoffrey Keating Foras Feasa ar Éirinn"
+      ],
+      "notes": "Married Scota, daughter of Pharaoh Cingris, and befriended Moses.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_goidel_glas",
+      "name": "Goídel Glas / Gaedhal Glas (Son of Niul & Scota; Eponym of the Gaels)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 9,
+      "era": "Exodus Era (Lebor Gabála; Keating)",
+      "role": "Eponym of All Gaelic Peoples & Language",
+      "sources": [
+        "Lebor Gabála Érenn",
+        "Geoffrey Keating Foras Feasa ar Éirinn"
+      ],
+      "notes": "Blessed by Moses after the serpent bite; ancestor of the Milesians.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_breogan",
+      "name": "King Breogán (Founder of Brigantia / A Coruña in Galicia, Spain)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 10,
+      "era": "Lebor Gabála Part V",
+      "role": "Builder of Tower of Breogán",
+      "sources": [
+        "Lebor Gabála Érenn",
+        "Geoffrey Keating Foras Feasa ar Éirinn"
+      ],
+      "notes": "Built the watchtower from whose summit his son Íth sighted Ireland.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_bile",
+      "name": "Bile mac Breogán (Father of Míl Espáine)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 11,
+      "era": "Lebor Gabála Part V",
+      "role": "Father of Milesius",
+      "sources": [
+        "Lebor Gabála Érenn",
+        "Geoffrey Keating Foras Feasa ar Éirinn"
+      ],
+      "notes": "Elder son of Breogán.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_mil_espaine",
+      "name": "Míl Espáine / Milesius (Galamh, Father of the Milesian Conquerors of Ireland)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 11,
+      "era": "Lebor Gabála Part V; Keating",
+      "role": "Patriarch of Gaelic Irish Dynasties",
+      "sources": [
+        "Lebor Gabála Érenn",
+        "Geoffrey Keating Foras Feasa ar Éirinn"
+      ],
+      "notes": "Ancestor of Éremón (Uí Néill, Connacht, Leinster, Dal Riada) and Éber Finn (Munster, O'Brien, MacCarthy).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_eremon",
+      "name": "High King Éremón mac Míl (1st Milesian High King; Ancestor of Uí Néill & Scots)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 12,
+      "era": "Lebor Gabála; Keating",
+      "role": "Milesian High King of Ireland",
+      "sources": [
+        "Lebor Gabála Érenn",
+        "Geoffrey Keating Foras Feasa ar Éirinn"
+      ],
+      "notes": "Co-king with brother Éber Finn; ancestor of Conn of the Hundred Battles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_conn_hundred_battles",
+      "name": "High King Conn Cétchathach ('Of the Hundred Battles', 2nd c. CE trad.)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "c. 2nd c. CE (Keating Foras Feasa)",
+      "role": "Progenitor of Connachta & Uí Néill",
+      "sources": [
+        "Lebor Gabála Érenn",
+        "Geoffrey Keating Foras Feasa ar Éirinn"
+      ],
+      "notes": "Ancestor of Cormac mac Airt and Niall of the Nine Hostages.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_cormac_mac_airt",
+      "name": "High King Cormac mac Airt of Tara (3rd c. CE trad.; Lawgiver Patron of Fionn)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "c. 3rd c. CE (Keating)",
+      "role": "Lawgiver High King of Tara",
+      "sources": [
+        "Lebor Gabála Érenn",
+        "Geoffrey Keating Foras Feasa ar Éirinn"
+      ],
+      "notes": "Grandson of Conn; grandfather of Niall's ancestor Fiacha Sraibtine.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_niall_nine_hostages",
+      "name": "High King Niall Noígíallach ('Of the Nine Hostages', d. c. 405 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. c. 405 CE (Keating)",
+      "role": "Progenitor of All Northern & Southern Uí Néill Dynasties",
+      "sources": [
+        "Lebor Gabála Érenn",
+        "Geoffrey Keating Foras Feasa ar Éirinn"
+      ],
+      "notes": "Father of Eógan (O'Neill), Conall Gulban (O'Donnell / St. Columba) & Lóegaire (met St. Patrick!).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_scota",
+      "name": "Princess Scota (Daughter of Pharaoh Cingris; Wife of Niul & Mother of Goídel Glas)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 9,
+      "era": "Exodus Era (Lebor Gabála; Keating)",
+      "role": "Egyptian-Gaelic Matriarch",
+      "sources": [
+        "Lebor Gabála Érenn",
+        "Keating"
+      ],
+      "notes": "Egyptian princess married to Scythian scholar Niul; eponym of Scotland ('Scotia').",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_eber_finn",
+      "name": "High King Éber Finn mac Míl (Brother of Éremón; Ancestor of Munster / Eoghanacht / Dál gCais)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 12,
+      "era": "Lebor Gabála; Keating",
+      "role": "Progenitor of Munster Kings",
+      "sources": [
+        "Lebor Gabála",
+        "Keating"
+      ],
+      "notes": "Ancestor of Cormac Cas -> Brian Boru.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_ir",
+      "name": "Prince Ír mac Míl (Ancestral Founder of Ulaid / Ulster & Dál nAraidi)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 12,
+      "era": "Lebor Gabála",
+      "role": "Son of Míl Espáine",
+      "sources": [
+        "Lebor Gabála"
+      ],
+      "notes": "Progenitor of Cú Chulainn's Ulaid lineages.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_amairgin",
+      "name": "Amairgin Glúngel mac Míl (First Poet & Judge of Ireland)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 12,
+      "era": "Lebor Gabála Part V",
+      "role": "Chief Ollamh / Bard of Milesians",
+      "sources": [
+        "Lebor Gabála"
+      ],
+      "notes": "Sang the Song of Amairgin upon landing in Ireland.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_eogan_oneill",
+      "name": "Prince Eógan mac Néill (Founder of Cenél nEógain / O'Neill Kings of Ailech)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "5th c. CE (Keating)",
+      "role": "Son of Niall of the Nine Hostages",
+      "sources": [
+        "Keating"
+      ],
+      "notes": "Progenitor of O'Neill High Kings.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_conall_gulban",
+      "name": "Prince Conall Gulban mac Néill (Ancestor of O'Donnell & St. Columba of Iona)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "5th c. CE (Keating; Adomnán)",
+      "role": "Son of Niall; Great-Grandfather of St. Columba",
+      "sources": [
+        "Keating",
+        "Adomnán Life of Columba"
+      ],
+      "notes": "Ancestor of Tyrconnell & St. Columba.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_brian_boru",
+      "name": "High King Brian Bóruma / Brian Boru (r. 1002–1014 CE; Victor of Clontarf)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "941–1014 CE (Annals of Ulster; Keating)",
+      "role": "Imperator Scottorum & Unifier of Ireland",
+      "sources": [
+        "Annals of Ulster",
+        "Keating"
+      ],
+      "notes": "Descendant of Éber Finn & Cormac Cas (Dál gCais); defeated Vikings at Clontarf (1014 CE).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_fergus_mor",
+      "name": "King Fergus Mór mac Eirc (Founder of Scottish Dál Riata, 498 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. 501 CE (Annals; Keating)",
+      "role": "Ancestor of Kings of Scotland",
+      "sources": [
+        "Keating",
+        "Chronicles of Scotland"
+      ],
+      "notes": "Crossed from Antrim into Argyll, founding the Scottish royal stem.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_kenneth_macalpin",
+      "name": "King Kenneth I MacAlpin (Cináed mac Ailpín, 843–858 CE; 1st King of Alba/Scotland)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "810–858 CE (Chronicles of Scotland)",
+      "role": "Unifier of Scots & Picts",
+      "sources": [
+        "Chronicle of the Kings of Alba"
+      ],
+      "notes": "Descendant of Fergus Mór; united Dál Riata and Pictland.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_malcolm3",
+      "name": "King Malcolm III Canmore (+ St. Margaret of Scotland, r. 1058–1093 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1031–1093 CE (Scottish Chronicles)",
+      "role": "6th-Gen Descendant of Kenneth MacAlpin",
+      "sources": [
+        "Scottish Chronicles"
+      ],
+      "notes": "Married St. Margaret of Wessex (linking Scotland & England's House of Wessex!).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_robert_bruce",
+      "name": "King Robert I the Bruce of Scotland (r. 1306–1329 CE; Bannockburn 1314)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1274–1329 CE (Scottish Chronicles)",
+      "role": "Descendant of Malcolm III & Liberator of Scotland",
+      "sources": [
+        "Scottish Chronicles"
+      ],
+      "notes": "Won Scottish independence at Bannockburn (1314 CE); grandfather of Robert II (House of Stewart).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_yngvi_freyr",
+      "name": "Yngvi-Freyr (Progenitor of Uppsala Yngling Kings, Prose Edda / Ynglinga Saga)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 9,
+      "era": "Snorri Sturluson Ynglinga Saga",
+      "role": "Euhemerized Norse Founder",
+      "sources": [
+        "Prose Edda",
+        "Ynglinga Saga"
+      ],
+      "notes": "Son of Njörðr; founder of the Swedish/Norwegian Yngling royal stem.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_harald_fairhair",
+      "name": "King Harald I Fairhair of Norway (Haraldr Hárfagri, r. 872–930 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 850–932 CE (Heimskringla)",
+      "role": "First King of Unified Norway",
+      "sources": [
+        "Heimskringla"
+      ],
+      "notes": "Descended from the Ynglings; unified Norway at Hafrsfjord.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_skjoldr",
+      "name": "King Skjöldr / Scyld Scefing (Eponym of Danish Skjöldung Kings, Beowulf & Edda)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 10,
+      "era": "Prose Edda; Beowulf",
+      "role": "Mythic Founder of Denmark",
+      "sources": [
+        "Prose Edda",
+        "Beowulf"
+      ],
+      "notes": "Son of Odin in Snorri's Edda; ancestor of Danish and Viking kings.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_ragnar_lodbrok",
+      "name": "King Ragnar Lodbrok ('Hairy-Breeches', 9th c. CE Legendary Sea-King)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "9th c. CE (Ragnars Saga Loðbrókar)",
+      "role": "Famous Viking Father of Sons of Ragnar",
+      "sources": [
+        "Ragnars Saga Loðbrókar"
+      ],
+      "notes": "Fathered Björn Ironside, Ivar the Boneless & Sigurd Snake-in-the-Eye.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_bjorn_ironside",
+      "name": "King Björn Ironside (Son of Ragnar; Raided Mediterranean; Ancestor of Munsö Sweden)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "9th c. CE (Norse Sagas)",
+      "role": "King of Uppsala / Sweden",
+      "sources": [
+        "Ragnars Saga"
+      ],
+      "notes": "Led 859 CE Viking expedition to Spain and Italy.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_ivar_boneless",
+      "name": "King Ivar the Boneless (Son of Ragnar; Leader of Great Heathen Army 865 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "d. c. 873 CE (Anglo-Saxon Chronicle)",
+      "role": "Founder of Uí Ímair (Dublin/York)",
+      "sources": [
+        "Anglo-Saxon Chronicle"
+      ],
+      "notes": "Conquered York and Dublin.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_sigurd_snake_eye",
+      "name": "King Sigurd Snake-in-the-Eye (Son of Ragnar; Ancestor of Harthacnut & Canute)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "9th c. CE (Norse Sagas)",
+      "role": "King in Zealand / Denmark",
+      "sources": [
+        "Ragnars Saga"
+      ],
+      "notes": "Ancestor of Gorm the Old & King Canute the Great.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_rollo_normandy",
+      "name": "Duke Rollo / Hrólfr of Normandy (r. 911–927 CE; Treaty of Saint-Clair-sur-Epte)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 860–930 CE (Dudo; Orkneyinga Saga)",
+      "role": "1st Viking Ruler of Normandy",
+      "sources": [
+        "Heimskringla",
+        "Dudo of Saint-Quentin"
+      ],
+      "notes": "Norwegian noble of Jarl Rognvald's house (kin/contemporary of Harald Fairhair) who founded Normandy.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_william_longsword",
+      "name": "Duke William I Longsword of Normandy (Son of Rollo, r. 927–942 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 893–942 CE",
+      "role": "2nd Duke of Normandy",
+      "sources": [
+        "William of Jumièges"
+      ],
+      "notes": "Son of Rollo & Poppa of Bayeux.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_richard1_normandy",
+      "name": "Duke Richard I the Fearless of Normandy (Son of William Longsword, r. 942–996)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "932–996 CE",
+      "role": "3rd Duke of Normandy",
+      "sources": [
+        "William of Jumièges"
+      ],
+      "notes": "Father of Richard II and Emma of Normandy (Queen of Ethelred II & Canute!).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_richard2_normandy",
+      "name": "Duke Richard II the Good of Normandy (Son of Richard I, r. 996–1026 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 963–1026 CE",
+      "role": "4th Duke of Normandy",
+      "sources": [
+        "William of Jumièges"
+      ],
+      "notes": "Father of Robert I the Magnificent.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_robert1_normandy",
+      "name": "Duke Robert I the Magnificent of Normandy (r. 1027–1035; Father of William the Conqueror)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1000–1035 CE",
+      "role": "Father of William the Conqueror",
+      "sources": [
+        "Orderic Vitalis"
+      ],
+      "notes": "Son of Richard II; fathered William I of England with Herleva of Falaise.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_harald_hardrada",
+      "name": "King Harald III Hardrada of Norway (+ Elizabeth of Kiev, r. 1046–1066 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1015–1066 CE (Heimskringla)",
+      "role": "Varangian Commander & King of Norway",
+      "sources": [
+        "Heimskringla"
+      ],
+      "notes": "Married Elizabeth Yaroslavna of Kiev; fell at Stamford Bridge (1066 CE).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_brutus_troy",
+      "name": "Brutus of Troy (Son of Silvius; Legendary Founder of Britain, Geoffrey of Monmouth)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 14,
+      "era": "c. 1100 BCE trad. (Historia Regum Britanniae)",
+      "role": "Eponym of Britain",
+      "sources": [
+        "Geoffrey of Monmouth",
+        "Historia Brittonum"
+      ],
+      "notes": "Great-grandson of Aeneas; divided Britain among sons Locrinus, Camber & Albanactus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_locrinus",
+      "name": "King Locrinus of Loegria / England (Eldest Son of Brutus of Troy)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 14,
+      "era": "Geoffrey of Monmouth II.1",
+      "role": "Founder of England (Loegria)",
+      "sources": [
+        "Geoffrey of Monmouth"
+      ],
+      "notes": "Eldest son of Brutus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_camber",
+      "name": "King Camber of Cambria / Wales (Son of Brutus of Troy)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 14,
+      "era": "Geoffrey of Monmouth II.1",
+      "role": "Eponym of Wales (Cymru/Cambria)",
+      "sources": [
+        "Geoffrey of Monmouth"
+      ],
+      "notes": "2nd son of Brutus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_albanactus",
+      "name": "King Albanactus of Alba / Scotland (Youngest Son of Brutus of Troy)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 14,
+      "era": "Geoffrey of Monmouth II.1",
+      "role": "Eponym of Albany / Scotland",
+      "sources": [
+        "Geoffrey of Monmouth"
+      ],
+      "notes": "3rd son of Brutus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_king_lear",
+      "name": "King Leir / Lear of Britain (Father of Goneril, Regan & Cordelia)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 16,
+      "era": "c. 8th c. BCE trad. (Geoffrey of Monmouth II.11)",
+      "role": "Pre-Roman British King",
+      "sources": [
+        "Geoffrey of Monmouth"
+      ],
+      "notes": "8th-gen descendant of Locrinus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_beli_mawr",
+      "name": "King Beli Mawr ('Beli the Great', Progenitor of Welsh Royal Houses)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "1st c. BCE (Welsh Genealogies; Geoffrey)",
+      "role": "Father of Cassivellaunus & Lludd",
+      "sources": [
+        "Harleian Welsh Genealogies"
+      ],
+      "notes": "Key ancestral node of British and Welsh dynastic pedigrees.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_uther_pendragon",
+      "name": "King Uther Pendragon (Son of Constantine; Father of King Arthur)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "5th c. CE (Geoffrey of Monmouth VIII)",
+      "role": "Father of King Arthur",
+      "sources": [
+        "Geoffrey of Monmouth"
+      ],
+      "notes": "Brother of Aurelius Ambrosius; father of King Arthur.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_king_arthur",
+      "name": "King Arthur of Britain (+ Queen Guinevere, Geoffrey of Monmouth IX–XI)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 500 CE (Historia Brittonum; Geoffrey)",
+      "role": "Sovereign of Camelot & Britain",
+      "sources": [
+        "Geoffrey of Monmouth",
+        "Historia Brittonum"
+      ],
+      "notes": "Hero-king of post-Roman Britain.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_hengist",
+      "name": "King Hengist of Kent (Leader of Anglo-Saxon Arrival, c. 449 CE; Bede HE I.15)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. 488 CE (Bede Ecclesiastical History)",
+      "role": "Founder of Kingdom of Kent",
+      "sources": [
+        "Bede HE I.15",
+        "Anglo-Saxon Chronicle"
+      ],
+      "notes": "Jutish commander tracing pedigree to Woden.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_cerdic_wessex",
+      "name": "King Cerdic of Wessex (r. 519–534 CE; Direct Male Ancestor of English Kings)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. 534 CE (Anglo-Saxon Chronicle)",
+      "role": "Founder of House of Wessex",
+      "sources": [
+        "Anglo-Saxon Chronicle",
+        "Asser"
+      ],
+      "notes": "Ancestor of Egbert, Alfred the Great & the modern British monarchy.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_rurik",
+      "name": "Prince Rurik of Novgorod (r. 862–879 CE; Founder of Rurikid Dynasty)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "d. 879 CE (Russian Primary Chronicle)",
+      "role": "Founder of Kievan Rus'",
+      "sources": [
+        "Russian Primary Chronicle"
+      ],
+      "notes": "Varangian prince invited to rule Novgorod in 862 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_igor_kiev",
+      "name": "Grand Prince Igor' of Kiev (Son of Rurik, r. 912–945 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "d. 945 CE (Russian Primary Chronicle)",
+      "role": "Son of Rurik & Father of Svyatoslav",
+      "sources": [
+        "Russian Primary Chronicle"
+      ],
+      "notes": "Married St. Olga of Kiev.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_st_olga",
+      "name": "Princess St. Olga of Kiev (Regent, 945–960 CE; First Christian Rurikid Sovereign)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 890–969 CE (Russian Primary Chronicle)",
+      "role": "Equal-to-the-Apostles Matriarch of Rus'",
+      "sources": [
+        "Russian Primary Chronicle"
+      ],
+      "notes": "Baptized in Constantinople (957 CE); grandmother of St. Vladimir.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_anne_of_kiev",
+      "name": "Queen Anne Yaroslavna of Kiev (Daughter of Yaroslav; Wife of King Henry I of France)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1030–1075 CE (Capetian Chronicles)",
+      "role": "Queen of France Linking Kiev to Capetians",
+      "sources": [
+        "Capetian Chronicles",
+        "Primary Chronicle"
+      ],
+      "notes": "Daughter of Yaroslav the Wise & Ingegerd of Sweden; ancestral mother of Capetian France & European royalty!",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_anastasia_kiev",
+      "name": "Queen Anastasia Yaroslavna of Hungary (Daughter of Yaroslav; Wife of Andrew I)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1023–1094 CE",
+      "role": "Queen Consort of Hungary",
+      "sources": [
+        "Hungarian Chronicles"
+      ],
+      "notes": "Mother of King Solomon of Hungary.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_elizabeth_kiev",
+      "name": "Queen Elizabeth Yaroslavna of Norway (Daughter of Yaroslav; Wife of Harald Hardrada)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1025–1067 CE",
+      "role": "Queen of Norway",
+      "sources": [
+        "Heimskringla"
+      ],
+      "notes": "Daughter of Yaroslav the Wise who wed Harald Hardrada.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_vsevolod1_kiev",
+      "name": "Grand Prince Vsevolod I of Kiev (Son of Yaroslav the Wise; + Byzantine Princess Anastasia Monomachina)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1030–1093 CE (Primary Chronicle)",
+      "role": "Son of Yaroslav & Father of Vladimir Monomakh",
+      "sources": [
+        "Russian Primary Chronicle"
+      ],
+      "notes": "Married Byzantine imperial princess of the Monomachos house.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_vladimir_monomakh",
+      "name": "Grand Prince Vladimir II Monomakh of Kiev (+ Gytha of Wessex, Dau. of King Harold II, r. 1113–1125)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1053–1125 CE (Primary Chronicle)",
+      "role": "Rurikid-Byzantine-Wessex Unifier",
+      "sources": [
+        "Russian Primary Chronicle"
+      ],
+      "notes": "Married Princess Gytha of England (daughter of Harold Godwinson!), uniting Kievan Rus', Byzantium & Anglo-Saxon England!",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur5_yuri_dolgoruky",
+      "name": "Grand Prince Yuri Dolgoruky ('Long-Arm', Son of Vladimir Monomakh; Founder of Moscow 1147)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1099–1157 CE (Russian Chronicles)",
+      "role": "Founder of Moscow & Grandfather of Nevsky",
+      "sources": [
+        "Laurentian Chronicle"
+      ],
+      "notes": "Mentioned in 1147 CE as founder of Moscow; grandfather of St. Alexander Nevsky.",
+      "major": false,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "indr_ay2_32_king_dasharatha_gen_64",
+      "to": "ind5_lord_rama",
+      "type": "direct",
+      "label": "Dasharatha -> eldest son Lord Rama"
+    },
+    {
+      "from": "indr_ay2_32_king_dasharatha_gen_64",
+      "to": "ind5_bharata_ram",
+      "type": "direct",
+      "label": "Dasharatha -> Bharata"
+    },
+    {
+      "from": "indr_ay2_32_king_dasharatha_gen_64",
+      "to": "ind5_lakshmana",
+      "type": "direct",
+      "label": "Dasharatha -> Lakshmana"
+    },
+    {
+      "from": "indr_ay2_32_king_dasharatha_gen_64",
+      "to": "ind5_shatrughna",
+      "type": "direct",
+      "label": "Dasharatha -> Shatrughna"
+    },
+    {
+      "from": "indr_ail_02_siradhvaja_janaka_father_of_",
+      "to": "ind5_goddess_sita",
+      "type": "direct",
+      "label": "Siradhvaja Janaka -> Sita"
+    },
+    {
+      "from": "ind5_lord_rama",
+      "to": "ind5_goddess_sita",
+      "type": "direct",
+      "label": "Marriage of Rama & Sita"
+    },
+    {
+      "from": "ind5_lord_rama",
+      "to": "ind5_lava",
+      "type": "direct",
+      "label": "Rama & Sita -> twin Lava"
+    },
+    {
+      "from": "ind5_goddess_sita",
+      "to": "ind5_lava",
+      "type": "direct",
+      "label": "Mother Sita -> Lava"
+    },
+    {
+      "from": "ind5_lord_rama",
+      "to": "ind5_kusha",
+      "type": "direct",
+      "label": "Rama & Sita -> twin Kusha"
+    },
+    {
+      "from": "ind5_goddess_sita",
+      "to": "ind5_kusha",
+      "type": "direct",
+      "label": "Mother Sita -> Kusha"
+    },
+    {
+      "from": "ind5_kusha",
+      "to": "ind_ayodhya_late_66_95",
+      "type": "direct",
+      "label": "Kusha -> Post-Rama Solar Spine"
+    },
+    {
+      "from": "ved_bharata_kuru",
+      "to": "ind5_yudhishthira",
+      "type": "direct",
+      "label": "Pandu & Kunti -> Yudhishthira"
+    },
+    {
+      "from": "ved_bharata_kuru",
+      "to": "ind5_bhima",
+      "type": "direct",
+      "label": "Pandu & Kunti -> Bhima"
+    },
+    {
+      "from": "ved_bharata_kuru",
+      "to": "ind5_arjuna",
+      "type": "direct",
+      "label": "Pandu & Kunti -> Arjuna"
+    },
+    {
+      "from": "ved_bharata_kuru",
+      "to": "ind5_nakula",
+      "type": "direct",
+      "label": "Pandu & Madri -> Nakula"
+    },
+    {
+      "from": "ved_bharata_kuru",
+      "to": "ind5_sahadeva",
+      "type": "direct",
+      "label": "Pandu & Madri -> Sahadeva"
+    },
+    {
+      "from": "ved_kauravas",
+      "to": "ind5_duryodhana",
+      "type": "direct",
+      "label": "Dhritarashtra & Gandhari -> Duryodhana"
+    },
+    {
+      "from": "ind5_arjuna",
+      "to": "ind5_abhimanyu",
+      "type": "direct",
+      "label": "Arjuna & Subhadra -> Abhimanyu"
+    },
+    {
+      "from": "ind5_abhimanyu",
+      "to": "ind5_parikshit",
+      "type": "direct",
+      "label": "Abhimanyu & Uttara -> Parikshit"
+    },
+    {
+      "from": "ind5_parikshit",
+      "to": "ind5_janamejaya",
+      "type": "direct",
+      "label": "Parikshit -> Janamejaya"
+    },
+    {
+      "from": "ind5_janamejaya",
+      "to": "ved_parikshit_janamejaya",
+      "type": "direct",
+      "label": "Janamejaya individual -> Post-War Kuru anchor"
+    },
+    {
+      "from": "ved_maurya_ashoka",
+      "to": "ind5_chandragupta_maurya",
+      "type": "direct",
+      "label": "Mauryan Imperial Succession"
+    },
+    {
+      "from": "ind5_chandragupta_maurya",
+      "to": "ind5_bindusara",
+      "type": "direct",
+      "label": "Mauryan Imperial Succession"
+    },
+    {
+      "from": "ind5_bindusara",
+      "to": "ind5_emperor_ashoka",
+      "type": "direct",
+      "label": "Mauryan Imperial Succession"
+    },
+    {
+      "from": "ind5_emperor_ashoka",
+      "to": "ind5_mahendra_sanghamitta",
+      "type": "direct",
+      "label": "Mauryan Imperial Succession"
+    },
+    {
+      "from": "ind_gupta_golden_age",
+      "to": "ind5_sri_gupta",
+      "type": "direct",
+      "label": "Gupta Imperial Succession"
+    },
+    {
+      "from": "ind5_sri_gupta",
+      "to": "ind5_chandragupta1",
+      "type": "direct",
+      "label": "Gupta Imperial Succession"
+    },
+    {
+      "from": "ind5_chandragupta1",
+      "to": "ind5_samudragupta",
+      "type": "direct",
+      "label": "Gupta Imperial Succession"
+    },
+    {
+      "from": "ind5_samudragupta",
+      "to": "ind5_chandragupta2",
+      "type": "direct",
+      "label": "Gupta Imperial Succession"
+    },
+    {
+      "from": "ind5_chandragupta2",
+      "to": "ind5_kumaragupta1",
+      "type": "direct",
+      "label": "Gupta Imperial Succession"
+    },
+    {
+      "from": "ind5_kumaragupta1",
+      "to": "ind5_skandagupta",
+      "type": "direct",
+      "label": "Gupta Imperial Succession"
+    },
+    {
+      "from": "ceylon_vijaya_mahinda",
+      "to": "ind5_vijaya_lanka",
+      "type": "direct",
+      "label": "Sinhalese Mahavamsa Succession"
+    },
+    {
+      "from": "ind5_vijaya_lanka",
+      "to": "ind5_pandukabhaya",
+      "type": "direct",
+      "label": "Sinhalese Mahavamsa Succession"
+    },
+    {
+      "from": "ind5_pandukabhaya",
+      "to": "ind5_devanampiya_tissa",
+      "type": "direct",
+      "label": "Sinhalese Mahavamsa Succession"
+    },
+    {
+      "from": "ind5_devanampiya_tissa",
+      "to": "ind5_dutugemunu",
+      "type": "direct",
+      "label": "Sinhalese Mahavamsa Succession"
+    },
+    {
+      "from": "ind5_mahendra_sanghamitta",
+      "to": "ind5_devanampiya_tissa",
+      "type": "cognate",
+      "label": "Ashoka's children Mahinda & Sanghamitta convert King Devanampiya Tissa"
+    },
+    {
+      "from": "tib_nyatri_songtsen",
+      "to": "ind5_nyatri_tsenpo",
+      "type": "direct",
+      "label": "Yarlung Tibetan Imperial Succession"
+    },
+    {
+      "from": "ind5_nyatri_tsenpo",
+      "to": "ind5_songtsen_gampo",
+      "type": "direct",
+      "label": "Yarlung Tibetan Imperial Succession"
+    },
+    {
+      "from": "ind5_songtsen_gampo",
+      "to": "ind5_trisong_detsen",
+      "type": "direct",
+      "label": "Yarlung Tibetan Imperial Succession"
+    },
+    {
+      "from": "ind5_trisong_detsen",
+      "to": "ind5_ralpacan",
+      "type": "direct",
+      "label": "Yarlung Tibetan Imperial Succession"
+    },
+    {
+      "from": "chn_boyi_qin",
+      "to": "eas5_qin_shi_huang",
+      "type": "direct",
+      "label": "Qin royal house -> Qin Shi Huang"
+    },
+    {
+      "from": "chn_han_tang_empires",
+      "to": "eas5_han_gaozu",
+      "type": "direct",
+      "label": "Han Dynasty Imperial Succession"
+    },
+    {
+      "from": "eas5_han_gaozu",
+      "to": "eas5_han_wen",
+      "type": "direct",
+      "label": "Han Dynasty Imperial Succession"
+    },
+    {
+      "from": "eas5_han_wen",
+      "to": "eas5_han_jing",
+      "type": "direct",
+      "label": "Han Dynasty Imperial Succession"
+    },
+    {
+      "from": "eas5_han_jing",
+      "to": "eas5_han_wudi",
+      "type": "direct",
+      "label": "Han Dynasty Imperial Succession"
+    },
+    {
+      "from": "eas5_han_wudi",
+      "to": "eas5_han_guangwu",
+      "type": "direct",
+      "label": "Han Dynasty Imperial Succession"
+    },
+    {
+      "from": "chn_han_tang_empires",
+      "to": "eas5_tang_gaozu",
+      "type": "direct",
+      "label": "Tang Imperial Succession"
+    },
+    {
+      "from": "eas5_tang_gaozu",
+      "to": "eas5_tang_taizong",
+      "type": "direct",
+      "label": "Tang Imperial Succession"
+    },
+    {
+      "from": "eas5_tang_taizong",
+      "to": "eas5_tang_gaozong",
+      "type": "direct",
+      "label": "Tang Imperial Succession"
+    },
+    {
+      "from": "eas5_tang_gaozong",
+      "to": "eas5_tang_xuanzong",
+      "type": "direct",
+      "label": "Tang Imperial Succession"
+    },
+    {
+      "from": "eas5_tang_gaozong",
+      "to": "eas5_wu_zetian",
+      "type": "direct",
+      "label": "Consort & Co-Ruler Wu Zetian"
+    },
+    {
+      "from": "eas5_wu_zetian",
+      "to": "eas5_tang_xuanzong",
+      "type": "direct",
+      "label": "Grandmother Wu Zetian -> Emperor Tang Xuanzong"
+    },
+    {
+      "from": "eas5_tang_taizong",
+      "to": "ind5_songtsen_gampo",
+      "type": "cognate",
+      "label": "Tang Taizong arranges Princess Wencheng marriage to Emperor Songtsen Gampo"
+    },
+    {
+      "from": "eas5_tang_xuanzong",
+      "to": "eas5_song_taizu",
+      "type": "expansion",
+      "label": "Tang -> Five Dynasties -> Emperor Song Taizu"
+    },
+    {
+      "from": "eas5_song_taizu",
+      "to": "eas5_ming_hongwu",
+      "type": "expansion",
+      "label": "Later Chinese Imperial Continuity"
+    },
+    {
+      "from": "eas5_ming_hongwu",
+      "to": "eas5_ming_yongle",
+      "type": "expansion",
+      "label": "Later Chinese Imperial Continuity"
+    },
+    {
+      "from": "eas5_ming_yongle",
+      "to": "chn_ming_qing_manchu",
+      "type": "expansion",
+      "label": "Ming imperial era -> Qing / Manchu transition"
+    },
+    {
+      "from": "chn_ming_qing_manchu",
+      "to": "eas5_qing_nurhaci",
+      "type": "direct",
+      "label": "Qing Aisin Gioro Imperial Succession"
+    },
+    {
+      "from": "eas5_qing_nurhaci",
+      "to": "eas5_qing_hong_taiji",
+      "type": "direct",
+      "label": "Qing Aisin Gioro Imperial Succession"
+    },
+    {
+      "from": "eas5_qing_hong_taiji",
+      "to": "eas5_qing_shunzhi",
+      "type": "direct",
+      "label": "Qing Aisin Gioro Imperial Succession"
+    },
+    {
+      "from": "eas5_qing_shunzhi",
+      "to": "eas5_qing_kangxi",
+      "type": "direct",
+      "label": "Qing Aisin Gioro Imperial Succession"
+    },
+    {
+      "from": "eas5_qing_kangxi",
+      "to": "eas5_qing_yongzheng",
+      "type": "direct",
+      "label": "Qing Aisin Gioro Imperial Succession"
+    },
+    {
+      "from": "eas5_qing_yongzheng",
+      "to": "eas5_qing_qianlong",
+      "type": "direct",
+      "label": "Qing Aisin Gioro Imperial Succession"
+    },
+    {
+      "from": "kor_jumong",
+      "to": "eas5_gwanggaeto",
+      "type": "direct",
+      "label": "Goguryeo Royal Succession"
+    },
+    {
+      "from": "kor_hyeokgeose_silla",
+      "to": "eas5_queen_seondeok",
+      "type": "expansion",
+      "label": "Korean Royal Dynasties"
+    },
+    {
+      "from": "eas5_queen_seondeok",
+      "to": "eas5_king_munmu",
+      "type": "expansion",
+      "label": "Korean Royal Dynasties"
+    },
+    {
+      "from": "eas5_king_munmu",
+      "to": "eas5_wang_geon_goryeo",
+      "type": "expansion",
+      "label": "Korean Royal Dynasties"
+    },
+    {
+      "from": "eas5_wang_geon_goryeo",
+      "to": "eas5_taejo_joseon",
+      "type": "expansion",
+      "label": "Korean Royal Dynasties"
+    },
+    {
+      "from": "eas5_taejo_joseon",
+      "to": "eas5_king_sejong",
+      "type": "expansion",
+      "label": "Korean Royal Dynasties"
+    },
+    {
+      "from": "kor_hulbert_three_kingdoms",
+      "to": "eas5_gwanggaeto",
+      "type": "direct",
+      "label": "Hulbert Three Kingdoms -> Gwanggaeto the Great"
+    },
+    {
+      "from": "abg_turk_alanja",
+      "to": "stp5_turk",
+      "type": "direct",
+      "label": "Abulghazi Steppe Patrilineal Line"
+    },
+    {
+      "from": "stp5_turk",
+      "to": "stp5_taunak",
+      "type": "direct",
+      "label": "Abulghazi Steppe Patrilineal Line"
+    },
+    {
+      "from": "stp5_taunak",
+      "to": "stp5_ilchi",
+      "type": "direct",
+      "label": "Abulghazi Steppe Patrilineal Line"
+    },
+    {
+      "from": "stp5_ilchi",
+      "to": "stp5_dib_bakuy",
+      "type": "direct",
+      "label": "Abulghazi Steppe Patrilineal Line"
+    },
+    {
+      "from": "stp5_dib_bakuy",
+      "to": "stp5_kayuk",
+      "type": "direct",
+      "label": "Abulghazi Steppe Patrilineal Line"
+    },
+    {
+      "from": "stp5_kayuk",
+      "to": "stp5_alanja_khan",
+      "type": "direct",
+      "label": "Abulghazi Steppe Patrilineal Line"
+    },
+    {
+      "from": "stp5_alanja_khan",
+      "to": "stp5_mogul_khan",
+      "type": "direct",
+      "label": "Abulghazi Steppe Patrilineal Line"
+    },
+    {
+      "from": "stp5_mogul_khan",
+      "to": "stp5_qara_khan",
+      "type": "direct",
+      "label": "Abulghazi Steppe Patrilineal Line"
+    },
+    {
+      "from": "stp5_qara_khan",
+      "to": "stp5_oghuz_khan",
+      "type": "direct",
+      "label": "Abulghazi Steppe Patrilineal Line"
+    },
+    {
+      "from": "stp5_alanja_khan",
+      "to": "stp5_tatar_khan",
+      "type": "direct",
+      "label": "Alanja -> twin son Tatar Khan"
+    },
+    {
+      "from": "abg_tatar_mogul_twins",
+      "to": "stp5_tatar_khan",
+      "type": "direct",
+      "label": "Abulghazi twins -> Tatar"
+    },
+    {
+      "from": "abg_tatar_mogul_twins",
+      "to": "stp5_mogul_khan",
+      "type": "direct",
+      "label": "Abulghazi twins -> Mogul"
+    },
+    {
+      "from": "stp5_oghuz_khan",
+      "to": "stp5_gun_khan",
+      "type": "direct",
+      "label": "Oghuz Khagan -> 6 Sons"
+    },
+    {
+      "from": "stp_oghuz_six",
+      "to": "stp5_gun_khan",
+      "type": "direct",
+      "label": "6 Sons anchor -> individual son"
+    },
+    {
+      "from": "stp5_oghuz_khan",
+      "to": "stp5_ay_khan",
+      "type": "direct",
+      "label": "Oghuz Khagan -> 6 Sons"
+    },
+    {
+      "from": "stp_oghuz_six",
+      "to": "stp5_ay_khan",
+      "type": "direct",
+      "label": "6 Sons anchor -> individual son"
+    },
+    {
+      "from": "stp5_oghuz_khan",
+      "to": "stp5_yildiz_khan",
+      "type": "direct",
+      "label": "Oghuz Khagan -> 6 Sons"
+    },
+    {
+      "from": "stp_oghuz_six",
+      "to": "stp5_yildiz_khan",
+      "type": "direct",
+      "label": "6 Sons anchor -> individual son"
+    },
+    {
+      "from": "stp5_oghuz_khan",
+      "to": "stp5_gok_khan",
+      "type": "direct",
+      "label": "Oghuz Khagan -> 6 Sons"
+    },
+    {
+      "from": "stp_oghuz_six",
+      "to": "stp5_gok_khan",
+      "type": "direct",
+      "label": "6 Sons anchor -> individual son"
+    },
+    {
+      "from": "stp5_oghuz_khan",
+      "to": "stp5_dag_khan",
+      "type": "direct",
+      "label": "Oghuz Khagan -> 6 Sons"
+    },
+    {
+      "from": "stp_oghuz_six",
+      "to": "stp5_dag_khan",
+      "type": "direct",
+      "label": "6 Sons anchor -> individual son"
+    },
+    {
+      "from": "stp5_oghuz_khan",
+      "to": "stp5_deniz_khan",
+      "type": "direct",
+      "label": "Oghuz Khagan -> 6 Sons"
+    },
+    {
+      "from": "stp_oghuz_six",
+      "to": "stp5_deniz_khan",
+      "type": "direct",
+      "label": "6 Sons anchor -> individual son"
+    },
+    {
+      "from": "stp5_deniz_khan",
+      "to": "stp5_seljuk",
+      "type": "expansion",
+      "label": "Oghuz Kınık lineage -> Seljuk Beg"
+    },
+    {
+      "from": "sel_tughril_alparslan",
+      "to": "stp5_seljuk",
+      "type": "direct",
+      "label": "Seljuk anchor -> Seljuk Beg"
+    },
+    {
+      "from": "stp5_seljuk",
+      "to": "stp5_mikail",
+      "type": "direct",
+      "label": "Seljuk -> son Mikail"
+    },
+    {
+      "from": "stp5_mikail",
+      "to": "stp5_tughril_beg",
+      "type": "direct",
+      "label": "Mikail -> son Tughril Beg"
+    },
+    {
+      "from": "stp5_mikail",
+      "to": "stp5_chaghri_beg",
+      "type": "direct",
+      "label": "Mikail -> son Chaghri Beg"
+    },
+    {
+      "from": "stp5_chaghri_beg",
+      "to": "stp5_alp_arslan",
+      "type": "direct",
+      "label": "Chaghri Beg -> son Alp Arslan"
+    },
+    {
+      "from": "stp5_alp_arslan",
+      "to": "stp5_malik_shah1",
+      "type": "direct",
+      "label": "Alp Arslan -> son Malik-Shah I"
+    },
+    {
+      "from": "stp5_gun_khan",
+      "to": "stp5_suleyman_shah",
+      "type": "expansion",
+      "label": "Oghuz Kayi tribe -> Süleyman Shah"
+    },
+    {
+      "from": "ott_osman_ertughrul",
+      "to": "stp5_suleyman_shah",
+      "type": "direct",
+      "label": "Ottoman founders anchor -> Süleyman Shah"
+    },
+    {
+      "from": "stp5_suleyman_shah",
+      "to": "stp5_ertugrul",
+      "type": "direct",
+      "label": "Süleyman Shah -> son Ertuğrul Ghazi"
+    },
+    {
+      "from": "stp5_ertugrul",
+      "to": "mon_ott_osman1",
+      "type": "direct",
+      "label": "Ertuğrul Ghazi -> Sultan Osman I"
+    },
+    {
+      "from": "irl_baath_fenius",
+      "to": "eur5_fenius_farsa",
+      "type": "direct",
+      "label": "Gaelic Milesian Pedigree"
+    },
+    {
+      "from": "eur5_fenius_farsa",
+      "to": "eur5_niul",
+      "type": "direct",
+      "label": "Gaelic Milesian Pedigree"
+    },
+    {
+      "from": "eur5_niul",
+      "to": "eur5_goidel_glas",
+      "type": "direct",
+      "label": "Gaelic Milesian Pedigree"
+    },
+    {
+      "from": "eur5_goidel_glas",
+      "to": "eur5_breogan",
+      "type": "direct",
+      "label": "Gaelic Milesian Pedigree"
+    },
+    {
+      "from": "eur5_breogan",
+      "to": "eur5_bile",
+      "type": "direct",
+      "label": "Gaelic Milesian Pedigree"
+    },
+    {
+      "from": "eur5_bile",
+      "to": "eur5_mil_espaine",
+      "type": "direct",
+      "label": "Gaelic Milesian Pedigree"
+    },
+    {
+      "from": "eur5_mil_espaine",
+      "to": "eur5_eremon",
+      "type": "direct",
+      "label": "Gaelic Milesian Pedigree"
+    },
+    {
+      "from": "eur5_eremon",
+      "to": "eur5_conn_hundred_battles",
+      "type": "direct",
+      "label": "Gaelic Milesian Pedigree"
+    },
+    {
+      "from": "eur5_conn_hundred_battles",
+      "to": "eur5_cormac_mac_airt",
+      "type": "direct",
+      "label": "Gaelic Milesian Pedigree"
+    },
+    {
+      "from": "eur5_cormac_mac_airt",
+      "to": "eur5_niall_nine_hostages",
+      "type": "direct",
+      "label": "Gaelic Milesian Pedigree"
+    },
+    {
+      "from": "eur5_scota",
+      "to": "eur5_goidel_glas",
+      "type": "direct",
+      "label": "Mother Princess Scota -> Goídel Glas"
+    },
+    {
+      "from": "eur5_mil_espaine",
+      "to": "eur5_eber_finn",
+      "type": "direct",
+      "label": "Míl Espáine -> son Éber Finn"
+    },
+    {
+      "from": "eur5_mil_espaine",
+      "to": "eur5_ir",
+      "type": "direct",
+      "label": "Míl Espáine -> son Ír"
+    },
+    {
+      "from": "eur5_mil_espaine",
+      "to": "eur5_amairgin",
+      "type": "direct",
+      "label": "Míl Espáine -> poet son Amairgin"
+    },
+    {
+      "from": "eur5_niall_nine_hostages",
+      "to": "eur5_eogan_oneill",
+      "type": "direct",
+      "label": "Niall -> Eógan (O'Neill)"
+    },
+    {
+      "from": "eur5_niall_nine_hostages",
+      "to": "eur5_conall_gulban",
+      "type": "direct",
+      "label": "Niall -> Conall Gulban (O'Donnell/Columba)"
+    },
+    {
+      "from": "eur5_eber_finn",
+      "to": "eur5_brian_boru",
+      "type": "expansion",
+      "label": "Éber Finn -> Cormac Cas -> Brian Boru"
+    },
+    {
+      "from": "eur5_eremon",
+      "to": "eur5_fergus_mor",
+      "type": "expansion",
+      "label": "Éremón -> Cairbre Riada -> Fergus Mór mac Eirc"
+    },
+    {
+      "from": "sco_fergus_macalpin",
+      "to": "eur5_fergus_mor",
+      "type": "direct",
+      "label": "Scottish anchor -> Fergus Mór"
+    },
+    {
+      "from": "eur5_fergus_mor",
+      "to": "eur5_kenneth_macalpin",
+      "type": "direct",
+      "label": "Fergus Mór -> Kenneth I MacAlpin"
+    },
+    {
+      "from": "eur5_kenneth_macalpin",
+      "to": "eur5_malcolm3",
+      "type": "direct",
+      "label": "Kenneth MacAlpin -> Malcolm II -> Malcolm III Canmore"
+    },
+    {
+      "from": "eur5_malcolm3",
+      "to": "eur5_robert_bruce",
+      "type": "direct",
+      "label": "Malcolm III -> David I -> Earl David -> Isobel -> Robert the Bruce"
+    },
+    {
+      "from": "eur_ynglings_skjoldungs",
+      "to": "eur5_yngvi_freyr",
+      "type": "direct",
+      "label": "Yngling anchor -> Yngvi-Freyr"
+    },
+    {
+      "from": "eur5_yngvi_freyr",
+      "to": "eur5_harald_fairhair",
+      "type": "direct",
+      "label": "Ynglings -> Halfdan the Black -> Harald Fairhair"
+    },
+    {
+      "from": "eur5_harald_fairhair",
+      "to": "eur5_harald_hardrada",
+      "type": "direct",
+      "label": "Harald Fairhair -> Sigurd Syr -> Harald Hardrada"
+    },
+    {
+      "from": "eur_ynglings_skjoldungs",
+      "to": "eur5_skjoldr",
+      "type": "direct",
+      "label": "Skjöldung anchor -> Skjöldr"
+    },
+    {
+      "from": "eur5_skjoldr",
+      "to": "eur5_ragnar_lodbrok",
+      "type": "expansion",
+      "label": "Skjöldung line -> Sigurd Hring -> Ragnar Lodbrok"
+    },
+    {
+      "from": "eur5_ragnar_lodbrok",
+      "to": "eur5_bjorn_ironside",
+      "type": "direct",
+      "label": "Ragnar -> Björn Ironside"
+    },
+    {
+      "from": "eur5_ragnar_lodbrok",
+      "to": "eur5_ivar_boneless",
+      "type": "direct",
+      "label": "Ragnar -> Ivar the Boneless"
+    },
+    {
+      "from": "eur5_ragnar_lodbrok",
+      "to": "eur5_sigurd_snake_eye",
+      "type": "direct",
+      "label": "Ragnar -> Sigurd Snake-in-the-Eye"
+    },
+    {
+      "from": "eur5_sigurd_snake_eye",
+      "to": "mon_eng_canute",
+      "type": "direct",
+      "label": "Sigurd -> Harthacnut -> Gorm -> Sweyn -> King Canute"
+    },
+    {
+      "from": "eur5_harald_fairhair",
+      "to": "eur5_rollo_normandy",
+      "type": "expansion",
+      "label": "Norwegian Jarls of Møre (contemporary/kin of Fairhair) -> Duke Rollo of Normandy"
+    },
+    {
+      "from": "eur5_rollo_normandy",
+      "to": "eur5_william_longsword",
+      "type": "direct",
+      "label": "Ducal House of Normandy to William the Conqueror"
+    },
+    {
+      "from": "eur5_william_longsword",
+      "to": "eur5_richard1_normandy",
+      "type": "direct",
+      "label": "Ducal House of Normandy to William the Conqueror"
+    },
+    {
+      "from": "eur5_richard1_normandy",
+      "to": "eur5_richard2_normandy",
+      "type": "direct",
+      "label": "Ducal House of Normandy to William the Conqueror"
+    },
+    {
+      "from": "eur5_richard2_normandy",
+      "to": "eur5_robert1_normandy",
+      "type": "direct",
+      "label": "Ducal House of Normandy to William the Conqueror"
+    },
+    {
+      "from": "eur5_robert1_normandy",
+      "to": "mon_eng_william1",
+      "type": "direct",
+      "label": "Ducal House of Normandy to William the Conqueror"
+    },
+    {
+      "from": "eur_brutus_troy",
+      "to": "eur5_brutus_troy",
+      "type": "direct",
+      "label": "Brutus anchor -> Brutus of Troy"
+    },
+    {
+      "from": "eur5_brutus_troy",
+      "to": "eur5_locrinus",
+      "type": "direct",
+      "label": "Brutus -> Locrinus (England)"
+    },
+    {
+      "from": "eur5_brutus_troy",
+      "to": "eur5_camber",
+      "type": "direct",
+      "label": "Brutus -> Camber (Wales)"
+    },
+    {
+      "from": "eur5_brutus_troy",
+      "to": "eur5_albanactus",
+      "type": "direct",
+      "label": "Brutus -> Albanactus (Scotland)"
+    },
+    {
+      "from": "eur5_locrinus",
+      "to": "eur5_king_lear",
+      "type": "direct",
+      "label": "Locrinus -> Bladud -> King Leir"
+    },
+    {
+      "from": "eur_king_arthur",
+      "to": "eur5_king_lear",
+      "type": "direct",
+      "label": "Arthurian anchor -> King Leir"
+    },
+    {
+      "from": "eur5_king_lear",
+      "to": "eur5_beli_mawr",
+      "type": "expansion",
+      "label": "British royal succession -> Beli Mawr"
+    },
+    {
+      "from": "eur5_beli_mawr",
+      "to": "eur5_uther_pendragon",
+      "type": "expansion",
+      "label": "Beli Mawr -> Constantine -> Uther Pendragon"
+    },
+    {
+      "from": "eur5_uther_pendragon",
+      "to": "eur5_king_arthur",
+      "type": "direct",
+      "label": "Uther Pendragon -> King Arthur"
+    },
+    {
+      "from": "bri_bede_heptarchy_woden",
+      "to": "eur5_hengist",
+      "type": "direct",
+      "label": "Woden pedigree -> Hengist of Kent"
+    },
+    {
+      "from": "bri_bede_heptarchy_woden",
+      "to": "eur5_cerdic_wessex",
+      "type": "direct",
+      "label": "Woden pedigree -> Cerdic of Wessex"
+    },
+    {
+      "from": "eur5_cerdic_wessex",
+      "to": "mon_eng_egbert",
+      "type": "direct",
+      "label": "Cerdic -> Cynric -> Ceawlin -> Ealhmund -> King Egbert of Wessex"
+    },
+    {
+      "from": "rus_rurik_dynasty",
+      "to": "eur5_rurik",
+      "type": "direct",
+      "label": "Rurik anchor -> Prince Rurik"
+    },
+    {
+      "from": "eur5_rurik",
+      "to": "eur5_igor_kiev",
+      "type": "direct",
+      "label": "Rurik -> son Igor' of Kiev"
+    },
+    {
+      "from": "eur5_igor_kiev",
+      "to": "eur5_st_olga",
+      "type": "direct",
+      "label": "Marriage of Igor' & St. Olga"
+    },
+    {
+      "from": "eur5_igor_kiev",
+      "to": "rus_svyatoslav",
+      "type": "direct",
+      "label": "Igor' -> Svyatoslav I"
+    },
+    {
+      "from": "eur5_st_olga",
+      "to": "rus_svyatoslav",
+      "type": "direct",
+      "label": "Mother St. Olga -> Svyatoslav I"
+    },
+    {
+      "from": "rus_yaroslav_wise",
+      "to": "eur5_anne_of_kiev",
+      "type": "direct",
+      "label": "Yaroslav the Wise -> daughter Anne of Kiev"
+    },
+    {
+      "from": "eur5_anne_of_kiev",
+      "to": "mon_fra_henry1",
+      "type": "direct",
+      "label": "Marriage of Anne of Kiev & King Henry I of France"
+    },
+    {
+      "from": "rus_yaroslav_wise",
+      "to": "eur5_anastasia_kiev",
+      "type": "direct",
+      "label": "Yaroslav -> daughter Anastasia of Hungary"
+    },
+    {
+      "from": "rus_yaroslav_wise",
+      "to": "eur5_elizabeth_kiev",
+      "type": "direct",
+      "label": "Yaroslav -> daughter Elizabeth of Norway"
+    },
+    {
+      "from": "eur5_elizabeth_kiev",
+      "to": "eur5_harald_hardrada",
+      "type": "direct",
+      "label": "Marriage of Elizabeth of Kiev & Harald Hardrada"
+    },
+    {
+      "from": "rus_yaroslav_wise",
+      "to": "eur5_vsevolod1_kiev",
+      "type": "direct",
+      "label": "Yaroslav -> son Vsevolod I of Kiev"
+    },
+    {
+      "from": "eur5_vsevolod1_kiev",
+      "to": "eur5_vladimir_monomakh",
+      "type": "direct",
+      "label": "Vsevolod I -> Vladimir II Monomakh"
+    },
+    {
+      "from": "mon_eng_harold2",
+      "to": "eur5_vladimir_monomakh",
+      "type": "direct",
+      "label": "King Harold II -> Princess Gytha -> Vladimir Monomakh"
+    },
+    {
+      "from": "eur5_vladimir_monomakh",
+      "to": "eur5_yuri_dolgoruky",
+      "type": "direct",
+      "label": "Vladimir Monomakh -> Yuri Dolgoruky (Founder of Moscow)"
+    },
+    {
+      "from": "eur5_yuri_dolgoruky",
+      "to": "mon_rus_nevsky",
+      "type": "direct",
+      "label": "Yuri Dolgoruky -> Vsevolod Big Nest -> Yaroslav II -> St. Alexander Nevsky"
+    }
+  ]
+}
