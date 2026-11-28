@@ -52,6 +52,7 @@ from modules import (
     mod53_wave11_global_monarchs_queens_and_dynasties,
     mod54_wave12_remaining_sources_deep_mine,
     mod55_wave13_wales_china_seasia_iceland_samaritan_chronicles,
+    mod56_wave14_prophets_bochart_thucydides_polybius_caesar_mascou_francke,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1319,6 +1320,7 @@ def main():
         mod53_wave11_global_monarchs_queens_and_dynasties.build_module(),
         mod54_wave12_remaining_sources_deep_mine.build_module(),
         mod55_wave13_wales_china_seasia_iceland_samaritan_chronicles.build_module(),
+        mod56_wave14_prophets_bochart_thucydides_polybius_caesar_mascou_francke.build_module(),
     ]
 
     for mod in modules:
@@ -1399,8 +1401,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Wave 13 Wales, Shiji Hegemons, Stokvis SE Asia/India, Landnámabók & Chronologers (v30.0)",
-            "version": "30.0.0",
+            "title": "Ancient World Genealogy Atlas — Wave 14 Complete Source Library Sweep (v31.0)",
+            "version": "31.0.0",
             "counts": {
                 "total": len(all_nodes),
                 "biblicalConnected": bib_count,

@@ -236,6 +236,12 @@ def main():
         ("bib_japheth", "ice13_sturla_thordarson_snorri", {"direct", "expansion", "cognate", "syncretic"}, "Japheth -> Egill Skallagrimsson -> Snorri Sturluson (Landnamabok)"),
         ("bib_adam", "sam13_baba_rabba_samaria", {"direct", "expansion", "cognate", "syncretic"}, "Adam -> Joshua -> Uzzi -> Baba Rabba of Samaria (Gaster)"),
         ("bib_japheth", "chr13_fabius_maximus_cunctator", {"direct", "expansion", "cognate", "syncretic"}, "Japheth -> Scipio -> Fabius Maximus Cunctator (Basil Kennett)"),
+        ("bib_adam", "prp14_aristeas_seventy_two", {"direct", "expansion", "cognate", "syncretic"}, "Adam -> Ptolemy II -> Aristeas & 72 Septuagint Elders (R.H. Charles)"),
+        ("bib_noah", "bch14_bochart_gades_tartessus", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Canaan/Tarshish -> Phoenician Gades & Tartessus (Bochart)"),
+        ("bib_japheth", "thu14_pericles_aspasia", {"direct", "expansion", "cognate", "syncretic"}, "Japheth -> Themistocles -> Pericles & Aspasia (Thucydides)"),
+        ("bib_japheth", "ger14_arminius_cherusci", {"direct", "expansion", "cognate", "syncretic"}, "Japheth -> Augustus -> Arminius of the Cherusci (Mascou 1737)"),
+        ("bib_noah", "tib14_yeshe_o_guge", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Manu -> Nyima-Gon -> King Yeshe-O of Guge (Francke)"),
+        ("bib_japheth", "eur14_charles7_joan_of_arc", {"direct", "expansion", "cognate", "syncretic"}, "Japheth -> Charlemagne -> King Charles VII & Joan of Arc (Mezeray)"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")
