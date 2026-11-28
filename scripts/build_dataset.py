@@ -49,6 +49,7 @@ from modules import (
     mod50_wave8_byzantium_goths_franks_south_asia_ottomans,
     mod51_wave9_gaelic_welsh_roman_nubia_deccan_crusaders,
     mod52_wave10_islamic_africa_steppe_ane_living2026,
+    mod53_wave11_global_monarchs_queens_and_dynasties,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1313,6 +1314,7 @@ def main():
         mod50_wave8_byzantium_goths_franks_south_asia_ottomans.build_module(),
         mod51_wave9_gaelic_welsh_roman_nubia_deccan_crusaders.build_module(),
         mod52_wave10_islamic_africa_steppe_ane_living2026.build_module(),
+        mod53_wave11_global_monarchs_queens_and_dynasties.build_module(),
     ]
 
     for mod in modules:
@@ -1393,8 +1395,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Wave 10 Islamic Golden Age, Africa, Steppe, Biblical ANE & All 10 Living 2026 European Monarchies (v27.0)",
-            "version": "27.0.0",
+            "title": "Ancient World Genealogy Atlas — Wave 11 Fast-Canvas Engine, Royalty & Monarchs Tab & Global Living 2026 Crowns (v28.0)",
+            "version": "28.0.0",
             "counts": {
                 "total": len(all_nodes),
                 "biblicalConnected": bib_count,

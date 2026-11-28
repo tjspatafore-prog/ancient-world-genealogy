@@ -218,6 +218,12 @@ def main():
         ("eur9_william2_orange", "liv10_willem_alexander_2026", {"direct", "expansion", "cognate", "syncretic"}, "Orange-Nassau -> Living King Willem-Alexander of the Netherlands (2026)"),
         ("mon_eng_victoria", "liv10_harald5_haakon_2026", {"direct", "expansion", "cognate", "syncretic"}, "Queen Victoria -> Edward VII -> Queen Maud & Haakon VII -> Living King Harald V of Norway (2026)"),
         ("mon_por_john5", "liv10_emperor_pedro_brazil", {"direct", "expansion", "cognate", "syncretic"}, "Braganza Portugal -> Emperors Dom Pedro I & Dom Pedro II of Brazil"),
+        ("per4_achaemenes", "anc11_antiochus1_commagene", {"direct", "expansion", "cognate", "syncretic"}, "Achaemenes -> Antiochus I of Commagene (Dual Persian-Macedonian Royal Pedigree)"),
+        ("mon_rom_basil2", "roy11_tsar_simeon1_bulgaria", {"direct", "expansion", "cognate", "syncretic"}, "Byzantium -> Tsar Simeon I the Great of Bulgaria"),
+        ("eas5_tang_gaozu", "chn11_emperor_gaozong_wu_zetian", {"direct", "expansion", "cognate", "syncretic"}, "Tang Gaozu -> Empress Regnant Wu Zetian of China"),
+        ("unb_sea_mongkut_chulalongkorn", "asi11_thailand_rama10_2026", {"direct", "expansion", "cognate", "syncretic"}, "Chakri Siam -> King Bhumibol -> Living King Rama X of Thailand (2026)"),
+        ("bib_ishmael", "ara11_saudi_salman_mbs_2026", {"direct", "expansion", "cognate", "syncretic"}, "Ishmael -> House of Saud -> Living King Salman & MBS (2026)"),
+        ("mon_eng_victoria", "roy11_king_michael1_romania", {"direct", "expansion", "cognate", "syncretic"}, "Queen Victoria -> Queen Marie & King Michael I of Romania"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

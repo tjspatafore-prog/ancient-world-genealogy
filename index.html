@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ancient World Genealogy Atlas — Universal Biblical &amp; Noahic Lineages</title>
-  <meta name="description" content="Universal World Genealogy Atlas (v27.0 Wave 10 Complete World Royalty &amp; Living 2026 Edition): Fatimids, Ayyubids, Mamluks, Al-Andalus, Golden Age Polymaths, Ghana/Mali/Songhai/Sokoto/Kilwa, Ilkhanate/Golden Horde/Timurids, Tel Dan/Mesha/Urartu, All 10 Living 2026 European Monarchies &amp; Americas Gateways." />
+  <meta name="description" content="Universal World Genealogy Atlas (v28.0 Wave 11 Fast-Canvas Engine, Royalty &amp; Monarchs Tab &amp; Global Living 2026 Crowns): 60fps Canvas Tree, Dedicated Royalty &amp; Monarchs Index, Austria-Hungary, Balkans, China, South/SE Asia, Arabian Gulf &amp; Biblical Lineages." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :root {
@@ -45,16 +45,11 @@
     }
     * { box-sizing: border-box; }
     html, body { height: 100%; height: 100dvh; margin: 0; padding: 0; overflow: hidden; font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-    #treeSvg, #worldMapSvg { touch-action: none; }
-    .node-card { cursor: pointer; transition: opacity 0.18s ease, filter 0.15s ease; }
-    .node-card:hover { filter: brightness(1.1); }
-    .expand-pill { cursor: pointer; }
-    .expand-pill:hover rect { filter: brightness(1.2); }
-    .edge-path { fill: none; transition: opacity 0.18s ease, stroke-width 0.18s ease; cursor: pointer; }
-    .edge-path:hover { stroke-width: 3.5px !important; opacity: 1 !important; }
-    .map-pin { cursor: pointer; transition: transform 0.15s ease; }
+    #treeCanvas, #worldMapSvg { touch-action: none; }
+    #mapViewport { will-change: transform; }
+    .map-pin { cursor: pointer; }
     .map-pin:hover circle.pin-dot { r: 7.5; }
-    .map-arc { fill: none; cursor: pointer; transition: opacity 0.2s ease, stroke-width 0.2s ease; }
+    .map-arc { fill: none; cursor: pointer; }
     .map-arc:hover { stroke-width: 3.5px !important; opacity: 1 !important; }
     .thin-scroll::-webkit-scrollbar { width: 6px; height: 6px; }
     .thin-scroll::-webkit-scrollbar-track { background: transparent; }
@@ -74,7 +69,7 @@
           <h1 class="text-xs sm:text-sm font-semibold leading-tight truncate">Ancient World Genealogy Atlas</h1>
           <span id="versionBadge" class="text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono shrink-0">Loading…</span>
         </div>
-        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">Wave 10 Complete World Royalty &amp; Living 2026 Edition (v27.0) &bull; Tel Dan/Mesha ANE, Polymaths &amp; All 10 European Crowns</p>
+        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">Wave 11 Fast-Canvas Engine &amp; Global Crowns Edition (v28.0) &bull; Royalty Tab, 60fps Canvas &amp; Living 2026 Monarchs</p>
       </div>
     </div>
 
@@ -89,10 +84,11 @@
         <button onclick="setScope('all')" id="scope-all" class="text-xs px-2 sm:px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)] whitespace-nowrap" title="Show ALL world kings &amp; dynasties (connected + pending bridge)">All</button>
       </div>
 
-      <!-- 4-Way Primary View Switcher -->
+      <!-- 5-Way Primary View Switcher -->
       <div class="flex items-center gap-0.5 border border-[var(--border)] rounded-md p-0.5 bg-[var(--background)] overflow-x-auto">
         <button onclick="setMainView('tree')" id="view-tree" class="view-tab text-xs px-2 sm:px-2.5 py-1 rounded font-medium bg-[var(--primary)] text-[var(--primary-foreground)] whitespace-nowrap">Tree</button>
         <button onclick="setMainView('map')" id="view-map" class="view-tab text-xs px-2 sm:px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)] whitespace-nowrap">Map</button>
+        <button onclick="setMainView('royalty')" id="view-royalty" class="view-tab text-xs px-2 sm:px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)] whitespace-nowrap">👑 Royalty &amp; Monarchs</button>
         <button onclick="setMainView('timeline')" id="view-timeline" class="view-tab text-xs px-2 sm:px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)] whitespace-nowrap">Timeline</button>
         <button onclick="setMainView('directory')" id="view-directory" class="view-tab text-xs px-2 sm:px-2.5 py-1 rounded font-medium text-[var(--muted-foreground)] hover:bg-[var(--accent)] whitespace-nowrap">List</button>
       </div>
@@ -243,44 +239,13 @@
       <!-- Hover Tooltip -->
       <div id="edgeTooltip" class="pointer-events-none hidden absolute z-30 max-w-xs px-2.5 py-1.5 rounded-md border border-[var(--border)] bg-[var(--card)] text-xs shadow-lg"></div>
 
-      <!-- 1. TREE SVG VIEW -->
+      <!-- 1. HIGH-FPS CANVAS TREE VIEW -->
       <div id="treeContainer" class="w-full h-full relative">
-        <div class="absolute bottom-2.5 left-2.5 right-2.5 sm:right-auto z-10 flex items-center gap-2 px-2.5 sm:px-3 py-1.5 rounded-full border border-[var(--border)] bg-[var(--card)]/90 backdrop-blur text-[11px] sm:text-xs text-[var(--muted-foreground)] shadow-sm">
-          <span class="truncate">Click any name to reveal next generation • <strong style="color:#f59e0b">Gold arrows = Children</strong> • <strong style="color:#38bdf8">Blue = Parents</strong> • Drag to pan • Pinch/scroll to zoom</span>
+        <div class="absolute bottom-2.5 left-2.5 right-2.5 sm:right-auto z-10 flex items-center gap-2 px-2.5 sm:px-3 py-1.5 rounded-full border border-[var(--border)] bg-[var(--card)]/90 backdrop-blur text-[11px] sm:text-xs text-[var(--muted-foreground)] shadow-sm pointer-events-none">
+          <span class="px-1.5 py-0.5 rounded bg-emerald-500/15 text-emerald-400 font-semibold text-[10px]">60fps Fast Canvas</span>
+          <span class="truncate">Click any name to reveal next generation • <strong style="color:#f59e0b">Gold = Children</strong> • <strong style="color:#38bdf8">Blue = Parents</strong> • Drag/scroll/pinch to explore</span>
         </div>
-        <svg id="treeSvg" class="w-full h-full cursor-grab active:cursor-grabbing">
-          <defs>
-            <marker id="arrow-direct" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
-              <path d="M 0 1 L 10 5 L 0 9 z" fill="#64748b" />
-            </marker>
-            <marker id="arrow-expansion" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
-              <path d="M 0 1 L 10 5 L 0 9 z" fill="#0ea5e9" />
-            </marker>
-            <marker id="arrow-cognate" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
-              <path d="M 0 1 L 10 5 L 0 9 z" fill="#10b981" />
-            </marker>
-            <marker id="arrow-syncretic" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
-              <path d="M 0 1 L 10 5 L 0 9 z" fill="#f59e0b" />
-            </marker>
-            <marker id="arrow-genetic" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="10" markerHeight="10" orient="auto-start-reverse">
-              <path d="M 0 1 L 10 5 L 0 9 z" fill="#2dd4bf" />
-            </marker>
-            <marker id="arrow-child" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse">
-              <path d="M 0 0.8 L 10 5 L 0 9.2 z" fill="#f59e0b" />
-            </marker>
-            <marker id="arrow-parent" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="11.5" markerHeight="11.5" orient="auto-start-reverse">
-              <path d="M 0 1 L 10 5 L 0 9 z" fill="#38bdf8" />
-            </marker>
-            <marker id="arrow-active" viewBox="0 0 10 10" refX="9" refY="5" markerUnits="userSpaceOnUse" markerWidth="13" markerHeight="13" orient="auto-start-reverse">
-              <path d="M 0 0.8 L 10 5 L 0 9.2 z" fill="#f59e0b" />
-            </marker>
-          </defs>
-          <g id="viewport">
-            <g id="tierBands"></g>
-            <g id="edgesLayer"></g>
-            <g id="nodesLayer"></g>
-          </g>
-        </svg>
+        <canvas id="treeCanvas" class="w-full h-full block cursor-grab active:cursor-grabbing"></canvas>
       </div>
 
       <!-- 2. INTERACTIVE WORLD MAP VIEW -->
@@ -350,6 +315,36 @@
             </g>
           </svg>
         </div>
+      </div>
+
+      <!-- 2B. ROYALTY & MONARCHS DIRECTORY + LINEAGE VIEW -->
+      <div id="royaltyContainer" class="hidden w-full h-full flex flex-col overflow-hidden">
+        <div class="shrink-0 px-4 py-2.5 border-b border-[var(--border)] bg-[var(--card)] space-y-2">
+          <div class="flex flex-wrap items-center justify-between gap-2 text-xs">
+            <div class="flex items-center gap-2">
+              <span class="font-bold text-sm">👑 Royalty, Kings, Queens &amp; Sovereign Monarchs</span>
+              <span id="royaltyCount" class="text-[11px] font-mono text-[var(--muted-foreground)]"></span>
+            </div>
+            <div class="flex flex-wrap items-center gap-1.5">
+              <input id="royaltySearch" type="text" placeholder="Filter monarchs (e.g., David, Victoria, Wu Zetian, Naruhito)..."
+                class="text-xs px-2.5 py-1 rounded border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)] placeholder:text-[var(--placeholder)] w-56" />
+              <select id="royaltyTradFilter" onchange="renderRoyalty()" class="text-xs px-2 py-1 rounded border border-[var(--border)] bg-[var(--background)] text-[var(--foreground)]">
+                <option value="all">All Regions &amp; Traditions</option>
+              </select>
+              <button onclick="toggleRoyaltyDisplayMode()" id="royaltyModeBtn" class="text-xs px-2.5 py-1 rounded border border-[var(--border)] bg-[var(--background)] hover:bg-[var(--accent)]">Table View</button>
+            </div>
+          </div>
+          <div class="flex flex-wrap items-center gap-1 text-[11px]" id="royaltyCategoryPills">
+            <button onclick="setRoyaltyCategory('all')" data-rcat="all" class="rcat-btn px-2 py-0.5 rounded border border-[var(--primary)] bg-[var(--primary)] text-[var(--primary-foreground)] font-semibold">All Royalty</button>
+            <button onclick="setRoyaltyCategory('kings_queens')" data-rcat="kings_queens" class="rcat-btn px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Kings &amp; Queens</button>
+            <button onclick="setRoyaltyCategory('emperors')" data-rcat="emperors" class="rcat-btn px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Emperors &amp; Empresses</button>
+            <button onclick="setRoyaltyCategory('pharaohs')" data-rcat="pharaohs" class="rcat-btn px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Pharaohs</button>
+            <button onclick="setRoyaltyCategory('sultans_khans')" data-rcat="sultans_khans" class="rcat-btn px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Sultans, Caliphs &amp; Khans</button>
+            <button onclick="setRoyaltyCategory('princes')" data-rcat="princes" class="rcat-btn px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Princes, Princesses &amp; Dukes</button>
+            <button onclick="setRoyaltyCategory('living2026')" data-rcat="living2026" class="rcat-btn px-2 py-0.5 rounded border border-emerald-500/40 text-emerald-400 hover:bg-[var(--accent)]">★ Living 2026 Crowns</button>
+          </div>
+        </div>
+        <div id="royaltyBody" class="flex-1 overflow-y-auto thin-scroll p-4"></div>
       </div>
 
       <!-- 3. DEEP-TIME CHRONOLOGICAL TIMELINE VIEW -->
@@ -488,8 +483,8 @@ const MAP_PINS = [
   { id:"pin_tikal", label:"Tikal & Palenque (Maya)", lat:17.2, lon:-89.6, nodeId:"amp_maya_four_men", trad:"americas_pacific", desc:"Pending Bridge: Popol Vuh Four Maize Ancestors -> Yax Ehb Xook, Pakal the Great & Lady Six Sky" },
   { id:"pin_hawaii", label:"Hawai'i (Kumulipo Ali'i)", lat:20.8, lon:-156.3, nodeId:"amp_poly_kumulipo", trad:"americas_pacific", desc:"Pending Bridge: Wakea & Papa -> Haloa -> King Kamehameha I -> Queen Lili'uokalani" },
   { id:"pin_aotearoa", label:"Aotearoa / Polynesia (Kupe)", lat:-41.3, lon:174.8, nodeId:"amp_poly_kupe_tonga", trad:"americas_pacific", desc:"Pending Bridge: Kupe (Aotearoa), Tu'i Tonga 'Aho'eitu & Queen Salamasina (Samoa)" },
-  { id:"pin_angkor", label:"Angkor & Ayutthaya (Khmer / Siam)", lat:13.4, lon:103.9, nodeId:"sea_khmer_jayavarman2", trad:"southeast_asia", desc:"Pending Bridge: Jayavarman II -> Suryavarman II -> Jayavarman VII, Sukhothai & Dai Viet" },
-  { id:"pin_majapahit", label:"Java (Srivijaya & Majapahit)", lat:-7.5, lon:112.4, nodeId:"sea_java_raden_wijaya", trad:"southeast_asia", desc:"Pending Bridge: Srivijaya -> Raden Wijaya -> Queen Tribhuwana -> Hayam Wuruk" },
+  { id:"pin_angkor", label:"Angkor & Ayutthaya (Khmer / Siam)", lat:13.4, lon:103.9, nodeId:"sea_khmer_jayavarman2", trad:"southeast_asia", desc:"Graduated Bridge (Wave 7): Kaundinya I (Vasishtha gotra) + Queen Soma -> Jayavarman II -> Jayavarman VII -> Sukhothai & Chakri" },
+  { id:"pin_majapahit", label:"Java (Srivijaya & Majapahit)", lat:-7.5, lon:112.4, nodeId:"sea_java_raden_wijaya", trad:"southeast_asia", desc:"Graduated Bridge (Wave 7): Srivijaya (Sang Sapurba) -> Raden Wijaya -> Hayam Wuruk -> Malacca Sultan Mansur Shah" },
   { id:"pin_malacca", label:"Malacca & Singapura (Malay Annals)", lat:2.2, lon:102.2, nodeId:"mal_parameswara_iskandar", trad:"southeast_asia", desc:"Sejarah Melayu Bridge: Raja Secander (Alexander) -> Raja Suran -> Sang Nila Utama -> Parameswara -> Mansur Shah" },
   { id:"pin_iceland", label:"Iceland & Vinland (Landnamabok)", lat:64.1, lon:-21.9, nodeId:"eur_ice_ingolfur", trad:"europe_norse", desc:"Landnamabok: Ingolfur Arnarson (874 CE), Aud the Deep-Minded -> Erik the Red -> Leif Erikson (Vinland)" },
   { id:"pin_lombardy", label:"Lombard Italy (Paul the Deacon)", lat:45.2, lon:9.2, nodeId:"eur_lom_gambara", trad:"europe_norse", desc:"Paul the Deacon: Gambara -> Ibor & Aio -> Agelmund -> Alboin (568 CE) -> Rothari -> Liutprand" },
@@ -642,13 +637,19 @@ function closeDrawers() {
   document.getElementById("drawerBackdrop")?.classList.add("hidden");
 }
 
-function updateMapTransform() {
+let mapTransformRaf = null;
+function applyMapTransformNow() {
+  mapTransformRaf = null;
   const vp = document.getElementById("mapViewport");
   if (vp) vp.setAttribute("transform", `translate(${mapPanX},${mapPanY}) scale(${mapScale})`);
 }
+function updateMapTransform() {
+  if (mapTransformRaf) return;
+  mapTransformRaf = requestAnimationFrame(applyMapTransformNow);
+}
 function resetMapView() {
   mapPanX = 0; mapPanY = 0; mapScale = 1;
-  updateMapTransform();
+  applyMapTransformNow();
 }
 function zoomMapBy(factor) {
   const nextScale = Math.max(0.85, Math.min(7, mapScale * factor));
@@ -670,6 +671,7 @@ function fitActive() {
 function toggleTheme() {
   const isLight = document.documentElement.classList.toggle("light");
   document.getElementById("themeBtn").textContent = isLight ? "Dark" : "Light";
+  cachedThemeColors = null;
   render();
   if (mainView === "map") renderWorldMap();
 }
@@ -765,9 +767,27 @@ function initUI() {
       if (selectedNodeId) renderInspector(selectedNodeId);
       if (mainView === "timeline") renderTimeline();
       if (mainView === "directory") renderDirectory();
+      if (mainView === "royalty") renderRoyalty();
       if (mainView === "map") renderWorldMap();
     });
     tf.appendChild(row);
+  });
+
+  // Populate Royalty tab region dropdown & search listener
+  const rTradSel = document.getElementById("royaltyTradFilter");
+  if (rTradSel) {
+    Object.entries(TRADITIONS).forEach(([k, t]) => {
+      if (k === "dna") return;
+      const opt = document.createElement("option");
+      opt.value = k;
+      opt.textContent = t.label;
+      rTradSel.appendChild(opt);
+    });
+  }
+  let rSearchTimer = null;
+  document.getElementById("royaltySearch")?.addEventListener("input", () => {
+    clearTimeout(rSearchTimer);
+    rSearchTimer = setTimeout(() => renderRoyalty(), 100);
   });
 
   let searchTimer = null;
@@ -778,63 +798,124 @@ function initUI() {
       searchQuery = val;
       render();
       if (mainView === "directory") renderDirectory();
+      if (mainView === "royalty") renderRoyalty();
       if (mainView === "timeline") renderTimeline();
     }, 120);
   });
 
-  const svg = document.getElementById("treeSvg");
-  svg.addEventListener("mousedown", (e) => {
-    if (e.target.closest(".node-card") || e.target.closest(".expand-pill")) return;
+  // High-FPS Canvas Tree Event Handling
+  const canvas = document.getElementById("treeCanvas");
+  resizeTreeCanvas();
+  if (typeof ResizeObserver !== "undefined") {
+    new ResizeObserver(() => {
+      resizeTreeCanvas();
+      if (mainView === "tree") scheduleTreeDraw();
+    }).observe(document.getElementById("treeContainer"));
+  } else {
+    window.addEventListener("resize", () => { resizeTreeCanvas(); scheduleTreeDraw(); });
+  }
+
+  let dragDist = 0;
+  let hoverRaf = null, lastMouseEvent = null;
+  canvas.addEventListener("mousedown", (e) => {
     isPanning = true;
+    dragDist = 0;
     startX = e.clientX - panX;
     startY = e.clientY - panY;
+    canvas.style.cursor = "grabbing";
   });
   window.addEventListener("mousemove", (e) => {
-    if (!isPanning) return;
-    panX = e.clientX - startX;
-    panY = e.clientY - startY;
-    updateTransform();
+    if (isPanning) {
+      const nx = e.clientX - startX;
+      const ny = e.clientY - startY;
+      dragDist += Math.abs(nx - panX) + Math.abs(ny - panY);
+      panX = nx; panY = ny;
+      scheduleTreeDraw();
+      return;
+    }
+    if (mainView === "tree" && e.target === canvas) {
+      lastMouseEvent = e;
+      if (!hoverRaf) {
+        hoverRaf = requestAnimationFrame(() => {
+          hoverRaf = null;
+          if (lastMouseEvent) handleTreeHover(lastMouseEvent);
+        });
+      }
+    }
   });
-  window.addEventListener("mouseup", () => { isPanning = false; });
-  svg.addEventListener("wheel", (e) => {
+  window.addEventListener("mouseup", () => {
+    if (isPanning) {
+      isPanning = false;
+      if (canvas) canvas.style.cursor = "grab";
+    }
+  });
+  canvas.addEventListener("mouseleave", () => {
+    document.getElementById("edgeTooltip")?.classList.add("hidden");
+  });
+  canvas.addEventListener("click", (e) => {
+    if (dragDist > 5) return;
+    const rect = canvas.getBoundingClientRect();
+    const wx = (e.clientX - rect.left - panX) / scale;
+    const wy = (e.clientY - rect.top - panY) / scale;
+    const hit = hitTestNode(wx, wy);
+    if (!hit) return;
+    if (hit.onPill) {
+      toggleExpandParent(hit.item.n.id);
+      return;
+    }
+    const alreadySel = (selectedNodeId === hit.item.n.id);
+    selectNode(hit.item.n.id, alreadySel || !isMobileViewport(), true);
+  });
+  canvas.addEventListener("dblclick", (e) => {
+    const rect = canvas.getBoundingClientRect();
+    const wx = (e.clientX - rect.left - panX) / scale;
+    const wy = (e.clientY - rect.top - panY) / scale;
+    const hit = hitTestNode(wx, wy);
+    if (hit) {
+      const kids = getActiveChildren(hit.item.n.id);
+      if (kids.length) toggleExpandParent(hit.item.n.id);
+    }
+  });
+  canvas.addEventListener("wheel", (e) => {
     e.preventDefault();
-    const rect = svg.getBoundingClientRect();
+    const rect = canvas.getBoundingClientRect();
     const mx = e.clientX - rect.left;
     const my = e.clientY - rect.top;
-    const factor = e.deltaY < 0 ? 1.13 : 0.88;
+    const factor = e.deltaY < 0 ? 1.15 : 0.87;
     const nextScale = Math.max(0.025, Math.min(2.5, scale * factor));
     panX = mx - (mx - panX) * (nextScale / scale);
     panY = my - (my - panY) * (nextScale / scale);
     scale = nextScale;
-    updateTransform();
+    scheduleTreeDraw();
   }, { passive: false });
 
-  // Touch Pan & Pinch-to-Zoom for Tree SVG (Mobile & Tablet)
+  // Touch Pan & Pinch-to-Zoom for Canvas Tree
   let tMode = null, tStartX = 0, tStartY = 0, tPinchDist = 0, tPinchScale = 1, tPinchMidX = 0, tPinchMidY = 0;
-  svg.addEventListener("touchstart", (e) => {
+  canvas.addEventListener("touchstart", (e) => {
     if (e.touches.length === 1) {
-      if (e.target.closest(".expand-pill")) return;
       tMode = "pan";
+      dragDist = 0;
       tStartX = e.touches[0].clientX - panX;
       tStartY = e.touches[0].clientY - panY;
     } else if (e.touches.length === 2) {
       e.preventDefault();
       tMode = "pinch";
-      const rect = svg.getBoundingClientRect();
+      const rect = canvas.getBoundingClientRect();
       tPinchDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY) || 1;
       tPinchScale = scale;
       tPinchMidX = (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left;
       tPinchMidY = (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top;
     }
   }, { passive: false });
-  svg.addEventListener("touchmove", (e) => {
+  canvas.addEventListener("touchmove", (e) => {
     if (tMode === "pan" && e.touches.length === 1) {
       const nx = e.touches[0].clientX - tStartX;
       const ny = e.touches[0].clientY - tStartY;
-      if (Math.hypot(nx - panX, ny - panY) > 2) {
+      dragDist += Math.abs(nx - panX) + Math.abs(ny - panY);
+      if (dragDist > 2) {
         e.preventDefault();
         panX = nx; panY = ny;
-        updateTransform();
+        scheduleTreeDraw();
       }
     } else if (tMode === "pinch" && e.touches.length === 2) {
       e.preventDefault();
@@ -843,35 +924,46 @@ function initUI() {
       panX = tPinchMidX - (tPinchMidX - panX) * (nextScale / scale);
       panY = tPinchMidY - (tPinchMidY - panY) * (nextScale / scale);
       scale = nextScale;
-      updateTransform();
+      scheduleTreeDraw();
     }
   }, { passive: false });
-  svg.addEventListener("touchend", (e) => { if (e.touches.length === 0) tMode = null; });
+  canvas.addEventListener("touchend", (e) => { if (e.touches.length === 0) tMode = null; });
 
-  // Mouse & Touch Pan + Pinch-to-Zoom for World Map SVG
+  // Fast Mouse & Touch Pan + Pinch-to-Zoom for World Map SVG (cached transform metrics, no layout reflows during drag)
   const mapSvg = document.getElementById("worldMapSvg");
-  function mapClientToSvg(cx, cy) {
-    const pt = mapSvg.createSVGPoint();
-    pt.x = cx; pt.y = cy;
-    const ctm = mapSvg.getScreenCTM();
-    return ctm ? pt.matrixTransform(ctm.inverse()) : { x: 600, y: 300 };
+  let cachedMapBox = null;
+  function captureMapBox() {
+    const r = mapSvg.getBoundingClientRect();
+    const s = Math.min(r.width / 1200, r.height / 600) || 1;
+    const offX = (r.width - 1200 * s) / 2;
+    const offY = (r.height - 600 * s) / 2;
+    cachedMapBox = { left: r.left, top: r.top, invS: 1 / s, offX, offY };
+  }
+  function mapClientFast(cx, cy) {
+    if (!cachedMapBox) captureMapBox();
+    return {
+      x: (cx - cachedMapBox.left - cachedMapBox.offX) * cachedMapBox.invS,
+      y: (cy - cachedMapBox.top - cachedMapBox.offY) * cachedMapBox.invS,
+    };
   }
   mapSvg.addEventListener("mousedown", (e) => {
     if (e.target.closest(".map-pin")) return;
     isMapPanning = true;
-    const p = mapClientToSvg(e.clientX, e.clientY);
+    captureMapBox();
+    const p = mapClientFast(e.clientX, e.clientY);
     mapStartX = p.x - mapPanX; mapStartY = p.y - mapPanY;
   });
   window.addEventListener("mousemove", (e) => {
     if (!isMapPanning) return;
-    const p = mapClientToSvg(e.clientX, e.clientY);
+    const p = mapClientFast(e.clientX, e.clientY);
     mapPanX = p.x - mapStartX; mapPanY = p.y - mapStartY;
     updateMapTransform();
   });
-  window.addEventListener("mouseup", () => { isMapPanning = false; });
+  window.addEventListener("mouseup", () => { isMapPanning = false; cachedMapBox = null; });
   mapSvg.addEventListener("wheel", (e) => {
     e.preventDefault();
-    const p = mapClientToSvg(e.clientX, e.clientY);
+    captureMapBox();
+    const p = mapClientFast(e.clientX, e.clientY);
     const factor = e.deltaY < 0 ? 1.18 : 0.85;
     const nextScale = Math.max(0.85, Math.min(7, mapScale * factor));
     mapPanX = p.x - (p.x - mapPanX) * (nextScale / mapScale);
@@ -882,23 +974,24 @@ function initUI() {
 
   let mMode = null, mStartX = 0, mStartY = 0, mPinchDist = 0, mPinchScale = 1, mPinchPt = { x: 600, y: 300 };
   mapSvg.addEventListener("touchstart", (e) => {
+    captureMapBox();
     if (e.touches.length === 1) {
       if (e.target.closest(".map-pin")) return;
       mMode = "pan";
-      const p = mapClientToSvg(e.touches[0].clientX, e.touches[0].clientY);
+      const p = mapClientFast(e.touches[0].clientX, e.touches[0].clientY);
       mStartX = p.x - mapPanX; mStartY = p.y - mapPanY;
     } else if (e.touches.length === 2) {
       e.preventDefault();
       mMode = "pinch";
       mPinchDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY) || 1;
       mPinchScale = mapScale;
-      mPinchPt = mapClientToSvg((e.touches[0].clientX + e.touches[1].clientX) / 2, (e.touches[0].clientY + e.touches[1].clientY) / 2);
+      mPinchPt = mapClientFast((e.touches[0].clientX + e.touches[1].clientX) / 2, (e.touches[0].clientY + e.touches[1].clientY) / 2);
     }
   }, { passive: false });
   mapSvg.addEventListener("touchmove", (e) => {
     if (mMode === "pan" && e.touches.length === 1) {
       e.preventDefault();
-      const p = mapClientToSvg(e.touches[0].clientX, e.touches[0].clientY);
+      const p = mapClientFast(e.touches[0].clientX, e.touches[0].clientY);
       mapPanX = p.x - mStartX; mapPanY = p.y - mStartY;
       updateMapTransform();
     } else if (mMode === "pinch" && e.touches.length === 2) {
@@ -911,7 +1004,7 @@ function initUI() {
       updateMapTransform();
     }
   }, { passive: false });
-  mapSvg.addEventListener("touchend", (e) => { if (e.touches.length === 0) mMode = null; });
+  mapSvg.addEventListener("touchend", (e) => { if (e.touches.length === 0) { mMode = null; cachedMapBox = null; } });
 
   applyPreset("all");
   selectNode("bib_abraham", false);
@@ -965,6 +1058,7 @@ function setScope(scope) {
   syncCheckboxes();
   updateScopeUI();
   if (mainView === "directory") renderDirectory();
+  else if (mainView === "royalty") renderRoyalty();
   else if (mainView === "map") renderWorldMap();
   else if (mainView === "timeline") renderTimeline();
   else { render(); fitView(); }
@@ -1024,15 +1118,16 @@ function showBridgesSpotlight() {
 
 function setMainView(v) {
   mainView = v;
-  ["tree", "map", "timeline", "directory"].forEach(k => {
+  ["tree", "map", "royalty", "timeline", "directory"].forEach(k => {
     document.getElementById(`${k}Container`).classList.toggle("hidden", v !== k);
     const btn = document.getElementById(`view-${k}`);
-    btn.className = `view-tab text-xs px-2.5 py-1 rounded font-medium ${v === k ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
+    if (btn) btn.className = `view-tab text-xs px-2 sm:px-2.5 py-1 rounded font-medium whitespace-nowrap ${v === k ? "bg-[var(--primary)] text-[var(--primary-foreground)]" : "text-[var(--muted-foreground)] hover:bg-[var(--accent)]"}`;
   });
   if (v === "directory") renderDirectory();
+  else if (v === "royalty") renderRoyalty();
   else if (v === "map") renderWorldMap();
   else if (v === "timeline") renderTimeline();
-  else { render(); setTimeout(fitView, 30); }
+  else { resizeTreeCanvas(); render(); setTimeout(fitView, 30); }
 }
 
 function setExpandMode(mode) {
@@ -1175,25 +1270,26 @@ function computeLayout(visNodes) {
 
   sortedTiers.forEach((tier, rowIdx) => {
     const list = byTier[tier];
+    const avgX = {};
+    list.forEach(n => {
+      const ps = parentsMap[n.id] || [];
+      let sum = 0, cnt = 0;
+      for (let i = 0; i < ps.length; i++) {
+        const p = layoutPos[ps[i]];
+        if (p) { sum += p.x; cnt++; }
+      }
+      avgX[n.id] = cnt ? (sum / cnt) : null;
+    });
     list.sort((a, b) => {
-      const pa = (parentsMap[a.id] || []).filter(p => layoutPos[p]);
-      const pb = (parentsMap[b.id] || []).filter(p => layoutPos[p]);
+      const ax = avgX[a.id], bx = avgX[b.id];
       const ta = TRADITIONS[a.tradition]?.order ?? 99;
       const tb = TRADITIONS[b.tradition]?.order ?? 99;
       if (focusRootId) {
-        if (pa.length && pb.length) {
-          const ax = pa.reduce((s, p) => s + layoutPos[p].x, 0) / pa.length;
-          const bx = pb.reduce((s, p) => s + layoutPos[p].x, 0) / pb.length;
-          if (Math.abs(ax - bx) > 1) return ax - bx;
-        }
+        if (ax !== null && bx !== null && Math.abs(ax - bx) > 1) return ax - bx;
         return ta - tb || a.name.localeCompare(b.name);
       }
       if (ta !== tb) return ta - tb;
-      if (pa.length && pb.length) {
-        const ax = pa.reduce((s, p) => s + layoutPos[p].x, 0) / pa.length;
-        const bx = pb.reduce((s, p) => s + layoutPos[p].x, 0) / pb.length;
-        if (Math.abs(ax - bx) > 1) return ax - bx;
-      }
+      if (ax !== null && bx !== null && Math.abs(ax - bx) > 1) return ax - bx;
       return (b.major ? 1 : 0) - (a.major ? 1 : 0) || a.name.localeCompare(b.name);
     });
 
@@ -1209,7 +1305,7 @@ function computeLayout(visNodes) {
 }
 
 function updateTransform() {
-  document.getElementById("viewport").setAttribute("transform", `translate(${panX},${panY}) scale(${scale})`);
+  scheduleTreeDraw();
 }
 
 function zoomBy(factor) {
@@ -1315,6 +1411,7 @@ function toggleAllTraditions() {
   render();
   if (mainView === "timeline") renderTimeline();
   if (mainView === "directory") renderDirectory();
+  if (mainView === "royalty") renderRoyalty();
   if (mainView === "map") renderWorldMap();
 }
 
@@ -1752,13 +1849,233 @@ function renderDirectory(keepLimit) {
   tbody.innerHTML = html;
 }
 
-// ---------------- TREE SVG RENDERER ----------------
+// ---------------- ROYALTY & MONARCHS RENDERER ----------------
+const ROYAL_REGEX = /\b(king|queen|emperor|empress|pharaoh|sultan|sultana|caliph|shah|shahanshah|khan|khagan|qa'an|tsar|tsarina|czar|prince|princess|shogun|duke|duchess|archduke|grand duke|monarch|sovereign|dynasty|majesty|raja|maharaja|maharani|rani|chhatrapati|nawab|emir|mansa|oba|mai|kabaka|mwami|kandake|negus|tlatoani|sapa inca|ali'i|tu'i|kaiser|regent|despot|tetrarch|valide|crown|heir|basileus|augusta|caesar|imperator|malik|lugal|ensi|wang|tenno|taejo|sejong|tywysog|earl|marquess|marquis|count|viscount|baron|jarl|czarina|voivode|hospodar|bey|pasha|mukarrib|nizam|peshwa|dalai lama|khedive|sharif|imam|stadtholder|elector|landgrave|margrave|palatine|infante|infanta|dauphin|archduchess|grand prince|grand princess|high king|petty king|overking|paramount chief|chieftain|royalty|royal|druk gyalpo)\b/i;
+
+let royaltyCategory = "all";
+let royaltyDisplayMode = "cards";
+let royaltyLimit = 120;
+
+function isRoyalNode(n) {
+  if (!n || n.tradition === "dna") return false;
+  return ROYAL_REGEX.test(n.name || "") || ROYAL_REGEX.test(n.role || "");
+}
+function isLiving2026Node(n) {
+  const txt = `${n.name || ""} ${n.role || ""} ${n.era || ""}`.toLowerCase();
+  return txt.includes("2026") || txt.includes("living");
+}
+function matchesRoyaltyCategory(n, cat) {
+  if (cat === "all") return true;
+  const txt = `${n.name || ""} ${n.role || ""}`;
+  if (cat === "living2026") return isLiving2026Node(n);
+  if (cat === "pharaohs") return /\b(pharaoh|dynasty\s+[ivx0-9]+)\b/i.test(txt) || n.tradition === "levant_egypt";
+  if (cat === "kings_queens") return /\b(king|queen|monarch|sovereign|raja|maharaja|maharani|rani|chhatrapati|oba|kabaka|mwami|kandake|negus|tlatoani|sapa inca|dru?k gyalpo)\b/i.test(txt);
+  if (cat === "emperors") return /\b(emperor|empress|tsar|tsarina|czar|czarina|kaiser|caesar|augusta|basileus|tenno|mikado)\b/i.test(txt);
+  if (cat === "sultans_khans") return /\b(sultan|sultana|caliph|khan|khagan|qa'an|shah|shahanshah|emir|mansa|nawab|shogun|mai|nizam|peshwa|valide|sharif)\b/i.test(txt);
+  if (cat === "princes") return /\b(prince|princess|duke|duchess|archduke|archduchess|grand duke|heir|crown|infante|infanta|dauphin|earl|marquess|marquis|jarl|despot|tetrarch)\b/i.test(txt);
+  return true;
+}
+function setRoyaltyCategory(cat) {
+  royaltyCategory = cat;
+  royaltyLimit = 120;
+  document.querySelectorAll(".rcat-btn").forEach(btn => {
+    const on = btn.dataset.rcat === cat;
+    const isLiv = btn.dataset.rcat === "living2026";
+    btn.className = on
+      ? "rcat-btn px-2 py-0.5 rounded border border-[var(--primary)] bg-[var(--primary)] text-[var(--primary-foreground)] font-semibold"
+      : `rcat-btn px-2 py-0.5 rounded border ${isLiv ? "border-emerald-500/40 text-emerald-400" : "border-[var(--border)]"} hover:bg-[var(--accent)]`;
+  });
+  renderRoyalty();
+}
+function toggleRoyaltyDisplayMode() {
+  royaltyDisplayMode = royaltyDisplayMode === "cards" ? "table" : "cards";
+  const btn = document.getElementById("royaltyModeBtn");
+  if (btn) btn.textContent = royaltyDisplayMode === "cards" ? "Table View" : "Card View";
+  renderRoyalty(true);
+}
+function loadMoreRoyalty() { royaltyLimit += 180; renderRoyalty(true); }
+function showAllRoyalty() { royaltyLimit = NODES.length; renderRoyalty(true); }
+
+function renderRoyalty(keepLimit) {
+  if (!keepLimit) royaltyLimit = 120;
+  const body = document.getElementById("royaltyBody");
+  if (!body) return;
+  const rq = (document.getElementById("royaltySearch")?.value || "").trim().toLowerCase();
+  const rTrad = document.getElementById("royaltyTradFilter")?.value || "all";
+
+  const royals = NODES.filter(n => {
+    if (!isRoyalNode(n)) return false;
+    if (!isNodeInScope(n)) return false;
+    if (rTrad !== "all") {
+      if (n.tradition !== rTrad) return false;
+    } else if (!activeTraditions.has(n.tradition)) {
+      return false;
+    }
+    if (!matchesRoyaltyCategory(n, royaltyCategory)) return false;
+    if (searchQuery && !matchesSearch(n)) return false;
+    if (rq) {
+      const hay = `${n.name} ${n.role || ""} ${n.era || ""} ${(n.altNames || []).join(" ")} ${(n.sources || []).join(" ")}`.toLowerCase();
+      if (!hay.includes(rq)) return false;
+    }
+    return true;
+  }).sort((a, b) => (b.major ? 1 : 0) - (a.major ? 1 : 0) || a.tier - b.tier || a.name.localeCompare(b.name));
+
+  const slice = royals.slice(0, royaltyLimit);
+  const countEl = document.getElementById("royaltyCount");
+  if (countEl) countEl.textContent = `Showing ${slice.length.toLocaleString()} of ${royals.length.toLocaleString()} sovereigns`;
+
+  if (!slice.length) {
+    body.innerHTML = `<div class="text-xs text-[var(--muted-foreground)] p-4">No monarchs match the selected title category, region, or search query.</div>`;
+    return;
+  }
+
+  let html = "";
+  if (royaltyDisplayMode === "cards") {
+    html = `<div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-2.5">` + slice.map(n => {
+      const t = TRADITIONS[n.tradition];
+      const pars = (parentsMap[n.id] || []).slice(0, 3).map(pid => nodesById[pid]).filter(Boolean);
+      const kids = (childrenMap[n.id] || []).slice(0, 4).map(cid => nodesById[cid]).filter(Boolean);
+      const totalKids = (childrenMap[n.id] || []).length;
+      const isLiv = isLiving2026Node(n);
+      const scopeBadge = isLiv
+        ? `<span class="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-semibold">Living 2026</span>`
+        : (n.biblicalConnected === false
+          ? `<span class="text-[10px] px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-400">Pending</span>`
+          : `<span class="text-[10px] px-1.5 py-0.5 rounded bg-sky-500/15 text-sky-400">Noahic</span>`);
+      return `
+        <div onclick="selectNode('${n.id}')" class="p-3 rounded-lg border border-[var(--border)] bg-[var(--card)] hover:border-[var(--primary)] cursor-pointer transition flex flex-col justify-between gap-2">
+          <div>
+            <div class="flex items-center justify-between gap-2 text-[11px] mb-1">
+              <span class="inline-flex items-center gap-1.5 font-medium truncate"><span class="w-2 h-2 rounded-full shrink-0" style="background:${t.color}"></span>${escapeHtml(t.label.split(" ")[0])} • ${escapeHtml(n.era)}</span>
+              ${scopeBadge}
+            </div>
+            <div class="text-xs font-bold leading-snug">${escapeHtml(n.name)}</div>
+            <div class="text-[11px] text-[var(--muted-foreground)] mt-0.5">${escapeHtml(n.role)}</div>
+            ${pars.length ? `<div class="mt-2 flex flex-wrap items-center gap-1 text-[10px]"><span class="text-sky-400 font-semibold">↑ From:</span>${pars.map(p => `<button onclick="event.stopPropagation();selectNode('${p.id}')" class="px-1.5 py-0.5 rounded bg-[var(--background)] border border-[var(--card-border)] hover:border-sky-400 truncate max-w-[165px]">${escapeHtml(truncate(p.name, 26))}</button>`).join("")}</div>` : ""}
+            ${kids.length ? `<div class="mt-1 flex flex-wrap items-center gap-1 text-[10px]"><span class="text-amber-400 font-semibold">↓ Offspring/Successors:</span>${kids.map(c => `<button onclick="event.stopPropagation();selectNode('${c.id}')" class="px-1.5 py-0.5 rounded bg-[var(--background)] border border-[var(--card-border)] hover:border-amber-400 truncate max-w-[165px]">${escapeHtml(truncate(c.name, 26))}</button>`).join("")}${totalKids > kids.length ? `<span class="text-[var(--muted-foreground)]">+${totalKids - kids.length}</span>` : ""}</div>` : ""}
+          </div>
+          <div class="flex flex-wrap items-center gap-1.5 pt-1.5 border-t border-[var(--card-border)] text-[11px]">
+            <button onclick="event.stopPropagation(); focusSubtree('${n.id}')" class="px-2 py-0.5 rounded bg-[var(--primary)] text-[var(--primary-foreground)] font-medium hover:opacity-90">Family Tree</button>
+            ${n.biblicalConnected !== false ? `<button onclick="event.stopPropagation(); traceFeaturedPath('bib_noah','${n.id}')" class="px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)] text-emerald-400">Trace to Noah</button>` : ""}
+            <button onclick="event.stopPropagation(); jumpToNode('${n.id}')" class="px-2 py-0.5 rounded border border-[var(--border)] hover:bg-[var(--accent)] text-[var(--link)] ml-auto">Locate</button>
+          </div>
+        </div>`;
+    }).join("") + `</div>`;
+  } else {
+    html = `<div class="rounded-lg border border-[var(--border)] overflow-hidden"><table class="w-full text-left border-collapse text-xs"><thead class="bg-[var(--sidebar)] border-b border-[var(--border)] text-[var(--muted-foreground)]"><tr><th class="py-2 px-3">Monarch / Sovereign</th><th class="py-2 px-3">Role / Dynasty</th><th class="py-2 px-3">Tradition</th><th class="py-2 px-3">Era</th><th class="py-2 px-3 text-right">Lineage Actions</th></tr></thead><tbody class="divide-y divide-[var(--card-border)]">` +
+      slice.map(n => {
+        const t = TRADITIONS[n.tradition];
+        return `<tr class="hover:bg-[var(--accent)] cursor-pointer" onclick="selectNode('${n.id}')">
+          <td class="py-2 px-3 font-medium">${escapeHtml(n.name)}</td>
+          <td class="py-2 px-3 text-[var(--muted-foreground)]">${escapeHtml(n.role)}</td>
+          <td class="py-2 px-3"><span class="inline-flex items-center gap-1.5"><span class="w-2 h-2 rounded-full" style="background:${t.color}"></span>${escapeHtml(t.label.split(" ")[0])}</span></td>
+          <td class="py-2 px-3 text-[var(--muted-foreground)]">${escapeHtml(n.era)}</td>
+          <td class="py-2 px-3 text-right whitespace-nowrap space-x-1">
+            ${n.biblicalConnected !== false ? `<button onclick="event.stopPropagation(); traceFeaturedPath('bib_noah','${n.id}')" class="px-2 py-0.5 rounded border border-[var(--border)] text-emerald-400">Noah</button>` : ""}
+            <button onclick="event.stopPropagation(); focusSubtree('${n.id}')" class="px-2 py-0.5 rounded border border-[var(--border)] text-[var(--primary)]">Tree</button>
+            <button onclick="event.stopPropagation(); jumpToNode('${n.id}')" class="px-2 py-0.5 rounded border border-[var(--border)] text-[var(--link)]">Locate</button>
+          </td></tr>`;
+      }).join("") + `</tbody></table></div>`;
+  }
+
+  if (royals.length > slice.length) {
+    const rem = royals.length - slice.length;
+    html += `<div class="py-4 text-center">
+      <button onclick="loadMoreRoyalty()" class="text-xs px-3 py-1.5 rounded bg-[var(--primary)] text-[var(--primary-foreground)] font-medium mr-2">Load 180 More (${rem.toLocaleString()} remaining)</button>
+      <button onclick="showAllRoyalty()" class="text-xs px-3 py-1.5 rounded border border-[var(--border)] hover:bg-[var(--accent)]">Show All ${royals.length.toLocaleString()}</button>
+    </div>`;
+  }
+  body.innerHTML = html;
+}
+
+// ---------------- 60FPS CANVAS TREE RENDERER ----------------
+let treeDrawRaf = null;
+let cachedNodes = [];
+let cachedRowBuckets = {};
+let cachedRowOffsets = [];
+let cachedTierBands = [];
+let cachedEdges = [];
+let cachedThemeColors = null;
+let canvasCssW = 900, canvasCssH = 600, canvasDpr = 1;
+
+function getThemeColors() {
+  if (cachedThemeColors) return cachedThemeColors;
+  const cs = getComputedStyle(document.documentElement);
+  cachedThemeColors = {
+    bg: cs.getPropertyValue("--background").trim() || "#0b0f19",
+    card: cs.getPropertyValue("--card").trim() || "#151e30",
+    border: cs.getPropertyValue("--border").trim() || "#263248",
+    fg: cs.getPropertyValue("--foreground").trim() || "#f1f5f9",
+    muted: cs.getPropertyValue("--muted-foreground").trim() || "#94a3b8",
+    primary: cs.getPropertyValue("--primary").trim() || "#f59e0b",
+    primaryFg: cs.getPropertyValue("--primary-foreground").trim() || "#0b0f19",
+  };
+  return cachedThemeColors;
+}
+
+function resizeTreeCanvas() {
+  const wrap = document.getElementById("treeContainer");
+  const canvas = document.getElementById("treeCanvas");
+  if (!wrap || !canvas) return;
+  const w = wrap.clientWidth, h = wrap.clientHeight;
+  if (!w || !h) return;
+  canvasDpr = Math.min(window.devicePixelRatio || 1, 2);
+  canvasCssW = w; canvasCssH = h;
+  const targetW = Math.round(w * canvasDpr), targetH = Math.round(h * canvasDpr);
+  if (canvas.width !== targetW || canvas.height !== targetH) {
+    canvas.width = targetW;
+    canvas.height = targetH;
+  }
+}
+
+function scheduleTreeDraw() {
+  if (treeDrawRaf) return;
+  treeDrawRaf = requestAnimationFrame(() => {
+    treeDrawRaf = null;
+    drawTreeCanvas();
+  });
+}
+
+function drawRoundedRect(ctx, x, y, w, h, r) {
+  ctx.beginPath();
+  if (ctx.roundRect) {
+    ctx.roundRect(x, y, w, h, r);
+  } else {
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+}
+
+function drawArrowTip(ctx, x1, y1, x2, y2, color, size) {
+  const ang = Math.atan2(y2 - y1, x2 - x1);
+  ctx.save();
+  ctx.translate(x2, y2);
+  ctx.rotate(ang);
+  ctx.fillStyle = color;
+  ctx.beginPath();
+  ctx.moveTo(0, 0);
+  ctx.lineTo(-size, -size * 0.45);
+  ctx.lineTo(-size, size * 0.45);
+  ctx.closePath();
+  ctx.fill();
+  ctx.restore();
+}
+
 function render() {
   if (!NODES.length) return;
   const visNodes = getVisibleNodes();
   const visIds = new Set(visNodes.map(n => n.id));
-  const visEdges = EDGES.map((e, idx) => ({ e, idx }))
-    .filter(({ e }) => activeLinkTypes.has(e.type) && visIds.has(e.from) && visIds.has(e.to));
+  const visEdges = [];
+  for (let i = 0; i < EDGES.length; i++) {
+    const e = EDGES[i];
+    if (activeLinkTypes.has(e.type) && visIds.has(e.from) && visIds.has(e.to)) {
+      visEdges.push({ e, idx: i });
+    }
+  }
 
   const sortedTiers = computeLayout(visNodes);
   const scopePool = NODES.filter(n => isNodeInScope(n)).length;
@@ -1766,18 +2083,21 @@ function render() {
   document.getElementById("statsBox").textContent = `Showing ${visNodes.length} of ${scopePool} in ${scopeDesc} (${NODES.length} total) • ${visEdges.length} visible links`;
 
   let minX = -600, maxX = 600;
-  Object.values(layoutPos).forEach(p => { minX = Math.min(minX, p.x - 160); maxX = Math.max(maxX, p.x + 160); });
+  for (let i = 0; i < visNodes.length; i++) {
+    const p = layoutPos[visNodes[i].id];
+    if (p) {
+      if (p.x - 160 < minX) minX = p.x - 160;
+      if (p.x + 160 > maxX) maxX = p.x + 160;
+    }
+  }
 
-  const bandsG = document.getElementById("tierBands");
-  bandsG.innerHTML = sortedTiers.map((tier, rowIdx) => {
-    const y = rowIdx * 128 + 60;
-    const label = TIER_NAMES[tier] || `Generation Tier ${tier}`;
-    return `
-      <g opacity="0.52">
-        <line x1="${minX}" y1="${y}" x2="${maxX}" y2="${y}" stroke="var(--border)" stroke-width="1" stroke-dasharray="4,8" />
-        <text x="${minX + 6}" y="${y - 30}" fill="var(--muted-foreground)" font-size="11" font-weight="600">Tier ${tier} • ${escapeXml(label)}</text>
-      </g>`;
-  }).join("");
+  cachedTierBands = sortedTiers.map((tier, rowIdx) => ({
+    tier,
+    y: rowIdx * 128 + 60,
+    minX,
+    maxX,
+    label: `Tier ${tier} • ${TIER_NAMES[tier] || `Generation Tier ${tier}`}`,
+  }));
 
   const selNeighbors = new Set([selectedNodeId]);
   const selChildren = new Set();
@@ -1797,10 +2117,6 @@ function render() {
   const hasPath = activePathNodes.size > 0;
   const hasSearch = searchQuery.length > 0;
 
-  const edgesG = document.getElementById("edgesLayer");
-  edgesG.innerHTML = "";
-  const tooltip = document.getElementById("edgeTooltip");
-
   const sortedVisEdges = [...visEdges].sort((a, b) => {
     const prio = ({ e, idx }) => {
       if (activePathEdges.has(idx)) return 4;
@@ -1813,6 +2129,7 @@ function render() {
     return prio(a) - prio(b);
   });
 
+  cachedEdges = [];
   sortedVisEdges.forEach(({ e, idx }) => {
     const pa = layoutPos[e.from], pb = layoutPos[e.to];
     if (!pa || !pb) return;
@@ -1824,69 +2141,53 @@ function render() {
     const touchesSel = (e.from === selectedNodeId || e.to === selectedNodeId);
 
     const dx = pb.x - pa.x, dy = pb.y - pa.y;
-    let d;
-    if (Math.abs(dy) < 20) {
-      const midX = (pa.x + pb.x) / 2;
+    const sameRow = Math.abs(dy) < 20;
+    let x1, y1, x2, y2, cx1, cy1, cx2, cy2, midX, ctrlY;
+    if (sameRow) {
+      midX = (pa.x + pb.x) / 2;
       const arch = Math.min(85, Math.max(32, Math.abs(dx) * 0.08));
-      const y1 = pa.y - 24, y2 = pb.y - 25;
-      d = `M ${pa.x} ${y1} Q ${midX} ${pa.y - 24 - arch} ${pb.x} ${y2}`;
+      x1 = pa.x; y1 = pa.y - 24;
+      x2 = pb.x; y2 = pb.y - 25;
+      ctrlY = pa.y - 24 - arch;
     } else {
-      const y1 = pa.y + (dy > 0 ? 24 : -24);
-      const y2 = pb.y + (dy > 0 ? -25 : 25);
+      x1 = pa.x; y1 = pa.y + (dy > 0 ? 24 : -24);
+      x2 = pb.x; y2 = pb.y + (dy > 0 ? -25 : 25);
       const cy = y1 + (y2 - y1) * 0.52;
-      d = `M ${pa.x} ${y1} C ${pa.x} ${cy}, ${pb.x} ${cy}, ${pb.x} ${y2}`;
+      cx1 = pa.x; cy1 = cy; cx2 = pb.x; cy2 = cy;
     }
 
     let opacity = 0.58, width = lm.width, stroke = lm.color;
-    let dash = lm.dash;
+    let dashArr = lm.dash ? lm.dash.split(",").map(Number) : [];
     if (hasPath) {
       opacity = inPath ? 1 : 0.1;
-      if (inPath) { width = 3.8; stroke = "#f59e0b"; dash = ""; }
+      if (inPath) { width = 3.8; stroke = "#f59e0b"; dashArr = []; }
     } else if (isChildArrow) {
-      opacity = 1;
-      width = 3.2;
-      stroke = "#f59e0b";
-      if (e.type === "direct") dash = "";
+      opacity = 1; width = 3.2; stroke = "#f59e0b";
+      if (e.type === "direct") dashArr = [];
     } else if (isParentArrow) {
-      opacity = 0.95;
-      width = 2.6;
-      stroke = "#38bdf8";
-      if (e.type === "direct") dash = "";
+      opacity = 0.95; width = 2.6; stroke = "#38bdf8";
+      if (e.type === "direct") dashArr = [];
     } else if (selectedNodeId) {
       opacity = touchesSel ? 0.9 : 0.15;
       if (touchesSel) width = Math.max(width + 0.6, 2.5);
     }
 
-    const pathEl = document.createElementNS("http://www.w3.org/2000/svg", "path");
-    pathEl.setAttribute("d", d);
-    pathEl.setAttribute("class", "edge-path");
-    pathEl.setAttribute("stroke", stroke);
-    pathEl.setAttribute("stroke-width", width);
-    if (dash) pathEl.setAttribute("stroke-dasharray", dash);
-    pathEl.setAttribute("opacity", opacity);
+    const minEX = Math.min(x1, x2) - 20;
+    const maxEX = Math.max(x1, x2) + 20;
+    const minEY = sameRow ? Math.min(y1, y2, ctrlY) - 10 : Math.min(y1, y2) - 10;
+    const maxEY = sameRow ? Math.max(y1, y2) + 10 : Math.max(y1, y2) + 10;
 
-    if (inPath) pathEl.setAttribute("marker-end", "url(#arrow-active)");
-    else if (isChildArrow) pathEl.setAttribute("marker-end", "url(#arrow-child)");
-    else if (isParentArrow) pathEl.setAttribute("marker-end", "url(#arrow-parent)");
-    else if (e.type === "direct") pathEl.setAttribute("marker-end", "url(#arrow-direct)");
-    else if (e.type === "expansion") pathEl.setAttribute("marker-end", "url(#arrow-expansion)");
-    else if (e.type === "cognate") pathEl.setAttribute("marker-end", "url(#arrow-cognate)");
-    else if (e.type === "syncretic") pathEl.setAttribute("marker-end", "url(#arrow-syncretic)");
-    else if (e.type === "genetic") pathEl.setAttribute("marker-end", "url(#arrow-genetic)");
-
-    pathEl.addEventListener("mousemove", (ev) => {
-      const rect = document.getElementById("canvasWrap").getBoundingClientRect();
-      tooltip.style.left = (ev.clientX - rect.left + 14) + "px";
-      tooltip.style.top = (ev.clientY - rect.top + 14) + "px";
-      tooltip.innerHTML = `<div class="font-semibold" style="color:${lm.color}">${lm.label}</div><div class="font-medium mt-0.5">${escapeHtml(nodesById[e.from].name)} → ${escapeHtml(nodesById[e.to].name)}</div><div class="text-[var(--muted-foreground)] mt-0.5">${escapeHtml(e.label)}</div>`;
-      tooltip.classList.remove("hidden");
+    cachedEdges.push({
+      e, lm, sameRow, x1, y1, x2, y2, cx1, cy1, cx2, cy2, midX, ctrlY,
+      minEX, maxEX, minEY, maxEY, opacity, width, stroke, dashArr,
+      arrowSize: (inPath || isChildArrow) ? 10 : (isParentArrow ? 9 : 7),
     });
-    pathEl.addEventListener("mouseleave", () => tooltip.classList.add("hidden"));
-    edgesG.appendChild(pathEl);
   });
 
-  const nodesG = document.getElementById("nodesLayer");
-  nodesG.innerHTML = "";
+  cachedNodes = [];
+  cachedRowBuckets = {};
+  cachedRowOffsets = [];
+  const w = 194, h = 48;
   visNodes.forEach(n => {
     const p = layoutPos[n.id];
     if (!p) return;
@@ -1901,48 +2202,263 @@ function render() {
     else if (hasPath && !inPath) opacity = 0.22;
     else if (!hasPath && !hasSearch && selectedNodeId && !selNeighbors.has(n.id)) opacity = 0.56;
 
-    const w = 194, h = 48;
-    const g = document.createElementNS("http://www.w3.org/2000/svg", "g");
-    g.setAttribute("class", "node-card");
-    g.setAttribute("transform", `translate(${p.x - w/2}, ${p.y - h/2})`);
-    g.setAttribute("opacity", opacity);
-
-    const strokeColor = inPath ? "#f59e0b" : (isSel ? "var(--primary)" : (isChildOfSel ? "#f59e0b" : (isParentOfSel ? "#38bdf8" : trad.color)));
+    const strokeColor = inPath ? "#f59e0b" : (isSel ? "PRIMARY" : (isChildOfSel ? "#f59e0b" : (isParentOfSel ? "#38bdf8" : trad.color)));
     const strokeW = (isSel || inPath) ? 3 : (isChildOfSel ? 2.4 : (isParentOfSel ? 2.1 : (n.major ? 1.6 : 1.1)));
-
     const allKids = getActiveChildren(n.id);
-    const hiddenKids = allKids.filter(cid => !visIds.has(cid)).length;
+    let hiddenKids = 0;
+    for (let i = 0; i < allKids.length; i++) if (!visIds.has(allKids[i])) hiddenKids++;
 
-    const pendingDash = (n.tradition !== "dna" && n.biblicalConnected === false && !isSel && !inPath) ? 'stroke-dasharray="4,2"' : "";
-    g.innerHTML = `
-      ${isSel ? `<rect x="-3.5" y="-3.5" width="${w + 7}" height="${h + 7}" rx="11.5" fill="none" stroke="#f59e0b" stroke-width="1.6" opacity="0.6" />` : ""}
-      <rect width="${w}" height="${h}" rx="9" fill="var(--card)" stroke="${strokeColor}" stroke-width="${strokeW}" ${pendingDash} />
-      <rect width="6" height="${h}" rx="3" fill="${trad.color}" />
-      <text x="13" y="20" fill="var(--foreground)" font-size="11.5" font-weight="650">${escapeXml(truncate(n.name, 25))}</text>
-      <text x="13" y="36" fill="var(--muted-foreground)" font-size="9.8">${escapeXml(truncate(n.era, 29))}</text>
-    `;
+    const item = {
+      n, x: p.x - w / 2, y: p.y - h / 2, w, h, rowIdx: p.rowIdx,
+      tradColor: trad.color, isSel, inPath, opacity, strokeColor, strokeW,
+      pendingDash: (n.tradition !== "dna" && n.biblicalConnected === false && !isSel && !inPath),
+      hiddenKids: (!focusRootId ? hiddenKids : 0),
+      titleTrunc: truncate(n.name, 25),
+      eraTrunc: truncate(n.era, 29),
+    };
+    cachedNodes.push(item);
+    if (!cachedRowBuckets[p.rowIdx]) {
+      cachedRowBuckets[p.rowIdx] = [];
+      cachedRowOffsets.push(p.rowIdx);
+    }
+    cachedRowBuckets[p.rowIdx].push(item);
+  });
 
-    g.addEventListener("click", (ev) => {
-      ev.stopPropagation();
-      const alreadySel = (selectedNodeId === n.id);
-      selectNode(n.id, alreadySel || !isMobileViewport(), true);
-    });
-    g.addEventListener("dblclick", (ev) => { ev.stopPropagation(); if (allKids.length) toggleExpandParent(n.id); });
+  resizeTreeCanvas();
+  scheduleTreeDraw();
+}
 
-    if (hiddenKids > 0 && !focusRootId) {
-      const pill = document.createElementNS("http://www.w3.org/2000/svg", "g");
-      pill.setAttribute("class", "expand-pill");
-      pill.setAttribute("transform", `translate(${w - 34}, ${h - 11})`);
-      pill.innerHTML = `
-        <rect width="30" height="17" rx="8.5" fill="var(--primary)" />
-        <text x="15" y="12" text-anchor="middle" fill="var(--primary-foreground)" font-size="9.5" font-weight="700">+${hiddenKids}</text>
-      `;
-      pill.addEventListener("click", (ev) => { ev.stopPropagation(); toggleExpandParent(n.id); });
-      g.appendChild(pill);
+function drawTreeCanvas() {
+  const canvas = document.getElementById("treeCanvas");
+  if (!canvas || mainView !== "tree") return;
+  const ctx = canvas.getContext("2d");
+  if (!ctx) return;
+
+  const th = getThemeColors();
+  ctx.save();
+  ctx.setTransform(canvasDpr, 0, 0, canvasDpr, 0, 0);
+  ctx.fillStyle = th.bg;
+  ctx.fillRect(0, 0, canvasCssW, canvasCssH);
+
+  ctx.translate(panX, panY);
+  ctx.scale(scale, scale);
+
+  const vMinX = -panX / scale - 220;
+  const vMaxX = (canvasCssW - panX) / scale + 220;
+  const vMinY = -panY / scale - 150;
+  const vMaxY = (canvasCssH - panY) / scale + 150;
+
+  const lodMinimal = scale < 0.20;
+  const lodMedium = scale >= 0.20 && scale < 0.42;
+
+  // 1. Tier bands (only visible rows)
+  if (!lodMinimal) {
+    ctx.font = "600 11px ui-sans-serif, system-ui, sans-serif";
+    for (let i = 0; i < cachedTierBands.length; i++) {
+      const tb = cachedTierBands[i];
+      if (tb.y < vMinY || tb.y > vMaxY) continue;
+      ctx.save();
+      ctx.globalAlpha = 0.52;
+      ctx.strokeStyle = th.border;
+      ctx.lineWidth = 1;
+      ctx.setLineDash([4, 8]);
+      ctx.beginPath();
+      ctx.moveTo(Math.max(tb.minX, vMinX), tb.y);
+      ctx.lineTo(Math.min(tb.maxX, vMaxX), tb.y);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      if (tb.minX + 6 >= vMinX && tb.minX + 6 <= vMaxX) {
+        ctx.fillStyle = th.muted;
+        ctx.fillText(tb.label, tb.minX + 6, tb.y - 30);
+      }
+      ctx.restore();
+    }
+  }
+
+  // 2. Visible Edges with LOD
+  for (let i = 0; i < cachedEdges.length; i++) {
+    const ce = cachedEdges[i];
+    if (ce.maxEX < vMinX || ce.minEX > vMaxX || ce.maxEY < vMinY || ce.minEY > vMaxY) continue;
+    ctx.globalAlpha = ce.opacity;
+    ctx.strokeStyle = ce.stroke;
+    ctx.lineWidth = lodMinimal ? Math.max(1.2, ce.width * 0.7) : ce.width;
+    ctx.setLineDash(lodMinimal ? [] : ce.dashArr);
+    ctx.beginPath();
+    ctx.moveTo(ce.x1, ce.y1);
+    if (lodMinimal) {
+      ctx.lineTo(ce.x2, ce.y2);
+    } else if (ce.sameRow) {
+      ctx.quadraticCurveTo(ce.midX, ce.ctrlY, ce.x2, ce.y2);
+    } else {
+      ctx.bezierCurveTo(ce.cx1, ce.cy1, ce.cx2, ce.cy2, ce.x2, ce.y2);
+    }
+    ctx.stroke();
+
+    if (!lodMinimal && !lodMedium && ce.opacity >= 0.45) {
+      ctx.setLineDash([]);
+      const fromX = ce.sameRow ? ce.midX : ce.cx2;
+      const fromY = ce.sameRow ? ce.ctrlY : ce.cy2;
+      drawArrowTip(ctx, fromX, fromY, ce.x2, ce.y2, ce.stroke, ce.arrowSize);
+    }
+  }
+  ctx.setLineDash([]);
+
+  // 3. Visible Nodes with LOD
+  for (let i = 0; i < cachedNodes.length; i++) {
+    const cn = cachedNodes[i];
+    if (cn.x + cn.w < vMinX || cn.x > vMaxX || cn.y + cn.h < vMinY || cn.y > vMaxY) continue;
+
+    ctx.globalAlpha = cn.opacity;
+    if (lodMinimal) {
+      ctx.fillStyle = cn.tradColor;
+      ctx.fillRect(cn.x, cn.y, cn.w, cn.h);
+      if (cn.isSel || cn.inPath) {
+        ctx.strokeStyle = th.primary;
+        ctx.lineWidth = 4;
+        ctx.strokeRect(cn.x - 2, cn.y - 2, cn.w + 4, cn.h + 4);
+      }
+      continue;
     }
 
-    nodesG.appendChild(g);
-  });
+    if (cn.isSel) {
+      ctx.save();
+      ctx.globalAlpha = 0.6;
+      ctx.strokeStyle = "#f59e0b";
+      ctx.lineWidth = 1.6;
+      drawRoundedRect(ctx, cn.x - 3.5, cn.y - 3.5, cn.w + 7, cn.h + 7, 11.5);
+      ctx.stroke();
+      ctx.restore();
+    }
+
+    ctx.fillStyle = th.card;
+    drawRoundedRect(ctx, cn.x, cn.y, cn.w, cn.h, 9);
+    ctx.fill();
+
+    ctx.strokeStyle = cn.strokeColor === "PRIMARY" ? th.primary : cn.strokeColor;
+    ctx.lineWidth = cn.strokeW;
+    if (cn.pendingDash) ctx.setLineDash([4, 2]);
+    ctx.stroke();
+    ctx.setLineDash([]);
+
+    ctx.fillStyle = cn.tradColor;
+    drawRoundedRect(ctx, cn.x, cn.y, 6, cn.h, 3);
+    ctx.fill();
+
+    ctx.fillStyle = th.fg;
+    ctx.font = "600 11.5px ui-sans-serif, system-ui, sans-serif";
+    ctx.fillText(cn.titleTrunc, cn.x + 13, cn.y + 20);
+
+    if (!lodMedium) {
+      ctx.fillStyle = th.muted;
+      ctx.font = "400 9.8px ui-sans-serif, system-ui, sans-serif";
+      ctx.fillText(cn.eraTrunc, cn.x + 13, cn.y + 36);
+
+      if (cn.hiddenKids > 0) {
+        const px = cn.x + cn.w - 34, py = cn.y + cn.h - 11;
+        ctx.fillStyle = th.primary;
+        drawRoundedRect(ctx, px, py, 30, 17, 8.5);
+        ctx.fill();
+        ctx.fillStyle = th.primaryFg;
+        ctx.font = "700 9.5px ui-sans-serif, system-ui, sans-serif";
+        ctx.textAlign = "center";
+        ctx.fillText(`+${cn.hiddenKids}`, px + 15, py + 12);
+        ctx.textAlign = "left";
+      }
+    }
+  }
+  ctx.restore();
+}
+
+function hitTestNode(wx, wy) {
+  const rowApprox = Math.round((wy - 60) / 128);
+  for (let dr = -1; dr <= 1; dr++) {
+    const bucket = cachedRowBuckets[rowApprox + dr];
+    if (!bucket) continue;
+    for (let i = bucket.length - 1; i >= 0; i--) {
+      const cn = bucket[i];
+      if (cn.hiddenKids > 0) {
+        const px = cn.x + cn.w - 34, py = cn.y + cn.h - 11;
+        if (wx >= px - 4 && wx <= px + 34 && wy >= py - 4 && wy <= py + 21) {
+          return { item: cn, onPill: true };
+        }
+      }
+      if (wx >= cn.x && wx <= cn.x + cn.w && wy >= cn.y && wy <= cn.y + cn.h) {
+        return { item: cn, onPill: false };
+      }
+    }
+  }
+  return null;
+}
+
+function pointToSegDist2(px, py, ax, ay, bx, by) {
+  const dx = bx - ax, dy = by - ay;
+  const len2 = dx * dx + dy * dy;
+  if (len2 === 0) return (px - ax) * (px - ax) + (py - ay) * (py - ay);
+  const t = Math.max(0, Math.min(1, ((px - ax) * dx + (py - ay) * dy) / len2));
+  const cx = ax + t * dx, cy = ay + t * dy;
+  return (px - cx) * (px - cx) + (py - cy) * (py - cy);
+}
+
+function handleTreeHover(ev) {
+  const canvas = document.getElementById("treeCanvas");
+  const tooltip = document.getElementById("edgeTooltip");
+  if (!canvas || !tooltip) return;
+  const rect = canvas.getBoundingClientRect();
+  const wx = (ev.clientX - rect.left - panX) / scale;
+  const wy = (ev.clientY - rect.top - panY) / scale;
+
+  const hit = hitTestNode(wx, wy);
+  if (hit) {
+    canvas.style.cursor = "pointer";
+    tooltip.classList.add("hidden");
+    return;
+  }
+
+  const tol = Math.max(6, 8 / scale);
+  const tol2 = tol * tol;
+  let best = null, bestD2 = tol2;
+  for (let i = cachedEdges.length - 1; i >= 0; i--) {
+    const ce = cachedEdges[i];
+    if (wx < ce.minEX - tol || wx > ce.maxEX + tol || wy < ce.minEY - tol || wy > ce.maxEY + tol) continue;
+    let minD2 = Infinity;
+    if (ce.sameRow) {
+      let px = ce.x1, py = ce.y1;
+      for (let s = 1; s <= 6; s++) {
+        const t = s / 6, mt = 1 - t;
+        const nx = mt * mt * ce.x1 + 2 * mt * t * ce.midX + t * t * ce.x2;
+        const ny = mt * mt * ce.y1 + 2 * mt * t * ce.ctrlY + t * t * ce.y2;
+        const d2 = pointToSegDist2(wx, wy, px, py, nx, ny);
+        if (d2 < minD2) minD2 = d2;
+        px = nx; py = ny;
+      }
+    } else {
+      let px = ce.x1, py = ce.y1;
+      for (let s = 1; s <= 6; s++) {
+        const t = s / 6, mt = 1 - t;
+        const nx = mt * mt * mt * ce.x1 + 3 * mt * mt * t * ce.cx1 + 3 * mt * t * t * ce.cx2 + t * t * t * ce.x2;
+        const ny = mt * mt * mt * ce.y1 + 3 * mt * mt * t * ce.cy1 + 3 * mt * t * t * ce.cy2 + t * t * t * ce.y2;
+        const d2 = pointToSegDist2(wx, wy, px, py, nx, ny);
+        if (d2 < minD2) minD2 = d2;
+        px = nx; py = ny;
+      }
+    }
+    if (minD2 < bestD2) {
+      bestD2 = minD2;
+      best = ce;
+    }
+  }
+
+  if (best) {
+    canvas.style.cursor = "pointer";
+    const wrapRect = document.getElementById("canvasWrap").getBoundingClientRect();
+    tooltip.style.left = (ev.clientX - wrapRect.left + 14) + "px";
+    tooltip.style.top = (ev.clientY - wrapRect.top + 14) + "px";
+    tooltip.innerHTML = `<div class="font-semibold" style="color:${best.lm.color}">${best.lm.label}</div><div class="font-medium mt-0.5">${escapeHtml(nodesById[best.e.from].name)} → ${escapeHtml(nodesById[best.e.to].name)}</div><div class="text-[var(--muted-foreground)] mt-0.5">${escapeHtml(best.e.label)}</div>`;
+    tooltip.classList.remove("hidden");
+  } else {
+    canvas.style.cursor = isPanning ? "grabbing" : "grab";
+    tooltip.classList.add("hidden");
+  }
 }
 
 function truncate(str, max) { return str.length > max ? str.slice(0, max - 1) + "…" : str; }

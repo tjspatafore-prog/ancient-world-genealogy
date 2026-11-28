@@ -1,0 +1,1940 @@
+{
+  "module": "53_wave11_global_monarchs_queens_and_dynasties",
+  "title": "Wave 11: Global Monarchs, Queens & Living 2026 Crowns (Austria-Hungary, Balkans, China, South/SE Asia, Arabian Gulf & ANE)",
+  "nodes": [
+    {
+      "id": "roy11_francis2_austria",
+      "name": "Emperor Francis II / I (Final Holy Roman Emperor & 1st Emperor of Austria, 1792–1835)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1768–1835 CE",
+      "role": "Emperor of Austria & Last HRE",
+      "sources": [
+        "Almanach de Gotha",
+        "Habsburg Archives"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Habsburg Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_franz_joseph_sisi",
+      "name": "Emperor Franz Joseph I (+ Empress Elisabeth 'Sisi', r. 1848–1916 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1830–1916 CE",
+      "role": "Emperor of Austria & King of Hungary",
+      "sources": [
+        "Almanach de Gotha",
+        "Habsburg Archives"
+      ],
+      "notes": "Longest-reigning Habsburg monarch of Austria-Hungary; great-uncle of Otto & Karl von Habsburg.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_franz_ferdinand",
+      "name": "Archduke Franz Ferdinand of Austria-Este (Nephew of Franz Joseph, 1863–1914 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1863–1914 CE",
+      "role": "Heir Presumptive to Austria-Hungary",
+      "sources": [
+        "Almanach de Gotha"
+      ],
+      "notes": "His 1914 assassination at Sarajevo triggered World War I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_karl1_otto_habsburg",
+      "name": "Emperor Blessed Karl I → Otto von Habsburg → Archduke Karl (Living 2026 House of Habsburg)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1887–Present CE",
+      "role": "Living 2026 Head of House of Habsburg-Lorraine",
+      "sources": [
+        "Almanach de Gotha",
+        "Burke's Royal Families"
+      ],
+      "notes": "Final Austrian Emperor Karl I (grandnephew of Franz Joseph) -> Crown Prince Otto -> Karl von Habsburg (b. 1961).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_tsar_alexander1_nicholas1",
+      "name": "Tsars Paul I, Alexander I (Napoleonic Era) & Nicholas I of Russia (1796–1855 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1754–1855 CE",
+      "role": "Emperors of All Russia",
+      "sources": [
+        "Almanach de Gotha",
+        "Russian Imperial Archives"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Russian Imperial Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_tsar_alexander2_3",
+      "name": "Tsar Alexander II (Liberator, r. 1855–1881) & Tsar Alexander III (1881–1894 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1818–1894 CE",
+      "role": "Emperors of All Russia",
+      "sources": [
+        "Almanach de Gotha",
+        "Russian Imperial Archives"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Russian Imperial Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_louis18_charles10",
+      "name": "Kings Louis XVIII & Charles X of France (Bourbon Restoration, 1814–1830 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1755–1836 CE",
+      "role": "Bourbon Kings of France",
+      "sources": [
+        "Almanach de Gotha",
+        "French Royal Archives"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, French Royal Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_louis_philippe",
+      "name": "King Louis-Philippe I of the French (House of Orléans, r. 1830–1848 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1773–1850 CE",
+      "role": "King of the French (Orléans)",
+      "sources": [
+        "Almanach de Gotha",
+        "French Royal Archives"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, French Royal Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_napoleon3_eugenie",
+      "name": "Emperor Napoleon III (+ Empress Eugénie; Nephew of Napoleon I, r. 1852–1870 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1808–1873 CE",
+      "role": "Emperor of the French",
+      "sources": [
+        "Almanach de Gotha",
+        "French Royal Archives"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, French Royal Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_victor_emmanuel2",
+      "name": "King Victor Emmanuel II of Italy (Savoy Unifier of Italy, 1861–1878 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1820–1878 CE",
+      "role": "1st King of United Italy",
+      "sources": [
+        "Almanach de Gotha",
+        "Savoy Royal Archives"
+      ],
+      "notes": "House of Savoy sovereign proclaimed first King of Italy in 1861 CE.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_umberto1_victor3",
+      "name": "Kings Umberto I, Victor Emmanuel III & Umberto II of Italy (1878–1946 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1844–1983 CE",
+      "role": "Kings of Italy",
+      "sources": [
+        "Almanach de Gotha",
+        "Savoy Royal Archives"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Savoy Royal Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_george1_greece",
+      "name": "King George I of Greece (+ Grand Duchess Olga Konstantinovna of Russia, 1863–1913 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1845–1913 CE",
+      "role": "King of the Hellenes (Glücksburg)",
+      "sources": [
+        "Almanach de Gotha",
+        "Greek Royal Archives"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Greek Royal Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_constantine1_greece",
+      "name": "King Constantine I (+ Sophia of Prussia, Granddaughter of Queen Victoria, 1913–1922)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1868–1923 CE",
+      "role": "King of the Hellenes",
+      "sources": [
+        "Almanach de Gotha",
+        "Greek Royal Archives"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Greek Royal Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_paul_frederica_greece",
+      "name": "King Paul & Queen Frederica of Greece (Parents of Queen Sofía of Spain, 1947–1964 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1901–1981 CE",
+      "role": "King & Queen of Greece",
+      "sources": [
+        "Almanach de Gotha",
+        "Greek Royal Archives"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Greek Royal Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_constantine2_greece",
+      "name": "King Constantine II of Greece & Crown Prince Pavlos (1940–Present CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1940–Present CE",
+      "role": "Glücksburg Royal House of Greece",
+      "sources": [
+        "Almanach de Gotha",
+        "Greek Royal Archives"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Greek Royal Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_khan_asparukh_boris1",
+      "name": "Khan Asparukh (681 CE) → Krum → Tsar St. Boris I of Bulgaria (Baptized 864 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "681–907 CE",
+      "role": "Khans & Christianizer of Bulgaria",
+      "sources": [
+        "Bulgarian Chronicles",
+        "De Administrando Imperio"
+      ],
+      "notes": "Chronicle succession in Bulgarian Chronicles, De Administrando Imperio.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_tsar_simeon1_bulgaria",
+      "name": "Tsar Simeon I the Great of Bulgaria (Preslav Golden Age, r. 893–927 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "864–927 CE",
+      "role": "1st Tsar / Emperor of Bulgaria",
+      "sources": [
+        "Bulgarian Chronicles",
+        "De Administrando Imperio"
+      ],
+      "notes": "Educated in Constantinople; proclaimed Tsar of Bulgarians and Greeks.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_tsar_samuel_ivan_asen2",
+      "name": "Tsars Samuel, Ivan Asen II & Simeon II of Bulgaria (10th c. – 2026 Living Line)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "997–Present CE",
+      "role": "Tsars of Bulgaria",
+      "sources": [
+        "Bulgarian Chronicles",
+        "De Administrando Imperio"
+      ],
+      "notes": "Chronicle succession in Bulgarian Chronicles, De Administrando Imperio.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_stefan_nemanja",
+      "name": "Grand Župan Stefan Nemanja → King Stefan the First-Crowned (Serbia, 1166–1228 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1113–1228 CE",
+      "role": "Founder of Nemanjić Serbia",
+      "sources": [
+        "Serbian Royal Chronicles",
+        "Echard Roman History"
+      ],
+      "notes": "Chronicle succession in Serbian Royal Chronicles, Echard Roman History.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_stefan_dusan",
+      "name": "Emperor Stefan Uroš IV Dušan ('Dušan the Mighty', Serbian Empire, 1331–1355 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1308–1355 CE",
+      "role": "Tsar of Serbs & Greeks",
+      "sources": [
+        "Serbian Royal Chronicles",
+        "Echard Roman History"
+      ],
+      "notes": "Promulgated Dušan's Code and raised the Serbian Archbishopric to a Patriarchate.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_prince_lazar_kosovo",
+      "name": "Prince St. Lazar Hrebeljanović (Kosovo 1389) & Despot Stefan Lazarević (d. 1427 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1329–1427 CE",
+      "role": "Serbian Prince & Despot",
+      "sources": [
+        "Serbian Royal Chronicles",
+        "Echard Roman History"
+      ],
+      "notes": "Chronicle succession in Serbian Royal Chronicles, Echard Roman History.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_mircea_vlad3_dracula",
+      "name": "Voivodes Mircea the Elder & Vlad III Drăculea ('Vlad the Impaler', Wallachia, 1386–1476)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1355–1477 CE",
+      "role": "Voivodes of Wallachia",
+      "sources": [
+        "Danubian Chronicles",
+        "Knolles Turkish History"
+      ],
+      "notes": "Chronicle succession in Danubian Chronicles, Knolles Turkish History.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_stephen_great_moldavia",
+      "name": "Voivode St. Stephen the Great of Moldavia (Ştefan cel Mare, r. 1457–1504 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "c. 1433–1504 CE",
+      "role": "Prince / Voivode of Moldavia",
+      "sources": [
+        "Danubian Chronicles",
+        "Knolles Turkish History"
+      ],
+      "notes": "Fought 36 battles defending Moldavia; cousin-ally of Vlad III and candidate to Matthias Corvinus.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_carol1_queen_marie_romania",
+      "name": "King Carol I, King Ferdinand I & Queen Marie of Romania (Granddaughter of Queen Victoria, 1866–1938)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1839–1938 CE",
+      "role": "Hohenzollern-Sigmaringen Monarchs of Romania",
+      "sources": [
+        "Almanach de Gotha"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "roy11_king_michael1_romania",
+      "name": "King Michael I of Romania (+ Anne of Bourbon-Parma) & Margareta (Living 2026)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 22,
+      "era": "1921–Present CE",
+      "role": "Final King of Romania & Custodian of the Crown",
+      "sources": [
+        "Almanach de Gotha"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_empress_lu_zhi",
+      "name": "Empress Dowager Lü Zhi (+ Liu Bang / Han Gaozu; First Woman Ruler of Imperial China, d. 180 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 17,
+      "era": "241–180 BCE",
+      "role": "Han Empress Dowager & Regent",
+      "sources": [
+        "Sima Qian Shiji Ch. 9"
+      ],
+      "notes": "Consort of Han founder Liu Bang (Han Gaozu) & regent of Early Western Han.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_emperor_xuan_han",
+      "name": "Emperor Xuan of Han / Liu Bingyi (Great-Grandson of Han Wudi, r. 74–49 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 18,
+      "era": "91–49 BCE",
+      "role": "Western Han Emperor",
+      "sources": [
+        "Book of Han (Han Shu)"
+      ],
+      "notes": "Golden Age Western Han sovereign under whom the Xiongnu submitted.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_wang_mang",
+      "name": "Emperor Wang Mang (Xin Dynasty Interregnum, 9–23 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "45 BCE–23 CE",
+      "role": "Emperor of Xin Dynasty",
+      "sources": [
+        "Book of Han"
+      ],
+      "notes": "Nephew of Empress Wang Zhengjun between Western & Eastern Han.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_emperor_ming_han",
+      "name": "Emperor Ming of Han & Emperor Zhang (Patron of First Buddhist Temple at Luoyang, 57–88 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "28–88 CE",
+      "role": "Eastern Han Emperors",
+      "sources": [
+        "Book of Later Han"
+      ],
+      "notes": "Sons & grandsons of Han Guangwu; sent Ban Chao along the Silk Road.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_emperor_xian_han",
+      "name": "Emperor Xian of Han / Liu Xie (Final Han Emperor, Abdicated 220 CE to Cao Pi)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "181–234 CE",
+      "role": "Last Emperor of Han Dynasty",
+      "sources": [
+        "Records of the Three Kingdoms"
+      ],
+      "notes": "Last Eastern Han monarch whose 220 CE abdication launched the Three Kingdoms.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_sima_yan_jin",
+      "name": "Emperor Wu of Jin / Sima Yan (Reunified China 280 CE, Western Jin Dynasty)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "236–290 CE",
+      "role": "Founder of Jin Dynasty",
+      "sources": [
+        "Book of Jin"
+      ],
+      "notes": "Grandson of Sima Yi; ended the Three Kingdoms era in 280 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_xiaowen_northern_wei",
+      "name": "Emperor Xiaowen of Northern Wei (Tuoba Hong / Yuan Hong, r. 471–499 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "467–499 CE",
+      "role": "Xianbei Emperor of Northern Wei",
+      "sources": [
+        "Book of Wei"
+      ],
+      "notes": "Sinicized Northern Wei court and built the Longmen Grottoes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_emperor_yang_sui",
+      "name": "Emperor Yang of Sui / Yang Guang (Built Grand Canal, r. 604–618 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "569–618 CE",
+      "role": "2nd Emperor of Sui Dynasty",
+      "sources": [
+        "Book of Sui"
+      ],
+      "notes": "Son of Sui Wendi; completed the Grand Canal before Tang Gaozu's rise.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_emperor_gaozong_wu_zetian",
+      "name": "Emperor Tang Gaozong & Empress Regnant Wu Zetian (Zhou Dynasty, 624–705 CE)",
+      "altNames": true,
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "624–705 CE",
+      "role": "Sole Female Emperor Regnant of China",
+      "sources": [
+        "Old & New Book of Tang"
+      ],
+      "notes": "Only woman in Chinese history to reign as Huángdì (Emperor Regnant) in her own right; mother of Emperors Zhongzong & Ruizong.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_emperor_suzong_tang",
+      "name": "Emperor Suzong → Dezong → Xianzong of Tang (Post-An Lushan Restoration, 756–820 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "711–820 CE",
+      "role": "Late Tang Emperors",
+      "sources": [
+        "New Book of Tang"
+      ],
+      "notes": "Son of Tang Xuanzong; rebuilt Tang authority after An Lushan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_yelv_abaoji_liao",
+      "name": "Emperor Taizu Yelü Abaoji (Founder of Khitan Liao Dynasty, 907–926 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 19,
+      "era": "872–926 CE",
+      "role": "Founder of Liao Dynasty",
+      "sources": [
+        "History of Liao"
+      ],
+      "notes": "Khitan founder whose western branch formed Qara Khitai.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_aguda_jin",
+      "name": "Emperor Taizu Wanyan Aguda (Founder of Jurchen Jin Dynasty, 1115–1123 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "1068–1123 CE",
+      "role": "Founder of Jin Dynasty",
+      "sources": [
+        "History of Jin"
+      ],
+      "notes": "Jurchen ancestor of the Aisin Gioro / Manchu Qing founders.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_song_renzong_gaozong",
+      "name": "Emperors Renzong (Northern Song Peak) & Gaozong (1st Southern Song Emperor, 1022–1162 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "1010–1187 CE",
+      "role": "Song Dynasty Emperors",
+      "sources": [
+        "History of Song"
+      ],
+      "notes": "Golden Age Northern Song Renzong & Southern Song founder Gaozong.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_ming_xuande_zhengtong",
+      "name": "Emperors Xuande (Zhu Zhanji) & Zhengtong / Tianshun of Ming (1425–1464 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 20,
+      "era": "1399–1464 CE",
+      "role": "Ming Dynasty Emperors",
+      "sources": [
+        "History of Ming"
+      ],
+      "notes": "Grandson & great-grandson of Emperor Yongle; patronized Zheng He's final voyage.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_ming_wanli",
+      "name": "Emperor Wanli / Zhu Yijun (48-Year Ming Reign, r. 1572–1620 CE; Hosted Matteo Ricci)",
+      "altNames": true,
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1563–1620 CE",
+      "role": "14th Emperor of Ming Dynasty",
+      "sources": [
+        "History of Ming",
+        "Du Halde 1738"
+      ],
+      "notes": "Longest-reigning Ming emperor; sent armies to defend Joseon Korea in the Imjin War.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_ming_chongzhen",
+      "name": "Emperor Chongzhen / Zhu Youjian (17th & Final Ming Emperor of Beijing, d. 1644 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1611–1644 CE",
+      "role": "Last Ming Emperor",
+      "sources": [
+        "History of Ming"
+      ],
+      "notes": "Grandson of Wanli; died in 1644 CE as Manchu Qing entered Beijing.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_qing_yongzheng",
+      "name": "Emperor Yongzheng / Yinzhen (4th Son of Kangxi; Father of Qianlong, r. 1722–1735 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1678–1735 CE",
+      "role": "Qing Emperor",
+      "sources": [
+        "Draft History of Qing",
+        "Du Halde 1738"
+      ],
+      "notes": "Son of Kangxi & father of Qianlong.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chn11_qing_jiaqing_guangxu",
+      "name": "Qing Emperors Jiaqing, Daoguang, Xianfeng, Tongzhi & Guangxu (1796–1908 CE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 21,
+      "era": "1760–1908 CE",
+      "role": "Late Qing Emperors",
+      "sources": [
+        "Draft History of Qing"
+      ],
+      "notes": "Late 19th-century Qing emperors ruling under Empress Dowager Cixi prior to Puyi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_qutb_iltutmish",
+      "name": "Sultans Qutb al-Din Aibak & Shams ad-Din Iltutmish (Founders of Delhi Sultanate, 1206–1236 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "1150–1236 CE",
+      "role": "Mamluk Sultans of Delhi",
+      "sources": [
+        "Ferishta History of Hindostan",
+        "Ibn Battuta"
+      ],
+      "notes": "Chronicle succession in Ferishta History of Hindostan, Ibn Battuta.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_razia_sultana",
+      "name": "Sultana Razia al-Din (First & Only Woman Sultan of Delhi, r. 1236–1240 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "1205–1240 CE",
+      "role": "Sovereign Sultana of Delhi",
+      "sources": [
+        "Ferishta History of Hindostan",
+        "Ibn Battuta"
+      ],
+      "notes": "Daughter of Sultan Iltutmish designated above her brothers as sovereign ruler of Delhi.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_alauddin_khalji",
+      "name": "Sultan Alauddin Khalji (Repelled Mongol Invasions, r. 1296–1316 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "c. 1266–1316 CE",
+      "role": "Sultan of Delhi",
+      "sources": [
+        "Ferishta History of Hindostan",
+        "Ibn Battuta"
+      ],
+      "notes": "Chronicle succession in Ferishta History of Hindostan, Ibn Battuta.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_tughluq_ibn_battuta",
+      "name": "Sultan Muhammad bin Tughluq (Appointed Ibn Battuta Chief Qadi of Delhi, r. 1325–1351 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "c. 1290–1351 CE",
+      "role": "Sultan of Delhi",
+      "sources": [
+        "Ferishta History of Hindostan",
+        "Ibn Battuta"
+      ],
+      "notes": "Chronicle succession in Ferishta History of Hindostan, Ibn Battuta.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_sher_shah_suri",
+      "name": "Emperor Sher Shah Suri (Built Grand Trunk Road & Rupee Currency, r. 1540–1545 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1486–1545 CE",
+      "role": "Emperor of North India (Sur)",
+      "sources": [
+        "Ferishta History of Hindostan",
+        "Ibn Battuta"
+      ],
+      "notes": "Defeated Humayun and reorganized North Indian administration & currency.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_nizam_asaf_jah1",
+      "name": "Nizam-ul-Mulk Asaf Jah I (Founder of Hyderabad Nizams, 1724–1748 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1671–1748 CE",
+      "role": "1st Nizam of Hyderabad",
+      "sources": [
+        "Mughal & Deccan Chronicles"
+      ],
+      "notes": "Mughal governor under Aurangzeb who founded the Asaf Jahi dynasty.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_hyder_ali_tipu_sultan",
+      "name": "Sultan Hyder Ali & Tipu Sultan ('Tiger of Mysore', r. 1761–1799 CE)",
+      "altNames": true,
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1720–1799 CE",
+      "role": "Sultans of Mysore",
+      "sources": [
+        "Mysore Chronicles"
+      ],
+      "notes": "Modernizing South Indian sovereigns who allied with France against British rule.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_rani_lakshmibai",
+      "name": "Maharani Lakshmibai of Jhansi (Queen of Jhansi, 1828–1858 CE)",
+      "altNames": true,
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1828–1858 CE",
+      "role": "Rani of Jhansi",
+      "sources": [
+        "Indian Chronicles"
+      ],
+      "notes": "Born Manikarnika Tambe in a Maratha Peshwa court family; central heroine of 1857.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_prithvi_narayan_nepal",
+      "name": "King Prithvi Narayan Shah (Unifier of Kingdom of Nepal, 1743–1775 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1723–1775 CE",
+      "role": "Founder of Modern Nepal",
+      "sources": [
+        "Nepalese Royal Chronicles (Mewar Sisodia Descent)"
+      ],
+      "notes": "Chronicle succession in Nepalese Royal Chronicles (Mewar Sisodia Descent).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_tribhuvan_birendra_nepal",
+      "name": "Kings Tribhuvan, Mahendra, Birendra & Gyanendra of Nepal (Shah Dynasty, 1911–2008 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1906–Present CE",
+      "role": "Shah Kings of Nepal",
+      "sources": [
+        "Nepalese Royal Chronicles (Mewar Sisodia Descent)"
+      ],
+      "notes": "Chronicle succession in Nepalese Royal Chronicles (Mewar Sisodia Descent).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_ugyen_wangchuck_bhutan",
+      "name": "Druk Gyalpo Ugyen Wangchuck (1st Hereditary King of Bhutan, r. 1907–1926 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1862–1926 CE",
+      "role": "1st Dragon King of Bhutan",
+      "sources": [
+        "Bhutanese Royal Chronicles"
+      ],
+      "notes": "Chronicle succession in Bhutanese Royal Chronicles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_bhutan_jigme_khesar_2026",
+      "name": "LIVING (2026): King Jigme Khesar Namgyel Wangchuck of Bhutan (5th Druk Gyalpo)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 22,
+      "era": "1980–Present CE",
+      "role": "Reigning King of Bhutan (Living 2026)",
+      "sources": [
+        "Bhutanese Royal Chronicles"
+      ],
+      "notes": "Present-day Dragon King of Bhutan descended from Drukpa Tibetan spiritual-noble houses.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_rama6_rama7",
+      "name": "Kings Vajiravudh (Rama VI), Prajadhipok (Rama VII) & Ananda Mahidol (Rama VIII)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1881–1946 CE",
+      "role": "Chakri Kings of Thailand",
+      "sources": [
+        "Royal Chronicles of Siam & Thailand"
+      ],
+      "notes": "Chronicle succession in Royal Chronicles of Siam & Thailand.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_bhumibol_rama9",
+      "name": "King Bhumibol Adulyadej the Great (Rama IX, r. 1946–2016 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1927–2016 CE",
+      "role": "9th Chakri King of Thailand",
+      "sources": [
+        "Royal Chronicles of Siam & Thailand"
+      ],
+      "notes": "Reigned 70 years as constitutional monarch of Thailand.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_thailand_rama10_2026",
+      "name": "LIVING (2026): King Maha Vajiralongkorn (Rama X) of Thailand",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 22,
+      "era": "1952–Present CE",
+      "role": "Reigning King of Thailand (Living 2026)",
+      "sources": [
+        "Royal Chronicles of Siam & Thailand"
+      ],
+      "notes": "Present-day reigning Chakri monarch of Thailand (2026).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_norodom_sihanouk",
+      "name": "King Norodom → King Norodom Sihanouk of Cambodia (1834–2012 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1834–2012 CE",
+      "role": "Norodom Kings of Cambodia",
+      "sources": [
+        "Cambodian Royal Chronicles"
+      ],
+      "notes": "Chronicle succession in Cambodian Royal Chronicles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_cambodia_sihamoni_2026",
+      "name": "LIVING (2026): King Norodom Sihamoni of Cambodia",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 22,
+      "era": "1953–Present CE",
+      "role": "Reigning King of Cambodia (Living 2026)",
+      "sources": [
+        "Cambodian Royal Chronicles"
+      ],
+      "notes": "Present-day reigning monarch of Cambodia continuing Angkor-Khmer royal heritage.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_bolkiah_golden_age",
+      "name": "Sultan Bolkiah (5th Sultan of Brunei, 'Golden Age', r. 1485–1524 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1485–1524 CE",
+      "role": "5th Sultan of Brunei",
+      "sources": [
+        "Salasilah Raja-Raja Brunei"
+      ],
+      "notes": "Chronicle succession in Salasilah Raja-Raja Brunei.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_brunei_hassanal_bolkiah_2026",
+      "name": "LIVING (2026): Sultan Hassanal Bolkiah of Brunei (29th Sultan, r. 1967–Present)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 22,
+      "era": "1946–Present CE",
+      "role": "Reigning Sultan of Brunei (Living 2026)",
+      "sources": [
+        "Salasilah Raja-Raja Brunei"
+      ],
+      "notes": "One of the longest-reigning monarchs in world history, continuing the Brunei royal line since Muhammad Shah.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "asi11_malaysia_yang_di_pertuan_2026",
+      "name": "LIVING (2026): Sultan Ibrahim of Johor (17th Yang di-Pertuan Agong / King of Malaysia)",
+      "altNames": true,
+      "tradition": "southeast_asia",
+      "tier": 22,
+      "era": "1958–Present CE",
+      "role": "Reigning King of Malaysia (Living 2026)",
+      "sources": [
+        "Johor & Malacca Royal Chronicles"
+      ],
+      "notes": "Reigning King of Malaysia (2024–present) from the House of Temenggong / Johor-Malacca continuity.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_muhammad_ibn_saud",
+      "name": "Imam Muhammad ibn Saud (Founder of First Saudi State at Diriyah, 1744–1765 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1687–1765 CE",
+      "role": "Founder of House of Saud",
+      "sources": [
+        "Al Saud Najdi Chronicles"
+      ],
+      "notes": "Chronicle succession in Al Saud Najdi Chronicles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_abdulaziz_ibn_saud",
+      "name": "King Abdulaziz ibn Saud (Founder of Kingdom of Saudi Arabia, 1932–1953 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1875–1953 CE",
+      "role": "1st King of Saudi Arabia",
+      "sources": [
+        "Al Saud Najdi Chronicles"
+      ],
+      "notes": "Unified Nejd and Hejaz into the modern Kingdom of Saudi Arabia.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_king_faisal_saud",
+      "name": "Kings Saud, Faisal, Khalid, Fahd & Abdullah of Saudi Arabia (1953–2015 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1902–2015 CE",
+      "role": "Kings of Saudi Arabia",
+      "sources": [
+        "Al Saud Najdi Chronicles"
+      ],
+      "notes": "Chronicle succession in Al Saud Najdi Chronicles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_saudi_salman_mbs_2026",
+      "name": "LIVING (2026): King Salman bin Abdulaziz & Crown Prince Mohammed bin Salman (Saudi Arabia)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 22,
+      "era": "1935–Present CE",
+      "role": "Reigning King & Crown Prince of Saudi Arabia (Living 2026)",
+      "sources": [
+        "Al Saud Najdi Chronicles"
+      ],
+      "notes": "Present-day Al Saud monarchs in 2026.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_sultan_qaboos_oman",
+      "name": "Sultan Said bin Taimur → Sultan Qaboos bin Said of Oman (Al Bu Said, 1932–2020 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1940–2020 CE",
+      "role": "Sultans of Oman",
+      "sources": [
+        "Omani Al Bu Said Chronicles"
+      ],
+      "notes": "Chronicle succession in Omani Al Bu Said Chronicles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_oman_haitham_2026",
+      "name": "LIVING (2026): Sultan Haitham bin Tariq of Oman (Al Bu Said Dynasty)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 22,
+      "era": "1955–Present CE",
+      "role": "Reigning Sultan of Oman (Living 2026)",
+      "sources": [
+        "Omani Al Bu Said Chronicles"
+      ],
+      "notes": "Cousin of Sultan Qaboos & direct Al Bu Said descendant of Sayyid Said bin Sultan.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_sheikh_zayed_uae",
+      "name": "Sheikh Zayed bin Sultan Al Nahyan (Founder of the United Arab Emirates, 1918–2004 CE)",
+      "altNames": true,
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1918–2004 CE",
+      "role": "Founding Father of the UAE",
+      "sources": [
+        "Bani Yas / Al Nahyan Chronicles"
+      ],
+      "notes": "Bani Yas Al Nahyan ruler of Abu Dhabi & founding President of the UAE (1971).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_uae_mbz_2026",
+      "name": "LIVING (2026): Sheikh Mohamed bin Zayed Al Nahyan & Sheikh Mohammed bin Rashid (UAE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 22,
+      "era": "1961–Present CE",
+      "role": "Living 2026 UAE Royal Rulers",
+      "sources": [
+        "Al Nahyan & Al Maktoum Chronicles"
+      ],
+      "notes": "Present-day hereditary rulers of Abu Dhabi & Dubai leading the UAE in 2026.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_jassim_al_thani",
+      "name": "Sheikh Jassim bin Mohammed Al Thani (Founder of Modern Qatar, c. 1825–1913 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "c. 1825–1913 CE",
+      "role": "Founder of Qatar (Al Thani)",
+      "sources": [
+        "Al Thani Chronicles (Banu Tamim)"
+      ],
+      "notes": "Mudar-Adnanite Banu Tamim lineage founding Qatar.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_qatar_tamim_2026",
+      "name": "LIVING (2026): Emir Sheikh Tamim bin Hamad Al Thani of Qatar",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 22,
+      "era": "1980–Present CE",
+      "role": "Reigning Emir of Qatar (Living 2026)",
+      "sources": [
+        "Al Thani Chronicles"
+      ],
+      "notes": "Present-day reigning Emir of the State of Qatar.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_kuwait_al_sabah_2026",
+      "name": "LIVING (2026): Sheikh Sabah al-Ahmad → Emir Mishal al-Ahmad Al-Sabah of Kuwait (Utub)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 22,
+      "era": "1940–Present CE",
+      "role": "Reigning Emir of Kuwait (Living 2026)",
+      "sources": [
+        "Al-Sabah Utub Chronicles"
+      ],
+      "notes": "Reigning Al-Sabah Emir continuing the 1752 Bani Utbah house of Kuwait.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_bahrain_al_khalifa_2026",
+      "name": "LIVING (2026): King Hamad bin Isa Al Khalifa & Crown Prince Salman of Bahrain (Utub)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 22,
+      "era": "1950–Present CE",
+      "role": "Reigning King of Bahrain (Living 2026)",
+      "sources": [
+        "Al Khalifa Utub Chronicles"
+      ],
+      "notes": "Reigning Al Khalifa monarch continuing since 1783 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_king_faisal1_iraq",
+      "name": "King Faisal I of Iraq & Syria (3rd Son of Sharif Hussein of Mecca, 1885–1933 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1885–1933 CE",
+      "role": "Hashemite King of Syria & Iraq",
+      "sources": [
+        "Hashemite Chronicles"
+      ],
+      "notes": "Brother of King Abdullah I of Jordan; first Hashemite king of Iraq.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ara11_king_faisal2_iraq",
+      "name": "Kings Ghazi & Faisal II of Iraq (1912–1958 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "1935–1958 CE",
+      "role": "Hashemite Kings of Iraq",
+      "sources": [
+        "Hashemite Chronicles"
+      ],
+      "notes": "Son & grandson of King Faisal I; cousin to King Hussein of Jordan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "anc11_antiochus1_commagene",
+      "name": "King Antiochus I Theos of Commagene (Nemrut Dağı; Dual Persian-Macedonian Descent, 70–31 BCE)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 86–31 BCE",
+      "role": "King of Commagene",
+      "sources": [
+        "Nemrut Dağı Inscriptions",
+        "Josephus"
+      ],
+      "notes": "Carved colossal twin ancestor galleries tracing his father directly to Darius I and his mother Laodice VII directly to Seleucus & Alexander's world.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "anc11_vaballathus_palmyra",
+      "name": "Emperor Vaballathus of Palmyra (Son of Queen Zenobia & Odenathus, r. 267–272 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "259–273 CE",
+      "role": "Palmyrene Augustus",
+      "sources": [
+        "Historia Augusta",
+        "Zosimus"
+      ],
+      "notes": "Co-ruled the Palmyrene Empire with his mother Zenobia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "anc11_karibil_watar_saba",
+      "name": "Mukarrib Karib'il Watar of Saba (Contemporary of Sennacherib, c. 685 BCE)",
+      "altNames": true,
+      "tradition": "arabian",
+      "tier": 16,
+      "era": "c. 685 BCE",
+      "role": "Great Mukarrib of Saba (Sheba)",
+      "sources": [
+        "Sabaic Sirwah Inscription RES 3945",
+        "Assyrian Annals"
+      ],
+      "notes": "Sovereign of South Arabian Saba who exchanged diplomatic gifts with Sennacherib of Assyria.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "anc11_queen_gudit_ethiopia",
+      "name": "Queen Gudit / Yodit of Ethiopia (10th c. CE Post-Aksumite Warrior Queen)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "10th c. CE",
+      "role": "Queen of Damot / Aksum",
+      "sources": [
+        "Kebra Nagast Traditions",
+        "History of the Patriarchs"
+      ],
+      "notes": "Ended Aksumite era prior to the Zagwe dynasty of Lalibela.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "anc11_evagoras_cyprus",
+      "name": "King Evagoras I of Salamis (Cyprus; Teucrid House of Ajax, 411–374 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 435–374 BCE",
+      "role": "King of Salamis in Cyprus",
+      "sources": [
+        "Isocrates Evagoras",
+        "Diodorus"
+      ],
+      "notes": "Greek-Cypriot king descended from Teucer (brother of Telamonian Ajax).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "anc11_tabnit_eshmunazar2_sidon",
+      "name": "Kings Tabnit & Eshmunazar II of Sidon (5th c. BCE Phoenician Royal Sarcophagi)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 17,
+      "era": "5th c. BCE",
+      "role": "Kings of Sidon",
+      "sources": [
+        "Eshmunazar II Sarcophagus (KAI 14)",
+        "Records of the Past"
+      ],
+      "notes": "Phoenician Sidonian kings granted Dor & Joppa by the Persian Great King.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "anc11_abgar5_edessa",
+      "name": "King Abgar V Ukkama & Queen Helena Contemporary of Edessa / Osroene (r. 4 BCE–50 CE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "r. 4 BCE–50 CE",
+      "role": "King of Osroene (Edessa)",
+      "sources": [
+        "Eusebius Church History I.13",
+        "Syriac Chronicles"
+      ],
+      "notes": "Early Syriac-Armenian ruler of Edessa linked to Adiabene & Armenia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "anc11_mausolus_artemisia2",
+      "name": "Satrap-King Mausolus & Queen Artemisia II (+ Queen Ada of Caria; Adoptive Mother of Alexander)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "d. 353 BCE",
+      "role": "Hecatomnid Rulers of Caria",
+      "sources": [
+        "Diodorus",
+        "Arrian Anabasis"
+      ],
+      "notes": "Builders of the Mausoleum at Halicarnassus; sister Ada adopted Alexander the Great.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "anc11_ariarathes_cappadocia",
+      "name": "Kings Ariarathes I → Ariarathes V of Cappadocia (Persian-Hellenistic Royal Line, 331–130 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "331–130 BCE",
+      "role": "Kings of Cappadocia",
+      "sources": [
+        "Diodorus Book XXXI",
+        "Justin"
+      ],
+      "notes": "Cappadocian kings claiming Achaemenid descent and intermarrying with Seleucids & Pontus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "anc11_prusias_nicomedes_bithynia",
+      "name": "Kings Zipoetes I, Prusias I & Nicomedes IV of Bithynia (326–74 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "326–74 BCE",
+      "role": "Kings of Bithynia",
+      "sources": [
+        "Polybius",
+        "Appian"
+      ],
+      "notes": "Anatolian Hellenistic kings allied with Macedon, Pontus & Rome.",
+      "major": false,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "roy6_leopold2_hre",
+      "to": "roy11_francis2_austria",
+      "type": "direct",
+      "label": "Almanach de Gotha, Habsburg Archives: succession"
+    },
+    {
+      "from": "roy11_francis2_austria",
+      "to": "roy11_franz_joseph_sisi",
+      "type": "direct",
+      "label": "Almanach de Gotha, Habsburg Archives: succession"
+    },
+    {
+      "from": "roy11_franz_joseph_sisi",
+      "to": "roy11_franz_ferdinand",
+      "type": "direct",
+      "label": "Nephew & heir presumptive of Emperor Franz Joseph I"
+    },
+    {
+      "from": "roy11_franz_joseph_sisi",
+      "to": "roy11_karl1_otto_habsburg",
+      "type": "direct",
+      "label": "Great-uncle to Emperor Karl I -> Living House of Habsburg (2026)"
+    },
+    {
+      "from": "mon_rus_catherine2",
+      "to": "roy11_tsar_alexander1_nicholas1",
+      "type": "direct",
+      "label": "Almanach de Gotha, Russian Imperial Archives: succession"
+    },
+    {
+      "from": "roy11_tsar_alexander1_nicholas1",
+      "to": "roy11_tsar_alexander2_3",
+      "type": "direct",
+      "label": "Almanach de Gotha, Russian Imperial Archives: succession"
+    },
+    {
+      "from": "roy11_tsar_alexander2_3",
+      "to": "roy6_tsar_nicholas2",
+      "type": "direct",
+      "label": "Father-to-son succession to Tsar Nicholas II"
+    },
+    {
+      "from": "mon_fra_napoleon",
+      "to": "roy11_louis18_charles10",
+      "type": "expansion",
+      "label": "Almanach de Gotha, French Royal Archives: succession"
+    },
+    {
+      "from": "roy11_louis18_charles10",
+      "to": "roy11_louis_philippe",
+      "type": "expansion",
+      "label": "Almanach de Gotha, French Royal Archives: succession"
+    },
+    {
+      "from": "roy11_louis_philippe",
+      "to": "roy11_napoleon3_eugenie",
+      "type": "expansion",
+      "label": "Almanach de Gotha, French Royal Archives: succession"
+    },
+    {
+      "from": "sav_witichind_hubert_victor",
+      "to": "roy11_victor_emmanuel2",
+      "type": "direct",
+      "label": "Almanach de Gotha, Savoy Royal Archives: succession"
+    },
+    {
+      "from": "roy11_victor_emmanuel2",
+      "to": "roy11_umberto1_victor3",
+      "type": "direct",
+      "label": "Almanach de Gotha, Savoy Royal Archives: succession"
+    },
+    {
+      "from": "mon_eng_victoria",
+      "to": "roy11_george1_greece",
+      "type": "expansion",
+      "label": "Almanach de Gotha, Greek Royal Archives: succession"
+    },
+    {
+      "from": "roy11_george1_greece",
+      "to": "roy11_constantine1_greece",
+      "type": "expansion",
+      "label": "Almanach de Gotha, Greek Royal Archives: succession"
+    },
+    {
+      "from": "roy11_constantine1_greece",
+      "to": "roy11_paul_frederica_greece",
+      "type": "expansion",
+      "label": "Almanach de Gotha, Greek Royal Archives: succession"
+    },
+    {
+      "from": "roy11_paul_frederica_greece",
+      "to": "roy11_constantine2_greece",
+      "type": "expansion",
+      "label": "Almanach de Gotha, Greek Royal Archives: succession"
+    },
+    {
+      "from": "roy11_paul_frederica_greece",
+      "to": "eur9_juan_carlos1",
+      "type": "direct",
+      "label": "Daughter Princess Sofía of Greece married King Juan Carlos I of Spain"
+    },
+    {
+      "from": "mon_rom_basil2",
+      "to": "roy11_khan_asparukh_boris1",
+      "type": "expansion",
+      "label": "Bulgarian Chronicles, De Administrando Imperio: succession"
+    },
+    {
+      "from": "roy11_khan_asparukh_boris1",
+      "to": "roy11_tsar_simeon1_bulgaria",
+      "type": "expansion",
+      "label": "Bulgarian Chronicles, De Administrando Imperio: succession"
+    },
+    {
+      "from": "roy11_tsar_simeon1_bulgaria",
+      "to": "roy11_tsar_samuel_ivan_asen2",
+      "type": "expansion",
+      "label": "Bulgarian Chronicles, De Administrando Imperio: succession"
+    },
+    {
+      "from": "mon_rom_basil2",
+      "to": "roy11_stefan_nemanja",
+      "type": "expansion",
+      "label": "Serbian Royal Chronicles, Echard Roman History: succession"
+    },
+    {
+      "from": "roy11_stefan_nemanja",
+      "to": "roy11_stefan_dusan",
+      "type": "expansion",
+      "label": "Serbian Royal Chronicles, Echard Roman History: succession"
+    },
+    {
+      "from": "roy11_stefan_dusan",
+      "to": "roy11_prince_lazar_kosovo",
+      "type": "expansion",
+      "label": "Serbian Royal Chronicles, Echard Roman History: succession"
+    },
+    {
+      "from": "eur42_almos_arpad_stephen",
+      "to": "roy11_mircea_vlad3_dracula",
+      "type": "expansion",
+      "label": "Danubian Chronicles, Knolles Turkish History: succession"
+    },
+    {
+      "from": "roy11_mircea_vlad3_dracula",
+      "to": "roy11_stephen_great_moldavia",
+      "type": "expansion",
+      "label": "Danubian Chronicles, Knolles Turkish History: succession"
+    },
+    {
+      "from": "mon_eng_victoria",
+      "to": "roy11_carol1_queen_marie_romania",
+      "type": "expansion",
+      "label": "Almanach de Gotha: succession"
+    },
+    {
+      "from": "roy11_carol1_queen_marie_romania",
+      "to": "roy11_king_michael1_romania",
+      "type": "expansion",
+      "label": "Almanach de Gotha: succession"
+    },
+    {
+      "from": "eas5_han_gaozu",
+      "to": "chn11_empress_lu_zhi",
+      "type": "direct",
+      "label": "Consort of Emperor Han Gaozu (Liu Bang)"
+    },
+    {
+      "from": "eas5_han_jing",
+      "to": "chn11_emperor_xuan_han",
+      "type": "direct",
+      "label": "Great-grandson of Han Wudi / descendant of Emperor Jing"
+    },
+    {
+      "from": "chn11_emperor_xuan_han",
+      "to": "chn11_wang_mang",
+      "type": "expansion",
+      "label": "Western Han imperial interregnum (9–23 CE)"
+    },
+    {
+      "from": "chn11_wang_mang",
+      "to": "chn11_emperor_ming_han",
+      "type": "expansion",
+      "label": "Eastern Han restoration under Guangwu & Mingdi"
+    },
+    {
+      "from": "chn11_emperor_ming_han",
+      "to": "chn11_emperor_xian_han",
+      "type": "direct",
+      "label": "Eastern Han imperial descent to Emperor Xian"
+    },
+    {
+      "from": "chn11_emperor_xian_han",
+      "to": "unb_chn_cao_cao",
+      "type": "expansion",
+      "label": "220 CE Imperial Abdication to Cao Pi (Cao Wei)"
+    },
+    {
+      "from": "unb_chn_cao_cao",
+      "to": "chn11_sima_yan_jin",
+      "type": "expansion",
+      "label": "266 CE Cao Wei -> Sima Jin Dynasty succession"
+    },
+    {
+      "from": "chn11_sima_yan_jin",
+      "to": "chn11_xiaowen_northern_wei",
+      "type": "expansion",
+      "label": "Northern & Southern Dynasties transition"
+    },
+    {
+      "from": "unb_chn_wen_sui",
+      "to": "chn11_emperor_yang_sui",
+      "type": "direct",
+      "label": "Son of Emperor Wen of Sui"
+    },
+    {
+      "from": "eas5_tang_gaozu",
+      "to": "chn11_emperor_gaozong_wu_zetian",
+      "type": "direct",
+      "label": "Son Taizong -> Grandson Gaozong & Empress Regnant Wu Zetian"
+    },
+    {
+      "from": "chn11_emperor_gaozong_wu_zetian",
+      "to": "eas5_tang_xuanzong",
+      "type": "direct",
+      "label": "Grandmother Empress Wu Zetian -> Emperor Tang Xuanzong"
+    },
+    {
+      "from": "eas5_tang_xuanzong",
+      "to": "chn11_emperor_suzong_tang",
+      "type": "direct",
+      "label": "Son Emperor Suzong & grandson Xianzong"
+    },
+    {
+      "from": "eas5_song_taizu",
+      "to": "chn11_song_renzong_gaozong",
+      "type": "direct",
+      "label": "Song imperial line to Renzong & Southern Song Gaozong"
+    },
+    {
+      "from": "chn11_song_renzong_gaozong",
+      "to": "chn11_yelv_abaoji_liao",
+      "type": "expansion",
+      "label": "Song–Liao 1004 Chanyuan Treaty imperial contemporaries"
+    },
+    {
+      "from": "chn11_yelv_abaoji_liao",
+      "to": "chn11_aguda_jin",
+      "type": "expansion",
+      "label": "Liao -> Jurchen Jin imperial transition"
+    },
+    {
+      "from": "eas5_ming_yongle",
+      "to": "chn11_ming_xuande_zhengtong",
+      "type": "direct",
+      "label": "Grandson Xuande & great-grandson Zhengtong"
+    },
+    {
+      "from": "chn11_ming_xuande_zhengtong",
+      "to": "chn11_ming_wanli",
+      "type": "direct",
+      "label": "Ming imperial descent to Emperor Wanli"
+    },
+    {
+      "from": "chn11_ming_wanli",
+      "to": "chn11_ming_chongzhen",
+      "type": "direct",
+      "label": "Grandfather-to-grandson Ming succession to 1644 CE"
+    },
+    {
+      "from": "eas5_qing_qianlong",
+      "to": "chn11_qing_yongzheng",
+      "type": "direct",
+      "label": "Father of Emperor Qianlong"
+    },
+    {
+      "from": "eas5_qing_qianlong",
+      "to": "chn11_qing_jiaqing_guangxu",
+      "type": "direct",
+      "label": "Son Jiaqing -> Daoguang -> Xianfeng -> Guangxu"
+    },
+    {
+      "from": "chn11_qing_jiaqing_guangxu",
+      "to": "chr6_empress_dowager_cixi",
+      "type": "direct",
+      "label": "Consort Xianfeng & aunt-regent Empress Dowager Cixi"
+    },
+    {
+      "from": "mon_isl_mahmud_ghazni",
+      "to": "asi11_qutb_iltutmish",
+      "type": "expansion",
+      "label": "Ferishta History of Hindostan, Ibn Battuta: succession"
+    },
+    {
+      "from": "asi11_qutb_iltutmish",
+      "to": "asi11_razia_sultana",
+      "type": "expansion",
+      "label": "Ferishta History of Hindostan, Ibn Battuta: succession"
+    },
+    {
+      "from": "asi11_razia_sultana",
+      "to": "asi11_alauddin_khalji",
+      "type": "expansion",
+      "label": "Ferishta History of Hindostan, Ibn Battuta: succession"
+    },
+    {
+      "from": "asi11_alauddin_khalji",
+      "to": "asi11_tughluq_ibn_battuta",
+      "type": "expansion",
+      "label": "Ferishta History of Hindostan, Ibn Battuta: succession"
+    },
+    {
+      "from": "asi11_tughluq_ibn_battuta",
+      "to": "asi11_sher_shah_suri",
+      "type": "expansion",
+      "label": "Ferishta History of Hindostan, Ibn Battuta: succession"
+    },
+    {
+      "from": "asi11_tughluq_ibn_battuta",
+      "to": "isl10_ibn_battuta",
+      "type": "expansion",
+      "label": "1334–1341 CE Court of Muhammad bin Tughluq & Ibn Battuta in Delhi"
+    },
+    {
+      "from": "mon_mug_aurangzeb_ind",
+      "to": "asi11_nizam_asaf_jah1",
+      "type": "expansion",
+      "label": "Mughal Deccan Viceroy appointed under Aurangzeb"
+    },
+    {
+      "from": "asi11_nizam_asaf_jah1",
+      "to": "asi11_hyder_ali_tipu_sultan",
+      "type": "expansion",
+      "label": "18th c. South Indian sovereigns of Hyderabad & Mysore"
+    },
+    {
+      "from": "ind9_shahu_baji_rao1",
+      "to": "asi11_rani_lakshmibai",
+      "type": "expansion",
+      "label": "Maratha Bithoor/Peshwa court lineage & Jhansi sovereignty"
+    },
+    {
+      "from": "ind_raj_mewar_sisodia",
+      "to": "asi11_prithvi_narayan_nepal",
+      "type": "expansion",
+      "label": "Nepalese Royal Chronicles (Mewar Sisodia Descent): succession"
+    },
+    {
+      "from": "asi11_prithvi_narayan_nepal",
+      "to": "asi11_tribhuvan_birendra_nepal",
+      "type": "expansion",
+      "label": "Nepalese Royal Chronicles (Mewar Sisodia Descent): succession"
+    },
+    {
+      "from": "tib8_fifth_dalai_lama",
+      "to": "asi11_ugyen_wangchuck_bhutan",
+      "type": "expansion",
+      "label": "Bhutanese Royal Chronicles: succession"
+    },
+    {
+      "from": "asi11_ugyen_wangchuck_bhutan",
+      "to": "asi11_bhutan_jigme_khesar_2026",
+      "type": "expansion",
+      "label": "Bhutanese Royal Chronicles: succession"
+    },
+    {
+      "from": "unb_sea_mongkut_chulalongkorn",
+      "to": "asi11_rama6_rama7",
+      "type": "direct",
+      "label": "Royal Chronicles of Siam & Thailand: succession"
+    },
+    {
+      "from": "asi11_rama6_rama7",
+      "to": "asi11_bhumibol_rama9",
+      "type": "direct",
+      "label": "Royal Chronicles of Siam & Thailand: succession"
+    },
+    {
+      "from": "asi11_bhumibol_rama9",
+      "to": "asi11_thailand_rama10_2026",
+      "type": "direct",
+      "label": "Royal Chronicles of Siam & Thailand: succession"
+    },
+    {
+      "from": "unb_sea_jayavarman7",
+      "to": "asi11_norodom_sihanouk",
+      "type": "expansion",
+      "label": "Cambodian Royal Chronicles: succession"
+    },
+    {
+      "from": "asi11_norodom_sihanouk",
+      "to": "asi11_cambodia_sihamoni_2026",
+      "type": "expansion",
+      "label": "Cambodian Royal Chronicles: succession"
+    },
+    {
+      "from": "chr6_sultan_mahmud_shah",
+      "to": "asi11_bolkiah_golden_age",
+      "type": "expansion",
+      "label": "Salasilah Raja-Raja Brunei: succession"
+    },
+    {
+      "from": "asi11_bolkiah_golden_age",
+      "to": "asi11_brunei_hassanal_bolkiah_2026",
+      "type": "expansion",
+      "label": "Salasilah Raja-Raja Brunei: succession"
+    },
+    {
+      "from": "chr6_sultan_mahmud_shah",
+      "to": "asi11_malaysia_yang_di_pertuan_2026",
+      "type": "expansion",
+      "label": "Malacca–Johor Sultanate royal continuity to Living 2026 King of Malaysia"
+    },
+    {
+      "from": "bib_ishmael",
+      "to": "ara11_muhammad_ibn_saud",
+      "type": "expansion",
+      "label": "Al Saud Najdi Chronicles: succession"
+    },
+    {
+      "from": "ara11_muhammad_ibn_saud",
+      "to": "ara11_abdulaziz_ibn_saud",
+      "type": "expansion",
+      "label": "Al Saud Najdi Chronicles: succession"
+    },
+    {
+      "from": "ara11_abdulaziz_ibn_saud",
+      "to": "ara11_king_faisal_saud",
+      "type": "expansion",
+      "label": "Al Saud Najdi Chronicles: succession"
+    },
+    {
+      "from": "ara11_king_faisal_saud",
+      "to": "ara11_saudi_salman_mbs_2026",
+      "type": "expansion",
+      "label": "Al Saud Najdi Chronicles: succession"
+    },
+    {
+      "from": "afr10_seyyid_said_zanzibar",
+      "to": "ara11_sultan_qaboos_oman",
+      "type": "direct",
+      "label": "Omani Al Bu Said Chronicles: succession"
+    },
+    {
+      "from": "ara11_sultan_qaboos_oman",
+      "to": "ara11_oman_haitham_2026",
+      "type": "direct",
+      "label": "Omani Al Bu Said Chronicles: succession"
+    },
+    {
+      "from": "ara11_muhammad_ibn_saud",
+      "to": "ara11_sheikh_zayed_uae",
+      "type": "expansion",
+      "label": "Arabian Peninsula Anazzah / Adnanite royal neighbors"
+    },
+    {
+      "from": "ara11_sheikh_zayed_uae",
+      "to": "ara11_uae_mbz_2026",
+      "type": "direct",
+      "label": "Father-to-son Al Nahyan succession (UAE 2026)"
+    },
+    {
+      "from": "ara11_muhammad_ibn_saud",
+      "to": "ara11_jassim_al_thani",
+      "type": "expansion",
+      "label": "Adnanite Tamim–Anazzah Gulf royal houses"
+    },
+    {
+      "from": "ara11_jassim_al_thani",
+      "to": "ara11_qatar_tamim_2026",
+      "type": "direct",
+      "label": "Al Thani succession to Living Emir Tamim (2026)"
+    },
+    {
+      "from": "ara11_muhammad_ibn_saud",
+      "to": "ara11_kuwait_al_sabah_2026",
+      "type": "expansion",
+      "label": "Bani Utbah / Anazzah royal house of Kuwait"
+    },
+    {
+      "from": "ara11_kuwait_al_sabah_2026",
+      "to": "ara11_bahrain_al_khalifa_2026",
+      "type": "cognate",
+      "label": "Sister Bani Utbah houses (Al-Sabah & Al Khalifa)"
+    },
+    {
+      "from": "mod_abdullah2_hussein_iman",
+      "to": "ara11_king_faisal1_iraq",
+      "type": "expansion",
+      "label": "Brother of King Abdullah I of Jordan (Sons of Sharif Hussein)"
+    },
+    {
+      "from": "ara11_king_faisal1_iraq",
+      "to": "ara11_king_faisal2_iraq",
+      "type": "direct",
+      "label": "Hashemite Kings of Iraq"
+    },
+    {
+      "from": "per4_achaemenes",
+      "to": "anc11_antiochus1_commagene",
+      "type": "expansion",
+      "label": "Nemrut Dagi Royal Pedigree: Paternal descent from Darius I of Persia"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "anc11_antiochus1_commagene",
+      "type": "expansion",
+      "label": "Nemrut Dagi Royal Pedigree: Maternal Seleucid-Macedonian descent"
+    },
+    {
+      "from": "anc11_antiochus1_commagene",
+      "to": "jos_iotape_commagene",
+      "type": "direct",
+      "label": "Commagene royal descent to Princess Iotape (married into Herodians)"
+    },
+    {
+      "from": "pal_odenathus_zenobia",
+      "to": "anc11_vaballathus_palmyra",
+      "type": "direct",
+      "label": "Son & co-ruler of Queen Zenobia & King Odenathus"
+    },
+    {
+      "from": "eth_menelik",
+      "to": "anc11_karibil_watar_saba",
+      "type": "expansion",
+      "label": "South Arabian Saba–Aksumite Sabaean royal horizon"
+    },
+    {
+      "from": "anc11_karibil_watar_saba",
+      "to": "ar4_sayf_ibn_dhi_yazan",
+      "type": "expansion",
+      "label": "Ancient Sabaic -> Himyarite South Arabian royal continuity"
+    },
+    {
+      "from": "mon_eth_ezana",
+      "to": "anc11_queen_gudit_ethiopia",
+      "type": "expansion",
+      "label": "Late Aksumite transition to Queen Gudit & Zagwe dynasty"
+    },
+    {
+      "from": "anc11_queen_gudit_ethiopia",
+      "to": "mon_eth_lalibela",
+      "type": "expansion",
+      "label": "10th–12th c. Post-Gudit Zagwe restoration"
+    },
+    {
+      "from": "grkr_b3_ajax",
+      "to": "anc11_evagoras_cyprus",
+      "type": "expansion",
+      "label": "Teucrid royal house of Salamis descended from Teucer (brother of Ajax)"
+    },
+    {
+      "from": "cls3_pygmalion",
+      "to": "anc11_tabnit_eshmunazar2_sidon",
+      "type": "expansion",
+      "label": "Phoenician Sidon–Tyre royal continuity"
+    },
+    {
+      "from": "cls3_tigranes2_great",
+      "to": "anc11_abgar5_edessa",
+      "type": "expansion",
+      "label": "Armenian–Osroene royal kinship of Edessa"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "anc11_mausolus_artemisia2",
+      "type": "expansion",
+      "label": "334 BCE: Carian Queen Ada (sister of Mausolus) adopted Alexander the Great"
+    },
+    {
+      "from": "per4_achaemenes",
+      "to": "anc11_ariarathes_cappadocia",
+      "type": "expansion",
+      "label": "Achaemenid-derived Cappadocian royal house"
+    },
+    {
+      "from": "cls_pontus_mithridates",
+      "to": "anc11_ariarathes_cappadocia",
+      "type": "expansion",
+      "label": "Pontic–Cappadocian royal marriages"
+    },
+    {
+      "from": "cls_pontus_mithridates",
+      "to": "anc11_prusias_nicomedes_bithynia",
+      "type": "expansion",
+      "label": "Pontus–Bithynia Black Sea royal rivals & allies"
+    }
+  ]
+}
