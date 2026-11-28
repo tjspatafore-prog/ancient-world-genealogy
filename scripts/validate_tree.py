@@ -208,6 +208,16 @@ def main():
         ("mon_por_manuel1", "chr6_sultan_mahmud_shah", {"direct", "expansion", "cognate", "syncretic"}, "Manuel I of Portugal -> Afonso de Albuquerque (1511) -> Sultan Mahmud Shah of Malacca"),
         ("eur9_godfrey_bouillon", "byz8_manuel1_komnenos", {"direct", "expansion", "cognate", "syncretic"}, "Crusader Jerusalem: Melisende -> Amalric I + Maria Komnene -> Manuel I Komnenos"),
         ("mon_esp_philip5", "eur9_felipe6_leonor_2026", {"direct", "expansion", "cognate", "syncretic"}, "Philip V -> Charles III -> Alfonso XIII -> Juan Carlos I -> Living King Felipe VI (2026)"),
+        ("mon_isl_ali", "mod_agakhan5_ismaili", {"direct", "expansion", "cognate", "syncretic"}, "Ali -> Fatimids (Al-Mu'izz Cairo) -> Al-Mustansir -> Nizar -> Living Aga Khan V (2026)"),
+        ("mon_isl_saladin", "mon_hre_frederick2", {"direct", "expansion", "cognate", "syncretic"}, "Saladin -> Al-Adil -> Al-Kamil (1229 Treaty of Jaffa) -> Emperor Frederick II"),
+        ("eur9_roger2_sicily", "isl10_al_idrisi", {"direct", "expansion", "cognate", "syncretic"}, "Norman King Roger II of Sicily -> Geographer Muhammad al-Idrisi"),
+        ("mngr_imp_02_batu_khan_founder_of_golden_", "mon_ott_suleiman1", {"direct", "expansion", "cognate", "syncretic"}, "Batu Khan -> Golden Horde -> Crimean Khan Meñli Giray -> Sultan Suleiman the Magnificent"),
+        ("bib_aram", "jud_david", {"direct", "expansion", "cognate", "syncretic"}, "Aram -> King Hazael of Damascus (Tel Dan Stele 'House of David') -> King David"),
+        ("bib_lot", "ane10_mesha_moab", {"direct", "expansion", "cognate", "syncretic"}, "Lot -> Moab -> King Mesha (Mesha Stele 840 BCE)"),
+        ("arm_hayk_pat", "aklr_neo_11_sargon_ii_722_705_bce", {"direct", "expansion", "cognate", "syncretic"}, "Hayk -> Urartu Argishti I (Yerevan 782 BCE) -> Rusa I vs Sargon II"),
+        ("eur9_william2_orange", "liv10_willem_alexander_2026", {"direct", "expansion", "cognate", "syncretic"}, "Orange-Nassau -> Living King Willem-Alexander of the Netherlands (2026)"),
+        ("mon_eng_victoria", "liv10_harald5_haakon_2026", {"direct", "expansion", "cognate", "syncretic"}, "Queen Victoria -> Edward VII -> Queen Maud & Haakon VII -> Living King Harald V of Norway (2026)"),
+        ("mon_por_john5", "liv10_emperor_pedro_brazil", {"direct", "expansion", "cognate", "syncretic"}, "Braganza Portugal -> Emperors Dom Pedro I & Dom Pedro II of Brazil"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

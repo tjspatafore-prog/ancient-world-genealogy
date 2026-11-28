@@ -1,0 +1,2433 @@
+{
+  "module": "52_wave10_islamic_africa_steppe_ane_living2026",
+  "title": "Wave 10: Islamic Golden Age, Africa, Steppe, Biblical ANE & All 10 Living 2026 European Monarchies",
+  "nodes": [
+    {
+      "id": "isl10_al_mahdi_billah",
+      "name": "Caliph Abdullah al-Mahdi Billah (Founder of Fatimid Caliphate, 909–934 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "874–934 CE",
+      "role": "1st Fatimid Caliph",
+      "sources": [
+        "Ibn al-Athir",
+        "Al-Maqrizi",
+        "Lane-Poole"
+      ],
+      "notes": "Chronicle succession in Ibn al-Athir, Al-Maqrizi, Lane-Poole.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_al_muizz_cairo",
+      "name": "Caliph Al-Mu'izz li-Din Allah (Founded Cairo & Al-Azhar, 969 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "931–975 CE",
+      "role": "Fatimid Caliph of Cairo",
+      "sources": [
+        "Ibn al-Athir",
+        "Al-Maqrizi",
+        "Lane-Poole"
+      ],
+      "notes": "Conquered Egypt in 969 CE and founded Al-Qahirah (Cairo) & Al-Azhar Mosque.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_al_aziz_hakim",
+      "name": "Caliphs Al-Aziz Billah & Al-Hakim bi-Amr Allah (975–1021 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "955–1021 CE",
+      "role": "Fatimid Caliphs",
+      "sources": [
+        "Ibn al-Athir",
+        "Al-Maqrizi",
+        "Lane-Poole"
+      ],
+      "notes": "Chronicle succession in Ibn al-Athir, Al-Maqrizi, Lane-Poole.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_al_mustansir",
+      "name": "Caliph Al-Mustansir Billah (60-Year Reign; Father of Nizar & Al-Musta'li, 1036–1094)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1029–1094 CE",
+      "role": "8th Fatimid Caliph",
+      "sources": [
+        "Ibn al-Athir",
+        "Al-Maqrizi",
+        "Lane-Poole"
+      ],
+      "notes": "Chronicle succession in Ibn al-Athir, Al-Maqrizi, Lane-Poole.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_nizar_ismaili",
+      "name": "Imam Nizar ibn al-Mustansir (Progenitor of Nizari Ismaili Imamat / Aga Khans, 1045–1095)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1045–1095 CE",
+      "role": "Fatimid-Nizari Imam",
+      "sources": [
+        "Alamut & Aga Khan Chronicles"
+      ],
+      "notes": "Eldest son of Caliph al-Mustansir; Alamut Nizari Imamat line continuing to Living Aga Khan V (2026).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_al_mustali_tayyibi",
+      "name": "Caliph Al-Musta'li → Al-Adid (Final Fatimid Caliph, d. 1171 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1074–1171 CE",
+      "role": "Late Fatimid Caliphs",
+      "sources": [
+        "Ibn al-Athir",
+        "Al-Maqrizi"
+      ],
+      "notes": "Younger son Fatimid succession to Al-Adid (d. 1171 CE).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_najm_ad_din_ayyub",
+      "name": "Najm ad-Din Ayyub & Asad ad-Din Shirkuh (Patriarchs of the Ayyubid Dynasty, d. 1173 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "d. 1173 CE",
+      "role": "Ayyubid Founders",
+      "sources": [
+        "Ibn Shaddad",
+        "Modern Universal History Vol. 2"
+      ],
+      "notes": "Kurdish generals from Dvin (Armenia) who united Syria & Egypt; father & uncle of Saladin.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_al_adil1",
+      "name": "Sultan Al-Adil I (Saphadin; Brother of Saladin, Negotiated with Richard I, 1200–1218)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1145–1218 CE",
+      "role": "Ayyubid Sultan",
+      "sources": [
+        "Al-Maqrizi",
+        "Modern Universal History Vol. 2–3"
+      ],
+      "notes": "Chronicle succession in Al-Maqrizi, Modern Universal History Vol. 2–3.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_al_kamil",
+      "name": "Sultan Al-Kamil of Egypt (1229 Treaty of Jaffa with Emperor Frederick II, 1218–1238)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1177–1238 CE",
+      "role": "Ayyubid Sultan",
+      "sources": [
+        "Al-Maqrizi",
+        "Modern Universal History Vol. 2–3"
+      ],
+      "notes": "Chronicle succession in Al-Maqrizi, Modern Universal History Vol. 2–3.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_shajar_al_durr",
+      "name": "Sultana Shajar al-Durr of Egypt (1250 CE; Transition to Mamluk Sultanate)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "d. 1257 CE",
+      "role": "Sovereign Sultana of Egypt",
+      "sources": [
+        "Al-Maqrizi",
+        "Modern Universal History Vol. 2–3"
+      ],
+      "notes": "Widow of al-Salih Ayyub who defeated Louis IX's crusade and wed Mamluk Sultan Aybak.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_qalawun",
+      "name": "Mamluk Sultan Al-Mansur Qalawun (Qalawunid Dynasty Founder, 1279–1290 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "c. 1222–1290 CE",
+      "role": "Bahri Mamluk Sultan",
+      "sources": [
+        "Al-Maqrizi",
+        "Modern Universal History Vol. 2–3"
+      ],
+      "notes": "Chronicle succession in Al-Maqrizi, Modern Universal History Vol. 2–3.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_al_nasir_muhammad",
+      "name": "Sultan Al-Nasir Muhammad ibn Qalawun (Architectural Peak of Mamluk Cairo, d. 1341)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1285–1341 CE",
+      "role": "Bahri Mamluk Sultan",
+      "sources": [
+        "Al-Maqrizi",
+        "Modern Universal History Vol. 2–3"
+      ],
+      "notes": "Chronicle succession in Al-Maqrizi, Modern Universal History Vol. 2–3.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_qansuh_al_ghuri",
+      "name": "Mamluk Sultan Al-Ashraf Qansuh al-Ghuri (Fell at Marj Dabiq 1516 vs Selim I)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "c. 1441–1516 CE",
+      "role": "Penultimate Burji Mamluk Sultan",
+      "sources": [
+        "Al-Maqrizi",
+        "Modern Universal History Vol. 2–3"
+      ],
+      "notes": "Chronicle succession in Al-Maqrizi, Modern Universal History Vol. 2–3.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_yusuf_ibn_tashfin",
+      "name": "Emir Yusuf ibn Tashfin (Almoravid Founder of Marrakesh; Battle of Sagrajas 1086)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "c. 1009–1106 CE",
+      "role": "Almoravid Sovereign",
+      "sources": [
+        "Mariana General History of Spain 1699",
+        "Ibn Khaldun"
+      ],
+      "notes": "Chronicle succession in Mariana General History of Spain 1699, Ibn Khaldun.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_ibn_tumart_abd_al_mumin",
+      "name": "Ibn Tumart & Caliph Abd al-Mu'min (Almohad Caliphate Founders, 1121–1163 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1094–1163 CE",
+      "role": "Almohad Founders",
+      "sources": [
+        "Mariana General History of Spain 1699",
+        "Ibn Khaldun"
+      ],
+      "notes": "Chronicle succession in Mariana General History of Spain 1699, Ibn Khaldun.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_yaqub_al_mansur",
+      "name": "Caliph Abu Yusuf Yaqub al-Mansur (Patron of Ibn Rushd; Koutoubia & Giralda, 1184–1199)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "c. 1160–1199 CE",
+      "role": "Almohad Caliph",
+      "sources": [
+        "Mariana General History of Spain 1699",
+        "Ibn Khaldun"
+      ],
+      "notes": "Chronicle succession in Mariana General History of Spain 1699, Ibn Khaldun.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_muhammad1_nasrid",
+      "name": "Sultan Muhammad I ibn al-Ahmar (Founder of Nasrid Emirate of Granada & Alhambra, 1238)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1195–1273 CE",
+      "role": "Founder of Nasrid Granada",
+      "sources": [
+        "Mariana General History of Spain 1699",
+        "Ibn Khaldun"
+      ],
+      "notes": "Chronicle succession in Mariana General History of Spain 1699, Ibn Khaldun.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_yusuf1_muhammad5_alhambra",
+      "name": "Sultans Yusuf I & Muhammad V of Granada (Alhambra Palaces, 1333–1391 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1318–1391 CE",
+      "role": "Granadan Alhambra Builders",
+      "sources": [
+        "Mariana General History of Spain 1699",
+        "Ibn Khaldun"
+      ],
+      "notes": "Chronicle succession in Mariana General History of Spain 1699, Ibn Khaldun.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_boabdil_granada",
+      "name": "Sultan Muhammad XII / Boabdil of Granada (1482–1492 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 21,
+      "era": "c. 1460–c. 1533 CE",
+      "role": "Last Emir of Granada",
+      "sources": [
+        "Mariana General History of Spain 1699",
+        "Ibn Khaldun"
+      ],
+      "notes": "Surrendered Granada to Ferdinand & Isabella in January 1492 CE.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_al_khwarizmi",
+      "name": "Muhammad ibn Musa al-Khwarizmi (Father of Algebra & Algorithms, House of Wisdom, c. 780–850)",
+      "altNames": true,
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "c. 780–850 CE",
+      "role": "Mathematician & Astronomer",
+      "sources": [
+        "Al-Tabari",
+        "House of Wisdom"
+      ],
+      "notes": "Coined Algebra (Al-Jabr) & Algorithm at Caliph Al-Ma'mun's House of Wisdom in Baghdad.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_al_kindi_farabi",
+      "name": "Al-Kindi (Baghdad) & Al-Farabi ('The Second Teacher' After Aristotle, c. 801–950 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 19,
+      "era": "801–950 CE",
+      "role": "Philosophers & Polymaths",
+      "sources": [
+        "Ibn Abi Usaybi'a"
+      ],
+      "notes": "Translated and synthesized Greek philosophy across the Abbasid world.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_al_biruni_polymath",
+      "name": "Abu Rayhan al-Biruni (Geodesist, Astronomer & Author of Chronology of Ancient Nations, 973–1048)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 20,
+      "era": "973–1048 CE",
+      "role": "Khwarazmian Polymath & Historian",
+      "sources": [
+        "Al-Biruni Chronology",
+        "Sachau"
+      ],
+      "notes": "Measured Earth's radius and compiled synchronous world royal genealogies at Ghazni.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_omar_khayyam",
+      "name": "Omar Khayyam (Astronomer, Mathematician & Poet of Nishapur, 1048–1131 CE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 20,
+      "era": "1048–1131 CE",
+      "role": "Seljuk Astronomer & Poet",
+      "sources": [
+        "Modern Universal History Vol. 3"
+      ],
+      "notes": "Reformed the Persian Jalali solar calendar under Sultan Malik-Shah I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_nizam_al_mulk",
+      "name": "Nizam al-Mulk (Seljuk Grand Vizier & Founder of Nizamiyya Universities, 1018–1092 CE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 20,
+      "era": "1018–1092 CE",
+      "role": "Seljuk Grand Vizier",
+      "sources": [
+        "Siyasatnama",
+        "Modern Universal History Vol. 3"
+      ],
+      "notes": "Statesman serving Alp Arslan & Malik-Shah I; patron of Al-Ghazali & Omar Khayyam.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_ibn_rushd_averroes",
+      "name": "Ibn Rushd / Averroes (Philosopher & Qadi of Cordoba & Marrakesh, 1126–1198 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1126–1198 CE",
+      "role": "Andalusi Philosopher & Jurist",
+      "sources": [
+        "Ibn Khaldun"
+      ],
+      "notes": "Chief judge of Seville & Cordoba; famed commentator on Aristotle under Almohad Caliphs.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_al_idrisi",
+      "name": "Muhammad al-Idrisi (Andalusi Geographer; Tabula Rogeriana for Roger II, 1100–1165 CE)",
+      "altNames": [],
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1100–1165 CE",
+      "role": "Cartographer & Geographer",
+      "sources": [
+        "Nuzhat al-Mushtaq"
+      ],
+      "notes": "Created the world atlas Tabula Rogeriana at King Roger II's court in Sicily.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_ibn_battuta",
+      "name": "Ibn Battuta of Tangier (75,000-Mile World Traveler to Granada, Mali, Constantinople & China, 1304–1369)",
+      "altNames": true,
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1304–1369 CE",
+      "role": "Global Explorer & Jurist",
+      "sources": [
+        "Rihla of Ibn Battuta"
+      ],
+      "notes": "Recorded firsthand eyewitness accounts of Granada, Mansa Sulayman of Mali, Kilwa, Byzantium, Delhi & Yuan China.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "isl10_ibn_khaldun",
+      "name": "Ibn Khaldun of Tunis (Founder of Historiography & Sociology; Met Tamerlane 1401, 1332–1406 CE)",
+      "altNames": true,
+      "tradition": "arabian",
+      "tier": 20,
+      "era": "1332–1406 CE",
+      "role": "Philosopher of History & Statesman",
+      "sources": [
+        "Muqaddimah",
+        "Histoire des Berbères"
+      ],
+      "notes": "Authored the Muqaddimah & Berber/Arab universal histories; negotiated with Timur at Damascus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_kaya_maghan_tunka",
+      "name": "Kaya Maghan Cissé & Tunka Menin of Wagadu / Ghana Empire (8th–11th c. CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "8th–11th c. CE",
+      "role": "Kings of Ghana Empire",
+      "sources": [
+        "Oral Epic of Sundiata",
+        "Ibn Khaldun",
+        "Al-Umari"
+      ],
+      "notes": "Chronicle succession in Oral Epic of Sundiata, Ibn Khaldun, Al-Umari.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_sundiata_keita",
+      "name": "Mansa Sundiata Keita ('Lion King' Founder of Mali Empire; Kouroukan Fouga 1235 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "c. 1217–1255 CE",
+      "role": "Founder of Mali Empire",
+      "sources": [
+        "Oral Epic of Sundiata",
+        "Ibn Khaldun",
+        "Al-Umari"
+      ],
+      "notes": "Chronicle succession in Oral Epic of Sundiata, Ibn Khaldun, Al-Umari.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_mansa_abu_bakr2",
+      "name": "Mansa Abu Bakr II (Atlantic Navigator Emperor of Mali, c. 1311 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "r. c. 1311 CE",
+      "role": "Mansa of Mali",
+      "sources": [
+        "Oral Epic of Sundiata",
+        "Ibn Khaldun",
+        "Al-Umari"
+      ],
+      "notes": "Chronicle succession in Oral Epic of Sundiata, Ibn Khaldun, Al-Umari.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_mansa_sulayman",
+      "name": "Mansa Sulayman of Mali (Brother of Mansa Musa; Visited by Ibn Battuta 1352 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "r. 1341–1360 CE",
+      "role": "Mansa of Mali",
+      "sources": [
+        "Ibn Battuta Rihla",
+        "Ibn Khaldun"
+      ],
+      "notes": "Presided over prosperous Mali; hosted Ibn Battuta.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_sonni_ali_ber",
+      "name": "Emperor Sonni Ali Ber (Conquered Timbuktu & Djenné, 1464–1492 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "r. 1464–1492 CE",
+      "role": "Emperor of Songhai",
+      "sources": [
+        "Tarikh es-Soudan",
+        "Modern Universal History Vol. 7"
+      ],
+      "notes": "Chronicle succession in Tarikh es-Soudan, Modern Universal History Vol. 7.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_askia_dawud",
+      "name": "Emperor Askia Dawud (Songhai Golden Age Scholar-Patron, 1549–1582 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "r. 1549–1582 CE",
+      "role": "Askia of Songhai",
+      "sources": [
+        "Tarikh es-Soudan",
+        "Modern Universal History Vol. 7"
+      ],
+      "notes": "Chronicle succession in Tarikh es-Soudan, Modern Universal History Vol. 7.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_ahmad_baba_timbuktu",
+      "name": "Ahmad Baba al-Timbukti (Chancellor of Sankore University, Timbuktu, 1556–1627 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1556–1627 CE",
+      "role": "Great Scholar of Timbuktu",
+      "sources": [
+        "Tarikh es-Soudan",
+        "Modern Universal History Vol. 7"
+      ],
+      "notes": [
+        "Tarikh al-Sudan"
+      ],
+      "major": "Descendant of Timbuktu's Aqit scholarly lineage; authored over 40 works.",
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_bayajidda_daurama",
+      "name": "Queen Magajiya Daurama & Bayajidda (Founders of the Seven Hausa Bakwai States)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "9th–11th c. CE",
+      "role": "Hausa State Founders",
+      "sources": [
+        "Kano Chronicle",
+        "Sokoto Caliphate Archives"
+      ],
+      "notes": "Chronicle succession in Kano Chronicle, Sokoto Caliphate Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_queen_amina_zazzau",
+      "name": "Queen Amina / Aminatu of Zazzau (16th c. Hausa Warrior Queen, Kano Chronicle)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "c. 1533–1610 CE",
+      "role": "Queen of Zazzau (Zaria)",
+      "sources": [
+        "Kano Chronicle",
+        "Sokoto Caliphate Archives"
+      ],
+      "notes": "Extended Zazzau dominion from Nupe to Kwararafa and built the legendary Ganuwar Amina walls.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_usman_dan_fodio",
+      "name": "Shehu Usman dan Fodio (Founder of Sokoto Caliphate, 1754–1817 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1754–1817 CE",
+      "role": "1st Caliph of Sokoto",
+      "sources": [
+        "Kano Chronicle",
+        "Sokoto Caliphate Archives"
+      ],
+      "notes": "Fulani-Torodbe scholar who founded the Sokoto Caliphate in 1804 CE.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_muhammad_bello_nana_asmau",
+      "name": "Sultan Muhammad Bello & Poet-Scholar Nana Asma'u of Sokoto (1781–1864 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1781–1864 CE",
+      "role": "2nd Sultan of Sokoto & Scholar-Princess",
+      "sources": [
+        "Kano Chronicle",
+        "Sokoto Caliphate Archives"
+      ],
+      "notes": "Chronicle succession in Kano Chronicle, Sokoto Caliphate Archives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_empress_eleni",
+      "name": "Empress Eleni of Ethiopia (+ Zara Yaqob; Sent 1509 Portuguese Diplomatic Embassy)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "d. 1522 CE",
+      "role": "Queen Regent of Ethiopia",
+      "sources": [
+        "Ethiopian Royal Chronicles",
+        "Portuguese Asia"
+      ],
+      "notes": "Consort of Zara Yaqob; initiator of the 1509–1520 Ethiopian–Portuguese alliance.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_emperor_fasilides",
+      "name": "Emperor Fasilides of Ethiopia (Founded Gondar & Fasil Ghebbi Castles, 1632–1667 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1603–1667 CE",
+      "role": "Gondarine Solomonic Emperor",
+      "sources": [
+        "Ludolf New History of Ethiopia"
+      ],
+      "notes": "Built the walled imperial city of Gondar in 1636 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_tewodros2_taytu",
+      "name": "Emperor Tewodros II & Empress Taytu Betul (+ Menelik II, Co-Victor of Adwa 1896)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1818–1918 CE",
+      "role": "Modernizing Ethiopian Sovereigns",
+      "sources": [
+        "Ethiopian Imperial Chronicles"
+      ],
+      "notes": "Tewodros II initiated modern Ethiopian unification; Empress Taytu co-led the 1896 victory at Adwa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_kilwa_ali_shirazi",
+      "name": "Sultan Ali ibn al-Hassan Shirazi (Founder of Kilwa Sultanate, Swahili Coast, c. 957 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "10th c. CE",
+      "role": "Shirazi Founder of Kilwa Kisiwani",
+      "sources": [
+        "Kilwa Chronicle",
+        "Ibn Battuta"
+      ],
+      "notes": "Shirazi Persian prince who settled East Africa and founded the trading sultanate of Kilwa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "afr10_seyyid_said_zanzibar",
+      "name": "Sultan Sayyid Said bin Sultan of Oman & Zanzibar (1806–1856 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1791–1856 CE",
+      "role": "Sultan of Muscat, Oman & Zanzibar",
+      "sources": [
+        "East African Chronicles"
+      ],
+      "notes": "Moved the Al Bu Said imperial capital to Stone Town, Zanzibar (1840).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_ismail_samani",
+      "name": "Emir Ismail Samani (Founder of Samanid Renaissance of Bukhara, 892–907 CE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 19,
+      "era": "849–907 CE",
+      "role": "Samanid Emir",
+      "sources": [
+        "Al-Tabari",
+        "Al-Biruni"
+      ],
+      "notes": "Chronicle succession in Al-Tabari, Al-Biruni.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_adud_al_dawla",
+      "name": "Emir Adud al-Dawla (Buyid King of Kings of Shiraz & Baghdad, 949–983 CE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 19,
+      "era": "936–983 CE",
+      "role": "Buyid Amir al-Umara",
+      "sources": [
+        "Al-Tabari",
+        "Al-Biruni"
+      ],
+      "notes": "Chronicle succession in Al-Tabari, Al-Biruni.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_sultan_sanjar",
+      "name": "Sultan Ahmad Sanjar (Final Great Seljuk Sultan of Merv, 1118–1157 CE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 20,
+      "era": "1085–1157 CE",
+      "role": "Great Seljuk Sultan",
+      "sources": [
+        "Modern Universal History Vol. 3"
+      ],
+      "notes": "Son of Malik-Shah I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_ala_addin_khwarazm",
+      "name": "Shah Ala ad-Din Muhammad II of Khwarazm (1200–1220 CE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 20,
+      "era": "1169–1220 CE",
+      "role": "Khwarazmshah",
+      "sources": [
+        "Juvayni History of the World Conqueror"
+      ],
+      "notes": "Ruled Transoxiana & Persia prior to Genghis Khan's 1219 campaign.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_jalal_addin_mangburni",
+      "name": "Sultan Jalal ad-Din Mangburni (Last Khwarazmshah, Battle of the Indus 1221 CE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 20,
+      "era": "1199–1231 CE",
+      "role": "Last Khwarazmshah",
+      "sources": [
+        "Juvayni",
+        "Secret History of the Mongols"
+      ],
+      "notes": "Fought Genghis Khan at the Indus River (1221 CE).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_hulagu_khan",
+      "name": "Ilkhan Hulagu Khan (Grandson of Genghis; Founded Ilkhanate of Persia 1256 CE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 20,
+      "era": "1217–1265 CE",
+      "role": "1st Ilkhan of Persia",
+      "sources": [
+        "Rashid al-Din Jami' al-Tawarikh",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Chronicle succession in Rashid al-Din Jami' al-Tawarikh, Modern Universal History Vol. 4.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_abaqa_arghun",
+      "name": "Ilkhans Abaqa Khan & Arghun Khan (Envoys Rabban Bar Sauma & Edward I, 1265–1291)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 20,
+      "era": "1234–1291 CE",
+      "role": "Ilkhans of Persia",
+      "sources": [
+        "Rashid al-Din Jami' al-Tawarikh",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Chronicle succession in Rashid al-Din Jami' al-Tawarikh, Modern Universal History Vol. 4.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_ghazan_oljaitu",
+      "name": "Ilkhans Ghazan & Öljaitü (+ Vizier Rashid al-Din Jami' al-Tawarikh, 1295–1316 CE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 20,
+      "era": "1271–1316 CE",
+      "role": "Ilkhans & Patron of World History",
+      "sources": [
+        "Rashid al-Din Jami' al-Tawarikh",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Chronicle succession in Rashid al-Din Jami' al-Tawarikh, Modern Universal History Vol. 4.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_shah_rukh_gawhar_shad",
+      "name": "Shah Rukh & Queen Gawhar Shad (Timurid Herat Renaissance, 1405–1447 CE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 20,
+      "era": "1377–1457 CE",
+      "role": "Timurid Emperor & Queen",
+      "sources": [
+        "Baburnama",
+        "Tarikh-i-Rashidi"
+      ],
+      "notes": "Chronicle succession in Baburnama, Tarikh-i-Rashidi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_ulugh_beg",
+      "name": "Sultan Ulugh Beg (Samarkand Observatory & Zij-i-Sultani, 1394–1449 CE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 21,
+      "era": "1394–1449 CE",
+      "role": "Timurid Astronomer-King",
+      "sources": [
+        "Baburnama",
+        "Tarikh-i-Rashidi"
+      ],
+      "notes": "Computed the length of the sidereal year within 58 seconds at his Samarkand observatory.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_husayn_bayqara",
+      "name": "Sultan Husayn Bayqara & Poet Ali-Shir Nava'i (1469–1506 CE Herat Court)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 21,
+      "era": "1438–1506 CE",
+      "role": "Timurid Patron of Herat",
+      "sources": [
+        "Baburnama",
+        "Tarikh-i-Rashidi"
+      ],
+      "notes": "Chronicle succession in Baburnama, Tarikh-i-Rashidi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_pahlavi_iran",
+      "name": "Reza Shah Pahlavi → Mohammad Reza Shah Pahlavi of Iran (1925–1979 CE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 21,
+      "era": "1878–1980 CE",
+      "role": "20th c. Pahlavi Shahs",
+      "sources": [
+        "Modern Iranian History"
+      ],
+      "notes": "20th-century imperial dynasty succeeding Qajar Iran.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_berke_khan",
+      "name": "Khan Berke of the Golden Horde (Allied with Mamluk Baybars, 1257–1266 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "d. 1266 CE",
+      "role": "Khan of the Golden Horde",
+      "sources": [
+        "Abulghazi",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Chronicle succession in Abulghazi, Modern Universal History Vol. 4.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_ozbeg_khan",
+      "name": "Khan Öz Beg of the Golden Horde (Longest Reign; Golden Age of Sarai, 1313–1341 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "1282–1341 CE",
+      "role": "Khan of the Golden Horde",
+      "sources": [
+        "Abulghazi",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Chronicle succession in Abulghazi, Modern Universal History Vol. 4.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_tokhtamysh",
+      "name": "Khan Tokhtamysh (Rival of Timur; Restorer of Golden Horde, 1380–1395 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 20,
+      "era": "d. 1406 CE",
+      "role": "Khan of the Golden Horde",
+      "sources": [
+        "Abulghazi",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Chronicle succession in Abulghazi, Modern Universal History Vol. 4.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_haci_menli_giray",
+      "name": "Khans Hacı I & Meñli I Giray of Crimea (+ Ayşe Hafsa Sultan, Mother of Suleiman I)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1397–1515 CE",
+      "role": "Crimean Giray Khans",
+      "sources": [
+        "Abulghazi",
+        "Modern Universal History Vol. 4"
+      ],
+      "notes": "Chronicle succession in Abulghazi, Modern Universal History Vol. 4.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_shaybani_khan",
+      "name": "Muhammad Shaybani Khan (Founder of Uzbek Shaybanid Dynasty of Bukhara, 1451–1510)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1451–1510 CE",
+      "role": "Jochid Uzbek Khan",
+      "sources": [
+        "Baburnama",
+        "Abulghazi"
+      ],
+      "notes": "Jochid descendant of Batu/Shiban; rival of Babur.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_kerey_janibek",
+      "name": "Khans Kerey & Janibek (Founders of the Kazakh Khanate, 1465 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "15th c. CE",
+      "role": "Founders of Kazakh Khanate",
+      "sources": [
+        "Tarikh-i-Rashidi",
+        "Abulghazi"
+      ],
+      "notes": "Jochid/Orda-Iden princes who established the Kazakh Khanate.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_ablai_khan",
+      "name": "Khan Ablai of the Kazakhs (1711–1781 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1711–1781 CE",
+      "role": "Great Khan of all Three Kazakh Jüz",
+      "sources": [
+        "Kazakh & Steppe Chronicles"
+      ],
+      "notes": "United the Senior, Middle & Junior Kazakh Jüz.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "per10_kuchum_siberia",
+      "name": "Khan Kuchum of Siberia (Final Chinggisid Khan of the Khanate of Sibir, d. c. 1601 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "d. c. 1601 CE",
+      "role": "Shibanid Khan of Sibir",
+      "sources": [
+        "Abulghazi",
+        "Russian Chronicles"
+      ],
+      "notes": "Last Shaybanid-Chinggisid sovereign of Western Siberia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_rezon_damascus",
+      "name": "King Rezon of Damascus (1 Kings 11:23–25; Solomon's Adversary)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "c. 960–930 BCE",
+      "role": "1st King of Aram-Damascus",
+      "sources": [
+        "1–2 Kings",
+        "Tel Dan Stele",
+        "Assyrian Royal Inscriptions"
+      ],
+      "notes": "Chronicle succession in 1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_ben_hadad1",
+      "name": "King Ben-Hadad I of Aram-Damascus (1 Kings 15:18)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "r. c. 885–865 BCE",
+      "role": "King of Aram-Damascus",
+      "sources": [
+        "1–2 Kings",
+        "Tel Dan Stele",
+        "Assyrian Royal Inscriptions"
+      ],
+      "notes": "Chronicle succession in 1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_ben_hadad2_qarqar",
+      "name": "King Ben-Hadad II / Hadadezer (Battle of Qarqar 853 BCE vs Shalmaneser III; 1 Kgs 20)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "r. c. 865–842 BCE",
+      "role": "King of Aram-Damascus",
+      "sources": [
+        "1–2 Kings",
+        "Tel Dan Stele",
+        "Assyrian Royal Inscriptions"
+      ],
+      "notes": "Chronicle succession in 1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_hazael_tel_dan",
+      "name": "King Hazael of Aram-Damascus (Tel Dan Stele 'House of David', 2 Kgs 8:15, c. 842–796 BCE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "r. c. 842–796 BCE",
+      "role": "King of Aram-Damascus",
+      "sources": [
+        "1–2 Kings",
+        "Tel Dan Stele",
+        "Assyrian Royal Inscriptions"
+      ],
+      "notes": "Erected the Tel Dan Stele bearing the oldest extra-biblical reference to 'BYTDWD' (House of David).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_ben_hadad3",
+      "name": "King Ben-Hadad III (Son of Hazael, 2 Kgs 13:3)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "r. c. 796–770 BCE",
+      "role": "King of Aram-Damascus",
+      "sources": [
+        "1–2 Kings",
+        "Tel Dan Stele",
+        "Assyrian Royal Inscriptions"
+      ],
+      "notes": "Chronicle succession in 1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_rezin_damascus",
+      "name": "King Rezin of Damascus (Syro-Ephraimite War, Isa 7:1, 2 Kgs 16:9)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "d. 732 BCE",
+      "role": "Last King of Aram-Damascus",
+      "sources": [
+        "1–2 Kings",
+        "Tel Dan Stele",
+        "Assyrian Royal Inscriptions"
+      ],
+      "notes": "Chronicle succession in 1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_mesha_moab",
+      "name": "King Mesha of Moab (Mesha Stele / Moabite Stone, 2 Kgs 3:4, c. 840 BCE)",
+      "altNames": true,
+      "tradition": "biblical",
+      "tier": 15,
+      "era": "c. 840 BCE",
+      "role": "King of Moab (Mesha Stele)",
+      "sources": [
+        "2 Kings 3:4",
+        "Mesha Stele (KAI 181)"
+      ],
+      "notes": "Carved the Moabite Stone recording Omri, Chemosh & House of David.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_nahash_hanun_ammon",
+      "name": "Kings Nahash & Hanun of Ammon (1 Sam 11, 2 Sam 10)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "c. 1020–990 BCE",
+      "role": "Kings of Ammon",
+      "sources": [
+        "1 Samuel 11",
+        "2 Samuel 10"
+      ],
+      "notes": "Ammonite kings descended from Ben-Ammi son of Lot.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_baalis_ammon",
+      "name": "King Baalis of Ammon (Jeremiah 40:14, 6th c. BCE Seal Verified)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 17,
+      "era": "fl. 586 BCE",
+      "role": "King of Ammon",
+      "sources": [
+        "Jeremiah 40:14",
+        "Tell el-'Umeiri Seal"
+      ],
+      "notes": "Attested archaeologically on Ammonite royal official Milkom'ur seal.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_achish_gath",
+      "name": "King Achish of Gath & Kings of Ashdod/Gaza (1 Sam 21, 27, 29)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "c. 1010 BCE",
+      "role": "Philistine Seren of Gath",
+      "sources": [
+        "1 Samuel 21 & 27"
+      ],
+      "notes": "Sheltered young David at Ziklag.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_ikausu_ekron",
+      "name": "King Ikausu / Achish of Ekron (Ekron Royal Dedicatory Inscription, 7th c. BCE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 16,
+      "era": "7th c. BCE",
+      "role": "King of Ekron (Philistia)",
+      "sources": [
+        "Ekron Royal Inscription",
+        "Assyrian Annals"
+      ],
+      "notes": "Named in Esarhaddon/Ashurbanipal prism & Ekron foundation inscription.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_aramu_sarduri1",
+      "name": "Kings Aramu & Sarduri I of Urartu (Founders of Tushpa / Lake Van, c. 858–824 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 15,
+      "era": "858–824 BCE",
+      "role": "Founders of Kingdom of Urartu",
+      "sources": [
+        "Urartian Cuneiform Inscriptions",
+        "Khorenatsi"
+      ],
+      "notes": "Chronicle succession in Urartian Cuneiform Inscriptions, Khorenatsi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_menua_urartu",
+      "name": "King Menua of Urartu (Shamiram Canal & Cuneiform Inscriptions, 810–786 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "810–786 BCE",
+      "role": "King of Urartu",
+      "sources": [
+        "Urartian Cuneiform Inscriptions",
+        "Khorenatsi"
+      ],
+      "notes": "Chronicle succession in Urartian Cuneiform Inscriptions, Khorenatsi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_argishti1_yerevan",
+      "name": "King Argishti I of Urartu (Founded Erebuni / Yerevan 782 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "786–764 BCE",
+      "role": "Great King of Urartu / Ararat",
+      "sources": [
+        "Urartian Cuneiform Inscriptions",
+        "Khorenatsi"
+      ],
+      "notes": "Built the fortress of Erebuni in 782 BCE, direct origin of Armenia's capital Yerevan.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_sarduri2",
+      "name": "King Sarduri II of Urartu (Peak Extent vs Tiglath-Pileser III, 764–735 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "764–735 BCE",
+      "role": "King of Urartu",
+      "sources": [
+        "Urartian Cuneiform Inscriptions",
+        "Khorenatsi"
+      ],
+      "notes": "Chronicle succession in Urartian Cuneiform Inscriptions, Khorenatsi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_rusa1_rusa2",
+      "name": "Kings Rusa I & Rusa II (Musasir & Teishebaini vs Sargon II, 735–645 BCE)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "735–645 BCE",
+      "role": "Late Kings of Urartu",
+      "sources": [
+        "Urartian Cuneiform Inscriptions",
+        "Khorenatsi"
+      ],
+      "notes": "Chronicle succession in Urartian Cuneiform Inscriptions, Khorenatsi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_gordias_midas",
+      "name": "Kings Gordias & Midas of Phrygia ('Mita of Mushki', d. c. 696 BCE)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 16,
+      "era": "8th c. BCE",
+      "role": "Kings of Phrygia (Gordion)",
+      "sources": [
+        "Herodotus",
+        "Assyrian Annals of Sargon II"
+      ],
+      "notes": "Historical King Midas wed a Greek princess of Cyme and corresponded with Sargon II of Assyria.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_gyges_lydia",
+      "name": "King Gyges of Lydia ('Gugu' in Ashurbanipal Annals, 680–644 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "r. 680–644 BCE",
+      "role": "Founder of Mermnad Lydia",
+      "sources": [
+        "Herodotus Book I",
+        "Rassam Cylinder"
+      ],
+      "notes": "Sent mercenaries to Egypt's Psamtik I and envoys to Nineveh.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_alyattes_lydia",
+      "name": "King Alyattes of Lydia (Eclipse of Thales Battle 585 BCE; Father of Croesus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "r. c. 619–560 BCE",
+      "role": "King of Lydia",
+      "sources": [
+        "Herodotus Book I"
+      ],
+      "notes": "Coined earliest electrum money; father of Croesus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ane10_harpagus_artemisia",
+      "name": "Queen Artemisia I of Halicarnassus & Satrap Mausolus of Caria (Mausoleum)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "5th–4th c. BCE",
+      "role": "Carian Sovereigns",
+      "sources": [
+        "Herodotus",
+        "Diodorus"
+      ],
+      "notes": "Naval commander at Salamis (480 BCE) and builder of the Mausoleum at Halicarnassus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_william1_netherlands",
+      "name": "King William I of the Netherlands (1st King of United Kingdom of the Netherlands, 1815–1840)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1772–1843 CE",
+      "role": "1st King of the Netherlands",
+      "sources": [
+        "Almanach de Gotha",
+        "Koninklijk Huis"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Koninklijk Huis.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_wilhelmina_netherlands",
+      "name": "Queen Wilhelmina of the Netherlands (Reigned 1890–1948 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1880–1962 CE",
+      "role": "Queen of the Netherlands",
+      "sources": [
+        "Almanach de Gotha",
+        "Koninklijk Huis"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Koninklijk Huis.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_juliana_netherlands",
+      "name": "Queen Juliana of the Netherlands (Reigned 1948–1980 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1909–2004 CE",
+      "role": "Queen of the Netherlands",
+      "sources": [
+        "Almanach de Gotha",
+        "Koninklijk Huis"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Koninklijk Huis.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_beatrix_netherlands",
+      "name": "Princess (former Queen) Beatrix of the Netherlands (r. 1980–2013; Living 2026)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1938–Present CE",
+      "role": "Queen of the Netherlands (Living 2026)",
+      "sources": [
+        "Almanach de Gotha",
+        "Koninklijk Huis"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Koninklijk Huis.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_willem_alexander_2026",
+      "name": "LIVING (2026): King Willem-Alexander & Princess Catharina-Amalia of the Netherlands",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1967–Present CE",
+      "role": "Reigning King of the Netherlands & Heir (Living 2026)",
+      "sources": [
+        "Almanach de Gotha",
+        "Koninklijk Huis"
+      ],
+      "notes": "Present-day reigning Orange-Nassau monarch of the Netherlands (2026).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_haakon7_maud",
+      "name": "King Haakon VII of Norway (+ Queen Maud, Daughter of Edward VII, r. 1905–1957)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1872–1957 CE",
+      "role": "1st Modern King of Norway",
+      "sources": [
+        "Almanach de Gotha",
+        "Kongehuset"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Kongehuset.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_olav5_norway",
+      "name": "King Olav V of Norway (Son of Haakon VII & Maud, r. 1957–1991)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1903–1991 CE",
+      "role": "King of Norway",
+      "sources": [
+        "Almanach de Gotha",
+        "Kongehuset"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Kongehuset.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_harald5_haakon_2026",
+      "name": "LIVING (2026): King Harald V & Crown Prince Haakon of Norway",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1937–Present CE",
+      "role": "Reigning King of Norway & Heir (Living 2026)",
+      "sources": [
+        "Almanach de Gotha",
+        "Kongehuset"
+      ],
+      "notes": "Present-day reigning Glücksburg–Windsor–Bernadotte monarch of Norway (2026).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_leopold1_belgium",
+      "name": "King Leopold I of Belgium (Uncle of Queen Victoria; Saxe-Coburg-Gotha, 1831–1865)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1790–1865 CE",
+      "role": "1st King of the Belgians",
+      "sources": [
+        "Almanach de Gotha",
+        "Monarchie.be"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Monarchie.be.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_albert1_belgium",
+      "name": "King Albert I & King Leopold III of the Belgians (1909–1951 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1875–1983 CE",
+      "role": "Kings of the Belgians",
+      "sources": [
+        "Almanach de Gotha",
+        "Monarchie.be"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Monarchie.be.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_baudouin_albert2",
+      "name": "King Baudouin & King Albert II of the Belgians (1951–2013 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1930–Present CE",
+      "role": "Kings of the Belgians",
+      "sources": [
+        "Almanach de Gotha",
+        "Monarchie.be"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Monarchie.be.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_philippe_elisabeth_2026",
+      "name": "LIVING (2026): King Philippe & Princess Elisabeth of Belgium",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1960–Present CE",
+      "role": "Reigning King of the Belgians & Heir (Living 2026)",
+      "sources": [
+        "Almanach de Gotha",
+        "Monarchie.be"
+      ],
+      "notes": "Present-day reigning Belgian sovereign & Duchess of Brabant (2026).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_luxembourg_guillaume5_2026",
+      "name": "LIVING (2026): Grand Duke Henri & Grand Duke Guillaume V of Luxembourg (Nassau-Weilburg)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1955–Present CE",
+      "role": "Living 2026 Sovereigns of Luxembourg",
+      "sources": [
+        "Almanach de Gotha"
+      ],
+      "notes": "Senior House of Nassau-Weilburg grand ducal line continuing in 2026.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_monaco_albert2_2026",
+      "name": "LIVING (2026): Rainier III (+ Grace Kelly) → Prince Albert II of Monaco (Grimaldi)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1923–Present CE",
+      "role": "Living 2026 Sovereign Prince of Monaco",
+      "sources": [
+        "Almanach de Gotha",
+        "Burke's Royal Families"
+      ],
+      "notes": "House of Grimaldi descending via Louise-Hippolyte Grimaldi & Jacques Goyon de Matignon (French nobility under Louis XIV).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_liechtenstein_2026",
+      "name": "LIVING (2026): Prince Hans-Adam II & Hereditary Prince Alois of Liechtenstein",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1945–Present CE",
+      "role": "Living 2026 Princes of Liechtenstein",
+      "sources": [
+        "Almanach de Gotha"
+      ],
+      "notes": "Direct imperial princes elevated under Habsburg Holy Roman Emperors continuing in 2026.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_john_adams_jqa",
+      "name": "Presidents John Adams & John Quincy Adams (New England Plantagenet-Puritan Gateway)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1735–1848 CE",
+      "role": "2nd & 6th U.S. Presidents",
+      "sources": [
+        "Roberts Royal Descents of 900 Immigrants"
+      ],
+      "notes": "U.S. Presidential father-and-son dynasty.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_abraham_lincoln",
+      "name": "President Abraham Lincoln (16th U.S. President; New England Hingham Hanks/Lincoln Line)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1809–1865 CE",
+      "role": "16th U.S. President",
+      "sources": [
+        "New England Historic Genealogical Register"
+      ],
+      "notes": "Preserved the Union and issued the Emancipation Proclamation (1863).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_roosevelt_delano",
+      "name": "Presidents Theodore Roosevelt & Franklin D. Roosevelt (Delano / House of Lannoy → Charlemagne)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1858–1945 CE",
+      "role": "26th & 32nd U.S. Presidents",
+      "sources": [
+        "Roberts Royal Descents"
+      ],
+      "notes": "Connected via Philippe de Lannoy (Delano) into European nobility & Charlemagne.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_simon_bolivar",
+      "name": "Simón Bolívar ('El Libertador'; Basque-Venezuelan Hidalgo Lineage, 1783–1830 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1783–1830 CE",
+      "role": "Liberator of Gran Colombia, Peru & Bolivia",
+      "sources": [
+        "Archivo Histórico de Caracas"
+      ],
+      "notes": "Basque-Spanish colonial noble lineage from Bizkaia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "liv10_emperor_pedro_brazil",
+      "name": "Emperors Dom Pedro I & Dom Pedro II of Brazil (Braganza-Habsburg Imperial House, 1822–1889)",
+      "altNames": true,
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1798–1891 CE",
+      "role": "Emperors of Brazil",
+      "sources": [
+        "History of Portugal & Brazil Chronicles"
+      ],
+      "notes": "Direct Portuguese Braganza & Austrian Habsburg line (Dom Pedro I wed Archduchess Leopoldina, sister of Marie Louise).",
+      "major": false,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "mon_isl_ali",
+      "to": "isl10_al_mahdi_billah",
+      "type": "direct",
+      "label": "Ibn al-Athir, Al-Maqrizi, Lane-Poole: succession"
+    },
+    {
+      "from": "isl10_al_mahdi_billah",
+      "to": "isl10_al_muizz_cairo",
+      "type": "direct",
+      "label": "Ibn al-Athir, Al-Maqrizi, Lane-Poole: succession"
+    },
+    {
+      "from": "isl10_al_muizz_cairo",
+      "to": "isl10_al_aziz_hakim",
+      "type": "direct",
+      "label": "Ibn al-Athir, Al-Maqrizi, Lane-Poole: succession"
+    },
+    {
+      "from": "isl10_al_aziz_hakim",
+      "to": "isl10_al_mustansir",
+      "type": "direct",
+      "label": "Ibn al-Athir, Al-Maqrizi, Lane-Poole: succession"
+    },
+    {
+      "from": "isl10_al_mustansir",
+      "to": "isl10_nizar_ismaili",
+      "type": "direct",
+      "label": "Eldest son of Fatimid Caliph al-Mustansir"
+    },
+    {
+      "from": "isl10_nizar_ismaili",
+      "to": "mod_agakhan5_ismaili",
+      "type": "direct",
+      "label": "Alamut -> Persian -> Living 2026 Imamat of Aga Khan V"
+    },
+    {
+      "from": "isl10_al_mustansir",
+      "to": "isl10_al_mustali_tayyibi",
+      "type": "direct",
+      "label": "Younger son Fatimid succession to 1171 CE"
+    },
+    {
+      "from": "isl10_najm_ad_din_ayyub",
+      "to": "mon_isl_saladin",
+      "type": "direct",
+      "label": "Father of Sultan Saladin"
+    },
+    {
+      "from": "mon_isl_saladin",
+      "to": "isl10_al_adil1",
+      "type": "direct",
+      "label": "Al-Maqrizi, Modern Universal History Vol. 2–3: succession"
+    },
+    {
+      "from": "isl10_al_adil1",
+      "to": "isl10_al_kamil",
+      "type": "direct",
+      "label": "Al-Maqrizi, Modern Universal History Vol. 2–3: succession"
+    },
+    {
+      "from": "isl10_al_kamil",
+      "to": "isl10_shajar_al_durr",
+      "type": "direct",
+      "label": "Al-Maqrizi, Modern Universal History Vol. 2–3: succession"
+    },
+    {
+      "from": "isl10_shajar_al_durr",
+      "to": "isl10_qalawun",
+      "type": "direct",
+      "label": "Al-Maqrizi, Modern Universal History Vol. 2–3: succession"
+    },
+    {
+      "from": "isl10_qalawun",
+      "to": "isl10_al_nasir_muhammad",
+      "type": "direct",
+      "label": "Al-Maqrizi, Modern Universal History Vol. 2–3: succession"
+    },
+    {
+      "from": "isl10_al_nasir_muhammad",
+      "to": "isl10_qansuh_al_ghuri",
+      "type": "direct",
+      "label": "Al-Maqrizi, Modern Universal History Vol. 2–3: succession"
+    },
+    {
+      "from": "isl10_al_adil1",
+      "to": "mon_eng_richard1",
+      "type": "expansion",
+      "label": "1192 Treaty of Jaffa diplomatic exchanges between Al-Adil & Richard I"
+    },
+    {
+      "from": "isl10_al_kamil",
+      "to": "mon_hre_frederick2",
+      "type": "expansion",
+      "label": "1229 Treaty of Jaffa between Sultan al-Kamil & Emperor Frederick II"
+    },
+    {
+      "from": "isl10_shajar_al_durr",
+      "to": "mon_isl_baybars",
+      "type": "expansion",
+      "label": "Bahri Mamluk military coalition under Shajar al-Durr & Baybars"
+    },
+    {
+      "from": "isl10_qansuh_al_ghuri",
+      "to": "mon_ott_selim1",
+      "type": "expansion",
+      "label": "1516 Battle of Marj Dabiq: Ottoman Selim I annexed Mamluk Levant & Egypt"
+    },
+    {
+      "from": "mon_esp_alfonso6",
+      "to": "isl10_yusuf_ibn_tashfin",
+      "type": "expansion",
+      "label": "Mariana General History of Spain 1699, Ibn Khaldun: succession"
+    },
+    {
+      "from": "isl10_yusuf_ibn_tashfin",
+      "to": "isl10_ibn_tumart_abd_al_mumin",
+      "type": "expansion",
+      "label": "Mariana General History of Spain 1699, Ibn Khaldun: succession"
+    },
+    {
+      "from": "isl10_ibn_tumart_abd_al_mumin",
+      "to": "isl10_yaqub_al_mansur",
+      "type": "expansion",
+      "label": "Mariana General History of Spain 1699, Ibn Khaldun: succession"
+    },
+    {
+      "from": "isl10_yaqub_al_mansur",
+      "to": "isl10_muhammad1_nasrid",
+      "type": "expansion",
+      "label": "Mariana General History of Spain 1699, Ibn Khaldun: succession"
+    },
+    {
+      "from": "isl10_muhammad1_nasrid",
+      "to": "isl10_yusuf1_muhammad5_alhambra",
+      "type": "expansion",
+      "label": "Mariana General History of Spain 1699, Ibn Khaldun: succession"
+    },
+    {
+      "from": "isl10_yusuf1_muhammad5_alhambra",
+      "to": "isl10_boabdil_granada",
+      "type": "expansion",
+      "label": "Mariana General History of Spain 1699, Ibn Khaldun: succession"
+    },
+    {
+      "from": "isl10_boabdil_granada",
+      "to": "mon_esp_isabella_ferdinand",
+      "type": "expansion",
+      "label": "1492 Capitulation of Granada to Ferdinand & Isabella"
+    },
+    {
+      "from": "mon_isl_al_mamun",
+      "to": "isl10_al_khwarizmi",
+      "type": "expansion",
+      "label": "Patronage of Al-Khwarizmi at the House of Wisdom in Baghdad"
+    },
+    {
+      "from": "mon_isl_al_mamun",
+      "to": "isl10_al_kindi_farabi",
+      "type": "expansion",
+      "label": "Abbasid patronage of Al-Kindi & Al-Farabi"
+    },
+    {
+      "from": "mon_isl_mahmud_ghazni",
+      "to": "isl10_al_biruni_polymath",
+      "type": "expansion",
+      "label": "Ghaznavid court astronomer & India chronicler"
+    },
+    {
+      "from": "stp5_malik_shah1",
+      "to": "isl10_omar_khayyam",
+      "type": "expansion",
+      "label": "1079 CE Jalali solar calendar patronage under Malik-Shah I"
+    },
+    {
+      "from": "stp5_malik_shah1",
+      "to": "isl10_nizam_al_mulk",
+      "type": "expansion",
+      "label": "Seljuk Grand Vizier of Malik-Shah I"
+    },
+    {
+      "from": "isl10_yaqub_al_mansur",
+      "to": "isl10_ibn_rushd_averroes",
+      "type": "expansion",
+      "label": "Almohad royal physician & philosopher at Marrakesh & Cordoba"
+    },
+    {
+      "from": "eur9_roger2_sicily",
+      "to": "isl10_al_idrisi",
+      "type": "expansion",
+      "label": "1154 CE Royal Cartography Commission: King Roger II & Al-Idrisi"
+    },
+    {
+      "from": "isl10_yusuf1_muhammad5_alhambra",
+      "to": "isl10_ibn_battuta",
+      "type": "expansion",
+      "label": "1350 CE Visit of Ibn Battuta to Nasrid Granada"
+    },
+    {
+      "from": "ber4_berr",
+      "to": "isl10_ibn_khaldun",
+      "type": "expansion",
+      "label": "Principal historian of Amazigh / Berber genealogies in Kitab al-Ibar"
+    },
+    {
+      "from": "mngr_imp_12_timur_tamerlane_barlas_clan_",
+      "to": "isl10_ibn_khaldun",
+      "type": "expansion",
+      "label": "1401 CE Damascus diplomatic meeting between Ibn Khaldun and Timur"
+    },
+    {
+      "from": "af_sundiata",
+      "to": "afr10_kaya_maghan_tunka",
+      "type": "direct",
+      "label": "Oral Epic of Sundiata, Ibn Khaldun, Al-Umari: succession"
+    },
+    {
+      "from": "afr10_kaya_maghan_tunka",
+      "to": "afr10_sundiata_keita",
+      "type": "direct",
+      "label": "Oral Epic of Sundiata, Ibn Khaldun, Al-Umari: succession"
+    },
+    {
+      "from": "afr10_sundiata_keita",
+      "to": "afr10_mansa_abu_bakr2",
+      "type": "direct",
+      "label": "Oral Epic of Sundiata, Ibn Khaldun, Al-Umari: succession"
+    },
+    {
+      "from": "afr10_mansa_abu_bakr2",
+      "to": "mon_afr_mansa_musa",
+      "type": "direct",
+      "label": "Predecessor/brother transition to Mansa Musa I (1312 CE)"
+    },
+    {
+      "from": "mon_afr_mansa_musa",
+      "to": "afr10_mansa_sulayman",
+      "type": "direct",
+      "label": "Brother & successor Mansa Sulayman of Mali (1341–1360 CE)"
+    },
+    {
+      "from": "isl10_ibn_battuta",
+      "to": "afr10_mansa_sulayman",
+      "type": "expansion",
+      "label": "1352–1353 CE Journey of Ibn Battuta to Mansa Sulayman's Court"
+    },
+    {
+      "from": "sng_sonni_askia_timbuktu",
+      "to": "afr10_sonni_ali_ber",
+      "type": "direct",
+      "label": "Tarikh es-Soudan, Modern Universal History Vol. 7: succession"
+    },
+    {
+      "from": "afr10_sonni_ali_ber",
+      "to": "afr10_askia_dawud",
+      "type": "direct",
+      "label": "Tarikh es-Soudan, Modern Universal History Vol. 7: succession"
+    },
+    {
+      "from": "afr10_askia_dawud",
+      "to": "afr10_ahmad_baba_timbuktu",
+      "type": "direct",
+      "label": "Tarikh es-Soudan, Modern Universal History Vol. 7: succession"
+    },
+    {
+      "from": "afr10_sonni_ali_ber",
+      "to": "mon_afr_askia_mohammed",
+      "type": "direct",
+      "label": "Songhai royal succession (1493 CE)"
+    },
+    {
+      "from": "unb_afr_kanem_dugu",
+      "to": "afr10_bayajidda_daurama",
+      "type": "expansion",
+      "label": "Kano Chronicle, Sokoto Caliphate Archives: succession"
+    },
+    {
+      "from": "afr10_bayajidda_daurama",
+      "to": "afr10_queen_amina_zazzau",
+      "type": "expansion",
+      "label": "Kano Chronicle, Sokoto Caliphate Archives: succession"
+    },
+    {
+      "from": "afr10_queen_amina_zazzau",
+      "to": "afr10_usman_dan_fodio",
+      "type": "expansion",
+      "label": "Kano Chronicle, Sokoto Caliphate Archives: succession"
+    },
+    {
+      "from": "afr10_usman_dan_fodio",
+      "to": "afr10_muhammad_bello_nana_asmau",
+      "type": "expansion",
+      "label": "Kano Chronicle, Sokoto Caliphate Archives: succession"
+    },
+    {
+      "from": "modr_eth_04_emperor_zara_yaqob_1434_1468",
+      "to": "afr10_empress_eleni",
+      "type": "direct",
+      "label": "Royal Consort of Emperor Zara Yaqob & Regent"
+    },
+    {
+      "from": "afr10_empress_eleni",
+      "to": "mon_por_manuel1",
+      "type": "expansion",
+      "label": "1509–1520 CE Ethiopian-Portuguese Alliance (Mateus Embassy to Lisbon)"
+    },
+    {
+      "from": "modr_eth_04_emperor_zara_yaqob_1434_1468",
+      "to": "afr10_emperor_fasilides",
+      "type": "direct",
+      "label": "Solomonic Gondarine descent from Zara Yaqob"
+    },
+    {
+      "from": "modr_eth_12_emperor_menelik_ii_victor_of",
+      "to": "afr10_tewodros2_taytu",
+      "type": "direct",
+      "label": "Imperial Consort Empress Taytu & predecessor Tewodros II"
+    },
+    {
+      "from": "bir_sasanians_complete",
+      "to": "afr10_kilwa_ali_shirazi",
+      "type": "expansion",
+      "label": "Shirazi-Persian maritime foundation of Swahili Kilwa Chronicle (957 CE)"
+    },
+    {
+      "from": "isl10_ibn_battuta",
+      "to": "afr10_kilwa_ali_shirazi",
+      "type": "expansion",
+      "label": "1331 CE Eyewitness account of Kilwa by Ibn Battuta"
+    },
+    {
+      "from": "afr10_kilwa_ali_shirazi",
+      "to": "afr10_seyyid_said_zanzibar",
+      "type": "expansion",
+      "label": "Swahili-Omani Indian Ocean sovereignty continuing at Zanzibar"
+    },
+    {
+      "from": "fam6_ibn_sina",
+      "to": "per10_ismail_samani",
+      "type": "expansion",
+      "label": "Al-Tabari, Al-Biruni: succession"
+    },
+    {
+      "from": "per10_ismail_samani",
+      "to": "per10_adud_al_dawla",
+      "type": "expansion",
+      "label": "Al-Tabari, Al-Biruni: succession"
+    },
+    {
+      "from": "per10_ismail_samani",
+      "to": "mon_isl_mahmud_ghazni",
+      "type": "expansion",
+      "label": "Samanid -> Ghaznavid Central Asian succession"
+    },
+    {
+      "from": "stp5_malik_shah1",
+      "to": "per10_sultan_sanjar",
+      "type": "direct",
+      "label": "Son of Great Seljuk Sultan Malik-Shah I"
+    },
+    {
+      "from": "per10_sultan_sanjar",
+      "to": "per10_ala_addin_khwarazm",
+      "type": "expansion",
+      "label": "Seljuk Khorasan succession to Khwarazmshahs"
+    },
+    {
+      "from": "per10_ala_addin_khwarazm",
+      "to": "per10_jalal_addin_mangburni",
+      "type": "direct",
+      "label": "Son of Khwarazmshah Muhammad II"
+    },
+    {
+      "from": "per10_jalal_addin_mangburni",
+      "to": "mng_genghis_khan_borte",
+      "type": "expansion",
+      "label": "1221 CE Battle of the Indus against Genghis Khan"
+    },
+    {
+      "from": "abg_tolui_hulagu_ilkhan",
+      "to": "per10_hulagu_khan",
+      "type": "direct",
+      "label": "Rashid al-Din Jami' al-Tawarikh, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "per10_hulagu_khan",
+      "to": "per10_abaqa_arghun",
+      "type": "direct",
+      "label": "Rashid al-Din Jami' al-Tawarikh, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "per10_abaqa_arghun",
+      "to": "per10_ghazan_oljaitu",
+      "type": "direct",
+      "label": "Rashid al-Din Jami' al-Tawarikh, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "mngr_imp_12_timur_tamerlane_barlas_clan_",
+      "to": "per10_shah_rukh_gawhar_shad",
+      "type": "direct",
+      "label": "Baburnama, Tarikh-i-Rashidi: succession"
+    },
+    {
+      "from": "per10_shah_rukh_gawhar_shad",
+      "to": "per10_ulugh_beg",
+      "type": "direct",
+      "label": "Baburnama, Tarikh-i-Rashidi: succession"
+    },
+    {
+      "from": "per10_ulugh_beg",
+      "to": "per10_husayn_bayqara",
+      "type": "direct",
+      "label": "Baburnama, Tarikh-i-Rashidi: succession"
+    },
+    {
+      "from": "mon_ir_agha_mohammad",
+      "to": "per10_pahlavi_iran",
+      "type": "expansion",
+      "label": "1925 Transition from Qajar Persia to Pahlavi Iran"
+    },
+    {
+      "from": "mngr_imp_02_batu_khan_founder_of_golden_",
+      "to": "per10_berke_khan",
+      "type": "direct",
+      "label": "Abulghazi, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "per10_berke_khan",
+      "to": "per10_ozbeg_khan",
+      "type": "direct",
+      "label": "Abulghazi, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "per10_ozbeg_khan",
+      "to": "per10_tokhtamysh",
+      "type": "direct",
+      "label": "Abulghazi, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "per10_tokhtamysh",
+      "to": "per10_haci_menli_giray",
+      "type": "direct",
+      "label": "Abulghazi, Modern Universal History Vol. 4: succession"
+    },
+    {
+      "from": "per10_berke_khan",
+      "to": "mon_isl_baybars",
+      "type": "expansion",
+      "label": "1263 CE Golden Horde–Mamluk Alliance between Berke Khan & Baybars"
+    },
+    {
+      "from": "per10_haci_menli_giray",
+      "to": "mon_ott_suleiman1",
+      "type": "direct",
+      "label": "Maternal grandfather Meñli I Giray via Ayşe Hafsa Valide Sultan"
+    },
+    {
+      "from": "per10_tokhtamysh",
+      "to": "per10_shaybani_khan",
+      "type": "direct",
+      "label": "Jochid-Shibanid Steppe lineage"
+    },
+    {
+      "from": "per10_shaybani_khan",
+      "to": "mug_akbar_aurangzeb",
+      "type": "expansion",
+      "label": "1500–1510 Central Asian rivalry between Shaybani Khan & Babur"
+    },
+    {
+      "from": "per10_tokhtamysh",
+      "to": "per10_kerey_janibek",
+      "type": "direct",
+      "label": "White Horde / Jochid lineage to Kerey & Janibek"
+    },
+    {
+      "from": "per10_kerey_janibek",
+      "to": "per10_ablai_khan",
+      "type": "direct",
+      "label": "Kazakh Chinggisid Khanate succession"
+    },
+    {
+      "from": "per10_shaybani_khan",
+      "to": "per10_kuchum_siberia",
+      "type": "direct",
+      "label": "Shibanid cousin line to Sibir"
+    },
+    {
+      "from": "bib_aram",
+      "to": "ane10_rezon_damascus",
+      "type": "expansion",
+      "label": "1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions: succession"
+    },
+    {
+      "from": "ane10_rezon_damascus",
+      "to": "ane10_ben_hadad1",
+      "type": "expansion",
+      "label": "1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions: succession"
+    },
+    {
+      "from": "ane10_ben_hadad1",
+      "to": "ane10_ben_hadad2_qarqar",
+      "type": "expansion",
+      "label": "1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions: succession"
+    },
+    {
+      "from": "ane10_ben_hadad2_qarqar",
+      "to": "ane10_hazael_tel_dan",
+      "type": "expansion",
+      "label": "1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions: succession"
+    },
+    {
+      "from": "ane10_hazael_tel_dan",
+      "to": "ane10_ben_hadad3",
+      "type": "expansion",
+      "label": "1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions: succession"
+    },
+    {
+      "from": "ane10_ben_hadad3",
+      "to": "ane10_rezin_damascus",
+      "type": "expansion",
+      "label": "1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions: succession"
+    },
+    {
+      "from": "ane10_ben_hadad2_qarqar",
+      "to": "akl_102_shalmaneser3",
+      "type": "expansion",
+      "label": "853 BCE Battle of Qarqar coalition (Kurkh Monolith)"
+    },
+    {
+      "from": "ane10_hazael_tel_dan",
+      "to": "jud_david",
+      "type": "expansion",
+      "label": "Tel Dan Stele Inscription (9th c. BCE) attesting 'House of David' (Bēt Dāwīd)"
+    },
+    {
+      "from": "for_hiram_syria_moab",
+      "to": "ane10_hazael_tel_dan",
+      "type": "cognate",
+      "label": "Same Syro-Aramaean sovereign"
+    },
+    {
+      "from": "bib_lot",
+      "to": "ane10_mesha_moab",
+      "type": "expansion",
+      "label": "Gen 19:37: Moab son of Lot -> King Mesha of Moab"
+    },
+    {
+      "from": "for_hiram_syria_moab",
+      "to": "ane10_mesha_moab",
+      "type": "cognate",
+      "label": "Same Mesha Stele sovereign"
+    },
+    {
+      "from": "bib_lot",
+      "to": "ane10_nahash_hanun_ammon",
+      "type": "expansion",
+      "label": "Gen 19:38: Ben-Ammi son of Lot -> Kings of Ammon"
+    },
+    {
+      "from": "ane10_nahash_hanun_ammon",
+      "to": "ane10_baalis_ammon",
+      "type": "expansion",
+      "label": "Ammonite royal succession to King Baalis"
+    },
+    {
+      "from": "jud_david",
+      "to": "ane10_achish_gath",
+      "type": "expansion",
+      "label": "1 Sam 27: Alliance of David & King Achish of Gath"
+    },
+    {
+      "from": "ane10_achish_gath",
+      "to": "ane10_ikausu_ekron",
+      "type": "expansion",
+      "label": "Philistine Pentapolis dynastic continuity to Ekron"
+    },
+    {
+      "from": "arm_hayk_pat",
+      "to": "ane10_aramu_sarduri1",
+      "type": "expansion",
+      "label": "Urartian Cuneiform Inscriptions, Khorenatsi: succession"
+    },
+    {
+      "from": "ane10_aramu_sarduri1",
+      "to": "ane10_menua_urartu",
+      "type": "expansion",
+      "label": "Urartian Cuneiform Inscriptions, Khorenatsi: succession"
+    },
+    {
+      "from": "ane10_menua_urartu",
+      "to": "ane10_argishti1_yerevan",
+      "type": "expansion",
+      "label": "Urartian Cuneiform Inscriptions, Khorenatsi: succession"
+    },
+    {
+      "from": "ane10_argishti1_yerevan",
+      "to": "ane10_sarduri2",
+      "type": "expansion",
+      "label": "Urartian Cuneiform Inscriptions, Khorenatsi: succession"
+    },
+    {
+      "from": "ane10_sarduri2",
+      "to": "ane10_rusa1_rusa2",
+      "type": "expansion",
+      "label": "Urartian Cuneiform Inscriptions, Khorenatsi: succession"
+    },
+    {
+      "from": "ane10_rusa1_rusa2",
+      "to": "aklr_neo_11_sargon_ii_722_705_bce",
+      "type": "expansion",
+      "label": "714 BCE 8th Campaign of Sargon II against Rusa I of Urartu"
+    },
+    {
+      "from": "cls_lydia_gyges_croesus",
+      "to": "ane10_gordias_midas",
+      "type": "expansion",
+      "label": "Anatolian royal neighbors (Phrygia & Lydia)"
+    },
+    {
+      "from": "ane10_gordias_midas",
+      "to": "aklr_neo_11_sargon_ii_722_705_bce",
+      "type": "expansion",
+      "label": "717–709 BCE Diplomatic Correspondence of Mita of Mushki (Midas) & Sargon II"
+    },
+    {
+      "from": "cls_lydia_gyges_croesus",
+      "to": "ane10_gyges_lydia",
+      "type": "direct",
+      "label": "Founder Gyges of Mermnad Lydia"
+    },
+    {
+      "from": "ane10_gyges_lydia",
+      "to": "ane10_alyattes_lydia",
+      "type": "direct",
+      "label": "Mermnad succession to King Alyattes"
+    },
+    {
+      "from": "ane10_alyattes_lydia",
+      "to": "cls3_croesus",
+      "type": "direct",
+      "label": "Father of King Croesus of Lydia"
+    },
+    {
+      "from": "ir_cyrus",
+      "to": "ane10_harpagus_artemisia",
+      "type": "expansion",
+      "label": "Achaemenid Anatolian vassal-sovereigns of Caria"
+    },
+    {
+      "from": "eur9_william2_orange",
+      "to": "liv10_william1_netherlands",
+      "type": "direct",
+      "label": "Almanach de Gotha, Koninklijk Huis: succession"
+    },
+    {
+      "from": "liv10_william1_netherlands",
+      "to": "liv10_wilhelmina_netherlands",
+      "type": "direct",
+      "label": "Almanach de Gotha, Koninklijk Huis: succession"
+    },
+    {
+      "from": "liv10_wilhelmina_netherlands",
+      "to": "liv10_juliana_netherlands",
+      "type": "direct",
+      "label": "Almanach de Gotha, Koninklijk Huis: succession"
+    },
+    {
+      "from": "liv10_juliana_netherlands",
+      "to": "liv10_beatrix_netherlands",
+      "type": "direct",
+      "label": "Almanach de Gotha, Koninklijk Huis: succession"
+    },
+    {
+      "from": "liv10_beatrix_netherlands",
+      "to": "liv10_willem_alexander_2026",
+      "type": "direct",
+      "label": "Almanach de Gotha, Koninklijk Huis: succession"
+    },
+    {
+      "from": "roy6_edward7",
+      "to": "liv10_haakon7_maud",
+      "type": "direct",
+      "label": "Almanach de Gotha, Kongehuset: succession"
+    },
+    {
+      "from": "liv10_haakon7_maud",
+      "to": "liv10_olav5_norway",
+      "type": "direct",
+      "label": "Almanach de Gotha, Kongehuset: succession"
+    },
+    {
+      "from": "liv10_olav5_norway",
+      "to": "liv10_harald5_haakon_2026",
+      "type": "direct",
+      "label": "Almanach de Gotha, Kongehuset: succession"
+    },
+    {
+      "from": "mon_eng_victoria",
+      "to": "liv10_leopold1_belgium",
+      "type": "expansion",
+      "label": "Almanach de Gotha, Monarchie.be: succession"
+    },
+    {
+      "from": "liv10_leopold1_belgium",
+      "to": "liv10_albert1_belgium",
+      "type": "expansion",
+      "label": "Almanach de Gotha, Monarchie.be: succession"
+    },
+    {
+      "from": "liv10_albert1_belgium",
+      "to": "liv10_baudouin_albert2",
+      "type": "expansion",
+      "label": "Almanach de Gotha, Monarchie.be: succession"
+    },
+    {
+      "from": "liv10_baudouin_albert2",
+      "to": "liv10_philippe_elisabeth_2026",
+      "type": "expansion",
+      "label": "Almanach de Gotha, Monarchie.be: succession"
+    },
+    {
+      "from": "liv10_william1_netherlands",
+      "to": "liv10_luxembourg_guillaume5_2026",
+      "type": "direct",
+      "label": "Nassau-Orange / Nassau-Weilburg 1815 Grand Ducal Succession"
+    },
+    {
+      "from": "mon_fra_louis14",
+      "to": "liv10_monaco_albert2_2026",
+      "type": "expansion",
+      "label": "French peerage / Matignon-Grimaldi marriage sanctioned under Louis XIV"
+    },
+    {
+      "from": "mon_hre_leopold1",
+      "to": "liv10_liechtenstein_2026",
+      "type": "expansion",
+      "label": "1699–1719 Habsburg Imperial Principality of Liechtenstein"
+    },
+    {
+      "from": "mon_eng_edward3",
+      "to": "liv10_john_adams_jqa",
+      "type": "expansion",
+      "label": "New England Colonial Gateway Descent from Edward III"
+    },
+    {
+      "from": "liv10_john_adams_jqa",
+      "to": "liv10_abraham_lincoln",
+      "type": "expansion",
+      "label": "New England Hingham / Massachusetts colonial kinship bridge"
+    },
+    {
+      "from": "mon_fra_charlemagne",
+      "to": "liv10_roosevelt_delano",
+      "type": "expansion",
+      "label": "Philippe de Lannoy / Burgundian-Frankish Royal Gateway to Roosevelts"
+    },
+    {
+      "from": "mon_esp_philip2",
+      "to": "liv10_simon_bolivar",
+      "type": "expansion",
+      "label": "1589 Basque-Hidalgo Venezuelan colonial grant under Philip II"
+    },
+    {
+      "from": "mon_por_john5",
+      "to": "liv10_emperor_pedro_brazil",
+      "type": "direct",
+      "label": "House of Braganza direct royal descent to Emperors of Brazil"
+    }
+  ]
+}
