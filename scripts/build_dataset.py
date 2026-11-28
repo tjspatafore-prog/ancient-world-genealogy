@@ -51,6 +51,7 @@ from modules import (
     mod52_wave10_islamic_africa_steppe_ane_living2026,
     mod53_wave11_global_monarchs_queens_and_dynasties,
     mod54_wave12_remaining_sources_deep_mine,
+    mod55_wave13_wales_china_seasia_iceland_samaritan_chronicles,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1317,6 +1318,7 @@ def main():
         mod52_wave10_islamic_africa_steppe_ane_living2026.build_module(),
         mod53_wave11_global_monarchs_queens_and_dynasties.build_module(),
         mod54_wave12_remaining_sources_deep_mine.build_module(),
+        mod55_wave13_wales_china_seasia_iceland_samaritan_chronicles.build_module(),
     ]
 
     for mod in modules:
@@ -1397,8 +1399,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Wave 12 Classical, Harivamsha, Shahnameh & Chronicles Deep Mine (v29.0)",
-            "version": "29.0.0",
+            "title": "Ancient World Genealogy Atlas — Wave 13 Wales, Shiji Hegemons, Stokvis SE Asia/India, Landnámabók & Chronologers (v30.0)",
+            "version": "30.0.0",
             "counts": {
                 "total": len(all_nodes),
                 "biblicalConnected": bib_count,

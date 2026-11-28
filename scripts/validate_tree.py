@@ -230,6 +230,12 @@ def main():
         ("bib_adam", "apo12_gondophares_indoparthia", {"direct", "expansion", "cognate", "syncretic"}, "Adam -> St. Thomas -> King Gondophares (Abdias IX)"),
         ("bib_adam", "alx12_demetrius1_bactria", {"direct", "expansion", "cognate", "syncretic"}, "Adam -> Alexander -> Seleucus -> Antiochus III -> Demetrius I of Bactria"),
         ("bib_adam", "arc12_merodach_baladan2", {"direct", "expansion", "cognate", "syncretic"}, "Adam -> Sennacherib -> Merodach-Baladan II (L.W. King Chronicles)"),
+        ("bib_japheth", "cel13_urien_rheged", {"direct", "expansion", "cognate", "syncretic"}, "Japheth -> Coel Hen -> King Urien Rheged (Four Ancient Books of Wales)"),
+        ("bib_noah", "shj13_king_goujian_yue", {"direct", "expansion", "cognate", "syncretic"}, "Noah -> Xia/Zhou -> King Goujian of Yue (Chavannes Shiji Vol. 5)"),
+        ("bib_adam", "stk13_sho_hashi_ryukyu", {"direct", "expansion", "cognate", "syncretic"}, "Adam -> Tokugawa -> King Sho Hashi of Ryukyu (Stokvis)"),
+        ("bib_japheth", "ice13_sturla_thordarson_snorri", {"direct", "expansion", "cognate", "syncretic"}, "Japheth -> Egill Skallagrimsson -> Snorri Sturluson (Landnamabok)"),
+        ("bib_adam", "sam13_baba_rabba_samaria", {"direct", "expansion", "cognate", "syncretic"}, "Adam -> Joshua -> Uzzi -> Baba Rabba of Samaria (Gaster)"),
+        ("bib_japheth", "chr13_fabius_maximus_cunctator", {"direct", "expansion", "cognate", "syncretic"}, "Japheth -> Scipio -> Fabius Maximus Cunctator (Basil Kennett)"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

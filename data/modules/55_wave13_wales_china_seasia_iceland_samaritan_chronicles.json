@@ -1,0 +1,2347 @@
+{
+  "module": "55_wave13_wales_china_seasia_iceland_samaritan_chronicles",
+  "title": "Wave 13: Wales/Heptarchy, Shiji Hegemons, Stokvis SE Asia/India, Landnámabók, Samaritans/Kordofan & Chronologers",
+  "nodes": [
+    {
+      "id": "cel13_coel_hen",
+      "name": "King Coel Hen ('Old King Cole') of the Hen Ogledd",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "c. 350 - 420 CE",
+      "role": "Progenitor of Northern British Dynasties (Coeling)",
+      "sources": [
+        "W.F. Skene, The Four Ancient Books of Wales Vol. 1",
+        "Brut y Tywysogion (Chronicle of the Princes)"
+      ],
+      "notes": "Root patriarch of the Coeling dynasties of Rheged, Elmet, Ebrauc, and Gododdin across Skene's Four Ancient Books of Wales.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_urien_rheged",
+      "name": "King Urien Rheged & Owain mab Urien",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "c. 550 - 590 CE",
+      "role": "British King of Rheged & Patron of Taliesin",
+      "sources": [
+        "W.F. Skene, The Four Ancient Books of Wales Vol. 1",
+        "Brut y Tywysogion (Chronicle of the Princes)"
+      ],
+      "notes": "Foremost northern British king celebrated in Taliesin's awdlau and Skene's Book of Taliesin; led coalition at Lindisfarne.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_taliesin_bard",
+      "name": "Taliesin Ben Beirdd (Chief Bard of Rheged)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "6th Century CE",
+      "role": "Chief Brythonic Court Poet & Chronicler of Urien Rheged",
+      "sources": [
+        "W.F. Skene, The Four Ancient Books of Wales Vol. 1",
+        "Brut y Tywysogion (Chronicle of the Princes)"
+      ],
+      "notes": "Composed historical praise poems preserved in Peniarth MS 2 (The Book of Taliesin, Skene Vol. 1).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_aneirin_gododdin",
+      "name": "Aneirin & King Mynyddog Mwynfawr of Gododdin",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "c. 600 CE",
+      "role": "Poet of Y Gododdin & Lord of Din Eidyn (Edinburgh)",
+      "sources": [
+        "W.F. Skene, The Four Ancient Books of Wales Vol. 1",
+        "Brut y Tywysogion (Chronicle of the Princes)"
+      ],
+      "notes": "Commemorated the 300 Brythonic warriors of Catraeth in the Book of Aneirin (Skene Vol. 1).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_riderch_hael_strathclyde",
+      "name": "King Rhydderch Hael of Alt Clut (Strathclyde)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "d. c. 614 CE",
+      "role": "Christian King of Strathclyde & Ally of Urien and Columba",
+      "sources": [
+        "W.F. Skene, The Four Ancient Books of Wales Vol. 1",
+        "Brut y Tywysogion (Chronicle of the Princes)",
+        "W.F. Skene, Chronicles of the Picts and Scots"
+      ],
+      "notes": "Descendant of Dyfnwal Hen and contemporary of St. Kentigern (Mungo) and Urien Rheged.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_llywarch_hen_powys",
+      "name": "Llywarch Hen (Cousin of Urien & Poet of Powys)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "c. 534 - 608 CE",
+      "role": "Coeling Prince of South Rheged & Elegist in Red Book of Hergest",
+      "sources": [
+        "W.F. Skene, The Four Ancient Books of Wales Vol. 1",
+        "Brut y Tywysogion (Chronicle of the Princes)"
+      ],
+      "notes": "Grandson of Meirchion Gul whose surviving englynion mourn his twenty-four sons on the Welsh border.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_idwal_iwrch_roderick",
+      "name": "Kings Idwal Iwrch & Cynan Dindaethwy of Gwynedd",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 682 - 816 CE",
+      "role": "Kings of Gwynedd Bridging Cadwaladr to Merfyn Frych",
+      "sources": [
+        "W.F. Skene, The Four Ancient Books of Wales Vol. 1",
+        "Brut y Tywysogion (Chronicle of the Princes)"
+      ],
+      "notes": "Successors of Cadwaladr Fendigaid whose daughter Esyllt transmitted Gwynedd's claim to Merfyn Frych and Rhodri Mawr.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_cynan_ap_iago_gruffydd",
+      "name": "Prince Cynan ap Iago & Gruffydd ap Cynan",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1014 - 1137 CE",
+      "role": "Restorer-King of Gwynedd & Hiberno-Norse Prince",
+      "sources": [
+        "W.F. Skene, The Four Ancient Books of Wales Vol. 1",
+        "Brut y Tywysogion (Chronicle of the Princes)"
+      ],
+      "notes": "Exiled to Dublin with Hiberno-Norse allies before reclaiming Gwynedd; subject of Wales's oldest royal biography.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_owain_gwynedd",
+      "name": "King Owain Gwynedd (Owain ap Gruffydd)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1100 - 1170 CE",
+      "role": "First Styled Princeps Wallensium (Prince of the Welsh)",
+      "sources": [
+        "W.F. Skene, The Four Ancient Books of Wales Vol. 1",
+        "Brut y Tywysogion (Chronicle of the Princes)"
+      ],
+      "notes": "Halted Henry II's campaigns in Berwyn and fostered Llywelyn the Great's ancestral Aberffraw house.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_lord_rhys_deheubarth",
+      "name": "Rhys ap Gruffydd ('The Lord Rhys' of Deheubarth)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1132 - 1197 CE",
+      "role": "Ruler of Deheubarth & Patron of First Recorded Eisteddfod (1176)",
+      "sources": [
+        "W.F. Skene, The Four Ancient Books of Wales Vol. 1",
+        "Brut y Tywysogion (Chronicle of the Princes)"
+      ],
+      "notes": "Dinefwr prince celebrated throughout Brut y Tywysogion as chief statesman of southern Wales.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_madog_ap_maredudd_powys",
+      "name": "King Madog ap Maredudd & Owain Cyfeiliog of Powys",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "d. 1160 - 1197 CE",
+      "role": "Last Sole King of Unified Powys & Poet-Prince",
+      "sources": [
+        "W.F. Skene, The Four Ancient Books of Wales Vol. 1",
+        "Brut y Tywysogion (Chronicle of the Princes)"
+      ],
+      "notes": "Holders of Mathrafal whose partition of Powys shaped Brut y Tywysogion and Hirlas Owain.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_bridei_mac_maelchon",
+      "name": "King Bridei I (Brude mac Maelchon) of the Picts",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "r. c. 554 - 584 CE",
+      "role": "High King of Fortriu / Pictland & Contemporary of St. Columba",
+      "sources": [
+        "W.F. Skene, Chronicles of the Picts and Scots",
+        "Venerable Bede, Ecclesiastical History of the English Nation (1723)",
+        "Aylett Sammes, Antiquities of Ancient Britain"
+      ],
+      "notes": "Recorded by Bede and Skene's Pictish Chronicles receiving St. Columba at Inverness and halting Dal Riata expansion.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_oengus1_picts",
+      "name": "King Oengus I mac Fergusa (Onuist) of the Picts",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "r. 729 - 761 CE",
+      "role": "Great Overlord of Pictland & Subduer of Dal Riata",
+      "sources": [
+        "W.F. Skene, Chronicles of the Picts and Scots"
+      ],
+      "notes": "Unified northern Scotland in the Annals of Ulster and Skene's Pictish Chronicles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_causantin2_alba",
+      "name": "King Causantin II (Constantine mac Aeda) of Alba",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "r. 900 - 943 CE",
+      "role": "King of Alba (Scotland) & Allied Sovereign at Brunanburh",
+      "sources": [
+        "W.F. Skene, Chronicles of the Picts and Scots"
+      ],
+      "notes": "Grandson of Kenneth MacAlpin who forged the Kingdom of Alba across 43 regnal years.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_aethelberht_kent_bertha",
+      "name": "King Aethelberht of Kent & Queen Bertha",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "c. 550 - 616 CE",
+      "role": "Bretwalda, First Christian Anglo-Saxon King & Merovingian Princess",
+      "sources": [
+        "Venerable Bede, Ecclesiastical History of the English Nation (1723)",
+        "Aylett Sammes, Antiquities of Ancient Britain"
+      ],
+      "notes": "Married Frankish Princess Bertha; welcomed Augustine of Canterbury (597 CE) in Bede Book I & Sammes.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_raedwald_east_anglia",
+      "name": "King Raedwald of East Anglia (Wuffingas Bretwalda)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "d. c. 624 CE",
+      "role": "King of East Anglia & Champion of Edwin of Northumbria",
+      "sources": [
+        "Venerable Bede, Ecclesiastical History of the English Nation (1723)",
+        "Aylett Sammes, Antiquities of Ancient Britain"
+      ],
+      "notes": "Installed Edwin on the Northumbrian throne at the River Idle; widely linked with Sutton Hoo Ship Burial.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_penda_mercia",
+      "name": "King Penda of Mercia (Pagan Warrior Bretwalda)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "d. 655 CE",
+      "role": "Iclingas King of Mercia",
+      "sources": [
+        "Venerable Bede, Ecclesiastical History of the English Nation (1723)",
+        "Aylett Sammes, Antiquities of Ancient Britain"
+      ],
+      "notes": "Allied with Cadwallon ap Cadfan of Gwynedd in Bede Book II-III before falling at Winwaed.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_oswiu_hilda_whitby",
+      "name": "King Oswiu of Northumbria & Abbess St. Hilda of Whitby",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "612 - 680 CE",
+      "role": "Northumbrian Bretwalda & Convener of Synod of Whitby (664 CE)",
+      "sources": [
+        "Venerable Bede, Ecclesiastical History of the English Nation (1723)",
+        "Aylett Sammes, Antiquities of Ancient Britain"
+      ],
+      "notes": "Presided over the Synod of Whitby reconciling Celtic and Roman Easter traditions in Bede Book III-IV.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_wulfhere_aethelbald_mercia",
+      "name": "Kings Wulfhere, Aethelred & Aethelbald of Mercia",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "658 - 757 CE",
+      "role": "Christian Mercian Supremacy Sovereigns",
+      "sources": [
+        "Venerable Bede, Ecclesiastical History of the English Nation (1723)",
+        "Aylett Sammes, Antiquities of Ancient Britain"
+      ],
+      "notes": "Sons and successors of Penda uniting Middle England ahead of Offa's overlordship.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cel13_aethelflaed_lady_mercians",
+      "name": "Aethelflaed, Lady of the Mercians",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 870 - 918 CE",
+      "role": "Eldest Child of Alfred the Great & Sovereign Ruler of Mercia",
+      "sources": [
+        "Venerable Bede, Ecclesiastical History of the English Nation (1723)",
+        "Aylett Sammes, Antiquities of Ancient Britain",
+        "W.F. Skene, The Four Ancient Books of Wales Vol. 1",
+        "Brut y Tywysogion (Chronicle of the Princes)"
+      ],
+      "notes": "Allied with Edward the Elder to fortify Mercian burhs and conquer the Five Boroughs from the Danelaw.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_duke_huan_qi",
+      "name": "Duke Huan of Qi (Jiang Xiaobai, r. 685 - 643 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 16,
+      "era": "685 - 643 BCE",
+      "role": "First of the Five Hegemons of the Spring & Autumn Period",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Descendant of Jiang Ziya; convened the Nine Assemblies of Feudal Lords defending the Zhou Son of Heaven (Shiji Ch. 32).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_guan_zhong_qi",
+      "name": "Guan Zhong (Premier of Qi & Statesman)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 16,
+      "era": "c. 720 - 645 BCE",
+      "role": "Prime Minister to Duke Huan of Qi & Fiscal Reformer",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Architect of salt-and-iron monopolies and hegemonic confederation praised by Confucius in Shiji & Analects.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_duke_wen_jin",
+      "name": "Duke Wen of Jin (Chong'er, r. 636 - 628 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 16,
+      "era": "697 - 628 BCE",
+      "role": "Second Hegemon of Spring & Autumn China; Victor at Chengpu",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Spent nineteen years in exile across Di, Qi, Song, Chu, and Qin before victorious return in Shiji Ch. 39.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_duke_mu_qin",
+      "name": "Duke Mu of Qin (Ying Renhao, r. 659 - 621 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 16,
+      "era": "r. 659 - 621 BCE",
+      "role": "Hegemon of the Western Rong & Father-in-Law of Jin Princes",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Sheltered and restored Duke Wen of Jin while expanding Qin across twelve Rong states (Shiji Ch. 5).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_duke_xiang_song",
+      "name": "Duke Xiang of Song (Zi Zifu, r. 650 - 637 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 16,
+      "era": "r. 650 - 637 BCE",
+      "role": "Shang-Descended Duke & Chivalrous Spring & Autumn Hegemon",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Upheld Shang ancestral rites at Mengzhu and fought King Cheng of Chu at the Hong River (Shiji Ch. 38).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_king_zhuang_chu_shiji",
+      "name": "King Zhuang of Chu (Mi Lu, r. 613 - 591 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 16,
+      "era": "r. 613 - 591 BCE",
+      "role": "Southern Hegemon of Chu Who Asked the Weight of Zhou's Cauldrons",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Reformed Chu administration with Sunshu Ao and triumphed at Bi (Shiji Ch. 40).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_king_helu_wu",
+      "name": "King Helu of Wu (Ji Guang, r. 514 - 496 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 17,
+      "era": "r. 514 - 496 BCE",
+      "role": "Zhou-Descended King of Wu & Patron of Sun Tzu",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Built Suzhou (Gusu) and captured Ying, capital of Chu, aided by Wu Zixu and Sun Wu (Shiji Ch. 31).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_wu_zixu_wu",
+      "name": "Wu Zixu (Wu Yun, Chu Nobleman & Strategist of Wu)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 17,
+      "era": "d. 484 BCE",
+      "role": "Grand Tutor of Wu & Rival of Bo Pi",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Escaped Chu vendetta to counsel Kings Helu and Fuchai of Wu in Shiji Ch. 66.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_king_fuchai_wu",
+      "name": "King Fuchai of Wu (r. 495 - 473 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 17,
+      "era": "r. 495 - 473 BCE",
+      "role": "Final King of Wu & Victor at Fuqiao / Presider at Huangchi",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Defeated Goujian at Fuqiao and presided over the Huangchi summit before Yue's counter-conquest (Shiji Ch. 31).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_king_goujian_yue",
+      "name": "King Goujian of Yue (Si Goujian, r. 496 - 465 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 17,
+      "era": "r. 496 - 465 BCE",
+      "role": "Xia-Descended King of Yue & Final Hegemon",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Descendant of Shao Kang of Xia; endured captivity in Wu ('sleeping on brushwood, tasting gall') to annex Wu in 473 BCE (Shiji Ch. 41).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_fan_li_xi_shi",
+      "name": "Fan Li & Beauty Xi Shi of Yue",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 17,
+      "era": "5th Century BCE",
+      "role": "Strategist of Yue & Ancestor of Merchant Patronage",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Masterminded Yue's twenty-year revival under Goujian before retiring across Lake Tai as 'Lord Tao Zhu' (Shiji Ch. 41).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_marquis_wen_wei",
+      "name": "Marquis Wen of Wei (Wei Si, r. 445 - 396 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 17,
+      "era": "r. 445 - 396 BCE",
+      "role": "Founder of Partition-of-Jin Hegemony & Patron of Zixia",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Initiated Legalist-Confucian reforms with Li Kui, Wu Qi, and Ximen Bao (Shiji Ch. 44).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_duke_xiao_shang_yang",
+      "name": "Duke Xiao of Qin & Lord Shang Yang (Wei Yang)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 17,
+      "era": "381 - 338 BCE",
+      "role": "Sovereign & Architect of Qin's Legalist Ascendancy",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Codified agrarian-military ranks across Qin (359 BCE), laying the direct foundation for Qin Shi Huang (Shiji Ch. 5 & 68).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_king_wuling_zhao",
+      "name": "King Wuling of Zhao (Zhao Yong, r. 325 - 299 BCE)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 17,
+      "era": "r. 325 - 299 BCE",
+      "role": "Champion of Mounted Cavalry Reform (Hu Fu Qi She)",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Adopted nomadic horse-archery across Zhao's northern frontier against the Linhu and Loufan (Shiji Ch. 43).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_qu_yuan_chu",
+      "name": "Qu Yuan of Chu (Royal Mi Statesman & Poet)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 17,
+      "era": "c. 340 - 278 BCE",
+      "role": "Junior Chu Royal Line Poet of the Chu Ci",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Grandson-collateral of King Wu of Chu; authored Li Sao and mourned Ying's fall in Shiji Ch. 84.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_four_lords_warring_states",
+      "name": "The Four Lords of the Warring States (Mengchang, Pingyuan, Xinling & Chunshen)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 18,
+      "era": "c. 320 - 238 BCE",
+      "role": "Princely Patrons of Qi, Zhao, Wei & Chu",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Tian Wen, Zhao Sheng, Wei Wuji, and Huang Xie profiled across Shiji Ch. 75-78 for maintaining anti-Qin coalitions.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_lu_buwei_li_si",
+      "name": "Chancellor Lu Buwei & Grand Councilor Li Si of Qin",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 18,
+      "era": "c. 291 - 208 BCE",
+      "role": "Architects of Qin Shi Huang's Unification",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Supervised the Lvshi Chunqiu encyclopedia, script standardization, and commanderies of the First Empire (Shiji Ch. 85 & 87).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shj13_yan_ying_mencius",
+      "name": "Master Yan Ying of Qi & Mencius (Meng Ke)",
+      "altNames": [],
+      "tradition": "chinese",
+      "tier": 17,
+      "era": "c. 578 - 289 BCE",
+      "role": "Qi Statesman & Second Sage of Confucianism",
+      "sources": [
+        "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
+      ],
+      "notes": "Yan Ying stabilized Qi's statecraft; Mencius (studied under Zisi) defended benevolent kingship across Qi and Wei.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_sailendra_samaratungga",
+      "name": "King Samaratungga & Princess Pramodhawardhani (Sailendra)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 19,
+      "era": "c. 812 - 850 CE",
+      "role": "Sailendra Monarchs of Java & Completers of Borobudur",
+      "sources": [
+        "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
+      ],
+      "notes": "United Sailendra Buddhist builders of Borobudur with Sanjaya Mataram via marriage to Rakai Pikatan (Stokvis).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_airlangga_kahuripan",
+      "name": "King Airlangga of Kahuripan (East Java)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 19,
+      "era": "990 - 1049 CE",
+      "role": "Balinese-Javanese Restorer of Medang (r. 1019 - 1045 CE)",
+      "sources": [
+        "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
+      ],
+      "notes": "Son of Udayana of Bali; partitioned his kingdom into Janggala and Kediri for his sons.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_ken_arok_kertanegara",
+      "name": "Kings Ken Arok & Kertanegara of Singhasari",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "r. 1222 - 1292 CE",
+      "role": "Founder & Final Sovereign of Singhasari; Ancestor of Majapahit",
+      "sources": [
+        "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
+      ],
+      "notes": "Kertanegara projected Pamalayu power across Sumatra and defied Kublai Khan ahead of Raden Wijaya.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_iskandar_muda_aceh",
+      "name": "Sultan Iskandar Muda of Aceh Darussalam",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1583 - 1636 CE",
+      "role": "Golden-Age Sultan of Aceh (r. 1607 - 1636 CE)",
+      "sources": [
+        "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
+      ],
+      "notes": "Extended Acehnese maritime sovereignty across Sumatra and Pahang while exchanging envoys with Ottomans and Europe.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_sultan_agung_mataram",
+      "name": "Sultan Agung Adi Prabu Hanyakrakusuma of Mataram",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1593 - 1645 CE",
+      "role": "Great Susuhunan / Sultan of Islamic Mataram (Java)",
+      "sources": [
+        "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
+      ],
+      "notes": "Grandson of Panembahan Senapati; unified central and eastern Java and struck the Dutch at Batavia (1628-1629).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_champa_bhadravarman",
+      "name": "Kings Bhadravarman, Indravarman II & Che Bong Nga of Champa",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 19,
+      "era": "4th - 14th c. CE",
+      "role": "Sovereigns of Cham Kingdoms (My Son / Vijaya)",
+      "sources": [
+        "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
+      ],
+      "notes": "Maintained Sanskrit-Austronesian Cham civilization along central Vietnam between Dai Viet and Angkor.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_sulu_paduka_batara",
+      "name": "Sultan Shari'ful Hashem & Paduka Batara of Sulu",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "r. c. 1405 - 1480 CE",
+      "role": "Sultans of Sulu & Eastern Maritime Envoy to Yongle",
+      "sources": [
+        "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
+      ],
+      "notes": "Documented in Ming annals and Sulu tarsila genealogies linking Brunei, Sulu, and Malacca maritime houses.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_sho_hashi_ryukyu",
+      "name": "King Sho Hashi of Ryukyu (Unifier of Three Kingdoms, 1429 CE)",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 20,
+      "era": "1371 - 1439 CE",
+      "role": "Founder of the Unified Kingdom of Ryukyu (Okinawa)",
+      "sources": [
+        "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
+      ],
+      "notes": "United Hokuzan, Chuzan, and Nanzan at Shuri Castle, opening Ryukyu's maritime trade across East and SE Asia.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_sho_shin_sho_tai_ryukyu",
+      "name": "Kings Sho Shin & Final King Sho Tai of Ryukyu",
+      "altNames": [],
+      "tradition": "japan_korea",
+      "tier": 21,
+      "era": "1465 - 1901 CE",
+      "role": "Second Sho Dynasty Sovereigns of Shuri Castle",
+      "sources": [
+        "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
+      ],
+      "notes": "Sho Shin centralized Ryukyuan nobility; Sho Tai remained king until the 1879 Meiji transition.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_mihira_bhoja_pratihara",
+      "name": "Emperor Mihira Bhoja I of Gurjara-Pratihara",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "r. 836 - 885 CE",
+      "role": "Overlord of Kannauj & Tripartite Imperial Rival",
+      "sources": [
+        "C. Mabel Duff (Rickmers), Chronology of India",
+        "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2",
+        "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
+      ],
+      "notes": "Extended Pratihara rule from Punjab to Bihar and Narmada, praised by Arab travelers for cavalry strength (Duff).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_gopala_dharmapala_pala",
+      "name": "Kings Gopala I & Dharmapala of Pala Bengal",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "c. 750 - 810 CE",
+      "role": "Founders of the Pala Empire & Patrons of Vikramashila",
+      "sources": [
+        "C. Mabel Duff (Rickmers), Chronology of India",
+        "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
+      ],
+      "notes": "Gopala ended Matsyanyaya anarchy in Bengal; Dharmapala presided over the imperial assembly at Kannauj (Duff).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_devapala_mahipala_pala",
+      "name": "Kings Devapala & Mahipala I of Pala Bengal",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "c. 810 - 1038 CE",
+      "role": "Pala Emperors & Restorers of Gauda",
+      "sources": [
+        "C. Mabel Duff (Rickmers), Chronology of India",
+        "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
+      ],
+      "notes": "Devapala received envoys from Balaputradeva of Srivijaya for Nalanda endowment; Mahipala revived Pala power.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_raja_bhoja_paramara",
+      "name": "Raja Bhoja Paramara of Dhar (Malwa)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "r. c. 1010 - 1055 CE",
+      "role": "Paramara Emperor, Polymath & Patron of Bhojpur",
+      "sources": [
+        "C. Mabel Duff (Rickmers), Chronology of India",
+        "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
+      ],
+      "notes": "Authored Samaranganasutradhara, founded Bhojeshwar and Bhoj Shala, and ruled central India (Duff & Tod).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_vidyadhara_chandela",
+      "name": "Kings Dhanga & Vidyadhara Chandela of Jejakabhukti",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "r. 950 - 1035 CE",
+      "role": "Rajput Builders of Khajuraho Temples",
+      "sources": [
+        "C. Mabel Duff (Rickmers), Chronology of India",
+        "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
+      ],
+      "notes": "Defended Kalinjar and central India during early eleventh-century Ghaznavid campaigns (Duff).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_siddharaja_jayasimha_solanki",
+      "name": "Siddharaja Jayasimha & Kumarapala Chaulukya (Solanki)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "r. 1092 - 1172 CE",
+      "role": "Solanki Kings of Anhilwara Patan (Gujarat)",
+      "sources": [
+        "C. Mabel Duff (Rickmers), Chronology of India",
+        "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
+      ],
+      "notes": "Presided over Gujarat's golden literary and architectural age alongside Acharya Hemachandra.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_vikramaditya6_kalyani",
+      "name": "Emperor Vikramaditya VI of Western Chalukya (Kalyani)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "r. 1076 - 1126 CE",
+      "role": "Institutor of the Chalukya-Vikrama Era & Patron of Bilhana",
+      "sources": [
+        "C. Mabel Duff (Rickmers), Chronology of India",
+        "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
+      ],
+      "notes": "Longest-reigning Western Chalukya emperor, governing from Kalyani across Maharashtra and Karnataka.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_ganapatideva_rudrama_kakatiya",
+      "name": "Ganapatideva & Queen Rudrama Devi of Kakatiya Warangal",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "r. 1199 - 1289 CE",
+      "role": "Kakatiya Emperor & Sovereign Ruling Queen of Andhra",
+      "sources": [
+        "C. Mabel Duff (Rickmers), Chronology of India",
+        "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
+      ],
+      "notes": "Queen Rudrama Devi governed Warangal for thirty years, earning the praise of Marco Polo in South India (Duff).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "stk13_bappa_rawal_rana_kumbha",
+      "name": "Bappa Rawal, Maharana Kumbha & Maharana Sanga of Mewar",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "8th c. - 1528 CE",
+      "role": "Sisodia Guhila Maharanas of Chittor & Kumbhalgarh",
+      "sources": [
+        "C. Mabel Duff (Rickmers), Chronology of India",
+        "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
+      ],
+      "notes": "Anchored by James Tod Vol. 1 as Solar-lineage guardians of Mewar bridging Guhila antiquity to Maharana Pratap.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_hjorleifr_hrodmarsson",
+      "name": "Hjorleifr Hrodmarsson (Foster-Brother of Ingolfur)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 845 - 875 CE",
+      "role": "Co-Settler of Iceland & Husband of Helga Arnardottir",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Sworn blood-brother of Ingolfur Arnarson; landed at Hjorleifshofdi (Landnamabok Part I).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_bjorn_easterner_ketilsson",
+      "name": "Bjorn the Easterner & Helgi Bjolan Ketilsson",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 850 - 920 CE",
+      "role": "Hebridean Sons of Ketil Flatnose & Settlers of Breidafjord",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Brothers of Aud the Deep-Minded who colonized Kjalarnes and Borgarholt (Landnamabok Part I-II).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_olaf_feilan_thord_gellir",
+      "name": "Olaf Feilan & Thord Gellir (Hvamm Founders)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 895 - 965 CE",
+      "role": "Grandson & Great-Grandson of Aud the Deep-Minded",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Established Iceland's Quarter Courts (Fjordungathing) in Laxdaela & Landnamabok Part II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_skallagrim_kveldulfsson",
+      "name": "Skalla-Grim Kveldulfsson of Borg",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 863 - 934 CE",
+      "role": "Early Settler of Borgarfjordur & Ancestor of the Myramenn",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Fled Harald Fairhair's Norway after Thorolf's fall; settled Borg (Landnamabok Part II).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_egill_skallagrimsson",
+      "name": "Egill Skallagrimsson of Borg (Skald & Chieftain)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 904 - 995 CE",
+      "role": "Warrior-Poet of Egils Saga & Son of Skalla-Grim",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Served King Athelstan at Brunanburh and composed Sonatorrek; forebear of both Ari Frodi and Snorri Sturluson.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_hrollaugr_more",
+      "name": "Hrollaugr Rognvaldsson (Half-Brother of Rollo of Normandy)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 870 - 940 CE",
+      "role": "Son of Jarl Rognvald of More & Settler of Sida",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Crossed from Orkney/Norway to eastern Iceland; his grandson Sidu-Hallr championed Iceland's conversion (Landnamabok IV).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_snorri_godi",
+      "name": "Snorri Godi (Thorgrimsson of Helgafell)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "963 - 1031 CE",
+      "role": "Priesthood-Chieftain of Snaefellsnes & Christian Diplomat",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Key statesman in Eyrbyggja, Njals, and Laxdaela sagas; secured the peaceful 1000 CE Althing vote.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_thorgeir_ljosvetningagodi",
+      "name": "Thorgeir Ljosvetningagodi (Lawspeaker at Althing 1000 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 940 - 1015 CE",
+      "role": "Althing Lawspeaker Who Proclaimed Iceland's Peaceful Conversion",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Delivered the unifying 999/1000 CE Althing compromise preserving private heritage under public Christian law.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_njall_gunnar_hlidarendi",
+      "name": "Njall Thorgeirsson of Bergthorshvoll & Gunnar of Hlidarendi",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 935 - 1011 CE",
+      "role": "Jurist & Chieftain Heroes of Southern Iceland",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Central families of southern Rangavellir documented in Landnamabok Part V and Brennu-Njals Saga.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_thorfinn_karlsefni_snorri",
+      "name": "Thorfinn Karlsefni & Snorri Thorfinnsson (Born in Vinland)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 980 - 1050 CE",
+      "role": "Husband of Gudrid Thorbjarnardottir & First European Child Born in North America",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Settled Skagafjordur after leading the Vinland expedition; ancestral to three early Icelandic bishops.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_ari_thorgilsson_frodi",
+      "name": "Ari Thorgilsson ('Ari the Learned', Author of Islendingabok)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1067 - 1148 CE",
+      "role": "Father of Icelandic Vernacular Historiography",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Descended from Olaf Feilan and Aud the Deep-Minded; compiled the foundational history of Iceland and Greenland.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_isleifr_gizurarson",
+      "name": "Bishops Isleifr Gizurarson & Gizurr Isleifsson of Skalholt",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1006 - 1118 CE",
+      "role": "First Native Bishops of Iceland (Skalholt)",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Haukdaelir chieftain-bishops related to Sidu-Hallr and Gudrid's clerical lineage.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_saemundr_frodi",
+      "name": "Saemundr Sigfusson ('the Learned' of Oddi)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1056 - 1133 CE",
+      "role": "Scholar of Oddi, Paris-Educated Historian & Foster-House of Snorri Sturluson",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Ancestor of Jon Loftsson of Oddi who educated Snorri Sturluson.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ice13_sturla_thordarson_snorri",
+      "name": "Hvamm-Sturla & Snorri Sturluson (Author of Prose Edda & Heimskringla)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1115 - 1241 CE",
+      "role": "Lawspeaker of Iceland & Great Chronicler of Norse Kings",
+      "sources": [
+        "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
+      ],
+      "notes": "Descended from Egill Skallagrimsson and Olaf Feilan; authored the Prose Edda and Heimskringla.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_uzzi_gerizim_priest",
+      "name": "High Priest Uzzi ben Bukki of Mount Gerizim",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Early Judges Horizon",
+      "role": "Samaritan High Priest Preserving the Hidden Tabernacle",
+      "sources": [
+        "Moses Gaster, The Samaritans: Their History, Doctrines and Literature",
+        "Samaritan Chronicle of Joshua"
+      ],
+      "notes": "Samaritan Chronicles of Joshua & Shalshalat ha-Kohanim record Uzzi concealing the Tabernacle vessels on Mount Gerizim.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_baba_rabba_samaria",
+      "name": "Baba Rabba (Great Father & Reformer of Samaria, 4th c. CE)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "c. 308 - 348 CE",
+      "role": "Samaritan High Priestly Statesman & Synagogue Founder",
+      "sources": [
+        "Moses Gaster, The Samaritans: Their History, Doctrines and Literature",
+        "Samaritan Chronicle of Joshua"
+      ],
+      "notes": "Eldest son of High Priest Nathanael; divided Samaria into twelve administrative regions and revived liturgical learning (Gaster).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_marqah_amram_dare",
+      "name": "Tebah Marqah & Amram Dare (Samaritan Liturgists)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "4th Century CE",
+      "role": "Father-Son Founders of Samaritan Aramaic Literature (Memar Marqah)",
+      "sources": [
+        "Moses Gaster, The Samaritans: Their History, Doctrines and Literature",
+        "Samaritan Chronicle of Joshua"
+      ],
+      "notes": "Flourished under Baba Rabba; composed foundational Aramaic hymns and Memar Marqah (Gaster).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_shobach_nabih_joshua",
+      "name": "King Shobach of Armenia & Nabih of Gilead",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Conquest Horizon",
+      "role": "Adversaries & Coalition Rulers in Samaritan Book of Joshua",
+      "sources": [
+        "Moses Gaster, The Samaritans: Their History, Doctrines and Literature",
+        "Samaritan Chronicle of Joshua"
+      ],
+      "notes": "Unique Arabic-Samaritan Joshua romance narrating Joshua's deliverance by Nabih, prince of Reuben/Gilead.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_qapgen_noah_apportionment",
+      "name": "Bitenosh, Lamech & 1QapGen Geographic Earth Partition",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Patriarchal Era (Qumran 1QapGen)",
+      "role": "Aramaic Dead Sea Apocryphon Narrative of Noah & Abraham",
+      "sources": [
+        "Dead Sea Genesis Apocryphon (1QapGen)",
+        "R.H. Charles, Testaments of the Twelve Patriarchs",
+        "Louis Ginzberg, Legends of the Jews"
+      ],
+      "notes": "Genesis Apocryphon (Cols. II-XXI) preserves Lamech-Bitenosh dialogue, Noah's world survey, and Abraham's Jordan/Nile circuit.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_testament_levi_melcha",
+      "name": "Melcha (Wife of Levi) & Priestly Ascension",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Patriarchal Era",
+      "role": "Patriarchal Wife & Kohath-Amram Levitical Stem",
+      "sources": [
+        "Dead Sea Genesis Apocryphon (1QapGen)",
+        "R.H. Charles, Testaments of the Twelve Patriarchs",
+        "Louis Ginzberg, Legends of the Jews"
+      ],
+      "notes": "Testament of Levi 11-12 names Melcha (daughter of Bethuel/Aram) and gives exact dates for Kohath and Amram.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_testament_judah_tamar",
+      "name": "Shua, Tamar & Achor-Hazor Royal Wars of Judah",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Patriarchal Era",
+      "role": "Testament of Judah Genealogical & Military Tradition",
+      "sources": [
+        "Dead Sea Genesis Apocryphon (1QapGen)",
+        "R.H. Charles, Testaments of the Twelve Patriarchs",
+        "Louis Ginzberg, Legends of the Jews"
+      ],
+      "notes": "R.H. Charles's Testament of Judah supplements Genesis 38 with heroic wars against Canaanite kings of Hazor and Tapuah.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_testament_naphtali_rotheus",
+      "name": "Rotheus (Chaldean Grandfather of Bilhah) & Zilpah",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Patriarchal Era",
+      "role": "Paternal Pedigree of Bilhah & Naphtali",
+      "sources": [
+        "Dead Sea Genesis Apocryphon (1QapGen)",
+        "R.H. Charles, Testaments of the Twelve Patriarchs",
+        "Louis Ginzberg, Legends of the Jews"
+      ],
+      "notes": "Testament of Naphtali 1 identifies Rotheus, captured brother-in-law of Laban, as Bilhah's father.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_testament_reuben_simeon",
+      "name": "Elders of Reuben & Simeon (Massekhet Shevatim)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Patriarchal Era",
+      "role": "Moral Warnings & Tribal Matriarchs in Testaments",
+      "sources": [
+        "Dead Sea Genesis Apocryphon (1QapGen)",
+        "R.H. Charles, Testaments of the Twelve Patriarchs",
+        "Louis Ginzberg, Legends of the Jews"
+      ],
+      "notes": "Testaments of Reuben and Simeon preserve tribal demographic traditions and Egyptian sojourning notes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_ginzberg_serah_bat_asher",
+      "name": "Serah bat Asher (Long-Lived Keeper of Joseph's Tomb)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Patriarchal to Davidic Tradition",
+      "role": "Asherite Daughter & Memory-Bearer in Legends of the Jews",
+      "sources": [
+        "Dead Sea Genesis Apocryphon (1QapGen)",
+        "R.H. Charles, Testaments of the Twelve Patriarchs",
+        "Louis Ginzberg, Legends of the Jews"
+      ],
+      "notes": "Louis Ginzberg compiles Midrashic tradition of Serah surviving from Jacob's descent to Egypt to David's reign.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_macmichael_kababish_nurab",
+      "name": "Shaykhs of the Kababish Nurab (Fadl Allah & Ali al-Tom)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "18th - 20th Century CE",
+      "role": "Paramount Camel-Nomad Arab Confederation of Northern Kordofan",
+      "sources": [
+        "H.A. MacMichael, The Tribes of Northern and Central Kordofan"
+      ],
+      "notes": "MacMichael documents Kababish Juhayna/Quraish oral nisbas centering on Bayoda and northern Kordofan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_macmichael_dar_hamid",
+      "name": "Dar Hamid & Jawama'a Arab Tribes of Kordofan",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "16th - 20th Century CE",
+      "role": "Juhayna & Ja'aliyin Pastoralist Houses around Bara",
+      "sources": [
+        "H.A. MacMichael, The Tribes of Northern and Central Kordofan"
+      ],
+      "notes": "Mapped in MacMichael's Kordofan pedigrees linking Dar Hamid, Ferahna, and Awlad Akoi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_macmichael_baggara_hawazma",
+      "name": "Baggara Hawazma & Messiria Confederations (Kordofan)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "16th - 20th Century CE",
+      "role": "Atiyah / Juhayna Cattle-Herding Confederations of Southern Kordofan",
+      "sources": [
+        "H.A. MacMichael, The Tribes of Northern and Central Kordofan"
+      ],
+      "notes": "MacMichael details Hawazma and Messiria migrations along Bahr al-Arab and the Nuba foothills.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_norden_ramesses3_medinet",
+      "name": "Pharaoh Ramesses III (Medinet Habu, Recorded by Norden 1737)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "r. 1186 - 1155 BCE",
+      "role": "Final Great New Kingdom Warrior-Pharaoh",
+      "sources": [
+        "Frederik Ludvig Norden, Antiquities of Egypt, Nubia and Thebes"
+      ],
+      "notes": "F.L. Norden's pioneering 1737-1757 illustrated Nile expedition first published Medinet Habu, Thebes, and Dendera to Europe.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_norden_memnon_thebes",
+      "name": "Colossi of Amenhotep III & Ramesseum Monumental Line (Norden)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 15,
+      "era": "14th - 13th Century BCE",
+      "role": "Theban Monumental Dynastic Horizon Documented by Norden",
+      "sources": [
+        "Frederik Ludvig Norden, Antiquities of Egypt, Nubia and Thebes"
+      ],
+      "notes": "Norden mapped Luxor, Karnak, and the Colossi of Memnon twenty years before the Napoleonic Description.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "sam13_norden_philae_derr_nubia",
+      "name": "Cataract Temple Builders of Philae, Kalabsha & Derr (Norden)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 18,
+      "era": "Late New Kingdom to Meroitic Era",
+      "role": "Nubian-Egyptian Temple Corridors Surveyed by Norden (1737)",
+      "sources": [
+        "Frederik Ludvig Norden, Antiquities of Egypt, Nubia and Thebes"
+      ],
+      "notes": "Norden was the first modern European explorer to chart Lower Nubia down to Derr above Philae.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_turnus_rutuli",
+      "name": "King Turnus of the Rutuli (Ardea)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 15,
+      "era": "Bronze / Trojan Migration Horizon",
+      "role": "King of Ardea & Rival of Aeneas for Lavinia",
+      "sources": [
+        "Dionysius of Halicarnassus, Roman Antiquities",
+        "Basil Kennett, Romae Antiquae Notitia (1793)"
+      ],
+      "notes": "Allied with Amata of Laurentum and Mezentius before falling in single combat against Aeneas.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_mezentius_caere",
+      "name": "King Mezentius & Lausus of Caere (Etruria)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 15,
+      "era": "Trojan Migration Horizon",
+      "role": "Etruscan King of Agylla / Caere",
+      "sources": [
+        "Dionysius of Halicarnassus, Roman Antiquities",
+        "Basil Kennett, Romae Antiquae Notitia (1793)"
+      ],
+      "notes": "Detailed in Dionysius of Halicarnassus Book I negotiating treaty with Ascanius and Turnus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_titus_tatius_sabines",
+      "name": "King Titus Tatius of the Sabines (Co-Ruler with Romulus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "c. 750 - 745 BCE",
+      "role": "Sabine Co-King of Rome at Quirinal Hill",
+      "sources": [
+        "Dionysius of Halicarnassus, Roman Antiquities",
+        "Basil Kennett, Romae Antiquae Notitia (1793)"
+      ],
+      "notes": "Forged the Romano-Sabine dual monarchy alongside Romulus following the Sabine intervention.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_valerius_publicola",
+      "name": "Publius Valerius Publicola (Consul 509 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "d. 503 BCE",
+      "role": "Co-Founder of the Roman Republic & Colleague of Brutus",
+      "sources": [
+        "Dionysius of Halicarnassus, Roman Antiquities",
+        "Basil Kennett, Romae Antiquae Notitia (1793)"
+      ],
+      "notes": "Replaced Collatinus alongside Lucius Junius Brutus; carried Provocatio citizen-appeal laws (Kennett).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_horatius_cocles_scaevola",
+      "name": "Horatius Cocles, Mucius Scaevola & Cloelia",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 508 BCE",
+      "role": "Defenders of Early Republican Rome Against Lars Porsenna",
+      "sources": [
+        "Dionysius of Halicarnassus, Roman Antiquities",
+        "Basil Kennett, Romae Antiquae Notitia (1793)"
+      ],
+      "notes": "Exemplars of Pons Sublicius defence celebrated across Kennett's Roman Antiquities and Livy.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_coriolanus_veturia",
+      "name": "Gaius Marcius Coriolanus (+ Mother Veturia)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 491 BCE",
+      "role": "Conqueror of Corioli & Volscian Exile",
+      "sources": [
+        "Dionysius of Halicarnassus, Roman Antiquities",
+        "Basil Kennett, Romae Antiquae Notitia (1793)"
+      ],
+      "notes": "Dionysius Book VII-VIII and Kennett highlight Veturia and Volumnia sparing Rome from the Volscian march.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_furius_camillus",
+      "name": "Marcus Furius Camillus ('Second Founder of Rome')",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 446 - 365 BCE",
+      "role": "Five-Time Dictator & Liberator After Gallic Sack (390 BCE)",
+      "sources": [
+        "Dionysius of Halicarnassus, Roman Antiquities",
+        "Basil Kennett, Romae Antiquae Notitia (1793)"
+      ],
+      "notes": "Conquered Veii and reorganized post-Allia Roman citizen-legions (Kennett).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_appius_claudius_caecus",
+      "name": "Censor Appius Claudius Caecus (Builder of Via Appia)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 340 - 273 BCE",
+      "role": "Patrician Censor, Jurist & Orator Against Pyrrhus",
+      "sources": [
+        "Dionysius of Halicarnassus, Roman Antiquities",
+        "Basil Kennett, Romae Antiquae Notitia (1793)"
+      ],
+      "notes": "Constructed the Aqua Appia and Via Appia (312 BCE) and rallied the Senate against Pyrrhus's peace.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_fabius_maximus_cunctator",
+      "name": "Quintus Fabius Maximus Verrucosus ('Cunctator')",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 280 - 203 BCE",
+      "role": "Dictator, Shield of Rome in the Second Punic War",
+      "sources": [
+        "Dionysius of Halicarnassus, Roman Antiquities",
+        "Basil Kennett, Romae Antiquae Notitia (1793)"
+      ],
+      "notes": "Engineered the Fabian attrition strategy saving Rome after Cannae alongside Marcellus and Scipio.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_claudius_marcellus",
+      "name": "Marcus Claudius Marcellus ('Sword of Rome', Five-Time Consul)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 270 - 208 BCE",
+      "role": "Conqueror of Syracuse (212 BCE) & Winner of Spolia Opima",
+      "sources": [
+        "Dionysius of Halicarnassus, Roman Antiquities",
+        "Basil Kennett, Romae Antiquae Notitia (1793)"
+      ],
+      "notes": "Won Nola and captured Syracuse despite Archimedes's engines during the Second Punic War (Kennett).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_pliny_younger_trajan",
+      "name": "Pliny the Younger (Gaius Plinius Caecilius Secundus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "61 - c. 113 CE",
+      "role": "Roman Senator, Governor of Bithynia & Panegyrist of Trajan",
+      "sources": [
+        "Pliny the Younger, Panegyric on Trajan"
+      ],
+      "notes": "Delivered the consular Panegyricus to Emperor Trajan (100 CE) and preserved early imperial Bithynia correspondence.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_isidore_etymologies_ix",
+      "name": "St. Isidore of Seville (Etymologies Book IX: Nations & Tongues)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 560 - 636 CE",
+      "role": "Archbishop of Seville & Systematic Table-of-Nations Synthesizer",
+      "sources": [
+        "St. Isidore of Seville, Etymologies Book IX",
+        "James Ussher, The Annals of the World",
+        "John Blair, Chronology and History of the World (1753)",
+        "William Guthrie & John Gray, A General History of the World (1764)",
+        "George Rawlinson, Origin of Nations",
+        "Charles Foster Kent, Narratives of the Beginnings of Hebrew History (1904)"
+      ],
+      "notes": "Book IX of the Etymologies maps all Mediterranean, Germanic, Gothic, and Near Eastern peoples back to Shem, Ham, and Japheth.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_ussher_annals_4004",
+      "name": "Archbishop James Ussher (Annales Veteris Testamenti, 1650)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 21,
+      "era": "1581 - 1656 CE",
+      "role": "Primate of All Ireland & Architect of 4004 BCE Chronology",
+      "sources": [
+        "St. Isidore of Seville, Etymologies Book IX",
+        "James Ussher, The Annals of the World",
+        "John Blair, Chronology and History of the World (1753)",
+        "William Guthrie & John Gray, A General History of the World (1764)",
+        "George Rawlinson, Origin of Nations",
+        "Charles Foster Kent, Narratives of the Beginnings of Hebrew History (1904)"
+      ],
+      "notes": "Synchronized Masoretic biblical reigns with Nabonassar, Julian Period, Olympiads, and Roman Fasti.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_blair_chronology_1753",
+      "name": "Rev. John Blair (Chronology & History of the World, 1753)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 21,
+      "era": "d. 1782 CE",
+      "role": "Author of Fifty-Six Comparative Universal Chronological Tables",
+      "sources": [
+        "St. Isidore of Seville, Etymologies Book IX",
+        "James Ussher, The Annals of the World",
+        "John Blair, Chronology and History of the World (1753)",
+        "William Guthrie & John Gray, A General History of the World (1764)",
+        "George Rawlinson, Origin of Nations",
+        "Charles Foster Kent, Narratives of the Beginnings of Hebrew History (1904)"
+      ],
+      "notes": "Published the 1753 London folio harmonizing ancient Near Eastern, Greek, Roman, and European sovereigns.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_guthrie_gray_1764",
+      "name": "William Guthrie & John Gray (13-Vol Universal History, 1764)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1708 - 1770 CE",
+      "role": "Scottish Historians of A General History of the World (1764)",
+      "sources": [
+        "St. Isidore of Seville, Etymologies Book IX",
+        "James Ussher, The Annals of the World",
+        "John Blair, Chronology and History of the World (1753)",
+        "William Guthrie & John Gray, A General History of the World (1764)",
+        "George Rawlinson, Origin of Nations",
+        "Charles Foster Kent, Narratives of the Beginnings of Hebrew History (1904)"
+      ],
+      "notes": "Synthesized European, Islamic, Steppe, and East Asian dynastic histories from creation to the mid-18th century.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_rawlinson_origin_nations",
+      "name": "Canon George Rawlinson (The Origin of Nations, 1877)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 21,
+      "era": "1812 - 1902 CE",
+      "role": "Camden Professor of Ancient History & Ethnographer of Genesis 10",
+      "sources": [
+        "St. Isidore of Seville, Etymologies Book IX",
+        "James Ussher, The Annals of the World",
+        "John Blair, Chronology and History of the World (1753)",
+        "William Guthrie & John Gray, A General History of the World (1764)",
+        "George Rawlinson, Origin of Nations",
+        "Charles Foster Kent, Narratives of the Beginnings of Hebrew History (1904)"
+      ],
+      "notes": "Compared Genesis 10 ethnology against newly deciphered Egyptian monuments and Assyrian cuneiform.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_kent_narratives_1904",
+      "name": "Charles Foster Kent (Narratives of the Beginnings, 1904)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 21,
+      "era": "1867 - 1925 CE",
+      "role": "Woolsey Professor at Yale & Comparative Ancient Source Historian",
+      "sources": [
+        "St. Isidore of Seville, Etymologies Book IX",
+        "James Ussher, The Annals of the World",
+        "John Blair, Chronology and History of the World (1753)",
+        "William Guthrie & John Gray, A General History of the World (1764)",
+        "George Rawlinson, Origin of Nations",
+        "Charles Foster Kent, Narratives of the Beginnings of Hebrew History (1904)"
+      ],
+      "notes": "Analyzed J, E, P, and Babylonian Flood parallels across early Hebrew genealogical narratives.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "chr13_kennett_roman_antiquities",
+      "name": "Basil Kennett (Romae Antiquae Notitia, 1696/1793)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 21,
+      "era": "1674 - 1715 CE",
+      "role": "Principal of St. Edmund Hall & Classical Roman Antiquarian",
+      "sources": [
+        "Dionysius of Halicarnassus, Roman Antiquities",
+        "Basil Kennett, Romae Antiquae Notitia (1793)"
+      ],
+      "notes": "Codified Roman magistracies, priesthoods, gentes, and republican hero lineages for 18th-century scholarship.",
+      "major": false,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "eur5_king_arthur",
+      "to": "cel13_coel_hen",
+      "type": "expansion",
+      "label": "Northern Brythonic Hen Ogledd Stem"
+    },
+    {
+      "from": "eur_wal_cunedda",
+      "to": "cel13_coel_hen",
+      "type": "direct",
+      "label": "Coel Hen Maternal Grandfather / Hen Ogledd Kinship"
+    },
+    {
+      "from": "cel13_coel_hen",
+      "to": "cel13_urien_rheged",
+      "type": "direct",
+      "label": "Coeling Royal Descent (Rheged)"
+    },
+    {
+      "from": "cel13_urien_rheged",
+      "to": "cel13_taliesin_bard",
+      "type": "expansion",
+      "label": "Court Patron of Taliesin"
+    },
+    {
+      "from": "cel13_coel_hen",
+      "to": "cel13_aneirin_gododdin",
+      "type": "expansion",
+      "label": "Gododdin Hen Ogledd Chronicle"
+    },
+    {
+      "from": "cel13_urien_rheged",
+      "to": "cel13_riderch_hael_strathclyde",
+      "type": "expansion",
+      "label": "Strathclyde-Rheged Coalition"
+    },
+    {
+      "from": "cel13_coel_hen",
+      "to": "cel13_llywarch_hen_powys",
+      "type": "direct",
+      "label": "Cousin of Urien Rheged (Coeling)"
+    },
+    {
+      "from": "eur_wal_cunedda",
+      "to": "cel13_idwal_iwrch_roderick",
+      "type": "direct",
+      "label": "Gwynedd Royal Descent after Cadwaladr"
+    },
+    {
+      "from": "cel13_idwal_iwrch_roderick",
+      "to": "eur_wal_rhodri_hywel",
+      "type": "direct",
+      "label": "Maternal Transmission to Merfyn & Rhodri Mawr"
+    },
+    {
+      "from": "eur_wal_rhodri_hywel",
+      "to": "cel13_cynan_ap_iago_gruffydd",
+      "type": "direct",
+      "label": "Aberffraw Gwynedd Patriline"
+    },
+    {
+      "from": "cel13_cynan_ap_iago_gruffydd",
+      "to": "cel13_owain_gwynedd",
+      "type": "direct",
+      "label": "Son of Gruffydd ap Cynan"
+    },
+    {
+      "from": "cel13_owain_gwynedd",
+      "to": "eur_wal_llywelyn",
+      "type": "expansion",
+      "label": "Aberffraw Continuity in Gwynedd"
+    },
+    {
+      "from": "eur_wal_rhodri_hywel",
+      "to": "cel13_lord_rhys_deheubarth",
+      "type": "direct",
+      "label": "Hywel Dda -> Dinefwr Deheubarth Line"
+    },
+    {
+      "from": "eur_wal_rhodri_hywel",
+      "to": "cel13_madog_ap_maredudd_powys",
+      "type": "direct",
+      "label": "Powys Bleddyn ap Cynfyn Line"
+    },
+    {
+      "from": "sco_picts_cruithne",
+      "to": "cel13_bridei_mac_maelchon",
+      "type": "direct",
+      "label": "Pictish High Kingship (Skene)"
+    },
+    {
+      "from": "cel13_bridei_mac_maelchon",
+      "to": "cel13_oengus1_picts",
+      "type": "expansion",
+      "label": "Pictish Royal Succession"
+    },
+    {
+      "from": "sco_fergus_macalpin",
+      "to": "cel13_causantin2_alba",
+      "type": "direct",
+      "label": "Grandson of Kenneth MacAlpin"
+    },
+    {
+      "from": "bri_bede_heptarchy_woden",
+      "to": "cel13_aethelberht_kent_bertha",
+      "type": "direct",
+      "label": "Oiscings of Kent (Bede II.5)"
+    },
+    {
+      "from": "bri_bede_heptarchy_woden",
+      "to": "cel13_raedwald_east_anglia",
+      "type": "direct",
+      "label": "Wuffingas of East Anglia (Bede II.15)"
+    },
+    {
+      "from": "bri_bede_heptarchy_woden",
+      "to": "cel13_penda_mercia",
+      "type": "direct",
+      "label": "Iclingas of Mercia (Bede)"
+    },
+    {
+      "from": "bri_bede_heptarchy_woden",
+      "to": "cel13_oswiu_hilda_whitby",
+      "type": "direct",
+      "label": "Bernician-Deiran Northumbrian Line"
+    },
+    {
+      "from": "cel13_penda_mercia",
+      "to": "cel13_wulfhere_aethelbald_mercia",
+      "type": "direct",
+      "label": "Mercian Heirs of Penda"
+    },
+    {
+      "from": "mon_eng_alfred",
+      "to": "cel13_aethelflaed_lady_mercians",
+      "type": "direct",
+      "label": "Daughter of Alfred the Great"
+    },
+    {
+      "from": "chn_chiyou_jiangziya",
+      "to": "shj13_duke_huan_qi",
+      "type": "direct",
+      "label": "House of Jiang Taigong (Qi)"
+    },
+    {
+      "from": "shj13_duke_huan_qi",
+      "to": "shj13_guan_zhong_qi",
+      "type": "expansion",
+      "label": "Premier of First Hegemon"
+    },
+    {
+      "from": "chn_zhou",
+      "to": "shj13_duke_wen_jin",
+      "type": "direct",
+      "label": "Ji Clan of Tang-Jin (Zhou Royal Branch)"
+    },
+    {
+      "from": "chn_boyi_qin",
+      "to": "shj13_duke_mu_qin",
+      "type": "direct",
+      "label": "Ying Clan of Qin (Shiji Ch. 5)"
+    },
+    {
+      "from": "shj13_duke_mu_qin",
+      "to": "shj13_duke_wen_jin",
+      "type": "expansion",
+      "label": "Qin-Jin Restoration Marriage Alliance"
+    },
+    {
+      "from": "chn_weizi_confucius",
+      "to": "shj13_duke_xiang_song",
+      "type": "direct",
+      "label": "Shang Royal House of Song"
+    },
+    {
+      "from": "chn_chu_zhurong",
+      "to": "shj13_king_zhuang_chu_shiji",
+      "type": "direct",
+      "label": "Mi Royal House of Chu (Shiji Ch. 40)"
+    },
+    {
+      "from": "chn_duke_of_zhou",
+      "to": "shj13_king_helu_wu",
+      "type": "direct",
+      "label": "Taibo of Zhou -> Royal Wu Line"
+    },
+    {
+      "from": "fam6_sun_tzu",
+      "to": "shj13_king_helu_wu",
+      "type": "expansion",
+      "label": "Sun Tzu & King Helu of Wu"
+    },
+    {
+      "from": "shj13_king_helu_wu",
+      "to": "shj13_wu_zixu_wu",
+      "type": "expansion",
+      "label": "Grand Strategist of Wu"
+    },
+    {
+      "from": "shj13_king_helu_wu",
+      "to": "shj13_king_fuchai_wu",
+      "type": "direct",
+      "label": "Father of King Fuchai"
+    },
+    {
+      "from": "chn_shaokang_yue",
+      "to": "shj13_king_goujian_yue",
+      "type": "direct",
+      "label": "Xia Royal House of Yue (Shiji Ch. 41)"
+    },
+    {
+      "from": "shj13_king_goujian_yue",
+      "to": "shj13_fan_li_xi_shi",
+      "type": "expansion",
+      "label": "Architect of Yue Hegemony"
+    },
+    {
+      "from": "chn_duke_of_zhou",
+      "to": "shj13_marquis_wen_wei",
+      "type": "direct",
+      "label": "Bi Clan / Wei Royal Line"
+    },
+    {
+      "from": "shj13_duke_mu_qin",
+      "to": "shj13_duke_xiao_shang_yang",
+      "type": "direct",
+      "label": "Qin Royal Line -> Legalist Reform"
+    },
+    {
+      "from": "shj13_duke_xiao_shang_yang",
+      "to": "shj13_lu_buwei_li_si",
+      "type": "expansion",
+      "label": "Qin Chancellors to First Unification"
+    },
+    {
+      "from": "chn_boyi_qin",
+      "to": "shj13_king_wuling_zhao",
+      "type": "direct",
+      "label": "Ying-Zhao Royal Clan"
+    },
+    {
+      "from": "shj13_king_zhuang_chu_shiji",
+      "to": "shj13_qu_yuan_chu",
+      "type": "direct",
+      "label": "Chu Royal Qu Collateral Branch"
+    },
+    {
+      "from": "shj13_marquis_wen_wei",
+      "to": "shj13_four_lords_warring_states",
+      "type": "expansion",
+      "label": "Warring States Princely Houses"
+    },
+    {
+      "from": "chn_weizi_confucius",
+      "to": "shj13_yan_ying_mencius",
+      "type": "expansion",
+      "label": "Confucian Transmission (Zisi -> Mencius)"
+    },
+    {
+      "from": "sea_java_raden_wijaya",
+      "to": "stk13_sailendra_samaratungga",
+      "type": "direct",
+      "label": "Sailendra Central Java Inheritance"
+    },
+    {
+      "from": "stk13_sailendra_samaratungga",
+      "to": "stk13_airlangga_kahuripan",
+      "type": "expansion",
+      "label": "Mataram -> Kahuripan Continuity"
+    },
+    {
+      "from": "stk13_airlangga_kahuripan",
+      "to": "stk13_ken_arok_kertanegara",
+      "type": "expansion",
+      "label": "Kediri -> Singhasari Succession"
+    },
+    {
+      "from": "stk13_ken_arok_kertanegara",
+      "to": "unb_sea_hayam_wuruk",
+      "type": "direct",
+      "label": "Singhasari Heritage in Majapahit"
+    },
+    {
+      "from": "chr6_sultan_mahmud_shah",
+      "to": "stk13_iskandar_muda_aceh",
+      "type": "expansion",
+      "label": "Malay-Sumatran Sultanate Network"
+    },
+    {
+      "from": "unb_sea_hayam_wuruk",
+      "to": "stk13_sultan_agung_mataram",
+      "type": "expansion",
+      "label": "Javanese Royal Sovereignty (Majapahit -> Mataram)"
+    },
+    {
+      "from": "unb_sea_tran_thai_tong",
+      "to": "stk13_champa_bhadravarman",
+      "type": "expansion",
+      "label": "Dai Viet - Champa Frontier Kingdoms"
+    },
+    {
+      "from": "chr6_sultan_mahmud_shah",
+      "to": "stk13_sulu_paduka_batara",
+      "type": "expansion",
+      "label": "Maritime Borneo-Sulu Network"
+    },
+    {
+      "from": "unb_jpn_tokugawa_ieyasu",
+      "to": "stk13_sho_hashi_ryukyu",
+      "type": "expansion",
+      "label": "Ryukyu Kingdom & Japan Diplomatic Sphere"
+    },
+    {
+      "from": "stk13_sho_hashi_ryukyu",
+      "to": "stk13_sho_shin_sho_tai_ryukyu",
+      "type": "direct",
+      "label": "Shuri Royal Dynasty Succession"
+    },
+    {
+      "from": "mon_ind_harsha",
+      "to": "stk13_mihira_bhoja_pratihara",
+      "type": "expansion",
+      "label": "Kannauj Imperial Succession (Duff)"
+    },
+    {
+      "from": "ind_gupta_golden_age",
+      "to": "stk13_gopala_dharmapala_pala",
+      "type": "expansion",
+      "label": "Post-Gupta Bengal Imperial Rise"
+    },
+    {
+      "from": "stk13_gopala_dharmapala_pala",
+      "to": "stk13_devapala_mahipala_pala",
+      "type": "direct",
+      "label": "Pala Royal House of Bengal"
+    },
+    {
+      "from": "stk13_mihira_bhoja_pratihara",
+      "to": "stk13_raja_bhoja_paramara",
+      "type": "expansion",
+      "label": "Malwa Paramara Succession"
+    },
+    {
+      "from": "stk13_mihira_bhoja_pratihara",
+      "to": "stk13_vidyadhara_chandela",
+      "type": "expansion",
+      "label": "Jejakabhukti Rajput Successors"
+    },
+    {
+      "from": "chr6_prithviraj_chauhan",
+      "to": "stk13_siddharaja_jayasimha_solanki",
+      "type": "expansion",
+      "label": "Western Indian Rajput Kingdoms"
+    },
+    {
+      "from": "ind9_pulakeshin2",
+      "to": "stk13_vikramaditya6_kalyani",
+      "type": "direct",
+      "label": "Western Chalukya Imperial Continuity"
+    },
+    {
+      "from": "ind9_amoghavarsha",
+      "to": "stk13_ganapatideva_rudrama_kakatiya",
+      "type": "expansion",
+      "label": "Deccan Kakatiya Royal Succession"
+    },
+    {
+      "from": "chr6_prithviraj_chauhan",
+      "to": "stk13_bappa_rawal_rana_kumbha",
+      "type": "expansion",
+      "label": "Sisodia Mewar Rajput Continuity (Tod)"
+    },
+    {
+      "from": "eur_ice_ingolfur",
+      "to": "ice13_hjorleifr_hrodmarsson",
+      "type": "expansion",
+      "label": "Sworn Blood-Brothers Settling Iceland (874 CE)"
+    },
+    {
+      "from": "eur_ice_aud_deepminded",
+      "to": "ice13_bjorn_easterner_ketilsson",
+      "type": "direct",
+      "label": "Brothers (Sons of Ketil Flatnose)"
+    },
+    {
+      "from": "eur_ice_aud_deepminded",
+      "to": "ice13_olaf_feilan_thord_gellir",
+      "type": "direct",
+      "label": "Grandson & Great-Grandson (Breidafjord Line)"
+    },
+    {
+      "from": "eur5_harald_fairhair",
+      "to": "ice13_skallagrim_kveldulfsson",
+      "type": "expansion",
+      "label": "Norwegian Migration to Borgarfjordur"
+    },
+    {
+      "from": "ice13_skallagrim_kveldulfsson",
+      "to": "ice13_egill_skallagrimsson",
+      "type": "direct",
+      "label": "Son of Skalla-Grim (Myramenn Line)"
+    },
+    {
+      "from": "eur5_rollo_normandy",
+      "to": "ice13_hrollaugr_more",
+      "type": "direct",
+      "label": "Half-Brothers (Sons of Rognvald of More)"
+    },
+    {
+      "from": "ice13_olaf_feilan_thord_gellir",
+      "to": "ice13_snorri_godi",
+      "type": "direct",
+      "label": "Breidafjord Chieftain Network"
+    },
+    {
+      "from": "ice13_hrollaugr_more",
+      "to": "ice13_thorgeir_ljosvetningagodi",
+      "type": "expansion",
+      "label": "Sidu-Hallr & Althing Conversion (1000 CE)"
+    },
+    {
+      "from": "ice13_hjorleifr_hrodmarsson",
+      "to": "ice13_njall_gunnar_hlidarendi",
+      "type": "expansion",
+      "label": "Southern Rangavellir Settlers"
+    },
+    {
+      "from": "chr6_gudrid_vinland",
+      "to": "ice13_thorfinn_karlsefni_snorri",
+      "type": "direct",
+      "label": "Husband Thorfinn & Son Snorri (Vinland)"
+    },
+    {
+      "from": "eur_ice_erik_leif",
+      "to": "ice13_thorfinn_karlsefni_snorri",
+      "type": "expansion",
+      "label": "Greenland-Vinland Voyages"
+    },
+    {
+      "from": "ice13_olaf_feilan_thord_gellir",
+      "to": "ice13_ari_thorgilsson_frodi",
+      "type": "direct",
+      "label": "Breidafjord Direct Descent"
+    },
+    {
+      "from": "ice13_thorgeir_ljosvetningagodi",
+      "to": "ice13_isleifr_gizurarson",
+      "type": "expansion",
+      "label": "Early Icelandic Skalholt Episcopate"
+    },
+    {
+      "from": "ice13_njall_gunnar_hlidarendi",
+      "to": "ice13_saemundr_frodi",
+      "type": "direct",
+      "label": "Southern Oddaverjar House"
+    },
+    {
+      "from": "ice13_egill_skallagrimsson",
+      "to": "ice13_sturla_thordarson_snorri",
+      "type": "direct",
+      "label": "Myramenn Descent -> Sturlungs & Snorri Sturluson"
+    },
+    {
+      "from": "ice13_saemundr_frodi",
+      "to": "ice13_sturla_thordarson_snorri",
+      "type": "expansion",
+      "label": "Fosterage at Oddi"
+    },
+    {
+      "from": "bib_joshua_caleb",
+      "to": "sam13_uzzi_gerizim_priest",
+      "type": "expansion",
+      "label": "Samaritan Joshua-Aaronid Priestly Tradition"
+    },
+    {
+      "from": "sam13_uzzi_gerizim_priest",
+      "to": "sam13_baba_rabba_samaria",
+      "type": "direct",
+      "label": "Samaritan High Priestly Continuity (Gaster)"
+    },
+    {
+      "from": "bib16_pri_manasseh_gerizim",
+      "to": "sam13_baba_rabba_samaria",
+      "type": "expansion",
+      "label": "Gerizim Community Heritage"
+    },
+    {
+      "from": "sam13_baba_rabba_samaria",
+      "to": "sam13_marqah_amram_dare",
+      "type": "expansion",
+      "label": "Baba Rabba Literary & Synagogue Revival"
+    },
+    {
+      "from": "bib_joshua_caleb",
+      "to": "sam13_shobach_nabih_joshua",
+      "type": "expansion",
+      "label": "Samaritan Book of Joshua Narrative"
+    },
+    {
+      "from": "bib_lamech_seth",
+      "to": "sam13_qapgen_noah_apportionment",
+      "type": "direct",
+      "label": "Lamech & Bitenosh Dialogue (1QapGen II)"
+    },
+    {
+      "from": "bib_noah",
+      "to": "sam13_qapgen_noah_apportionment",
+      "type": "expansion",
+      "label": "Noahic World Survey (1QapGen XVI-XVII)"
+    },
+    {
+      "from": "tri_levi",
+      "to": "sam13_testament_levi_melcha",
+      "type": "direct",
+      "label": "Marriage of Levi & Melcha"
+    },
+    {
+      "from": "tri_judah",
+      "to": "sam13_testament_judah_tamar",
+      "type": "direct",
+      "label": "Judahite Testamentary Record"
+    },
+    {
+      "from": "tri_naphtali",
+      "to": "sam13_testament_naphtali_rotheus",
+      "type": "direct",
+      "label": "Maternal Pedigree via Bilhah & Rotheus"
+    },
+    {
+      "from": "tri_reuben",
+      "to": "sam13_testament_reuben_simeon",
+      "type": "direct",
+      "label": "Testaments of Reuben & Simeon"
+    },
+    {
+      "from": "tri_dan",
+      "to": "sam13_ginzberg_serah_bat_asher",
+      "type": "expansion",
+      "label": "Tribal Midrashic Bridge (Ginzberg)"
+    },
+    {
+      "from": "sud_juhayna_qahtan",
+      "to": "sam13_macmichael_kababish_nurab",
+      "type": "direct",
+      "label": "Kordofan Kababish Confederation"
+    },
+    {
+      "from": "sud_juhayna_qahtan",
+      "to": "sam13_macmichael_dar_hamid",
+      "type": "direct",
+      "label": "Kordofan Dar Hamid & Jawama'a"
+    },
+    {
+      "from": "sud_juhayna_qahtan",
+      "to": "sam13_macmichael_baggara_hawazma",
+      "type": "direct",
+      "label": "Baggara Hawazma & Messiria"
+    },
+    {
+      "from": "eg_ramesses2",
+      "to": "sam13_norden_ramesses3_medinet",
+      "type": "expansion",
+      "label": "Twentieth Dynasty Medinet Habu Succession"
+    },
+    {
+      "from": "eg_amenhotep3",
+      "to": "sam13_norden_memnon_thebes",
+      "type": "expansion",
+      "label": "Theban Colossi Documentation (Norden)"
+    },
+    {
+      "from": "afr_kush_09_queen_amanitore_kandake_of_m",
+      "to": "sam13_norden_philae_derr_nubia",
+      "type": "expansion",
+      "label": "Nubian-Meroitic Frontier Survey (Norden)"
+    },
+    {
+      "from": "rom3_king_latinus",
+      "to": "chr13_turnus_rutuli",
+      "type": "expansion",
+      "label": "Laurentine-Rutulian Conflict (Dionysius I)"
+    },
+    {
+      "from": "grk_aeneas",
+      "to": "chr13_mezentius_caere",
+      "type": "expansion",
+      "label": "Trojan-Etruscan Settlement"
+    },
+    {
+      "from": "grk_romulus_remus",
+      "to": "chr13_titus_tatius_sabines",
+      "type": "expansion",
+      "label": "Romano-Sabine Dual Kingship"
+    },
+    {
+      "from": "mon_rom_brutus_founder",
+      "to": "chr13_valerius_publicola",
+      "type": "expansion",
+      "label": "First Consuls of Rome (509 BCE)"
+    },
+    {
+      "from": "chr13_valerius_publicola",
+      "to": "chr13_horatius_cocles_scaevola",
+      "type": "expansion",
+      "label": "War with Lars Porsenna"
+    },
+    {
+      "from": "mon_rom_cincinnatus",
+      "to": "chr13_coriolanus_veturia",
+      "type": "expansion",
+      "label": "Early Patrician-Volscian Crisis"
+    },
+    {
+      "from": "mon_rom_cincinnatus",
+      "to": "chr13_furius_camillus",
+      "type": "expansion",
+      "label": "Dictators of the Early Republic"
+    },
+    {
+      "from": "chr13_furius_camillus",
+      "to": "chr13_appius_claudius_caecus",
+      "type": "expansion",
+      "label": "Fourth-Century Roman Magistrates"
+    },
+    {
+      "from": "mon_rom_scipio_africanus",
+      "to": "chr13_fabius_maximus_cunctator",
+      "type": "expansion",
+      "label": "Second Punic War High Command"
+    },
+    {
+      "from": "chr13_fabius_maximus_cunctator",
+      "to": "chr13_claudius_marcellus",
+      "type": "expansion",
+      "label": "Shield & Sword of Rome"
+    },
+    {
+      "from": "mon_rom_trajan",
+      "to": "chr13_pliny_younger_trajan",
+      "type": "expansion",
+      "label": "Consular Panegyric & Bithynia Governorship"
+    },
+    {
+      "from": "chr13_fabius_maximus_cunctator",
+      "to": "chr13_kennett_roman_antiquities",
+      "type": "expansion",
+      "label": "Kennett Republican Gentes Catalog"
+    },
+    {
+      "from": "bib_japheth",
+      "to": "chr13_isidore_etymologies_ix",
+      "type": "expansion",
+      "label": "Etymologies IX Table of Nations"
+    },
+    {
+      "from": "bib_shem",
+      "to": "chr13_isidore_etymologies_ix",
+      "type": "expansion",
+      "label": "Isidore Shemitic & Mediterranean Taxonomy"
+    },
+    {
+      "from": "bib_adam",
+      "to": "chr13_ussher_annals_4004",
+      "type": "expansion",
+      "label": "Ussher Creation-to-Empire Chronology"
+    },
+    {
+      "from": "chr13_ussher_annals_4004",
+      "to": "chr13_blair_chronology_1753",
+      "type": "expansion",
+      "label": "Comparative Chronological Tables (1753)"
+    },
+    {
+      "from": "chr13_blair_chronology_1753",
+      "to": "chr13_guthrie_gray_1764",
+      "type": "expansion",
+      "label": "18th-Century Universal History Synthesis"
+    },
+    {
+      "from": "bib_ham",
+      "to": "chr13_rawlinson_origin_nations",
+      "type": "expansion",
+      "label": "Cuneiform-Monumental Table of Nations (1877)"
+    },
+    {
+      "from": "bib_noah",
+      "to": "chr13_kent_narratives_1904",
+      "type": "expansion",
+      "label": "Comparative ANE Source Criticism (1904)"
+    }
+  ]
+}
