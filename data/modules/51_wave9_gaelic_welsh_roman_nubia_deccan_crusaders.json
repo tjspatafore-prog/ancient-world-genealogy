@@ -15,8 +15,7 @@
         "O'Hart Irish Pedigrees Vols. 1–2"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_ollom_fodla",
@@ -31,8 +30,7 @@
         "O'Hart Irish Pedigrees Vols. 1–2"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_cimbaeth_macha",
@@ -47,8 +45,7 @@
         "O'Hart Irish Pedigrees Vols. 1–2"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_ugaine_mor",
@@ -63,8 +60,7 @@
         "O'Hart Irish Pedigrees Vols. 1–2"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_labraid_loingsech",
@@ -79,8 +75,7 @@
         "O'Hart Irish Pedigrees Vols. 1–2"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_conn_ceadchathach",
@@ -95,8 +90,7 @@
         "O'Hart Irish Pedigrees Vols. 1–2"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_art_mac_cuinn",
@@ -111,8 +105,7 @@
         "O'Hart Irish Pedigrees Vols. 1–2"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_cairbre_lifechair",
@@ -127,8 +120,7 @@
         "Keating Foras Feasa"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, Keating Foras Feasa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_eochaid_mugmedon",
@@ -143,8 +135,7 @@
         "Keating Foras Feasa"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, Keating Foras Feasa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_loegaire_patrick",
@@ -159,8 +150,7 @@
         "Keating Foras Feasa"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, Keating Foras Feasa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_conall_gulban",
@@ -175,8 +165,7 @@
         "Annals of the Four Masters"
       ],
       "notes": "Ancestral prince of Cenél Conaill.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_st_columba",
@@ -191,8 +180,7 @@
         "O'Hart Vol. 1"
       ],
       "notes": "Great-great-grandson of Niall of the Nine Hostages; founded Iona and ordained King Áedán mac Gabráin of Dál Riata.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_eogan_mac_neill",
@@ -206,8 +194,7 @@
         "O'Hart Irish Pedigrees Vol. 1"
       ],
       "notes": "Founder of the Northern Uí Néill kings of Ailech & Tyrone.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_hugh_oneill",
@@ -222,8 +209,7 @@
         "Annals of the Four Masters"
       ],
       "notes": "Direct Cenél nEógain descendant of Niall of the Nine Hostages.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_mael_sechnaill2",
@@ -238,8 +224,7 @@
         "O'Hart Irish Pedigrees"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_turlough_oconnor",
@@ -254,8 +239,7 @@
         "O'Hart Irish Pedigrees"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_rory_oconnor",
@@ -270,8 +254,7 @@
         "O'Hart Irish Pedigrees"
       ],
       "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_aedan_mac_gabrain",
@@ -287,8 +270,7 @@
         "O'Hart"
       ],
       "notes": "Grandson/descendant of Fergus Mór; consecrated king by St. Columba at Iona.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_malcolm2_scotland",
@@ -303,8 +285,7 @@
         "Anderson 1732"
       ],
       "notes": "Chronicle succession in Scottish Chronicles, Anderson 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_duncan1",
@@ -319,8 +300,7 @@
         "Anderson 1732"
       ],
       "notes": "Chronicle succession in Scottish Chronicles, Anderson 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_macbeth",
@@ -335,8 +315,7 @@
         "Howell 1685"
       ],
       "notes": "Cousin-successor of Duncan I; married Gruoch (granddaughter of Kenneth III).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_st_margaret_scotland",
@@ -351,8 +330,7 @@
         "Anderson Royal Genealogies 1732"
       ],
       "notes": "Chronicle succession in Howell 1685, Anderson Royal Genealogies 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_david1_scotland",
@@ -367,8 +345,7 @@
         "Anderson Royal Genealogies 1732"
       ],
       "notes": "Chronicle succession in Howell 1685, Anderson Royal Genealogies 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_william_lion",
@@ -383,8 +360,7 @@
         "Anderson Royal Genealogies 1732"
       ],
       "notes": "Chronicle succession in Howell 1685, Anderson Royal Genealogies 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_alexander3_scotland",
@@ -399,8 +375,7 @@
         "Anderson Royal Genealogies 1732"
       ],
       "notes": "Chronicle succession in Howell 1685, Anderson Royal Genealogies 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_marjorie_bruce_stewart",
@@ -415,8 +390,7 @@
         "Anderson 1732"
       ],
       "notes": "Chronicle succession in William Howell 1685, Anderson 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_robert2_stewart",
@@ -431,8 +405,7 @@
         "Anderson 1732"
       ],
       "notes": "Chronicle succession in William Howell 1685, Anderson 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_james1_scotland",
@@ -447,8 +420,7 @@
         "Anderson 1732"
       ],
       "notes": "Chronicle succession in William Howell 1685, Anderson 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_james4_margaret_tudor",
@@ -463,8 +435,7 @@
         "Anderson 1732"
       ],
       "notes": "Chronicle succession in William Howell 1685, Anderson 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_james5_scotland",
@@ -479,8 +450,7 @@
         "Anderson 1732"
       ],
       "notes": "Chronicle succession in William Howell 1685, Anderson 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gael9_mary_queen_scots",
@@ -495,8 +465,7 @@
         "Anderson 1732"
       ],
       "notes": "Granddaughter of Henry VII & Margaret Tudor; mother of King James VI & I uniting Scotland and England.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "wal9_maelgwn_gwynedd",
@@ -510,8 +479,7 @@
         "J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf)"
       ],
       "notes": "Chronicle succession in J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "wal9_cadwallon_cadwaladr",
@@ -525,8 +493,7 @@
         "J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf)"
       ],
       "notes": "Chronicle succession in J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "wal9_merfyn_frych",
@@ -540,8 +507,7 @@
         "J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf)"
       ],
       "notes": "Chronicle succession in J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "wal9_rhys_ap_tewdwr",
@@ -555,8 +521,7 @@
         "Lloyd History of Wales"
       ],
       "notes": "Chronicle succession in Lloyd History of Wales.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "wal9_nest_ferch_rhys",
@@ -570,8 +535,7 @@
         "Lloyd History of Wales"
       ],
       "notes": "Chronicle succession in Lloyd History of Wales.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "wal9_lord_rhys",
@@ -585,8 +549,7 @@
         "Lloyd History of Wales"
       ],
       "notes": "Chronicle succession in Lloyd History of Wales.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "wal9_joan_wales",
@@ -600,8 +563,7 @@
         "Lloyd History of Wales"
       ],
       "notes": "Natural daughter of King John who wed Llywelyn the Great of Gwynedd.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "wal9_llywelyn_ap_gruffudd",
@@ -615,8 +577,7 @@
         "Lloyd History of Wales"
       ],
       "notes": "Grandson of Llywelyn the Great; last independent native Prince of Wales.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "wal9_owain_glyndwr",
@@ -631,8 +592,7 @@
         "Four Ancient Books of Wales"
       ],
       "notes": "Claimed royal descent from both Powys & Deheubarth; proclaimed Prince of Wales in 1400 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "wal9_catherine_valois",
@@ -647,8 +607,7 @@
         "Lloyd History of Wales"
       ],
       "notes": "Daughter of Charles VI of France; married Henry V of England and later Owen Tudor, mothering Henry VII's father Edmund Tudor.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_cornelia_africana",
@@ -663,8 +622,7 @@
         "Livy"
       ],
       "notes": "Daughter of Scipio Africanus; renowned Roman matron who raised the Gracchi brothers.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_scipio_aemilianus",
@@ -679,8 +637,7 @@
         "Livy Epitome"
       ],
       "notes": "Biological son of Lucius Aemilius Paullus & patron of Polybius.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_aemilius_paullus",
@@ -695,8 +652,7 @@
         "Polybius"
       ],
       "notes": "Defeated Perseus of Macedon; biological father of Scipio Aemilianus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_polybius_historian",
@@ -710,8 +666,7 @@
         "General History of Polybius"
       ],
       "notes": "Achaean statesman-hostage whose Histories chronicled Rome & Carthage.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_titus_livius",
@@ -725,8 +680,7 @@
         "Roman History by Titus Livius Vols. 1–6"
       ],
       "notes": "Preeminent historian of Rome from Aeneas & Romulus to Augustus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_cornelius_tacitus",
@@ -740,8 +694,7 @@
         "Works of Cornelius Tacitus Vols. 1–4"
       ],
       "notes": "Chronicler of the Julio-Claudian & Flavian emperors and Germanic tribes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_julia_caesaris_pompey",
@@ -755,8 +708,7 @@
         "Plutarch Caesar & Pompey"
       ],
       "notes": "Her 59 BCE marriage to Pompey sealed the First Triumvirate.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_faustina_elder_younger",
@@ -771,8 +723,7 @@
         "Suetonius / SHA"
       ],
       "notes": "Transmitted Antonine imperial legitimacy to Marcus Aurelius & Commodus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_julia_domna",
@@ -787,8 +738,7 @@
         "Echard Roman History Vol. 2"
       ],
       "notes": "Daughter of High Priest Julius Bassianus of Emesa (Homs, Syria); intellectual & imperial Augusta of the Severan dynasty.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_julia_maesa",
@@ -803,8 +753,7 @@
         "Echard"
       ],
       "notes": "Engineered the 218 CE Severan restoration.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_julia_soaemias_mamaea",
@@ -819,8 +768,7 @@
         "Echard"
       ],
       "notes": "Daughters of Julia Maesa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_lycaon_callisto",
@@ -834,8 +782,7 @@
         "Pausanias Description of Greece Books IV, V, VIII"
       ],
       "notes": "Chronicle succession in Pausanias Description of Greece Books IV, V, VIII.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_arcas_arcadia",
@@ -849,8 +796,7 @@
         "Pausanias Description of Greece Books IV, V, VIII"
       ],
       "notes": "Chronicle succession in Pausanias Description of Greece Books IV, V, VIII.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_telephus_mysia",
@@ -864,8 +810,7 @@
         "Pausanias Description of Greece Books IV, V, VIII"
       ],
       "notes": "Chronicle succession in Pausanias Description of Greece Books IV, V, VIII.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_endymion_elis",
@@ -879,8 +824,7 @@
         "Pausanias Book V (Elis)"
       ],
       "notes": "Founder of Epean / Elian royal genealogy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_oenomaus_hippodamia",
@@ -894,8 +838,7 @@
         "Pausanias Book V"
       ],
       "notes": "Father-in-law of Pelops.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_cresphontes_messenia",
@@ -909,8 +852,7 @@
         "Pausanias Book IV (Messenia)"
       ],
       "notes": "Descendant of Heracles who drew Messenia by lot.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_aristomenes_messenia",
@@ -924,8 +866,7 @@
         "Pausanias Book IV"
       ],
       "notes": "Led Messenian independence struggle against Sparta.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_gelon_hiero1",
@@ -941,8 +882,7 @@
         "Plutarch"
       ],
       "notes": "Chronicle succession in Diodorus Siculus, Polybius, Plutarch.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_dionysius1_syracuse",
@@ -958,8 +898,7 @@
         "Plutarch"
       ],
       "notes": "Chronicle succession in Diodorus Siculus, Polybius, Plutarch.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_timoleon_agathocles",
@@ -975,8 +914,7 @@
         "Plutarch"
       ],
       "notes": "Chronicle succession in Diodorus Siculus, Polybius, Plutarch.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls9_hiero2_syracuse",
@@ -995,8 +933,7 @@
         "Polybius",
         "Plutarch Marcellus"
       ],
-      "major": "Ruler of Syracuse & kinsman-patron of mathematician Archimedes.",
-      "biblicalConnected": true
+      "major": "Ruler of Syracuse & kinsman-patron of mathematician Archimedes."
     },
     {
       "id": "nub9_silko_nobatia",
@@ -1011,8 +948,7 @@
         "MacMichael Arabs in the Sudan Vol. 1"
       ],
       "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nub9_qalidurut_baqt",
@@ -1027,8 +963,7 @@
         "MacMichael Arabs in the Sudan Vol. 1"
       ],
       "notes": "Successfully defended Dongola and concluded the 600-year Baqt Peace Treaty.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "nub9_merkurios_makuria",
@@ -1043,8 +978,7 @@
         "MacMichael Arabs in the Sudan Vol. 1"
       ],
       "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nub9_cyriacus_makuria",
@@ -1059,8 +993,7 @@
         "MacMichael Arabs in the Sudan Vol. 1"
       ],
       "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nub9_georgios1_makuria",
@@ -1075,8 +1008,7 @@
         "MacMichael Arabs in the Sudan Vol. 1"
       ],
       "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nub9_georgios2_solomon",
@@ -1091,8 +1023,7 @@
         "MacMichael Arabs in the Sudan Vol. 1"
       ],
       "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nub9_david_makuria",
@@ -1107,8 +1038,7 @@
         "MacMichael Arabs in the Sudan Vol. 1"
       ],
       "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nub9_siti_alodia",
@@ -1123,8 +1053,7 @@
         "MacMichael Arabs in the Sudan Vol. 1"
       ],
       "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nub9_amara_dunqas",
@@ -1139,8 +1068,7 @@
         "Arkell History of Sudan"
       ],
       "notes": "Allied with Abdallab Arab chieftain Abdallah Jamma to establish the Funj Sultanate.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "nub9_abdallah_jamma",
@@ -1155,8 +1083,7 @@
         "Arkell History of Sudan"
       ],
       "notes": "Chronicle succession in Funj Chronicle, Arkell History of Sudan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nub9_ajib_kafuta",
@@ -1171,8 +1098,7 @@
         "Arkell History of Sudan"
       ],
       "notes": "Chronicle succession in Funj Chronicle, Arkell History of Sudan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nub9_badi2_sennar",
@@ -1187,8 +1113,7 @@
         "Arkell History of Sudan"
       ],
       "notes": "Chronicle succession in Funj Chronicle, Arkell History of Sudan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nub9_badi4_sennar",
@@ -1203,8 +1128,7 @@
         "Arkell History of Sudan"
       ],
       "notes": "Chronicle succession in Funj Chronicle, Arkell History of Sudan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nub9_badi7_sennar",
@@ -1219,8 +1143,7 @@
         "Arkell History of Sudan"
       ],
       "notes": "Chronicle succession in Funj Chronicle, Arkell History of Sudan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nub9_darfur_sulayman_solong",
@@ -1235,8 +1158,7 @@
         "Arkell History of Sudan"
       ],
       "notes": "Traditional Keira dynasty of Darfur claimed descent from Banu Hilal & Abbasid/Tunjur links.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_pulakeshin2",
@@ -1251,8 +1173,7 @@
         "Epigraphia Indica"
       ],
       "notes": "Checked Harshavardhana at the Narmada and exchanged embassies with Sasanian Persia.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ind9_simhavishnu_mahendravarman",
@@ -1267,8 +1188,7 @@
         "Epigraphia Indica"
       ],
       "notes": "Chronicle succession in Rickmers Chronology of India, Epigraphia Indica.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_narasimhavarman1",
@@ -1283,8 +1203,7 @@
         "Epigraphia Indica"
       ],
       "notes": "Chronicle succession in Rickmers Chronology of India, Epigraphia Indica.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_dantidurga_rashtrakuta",
@@ -1299,8 +1218,7 @@
         "Epigraphia Indica"
       ],
       "notes": "Chronicle succession in Rickmers Chronology of India, Epigraphia Indica.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_amoghavarsha",
@@ -1315,8 +1233,7 @@
         "Epigraphia Indica"
       ],
       "notes": "Chronicle succession in Rickmers Chronology of India, Epigraphia Indica.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_vijayalaya_aditya",
@@ -1331,8 +1248,7 @@
         "Chola Copper Plates"
       ],
       "notes": "Ancestors of Rajaraja Chola I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_kulottunga1",
@@ -1346,8 +1262,7 @@
         "Rickmers Chronology of India"
       ],
       "notes": "Grandson of Rajendra Chola I via his daughter Ammangadevi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_sundara_pandya",
@@ -1362,8 +1277,7 @@
         "Marco Polo"
       ],
       "notes": "Expanded Pandyan sovereignty from Madurai across Sri Lanka & South India.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_vishnuvardhana_hoysala",
@@ -1377,8 +1291,7 @@
         "Rickmers Chronology of India"
       ],
       "notes": "Built Chennakesava Temple; bridged Karnataka power to Vijayanagara.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_rudrama_devi",
@@ -1393,8 +1306,7 @@
         "Rickmers Chronology of India"
       ],
       "notes": "One of India's few sovereign queens regnant; praised in Marco Polo's travels.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_harihara_bukka",
@@ -1409,8 +1321,7 @@
         "Portuguese Asia"
       ],
       "notes": "Former Hoysala/Kakatiya commanders who founded Vijayanagara at Hampi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_rama_raya_talikota",
@@ -1424,8 +1335,7 @@
         "Faria y Sousa Portuguese Asia"
       ],
       "notes": "Son-in-law of Krishnadevaraya; fell at Talikota (1565).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_chand_bibi",
@@ -1440,8 +1350,7 @@
         "Mughal Akbarnama"
       ],
       "notes": "Regent of both Bijapur and Ahmadnagar; famously defended Ahmadnagar against Akbar's forces.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_ibrahim_adil_shah2",
@@ -1455,8 +1364,7 @@
         "Mughal & Deccan Chronicles"
       ],
       "notes": "Nephew of Chand Bibi; patron of Deccan music & architecture.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_muhammad_quli_qutb",
@@ -1470,8 +1378,7 @@
         "Deccan Chronicles"
       ],
       "notes": "Founded the city of Hyderabad in 1591 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_jijabai_shahaji",
@@ -1485,8 +1392,7 @@
         "Maratha Bakhar Chronicles"
       ],
       "notes": "Shahaji served Deccan sultanates; Jijabai (of Yadava Devagiri descent) raised Shivaji.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_sambhaji_rajaram",
@@ -1500,8 +1406,7 @@
         "Maratha Chronicles"
       ],
       "notes": "Sons & daughter-in-law of Shivaji who preserved Maratha sovereignty.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_shahu_baji_rao1",
@@ -1515,8 +1420,7 @@
         "Maratha Chronicles"
       ],
       "notes": "Expanded Maratha rule across Central & Northern India.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_francisco_almeida",
@@ -1531,8 +1435,7 @@
         "History of Portugal 1726"
       ],
       "notes": "Chronicle succession in Faria y Sousa Portuguese Asia, History of Portugal 1726.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_afonso_albuquerque",
@@ -1547,8 +1450,7 @@
         "History of Portugal 1726"
       ],
       "notes": "Captured Goa (1510) and Malacca (1511), linking European & Southeast Asian crowns.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ind9_joao_de_castro",
@@ -1563,8 +1465,7 @@
         "History of Portugal 1726"
       ],
       "notes": "Chronicle succession in Faria y Sousa Portuguese Asia, History of Portugal 1726.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_zamorin_calicut",
@@ -1579,8 +1480,7 @@
         "Calicut Chronicles"
       ],
       "notes": "Matrilineal Nediyiruppu Swaroopam ruler of the Malabar spice trade.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_bahadur_shah_gujarat",
@@ -1595,8 +1495,7 @@
         "Mughal Humayunnama"
       ],
       "notes": "Opponent of Humayun and Portuguese Diu governorate.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind9_st_francis_xavier",
@@ -1610,8 +1509,7 @@
         "Portuguese Asia"
       ],
       "notes": "Travelled from Lisbon through Goa & Malacca to Kagoshima, Japan (1549).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_godfrey_bouillon",
@@ -1626,8 +1524,7 @@
         "Modern Universal History Vols. 8–9"
       ],
       "notes": "Chronicle succession in William of Tyre, Modern Universal History Vols. 8–9.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_baldwin1_jerusalem",
@@ -1642,8 +1539,7 @@
         "Modern Universal History Vols. 8–9"
       ],
       "notes": "Chronicle succession in William of Tyre, Modern Universal History Vols. 8–9.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_baldwin2_jerusalem",
@@ -1658,8 +1554,7 @@
         "Modern Universal History Vols. 8–9"
       ],
       "notes": "Chronicle succession in William of Tyre, Modern Universal History Vols. 8–9.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_melisende_fulk",
@@ -1674,8 +1569,7 @@
         "Modern Universal History Vols. 8–9"
       ],
       "notes": "Melisende (Armenian-Frankish queen) & Fulk V of Anjou (father of Geoffrey Plantagenet -> Henry II).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur9_amalric1_jerusalem",
@@ -1690,8 +1584,7 @@
         "Modern Universal History Vols. 8–9"
       ],
       "notes": "Chronicle succession in William of Tyre, Modern Universal History Vols. 8–9.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_baldwin4_leper",
@@ -1706,8 +1599,7 @@
         "Modern Universal History Vols. 8–9"
       ],
       "notes": "Chronicle succession in William of Tyre, Modern Universal History Vols. 8–9.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_sibylla_isabella_jerusalem",
@@ -1722,8 +1614,7 @@
         "Modern Universal History Vols. 8–9"
       ],
       "notes": "Chronicle succession in William of Tyre, Modern Universal History Vols. 8–9.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_tancred_hauteville",
@@ -1738,8 +1629,7 @@
         "Hauteville Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 10, Hauteville Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_robert_guiscard",
@@ -1754,8 +1644,7 @@
         "Hauteville Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 10, Hauteville Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_roger1_sicily",
@@ -1770,8 +1659,7 @@
         "Hauteville Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 10, Hauteville Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_roger2_sicily",
@@ -1786,8 +1674,7 @@
         "Hauteville Chronicles"
       ],
       "notes": "patronized al-Idrisi's Tabula Rogeriana and united Sicily & Southern Italy.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur9_constance_sicily",
@@ -1802,8 +1689,7 @@
         "Hauteville Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 10, Hauteville Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_cosimo_medici",
@@ -1818,8 +1704,7 @@
         "Anderson 1732"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 9–11, Anderson 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_lorenzo_magnificent",
@@ -1834,8 +1719,7 @@
         "Anderson 1732"
       ],
       "notes": "Architect of Italian Renaissance diplomacy & art.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur9_leo10_clement7",
@@ -1850,8 +1734,7 @@
         "Anderson 1732"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 9–11, Anderson 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_catherine_medici",
@@ -1866,8 +1749,7 @@
         "Anderson 1732"
       ],
       "notes": "Great-granddaughter of Lorenzo the Magnificent; wed Henry II of France.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur9_marie_medici",
@@ -1882,8 +1764,7 @@
         "Anderson 1732"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 9–11, Anderson 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_francesco_ludovico_sforza",
@@ -1897,8 +1778,7 @@
         "Modern Universal History Vol. 11"
       ],
       "notes": "Allies & marriage kin of the Medici and Gonzaga courts.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_william_silent",
@@ -1913,8 +1793,7 @@
         "Anderson 1732"
       ],
       "notes": "Married Anna of Saxony & Louise de Coligny; ancestor of Dutch monarchs & British King William III.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur9_maurice_frederick_nassau",
@@ -1929,8 +1808,7 @@
         "Anderson 1732"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 13, Anderson 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_william2_orange",
@@ -1945,8 +1823,7 @@
         "Anderson 1732"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 13, Anderson 1732.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_charles3_spain",
@@ -1961,8 +1838,7 @@
         "Casa Real de España"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Casa Real de España.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_isabella2_spain",
@@ -1977,8 +1853,7 @@
         "Casa Real de España"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Casa Real de España.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_alfonso13_spain",
@@ -1993,8 +1868,7 @@
         "Casa Real de España"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Casa Real de España.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_juan_carlos1",
@@ -2009,8 +1883,7 @@
         "Casa Real de España"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Casa Real de España.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur9_felipe6_leonor_2026",
@@ -2025,8 +1898,7 @@
         "Casa Real de España"
       ],
       "notes": "Present-day reigning Bourbon monarch of Spain, carrying Capetian, Habsburg, Wessex & Windsor lines to 2026.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     }
   ],
   "edges": [

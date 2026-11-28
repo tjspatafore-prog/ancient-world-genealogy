@@ -18,8 +18,7 @@
         "Ibn Khaldun Histoire des Berbères Vol. 1, 3 & 4"
       ],
       "notes": "Ibn Khaldun transmits the Berber genealogies dividing the Imazighen into the Branes (Sanhaja, Masmuda, Kutama, Auréba) and Botr / Madghis al-Abtar (Zenata, Luwata, Hawwara, Nefzaoua), explicitly preserving Ibn Hazm's chain tracing Madghis through Ber -> Herik -> Bedian -> Canaan -> Ham -> Noah.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ber_koceila_kahina",
@@ -36,8 +35,7 @@
         "Ibn Khaldun Histoire des Berbères Vol. 3 p. 193"
       ],
       "notes": "Koceila (leader of the Branes Auréba) and Queen al-Kahina / Dihya (queen of the Botr Jerawa Zenata confederation) led the Amazigh resistance across North Africa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sud_cush_nuba_beja",
@@ -55,8 +53,7 @@
         "Arkell History of Sudan"
       ],
       "notes": "Documents the pre-Islamic Cushite/Nubian and Beja populations (Blemmyes) of Northern Sudan who formed the Christian kingdoms of Nobatia, Makuria (Dongola) & Alodia (Soba).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "sud_jaaliyyin_abbas",
@@ -75,8 +72,7 @@
         "Tribes of Kordofán"
       ],
       "notes": "MacMichael catalogs dozens of Sudanese Arab nisba manuscripts uniting the Ja'aliyyin, Danagla, Shayqiya, Batahin & Rubatab via Ibrahim Ja'al back to al-'Abbas, uncle of Prophet Muhammad (Quraysh/Ishmael), while intermarrying with Nubian princesses.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "sud_juhayna_qahtan",
@@ -94,8 +90,7 @@
         "MacMichael Tribes of Kordofán"
       ],
       "notes": "Sudanese chronicles trace the Juhayna/Guhayna confederation (Baqqara, Kababish, Shukriya, Hamar, Rizayqat) back to southern Arabian Himyar & Qahtan (Joktan), migrating through Egypt and the Red Sea into Kordofan & Darfur.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "sud_funj_sennar",
@@ -113,8 +108,7 @@
         "MacMichael History of Arabs in Sudan"
       ],
       "notes": "Amara Dunqas founded the Funj Sultanate at Sennar in 1504 CE; Funj royal genealogies claimed descent from Umayyad refugees passing through Abyssinia and Nubia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

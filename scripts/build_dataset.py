@@ -63,6 +63,160 @@ OUT_CORE = ROOT / "data" / "genealogy_core.json"
 PRUNE_PREFIXES = ("hub_",)
 PRUNE_EXACT = set()
 
+# Canonical entity-resolution merges: duplicate wave IDs -> canonical node ID
+CANONICAL_MERGES = {
+    "wal9_maelgwn_gwynedd": "chr6_maelgwn_gwynedd",
+    "gael9_conn_ceadchathach": "eur5_conn_hundred_battles",
+    "eur5_fenius_farsa": "eur_fenius_farsaid",
+    "cel13_owain_gwynedd": "chr6_owain_gwynedd",
+    "cls12_agesilaus2_sparta": "jos_sparta_agesilaus2",
+    "ane10_alyattes_lydia": "cls3_alyattes",
+    "ane10_gyges_lydia": "cls3_gyges",
+    "alx12_antiochus3_great": "cls3_antiochus3",
+    "thu14_perseus_macedon": "cls3_perseus_macedon",
+    "thu14_philip5_macedon": "cls3_philip5",
+    "thu14_polybius_megalopolis": "cls9_polybius_historian",
+    "alx12_pyrrhus_epirus": "cls3_pyrrhus_epirus",
+    "unb_grk_pyrrhus_epirus": "cls3_pyrrhus_epirus",
+    "byz8_constantius2": "rom3_constantius2",
+    "eur9_catherine_medici": "roy6_catherine_medici",
+    "eur9_cosimo_medici": "roy6_cosimo_medici",
+    "eur9_marie_medici": "roy6_marie_medici",
+    "liv10_abraham_lincoln": "fam6_abraham_lincoln",
+    "chn11_qing_yongzheng": "eas5_qing_yongzheng",
+    "afr10_empress_eleni": "chr6_empress_eleni",
+    "mon_eth_zara_yaqob": "modr_eth_04_emperor_zara_yaqob_1434_1468",
+    "prp14_amos_tekoa": "pro2_amos",
+    "prp14_baruch_ben_neriah": "pro2_baruch",
+    "shh12_kay_kavus": "ir_kay_kavus",
+    "unb_kor_wang_geon": "eas5_wang_geon_goryeo",
+    "unb_kor_yi_seonggye": "eas5_taejo_joseon",
+    "sam13_norden_ramesses3_medinet": "eg_ramesses3",
+    "jos_labashi_marduk": "babr_10_04_labashi_marduk_556_bce",
+    "lka8_devanampiya_tissa": "ind5_devanampiya_tissa",
+    "tib8_trisong_detsen": "ind5_trisong_detsen",
+    "chr13_ussher_annals_4004": "ush_ussher_annals_4004",
+    "bch14_bochart_phaleg_table": "chr_bochart_phaleg_canaan",
+}
+
+SOURCE_META_IDS = {
+    "cb_bible_chronology_harmonizers",
+    "sanch_chrysor_barhebraeus",
+    "nwt_newton_chronology_1728",
+    "ush_ussher_annals_4004",
+    "chr13_blair_chronology_1753",
+    "chr13_guthrie_gray_1764",
+    "chr13_rawlinson_origin_nations",
+    "chr13_kent_narratives_1904",
+    "chr13_kennett_roman_antiquities",
+    "chr13_isidore_etymologies_ix",
+    "arc12_crawford_patriarchal_canon",
+    "chr_bochart_phaleg_canaan",
+    "chr_sayce_rawlinson_nations",
+    "chr_paschale_malalas",
+    "jos_table_ethnonyms",
+    "dut_vulgate_ethnonyms_etymology",
+    "asm_smith_eponym_canon",
+    "asm_records_past_inscriptions",
+    "por_sandford_burgundy_capet",
+    "gau_poetical_noah_ages",
+    "cb_kitab_magall_rolls",
+    "ral_methodius_suphene",
+    "sam13_qapgen_noah_apportionment",
+    "prp14_vita_adae_tablets",
+    "bch14_targum_germania_africa",
+    "bch14_targum_barbaria_thrace",
+    "bch14_targum_nimrod_cities",
+    "bch14_targum_caphtor_cappadocia",
+    "arc12_sayce_hittite_syrian",
+    "arc12_sayce_elamite_shushinak",
+    "arc12_sayce_kittim_ionian",
+    "bch14_bochart_ashkenaz_phrygia",
+    "bch14_bochart_riphath_togarmah",
+    "bch14_bochart_dodanim_rhodes",
+    "bch14_bochart_ophir_arabia_india",
+    "bch14_bochart_put_libya_mauretania",
+}
+
+
+def classify_node_type(n: dict) -> str:
+    import re
+    nid = n["id"]
+    if nid in SOURCE_META_IDS:
+        return "source_meta"
+    nm = n["name"]
+    if (
+        "→" in nm
+        or "Anchor" in nm
+        or "Horizon" in nm
+        or re.search(r"^(House of|Offspring of|Lineage of|Dynasty of|Kings of|Tribes of)\b", nm)
+        or "Confederation" in nm
+    ):
+        return "dynasty_cluster"
+    return "person"
+
+
+EXPLICIT_EDGE_RELATIONS = {
+    ("mon_fra_clovis1", "mer8_clotilde_burgundy"): "spouse_of",
+    ("mon_fra_clovis1", "ger14_gundobad_burgundy"): "contemporary_of",
+    ("got8_theodoric_great", "mon_fra_clovis1"): "spouse_of",
+    ("got8_theodoric_great", "got8_alaric2"): "contemporary_of",
+    ("got8_theodoric_great", "ger14_odoacer_italy"): "foe_or_ally_of",
+    ("rom3_julius_caesar", "ger14_vercingetorix_arverni"): "foe_or_ally_of",
+    ("rom3_julius_caesar", "ger14_ariovistus_suebi"): "foe_or_ally_of",
+    ("rom3_julius_caesar", "ger14_cassivellaunus_britain"): "foe_or_ally_of",
+    ("rom3_julius_caesar", "ger14_ambiorix_eburones"): "foe_or_ally_of",
+    ("rom3_julius_caesar", "cls12_pompey_magnus"): "foe_or_ally_of",
+    ("rom3_julius_caesar", "cls12_gaius_marius"): "contemporary_of",
+    ("rom3_julius_caesar", "cls12_phocion_atticus"): "contemporary_of",
+    ("bib_methuselah", "chn_chu_zhurong"): "motif_parallel",
+    ("bib_methuselah", "cb_rakeel"): "contemporary_of",
+    ("rus_yaroslav_wise", "eur42_almos_arpad_stephen"): "spouse_of",
+    ("eur5_king_arthur", "ger14_cassivellaunus_britain"): "contemporary_of",
+    ("eur_wessex_alfred_norman", "ger14_boudica_caratacus"): "contemporary_of",
+}
+
+
+def classify_relation_type(e: dict, nodes_by_id: dict) -> str:
+    import re
+    pair = (e["from"], e["to"])
+    if pair in EXPLICIT_EDGE_RELATIONS:
+        return EXPLICIT_EDGE_RELATIONS[pair]
+    t = e["type"]
+    lbl = e["label"]
+    src_n = nodes_by_id.get(e["from"])
+    dst_n = nodes_by_id.get(e["to"])
+    if (src_n and src_n.get("node_type") == "source_meta") or (dst_n and dst_n.get("node_type") == "source_meta"):
+        return "contemporary_of"
+    if t == "parallel" or re.search(r"\b(parallel|motif|longevity|archetyp|analog)\b", lbl, re.I):
+        return "motif_parallel"
+    has_child_word = bool(re.search(
+        r"\b(son|daughter|father|mother|child|parent|offspring|grandson|granddaughter|heir|born|descent|patriline|matriline|progenitor|begat)\b",
+        lbl,
+        re.I,
+    ))
+    if re.search(r"\b(wife|husband|marriage|marri(?:ed|es)|consort|bride|spouse|wed|dowry)\b", lbl, re.I) and not has_child_word:
+        return "spouse_of"
+    if t != "direct" and re.search(
+        r"\b(rival|foe|opponent|conquest|conquered|defeat(?:ed|s)?|slain|slayer|killed|war|campaign|expedition|siege|revolt|battle|alliance|allied|ally|treaty|diplomat|tribute|adversar|conflict|enemy|hostage|invasion|resistance|contender|coalition|envoy|embassy|mission|campaign)\b",
+        lbl,
+        re.I,
+    ):
+        return "foe_or_ally_of"
+    if not has_child_word and re.search(
+        r"\b(contemporary|colleague|uncle|aunt|brother-in-law|sister-in-law|father-in-law|mother-in-law|son-in-law|cousin|nephew|niece|sibling|brother|sister|half-brother|foster|tutor|mentor|teacher|pupil|disciple|scribe|minister|premier|chancellor|counselor|companion|friend|marshal|bodyguard|secretary|circle|scholar|chronicler|historian|biograph|survey|documentation|chronolog|ethnolog|attestation|translation|commentary|patron(?:age)?|co-leader|co-founder|co-king|reformer|bridge)\b",
+        lbl,
+        re.I,
+    ):
+        return "contemporary_of"
+    if t != "direct" and re.search(
+        r"\b(succession|successor|dynast|throne|reign|coronation|viceroy|regent|hegemon|restoration|empire|kingdom|continuity|sequence|series|canon|list|episcopal|presbytery|ordination)\b",
+        lbl,
+        re.I,
+    ):
+        return "successor_of"
+    return "parent_of"
+
 TRADITIONS = {
     "dna":             {"label": "Archaeogenetics (Y-DNA & mtDNA)","region": "Global Population Genetics",   "color": "#14b8a6", "order": 0.5},
     "europe_norse":    {"label": "Celtic, Norse, Slavic & European","region": "Northern, Eastern & Western Europe","color": "#4f46e5", "order": 2},
@@ -1343,20 +1497,64 @@ def main():
 
     nodes_by_id = {}
     for n in all_nodes:
-        assert n["id"] not in nodes_by_id, f"Duplicate node ID: {n['id']}"
-        assert n["tradition"] in TRADITIONS, f"Unknown tradition: {n['tradition']}"
-        nodes_by_id[n["id"]] = n
+        nid = CANONICAL_MERGES.get(n["id"], n["id"])
+        src_mod = node_module_map[n["id"]]
+        if nid not in nodes_by_id:
+            n_copy = dict(n)
+            n_copy["id"] = nid
+            n_copy["altNames"] = list(n.get("altNames") or []) if isinstance(n.get("altNames"), (list, tuple)) else []
+            n_copy["sources"] = list(n.get("sources") or []) if isinstance(n.get("sources"), (list, tuple)) else []
+            nodes_by_id[nid] = n_copy
+            if n["id"] == nid:
+                node_module_map[nid] = src_mod
+            else:
+                node_module_map.setdefault(nid, src_mod)
+        else:
+            existing = nodes_by_id[nid]
+            for s in (n.get("sources") or []) if isinstance(n.get("sources"), (list, tuple)) else []:
+                if s not in existing["sources"]:
+                    existing["sources"].append(s)
+            for a in (n.get("altNames") or []) if isinstance(n.get("altNames"), (list, tuple)) else []:
+                if a not in existing["altNames"]:
+                    existing["altNames"].append(a)
+            if n.get("major"):
+                existing["major"] = True
+            if n.get("notes") and n["notes"] not in existing.get("notes", ""):
+                existing["notes"] = f"{existing['notes']} | {n['notes']}".strip(" |")
+            # Prefer canonical owner's module when this is the canonical ID
+            if n["id"] == nid:
+                node_module_map[nid] = src_mod
+
+    all_nodes = list(nodes_by_id.values())
+    for n in all_nodes:
+        n["node_type"] = classify_node_type(n)
+
+    # Extra chronological forward bridge edges where mythic/Nordic/Korean stems connect
+    extra_chron_edges = [
+        ("bib_noah", "grk_deucalion", "syncretic", "Great Flood survivor cognate: Noah <-> Deucalion & Pyrrha"),
+        ("eur_snorri_troy", "eur_odin_ask_embla", "syncretic", "Snorri Prose Edda: Priam of Troy -> Tror -> Voden/Odin"),
+        ("bib_noah", "kor_hwanin_hwanung", "syncretic", "Post-Flood eastern foundation horizon -> Hwanin & Hwanung"),
+        ("jas_tog_ongal", "eur6_almos", "syncretic", "Hungarian Chronicle (Kézai / Book of Jasher): Onogurs (Ongal) -> Grand Prince Álmos of Hungary"),
+        ("eur5_beli_mawr", "ger14_cassivellaunus_britain", "expansion", "Catuvellauni Royal Stem (Beli Mawr Horizon -> Cassivellaunus, 54 BCE)"),
+    ]
+    raw_edges = list(all_edges) + [E(s, t, lt, lbl) for s, t, lt, lbl in extra_chron_edges]
 
     seen_edges = set()
     clean_edges = []
-    for idx, e in enumerate(all_edges):
-        assert e["from"] in nodes_by_id, f"Edge {idx} missing from: {e['from']}"
-        assert e["to"] in nodes_by_id, f"Edge {idx} missing to: {e['to']}"
+    for idx, e in enumerate(raw_edges):
+        src = CANONICAL_MERGES.get(e["from"], e["from"])
+        dst = CANONICAL_MERGES.get(e["to"], e["to"])
+        assert src in nodes_by_id, f"Edge {idx} missing from: {src}"
+        assert dst in nodes_by_id, f"Edge {idx} missing to: {dst}"
         assert e["type"] in LINK_TYPES, f"Unknown link type: {e['type']}"
-        key = (e["from"], e["to"], e["type"], e["label"])
+        if src == dst:
+            continue
+        key = (src, dst, e["type"], e["label"])
         if key not in seen_edges:
             seen_edges.add(key)
-            clean_edges.append(e)
+            ce = {"from": src, "to": dst, "type": e["type"], "label": e["label"]}
+            ce["relation_type"] = classify_relation_type(ce, nodes_by_id)
+            clean_edges.append(ce)
 
     # Dynamic Adam & Noahic connectivity classification across every node
     adj = {nid: [] for nid in nodes_by_id}
@@ -1401,8 +1599,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Complete Compendium & Downloadable Reports Edition (v32.0)",
-            "version": "32.0.0",
+            "title": "Ancient World Genealogy Atlas — Canonical Directed Graph & Semantic Compendium (v33.0)",
+            "version": "33.0.0",
             "counts": {
                 "total": len(all_nodes),
                 "biblicalConnected": bib_count,

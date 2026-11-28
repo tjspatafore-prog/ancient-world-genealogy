@@ -19,8 +19,7 @@
         "Petavius History of the World (1659)"
       ],
       "notes": "Sir Walter Raleigh (citing Methodius of Tyre) records the three post-Flood commanders who led the peoples after Babel: Nimrod over Ham's line, Joktan over Shem's line, and Suphene over Japheth's line — framed within Petavius's universal chronology from Creation.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ral_east_indies_shem",
@@ -37,8 +36,7 @@
         "Sir Walter Raleigh History of the World (1736 Vol. 1 Book I Ch. VIII & Engraved Noahic Map)"
       ],
       "notes": "Raleigh argues at length in Book I Ch. VIII (and marks on his engraved dispersion map) that Joktan's descendants Havilah and Ophir planted the regions stretching across Persia and India / the East Indies.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ral_arabia_felix_cush",
@@ -55,8 +53,7 @@
         "Sir Walter Raleigh History of the World (1736 Vol. 1 Book I Ch. VIII & Map)"
       ],
       "notes": "Raleigh maps Cush's sons Seba, Sabtah, and Raamah (Rhegma) directly along the coasts and cities of Arabia the Happy (Arabia Felix), including Sabe Regia and Aden.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ral_cato_scythia_saga",
@@ -74,8 +71,7 @@
         "Sir Walter Raleigh History of the World (1736 Vol. 1 Book I Ch. VII p. 69, citing Cato)"
       ],
       "notes": "Raleigh quotes Cato (Fragments) that after mankind was restored following the Deluge, populations spread from Scythia Saga into the Galli (Gauls) and ancient Umbri of Italy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "gau_poetical_noah_ages",
@@ -94,8 +90,7 @@
         "Pierre Gautruche The Poetical History (pp. 8-15)"
       ],
       "notes": "Gautruche translates Greco-Roman mythology back into Biblical history: the Golden Age under Saturn/Janus corresponds to Noah (threefold division of the world), the Silver Age to Jupiter (Ham/Cham), the Brazen Age to Nimrod, Vulcan to metal-worker Tubal-Cain, and Apollo to musician Jubal.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "par_cecrops_deucalion_flood",
@@ -114,8 +109,7 @@
         "Lucian De Dea Syria"
       ],
       "notes": "Inscribed in marble on Paros in 264 BCE, the Parian Chronicle anchors Greek chronology at Epoch 1 (Cecrops, first king of Athens, 1582 BCE) and Epoch 2 (Deucalion escaping the Great Flood to Athens from Parnassus, 1529 BCE), paired with Lucian's De Dea Syria preserving the Near Eastern Deluge tradition under Deucalion's name.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "xen_artaxerxes2_cyrus_younger",
@@ -135,8 +129,7 @@
         "Plutarch Lives (Artaxerxes & Alexander)"
       ],
       "notes": "Documented across Xenophon's Anabasis (Cyrus the Younger vs. his brother Artaxerxes II at Cunaxa, 401 BCE), Plutarch, and Curtius Rufus down to Darius III and Alexander the Great.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom_echard_imperial_bridge",
@@ -159,8 +152,7 @@
         "Pedro Mexía Imperial History"
       ],
       "notes": "Synthesizes the Roman imperial succession across Echard's 5-volume Roman History, Tacitus, Ammianus Marcellinus, Florus, Aurelius Victor, and Mexía from Vespasian & Titus through Trajan, Marcus Aurelius, Diocletian, and Romulus Augustulus (476 CE) to Charlemagne (Echard Vol. 5).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "vin_periplus_ophir_zoscales",
@@ -178,8 +170,7 @@
         "William Vincent The Periplus of the Erythrean Sea (1800)"
       ],
       "notes": "Vincent's scholarly commentary identifies King Zoscales of Aksum (Adulis, 1st c. CE), maps classical Saba/Mariaba to Biblical Sheba, examines the Ophir trade corridor, and documents direct monsoon voyages linking Ethiopia and Arabia to western India.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     }
   ],
   "edges": [

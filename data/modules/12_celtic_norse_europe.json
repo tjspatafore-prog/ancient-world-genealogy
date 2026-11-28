@@ -17,8 +17,7 @@
         "Snorri Sturluson Prose Edda (Gylfaginning)"
       ],
       "notes": "From ice and fire in Ginnungagap emerge giant Ymir and cosmic cow Auðumbla, who licks Búri from salty ice -> Borr (+ giantess Bestla) -> Odin, Vili, and Vé! Note: Bergelmir survives the blood-deluge of Ymir in a wooden boat/box (Norse Flood motif!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_odin_ask_embla",
@@ -36,8 +35,7 @@
         "Prose Edda"
       ],
       "notes": "Odin, Vili, and Vé shape the world from Ymir and breathe spirit, mind, and warmth into two shoreline trees (Ash & Elm) to create Ask & Embla, progenitors of humanity!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_thor_tyr_baldr",
@@ -54,8 +52,7 @@
         "Poetic Edda"
       ],
       "notes": "Odin's sons include Thor (Thunder), Baldr, and Víðarr; Týr (*Tiwaz) is the EXACT Proto-Indo-European linguistic cognate of Vedic Dyaus Pitr and Greek Zeus Pater!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_snorri_troy",
@@ -73,8 +70,7 @@
         "Heimskringla (Ynglinga Saga)"
       ],
       "notes": "In his Prose Edda Prologue, Snorri Sturluson explicitly derives the Norse Aesir ('Men of Asia') from King Priam of Troy -> daughter Troan (+ King Munon/Memnon!) -> Tror (Thor) -> 18 generations -> Voden (Odin), who migrates north from Troy/Asia to Sweden and Denmark!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_ynglings_skjoldungs",
@@ -90,8 +86,7 @@
         "Volsunga Saga"
       ],
       "notes": "Odin's lines produce Skjöldr (Scyld Scefing of Beowulf, ancestor of Danish kings), Yngvi-Freyr (Vanir son of Njörðr -> Swedish & Norwegian Yngling kings -> Harald Fairhair!), and Sigi -> Volsung -> Sigmund -> Sigurd the Dragon-Slayer!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur_tuisto_mannus",
@@ -108,8 +103,7 @@
         "Tacitus Germania Ch. 2"
       ],
       "notes": "Roman historian Tacitus records ancient Germanic origin songs tracing all Germanic peoples to Earth-born Tuisto -> Mannus (EXACT Proto-Indo-European cognate of Vedic Manu!) -> three sons founding the Ingaevones (North Sea), Herminones (Central), and Istaevones (Rhine/Franks)!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_fenius_farsaid",
@@ -124,8 +118,7 @@
         "Auraicept na n-Éces"
       ],
       "notes": "Medieval Irish chronicles trace Gaelic ancestry from Noah -> Japheth -> Magog -> Baath -> Fénius Farsaid, a Scythian king who creates the Gaelic language and Ogham script from the 72 tongues at the Tower of Babel! Father of Nel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur_scota_goidel",
@@ -143,8 +136,7 @@
         "Declaration of Arbroath (1320)"
       ],
       "notes": "Nel journeys to Egypt, befriends Moses during the Exodus, and marries Princess Scota (daughter of Pharaoh Cingris!). Their son Goídel Glas gives his name to the Gaels (Goidelic Irish & Scottish), while Scota gives her name to Scotland!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_milesians",
@@ -158,8 +150,7 @@
         "Lebor Gabála Érenn"
       ],
       "notes": "Descended from Goídel Glas -> Sru -> Éber Scot -> Breogán (builder of the Tower of Brigantia in Galicia, Spain) -> Míl Espáine! His sons Éber Finn, Éremón, and poet-druid Amairgin sail from Spain to Ireland and defeat the Tuatha Dé Danann.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_tuatha_de",
@@ -177,8 +168,7 @@
         "Cath Maige Tuired"
       ],
       "notes": "Begins with Noah's granddaughter Cessair arriving in Ireland before the Flood, followed by Partholón, Nemed, Fir Bolg, and the divine Tuatha Dé Danann (Danu, The Dagda, Nuada, Brigid, and sun-hero Lugh -> father of Cú Chulainn!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_niall_macalpin",
@@ -193,8 +183,7 @@
         "Senchus Fer n-Alban"
       ],
       "notes": "Milesian royal lines produce Niall of the Nine Hostages (ancestor of the Uí Néill High Kings of Ireland) and Fergus Mór of Dál Riata -> Kenneth MacAlpin (Cináed mac Ailpín, unifier of Picts & Scots, 843 CE!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur_brutus_troy",
@@ -212,8 +201,7 @@
         "Geoffrey of Monmouth"
       ],
       "notes": "Great-grandson of Trojan prince Aeneas (via Ascanius -> Silvius -> Brutus); leads Trojan exiles to Albion, renames it Britain, founds Troia Nova (London), and divides the island among his 3 sons: Locrinus, Camber, and Albanactus!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_king_arthur",
@@ -229,8 +217,7 @@
         "Mabinogion"
       ],
       "notes": "Continuation of Brutus's British chronicle through King Leir (Shakespeare's Lear), Welsh ancestor Beli Mawr, Cassivellaunus, and Uther Pendragon to King Arthur of Camelot.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur_slavic_brothers",
@@ -247,8 +234,7 @@
         "Chronicle of Greater Poland"
       ],
       "notes": "The Slavic tripartite origin legend traces Poland (Lech), Bohemia/Czechia (Czech), and Rus' (Rus) to three brothers; the Russian Primary Chronicle explicitly assigns all Slavic peoples to Japheth's portion of Earth!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     }
   ],
   "edges": [

@@ -16,8 +16,7 @@
         "Echard Roman History"
       ],
       "notes": "Lucius Junius Brutus (1st Consul of Rome, 509 BCE) (Livy, Plutarch Lives, Echard Roman History).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_cincinnatus",
@@ -33,8 +32,7 @@
         "Echard Roman History"
       ],
       "notes": "Lucius Quinctius Cincinnatus (458 BCE Dictator) (Livy, Plutarch Lives, Echard Roman History).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_scipio_africanus",
@@ -50,8 +48,7 @@
         "Echard Roman History"
       ],
       "notes": "Scipio Africanus (Victor of Zama, 202 BCE) (Livy, Plutarch Lives, Echard Roman History).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_cato_elder",
@@ -67,8 +64,7 @@
         "Echard Roman History"
       ],
       "notes": "Cato the Elder (234–149 BCE) (Livy, Plutarch Lives, Echard Roman History).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_gracchi",
@@ -84,8 +80,7 @@
         "Echard Roman History"
       ],
       "notes": "Tiberius & Gaius Gracchus (133–121 BCE) (Livy, Plutarch Lives, Echard Roman History).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_marius_sulla",
@@ -101,8 +96,7 @@
         "Echard Roman History"
       ],
       "notes": "Gaius Marius & Lucius Cornelius Sulla (Livy, Plutarch Lives, Echard Roman History).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_pompey_cicero",
@@ -118,8 +112,7 @@
         "Echard Roman History"
       ],
       "notes": "Pompey the Great & Marcus Tullius Cicero (Livy, Plutarch Lives, Echard Roman History).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_mark_antony",
@@ -135,8 +128,7 @@
         "Echard Roman History"
       ],
       "notes": "Mark Antony (Triumvir, d. 30 BCE) (Livy, Plutarch Lives, Echard Roman History).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_tiberius",
@@ -151,8 +143,7 @@
         "Tacitus Annals"
       ],
       "notes": "Emperor Tiberius (14–37 CE) (Suetonius Twelve Caesars, Tacitus Annals).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_caligula",
@@ -167,8 +158,7 @@
         "Tacitus Annals"
       ],
       "notes": "Emperor Caligula (37–41 CE) (Suetonius Twelve Caesars, Tacitus Annals).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_claudius",
@@ -183,8 +173,7 @@
         "Tacitus Annals"
       ],
       "notes": "Emperor Claudius (41–54 CE, Conquest of Britain) (Suetonius Twelve Caesars, Tacitus Annals).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_nero",
@@ -199,8 +188,7 @@
         "Tacitus Annals"
       ],
       "notes": "Emperor Nero (54–68 CE) (Suetonius Twelve Caesars, Tacitus Annals).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_vespasian",
@@ -217,8 +205,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Vespasian (69–79 CE, Flavian Founder) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_titus",
@@ -235,8 +222,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Titus (79–81 CE, Siege of Jerusalem 70 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_domitian",
@@ -253,8 +239,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Domitian (81–96 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_nerva",
@@ -271,8 +256,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Nerva (96–98 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_trajan",
@@ -289,8 +273,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Trajan (98–117 CE, Imperial Zenith) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_hadrian",
@@ -307,8 +290,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Hadrian (117–138 CE, Hadrian's Wall) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_antoninus_pius",
@@ -325,8 +307,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Antoninus Pius (138–161 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_marcus_aurelius",
@@ -343,8 +324,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Marcus Aurelius (161–180 CE, Philosopher) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_commodus",
@@ -361,8 +341,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Commodus (180–192 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_septimius_severus",
@@ -379,8 +358,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Septimius Severus (193–211 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_caracalla",
@@ -397,8 +375,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Caracalla (198–217 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_elagabalus",
@@ -415,8 +392,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Elagabalus (218–222 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_severus_alexander",
@@ -433,8 +409,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Severus Alexander (222–235 CE) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_aurelian",
@@ -451,8 +426,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Aurelian (270–275 CE, Conqueror of Palmyra) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_diocletian",
@@ -469,8 +443,7 @@
         "Suetonius"
       ],
       "notes": "Emperor Diocletian (284–305 CE, Tetrarchy) (Echard Roman History, Herodian, Pliny, Suetonius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_constantine1",
@@ -485,8 +458,7 @@
         "Ammianus Marcellinus"
       ],
       "notes": "Emperor Constantine I the Great (306–337 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_julian",
@@ -501,8 +473,7 @@
         "Ammianus Marcellinus"
       ],
       "notes": "Emperor Julian (361–363 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_theodosius1",
@@ -517,8 +488,7 @@
         "Ammianus Marcellinus"
       ],
       "notes": "Emperor Theodosius I the Great (379–395 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_justinian1",
@@ -533,8 +503,7 @@
         "Ammianus Marcellinus"
       ],
       "notes": "Emperor Justinian I & Empress Theodora (527–565 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_heraclius",
@@ -549,8 +518,7 @@
         "Ammianus Marcellinus"
       ],
       "notes": "Emperor Heraclius (610–641 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_leo3",
@@ -565,8 +533,7 @@
         "Ammianus Marcellinus"
       ],
       "notes": "Emperor Leo III the Isaurian (717–741 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_basil1",
@@ -581,8 +548,7 @@
         "Ammianus Marcellinus"
       ],
       "notes": "Emperor Basil I the Macedonian (867–886 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_basil2",
@@ -597,8 +563,7 @@
         "Ammianus Marcellinus"
       ],
       "notes": "Emperor Basil II Bulgaroktonos (976–1025 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_alexios1",
@@ -613,8 +578,7 @@
         "Ammianus Marcellinus"
       ],
       "notes": "Emperor Alexios I Komnenos (1081–1118 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_michael8",
@@ -629,8 +593,7 @@
         "Ammianus Marcellinus"
       ],
       "notes": "Emperor Michael VIII Palaiologos (1259–1282 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rom_constantine11",
@@ -645,8 +608,7 @@
         "Ammianus Marcellinus"
       ],
       "notes": "Emperor Constantine XI Palaiologos (d. 1453 CE) (Echard Roman History Vol. 4-5, Ammianus Marcellinus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_egbert",
@@ -661,8 +623,7 @@
         "Strutt 1779"
       ],
       "notes": "King Egbert of Wessex (802–839 CE) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_ethewulf",
@@ -677,8 +638,7 @@
         "Strutt 1779"
       ],
       "notes": "King Ethelwulf of Wessex (839–858 CE) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_alfred",
@@ -693,8 +653,7 @@
         "Strutt 1779"
       ],
       "notes": "King Alfred the Great (871–899 CE) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_edward_elder",
@@ -709,8 +668,7 @@
         "Strutt 1779"
       ],
       "notes": "King Edward the Elder (899–924 CE) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_athelstan",
@@ -725,8 +683,7 @@
         "Strutt 1779"
       ],
       "notes": "King Athelstan (1st King of All England, 924–939) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_edgar",
@@ -741,8 +698,7 @@
         "Strutt 1779"
       ],
       "notes": "King Edgar the Peaceful (959–975 CE) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_ethelred2",
@@ -757,8 +713,7 @@
         "Strutt 1779"
       ],
       "notes": "King Ethelred II the Unready (978–1016 CE) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_canute",
@@ -773,8 +728,7 @@
         "Strutt 1779"
       ],
       "notes": "King Canute / Cnut the Great (1016–1035 CE) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_edward_confessor",
@@ -789,8 +743,7 @@
         "Strutt 1779"
       ],
       "notes": "King St. Edward the Confessor (1042–1066) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_harold2",
@@ -805,8 +758,7 @@
         "Strutt 1779"
       ],
       "notes": "King Harold II Godwinson (1066) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_william1",
@@ -821,8 +773,7 @@
         "Strutt 1779"
       ],
       "notes": "King William I the Conqueror (1066–1087) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_william2",
@@ -837,8 +788,7 @@
         "Strutt 1779"
       ],
       "notes": "King William II Rufus (1087–1100) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_henry1",
@@ -853,8 +803,7 @@
         "Strutt 1779"
       ],
       "notes": "King Henry I Beauclerc (1100–1135) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_stephen",
@@ -869,8 +818,7 @@
         "Strutt 1779"
       ],
       "notes": "King Stephen of Blois (1135–1154) (William Howell 1685, Strutt 1779).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_henry2",
@@ -884,8 +832,7 @@
         "William Howell 1685"
       ],
       "notes": "King Henry II Plantagenet (1154–1189) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_richard1",
@@ -899,8 +846,7 @@
         "William Howell 1685"
       ],
       "notes": "King Richard I the Lionheart (1189–1199) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_john",
@@ -914,8 +860,7 @@
         "William Howell 1685"
       ],
       "notes": "King John of England (Magna Carta, 1199–1216) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_henry3",
@@ -929,8 +874,7 @@
         "William Howell 1685"
       ],
       "notes": "King Henry III (1216–1272) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_edward1",
@@ -944,8 +888,7 @@
         "William Howell 1685"
       ],
       "notes": "King Edward I Longshanks (1272–1307) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_edward2",
@@ -959,8 +902,7 @@
         "William Howell 1685"
       ],
       "notes": "King Edward II (1307–1327) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_edward3",
@@ -974,8 +916,7 @@
         "William Howell 1685"
       ],
       "notes": "King Edward III (1327–1377) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_richard2",
@@ -989,8 +930,7 @@
         "William Howell 1685"
       ],
       "notes": "King Richard II (1377–1399) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_henry4",
@@ -1004,8 +944,7 @@
         "William Howell 1685"
       ],
       "notes": "King Henry IV of Lancaster (1399–1413) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_henry5",
@@ -1019,8 +958,7 @@
         "William Howell 1685"
       ],
       "notes": "King Henry V (Agincourt, 1413–1422) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_henry6",
@@ -1034,8 +972,7 @@
         "William Howell 1685"
       ],
       "notes": "King Henry VI (1422–1461) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_edward4",
@@ -1049,8 +986,7 @@
         "William Howell 1685"
       ],
       "notes": "King Edward IV of York (1461–1483) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_richard3",
@@ -1064,8 +1000,7 @@
         "William Howell 1685"
       ],
       "notes": "King Richard III (1483–1485) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_henry7",
@@ -1079,8 +1014,7 @@
         "William Howell 1685"
       ],
       "notes": "King Henry VII Tudor (1485–1509) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_henry8",
@@ -1094,8 +1028,7 @@
         "William Howell 1685"
       ],
       "notes": "King Henry VIII (1509–1547) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_edward6",
@@ -1109,8 +1042,7 @@
         "William Howell 1685"
       ],
       "notes": "King Edward VI (1547–1553) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_mary1",
@@ -1124,8 +1056,7 @@
         "William Howell 1685"
       ],
       "notes": "Queen Mary I of England (1553–1558) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_elizabeth1",
@@ -1139,8 +1070,7 @@
         "William Howell 1685"
       ],
       "notes": "Queen Elizabeth I (1558–1603) (William Howell 1685).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_james1",
@@ -1155,8 +1085,7 @@
         "Anderson 1732"
       ],
       "notes": "King James VI & I (1603–1625, KJV Bible) (William Howell 1685, Anderson 1732).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_charles1",
@@ -1171,8 +1100,7 @@
         "Anderson 1732"
       ],
       "notes": "King Charles I (1625–1649) (William Howell 1685, Anderson 1732).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_charles2",
@@ -1187,8 +1115,7 @@
         "Anderson 1732"
       ],
       "notes": "King Charles II (Restoration, 1660–1685) (William Howell 1685, Anderson 1732).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_james2",
@@ -1203,8 +1130,7 @@
         "Anderson 1732"
       ],
       "notes": "King James II & VII (1685–1688) (William Howell 1685, Anderson 1732).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_william_mary",
@@ -1219,8 +1145,7 @@
         "Anderson 1732"
       ],
       "notes": "King William III & Queen Mary II (1689–1702) (William Howell 1685, Anderson 1732).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_queen_anne",
@@ -1235,8 +1160,7 @@
         "Anderson 1732"
       ],
       "notes": "Queen Anne (Act of Union, 1702–1714) (William Howell 1685, Anderson 1732).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_george1",
@@ -1251,8 +1175,7 @@
         "Anderson 1732"
       ],
       "notes": "King George I of Hanover (1714–1727) (William Howell 1685, Anderson 1732).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_george2",
@@ -1267,8 +1190,7 @@
         "Anderson 1732"
       ],
       "notes": "King George II (1727–1760) (William Howell 1685, Anderson 1732).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_george3",
@@ -1283,8 +1205,7 @@
         "Anderson 1732"
       ],
       "notes": "King George III (1760–1820) (William Howell 1685, Anderson 1732).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eng_victoria",
@@ -1299,8 +1220,7 @@
         "Anderson 1732"
       ],
       "notes": "Queen Victoria (1837–1901) (William Howell 1685, Anderson 1732).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_clovis1",
@@ -1314,8 +1234,7 @@
         "Mézeray History of France 1683"
       ],
       "notes": "King Clovis I of the Franks (481–511 CE) (Mézeray History of France 1683).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_chlothar1",
@@ -1329,8 +1248,7 @@
         "Mézeray History of France 1683"
       ],
       "notes": "King Chlothar I (511–561 CE) (Mézeray History of France 1683).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_dagobert1",
@@ -1344,8 +1262,7 @@
         "Mézeray History of France 1683"
       ],
       "notes": "King Dagobert I (629–639 CE) (Mézeray History of France 1683).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_charles_martel",
@@ -1360,8 +1277,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "Charles Martel (Tours, 732 CE) (Mézeray 1683, Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_pepin_short",
@@ -1376,8 +1292,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Pepin the Short (751–768 CE) (Mézeray 1683, Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_charlemagne",
@@ -1392,8 +1307,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "Emperor Charlemagne (768–814 CE) (Mézeray 1683, Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_louis_pious",
@@ -1408,8 +1322,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "Emperor Louis the Pious (814–840 CE) (Mézeray 1683, Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_charles_bald",
@@ -1424,8 +1337,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King & Emperor Charles the Bald (843–877 CE) (Mézeray 1683, Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_hugh_capet",
@@ -1439,8 +1351,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Hugh Capet (987–996 CE) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_robert2",
@@ -1454,8 +1365,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Robert II the Pious (996–1031 CE) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_henry1",
@@ -1469,8 +1379,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Henry I of France (+ Anne of Kiev, 1031–1060) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_philip1",
@@ -1484,8 +1393,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Philip I of France (1060–1108) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_louis6",
@@ -1499,8 +1407,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Louis VI the Fat (1108–1137) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_louis7",
@@ -1514,8 +1421,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Louis VII of France (1137–1180) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_philip2",
@@ -1529,8 +1435,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Philip II Augustus (1180–1223) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_louis8",
@@ -1544,8 +1449,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Louis VIII the Lion (1223–1226) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_louis9",
@@ -1559,8 +1463,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King St. Louis IX (1226–1270) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_philip4",
@@ -1574,8 +1477,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Philip IV the Fair (1285–1314) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_philip6",
@@ -1589,8 +1491,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Philip VI of Valois (1328–1350) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_charles5",
@@ -1604,8 +1505,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Charles V the Wise (1364–1380) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_charles6",
@@ -1619,8 +1519,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Charles VI (1380–1422) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_charles7_joan",
@@ -1634,8 +1533,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Charles VII & St. Joan of Arc (1422–1461) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_louis11",
@@ -1649,8 +1547,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Louis XI (1461–1483) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_francis1",
@@ -1664,8 +1561,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Francis I of France (1515–1547) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_henry2",
@@ -1679,8 +1575,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Henry II of France (1547–1559) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_charles9",
@@ -1694,8 +1589,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Charles IX (1560–1574) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_henry3",
@@ -1709,8 +1603,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Henry III of France (1574–1589) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_henry4",
@@ -1724,8 +1617,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Henry IV of Navarre (1st Bourbon, 1589–1610) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_louis13",
@@ -1739,8 +1631,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Louis XIII (1610–1643) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_louis14",
@@ -1754,8 +1645,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Louis XIV the Sun King (1643–1715) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_louis15",
@@ -1769,8 +1659,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Louis XV (1715–1774) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_louis16",
@@ -1784,8 +1673,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "King Louis XVI (1774–1792) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_fra_napoleon",
@@ -1799,8 +1687,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "Emperor Napoleon I Bonaparte (1804–1815) (Modern Universal History Vol. 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_reccared1",
@@ -1814,8 +1701,7 @@
         "Mariana General History of Spain 1699"
       ],
       "notes": "King Reccared I of the Visigoths (586–601 CE) (Mariana General History of Spain 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_roderick",
@@ -1829,8 +1715,7 @@
         "Mariana General History of Spain 1699"
       ],
       "notes": "King Roderick of Toledo (d. 711 CE) (Mariana General History of Spain 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_pelayo",
@@ -1844,8 +1729,7 @@
         "Mariana 1699"
       ],
       "notes": "King Don Pelayo of Asturias (718–737 CE) (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_alfonso3",
@@ -1859,8 +1743,7 @@
         "Mariana 1699"
       ],
       "notes": "King Alfonso III the Great of Asturias (866–910) (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_alfonso6",
@@ -1874,8 +1757,7 @@
         "Mariana 1699"
       ],
       "notes": "King Alfonso VI of Castile & Leon (1065–1109) (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_el_cid",
@@ -1889,8 +1771,7 @@
         "Mariana 1699"
       ],
       "notes": "Rodrigo Díaz de Vivar ('El Cid Campeador', d. 1099) (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_alfonso8",
@@ -1904,8 +1785,7 @@
         "Mariana 1699"
       ],
       "notes": "King Alfonso VIII of Castile (Las Navas de Tolosa) (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_ferdinand3",
@@ -1919,8 +1799,7 @@
         "Mariana 1699"
       ],
       "notes": "King St. Ferdinand III of Castile & Leon (1217–1252) (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_alfonso10",
@@ -1934,8 +1813,7 @@
         "Mariana 1699"
       ],
       "notes": "King Alfonso X the Wise of Castile (1252–1284) (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_isabella_ferdinand",
@@ -1949,8 +1827,7 @@
         "Mariana 1699"
       ],
       "notes": "Queen Isabella I of Castile & King Ferdinand II of Aragon (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_charles5",
@@ -1964,8 +1841,7 @@
         "Mariana 1699"
       ],
       "notes": "Emperor Charles V / Charles I of Spain (1516–1556) (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_philip2",
@@ -1979,8 +1855,7 @@
         "Mariana 1699"
       ],
       "notes": "King Philip II of Spain & Portugal (1556–1598) (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_philip3",
@@ -1994,8 +1869,7 @@
         "Mariana 1699"
       ],
       "notes": "King Philip III of Spain (1598–1621) (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_philip4",
@@ -2009,8 +1883,7 @@
         "Mariana 1699"
       ],
       "notes": "King Philip IV of Spain (1621–1665) (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_esp_philip5",
@@ -2024,8 +1897,7 @@
         "Mariana 1699"
       ],
       "notes": "King Philip V of Spain (1st Bourbon of Spain, 1700) (Mariana 1699).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_afonso1",
@@ -2040,8 +1912,7 @@
         "History of Portugal 1661"
       ],
       "notes": "King Afonso I Henriques (1139–1185) (Sandford 1662, History of Portugal 1661).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_sancho1",
@@ -2056,8 +1927,7 @@
         "History of Portugal 1661"
       ],
       "notes": "King Sancho I the Populator (1185–1211) (Sandford 1662, History of Portugal 1661).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_dinis",
@@ -2072,8 +1942,7 @@
         "History of Portugal 1661"
       ],
       "notes": "King Dinis the Farmer-Poet (1279–1325) (Sandford 1662, History of Portugal 1661).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_john1",
@@ -2088,8 +1957,7 @@
         "Portuguese Asia"
       ],
       "notes": "King John I of Aviz (1385–1433) (History of Portugal 1661 & 1726, Portuguese Asia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_henry_nav",
@@ -2104,8 +1972,7 @@
         "Portuguese Asia"
       ],
       "notes": "Infante Prince Henry the Navigator (1394–1460) (History of Portugal 1661 & 1726, Portuguese Asia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_afonso5",
@@ -2120,8 +1987,7 @@
         "Portuguese Asia"
       ],
       "notes": "King Afonso V the African (1438–1481) (History of Portugal 1661 & 1726, Portuguese Asia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_john2",
@@ -2136,8 +2002,7 @@
         "Portuguese Asia"
       ],
       "notes": "King John II the Perfect Prince (1481–1495) (History of Portugal 1661 & 1726, Portuguese Asia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_manuel1",
@@ -2152,8 +2017,7 @@
         "Portuguese Asia"
       ],
       "notes": "King Manuel I the Fortunate (1495–1521) (History of Portugal 1661 & 1726, Portuguese Asia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_john3",
@@ -2168,8 +2032,7 @@
         "Portuguese Asia"
       ],
       "notes": "King John III of Portugal (1521–1557) (History of Portugal 1661 & 1726, Portuguese Asia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_sebastian",
@@ -2184,8 +2047,7 @@
         "Portuguese Asia"
       ],
       "notes": "King Sebastian I of Portugal (1557–1578) (History of Portugal 1661 & 1726, Portuguese Asia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_john4",
@@ -2199,8 +2061,7 @@
         "History of Portugal 1726"
       ],
       "notes": "King John IV the Restorer (1640–1656) (History of Portugal 1726).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_peter2",
@@ -2214,8 +2075,7 @@
         "History of Portugal 1726"
       ],
       "notes": "King Peter II of Portugal (1683–1706) (History of Portugal 1726).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_por_john5",
@@ -2229,8 +2089,7 @@
         "History of Portugal 1726"
       ],
       "notes": "King John V the Magnanimous (1706–1750) (History of Portugal 1726).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_hre_otto1",
@@ -2245,8 +2104,7 @@
         "Mascou 1737"
       ],
       "notes": "Emperor Otto I the Great (962–973 CE, HRE) (Modern Universal History Vols. 10-11, Mascou 1737).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_hre_henry4",
@@ -2261,8 +2119,7 @@
         "Mascou 1737"
       ],
       "notes": "Emperor Henry IV (1056–1105 CE) (Modern Universal History Vols. 10-11, Mascou 1737).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_hre_barbarossa",
@@ -2277,8 +2134,7 @@
         "Mascou 1737"
       ],
       "notes": "Emperor Frederick I Barbarossa (1155–1190 CE) (Modern Universal History Vols. 10-11, Mascou 1737).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_hre_frederick2",
@@ -2293,8 +2149,7 @@
         "Mascou 1737"
       ],
       "notes": "Emperor Frederick II Hohenstaufen (1220–1250 CE) (Modern Universal History Vols. 10-11, Mascou 1737).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_hre_rudolf1",
@@ -2309,8 +2164,7 @@
         "Mascou 1737"
       ],
       "notes": "King Rudolf I of Habsburg (1273–1291 CE) (Modern Universal History Vols. 10-11, Mascou 1737).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_hre_maximilian1",
@@ -2325,8 +2179,7 @@
         "Mascou 1737"
       ],
       "notes": "Emperor Maximilian I of Habsburg (1493–1519) (Modern Universal History Vols. 10-11, Mascou 1737).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_hre_leopold1",
@@ -2341,8 +2194,7 @@
         "Mascou 1737"
       ],
       "notes": "Emperor Leopold I of Habsburg (1658–1705) (Modern Universal History Vols. 10-11, Mascou 1737).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_hre_maria_theresa",
@@ -2357,8 +2209,7 @@
         "Mascou 1737"
       ],
       "notes": "Empress Maria Theresa of Austria (1740–1780) (Modern Universal History Vols. 10-11, Mascou 1737).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_hre_frederick_great",
@@ -2373,8 +2224,7 @@
         "Mascou 1737"
       ],
       "notes": "King Frederick II the Great of Prussia (1740–1786) (Modern Universal History Vols. 10-11, Mascou 1737).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rus_nevsky",
@@ -2388,8 +2238,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Grand Prince St. Alexander Nevsky (1221–1263 CE) (Modern Universal History Vol. 13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rus_kalita",
@@ -2403,8 +2252,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Grand Prince Ivan I Kalita of Moscow (1325–1340) (Modern Universal History Vol. 13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rus_donskoy",
@@ -2418,8 +2266,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Grand Prince Dmitry Donskoy (Kulikovo, 1380 CE) (Modern Universal History Vol. 13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rus_ivan3",
@@ -2433,8 +2280,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Grand Prince Ivan III the Great (1462–1505) (Modern Universal History Vol. 13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rus_vasili3",
@@ -2448,8 +2294,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Grand Prince Vasili III of Moscow (1505–1533) (Modern Universal History Vol. 13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rus_ivan4",
@@ -2463,8 +2308,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Tsar Ivan IV the Terrible (1st Tsar of All Russia, 1547) (Modern Universal History Vol. 13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rus_boris_godunov",
@@ -2478,8 +2322,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Tsar Boris Godunov (1598–1605) (Modern Universal History Vol. 13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rus_michael1",
@@ -2493,8 +2336,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Tsar Michael I Romanov (1613–1645) (Modern Universal History Vol. 13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rus_alexis1",
@@ -2508,8 +2350,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Tsar Alexis I Mikhailovich (1645–1676) (Modern Universal History Vol. 13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rus_peter1",
@@ -2523,8 +2364,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Emperor Peter I the Great (1682–1725) (Modern Universal History Vol. 13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rus_elizabeth",
@@ -2538,8 +2378,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Empress Elizabeth Petrovna of Russia (1741–1762) (Modern Universal History Vol. 13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_rus_catherine2",
@@ -2553,8 +2392,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Empress Catherine II the Great (1762–1796) (Modern Universal History Vol. 13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_osman1",
@@ -2568,8 +2406,7 @@
         "Knolles & Rycaut The Turkish History Vols. 1-3"
       ],
       "notes": "Sultan Osman I (Founder of Ottoman Empire, 1299–1324) (Knolles & Rycaut The Turkish History Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_orhan",
@@ -2583,8 +2420,7 @@
         "Knolles & Rycaut The Turkish History Vols. 1-3"
       ],
       "notes": "Sultan Orhan Ghazi (1324–1362) (Knolles & Rycaut The Turkish History Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_murad1",
@@ -2598,8 +2434,7 @@
         "Knolles & Rycaut The Turkish History Vols. 1-3"
       ],
       "notes": "Sultan Murad I (1362–1389) (Knolles & Rycaut The Turkish History Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_bayezid1",
@@ -2613,8 +2448,7 @@
         "Knolles & Rycaut The Turkish History Vols. 1-3"
       ],
       "notes": "Sultan Bayezid I Yildirim (1389–1402) (Knolles & Rycaut The Turkish History Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_mehmed1",
@@ -2628,8 +2462,7 @@
         "Knolles & Rycaut The Turkish History Vols. 1-3"
       ],
       "notes": "Sultan Mehmed I Celebi (1413–1421) (Knolles & Rycaut The Turkish History Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_murad2",
@@ -2643,8 +2476,7 @@
         "Knolles & Rycaut The Turkish History Vols. 1-3"
       ],
       "notes": "Sultan Murad II (1421–1451) (Knolles & Rycaut The Turkish History Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_mehmed2",
@@ -2658,8 +2490,7 @@
         "Knolles & Rycaut Vols. 1-3"
       ],
       "notes": "Sultan Mehmed II Fatih (1451–1481) (Knolles & Rycaut Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_bayezid2",
@@ -2673,8 +2504,7 @@
         "Knolles & Rycaut Vols. 1-3"
       ],
       "notes": "Sultan Bayezid II (1481–1512) (Knolles & Rycaut Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_selim1",
@@ -2688,8 +2518,7 @@
         "Knolles & Rycaut Vols. 1-3"
       ],
       "notes": "Sultan Selim I Yavuz (1512–1520) (Knolles & Rycaut Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_suleiman1",
@@ -2703,8 +2532,7 @@
         "Knolles & Rycaut Vols. 1-3"
       ],
       "notes": "Sultan Suleiman I the Magnificent (1520–1566) (Knolles & Rycaut Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_selim2",
@@ -2718,8 +2546,7 @@
         "Knolles & Rycaut Vols. 1-3"
       ],
       "notes": "Sultan Selim II (1566–1574) (Knolles & Rycaut Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_murad3",
@@ -2733,8 +2560,7 @@
         "Knolles & Rycaut Vols. 1-3"
       ],
       "notes": "Sultan Murad III (1574–1595) (Knolles & Rycaut Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_ahmed1",
@@ -2748,8 +2574,7 @@
         "Knolles & Rycaut Vols. 1-3"
       ],
       "notes": "Sultan Ahmed I (Blue Mosque, 1603–1617) (Knolles & Rycaut Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_murad4",
@@ -2763,8 +2588,7 @@
         "Knolles & Rycaut Vols. 1-3"
       ],
       "notes": "Sultan Murad IV (1623–1640) (Knolles & Rycaut Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_mehmed4",
@@ -2778,8 +2602,7 @@
         "Knolles & Rycaut Vols. 1-3"
       ],
       "notes": "Sultan Mehmed IV (1648–1687) (Knolles & Rycaut Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ott_mahmud2",
@@ -2793,8 +2616,7 @@
         "Knolles & Rycaut Vols. 1-3"
       ],
       "notes": "Sultan Mahmud II (1808–1839) (Knolles & Rycaut Vols. 1-3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_abubakr",
@@ -2810,8 +2632,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Caliph Abu Bakr al-Siddiq (1st Rashidun Caliph, 632–634) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_umar",
@@ -2827,8 +2648,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Caliph Umar ibn al-Khattab (634–644 CE) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_uthman",
@@ -2844,8 +2664,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Caliph Uthman ibn Affan (644–656 CE) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_ali",
@@ -2861,8 +2680,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Caliph Ali ibn Abi Talib (656–661 CE) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_muawiya1",
@@ -2878,8 +2696,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Caliph Mu'awiya I (Umayyad Founder, 661–680) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_abd_al_malik",
@@ -2895,8 +2712,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Caliph Abd al-Malik (Dome of the Rock, 685–705) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_al_mansur",
@@ -2912,8 +2728,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Caliph Al-Mansur (Founder of Baghdad, 754–775) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_harun_rashid",
@@ -2929,8 +2744,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Caliph Harun al-Rashid (House of Wisdom, 786–809) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_al_mamun",
@@ -2946,8 +2760,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Caliph Al-Ma'mun (813–833 CE) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_abdarrahman1",
@@ -2963,8 +2776,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Emir Abd al-Rahman I of Cordoba (756–788) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_abdarrahman3",
@@ -2980,8 +2792,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Caliph Abd al-Rahman III of Cordoba (912–961) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_saladin",
@@ -2997,8 +2808,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Sultan Saladin (Salah ad-Din al-Ayyubi, 1174–1193) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_baybars",
@@ -3014,8 +2824,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Mamluk Sultan Baybars I (1260–1277) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_isl_mahmud_ghazni",
@@ -3031,8 +2840,7 @@
         "Ibn 'Abd al-Hakam"
       ],
       "notes": "Sultan Mahmud of Ghazni (998–1030) (Al-Tabari, Modern Universal History Vols. 1-2, Ibn 'Abd al-Hakam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ir_shah_ismail1",
@@ -3047,8 +2855,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Shah Ismail I (Founder of Safavid Persia, 1501–1524) (Persian Chronicles, Modern Universal History Vol. 4).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ir_tahmasp1",
@@ -3063,8 +2870,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Shah Tahmasp I (1524–1576) (Persian Chronicles, Modern Universal History Vol. 4).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ir_abbas1",
@@ -3079,8 +2885,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Shah Abbas I the Great (Isfahan, 1588–1629) (Persian Chronicles, Modern Universal History Vol. 4).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ir_nader_shah",
@@ -3095,8 +2900,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Nader Shah Afshar (1736–1747) (Persian Chronicles, Modern Universal History Vol. 4).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ir_karim_khan",
@@ -3111,8 +2915,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Karim Khan Zand (1751–1779) (Persian Chronicles, Modern Universal History Vol. 4).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ir_agha_mohammad",
@@ -3127,8 +2930,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Agha Mohammad Khan Qajar (Founder of Qajar Iran, 1789) (Persian Chronicles, Modern Universal History Vol. 4).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_mug_babur_ind",
@@ -3143,8 +2945,7 @@
         "Abulghazi"
       ],
       "notes": "Emperor Babur (1526–1530, Panipat) (Modern Universal History Vol. 3, Abulghazi).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_mug_humayun_ind",
@@ -3159,8 +2960,7 @@
         "Abulghazi"
       ],
       "notes": "Emperor Humayun (1530–1556) (Modern Universal History Vol. 3, Abulghazi).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_mug_akbar_ind",
@@ -3175,8 +2975,7 @@
         "Abulghazi"
       ],
       "notes": "Emperor Akbar the Great (1556–1605) (Modern Universal History Vol. 3, Abulghazi).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_mug_jahangir_ind",
@@ -3191,8 +2990,7 @@
         "Abulghazi"
       ],
       "notes": "Emperor Jahangir (1605–1627) (Modern Universal History Vol. 3, Abulghazi).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_mug_shahjahan_ind",
@@ -3207,8 +3005,7 @@
         "Abulghazi"
       ],
       "notes": "Emperor Shah Jahan (Taj Mahal, 1628–1658) (Modern Universal History Vol. 3, Abulghazi).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_mug_aurangzeb_ind",
@@ -3223,8 +3020,7 @@
         "Abulghazi"
       ],
       "notes": "Emperor Aurangzeb Alamgir (1658–1707) (Modern Universal History Vol. 3, Abulghazi).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ind_harsha",
@@ -3239,8 +3035,7 @@
         "Modern Universal History Vol. 3"
       ],
       "notes": "Emperor Harshavardhana of Kannauj (606–647 CE) (Indian Royal Chronicles, Modern Universal History Vol. 3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ind_rajaraja1",
@@ -3255,8 +3050,7 @@
         "Modern Universal History Vol. 3"
       ],
       "notes": "Rajaraja Chola I (Thanjavur Brihadisvara, 985–1014) (Indian Royal Chronicles, Modern Universal History Vol. 3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ind_rajendra1",
@@ -3271,8 +3065,7 @@
         "Modern Universal History Vol. 3"
       ],
       "notes": "Rajendra Chola I (1014–1044) (Indian Royal Chronicles, Modern Universal History Vol. 3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ind_krishnadevaraya",
@@ -3287,8 +3080,7 @@
         "Modern Universal History Vol. 3"
       ],
       "notes": "Emperor Krishnadevaraya of Vijayanagara (1509–1529) (Indian Royal Chronicles, Modern Universal History Vol. 3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ind_shivaji",
@@ -3303,8 +3095,7 @@
         "Modern Universal History Vol. 3"
       ],
       "notes": "Chhatrapati Shivaji Bhonsle (Founder of Maratha Empire, 1674) (Indian Royal Chronicles, Modern Universal History Vol. 3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_ind_ranjit_singh",
@@ -3319,8 +3110,7 @@
         "Modern Universal History Vol. 3"
       ],
       "notes": "Maharaja Ranjit Singh (Founder of Sikh Empire, 1799–1839) (Indian Royal Chronicles, Modern Universal History Vol. 3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eth_ezana",
@@ -3335,8 +3125,7 @@
         "Kebra Nagast"
       ],
       "notes": "Emperor Ezana of Aksum (Christianized Aksum, 4th c.) (Hiob Ludolf 1684, Kebra Nagast).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eth_kaleb",
@@ -3351,8 +3140,7 @@
         "Kebra Nagast"
       ],
       "notes": "Emperor Kaleb / Elesbaan of Aksum (c. 520 CE) (Hiob Ludolf 1684, Kebra Nagast).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eth_lalibela",
@@ -3367,8 +3155,7 @@
         "Kebra Nagast"
       ],
       "notes": "King Gebre Mesqel Lalibela (Rock Churches, 12th c.) (Hiob Ludolf 1684, Kebra Nagast).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eth_yekuno_amlak",
@@ -3383,8 +3170,7 @@
         "Kebra Nagast"
       ],
       "notes": "Emperor Yekuno Amlak (Solomonic Restoration, 1270) (Hiob Ludolf 1684, Kebra Nagast).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eth_zara_yaqob",
@@ -3399,8 +3185,7 @@
         "Kebra Nagast"
       ],
       "notes": "Emperor Zara Yaqob (1434–1468) (Hiob Ludolf 1684, Kebra Nagast).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eth_lebna_dengel",
@@ -3415,8 +3200,7 @@
         "Kebra Nagast"
       ],
       "notes": "Emperor Lebna Dengel (1508–1540) (Hiob Ludolf 1684, Kebra Nagast).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eth_galawdewos",
@@ -3431,8 +3215,7 @@
         "Kebra Nagast"
       ],
       "notes": "Emperor Galawdewos (1540–1559) (Hiob Ludolf 1684, Kebra Nagast).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eth_susenyos",
@@ -3447,8 +3230,7 @@
         "Kebra Nagast"
       ],
       "notes": "Emperor Susenyos I (1607–1632) (Hiob Ludolf 1684, Kebra Nagast).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eth_fasilides",
@@ -3463,8 +3245,7 @@
         "Kebra Nagast"
       ],
       "notes": "Emperor Fasilides (Founder of Gondar, 1632–1667) (Hiob Ludolf 1684, Kebra Nagast).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eth_tewodros2",
@@ -3479,8 +3260,7 @@
         "Kebra Nagast"
       ],
       "notes": "Emperor Tewodros II (1855–1868) (Hiob Ludolf 1684, Kebra Nagast).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_eth_menelik2",
@@ -3495,8 +3275,7 @@
         "Kebra Nagast"
       ],
       "notes": "Emperor Menelik II (Battle of Adwa, 1896) (Hiob Ludolf 1684, Kebra Nagast).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_afr_mansa_musa",
@@ -3510,8 +3289,7 @@
         "Tarikh es-Soudan"
       ],
       "notes": "Mansa Musa I of Mali (Pilgrimage 1324 CE) (Tarikh es-Soudan).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_afr_sonni_ali",
@@ -3525,8 +3303,7 @@
         "Tarikh es-Soudan"
       ],
       "notes": "Emperor Sonni Ali of Songhai (1464–1492) (Tarikh es-Soudan).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mon_afr_askia_mohammed",
@@ -3540,8 +3317,7 @@
         "Tarikh es-Soudan"
       ],
       "notes": "Emperor Askia Mohammed I the Great (1493–1528) (Tarikh es-Soudan).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

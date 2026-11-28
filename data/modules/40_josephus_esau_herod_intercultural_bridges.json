@@ -18,8 +18,7 @@
         "Pseudo-Philo Ch. 58"
       ],
       "notes": "Captured by King Saul and executed by Samuel; Pseudo-Philo Ch. 58 & Rabbinic Targum record Agag siring an heir before death whose line produced Haman the Agagite.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_hammedatha",
@@ -34,8 +33,7 @@
         "Flavius Josephus Antiquities XI.6.5"
       ],
       "notes": "Amalekite-Agagite noble of the house of King Agag; father of Haman.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_haman_amalekite",
@@ -52,8 +50,7 @@
         "Book of Esther 3 & 9"
       ],
       "notes": "Josephus explicitly calls Haman 'by birth an Amalekite' (Ant. XI.6.5) — connecting Esau's grandson Amalek and King Agag straight into the Achaemenid Persian court opposite Benjaminite Mordecai & Queen Esther!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jos_zeresh",
@@ -68,8 +65,7 @@
         "Flavius Josephus Antiquities XI.6"
       ],
       "notes": "Advised Haman to erect the gallows for Mordecai; mother of Haman's ten named sons.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_herod_remaining_wives",
@@ -84,8 +80,7 @@
         "Wars I.28.4"
       ],
       "notes": "Son of Herod the Great by Pallas, named after Herod's slain elder brother Phasael.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_herod_armenia_cilicia",
@@ -102,8 +97,7 @@
         "Tacitus Annals VI.40"
       ],
       "notes": "Son of Herodian Prince Alexander and Cappadocian princess Glaphyra; ruled Armenia as Rome's client king Tigranes V.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jos_alexander2_herod",
@@ -117,8 +111,7 @@
         "Flavius Josephus Antiquities XVIII.5.4"
       ],
       "notes": "Younger son of Prince Alexander and Glaphyra of Cappadocia; father of King Tigranes VI of Armenia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_tigranes6_armenia",
@@ -135,8 +128,7 @@
         "Tacitus Annals XIV.26"
       ],
       "notes": "Appointed King of Armenia by Emperor Nero; father of King Gaius Julius Alexander of Cetis/Cilicia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_iotape_commagene",
@@ -151,8 +143,7 @@
         "Josephus Wars VII.7"
       ],
       "notes": "Daughter of King Antiochus IV of Commagene; married King Gaius Julius Alexander of Cilicia, joining Commagene and Herodian/Hasmonean lines.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_gj_alexander_cilicia",
@@ -169,8 +160,7 @@
         "OGIS 429"
       ],
       "notes": "Son of King Tigranes VI of Armenia; married Princess Iotape of Commagene and fathered Roman suffect consuls Gaius Julius Agrippa and Gaius Julius Alexander Berenicianus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_gj_agrippa",
@@ -185,8 +175,7 @@
         "Josephus Antiquities XVIII.5.4"
       ],
       "notes": "Elder son of King Gaius Julius Alexander of Cilicia and Iotape of Commagene; entered the Roman Senate.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_gj_berenicianus",
@@ -201,8 +190,7 @@
         "Josephus Antiquities XVIII.5.4"
       ],
       "notes": "Younger son of Gaius Julius Alexander & Iotape of Commagene; became Roman suffect consul (116 CE) and Proconsul of Asia (132/3 CE), fathering Julia Cassia Alexandra.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_herod_emesa_rome",
@@ -218,8 +206,7 @@
         "Flavius Josephus Antiquities XX.7.1"
       ],
       "notes": "Accepted circumcision in order to wed Herod Agrippa I's daughter Drusilla, linking Emesa's royal priesthood with the Herodian house.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_tobias_father",
@@ -235,8 +222,7 @@
         "Flavius Josephus Antiquities XII.4.2 (p.654)"
       ],
       "notes": "Married the sister of High Priest Onias II; father of powerful Judean statesman Joseph ben Tobias.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_joseph_tobiad",
@@ -250,8 +236,7 @@
         "Flavius Josephus Antiquities XII.4"
       ],
       "notes": "Won Ptolemy III/IV's royal tax-farming contract for Coele-Syria, Phoenicia & Judea; fathered 7 elder sons plus Hyrcanus by his niece (daughter of brother Solymius).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_hyrcanus_tobiad",
@@ -265,8 +250,7 @@
         "Flavius Josephus Antiquities XII.4.6–11"
       ],
       "notes": "Son of Joseph ben Tobias; built the monumental Hellenistic fortress-palace of Tyre/Qasr al-Abd east of the Jordan before Antioch IV's accession.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_nabopolassar",
@@ -281,8 +265,7 @@
         "Babylonian Chronicles"
       ],
       "notes": "Chaldean founder of the Neo-Babylonian Dynasty cited verbatim by Josephus from Berossus; father of Nebuchadnezzar II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_nebuchadnezzar2",
@@ -298,8 +281,7 @@
         "Josephus Against Apion I.19–20"
       ],
       "notes": "Son of Nabopolassar; captured Jerusalem (597 & 586 BCE), exiled King Jehoiachin, and married Median princess Amytis.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jos_evil_merodach",
@@ -316,8 +298,7 @@
         "Josephus Against Apion I.20 (Berossus)"
       ],
       "notes": "Son and successor of Nebuchadnezzar II; elevated exiled Judahite King Jehoiachin out of prison before being assassinated by brother-in-law Neriglissar.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_neriglissar",
@@ -334,8 +315,7 @@
         "Josephus Against Apion I.20 (Berossus)"
       ],
       "notes": "Married a daughter of Nebuchadnezzar II and reigned 4 years after Amel-Marduk.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_labashi_marduk",
@@ -349,8 +329,7 @@
         "Josephus Against Apion I.20 (Berossus)"
       ],
       "notes": "Son of Neriglissar and grandson of Nebuchadnezzar II; ruled nine months before conspirators raised Nabonidus to the throne.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_nabonidus",
@@ -365,8 +344,7 @@
         "Nabonidus Chronicle"
       ],
       "notes": "Last Babylonian king (defeated by Cyrus the Great in 539 BCE); stationed in Tema while his eldest son Belshazzar governed Babylon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_belshazzar",
@@ -381,8 +359,7 @@
         "Nabonidus Cylinder of Ur"
       ],
       "notes": "Eldest son of Nabonidus and acting co-regent in Babylon on the night Cyrus's forces entered the city.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_esau_edom_rome_bridge",
@@ -402,8 +379,7 @@
         "Ibn Ezra Gen 27"
       ],
       "notes": "Explains why Jewish, Sefer ha-Yashar (Zepho/Janus king of Kittim/Rome), and early Islamic (Banu al-Asfar / al-Rum descended from Esau) traditions link Rome and Byzantium spiritually and genealogically to Esau.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jos_haman_son_01_parshandatha",
@@ -418,8 +394,7 @@
         "Flavius Josephus Antiquities XI.6"
       ],
       "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_haman_son_02_dalphon",
@@ -434,8 +409,7 @@
         "Flavius Josephus Antiquities XI.6"
       ],
       "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_haman_son_03_aspatha",
@@ -450,8 +424,7 @@
         "Flavius Josephus Antiquities XI.6"
       ],
       "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_haman_son_04_poratha",
@@ -466,8 +439,7 @@
         "Flavius Josephus Antiquities XI.6"
       ],
       "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_haman_son_05_adalia",
@@ -482,8 +454,7 @@
         "Flavius Josephus Antiquities XI.6"
       ],
       "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_haman_son_06_aridatha",
@@ -498,8 +469,7 @@
         "Flavius Josephus Antiquities XI.6"
       ],
       "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_haman_son_07_parmashta",
@@ -514,8 +484,7 @@
         "Flavius Josephus Antiquities XI.6"
       ],
       "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_haman_son_08_arisai",
@@ -530,8 +499,7 @@
         "Flavius Josephus Antiquities XI.6"
       ],
       "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_haman_son_09_aridai",
@@ -546,8 +514,7 @@
         "Flavius Josephus Antiquities XI.6"
       ],
       "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_haman_son_10_vaizatha",
@@ -562,8 +529,7 @@
         "Flavius Josephus Antiquities XI.6"
       ],
       "notes": "One of the ten named Amalekite sons of Haman ben Hammedatha and Zeresh slain at Susa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_sparta_areus_abraham",
@@ -581,8 +547,7 @@
         "1 Maccabees 12:20–23"
       ],
       "notes": "Agiad King of Sparta whose sealed letter to High Priest Onias declared: 'It has been found in writing that the Spartans and the Jews are brethren, and that they are of the stock of Abraham!' Graduates classical Sparta into Biblically Connected!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jos_sparta_lycurgus",
@@ -598,8 +563,7 @@
         "Josephus Against Apion II.31"
       ],
       "notes": "Established Sparta's dual kingship, Gerousia, and constitution praised by Josephus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_sparta_lycurgus_leonidas",
@@ -617,8 +581,7 @@
         "Josephus Antiquities XII.4.10"
       ],
       "notes": "Agiad King of Sparta who fell defending Thermopylae with 300 Spartans; ancestor of King Areus I.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jos_sparta_gorgo",
@@ -633,8 +596,7 @@
         "Plutarch Sayings of Spartan Women"
       ],
       "notes": "Daughter of Agiad King Cleomenes I and wife of half-uncle King Leonidas I; mother of King Pleistarchus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_sparta_agesilaus2",
@@ -649,8 +611,7 @@
         "Plutarch Life of Agesilaus"
       ],
       "notes": "Eurypontid King of Sparta who campaigned in Anatolia and Egypt.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_sparta_cleomenes3",
@@ -665,8 +626,7 @@
         "Polybius II"
       ],
       "notes": "Son of Leonidas II (from Areus I's Agiad house) who revived Lycurgan reforms.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_cleodemus_heracles_africa",
@@ -683,8 +643,7 @@
         "Flavius Josephus Antiquities I.15 (quoting Alexander Polyhistor / Cleodemus Malchus)"
       ],
       "notes": "Josephus Ant. I.15 preserves Cleodemus Malchus: Abraham's grandson Epher/Apher conquered Libya (giving Africa its name) and gave his daughter in marriage to Heracles!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jos_diodorus_heracles",
@@ -698,8 +657,7 @@
         "Flavius Josephus Antiquities I.15 (Cleodemus Malchus)"
       ],
       "notes": "Born to Heracles and Abraham's granddaughter (Apher's daughter); father of Sophax.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_sophax",
@@ -714,8 +672,7 @@
         "Plutarch Life of Sertorius 9"
       ],
       "notes": "Eponymous sovereign of Libya/Mauretania descended from Abraham via Keturah/Epher & Heracles; ancestor claimed by King Juba II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_juba2",
@@ -730,8 +687,7 @@
         "Josephus Ant. I.15, XVII.13.4"
       ],
       "notes": "Scholar-king of Mauretania (+ Cleopatra Selene, daughter of Cleopatra VII; later husband of Herodian widow Glaphyra!) claiming ancestry from Sophax -> Diodorus -> Heracles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_moses_tharbis",
@@ -747,8 +703,7 @@
         "Flavius Josephus Antiquities II.10.2 (pp.152–154)"
       ],
       "notes": "Josephus recounts how Moses commanded Egypt's army against Ethiopia using stork/ibis baskets against serpents, besieged Saba (Meroe), and wed Ethiopian royal princess Tharbis (matching the 'Cushite woman' of Numbers 12:1).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_monobazus1",
@@ -762,8 +717,7 @@
         "Flavius Josephus Antiquities XX.2.1 (p.1069)"
       ],
       "notes": "King of Adiabene (ancient Assyria/Erbil) and father of Kings Izates II and Monobazus II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_adiabene_helena_izates",
@@ -779,8 +733,7 @@
         "Flavius Josephus Antiquities XX.2–4 (pp.1069–1075)"
       ],
       "notes": "Converted to Judaism with her son King Izates II, fed Jerusalem during the famine of Acts 11:28, and built the monumental Tomb of the Kings in Jerusalem.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jos_izates2",
@@ -794,8 +747,7 @@
         "Flavius Josephus Antiquities XX.2–4"
       ],
       "notes": "Son of Monobazus I & Queen Helena; married Symacho (daughter of King Abennerig of Charax Spasini) and fathered five sons educated in Jerusalem.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jos_monobazus2",
@@ -810,8 +762,7 @@
         "Wars II.19.2"
       ],
       "notes": "Elder brother of Izates II who also converted to Judaism and sent kinsmen Monobazus and Kenedeus to aid Jerusalem.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "alias_abraham_cross",
@@ -833,8 +784,7 @@
         "Post-Medieval Syncretists"
       ],
       "notes": "Maps how Abraham appears across world traditions: Hebrew Abram/Abraham; Arabic Prophet Ibrahim (Ibn Kathir / Sirah); Berossus's 'righteous Chaldean skilled in heavenly lore' (Ant. I.7.2); Cleodemus's grandfather-in-law of Heracles & ancestor of Africa (Ant. I.15); Spartan kindred charter (1 Macc 12:21); and 17th-c. folkloric comparison of Abraham/Sarah <-> Brahma/Saraswati.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "alias_moses_cross",
@@ -856,8 +806,7 @@
         "Book of Jasher 73"
       ],
       "notes": "Unites Moses's names across ancient accounts: Hebrew Moshe; Quranic Prophet Musa; Egyptian priest-chronicler Manetho's Osarseph; Greco-Jewish Artapanus's Musaeus (teacher of Orpheus & Hermes); Book of Jasher's 40-year King of Cush (+ Adoniah); and Josephus's victorious Egyptian general (+ Tharbis).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "alias_noah_cross",
@@ -881,8 +830,7 @@
         "Bar Hebraeus"
       ],
       "notes": "Side-by-side comparison showing Noah's exact equivalents/parallels: Sumerian Ziusudra, Akkadian Atrahasis/Utnapishtim, Berossus's Xisuthros, Indian Vaivasvata Manu, Avestan Yima, Greek Deucalion & Ogyges, 18th-c. Janus/Oenotrus (Betham/Anderson), and Jesuit Figurist Fuxi.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "alias_enoch_cross",
@@ -905,8 +853,7 @@
         "Mesopotamian SKL (Enmeduranki)"
       ],
       "notes": "Tracks how the 7th Patriarch Enoch (inventor of writing & calendar in Jubilees 4:17) is identified in Coptic-Arabic chronicles with King Saurid (builder of Great Pyramids), in Hermeticism with Thoth/Hermes Trismegistus, in Islam with Prophet Idris, and compared structurally with Enmeduranki of Sippar.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "alias_nimrod_cross",
@@ -928,8 +875,7 @@
         "Samuel Johnson History of the Yorubas"
       ],
       "notes": "Maps Nimrod son of Cush across chronicles: Latin Vulgate/Dutripon Belus; classical Ninus of Nineveh; Persian/Arabic tyrants Zuhhak/Al-Dahhak (Tabari); and West African Yoruba chronicle ancestor Lamurudu -> Oduduwa.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "alias_joseph_solomon_cross",
@@ -950,8 +896,7 @@
         "Quran / Ibn Kathir"
       ],
       "notes": "Collects Joseph's Egyptian court title Zaphenath-Paneah (Arabic Yusuf, and 7-year-famine vizier parallel to Djoser's Imhotep) alongside Solomon (Sulayman), revered across Jerusalem, Aksumite Ethiopia (Menelik I), Yemen (Sheba/Bilqis), and Tadmor/Palmyra.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     }
   ],
   "edges": [

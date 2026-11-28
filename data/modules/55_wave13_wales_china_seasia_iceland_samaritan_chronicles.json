@@ -15,8 +15,7 @@
         "Brut y Tywysogion (Chronicle of the Princes)"
       ],
       "notes": "Root patriarch of the Coeling dynasties of Rheged, Elmet, Ebrauc, and Gododdin across Skene's Four Ancient Books of Wales.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cel13_urien_rheged",
@@ -31,8 +30,7 @@
         "Brut y Tywysogion (Chronicle of the Princes)"
       ],
       "notes": "Foremost northern British king celebrated in Taliesin's awdlau and Skene's Book of Taliesin; led coalition at Lindisfarne.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cel13_taliesin_bard",
@@ -47,8 +45,7 @@
         "Brut y Tywysogion (Chronicle of the Princes)"
       ],
       "notes": "Composed historical praise poems preserved in Peniarth MS 2 (The Book of Taliesin, Skene Vol. 1).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_aneirin_gododdin",
@@ -63,8 +60,7 @@
         "Brut y Tywysogion (Chronicle of the Princes)"
       ],
       "notes": "Commemorated the 300 Brythonic warriors of Catraeth in the Book of Aneirin (Skene Vol. 1).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_riderch_hael_strathclyde",
@@ -80,8 +76,7 @@
         "W.F. Skene, Chronicles of the Picts and Scots"
       ],
       "notes": "Descendant of Dyfnwal Hen and contemporary of St. Kentigern (Mungo) and Urien Rheged.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_llywarch_hen_powys",
@@ -96,8 +91,7 @@
         "Brut y Tywysogion (Chronicle of the Princes)"
       ],
       "notes": "Grandson of Meirchion Gul whose surviving englynion mourn his twenty-four sons on the Welsh border.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_idwal_iwrch_roderick",
@@ -112,8 +106,7 @@
         "Brut y Tywysogion (Chronicle of the Princes)"
       ],
       "notes": "Successors of Cadwaladr Fendigaid whose daughter Esyllt transmitted Gwynedd's claim to Merfyn Frych and Rhodri Mawr.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_cynan_ap_iago_gruffydd",
@@ -128,8 +121,7 @@
         "Brut y Tywysogion (Chronicle of the Princes)"
       ],
       "notes": "Exiled to Dublin with Hiberno-Norse allies before reclaiming Gwynedd; subject of Wales's oldest royal biography.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_owain_gwynedd",
@@ -144,8 +136,7 @@
         "Brut y Tywysogion (Chronicle of the Princes)"
       ],
       "notes": "Halted Henry II's campaigns in Berwyn and fostered Llywelyn the Great's ancestral Aberffraw house.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cel13_lord_rhys_deheubarth",
@@ -160,8 +151,7 @@
         "Brut y Tywysogion (Chronicle of the Princes)"
       ],
       "notes": "Dinefwr prince celebrated throughout Brut y Tywysogion as chief statesman of southern Wales.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cel13_madog_ap_maredudd_powys",
@@ -176,8 +166,7 @@
         "Brut y Tywysogion (Chronicle of the Princes)"
       ],
       "notes": "Holders of Mathrafal whose partition of Powys shaped Brut y Tywysogion and Hirlas Owain.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_bridei_mac_maelchon",
@@ -193,8 +182,7 @@
         "Aylett Sammes, Antiquities of Ancient Britain"
       ],
       "notes": "Recorded by Bede and Skene's Pictish Chronicles receiving St. Columba at Inverness and halting Dal Riata expansion.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cel13_oengus1_picts",
@@ -208,8 +196,7 @@
         "W.F. Skene, Chronicles of the Picts and Scots"
       ],
       "notes": "Unified northern Scotland in the Annals of Ulster and Skene's Pictish Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_causantin2_alba",
@@ -223,8 +210,7 @@
         "W.F. Skene, Chronicles of the Picts and Scots"
       ],
       "notes": "Grandson of Kenneth MacAlpin who forged the Kingdom of Alba across 43 regnal years.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_aethelberht_kent_bertha",
@@ -239,8 +225,7 @@
         "Aylett Sammes, Antiquities of Ancient Britain"
       ],
       "notes": "Married Frankish Princess Bertha; welcomed Augustine of Canterbury (597 CE) in Bede Book I & Sammes.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cel13_raedwald_east_anglia",
@@ -255,8 +240,7 @@
         "Aylett Sammes, Antiquities of Ancient Britain"
       ],
       "notes": "Installed Edwin on the Northumbrian throne at the River Idle; widely linked with Sutton Hoo Ship Burial.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_penda_mercia",
@@ -271,8 +255,7 @@
         "Aylett Sammes, Antiquities of Ancient Britain"
       ],
       "notes": "Allied with Cadwallon ap Cadfan of Gwynedd in Bede Book II-III before falling at Winwaed.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_oswiu_hilda_whitby",
@@ -287,8 +270,7 @@
         "Aylett Sammes, Antiquities of Ancient Britain"
       ],
       "notes": "Presided over the Synod of Whitby reconciling Celtic and Roman Easter traditions in Bede Book III-IV.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_wulfhere_aethelbald_mercia",
@@ -303,8 +285,7 @@
         "Aylett Sammes, Antiquities of Ancient Britain"
       ],
       "notes": "Sons and successors of Penda uniting Middle England ahead of Offa's overlordship.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cel13_aethelflaed_lady_mercians",
@@ -321,8 +302,7 @@
         "Brut y Tywysogion (Chronicle of the Princes)"
       ],
       "notes": "Allied with Edward the Elder to fortify Mercian burhs and conquer the Five Boroughs from the Danelaw.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "shj13_duke_huan_qi",
@@ -336,8 +316,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Descendant of Jiang Ziya; convened the Nine Assemblies of Feudal Lords defending the Zhou Son of Heaven (Shiji Ch. 32).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "shj13_guan_zhong_qi",
@@ -351,8 +330,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Architect of salt-and-iron monopolies and hegemonic confederation praised by Confucius in Shiji & Analects.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "shj13_duke_wen_jin",
@@ -366,8 +344,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Spent nineteen years in exile across Di, Qi, Song, Chu, and Qin before victorious return in Shiji Ch. 39.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "shj13_duke_mu_qin",
@@ -381,8 +358,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Sheltered and restored Duke Wen of Jin while expanding Qin across twelve Rong states (Shiji Ch. 5).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "shj13_duke_xiang_song",
@@ -396,8 +372,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Upheld Shang ancestral rites at Mengzhu and fought King Cheng of Chu at the Hong River (Shiji Ch. 38).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "shj13_king_zhuang_chu_shiji",
@@ -411,8 +386,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Reformed Chu administration with Sunshu Ao and triumphed at Bi (Shiji Ch. 40).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "shj13_king_helu_wu",
@@ -426,8 +400,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Built Suzhou (Gusu) and captured Ying, capital of Chu, aided by Wu Zixu and Sun Wu (Shiji Ch. 31).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "shj13_wu_zixu_wu",
@@ -441,8 +414,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Escaped Chu vendetta to counsel Kings Helu and Fuchai of Wu in Shiji Ch. 66.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "shj13_king_fuchai_wu",
@@ -456,8 +428,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Defeated Goujian at Fuqiao and presided over the Huangchi summit before Yue's counter-conquest (Shiji Ch. 31).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "shj13_king_goujian_yue",
@@ -471,8 +442,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Descendant of Shao Kang of Xia; endured captivity in Wu ('sleeping on brushwood, tasting gall') to annex Wu in 473 BCE (Shiji Ch. 41).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "shj13_fan_li_xi_shi",
@@ -486,8 +456,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Masterminded Yue's twenty-year revival under Goujian before retiring across Lake Tai as 'Lord Tao Zhu' (Shiji Ch. 41).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "shj13_marquis_wen_wei",
@@ -501,8 +470,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Initiated Legalist-Confucian reforms with Li Kui, Wu Qi, and Ximen Bao (Shiji Ch. 44).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "shj13_duke_xiao_shang_yang",
@@ -516,8 +484,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Codified agrarian-military ranks across Qin (359 BCE), laying the direct foundation for Qin Shi Huang (Shiji Ch. 5 & 68).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "shj13_king_wuling_zhao",
@@ -531,8 +498,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Adopted nomadic horse-archery across Zhao's northern frontier against the Linhu and Loufan (Shiji Ch. 43).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "shj13_qu_yuan_chu",
@@ -546,8 +512,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Grandson-collateral of King Wu of Chu; authored Li Sao and mourned Ying's fall in Shiji Ch. 84.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "shj13_four_lords_warring_states",
@@ -561,8 +526,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Tian Wen, Zhao Sheng, Wei Wuji, and Huang Xie profiled across Shiji Ch. 75-78 for maintaining anti-Qin coalitions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "shj13_lu_buwei_li_si",
@@ -576,8 +540,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Supervised the Lvshi Chunqiu encyclopedia, script standardization, and commanderies of the First Empire (Shiji Ch. 85 & 87).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "shj13_yan_ying_mencius",
@@ -591,8 +554,7 @@
         "Edouard Chavannes, Les Memoires Historiques de Se-ma Ts'ien (Shiji Vol. 5)"
       ],
       "notes": "Yan Ying stabilized Qi's statecraft; Mencius (studied under Zisi) defended benevolent kingship across Qi and Wei.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stk13_sailendra_samaratungga",
@@ -606,8 +568,7 @@
         "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
       ],
       "notes": "United Sailendra Buddhist builders of Borobudur with Sanjaya Mataram via marriage to Rakai Pikatan (Stokvis).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stk13_airlangga_kahuripan",
@@ -621,8 +582,7 @@
         "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
       ],
       "notes": "Son of Udayana of Bali; partitioned his kingdom into Janggala and Kediri for his sons.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stk13_ken_arok_kertanegara",
@@ -636,8 +596,7 @@
         "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
       ],
       "notes": "Kertanegara projected Pamalayu power across Sumatra and defied Kublai Khan ahead of Raden Wijaya.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stk13_iskandar_muda_aceh",
@@ -651,8 +610,7 @@
         "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
       ],
       "notes": "Extended Acehnese maritime sovereignty across Sumatra and Pahang while exchanging envoys with Ottomans and Europe.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stk13_sultan_agung_mataram",
@@ -666,8 +624,7 @@
         "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
       ],
       "notes": "Grandson of Panembahan Senapati; unified central and eastern Java and struck the Dutch at Batavia (1628-1629).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stk13_champa_bhadravarman",
@@ -681,8 +638,7 @@
         "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
       ],
       "notes": "Maintained Sanskrit-Austronesian Cham civilization along central Vietnam between Dai Viet and Angkor.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stk13_sulu_paduka_batara",
@@ -696,8 +652,7 @@
         "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
       ],
       "notes": "Documented in Ming annals and Sulu tarsila genealogies linking Brunei, Sulu, and Malacca maritime houses.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stk13_sho_hashi_ryukyu",
@@ -711,8 +666,7 @@
         "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
       ],
       "notes": "United Hokuzan, Chuzan, and Nanzan at Shuri Castle, opening Ryukyu's maritime trade across East and SE Asia.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stk13_sho_shin_sho_tai_ryukyu",
@@ -726,8 +680,7 @@
         "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
       ],
       "notes": "Sho Shin centralized Ryukyuan nobility; Sho Tai remained king until the 1879 Meiji transition.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stk13_mihira_bhoja_pratihara",
@@ -743,8 +696,7 @@
         "A.M.H.J. Stokvis, Manuel d'Histoire, de Genealogie et de Chronologie"
       ],
       "notes": "Extended Pratihara rule from Punjab to Bihar and Narmada, praised by Arab travelers for cavalry strength (Duff).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stk13_gopala_dharmapala_pala",
@@ -759,8 +711,7 @@
         "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
       ],
       "notes": "Gopala ended Matsyanyaya anarchy in Bengal; Dharmapala presided over the imperial assembly at Kannauj (Duff).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stk13_devapala_mahipala_pala",
@@ -775,8 +726,7 @@
         "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
       ],
       "notes": "Devapala received envoys from Balaputradeva of Srivijaya for Nalanda endowment; Mahipala revived Pala power.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stk13_raja_bhoja_paramara",
@@ -791,8 +741,7 @@
         "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
       ],
       "notes": "Authored Samaranganasutradhara, founded Bhojeshwar and Bhoj Shala, and ruled central India (Duff & Tod).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stk13_vidyadhara_chandela",
@@ -807,8 +756,7 @@
         "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
       ],
       "notes": "Defended Kalinjar and central India during early eleventh-century Ghaznavid campaigns (Duff).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stk13_siddharaja_jayasimha_solanki",
@@ -823,8 +771,7 @@
         "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
       ],
       "notes": "Presided over Gujarat's golden literary and architectural age alongside Acharya Hemachandra.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stk13_vikramaditya6_kalyani",
@@ -839,8 +786,7 @@
         "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
       ],
       "notes": "Longest-reigning Western Chalukya emperor, governing from Kalyani across Maharashtra and Karnataka.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stk13_ganapatideva_rudrama_kakatiya",
@@ -855,8 +801,7 @@
         "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
       ],
       "notes": "Queen Rudrama Devi governed Warangal for thirty years, earning the praise of Marco Polo in South India (Duff).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stk13_bappa_rawal_rana_kumbha",
@@ -871,8 +816,7 @@
         "James Tod, Annals and Antiquities of Rajasthan Vols. 1-2"
       ],
       "notes": "Anchored by James Tod Vol. 1 as Solar-lineage guardians of Mewar bridging Guhila antiquity to Maharana Pratap.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ice13_hjorleifr_hrodmarsson",
@@ -886,8 +830,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Sworn blood-brother of Ingolfur Arnarson; landed at Hjorleifshofdi (Landnamabok Part I).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ice13_bjorn_easterner_ketilsson",
@@ -901,8 +844,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Brothers of Aud the Deep-Minded who colonized Kjalarnes and Borgarholt (Landnamabok Part I-II).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ice13_olaf_feilan_thord_gellir",
@@ -916,8 +858,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Established Iceland's Quarter Courts (Fjordungathing) in Laxdaela & Landnamabok Part II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ice13_skallagrim_kveldulfsson",
@@ -931,8 +872,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Fled Harald Fairhair's Norway after Thorolf's fall; settled Borg (Landnamabok Part II).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ice13_egill_skallagrimsson",
@@ -946,8 +886,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Served King Athelstan at Brunanburh and composed Sonatorrek; forebear of both Ari Frodi and Snorri Sturluson.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ice13_hrollaugr_more",
@@ -961,8 +900,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Crossed from Orkney/Norway to eastern Iceland; his grandson Sidu-Hallr championed Iceland's conversion (Landnamabok IV).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ice13_snorri_godi",
@@ -976,8 +914,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Key statesman in Eyrbyggja, Njals, and Laxdaela sagas; secured the peaceful 1000 CE Althing vote.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ice13_thorgeir_ljosvetningagodi",
@@ -991,8 +928,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Delivered the unifying 999/1000 CE Althing compromise preserving private heritage under public Christian law.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ice13_njall_gunnar_hlidarendi",
@@ -1006,8 +942,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Central families of southern Rangavellir documented in Landnamabok Part V and Brennu-Njals Saga.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ice13_thorfinn_karlsefni_snorri",
@@ -1021,8 +956,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Settled Skagafjordur after leading the Vinland expedition; ancestral to three early Icelandic bishops.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ice13_ari_thorgilsson_frodi",
@@ -1036,8 +970,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Descended from Olaf Feilan and Aud the Deep-Minded; compiled the foundational history of Iceland and Greenland.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ice13_isleifr_gizurarson",
@@ -1051,8 +984,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Haukdaelir chieftain-bishops related to Sidu-Hallr and Gudrid's clerical lineage.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ice13_saemundr_frodi",
@@ -1066,8 +998,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Ancestor of Jon Loftsson of Oddi who educated Snorri Sturluson.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ice13_sturla_thordarson_snorri",
@@ -1081,8 +1012,7 @@
         "Thomas Ellwood, The Book of the Settlement of Iceland (Landnamabok, 1898)"
       ],
       "notes": "Descended from Egill Skallagrimsson and Olaf Feilan; authored the Prose Edda and Heimskringla.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "sam13_uzzi_gerizim_priest",
@@ -1097,8 +1027,7 @@
         "Samaritan Chronicle of Joshua"
       ],
       "notes": "Samaritan Chronicles of Joshua & Shalshalat ha-Kohanim record Uzzi concealing the Tabernacle vessels on Mount Gerizim.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_baba_rabba_samaria",
@@ -1113,8 +1042,7 @@
         "Samaritan Chronicle of Joshua"
       ],
       "notes": "Eldest son of High Priest Nathanael; divided Samaria into twelve administrative regions and revived liturgical learning (Gaster).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "sam13_marqah_amram_dare",
@@ -1129,8 +1057,7 @@
         "Samaritan Chronicle of Joshua"
       ],
       "notes": "Flourished under Baba Rabba; composed foundational Aramaic hymns and Memar Marqah (Gaster).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_shobach_nabih_joshua",
@@ -1145,8 +1072,7 @@
         "Samaritan Chronicle of Joshua"
       ],
       "notes": "Unique Arabic-Samaritan Joshua romance narrating Joshua's deliverance by Nabih, prince of Reuben/Gilead.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_qapgen_noah_apportionment",
@@ -1162,8 +1088,7 @@
         "Louis Ginzberg, Legends of the Jews"
       ],
       "notes": "Genesis Apocryphon (Cols. II-XXI) preserves Lamech-Bitenosh dialogue, Noah's world survey, and Abraham's Jordan/Nile circuit.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_testament_levi_melcha",
@@ -1179,8 +1104,7 @@
         "Louis Ginzberg, Legends of the Jews"
       ],
       "notes": "Testament of Levi 11-12 names Melcha (daughter of Bethuel/Aram) and gives exact dates for Kohath and Amram.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_testament_judah_tamar",
@@ -1196,8 +1120,7 @@
         "Louis Ginzberg, Legends of the Jews"
       ],
       "notes": "R.H. Charles's Testament of Judah supplements Genesis 38 with heroic wars against Canaanite kings of Hazor and Tapuah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_testament_naphtali_rotheus",
@@ -1213,8 +1136,7 @@
         "Louis Ginzberg, Legends of the Jews"
       ],
       "notes": "Testament of Naphtali 1 identifies Rotheus, captured brother-in-law of Laban, as Bilhah's father.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_testament_reuben_simeon",
@@ -1230,8 +1152,7 @@
         "Louis Ginzberg, Legends of the Jews"
       ],
       "notes": "Testaments of Reuben and Simeon preserve tribal demographic traditions and Egyptian sojourning notes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_ginzberg_serah_bat_asher",
@@ -1247,8 +1168,7 @@
         "Louis Ginzberg, Legends of the Jews"
       ],
       "notes": "Louis Ginzberg compiles Midrashic tradition of Serah surviving from Jacob's descent to Egypt to David's reign.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_macmichael_kababish_nurab",
@@ -1262,8 +1182,7 @@
         "H.A. MacMichael, The Tribes of Northern and Central Kordofan"
       ],
       "notes": "MacMichael documents Kababish Juhayna/Quraish oral nisbas centering on Bayoda and northern Kordofan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_macmichael_dar_hamid",
@@ -1277,8 +1196,7 @@
         "H.A. MacMichael, The Tribes of Northern and Central Kordofan"
       ],
       "notes": "Mapped in MacMichael's Kordofan pedigrees linking Dar Hamid, Ferahna, and Awlad Akoi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_macmichael_baggara_hawazma",
@@ -1292,8 +1210,7 @@
         "H.A. MacMichael, The Tribes of Northern and Central Kordofan"
       ],
       "notes": "MacMichael details Hawazma and Messiria migrations along Bahr al-Arab and the Nuba foothills.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_norden_ramesses3_medinet",
@@ -1307,8 +1224,7 @@
         "Frederik Ludvig Norden, Antiquities of Egypt, Nubia and Thebes"
       ],
       "notes": "F.L. Norden's pioneering 1737-1757 illustrated Nile expedition first published Medinet Habu, Thebes, and Dendera to Europe.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "sam13_norden_memnon_thebes",
@@ -1322,8 +1238,7 @@
         "Frederik Ludvig Norden, Antiquities of Egypt, Nubia and Thebes"
       ],
       "notes": "Norden mapped Luxor, Karnak, and the Colossi of Memnon twenty years before the Napoleonic Description.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sam13_norden_philae_derr_nubia",
@@ -1337,8 +1252,7 @@
         "Frederik Ludvig Norden, Antiquities of Egypt, Nubia and Thebes"
       ],
       "notes": "Norden was the first modern European explorer to chart Lower Nubia down to Derr above Philae.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_turnus_rutuli",
@@ -1353,8 +1267,7 @@
         "Basil Kennett, Romae Antiquae Notitia (1793)"
       ],
       "notes": "Allied with Amata of Laurentum and Mezentius before falling in single combat against Aeneas.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_mezentius_caere",
@@ -1369,8 +1282,7 @@
         "Basil Kennett, Romae Antiquae Notitia (1793)"
       ],
       "notes": "Detailed in Dionysius of Halicarnassus Book I negotiating treaty with Ascanius and Turnus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_titus_tatius_sabines",
@@ -1385,8 +1297,7 @@
         "Basil Kennett, Romae Antiquae Notitia (1793)"
       ],
       "notes": "Forged the Romano-Sabine dual monarchy alongside Romulus following the Sabine intervention.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_valerius_publicola",
@@ -1401,8 +1312,7 @@
         "Basil Kennett, Romae Antiquae Notitia (1793)"
       ],
       "notes": "Replaced Collatinus alongside Lucius Junius Brutus; carried Provocatio citizen-appeal laws (Kennett).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_horatius_cocles_scaevola",
@@ -1417,8 +1327,7 @@
         "Basil Kennett, Romae Antiquae Notitia (1793)"
       ],
       "notes": "Exemplars of Pons Sublicius defence celebrated across Kennett's Roman Antiquities and Livy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_coriolanus_veturia",
@@ -1433,8 +1342,7 @@
         "Basil Kennett, Romae Antiquae Notitia (1793)"
       ],
       "notes": "Dionysius Book VII-VIII and Kennett highlight Veturia and Volumnia sparing Rome from the Volscian march.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_furius_camillus",
@@ -1449,8 +1357,7 @@
         "Basil Kennett, Romae Antiquae Notitia (1793)"
       ],
       "notes": "Conquered Veii and reorganized post-Allia Roman citizen-legions (Kennett).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "chr13_appius_claudius_caecus",
@@ -1465,8 +1372,7 @@
         "Basil Kennett, Romae Antiquae Notitia (1793)"
       ],
       "notes": "Constructed the Aqua Appia and Via Appia (312 BCE) and rallied the Senate against Pyrrhus's peace.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_fabius_maximus_cunctator",
@@ -1481,8 +1387,7 @@
         "Basil Kennett, Romae Antiquae Notitia (1793)"
       ],
       "notes": "Engineered the Fabian attrition strategy saving Rome after Cannae alongside Marcellus and Scipio.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "chr13_claudius_marcellus",
@@ -1497,8 +1402,7 @@
         "Basil Kennett, Romae Antiquae Notitia (1793)"
       ],
       "notes": "Won Nola and captured Syracuse despite Archimedes's engines during the Second Punic War (Kennett).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_pliny_younger_trajan",
@@ -1512,8 +1416,7 @@
         "Pliny the Younger, Panegyric on Trajan"
       ],
       "notes": "Delivered the consular Panegyricus to Emperor Trajan (100 CE) and preserved early imperial Bithynia correspondence.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_isidore_etymologies_ix",
@@ -1532,8 +1435,7 @@
         "Charles Foster Kent, Narratives of the Beginnings of Hebrew History (1904)"
       ],
       "notes": "Book IX of the Etymologies maps all Mediterranean, Germanic, Gothic, and Near Eastern peoples back to Shem, Ham, and Japheth.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "chr13_ussher_annals_4004",
@@ -1552,8 +1454,7 @@
         "Charles Foster Kent, Narratives of the Beginnings of Hebrew History (1904)"
       ],
       "notes": "Synchronized Masoretic biblical reigns with Nabonassar, Julian Period, Olympiads, and Roman Fasti.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "chr13_blair_chronology_1753",
@@ -1572,8 +1473,7 @@
         "Charles Foster Kent, Narratives of the Beginnings of Hebrew History (1904)"
       ],
       "notes": "Published the 1753 London folio harmonizing ancient Near Eastern, Greek, Roman, and European sovereigns.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_guthrie_gray_1764",
@@ -1592,8 +1492,7 @@
         "Charles Foster Kent, Narratives of the Beginnings of Hebrew History (1904)"
       ],
       "notes": "Synthesized European, Islamic, Steppe, and East Asian dynastic histories from creation to the mid-18th century.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_rawlinson_origin_nations",
@@ -1612,8 +1511,7 @@
         "Charles Foster Kent, Narratives of the Beginnings of Hebrew History (1904)"
       ],
       "notes": "Compared Genesis 10 ethnology against newly deciphered Egyptian monuments and Assyrian cuneiform.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_kent_narratives_1904",
@@ -1632,8 +1530,7 @@
         "Charles Foster Kent, Narratives of the Beginnings of Hebrew History (1904)"
       ],
       "notes": "Analyzed J, E, P, and Babylonian Flood parallels across early Hebrew genealogical narratives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr13_kennett_roman_antiquities",
@@ -1648,8 +1545,7 @@
         "Basil Kennett, Romae Antiquae Notitia (1793)"
       ],
       "notes": "Codified Roman magistracies, priesthoods, gentes, and republican hero lineages for 18th-century scholarship.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

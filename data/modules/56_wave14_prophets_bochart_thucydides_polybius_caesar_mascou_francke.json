@@ -14,8 +14,7 @@
         "The Lives of the Prophets (SBLMS1 / C.C. Torrey)"
       ],
       "notes": "Lives of the Prophets locates Hosea at Belemoth in Issachar and records his burial in his homeland.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_micah_morashtite",
@@ -29,8 +28,7 @@
         "The Lives of the Prophets (SBLMS1 / C.C. Torrey)"
       ],
       "notes": "Lives of the Prophets distinguishes Morasthi Micah's confrontation with Ahab's house and burial at Morasthi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_amos_tekoa",
@@ -44,8 +42,7 @@
         "The Lives of the Prophets (SBLMS1 / C.C. Torrey)"
       ],
       "notes": "Profiled in Lives of the Prophets returning wounded from Bethel to expire and be buried with his fathers in Tekoa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_joel_bethom",
@@ -59,8 +56,7 @@
         "The Lives of the Prophets (SBLMS1 / C.C. Torrey)"
       ],
       "notes": "Attributed to the territory of Reuben at Bethom / Beth-meon in the Greek Lives of the Prophets.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_obadiah_shechem",
@@ -74,8 +70,7 @@
         "The Lives of the Prophets (SBLMS1 / C.C. Torrey)"
       ],
       "notes": "Identified in SBLMS1 as the third captain spared by Elijah on Carmel who later prophesied against Edom.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_jonah_amittai",
@@ -89,8 +84,7 @@
         "The Lives of the Prophets (SBLMS1 / C.C. Torrey)"
       ],
       "notes": "Lives of the Prophets connects Jonah to the widow of Zarephath, Elijah's ministry, and Tyre/Nineveh.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "prp14_nahum_elcesei",
@@ -104,8 +98,7 @@
         "The Lives of the Prophets (SBLMS1 / C.C. Torrey)"
       ],
       "notes": "Lives of the Prophets assigns Nahum to Simeon ('beyond Bethgabri') foretelling Nineveh's inundation.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_habakkuk_bethzocher",
@@ -119,8 +112,7 @@
         "The Lives of the Prophets (SBLMS1 / C.C. Torrey)"
       ],
       "notes": "Fled Nebuchadnezzar to Ostrakine before returning to Judea; also featured in Bel and the Dragon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_haggai_zechariah_malachi",
@@ -134,8 +126,7 @@
         "The Lives of the Prophets (SBLMS1 / C.C. Torrey)"
       ],
       "notes": "Lives of the Prophets places Haggai's burial near the priests, Zechariah ben Berechiah beside him, and Malachi at Sofa in Zebulun.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "prp14_nathan_ahijah_azariah",
@@ -149,8 +140,7 @@
         "The Lives of the Prophets (SBLMS1 / C.C. Torrey)"
       ],
       "notes": "Included in SBLMS1's extended canon of prophets: Nathan of Gabaon, Ahijah of Shiloh, and Azariah of Subatha.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_baruch_ben_neriah",
@@ -164,8 +154,7 @@
         "R.H. Charles, Apocrypha and Pseudepigrapha Vol. 2"
       ],
       "notes": "Charles Vol. 2 preserves 2 Baruch's vision of twelve bright/dark waters and Baruch's epistles to the 9.5 exiled tribes.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "prp14_salathiel_4ezra",
@@ -179,8 +168,7 @@
         "R.H. Charles, Apocrypha and Pseudepigrapha Vol. 2"
       ],
       "notes": "Opens 4 Ezra ('In the thirtieth year after the ruin of our city, I Salathiel who am also Ezra, was in Babylon').",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_aristeas_seventy_two",
@@ -194,8 +182,7 @@
         "R.H. Charles, Apocrypha and Pseudepigrapha Vol. 2"
       ],
       "notes": "Letter of Aristeas (Charles Vol. 2) lists six elders from each of Israel's twelve tribes dispatched by High Priest Eleazar.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "prp14_martyrdom_isaiah_manasseh",
@@ -209,8 +196,7 @@
         "R.H. Charles, Apocrypha and Pseudepigrapha Vol. 2"
       ],
       "notes": "Narrates Isaiah's flight to Bethlehem and martyrdom in the reign of Manasseh alongside his son Josab.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_eleazar_seven_brothers_4macc",
@@ -224,8 +210,7 @@
         "R.H. Charles, Apocrypha and Pseudepigrapha Vol. 2"
       ],
       "notes": "Recounts the philosophical martyrdom of Eleazar, Hannah/Solomone, and her seven sons during the Hasmonean revolt.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_sambethe_sibylline_oracle",
@@ -239,8 +224,7 @@
         "R.H. Charles, Apocrypha and Pseudepigrapha Vol. 2"
       ],
       "notes": "Claims lineage inside Noah's Ark while prophesying the fall of Babel, Kronos-Titan, and Hellenistic empires.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_vita_adae_tablets",
@@ -254,8 +238,7 @@
         "R.H. Charles, Apocrypha and Pseudepigrapha Vol. 2"
       ],
       "notes": "Records Seth and Eve inscribing Adamic history on clay and stone pillars against fire and Flood.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_lab_judge_kenaz_zebul",
@@ -269,8 +252,7 @@
         "Pseudo-Philo, Liber Antiquitatum Biblicarum (LAB)"
       ],
       "notes": "Liber Antiquitatum Biblicarum elevates Kenaz (brother of Caleb, father of Othniel) into a major forty-year judge.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_lab_seila_jephthah",
@@ -284,8 +266,7 @@
         "Pseudo-Philo, Liber Antiquitatum Biblicarum (LAB)"
       ],
       "notes": "Pseudo-Philo gives Jephthah's unnamed biblical daughter the name Seila and preserves her lament.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "prp14_lab_eluma_samson",
@@ -299,8 +280,7 @@
         "Pseudo-Philo, Liber Antiquitatum Biblicarum (LAB)"
       ],
       "notes": "Liber Antiquitatum Biblicarum supplies the personal name Eluma for Samson's Danite mother.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_bochart_phaleg_table",
@@ -314,8 +294,7 @@
         "Samuel Bochart, Geographia Sacra seu Phaleg et Chanaan (Opera Omnia)"
       ],
       "notes": "Samuel Bochart's Phaleg (1646) systematically mapped every Genesis 10 ethnonym across Semitic, Phoenician, and Greco-Latin sources.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "bch14_bochart_gades_tartessus",
@@ -329,8 +308,7 @@
         "Samuel Bochart, Geographia Sacra seu Phaleg et Chanaan (Opera Omnia)"
       ],
       "notes": "Traces Phoenician Gadira (Cadiz) and Tartessus back to Tyrian-Sidonian navigation and Biblical Tarshish.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_bochart_utica_leptis",
@@ -344,8 +322,7 @@
         "Samuel Bochart, Geographia Sacra seu Phaleg et Chanaan (Opera Omnia)"
       ],
       "notes": "Documents early Sidonian-Tyrian settlements along Tunisia and Tripolitania.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_bochart_sardinia_malta",
@@ -359,8 +336,7 @@
         "Samuel Bochart, Geographia Sacra seu Phaleg et Chanaan (Opera Omnia)"
       ],
       "notes": "Maps Canaanite toponyms across Sicily (Panormus, Lilybaeum), Sardinia, and Malta.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_bochart_cassiterides_tin",
@@ -374,8 +350,7 @@
         "Samuel Bochart, Geographia Sacra seu Phaleg et Chanaan (Opera Omnia)"
       ],
       "notes": "Bochart traced the Greek name 'Bretannike' and tin-trade terms to Phoenician/Punic Barat-anac.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_bochart_ashkenaz_phrygia",
@@ -389,8 +364,7 @@
         "Samuel Bochart, Geographia Sacra seu Phaleg et Chanaan (Opera Omnia)"
       ],
       "notes": "Bochart demonstrated Homer's Ascanius and the Black Sea ('Axenos / Euxinus') preserve Ashkenaz in Phrygia-Bithynia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_bochart_riphath_togarmah",
@@ -404,8 +378,7 @@
         "Samuel Bochart, Geographia Sacra seu Phaleg et Chanaan (Opera Omnia)"
       ],
       "notes": "Correlated Riphath with Rhebas/Riphaei and Togarmah with Cappadocian horse-breeding tribes (Ezekiel 27:14).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_bochart_dodanim_rhodes",
@@ -419,8 +392,7 @@
         "Samuel Bochart, Geographia Sacra seu Phaleg et Chanaan (Opera Omnia)"
       ],
       "notes": "Linked Rhodanim with Rhodes and Elishah with Elis / Alashiya purple-dye ports.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_targum_germania_africa",
@@ -434,8 +406,7 @@
         "J.W. Etheridge, The Targums of Onkelos and Jonathan ben Uzziel"
       ],
       "notes": "Targum Pseudo-Jonathan renders Gomer/Riphath/Ashkenaz as Phrygia, Parthia, Asia, Germania, and Barbaria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_targum_barbaria_thrace",
@@ -449,8 +420,7 @@
         "J.W. Etheridge, The Targums of Onkelos and Jonathan ben Uzziel"
       ],
       "notes": "Etheridge's Targum translates Tiras as Thrace (Tarkia) and Tubal as Bithynia/Iberia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_targum_nimrod_cities",
@@ -464,8 +434,7 @@
         "J.W. Etheridge, The Targums of Onkelos and Jonathan ben Uzziel"
       ],
       "notes": "Targum identifies Erech with Uruk/Edessa, Accad with Nisibis, and Calneh with Ctesiphon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_targum_caphtor_cappadocia",
@@ -479,8 +448,7 @@
         "J.W. Etheridge, The Targums of Onkelos and Jonathan ben Uzziel"
       ],
       "notes": "Both Onkelos and Pseudo-Jonathan render Caphtorim as Cappadocians (Kaputka'i) and Pathrusim as Pelusiotes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_bochart_ophir_arabia_india",
@@ -494,8 +462,7 @@
         "Samuel Bochart, Geographia Sacra seu Phaleg et Chanaan (Opera Omnia)"
       ],
       "notes": "Phaleg II.27 resolves Cassis/Sabaean Ophir in Arabia alongside the Red Sea-Indian Ocean trade.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bch14_bochart_put_libya_mauretania",
@@ -509,8 +476,7 @@
         "Samuel Bochart, Geographia Sacra seu Phaleg et Chanaan (Opera Omnia)"
       ],
       "notes": "Bochart cited Ptolemy, Pliny, and Jerome's Mauretanian 'Flumen Fut' to localize Phut across northwest Africa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "thu14_pericles_aspasia",
@@ -524,8 +490,7 @@
         "Thucydides, History of the Peloponnesian War (1753)"
       ],
       "notes": "Great-nephew of Cleisthenes; led the Delian League empire and delivered the Funeral Oration in Thucydides Book II.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "thu14_archidamus2_sparta",
@@ -539,8 +504,7 @@
         "Thucydides, History of the Peloponnesian War (1753)"
       ],
       "notes": "Eurypontid grandfather of Agesilaus II; counseled Spartan caution in Thucydides Book I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "thu14_cleon_demosthenes_athens",
@@ -554,8 +518,7 @@
         "Thucydides, History of the Peloponnesian War (1753)"
       ],
       "notes": "Captured the Spartan garrison at Sphacteria before falling respectively at Amphipolis and Syracuse.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "thu14_brasidas_sparta",
@@ -569,8 +532,7 @@
         "Thucydides, History of the Peloponnesian War (1753)"
       ],
       "notes": "Reversed Athenian fortunes in northern Greece until the Peace of Nicias in Thucydides Books IV-V.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "thu14_nicias_athens",
@@ -584,8 +546,7 @@
         "Thucydides, History of the Peloponnesian War (1753)"
       ],
       "notes": "Led Athens' cautious oligarchic-conservative faction until the Sicilian catastrophe in Thucydides VII.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "thu14_hermocrates_syracuse",
@@ -599,8 +560,7 @@
         "Thucydides, History of the Peloponnesian War (1753)"
       ],
       "notes": "Rallied Sicily at Gela (424 BCE) and repulsed the Athenian armada alongside Gylippus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "thu14_sitalces_thrace",
@@ -614,8 +574,7 @@
         "Thucydides, History of the Peloponnesian War (1753)"
       ],
       "notes": "Concluded Athenian citizenship alliance (Sadocus) and marched 150,000 warriors into Macedonia (Thucydides II.95-101).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "thu14_perdiccas2_macedon",
@@ -629,8 +588,7 @@
         "Thucydides, History of the Peloponnesian War (1753)"
       ],
       "notes": "Navigated Athens, Brasidas, and Thrace across twenty years of Peloponnesian diplomacy (Thucydides Books I-V).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "thu14_thucydides_olorus",
@@ -644,8 +602,7 @@
         "Thucydides, History of the Peloponnesian War (1753)"
       ],
       "notes": "Connected by Thracian royal kin to Cimon and Miltiades; composed history of the Peloponnesian War in exile.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "thu14_aratus_sicyon",
@@ -659,8 +616,7 @@
         "Polybius, The General History of Polybius"
       ],
       "notes": "Liberated Corinth's Acrocorinth and steered Achaean federal politics throughout Polybius Books II-VIII.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "thu14_philopoemen_megalopolis",
@@ -674,8 +630,7 @@
         "Polybius, The General History of Polybius"
       ],
       "notes": "Reformed Achaean phalanx and cavalry; defeated Machanidas and Nabis of Sparta in Polybius.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "thu14_philip5_macedon",
@@ -689,8 +644,7 @@
         "Polybius, The General History of Polybius"
       ],
       "notes": "Great-grandson of Antigonus I; allied with Hannibal before fighting Flamininus at Cynoscephalae (197 BCE).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "thu14_perseus_macedon",
@@ -704,8 +658,7 @@
         "Polybius, The General History of Polybius"
       ],
       "notes": "Son of Philip V defeated by Aemilius Paullus at Pydna (168 BCE), ending the Macedonian monarchy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "thu14_hiero2_archimedes",
@@ -719,8 +672,7 @@
         "Polybius, The General History of Polybius"
       ],
       "notes": "Preserved Syracuse's prosperity between Rome and Carthage for half a century; praised by Polybius Book VII.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "thu14_masinissa_numidia",
@@ -734,8 +686,7 @@
         "Polybius, The General History of Polybius"
       ],
       "notes": "Son of King Gaia; commanded the Numidian cavalry winning Zama (202 BCE) and unified Numidia for 54 years.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "thu14_syphax_masaesyli",
@@ -749,8 +700,7 @@
         "Polybius, The General History of Polybius"
       ],
       "notes": "Negotiated simultaneously with Scipio Africanus and Hasdrubal Gisco in Polybius Book XIV.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "thu14_attalus1_eumenes2_pergamon",
@@ -764,8 +714,7 @@
         "Polybius, The General History of Polybius"
       ],
       "notes": "Defeated the Galatians, allied with Rome against Antiochus III, and made Pergamon the cultural jewel of Anatolia.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "thu14_polybius_megalopolis",
@@ -779,8 +728,7 @@
         "Polybius, The General History of Polybius"
       ],
       "notes": "Achaean hostage in Rome who accompanied Scipio Aemilianus to Carthage (146 BCE) and framed universal constitutional history.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_vercingetorix_arverni",
@@ -794,8 +742,7 @@
         "Julius Caesar, The Commentaries (Gallic & Civil Wars, 1753)"
       ],
       "notes": "Defended Gergovia and Alesia against Julius Caesar in De Bello Gallico Book VII.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ger14_ariovistus_suebi",
@@ -810,8 +757,7 @@
         "John Jacob Mascou, The History of the Ancient Germans (1737)"
       ],
       "notes": "Entered Alsace at Sequanian invitation before fighting Julius Caesar at Vosges (58 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_cassivellaunus_britain",
@@ -825,8 +771,7 @@
         "Julius Caesar, The Commentaries (Gallic & Civil Wars, 1753)"
       ],
       "notes": "Opposed Caesar's Thames crossing in De Bello Gallico Book V; ancestor of Tasciovanus and Cunobelinus.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ger14_ambiorix_eburones",
@@ -840,8 +785,7 @@
         "Julius Caesar, The Commentaries (Gallic & Civil Wars, 1753)"
       ],
       "notes": "Co-kings of the Germani Cisrhenani / Eburones who destroyed Atuatuca garrison in De Bello Gallico V-VI.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_diviciacus_dumnorix",
@@ -855,8 +799,7 @@
         "Julius Caesar, The Commentaries (Gallic & Civil Wars, 1753)"
       ],
       "notes": "Diviciacus addressed the Roman Senate and befriended Cicero; Dumnorix wed Orgetorix's daughter.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_commius_atrebates",
@@ -870,8 +813,7 @@
         "Julius Caesar, The Commentaries (Gallic & Civil Wars, 1753)"
       ],
       "notes": "Served first as Caesar's British envoy before founding the Atrebatic dynasty of Tincomarus in southern Britain.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_orgetorix_helvetii",
@@ -885,8 +827,7 @@
         "Julius Caesar, The Commentaries (Gallic & Civil Wars, 1753)"
       ],
       "notes": "Forged marriage alliance with Dumnorix of the Aedui and Casticus of the Sequani in De Bello Gallico I.2-4.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_arminius_cherusci",
@@ -900,8 +841,7 @@
         "John Jacob Mascou, The History of the Ancient Germans (1737)"
       ],
       "notes": "Son of Segimer; halted Roman provincial expansion at the Weser/Rhine across Mascou Book IV.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ger14_thusnelda_segimer",
@@ -915,8 +855,7 @@
         "John Jacob Mascou, The History of the Ancient Germans (1737)"
       ],
       "notes": "Mascou Book IV highlights Thusnelda's dignity alongside Germanicus's Elbe campaigns.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_maroboduus_marcomanni",
@@ -930,8 +869,7 @@
         "John Jacob Mascou, The History of the Ancient Germans (1737)"
       ],
       "notes": "Raised in Augustus's Rome before building a 74,000-man Germanic kingdom in Boiohaemum (Bohemia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_julius_civilis_batavi",
@@ -945,8 +883,7 @@
         "John Jacob Mascou, The History of the Ancient Germans (1737)"
       ],
       "notes": "Rallied Batavi, Canninefates, Bructeri (Prophetess Veleda), and Gauls along the Lower Rhine in Mascou Book IV.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_kniva_fritigern_goths",
@@ -960,8 +897,7 @@
         "John Jacob Mascou, The History of the Ancient Germans (1737)"
       ],
       "notes": "Cniva defeated Decius at Abritus (251 CE); Fritigern led Thervingi across the Danube in 376-378 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_radagaisus_stilicho",
@@ -975,8 +911,7 @@
         "John Jacob Mascou, The History of the Ancient Germans (1737)"
       ],
       "notes": "Mascou Book VIII profiles Stilicho (half-Vandal regent married to Serena, niece of Theodosius I).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_odoacer_italy",
@@ -990,8 +925,7 @@
         "John Jacob Mascou, The History of the Ancient Germans (1737)"
       ],
       "notes": "Son of Ediko; deposed Romulus Augustulus and governed Italy seventeen years until Theoderic (Mascou Book X).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ger14_gundobad_burgundy",
@@ -1005,8 +939,7 @@
         "John Jacob Mascou, The History of the Ancient Germans (1737)"
       ],
       "notes": "Codified the Lex Gundobada (Loi Gombette); niece Clotilde married Clovis I, founding Christian Francia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_widukind_saxony",
@@ -1020,8 +953,7 @@
         "John Jacob Mascou, The History of the Ancient Germans (1737)"
       ],
       "notes": "Led Saxon resistance for eight years before accepting baptism at Attigny (785 CE).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ger14_tassilo3_bavaria",
@@ -1035,8 +967,7 @@
         "John Jacob Mascou, The History of the Ancient Germans (1737)"
       ],
       "notes": "Cousin of Charlemagne married to Liutperga of Lombardy; presided over late Agilolfing Bavarian law.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ger14_boudica_caratacus",
@@ -1051,8 +982,7 @@
         "Tacitus, Agricola & Annals; British Chronicles"
       ],
       "notes": "Caratacus led the Catuvellauni-Silures resistance; Queen Boudica led the 60/61 CE East Anglian uprising.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "tib14_yeshe_o_guge",
@@ -1066,8 +996,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Grandson of Skyid-lde Nyi-ma-mgon; funded Rinchen Zangpo and sacrificed himself ransom-free to summon Atisha.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "tib14_jangchub_o_atisha",
@@ -1081,8 +1010,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Welcomed Bengal master Atisha Dipamkara Shrijnana to Tholing Monastery in 1042 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib14_rinchen_zangpo_translator",
@@ -1096,8 +1024,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Trained in Kashmir and established Tabo, Tholing, and Alchi under Guge royal patronage (Francke Vol. 1).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "tib14_detsugon_zanskar_purang",
@@ -1111,8 +1038,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Youngest son of Nyi-ma-mgon awarded Zanskar, Spiti, and Lahaul in Francke's La-dvags rgyal-rabs.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib14_lhachen_utpala_ladakh",
@@ -1126,8 +1052,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Chronicles of Ladakh (Francke Vol. 2) credit Utpala with subjugating Kullu and extracting annual treaties.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib14_lhachen_naglug_wanla",
@@ -1141,8 +1066,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Constructed the stone-anchored Indus bridge at Khalatse and fortress of Wanla recorded in Francke Vol. 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib14_tashi_namgyal_ladakh",
@@ -1156,8 +1080,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Built Namgyal Tsemo monastery above Leh after repelling Central Asian horsemen.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib14_tsewang_namgyal_ladakh",
@@ -1171,8 +1094,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Restored Ladakhi authority from Guge and Purang down to Mustang before Jamyang and Sengge Namgyal.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib14_deldan_namgyal_leh",
@@ -1186,8 +1108,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Maintained Leh sovereignty during the 1679-1684 Tibet-Ladakh-Mughal treaty at Tingmosgang.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib14_nyima_namgyal_ladakh",
@@ -1201,8 +1122,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Issued copper charters preserved and translated across Francke Vol. 2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib14_tsepal_tondup_namgyal",
@@ -1216,8 +1136,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Built Stok Palace as royal residence of the Namgyal house; descendants retain Stok title into modern times.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib14_nono_spiti_tabo",
@@ -1231,8 +1150,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Francke Vol. 1 traces the Nono house of Kyuling safeguarding Tabo's millennium-old frescoes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib14_bushahr_kinnaur_rajas",
@@ -1246,8 +1164,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Allied with Ladakh and Lhasa in the 1684 Sutlej trade treaty recorded in Francke Vol. 1 & 2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib14_baltistan_ali_sher_khan",
@@ -1261,8 +1178,7 @@
         "A.H. Francke, Antiquities of Indian Tibet Vols. 1-2 (ASI New Imperial Series)"
       ],
       "notes": "Married his daughter Gyal Khatun to Jamyang Namgyal, bearing Ladakh's 'Lion King' Sengge Namgyal.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur14_sancho1_afonso2_portugal",
@@ -1277,8 +1193,7 @@
         "A Genealogical History of the Kings of Portugal"
       ],
       "notes": "Son and grandson of Afonso I Henriques who consolidated the Tagus valley and convened the Cortes of Coimbra.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur14_afonso3_algarve",
@@ -1293,8 +1208,7 @@
         "A Genealogical History of the Kings of Portugal"
       ],
       "notes": "Fixed Portugal's continental borders and fathered King Dinis.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur14_afonso4_pedro1_ines",
@@ -1309,8 +1223,7 @@
         "A Genealogical History of the Kings of Portugal"
       ],
       "notes": "Fought at Salado alongside Alfonso XI of Castile; Pedro I's son John I founded the House of Aviz.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur14_duarte_pedro_coimbra",
@@ -1325,8 +1238,7 @@
         "A Genealogical History of the Kings of Portugal"
       ],
       "notes": "Brothers of Henry the Navigator bridging Aviz exploration and European courts.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur14_john2_perfect_prince",
@@ -1341,8 +1253,7 @@
         "A Genealogical History of the Kings of Portugal"
       ],
       "notes": "Centralized royal finances and dispatched Bartolomeu Dias and Pero da Covilha toward India.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur14_sebastian_cardinal_henry",
@@ -1357,8 +1268,7 @@
         "A Genealogical History of the Kings of Portugal"
       ],
       "notes": "Anchored Portugal's Asian empire at Goa/Malacca prior to the 1580 succession crisis.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur14_catherine_braganza_charles2",
@@ -1373,8 +1283,7 @@
         "A Genealogical History of the Kings of Portugal"
       ],
       "notes": "Brought Bombay and Tangier in Anglo-Portuguese alliance; ruled as Regent of Portugal in 1704-1705.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur14_jose1_pombal_maria1",
@@ -1389,38 +1298,35 @@
         "A Genealogical History of the Kings of Portugal"
       ],
       "notes": "Led Lisbon's post-1755 Enlightenment reconstruction and erected Brazil to a united kingdom.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur14_fredegund_brunhilda_franks",
-      "name": "Queens Fredegund of Neustria & Brunhilda of Austrasia",
+      "name": "Queen Fredegund of Neustria (Consort of Chilperic I & Mother of Chlothar II)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 19,
-      "era": "c. 543 - 613 CE",
-      "role": "Merovingian Regent Queens (Clothar II Mother / Visigothic Princess)",
+      "era": "c. 543 - 597 CE",
+      "role": "Merovingian Regent Queen of Neustria (Mezeray 1683)",
       "sources": [
         "Francois Eudes de Mezeray, General Chronological History of France (1683)"
       ],
-      "notes": "Granddaughters-in-law and rivals governing Austrasia and Neustria across Mezeray's First Race (561-613 CE).",
-      "major": true,
-      "biblicalConnected": true
+      "notes": "Governing Queen of Neustria and fierce rival of Brunhilda across Mezeray's First Race (561-597 CE); mother of Chlothar II.",
+      "major": true
     },
     {
       "id": "eur14_dagobert1_charles_martel",
-      "name": "King Dagobert I & Mayor Charles Martel (Tours 732 CE)",
+      "name": "Pepin of Herstal & Mayor Charles Martel (Victor of Tours, 732 CE)",
       "altNames": [],
       "tradition": "europe_norse",
       "tier": 19,
-      "era": "c. 603 - 741 CE",
-      "role": "Last Effective Merovingian & Carolingian Victor of Tours",
+      "era": "c. 635 - 741 CE",
+      "role": "Carolingian Mayors of the Palace & Grandfather of Charlemagne",
       "sources": [
         "Francois Eudes de Mezeray, General Chronological History of France (1683)"
       ],
-      "notes": "Dagobert codifed Bavarian and Alemannic laws; grandfather Charles Martel won Tours/Poitiers (732 CE).",
-      "major": false,
-      "biblicalConnected": true
+      "notes": "Pepin of Herstal unified Austrasia-Neustria after Merovingian ascendancy; his son Charles Martel won Tours/Poitiers (732 CE).",
+      "major": false
     },
     {
       "id": "eur14_louis6_louis7_suger",
@@ -1434,8 +1340,7 @@
         "Francois Eudes de Mezeray, General Chronological History of France (1683)"
       ],
       "notes": "Secured the royal demesne around Paris and Saint-Denis, fathering Philip II Augustus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur14_philip4_fair_france",
@@ -1449,8 +1354,7 @@
         "Francois Eudes de Mezeray, General Chronological History of France (1683)"
       ],
       "notes": "Presided over Estates-General (1302) and Avignon Papacy transition; daughter Isabella carried English claim to Valois.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur14_charles5_wise_du_guesclin",
@@ -1464,8 +1368,7 @@
         "Francois Eudes de Mezeray, General Chronological History of France (1683)"
       ],
       "notes": "Recovered French provinces after Bretigny and endowed the Louvre Royal Library.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur14_charles7_joan_of_arc",
@@ -1479,8 +1382,7 @@
         "Francois Eudes de Mezeray, General Chronological History of France (1683)"
       ],
       "notes": "Crowned through Joan of Arc's relief of Orleans and Formigny/Castillon campaigns in Mezeray Book II.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur14_louis11_spider_king",
@@ -1494,8 +1396,7 @@
         "Francois Eudes de Mezeray, General Chronological History of France (1683)"
       ],
       "notes": "Built France's centralized Valois monarchy by absorbing Charles the Bold's Burgundian heritage.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur14_francis1_henry2_catherine",
@@ -1509,8 +1410,7 @@
         "Francois Eudes de Mezeray, General Chronological History of France (1683)"
       ],
       "notes": "Patrons of Leonardo da Vinci and Chambord; married Valois children across Scotland, Spain, and Navarre.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur14_edgar_peaceful_edmund_ironside",
@@ -1524,8 +1424,7 @@
         "Joseph Strutt, Chronicle of England / Ancient Britons and Saxons (1779)"
       ],
       "notes": "Great-grandsons of Alfred the Great covered in Strutt's 1779 Chronicle from Bath's 973 coronation to Assandun.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur14_harold_godwinson_edgar_aetheling",
@@ -1539,8 +1438,7 @@
         "Joseph Strutt, Chronicle of England / Ancient Britons and Saxons (1779)"
       ],
       "notes": "Edgar's sister St. Margaret wed Malcolm III Canmore, carrying Wessex blood into all later British monarchs.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     }
   ],
   "edges": [

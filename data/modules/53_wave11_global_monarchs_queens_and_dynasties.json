@@ -15,8 +15,7 @@
         "Habsburg Archives"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Habsburg Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_franz_joseph_sisi",
@@ -31,8 +30,7 @@
         "Habsburg Archives"
       ],
       "notes": "Longest-reigning Habsburg monarch of Austria-Hungary; great-uncle of Otto & Karl von Habsburg.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "roy11_franz_ferdinand",
@@ -46,8 +44,7 @@
         "Almanach de Gotha"
       ],
       "notes": "His 1914 assassination at Sarajevo triggered World War I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_karl1_otto_habsburg",
@@ -62,8 +59,7 @@
         "Burke's Royal Families"
       ],
       "notes": "Final Austrian Emperor Karl I (grandnephew of Franz Joseph) -> Crown Prince Otto -> Karl von Habsburg (b. 1961).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_tsar_alexander1_nicholas1",
@@ -78,8 +74,7 @@
         "Russian Imperial Archives"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Russian Imperial Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_tsar_alexander2_3",
@@ -94,8 +89,7 @@
         "Russian Imperial Archives"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Russian Imperial Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_louis18_charles10",
@@ -110,8 +104,7 @@
         "French Royal Archives"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, French Royal Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_louis_philippe",
@@ -126,8 +119,7 @@
         "French Royal Archives"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, French Royal Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_napoleon3_eugenie",
@@ -142,8 +134,7 @@
         "French Royal Archives"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, French Royal Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_victor_emmanuel2",
@@ -158,8 +149,7 @@
         "Savoy Royal Archives"
       ],
       "notes": "House of Savoy sovereign proclaimed first King of Italy in 1861 CE.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "roy11_umberto1_victor3",
@@ -174,8 +164,7 @@
         "Savoy Royal Archives"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Savoy Royal Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_george1_greece",
@@ -190,8 +179,7 @@
         "Greek Royal Archives"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Greek Royal Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_constantine1_greece",
@@ -206,8 +194,7 @@
         "Greek Royal Archives"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Greek Royal Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_paul_frederica_greece",
@@ -222,8 +209,7 @@
         "Greek Royal Archives"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Greek Royal Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_constantine2_greece",
@@ -238,8 +224,7 @@
         "Greek Royal Archives"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Greek Royal Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_khan_asparukh_boris1",
@@ -254,8 +239,7 @@
         "De Administrando Imperio"
       ],
       "notes": "Chronicle succession in Bulgarian Chronicles, De Administrando Imperio.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_tsar_simeon1_bulgaria",
@@ -270,8 +254,7 @@
         "De Administrando Imperio"
       ],
       "notes": "Educated in Constantinople; proclaimed Tsar of Bulgarians and Greeks.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "roy11_tsar_samuel_ivan_asen2",
@@ -286,8 +269,7 @@
         "De Administrando Imperio"
       ],
       "notes": "Chronicle succession in Bulgarian Chronicles, De Administrando Imperio.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_stefan_nemanja",
@@ -302,8 +284,7 @@
         "Echard Roman History"
       ],
       "notes": "Chronicle succession in Serbian Royal Chronicles, Echard Roman History.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_stefan_dusan",
@@ -318,8 +299,7 @@
         "Echard Roman History"
       ],
       "notes": "Promulgated Dušan's Code and raised the Serbian Archbishopric to a Patriarchate.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "roy11_prince_lazar_kosovo",
@@ -334,8 +314,7 @@
         "Echard Roman History"
       ],
       "notes": "Chronicle succession in Serbian Royal Chronicles, Echard Roman History.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_mircea_vlad3_dracula",
@@ -350,8 +329,7 @@
         "Knolles Turkish History"
       ],
       "notes": "Chronicle succession in Danubian Chronicles, Knolles Turkish History.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_stephen_great_moldavia",
@@ -366,8 +344,7 @@
         "Knolles Turkish History"
       ],
       "notes": "Fought 36 battles defending Moldavia; cousin-ally of Vlad III and candidate to Matthias Corvinus.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "roy11_carol1_queen_marie_romania",
@@ -381,8 +358,7 @@
         "Almanach de Gotha"
       ],
       "notes": "Chronicle succession in Almanach de Gotha.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy11_king_michael1_romania",
@@ -396,8 +372,7 @@
         "Almanach de Gotha"
       ],
       "notes": "Chronicle succession in Almanach de Gotha.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_empress_lu_zhi",
@@ -411,8 +386,7 @@
         "Sima Qian Shiji Ch. 9"
       ],
       "notes": "Consort of Han founder Liu Bang (Han Gaozu) & regent of Early Western Han.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_emperor_xuan_han",
@@ -426,8 +400,7 @@
         "Book of Han (Han Shu)"
       ],
       "notes": "Golden Age Western Han sovereign under whom the Xiongnu submitted.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_wang_mang",
@@ -441,8 +414,7 @@
         "Book of Han"
       ],
       "notes": "Nephew of Empress Wang Zhengjun between Western & Eastern Han.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_emperor_ming_han",
@@ -456,8 +428,7 @@
         "Book of Later Han"
       ],
       "notes": "Sons & grandsons of Han Guangwu; sent Ban Chao along the Silk Road.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_emperor_xian_han",
@@ -471,8 +442,7 @@
         "Records of the Three Kingdoms"
       ],
       "notes": "Last Eastern Han monarch whose 220 CE abdication launched the Three Kingdoms.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_sima_yan_jin",
@@ -486,8 +456,7 @@
         "Book of Jin"
       ],
       "notes": "Grandson of Sima Yi; ended the Three Kingdoms era in 280 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_xiaowen_northern_wei",
@@ -501,8 +470,7 @@
         "Book of Wei"
       ],
       "notes": "Sinicized Northern Wei court and built the Longmen Grottoes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_emperor_yang_sui",
@@ -516,8 +484,7 @@
         "Book of Sui"
       ],
       "notes": "Son of Sui Wendi; completed the Grand Canal before Tang Gaozu's rise.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_emperor_gaozong_wu_zetian",
@@ -531,8 +498,7 @@
         "Old & New Book of Tang"
       ],
       "notes": "Only woman in Chinese history to reign as Huángdì (Emperor Regnant) in her own right; mother of Emperors Zhongzong & Ruizong.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_emperor_suzong_tang",
@@ -546,8 +512,7 @@
         "New Book of Tang"
       ],
       "notes": "Son of Tang Xuanzong; rebuilt Tang authority after An Lushan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_yelv_abaoji_liao",
@@ -561,8 +526,7 @@
         "History of Liao"
       ],
       "notes": "Khitan founder whose western branch formed Qara Khitai.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_aguda_jin",
@@ -576,8 +540,7 @@
         "History of Jin"
       ],
       "notes": "Jurchen ancestor of the Aisin Gioro / Manchu Qing founders.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_song_renzong_gaozong",
@@ -591,8 +554,7 @@
         "History of Song"
       ],
       "notes": "Golden Age Northern Song Renzong & Southern Song founder Gaozong.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_ming_xuande_zhengtong",
@@ -606,8 +568,7 @@
         "History of Ming"
       ],
       "notes": "Grandson & great-grandson of Emperor Yongle; patronized Zheng He's final voyage.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_ming_wanli",
@@ -622,8 +583,7 @@
         "Du Halde 1738"
       ],
       "notes": "Longest-reigning Ming emperor; sent armies to defend Joseon Korea in the Imjin War.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_ming_chongzhen",
@@ -637,8 +597,7 @@
         "History of Ming"
       ],
       "notes": "Grandson of Wanli; died in 1644 CE as Manchu Qing entered Beijing.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_qing_yongzheng",
@@ -653,8 +612,7 @@
         "Du Halde 1738"
       ],
       "notes": "Son of Kangxi & father of Qianlong.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chn11_qing_jiaqing_guangxu",
@@ -668,8 +626,7 @@
         "Draft History of Qing"
       ],
       "notes": "Late 19th-century Qing emperors ruling under Empress Dowager Cixi prior to Puyi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_qutb_iltutmish",
@@ -684,8 +641,7 @@
         "Ibn Battuta"
       ],
       "notes": "Chronicle succession in Ferishta History of Hindostan, Ibn Battuta.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_razia_sultana",
@@ -700,8 +656,7 @@
         "Ibn Battuta"
       ],
       "notes": "Daughter of Sultan Iltutmish designated above her brothers as sovereign ruler of Delhi.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "asi11_alauddin_khalji",
@@ -716,8 +671,7 @@
         "Ibn Battuta"
       ],
       "notes": "Chronicle succession in Ferishta History of Hindostan, Ibn Battuta.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_tughluq_ibn_battuta",
@@ -732,8 +686,7 @@
         "Ibn Battuta"
       ],
       "notes": "Chronicle succession in Ferishta History of Hindostan, Ibn Battuta.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_sher_shah_suri",
@@ -748,8 +701,7 @@
         "Ibn Battuta"
       ],
       "notes": "Defeated Humayun and reorganized North Indian administration & currency.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "asi11_nizam_asaf_jah1",
@@ -763,8 +715,7 @@
         "Mughal & Deccan Chronicles"
       ],
       "notes": "Mughal governor under Aurangzeb who founded the Asaf Jahi dynasty.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_hyder_ali_tipu_sultan",
@@ -778,8 +729,7 @@
         "Mysore Chronicles"
       ],
       "notes": "Modernizing South Indian sovereigns who allied with France against British rule.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_rani_lakshmibai",
@@ -793,8 +743,7 @@
         "Indian Chronicles"
       ],
       "notes": "Born Manikarnika Tambe in a Maratha Peshwa court family; central heroine of 1857.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_prithvi_narayan_nepal",
@@ -808,8 +757,7 @@
         "Nepalese Royal Chronicles (Mewar Sisodia Descent)"
       ],
       "notes": "Chronicle succession in Nepalese Royal Chronicles (Mewar Sisodia Descent).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_tribhuvan_birendra_nepal",
@@ -823,8 +771,7 @@
         "Nepalese Royal Chronicles (Mewar Sisodia Descent)"
       ],
       "notes": "Chronicle succession in Nepalese Royal Chronicles (Mewar Sisodia Descent).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_ugyen_wangchuck_bhutan",
@@ -838,8 +785,7 @@
         "Bhutanese Royal Chronicles"
       ],
       "notes": "Chronicle succession in Bhutanese Royal Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_bhutan_jigme_khesar_2026",
@@ -853,8 +799,7 @@
         "Bhutanese Royal Chronicles"
       ],
       "notes": "Present-day Dragon King of Bhutan descended from Drukpa Tibetan spiritual-noble houses.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "asi11_rama6_rama7",
@@ -868,8 +813,7 @@
         "Royal Chronicles of Siam & Thailand"
       ],
       "notes": "Chronicle succession in Royal Chronicles of Siam & Thailand.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_bhumibol_rama9",
@@ -883,8 +827,7 @@
         "Royal Chronicles of Siam & Thailand"
       ],
       "notes": "Reigned 70 years as constitutional monarch of Thailand.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "asi11_thailand_rama10_2026",
@@ -898,8 +841,7 @@
         "Royal Chronicles of Siam & Thailand"
       ],
       "notes": "Present-day reigning Chakri monarch of Thailand (2026).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "asi11_norodom_sihanouk",
@@ -913,8 +855,7 @@
         "Cambodian Royal Chronicles"
       ],
       "notes": "Chronicle succession in Cambodian Royal Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_cambodia_sihamoni_2026",
@@ -928,8 +869,7 @@
         "Cambodian Royal Chronicles"
       ],
       "notes": "Present-day reigning monarch of Cambodia continuing Angkor-Khmer royal heritage.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "asi11_bolkiah_golden_age",
@@ -943,8 +883,7 @@
         "Salasilah Raja-Raja Brunei"
       ],
       "notes": "Chronicle succession in Salasilah Raja-Raja Brunei.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "asi11_brunei_hassanal_bolkiah_2026",
@@ -958,8 +897,7 @@
         "Salasilah Raja-Raja Brunei"
       ],
       "notes": "One of the longest-reigning monarchs in world history, continuing the Brunei royal line since Muhammad Shah.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "asi11_malaysia_yang_di_pertuan_2026",
@@ -973,8 +911,7 @@
         "Johor & Malacca Royal Chronicles"
       ],
       "notes": "Reigning King of Malaysia (2024–present) from the House of Temenggong / Johor-Malacca continuity.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ara11_muhammad_ibn_saud",
@@ -988,8 +925,7 @@
         "Al Saud Najdi Chronicles"
       ],
       "notes": "Chronicle succession in Al Saud Najdi Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ara11_abdulaziz_ibn_saud",
@@ -1003,8 +939,7 @@
         "Al Saud Najdi Chronicles"
       ],
       "notes": "Unified Nejd and Hejaz into the modern Kingdom of Saudi Arabia.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ara11_king_faisal_saud",
@@ -1018,8 +953,7 @@
         "Al Saud Najdi Chronicles"
       ],
       "notes": "Chronicle succession in Al Saud Najdi Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ara11_saudi_salman_mbs_2026",
@@ -1033,8 +967,7 @@
         "Al Saud Najdi Chronicles"
       ],
       "notes": "Present-day Al Saud monarchs in 2026.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ara11_sultan_qaboos_oman",
@@ -1048,8 +981,7 @@
         "Omani Al Bu Said Chronicles"
       ],
       "notes": "Chronicle succession in Omani Al Bu Said Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ara11_oman_haitham_2026",
@@ -1063,8 +995,7 @@
         "Omani Al Bu Said Chronicles"
       ],
       "notes": "Cousin of Sultan Qaboos & direct Al Bu Said descendant of Sayyid Said bin Sultan.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ara11_sheikh_zayed_uae",
@@ -1078,8 +1009,7 @@
         "Bani Yas / Al Nahyan Chronicles"
       ],
       "notes": "Bani Yas Al Nahyan ruler of Abu Dhabi & founding President of the UAE (1971).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ara11_uae_mbz_2026",
@@ -1093,8 +1023,7 @@
         "Al Nahyan & Al Maktoum Chronicles"
       ],
       "notes": "Present-day hereditary rulers of Abu Dhabi & Dubai leading the UAE in 2026.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ara11_jassim_al_thani",
@@ -1108,8 +1037,7 @@
         "Al Thani Chronicles (Banu Tamim)"
       ],
       "notes": "Mudar-Adnanite Banu Tamim lineage founding Qatar.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ara11_qatar_tamim_2026",
@@ -1123,8 +1051,7 @@
         "Al Thani Chronicles"
       ],
       "notes": "Present-day reigning Emir of the State of Qatar.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ara11_kuwait_al_sabah_2026",
@@ -1138,8 +1065,7 @@
         "Al-Sabah Utub Chronicles"
       ],
       "notes": "Reigning Al-Sabah Emir continuing the 1752 Bani Utbah house of Kuwait.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ara11_bahrain_al_khalifa_2026",
@@ -1153,8 +1079,7 @@
         "Al Khalifa Utub Chronicles"
       ],
       "notes": "Reigning Al Khalifa monarch continuing since 1783 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ara11_king_faisal1_iraq",
@@ -1168,8 +1093,7 @@
         "Hashemite Chronicles"
       ],
       "notes": "Brother of King Abdullah I of Jordan; first Hashemite king of Iraq.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ara11_king_faisal2_iraq",
@@ -1183,8 +1107,7 @@
         "Hashemite Chronicles"
       ],
       "notes": "Son & grandson of King Faisal I; cousin to King Hussein of Jordan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "anc11_antiochus1_commagene",
@@ -1199,8 +1122,7 @@
         "Josephus"
       ],
       "notes": "Carved colossal twin ancestor galleries tracing his father directly to Darius I and his mother Laodice VII directly to Seleucus & Alexander's world.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "anc11_vaballathus_palmyra",
@@ -1215,8 +1137,7 @@
         "Zosimus"
       ],
       "notes": "Co-ruled the Palmyrene Empire with his mother Zenobia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "anc11_karibil_watar_saba",
@@ -1231,8 +1152,7 @@
         "Assyrian Annals"
       ],
       "notes": "Sovereign of South Arabian Saba who exchanged diplomatic gifts with Sennacherib of Assyria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "anc11_queen_gudit_ethiopia",
@@ -1247,8 +1167,7 @@
         "History of the Patriarchs"
       ],
       "notes": "Ended Aksumite era prior to the Zagwe dynasty of Lalibela.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "anc11_evagoras_cyprus",
@@ -1263,8 +1182,7 @@
         "Diodorus"
       ],
       "notes": "Greek-Cypriot king descended from Teucer (brother of Telamonian Ajax).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "anc11_tabnit_eshmunazar2_sidon",
@@ -1279,8 +1197,7 @@
         "Records of the Past"
       ],
       "notes": "Phoenician Sidonian kings granted Dor & Joppa by the Persian Great King.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "anc11_abgar5_edessa",
@@ -1295,8 +1212,7 @@
         "Syriac Chronicles"
       ],
       "notes": "Early Syriac-Armenian ruler of Edessa linked to Adiabene & Armenia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "anc11_mausolus_artemisia2",
@@ -1311,8 +1227,7 @@
         "Arrian Anabasis"
       ],
       "notes": "Builders of the Mausoleum at Halicarnassus; sister Ada adopted Alexander the Great.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "anc11_ariarathes_cappadocia",
@@ -1327,8 +1242,7 @@
         "Justin"
       ],
       "notes": "Cappadocian kings claiming Achaemenid descent and intermarrying with Seleucids & Pontus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "anc11_prusias_nicomedes_bithynia",
@@ -1343,8 +1257,7 @@
         "Appian"
       ],
       "notes": "Anatolian Hellenistic kings allied with Macedon, Pontus & Rome.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

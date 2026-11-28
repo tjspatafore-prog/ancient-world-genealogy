@@ -15,8 +15,7 @@
         "Echard Roman History Vol. 4"
       ],
       "notes": "Chronicle succession in Ammianus Marcellinus, Echard Roman History Vol. 4.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_valentinian1",
@@ -31,8 +30,7 @@
         "Echard Roman History Vol. 4"
       ],
       "notes": "Chronicle succession in Ammianus Marcellinus, Echard Roman History Vol. 4.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_valens",
@@ -47,8 +45,7 @@
         "Echard Roman History Vol. 4"
       ],
       "notes": "Chronicle succession in Ammianus Marcellinus, Echard Roman History Vol. 4.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_gratian",
@@ -63,8 +60,7 @@
         "Echard Roman History Vol. 4"
       ],
       "notes": "Chronicle succession in Ammianus Marcellinus, Echard Roman History Vol. 4.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_theodosius2",
@@ -79,8 +75,7 @@
         "Chronicon Paschale"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 4, Chronicon Paschale.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_pulcheria_marcian",
@@ -95,8 +90,7 @@
         "Chronicon Paschale"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 4, Chronicon Paschale.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_leo1_zeno",
@@ -111,8 +105,7 @@
         "Chronicon Paschale"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 4, Chronicon Paschale.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_justin1",
@@ -127,8 +120,7 @@
         "Procopius"
       ],
       "notes": "Imperial commander elevated after Anastasius I; mentor and uncle of Justinian I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_justin2_maurice",
@@ -143,8 +135,7 @@
         "Chronicon Paschale"
       ],
       "notes": "Nephew Justin II and generals Tiberius II & Maurice, whose daughter Maria wed Khosrow II of Persia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_constans2",
@@ -159,8 +150,7 @@
         "Theophanes"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 4, Theophanes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_constantine4",
@@ -175,8 +165,7 @@
         "Theophanes"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 4, Theophanes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_justinian2",
@@ -191,8 +180,7 @@
         "Theophanes"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 4, Theophanes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_constantine5",
@@ -206,8 +194,7 @@
         "Echard Roman History Vol. 5"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_irene_athens",
@@ -221,8 +208,7 @@
         "Echard Roman History Vol. 5"
       ],
       "notes": "Restored icons (Nicaea II, 787 CE); exchanged marriage embassy with Charlemagne.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "byz8_theophilos_michael3",
@@ -236,8 +222,7 @@
         "Echard Roman History Vol. 5"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_leo6_wise",
@@ -252,8 +237,7 @@
         "De Administrando Imperio"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5, De Administrando Imperio.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_constantine7",
@@ -268,8 +252,7 @@
         "De Administrando Imperio"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5, De Administrando Imperio.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_romanos2",
@@ -284,8 +267,7 @@
         "De Administrando Imperio"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5, De Administrando Imperio.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_constantine8",
@@ -299,8 +281,7 @@
         "Echard Roman History Vol. 5"
       ],
       "notes": "Younger son of Romanos II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_empress_zoe_theodora",
@@ -314,8 +295,7 @@
         "Echard Roman History Vol. 5"
       ],
       "notes": "Daughters of Constantine VIII.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_anna_porphyrogenita",
@@ -330,8 +310,7 @@
         "Echard Roman History Vol. 5"
       ],
       "notes": "Sister of Emperor Basil II whose marriage to St. Vladimir Christianized Kievan Rus' and connected Byzantium directly into Europe's royal houses.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_theophanu_hre",
@@ -346,8 +325,7 @@
         "Thietmar of Merseburg"
       ],
       "notes": "Byzantine imperial princess married to Otto II in 972 CE, transmitting Eastern imperial blood to the Ottonians.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_otto2_otto3",
@@ -361,8 +339,7 @@
         "Modern Universal History Vol. 10"
       ],
       "notes": "Son & grandson of Otto I connecting Byzantine & Ottonian crowns.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_john2_komnenos",
@@ -377,8 +354,7 @@
         "Choniates"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5, Choniates.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_manuel1_komnenos",
@@ -393,8 +369,7 @@
         "Choniates"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5, Choniates.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_andronikos1_isaac2",
@@ -409,8 +384,7 @@
         "Choniates"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5, Choniates.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_theodore1_laskaris",
@@ -425,8 +399,7 @@
         "Choniates"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5, Choniates.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_maria_komnene_jerusalem",
@@ -441,8 +414,7 @@
         "Echard Vol. 5"
       ],
       "notes": "Married King Amalric I of Jerusalem; mother of Queen Isabella I, uniting Komnenian & Crusader royal blood.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_andronikos2",
@@ -456,8 +428,7 @@
         "Echard Roman History Vol. 5"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_john5_palaiologos",
@@ -471,8 +442,7 @@
         "Echard Roman History Vol. 5"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_manuel2_palaiologos",
@@ -486,8 +456,7 @@
         "Echard Roman History Vol. 5"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_john8_palaiologos",
@@ -501,8 +470,7 @@
         "Echard Roman History Vol. 5"
       ],
       "notes": "Chronicle succession in Echard Roman History Vol. 5.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_thomas_palaiologos",
@@ -516,8 +484,7 @@
         "Echard Roman History Vol. 5"
       ],
       "notes": "Younger son of Manuel II; carried Byzantine imperial inheritance to Rome & Moscow via daughter Sophia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_john6_kantakouzenos",
@@ -532,8 +499,7 @@
         "Knolles Turkish History"
       ],
       "notes": "Father-in-law of John V Palaiologos & Ottoman Sultan Orhan Ghazi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "byz8_theodora_kantakouzene",
@@ -548,8 +514,7 @@
         "Knolles Turkish History"
       ],
       "notes": "1346 CE royal marriage between Byzantine Princess Theodora and Sultan Orhan, joining Palaiologan-Kantakouzenos & Ottoman lines.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "got8_ostrogotha",
@@ -564,8 +529,7 @@
         "Modern Universal History Vol. 8"
       ],
       "notes": "Chronicle succession in Jordanes Getica, Modern Universal History Vol. 8.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "got8_ermanaric",
@@ -580,8 +544,7 @@
         "Modern Universal History Vol. 8"
       ],
       "notes": "Chronicle succession in Jordanes Getica, Modern Universal History Vol. 8.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "got8_valamir_theodemir",
@@ -596,8 +559,7 @@
         "Modern Universal History Vol. 8"
       ],
       "notes": "Chronicle succession in Jordanes Getica, Modern Universal History Vol. 8.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "got8_theodoric_great",
@@ -612,8 +574,7 @@
         "Modern Universal History Vol. 8"
       ],
       "notes": "Raised hostage at Constantinople; defeated Odoacer; married Clovis I's sister Audofleda.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "got8_amalasuntha",
@@ -628,8 +589,7 @@
         "Modern Universal History Vol. 8"
       ],
       "notes": "Chronicle succession in Jordanes Getica, Modern Universal History Vol. 8.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "got8_totila",
@@ -644,8 +604,7 @@
         "Modern Universal History Vol. 8"
       ],
       "notes": "Chronicle succession in Jordanes Getica, Modern Universal History Vol. 8.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "got8_alaric1",
@@ -660,8 +619,7 @@
         "Mariana General History of Spain 1699"
       ],
       "notes": "Balti dynasty king who captured Rome in 410 CE.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "got8_ataulf",
@@ -676,8 +634,7 @@
         "Mariana General History of Spain 1699"
       ],
       "notes": "Chronicle succession in Jordanes Getica, Mariana General History of Spain 1699.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "got8_theodoric1_visigoth",
@@ -692,8 +649,7 @@
         "Mariana General History of Spain 1699"
       ],
       "notes": "Chronicle succession in Jordanes Getica, Mariana General History of Spain 1699.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "got8_euric",
@@ -708,8 +664,7 @@
         "Mariana General History of Spain 1699"
       ],
       "notes": "Chronicle succession in Jordanes Getica, Mariana General History of Spain 1699.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "got8_alaric2",
@@ -724,8 +679,7 @@
         "Mariana General History of Spain 1699"
       ],
       "notes": "Chronicle succession in Jordanes Getica, Mariana General History of Spain 1699.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "got8_leovigild",
@@ -740,8 +694,7 @@
         "Mariana General History of Spain 1699"
       ],
       "notes": "Chronicle succession in Jordanes Getica, Mariana General History of Spain 1699.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "got8_wamba_witiza",
@@ -756,8 +709,7 @@
         "Mariana General History of Spain 1699"
       ],
       "notes": "Chronicle succession in Jordanes Getica, Mariana General History of Spain 1699.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_merovech",
@@ -771,8 +723,7 @@
         "Gregory of Tours History of the Franks"
       ],
       "notes": "Chronicle succession in Gregory of Tours History of the Franks.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_childeric1",
@@ -786,8 +737,7 @@
         "Gregory of Tours History of the Franks"
       ],
       "notes": "Chronicle succession in Gregory of Tours History of the Franks.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_clotilde_burgundy",
@@ -801,8 +751,7 @@
         "Gregory of Tours"
       ],
       "notes": "Burgundian princess whose marriage to Clovis I led to the conversion of the Frankish kingdom.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_theuderic1",
@@ -816,8 +765,7 @@
         "Gregory of Tours"
       ],
       "notes": "Son of Clovis I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_childebert1",
@@ -831,8 +779,7 @@
         "Gregory of Tours"
       ],
       "notes": "Son of Clovis I & St. Clotilde.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_sigebert1",
@@ -846,8 +793,7 @@
         "Gregory of Tours"
       ],
       "notes": "Married Visigothic princess Brunhilda.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_brunhilda_visigoth",
@@ -862,8 +808,7 @@
         "Fredegar"
       ],
       "notes": "Daughter of Visigothic King Athanagild; dominated Merovingian politics for 45 years.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_childebert2",
@@ -877,8 +822,7 @@
         "Gregory of Tours"
       ],
       "notes": "Son of Sigebert I & Brunhilda.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_chilperic1",
@@ -892,8 +836,7 @@
         "Gregory of Tours"
       ],
       "notes": "Husband of Queen Fredegund; father of Chlothar II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_fredegund",
@@ -907,8 +850,7 @@
         "Gregory of Tours"
       ],
       "notes": "Arch-rival of Brunhilda; secured the Frankish throne for her son Chlothar II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_chlothar2",
@@ -923,8 +865,7 @@
         "Fredegar"
       ],
       "notes": "Son of Chilperic I & Fredegund; reunited the Merovingian realm.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_childeric3",
@@ -939,8 +880,7 @@
         "Mézeray 1683"
       ],
       "notes": "Last Merovingian monarch before the Carolingian accession.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_pepin_landen",
@@ -955,8 +895,7 @@
         "Mézeray 1683"
       ],
       "notes": "Advisor to Chlothar II & Dagobert I; grandfather of Pepin of Herstal.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mer8_pepin_herstal",
@@ -971,8 +910,7 @@
         "Modern Universal History Vol. 9"
       ],
       "notes": "United Austrasia & Neustria at Tertry (687 CE); father of Charles Martel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kas8_jalauka",
@@ -986,8 +924,7 @@
         "Kalhana's Rajatarangini (M.A. Stein 1900)"
       ],
       "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kas8_kanishka_kashmir",
@@ -1001,8 +938,7 @@
         "Kalhana's Rajatarangini (M.A. Stein 1900)"
       ],
       "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kas8_meghavahana",
@@ -1016,8 +952,7 @@
         "Kalhana's Rajatarangini (M.A. Stein 1900)"
       ],
       "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kas8_pravarasena2",
@@ -1031,8 +966,7 @@
         "Kalhana's Rajatarangini (M.A. Stein 1900)"
       ],
       "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kas8_durlabhavardhana",
@@ -1046,8 +980,7 @@
         "Kalhana's Rajatarangini (M.A. Stein 1900)"
       ],
       "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kas8_lalitaditya",
@@ -1061,8 +994,7 @@
         "Kalhana's Rajatarangini (M.A. Stein 1900)"
       ],
       "notes": "Most celebrated Karkota conqueror in Kalhana's Rajatarangini Book IV.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kas8_avantivarman",
@@ -1076,8 +1008,7 @@
         "Kalhana's Rajatarangini (M.A. Stein 1900)"
       ],
       "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kas8_queen_didda",
@@ -1091,8 +1022,7 @@
         "Kalhana's Rajatarangini (M.A. Stein 1900)"
       ],
       "notes": "Ruled Kashmir for nearly 45 years; scion of Lohara & Hindu Shahi houses.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kas8_sangramaraja",
@@ -1106,8 +1036,7 @@
         "Kalhana's Rajatarangini (M.A. Stein 1900)"
       ],
       "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kas8_kota_rani_shah_mir",
@@ -1121,8 +1050,7 @@
         "Kalhana's Rajatarangini (M.A. Stein 1900)"
       ],
       "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "lka8_devanampiya_tissa",
@@ -1136,8 +1064,7 @@
         "Mahavamsa & Culavamsa (Geiger)"
       ],
       "notes": "Chronicle succession in Mahavamsa & Culavamsa (Geiger).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "lka8_dutthagamani",
@@ -1151,8 +1078,7 @@
         "Mahavamsa & Culavamsa (Geiger)"
       ],
       "notes": "Reunified Sri Lanka; central hero of the Mahavamsa.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "lka8_vattagamani",
@@ -1166,8 +1092,7 @@
         "Mahavamsa & Culavamsa (Geiger)"
       ],
       "notes": "Chronicle succession in Mahavamsa & Culavamsa (Geiger).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "lka8_mahasena",
@@ -1181,8 +1106,7 @@
         "Mahavamsa & Culavamsa (Geiger)"
       ],
       "notes": "Chronicle succession in Mahavamsa & Culavamsa (Geiger).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "lka8_kashyapa_sigiriya",
@@ -1196,8 +1120,7 @@
         "Mahavamsa & Culavamsa (Geiger)"
       ],
       "notes": "Chronicle succession in Mahavamsa & Culavamsa (Geiger).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "lka8_vijayabahu1",
@@ -1211,8 +1134,7 @@
         "Mahavamsa & Culavamsa (Geiger)"
       ],
       "notes": "Chronicle succession in Mahavamsa & Culavamsa (Geiger).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "lka8_parakramabahu1",
@@ -1226,8 +1148,7 @@
         "Mahavamsa & Culavamsa (Geiger)"
       ],
       "notes": "Constructed Parakrama Samudra and sent expeditions to Burma and South India.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "lka8_nissanka_malla",
@@ -1241,8 +1162,7 @@
         "Mahavamsa & Culavamsa (Geiger)"
       ],
       "notes": "Chronicle succession in Mahavamsa & Culavamsa (Geiger).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bur8_pyusawhti",
@@ -1256,8 +1176,7 @@
         "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
       ],
       "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bur8_anawrahta",
@@ -1271,8 +1190,7 @@
         "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
       ],
       "notes": "Established Theravada Buddhism and unified Myanmar from Pagan.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "bur8_kyansittha",
@@ -1286,8 +1204,7 @@
         "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
       ],
       "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bur8_alaungsithu",
@@ -1301,8 +1218,7 @@
         "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
       ],
       "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bur8_narathihapate",
@@ -1316,8 +1232,7 @@
         "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
       ],
       "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bur8_tabinshwehti",
@@ -1331,8 +1246,7 @@
         "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
       ],
       "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bur8_bayinnaung",
@@ -1346,8 +1260,7 @@
         "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
       ],
       "notes": "Built the largest empire in Southeast Asian history across Burma, Shan States, Lan Na & Ayutthaya.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "bur8_alaungpaya",
@@ -1361,8 +1274,7 @@
         "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
       ],
       "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bur8_mindon_min",
@@ -1376,8 +1288,7 @@
         "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
       ],
       "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bur8_king_thibaw",
@@ -1391,8 +1302,7 @@
         "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
       ],
       "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib8_trisong_detsen",
@@ -1406,8 +1316,7 @@
         "The Blue Annals (George N. Roerich)"
       ],
       "notes": "Second great Dharma King of the Tibetan Empire; Tang princess mother Jincheng.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "tib8_ralpachen_langdarma",
@@ -1421,8 +1330,7 @@
         "The Blue Annals (George N. Roerich)"
       ],
       "notes": "Chronicle succession in The Blue Annals (George N. Roerich).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib8_atisha_dromton",
@@ -1436,8 +1344,7 @@
         "The Blue Annals (George N. Roerich)"
       ],
       "notes": "Chronicle succession in The Blue Annals (George N. Roerich).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib8_marpa_milarepa",
@@ -1451,8 +1358,7 @@
         "The Blue Annals (George N. Roerich)"
       ],
       "notes": "Chronicle succession in The Blue Annals (George N. Roerich).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib8_sakya_pandita",
@@ -1466,8 +1372,7 @@
         "The Blue Annals (George N. Roerich)"
       ],
       "notes": "Chronicle succession in The Blue Annals (George N. Roerich).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib8_tsongkhapa",
@@ -1481,8 +1386,7 @@
         "The Blue Annals (George N. Roerich)"
       ],
       "notes": "Chronicle succession in The Blue Annals (George N. Roerich).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib8_fifth_dalai_lama",
@@ -1496,8 +1400,7 @@
         "The Blue Annals (George N. Roerich)"
       ],
       "notes": "Built the Potala Palace at Lhasa; spiritual & temporal ruler of unified Tibet.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ott8_hurrem_sultan",
@@ -1512,8 +1415,7 @@
         "Ottoman Imperial Registry"
       ],
       "notes": "Elevated Ottoman royal consort to legal empress; mother of Sultan Selim II & Mihrimah Sultan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_mihrimah_sultan",
@@ -1527,8 +1429,7 @@
         "Ottoman Chronicles"
       ],
       "notes": "Influential Ottoman princess & daughter of Sultan Suleiman I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_nurbanu_safiye",
@@ -1542,8 +1443,7 @@
         "Knolles & Rycaut Vols. 2–3"
       ],
       "notes": "Led the Ottoman 'Sultanate of Women' alongside Selim II & Murad III.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_kosem_sultan",
@@ -1557,8 +1457,7 @@
         "Knolles & Rycaut Vol. 3"
       ],
       "notes": "Served twice as official regent (naib-i saltanat) of the Ottoman Empire.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_mehmed3",
@@ -1572,8 +1471,7 @@
         "Knolles & Rycaut Vol. 2–3"
       ],
       "notes": "Son of Murad III & Safiye Sultan; father of Ahmed I & Mustafa I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_osman2_mustafa1",
@@ -1587,8 +1485,7 @@
         "Knolles & Rycaut Vol. 3"
       ],
       "notes": "Brother & eldest son of Ahmed I preceding Murad IV.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_ibrahim1",
@@ -1602,8 +1499,7 @@
         "Knolles & Rycaut Vol. 3"
       ],
       "notes": "Father of Mehmed IV, Suleiman II & Ahmed II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_suleiman2_ahmed2_mustafa2",
@@ -1618,8 +1514,7 @@
         "Ottoman Registry"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 3–4, Ottoman Registry.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_ahmed3",
@@ -1634,8 +1529,7 @@
         "Ottoman Registry"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 3–4, Ottoman Registry.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_mahmud1_osman3_mustafa3",
@@ -1650,8 +1544,7 @@
         "Ottoman Registry"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 3–4, Ottoman Registry.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_abdulhamid1",
@@ -1666,8 +1559,7 @@
         "Ottoman Registry"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 3–4, Ottoman Registry.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_selim3",
@@ -1682,8 +1574,7 @@
         "Ottoman Registry"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 3–4, Ottoman Registry.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_abdulmejid1",
@@ -1698,8 +1589,7 @@
         "Almanach de Gotha"
       ],
       "notes": "Chronicle succession in Ottoman Imperial Registry, Almanach de Gotha.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_abdulaziz",
@@ -1714,8 +1604,7 @@
         "Almanach de Gotha"
       ],
       "notes": "Chronicle succession in Ottoman Imperial Registry, Almanach de Gotha.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_abdulhamid2",
@@ -1730,8 +1619,7 @@
         "Almanach de Gotha"
       ],
       "notes": "Final strong autocratic Ottoman Sultan; built the Hejaz Railway.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ott8_mehmed5",
@@ -1746,8 +1634,7 @@
         "Almanach de Gotha"
       ],
       "notes": "Chronicle succession in Ottoman Imperial Registry, Almanach de Gotha.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_mehmed6",
@@ -1762,8 +1649,7 @@
         "Almanach de Gotha"
       ],
       "notes": "Chronicle succession in Ottoman Imperial Registry, Almanach de Gotha.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ott8_abdulmejid2_osmanoglu",
@@ -1778,8 +1664,7 @@
         "Almanach de Gotha"
       ],
       "notes": "Chronicle succession in Ottoman Imperial Registry, Almanach de Gotha.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mid8_pirkei_eliezer_calendar",
@@ -1793,8 +1678,7 @@
         "Pirkei de-Rabbi Eliezer (bub_gb_DTpRAAAAYAAJ.pdf)"
       ],
       "notes": "Ch. 8–22 traces the sacred calendar secret handed from Adam through Enoch, Noah & Shem to Abraham & Moses.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mid8_pirkei_eliezer_nimrod_garments",
@@ -1809,8 +1693,7 @@
         "Sefer ha-Yashar"
       ],
       "notes": "Famous Midrashic link connecting Nimrod's hunting coat back to Adam and forward to Esau (Gen 25:27–34).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mid8_pirkei_eliezer_ishmael_wives",
@@ -1824,8 +1707,7 @@
         "Pirkei de-Rabbi Eliezer Ch. 30"
       ],
       "notes": "Preserves parallel Islamic-Jewish tradition on Ishmael's two wives and Abraham's desert visits.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mid8_kitab_al_magall_adam_cave",
@@ -1839,8 +1721,7 @@
         "Apocrypha Arabica (Gibson, apocryphaarabica00gibsuoft.pdf)"
       ],
       "notes": "10th-century Sinai Arabic manuscript closely parallel to Syriac Cave of Treasures tracing every patriarch from Adam to Christ.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mid8_kitab_al_magall_shem_melchizedek",
@@ -1854,8 +1735,7 @@
         "Apocrypha Arabica (Gibson)"
       ],
       "notes": "Details Shem & Melchizedek carrying Adam's body to Jerusalem.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mid8_kitab_al_magall_mary_david",
@@ -1869,8 +1749,7 @@
         "Apocrypha Arabica (Gibson)"
       ],
       "notes": "Constructs an explicit 64-generation stemma joining Judah, David, and Mary in Christian-Arabic tradition.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

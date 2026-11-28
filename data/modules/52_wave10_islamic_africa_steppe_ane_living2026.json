@@ -16,8 +16,7 @@
         "Lane-Poole"
       ],
       "notes": "Chronicle succession in Ibn al-Athir, Al-Maqrizi, Lane-Poole.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_al_muizz_cairo",
@@ -33,8 +32,7 @@
         "Lane-Poole"
       ],
       "notes": "Conquered Egypt in 969 CE and founded Al-Qahirah (Cairo) & Al-Azhar Mosque.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "isl10_al_aziz_hakim",
@@ -50,8 +48,7 @@
         "Lane-Poole"
       ],
       "notes": "Chronicle succession in Ibn al-Athir, Al-Maqrizi, Lane-Poole.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_al_mustansir",
@@ -67,8 +64,7 @@
         "Lane-Poole"
       ],
       "notes": "Chronicle succession in Ibn al-Athir, Al-Maqrizi, Lane-Poole.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_nizar_ismaili",
@@ -82,8 +78,7 @@
         "Alamut & Aga Khan Chronicles"
       ],
       "notes": "Eldest son of Caliph al-Mustansir; Alamut Nizari Imamat line continuing to Living Aga Khan V (2026).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_al_mustali_tayyibi",
@@ -98,8 +93,7 @@
         "Al-Maqrizi"
       ],
       "notes": "Younger son Fatimid succession to Al-Adid (d. 1171 CE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_najm_ad_din_ayyub",
@@ -114,8 +108,7 @@
         "Modern Universal History Vol. 2"
       ],
       "notes": "Kurdish generals from Dvin (Armenia) who united Syria & Egypt; father & uncle of Saladin.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_al_adil1",
@@ -130,8 +123,7 @@
         "Modern Universal History Vol. 2–3"
       ],
       "notes": "Chronicle succession in Al-Maqrizi, Modern Universal History Vol. 2–3.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_al_kamil",
@@ -146,8 +138,7 @@
         "Modern Universal History Vol. 2–3"
       ],
       "notes": "Chronicle succession in Al-Maqrizi, Modern Universal History Vol. 2–3.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_shajar_al_durr",
@@ -162,8 +153,7 @@
         "Modern Universal History Vol. 2–3"
       ],
       "notes": "Widow of al-Salih Ayyub who defeated Louis IX's crusade and wed Mamluk Sultan Aybak.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "isl10_qalawun",
@@ -178,8 +168,7 @@
         "Modern Universal History Vol. 2–3"
       ],
       "notes": "Chronicle succession in Al-Maqrizi, Modern Universal History Vol. 2–3.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_al_nasir_muhammad",
@@ -194,8 +183,7 @@
         "Modern Universal History Vol. 2–3"
       ],
       "notes": "Chronicle succession in Al-Maqrizi, Modern Universal History Vol. 2–3.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_qansuh_al_ghuri",
@@ -210,8 +198,7 @@
         "Modern Universal History Vol. 2–3"
       ],
       "notes": "Chronicle succession in Al-Maqrizi, Modern Universal History Vol. 2–3.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_yusuf_ibn_tashfin",
@@ -226,8 +213,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Chronicle succession in Mariana General History of Spain 1699, Ibn Khaldun.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_ibn_tumart_abd_al_mumin",
@@ -242,8 +228,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Chronicle succession in Mariana General History of Spain 1699, Ibn Khaldun.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_yaqub_al_mansur",
@@ -258,8 +243,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Chronicle succession in Mariana General History of Spain 1699, Ibn Khaldun.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_muhammad1_nasrid",
@@ -274,8 +258,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Chronicle succession in Mariana General History of Spain 1699, Ibn Khaldun.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_yusuf1_muhammad5_alhambra",
@@ -290,8 +273,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Chronicle succession in Mariana General History of Spain 1699, Ibn Khaldun.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_boabdil_granada",
@@ -306,8 +288,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Surrendered Granada to Ferdinand & Isabella in January 1492 CE.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "isl10_al_khwarizmi",
@@ -322,8 +303,7 @@
         "House of Wisdom"
       ],
       "notes": "Coined Algebra (Al-Jabr) & Algorithm at Caliph Al-Ma'mun's House of Wisdom in Baghdad.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_al_kindi_farabi",
@@ -337,8 +317,7 @@
         "Ibn Abi Usaybi'a"
       ],
       "notes": "Translated and synthesized Greek philosophy across the Abbasid world.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_al_biruni_polymath",
@@ -353,8 +332,7 @@
         "Sachau"
       ],
       "notes": "Measured Earth's radius and compiled synchronous world royal genealogies at Ghazni.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_omar_khayyam",
@@ -368,8 +346,7 @@
         "Modern Universal History Vol. 3"
       ],
       "notes": "Reformed the Persian Jalali solar calendar under Sultan Malik-Shah I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_nizam_al_mulk",
@@ -384,8 +361,7 @@
         "Modern Universal History Vol. 3"
       ],
       "notes": "Statesman serving Alp Arslan & Malik-Shah I; patron of Al-Ghazali & Omar Khayyam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_ibn_rushd_averroes",
@@ -399,8 +375,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Chief judge of Seville & Cordoba; famed commentator on Aristotle under Almohad Caliphs.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_al_idrisi",
@@ -414,8 +389,7 @@
         "Nuzhat al-Mushtaq"
       ],
       "notes": "Created the world atlas Tabula Rogeriana at King Roger II's court in Sicily.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_ibn_battuta",
@@ -429,8 +403,7 @@
         "Rihla of Ibn Battuta"
       ],
       "notes": "Recorded firsthand eyewitness accounts of Granada, Mansa Sulayman of Mali, Kilwa, Byzantium, Delhi & Yuan China.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isl10_ibn_khaldun",
@@ -445,8 +418,7 @@
         "Histoire des Berbères"
       ],
       "notes": "Authored the Muqaddimah & Berber/Arab universal histories; negotiated with Timur at Damascus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_kaya_maghan_tunka",
@@ -462,8 +434,7 @@
         "Al-Umari"
       ],
       "notes": "Chronicle succession in Oral Epic of Sundiata, Ibn Khaldun, Al-Umari.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_sundiata_keita",
@@ -479,8 +450,7 @@
         "Al-Umari"
       ],
       "notes": "Chronicle succession in Oral Epic of Sundiata, Ibn Khaldun, Al-Umari.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_mansa_abu_bakr2",
@@ -496,8 +466,7 @@
         "Al-Umari"
       ],
       "notes": "Chronicle succession in Oral Epic of Sundiata, Ibn Khaldun, Al-Umari.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_mansa_sulayman",
@@ -512,8 +481,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Presided over prosperous Mali; hosted Ibn Battuta.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_sonni_ali_ber",
@@ -528,8 +496,7 @@
         "Modern Universal History Vol. 7"
       ],
       "notes": "Chronicle succession in Tarikh es-Soudan, Modern Universal History Vol. 7.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_askia_dawud",
@@ -544,8 +511,7 @@
         "Modern Universal History Vol. 7"
       ],
       "notes": "Chronicle succession in Tarikh es-Soudan, Modern Universal History Vol. 7.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_ahmad_baba_timbuktu",
@@ -562,8 +528,7 @@
       "notes": [
         "Tarikh al-Sudan"
       ],
-      "major": "Descendant of Timbuktu's Aqit scholarly lineage; authored over 40 works.",
-      "biblicalConnected": true
+      "major": "Descendant of Timbuktu's Aqit scholarly lineage; authored over 40 works."
     },
     {
       "id": "afr10_bayajidda_daurama",
@@ -578,8 +543,7 @@
         "Sokoto Caliphate Archives"
       ],
       "notes": "Chronicle succession in Kano Chronicle, Sokoto Caliphate Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_queen_amina_zazzau",
@@ -594,8 +558,7 @@
         "Sokoto Caliphate Archives"
       ],
       "notes": "Extended Zazzau dominion from Nupe to Kwararafa and built the legendary Ganuwar Amina walls.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "afr10_usman_dan_fodio",
@@ -610,8 +573,7 @@
         "Sokoto Caliphate Archives"
       ],
       "notes": "Fulani-Torodbe scholar who founded the Sokoto Caliphate in 1804 CE.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "afr10_muhammad_bello_nana_asmau",
@@ -626,8 +588,7 @@
         "Sokoto Caliphate Archives"
       ],
       "notes": "Chronicle succession in Kano Chronicle, Sokoto Caliphate Archives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_empress_eleni",
@@ -642,8 +603,7 @@
         "Portuguese Asia"
       ],
       "notes": "Consort of Zara Yaqob; initiator of the 1509–1520 Ethiopian–Portuguese alliance.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_emperor_fasilides",
@@ -657,8 +617,7 @@
         "Ludolf New History of Ethiopia"
       ],
       "notes": "Built the walled imperial city of Gondar in 1636 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_tewodros2_taytu",
@@ -672,8 +631,7 @@
         "Ethiopian Imperial Chronicles"
       ],
       "notes": "Tewodros II initiated modern Ethiopian unification; Empress Taytu co-led the 1896 victory at Adwa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_kilwa_ali_shirazi",
@@ -688,8 +646,7 @@
         "Ibn Battuta"
       ],
       "notes": "Shirazi Persian prince who settled East Africa and founded the trading sultanate of Kilwa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "afr10_seyyid_said_zanzibar",
@@ -703,8 +660,7 @@
         "East African Chronicles"
       ],
       "notes": "Moved the Al Bu Said imperial capital to Stone Town, Zanzibar (1840).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_ismail_samani",
@@ -719,8 +675,7 @@
         "Al-Biruni"
       ],
       "notes": "Chronicle succession in Al-Tabari, Al-Biruni.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_adud_al_dawla",
@@ -735,8 +690,7 @@
         "Al-Biruni"
       ],
       "notes": "Chronicle succession in Al-Tabari, Al-Biruni.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_sultan_sanjar",
@@ -750,8 +704,7 @@
         "Modern Universal History Vol. 3"
       ],
       "notes": "Son of Malik-Shah I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_ala_addin_khwarazm",
@@ -765,8 +718,7 @@
         "Juvayni History of the World Conqueror"
       ],
       "notes": "Ruled Transoxiana & Persia prior to Genghis Khan's 1219 campaign.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_jalal_addin_mangburni",
@@ -781,8 +733,7 @@
         "Secret History of the Mongols"
       ],
       "notes": "Fought Genghis Khan at the Indus River (1221 CE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_hulagu_khan",
@@ -797,8 +748,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Chronicle succession in Rashid al-Din Jami' al-Tawarikh, Modern Universal History Vol. 4.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_abaqa_arghun",
@@ -813,8 +763,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Chronicle succession in Rashid al-Din Jami' al-Tawarikh, Modern Universal History Vol. 4.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_ghazan_oljaitu",
@@ -829,8 +778,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Chronicle succession in Rashid al-Din Jami' al-Tawarikh, Modern Universal History Vol. 4.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_shah_rukh_gawhar_shad",
@@ -845,8 +793,7 @@
         "Tarikh-i-Rashidi"
       ],
       "notes": "Chronicle succession in Baburnama, Tarikh-i-Rashidi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_ulugh_beg",
@@ -861,8 +808,7 @@
         "Tarikh-i-Rashidi"
       ],
       "notes": "Computed the length of the sidereal year within 58 seconds at his Samarkand observatory.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "per10_husayn_bayqara",
@@ -877,8 +823,7 @@
         "Tarikh-i-Rashidi"
       ],
       "notes": "Chronicle succession in Baburnama, Tarikh-i-Rashidi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_pahlavi_iran",
@@ -892,8 +837,7 @@
         "Modern Iranian History"
       ],
       "notes": "20th-century imperial dynasty succeeding Qajar Iran.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_berke_khan",
@@ -908,8 +852,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Chronicle succession in Abulghazi, Modern Universal History Vol. 4.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_ozbeg_khan",
@@ -924,8 +867,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Chronicle succession in Abulghazi, Modern Universal History Vol. 4.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_tokhtamysh",
@@ -940,8 +882,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Chronicle succession in Abulghazi, Modern Universal History Vol. 4.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_haci_menli_giray",
@@ -956,8 +897,7 @@
         "Modern Universal History Vol. 4"
       ],
       "notes": "Chronicle succession in Abulghazi, Modern Universal History Vol. 4.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_shaybani_khan",
@@ -972,8 +912,7 @@
         "Abulghazi"
       ],
       "notes": "Jochid descendant of Batu/Shiban; rival of Babur.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_kerey_janibek",
@@ -988,8 +927,7 @@
         "Abulghazi"
       ],
       "notes": "Jochid/Orda-Iden princes who established the Kazakh Khanate.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_ablai_khan",
@@ -1003,8 +941,7 @@
         "Kazakh & Steppe Chronicles"
       ],
       "notes": "United the Senior, Middle & Junior Kazakh Jüz.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per10_kuchum_siberia",
@@ -1019,8 +956,7 @@
         "Russian Chronicles"
       ],
       "notes": "Last Shaybanid-Chinggisid sovereign of Western Siberia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_rezon_damascus",
@@ -1036,8 +972,7 @@
         "Assyrian Royal Inscriptions"
       ],
       "notes": "Chronicle succession in 1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_ben_hadad1",
@@ -1053,8 +988,7 @@
         "Assyrian Royal Inscriptions"
       ],
       "notes": "Chronicle succession in 1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_ben_hadad2_qarqar",
@@ -1070,8 +1004,7 @@
         "Assyrian Royal Inscriptions"
       ],
       "notes": "Chronicle succession in 1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_hazael_tel_dan",
@@ -1087,8 +1020,7 @@
         "Assyrian Royal Inscriptions"
       ],
       "notes": "Erected the Tel Dan Stele bearing the oldest extra-biblical reference to 'BYTDWD' (House of David).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ane10_ben_hadad3",
@@ -1104,8 +1036,7 @@
         "Assyrian Royal Inscriptions"
       ],
       "notes": "Chronicle succession in 1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_rezin_damascus",
@@ -1121,8 +1052,7 @@
         "Assyrian Royal Inscriptions"
       ],
       "notes": "Chronicle succession in 1–2 Kings, Tel Dan Stele, Assyrian Royal Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_mesha_moab",
@@ -1137,8 +1067,7 @@
         "Mesha Stele (KAI 181)"
       ],
       "notes": "Carved the Moabite Stone recording Omri, Chemosh & House of David.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_nahash_hanun_ammon",
@@ -1153,8 +1082,7 @@
         "2 Samuel 10"
       ],
       "notes": "Ammonite kings descended from Ben-Ammi son of Lot.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_baalis_ammon",
@@ -1169,8 +1097,7 @@
         "Tell el-'Umeiri Seal"
       ],
       "notes": "Attested archaeologically on Ammonite royal official Milkom'ur seal.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_achish_gath",
@@ -1184,8 +1111,7 @@
         "1 Samuel 21 & 27"
       ],
       "notes": "Sheltered young David at Ziklag.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_ikausu_ekron",
@@ -1200,8 +1126,7 @@
         "Assyrian Annals"
       ],
       "notes": "Named in Esarhaddon/Ashurbanipal prism & Ekron foundation inscription.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_aramu_sarduri1",
@@ -1216,8 +1141,7 @@
         "Khorenatsi"
       ],
       "notes": "Chronicle succession in Urartian Cuneiform Inscriptions, Khorenatsi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_menua_urartu",
@@ -1232,8 +1156,7 @@
         "Khorenatsi"
       ],
       "notes": "Chronicle succession in Urartian Cuneiform Inscriptions, Khorenatsi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_argishti1_yerevan",
@@ -1248,8 +1171,7 @@
         "Khorenatsi"
       ],
       "notes": "Built the fortress of Erebuni in 782 BCE, direct origin of Armenia's capital Yerevan.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ane10_sarduri2",
@@ -1264,8 +1186,7 @@
         "Khorenatsi"
       ],
       "notes": "Chronicle succession in Urartian Cuneiform Inscriptions, Khorenatsi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_rusa1_rusa2",
@@ -1280,8 +1201,7 @@
         "Khorenatsi"
       ],
       "notes": "Chronicle succession in Urartian Cuneiform Inscriptions, Khorenatsi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_gordias_midas",
@@ -1296,8 +1216,7 @@
         "Assyrian Annals of Sargon II"
       ],
       "notes": "Historical King Midas wed a Greek princess of Cyme and corresponded with Sargon II of Assyria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_gyges_lydia",
@@ -1312,8 +1231,7 @@
         "Rassam Cylinder"
       ],
       "notes": "Sent mercenaries to Egypt's Psamtik I and envoys to Nineveh.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_alyattes_lydia",
@@ -1327,8 +1245,7 @@
         "Herodotus Book I"
       ],
       "notes": "Coined earliest electrum money; father of Croesus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ane10_harpagus_artemisia",
@@ -1343,8 +1260,7 @@
         "Diodorus"
       ],
       "notes": "Naval commander at Salamis (480 BCE) and builder of the Mausoleum at Halicarnassus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_william1_netherlands",
@@ -1359,8 +1275,7 @@
         "Koninklijk Huis"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Koninklijk Huis.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_wilhelmina_netherlands",
@@ -1375,8 +1290,7 @@
         "Koninklijk Huis"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Koninklijk Huis.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_juliana_netherlands",
@@ -1391,8 +1305,7 @@
         "Koninklijk Huis"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Koninklijk Huis.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_beatrix_netherlands",
@@ -1407,8 +1320,7 @@
         "Koninklijk Huis"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Koninklijk Huis.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_willem_alexander_2026",
@@ -1423,8 +1335,7 @@
         "Koninklijk Huis"
       ],
       "notes": "Present-day reigning Orange-Nassau monarch of the Netherlands (2026).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "liv10_haakon7_maud",
@@ -1439,8 +1350,7 @@
         "Kongehuset"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Kongehuset.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_olav5_norway",
@@ -1455,8 +1365,7 @@
         "Kongehuset"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Kongehuset.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_harald5_haakon_2026",
@@ -1471,8 +1380,7 @@
         "Kongehuset"
       ],
       "notes": "Present-day reigning Glücksburg–Windsor–Bernadotte monarch of Norway (2026).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "liv10_leopold1_belgium",
@@ -1487,8 +1395,7 @@
         "Monarchie.be"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Monarchie.be.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_albert1_belgium",
@@ -1503,8 +1410,7 @@
         "Monarchie.be"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Monarchie.be.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_baudouin_albert2",
@@ -1519,8 +1425,7 @@
         "Monarchie.be"
       ],
       "notes": "Chronicle succession in Almanach de Gotha, Monarchie.be.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_philippe_elisabeth_2026",
@@ -1535,8 +1440,7 @@
         "Monarchie.be"
       ],
       "notes": "Present-day reigning Belgian sovereign & Duchess of Brabant (2026).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "liv10_luxembourg_guillaume5_2026",
@@ -1550,8 +1454,7 @@
         "Almanach de Gotha"
       ],
       "notes": "Senior House of Nassau-Weilburg grand ducal line continuing in 2026.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_monaco_albert2_2026",
@@ -1566,8 +1469,7 @@
         "Burke's Royal Families"
       ],
       "notes": "House of Grimaldi descending via Louise-Hippolyte Grimaldi & Jacques Goyon de Matignon (French nobility under Louis XIV).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_liechtenstein_2026",
@@ -1581,8 +1483,7 @@
         "Almanach de Gotha"
       ],
       "notes": "Direct imperial princes elevated under Habsburg Holy Roman Emperors continuing in 2026.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_john_adams_jqa",
@@ -1596,8 +1497,7 @@
         "Roberts Royal Descents of 900 Immigrants"
       ],
       "notes": "U.S. Presidential father-and-son dynasty.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_abraham_lincoln",
@@ -1611,8 +1511,7 @@
         "New England Historic Genealogical Register"
       ],
       "notes": "Preserved the Union and issued the Emancipation Proclamation (1863).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_roosevelt_delano",
@@ -1626,8 +1525,7 @@
         "Roberts Royal Descents"
       ],
       "notes": "Connected via Philippe de Lannoy (Delano) into European nobility & Charlemagne.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_simon_bolivar",
@@ -1641,8 +1539,7 @@
         "Archivo Histórico de Caracas"
       ],
       "notes": "Basque-Spanish colonial noble lineage from Bizkaia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "liv10_emperor_pedro_brazil",
@@ -1656,8 +1553,7 @@
         "History of Portugal & Brazil Chronicles"
       ],
       "notes": "Direct Portuguese Braganza & Austrian Habsburg line (Dom Pedro I wed Archduchess Leopoldina, sister of Marie Louise).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

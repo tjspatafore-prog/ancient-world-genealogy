@@ -17,8 +17,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "First of the '17 kings who lived in tents' in the Assyrian King List; historically attested in the Ebla archives concluding a trade treaty with Vizier Ibrium of Ebla!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "akl_02_adamu",
@@ -34,8 +33,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Second king of Assyria in the AKL; earliest known historical ruler bearing the Semitic name Adamu ('Man/Red Earth'), cognate with Biblical Adam!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "akl_03_08_tents",
@@ -56,8 +54,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Anchor for Kings 3-8 of the AKL tent-dwellers, linked sequentially below.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_09_10_didanu_hanu",
@@ -74,8 +71,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Didanu corresponds to Tidnum/Ditanu; Hanu corresponds to the Middle Euphrates tribe of Hana.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_11_15_tents",
@@ -95,8 +91,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Kings 11-15 of the canonical Assyrian King List (Pruzsinszky Table 17a).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_16_ushpia",
@@ -112,8 +107,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Credited in inscriptions of Shalmaneser I and Esarhaddon as the earliest founder of the great Temple of the god Ashur in Assur.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "akl_17_apiashal",
@@ -129,8 +123,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Appears at both the end of Section 1 (17 tent-dwellers) and the beginning of Section 2 (10 kings whose fathers are known), linking Shamshi-Adad I's pedigree back to Ushpia!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_18_24_ancestors",
@@ -152,8 +145,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Listed in reverse genealogical order ('PN1 son of PN2') in AKL Section 2 (Pruzsinszky pp. 48, 51).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_25_26_ilukabkabi_aminu",
@@ -170,8 +162,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Ilu-kabkabi fathered Aminu and the great conqueror Shamshi-Adad I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_27_29_sulili_kikia",
@@ -189,8 +180,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Kikia built the city wall of Assur; Sulili (son of Aminu) marks Assur's independence after Ur III.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_30_32_puzur_ilushuma",
@@ -208,8 +198,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Ilushuma established free trade privileges for Akkadian merchants and founded the Old Assyrian trading empire.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_33_34_erishum_ikunum",
@@ -226,8 +215,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Erishum I rebuilt the Ashur Temple and inaugurated the Kultepe Eponym List (KEL).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_35_38_sargon1_naramsin",
@@ -246,8 +234,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Overthrown in 1808 BCE by Shamshi-Adad I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_39_40_shamshi_adad1",
@@ -263,8 +250,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Son of Ilu-kabkabi; conquered Assur, Mari, and Shubat-Enlil; father of Ishme-Dagan I and Yasmah-Adad.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "akl_41_47_usurpers",
@@ -281,8 +267,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Six claimants ruled briefly before Adasi founded the 1,000-year Adaside dynasty.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_48_53_belubani",
@@ -303,8 +288,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Belu-bani (10 yrs) founded the unbroken Adaside royal dynasty; Bazaya ruled 28 years.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_54_66_old_late",
@@ -323,8 +307,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Preserved unbroken Adaside patrilineal continuity through the Mitanni era (Pruzsinszky Table 17b).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_67_72_pre_middle",
@@ -342,8 +325,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Eriba-Adad I (27 yrs) broke Mitanni supremacy, setting the stage for his son Ashur-uballit I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_73_76_ashuruballit1",
@@ -359,8 +341,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Son of Eriba-Adad I; wrote to Pharaoh Akhenaten as 'Great King' (EA 15-16) and married his daughter Muballitat-Sherua to Kassite King Burna-Buriash II of Babylon.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "akl_77_78_shalmaneser1_tukulti",
@@ -377,8 +358,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Shalmaneser I founded Kalhu (Nimrud); Tukulti-Ninurta I captured Kassite Babylon.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "akl_79_86_ninurta_apil",
@@ -396,8 +376,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Ninurta-apil-Ekur restored dynastic stability; Ashur-dan I ruled 46 years.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_87_97_tiglath1_to_2",
@@ -416,8 +395,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Tiglath-Pileser I marched to the Mediterranean and compiled the Middle Assyrian Laws.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_98_101_ashurnasirpal2",
@@ -435,8 +413,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Adad-nirari II inaugurated the unbroken Eponym Canon; Ashurnasirpal II built Nimrud.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "akl_102_shalmaneser3",
@@ -454,8 +431,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Fought King Ahab of Israel & Hadadezer of Damascus at Qarqar (853 BCE); his Black Obelisk depicts King Jehu of Israel ('son of Omri') bowing in tribute — the ONLY contemporary depiction of an Israelite king!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "akl_103_104_semiramis",
@@ -474,8 +450,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Shammuramat served as regent alongside her son Adad-nirari III.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "akl_105_107_eclipse_kings",
@@ -494,8 +469,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Assyrian Eponym List records the June 15, 763 BCE total solar eclipse under Ashur-dan III.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_108_109_tp3_shalm5",
@@ -513,8 +487,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Tiglath-Pileser III ('Pul', 2 Kgs 15:19) and son Shalmaneser V (siege of Samaria).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "akl_110_116_sargonids",
@@ -535,8 +508,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Sargon II, Sennacherib, Esarhaddon, Ashurbanipal, Ashur-etil-ilani, Sin-shar-ishkun, Ashur-uballit II — unrolled person-by-person below.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "skl_ur1_full",
@@ -554,8 +526,7 @@
         "Sumerian King List (Jacobsen AS 11)"
       ],
       "notes": "5 kings (177 yrs): Mesannepada -> son Aannepada (restored from Tummal Chronicle & inscriptions!) -> Meskiagnunna -> Elulu -> Balulu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "skl_awan_kish2_hamazi",
@@ -573,8 +544,7 @@
         "Sumerian King List (Jacobsen AS 11)"
       ],
       "notes": "Awan (Elamite dynasty, 3 kings), Kish II (8 kings incl. Kalbum son of Magalgalla), and Hamazi (King Hatanish).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "skl_uruk2_ur2_adab_mari",
@@ -592,8 +562,7 @@
         "Sumerian King List (Jacobsen AS 11)"
       ],
       "notes": "Enshakushanna of Uruk; Lugal-kinishe-dudu & son Lugal-kisal-si; Lugal-annemundu of Adab; Ansud of Mari.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "skl_kubaba_kish3",
@@ -610,8 +579,7 @@
         "Sumerian King List (Jacobsen AS 11)"
       ],
       "notes": "Ku(g)-Baba ('Baba-ellit', reigned 100 yrs) is the ONLY woman listed as sovereign king in the entire Sumerian King List; mother of Puzur-Sin & grandmother of Ur-Zababa!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "skl_akshak_kish4",
@@ -629,8 +597,7 @@
         "Sumerian King List (Jacobsen AS 11)"
       ],
       "notes": "Ku-Baba's son Puzur-Sin -> son Ur-Zababa of Kish, whose royal cupbearer was Sargon of Akkad.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "skl_uruk3_lugalzagesi",
@@ -646,8 +613,7 @@
         "Sumerian King List (Jacobsen AS 11)"
       ],
       "notes": "United all of Sumer from the Lower Sea to the Upper Sea before being defeated by Sargon of Akkad.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "skl_akkad_late",
@@ -665,8 +631,7 @@
         "Sumerian King List (Jacobsen AS 11)"
       ],
       "notes": "'Who was king? Who was not king?' Four rival claimants before Dudu (21 yrs) and his son Shu-Durul (15 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "skl_uruk4_gutium_uruk5",
@@ -684,8 +649,7 @@
         "Sumerian King List (Jacobsen AS 11)"
       ],
       "notes": "21 Gutian rulers from the Zagros mountains expelled by Utu-hegal of Uruk V — unrolled person-by-person below.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "skl_lagash_gudea",
@@ -703,8 +667,7 @@
         "Sumerian King List (Jacobsen AS 11)"
       ],
       "notes": "Ur-Nanshe, Eannatum, law-reformer Urukagina, and pious Ensi Gudea of Lagash.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "skl_isin1_full",
@@ -723,8 +686,7 @@
         "Sumerian King List (Jacobsen AS 11)"
       ],
       "notes": "15 kings of Isin I (Ishbi-Erra through Damiq-ilishu) unrolled person-by-person below.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "bab_dyn1_amorite",
@@ -745,8 +707,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "All 11 Amorite kings of Babylon I chained father-to-son below.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "bab_dyn2_sealand",
@@ -765,8 +726,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "All 11 kings of the 1st Sealand Dynasty chained sequentially below.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bab_dyn3_kassite",
@@ -787,8 +747,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Kassite kings from Gandash through Burna-Buriash II & Meli-Shipak chained below.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "bab_dyn4_isin2",
@@ -807,8 +766,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Nebuchadnezzar I sacked Susa in Elam and restored Marduk to Babylon; Adad-apla-iddina married his daughter to Assyrian King Ashur-bel-kala.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bab_dyn5_8_inter",
@@ -828,8 +786,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "King Nabonassar (747 BCE) inaugurated Ptolemy's Almagest Canon; Merodach-Baladan II sent envoys to King Hezekiah of Judah (2 Kgs 20:12).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bab_dyn10_chaldean",
@@ -850,8 +807,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Nabopolassar -> Nebuchadnezzar II -> Amel-Marduk -> Neriglissar -> Labashi-Marduk -> Nabonidus & Belshazzar unrolled below.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "aklr_t1_01_yangi_akl_3",
@@ -865,8 +821,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 3. Yangi (AKL #3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_t1_02_suhlamu_akl_4",
@@ -880,8 +835,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 4. Suhlamu (AKL #4).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_t1_03_harharu_akl_5",
@@ -895,8 +849,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 5. Harharu (AKL #5).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_t1_04_mandaru_akl_6",
@@ -910,8 +863,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 6. Mandaru (AKL #6).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_t1_05_imsu_akl_7",
@@ -925,8 +877,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 7. Imsu (AKL #7).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_t1_06_harsu_akl_8",
@@ -940,8 +891,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 8. Harsu (AKL #8).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_t1_07_didanu_tidnum_akl_9",
@@ -955,8 +905,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 9. Didanu / Tidnum (AKL #9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_t1_08_hanu_akl_10",
@@ -970,8 +919,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 10. Hanu (AKL #10).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_t1_09_zuabu_akl_11",
@@ -985,8 +933,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 11. Zuabu (AKL #11).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_t1_10_nuabu_akl_12",
@@ -1000,8 +947,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 12. Nuabu (AKL #12).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_t1_11_abazu_akl_13",
@@ -1015,8 +961,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 13. Abazu (AKL #13).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_t1_12_belu_akl_14",
@@ -1030,8 +975,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 14. Belu (AKL #14).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_t1_13_azarah_akl_15",
@@ -1045,8 +989,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "Assyrian King List Section 1 tent-dwelling ruler: 15. Azarah (AKL #15).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_anc_01_hale_akl_18",
@@ -1060,8 +1003,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "AKL Section 2 patrilineal ancestor: 18. Hale (Son of Apiashal, AKL #18).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_anc_02_samani_akl_19",
@@ -1075,8 +1017,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "AKL Section 2 patrilineal ancestor: 19. Samani (Son of Hale, AKL #19).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_anc_03_hayani_akl_20",
@@ -1090,8 +1031,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "AKL Section 2 patrilineal ancestor: 20. Hayani (Son of Samani, AKL #20).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_anc_04_ilu_mer_akl_21",
@@ -1105,8 +1045,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "AKL Section 2 patrilineal ancestor: 21. Ilu-Mer (Son of Hayani, AKL #21).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_anc_05_yakmesi_akl_22",
@@ -1120,8 +1059,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "AKL Section 2 patrilineal ancestor: 22. Yakmesi (Son of Ilu-Mer, AKL #22).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_anc_06_yakmeni_akl_23",
@@ -1135,8 +1073,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "AKL Section 2 patrilineal ancestor: 23. Yakmeni (Son of Yakmesi, AKL #23).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_anc_07_yazkur_el_akl_24",
@@ -1150,8 +1087,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "AKL Section 2 patrilineal ancestor: 24. Yazkur-El (Son of Yakmeni, AKL #24).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_anc_08_ilu_kabkabi_akl_25",
@@ -1165,8 +1101,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "AKL Section 2 patrilineal ancestor: 25. Ilu-kabkabi (Son of Yazkur-El; Father of Shamshi-Adad I, AKL #25).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_anc_09_aminu_akl_26",
@@ -1180,8 +1115,7 @@
         "Assyrian King List (Pruzsinszky Table 17a)"
       ],
       "notes": "AKL Section 2 patrilineal ancestor: 26. Aminu (Son of Ilu-kabkabi; Elder Brother of Shamshi-Adad I, AKL #26).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_01_sulili_akl_27",
@@ -1195,8 +1129,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 27. Sulili (Son of Aminu, AKL #27).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_02_kikia_akl_28",
@@ -1210,8 +1143,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 28. Kikia (Wall Builder of Assur, AKL #28).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_03_akia_akl_29",
@@ -1225,8 +1157,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 29. Akia (AKL #29).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_04_puzur_ashur_i_akl_30",
@@ -1240,8 +1171,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 30. Puzur-Ashur I (AKL #30).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_05_shalim_ahum_akl_31",
@@ -1255,8 +1185,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 31. Shalim-ahum (Son of Puzur-Ashur I, AKL #31).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_06_ilushuma_akl_32",
@@ -1270,8 +1199,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 32. Ilushuma (Son of Shalim-ahum, AKL #32).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_07_erishum_i_akl_33_40_yrs",
@@ -1285,8 +1213,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 33. Erishum I (Son of Ilushuma; 40 yrs, KEL Start, AKL #33).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_08_ikunum_akl_34_15_yrs",
@@ -1300,8 +1227,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 34. Ikunum (Son of Erishum I; 15 yrs, AKL #34).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_09_sargon_i_of_assyria_akl_35_4",
@@ -1315,8 +1241,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 35. Sargon I of Assyria (Son of Ikunum; 40 yrs, AKL #35).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_10_puzur_ashur_ii_akl_36_8_yrs",
@@ -1330,8 +1255,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 36. Puzur-Ashur II (Son of Sargon I; 8 yrs, AKL #36).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_11_naram_sin_of_assyria_akl_37_",
@@ -1345,8 +1269,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 37. Naram-Sin of Assyria (Son of Puzur-Ashur II; AKL #37).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_12_erishum_ii_akl_38_10_yrs",
@@ -1360,8 +1283,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 38. Erishum II (Son of Naram-Sin; 10 yrs, AKL #38).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_13_ishme_dagan_i_akl_40_40_yrs",
@@ -1375,8 +1297,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 40. Ishme-Dagan I (Son of Shamshi-Adad I; 40 yrs, AKL #40).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_14_ashur_dugul_akl_41_6_yrs",
@@ -1390,8 +1311,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 41. Ashur-dugul (Interregnum Claimant; 6 yrs, AKL #41).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_15_adasi_akl_47_adaside_founder",
@@ -1405,8 +1325,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 47. Adasi (Founder of the 1,000-Year Adaside Dynasty, AKL #47).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_16_belu_bani_akl_48_10_yrs",
@@ -1420,8 +1339,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 48. Belu-bani (Son of Adasi; 10 yrs, AKL #48).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_17_libaya_akl_49_17_yrs",
@@ -1435,8 +1353,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 49. Libaya (Son of Belu-bani; 17 yrs, AKL #49).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_18_sharma_adad_i_akl_50_12_yrs",
@@ -1450,8 +1367,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 50. Sharma-Adad I (Son of Libaya; 12 yrs, AKL #50).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_19_iptar_sin_akl_51_12_yrs",
@@ -1465,8 +1381,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 51. Iptar-Sin (Son of Sharma-Adad I; 12 yrs, AKL #51).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_20_bazaya_akl_52_28_yrs",
@@ -1480,8 +1395,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 52. Bazaya (Son of Belu-bani; 28 yrs, AKL #52).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_21_lullaya_akl_53_6_yrs",
@@ -1495,8 +1409,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 53. Lullaya ('Son of a Nobody'; 6 yrs, AKL #53).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_22_kidin_ninua_akl_54_14_yrs",
@@ -1510,8 +1423,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 54. Kidin-Ninua (Son of Bazaya; 14 yrs, AKL #54).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_23_sharma_adad_ii_akl_55_3_yrs",
@@ -1525,8 +1437,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 55. Sharma-Adad II (Son of Kidin-Ninua; 3 yrs, AKL #55).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_24_erishum_iii_akl_56_13_yrs",
@@ -1540,8 +1451,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 56. Erishum III (Son of Kidin-Ninua; 13 yrs, AKL #56).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_25_shamshi_adad_ii_akl_57_6_yrs",
@@ -1555,8 +1465,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 57. Shamshi-Adad II (Son of Erishum III; 6 yrs, AKL #57).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_26_ishme_dagan_ii_akl_58_16_yrs",
@@ -1570,8 +1479,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 58. Ishme-Dagan II (Son of Shamshi-Adad II; 16 yrs, AKL #58).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_27_shamshi_adad_iii_akl_59_16_y",
@@ -1585,8 +1493,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 59. Shamshi-Adad III (Descendant of Bazaya; 16 yrs, AKL #59).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_28_ashur_nirari_i_akl_60_26_yrs",
@@ -1600,8 +1507,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 60. Ashur-nirari I (Son of Ishme-Dagan II; 26 yrs, AKL #60).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_29_puzur_ashur_iii_akl_61_14_24",
@@ -1615,8 +1521,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 61. Puzur-Ashur III (Son of Ashur-nirari I; 14/24 yrs, AKL #61).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_30_enlil_nasir_i_akl_62_13_yrs",
@@ -1630,8 +1535,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 62. Enlil-nasir I (Son of Puzur-Ashur III; 13 yrs, AKL #62).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_31_nur_ili_akl_63_12_yrs",
@@ -1645,8 +1549,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 63. Nur-ili (Son of Enlil-nasir I; 12 yrs, AKL #63).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_32_ashur_shaduni_akl_64",
@@ -1660,8 +1563,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 64. Ashur-shaduni (Son of Nur-ili, AKL #64).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_33_ashur_rabi_i_akl_65",
@@ -1675,8 +1577,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 65. Ashur-rabi I (Son of Enlil-nasir I, AKL #65).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_34_ashur_nadin_ahhe_i_akl_66",
@@ -1690,8 +1591,7 @@
         "Assyrian King List (Pruzsinszky Tables 17a-b)"
       ],
       "notes": "Old Assyrian ruler: 66. Ashur-nadin-ahhe I (Son of Ashur-rabi I, AKL #66).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_old_yasmah_adad",
@@ -1706,8 +1606,7 @@
         "Assyrian King List"
       ],
       "notes": "Younger son of Shamshi-Adad I appointed ruler of Mari; famed recipient of royal letters from his father and brother.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_01_enlil_nasir_ii_akl_67_6_yrs",
@@ -1721,8 +1620,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 67. Enlil-nasir II (Brother of Ashur-nadin-ahhe I; 6 yrs, AKL #67).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_02_ashur_nirari_ii_akl_68_7_yrs",
@@ -1736,8 +1634,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 68. Ashur-nirari II (Son of Enlil-nasir II; 7 yrs, AKL #68).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_03_ashur_bel_nisheshu_akl_69_9_",
@@ -1751,8 +1648,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 69. Ashur-bel-nisheshu (Son of Ashur-nirari II; 9 yrs, AKL #69).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_04_ashur_rim_nisheshu_akl_70_8_",
@@ -1766,8 +1662,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 70. Ashur-rim-nisheshu (Son of Ashur-bel-nisheshu; 8 yrs, AKL #70).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_05_ashur_nadin_ahhe_ii_akl_71_1",
@@ -1781,8 +1676,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 71. Ashur-nadin-ahhe II (Son of Ashur-rim-nisheshu; 10 yrs, AKL #71).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_06_eriba_adad_i_akl_72_27_yrs",
@@ -1796,8 +1690,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 72. Eriba-Adad I (Son of Ashur-bel-nisheshu; 27 yrs, AKL #72).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_07_enlil_nirari_akl_74_10_yrs",
@@ -1811,8 +1704,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 74. Enlil-nirari (Son of Ashur-uballit I; 10 yrs, AKL #74).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_08_arik_den_ili_akl_75_12_yrs",
@@ -1826,8 +1718,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 75. Arik-den-ili (Son of Enlil-nirari; 12 yrs, AKL #75).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_09_adad_nirari_i_akl_76_32_yrs",
@@ -1841,8 +1732,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 76. Adad-nirari I (Son of Arik-den-ili; 32 yrs, AKL #76).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_10_shalmaneser_i_akl_77_30_yrs",
@@ -1856,8 +1746,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 77. Shalmaneser I (Son of Adad-nirari I; 30 yrs, AKL #77).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_11_tukulti_ninurta_i_akl_78_37_",
@@ -1871,8 +1760,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 78. Tukulti-Ninurta I (Son of Shalmaneser I; 37 yrs, Conqueror of Babylon, AKL #78).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_12_ashur_nadin_apli_akl_79_4_yr",
@@ -1886,8 +1774,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 79. Ashur-nadin-apli (Son of Tukulti-Ninurta I; 4 yrs, AKL #79).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_13_ashur_nirari_iii_akl_80_6_yr",
@@ -1901,8 +1788,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 80. Ashur-nirari III (Son of Ashur-nasir-apli; 6 yrs, AKL #80).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_14_enlil_kudurri_usur_akl_81_5_",
@@ -1916,8 +1802,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 81. Enlil-kudurri-usur (Son of Tukulti-Ninurta I; 5 yrs, AKL #81).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_15_ninurta_apil_ekur_akl_82_13_",
@@ -1931,8 +1816,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 82. Ninurta-apil-Ekur (Descendant of Eriba-Adad I; 13 yrs, AKL #82).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_16_ashur_dan_i_akl_83_46_yrs",
@@ -1946,8 +1830,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 83. Ashur-dan I (Son of Ninurta-apil-Ekur; 46 yrs, AKL #83).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_17_ninurta_tukulti_ashur_akl_84",
@@ -1961,8 +1844,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 84. Ninurta-tukulti-Ashur (Son of Ashur-dan I, AKL #84).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_18_mutakkil_nusku_akl_85",
@@ -1976,8 +1858,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 85. Mutakkil-Nusku (Brother of Ninurta-tukulti-Ashur, AKL #85).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_19_ashur_resh_ishi_i_akl_86_18_",
@@ -1991,8 +1872,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 86. Ashur-resh-ishi I (Son of Mutakkil-Nusku; 18 yrs, AKL #86).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_20_tiglath_pileser_i_akl_87_39_",
@@ -2006,8 +1886,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 87. Tiglath-Pileser I (Son of Ashur-resh-ishi I; 39 yrs, AKL #87).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_21_ashared_apil_ekur_akl_88_2_y",
@@ -2021,8 +1900,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 88. Ashared-apil-Ekur (Son of Tiglath-Pileser I; 2 yrs, AKL #88).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_22_ashur_bel_kala_akl_89_18_yrs",
@@ -2036,8 +1914,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 89. Ashur-bel-kala (Son of Tiglath-Pileser I; 18 yrs, AKL #89).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_23_eriba_adad_ii_akl_90_2_yrs",
@@ -2051,8 +1928,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 90. Eriba-Adad II (Son of Ashur-bel-kala; 2 yrs, AKL #90).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_24_shamshi_adad_iv_akl_91_4_yrs",
@@ -2066,8 +1942,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 91. Shamshi-Adad IV (Son of Tiglath-Pileser I; 4 yrs, AKL #91).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_25_ashurnasirpal_i_akl_92_19_yr",
@@ -2081,8 +1956,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 92. Ashurnasirpal I (Son of Shamshi-Adad IV; 19 yrs, AKL #92).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_26_shalmaneser_ii_akl_93_12_yrs",
@@ -2096,8 +1970,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 93. Shalmaneser II (Son of Ashurnasirpal I; 12 yrs, AKL #93).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_27_ashur_nirari_iv_akl_94_6_yrs",
@@ -2111,8 +1984,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 94. Ashur-nirari IV (Son of Shalmaneser II; 6 yrs, AKL #94).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_28_ashur_rabi_ii_akl_95_41_yrs",
@@ -2126,8 +1998,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 95. Ashur-rabi II (Son of Ashurnasirpal I; 41 yrs, AKL #95).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_29_ashur_resh_ishi_ii_akl_96_5_",
@@ -2141,8 +2012,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 96. Ashur-resh-ishi II (Son of Ashur-rabi II; 5 yrs, AKL #96).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_mid_30_tiglath_pileser_ii_akl_97_32",
@@ -2156,8 +2026,7 @@
         "Assyrian King List (Pruzsinszky Table 17b)"
       ],
       "notes": "Middle Assyrian monarch: 97. Tiglath-Pileser II (Son of Ashur-resh-ishi II; 32 yrs, AKL #97).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_01_ashur_dan_ii_akl_98_23_yrs",
@@ -2172,8 +2041,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 98. Ashur-dan II (Son of Tiglath-Pileser II; 23 yrs, AKL #98).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_02_adad_nirari_ii_akl_99_21_yrs",
@@ -2188,8 +2056,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 99. Adad-nirari II (Son of Ashur-dan II; 21 yrs, AKL #99).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_03_tukulti_ninurta_ii_akl_100_7",
@@ -2204,8 +2071,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 100. Tukulti-Ninurta II (Son of Adad-nirari II; 7 yrs, AKL #100).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_04_ashurnasirpal_ii_akl_101_25_",
@@ -2220,8 +2086,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 101. Ashurnasirpal II (Son of Tukulti-Ninurta II; 25 yrs, Nimrud, AKL #101).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_05_shamshi_adad_v_akl_103_13_yr",
@@ -2236,8 +2101,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 103. Shamshi-Adad V (Son of Shalmaneser III; 13 yrs, AKL #103).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_07_adad_nirari_iii_akl_104_28_y",
@@ -2252,8 +2116,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 104. Adad-nirari III (Son of Shamshi-Adad V & Semiramis; 28 yrs, AKL #104).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_08_shalmaneser_iv_akl_105_10_yr",
@@ -2268,8 +2131,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 105. Shalmaneser IV (Son of Adad-nirari III; 10 yrs, AKL #105).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_09_ashur_dan_iii_akl_106_763_bc",
@@ -2284,8 +2146,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 106. Ashur-dan III (Son of Adad-nirari III; 763 BCE Eclipse, AKL #106).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_10_ashur_nirari_v_akl_107_10_yr",
@@ -2300,8 +2161,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 107. Ashur-nirari V (Son of Adad-nirari III; 10 yrs, AKL #107).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_tp3",
@@ -2316,8 +2176,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 108. Tiglath-Pileser III / Pul (18 yrs; 2 Kgs 15:19, AKL #108).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_shalm5",
@@ -2332,8 +2191,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 109. Shalmaneser V (Son of Tiglath-Pileser III; Besieged Samaria, AKL #109).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_11_sargon_ii_722_705_bce",
@@ -2348,8 +2206,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 110. Sargon II (722–705 BCE, Annexed Samaria).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_12_sennacherib_705_681_bce",
@@ -2364,8 +2221,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 111. Sennacherib (Son of Sargon II; 701 BCE Jerusalem Campaign).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_13_esarhaddon_681_669_bce",
@@ -2380,8 +2236,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 112. Esarhaddon (Son of Sennacherib; Conquered Egypt 671 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_14_ashurbanipal_669_631_bce",
@@ -2396,8 +2251,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 113. Ashurbanipal (Son of Esarhaddon; Great Library of Nineveh).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_15_ashur_etil_ilani_631_627_bce",
@@ -2412,8 +2266,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 114. Ashur-etil-ilani (Son of Ashurbanipal, 631–627 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_16_sin_shar_ishkun_627_612_bce",
@@ -2428,8 +2281,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 115. Sin-shar-ishkun (Son of Ashurbanipal; Fall of Nineveh 612 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_17_ashur_uballit_ii_612_609_bce",
@@ -2444,8 +2296,7 @@
         "Neo-Assyrian Chronicles"
       ],
       "notes": "Neo-Assyrian monarch: 116. Ashur-uballit II (Last King of Assyria at Harran, 612–609 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "aklr_neo_06_queen_shammuramat_semiramis_",
@@ -2461,8 +2312,7 @@
         "Eusebius"
       ],
       "notes": "Babylonian princess and wife of Shamshi-Adad V who served as coregent/queen mother during the early reign of Adad-nirari III.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_01_erridupizir_gutian_1",
@@ -2476,8 +2326,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 1. Erridupizir (First Gutian King of Sumer).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_02_imta_gutian_2_3_yrs",
@@ -2491,8 +2340,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 2. Imta' (Gutian King #2, 3 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_03_inkishush_gutian_3_6_yrs",
@@ -2506,8 +2354,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 3. Inkishush (Gutian King #3, 6 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_04_sarlagab_gutian_4_6_yrs",
@@ -2521,8 +2368,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 4. Sarlagab (Gutian King #4, 6 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_05_shulme_gutian_5_6_yrs",
@@ -2536,8 +2382,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 5. Shulme' (Gutian King #5, 6 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_06_elulumesh_gutian_6_6_yrs",
@@ -2551,8 +2396,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 6. Elulumesh (Gutian King #6, 6 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_07_inimabakesh_gutian_7_5_yrs",
@@ -2566,8 +2410,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 7. Inimabakesh (Gutian King #7, 5 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_08_igeshaush_gutian_8_6_yrs",
@@ -2581,8 +2424,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 8. Igeshaush (Gutian King #8, 6 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_09_iarlagab_gutian_9_15_yrs",
@@ -2596,8 +2438,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 9. Iarlagab (Gutian King #9, 15 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_10_ibate_gutian_10_3_yrs",
@@ -2611,8 +2452,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 10. Ibate (Gutian King #10, 3 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_11_iarlangab_gutian_11_3_yrs",
@@ -2626,8 +2466,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 11. Iarlangab (Gutian King #11, 3 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_12_kurum_gutian_12_1_yr",
@@ -2641,8 +2480,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 12. Kurum (Gutian King #12, 1 yr).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_13_habil_kin_gutian_13_3_yrs",
@@ -2656,8 +2494,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 13. Habil-kin (Gutian King #13, 3 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_14_laerabum_gutian_14_2_yrs",
@@ -2671,8 +2508,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 14. Laerabum (Gutian King #14, 2 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_15_irarum_gutian_15_2_yrs",
@@ -2686,8 +2522,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 15. Irarum (Gutian King #15, 2 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_16_ibranum_gutian_16_1_yr",
@@ -2701,8 +2536,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 16. Ibranum (Gutian King #16, 1 yr).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_17_hablum_gutian_17_2_yrs",
@@ -2716,8 +2550,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 17. Hablum (Gutian King #17, 2 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_18_puzur_sin_of_gutium_gutian_1",
@@ -2731,8 +2564,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 18. Puzur-Sin of Gutium (Son of Hablum, Gutian King #18, 7 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_19_iarlaganda_gutian_19_7_yrs",
@@ -2746,8 +2578,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 19. Iarlaganda (Gutian King #19, 7 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_20_si_um_gutian_20_7_yrs",
@@ -2761,8 +2592,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 20. Si'um (Gutian King #20, 7 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_gut_21_tirigan_gutian_21_40_days",
@@ -2776,8 +2606,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 117-121)"
       ],
       "notes": "Gutian ruler in Sumer: 21. Tirigan (Last Gutian King #21, 40 days — Defeated by Utu-hegal).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_utu_hegal",
@@ -2791,8 +2620,7 @@
         "Sumerian King List (Jacobsen AS 11 p. 123)"
       ],
       "notes": "Defeated last Gutian king Tirigan; his governor Ur-Nammu founded the 3rd Dynasty of Ur.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_01_ishbi_erra_33_yrs",
@@ -2806,8 +2634,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 1. Ishbi-Erra of Isin (33 yrs, c. 2017–1985 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_02_shu_ilishu_10_yrs",
@@ -2821,8 +2648,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 2. Shu-ilishu (Son of Ishbi-Erra, 10 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_03_iddin_dagan_21_yrs",
@@ -2836,8 +2662,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 3. Iddin-Dagan (Son of Shu-ilishu, 21 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_04_ishme_dagan_of_isin_20_yrs",
@@ -2851,8 +2676,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 4. Ishme-Dagan of Isin (Son of Iddin-Dagan, 20 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_05_lipit_ishtar_11_yrs_law_code",
@@ -2866,8 +2690,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 5. Lipit-Ishtar (Son of Ishme-Dagan, 11 yrs — Sumerian Law Code).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_06_ur_ninurta_28_yrs",
@@ -2881,8 +2704,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 6. Ur-Ninurta (28 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_07_bur_sin_of_isin_21_yrs",
@@ -2896,8 +2718,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 7. Bur-Sin of Isin (Son of Ur-Ninurta, 21 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_08_lipit_enlil_5_yrs",
@@ -2911,8 +2732,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 8. Lipit-Enlil (Son of Bur-Sin, 5 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_09_erra_imitti_8_yrs",
@@ -2926,8 +2746,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 9. Erra-imitti (8 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_10_enlil_bani_24_yrs_gardener_k",
@@ -2941,8 +2760,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 10. Enlil-bani (24 yrs, Gardener Substitute-King).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_11_zambia_3_yrs",
@@ -2956,8 +2774,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 11. Zambia (3 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_12_iter_pisha_4_yrs",
@@ -2971,8 +2788,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 12. Iter-pisha (4 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_13_ur_dukuga_4_yrs",
@@ -2986,8 +2802,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 13. Ur-dukuga (4 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_14_sin_magir_11_yrs",
@@ -3001,8 +2816,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 14. Sin-magir (11 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sklr_isin_15_damiq_ilishu_23_yrs",
@@ -3016,8 +2830,7 @@
         "Sumerian King List (Jacobsen AS 11 pp. 124-127)"
       ],
       "notes": "Isin I Dynasty ruler: 15. Damiq-ilishu (Son of Sin-magir, 23 yrs — Last King of Isin I).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_1_01_sumu_la_el_36_yrs",
@@ -3031,8 +2844,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
       ],
       "notes": "First Dynasty of Babylon king: 2. Sumu-la-El of Babylon (36 yrs, c. 1880–1845 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_1_02_sabium_14_yrs",
@@ -3046,8 +2858,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
       ],
       "notes": "First Dynasty of Babylon king: 3. Sabium (Son of Sumu-la-El, 14 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_1_03_apil_sin_18_yrs",
@@ -3061,8 +2872,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
       ],
       "notes": "First Dynasty of Babylon king: 4. Apil-Sin (Son of Sabium, 18 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_1_04_sin_muballit_20_yrs_father_o",
@@ -3076,8 +2886,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
       ],
       "notes": "First Dynasty of Babylon king: 5. Sin-muballit (Son of Apil-Sin; Father of Hammurabi, 20 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_1_05_samsu_iluna_38_yrs_son_of_ha",
@@ -3091,8 +2900,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
       ],
       "notes": "First Dynasty of Babylon king: 7. Samsu-iluna (Son of Hammurabi, 38 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_1_06_abi_eshuh_28_yrs",
@@ -3106,8 +2914,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
       ],
       "notes": "First Dynasty of Babylon king: 8. Abi-eshuh (Son of Samsu-iluna, 28 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_1_07_ammi_ditana_37_yrs",
@@ -3121,8 +2928,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
       ],
       "notes": "First Dynasty of Babylon king: 9. Ammi-ditana (Son of Abi-eshuh, 37 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_1_08_ammi_saduqa_21_yrs_venus_tab",
@@ -3136,8 +2942,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
       ],
       "notes": "First Dynasty of Babylon king: 10. Ammi-saduqa (Son of Ammi-ditana, 21 yrs — Venus Tablet).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_1_09_samsu_ditana_31_yrs_fell_to_",
@@ -3151,8 +2956,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 95)"
       ],
       "notes": "First Dynasty of Babylon king: 11. Samsu-ditana (Son of Ammi-saduqa, 31 yrs — Fell to Hittites 1595 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_1_10_rim_sin_of_larsa_son_of_kudu",
@@ -3166,8 +2970,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I)"
       ],
       "notes": "Son of Kudur-Mabuk; conquered Damiq-ilishu of Isin before falling to Hammurabi of Babylon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_2_01_iluma_ilu_60_yrs",
@@ -3181,8 +2984,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
       ],
       "notes": "First Sealand Dynasty ruler: 1. Iluma-ilu (60 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_2_02_itti_ili_nibi_55_yrs",
@@ -3196,8 +2998,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
       ],
       "notes": "First Sealand Dynasty ruler: 2. Itti-ili-nibi (55 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_2_03_damqi_ilishu_36_yrs",
@@ -3211,8 +3012,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
       ],
       "notes": "First Sealand Dynasty ruler: 3. Damqi-ilishu (36 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_2_04_ishkibal_15_yrs",
@@ -3226,8 +3026,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
       ],
       "notes": "First Sealand Dynasty ruler: 4. Ishkibal (15 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_2_05_shushshi_27_yrs",
@@ -3241,8 +3040,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
       ],
       "notes": "First Sealand Dynasty ruler: 5. Shushshi (27 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_2_06_gulkishar_55_yrs",
@@ -3256,8 +3054,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
       ],
       "notes": "First Sealand Dynasty ruler: 6. Gulkishar (55 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_2_07_peshgaldaramesh_50_yrs",
@@ -3271,8 +3068,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
       ],
       "notes": "First Sealand Dynasty ruler: 7. Peshgaldaramesh (Son of Gulkishar, 50 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_2_08_ayadaragalama_28_yrs",
@@ -3286,8 +3082,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
       ],
       "notes": "First Sealand Dynasty ruler: 8. Ayadaragalama (Son of Gulkishar, 28 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_2_09_akurduana_26_yrs",
@@ -3301,8 +3096,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
       ],
       "notes": "First Sealand Dynasty ruler: 9. Akurduana (26 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_2_10_melamkurkurra_7_yrs",
@@ -3316,8 +3110,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
       ],
       "notes": "First Sealand Dynasty ruler: 10. Melamkurkurra (7 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_2_11_ea_gamil_9_yrs",
@@ -3331,8 +3124,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I p. 96)"
       ],
       "notes": "First Sealand Dynasty ruler: 11. Ea-gamil (9 yrs — Overthrown by Kassite Ulam-Buriash).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_01_gandash_16_yrs",
@@ -3346,8 +3138,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 1. Gandash (16 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_02_agum_i_22_yrs",
@@ -3361,8 +3152,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 2. Agum I (Son of Gandash, 22 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_03_kashtiliash_i_22_yrs",
@@ -3376,8 +3166,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 3. Kashtiliash I (Son of Agum I, 22 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_04_ushshi",
@@ -3391,8 +3180,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 4. Ushshi (Son of Kashtiliash I).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_05_abirattash",
@@ -3406,8 +3194,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 5. Abirattash.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_06_urzigurumash",
@@ -3421,8 +3208,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 6. Urzigurumash.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_07_agum_ii_restored_marduk",
@@ -3436,8 +3222,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 7. Agum II (Son of Urzigurumash — Restored Marduk Statue).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_08_burna_buriash_i",
@@ -3451,8 +3236,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 8. Burna-Buriash I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_09_ulam_buriash_conquered_seala",
@@ -3466,8 +3250,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 9. Ulam-Buriash (Son of Burna-Buriash I — Conquered Sealand).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_10_burna_buriash_ii_amarna_lett",
@@ -3481,8 +3264,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 10. Burna-Buriash II (Amarna Letters EA 6-11; Wed Ashur-uballit I's Daughter).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_11_kudur_enlil",
@@ -3496,8 +3278,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 11. Kudur-Enlil.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_12_shagarakti_shuriash_13_yrs",
@@ -3511,8 +3292,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 12. Shagarakti-Shuriash (Son of Kudur-Enlil, 13 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_3_13_meli_shipak",
@@ -3526,8 +3306,7 @@
         "Early Babylonian Chronicles (L.W. King Vol. I pp. 101-113)"
       ],
       "notes": "Kassite Dynasty king: 13. Meli-Shipak.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_10_01_nabopolassar_626_605_bce",
@@ -3542,8 +3321,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Founded the Chaldean Empire and allied with Media to conquer Nineveh (612 BCE); father of Nebuchadnezzar II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_10_02_amel_marduk_evil_merodach_56",
@@ -3558,8 +3336,7 @@
         "Babylonian Chronicles"
       ],
       "notes": "Son of Nebuchadnezzar II; released King Jehoiachin of Judah from prison in Babylon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_10_03_neriglissar_560_556_bce",
@@ -3574,8 +3351,7 @@
         "Jeremiah 39:3"
       ],
       "notes": "Married Nebuchadnezzar II's daughter Kashshaya; seized the throne from Amel-Marduk.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_10_04_labashi_marduk_556_bce",
@@ -3589,8 +3365,7 @@
         "Babylonian Chronicles"
       ],
       "notes": "Young son of Neriglissar deposed after nine months by the Nabonidus conspiracy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_10_05_nabonidus_556_539_bce",
@@ -3605,8 +3380,7 @@
         "Harran Stelae"
       ],
       "notes": "Resided 10 years at Tayma in Arabia while entrusting Babylon to his eldest son Belshazzar.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "babr_10_06_crown_prince_belshazzar_dani",
@@ -3621,8 +3395,7 @@
         "Nabonidus Chronicle"
       ],
       "notes": "Coregent of Babylon under Nabonidus until the city fell to Cyrus the Great in 539 BCE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

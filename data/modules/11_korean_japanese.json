@@ -15,8 +15,7 @@
         "Jewang Ungi"
       ],
       "notes": "Hwanung descends from Heaven to Mt. Taebaek with 3,000 followers and the gods of Wind, Rain, and Clouds; weds Ungnyeo (the bear who endured 100 days of mugwort and garlic to become human).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jk_dangun",
@@ -34,8 +33,7 @@
         "Jewang Ungi"
       ],
       "notes": "Son of Hwanung & Ungnyeo; founded Gojoseon (Asadal) in the traditional era of Chinese Emperor Yao! Father of Prince Buru (who in Korean annals meets Yu the Great at Tushan!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kor_jumong",
@@ -54,8 +52,7 @@
         "Samguk Yusa"
       ],
       "notes": "Born from a luminous egg to Yuhwa (daughter of River God Habaek) and heavenly prince Hae Mosu; founded the northern kingdom of Goguryeo (leading to King Yuri and King Gwanggaeto the Great!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kor_onjo_baekje",
@@ -72,8 +69,7 @@
         "Nihon Shoki"
       ],
       "notes": "Onjo (son of Jumong & Lady Soseono) founded Baekje in SW Korea; Baekje became Yamato Japan's closest ally, transmitting Chinese writing (Wani), Buddhism, and royal intermarriage (Emperor Kammu's mother descended from Baekje's King Muryeong!)!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kor_hyeokgeose_silla",
@@ -88,8 +84,7 @@
         "Samguk Yusa"
       ],
       "notes": "Park Hyeokgeose (born from a luminous egg at Najeong well) founded Silla; joined by Seok Talhae and Kim Alji (born from a golden box in Gyerim forest — ancestor of Queen Seondeok & unified Silla kings!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kor_suro_heo",
@@ -106,8 +101,7 @@
         "Samguk Yusa (Garakguk-gi)"
       ],
       "notes": "King Suro (born from one of 6 golden eggs on Mt. Guji) married Princess Heo Hwang-ok (Suriratna), who sailed to Korea from the Kingdom of Ayuta (traditionally identified with Ayodhya, India — capital of the Solar Dynasty!) carrying a stone pagoda. Ancestors of millions of Gimhae Kim & Heo Koreans!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jpn_kotoamatsukami",
@@ -122,8 +116,7 @@
         "Nihon Shoki (720 CE)"
       ],
       "notes": "Three primordial creation deities appearing at the dawn of Heaven and Earth; Takamimusubi is the maternal grandfather of Ninigi!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jk_izanagi_amaterasu",
@@ -138,8 +131,7 @@
         "Nihon Shoki Book I"
       ],
       "notes": "Stir the primeval ocean with the heavenly jeweled spear Amenonuhoko to birth Onogoro and the Eight Great Islands of Japan, plus Fire God Kagutsuchi and the Three Noble Children.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jpn_amaterasu",
@@ -156,8 +148,7 @@
         "Nihon Shoki"
       ],
       "notes": "Born from Izanagi's left eye upon purifying himself from Yomi (the Underworld); ruler of the High Plain of Heaven (Takamagahara) and divine ancestress of the Imperial House of Japan.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jpn_susanoo",
@@ -174,8 +165,7 @@
         "Nihon Shoki"
       ],
       "notes": "Brother of Amaterasu; slays the eight-headed serpent Yamata-no-Orochi to win the Kusanagi sword, marries Kushinadahime, and sires the Izumo dynasty leading to Okuninushi (who builds Izumo and cedes the land to Amaterasu's grandson Ninigi!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jpn_oshihomimi",
@@ -190,8 +180,7 @@
         "Nihon Shoki Book II"
       ],
       "notes": "Amaterasu's son Ame-no-Oshihomimi weds Takamimusubi's daughter and sires Ninigi, who descends to Mt. Takachiho (Kyushu) carrying the Mirror, Jewel, and Sword (Three Imperial Regalia) and marries Mt. Fuji goddess Konohanasakuya-hime!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jpn_hoori",
@@ -205,8 +194,7 @@
         "Kojiki Book I"
       ],
       "notes": "Hoori (Yamasachihiko) journeys to the underwater palace of Sea God Ryujin/Watatsumi, weds sea princess Toyotama-hime, and fathers Ugayafukiaezu -> Emperor Jimmu!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jk_jimmu",
@@ -223,8 +211,7 @@
         "Nihon Shoki Book III"
       ],
       "notes": "Great-grandson of Ninigi; leads the Eastern Expedition from Kyushu to Yamato (Nara), guided by the three-legged crow Yatagarasu, founding the world's oldest continuous hereditary monarchy!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jpn_sujin_yamato",
@@ -239,8 +226,7 @@
         "Nihon Shoki Books V-VII"
       ],
       "notes": "Emperor Sujin is widely regarded as the earliest historically grounded Yamato ruler; his descendant Prince Yamato Takeru wields Susanoo's Kusanagi sword to unify Honshu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpn_jingu_ojin",
@@ -259,8 +245,7 @@
         "17-Article Constitution"
       ],
       "notes": "Emperor Ojin (deified as Hachiman) welcomed Baekje Korean scholar Wani (bringing Chinese characters and Confucius's Analects to Japan!); Prince Shotoku (574-622 CE) established Buddhism and Japan's 17-Article Constitution!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     }
   ],
   "edges": [

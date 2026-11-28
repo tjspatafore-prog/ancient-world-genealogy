@@ -17,8 +17,7 @@
         "Jacob M. Myers 1 Chronicles (1965)"
       ],
       "notes": "Hezron's firstborn Jerahmeel wed a second wife Atarah, mother of Onam (-> Shammai, Jada -> Peleth & Zaza); elder line via Ram -> Maaz, Jamin & Eker.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr41_sheshan_jarha_egypt",
@@ -36,8 +35,7 @@
         "Jacob M. Myers Anchor Bible 1 Chronicles (1965)"
       ],
       "notes": "Sheshan of Jerahmeel had no sons, so he gave his daughter Ahlai to his Egyptian servant Jarha — establishing a 13-generation documented Egyptian-Judahite pedigree: Jarha + Ahlai -> Attai -> Nathan -> Zabad -> Ephlal -> Obed -> Jehu -> Azariah -> Helez -> Eleasah -> Sismai -> Shallum -> Jekamiah -> Elishama!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "chr41_ashhur_tekoa",
@@ -54,8 +52,7 @@
         "Myers 1 Chronicles (1965)"
       ],
       "notes": "Posthumous son of Hezron & Abijah; wed Helah and Naarah, founding Tekoa and Bethlehem-area clans.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr41_jabez",
@@ -70,8 +67,7 @@
         "Myers 1 Chronicles (1965)"
       ],
       "notes": "Famed in 1 Chronicles 4 for his prayer of blessing and associated in 1 Chr 2:55 with the Kenite scribal families (Rechabites -> Hammath).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr41_mered_bithiah_pharaoh",
@@ -90,8 +86,7 @@
         "Talmud Sanhedrin 19b"
       ],
       "notes": "Beside Caleb's line in 1 Chr 4:17–18, Mered married BOTH a Jewish wife (Jered, Heber, Jekuthiel) AND 'Bithiah the daughter of Pharaoh' — bearing Miriam, Shammai, and Ishbah (rabbinic tradition identifies Mered with Caleb and Bithiah with Moses's adoptive mother!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "chr41_shobal_salma",
@@ -106,8 +101,7 @@
         "Myers 1 Chronicles (1965)"
       ],
       "notes": "Sons of Hur (firstborn of Ephrath & Caleb) who settled Bethlehem, Kiriath-jearim, Zorathites & Kenite scribes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr41_simeon_clans",
@@ -122,8 +116,7 @@
         "Myers Anchor Bible 1 Chronicles"
       ],
       "notes": "Details Simeon's southern clans including Shimei's 16 sons and 6 daughters and 500 Simeonites under Ishi's sons (Pelatiah, Neariah, Rephaiah, Uzziel) who settled Mt. Seir.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr41_reuben_beerah",
@@ -140,8 +133,7 @@
         "Myers 1 Chronicles (1965)"
       ],
       "notes": "Complete 8-generation Reubenite lineage ending with tribal prince Beerah, carried captive to Halah and Habor by Assyrian emperor Tiglath-Pileser III (Pul).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr41_gad_clans",
@@ -156,8 +148,7 @@
         "Myers 1 Chronicles (1965)"
       ],
       "notes": "Traces Gadite houses in Gilead and Bashan registered under Kings Jotham of Judah and Jeroboam II of Israel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr41_manasseh_east",
@@ -172,8 +163,7 @@
         "Myers 1 Chronicles (1965)"
       ],
       "notes": "Seven named tribal heads of eastern Manasseh from Bashan to Mount Hermon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr41_issachar_tola",
@@ -188,8 +178,7 @@
         "Myers 1 Chronicles (1965)"
       ],
       "notes": "Traces Tola's six warrior clans (Uzzi, Rephaiah, Jeriel, Jahmai, Ibsam, Shemuel) and Izrahiah's five chief sons.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr41_benjamin_clans",
@@ -207,8 +196,7 @@
         "Myers 1 Chronicles (1965)"
       ],
       "notes": "Includes Shaharaim (who fathered seven sons by Hodesh and Hushim in the country of Moab), Beriah & Shema (founders of Ono, Lod & Aijalon), and Jeiel's Gibeon clan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr41_asher_shua",
@@ -225,8 +213,7 @@
         "Myers 1 Chronicles (1965)"
       ],
       "notes": "Complete 4-generation pedigree from Heber ben Beriah ben Asher down through Birzaith, Shomer, Hotham, and named sister Shua (1 Chr 7:32).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kea_obrien_dalgcais",
@@ -243,8 +230,7 @@
         "Geoffrey Keating Foras Feasa ar Eirinn Genealogies (4. Geneal_Synch.pdf)"
       ],
       "notes": "Complete unbroken generational stem of the Dal gCais (O'Briens, O'Carrolls, McMahons & MacNamaras) from Milesius's son Eber Finn -> Oilioll Olum -> Cormac Cas -> Cass -> Brian Boru -> Turlough -> Conor na Siudaine.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kea_maccarthy_cashel",
@@ -262,8 +248,7 @@
         "Geoffrey Keating Foras Feasa ar Eirinn Genealogies (4. Geneal_Synch.pdf pp.3–9)"
       ],
       "notes": "Traces the elder Milesian line of Eber Finn through Eoghan Mor -> Fiacha Muilleathan -> Corc of Cashel -> Nad Fraoich -> Ceallachan Caisil -> Carthach (eponym of MacCarthy Mor) & O'Sullivan Beara.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kea_oneill_odonnell_columba",
@@ -281,8 +266,7 @@
         "Geoffrey Keating Foras Feasa ar Eirinn Genealogies (4. Geneal_Synch.pdf)"
       ],
       "notes": "Two eldest sons of Niall of the Nine Hostages: Eoghan -> Cenel nEoghain -> Hugh O'Neill (Earl of Tyrone); Conall Gulban -> Fedlimid -> St. Columba (Colum Cille, Apostle of Scotland!) & Red Hugh O'Donnell.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kea_oconnor_connacht",
@@ -299,8 +283,7 @@
         "Geoffrey Keating Foras Feasa ar Eirinn Genealogies (4. Geneal_Synch.pdf)"
       ],
       "notes": "Half-brother of Niall of the Nine Hostages -> Brión -> Ui Briuin -> Turlough Mor -> Rory O'Connor (Ruaidri Ua Conchobair, last High King of Ireland before the Anglo-Norman arrival).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kea_macmurrough_leinster",
@@ -318,8 +301,7 @@
         "Geoffrey Keating Foras Feasa ar Eirinn Genealogies (4. Geneal_Synch.pdf)"
       ],
       "notes": "Traces Eremon -> Ugaine Mor -> Cathaoir Mor -> Diarmait Mac Murchada, whose daughter Aoife MacMurrough wed Richard de Clare ('Strongbow') -> Isabel de Clare (+ William Marshal!) — directly injecting ancient Milesian/Gaelic royal blood into English, Scottish & European royalty!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kea_dalriada_scotland",
@@ -336,8 +318,7 @@
         "Geoffrey Keating Foras Feasa ar Eirinn Genealogies (4. Geneal_Synch.pdf)"
       ],
       "notes": "Completes the four Milesian stems in Keating: Eremon's Dal Riada branch crossing to Argyll/Scotland under Fergus Mor, plus Ir (Magennis, O'More, Conall Cearnach) and Ith (O'Driscoll).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

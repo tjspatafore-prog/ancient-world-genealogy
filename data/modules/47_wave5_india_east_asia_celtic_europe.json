@@ -15,8 +15,7 @@
         "Pargiter p. 147"
       ],
       "notes": "Eldest son of King Dasharatha & Kausalya; husband of Sita; father of Lava & Kusha.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ind5_goddess_sita",
@@ -30,8 +29,7 @@
         "Valmiki Ramayana"
       ],
       "notes": "Daughter of King Siradhvaja Janaka; mother of twins Lava and Kusha.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_bharata_ram",
@@ -45,8 +43,7 @@
         "Valmiki Ramayana"
       ],
       "notes": "Ruled Ayodhya from Nandigrama bearing Rama's sandals during the 14-year exile.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_lakshmana",
@@ -60,8 +57,7 @@
         "Valmiki Ramayana"
       ],
       "notes": "Accompanied Rama & Sita throughout the 14-year forest exile.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_shatrughna",
@@ -75,8 +71,7 @@
         "Valmiki Ramayana"
       ],
       "notes": "Conquered Lavana and founded Mathura.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_lava",
@@ -90,8 +85,7 @@
         "Valmiki Ramayana"
       ],
       "notes": "Traditional Solar ancestor of North Kosala / Shravasti and Mewar Rajputs.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_kusha",
@@ -106,8 +100,7 @@
         "Pargiter p. 149"
       ],
       "notes": "Father of Atithi, continuing the Ayodhya Solar Dynasty to Brihadbala.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_yudhishthira",
@@ -121,8 +114,7 @@
         "Mahabharata"
       ],
       "notes": "Victor of Kurukshetra & Emperor of Hastinapura.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_bhima",
@@ -136,8 +128,7 @@
         "Mahabharata"
       ],
       "notes": "Father of Ghatotkacha.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_arjuna",
@@ -152,8 +143,7 @@
         "Bhagavad Gita"
       ],
       "notes": "Wed Draupadi and Subhadra (sister of Krishna); father of Abhimanyu.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ind5_nakula",
@@ -167,8 +157,7 @@
         "Mahabharata"
       ],
       "notes": "Master of horses and swords.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_sahadeva",
@@ -182,8 +171,7 @@
         "Mahabharata"
       ],
       "notes": "Scholar-warrior of the Pandavas.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_duryodhana",
@@ -197,8 +185,7 @@
         "Mahabharata"
       ],
       "notes": "Eldest son of Dhritarashtra & Gandhari.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_abhimanyu",
@@ -212,8 +199,7 @@
         "Mahabharata"
       ],
       "notes": "Fell at the Chakravyuha; married Uttara and fathered posthumous heir Parikshit.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_parikshit",
@@ -228,8 +214,7 @@
         "Bhagavata Purana"
       ],
       "notes": "Saved in the womb by Krishna; father of Janamejaya.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_janamejaya",
@@ -244,8 +229,7 @@
         "Pargiter"
       ],
       "notes": "Heard the Mahabharata recited by Vaishampayana.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_chandragupta_maurya",
@@ -261,8 +245,7 @@
         "Pargiter p. 286"
       ],
       "notes": "Overthrew the Nandas with Chanakya and forged a treaty with Seleucus I Nicator.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ind5_bindusara",
@@ -278,8 +261,7 @@
         "Pargiter p. 286"
       ],
       "notes": "Extended Mauryan rule south across the Deccan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_emperor_ashoka",
@@ -295,8 +277,7 @@
         "Pargiter p. 286"
       ],
       "notes": "Sent Buddhist missions to Sri Lanka, Syria, Egypt, and Macedonia.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ind5_mahendra_sanghamitta",
@@ -312,8 +293,7 @@
         "Pargiter p. 286"
       ],
       "notes": "Brought the Bodhi Tree sapling to Anuradhapura under King Devanampiya Tissa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_sri_gupta",
@@ -328,8 +308,7 @@
         "Gupta Epigraphy"
       ],
       "notes": "Father of Ghatotkacha Gupta.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_chandragupta1",
@@ -344,8 +323,7 @@
         "Gupta Epigraphy"
       ],
       "notes": "Allied with the ancient Licchavis of Vaisali through Kumaradevi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_samudragupta",
@@ -360,8 +338,7 @@
         "Gupta Epigraphy"
       ],
       "notes": "Extended Gupta suzerainty from Himalayas to South India.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_chandragupta2",
@@ -376,8 +353,7 @@
         "Gupta Epigraphy"
       ],
       "notes": "Overthrew the Western Kshatrapas and hosted Chinese pilgrim Faxian.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ind5_kumaragupta1",
@@ -392,8 +368,7 @@
         "Gupta Epigraphy"
       ],
       "notes": "Founded the great monastic university of Nalanda.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_skandagupta",
@@ -408,8 +383,7 @@
         "Gupta Epigraphy"
       ],
       "notes": "Defeated the Hephthalites (White Huns) in northern India.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_vijaya_lanka",
@@ -423,8 +397,7 @@
         "Mahavamsa (Geiger)"
       ],
       "notes": "Prince from Lala/Vanga who landed at Tambapanni (Lanka).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_pandukabhaya",
@@ -438,8 +411,7 @@
         "Mahavamsa (Geiger)"
       ],
       "notes": "United Sri Lanka and laid out Anuradhapura.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_devanampiya_tissa",
@@ -453,8 +425,7 @@
         "Mahavamsa (Geiger)"
       ],
       "notes": "Received Ashoka's son Mahinda and planted the Jaya Sri Maha Bodhi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_dutugemunu",
@@ -468,8 +439,7 @@
         "Mahavamsa (Geiger)"
       ],
       "notes": "United all Lanka from Ruhuna.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_nyatri_tsenpo",
@@ -484,8 +454,7 @@
         "Old Tibetan Annals"
       ],
       "notes": "First of the 7 Heavenly Throne Kings of Tibet.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_songtsen_gampo",
@@ -500,8 +469,7 @@
         "Old Tibetan Annals"
       ],
       "notes": "Married Nepalese princess Bhrikuti and Tang Chinese princess Wencheng.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ind5_trisong_detsen",
@@ -516,8 +484,7 @@
         "Old Tibetan Annals"
       ],
       "notes": "Brought Shantarakshita & Padmasambhava to Tibet.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind5_ralpacan",
@@ -532,8 +499,7 @@
         "Old Tibetan Annals"
       ],
       "notes": "Expanded Buddhist translations and signed 821 CE treaty with Tang China.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_qin_shi_huang",
@@ -547,8 +513,7 @@
         "Sima Qian Shiji Ch. 6"
       ],
       "notes": "Unified Warring States China in 221 BCE.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eas5_han_gaozu",
@@ -563,8 +528,7 @@
         "Han Shu"
       ],
       "notes": "Rose from peasant official to defeat Xiang Yu and establish Han.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eas5_han_wen",
@@ -579,8 +543,7 @@
         "Han Shu"
       ],
       "notes": "Father of Emperor Jing.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_han_jing",
@@ -595,8 +558,7 @@
         "Han Shu"
       ],
       "notes": "Consolidated imperial centralization.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_han_wudi",
@@ -611,8 +573,7 @@
         "Han Shu"
       ],
       "notes": "Sent Zhang Qian to Bactria & Parthia, initiating the Silk Road.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eas5_han_guangwu",
@@ -627,8 +588,7 @@
         "Han Shu"
       ],
       "notes": "Restored Han Dynasty at Luoyang.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_tang_gaozu",
@@ -642,8 +602,7 @@
         "Old Book of Tang"
       ],
       "notes": "Established Tang capital at Chang'an.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_tang_taizong",
@@ -657,8 +616,7 @@
         "Old Book of Tang"
       ],
       "notes": "Sponsored Xuanzang's journey to India and Princess Wencheng's marriage to Tibet.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eas5_tang_gaozong",
@@ -672,8 +630,7 @@
         "Old Book of Tang"
       ],
       "notes": "Unified the Korean Peninsula campaign in alliance with Silla.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_tang_xuanzong",
@@ -687,8 +644,7 @@
         "Old Book of Tang"
       ],
       "notes": "Presided over Tang cultural zenith.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_wu_zetian",
@@ -702,8 +658,7 @@
         "Book of Tang"
       ],
       "notes": "Consort of Gaozong; ruled in her own right as Zhou Dynasty Huangdi.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eas5_song_taizu",
@@ -717,8 +672,7 @@
         "History of Song"
       ],
       "notes": "Ended Five Dynasties fragmentation and inaugurated the Northern Song.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_ming_hongwu",
@@ -732,8 +686,7 @@
         "Ming Shi"
       ],
       "notes": "Drove out Yuan rule and established Nanjing.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_ming_yongle",
@@ -747,8 +700,7 @@
         "Ming Shi"
       ],
       "notes": "Commissioned Admiral Zheng He's treasure voyages across Asia and East Africa.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eas5_qing_nurhaci",
@@ -762,8 +714,7 @@
         "Draft History of Qing"
       ],
       "notes": "Created the Eight Banners; father of Hong Taiji.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_qing_hong_taiji",
@@ -777,8 +728,7 @@
         "Draft History of Qing"
       ],
       "notes": "Father of Shunzhi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_qing_shunzhi",
@@ -792,8 +742,7 @@
         "Draft History of Qing"
       ],
       "notes": "Entered Beijing in 1644 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_qing_kangxi",
@@ -807,8 +756,7 @@
         "Draft History of Qing"
       ],
       "notes": "Compiled the Kangxi Dictionary and consolidated Tibet & Taiwan.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eas5_qing_yongzheng",
@@ -822,8 +770,7 @@
         "Draft History of Qing"
       ],
       "notes": "Centralized Qing imperial administration.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_qing_qianlong",
@@ -837,8 +784,7 @@
         "Draft History of Qing"
       ],
       "notes": "Oversaw the Siku Quanshu encyclopedia and zenith of Qing prosperity.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eas5_gwanggaeto",
@@ -853,8 +799,7 @@
         "Hulbert History of Korea"
       ],
       "notes": "Expanded Goguryeo across Manchuria and the Korean Peninsula.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eas5_queen_seondeok",
@@ -870,8 +815,7 @@
         "Joseon Annals"
       ],
       "notes": "Built Hwangnyongsa Nine-Story Pagoda and Cheomseongdae.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_king_munmu",
@@ -887,8 +831,7 @@
         "Joseon Annals"
       ],
       "notes": "Son of Muyeol; unified Silla in 668–676 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_wang_geon_goryeo",
@@ -904,8 +847,7 @@
         "Joseon Annals"
       ],
       "notes": "United Later Three Kingdoms in 936 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_taejo_joseon",
@@ -921,8 +863,7 @@
         "Joseon Annals"
       ],
       "notes": "Founded Hanyang (Seoul) as royal capital.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eas5_king_sejong",
@@ -938,8 +879,7 @@
         "Joseon Annals"
       ],
       "notes": "Grandson of Taejo; promulgated Hunminjeongeum (Hangul) in 1446 CE.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stp5_turk",
@@ -953,8 +893,7 @@
         "Abulghazi Bahadur Khan (1730 trans.)"
       ],
       "notes": "Invented felt tents and ruled the Issyk-Kul steppe.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_taunak",
@@ -968,8 +907,7 @@
         "Abulghazi Bahadur Khan (1730 trans.)"
       ],
       "notes": "Succeeded his father Turk.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_ilchi",
@@ -983,8 +921,7 @@
         "Abulghazi Bahadur Khan (1730 trans.)"
       ],
       "notes": "Father of Dib Bakuy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_dib_bakuy",
@@ -998,8 +935,7 @@
         "Abulghazi Bahadur Khan (1730 trans.)"
       ],
       "notes": "Father of Kayuk.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_kayuk",
@@ -1013,8 +949,7 @@
         "Abulghazi Bahadur Khan (1730 trans.)"
       ],
       "notes": "Father of Alanja.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_alanja_khan",
@@ -1028,8 +963,7 @@
         "Abulghazi Bahadur Khan (1730 trans.)"
       ],
       "notes": "Divided his domains between twin sons Tatar and Mogul.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_mogul_khan",
@@ -1043,8 +977,7 @@
         "Abulghazi Bahadur Khan (1730 trans.)"
       ],
       "notes": "Brother of Tatar Khan; father of Qara Khan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_qara_khan",
@@ -1058,8 +991,7 @@
         "Abulghazi Bahadur Khan (1730 trans.)"
       ],
       "notes": "Father of the hero Oghuz.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_oghuz_khan",
@@ -1073,8 +1005,7 @@
         "Abulghazi Bahadur Khan (1730 trans.)"
       ],
       "notes": "United the steppe nations and fathered 6 illustrious sons (Üçok & Bozok).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stp5_tatar_khan",
@@ -1088,8 +1019,7 @@
         "Abulghazi Part I"
       ],
       "notes": "Ancestor of the 7-generation Tatar Khans.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_gun_khan",
@@ -1103,8 +1033,7 @@
         "Abulghazi"
       ],
       "notes": "Forebear of the Kayi tribe from whom Suleyman Shah, Ertugrul & Osman I sprang.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_ay_khan",
@@ -1118,8 +1047,7 @@
         "Abulghazi"
       ],
       "notes": "Bozok prince.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_yildiz_khan",
@@ -1133,8 +1061,7 @@
         "Abulghazi"
       ],
       "notes": "Bozok prince.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_gok_khan",
@@ -1148,8 +1075,7 @@
         "Abulghazi"
       ],
       "notes": "Üçok prince.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_dag_khan",
@@ -1163,8 +1089,7 @@
         "Abulghazi"
       ],
       "notes": "Üçok prince.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_deniz_khan",
@@ -1179,8 +1104,7 @@
         "Mahmud al-Kashgari"
       ],
       "notes": "Üçok prince linked with the Kınık clan of the Seljuks.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_seljuk",
@@ -1195,8 +1119,7 @@
         "Ibn al-Athir"
       ],
       "notes": "Son of Duqaq; converted to Islam near Jand; grandfather of Tughril & Chaghri Beg.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_mikail",
@@ -1210,8 +1133,7 @@
         "Abulghazi"
       ],
       "notes": "Father of Tughril Beg & Chaghri Beg.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_tughril_beg",
@@ -1225,8 +1147,7 @@
         "Ibn al-Athir"
       ],
       "notes": "Restored Abbasid protection in Baghdad and founded the Great Seljuk Empire.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_chaghri_beg",
@@ -1240,8 +1161,7 @@
         "Ibn al-Athir"
       ],
       "notes": "Father of Great Sultan Alp Arslan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_alp_arslan",
@@ -1255,8 +1175,7 @@
         "Ibn al-Athir"
       ],
       "notes": "Opened Anatolia to Turkish settlement at Manzikert (1071).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stp5_malik_shah1",
@@ -1270,8 +1189,7 @@
         "Ibn al-Athir"
       ],
       "notes": "Zenith of Great Seljuk power from Syria to Transoxiana.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_suleyman_shah",
@@ -1286,8 +1204,7 @@
         "Ottoman Annals"
       ],
       "notes": "Led Kayi clan westward into Anatolia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp5_ertugrul",
@@ -1301,8 +1218,7 @@
         "Ottoman Chronicles"
       ],
       "notes": "Lord of the Seljuk frontier margraviate at Söğüt; father of Sultan Osman I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_fenius_farsa",
@@ -1317,8 +1233,7 @@
         "Geoffrey Keating Foras Feasa ar Éirinn"
       ],
       "notes": "Founded the school of languages and fathered Nel / Niul.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_niul",
@@ -1333,8 +1248,7 @@
         "Geoffrey Keating Foras Feasa ar Éirinn"
       ],
       "notes": "Married Scota, daughter of Pharaoh Cingris, and befriended Moses.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_goidel_glas",
@@ -1349,8 +1263,7 @@
         "Geoffrey Keating Foras Feasa ar Éirinn"
       ],
       "notes": "Blessed by Moses after the serpent bite; ancestor of the Milesians.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_breogan",
@@ -1365,8 +1278,7 @@
         "Geoffrey Keating Foras Feasa ar Éirinn"
       ],
       "notes": "Built the watchtower from whose summit his son Íth sighted Ireland.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_bile",
@@ -1381,8 +1293,7 @@
         "Geoffrey Keating Foras Feasa ar Éirinn"
       ],
       "notes": "Elder son of Breogán.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_mil_espaine",
@@ -1397,8 +1308,7 @@
         "Geoffrey Keating Foras Feasa ar Éirinn"
       ],
       "notes": "Ancestor of Éremón (Uí Néill, Connacht, Leinster, Dal Riada) and Éber Finn (Munster, O'Brien, MacCarthy).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur5_eremon",
@@ -1413,8 +1323,7 @@
         "Geoffrey Keating Foras Feasa ar Éirinn"
       ],
       "notes": "Co-king with brother Éber Finn; ancestor of Conn of the Hundred Battles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_conn_hundred_battles",
@@ -1429,8 +1338,7 @@
         "Geoffrey Keating Foras Feasa ar Éirinn"
       ],
       "notes": "Ancestor of Cormac mac Airt and Niall of the Nine Hostages.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_cormac_mac_airt",
@@ -1445,8 +1353,7 @@
         "Geoffrey Keating Foras Feasa ar Éirinn"
       ],
       "notes": "Grandson of Conn; grandfather of Niall's ancestor Fiacha Sraibtine.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_niall_nine_hostages",
@@ -1461,8 +1368,7 @@
         "Geoffrey Keating Foras Feasa ar Éirinn"
       ],
       "notes": "Father of Eógan (O'Neill), Conall Gulban (O'Donnell / St. Columba) & Lóegaire (met St. Patrick!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur5_scota",
@@ -1477,8 +1383,7 @@
         "Keating"
       ],
       "notes": "Egyptian princess married to Scythian scholar Niul; eponym of Scotland ('Scotia').",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_eber_finn",
@@ -1493,8 +1398,7 @@
         "Keating"
       ],
       "notes": "Ancestor of Cormac Cas -> Brian Boru.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_ir",
@@ -1508,8 +1412,7 @@
         "Lebor Gabála"
       ],
       "notes": "Progenitor of Cú Chulainn's Ulaid lineages.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_amairgin",
@@ -1523,8 +1426,7 @@
         "Lebor Gabála"
       ],
       "notes": "Sang the Song of Amairgin upon landing in Ireland.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_eogan_oneill",
@@ -1538,8 +1440,7 @@
         "Keating"
       ],
       "notes": "Progenitor of O'Neill High Kings.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_conall_gulban",
@@ -1554,8 +1455,7 @@
         "Adomnán Life of Columba"
       ],
       "notes": "Ancestor of Tyrconnell & St. Columba.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_brian_boru",
@@ -1570,8 +1470,7 @@
         "Keating"
       ],
       "notes": "Descendant of Éber Finn & Cormac Cas (Dál gCais); defeated Vikings at Clontarf (1014 CE).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur5_fergus_mor",
@@ -1586,8 +1485,7 @@
         "Chronicles of Scotland"
       ],
       "notes": "Crossed from Antrim into Argyll, founding the Scottish royal stem.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_kenneth_macalpin",
@@ -1601,8 +1499,7 @@
         "Chronicle of the Kings of Alba"
       ],
       "notes": "Descendant of Fergus Mór; united Dál Riata and Pictland.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_malcolm3",
@@ -1616,8 +1513,7 @@
         "Scottish Chronicles"
       ],
       "notes": "Married St. Margaret of Wessex (linking Scotland & England's House of Wessex!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_robert_bruce",
@@ -1631,8 +1527,7 @@
         "Scottish Chronicles"
       ],
       "notes": "Won Scottish independence at Bannockburn (1314 CE); grandfather of Robert II (House of Stewart).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur5_yngvi_freyr",
@@ -1647,8 +1542,7 @@
         "Ynglinga Saga"
       ],
       "notes": "Son of Njörðr; founder of the Swedish/Norwegian Yngling royal stem.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_harald_fairhair",
@@ -1662,8 +1556,7 @@
         "Heimskringla"
       ],
       "notes": "Descended from the Ynglings; unified Norway at Hafrsfjord.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_skjoldr",
@@ -1678,8 +1571,7 @@
         "Beowulf"
       ],
       "notes": "Son of Odin in Snorri's Edda; ancestor of Danish and Viking kings.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_ragnar_lodbrok",
@@ -1693,8 +1585,7 @@
         "Ragnars Saga Loðbrókar"
       ],
       "notes": "Fathered Björn Ironside, Ivar the Boneless & Sigurd Snake-in-the-Eye.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_bjorn_ironside",
@@ -1708,8 +1599,7 @@
         "Ragnars Saga"
       ],
       "notes": "Led 859 CE Viking expedition to Spain and Italy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_ivar_boneless",
@@ -1723,8 +1613,7 @@
         "Anglo-Saxon Chronicle"
       ],
       "notes": "Conquered York and Dublin.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_sigurd_snake_eye",
@@ -1738,8 +1627,7 @@
         "Ragnars Saga"
       ],
       "notes": "Ancestor of Gorm the Old & King Canute the Great.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_rollo_normandy",
@@ -1754,8 +1642,7 @@
         "Dudo of Saint-Quentin"
       ],
       "notes": "Norwegian noble of Jarl Rognvald's house (kin/contemporary of Harald Fairhair) who founded Normandy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_william_longsword",
@@ -1769,8 +1656,7 @@
         "William of Jumièges"
       ],
       "notes": "Son of Rollo & Poppa of Bayeux.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_richard1_normandy",
@@ -1784,8 +1670,7 @@
         "William of Jumièges"
       ],
       "notes": "Father of Richard II and Emma of Normandy (Queen of Ethelred II & Canute!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_richard2_normandy",
@@ -1799,8 +1684,7 @@
         "William of Jumièges"
       ],
       "notes": "Father of Robert I the Magnificent.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_robert1_normandy",
@@ -1814,8 +1698,7 @@
         "Orderic Vitalis"
       ],
       "notes": "Son of Richard II; fathered William I of England with Herleva of Falaise.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_harald_hardrada",
@@ -1829,8 +1712,7 @@
         "Heimskringla"
       ],
       "notes": "Married Elizabeth Yaroslavna of Kiev; fell at Stamford Bridge (1066 CE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_brutus_troy",
@@ -1845,8 +1727,7 @@
         "Historia Brittonum"
       ],
       "notes": "Great-grandson of Aeneas; divided Britain among sons Locrinus, Camber & Albanactus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_locrinus",
@@ -1860,8 +1741,7 @@
         "Geoffrey of Monmouth"
       ],
       "notes": "Eldest son of Brutus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_camber",
@@ -1875,8 +1755,7 @@
         "Geoffrey of Monmouth"
       ],
       "notes": "2nd son of Brutus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_albanactus",
@@ -1890,8 +1769,7 @@
         "Geoffrey of Monmouth"
       ],
       "notes": "3rd son of Brutus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_king_lear",
@@ -1905,8 +1783,7 @@
         "Geoffrey of Monmouth"
       ],
       "notes": "8th-gen descendant of Locrinus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_beli_mawr",
@@ -1920,8 +1797,7 @@
         "Harleian Welsh Genealogies"
       ],
       "notes": "Key ancestral node of British and Welsh dynastic pedigrees.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_uther_pendragon",
@@ -1935,8 +1811,7 @@
         "Geoffrey of Monmouth"
       ],
       "notes": "Brother of Aurelius Ambrosius; father of King Arthur.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_king_arthur",
@@ -1951,8 +1826,7 @@
         "Historia Brittonum"
       ],
       "notes": "Hero-king of post-Roman Britain.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur5_hengist",
@@ -1967,8 +1841,7 @@
         "Anglo-Saxon Chronicle"
       ],
       "notes": "Jutish commander tracing pedigree to Woden.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_cerdic_wessex",
@@ -1983,8 +1856,7 @@
         "Asser"
       ],
       "notes": "Ancestor of Egbert, Alfred the Great & the modern British monarchy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_rurik",
@@ -1998,8 +1870,7 @@
         "Russian Primary Chronicle"
       ],
       "notes": "Varangian prince invited to rule Novgorod in 862 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_igor_kiev",
@@ -2013,8 +1884,7 @@
         "Russian Primary Chronicle"
       ],
       "notes": "Married St. Olga of Kiev.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_st_olga",
@@ -2028,8 +1898,7 @@
         "Russian Primary Chronicle"
       ],
       "notes": "Baptized in Constantinople (957 CE); grandmother of St. Vladimir.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_anne_of_kiev",
@@ -2044,8 +1913,7 @@
         "Primary Chronicle"
       ],
       "notes": "Daughter of Yaroslav the Wise & Ingegerd of Sweden; ancestral mother of Capetian France & European royalty!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_anastasia_kiev",
@@ -2059,8 +1927,7 @@
         "Hungarian Chronicles"
       ],
       "notes": "Mother of King Solomon of Hungary.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_elizabeth_kiev",
@@ -2074,8 +1941,7 @@
         "Heimskringla"
       ],
       "notes": "Daughter of Yaroslav the Wise who wed Harald Hardrada.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_vsevolod1_kiev",
@@ -2089,8 +1955,7 @@
         "Russian Primary Chronicle"
       ],
       "notes": "Married Byzantine imperial princess of the Monomachos house.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur5_vladimir_monomakh",
@@ -2104,8 +1969,7 @@
         "Russian Primary Chronicle"
       ],
       "notes": "Married Princess Gytha of England (daughter of Harold Godwinson!), uniting Kievan Rus', Byzantium & Anglo-Saxon England!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur5_yuri_dolgoruky",
@@ -2119,8 +1983,7 @@
         "Laurentian Chronicle"
       ],
       "notes": "Mentioned in 1147 CE as founder of Moscow; grandfather of St. Alexander Nevsky.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

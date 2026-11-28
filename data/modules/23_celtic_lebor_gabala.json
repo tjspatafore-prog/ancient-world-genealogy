@@ -20,8 +20,7 @@
         "Lebor Gabála Érenn Part IV (Macalister ¶280, ¶316, pp. 9, 127)"
       ],
       "notes": "Macalister R1 ¶316 traces Nemed directly from Noah -> Japheth -> Magog -> Fathacht -> Esru -> Sru -> Sera -> Tat -> Pamp -> Agnomain -> Nemed.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cel_fir_bolg_kings",
@@ -40,8 +39,7 @@
         "Lebor Gabála Érenn Part IV (Macalister ¶278-289, pp. 7-21)"
       ],
       "notes": "Dela's 5 sons divided Ireland into its 5 provinces; unrolled individually below.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cel_tdd_nuadu_dian_cecht",
@@ -61,8 +59,7 @@
         "Lebor Gabála Érenn Part IV (Macalister ¶310-316, ¶341, pp. 113-159)"
       ],
       "notes": "Unrolled individually below from Tat mac Tabarn -> Nuadu, Dian Cécht -> Cian (+ Ethniu dau. of Balor) -> Lugh Lámfada.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cel_tdd_dagda_ogma_eriu",
@@ -83,8 +80,7 @@
         "Lebor Gabála Érenn Part IV (Macalister ¶313-317, ¶335-344, pp. 121-197)"
       ],
       "notes": "Unrolled individually below from Elada -> Dagda, Ogma & Bres down to Ériu, Banba & Fódla.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "celr_fb_01_1_sl_ine_slanga_mac_dela_fua",
@@ -98,8 +94,7 @@
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
       "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 1. King Sláine / Slanga mac Dela (+ Queen Fuat).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_fb_02_2_rudraige_mac_dela_liber",
@@ -113,8 +108,7 @@
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
       "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 2. King Rudraige mac Dela (+ Queen Liber).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_fb_03_3_gann_mac_dela_etar",
@@ -128,8 +122,7 @@
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
       "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 3. King Gann mac Dela (+ Queen Etar).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_fb_04_4_genann_mac_dela_cnucha",
@@ -143,8 +136,7 @@
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
       "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 4. King Genann mac Dela (+ Queen Cnucha).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_fb_05_5_sengann_mac_dela_anust",
@@ -158,8 +150,7 @@
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
       "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 5. King Sengann mac Dela (+ Queen Anust).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_fb_06_6_fiacha_cendfindan_mac_star",
@@ -173,8 +164,7 @@
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
       "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 6. King Fiacha Cendfindan mac Starn (Grandson of Rudraige).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_fb_07_7_rindail_mac_genann",
@@ -188,8 +178,7 @@
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
       "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 7. King Rindail mac Genann (Son of Genann).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_fb_08_8_fodbgenid_mac_sengann",
@@ -203,8 +192,7 @@
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
       "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 8. King Fodbgenid mac Sengann (Son of Sengann).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_fb_09_9_eochu_mac_eirc_queen_tailt",
@@ -218,8 +206,7 @@
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
       "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: 9. King Eochu mac Eirc (+ Queen Tailtiu of Spain; Foster-Parents of Lugh).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_fb_10_oengus_mac_umor_d_n_aengusa",
@@ -233,8 +220,7 @@
         "Lebor Gabála Érenn Part IV (pp. 7-21)"
       ],
       "notes": "Fir Bolg sovereign in Lebor Gabála Érenn: Oengus mac Umor (Fir Bolg Chieftain of Dún Aengusa, Aran Islands).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_01_tat_mac_tabarn_common_ancest",
@@ -248,8 +234,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: Tat mac Tabarn (Common Patriarch of Tuatha Dé Danann).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_02_nuadu_airgetl_m_king_27_yrs",
@@ -263,8 +248,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: King Nuadu Airgetlám ('Silver Hand', Son of Eochu mac Etarlám, 27 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_03_midir_of_br_l_ith",
@@ -278,8 +262,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: Midir of Brí Léith (Son of Induí; Noble of Tuatha Dé).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_04_n_t_war_god_fea_neman",
@@ -293,8 +276,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: Nét (War God of Tuatha Dé, + Fea & Neman; Great-Grandson of Tat).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_05_goibniu_divine_smith",
@@ -308,8 +290,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: Goibniu (Divine Smith, Son of Esarg mac Nét).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_06_creidne_divine_brazier",
@@ -323,8 +304,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: Creidne (Divine Brazier Who Forged Nuadu's Silver Hand).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_07_luichtne_divine_carpenter",
@@ -338,8 +318,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: Luichtne / Luchta (Divine Carpenter of Tuatha Dé).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_08_dian_c_cht_divine_physician",
@@ -353,8 +332,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: Dian Cécht (Divine Physician, Son of Esarg mac Nét).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_09_cian_scal_balb_father_of_lug",
@@ -368,8 +346,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: Cian / Scal Balb (Son of Dian Cécht; Father of Lugh).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_10_miach_airmed_healers",
@@ -383,8 +360,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: Miach & Airmed (Children of Dian Cécht; Herbal Physicians).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_12_balor_of_the_evil_eye_fomori",
@@ -398,8 +374,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: King Balor of the Evil Eye (Fomorian Monarch; Grandfather of Lugh).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_11_ethniu_daughter_of_balor_mot",
@@ -413,8 +388,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: Princess Ethniu (Daughter of Balor; Wife of Cian & Mother of Lugh).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_13_lugh_l_mfada_king_40_yrs_vic",
@@ -428,8 +402,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: King Lugh Lámfada ('Long-Arm', Son of Cian & Ethniu; Victor at Mag Tuired, 40 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd1_14_manann_n_mac_lir_sea_god",
@@ -443,8 +416,7 @@
         "Lebor Gabála Érenn Part IV (pp. 113-159)"
       ],
       "notes": "Tuatha Dé Danann figure: Manannán mac Lir (Sea God & Sovereign of Emain Ablach).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_01_elada_elathan_father_of_dagd",
@@ -458,8 +430,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: Elada / Elathan mac Delbaeth (Father of Dagda, Ogma & Bres).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_02_bres_mac_elathan_half_fomori",
@@ -473,8 +444,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: King Bres mac Elathan (Half-Fomorian King, 7 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_03_eochu_ollathair_the_dagda_ki",
@@ -488,8 +458,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: Eochu Ollathair / The Dagda (Son of Elada; High King 80 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_04_engus_mac_c_son_of_dagda_br_",
@@ -503,8 +472,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: Óengus Mac Óc (Son of Dagda & Boann of Brú na Bóinne).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_05_brigit_the_poetess_daughter_",
@@ -518,8 +486,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: Brigit the Poetess (Daughter of Dagda; Patroness of Healing & Poetry).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_06_cermait_milbel_son_of_dagda",
@@ -533,8 +500,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: Cermait Milbel (Son of Dagda; Father of the Final Three Kings).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_07_mac_cuill_sethor_queen_banba",
@@ -548,8 +514,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: King Mac Cuill / Éthur (Son of Cermait; Wed Queen Banba).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_08_mac_c_cht_tethor_queen_f_dla",
@@ -563,8 +528,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: King Mac Cécht / Téthur (Son of Cermait; Wed Queen Fódla).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_09_mac_gr_ine_cethor_queen_riu",
@@ -578,8 +542,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: King Mac Gréine / Cethur (Son of Cermait; Wed Queen Ériu).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_10_ogma_champion_inventor_of_og",
@@ -593,8 +556,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: Ogma (Son of Elada; Champion & Inventor of Ogham Script).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_11_delbaeth_tuirenn_king_10_yrs",
@@ -608,8 +570,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: King Delbaeth / Tuirenn mac Ogma (10 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_12_fiachna_mac_delbaeth_king_10",
@@ -623,8 +584,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: King Fiachna mac Delbaeth (10 yrs; Father of Ériu, Banba & Fódla).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_13_brian_iuchar_iucharba_three_",
@@ -638,8 +598,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: Brian, Iuchar & Iucharba (Sons of Tuirenn / Brigit; Three Gods of Danu).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_15_ernmas_the_morr_gan",
@@ -653,8 +612,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: Ernmas & The Morrígan (Matriarch of Tuatha Dé Goddesses).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "celr_tdd2_14_riu_banba_f_dla_sovereignty_",
@@ -668,8 +626,7 @@
         "Lebor Gabála Érenn Part IV (pp. 121-197)"
       ],
       "notes": "House of Elada / Dagda / Ogma: Ériu, Banba & Fódla (Sovereignty Goddesses of Ireland).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

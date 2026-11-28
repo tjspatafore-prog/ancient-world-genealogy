@@ -15,8 +15,7 @@
         "Babylonian Chronicles"
       ],
       "notes": "Son of Phraortes; first king of unified Media according to Herodotus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_phraortes",
@@ -31,8 +30,7 @@
         "Babylonian Chronicles"
       ],
       "notes": "Subjugated Persians and fell against Assyria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_cyaxares",
@@ -47,8 +45,7 @@
         "Babylonian Chronicles"
       ],
       "notes": "Allied with Nabopolassar of Babylon to overthrow Assyria; father of Astyages & Amytis.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_astyages",
@@ -63,8 +60,7 @@
         "Babylonian Chronicles"
       ],
       "notes": "Father of Princess Mandane; defeated by his grandson Cyrus the Great in 550 BCE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_achaemenes",
@@ -80,8 +76,7 @@
         "Herodotus Books I–IX"
       ],
       "notes": "Ancestor of both royal branches proclaimed in Darius I's Behistun Inscription.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_teispes",
@@ -97,8 +92,7 @@
         "Herodotus Books I–IX"
       ],
       "notes": "Father of Cyrus I (Senior line) and Ariaramnes (Junior line).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_cyrus1",
@@ -114,8 +108,7 @@
         "Herodotus Books I–IX"
       ],
       "notes": "Paid tribute to Ashurbanipal; father of Cambyses I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_cambyses1",
@@ -131,8 +124,7 @@
         "Herodotus Books I–IX"
       ],
       "notes": "Married Median Princess Mandane (daughter of Astyages).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_cambyses2",
@@ -148,8 +140,7 @@
         "Herodotus Books I–IX"
       ],
       "notes": "Eldest son of Cyrus the Great; defeated Psamtik III at Pelusium (525 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_bardiya",
@@ -164,8 +155,7 @@
         "Herodotus Book III"
       ],
       "notes": "Brother of Cambyses II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_atossa",
@@ -179,8 +169,7 @@
         "Herodotus Books III & VII"
       ],
       "notes": "Daughter of Cyrus the Great; married Darius I and bore Xerxes I, uniting both Achaemenid branches.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "per4_ariaramnes",
@@ -196,8 +185,7 @@
         "Arrian Anabasis"
       ],
       "notes": "Younger son of Teispes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_arsames",
@@ -213,8 +201,7 @@
         "Arrian Anabasis"
       ],
       "notes": "Grandfather of Darius I the Great.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_hystaspes",
@@ -230,8 +217,7 @@
         "Arrian Anabasis"
       ],
       "notes": "Son of Arsames; father of Darius I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_artaxerxes1",
@@ -247,8 +233,7 @@
         "Arrian Anabasis"
       ],
       "notes": "Commissioned Ezra (458 BCE) and Nehemiah (445 BCE) to restore Jerusalem.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "per4_darius2",
@@ -264,8 +249,7 @@
         "Arrian Anabasis"
       ],
       "notes": "Married half-sister Parysatis; father of Artaxerxes II & Cyrus the Younger.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_artaxerxes2",
@@ -281,8 +265,7 @@
         "Arrian Anabasis"
       ],
       "notes": "Reigned 46 years; father of Artaxerxes III.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_artaxerxes3",
@@ -298,8 +281,7 @@
         "Arrian Anabasis"
       ],
       "notes": "Ended the 30th native dynasty of Egypt.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_arses",
@@ -315,8 +297,7 @@
         "Arrian Anabasis"
       ],
       "notes": "Son of Artaxerxes III.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_darius3",
@@ -332,8 +313,7 @@
         "Arrian Anabasis"
       ],
       "notes": "Grandson of Ostanes (brother of Artaxerxes II); defeated by Alexander the Great at Gaugamela (331 BCE); father of Stateira II.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "per4_stateira2",
@@ -349,8 +329,7 @@
         "Arrian Anabasis"
       ],
       "notes": "United the Achaemenid Persian and Argead Macedonian royal houses at the Susa Weddings (324 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_cyrus_younger",
@@ -364,8 +343,7 @@
         "Xenophon Anabasis I"
       ],
       "notes": "Younger son of Darius II & Parysatis who fell at Cunaxa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_homai",
@@ -380,8 +358,7 @@
         "Al-Biruni Chronology"
       ],
       "notes": "Mother of Darab.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_darab",
@@ -396,8 +373,7 @@
         "Al-Biruni Chronology"
       ],
       "notes": "In Ferdowsi's Shahnameh, fathered both Dara II and (via Nahid daughter of Failaqus/Philip) Iskandar.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_dara2",
@@ -412,8 +388,7 @@
         "Al-Biruni Chronology"
       ],
       "notes": "Fought half-brother Iskandar (Alexander) in Shahnameh epic chronology.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_arsaces1",
@@ -428,8 +403,7 @@
         "Justin XLI-XLII"
       ],
       "notes": "Progenitor of the Ashkanian/Arsacid Dynasty traced by Al-Biruni to Kayanian Siyavush.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "per4_tiridates1",
@@ -444,8 +418,7 @@
         "Justin XLI-XLII"
       ],
       "notes": "Brother of Arsaces I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_mithridates1",
@@ -460,8 +433,7 @@
         "Justin XLI-XLII"
       ],
       "notes": "Conquered Media and Mesopotamia from the Seleucids.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_phraates2",
@@ -476,8 +448,7 @@
         "Justin XLI-XLII"
       ],
       "notes": "Defeated Antiochus VII Sidetes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_mithridates2",
@@ -492,8 +463,7 @@
         "Justin XLI-XLII"
       ],
       "notes": "Established the Silk Road embassy with Han China & allied with Sulla.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_orodes2",
@@ -508,8 +478,7 @@
         "Justin XLI-XLII"
       ],
       "notes": "Father of Pacorus I & Phraates IV.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_phraates4",
@@ -524,8 +493,7 @@
         "Justin XLI-XLII"
       ],
       "notes": "Made 20 BCE treaty with Emperor Augustus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_vologases1",
@@ -540,8 +508,7 @@
         "Justin XLI-XLII"
       ],
       "notes": "Preserved Zoroastrian Avestan texts and founded Vologesocerta.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "per4_artabanus4",
@@ -556,8 +523,7 @@
         "Justin XLI-XLII"
       ],
       "notes": "Fell in battle against Ardashir I, ending the 470-year Arsacid Empire.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "arm4_aramaneak",
@@ -572,8 +538,7 @@
         "Kartlis Tskhovreba"
       ],
       "notes": "Settled in Ayrarat plain.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "arm4_aramayis",
@@ -588,8 +553,7 @@
         "Kartlis Tskhovreba"
       ],
       "notes": "Built capital Armavir on the Araxes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "arm4_amasia",
@@ -604,8 +568,7 @@
         "Kartlis Tskhovreba"
       ],
       "notes": "Father of Gegham.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "arm4_gegham",
@@ -620,8 +583,7 @@
         "Kartlis Tskhovreba"
       ],
       "notes": "Father of Harma & Sisak (Syunik).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "arm4_harma",
@@ -636,8 +598,7 @@
         "Kartlis Tskhovreba"
       ],
       "notes": "Father of Aram.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "arm4_aram",
@@ -652,8 +613,7 @@
         "Kartlis Tskhovreba"
       ],
       "notes": "Extended borders into Cappadocia and Assyria; father of Ara.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "arm4_ara_beautiful",
@@ -668,8 +628,7 @@
         "Kartlis Tskhovreba"
       ],
       "notes": "Fell defending Armenia against Semiramis (Shammuramat).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_maadd",
@@ -684,8 +643,7 @@
         "Ibn Hisham"
       ],
       "notes": "Son of Adnan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_nizar",
@@ -700,8 +658,7 @@
         "Ibn Hisham"
       ],
       "notes": "Progenitor of the Nizarite Arab confederations.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_mudar",
@@ -716,8 +673,7 @@
         "Ibn Hisham"
       ],
       "notes": "Eponym of the Mudar tribes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_ilyas",
@@ -732,8 +688,7 @@
         "Ibn Hisham"
       ],
       "notes": "Married Khindif.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_mudrikah",
@@ -748,8 +703,7 @@
         "Ibn Hisham"
       ],
       "notes": "Son of Ilyas.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_khuzaymah",
@@ -764,8 +718,7 @@
         "Ibn Hisham"
       ],
       "notes": "Father of Kinanah & Asad.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_kinanah",
@@ -780,8 +733,7 @@
         "Ibn Hisham"
       ],
       "notes": "Ancestor of Quraysh and allied Hijazi clans.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_al_nadr",
@@ -796,8 +748,7 @@
         "Ibn Hisham"
       ],
       "notes": "Considered founder of Quraysh in some traditions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_malik",
@@ -812,8 +763,7 @@
         "Ibn Hisham"
       ],
       "notes": "Father of Fihr.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_fihr_quraysh",
@@ -828,8 +778,7 @@
         "Ibn Hisham"
       ],
       "notes": "United the Hijazi clans around Mecca as Quraysh.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ar4_ghalib",
@@ -844,8 +793,7 @@
         "Ibn Hisham"
       ],
       "notes": "Son of Fihr.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_luayy",
@@ -860,8 +808,7 @@
         "Ibn Hisham"
       ],
       "notes": "Father of Ka'b.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_kab",
@@ -876,8 +823,7 @@
         "Ibn Hisham"
       ],
       "notes": "Preached at Mecca; father of Murrah & Adi (Umar's line).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_murrah",
@@ -892,8 +838,7 @@
         "Ibn Hisham"
       ],
       "notes": "Father of Kilab & Taym (Abu Bakr's clan).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_kilab",
@@ -908,8 +853,7 @@
         "Ibn Hisham"
       ],
       "notes": "Married Fatimah bint Sa'd; father of Qusayy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_qusayy",
@@ -924,8 +868,7 @@
         "Ibn Hisham"
       ],
       "notes": "Reclaimed custody of the Ka'bah and established Dar al-Nadwah in Mecca.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ar4_abd_manaf",
@@ -940,8 +883,7 @@
         "Ibn Hisham"
       ],
       "notes": "Fathered twin lines: Hashim (Prophet, Alids, Abbasids) and 'Abd Shams (Umayyads).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_hashim",
@@ -956,8 +898,7 @@
         "Hashemite Royal Registers"
       ],
       "notes": "Led the winter & summer trade caravans of Quraysh; married Salma bint 'Amr of Medina.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_abd_al_muttalib",
@@ -972,8 +913,7 @@
         "Hashemite Royal Registers"
       ],
       "notes": "Custodian of Mecca during the Year of the Elephant (570 CE); father of 'Abdallah, Abu Talib, Hamza & al-'Abbas.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ar4_abdallah",
@@ -988,8 +928,7 @@
         "Hashemite Royal Registers"
       ],
       "notes": "Wed Aminah bint Wahb and passed away before Muhammad's birth.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_prophet_muhammad",
@@ -1004,8 +943,7 @@
         "Hashemite Royal Registers"
       ],
       "notes": "Son of 'Abdallah & Aminah bint Wahb; married Khadijah bint Khuwaylid; father of Fatimah al-Zahra.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ar4_fatimah",
@@ -1020,8 +958,7 @@
         "Hashemite Royal Registers"
       ],
       "notes": "Married cousin Ali ibn Abi Talib; mother of Imams Hasan and Husayn.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ar4_imam_hasan",
@@ -1036,8 +973,7 @@
         "Hashemite Royal Registers"
       ],
       "notes": "Father of Hasan al-Muthanna -> living Hashemites of Jordan & Alaouites of Morocco.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ar4_aminah_bint_wahb",
@@ -1051,8 +987,7 @@
         "Al-Tabari Vol. 6"
       ],
       "notes": "Noblewoman of Banu Zuhrah (descended from Kilab ibn Murrah); mother of Prophet Muhammad.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_khadijah",
@@ -1066,8 +1001,7 @@
         "Al-Tabari Vol. 6"
       ],
       "notes": "Merchant of Quraysh (descended from Qusayy's brother 'Abd al-'Uzza); bore Fatimah al-Zahra.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_abu_talib",
@@ -1081,8 +1015,7 @@
         "Al-Tabari Vol. 6"
       ],
       "notes": "Father of Ja'far al-Tayyar and Caliph Ali ibn Abi Talib.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_imam_husayn",
@@ -1096,8 +1029,7 @@
         "Al-Tabari Vol. 19"
       ],
       "notes": "Son of Ali & Fatimah; ancestor of Husaynid Sayyids and Nizari Ismaili Imams.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ar4_ali_zayn_abidin",
@@ -1112,8 +1044,7 @@
         "Nizari Archives"
       ],
       "notes": "Survived Karbala; father of Muhammad al-Baqir.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_muhammad_baqir",
@@ -1127,8 +1058,7 @@
         "Al-Tabari"
       ],
       "notes": "Father of Ja'far al-Sadiq.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_jafar_sadiq",
@@ -1143,8 +1073,7 @@
         "Nizari Archives"
       ],
       "notes": "Teacher of Sunni & Shia jurists; father of Isma'il -> Fatimids -> Aga Khan V.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ar4_al_abbas",
@@ -1158,8 +1087,7 @@
         "Al-Tabari"
       ],
       "notes": "Father of scholar 'Abdallah ibn al-'Abbas.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_abdallah_ibn_abbas",
@@ -1173,8 +1101,7 @@
         "Al-Tabari"
       ],
       "notes": "Grandfather of Abbasid caliphs al-Saffah and al-Mansur via Ali ibn 'Abdallah -> Muhammad.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_al_saffah",
@@ -1188,8 +1115,7 @@
         "Al-Tabari Vol. 27"
       ],
       "notes": "Brother of Caliph al-Mansur.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_al_mahdi",
@@ -1203,8 +1129,7 @@
         "Al-Tabari Vol. 29"
       ],
       "notes": "Father of Caliphs al-Hadi and Harun al-Rashid.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_abd_shams",
@@ -1219,8 +1144,7 @@
         "Lane-Poole"
       ],
       "notes": "Father of Umayyah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_umayyah",
@@ -1235,8 +1159,7 @@
         "Lane-Poole"
       ],
       "notes": "Father of Harb (Sufyanids) and Abu al-'As (Caliph Uthman & Marwanids).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_harb",
@@ -1251,8 +1174,7 @@
         "Lane-Poole"
       ],
       "notes": "Father of Abu Sufyan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_abu_sufyan",
@@ -1267,8 +1189,7 @@
         "Lane-Poole"
       ],
       "notes": "Father of Caliph Mu'awiya I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_yazid1",
@@ -1283,8 +1204,7 @@
         "Lane-Poole"
       ],
       "notes": "Son of Mu'awiya I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_abu_al_as",
@@ -1298,8 +1218,7 @@
         "Al-Tabari"
       ],
       "notes": "Brother of Harb; ancestor of Caliph Uthman and the Marwanid Umayyad Caliphs of Damascus and Cordoba.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_affan",
@@ -1313,8 +1232,7 @@
         "Al-Tabari"
       ],
       "notes": "Father of 3rd Rashidun Caliph Uthman ibn 'Affan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_al_hakam",
@@ -1328,8 +1246,7 @@
         "Al-Tabari"
       ],
       "notes": "Uncle of Caliph Uthman.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_marwan1",
@@ -1343,8 +1260,7 @@
         "Al-Tabari Vol. 20"
       ],
       "notes": "Father of Caliph 'Abd al-Malik.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_al_walid1",
@@ -1358,8 +1274,7 @@
         "Al-Tabari Vol. 23"
       ],
       "notes": "Eldest son of 'Abd al-Malik; under his reign Muslim armies reached Iberia & the Indus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_hisham",
@@ -1373,8 +1288,7 @@
         "Al-Tabari Vol. 25"
       ],
       "notes": "Son of 'Abd al-Malik; grandfather of Emir 'Abd al-Rahman I of Cordoba via Mu'awiya ibn Hisham.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_yarub",
@@ -1390,8 +1304,7 @@
         "Caussin de Perceval"
       ],
       "notes": "Ancestor of Yemeni & South Arabian Arabized tribes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_yashjub",
@@ -1407,8 +1320,7 @@
         "Caussin de Perceval"
       ],
       "notes": "Son of Ya'rub.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_saba",
@@ -1424,8 +1336,7 @@
         "Caussin de Perceval"
       ],
       "notes": "Fathered twin branches Himyar (Tubba kings) and Kahlan (Lakhmids, Ghassanids & Azd).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_himyar",
@@ -1441,8 +1352,7 @@
         "Caussin de Perceval"
       ],
       "notes": "Eponym of the Himyarite Tubba monarchs.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_tubba_abu_karib",
@@ -1458,8 +1368,7 @@
         "Caussin de Perceval"
       ],
       "notes": "Adopted Judaism in Yathrib and clothed the Ka'bah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_dhu_nuwas",
@@ -1475,8 +1384,7 @@
         "Caussin de Perceval"
       ],
       "notes": "Defeated at the Red Sea by Aksumite King Kaleb (Elesbaan) in 525 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_sayf_ibn_dhi_yazan",
@@ -1492,8 +1400,7 @@
         "Caussin de Perceval"
       ],
       "notes": "Reclaimed Yemen from Aksumite rule.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_kahlan",
@@ -1508,8 +1415,7 @@
         "Caussin de Perceval"
       ],
       "notes": "Son of Saba; ancestral trunk of the Lakhmid kings of Al-Hirah and Ghassanid kings of Syria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_jafnah_ghassan",
@@ -1524,8 +1430,7 @@
         "Caussin de Perceval"
       ],
       "notes": "Founded the Arab Christian Jafnid/Ghassanid kingdom allied with Rome/Byzantium.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_al_harith_ghassan",
@@ -1540,8 +1445,7 @@
         "Al-Biruni"
       ],
       "notes": "Elevated by Byzantine Emperor Justinian I to king over Syria's Arab foederati.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_imru_al_qays_lakhmid",
@@ -1556,8 +1460,7 @@
         "Tabari Vol. 5"
       ],
       "notes": "Attested in the 328 CE Namara inscription — oldest dated classical Arabic royal epitaph.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_al_mundhir3",
@@ -1572,8 +1475,7 @@
         "Procopius"
       ],
       "notes": "Fought Roman-allied Ghassanid King al-Harith V across Syria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar4_al_numan3",
@@ -1587,8 +1489,7 @@
         "Al-Tabari Vol. 5"
       ],
       "notes": "Patron of Pre-Islamic Arabic poets; executed by Khosrow II Parviz, sparking the Battle of Dhu Qar.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pal4_odenathus",
@@ -1603,8 +1504,7 @@
         "Historia Augusta"
       ],
       "notes": "Defeated Shapur I of Persia after Valerian's capture; husband of Zenobia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pal4_zenobia",
@@ -1619,8 +1519,7 @@
         "Zosimus Book I"
       ],
       "notes": "Ruled Syria, Egypt, and Anatolia; claimed descent from Cleopatra VII of Egypt and Dido of Carthage.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pal4_vaballathus",
@@ -1635,8 +1534,7 @@
         "Zosimus"
       ],
       "notes": "Bore titles of Augustus until defeated by Roman Emperor Aurelian in 272 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ber4_berr",
@@ -1650,8 +1548,7 @@
         "Ibn Khaldun Histoire des Berberes"
       ],
       "notes": "Ancestor of Bernes (Branes) and Madghis al-Abtar (Botr).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ber4_bernes",
@@ -1665,8 +1562,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Father of the great sedentary Amazigh confederations.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ber4_sanhaja",
@@ -1680,8 +1576,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Forebear of the Sahara and Maghreb Sanhaja confederations.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ber4_masmuda",
@@ -1695,8 +1590,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Forebear of the High Atlas Masmuda tribes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ber4_kutama",
@@ -1710,8 +1604,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Kabyle confederation key to North African state formation.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ber4_madghis",
@@ -1725,8 +1618,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Progenitor of the Zenata nomadic confederations.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ber4_zenata",
@@ -1740,8 +1632,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Progenitor of Queen al-Kahina's Jerawa Zenata tribe.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ber4_koceila",
@@ -1755,8 +1646,7 @@
         "Ibn Khaldun"
       ],
       "notes": "United Amazigh and Byzantine forces in Numidia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ber4_kahina",
@@ -1770,8 +1660,7 @@
         "Ibn Khaldun"
       ],
       "notes": "Jerawa Zenata queen who led Amazigh resistance in the Aures Mountains.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     }
   ],
   "edges": [

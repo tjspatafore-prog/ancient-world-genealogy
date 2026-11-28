@@ -18,8 +18,7 @@
         "Popol Vuh (K'iche' Maya)"
       ],
       "notes": "Creator assembly in Popol Vuh shaping earth, animals, wooden men destroyed by a great flood of resin, and finally humanity from white and yellow maize.",
-      "major": false,
-      "biblicalConnected": false
+      "major": false
     },
     {
       "id": "amp_maya_twins",
@@ -37,8 +36,7 @@
         "Popol Vuh Parts II-III"
       ],
       "notes": "First diviners Xpiyacoc & Xmucane father Hun Hunahpu, whose Hero Twins Hunahpu and Xbalanque descend to Xibalba and rise as Sun and Moon.",
-      "major": false,
-      "biblicalConnected": false
+      "major": false
     },
     {
       "id": "amp_maya_four_men",
@@ -55,8 +53,7 @@
         "Popol Vuh Part IV"
       ],
       "notes": "The four first humans fashioned from yellow and white corn alongside their four wives (Cahá-Paluma, Chomihá, Tzununihá, Caquixahá), progenitors of the K'iche' & Maya lineages.",
-      "major": true,
-      "biblicalConnected": false
+      "major": true
     },
     {
       "id": "amp_aztec_ometeotl",
@@ -76,8 +73,7 @@
         "Florentine Codex"
       ],
       "notes": "Ometeotl (Ometecuhtli & Omecihuatl) births the four cosmic directions: Quetzalcoatl (Feathered Serpent), Tezcatlipoca, Xipe Totec, and Huitzilopochtli.",
-      "major": false,
-      "biblicalConnected": false
+      "major": false
     },
     {
       "id": "amp_aztec_flood",
@@ -94,8 +90,7 @@
         "Codex Chimalpopoca (Leyenda de los Soles)"
       ],
       "notes": "In the Fourth Sun (Chalchiuhtlicue), Tata and Nene are warned to hollow out a giant ahuehuete cypress trunk to survive the Deluge; Quetzalcoatl later descends to Mictlan for sacred bones.",
-      "major": false,
-      "biblicalConnected": false
+      "major": false
     },
     {
       "id": "amp_aztec_tenochtitlan",
@@ -115,8 +110,7 @@
         "Modern Universal History Vol. 14"
       ],
       "notes": "Seven tribes emerge from Chicomoztoc ('Seven Caves'); Mexica settle Lake Texcoco (Tenochtitlan) under Huitzilopochtli's eagle sign, elevating Acamapichtli as 1st Tlatoani.",
-      "major": true,
-      "biblicalConnected": false
+      "major": true
     },
     {
       "id": "amp_inca_viracocha",
@@ -134,8 +128,7 @@
         "Sarmiento de Gamboa"
       ],
       "notes": "Viracocha wipes away the first giants with Uno Pachacuti (Great Flood) before carving nations out of stone at Tiwanaku and birthing Inti and Mama Quilla.",
-      "major": false,
-      "biblicalConnected": false
+      "major": false
     },
     {
       "id": "amp_inca_manco",
@@ -154,8 +147,7 @@
         "Cieza de León"
       ],
       "notes": "Sibling-spouses sent from Lake Titicaca with a golden rod to sink into fertile Cusco earth, establishing the Hanan and Hurin Inca dynasty.",
-      "major": true,
-      "biblicalConnected": false
+      "major": true
     },
     {
       "id": "amp_inca_pachacuti",
@@ -173,8 +165,7 @@
         "Modern Universal History Vol. 14"
       ],
       "notes": "From Sinchi Roca through empire-builder Pachacuti, conqueror Tupac Inca Yupanqui, Huayna Capac, and civil-war brothers Huascar and Atahualpa.",
-      "major": false,
-      "biblicalConnected": false
+      "major": false
     },
     {
       "id": "amp_na_skywoman",
@@ -192,8 +183,7 @@
         "Great Law of Peace"
       ],
       "notes": "Sky Woman descends onto Turtle Island; grandsons Sapling (Tharonhiawakon) and Flint shape humanity, leading historically to Deganawida and Hiawatha uniting the Five Nations.",
-      "major": true,
-      "biblicalConnected": false
+      "major": true
     },
     {
       "id": "amp_na_dine_lakota",
@@ -211,8 +201,7 @@
         "Lakota Sacred Pipe Tradition"
       ],
       "notes": "Changing Woman (Asdzą́ą́ Nádleehé) creates the four original Diné clans; White Buffalo Calf Woman brings the Sacred Pipe (Chanunpa) to the Oceti Sakowin (Seven Council Fires).",
-      "major": false,
-      "biblicalConnected": false
+      "major": false
     },
     {
       "id": "amp_poly_rangi_papa",
@@ -229,8 +218,7 @@
         "Polynesian Oral Cosmology"
       ],
       "notes": "Locked in eternal embrace within Te Pō until their children separate Heaven and Earth so light (Te Ao Mārama) enters the world.",
-      "major": false,
-      "biblicalConnected": false
+      "major": false
     },
     {
       "id": "amp_poly_tane_tangaroa",
@@ -247,8 +235,7 @@
         "Māori Whakapapa Tradition"
       ],
       "notes": "Tāne separates Rangi & Papa and fashions Hine-ahu-one (the Earth-formed Maid) from red clay at Kurawaka, breathing mauri (life) into her nostrils to begin human whakapapa.",
-      "major": false,
-      "biblicalConnected": false
+      "major": false
     },
     {
       "id": "amp_poly_maui",
@@ -264,8 +251,7 @@
         "Māori, Hawaiian, Tahitian & Tongan Traditions"
       ],
       "notes": "Culture hero across Aotearoa, Hawai'i, Tonga & Samoa who slowed the Sun, stole fire from Mahuika, and hauled up Te Ika-a-Māui (North Island).",
-      "major": false,
-      "biblicalConnected": false
+      "major": false
     },
     {
       "id": "amp_poly_kumulipo",
@@ -284,8 +270,7 @@
         "Hawaiian Royal Moʻokūʻauhau"
       ],
       "notes": "Over 2,000 chant lines tracing Wākea (Sky) and Papa (Earth) to Hāloa (taro ancestor and first Hawaiian chief) down to unifier King Kamehameha I.",
-      "major": true,
-      "biblicalConnected": false
+      "major": true
     },
     {
       "id": "amp_poly_kupe_tonga",
@@ -305,8 +290,7 @@
         "Rapa Nui Ariki Genealogy"
       ],
       "notes": "Kupe navigates Matahourua to Aotearoa; ʻAhoʻeitu inaugurates the 39-king Tuʻi Tonga dynasty; Hotu Matuʻa settles Rapa Nui (Easter Island).",
-      "major": true,
-      "biblicalConnected": false
+      "major": true
     }
   ],
   "edges": [

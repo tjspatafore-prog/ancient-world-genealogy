@@ -18,8 +18,7 @@
         "George Smith The Assyrian Eponym Canon (1875) pp. 10-77"
       ],
       "notes": "British Museum Assyriologist George Smith edits the limmu eponym canon from Shalmaneser III through Sennacherib and Esarhaddon, locking Biblical reigns (Ahab, Jehu, Uzziah, Menahem, Pekah, Ahaz, Hezekiah & Tirhakah) to astronomical & eponym dates.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "asm_records_past_inscriptions",
@@ -39,8 +38,7 @@
         "Records of the Past Vol. 11 (Sayce, Budge)"
       ],
       "notes": "Primary translations of Adad-nirari I (son of Pudil, grandson of Bel-nirari, great-grandson of Assur-uballit I), Sargon's Khorsabad Annals, Sennacherib's Bavian & Nebbi Yunus inscriptions (46 cities of Hezekiah & Luli/Tubali of Sidon), Ashurbanipal's Cylinder B, and Sidon King Eshmunazar's sarcophagus.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eg_turin_royal_canon",
@@ -57,8 +55,7 @@
         "Kim Ryholt The Turin King-List (Papyrus Turin inv. 1874 verso)"
       ],
       "notes": "Ryholt analyzes the 19th-Dynasty Turin King-List structuring Egyptian kingship into three tiers: mythological gods (Cols. I-II, ending in Seth & Horus), spirit/demigod kings (Ax.w / Shemsu-Hor), and exact human pharaohs through the Second Intermediate Period.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "nwt_newton_chronology_1728",
@@ -76,8 +73,7 @@
         "Sir Isaac Newton The Chronology of Ancient Kingdoms Amended (1728) pp. 9-93"
       ],
       "notes": "Newton synchronizes Mediterranean antiquity to Scripture by identifying Egyptian conqueror Sesostris with Biblical Shishak (1 Kings 14), tracing the Canaanite flight from Joshua into Egypt and Greece (Danaus), and anchoring Babylon & Assyria at Pul (747 BCE) and Nabonassar.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ush_ussher_annals_4004",
@@ -98,8 +94,7 @@
         "William Betham Genealogical Tables (1795)"
       ],
       "notes": "Ussher's Annals (with Blair's Tables, Guthrie & Gray's 13-volume Universal History, the Universal History of the Holy Bible & British Family Bible) align Creation (4004 BCE), the Flood, Abraham, Jacob, Sicyon/Argos (Aegialeus/Inachus), and Manetho's Hyksos Pharaohs into one continuous timeline.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jus_trogus_jews_moses",
@@ -117,8 +112,7 @@
         "Justin / Pompeius Trogus Book XXXVI (Watson 1853 p. 245)"
       ],
       "notes": "Trogus & Justin independently attest Hebrew patriarchs as historical kings/rulers in Syria ('Damascus -> Azelus -> Adores -> Abraham -> Israhel' with ten/twelve sons, Judas, Joseph in Egyptian dreamcraft & magic, and Moses leading the Exodus).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jus_parthians_scythians",
@@ -136,8 +130,7 @@
         "Justin / Pompeius Trogus Book XLI (Watson 1853 pp. 272-297)"
       ],
       "notes": "Justin Book XLI explains that the Parthians — rivals who divided the world with Rome — originated as 'Parthi' (exiles) from Scythia before rising under Arsaces I, Mithridates I, and Phraates.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom_suetonius_herodian_severans",
@@ -158,8 +151,7 @@
         "Basil Kennett Antiquities of Rome"
       ],
       "notes": "Combines Suetonius's biographies of the Twelve Caesars, Pliny's Panegyrick on Trajan, Kennett's Roman Antiquities, and Herodian's eyewitness narrative from Marcus Aurelius & Commodus through Pertinax, Septimius Severus (campaigns in Britain), Caracalla, Elagabalus, and Severus Alexander.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls_herodotus_polybius_bridge",
@@ -177,8 +169,7 @@
         "Polybius General History in Five Books"
       ],
       "notes": "Anchors Achaemenid, Saitic Egyptian, and Ionian/Athenian lineages (Herodotus Vols. 1-2) alongside Polybius's analytical account of the Punic Wars uniting Barcid Carthage, Numidia, Hellenistic Macedon/Seleucids, and Republican Rome.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nt_cradock_apostolic_missions",
@@ -195,8 +186,7 @@
         "Samuel Cradock The Apostolical History (1672) Preface"
       ],
       "notes": "Cradock maps all five missionary journeys of Apostle Paul (Syria, Cyprus, Galatia, Macedonia, Greece, Ephesus & Rome), alongside the churches founded by Peter, James, John, and the Twelve Apostles.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     }
   ],
   "edges": [

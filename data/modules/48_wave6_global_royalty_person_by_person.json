@@ -15,8 +15,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "First historically verified king of unified Sweden; father of Olof Skötkonung.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_olof_skotkonung",
@@ -31,8 +30,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Father of Ingegerd of Sweden (+ Yaroslav the Wise) and Anund Jacob.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_ingegerd_sweden",
@@ -47,8 +45,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Married Yaroslav the Wise (1019 CE), mothering Anne of Kiev, Anastasia of Hungary, Elizabeth of Norway & Vsevolod I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_birger_jarl",
@@ -62,8 +59,7 @@
         "Erikskrönikan"
       ],
       "notes": "Married Ingeborg of Sweden (descendant of Munsö kings); consolidated medieval Sweden.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_charles9_sweden",
@@ -77,8 +73,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Father of Gustavus Adolphus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_gustavus_adolphus",
@@ -92,8 +87,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Father of Queen Christina.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_queen_christina",
@@ -107,8 +101,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Daughter of Gustavus Adolphus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_charles12_sweden",
@@ -122,8 +115,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Great Northern War commander.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_carl16_gustaf",
@@ -137,8 +129,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Descendant of both Gustav Vasa and Queen Victoria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_crown_princess_victoria",
@@ -152,8 +143,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Eldest child of King Carl XVI Gustaf.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_gorm_old",
@@ -168,8 +158,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Father of Harald Bluetooth.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_harald_bluetooth",
@@ -184,8 +173,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Father of Sweyn Forkbeard.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_sweyn_forkbeard",
@@ -200,8 +188,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Fathered Cnut the Great.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_valdemar1",
@@ -216,8 +203,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Descendant of Estrid Svendsdatter & Yaroslav the Wise via Canute Lavard & Ingeborg of Kiev.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_queen_margaret1",
@@ -232,8 +218,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Founder of the Kalmar Union.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_christian4_denmark",
@@ -248,8 +233,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Uncle of King Charles I of England.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_king_frederik10",
@@ -264,8 +248,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Acceded in 2024.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_emma_normandy",
@@ -279,8 +262,7 @@
         "Anglo-Saxon Chronicle"
       ],
       "notes": "Bridged Norman Dukes with Anglo-Saxon and Danish crowns.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_mieszko1",
@@ -295,8 +277,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Father of Boleslaw I & Gunhild/Sigríðr.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_boleslaw1_brave",
@@ -311,8 +292,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Father of Mieszko II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_mieszko2",
@@ -327,8 +307,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Father of Casimir I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_casimir1_poland",
@@ -343,8 +322,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Married Yaroslav the Wise's sister Maria Dobroniega of Kiev.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_casimir3_great",
@@ -359,8 +337,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Great lawgiver; sister Elizabeth married Charles I of Hungary -> Louis the Great.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_gunhild_sigrid",
@@ -375,8 +352,7 @@
         "Sagas"
       ],
       "notes": "Daughter of Mieszko I who wed Eric the Victorious of Sweden and Sweyn Forkbeard of Denmark.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_maria_dobroniega",
@@ -390,8 +366,7 @@
         "Primary Chronicle"
       ],
       "notes": "Daughter of St. Vladimir the Great of Kiev; mother of Boleslaw II & Wladyslaw Herman.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_mindaugas",
@@ -406,8 +381,7 @@
         "Jan Dlugosz"
       ],
       "notes": "United Baltic Aukštaitija.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_gediminas",
@@ -422,8 +396,7 @@
         "Jan Dlugosz"
       ],
       "notes": "Father of Algirdas and Kęstutis.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_algirdas",
@@ -438,8 +411,7 @@
         "Jan Dlugosz"
       ],
       "notes": "Wed Rurikid Princess Uliana of Tver.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_wladyslaw2_jagiello",
@@ -454,8 +426,7 @@
         "Jan Dlugosz"
       ],
       "notes": "Wed Queen Jadwiga of Poland, uniting Poland and Lithuania.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_casimir4",
@@ -470,8 +441,7 @@
         "Jan Dlugosz"
       ],
       "notes": "Father of Kings of Poland, Bohemia & Hungary.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_sigismund1_old",
@@ -486,8 +456,7 @@
         "Jan Dlugosz"
       ],
       "notes": "Son of Casimir IV.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_john3_sobieski",
@@ -502,8 +471,7 @@
         "Jan Dlugosz"
       ],
       "notes": "Maternal lineage connected back to Rurikid & Polish nobility.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_vytautas_great",
@@ -517,8 +485,7 @@
         "Lithuanian Chronicles"
       ],
       "notes": "Daughter Sophia of Lithuania married Grand Prince Vasily I of Moscow.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_queen_jadwiga",
@@ -532,8 +499,7 @@
         "Jan Dlugosz"
       ],
       "notes": "Married Grand Duke Jagiello (Wladyslaw II), uniting Poland & Lithuania.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_almos",
@@ -548,8 +514,7 @@
         "Modern Universal History"
       ],
       "notes": "Led Magyars westward.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_arpad",
@@ -564,8 +529,7 @@
         "Modern Universal History"
       ],
       "notes": "Father of Zoltán.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_st_stephen1",
@@ -580,8 +544,7 @@
         "Modern Universal History"
       ],
       "notes": "Great-great-grandson of Árpád; wed Gisela of Bavaria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_andrew1_hungary",
@@ -596,8 +559,7 @@
         "Modern Universal History"
       ],
       "notes": "Married Anastasia Yaroslavna of Kiev.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_bela3",
@@ -612,8 +574,7 @@
         "Modern Universal History"
       ],
       "notes": "Father of Andrew II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_andrew2",
@@ -628,8 +589,7 @@
         "Modern Universal History"
       ],
       "notes": "Issued the Golden Bull of 1222.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_bela4",
@@ -644,8 +604,7 @@
         "Modern Universal History"
       ],
       "notes": "Grandfather of Charles I & Kunigunda of Bohemia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_louis1_great",
@@ -660,8 +619,7 @@
         "Modern Universal History"
       ],
       "notes": "Father of Queen Jadwiga of Poland and Queen Mary of Hungary.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_st_elizabeth_hungary",
@@ -675,8 +633,7 @@
         "Hungarian Chronicles"
       ],
       "notes": "Daughter of King Andrew II & Gertrude of Merania.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_john_hunyadi",
@@ -690,8 +647,7 @@
         "European Chronicles"
       ],
       "notes": "Father of King Matthias Corvinus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_matthias_corvinus",
@@ -705,8 +661,7 @@
         "European Chronicles"
       ],
       "notes": "Son of John Hunyadi; famed Renaissance patron.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_st_wenceslas1",
@@ -720,8 +675,7 @@
         "Cosmas of Prague"
       ],
       "notes": "Grandson of St. Ludmila & Bořivoj I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_ottokar2",
@@ -735,8 +689,7 @@
         "Cosmas of Prague"
       ],
       "notes": "Married Kunigunda (granddaughter of Béla IV & Rostislav of Kiev).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_emperor_charles4",
@@ -750,8 +703,7 @@
         "European Chronicles"
       ],
       "notes": "Son of Queen Elisabeth of Bohemia (Přemyslid); father of Sigismund & Anne of Bohemia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_anne_bohemia",
@@ -765,8 +717,7 @@
         "English Chronicles"
       ],
       "notes": "Daughter of Emperor Charles IV who wed King Richard II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_bonne_bohemia",
@@ -780,8 +731,7 @@
         "French Chronicles"
       ],
       "notes": "Mother of Charles V the Wise of France.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur6_emperor_sigismund",
@@ -795,8 +745,7 @@
         "European Chronicles"
       ],
       "notes": "Daughter Elizabeth of Luxembourg wed Habsburg Albert II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_eleanor_aquitaine",
@@ -810,8 +759,7 @@
         "Chronicles of England & France"
       ],
       "notes": "Mother of Europe's greatest medieval royal network.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_blanche_castile",
@@ -825,8 +773,7 @@
         "French Royal Chronicles"
       ],
       "notes": "Daughter of Alfonso VIII & Eleanor of England; mother of St. Louis IX.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_juana_mad",
@@ -840,8 +787,7 @@
         "Mariana Spain"
       ],
       "notes": "Married Philip the Handsome; mother of Emperor Charles V & Ferdinand I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_philip_handsome",
@@ -855,8 +801,7 @@
         "Betham Tables"
       ],
       "notes": "Son of Maximilian I & Mary of Burgundy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_catherine_aragon",
@@ -870,8 +815,7 @@
         "English Chronicles"
       ],
       "notes": "Mother of Queen Mary I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_ferdinand1_hre",
@@ -885,8 +829,7 @@
         "Betham Tables"
       ],
       "notes": "Brother of Charles V.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_joseph2_hre",
@@ -900,8 +843,7 @@
         "Betham Tables"
       ],
       "notes": "Eldest son of Empress Maria Theresa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_leopold2_hre",
@@ -915,8 +857,7 @@
         "Betham Tables"
       ],
       "notes": "Grandfather of Habsburg Emperor Franz Joseph.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_marie_antoinette",
@@ -930,8 +871,7 @@
         "French Chronicles"
       ],
       "notes": "Daughter of Empress Maria Theresa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_napoleon2",
@@ -945,8 +885,7 @@
         "Modern European History"
       ],
       "notes": "United Bonaparte and Habsburg bloodlines.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_cosimo_medici",
@@ -960,8 +899,7 @@
         "Florentine Chronicles"
       ],
       "notes": "Patron of Renaissance humanism.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_lorenzo_magnificent",
@@ -975,8 +913,7 @@
         "Vasari Lives"
       ],
       "notes": "Great Renaissance statesman.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_catherine_medici",
@@ -990,8 +927,7 @@
         "French Chronicles"
       ],
       "notes": "Dominant Renaissance queen mother of Valois France.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_marie_medici",
@@ -1005,8 +941,7 @@
         "French Chronicles"
       ],
       "notes": "Mother of Louis XIII and grandmother of Charles II & James II of England.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_kaiser_wilhelm1",
@@ -1020,8 +955,7 @@
         "German Imperial Registers"
       ],
       "notes": "Descendant of Frederick William & Hohenzollern electors.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_princess_victoria_royal",
@@ -1035,8 +969,7 @@
         "Burke's Royal Genealogies"
       ],
       "notes": "Married Frederick III of Prussia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_frederick3_prussia",
@@ -1050,8 +983,7 @@
         "Burke's Royal Genealogies"
       ],
       "notes": "Father of Kaiser Wilhelm II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_kaiser_wilhelm2",
@@ -1065,8 +997,7 @@
         "Burke's Royal Genealogies"
       ],
       "notes": "First cousin of King George V and Tsaritsa Alexandra.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_electress_sophia",
@@ -1081,8 +1012,7 @@
         "Howell (1685)"
       ],
       "notes": "Daughter of Elizabeth Stuart & Frederick V; mother of King George I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_edward7",
@@ -1097,8 +1027,7 @@
         "Howell (1685)"
       ],
       "notes": "Married Alexandra of Denmark.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_george5",
@@ -1113,8 +1042,7 @@
         "Howell (1685)"
       ],
       "notes": "Father of Edward VIII & George VI.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_george6",
@@ -1129,8 +1057,7 @@
         "Howell (1685)"
       ],
       "notes": "Father of Queen Elizabeth II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_elizabeth2",
@@ -1145,8 +1072,7 @@
         "Howell (1685)"
       ],
       "notes": "Daughter of George VI; wed Prince Philip of Greece & Denmark.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "roy6_king_charles3",
@@ -1161,8 +1087,7 @@
         "Howell (1685)"
       ],
       "notes": "Eldest son of Queen Elizabeth II & Prince Philip.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "roy6_prince_william",
@@ -1177,8 +1102,7 @@
         "Howell (1685)"
       ],
       "notes": "Father of Prince George, Princess Charlotte & Prince Louis.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_prince_george",
@@ -1193,8 +1117,7 @@
         "Howell (1685)"
       ],
       "notes": "2nd in line to the British throne.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_prince_albert",
@@ -1208,8 +1131,7 @@
         "Burke's Royal Genealogies"
       ],
       "notes": "First cousin and husband of Queen Victoria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_tsar_paul1",
@@ -1224,8 +1146,7 @@
         "Burke's Royal Genealogies"
       ],
       "notes": "Father of Emperors Alexander I & Nicholas I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_tsar_alexander1",
@@ -1240,8 +1161,7 @@
         "Burke's Royal Genealogies"
       ],
       "notes": "Eldest son of Paul I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_tsar_alexander2",
@@ -1256,8 +1176,7 @@
         "Burke's Royal Genealogies"
       ],
       "notes": "Father of Alexander III; grandfather of Nicholas II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_tsar_nicholas2",
@@ -1272,8 +1191,7 @@
         "Burke's Royal Genealogies"
       ],
       "notes": "Married Alix of Hesse (Empress Alexandra, granddaughter of Queen Victoria).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_anastasia_romanov",
@@ -1288,8 +1206,7 @@
         "Burke's Royal Genealogies"
       ],
       "notes": "Great-granddaughter of Queen Victoria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_empress_alexandra",
@@ -1303,8 +1220,7 @@
         "Burke's Royal Genealogies"
       ],
       "notes": "Daughter of Princess Alice (daughter of Queen Victoria).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_anna_komnene",
@@ -1318,8 +1234,7 @@
         "Anna Komnene Alexiad"
       ],
       "notes": "Renowned medieval historian of the Komnenian Byzantine court.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "roy6_sophia_palaiologina",
@@ -1333,8 +1248,7 @@
         "Russian Chronicles"
       ],
       "notes": "Grandmother of Tsar Ivan IV the Terrible.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_gambara",
@@ -1348,8 +1262,7 @@
         "Paul the Deacon Historia Langobardorum"
       ],
       "notes": "Counselor mother of Ibor and Aio.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_ibor_aio",
@@ -1363,8 +1276,7 @@
         "Paul the Deacon Historia Langobardorum"
       ],
       "notes": "Led the Lombards out of Scandinavia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_agelmund",
@@ -1378,8 +1290,7 @@
         "Paul the Deacon Historia Langobardorum"
       ],
       "notes": "First crowned king in Historia Langobardorum.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_alboin",
@@ -1393,8 +1304,7 @@
         "Paul the Deacon Historia Langobardorum"
       ],
       "notes": "Conquered northern Italy (Lombardy).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_authari",
@@ -1408,8 +1318,7 @@
         "Paul the Deacon Historia Langobardorum"
       ],
       "notes": "Married Bavarian princess Theodelinda.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_rothari",
@@ -1423,8 +1332,7 @@
         "Paul the Deacon Historia Langobardorum"
       ],
       "notes": "Codified Lombard customary law.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_liutprand",
@@ -1438,8 +1346,7 @@
         "Paul the Deacon Historia Langobardorum"
       ],
       "notes": "Height of Lombard Italy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_desiderius",
@@ -1453,8 +1360,7 @@
         "Paul the Deacon Historia Langobardorum"
       ],
       "notes": "Daughter Desiderata wed Charlemagne.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_theodelinda",
@@ -1468,8 +1374,7 @@
         "Paul the Deacon Book III-IV"
       ],
       "notes": "Bridged Lombard royalty with Catholic Europe.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_ingolfur_arnarson",
@@ -1483,8 +1388,7 @@
         "Landnámabók"
       ],
       "notes": "First Norse landnámsmaðr of Iceland.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_ketil_flatnose",
@@ -1498,8 +1402,7 @@
         "Landnámabók"
       ],
       "notes": "Father of Aud the Deep-Minded.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_aud_deepminded",
@@ -1513,8 +1416,7 @@
         "Landnámabók"
       ],
       "notes": "Widow of Olaf the White of Dublin who settled Breiðafjörður.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_erik_the_red",
@@ -1529,8 +1431,7 @@
         "Eirik's Saga"
       ],
       "notes": "Father of Leif Erikson.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_leif_erikson",
@@ -1544,8 +1445,7 @@
         "Saga of the Greenlanders"
       ],
       "notes": "Son of Erik the Red who explored Helluland, Markland & Vinland (Newfoundland).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "chr6_gudrid_vinland",
@@ -1559,8 +1459,7 @@
         "Saga of the Greenlanders"
       ],
       "notes": "Married Thorstein (son of Erik the Red) & Thorfinn Karlsefni.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_cunedda",
@@ -1575,8 +1474,7 @@
         "Welsh Royal Genealogies"
       ],
       "notes": "Migrated from Manaw Gododdin to North Wales.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_maelgwn_gwynedd",
@@ -1591,8 +1489,7 @@
         "Welsh Royal Genealogies"
       ],
       "notes": "Contemporary of Gildas.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_cadwaladr",
@@ -1607,8 +1504,7 @@
         "Welsh Royal Genealogies"
       ],
       "notes": "Forebear of the Welsh Red Dragon banner.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_rhodri_mawr",
@@ -1623,8 +1519,7 @@
         "Welsh Royal Genealogies"
       ],
       "notes": "Ancestor of medieval Welsh royal lines.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_hywel_dda",
@@ -1639,8 +1534,7 @@
         "Welsh Royal Genealogies"
       ],
       "notes": "United nearly all Wales.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_gruffydd_llywelyn",
@@ -1655,8 +1549,7 @@
         "Welsh Royal Genealogies"
       ],
       "notes": "Contemporary of Edward the Confessor & Harold II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_owain_gwynedd",
@@ -1671,8 +1564,7 @@
         "Welsh Royal Genealogies"
       ],
       "notes": "Defeated Henry II's campaigns in Gwynedd.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_llywelyn_great",
@@ -1687,8 +1579,7 @@
         "Welsh Royal Genealogies"
       ],
       "notes": "Married Princess Joan (daughter of King John of England).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_llywelyn_last",
@@ -1703,8 +1594,7 @@
         "Welsh Royal Genealogies"
       ],
       "notes": "Fell in 1282 against Edward I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_owen_tudor",
@@ -1719,8 +1609,7 @@
         "Welsh Royal Genealogies"
       ],
       "notes": "United Welsh Gwynedd royal line with French Valois & English Crown.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_bappa_rawal",
@@ -1734,8 +1623,7 @@
         "James Tod Annals of Rajasthan Vols. 1-2"
       ],
       "notes": "Tradition traces from Lava -> Guhaditya -> Bappa Rawal.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_rana_kumbha",
@@ -1749,8 +1637,7 @@
         "James Tod Annals of Rajasthan Vols. 1-2"
       ],
       "notes": "Repelled Malwa and Gujarat sultanates.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_rana_sanga",
@@ -1764,8 +1651,7 @@
         "James Tod Annals of Rajasthan Vols. 1-2"
       ],
       "notes": "Grandfather of Maharana Pratap.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_maharana_pratap",
@@ -1779,8 +1665,7 @@
         "James Tod Annals of Rajasthan Vols. 1-2"
       ],
       "notes": "Grandson of Rana Sanga; resisted Mughal Akbar from Kumbhalgarh & Chavand.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "chr6_rao_jodha",
@@ -1794,8 +1679,7 @@
         "Tod Rajasthan Vol. 2"
       ],
       "notes": "Solar Rathore founder of Jodhpur.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_sawai_jai_singh2",
@@ -1809,8 +1693,7 @@
         "Tod Rajasthan Vol. 2"
       ],
       "notes": "Kachwaha Suryavamshi king descended from Kusha.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_prithviraj_chauhan",
@@ -1825,8 +1708,7 @@
         "Tod Vol. 1"
       ],
       "notes": "Celebrated in North Indian epic history.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_rawal_jaisal",
@@ -1840,8 +1722,7 @@
         "Tod Vol. 2"
       ],
       "notes": "Bhati Rajput tracing lineage from Krishna's Yadavas.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_lhachen_palgyigon",
@@ -1855,8 +1736,7 @@
         "A.H. Francke Chronicles of Ladakh"
       ],
       "notes": "Established the Yarlung Tibetan dynasty of Ladakh.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_king_bhagan",
@@ -1870,8 +1750,7 @@
         "Francke Chronicles of Ladakh"
       ],
       "notes": "Inaugurated the Namgyal line.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_sengge_namgyal",
@@ -1885,8 +1764,7 @@
         "Francke Chronicles of Ladakh"
       ],
       "notes": "Built nine-story Leh Palace & Hemis Monastery.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_tughlugh_timur",
@@ -1900,8 +1778,7 @@
         "Tarikh-i-Rashidi"
       ],
       "notes": "Chagatayid khan of Kashgaria & Semirechye.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_yunus_khan",
@@ -1916,8 +1793,7 @@
         "Baburnama"
       ],
       "notes": "Grandfather of Emperor Babur via daughter Qutlugh Nigar Khanum.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_sultan_said_khan",
@@ -1931,8 +1807,7 @@
         "Tarikh-i-Rashidi"
       ],
       "notes": "Led expeditions across the Pamirs & Ladakh.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_mirza_haidar_dughlat",
@@ -1946,8 +1821,7 @@
         "Tarikh-i-Rashidi"
       ],
       "notes": "First cousin of Emperor Babur; conquered Kashmir (1540–1551).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_guru_nanak",
@@ -1962,8 +1836,7 @@
         "Bachittar Natak"
       ],
       "notes": "Founder of Sikhism.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_guru_gobind_singh",
@@ -1977,8 +1850,7 @@
         "Bachittar Natak"
       ],
       "notes": "Founded the Khalsa (1699) and composed Bachittar Natak linking Sodhi/Bedi houses to Kusha/Lava.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_sultan_mansur_shah",
@@ -1992,8 +1864,7 @@
         "Sejarah Melayu Ch. 14–19"
       ],
       "notes": "Expanded Malacca across the Malay Peninsula & Sumatra.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_sultan_mahmud_shah",
@@ -2007,8 +1878,7 @@
         "Sejarah Melayu Ch. 25–34"
       ],
       "notes": "Reigned during 1511; sons founded Perak and Johor sultanates.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_queen_amina_zazzau",
@@ -2023,8 +1893,7 @@
         "Sultan Bello"
       ],
       "notes": "Expanded Zazzau's walled trade cities across northern Nigeria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_empress_eleni",
@@ -2038,8 +1907,7 @@
         "Ethiopian Royal Chronicles"
       ],
       "notes": "Reigned across Ba'eda Maryam, Eskender, Na'od & young Lebna Dengel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_empress_mentewab",
@@ -2054,8 +1922,7 @@
         "James Bruce"
       ],
       "notes": "Dominant Solomonic empress regent of 18th-century Gondar.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_empress_taytu_betul",
@@ -2069,8 +1936,7 @@
         "Ethiopian Imperial Chronicles"
       ],
       "notes": "Co-architect of the Victory of Adwa (1896).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_empress_dowager_cixi",
@@ -2084,8 +1950,7 @@
         "Draft History of Qing"
       ],
       "notes": "Consort of Xianfeng; dominant regent from 1861–1908.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_emperor_puyi",
@@ -2099,8 +1964,7 @@
         "Draft History of Qing"
       ],
       "notes": "Abdicated in 1912 as 12th and final Aisin Gioro emperor.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_fujiwara_kamatari",
@@ -2114,8 +1978,7 @@
         "Nihongi"
       ],
       "notes": "Descendant of Nakatomi/Ame-no-Koyane.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr6_murasaki_shikibu",
@@ -2129,8 +1992,7 @@
         "Heian Literary Annals"
       ],
       "notes": "Descendant of Fujiwara no Yoshifusa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_maimonides",
@@ -2144,8 +2006,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Rabbi Moses ben Maimon / Maimonides / Rambam (1138–1204; Mishneh Torah).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_abraham_ben_maimon",
@@ -2159,8 +2020,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Rabbi Abraham ben Maimon (1186–1237; Son & Nagid Successor of Rambam).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_ibn_sina",
@@ -2174,8 +2034,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Ibn Sina / Avicenna (980–1037 CE; Author of Canon of Medicine).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_ibn_rushd",
@@ -2189,8 +2048,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Ibn Rushd / Averroes (1126–1198 CE; Cordoba Philosopher & Jurist).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_omar_khayyam",
@@ -2204,8 +2062,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Omar Khayyam (1048–1131 CE; Nishapur Astronomer, Mathematician & Poet).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_rumi",
@@ -2219,8 +2076,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Mevlana Jalal al-Din Rumi (1207–1273 CE; Mystical Poet of Balkh & Konya).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_sultan_walad",
@@ -2234,8 +2090,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Sultan Walad (1226–1312 CE; Son of Rumi & Organizer of Mevlevi Order).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_marco_polo",
@@ -2249,8 +2104,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Marco Polo (1254–1324 CE; Venetian Traveler at Kublai Khan's Court).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_vasco_da_gama",
@@ -2264,8 +2118,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Vasco da Gama (c. 1460–1524 CE; Navigator to India Under Manuel I).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_christopher_columbus",
@@ -2279,8 +2132,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Christopher Columbus (1451–1506 CE; Admiral of the Ocean Sea).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_diego_columbus",
@@ -2294,8 +2146,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Diego Columbus (1479–1526 CE; Son of Columbus; + Maria de Toledo -> Dukes of Veragua).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_leonardo_da_vinci",
@@ -2309,8 +2160,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Leonardo da Vinci (1452–1519 CE; Painter, Engineer & Polymath of Florence).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "fam6_michelangelo",
@@ -2324,8 +2174,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Michelangelo Buonarroti (1475–1564 CE; Sculptor, Painter & Architect).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_galileo_galilei",
@@ -2339,8 +2188,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Galileo Galilei (1564–1642 CE; Astronomer & Physicist of Pisa/Florence).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_isaac_newton",
@@ -2354,8 +2202,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Sir Isaac Newton (1642–1727 CE; Principia & Author of Chronology of Ancient Kingdoms Amended 1728!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "fam6_william_shakespeare",
@@ -2369,8 +2216,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "William Shakespeare (1564–1616 CE; Playwright Under Elizabeth I & James I).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_susanna_hall",
@@ -2384,8 +2230,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Susanna Shakespeare Hall (1583–1649 CE; Eldest Daughter & Heir of William Shakespeare).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_george_washington",
@@ -2399,8 +2244,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "President George Washington (1732–1799 CE; 1st U.S. President; Gateway Descent from King Edward III).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "fam6_thomas_jefferson",
@@ -2414,8 +2258,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "President Thomas Jefferson (1743–1826 CE; 3rd U.S. President; Gateway Descent via King David I & Edward III).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_winston_churchill",
@@ -2429,8 +2272,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Sir Winston Churchill (1874–1965 CE; Spencer-Churchill Descendant of Duke of Marlborough & Edward I).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_abraham_lincoln",
@@ -2444,8 +2286,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "President Abraham Lincoln (1809–1865 CE; 16th U.S. President).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_robert_todd_lincoln",
@@ -2459,8 +2300,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Robert Todd Lincoln (1843–1926 CE; Son of Abraham Lincoln & U.S. Secretary of War).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_laozi",
@@ -2474,8 +2314,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Laozi / Lao Tzu (Author of Dao De Jing; Ancestral Claim of Tang Dynasty Li Clan).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_sun_tzu",
@@ -2489,8 +2328,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Sun Tzu / Sun Wu (c. 544–496 BCE; Military Strategist & Author of Art of War).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_mencius",
@@ -2504,8 +2342,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Mencius / Meng Ke (c. 372–289 BCE; Confucian Sage Descended from Duke of Lu / Zhou).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_sima_qian",
@@ -2519,8 +2356,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Sima Qian (c. 145–86 BCE; Grand Historian & Author of Shiji Under Han Wudi).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_chanakya",
@@ -2534,8 +2370,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Chanakya / Kautilya (fl. 320 BCE; Architect of Maurya Empire & Author of Arthashastra).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_kalidasa",
@@ -2549,8 +2384,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Kalidasa (c. 4th–5th c. CE; Classical Sanskrit Poet at Chandragupta II's Court).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam6_adi_shankara",
@@ -2564,8 +2398,7 @@
         "Primary Biographical & Chronicle Archives"
       ],
       "notes": "Adi Shankaracharya (c. 8th c. CE; Unifier of Advaita Vedanta & Four Mathas).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

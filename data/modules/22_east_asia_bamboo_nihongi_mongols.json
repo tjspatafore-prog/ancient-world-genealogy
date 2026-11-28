@@ -18,8 +18,7 @@
         "Legge Chinese Classics Vol. III (Proleg. pp. 117-127; Shoo pp. 160-171)"
       ],
       "notes": "Anchor for all 17 Xia kings from Yu the Great to Jie, chained sequentially below.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "chn_shang_complete",
@@ -38,8 +37,7 @@
         "Legge Chinese Classics Vol. III (Proleg. pp. 128-141; Shoo pp. 193-278)"
       ],
       "notes": "Anchor for all 30 Shang kings from Cheng Tang through Pan Geng & Wu Ding to Di Xin, chained below.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "chn_zhou_western_eastern",
@@ -58,8 +56,7 @@
         "Legge Chinese Classics Vol. III (Proleg. pp. 142-183)"
       ],
       "notes": "Anchor from Danfu & Jili -> King Wen -> King Wu -> all 12 Western & 22 Eastern Zhou kings to King Nan.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "chn_han_tang_empires",
@@ -80,8 +77,7 @@
         "Anderson 1732 Tables 161-162"
       ],
       "notes": "Han & Tang imperial Silk Road anchor.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jpn_nihongi_7heaven_5earth",
@@ -100,8 +96,7 @@
         "Nihongi Vol. I Books I-II (Aston pp. 3-108)"
       ],
       "notes": "Kuni-toko-tachi -> Izanagi & Izanami -> Amaterasu -> Ninigi -> Hiko-hoho-demi -> Ugayafukiaezu -> Jimmu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpn_nihongi_emperors_1_25",
@@ -120,8 +115,7 @@
         "Nihongi Vol. I Books III-XV (Aston pp. 109-407)"
       ],
       "notes": "Anchor for Emperors Jimmu through 25th Buretsu, chained individually below.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jpn_ancestral_clans_nihongi",
@@ -139,8 +133,7 @@
         "Nihongi Vol. I (Aston pp. 42, 128, 148, 190, 306)"
       ],
       "notes": "Ame-no-Koyane -> Nakatomi/Fujiwara; Nigi-haya-hi -> Mononobe; Kogen -> Takechi no Sukune -> Soga.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_01_1_yu_the_great_hea_how",
@@ -154,8 +147,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 1. Yu the Great (Hea-how, Founder of Xia Dynasty).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_02_2_qi_k_e_son_of_yu",
@@ -169,8 +161,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 2. Qi / K'e (Son of Yu the Great).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_03_3_tai_kang_eldest_son_of_qi",
@@ -184,8 +175,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 3. Tai Kang (Eldest Son of Qi).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_04_4_zhong_kang_brother_of_tai_",
@@ -199,8 +189,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 4. Zhong Kang (Brother of Tai Kang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_05_5_xiang_seang_son_of_zhong_k",
@@ -214,8 +203,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 5. Xiang / Seang (Son of Zhong Kang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_06_6_shao_kang_posthumous_son_o",
@@ -229,8 +217,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 6. Shao Kang (Posthumous Son of Xiang & Empress Min; Restorer).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_07_7_zhu_ch_oo_son_of_shao_kang",
@@ -244,8 +231,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 7. Zhu / Ch'oo (Son of Shao Kang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_08_8_huai_fun_son_of_zhu_44_yrs",
@@ -259,8 +245,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 8. Huai / Fun (Son of Zhu, 44 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_09_9_mang_son_of_huai_58_yrs",
@@ -274,8 +259,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 9. Mang (Son of Huai, 58 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_10_10_xie_se_h_son_of_mang",
@@ -289,8 +273,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 10. Xie / Seëh (Son of Mang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_11_11_bu_jiang_son_of_xie_59_yr",
@@ -304,8 +287,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 11. Bu Jiang (Son of Xie, 59 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_12_12_jiong_keung_brother_of_bu",
@@ -319,8 +301,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 12. Jiong / Keung (Brother of Bu Jiang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_13_13_jin_kin_son_of_jiong",
@@ -334,8 +315,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 13. Jin / Kin (Son of Jiong).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_14_14_kong_jia_son_of_bu_jiang",
@@ -349,8 +329,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 14. Kong Jia (Son of Bu Jiang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_15_15_gao_haou_son_of_kong_jia",
@@ -364,8 +343,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 15. Gao / Haou (Son of Kong Jia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_16_16_fa_fah_son_of_gao",
@@ -379,8 +357,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 16. Fa / Fah (Son of Gao).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_xia_17_17_jie_kwei_son_of_fa_last_x",
@@ -394,8 +371,7 @@
         "Bamboo Books (Legge Vol. III pp. 117-127)"
       ],
       "notes": "Xia Dynasty monarch: 17. Jie / Kwei (Son of Fa, Last Xia King — Overthrown by Shang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_01_1_tang_the_victorious_da_yi",
@@ -409,8 +385,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 1. Tang the Victorious / Da Yi (Founder of Shang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_02_2_wai_bing_son_of_tang",
@@ -424,8 +399,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 2. Wai Bing (Son of Tang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_03_3_zhong_ren_son_of_tang",
@@ -439,8 +413,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 3. Zhong Ren (Son of Tang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_04_4_tai_jia_grandson_of_tang_v",
@@ -454,8 +427,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 4. Tai Jia (Grandson of Tang via Tai Ding).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_05_5_wo_ding_son_of_tai_jia",
@@ -469,8 +441,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 5. Wo Ding (Son of Tai Jia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_06_6_tai_geng_xiao_geng_brother",
@@ -484,8 +455,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 6. Tai Geng / Xiao Geng (Brother of Wo Ding).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_07_7_xiao_jia_son_of_tai_geng",
@@ -499,8 +469,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 7. Xiao Jia (Son of Tai Geng).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_08_8_yong_ji_brother_of_xiao_ji",
@@ -514,8 +483,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 8. Yong Ji (Brother of Xiao Jia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_09_9_tai_wu_tai_tsung_brother_o",
@@ -529,8 +497,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 9. Tai Wu / Tai-tsung (Brother of Yong Ji, 75 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_10_10_zhong_ding_son_of_tai_wu",
@@ -544,8 +511,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 10. Zhong Ding (Son of Tai Wu).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_11_11_wai_ren_brother_of_zhong_",
@@ -559,8 +525,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 11. Wai Ren (Brother of Zhong Ding).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_12_12_he_dan_jia_brother_of_wai",
@@ -574,8 +539,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 12. He Dan Jia (Brother of Wai Ren).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_13_13_zu_yi_son_of_he_dan_jia",
@@ -589,8 +553,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 13. Zu Yi (Son of He Dan Jia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_14_14_zu_xin_son_of_zu_yi",
@@ -604,8 +567,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 14. Zu Xin (Son of Zu Yi).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_15_15_wo_jia_k_ae_keah_brother_",
@@ -619,8 +581,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 15. Wo Jia / K'ae-keah (Brother of Zu Xin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_16_16_zu_ding_son_of_zu_xin",
@@ -634,8 +595,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 16. Zu Ding (Son of Zu Xin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_17_17_nan_geng_son_of_wo_jia",
@@ -649,8 +609,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 17. Nan Geng (Son of Wo Jia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_18_18_yang_jia_son_of_zu_ding",
@@ -664,8 +623,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 18. Yang Jia (Son of Zu Ding).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_19_19_pan_geng_moved_to_yin_28_",
@@ -679,8 +637,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 19. Pan Geng (Brother of Yang Jia; Moved Capital to Yin, 28 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_20_20_xiao_xin_brother_of_pan_g",
@@ -694,8 +651,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 20. Xiao Xin (Brother of Pan Geng).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_21_21_xiao_yi_brother_of_xiao_x",
@@ -709,8 +665,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 21. Xiao Yi (Brother of Xiao Xin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_22_22_wu_ding_gaozong_son_of_xi",
@@ -724,8 +679,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 22. Wu Ding / Gaozong (Son of Xiao Yi, 59 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_23_23_zu_geng_son_of_wu_ding",
@@ -739,8 +693,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 23. Zu Geng (Son of Wu Ding).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_24_24_zu_jia_brother_of_zu_geng",
@@ -754,8 +707,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 24. Zu Jia (Brother of Zu Geng, 33 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_25_25_lin_xin_fung_sin_son_of_z",
@@ -769,8 +721,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 25. Lin Xin / Fung-sin (Son of Zu Jia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_26_26_geng_ding_brother_of_lin_",
@@ -784,8 +735,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 26. Geng Ding (Brother of Lin Xin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_27_27_wu_yi_son_of_geng_ding",
@@ -799,8 +749,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 27. Wu Yi (Son of Geng Ding).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_28_28_wen_ding_tai_ding_son_of_",
@@ -814,8 +763,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 28. Wen Ding / Tai Ding (Son of Wu Yi).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_29_29_di_yi_son_of_wen_ding",
@@ -829,8 +777,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 29. Di Yi (Son of Wen Ding).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_shg_30_30_di_xin_king_zhou_daji_las",
@@ -844,8 +791,7 @@
         "Bamboo Books (Legge Vol. III pp. 128-141)"
       ],
       "notes": "Shang Dynasty ruler: 30. Di Xin / King Zhou (+ Daji, Last Shang King — Fell at Muye).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_01_danfu_old_duke_king_tai_pre_",
@@ -859,8 +805,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: Old Duke Danfu / King Tai (Pre-Dynastic Ancestor of Zhou).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_02_jili_king_ji_tai_ren",
@@ -874,8 +819,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: Jili / King Ji (+ Tai Ren; Son of Danfu, Father of King Wen).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_03_1_king_wu_fa_conqueror_of_sh",
@@ -889,8 +833,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 1. King Wu / Ji Fa (Son of King Wen; Conqueror of Shang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_04_2_king_cheng_sung_37_yrs",
@@ -904,8 +847,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 2. King Cheng / Ji Song (Son of King Wu, 37 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_05_3_king_kang_ch_aou_26_yrs",
@@ -919,8 +861,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 3. King Kang / Ji Zhao (Son of King Cheng, 26 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_06_4_king_zhao_hea",
@@ -934,8 +875,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 4. King Zhao / Ji Xia (Son of King Kang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_07_5_king_mu_mwan_55_yrs",
@@ -949,8 +889,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 5. King Mu / Ji Man (Son of King Zhao, 55 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_08_6_king_gong_e",
@@ -964,8 +903,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 6. King Gong / Ji Yi-hu (Son of King Mu).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_09_7_king_yi_keen",
@@ -979,8 +917,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 7. King Yi / Ji Jian (Son of King Gong).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_10_8_king_xiao_peih_fang",
@@ -994,8 +931,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 8. King Xiao / Ji Pifang (Brother of King Gong).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_11_9_king_yi_se",
@@ -1009,8 +945,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 9. King Yi / Ji Xie (Son of King Yi Jian).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_12_10_king_li_hoo_gonghe_regenc",
@@ -1024,8 +959,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 10. King Li / Ji Hu (Son of King Yi Xie; Gonghe Regency).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_13_11_king_xuan_tsing_46_yrs",
@@ -1039,8 +973,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 11. King Xuan / Ji Jing (Son of King Li, 46 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_14_12_king_you_ne_end_of_wester",
@@ -1054,8 +987,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 12. King You / Ji Gongnie (End of Western Zhou, 771 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_15_13_king_ping_e_k_ew_1st_east",
@@ -1069,8 +1001,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 13. King Ping / Ji Yijiu (Son of King You; 1st Eastern Zhou, 51 yrs).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_16_14_king_huan",
@@ -1084,8 +1015,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 14. King Huan of Zhou (Grandson of King Ping).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_17_15_king_zhuang",
@@ -1099,8 +1029,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 15. King Zhuang of Zhou (Son of King Huan).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_18_16_king_xi",
@@ -1114,8 +1043,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 16. King Xi of Zhou (Son of King Zhuang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_19_17_king_hui",
@@ -1129,8 +1057,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 17. King Hui of Zhou (Son of King Xi).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_20_18_king_xiang",
@@ -1144,8 +1071,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 18. King Xiang of Zhou (Son of King Hui).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_21_19_king_qing",
@@ -1159,8 +1085,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 19. King Qing of Zhou (Son of King Xiang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_22_20_king_kuang",
@@ -1174,8 +1099,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 20. King Kuang of Zhou (Son of King Qing).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_23_21_king_ding",
@@ -1189,8 +1113,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 21. King Ding of Zhou (Brother of King Kuang).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_24_22_king_jian",
@@ -1204,8 +1127,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 22. King Jian of Zhou (Son of King Ding).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_25_23_king_ling",
@@ -1219,8 +1141,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 23. King Ling of Zhou (Son of King Jian).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_26_24_king_jing_kwei",
@@ -1234,8 +1155,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 24. King Jing / Gui of Zhou (Son of King Ling).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_27_25_king_jing_k_ae",
@@ -1249,8 +1169,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 25. King Jing / Gai of Zhou (Son of King Jing Gui).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_28_26_king_yuan",
@@ -1264,8 +1183,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 26. King Yuan of Zhou (Son of King Jing Gai).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_29_27_king_zhending",
@@ -1279,8 +1197,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 27. King Zhending of Zhou (Son of King Yuan).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_30_28_king_kao",
@@ -1294,8 +1211,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 28. King Kao of Zhou (Son of King Zhending).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_31_29_king_weilie",
@@ -1309,8 +1225,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 29. King Weilie of Zhou (Son of King Kao).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_32_30_king_an",
@@ -1324,8 +1239,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 30. King An of Zhou (Son of King Weilie).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_33_31_king_lie",
@@ -1339,8 +1253,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 31. King Lie of Zhou (Son of King An).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_34_32_king_xian",
@@ -1354,8 +1267,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 32. King Xian of Zhou (Brother of King Lie).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_35_33_king_shenjing",
@@ -1369,8 +1281,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 33. King Shenjing of Zhou (Son of King Xian).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chnr_zho_36_34_king_nan_last_zhou_king",
@@ -1384,8 +1295,7 @@
         "Bamboo Books (Legge Vol. III pp. 142-183)"
       ],
       "notes": "Zhou Dynasty ruler: 34. King Nan of Zhou (Son of King Shenjing, Last Zhou King).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_01_2_suizei_tenno_son_of_jimmu_",
@@ -1399,8 +1309,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 2. Emperor Suizei Tenno (Son of Jimmu & Hime-tatara-Isuzu).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_02_3_annei_tenno_son_of_suizei",
@@ -1414,8 +1323,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 3. Emperor Annei Tenno (Son of Suizei).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_03_4_itoku_tenno_son_of_annei",
@@ -1429,8 +1337,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 4. Emperor Itoku Tenno (Son of Annei).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_04_5_kosho_tenno_son_of_itoku",
@@ -1444,8 +1351,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 5. Emperor Kosho Tenno (Son of Itoku).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_05_6_koan_tenno_son_of_kosho",
@@ -1459,8 +1365,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 6. Emperor Koan Tenno (Son of Kosho).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_06_7_korei_tenno_son_of_koan",
@@ -1474,8 +1379,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 7. Emperor Korei Tenno (Son of Koan).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_07_8_kogen_tenno_ancestor_of_so",
@@ -1489,8 +1393,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 8. Emperor Kogen Tenno (Son of Korei; Ancestor of Soga & Abe Clans).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_08_9_kaika_tenno_son_of_kogen",
@@ -1504,8 +1407,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 9. Emperor Kaika Tenno (Son of Kogen).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_09_10_sujin_tenno_first_histori",
@@ -1519,8 +1421,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 10. Emperor Sujin Tenno (Son of Kaika; First Historically Attested Yamato King).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_10_11_suinin_tenno_son_of_sujin",
@@ -1534,8 +1435,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 11. Emperor Suinin Tenno (Son of Sujin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_11_12_keiko_tenno_father_of_yam",
@@ -1549,8 +1449,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 12. Emperor Keiko Tenno (Son of Suinin; Father of Yamato Takeru).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_yamato_takeru",
@@ -1564,8 +1463,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: Prince Yamato Takeru / Ousu (Son of Emperor Keiko; Father of Chuai).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_12_13_seimu_tenno_son_of_keiko",
@@ -1579,8 +1477,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 13. Emperor Seimu Tenno (Son of Keiko; Uncle of Chuai).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_13_14_chuai_tenno_son_of_yamato",
@@ -1594,8 +1491,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 14. Emperor Chuai Tenno (Son of Yamato Takeru).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_14_empress_jingo_regent_great_g",
@@ -1609,8 +1505,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: Empress Jingo (Regent; Great-Grandchild of Kaika; Mother of Ojin).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_15_15_ojin_tenno_son_of_chuai_e",
@@ -1624,8 +1519,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 15. Emperor Ojin Tenno (Son of Chuai & Empress Jingo).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_16_16_nintoku_tenno_son_of_ojin",
@@ -1639,8 +1533,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 16. Emperor Nintoku Tenno (Son of Ojin — Daisen Kofun).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_17_17_richu_tenno_eldest_son_of",
@@ -1654,8 +1547,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 17. Emperor Richu Tenno (Eldest Son of Nintoku).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_18_18_hanzei_tenno_brother_of_r",
@@ -1669,8 +1561,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 18. Emperor Hanzei Tenno (Brother of Richu).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_19_19_ingyo_tenno_brother_of_ha",
@@ -1684,8 +1575,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 19. Emperor Ingyo Tenno (Brother of Hanzei).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_20_20_anko_tenno_son_of_ingyo",
@@ -1699,8 +1589,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 20. Emperor Anko Tenno (Son of Ingyo).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_21_21_yuryaku_tenno_5th_child_o",
@@ -1714,8 +1603,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 21. Emperor Yuryaku Tenno (5th Child of Ingyo).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_22_22_seinei_tenno_son_of_yurya",
@@ -1729,8 +1617,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 22. Emperor Seinei Tenno (Son of Yuryaku).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_23_23_kenzo_tenno_grandson_of_r",
@@ -1744,8 +1631,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 23. Emperor Kenzo Tenno (Grandson of Richu).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_24_24_ninken_tenno_brother_of_k",
@@ -1759,8 +1645,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 24. Emperor Ninken Tenno (Brother of Kenzo).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpnr_emp_25_25_buretsu_muretsu_tenno_son",
@@ -1774,8 +1659,7 @@
         "Nihongi Vol. I (Aston pp. 109-407)"
       ],
       "notes": "Imperial Yamato lineage: 25. Emperor Buretsu / Muretsu Tenno (Son of Ninken, End of Nihongi Vol. I).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mng_borte_chino",
@@ -1792,8 +1676,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Crossed the Tenggis Sea to Burqan Qaldun (Secret History §1).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "mng_batachiqan_to_toroqoljin",
@@ -1811,8 +1694,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Anchor for Gens 2-11 chained individually below.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mng_alan_qoa_bodonchar",
@@ -1830,8 +1712,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Alan Qo'a bore 5 sons; youngest Bodončar Mungqaq founded the Borjigin clan.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "mng_qabichi_qaidu_qabul",
@@ -1851,8 +1732,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Menen Tudun -> Barulas (Barlas) clan; Qabul Qa'an -> Bartan Ba'atur.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mng_yesugei_hoelun",
@@ -1871,8 +1751,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Son of Bartan Ba'atur; fathered Temüjin (Genghis Khan) with Lady Hö'elün.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mng_genghis_khan_borte",
@@ -1890,8 +1769,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Unified the Steppe in 1206 CE; fathered Jöči, Ča'adai, Ögödei, and Tolui with Empress Börte.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "mng_four_sons_grandsons",
@@ -1913,8 +1791,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Anchor for the 4 Chinggisid imperial lines chained below.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "mngr_anc_01_bata_iqan_gen_2",
@@ -1928,8 +1805,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Batačiqan (Gen 2, Son of Börte Čino & Qo'ai Maral).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_02_tama_a_gen_3",
@@ -1943,8 +1819,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Tamača (Gen 3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_03_qori_ar_mergen_gen_4",
@@ -1958,8 +1833,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Qoričar Mergen (Gen 4).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_04_a_ujam_boro_ul_gen_5",
@@ -1973,8 +1847,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: A'ujam Boro'ul (Gen 5).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_05_sali_qa_a_u_gen_6",
@@ -1988,8 +1861,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Sali Qača'u (Gen 6).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_06_yeke_nid_n_gen_7",
@@ -2003,8 +1875,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Yeke Nidün (Gen 7).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_07_sem_so_i_gen_8",
@@ -2018,8 +1889,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Sem Soči (Gen 8).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_08_qar_u_gen_9",
@@ -2033,8 +1903,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Qarču (Gen 9).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_09_borjigidai_mergen_gen_10",
@@ -2048,8 +1917,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Borjigidai Mergen (+ Mongqoljin Qo'a, Gen 10).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_10_toroqoljin_bayan_gen_11",
@@ -2063,8 +1931,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Toroqoljin Bayan (+ Boroqčin Qo'a, Gen 11).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_12_dobun_mergen_gen_12",
@@ -2078,8 +1945,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Dobun Mergen (Gen 12, Son of Toroqoljin; Husband of Alan Qo'a).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_16_qabi_i_ba_atur_gen_14",
@@ -2093,8 +1959,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Qabiči Ba'atur (Gen 14, Son of Bodončar).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_17_menen_tudun_gen_15",
@@ -2108,8 +1973,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Menen Tudun (Gen 15, Son of Qabiči).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_18_qa_i_k_l_k_mother_nomolun_ge",
@@ -2123,8 +1987,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Qači Külük (+ Mother Nomolun, Gen 16).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_19_qaidu_gen_17",
@@ -2138,8 +2001,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Qaidu Khan (Gen 17, Son of Qači Külük).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_21_bai_ingqor_doq_in_gen_18",
@@ -2153,8 +2015,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Bai Šingqor Doqšin (Gen 18, Eldest Son of Qaidu).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_22_tumbinai_se_en_gen_19",
@@ -2168,8 +2029,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Tumbinai Sečen (Gen 19, Father of Qabul Qa'an & Qačuli/Barlas).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_23_qabul_qa_an_1st_all_mongol_q",
@@ -2183,8 +2043,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Qabul Qa'an (1st All-Mongol Qan; Son of Tumbinai Sečen).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_25_bartan_ba_atur",
@@ -2198,8 +2057,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Bartan Ba'atur (Son of Qabul Qa'an; Father of Yisügei).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_11_du_a_soqor_d_rben_clan",
@@ -2213,8 +2071,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Du'a Soqor (Elder Brother of Dobun Mergen; Dörben Clan).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_13_b_g_n_tei_belg_n_tei",
@@ -2228,8 +2085,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Bügünütei & Belgünütei (Eldest Sons of Dobun Mergen & Alan Qo'a).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_14_buqu_qatagi_buqatu_salji",
@@ -2243,8 +2099,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Buqu Qatagi & Buqatu Salji (Half-Brothers of Bodončar).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_15_jajiradai_jamuqa_jadaran_cla",
@@ -2258,8 +2113,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Jajiradai → Jamuqa (Jadaran Clan, Anda & Rival of Genghis Khan).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_20_ambaqai_qa_an_tayi_i_ut",
@@ -2273,8 +2127,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Ambaqai Qa'an (Descendant of Qaidu's Son Čaraqai Lingqu; Tayiči'ut).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_anc_24_qutula_qa_an",
@@ -2288,8 +2141,7 @@
         "The Secret History of the Mongols (Rachewiltz §§1-57)"
       ],
       "notes": "Secret History of the Mongols figure: Qutula Qa'an (Son of Qabul Qa'an; Brother of Bartan Ba'atur).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_imp_01_j_i_eldest_son_of_genghis_kh",
@@ -2303,8 +2155,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Chinggisid/Timurid imperial lineage: Jöči (Eldest Son of Genghis Khan & Börte).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_imp_02_batu_khan_founder_of_golden_",
@@ -2318,8 +2169,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Chinggisid/Timurid imperial lineage: Batu Khan (Son of Jöči; Founder of the Golden Horde).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_imp_03_a_adai_2nd_son_chagatai_khan",
@@ -2333,8 +2183,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Chinggisid/Timurid imperial lineage: Ča'adai (2nd Son of Genghis Khan; Chagatai Khanate).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_imp_04_b_ri_grandson_of_a_adai",
@@ -2348,8 +2197,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Chinggisid/Timurid imperial lineage: Büri (Grandson of Ča'adai via Mö'etüken).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_imp_05_g_dei_qa_an_2nd_great_khan_t",
@@ -2363,8 +2211,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Chinggisid/Timurid imperial lineage: Ögödei Qa'an (3rd Son of Genghis Khan; 2nd Great Khan, + Töregene).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_imp_06_g_y_k_qa_an_3rd_great_khan",
@@ -2378,8 +2225,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Chinggisid/Timurid imperial lineage: Güyük Qa'an (Son of Ögödei & Töregene; 3rd Great Khan).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_imp_07_prince_tolui_4th_son",
@@ -2393,8 +2239,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Chinggisid/Timurid imperial lineage: Prince Tolui (4th Son of Genghis Khan & Börte).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_imp_08_sorqaqtani_beki_kereyit_prin",
@@ -2408,8 +2253,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Chinggisid/Timurid imperial lineage: Empress Sorqaqtani Beki (Kereyit Princess; Wife of Tolui).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_imp_09_m_ngke_qa_an_4th_great_khan",
@@ -2423,8 +2267,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Chinggisid/Timurid imperial lineage: Möngke Qa'an (Eldest Son of Tolui & Sorqaqtani; 4th Great Khan).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_imp_10_qubilai_qa_an_kublai_khan_fo",
@@ -2438,8 +2281,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Chinggisid/Timurid imperial lineage: Qubilai Qa'an / Kublai Khan (Son of Tolui & Sorqaqtani; Yuan Emperor).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_imp_11_h_leg_khan_ilkhanate_of_pers",
@@ -2453,8 +2295,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Chinggisid/Timurid imperial lineage: Hülegü Khan (Son of Tolui & Sorqaqtani; Ilkhan of Persia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mngr_imp_12_timur_tamerlane_barlas_clan_",
@@ -2468,8 +2309,7 @@
         "The Secret History of the Mongols (Rachewiltz)"
       ],
       "notes": "Chinggisid/Timurid imperial lineage: Amir Timur / Tamerlane (Barlas Clan from Tumbinai's Son Qačuli -> Babur / Mughals).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

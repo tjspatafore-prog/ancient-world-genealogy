@@ -1,35 +1,35 @@
 {
-  "version": "32.0.0",
+  "version": "33.0.0",
   "generated_date": "2026-11-27",
-  "total_biblical_nodes": 4381,
-  "total_biblical_edges": 5479,
-  "total_major_landmarks": 833,
-  "pdf_pages": 934,
+  "total_biblical_nodes": 4349,
+  "total_biblical_edges": 5481,
+  "total_major_landmarks": 830,
+  "pdf_pages": 951,
   "files": {
     "pdf": {
       "filename": "Ancient_World_Genealogy_Complete_Report.pdf",
       "path": "reports/Ancient_World_Genealogy_Complete_Report.pdf",
-      "bytes": 4210632,
-      "human_size": "4.02 MB",
-      "pages": 934
+      "bytes": 4302574,
+      "human_size": "4.10 MB",
+      "pages": 951
     },
     "markdown": {
       "filename": "Ancient_World_Genealogy_AI_Parsed.md",
       "path": "reports/Ancient_World_Genealogy_AI_Parsed.md",
-      "bytes": 7231635,
-      "human_size": "6.90 MB"
+      "bytes": 7943841,
+      "human_size": "7.58 MB"
     },
     "csv": {
       "filename": "Ancient_World_Genealogy_Data_Points.csv",
       "path": "reports/Ancient_World_Genealogy_Data_Points.csv",
-      "bytes": 6175987,
-      "human_size": "5.89 MB"
+      "bytes": 5854712,
+      "human_size": "5.58 MB"
     },
     "jsonl": {
       "filename": "Ancient_World_Genealogy_AI_Records.jsonl",
       "path": "reports/Ancient_World_Genealogy_AI_Records.jsonl",
-      "bytes": 16355734,
-      "human_size": "15.60 MB"
+      "bytes": 24026509,
+      "human_size": "22.91 MB"
     }
   }
 }

@@ -19,8 +19,7 @@
         "Apollodorus Library I.ii.6-7"
       ],
       "notes": "Pontus + Gaia -> Phorcys & Ceto (-> Graiae & Gorgon Medusa) and Nereus + Doris -> 50 Nereids (including Thetis, mother of Achilles).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_titans_complete",
@@ -35,8 +34,7 @@
         "Hesiod Theogony 337-452"
       ],
       "notes": "Unites Hyperion/Theia (-> Helios, Selene, Eos), Coeus/Phoebe (-> Leto, Asteria), and Crius (-> Perses -> Hecate).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_muses_orpheus",
@@ -51,8 +49,7 @@
         "Hesiod Theogony 901-920"
       ],
       "notes": "Calliope (+ Oeagrus/Apollo) -> Orpheus & Linus; Zeus + Themis -> Horae & Fates.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_aetolia_meleager_diomedes",
@@ -66,8 +63,7 @@
         "Apollodorus Library I.vii.5"
       ],
       "notes": "Daughter of Aeolus who bore Endymion -> Aetolus -> Oeneus -> Meleager, Deianira & Tydeus -> Diomedes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_neleus_nestor_pelias",
@@ -81,8 +77,7 @@
         "Apollodorus Library I.ix.8-9"
       ],
       "notes": "Salmoneus's daughter Tyro bore Pelias of Iolcus and Neleus of Pylos (-> wise King Nestor).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_jason_argonauts_medea",
@@ -96,8 +91,7 @@
         "Apollodorus Library I.ix.11-28"
       ],
       "notes": "Cretheus's sons Aeson (-> Jason), Pheres (-> Admetus), and Amythaon (-> Melampus & Bias -> Adrastus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_bellerophon_glaucus",
@@ -111,8 +105,7 @@
         "Apollodorus Library I.ix.1-3"
       ],
       "notes": "Son of Sisyphus & Merope; father of Bellerophon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_hypermnestra_abas_danae",
@@ -126,8 +119,7 @@
         "Apollodorus Library II.i.5-II.iv.4"
       ],
       "notes": "Hypermnestra spared Lynceus, continuing the Argive royal stem to Abas -> Acrisius & Proetus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_perseids_alcmene",
@@ -141,8 +133,7 @@
         "Apollodorus Library II.iv.5-8"
       ],
       "notes": "Connects Perseus & Andromeda to Alcaeus, Sthenelus, and Electryon (-> Alcmene -> Heracles).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_heraclidae_return",
@@ -156,8 +147,7 @@
         "Apollodorus Library II.viii.1-5"
       ],
       "notes": "Hyllus's son Cleodaeus -> Aristomachus, whose sons Temenus (Argos), Cresphontes (Messene) & Aristodemus (Sparta) led the Dorian return.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_minos_crete_family",
@@ -171,8 +161,7 @@
         "Apollodorus Library III.i.2-III.iii.2"
       ],
       "notes": "Minos + Pasiphae -> Catreus (-> Aerope), Deucalion (-> Idomeneus), Ariadne, and Phaedra.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_thebes_oedipus_epigoni",
@@ -186,8 +175,7 @@
         "Apollodorus Library III.iv.1-III.vii.7"
       ],
       "notes": "Cadmus & Harmonia -> Semele (-> Dionysus), Illyrius, and Polydorus -> Labdacus -> Laius -> Oedipus -> Eteocles, Polynices, Antigone.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_arcadia_pelasgus_atalanta",
@@ -201,8 +189,7 @@
         "Apollodorus Library III.viii.1-III.ix.2"
       ],
       "notes": "Arcas -> Aleus -> Princess Auge (+ Heracles -> King Telephus of Mysia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_sparta_tyndareus_helen",
@@ -217,8 +204,7 @@
         "Hesiod Catalogue fr. 66"
       ],
       "notes": "Daughters of Atlas & Pleione: Maia -> Hermes; Taygete -> Lacedaemon -> Tyndareus & Icarius.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_asopids_aeacus_ajax",
@@ -232,8 +218,7 @@
         "Apollodorus Library III.xii.6-III.xiii.8"
       ],
       "notes": "River god Asopus -> Aegina -> King Aeacus -> Telamon (Ajax & Teucer) and Peleus (Achilles -> Neoptolemus -> Olympias -> Alexander!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_athens_cecrops_theseus",
@@ -248,8 +233,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Cecrops -> Erichthonius -> Pandion I -> Erechtheus -> Pandion II -> Aegeus -> Theseus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_pelopids_orestes",
@@ -263,8 +247,7 @@
         "Apollodorus Library Epitome II-VI"
       ],
       "notes": "Tantalus -> Pelops -> Atreus/Thyestes/Pittheus -> Agamemnon/Menelaus -> Orestes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_01_hestia_eldest_olympian",
@@ -279,8 +262,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Hestia (Eldest Olympian, Daughter of Cronus & Rhea).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_02_demeter_goddess_of_harvest",
@@ -295,8 +277,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Demeter (Goddess of Harvest, Daughter of Cronus & Rhea).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_03_hera_queen_of_olympus",
@@ -311,8 +292,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Hera (Queen of Olympus, Daughter of Cronus & Rhea).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_04_hades_pluto_underworld",
@@ -327,8 +307,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Hades / Pluto (Lord of Underworld, Son of Cronus & Rhea).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_05_poseidon_lord_of_the_sea",
@@ -343,8 +322,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Poseidon (Lord of the Sea, Son of Cronus & Rhea).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_06_athena_daughter_of_zeus_meti",
@@ -359,8 +337,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Athena (Goddess of Wisdom, Daughter of Zeus & Metis).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_07_apollo_artemis_twins_of_zeus",
@@ -375,8 +352,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Apollo (God of Light & Prophecy, Son of Zeus & Leto).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_div_artemis",
@@ -391,8 +367,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Artemis (Twin of Apollo; Goddess of the Hunt, Zeus & Leto).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_08_aphrodite_goddess_of_love",
@@ -407,8 +382,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Aphrodite (Goddess of Love; Mother of Aeneas, Hesiod Theog. 190).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_09_ares_god_of_war",
@@ -423,8 +397,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Ares (God of War; Son of Zeus & Hera; Father of Harmonia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_10_hephaestus_divine_smith",
@@ -439,8 +412,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Hephaestus (Divine Smith; Son of Hera & Zeus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_11_persephone_queen_of_underwor",
@@ -455,8 +427,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Persephone (Queen of Underworld; Daughter of Zeus & Demeter).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_12_orpheus_son_of_calliope",
@@ -471,8 +442,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Orpheus (Thracian Singer & Argonaut, Son of Calliope).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_13_helios_sun_titan",
@@ -487,8 +457,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Helios (Sun Titan; Son of Hyperion & Theia; Father of Aeetes).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_14_selene_eos_moon_dawn",
@@ -503,8 +472,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Selene (Moon Titaness; Daughter of Hyperion & Theia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_eos",
@@ -519,8 +487,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Eos (Dawn Titaness; Mother of Memnon, Hyperion & Theia).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_15_hecate_daughter_of_perses_as",
@@ -535,8 +502,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Hecate (Daughter of Perses & Asteria, Hesiod Theog. 411).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_16_chiron_the_centaur_son_of_cr",
@@ -551,8 +517,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Chiron the Wise Centaur (Son of Cronus & Philyra; Tutor of Achilles).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_17_medusa_pegasus",
@@ -567,8 +532,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Medusa (Mortal Gorgon; Daughter of Phorcys & Ceto).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_div_pegasus",
@@ -583,8 +547,7 @@
         "Hesiod Theogony"
       ],
       "notes": "Pegasus (Winged Steed Sprung From Medusa & Poseidon).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_01_endymion_founder_of_elis",
@@ -598,8 +561,7 @@
         "Apollodorus I.vii.5"
       ],
       "notes": "Son of Calyce (dau. of Aeolus) & Aethlius; father of Aetolus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_02_aetolus_eponym_of_aetolia",
@@ -613,8 +575,7 @@
         "Apollodorus I.vii.6"
       ],
       "notes": "Son of Endymion; father of Pleuron & Calydon (-> Oeneus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_03_king_oeneus_of_calydon",
@@ -628,8 +589,7 @@
         "Apollodorus I.viii.1–5"
       ],
       "notes": "Great-grandson of Aetolus; father of Meleager, Deianira (wife of Heracles), and Tydeus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_04_meleager_calydonian_boar",
@@ -643,8 +603,7 @@
         "Apollodorus I.viii.2–3"
       ],
       "notes": "Slew the Calydonian Boar alongside Atalanta.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_05_deianira_wife_of_heracles",
@@ -658,8 +617,7 @@
         "Apollodorus I.viii.1, II.vii.5"
       ],
       "notes": "Married Heracles and bore Hyllus, ancestor of the Dorian Heraclidae & Spartan kings.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_06_tydeus_seven_against_thebes",
@@ -673,8 +631,7 @@
         "Apollodorus I.viii.5"
       ],
       "notes": "Wed Deipyle (daughter of Adrastus of Argos) and fathered Diomedes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_07_diomedes_hero_of_the_iliad",
@@ -689,8 +646,7 @@
         "Homer Iliad V"
       ],
       "notes": "Led 80 Argive ships to Troy; succeeded maternal grandfather Adrastus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_08_phrixus_helle_golden_fleece",
@@ -704,8 +660,7 @@
         "Apollodorus I.ix.1"
       ],
       "notes": "Fled to King Aeetes in Colchis, marrying Chalciope and bequeathing the Golden Fleece.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_helle",
@@ -719,8 +674,7 @@
         "Apollodorus I.ix.1"
       ],
       "notes": "Twin sister of Phrixus who fell into the strait named Hellespont.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_09_bellerophon_slayer_of_chimer",
@@ -734,8 +688,7 @@
         "Apollodorus I.ix.3, II.iii.1"
       ],
       "notes": "Son of Glaucus of Corinth; slew the Chimera in Lycia; grandfather of Glaucus & Sarpedon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_10_tyro_daughter_of_salmoneus",
@@ -749,8 +702,7 @@
         "Apollodorus I.ix.8–11"
       ],
       "notes": "Bore twins Pelias & Neleus by Poseidon, and Aeson, Pheres & Amythaon by Cretheus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_11_pelias_of_iolcus",
@@ -764,8 +716,7 @@
         "Apollodorus I.ix.8, 27"
       ],
       "notes": "Sent nephew Jason for the Golden Fleece; father of Alcestis & Acastus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_12_neleus_of_pylos",
@@ -779,8 +730,7 @@
         "Apollodorus I.ix.9"
       ],
       "notes": "Father of 12 sons, of whom youngest Nestor survived to rule Pylos.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_13_king_nestor_of_pylos",
@@ -795,8 +745,7 @@
         "Homer Odyssey III"
       ],
       "notes": "Wise elder king of Pylos; father of Antilochus & Pisistratus.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_aeo_14_aeson_father_of_jason",
@@ -810,8 +759,7 @@
         "Apollodorus I.ix.11, 16"
       ],
       "notes": "Eldest son of Cretheus; entrusted infant Jason to Centaur Chiron.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_15_jason_leader_of_argonauts",
@@ -825,8 +773,7 @@
         "Apollodorus I.ix.16–28"
       ],
       "notes": "Led the 50 Argonauts to Colchis and married Princess Medea.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_aeo_16_medea_of_colchis_granddaught",
@@ -841,8 +788,7 @@
         "Hesiod Theogony 992–1002"
       ],
       "notes": "Daughter of King Aeetes of Colchis; bore Medus/Medeus (mythic Greek eponym of the Medes).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_17_melampus_the_seer",
@@ -856,8 +802,7 @@
         "Apollodorus I.ix.11–12"
       ],
       "notes": "Cured Proetus's daughters and received a third of Argos; ancestor of Amphiaraus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_18_amphiaraus_seven_against_the",
@@ -871,8 +816,7 @@
         "Apollodorus III.vi.2–8"
       ],
       "notes": "Great-grandson of Melampus; married Eriphyle (sister of Adrastus) and fathered Epigoni leader Alcmaeon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_19_king_adrastus_of_argos",
@@ -886,8 +830,7 @@
         "Apollodorus I.ix.13, III.vi"
       ],
       "notes": "Grandson of Bias (brother of Melampus); survived the expedition on winged horse Arion.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_20_admetus_alcestis",
@@ -901,8 +844,7 @@
         "Apollodorus I.ix.14–15"
       ],
       "notes": "Served by Apollo for a year; wed Princess Alcestis.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_aeo_alcestis",
@@ -916,8 +858,7 @@
         "Apollodorus I.ix.15"
       ],
       "notes": "Gave her life for husband Admetus before Heracles restored her from the underworld.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_01_phoroneus_first_man_of_argos",
@@ -931,8 +872,7 @@
         "Apollodorus II.i.1"
       ],
       "notes": "Son of Inachus; father of Niobe (mother of Argus & Pelasgus).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_02_argus_panoptes",
@@ -946,8 +886,7 @@
         "Apollodorus II.i.2–3"
       ],
       "notes": "All-seeing Argive hero slain by Hermes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_03_hypermnestra_lynceus",
@@ -961,8 +900,7 @@
         "Apollodorus II.i.5"
       ],
       "notes": "Sole Danaid to spare Lynceus; mother of Abas.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_lynceus",
@@ -976,8 +914,7 @@
         "Apollodorus II.i.5"
       ],
       "notes": "Son of Aegyptus; wed Hypermnestra and founded the later Argive dynasty.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_04_abas_king_of_argos",
@@ -991,8 +928,7 @@
         "Apollodorus II.ii.1"
       ],
       "notes": "Father of Acrisius of Argos and Proetus of Tiryns.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_05_acrisius_proetus",
@@ -1006,8 +942,7 @@
         "Apollodorus II.ii.1"
       ],
       "notes": "Father of Danaë; accidentally slain at Larissa by grandson Perseus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_proetus",
@@ -1021,8 +956,7 @@
         "Apollodorus II.ii.1–2"
       ],
       "notes": "Twin brother of Acrisius; shared Argos with Melampus & Bias.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_06_dana_mother_of_perseus",
@@ -1036,8 +970,7 @@
         "Apollodorus II.iv.1"
       ],
       "notes": "Placed in a wooden chest with infant Perseus and washed ashore at Seriphos.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_07_alcmene_mother_of_heracles",
@@ -1051,8 +984,7 @@
         "Apollodorus II.iv.5–8"
       ],
       "notes": "Daughter of Electryon (son of Perseus); bore Heracles by Zeus and twin Iphicles by Amphitryon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_08_amphitryon_iphicles",
@@ -1066,8 +998,7 @@
         "Apollodorus II.iv.6–8"
       ],
       "notes": "Son of Alcaeus (son of Perseus); husband of Alcmene and biological father of Iphicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_iphicles",
@@ -1081,8 +1012,7 @@
         "Apollodorus II.iv.8–11"
       ],
       "notes": "Son of Amphitryon & Alcmene; father of Heracles's charioteer Iolaus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_09_king_eurystheus_of_mycenae",
@@ -1096,8 +1026,7 @@
         "Apollodorus II.iv.5–viii.1"
       ],
       "notes": "Grandson of Perseus via Sthenelus & Nicippe; ordered Heracles's Twelve Labors.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_10_hyllus_son_of_heracles_deian",
@@ -1111,8 +1040,7 @@
         "Apollodorus II.vii.7–viii.1"
       ],
       "notes": "Eldest son of Heracles & Deianira; wed Iole; ancestor of Cleodaeus -> Aristomachus -> Temenus & Aristodemus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_11_telephus_of_mysia_son_of_her",
@@ -1126,8 +1054,7 @@
         "Apollodorus II.vii.4, III.ix.1"
       ],
       "notes": "Son of Heracles & Arcadian princess Auge; healed by Achilles's spear rust before Troy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_12_temenus_conqueror_of_argos_m",
@@ -1142,8 +1069,7 @@
         "Herodotus VIII.137"
       ],
       "notes": "Dorian Heraclid king of Argos from whom Alexander the Great's Argead house traced descent.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_her_13_cresphontes_conqueror_of_mes",
@@ -1157,8 +1083,7 @@
         "Apollodorus II.viii.4–5"
       ],
       "notes": "Drew Messene by lot alongside brothers Temenus and Aristodemus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_14_aristodemus_father_of_sparta",
@@ -1173,8 +1098,7 @@
         "Herodotus VI.52"
       ],
       "notes": "Married Argia and sired twins Eurysthenes & Procles, founding Sparta's dual kingship.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_her_15_eurysthenes_agiad_founder_of",
@@ -1189,8 +1113,7 @@
         "Apollodorus II.viii.4"
       ],
       "notes": "Elder twin son of Aristodemus; forefather of Agis I, Leonidas I & Areus I.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_her_16_procles_eurypontid_founder_o",
@@ -1205,8 +1128,7 @@
         "Apollodorus II.viii.4"
       ],
       "notes": "Younger twin son of Aristodemus; forefather of Lycurgan-era Charilaus & Agesilaus II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_01_pasipha_the_minotaur",
@@ -1220,8 +1142,7 @@
         "Apollodorus III.i.2"
       ],
       "notes": "Daughter of Sun Titan Helios; wife of King Minos.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_minotaur",
@@ -1235,8 +1156,7 @@
         "Apollodorus III.i.4"
       ],
       "notes": "Housed in Daedalus's Knossos Labyrinth until slain by Theseus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_02_ariadne_phaedra_daughters_of",
@@ -1250,8 +1170,7 @@
         "Apollodorus Epit. I.8–9"
       ],
       "notes": "Gave Theseus the thread to escape the Labyrinth; wed Dionysus at Naxos.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_phaedra",
@@ -1265,8 +1184,7 @@
         "Apollodorus III.i.2"
       ],
       "notes": "Younger sister of Ariadne; wed Theseus and bore Acamas & Demophon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_03_king_idomeneus_of_crete",
@@ -1280,8 +1198,7 @@
         "Apollodorus III.iii.1"
       ],
       "notes": "Grandson of Minos via Deucalion.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_04_semele_dionysus",
@@ -1295,8 +1212,7 @@
         "Apollodorus III.iv.2–3"
       ],
       "notes": "Daughter of Cadmus & Harmonia; bore Dionysus by Zeus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_dionysus",
@@ -1311,8 +1227,7 @@
         "Hesiod Theog. 940"
       ],
       "notes": "Became an Olympian god and husband of Cretan princess Ariadne.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_b3_05_polydorus_labdacus_laius",
@@ -1326,8 +1241,7 @@
         "Apollodorus III.iv.2, v.5"
       ],
       "notes": "Son of Cadmus; father of Labdacus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_labdacus",
@@ -1341,8 +1255,7 @@
         "Apollodorus III.v.5"
       ],
       "notes": "Father of King Laius.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_laius",
@@ -1356,8 +1269,7 @@
         "Apollodorus III.v.5–7"
       ],
       "notes": "Wed Jocasta (Epicaste), daughter of Menoeceus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_06_king_oedipus_of_thebes_jocas",
@@ -1371,8 +1283,7 @@
         "Apollodorus III.v.7–9"
       ],
       "notes": "Solved the Sphinx's riddle and fathered Eteocles, Polynices, Antigone & Ismene.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_b3_07_eteocles_polynices",
@@ -1386,8 +1297,7 @@
         "Apollodorus III.vi.1–8"
       ],
       "notes": "Fell in single combat against brother Polynices at the Seventh Gate.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_polynices",
@@ -1401,8 +1311,7 @@
         "Apollodorus III.vi.1–8"
       ],
       "notes": "Wed Argeia (daughter of Adrastus) and marched with the Seven.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_08_antigone_ismene",
@@ -1417,8 +1326,7 @@
         "Sophocles Antigone"
       ],
       "notes": "Defied King Creon's decree to bury brother Polynices.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_ismene",
@@ -1432,8 +1340,7 @@
         "Apollodorus III.v.8"
       ],
       "notes": "Younger sister of Antigone.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_09_illyrius_son_of_cadmus_epony",
@@ -1447,8 +1354,7 @@
         "Apollodorus III.v.4"
       ],
       "notes": "Born in Encheleia / Illyria in Cadmus's old age.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_10_alcmaeon_leader_of_epigoni",
@@ -1462,8 +1368,7 @@
         "Apollodorus III.vii.2–5"
       ],
       "notes": "Led the sons of the Seven to capture Thebes a decade later.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_11_pelasgus_lycaon_of_arcadia",
@@ -1477,8 +1382,7 @@
         "Apollodorus III.viii.1"
       ],
       "notes": "Father of Lycaon in Arcadia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_lycaon",
@@ -1492,8 +1396,7 @@
         "Apollodorus III.viii.1"
       ],
       "notes": "Struck down before Deucalion's Flood; father of Callisto.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_12_callisto_arcas",
@@ -1507,8 +1410,7 @@
         "Apollodorus III.viii.2"
       ],
       "notes": "Bore Arcas to Zeus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_arcas",
@@ -1522,8 +1424,7 @@
         "Apollodorus III.viii.2, ix.1"
       ],
       "notes": "Father of Elatus, Aphidas (-> Aleus) & Azan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_13_atalanta_the_huntress",
@@ -1537,8 +1438,7 @@
         "Apollodorus III.ix.2"
       ],
       "notes": "Descendant of Arcas via Clymene; mother of Parthenopaeus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_14_lacedaemon_sparta",
@@ -1552,8 +1452,7 @@
         "Apollodorus III.x.3"
       ],
       "notes": "Married Sparta (daughter of Eurotas) and named the kingdom after himself & his queen.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_sparta",
@@ -1567,8 +1466,7 @@
         "Apollodorus III.x.3"
       ],
       "notes": "Wife of Lacedaemon; mother of Amyclas & Eurydice (wife of Acrisius!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_15_tyndareus_leda",
@@ -1582,8 +1480,7 @@
         "Apollodorus III.x.4–6"
       ],
       "notes": "Brother of Icarius; wed Aetolian princess Leda.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_leda",
@@ -1597,8 +1494,7 @@
         "Apollodorus III.x.6–7"
       ],
       "notes": "Mother of Castor, Pollux, Helen & Clytemnestra.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_16_helen_of_troy_clytemnestra",
@@ -1613,8 +1509,7 @@
         "Homer Iliad III"
       ],
       "notes": "Sister of Clytemnestra, Castor & Pollux; married Menelaus.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_b3_clytemnestra",
@@ -1628,8 +1523,7 @@
         "Apollodorus Epit. II.16, VI.23"
       ],
       "notes": "Mother of Orestes, Electra & Iphigenia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_17_castor_pollux_dioscuri",
@@ -1643,8 +1537,7 @@
         "Apollodorus III.x.7, xi.2"
       ],
       "notes": "Twin brother of Pollux, celebrated among the Argonauts.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_pollux",
@@ -1658,8 +1551,7 @@
         "Apollodorus III.x.7, xi.2"
       ],
       "notes": "Boxer-twin of Castor who shared immortality between Olympus and Hades.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_18_penelope_daughter_of_icarius",
@@ -1674,8 +1566,7 @@
         "Homer Odyssey"
       ],
       "notes": "Daughter of Spartan prince Icarius; bore Telemachus to Odysseus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_19_asclepius_god_of_medicine",
@@ -1689,8 +1580,7 @@
         "Apollodorus III.x.3–4"
       ],
       "notes": "Taught medicine by Chiron; father of physicians Machaon & Podalirius at Troy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_20_aeacus_telamon_ajax_the_grea",
@@ -1704,8 +1594,7 @@
         "Apollodorus III.xii.6"
       ],
       "notes": "Ancestor of Achilles, Ajax & Alexander the Great.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_telamon",
@@ -1719,8 +1608,7 @@
         "Apollodorus III.xii.6–7"
       ],
       "notes": "Fathered Ajax the Great (by Periboea) and Teucer (by Trojan princess Hesione!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_ajax",
@@ -1735,8 +1623,7 @@
         "Apollodorus III.xii.7"
       ],
       "notes": "Son of Telamon & Periboea; cousin of Achilles.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_b3_21_teucer_founder_of_cypriot_sa",
@@ -1750,8 +1637,7 @@
         "Apollodorus III.xii.7"
       ],
       "notes": "Half-brother of Ajax and nephew of King Priam of Troy through mother Hesione.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_22_peleus_thetis_neoptolemus",
@@ -1765,8 +1651,7 @@
         "Apollodorus III.xiii.1–8"
       ],
       "notes": "Wed Nereid Thetis in the presence of all the Olympians.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_thetis",
@@ -1780,8 +1665,7 @@
         "Apollodorus III.xiii.5–6"
       ],
       "notes": "Dipped infant Achilles in the Styx and commissioned Hephaestus's armor.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_neoptolemus",
@@ -1796,8 +1680,7 @@
         "Plutarch Life of Pyrrhus 1"
       ],
       "notes": "Son of Achilles & Deidamia; founded the Aeacid Molossian dynasty of Epirus leading to Olympias & King Pyrrhus.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_b3_olympias",
@@ -1811,8 +1694,7 @@
         "Plutarch Life of Alexander 2"
       ],
       "notes": "Claimed direct descent from Achilles's son Neoptolemus; wed King Philip II of Macedon and bore Alexander the Great.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_b3_23_king_cecrops_of_athens",
@@ -1827,8 +1709,7 @@
         "Eusebius Chronicle p.53"
       ],
       "notes": "Judged the contest between Athena & Poseidon for Attica.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_24_king_erechtheus_of_athens",
@@ -1842,8 +1723,7 @@
         "Apollodorus III.xv.1–4"
       ],
       "notes": "Son of Pandion I; father of Creusa (mother of Ion!) and Cecrops II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_25_king_aegeus_theseus_of_athen",
@@ -1857,8 +1737,7 @@
         "Apollodorus III.xv.5–7"
       ],
       "notes": "Wed Aethra (daughter of King Pittheus of Troezen) and fathered Theseus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_theseus",
@@ -1873,8 +1752,7 @@
         "Plutarch Life of Theseus"
       ],
       "notes": "Slew the Cretan Minotaur, united Attica, wed Ariadne & Phaedra, and fathered Hippolytus, Acamas & Demophon.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_b3_26_tantalus_niobe",
@@ -1888,8 +1766,7 @@
         "Apollodorus Epitome II.1"
       ],
       "notes": "Father of Pelops (Peloponnese) and Niobe.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_niobe",
@@ -1903,8 +1780,7 @@
         "Apollodorus III.v.6"
       ],
       "notes": "Boasted over Leto, bringing grief upon Thebes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_27_thyestes_aegisthus",
@@ -1918,8 +1794,7 @@
         "Apollodorus Epitome II.10–14"
       ],
       "notes": "Father of Aegisthus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_aegisthus",
@@ -1933,8 +1808,7 @@
         "Apollodorus Epitome VI.23–25"
       ],
       "notes": "Slain by Orestes after plotting Agamemnon's death.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_28_orestes_electra_iphigenia",
@@ -1948,8 +1822,7 @@
         "Apollodorus Epitome VI.24–28"
       ],
       "notes": "Married cousin Hermione (daughter of Menelaus & Helen) and fathered Tisamenus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_electra",
@@ -1963,8 +1836,7 @@
         "Apollodorus Epitome VI.24"
       ],
       "notes": "Protected young Orestes; later wed Pylades.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_iphigenia",
@@ -1978,8 +1850,7 @@
         "Apollodorus Epitome III.22, VI.27"
       ],
       "notes": "Carried by Artemis to Tauris before reuniting with Orestes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_29_paris_alexander_cassandra_he",
@@ -1993,8 +1864,7 @@
         "Apollodorus III.xii.5"
       ],
       "notes": "Son of King Priam & Hecuba; awarded the golden apple to Aphrodite.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_hector",
@@ -2009,8 +1879,7 @@
         "Apollodorus III.xii.5"
       ],
       "notes": "Eldest son of Priam & Hecuba; slain outside Troy's gates by Achilles.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "grkr_b3_cassandra",
@@ -2024,8 +1893,7 @@
         "Apollodorus III.xii.5"
       ],
       "notes": "Gifted true prophecy never believed.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_helenus",
@@ -2040,8 +1908,7 @@
         "Virgil Aeneid III"
       ],
       "notes": "Welcomed Aeneas at Buthrotum in Epirus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grkr_b3_creusa_troy",
@@ -2056,8 +1923,7 @@
         "Virgil Aeneid II.673"
       ],
       "notes": "Daughter of Priam & Hecuba; mother of Ascanius/Iulus by Aeneas.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

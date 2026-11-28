@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ancient World Genealogy Atlas — Universal Biblical &amp; Noahic Lineages</title>
-  <meta name="description" content="Universal World Genealogy Atlas (v32.0 Complete Compendium &amp; Downloadable Reports): 60fps Canvas Tree, Royalty &amp; Monarchs Index, Downloadable Complete PDF Compendium, AI-Ready Parsed Markdown, CSV Data Points &amp; JSONL Records." />
+  <meta name="description" content="Universal World Genealogy Atlas (v33.0 Canonical Directed Graph &amp; Semantic Compendium): Deduplicated Entities, node_type/relation_type Semantics, Directed Adam Paths &amp; Downloadable PDF/Markdown/CSV/JSONL Reports." />
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     :root {
@@ -69,7 +69,7 @@
           <h1 class="text-xs sm:text-sm font-semibold leading-tight truncate">Ancient World Genealogy Atlas</h1>
           <span id="versionBadge" class="text-[10px] sm:text-[11px] px-1.5 py-0.5 rounded bg-[var(--accent)] text-[var(--muted-foreground)] font-mono shrink-0">Loading…</span>
         </div>
-        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">Complete Compendium &amp; Reports (v32.0) &bull; Exhaustive PDF, AI Markdown, CSV &amp; JSONL</p>
+        <p class="hidden md:block text-[11px] text-[var(--muted-foreground)]">Canonical Directed Compendium (v33.0) &bull; Deduplicated Entities, Semantic Links &amp; Reports</p>
       </div>
     </div>
 
@@ -769,7 +769,8 @@ async function boot() {
     EDGES.forEach((e, idx) => {
       allAdjMap[e.from].push({ other: e.to, edge: e, idx, isOut: true });
       allAdjMap[e.to].push({ other: e.from, edge: e, idx, isOut: false });
-      if (e.type === "direct" || e.type === "expansion" || e.type === "genetic") {
+      const isLineageRel = !e.relation_type || e.relation_type === "parent_of" || e.relation_type === "successor_of";
+      if (isLineageRel && (e.type === "direct" || e.type === "expansion" || e.type === "genetic")) {
         if (!childrenMap[e.from].includes(e.to)) childrenMap[e.from].push(e.to);
         if (!parentsMap[e.to].includes(e.from)) parentsMap[e.to].push(e.from);
       }
@@ -1514,6 +1515,8 @@ function runPathfinder() {
     const [curr, path] = q.shift();
     if (curr === toId) { found = path; break; }
     for (const step of adj[curr]) {
+      const nextNode = nodesById[step.next];
+      if (step.next !== toId && nextNode && nextNode.node_type === "source_meta") continue;
       if (!visited.has(step.next)) {
         visited.add(step.next);
         q.push([step.next, [...path, { nodeId: step.next, edge: step.edge, edgeIdx: step.idx }]]);
@@ -1719,26 +1722,40 @@ function renderInspector(id) {
 
       <div>
         <div class="flex items-center justify-between gap-2 mb-2">
-          <h3 class="text-[11px] font-semibold uppercase tracking-wide text-[var(--muted-foreground)]">Connections (${neighbors.length})</h3>
+          <h3 class="text-[11px] font-semibold uppercase tracking-wide text-[var(--muted-foreground)]">Connections (${neighbors.length}) &bull; <span class="font-mono">${escapeHtml(n.node_type || "person")}</span></h3>
           ${hiddenConnCount > 0 ? `<span class="text-[10px] text-[var(--muted-foreground)]">+${hiddenConnCount} hidden by filter</span>` : ""}
         </div>
         <div class="space-y-1.5">
-          ${neighbors.map(({ other, edge, isOut }) => {
-            const on = nodesById[other];
-            const lm = LINK_META[edge.type];
-            const isChildLink = isOut && (edge.type === "direct" || edge.type === "expansion" || edge.type === "genetic");
-            const isParentLink = !isOut && (edge.type === "direct" || edge.type === "expansion" || edge.type === "genetic");
-            const borderAccent = isChildLink ? "border-amber-500/40" : (isParentLink ? "border-sky-400/40" : "border-[var(--card-border)]");
-            const arrowTag = isChildLink ? `<span style="color:#f59e0b">↓</span>` : (isParentLink ? `<span style="color:#38bdf8">↑</span>` : (isOut ? "→" : "←"));
-            return `
-              <button onclick="jumpToNode('${on.id}')" class="w-full text-left p-2 rounded-md border ${borderAccent} bg-[var(--background)] hover:border-[var(--primary)] transition">
-                <div class="flex items-center justify-between gap-2 text-xs">
-                  <span class="font-semibold truncate">${arrowTag} ${escapeHtml(on.name)}</span>
-                  <span class="shrink-0 text-[10px] font-medium px-1.5 py-0.5 rounded" style="color:${lm.color}; border:1px solid ${lm.color}44">${edge.type}</span>
-                </div>
-                <div class="text-[11px] text-[var(--muted-foreground)] mt-0.5">${escapeHtml(edge.label)}</div>
-              </button>`;
-          }).join("")}
+          ${(() => {
+            const groups = [
+              { title: "Parents / Ancestors", items: neighbors.filter(x => !x.isOut && (x.edge.relation_type || "parent_of") === "parent_of") },
+              { title: "Offspring / Descendants", items: neighbors.filter(x => x.isOut && (x.edge.relation_type || "parent_of") === "parent_of") },
+              { title: "Successors / Dynastic Line", items: neighbors.filter(x => x.edge.relation_type === "successor_of") },
+              { title: "Spouses & Consorts", items: neighbors.filter(x => x.edge.relation_type === "spouse_of") },
+              { title: "Allies, Rivals & Contemporaries", items: neighbors.filter(x => x.edge.relation_type === "foe_or_ally_of" || x.edge.relation_type === "contemporary_of") },
+              { title: "Archetypal / Motif Parallels", items: neighbors.filter(x => x.edge.relation_type === "motif_parallel") },
+            ].filter(g => g.items.length > 0);
+            return groups.map(g => `
+              <div class="text-[10px] font-semibold uppercase tracking-wide text-[var(--muted-foreground)] pt-1">${escapeHtml(g.title)} (${g.items.length})</div>
+              ${g.items.map(({ other, edge, isOut }) => {
+                const on = nodesById[other];
+                const lm = LINK_META[edge.type];
+                const rt = edge.relation_type || "parent_of";
+                const isChildLink = isOut && (rt === "parent_of" || rt === "successor_of");
+                const isParentLink = !isOut && (rt === "parent_of" || rt === "successor_of");
+                const borderAccent = isChildLink ? "border-amber-500/40" : (isParentLink ? "border-sky-400/40" : "border-[var(--card-border)]");
+                const arrowTag = isChildLink ? `<span style="color:#f59e0b">↓</span>` : (isParentLink ? `<span style="color:#38bdf8">↑</span>` : (rt === "spouse_of" ? "♥" : "↔"));
+                return `
+                  <button onclick="jumpToNode('${on.id}')" class="w-full text-left p-2 rounded-md border ${borderAccent} bg-[var(--background)] hover:border-[var(--primary)] transition">
+                    <div class="flex items-center justify-between gap-2 text-xs">
+                      <span class="font-semibold truncate">${arrowTag} ${escapeHtml(on.name)}</span>
+                      <span class="shrink-0 text-[10px] font-medium px-1.5 py-0.5 rounded" style="color:${lm.color}; border:1px solid ${lm.color}44">${escapeHtml(rt)}</span>
+                    </div>
+                    <div class="text-[11px] text-[var(--muted-foreground)] mt-0.5">${escapeHtml(edge.label)}</div>
+                  </button>`;
+              }).join("")}
+            `).join("");
+          })()}
         </div>
       </div>
     </div>`;

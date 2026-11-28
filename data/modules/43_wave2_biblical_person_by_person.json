@@ -16,8 +16,7 @@
         "Matthew 1:3–6"
       ],
       "notes": "Hezron (Son of Perez, Ruth 4:18; 1 Chr 2:9).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "w2_ram",
@@ -33,8 +32,7 @@
         "Matthew 1:3–6"
       ],
       "notes": "Ram / Aram (Son of Hezron, Ruth 4:19; Matt 1:3).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_amminadab",
@@ -50,8 +48,7 @@
         "Matthew 1:3–6"
       ],
       "notes": "Amminadab (Son of Ram, Ruth 4:19; Exod 6:23).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_nahshon",
@@ -67,8 +64,7 @@
         "Matthew 1:3–6"
       ],
       "notes": "Nahshon ben Amminadab (Prince of Judah, Num 1:7, 7:12).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "w2_salmon",
@@ -84,8 +80,7 @@
         "Matthew 1:3–6"
       ],
       "notes": "Salmon / Salma (Son of Nahshon; Husband of Rahab, Matt 1:5).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_obed",
@@ -101,8 +96,7 @@
         "Matthew 1:3–6"
       ],
       "notes": "Obed (Son of Boaz & Ruth the Moabite, Ruth 4:17).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_jesse",
@@ -118,8 +112,7 @@
         "Matthew 1:3–6"
       ],
       "notes": "Jesse of Bethlehem (Son of Obed; Father of King David).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "w2_nitzevet",
@@ -135,8 +128,7 @@
         "Matthew 1:3–6"
       ],
       "notes": "Nitzevet bat Adael (Mother of King David, Talmud Bava Batra 91a).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_abinadab_jesse",
@@ -150,8 +142,7 @@
         "1 Chronicles 2:13–15"
       ],
       "notes": "Abinadab (2nd Son of Jesse, 1 Sam 16:8; 1 Chr 2:13)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_shimea_jesse",
@@ -165,8 +156,7 @@
         "1 Chronicles 2:13–15"
       ],
       "notes": "Shimea / Shammah (3rd Son of Jesse, 1 Chr 2:13)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_nethanel_jesse",
@@ -180,8 +170,7 @@
         "1 Chronicles 2:13–15"
       ],
       "notes": "Nethanel (4th Son of Jesse, 1 Chr 2:14)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_raddai_jesse",
@@ -195,8 +184,7 @@
         "1 Chronicles 2:13–15"
       ],
       "notes": "Raddai (5th Son of Jesse, 1 Chr 2:14)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_ozem_jesse",
@@ -210,8 +198,7 @@
         "1 Chronicles 2:13–15"
       ],
       "notes": "Ozem (6th Son of Jesse, 1 Chr 2:15)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_jonathan_shimea",
@@ -226,8 +213,7 @@
         "1 Chronicles 20:7"
       ],
       "notes": "Son of David's brother Shimea; slew the six-fingered giant of Gath.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_abishai",
@@ -242,8 +228,7 @@
         "1 Chronicles 2:16"
       ],
       "notes": "Saved David from Ishbi-benob and led the vanguard at Rabbah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_joab",
@@ -258,8 +243,7 @@
         "1 Chronicles 2:16"
       ],
       "notes": "Nephew of David and commander-in-chief throughout his reign.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "w2_asahel",
@@ -274,8 +258,7 @@
         "1 Chronicles 2:16"
       ],
       "notes": "Youngest son of Zeruiah, slain by Abner at Gibeon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_jether_ishmaelite",
@@ -290,8 +273,7 @@
         "2 Samuel 17:25"
       ],
       "notes": "Ishmaelite husband of David's sister Abigail.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_amasa",
@@ -306,8 +288,7 @@
         "1 Chronicles 2:17"
       ],
       "notes": "Appointed commander by Absalom and later by David before being slain by Joab.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg2_amaziah",
@@ -322,8 +303,7 @@
         "2 Chronicles 25"
       ],
       "notes": "Son of King Joash & Jehoaddan; father of King Uzziah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg2_jotham",
@@ -338,8 +318,7 @@
         "2 Chronicles 27"
       ],
       "notes": "Son of King Uzziah & Jerusha bat Zadok; rebuilt Upper Gate of the Temple.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg2_ahaz",
@@ -355,8 +334,7 @@
         "Matt 1:9"
       ],
       "notes": "Son of King Jotham; father of King Hezekiah; attested in Tiglath-Pileser III inscriptions as Yauhazi.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg2_amon",
@@ -371,8 +349,7 @@
         "Matt 1:10"
       ],
       "notes": "Son of King Manasseh & Meshullemeth; father of King Josiah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg2_johanan_josiah",
@@ -386,8 +363,7 @@
         "1 Chronicles 3:15"
       ],
       "notes": "Eldest of Josiah's four sons listed in 1 Chr 3:15.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg2_jehoahaz",
@@ -402,8 +378,7 @@
         "Jeremiah 22:11"
       ],
       "notes": "Son of Josiah & Hamutal; reigned 3 months before being deposed to Egypt by Pharaoh Neco II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg2_zedekiah",
@@ -418,8 +393,7 @@
         "Jeremiah 39"
       ],
       "notes": "Third son of Josiah (& Hamutal); blinded and deported when Nebuchadnezzar II destroyed Jerusalem in 586 BCE.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "qm_mahalath",
@@ -433,8 +407,7 @@
         "2 Chronicles 11:18"
       ],
       "notes": "Daughter of Jerimoth ben David and Abihail bat Eliab; bore Jeush, Shemariah, and Zaham.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "qm_maacah_rehoboam",
@@ -449,8 +422,7 @@
         "2 Chronicles 11:20–21"
       ],
       "notes": "Favorite wife of Rehoboam; bore King Abijah, Attai, Ziza, and Shelomith.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "qm_zibiah",
@@ -465,8 +437,7 @@
         "2 Chronicles 24:1"
       ],
       "notes": "Wife of Ahaziah and mother of King Joash.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "qm_jehoaddan",
@@ -481,8 +452,7 @@
         "2 Chronicles 25:1"
       ],
       "notes": "Wife of King Joash and mother of King Amaziah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "qm_jecoliah",
@@ -497,8 +467,7 @@
         "2 Chronicles 26:3"
       ],
       "notes": "Wife of King Amaziah and mother of King Uzziah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "qm_jerusha",
@@ -513,8 +482,7 @@
         "2 Chronicles 27:1"
       ],
       "notes": "Daughter of Zadok; wife of Uzziah and mother of King Jotham.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "qm_abi_abijah",
@@ -529,8 +497,7 @@
         "2 Chronicles 29:1"
       ],
       "notes": "Wife of King Ahaz and mother of reforming King Hezekiah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "qm_hephzibah",
@@ -544,8 +511,7 @@
         "2 Kings 21:1"
       ],
       "notes": "Wife of King Hezekiah and mother of Manasseh.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "qm_meshullemeth",
@@ -559,8 +525,7 @@
         "2 Kings 21:19"
       ],
       "notes": "Wife of Manasseh and mother of King Amon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "qm_jedidah",
@@ -574,8 +539,7 @@
         "2 Kings 22:1"
       ],
       "notes": "Wife of King Amon and mother of reforming King Josiah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "qm_zebidah",
@@ -589,8 +553,7 @@
         "2 Kings 23:36"
       ],
       "notes": "Wife of Josiah and mother of King Jehoiakim.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "qm_hamutal",
@@ -604,8 +567,7 @@
         "2 Kings 23:31, 24:18"
       ],
       "notes": "Wife of King Josiah; mother of both Jehoahaz and final king Zedekiah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "qm_nehushta",
@@ -619,8 +581,7 @@
         "2 Kings 24:8, 12"
       ],
       "notes": "Wife of Jehoiakim; deported to Babylon with her son King Jehoiachin in 597 BCE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav2_azariah_jehosh",
@@ -634,8 +595,7 @@
         "2 Chronicles 21:2"
       ],
       "notes": "Son of King Jehoshaphat.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav2_jehiel_jehosh",
@@ -649,8 +609,7 @@
         "2 Chronicles 21:2"
       ],
       "notes": "Son of King Jehoshaphat.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav2_zechariah_jehosh",
@@ -664,8 +623,7 @@
         "2 Chronicles 21:2"
       ],
       "notes": "Son of King Jehoshaphat.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav2_azariahu_jehosh",
@@ -679,8 +637,7 @@
         "2 Chronicles 21:2"
       ],
       "notes": "Son of King Jehoshaphat.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav2_michael_jehosh",
@@ -694,8 +651,7 @@
         "2 Chronicles 21:2"
       ],
       "notes": "Son of King Jehoshaphat.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav2_shephatiah_jehosh",
@@ -709,8 +665,7 @@
         "2 Chronicles 21:2"
       ],
       "notes": "Son of King Jehoshaphat.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_shealtiel",
@@ -725,8 +680,7 @@
         "Matthew 1:12"
       ],
       "notes": "Eldest son of deported King Jehoiachin; legal father of Governor Zerubbabel.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "dav_malchiram",
@@ -740,8 +694,7 @@
         "1 Chronicles 3:18"
       ],
       "notes": "Second son of Jehoiachin in Babylon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_pedaiah",
@@ -755,8 +708,7 @@
         "1 Chronicles 3:18–19"
       ],
       "notes": "Son of Jehoiachin named as father of Zerubbabel and Shimei in 1 Chr 3:19 (Levirate link to Shealtiel).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_shenazzar",
@@ -770,8 +722,7 @@
         "1 Chronicles 3:18"
       ],
       "notes": "Fourth son of Jehoiachin.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_jekamiah",
@@ -785,8 +736,7 @@
         "1 Chronicles 3:18"
       ],
       "notes": "Fifth son of Jehoiachin.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_hoshama",
@@ -800,8 +750,7 @@
         "1 Chronicles 3:18"
       ],
       "notes": "Sixth son of Jehoiachin.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_nedabiah",
@@ -815,8 +764,7 @@
         "1 Chronicles 3:18"
       ],
       "notes": "Seventh son of Jehoiachin.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_zerubbabel",
@@ -833,8 +781,7 @@
         "Matthew 1:12"
       ],
       "notes": "Davidic governor who led the return from Babylon under Cyrus and rebuilt the Second Temple alongside High Priest Jeshua.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "dav_zer_meshullam",
@@ -848,8 +795,7 @@
         "1 Chronicles 3:19"
       ],
       "notes": "Eldest son of Zerubbabel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_zer_hananiah",
@@ -863,8 +809,7 @@
         "1 Chronicles 3:19, 21"
       ],
       "notes": "Second son of Zerubbabel through whom Chronicles traces the post-exilic Davidic line to Anani.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_zer_shelomith",
@@ -878,8 +823,7 @@
         "1 Chronicles 3:19"
       ],
       "notes": "Named daughter of Zerubbabel, corroborated by a 6th-c. BCE Yehud seal reading 'Belonging to Shelomith maidservant of Elnathan the Governor'!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_zer_hashubah",
@@ -893,8 +837,7 @@
         "1 Chronicles 3:20"
       ],
       "notes": "Third son of Zerubbabel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_zer_ohel",
@@ -908,8 +851,7 @@
         "1 Chronicles 3:20"
       ],
       "notes": "Fourth son of Zerubbabel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_zer_berechiah",
@@ -923,8 +865,7 @@
         "1 Chronicles 3:20"
       ],
       "notes": "Fifth son of Zerubbabel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_zer_hasadiah",
@@ -938,8 +879,7 @@
         "1 Chronicles 3:20"
       ],
       "notes": "Sixth son of Zerubbabel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_zer_jushabhesed",
@@ -953,8 +893,7 @@
         "1 Chronicles 3:20"
       ],
       "notes": "Seventh son of Zerubbabel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_chr_pelatiah",
@@ -968,8 +907,7 @@
         "1 Chronicles 3:21"
       ],
       "notes": "Son of Hananiah ben Zerubbabel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_chr_rephaiah",
@@ -983,8 +921,7 @@
         "1 Chronicles 3:21"
       ],
       "notes": "Post-exilic Davidic link.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_chr_arnan",
@@ -998,8 +935,7 @@
         "1 Chronicles 3:21"
       ],
       "notes": "Post-exilic Davidic link.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_chr_obadiah",
@@ -1013,8 +949,7 @@
         "1 Chronicles 3:21"
       ],
       "notes": "Post-exilic Davidic link.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_chr_shecaniah",
@@ -1028,8 +963,7 @@
         "1 Chronicles 3:21"
       ],
       "notes": "Father of Shemaiah & Hattush.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_chr_shemaiah",
@@ -1043,8 +977,7 @@
         "1 Chronicles 3:22"
       ],
       "notes": "Father of Neariah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_chr_neariah",
@@ -1058,8 +991,7 @@
         "1 Chronicles 3:22–23"
       ],
       "notes": "Father of Elioenai, Hizkiah & Azrikam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_chr_elioenai",
@@ -1073,8 +1005,7 @@
         "1 Chronicles 3:23–24"
       ],
       "notes": "Father of Hodaviah, Eliashib, Pelaiah, Akkub, Johanan, Delaiah, and Anani.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "dav_chr_anani",
@@ -1088,8 +1019,7 @@
         "1 Chronicles 3:24"
       ],
       "notes": "Youngest son of Elioenai and final named person in the Old Testament genealogy of the House of David.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_zeruah",
@@ -1103,8 +1033,7 @@
         "1–2 Kings"
       ],
       "notes": "Zeruah (Widow Mother of Jeroboam I, 1 Kgs 11:26).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_abijah_jeroboam",
@@ -1118,8 +1047,7 @@
         "1–2 Kings"
       ],
       "notes": "Prince Abijah ben Jeroboam I (1 Kgs 14:1–18).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_nadab",
@@ -1133,8 +1061,7 @@
         "1–2 Kings"
       ],
       "notes": "2. King Nadab ben Jeroboam I (909–908 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_elah",
@@ -1148,8 +1075,7 @@
         "1–2 Kings"
       ],
       "notes": "4. King Elah ben Baasha (886–885 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_zimri",
@@ -1163,8 +1089,7 @@
         "1–2 Kings"
       ],
       "notes": "5. King Zimri (Reigned 7 Days in Tirzah, 885 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_ahab",
@@ -1178,8 +1103,7 @@
         "1–2 Kings"
       ],
       "notes": "7. King Ahab ben Omri (874–853 BCE; Kurkh Monolith).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "isr_ethbaal_sidon",
@@ -1193,8 +1117,7 @@
         "1–2 Kings"
       ],
       "notes": "King Ethbaal / Ithobaal I of Sidon & Tyre (Father of Queen Jezebel, 1 Kgs 16:31).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "isr_jezebel",
@@ -1208,8 +1131,7 @@
         "1–2 Kings"
       ],
       "notes": "Queen Jezebel of Israel (Daughter of Ethbaal; Wife of Ahab, 1 Kgs 16:31).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "isr_ahaziah",
@@ -1223,8 +1145,7 @@
         "1–2 Kings"
       ],
       "notes": "8. King Ahaziah of Israel (Son of Ahab & Jezebel, 853–852 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_joram",
@@ -1238,8 +1159,7 @@
         "1–2 Kings"
       ],
       "notes": "9. King Joram / Jehoram of Israel (Son of Ahab & Jezebel, 852–841 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_jehoahaz",
@@ -1253,8 +1173,7 @@
         "1–2 Kings"
       ],
       "notes": "11. King Jehoahaz ben Jehu (814–798 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_jehoash",
@@ -1268,8 +1187,7 @@
         "1–2 Kings"
       ],
       "notes": "12. King Jehoash / Joash of Israel (798–782 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_jeroboam2",
@@ -1283,8 +1201,7 @@
         "1–2 Kings"
       ],
       "notes": "13. King Jeroboam II of Israel (793–753 BCE; Amos Era).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "isr_zechariah",
@@ -1298,8 +1215,7 @@
         "1–2 Kings"
       ],
       "notes": "14. King Zechariah ben Jeroboam II (Last of House of Jehu, 753 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_shallum",
@@ -1313,8 +1229,7 @@
         "1–2 Kings"
       ],
       "notes": "15. King Shallum ben Jabesh (752 BCE, 1 Month).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_menahem",
@@ -1328,8 +1243,7 @@
         "1–2 Kings"
       ],
       "notes": "16. King Menahem ben Gadi (752–742 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_pekahiah",
@@ -1343,8 +1257,7 @@
         "1–2 Kings"
       ],
       "notes": "17. King Pekahiah ben Menahem (742–740 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "isr_pekah",
@@ -1358,8 +1271,7 @@
         "1–2 Kings"
       ],
       "notes": "18. King Pekah ben Remaliah (740–732 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_barak",
@@ -1374,8 +1286,7 @@
         "Hebrews 11:32"
       ],
       "notes": "Summoned by Judge Deborah from Naphtali; routed Sisera at Mt. Tabor.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_heber_kenite",
@@ -1389,8 +1300,7 @@
         "Judges 4:11, 17"
       ],
       "notes": "Descendant of Moses's father-in-law Hobab/Jethro; husband of Jael.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_jael",
@@ -1404,8 +1314,7 @@
         "Judges 4:17–22, 5:24"
       ],
       "notes": "'Most blessed of women' who struck down Canaanite commander Sisera with a tent peg.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jdg2_abimelech",
@@ -1419,8 +1328,7 @@
         "Judges 9:1–57"
       ],
       "notes": "Son of Gideon who seized rule at Shechem before falling at Thebez.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_jotham",
@@ -1434,8 +1342,7 @@
         "Judges 9:5–21"
       ],
       "notes": "Sole survivor among Gideon's 70 sons who pronounced the Fable of the Trees on Mt. Gerizim.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_jair",
@@ -1449,8 +1356,7 @@
         "Judges 10:3–5"
       ],
       "notes": "Gileadite judge for 22 years whose 30 sons rode 30 donkeys and governed Havvoth-jair.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_elon",
@@ -1464,8 +1370,7 @@
         "Judges 12:11–12"
       ],
       "notes": "Buried at Aijalon in Zebulun after judging 10 years.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_abdon",
@@ -1479,8 +1384,7 @@
         "Judges 12:13–15"
       ],
       "notes": "Ephraimite judge with 40 sons and 30 grandsons riding 70 donkeys.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_manoah",
@@ -1494,8 +1398,7 @@
         "Judges 13:2–24"
       ],
       "notes": "Danite of Zorah visited by the Angel of the Lord before Samson's birth.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_delilah",
@@ -1509,8 +1412,7 @@
         "Judges 16:4–21"
       ],
       "notes": "Betrayed Samson to the five Philistine lords for 1,100 pieces of silver each.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_hophni",
@@ -1524,8 +1426,7 @@
         "1 Samuel 1:3, 4:11"
       ],
       "notes": "Elder son of Eli slain when the Ark was captured at Aphek.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_phinehas_eli",
@@ -1539,8 +1440,7 @@
         "1 Samuel 4:11–22, 14:3"
       ],
       "notes": "Younger son of Eli; father of Ahitub and Ichabod.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_ichabod",
@@ -1554,8 +1454,7 @@
         "1 Samuel 4:19–22"
       ],
       "notes": "Born as his mother heard the Ark was taken ('No glory').",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_ahitub_eli",
@@ -1569,8 +1468,7 @@
         "1 Samuel 14:3, 22:9"
       ],
       "notes": "Son of Phinehas ben Eli; father of Ahiah/Ahimelech of Nob.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_ahimelech",
@@ -1584,8 +1482,7 @@
         "1 Samuel 21:1, 22:9–20"
       ],
       "notes": "Aided fleeing David with showbread & Goliath's sword before Doeg's massacre.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_abiathar",
@@ -1600,8 +1497,7 @@
         "1 Kings 2:26–27"
       ],
       "notes": "Escaped Nob to serve David alongside Zadok; father of Jonathan & Ahimelech II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_elkanah",
@@ -1616,8 +1512,7 @@
         "1 Chronicles 6:33–38"
       ],
       "notes": "Husband of Hannah and Peninnah; father of Samuel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_hannah",
@@ -1631,8 +1526,7 @@
         "1 Samuel 1–2"
       ],
       "notes": "Prayed silently at Shiloh and dedicated firstborn Samuel, later bearing 3 more sons and 2 daughters (1 Sam 2:21).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jdg2_joel_samuel",
@@ -1647,8 +1541,7 @@
         "1 Chronicles 6:28, 33"
       ],
       "notes": "Father of David's chief Temple musician Heman.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_abijah_samuel",
@@ -1662,8 +1555,7 @@
         "1 Samuel 8:2"
       ],
       "notes": "Younger son of Samuel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg2_heman_singer",
@@ -1678,8 +1570,7 @@
         "Psalm 88"
       ],
       "notes": "Grandson of Prophet Samuel and leader of David's Temple music.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "saul_abiel",
@@ -1694,8 +1585,7 @@
         "1 Chronicles 8:29, 9:35"
       ],
       "notes": "Benjaminite ancestor of King Saul and General Abner.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "saul_kish",
@@ -1710,8 +1600,7 @@
         "Acts 13:21"
       ],
       "notes": "Mighty Benjaminite of Gibeah; father of King Saul.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "saul_ner",
@@ -1726,8 +1615,7 @@
         "1 Chronicles 8:33"
       ],
       "notes": "Benjaminite patriarch whose son Abner commanded Saul's army.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "saul_abner",
@@ -1742,8 +1630,7 @@
         "2 Samuel 2–3"
       ],
       "notes": "Cousin of Saul; crowned Ish-bosheth before negotiating Israel's union with David.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "saul_abinadab",
@@ -1757,8 +1644,7 @@
         "1 Samuel 14:49, 31:2"
       ],
       "notes": "Slain beside father Saul and brothers at Mount Gilboa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "saul_malchishua",
@@ -1773,8 +1659,7 @@
         "1 Chronicles 8:33"
       ],
       "notes": "Slain beside Saul and Jonathan at Mount Gilboa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "saul_ishbosheth",
@@ -1789,8 +1674,7 @@
         "1 Chronicles 8:33"
       ],
       "notes": "Fourth son of Saul; reigned two years at Mahanaim.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "saul_armoni_mephi",
@@ -1804,8 +1688,7 @@
         "2 Samuel 21:8–14"
       ],
       "notes": "Guard-watched by their mother Rizpah on the rock of Gibeah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "saul_mica_line",
@@ -1819,8 +1702,7 @@
         "1 Chronicles 8:35–40, 9:41–44"
       ],
       "notes": "Continues Jonathan's royal line through Ahaz -> Jehoaddah -> Alemeth/Azmaveth/Zimri -> Moza -> Binea -> Raphah -> Eleasah -> Azel -> Eshek -> Ulam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pro2_elisha",
@@ -1835,8 +1717,7 @@
         "2 Kings 2–13"
       ],
       "notes": "Received Elijah's double portion; anointed Jehu of Israel and Hazael of Damascus.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pro2_zephaniah",
@@ -1850,8 +1731,7 @@
         "Zephaniah 1:1"
       ],
       "notes": "Zeph 1:1 explicitly traces Cushi -> Gedaliah -> Amariah -> King Hezekiah!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pro2_shear_jashub",
@@ -1865,8 +1745,7 @@
         "Isaiah 7:3"
       ],
       "notes": "Accompanied Isaiah to meet King Ahaz ('A remnant shall return').",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pro2_maher_shalal",
@@ -1880,8 +1759,7 @@
         "Isaiah 8:1–4"
       ],
       "notes": "Named before Damascus and Samaria fell to Assyria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pro2_baruch",
@@ -1896,8 +1774,7 @@
         "Jeremiah 45"
       ],
       "notes": "Wrote Jeremiah's dictated scroll and left two authentic Jerusalem clay bullae ('Berekhyahu ben Neriyahu ha-Sofer')!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pro2_ezekiel",
@@ -1911,8 +1788,7 @@
         "Ezekiel 1:1–3"
       ],
       "notes": "Exiled with King Jehoiachin in 597 BCE to the Kebar canal in Babylonia.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pro2_hananiah_shadrach",
@@ -1926,8 +1802,7 @@
         "Daniel 1:6–7, 3"
       ],
       "notes": "Exiled from Judah with Daniel and appointed administrators of Babylon province.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pro2_nehemiah",
@@ -1941,8 +1816,7 @@
         "Nehemiah 1–13"
       ],
       "notes": "Cupbearer at Susa commissioned by Artaxerxes I to rebuild Jerusalem's walls.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pro2_gomer",
@@ -1956,8 +1830,7 @@
         "Hosea 1:2–9"
       ],
       "notes": "Mother of three prophetic-sign children with Hosea.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pro2_amos",
@@ -1971,8 +1844,7 @@
         "Amos 1:1, 7:14"
       ],
       "notes": "Herdsman from Judahite Tekoa who prophesied at Bethel under Jeroboam II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pro2_jonah",
@@ -1987,8 +1859,7 @@
         "Book of Jonah"
       ],
       "notes": "Zebulunite prophet of Gath-hepher whose mission to Nineveh is cited in Matt 12:40.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pro2_micah",
@@ -2002,8 +1873,7 @@
         "Micah 1:1, 5:2"
       ],
       "notes": "Contemporary of Isaiah who prophesied Messiah's birth in Bethlehem.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pro2_habakkuk",
@@ -2017,8 +1887,7 @@
         "Book of Habakkuk"
       ],
       "notes": "Prophesied on the eve of the Neo-Babylonian rise.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pro2_zechariah_iddo",
@@ -2033,8 +1902,7 @@
         "Ezra 5:1"
       ],
       "notes": "Grandson of Iddo; encouraged Zerubbabel and Jeshua in rebuilding the Second Temple.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pro2_haggai",
@@ -2049,8 +1917,7 @@
         "Ezra 5:1"
       ],
       "notes": "Called Zerubbabel and High Priest Jeshua to resume Temple construction in Darius I's 2nd year.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pro2_malachi",
@@ -2064,8 +1931,7 @@
         "Book of Malachi"
       ],
       "notes": "Called post-exilic priesthood to covenant faithfulness.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_ahithophel",
@@ -2079,8 +1945,7 @@
         "2 Samuel 15:12, 23:34"
       ],
       "notes": "Father of Eliam (2 Sam 23:34) and grandfather of Queen Bathsheba.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_uriah_hittite",
@@ -2095,8 +1960,7 @@
         "2 Samuel 23:39"
       ],
       "notes": "Honored Hittite soldier and first husband of Bathsheba.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_caleb_jephunneh",
@@ -2112,8 +1976,7 @@
         "1 Chronicles 4:15"
       ],
       "notes": "Companion spy with Joshua who inherited Hebron and gave daughter Achsah to Othniel.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "w2_abihail_esther",
@@ -2128,8 +1991,7 @@
         "Esther 9:29"
       ],
       "notes": "Brother of Mordecai's father Jair; father of Hadassah / Queen Esther.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_queen_esther",
@@ -2143,8 +2005,7 @@
         "Book of Esther"
       ],
       "notes": "Orphaned daughter of Abihail raised by cousin Mordecai; wed Emperor Ahasuerus/Xerxes I and thwarted Haman's decree.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "w2_queen_vashti",
@@ -2158,8 +2019,7 @@
         "Esther 1:9–22"
       ],
       "notes": "Deposed prior to the selection of Queen Esther.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_anak",
@@ -2174,8 +2034,7 @@
         "Joshua 15:14"
       ],
       "notes": "Son of Arba; father of the three Anakim clans of Hebron.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_job_jemimah",
@@ -2189,8 +2048,7 @@
         "Job 42:14–15"
       ],
       "notes": "Eldest of Job's three post-trial daughters granted equal inheritance.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_job_keziah",
@@ -2204,8 +2062,7 @@
         "Job 42:14–15"
       ],
       "notes": "Second of Job's three daughters ('Cassia').",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_job_kerenhappuch",
@@ -2219,8 +2076,7 @@
         "Job 42:14–15"
       ],
       "notes": "Youngest of Job's three daughters.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_asaph_seer",
@@ -2235,8 +2091,7 @@
         "2 Chronicles 29:30"
       ],
       "notes": "Ancestor of the post-exilic Sons of Asaph choir (Ezra 2:41).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "w2_ethan_jeduthun",
@@ -2251,8 +2106,7 @@
         "Psalm 89 title"
       ],
       "notes": "Third chief Levitical musician alongside Heman and Asaph.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "m1_abiud",
@@ -2266,8 +2120,7 @@
         "Matthew 1:13–16"
       ],
       "notes": "Abiud (Son of Zerubbabel, Matt 1:13) in Matthew 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "m1_eliakim",
@@ -2281,8 +2134,7 @@
         "Matthew 1:13–16"
       ],
       "notes": "Eliakim (Matt 1:13) in Matthew 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "m1_azor",
@@ -2296,8 +2148,7 @@
         "Matthew 1:13–16"
       ],
       "notes": "Azor (Matt 1:13–14) in Matthew 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "m1_zadok",
@@ -2311,8 +2162,7 @@
         "Matthew 1:13–16"
       ],
       "notes": "Zadok (Matt 1:14) in Matthew 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "m1_achim",
@@ -2326,8 +2176,7 @@
         "Matthew 1:13–16"
       ],
       "notes": "Achim (Matt 1:14) in Matthew 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "m1_eliud",
@@ -2341,8 +2190,7 @@
         "Matthew 1:13–16"
       ],
       "notes": "Eliud (Matt 1:14–15) in Matthew 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "m1_eleazar",
@@ -2356,8 +2204,7 @@
         "Matthew 1:13–16"
       ],
       "notes": "Eleazar (Matt 1:15) in Matthew 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "m1_matthan",
@@ -2371,8 +2218,7 @@
         "Matthew 1:13–16"
       ],
       "notes": "Matthan (Matt 1:15 — Syriac Matthan + Sebhrath!) in Matthew 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "m1_jacob",
@@ -2386,8 +2232,7 @@
         "Matthew 1:13–16"
       ],
       "notes": "Jacob ben Matthan (Father of Joseph, Matt 1:15–16) in Matthew 1.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_01_mattatha",
@@ -2401,8 +2246,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #2 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_02_menna",
@@ -2416,8 +2260,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #3 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_03_melea",
@@ -2431,8 +2274,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #4 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_04_eliakim",
@@ -2446,8 +2288,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #5 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_05_jonam",
@@ -2461,8 +2302,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #6 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_06_joseph",
@@ -2476,8 +2316,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #7 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_07_judah",
@@ -2491,8 +2330,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #8 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_08_simeon",
@@ -2506,8 +2344,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #9 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_09_levi",
@@ -2521,8 +2358,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #10 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_10_matthat",
@@ -2536,8 +2372,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #11 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_11_jorim",
@@ -2551,8 +2386,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #12 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_12_eliezer",
@@ -2566,8 +2400,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #13 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_13_joshua",
@@ -2581,8 +2414,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #14 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_14_er",
@@ -2596,8 +2428,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #15 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_15_elmadam",
@@ -2611,8 +2442,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #16 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_16_cosam",
@@ -2626,8 +2456,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #17 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_17_addi",
@@ -2641,8 +2470,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #18 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_18_melchi",
@@ -2656,8 +2484,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #19 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_19_neri",
@@ -2671,8 +2498,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #20 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_20_rhesa",
@@ -2686,8 +2512,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #21 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_21_joanan",
@@ -2701,8 +2526,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #22 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_22_joda",
@@ -2716,8 +2540,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #23 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_23_josech",
@@ -2731,8 +2554,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #24 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_24_semein",
@@ -2746,8 +2568,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #25 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_25_mattathias",
@@ -2761,8 +2582,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #26 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_26_maath",
@@ -2776,8 +2596,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #27 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_27_naggai",
@@ -2791,8 +2610,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #28 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_28_esli",
@@ -2806,8 +2624,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #29 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_29_nahum",
@@ -2821,8 +2638,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #30 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_30_amos",
@@ -2836,8 +2652,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #31 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_31_mattathias",
@@ -2851,8 +2666,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #32 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_32_joseph",
@@ -2866,8 +2680,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #33 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_33_jannai",
@@ -2881,8 +2694,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #34 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_34_melchi",
@@ -2896,8 +2708,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #35 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_35_levi",
@@ -2911,8 +2722,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #36 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "l3_36_matthat",
@@ -2926,8 +2736,7 @@
         "Luke 3:23–31"
       ],
       "notes": "Link #37 in the Gospel of Luke's David-via-Nathan pedigree.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nt2_zechariah_priest",
@@ -2941,8 +2750,7 @@
         "Gospels, Acts & Epistles"
       ],
       "notes": "Priest Zechariah (Course of Abijah; Father of John the Baptist, Luke 1:5)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nt2_elizabeth",
@@ -2956,8 +2764,7 @@
         "Gospels, Acts & Epistles"
       ],
       "notes": "Elizabeth (Daughter of Aaron & Sobe; Mother of John the Baptist, Luke 1:5)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nt2_aquila",
@@ -2971,8 +2778,7 @@
         "Gospels, Acts & Epistles"
       ],
       "notes": "Aquila of Pontus (Tentmaker Co-Worker of Paul, Acts 18:2)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nt2_priscilla",
@@ -2986,8 +2792,7 @@
         "Gospels, Acts & Epistles"
       ],
       "notes": "Priscilla / Prisca (Teacher of Apollos, Acts 18:2, 26; Rom 16:3)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nt2_simon_cyrene",
@@ -3001,8 +2806,7 @@
         "Gospels, Acts & Epistles"
       ],
       "notes": "Simon of Cyrene (Cross-Bearer; Father of Alexander & Rufus, Mark 15:21)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nt2_alexander_cyrene",
@@ -3016,8 +2820,7 @@
         "Gospels, Acts & Epistles"
       ],
       "notes": "Alexander (Son of Simon of Cyrene, Mark 15:21)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nt2_rufus_cyrene",
@@ -3031,8 +2834,7 @@
         "Gospels, Acts & Epistles"
       ],
       "notes": "Rufus (Son of Simon of Cyrene; Greeted in Rom 16:13)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nt2_philip_evangelist",
@@ -3046,8 +2848,7 @@
         "Gospels, Acts & Epistles"
       ],
       "notes": "Philip the Evangelist of Caesarea (One of the Seven; Father of 4 Prophetesses, Acts 21:8–9)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nt2_philip_4daughters",
@@ -3061,8 +2862,7 @@
         "Gospels, Acts & Epistles"
       ],
       "notes": "Four Prophesying Virgin Daughters of Philip (Acts 21:9; Eusebius HE III.31)",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

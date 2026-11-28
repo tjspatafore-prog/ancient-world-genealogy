@@ -19,8 +19,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Olof Skotkonung (+ Estrid of the Obotrites)'s daughter Ingegerd Olofsdotter wed Yaroslav the Wise of Kiev (1019), placing Swedish Munsö blood directly into Kiev, France, England, Norway, and Hungary!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur42_gustav_vasa",
@@ -34,8 +33,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Led Sweden out of the Kalmar Union (1523); father of Eric XIV, John III, and Charles IX.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur42_gustavus_christina",
@@ -49,8 +47,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Son of Charles IX; transformed Sweden into a European Great Power; succeeded by his daughter Queen Christina.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur42_charles12_bernadotte",
@@ -64,8 +61,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Connects Vasa/Palatinate Sweden through the Bernadottes (allied by marriage with Queen Victoria & Napoleonic/Wurtemberg houses) to the present day.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur42_gorm_bluetooth_cnut",
@@ -85,8 +81,7 @@
         "Adam of Bremen"
       ],
       "notes": "Sweyn Forkbeard wed Gunhild/Sigrid (Piast Poland / Sweden), fathering King Cnut the Great of England, Denmark & Norway (+ Emma of Normandy -> Harthacnut & Gunhilda -> Emperor Henry III; sister Estrid -> Sweyn II Estridsen)!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur42_valdemar_margaret",
@@ -100,8 +95,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Margaret I united Denmark, Norway, and Sweden (1397) and adopted Eric of Pomerania.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur42_christian4_denmark",
@@ -115,8 +109,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Longest-reigning Scandinavian monarch (ancestor via Princess Anne of Scotland/England to Britain's Stuarts & Windsors!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur_poland_mieszko",
@@ -134,8 +127,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Mieszko I's daughter wed Eric the Victorious of Sweden & Sweyn Forkbeard of Denmark (birthing Cnut the Great!); his son Mieszko II fathered Casimir I (+ Maria Dobroniega of Kiev, sister of Yaroslav the Wise!) — graduating Poland cleanly into Biblically Connected!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur42_casimir1_poland",
@@ -149,8 +141,7 @@
         "Gallus Anonymus"
       ],
       "notes": "Grandson of Mieszko I & Boleslaw I; married Yaroslav the Wise's sister Maria Dobroniega of Kiev, fusing Piast Poland directly with Rurikid Rus' and the Byzantine/Wessex networks!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur42_casimir3_poland",
@@ -164,8 +155,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Doubled Poland's territory; sister Elizabeth married Charles I of Hungary, birthing King Louis I the Great of Hungary & Poland.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur42_jadwiga_jagiello",
@@ -183,8 +173,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Daughter of Capetian-Anjou King Louis I of Hungary & Poland; crowned Rex Poloniae (1384) and married Grand Duke Jogaila (Wladyslaw II Jagiello) of Lithuania, creating the Jagiellonian superpower!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur42_sigismund_sobieski",
@@ -198,8 +187,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Casimir IV's sons & daughters ruled Poland, Lithuania, Bohemia, and Hungary; descendant King John III Sobieski relieved the 1683 Siege of Vienna.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur42_almos_arpad_stephen",
@@ -218,8 +206,7 @@
         "Modern Universal History"
       ],
       "notes": "Arpad dynasty converted under St. Stephen I (+ Gisela of Bavaria); cousin King Andrew I married Princess Anastasia of Kiev (eldest daughter of Yaroslav the Wise & Ingegerd of Sweden!), graduating Hungary directly into Biblically Connected!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur42_bela3_louis_great",
@@ -233,8 +220,7 @@
         "European Royal Chronicles"
       ],
       "notes": "Bela III (+ Capetian Princess Margaret of France!) -> Andrew II (+ Gertrude of Merania -> St. Elizabeth of Hungary & Bela IV) -> Capetian Anjou Charles I -> King Louis the Great (father of Queen Jadwiga!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur42_hunyadi_corvinus",
@@ -248,8 +234,7 @@
         "European Royal Chronicles"
       ],
       "notes": "Defended Central Europe and built the Bibliotheca Corviniana at Buda.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur42_premysl_wenceslas",
@@ -266,8 +251,7 @@
         "Cosmas of Prague Chronica Boemorum"
       ],
       "notes": "Premyslid rulers unified Bohemia & Moravia; King Ottokar II married Kunigunda of Halych (granddaughter of Bela IV of Hungary & Rurikid Rostislav Mikhailovich of Kiev!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur42_charles4_bohemia",
@@ -284,8 +268,7 @@
         "European Royal Chronicles"
       ],
       "notes": "Son of Premyslid Queen Elisabeth of Bohemia & John of Luxembourg; Golden Bull of 1356, founder of Charles University Prague; sister Bonne wed King John II of France and daughter Anne wed King Richard II of England!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur42_mindaugas_gediminas",
@@ -303,8 +286,7 @@
         "Modern Universal History Vol. 12"
       ],
       "notes": "Grand Duke Algirdas wed Russian Rurikid Princess Uliana of Tver (fathering Wladyslaw II Jagiello -> Polish-Lithuanian Commonwealth!), while nephew Vytautas's daughter Sophia wed Grand Prince Vasily I of Moscow!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_charlemagne_kids",
@@ -319,8 +301,7 @@
         "Annales Regni Francorum"
       ],
       "notes": "Louis the Pious (Emperor -> Lothair I, Louis the German, Charles the Bald + Judith/Gisela -> Alfred the Great's stepmother Judith of Flanders!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_william_conqueror_kids",
@@ -335,8 +316,7 @@
         "William of Malmesbury"
       ],
       "notes": "Henry I wed Edith/Matilda of Scotland (uniting Norman & Wessex/Celtic Scottish royal bloodlines!) -> Empress Matilda -> Henry II Plantagenet!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_eleanor_aquitaine",
@@ -353,8 +333,7 @@
         "European Royal Chronicles"
       ],
       "notes": "Wed both Louis VII of France (Marie & Alix of France) and Henry II of England (Richard I, King John, Eleanor of Castile -> Ferdinand III -> Blanche of Castile + Louis VIII -> St. Louis IX!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pc_ferdinand_isabella_kids",
@@ -372,8 +351,7 @@
         "Howell (1685)"
       ],
       "notes": "All five children of Ferdinand & Isabella wed Europe's major crowns (Habsburg Austria/Netherlands, Tudor England, Aviz Portugal), fathering Emperor Charles V & Queen Mary I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_habsburg_dynasty",
@@ -392,8 +370,7 @@
         "Betham Tables (1795)"
       ],
       "notes": "Maximilian I (+ Mary of Burgundy) -> Philip the Handsome (+ Juana) -> Charles V & Ferdinand I (Bohemia/Hungary); Empress Maria Theresa (16 children incl. Joseph II, Leopold II & Queen Marie Antoinette -> Bourbon France)!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pc_medici_house",
@@ -412,8 +389,7 @@
         "Betham (1795)"
       ],
       "notes": "Catherine de' Medici (+ King Henry II -> Francis II, Charles IX, Henry III, Margot) and Marie de' Medici (+ King Henry IV -> Louis XIII & Queen Henrietta Maria of England!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_bourbons_napoleon",
@@ -432,8 +408,7 @@
         "Betham (1795)"
       ],
       "notes": "Louis XIV's Bourbon line ruled France, Spain (Philip V) & Naples/Sicily; Napoleon wed Habsburg Archduchess Marie Louise (niece of Marie Antoinette!), fathering Napoleon II (King of Rome).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pc_hohenzollern_prussia",
@@ -451,8 +426,7 @@
         "Modern Universal History"
       ],
       "notes": "Frederick the Great modernized Prussia; Crown Prince Frederick III wed Britain's Princess Royal Victoria -> Kaiser Wilhelm II (first cousin of King George V & Tsaritsa Alexandra!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_hanover_windsor_victoria",
@@ -473,8 +447,7 @@
         "Burke's Royal Genealogies"
       ],
       "notes": "Via Stuart heiress Elizabeth (dau. of James I) -> Electress Sophia -> George I -> Queen Victoria (+ Prince Albert), whose 9 children wed Prussia/Germany, Russia (Tsaritsa Alexandra!), Denmark/Greece (Prince Philip!), Spain (Queen Victoria Eugenie!), Sweden, Norway & Romania down to King Charles III & Prince William today!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pc_romanovs_late",
@@ -493,8 +466,7 @@
         "European Royal Genealogies"
       ],
       "notes": "Peter the Great -> Anna & Peter III (+ Catherine the Great) -> Alexander I (defeated Napoleon) -> Tsar Nicholas II & Romanov children.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_ptolemy_cleopatra_kids",
@@ -514,8 +486,7 @@
         "Suetonius"
       ],
       "notes": "Cleopatra VII's twins Alexander Helios & Cleopatra Selene II wed into Emesa/Media and Mauretania: Cleopatra Selene II married scholar-king Juba II of Mauretania/Numidia, fathering King Ptolemy of Mauretania!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pc_seleucids_pontus",
@@ -531,8 +502,7 @@
         "Justin"
       ],
       "notes": "Antiochus III (+ daughter Cleopatra I Syra married Ptolemy V!), Antiochus IV Epiphanes (Maccabean Revolt), and Mithridates VI Eupator of Pontus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_barcids_scipios",
@@ -548,8 +518,7 @@
         "Plutarch Gracchi"
       ],
       "notes": "Hamilcar Barca's sons crossed the Alps; Scipio Africanus's learned daughter Cornelia ('Mother of the Gracchi') mothered reformers Tiberius and Gaius Gracchus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_roman_julio_flavian_antonine",
@@ -569,8 +538,7 @@
         "Herodian"
       ],
       "notes": "Full imperial Roman sequence intersecting Jesus, the Apostles, Jerusalem 70 CE (Vespasian & Titus), Queen Berenice II, and Bar Kokhba (Hadrian).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pc_byzantine_palaiologoi_moscow",
@@ -588,8 +556,7 @@
         "Modern Universal History Vol. 13"
       ],
       "notes": "Princess Zoe (Sophia) Palaiologina, niece of final Byzantine Emperor Constantine XI (d. 1453), married Grand Prince Ivan III the Great of Moscow in 1472 — making the Romanov/Rurikid Tsars direct biological heirs of Christian Constantinople!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pc_islamic_abbasid_cordoba",
@@ -605,8 +572,7 @@
         "Mariana (Spain)"
       ],
       "notes": "Harun al-Rashid exchanged embassies with Charlemagne; Abd al-Rahman III proclaimed the Caliphate of Cordoba.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_ayyubid_saladin_mamluk",
@@ -621,8 +587,7 @@
         "Lane-Poole"
       ],
       "notes": "Saladin (counterpart of Richard I Lionheart in the Third Crusade) -> Ayyubid Sultans of Cairo/Damascus -> Mamluk Sultans Baibars & Qalawun.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_ottoman_imperial_women",
@@ -637,8 +602,7 @@
         "Zambaur Manuel"
       ],
       "notes": "From Rurikid-Ruthenian captive Hurrem Sultan (+ Suleiman the Magnificent -> Selim II & Mihrimah Sultan) to Regent Kösem Sultan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_safavid_persia_abbas",
@@ -653,8 +617,7 @@
         "Modern Universal History"
       ],
       "notes": "Shah Abbas the Great reshaped Isfahan and partnered diplomatically with Mughal Jahangir and European courts.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_african_kings_queens",
@@ -674,8 +637,7 @@
         "Hiob Ludolf"
       ],
       "notes": "Highlights Africa's towering female & male sovereigns alongside Sundiata, Bayajidda, Sonni Ali, and Solomonic Gondar.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_india_gupta_chola_maratha",
@@ -696,8 +658,7 @@
         "James Tod"
       ],
       "notes": "Completes India's imperial spine: Gupta Golden Age; Cholas (Rajaraja I & Rajendra I, historical counterpart of Malay Annals 'Raja Suran'!); Vijayanagara's Krishnadevaraya; and Maratha founder Shivaji Maharaj (claiming Sisodia Mewar Solar Rajput descent!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pc_sikh_guru_nanak",
@@ -717,8 +678,7 @@
         "Tod Annals"
       ],
       "notes": "Traditional Punjabi & Sodhi/Bedi chronicles (Bachittar Natak) trace Guru Nanak (Bedi) and Guru Gobind Singh (Sodhi) to Rama's twin sons Kusha & Lava -> Sodhi/Bedi houses -> Maharaja Ranjit Singh.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pc_china_han_tang_qing",
@@ -739,8 +699,7 @@
         "Du Halde (1738)"
       ],
       "notes": "Expands China's connected imperial lines from Liu Bang/Yao -> Han Wudi & Tang Taizong -> China's only female Emperor Wu Zetian, plus Kangxi -> Yongzheng -> Qianlong -> Empress Dowager Cixi -> Last Emperor Puyi.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pc_japan_nara_heian",
@@ -759,8 +718,7 @@
         "Chamberlain Kojiki"
       ],
       "notes": "Fujiwara no Kamatari (allied with Emperor Tenji) founded the Fujiwara regent house that produced Lady Murasaki Shikibu (author of The Tale of Genji, world's first novel!) and intermarried with every Heian Emperor.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam_maimonides",
@@ -778,8 +736,7 @@
         "Gedalyah ibn Yahya Shalshelet ha-Kabbalah"
       ],
       "notes": "Traced in Sephardic & Rabbinic genealogies (alongside Rashi & Abravanel) to Hillel the Elder -> King David; father of Nagid Abraham ben Maimon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam_ibn_sina_rushd_rumi",
@@ -798,8 +755,7 @@
         "Mevlevi Silsila"
       ],
       "notes": "Baha ud-Din Walad -> Mevlana Jalal al-Din Rumi -> Sultan Walad (founder of the Mevlevi order in Seljuk Konya!), alongside Avicenna, Averroes, and Omar Khayyam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam_columbus_vasco_polo",
@@ -820,8 +776,7 @@
         "Colombian Archives"
       ],
       "notes": "Vasco da Gama served King Manuel I of Portugal; Christopher Columbus sailed for Ferdinand & Isabella and fathered Diego Columbus (+ Maria de Toledo, niece of Duke of Alba & cousin of Ferdinand of Aragon!), creating the Dukes of Veragua.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam_renaissance_science",
@@ -841,8 +796,7 @@
         "Isaac Newton Chronology Amended (1728)"
       ],
       "notes": "Includes Sir Isaac Newton (whose 1728 Chronology of Ancient Kingdoms Amended is one of our 265 sources!) alongside Leonardo, Michelangelo, and Galileo.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam_shakespeare_joan",
@@ -860,8 +814,7 @@
         "Modern Universal History"
       ],
       "notes": "Joan of Arc crowned Valois Dauphin Charles VII; William Shakespeare wed Anne Hathaway and fathered Susanna (-> Elizabeth Barnard), Hamnet, and Judith (Quiney).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam_washington_jefferson",
@@ -880,8 +833,7 @@
         "Howell (1685)"
       ],
       "notes": "Well-documented colonial Virginia gateway ancestries: George Washington (via John Washington & Lawrence Butler/Mildred Warner -> Magna Carta Barons & King Edward III/King Alfred!) and Thomas Jefferson (via Jane Randolph -> King David I of Scotland, Henry I & Edward III!) carry verified Plantagenet/Wessex lines into the modern era!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "fam_churchill_lincoln",
@@ -899,8 +851,7 @@
         "Lincoln Family Papers"
       ],
       "notes": "Winston Churchill descended directly from John Churchill, 1st Duke of Marlborough (and via both Churchill and Jerome lines traces to medieval English barons/Edward I!), alongside Abraham Lincoln -> Robert Todd Lincoln.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "fam_asian_sages",
@@ -922,8 +873,7 @@
         "Rajatarangini"
       ],
       "notes": "Celebrated thinkers whose chronicles preserve our Asian genealogies: Sima Qian (whose Shiji traces Yellow Emperor -> Xia/Shang/Zhou/Confucius/Xiongnu!), Laozi (Tang imperial Li ancestor claim!), Mencius (Duke of Lu/Zhou line!), Sun Tzu, Chanakya, Kalidasa & Adi Shankara.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

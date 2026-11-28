@@ -18,8 +18,7 @@
         "Al-Mas'udi Meadows of Gold p. 75"
       ],
       "notes": "Recorded alongside Shem, Ham, and Japheth by Al-Tabari and Al-Mas'udi (citing Quran 11:42-44): Noah's son Yam (or Kan'an) refused to board the Ark and perished in the waters.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jub_postflood_wives",
@@ -38,8 +37,7 @@
         "Book of Jubilees (R.H. Charles Ch. 8-11 pp. 66-89)"
       ],
       "notes": "Jubilees 8-11 preserves every matriarch from Arphaxad to Abraham: Arphaxad + Rasu'eja (dau. of Elam); Cainan + Melka (dau. of Madai of Japheth!); Shelah + Mu'ak (dau. of Kesed); Eber + Azura (dau. of Nimrod/Nebrod!); Peleg + Lomna (Shinar); Reu + Ora (dau. of Ur); Serug + Milkah; Nahor + Iyaska; Terah + Edna!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tab_japheth_shabokah",
@@ -56,8 +54,7 @@
         "Al-Tabari Vol. 2 p. 11 (citing Wahb b. Munabbih)"
       ],
       "notes": "Al-Tabari records Japheth's wife Arbasisah (daughter of Marazil b. Darmasil of the Cainite line) bearing seven sons and daughter Shabokah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tab_ad_thamud_hud_salih",
@@ -76,8 +73,7 @@
         "Al-Mas'udi Meadows of Gold p. 76"
       ],
       "notes": "Arabian chroniclers derive the extinct 'original Arabs' ('Ad of al-Ahqaf under Prophet Hud, and Thamud of al-Hijr under Prophet Salih) directly from 'Us (Uz) b. Aram b. Shem b. Noah.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "tab_lud_amalek_tasm",
@@ -96,8 +92,7 @@
         "Al-Mas'udi Meadows of Gold pp. 76-77"
       ],
       "notes": "Tabari & Mas'udi preserve the Arabian Ludite tribes: Tasm & Judays (Yamamah/Bahrain), Jasim (Oman), 'Imliq (Hijaz/Syria/Amalekite Pharaohs), and Umaym (whose descendants settled Persia/Wabar).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tab_yarub_jurhum_himyar",
@@ -117,8 +112,7 @@
         "MacMichael History of Arabs in Sudan p. 131"
       ],
       "notes": "Qahtan (Joktan) -> Ya'rub (said by Mas'udi to be the first king to articulate classical Arabic) & cousin Jurhum (who settled Mecca and married their daughter to Ishmael!) -> Abd Shams Saba -> Himyar (Yemen) & Kahlan (Banu Lakhm of al-Hirah & Ghassanids of Syria).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "tab_esau_rum_job",
@@ -136,8 +130,7 @@
         "Al-Tabari Vol. 2 pp. 17, 21, 140"
       ],
       "notes": "Al-Tabari transmits the classical Arabic historical tradition identifying al-Rum / Banu al-Asfar (Romans/Byzantines) as descendants of Esau b. Isaac, and tracing Prophet Job (Ayyub b. Maws b. Razih/Raghwil b. Esau) marrying Jacob's daughter Liyya.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "tab_midian_shuayb",
@@ -155,8 +148,7 @@
         "Al-Tabari Vol. 2"
       ],
       "notes": "Mas'udi records the genealogy of Shu'ayb (identified with Jethro/Reuel, father-in-law of Moses): Shu'ayb b. Thoriel b. Da'wayel b. Marik b. 'Anka b. Madyan (Midian) b. Abraham.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tab_adnan_21gen_quraysh",
@@ -176,8 +168,7 @@
         "Zambaur Manuel (1927)"
       ],
       "notes": "Complete 21-generation genealogy preserved in Tabari Vol. 6 (and tabulated by Lane-Poole & Zambaur), linking Adnan (Ishmaelite) down to 'Abdallah b. 'Abd al-Muttalib, father of Muhammad.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "isl_umayyad_abbasid_fatimid",
@@ -196,8 +187,7 @@
         "E. de Zambaur Manuel de Généalogie (1927)"
       ],
       "notes": "Complete comparative dynasties from Lane-Poole & Zambaur: 'Abd Manaf -> 'Abd Shams (Umayyad Caliphs of Damascus & Cordoba); Hashim -> al-'Abbas (Abbasid Caliphs of Baghdad); Ali & Fatimah -> Fatimids of Cairo, Idrisids of Morocco & Qatadid Sharifs of Mecca.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "sanch_chrysor_barhebraeus",
@@ -215,8 +205,7 @@
         "Bar Hebraeus Chronography p. 6"
       ],
       "notes": "John Jackson (1752) aligns Sanchuniathon's Phoenician line (Chrysor/Vulcan = Tubal-Cain in the exact 7th descent from Adam; Misor = Mizraim; Chna = Canaan), while Bar Hebraeus p. 6 preserves the 10 Chaldean kings from Aloros to Ksisothros (= Noah).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

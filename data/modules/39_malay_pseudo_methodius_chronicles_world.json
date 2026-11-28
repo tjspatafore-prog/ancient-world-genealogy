@@ -18,8 +18,7 @@
         "Sejarah Melayu / Malay Annals (John Leyden 1821 pp.3–10)"
       ],
       "notes": "Chapter 1 of the Malay Annals (Sejarah Melayu / Sulalat al-Salatin) records the marriage of Raja Secander (Iskandar Zulkarnain / Alexander the Great) to Princess Shaher-ul Beriah, daughter of defeated Indian King Raja Kida Hindi, birthing the ancestral Malay dynasty.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "mal_aristun_suran",
@@ -36,8 +35,7 @@
         "Sejarah Melayu / Malay Annals (John Leyden 1821 pp.10–24)"
       ],
       "notes": "Descendant of Raja Secander via Aristun Shah -> Aftus -> Raja Shulan; campaigned across Perak (Gangga Nagara) and married Princess Onang Kiu before descending to the sea-kingdom and fathering three royal brothers.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mal_sang_sapurba",
@@ -54,8 +52,7 @@
         "Sejarah Melayu / Malay Annals Ch. 2–3"
       ],
       "notes": "Son of Raja Suran and descended from Raja Secander; appeared on Bukit Seguntang (Palembang, Sumatra), wed Wan Sendari daughter of Demang Lebar Daun, and inaugurated the Malay Sriwijaya royal covenant.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "mal_sang_nila_utama",
@@ -72,8 +69,7 @@
         "Sejarah Melayu / Malay Annals Ch. 3–6"
       ],
       "notes": "Son of Sang Sapurba who sighted a lion-beast at Temasek, named it Singapura ('Lion City'), and founded the five-king Singapura royal line leading to Iskandar Shah.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "mal_parameswara_iskandar",
@@ -91,8 +87,7 @@
         "Ming Shi-lu"
       ],
       "notes": "Formerly Pending Bridge in v16.0: graduated into Biblically Connected via Sejarah Melayu's explicit continuous descent from Sang Nila Utama -> Sang Sapurba -> Raja Suran -> Raja Aristun Shah -> Raja Secander (Iskandar Zulkarnain)!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "mal_mansur_mahmud",
@@ -109,8 +104,7 @@
         "Sejarah Melayu / Malay Annals Ch. 14–34"
       ],
       "notes": "Sultan Mansur Shah (+ Princess Hang Li Po of Ming China & Princess Raden Galoh of Majapahit) expanded Malacca across the Malay Peninsula & Sumatra; son Sultan Mahmud Shah established the successor Johor Sultanate.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pm_phol_chuseth",
@@ -127,8 +121,7 @@
         "Apocalypse of Pseudo-Methodius (Garstad DOML 14, 2012 pp.25–33, 69–71, 137)"
       ],
       "notes": "Pseudo-Methodius identifies Alexander the Great's mother as Ethiopian princess Chouseth/Chuseth (daughter of King Phol of Ethiopia/Cush!), who later married Byzas, founder of Byzantium!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pm_byzas_romulus_sons",
@@ -145,8 +138,7 @@
         "Apocalypse of Pseudo-Methodius Ch. 9 (Garstad DOML 14 pp.27–33, 69–71)"
       ],
       "notes": "In Pseudo-Methodius Ch. 9, Chouseth & Byzas bear daughter Byzantia, who marries Roman king Romulus Armelaus (receiving Rome as dowry!) and bears three sons dividing Rome, Byzantium, and Alexandria.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pm_jonitus_hiliu_chara",
@@ -163,8 +155,7 @@
         "Apocalypse of Pseudo-Methodius Ch. 3 (Garstad DOML 14 pp.17, 125)"
       ],
       "notes": "Preserves the Latin/Greek recension of Yonton: Noah's post-Flood son Jonitus enters Hiliu Chara ('Country of the Sun' in the East), receives wisdom & astronomy from God, and instructs Nimrod.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr_bochart_phaleg_canaan",
@@ -181,8 +172,7 @@
         "Samuel Bochart Opera Omnia: Phaleg & Canaan (Lugduni Batavorum 1712)"
       ],
       "notes": "Monumental 770-page Latin treatise mapping Peleg's dispersion (Phaleg) and Canaanite-Phoenician maritime colonies (Chanaan) across Africa, Hispania/Tartessos, Gaul, and Britain.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr_isidore_etymologies",
@@ -198,8 +188,7 @@
         "Isidore of Seville The Etymologies Book IX.ii (Barney et al. 2006 pp.192–200)"
       ],
       "notes": "Systematizes the 72 post-Babel nations: 15 from Japheth (Gomer -> Galatians/Gauls; Magog -> Scythians/Goths; Tubal -> Iberians/Spaniards), 30 from Ham, and 27 from Shem.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr_africanus_chronographia",
@@ -216,8 +205,7 @@
         "Julius Africanus Extant Writings (Ante-Nicene Fathers Vol. VI pp.125–140)"
       ],
       "notes": "Synchronizes Ogyges & Inachus with Moses (Exodus 1020 yrs before 1st Olympiad) and preserves the earliest Christian family-tradition reconciliation of Matthew 1 & Luke 3 via Levirate marriage between Matthan and Melchi's houses!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr_paschale_malalas",
@@ -235,8 +223,7 @@
         "John Malalas Chronographia Books 8–18 (Downey 1940; Jeffreys 1986)"
       ],
       "notes": "Includes the ancient Hippolytan Diamerismos of Earth among Noah's sons and full imperial annals of Zeno, Anastasius, Justin I, Justinian I, Maurice, and Heraclius.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "chr_sayce_rawlinson_nations",
@@ -254,8 +241,7 @@
         "George Rawlinson The Origin of Nations (1883)"
       ],
       "notes": "Maps biblical Table of Nations ethnonyms onto cuneiform and Egyptian monument inscriptions (Gimirrai = Gomer, Ashkuza = Ashkenaz, Madai = Medes, Muski = Meshech, Khatti = Heth).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur_greg_merovingians",
@@ -273,8 +259,7 @@
         "Gregory of Tours History of the Franks (Brehaut 1916 Books I–X)"
       ],
       "notes": "Follows Book I Creation-to-Gaul summary into Merovingian royal family politics: Clovis I's baptism under Burgundian Queen Clotilde, sons Theuderic, Chlodomer, Childebert I, Chlothar I, and the fateful rivalry of Queens Brunhild and Fredegund.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur_lom_gambara",
@@ -292,8 +277,7 @@
         "Paul the Deacon History of the Langobards (Foulke 1906 Book I)"
       ],
       "notes": "Records the migration of the Winnili (later Langobards) from Scadinavia under mother-counselor Gambara and sons Ibor and Aio, crowning Agelmund son of Aio as first Lombard king.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_lom_alboin_authari",
@@ -310,8 +294,7 @@
         "Paul the Deacon History of the Langobards Books I–IV"
       ],
       "notes": "Alboin led the Lombards into Northern Italy (Lombardy, 568 CE); Bavarian princess Queen Theodelinda (correspondent of Pope Gregory I) bridged the Catholic orthodoxy under Authari & Agilulf.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur_lom_rothari_liutprand",
@@ -329,8 +312,7 @@
         "Paul the Deacon History of the Langobards Books IV–VI"
       ],
       "notes": "Rothari codified the Edictum Rothari; Liutprand brought Lombard Italy to its height; Desiderius wed his daughter Desiderata to Charlemagne before Pavia fell in 774.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur_ice_ingolfur",
@@ -347,8 +329,7 @@
         "Ari Thorgilsson / Ellwood Book of the Settlement of Iceland (Landnamabok 1898)"
       ],
       "notes": "Descended from Norwegian lendir menn / Skjoldung-Yngling aristocracy; threw his high-seat pillars into the Atlantic to settle Reykjavik ('Smoky Bay') in 874 CE.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_ice_aud_deepminded",
@@ -365,8 +346,7 @@
         "Book of the Settlement of Iceland (Landnamabok, Ellwood 1898)"
       ],
       "notes": "Daughter of Norwegian ruler Ketil Flatnose of the Hebrides and widow of Olaf the White of Dublin; independently commanded a knarr vessel to claim Breidafjordur, becoming ancestress of major Icelandic clans and of Sturla Thordarson / Snorri Sturluson.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur_ice_erik_leif",
@@ -385,8 +365,7 @@
         "Vinland Sagas"
       ],
       "notes": "Icelandic lineage in Landnamabok bridging Europe across Greenland to Vinland (L'Anse aux Meadows, Newfoundland) five centuries before 1492; sister Gudrid Thorbjarnardottir bore Snorri Thorfinnsson in Vinland!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_wal_cunedda",
@@ -404,8 +383,7 @@
         "Sir John Edward Lloyd A History of Wales (2nd ed. 1912 Vol. 1 pp.116–192)"
       ],
       "notes": "Migrated from Manaw Gododdin (Scotland) to North Wales to expel Irish settlers; descendants ruled Gwynedd through Maelgwn and Cadwallon to Cadwaladr Fendigaid.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_wal_rhodri_hywel",
@@ -422,8 +400,7 @@
         "J.E. Lloyd A History of Wales Vol. 1 pp.323–356"
       ],
       "notes": "Rhodri Mawr united Gwynedd, Powys, and Seisyllwg; grandson Hywel Dda (c. 942) united nearly all Wales and codified the Cyfraith Hywel (Welsh Laws).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "eur_wal_llywelyn",
@@ -441,8 +418,7 @@
         "J.E. Lloyd A History of Wales (1912)"
       ],
       "notes": "Culminated in Llywelyn ap Iorwerth (Llywelyn the Great) and Llywelyn ap Gruffydd ('the Last'), whose Anglesey/Gwynedd kinsmen Owen Tudor wed Queen Catherine of Valois -> English House of Tudor!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_irl_keating_saorchlanna",
@@ -459,8 +435,7 @@
         "Geoffrey Keating Foras Feasa ar Eirinn: Genealogies (Irish Texts Society 1902–1914)"
       ],
       "notes": "Provides full unbroken father-to-son Gaelic pedigrees for the 12 Saorchlanna (noble houses) under Milesian sons Eber Finn (Leath Mogha / Cashel / Dal gCais) and Eremon (Leath Cuinn / Dal Riada / Ui Neill), plus Ir and Ith.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "stp_moghul_tughlugh",
@@ -477,8 +452,7 @@
         "Mirza Muhammad Haidar Dughlat Tarikh-i-Rashidi (Ross & Elias 1895)"
       ],
       "notes": "Traces Eastern Moghulistan from Chagatai -> Duwa -> Esen Buqa -> Tughlugh Timur Khan (embraced Islam) -> Khizr Khoja -> Yunus Khan (maternal grandfather of Mughal Emperor Babur!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "stp_moghul_said_haidar",
@@ -495,8 +469,7 @@
         "Mirza Muhammad Haidar Dughlat Tarikh-i-Rashidi (1546)"
       ],
       "notes": "Sultan Said Khan (+ Dughlat general Mirza Haidar, cousin of Emperor Babur) campaigned across Ladakh, Baltistan, and Kashmir (where Haidar ruled 1540–1551 and authored Tarikh-i-Rashidi).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "tib_ladakh_nyimagon",
@@ -513,8 +486,7 @@
         "A.H. Francke Antiquities of Indian Tibet Part II: Chronicles of Ladakh (1926 pp.71–100)"
       ],
       "notes": "Descendant of Tibetan Emperor Langdarma (Yarlung line traced to Okkaka/Śākya); migrated west c. 900 CE to divide Ngari among his three sons, with eldest Lhachen Palgyigon ruling Maryul/Ladakh.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "tib_ladakh_sengge_namgyal",
@@ -531,8 +503,7 @@
         "A.H. Francke Chronicles of Ladakh (1926 pp.101–135)"
       ],
       "notes": "Lha-chen Bhagan founded the Namgyal Dynasty; Jamyang Namgyal wed Balti princess Gyal Khatun, fathering great builder-king Sengge Namgyal (builder of Leh Palace & Hemis Monastery).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind_raj_mewar_sisodia",
@@ -550,8 +521,7 @@
         "James Tod Annals and Antiquities of Rajasthan Vols. 1–2 (1829–1832)"
       ],
       "notes": "James Tod preserves the Udaipur/Mewar bardic chronicles tracing the Guhilot/Sisodia Ranas from Ayodhya's Rama -> Lava through Vallabhi -> Guhaditya -> Bappa Rawal (defended western India 734 CE) to Rana Kumbha, Rana Sanga, and Maharana Pratap.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ind_raj_marwar_amber",
@@ -569,8 +539,7 @@
         "James Tod Annals and Antiquities of Rajasthan Vol. 2"
       ],
       "notes": "Traces Marwar Rathores (Kannauj -> Rao Siha -> Rao Jodha, 1459) and Amber Kachwahas (Rama's son Kusha -> Gwalior/Amber -> Man Singh I -> astronomer-king Sawai Jai Singh II of Jaipur).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind_raj_chauhan_bhati",
@@ -587,8 +556,7 @@
         "James Tod Annals and Antiquities of Rajasthan Vols. 1–2"
       ],
       "notes": "Chahamanas/Chauhans culminating in Prithviraj Chauhan III, alongside the Lunar Yadava Bhatis traced from Krishna/Dvaraka to Rawal Jaisal (founder of Jaisalmer, 1156 CE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ind_harivamsha_matsya",
@@ -606,8 +574,7 @@
         "Matsya Purana (SBH 17, Taluqdar of Oudh 1916)"
       ],
       "notes": "Detailed account of Vaivasvata Manu's seven-rishis ark tied to Mt. Himavan during the Great Flood (Matsya Purana I–II) and complete Vrishni/Andhaka/Yadava clan lineages around Krishna (Harivamsha).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_dionysius_evander_alba",
@@ -624,8 +591,7 @@
         "Dionysius of Halicarnassus Roman Antiquities Book I (Loeb)"
       ],
       "notes": "Connects early Italy to Greece via Arcadian Evander (founder of Pallantium on the Palatine Hill) and traces the 15 Silvian kings of Alba Longa down to Numitor, vestal Rhea Silvia, and twins Romulus & Remus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "grk_pausanias_clinton",
@@ -643,8 +609,7 @@
         "H.F. Clinton Fasti Hellenici Vols. 1 & 3 (1830–1834)"
       ],
       "notes": "Pausanias preserves local genealogies for Attica, Sicyon (Aegialeus), Arcadia (Pelasgus -> Lycaon -> Arcas), and Messenia, synchronized year-by-year with Biblical/Persian history in Clinton's Fasti Hellenici.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpn_kojiki_chamberlain",
@@ -662,8 +627,7 @@
         "Basil Hall Chamberlain Translation of Ko-ji-ki (2nd ed. 1932)"
       ],
       "notes": "Chamberlain's annotated Kojiki preserves every kami of the Age of the Gods, the Izumo line of Susanoo & Okuninushi, Ninigi's descent to Hyuga, Prince Yamato Takeru, and Emperor Nintoku.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kor_hulbert_three_kingdoms",
@@ -681,8 +645,7 @@
         "Homer B. Hulbert The History of Korea Vols. 1–2 (1905)"
       ],
       "notes": "Synchronizes Goguryeo (Jumong -> Gwanggaeto), Baekje (Onjo), Gaya (Suro), and Silla (Queen Seondeok, General Kim Yu-sin & King Muyeol unifying the peninsula in 668 CE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

@@ -15,8 +15,7 @@
         "Mod. Univ. Hist. Vol. 7"
       ],
       "notes": "Rebuilt Benin City walls and moats; direct royal descendant of Eweka I.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "unb_afr_queen_idia",
@@ -31,8 +30,7 @@
         "Mod. Univ. Hist. Vol. 7"
       ],
       "notes": "Mother of Oba Esigie; iconic Benin ivory mask.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_afr_esigie_ovonramwen",
@@ -47,8 +45,7 @@
         "Mod. Univ. Hist. Vol. 7"
       ],
       "notes": "Royal Oba lineage of the Kingdom of Benin.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_afr_kanem_dugu",
@@ -62,8 +59,7 @@
         "Diwan / Girgam of Bornu"
       ],
       "notes": "Girgam Chronicle of Kanem-Bornu traces the Sayfawa dynasty to Himyarite Yemen.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "unb_afr_dunama_dabbalemi",
@@ -77,8 +73,7 @@
         "Diwan / Girgam of Bornu"
       ],
       "notes": "Chronicle succession in Diwan / Girgam of Bornu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_afr_idris_alooma",
@@ -92,8 +87,7 @@
         "Diwan / Girgam of Bornu"
       ],
       "notes": "Peak Bornu ruler; Ottoman diplomatic & military correspondence.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_lac_long_quan",
@@ -107,8 +101,7 @@
         "Dai Viet Su Ky Toan Thu"
       ],
       "notes": "Dai Viet Su Ky Toan Thu traces Kinh Duong Vuong & Lac Long Quan to Than Nong / Shennong (Yandi).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "unb_sea_an_duong_vuong",
@@ -122,8 +115,7 @@
         "Dai Viet Su Ky Toan Thu"
       ],
       "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_trung_sisters",
@@ -137,8 +129,7 @@
         "Dai Viet Su Ky Toan Thu"
       ],
       "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_ngo_quyen",
@@ -152,8 +143,7 @@
         "Dai Viet Su Ky Toan Thu"
       ],
       "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_dinh_bo_linh",
@@ -167,8 +157,7 @@
         "Dai Viet Su Ky Toan Thu"
       ],
       "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_ly_thai_to",
@@ -182,8 +171,7 @@
         "Dai Viet Su Ky Toan Thu"
       ],
       "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_tran_thai_tong",
@@ -197,8 +185,7 @@
         "Dai Viet Su Ky Toan Thu"
       ],
       "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_le_loi",
@@ -212,8 +199,7 @@
         "Dai Viet Su Ky Toan Thu"
       ],
       "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_gia_long",
@@ -227,8 +213,7 @@
         "Dai Viet Su Ky Toan Thu"
       ],
       "notes": "Chronicle succession in Dai Viet Su Ky Toan Thu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sea_java_raden_wijaya",
@@ -244,8 +229,7 @@
         "Sejarah Melayu"
       ],
       "notes": "Srivijaya, Mataram, Singhasari & Majapahit founders.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "unb_sea_tribhuwana",
@@ -261,8 +245,7 @@
         "Sejarah Melayu"
       ],
       "notes": "Chronicle succession in Nagarakretagama, Pararaton, Sejarah Melayu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_hayam_wuruk",
@@ -278,8 +261,7 @@
         "Sejarah Melayu"
       ],
       "notes": "Chronicle succession in Nagarakretagama, Pararaton, Sejarah Melayu.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_balaputradewa",
@@ -294,8 +276,7 @@
         "Nalanda Inscription"
       ],
       "notes": "Balaputradewa of Srivijaya (Shailendra Dynasty).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_ken_arok",
@@ -310,8 +291,7 @@
         "Nalanda Inscription"
       ],
       "notes": "Ken Arok & King Kertanegara of Singhasari.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "sea_khmer_jayavarman2",
@@ -326,8 +306,7 @@
         "Zhou Daguan"
       ],
       "notes": "Early Cambodian steles & Chinese records trace Funan/Chenla & Angkor to Brahmin Kaundinya I + Naga Queen Soma.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "unb_sea_indravarman1",
@@ -342,8 +321,7 @@
         "Zhou Daguan"
       ],
       "notes": "Chronicle succession in Khmer Inscriptions, Zhou Daguan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_yasovarman1",
@@ -358,8 +336,7 @@
         "Zhou Daguan"
       ],
       "notes": "Chronicle succession in Khmer Inscriptions, Zhou Daguan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_suryavarman1",
@@ -374,8 +351,7 @@
         "Zhou Daguan"
       ],
       "notes": "Chronicle succession in Khmer Inscriptions, Zhou Daguan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_suryavarman2",
@@ -390,8 +366,7 @@
         "Zhou Daguan"
       ],
       "notes": "Chronicle succession in Khmer Inscriptions, Zhou Daguan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_jayavarman7",
@@ -406,8 +381,7 @@
         "Zhou Daguan"
       ],
       "notes": "Built Angkor Thom, Bayon & 102 hospitals; peak extent of the Khmer Empire.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "unb_sea_sri_indraditya",
@@ -421,8 +395,7 @@
         "Royal Chronicles of Ayutthaya & Siam"
       ],
       "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_ram_khamhaeng",
@@ -436,8 +409,7 @@
         "Royal Chronicles of Ayutthaya & Siam"
       ],
       "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_uthong",
@@ -451,8 +423,7 @@
         "Royal Chronicles of Ayutthaya & Siam"
       ],
       "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_trailok",
@@ -466,8 +437,7 @@
         "Royal Chronicles of Ayutthaya & Siam"
       ],
       "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_naresuan",
@@ -481,8 +451,7 @@
         "Royal Chronicles of Ayutthaya & Siam"
       ],
       "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_narai",
@@ -496,8 +465,7 @@
         "Royal Chronicles of Ayutthaya & Siam"
       ],
       "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_taksin",
@@ -511,8 +479,7 @@
         "Royal Chronicles of Ayutthaya & Siam"
       ],
       "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_rama1_chakri",
@@ -526,8 +493,7 @@
         "Royal Chronicles of Ayutthaya & Siam"
       ],
       "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_sea_mongkut_chulalongkorn",
@@ -541,8 +507,7 @@
         "Royal Chronicles of Ayutthaya & Siam"
       ],
       "notes": "Chronicle succession in Royal Chronicles of Ayutthaya & Siam.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpn7_emperor_seiwa",
@@ -557,8 +522,7 @@
         "Azuma Kagami"
       ],
       "notes": "Direct imperial descendant of Emperor Jimmu & Emperor Kammu; progenitor of the Seiwa Genji clans (Minamoto, Ashikaga, Tokugawa).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_jpn_yoritomo",
@@ -573,8 +537,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Seiwa Genji leader; Mod. Univ. Hist. Vol. 5 & Azuma Kagami.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "unb_jpn_hojo_masako_yoshitsune",
@@ -589,8 +552,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_jpn_hojo_tokimasa",
@@ -605,8 +567,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_jpn_ashikaga_takauji",
@@ -621,8 +582,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_jpn_ashikaga_yoshimitsu",
@@ -637,8 +597,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_jpn_oda_nobunaga",
@@ -653,8 +612,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_jpn_hideyoshi",
@@ -669,8 +627,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_jpn_tokugawa_ieyasu",
@@ -685,8 +642,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_jpn_date_masamune",
@@ -701,8 +657,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_jpn_tokugawa_hidetada",
@@ -717,8 +672,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_jpn_tokugawa_iemitsu",
@@ -733,8 +687,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_jpn_tokugawa_yoshinobu",
@@ -749,8 +702,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Chronicle succession in Modern Universal History Vol. 5, Japanese Chronicles.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_jpn_emperor_meiji",
@@ -765,8 +717,7 @@
         "Japanese Chronicles"
       ],
       "notes": "Direct imperial line from Emperor Jimmu; presided over Meiji Restoration.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jpn7_emperor_taisho",
@@ -780,8 +731,7 @@
         "Imperial Household Agency of Japan"
       ],
       "notes": "Chronicle succession in Imperial Household Agency of Japan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpn7_emperor_showa",
@@ -795,8 +745,7 @@
         "Imperial Household Agency of Japan"
       ],
       "notes": "Chronicle succession in Imperial Household Agency of Japan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpn7_emperor_akihito",
@@ -810,8 +759,7 @@
         "Imperial Household Agency of Japan"
       ],
       "notes": "Chronicle succession in Imperial Household Agency of Japan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jpn7_emperor_naruhito",
@@ -825,8 +773,7 @@
         "Imperial Household Agency of Japan"
       ],
       "notes": "Present-day reigning head of the Imperial House of Japan, descended in unbroken traditional succession from Emperor Jimmu.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jpn7_princess_aiko",
@@ -840,8 +787,7 @@
         "Imperial Household Agency of Japan"
       ],
       "notes": "Chronicle succession in Imperial Household Agency of Japan.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_kor_wang_geon",
@@ -857,8 +803,7 @@
         "Homer Hulbert History of Korea Vols. 1–2"
       ],
       "notes": "Goryeosa & Joseon Wangjo Sillok; wed Silla royal princesses.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "unb_kor_gwangjong",
@@ -874,8 +819,7 @@
         "Homer Hulbert History of Korea Vols. 1–2"
       ],
       "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_kor_yi_seonggye",
@@ -891,8 +835,7 @@
         "Homer Hulbert History of Korea Vols. 1–2"
       ],
       "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_kor_taejong",
@@ -908,8 +851,7 @@
         "Homer Hulbert History of Korea Vols. 1–2"
       ],
       "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_kor_sejong_great",
@@ -925,8 +867,7 @@
         "Homer Hulbert History of Korea Vols. 1–2"
       ],
       "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_kor_sejo",
@@ -942,8 +883,7 @@
         "Homer Hulbert History of Korea Vols. 1–2"
       ],
       "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_kor_yi_sunsin",
@@ -959,8 +899,7 @@
         "Homer Hulbert History of Korea Vols. 1–2"
       ],
       "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_kor_yeongjo_jeongjo",
@@ -976,8 +915,7 @@
         "Homer Hulbert History of Korea Vols. 1–2"
       ],
       "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_kor_gojong",
@@ -993,8 +931,7 @@
         "Homer Hulbert History of Korea Vols. 1–2"
       ],
       "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_kor_injo_sukjong",
@@ -1010,8 +947,7 @@
         "Homer Hulbert History of Korea Vols. 1–2"
       ],
       "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_kor_daewongun_myeongseong",
@@ -1027,8 +963,7 @@
         "Homer Hulbert History of Korea Vols. 1–2"
       ],
       "notes": "Chronicle succession in Goryeosa, Veritable Records of the Joseon Dynasty, Homer Hulbert History of Korea Vols. 1–2.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_chn_cao_cao",
@@ -1043,8 +978,7 @@
         "History of Song & Ming"
       ],
       "notes": "Records of the Three Kingdoms.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "unb_chn_wen_sui",
@@ -1059,8 +993,7 @@
         "History of Song & Ming"
       ],
       "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_chn_song_taizu",
@@ -1075,8 +1008,7 @@
         "History of Song & Ming"
       ],
       "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_chn_song_huizong",
@@ -1091,8 +1023,7 @@
         "History of Song & Ming"
       ],
       "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_chn_yue_fei_zhuxi",
@@ -1107,8 +1038,7 @@
         "History of Song & Ming"
       ],
       "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_chn_ming_hongwu",
@@ -1123,8 +1053,7 @@
         "History of Song & Ming"
       ],
       "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_chn_empress_ma",
@@ -1139,8 +1068,7 @@
         "History of Song & Ming"
       ],
       "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_chn_ming_yongle",
@@ -1155,8 +1083,7 @@
         "History of Song & Ming"
       ],
       "notes": "Chronicle succession in Records of the Three Kingdoms, History of Song & Ming.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_chn_liu_bei_zhuge",
@@ -1170,8 +1097,7 @@
         "Sanguozhi / Three Kingdoms"
       ],
       "notes": "Liu Bei (Emperor of Shu Han) & Chancellor Zhuge Liang.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_chn_sun_quan",
@@ -1185,8 +1111,7 @@
         "Sanguozhi / Three Kingdoms"
       ],
       "notes": "Sun Quan (Emperor of Eastern Wu).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_thales",
@@ -1201,8 +1126,7 @@
         "Plutarch Lives"
       ],
       "notes": "Lives of Ancient Philosophers (1702) & Diogenes Laertius.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "unb_grk_pythagoras",
@@ -1217,8 +1141,7 @@
         "Plutarch Lives"
       ],
       "notes": "Chronicle succession in The Lives of the Ancient Philosophers (1702), Plutarch Lives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_socrates",
@@ -1233,8 +1156,7 @@
         "Plutarch Lives"
       ],
       "notes": "Chronicle succession in The Lives of the Ancient Philosophers (1702), Plutarch Lives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_plato",
@@ -1249,8 +1171,7 @@
         "Plutarch Lives"
       ],
       "notes": "Chronicle succession in The Lives of the Ancient Philosophers (1702), Plutarch Lives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_aristotle",
@@ -1265,8 +1186,7 @@
         "Plutarch Lives"
       ],
       "notes": "Chronicle succession in The Lives of the Ancient Philosophers (1702), Plutarch Lives.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_homer_hesiod",
@@ -1282,8 +1202,7 @@
         "Thucydides"
       ],
       "notes": "Homer & Hesiod (Epic Poets of Greece).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_heraclitus",
@@ -1299,8 +1218,7 @@
         "Thucydides"
       ],
       "notes": "Heraclitus of Ephesus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_parmenides",
@@ -1316,8 +1234,7 @@
         "Thucydides"
       ],
       "notes": "Parmenides & Zeno of Elea.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_empedocles",
@@ -1333,8 +1250,7 @@
         "Thucydides"
       ],
       "notes": "Empedocles of Acragas.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_democritus",
@@ -1350,8 +1266,7 @@
         "Thucydides"
       ],
       "notes": "Leucippus & Democritus (Atomic Theory).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_hippocrates",
@@ -1367,8 +1282,7 @@
         "Thucydides"
       ],
       "notes": "Hippocrates of Kos (Father of Medicine).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_diogenes",
@@ -1384,8 +1298,7 @@
         "Thucydides"
       ],
       "notes": "Diogenes of Sinope (Cynic School).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_epicurus",
@@ -1401,8 +1314,7 @@
         "Thucydides"
       ],
       "notes": "Epicurus (The Garden, Athens).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_zeno_stoic",
@@ -1418,8 +1330,7 @@
         "Thucydides"
       ],
       "notes": "Zeno of Citium (Founder of Stoicism).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_euclid",
@@ -1435,8 +1346,7 @@
         "Thucydides"
       ],
       "notes": "Euclid of Alexandria (Elements of Geometry).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_archimedes",
@@ -1452,8 +1362,7 @@
         "Thucydides"
       ],
       "notes": "Archimedes of Syracuse (287–212 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_herodotus_thucydides",
@@ -1469,8 +1378,7 @@
         "Thucydides"
       ],
       "notes": "Herodotus of Halicarnassus, Thucydides & Xenophon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_solon_lycurgus",
@@ -1486,8 +1394,7 @@
         "Herodotus"
       ],
       "notes": "Plutarch Lives Vols. 1-5.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "unb_grk_miltiades_themistocles",
@@ -1503,8 +1410,7 @@
         "Herodotus"
       ],
       "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_pericles",
@@ -1520,8 +1426,7 @@
         "Herodotus"
       ],
       "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_alcibiades_lysander",
@@ -1537,8 +1442,7 @@
         "Herodotus"
       ],
       "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_epaminondas",
@@ -1554,8 +1458,7 @@
         "Herodotus"
       ],
       "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "unb_grk_pyrrhus_epirus",
@@ -1571,8 +1474,7 @@
         "Herodotus"
       ],
       "notes": "Chronicle succession in Plutarch's Lives, Thucydides, Herodotus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "hit7_labarna",
@@ -1588,8 +1490,7 @@
         "Amarna Letters"
       ],
       "notes": "Chronicle succession in Genesis 10:15, Hittite State Archives (CTH), Amarna Letters.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "hit7_hattusili1",
@@ -1605,8 +1506,7 @@
         "Amarna Letters"
       ],
       "notes": "Chronicle succession in Genesis 10:15, Hittite State Archives (CTH), Amarna Letters.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "hit7_mursili1",
@@ -1622,8 +1522,7 @@
         "Amarna Letters"
       ],
       "notes": "Chronicle succession in Genesis 10:15, Hittite State Archives (CTH), Amarna Letters.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "hit7_telipinu",
@@ -1639,8 +1538,7 @@
         "Amarna Letters"
       ],
       "notes": "Chronicle succession in Genesis 10:15, Hittite State Archives (CTH), Amarna Letters.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "hit7_tudhalya1",
@@ -1656,8 +1554,7 @@
         "Amarna Letters"
       ],
       "notes": "Chronicle succession in Genesis 10:15, Hittite State Archives (CTH), Amarna Letters.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "hit7_suppiluliuma1",
@@ -1673,8 +1570,7 @@
         "Amarna Letters"
       ],
       "notes": "Expanded Hittite Empire across Syria, Mitanni & Anatolia; Amarna Letter EA 41.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "hit7_mursili2",
@@ -1690,8 +1586,7 @@
         "Amarna Letters"
       ],
       "notes": "Chronicle succession in Genesis 10:15, Hittite State Archives (CTH), Amarna Letters.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "hit7_zannanza",
@@ -1706,8 +1601,7 @@
         "Amarna Letters"
       ],
       "notes": "Son of Suppiluliuma I requested as husband by Egyptian Queen Ankhesenamun (daughter of Akhenaten).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "hit7_muwatalli2",
@@ -1722,8 +1616,7 @@
         "Kadesh Inscriptions"
       ],
       "notes": "Chronicle succession in Hittite State Archives, Kadesh Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "hit7_mursili3",
@@ -1738,8 +1631,7 @@
         "Kadesh Inscriptions"
       ],
       "notes": "Chronicle succession in Hittite State Archives, Kadesh Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "hit7_hattusili3",
@@ -1753,8 +1645,7 @@
         "Egyptian-Hittite Peace Treaty (KUB III / Karnak)"
       ],
       "notes": "Co-author of the oldest surviving international peace treaty with Ramesses II (1259 BCE).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "hit7_maathorneferure",
@@ -1768,8 +1659,7 @@
         "Egyptian-Hittite Peace Treaty (KUB III / Karnak)"
       ],
       "notes": "Daughter of Hattusili III & Puduhepa wed to Pharaoh Ramesses II in Year 34 to seal the Egyptian-Hittite alliance.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "hit7_tudhalya4",
@@ -1784,8 +1674,7 @@
         "Carchemish Inscriptions"
       ],
       "notes": "Chronicle succession in Hittite State Archives, Carchemish Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "hit7_suppiluliuma2",
@@ -1800,8 +1689,7 @@
         "Carchemish Inscriptions"
       ],
       "notes": "Chronicle succession in Hittite State Archives, Carchemish Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "hit7_kuzi_teshub",
@@ -1816,8 +1704,7 @@
         "Carchemish Inscriptions"
       ],
       "notes": "Chronicle succession in Hittite State Archives, Carchemish Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mit7_kirta_parshatatar",
@@ -1831,8 +1718,7 @@
         "Amarna Letters (EA 17–29)"
       ],
       "notes": "Chronicle succession in Amarna Letters (EA 17–29).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mit7_saushtatar",
@@ -1846,8 +1732,7 @@
         "Amarna Letters (EA 17–29)"
       ],
       "notes": "Chronicle succession in Amarna Letters (EA 17–29).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mit7_artatama1",
@@ -1861,8 +1746,7 @@
         "Amarna Letters (EA 17–29)"
       ],
       "notes": "Formed Mitanni-Egypt alliance; his daughter married Pharaoh Thutmose IV.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mit7_shuttarna2",
@@ -1876,8 +1760,7 @@
         "Amarna Letters (EA 17–29)"
       ],
       "notes": "Chronicle succession in Amarna Letters (EA 17–29).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mit7_tushratta",
@@ -1891,8 +1774,7 @@
         "Amarna Letters (EA 17–29)"
       ],
       "notes": "Major Near Eastern sovereign in Amarna correspondence with Amenhotep III & Akhenaten.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "mit7_tadukhepa",
@@ -1906,8 +1788,7 @@
         "Amarna Letters (EA 17–29)"
       ],
       "notes": "Chronicle succession in Amarna Letters (EA 17–29).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mit7_gilukhepa",
@@ -1921,8 +1802,7 @@
         "Amenhotep III Marriage Scarabs"
       ],
       "notes": "Brought 317 attendants to Thebes in Amenhotep III Year 10.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "mit7_shattiwaza",
@@ -1936,8 +1816,7 @@
         "Shattiwaza-Suppiluliuma Treaty (CTH 51)"
       ],
       "notes": "Son of Tushratta restored by Suppiluliuma I through dynastic marriage.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ela7_awan_puzur_inshushinak",
@@ -1953,8 +1832,7 @@
         "Berlin Letter"
       ],
       "notes": "Chronicle succession in Genesis 10:22, Susa Royal Inscriptions, Berlin Letter.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ela7_sukkalmah_ebarat",
@@ -1970,8 +1848,7 @@
         "Berlin Letter"
       ],
       "notes": "Chronicle succession in Genesis 10:22, Susa Royal Inscriptions, Berlin Letter.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ela7_igihalki",
@@ -1987,8 +1864,7 @@
         "Berlin Letter"
       ],
       "notes": "Chronicle succession in Genesis 10:22, Susa Royal Inscriptions, Berlin Letter.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ela7_untash_napirisha",
@@ -2004,8 +1880,7 @@
         "Berlin Letter"
       ],
       "notes": "Chronicle succession in Genesis 10:22, Susa Royal Inscriptions, Berlin Letter.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ela7_shutruk_nakhunte",
@@ -2021,8 +1896,7 @@
         "Berlin Letter"
       ],
       "notes": "Married eldest daughter of Kassite King Meli-Shipak; carried Hammurabi's stele & Naram-Sin's Victory Stele to Susa.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "ela7_kutir_nahhunte",
@@ -2038,8 +1912,7 @@
         "Berlin Letter"
       ],
       "notes": "Chronicle succession in Genesis 10:22, Susa Royal Inscriptions, Berlin Letter.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ela7_shilhak_inshushinak",
@@ -2055,8 +1928,7 @@
         "Berlin Letter"
       ],
       "notes": "Chronicle succession in Genesis 10:22, Susa Royal Inscriptions, Berlin Letter.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ela7_humban_haltash3",
@@ -2072,8 +1944,7 @@
         "Berlin Letter"
       ],
       "notes": "Chronicle succession in Genesis 10:22, Susa Royal Inscriptions, Berlin Letter.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nab7_aretas1",
@@ -2089,8 +1960,7 @@
         "Nabataean Petra Inscriptions"
       ],
       "notes": "Chronicle succession in Josephus Ant. I.12.4, XIV, XVIII, 2 Corinthians 11:32, Nabataean Petra Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nab7_aretas2",
@@ -2106,8 +1976,7 @@
         "Nabataean Petra Inscriptions"
       ],
       "notes": "Chronicle succession in Josephus Ant. I.12.4, XIV, XVIII, 2 Corinthians 11:32, Nabataean Petra Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nab7_obodas1",
@@ -2123,8 +1992,7 @@
         "Nabataean Petra Inscriptions"
       ],
       "notes": "Chronicle succession in Josephus Ant. I.12.4, XIV, XVIII, 2 Corinthians 11:32, Nabataean Petra Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nab7_aretas3",
@@ -2140,8 +2008,7 @@
         "Nabataean Petra Inscriptions"
       ],
       "notes": "Chronicle succession in Josephus Ant. I.12.4, XIV, XVIII, 2 Corinthians 11:32, Nabataean Petra Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nab7_malichus1",
@@ -2157,8 +2024,7 @@
         "Nabataean Petra Inscriptions"
       ],
       "notes": "Chronicle succession in Josephus Ant. I.12.4, XIV, XVIII, 2 Corinthians 11:32, Nabataean Petra Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nab7_obodas3",
@@ -2174,8 +2040,7 @@
         "Nabataean Petra Inscriptions"
       ],
       "notes": "Chronicle succession in Josephus Ant. I.12.4, XIV, XVIII, 2 Corinthians 11:32, Nabataean Petra Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nab7_aretas4",
@@ -2191,8 +2056,7 @@
         "Nabataean Petra Inscriptions"
       ],
       "notes": "Ruled Damascus when Paul escaped in a basket (2 Cor 11:32); father-in-law of Herod Antipas.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "nab7_malichus2",
@@ -2208,8 +2072,7 @@
         "Nabataean Petra Inscriptions"
       ],
       "notes": "Chronicle succession in Josephus Ant. I.12.4, XIV, XVIII, 2 Corinthians 11:32, Nabataean Petra Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nab7_rabbel2",
@@ -2225,8 +2088,7 @@
         "Nabataean Petra Inscriptions"
       ],
       "notes": "Chronicle succession in Josephus Ant. I.12.4, XIV, XVIII, 2 Corinthians 11:32, Nabataean Petra Inscriptions.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nab7_phasaelis",
@@ -2240,8 +2102,7 @@
         "Josephus Antiquities XVIII.5.1"
       ],
       "notes": "Daughter of King Aretas IV; her divorce by Herod Antipas for Herodias triggered war with Nabataea and John the Baptist's rebuke.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "esp7_isabel_moctezuma_tultengo",
@@ -2256,8 +2117,7 @@
         "Comentarios Reales (1609)"
       ],
       "notes": "Granted royal encomienda & perpetual Spanish noble patent under Emperor Charles V; elevated to Dukes of Moctezuma de Tultengo.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "esp7_martin_cortes_malintzin",
@@ -2272,8 +2132,7 @@
         "Comentarios Reales (1609)"
       ],
       "notes": "Patent & Habsburg court service under Emperor Charles V & King Philip II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "esp7_beatriz_clara_coya_loyola",
@@ -2288,8 +2147,7 @@
         "Comentarios Reales (1609)"
       ],
       "notes": "1572 Habsburg viceregal marriage uniting Spanish noble house of Loyola with Peruvian colonial Marquisate of Oropesa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "esp7_inca_garcilaso",
@@ -2304,8 +2162,7 @@
         "Comentarios Reales (1609)"
       ],
       "notes": "Son of Spanish conquistador Sebastián Garcilaso de la Vega & Chimpu Ocllo; served in Philip II's Spanish army in Andalusia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

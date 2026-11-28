@@ -56,12 +56,15 @@ def main():
     for n in nodes:
         assert n["id"] not in nodes_by_id, f"Duplicate node ID: {n['id']}"
         assert n["tradition"] in traditions, f"Unknown tradition: {n['tradition']}"
+        assert n.get("node_type") in ("person", "dynasty_cluster", "source_meta"), f"Invalid node_type on {n['id']}: {n.get('node_type')}"
         nodes_by_id[n["id"]] = n
 
+    valid_rel_types = {"parent_of", "spouse_of", "successor_of", "contemporary_of", "foe_or_ally_of", "motif_parallel"}
     for idx, e in enumerate(edges):
         assert e["from"] in nodes_by_id, f"Edge {idx} missing from: {e['from']}"
         assert e["to"] in nodes_by_id, f"Edge {idx} missing to: {e['to']}"
         assert e["type"] in data["metadata"]["linkTypes"], f"Unknown edge type: {e['type']}"
+        assert e.get("relation_type") in valid_rel_types, f"Invalid relation_type on edge {idx}: {e.get('relation_type')}"
 
     trad_counts = Counter(n["tradition"] for n in nodes)
     edge_counts = Counter(e["type"] for e in edges)
@@ -280,9 +283,48 @@ def main():
         assert csv_rows == expected_n, f"CSV row count {csv_rows} != {expected_n}"
         jsonl_rows = [json.loads(line) for line in jsonl_p.read_text(encoding="utf-8").splitlines() if line.strip()]
         assert len(jsonl_rows) == expected_n, f"JSONL count {len(jsonl_rows)} != {expected_n}"
+
+        # v33.0 Canonical Graph, Deduplication & Time-Travel Regression Assertions
+        rec_by_id = {r["id"]: r for r in jsonl_rows}
+        deprecated_ids = {
+            "wal9_maelgwn_gwynedd", "gael9_conn_ceadchathach", "eur5_fenius_farsa",
+            "cel13_owain_gwynedd", "cls12_agesilaus2_sparta", "ane10_alyattes_lydia",
+            "ane10_gyges_lydia", "alx12_antiochus3_great", "thu14_perseus_macedon",
+            "thu14_philip5_macedon", "thu14_polybius_megalopolis", "alx12_pyrrhus_epirus",
+            "unb_grk_pyrrhus_epirus", "byz8_constantius2", "eur9_catherine_medici",
+            "eur9_cosimo_medici", "eur9_marie_medici", "liv10_abraham_lincoln",
+            "chn11_qing_yongzheng", "afr10_empress_eleni", "mon_eth_zara_yaqob",
+            "prp14_amos_tekoa", "prp14_baruch_ben_neriah", "shh12_kay_kavus",
+            "unb_kor_wang_geon", "unb_kor_yi_seonggye", "sam13_norden_ramesses3_medinet",
+            "jos_labashi_marduk", "lka8_devanampiya_tissa", "tib8_trisong_detsen",
+            "chr13_ussher_annals_4004", "bch14_bochart_phaleg_table",
+        }
+        assert not (deprecated_ids & set(nodes_by_id)), f"Deprecated dup IDs still present: {deprecated_ids & set(nodes_by_id)}"
+        assert sum(1 for r in jsonl_rows if r["tradition"] == "americas_pacific") == 0, "Expected 0 americas_pacific biblically connected records"
+
+        assert "Alfred" not in rec_by_id["eur_ymir_borr"]["lineage_path_from_adam"], "Ymir walked through Alfred/Wessex!"
+        assert "Wessex" not in rec_by_id["eur_ymir_borr"]["lineage_path_from_adam"], "Ymir walked through Wessex!"
+        for gid in ("eur5_king_arthur", "ger14_cassivellaunus_britain", "ger14_vercingetorix_arverni"):
+            p = rec_by_id[gid]["lineage_path_from_adam"]
+            assert "Broughton" not in p and "Anstey" not in p, f"{gid} routed through source_meta harmonizer: {p}"
+        assert "MacAlpin" not in rec_by_id["eur5_mil_espaine"]["lineage_path_from_adam"], "Mil Espaine walked backward through MacAlpin!"
+        assert "Leir" not in rec_by_id["eur5_locrinus"]["lineage_path_from_adam"] and "Lear" not in rec_by_id["eur5_locrinus"]["lineage_path_from_adam"], "Locrinus walked backward through Lear!"
+        assert "Andrew I" not in rec_by_id["eur6_st_stephen1"]["lineage_path_from_adam"], "St. Stephen I walked backward through Andrew I!"
+        noah_path = rec_by_id["bib_noah"]["lineage_path_from_adam"]
+        assert "Sanchuniathon" not in noah_path and "Seth" in noah_path and "Lamech" in noah_path, f"Noah path non-canonical: {noah_path}"
+
+        clovis_kids = {k["id"] for k in rec_by_id["mon_fra_clovis1"]["offspring"]}
+        assert "mer8_clotilde_burgundy" not in clovis_kids and "ger14_gundobad_burgundy" not in clovis_kids, "Spouse/uncle leaked into Clovis offspring!"
+        theo_kids = {k["id"] for k in rec_by_id["got8_theodoric_great"]["offspring"]}
+        assert "ger14_odoacer_italy" not in theo_kids and "mon_fra_clovis1" not in theo_kids, "Rival/brother-in-law leaked into Theoderic offspring!"
+        caes_kids = {k["id"] for k in rec_by_id["rom3_julius_caesar"]["offspring"]}
+        assert not (caes_kids & {"ger14_vercingetorix_arverni", "ger14_cassivellaunus_britain", "ger14_ariovistus_suebi"}), "Military foes leaked into Caesar offspring!"
+        meth_kids = {k["id"] for k in rec_by_id["bib_methuselah"]["offspring"]}
+        assert "chn_chu_zhurong" not in meth_kids, "Pengzu motif parallel leaked into Methuselah offspring!"
+
         print(
             f"\nREPORTS VERIFIED OK: PDF ({manifest['pdf_pages']}p, {manifest['files']['pdf']['human_size']}), "
-            f"Markdown ({md_entries:,}), CSV ({csv_rows:,}), JSONL ({len(jsonl_rows):,})"
+            f"Markdown ({md_entries:,}), CSV ({csv_rows:,}), JSONL ({len(jsonl_rows):,}) + V33 REGRESSION SUITE OK"
         )
 
 

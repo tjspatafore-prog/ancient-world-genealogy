@@ -21,8 +21,7 @@
         "Herodotus I.7-91"
       ],
       "notes": "Overthrew Heraclid king Candaules (son of Myrsus). Alyattes's daughter Aryenis married Median King Astyages (grandfather of Cyrus the Great!), making Croesus the great-uncle/brother-in-law of the Median court he fought to avenge against Cyrus in 546 BCE.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls_tyre_royal_line",
@@ -43,8 +42,7 @@
         "1 Kings 5, 16:31"
       ],
       "notes": "Menander of Ephesus (quoted by Josephus!) preserves the complete Tyrian royal archive: Hiram I (ally of David & Solomon) -> ... -> Ethbaal I (Priest of Astarte, father of Queen Jezebel who married King Ahab of Israel!) -> Baal-ezer II -> Mattan I -> Pygmalion & Princess Elissa/Dido (founder of Carthage, 814 BCE)!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls_carthage_barcids",
@@ -65,8 +63,7 @@
         "Livy"
       ],
       "notes": "Hamilcar Barca (hero of 1st Punic War) fathered Hannibal the Great (crossed the Alps in 218 BCE, victor at Cannae), Hasdrubal Barca, Mago Barca, and daughters married to Hasdrubal the Fair & Numidian prince Naravas. Allied with Hasdrubal Gisco (father of Sophonisba).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls_numidia_mauretania",
@@ -88,8 +85,7 @@
         "Plutarch"
       ],
       "notes": "Masinissa unified Numidia (ally of Scipio Africanus against Hannibal); his grandson Jugurtha resisted Rome. Later King Juba II of Mauretania married Cleopatra Selene II (daughter of Mark Antony & Cleopatra VII of Egypt!), fathering King Ptolemy of Mauretania — uniting Berber, Ptolemaic Egyptian, and Roman bloodlines!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls_seleucids",
@@ -110,8 +106,7 @@
         "1 Maccabees 1"
       ],
       "notes": "Founded by Alexander's general Seleucus I Nicator & Iranian princess Apama (daughter of Spitamenes of Sogdia). Antiochus III the Great's daughter Cleopatra I Syra married Ptolemy V (starting the 'Cleopatra' name in Egypt!). Antiochus IV Epiphanes sparked the Maccabean Revolt (167 BCE).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls_antigonids_epirus",
@@ -130,8 +125,7 @@
         "Betham 1795 Tab. LXXVII, LXXXI"
       ],
       "notes": "Antigonus Monophthalmus -> Demetrius Poliorcetes -> Antigonus II Gonatas -> Philip V -> Perseus (defeated by Rome at Pydna, 168 BCE). King Pyrrhus of Epirus (cousin of Alexander via Olympias & claiming descent from Achilles's son Neoptolemus!) fought Rome ('Pyrrhic victory').",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls_pontus_mithridates",
@@ -150,8 +144,7 @@
         "Appian Mithridatic Wars"
       ],
       "notes": "Claimed descent from both Darius the Great (Achaemenids) and Alexander/Seleucids! Mithridates VI Eupator waged three Mithridatic Wars against Rome; his daughter Cleopatra married King Tigranes the Great of Armenia, and his son Pharnaces II ruled the Bosporan Kingdom ('Veni, vidi, vici').",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls_armenia_tigranes",
@@ -170,8 +163,7 @@
         "Josephus Antiquities XVIII.5"
       ],
       "notes": "Artaxias I founded Artaxata; Tigranes the Great built a vast empire from the Caspian to the Mediterranean. Remarkable dynastic link: Herod the Great's grandson Tigranes V & great-grandson Tigranes VI (via Alexander + Glaphyra of Cappadocia) were placed on the throne of Armenia by Rome!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls_bactria_menander",
@@ -191,8 +183,7 @@
         "Strabo"
       ],
       "notes": "Diodotus broke away from the Seleucids in Bactria; Demetrius I invaded India (Gandhara/Punjab); Menander I Soter (Pali: Milinda) converted to Buddhism in the famous dialogue Milinda Panha with sage Nagasena — bridging Greek, Iranian, and Indian civilizations!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls_adiabene_edessa",
@@ -212,8 +203,7 @@
         "Eusebius HE I.13"
       ],
       "notes": "Queen Helena of Adiabene & her son King Izates II converted to Judaism (~30 CE), funded famine relief in Jerusalem, and built the monumental Tomb of the Kings in Jerusalem. King Abgar V Ukkama of Edessa (Osroene) features in Syriac chronicles as the first Christian monarch.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom_alba_longa",
@@ -236,8 +226,7 @@
         "Livy I.3"
       ],
       "notes": "Complete Latin succession from Aeneas (+ Lavinia daughter of King Latinus): Ascanius/Iulus (claimed ancestor of the Julii Caesars!), Silvius Posthumus, Aeneas Silvius, Latinus Silvius, Alba, Atys, Capys, Capetus, Tiberinus (eponym of the Tiber River), Agrippa, Romulus Silvius, Aventinus, Procas -> Numitor (father of Rhea Silvia) & usurper Amulius.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom_seven_kings",
@@ -259,8 +248,7 @@
         "Livy Book I"
       ],
       "notes": "Sabine co-ruler Titus Tatius -> Numa Pompilius -> Tullus Hostilius -> Ancus Marcius -> Etruscan Tarquinius Priscus (+ Tanaquil) -> Servius Tullius -> Tarquinius Superbus (expelled in 509 BCE by Lucius Junius Brutus & Tarquinius Collatinus, founding the Roman Republic!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "rom_julio_claudians",
@@ -282,8 +270,7 @@
         "Acts 25"
       ],
       "notes": "Augustus (census at Jesus's birth, Luke 2:1) -> Tiberius (Jesus's ministry & crucifixion, Luke 3:1) -> Caligula (descended from Mark Antony & Agrippa) -> Claudius (Acts 18:2) -> Nero (martyrdom of Peter & Paul, Great Fire of 64 CE).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "rom_flavians_antonines_severans",
@@ -306,8 +293,7 @@
         "Josephus Wars"
       ],
       "notes": "Vespasian & Titus (destruction of Jerusalem Temple, 70 CE — patrons of Josephus!) -> Domitian (interviewed grandsons of Jude, brother of Jesus!). Nerva -> Trajan -> Hadrian -> Antoninus Pius -> Marcus Aurelius -> Commodus. Septimius Severus (Punic/Libyan from Leptis Magna!) + Julia Domna (Priest-King house of Emesa!) -> Caracalla.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom_constantine_byzantium",
@@ -328,8 +314,7 @@
         "Anderson 1732 Tables 114, 133-135"
       ],
       "notes": "Constantine I (+ St. Helena) founded Constantinople (330 CE) -> Theodosius I (split East/West 395 CE) -> Justinian I (+ Empress Theodora, Hagia Sophia) -> Heraclius (defeated Sasanian Khosrow II) -> Macedonian Dynasty (Basil I, Basil II) -> Komnenoi -> Palaiologoi (until 1453).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_merovingian_carolingian",
@@ -348,8 +333,7 @@
         "Betham 1795 Tab. CXVI"
       ],
       "notes": "Clovis I unified the Franks (481-511). Carolingian Mayor of the Palace Charles Martel (Battle of Tours, 732) -> Pepin the Short -> Charlemagne (crowned Emperor 800 CE) -> Louis the Pious -> Treaty of Verdun (Lothair, Louis the German, Charles the Bald). Chroniclers (Fredegar/Anderson) linked early Franks back to Trojan exiles (Francus)!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_wessex_alfred_norman",
@@ -370,8 +354,7 @@
         "Betham 1795"
       ],
       "notes": "The Anglo-Saxon Chronicle (under King Æthelwulf, father of Alfred the Great) famously traces Wessex back through Cerdic -> Woden (Odin) -> Geat -> Sceaf ('born in Noah's Ark'!) -> Noah -> Adam! Rollo the Viking founded Normandy -> William the Conqueror (1066) -> Henry II & Eleanor of Aquitaine (Plantagenets).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "eur_rurik_harald_viking",
@@ -393,8 +376,7 @@
         "Anderson 1732"
       ],
       "notes": "Harald Fairhair (Yngling descendant) unified Norway (~872); Varangian Prince Rurik founded Novgorod (862) -> Igor & St. Olga -> Sviatoslav I -> Vladimir the Great (Christianized Kievan Rus', 988, marrying Byzantine princess Anna Porphyrogenita!) -> Yaroslav the Wise (whose daughters became Queens of France, Norway & Hungary!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "ar_hashim_muhammad_caliphs",
@@ -416,8 +398,7 @@
         "Anderson 1732 Tables 157-158"
       ],
       "notes": "Through Adnan -> Fihr (Quraysh) -> Qusayy -> Abd Manaf -> Hashim -> Abd al-Muttalib -> Abdullah & Aminah -> Prophet Muhammad (founder of Islam). Through daughter Fatimah & cousin Ali ibn Abi Talib: Hasan & Husayn (Alids/Hashemites). Through Abd Manaf's son Abd Shams: Umayyad Caliphate (Mu'awiya I, Damascus & Cordoba). Through uncle Al-Abbas: Abbasid Caliphate (Al-Saffah, Harun al-Rashid of Baghdad!).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     }
   ],
   "edges": [

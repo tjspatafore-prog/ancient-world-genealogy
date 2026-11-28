@@ -16,8 +16,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Original Horite patriarch of Mount Seir whose 7 sons (Lotan, Shobal, Zibeon, Anah, Dishon, Ezer, Dishan) and daughters (Timna, Oholibamah) merged with Esau's house.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bib_melchizedek",
@@ -34,8 +33,7 @@
         "Jasher 16:11"
       ],
       "notes": "King of Salem (Jerusalem) who blesses Abraham. Book of Jasher 16:11 & Targums identify him with Shem son of Noah; his name ('King of Righteousness') also echoes Phoenician Sydyk in Sanchuniathon!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bib_job",
@@ -50,8 +48,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Dwelt in the Land of Uz; debated by Eliphaz the Temanite (Esau!), Bildad the Shuhite (Shuah/Abraham!), Zophar the Naamathite, and Elihu the Buzite.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "bib_joshua_caleb",
@@ -67,8 +64,7 @@
         "1 Chronicles 7:27"
       ],
       "notes": "Joshua (Tribe of Ephraim via Beriah -> Elishama -> Nun) succeeded Moses to lead Israel across the Jordan.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "bib_zelophehad_bezalel",
@@ -83,8 +79,7 @@
         "1 Chronicles 7:15"
       ],
       "notes": "Manasseh -> Machir -> Gilead -> Hepher -> Zelophehad, whose 5 daughters established landmark female inheritance rights in Israel!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bib_korah_asaph",
@@ -100,8 +95,7 @@
         "1 Chronicles 6:31-48"
       ],
       "notes": "Izhar -> Korah -> Assir, Elkanah, Ebiasaph (direct ancestors of Prophet Samuel, Heman, and the Korahite psalmists!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bib_anakim_goliath",
@@ -117,8 +111,7 @@
         "Joshua 11:22"
       ],
       "notes": "Champion of Gath descended from the Anakim remnant spared at Gaza, Gath, and Ashdod; slain by young David.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bib_balaam",
@@ -134,8 +127,7 @@
         "Book of Jasher 72"
       ],
       "notes": "Summoned by Moabite King Balak (son of Zippor) to curse Israel; archaeologically attested in the 8th-c. BCE Deir Alla plaster inscription in Jordan!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg_othniel",
@@ -150,8 +142,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "First Judge of Israel; nephew/brother of Caleb who marries Caleb's daughter Achsah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg_ehud",
@@ -166,8 +157,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Left-handed Benjaminite deliverer who slew Moabite King Eglon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg_shamgar",
@@ -182,8 +172,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Delivered Israel from 600 Philistines with an oxgoad.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg_deborah",
@@ -198,8 +187,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Prophetess & Judge of Israel who led General Barak against Canaanite commander Sisera.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jdg_gideon",
@@ -214,8 +202,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Abiezrite of Manasseh who defeated Midian with 300 men; father of Abimelech, Jotham, and 70 sons.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jdg_tola_jair",
@@ -230,8 +217,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Son of Puah, son of Dodo, a man of Issachar who judged Israel 23 years at Shamir.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg_jephthah",
@@ -246,8 +232,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Mighty warrior of Gilead who delivered Israel from the Ammonites; father of Seila.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg_ibzan_elon_abdon",
@@ -262,8 +247,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Judged Israel 7 years; had 30 sons and 30 daughters.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg_samson",
@@ -278,8 +262,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Nazirite strongman of the Tribe of Dan (+ Delilah) who battled the Philistines.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "jdg_eli",
@@ -294,8 +277,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Descended from Aaron's son Ithamar; priest at Shiloh who mentored young Samuel; father of Hophni & Phinehas.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "jdg_samuel",
@@ -310,8 +292,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Kohathite Levite (via Korah -> Elkanah & Hannah); final Judge who anointed BOTH King Saul and King David!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "bib_saul",
@@ -327,8 +308,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Anointed by Samuel; father of Jonathan, Abinadab, Malchi-shua, Ish-bosheth, Armoni, Mephibosheth II, Merab, and Michal.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "bib_jonathan_abner",
@@ -343,8 +323,7 @@
         "1 Chronicles 8:33-40"
       ],
       "notes": "Covenant friend of David; fell with Saul on Mt. Gilboa; father of Mephibosheth.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bib_zeruiah_joab",
@@ -359,8 +338,7 @@
         "1 Chronicles 2:13"
       ],
       "notes": "Eldest brother of King David; father of Abihail (ancestor of Queen Mahalath) and grandfather of Zeruiah/Abigail kin.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bib_bathsheba_uriah",
@@ -375,8 +353,7 @@
         "1 Chronicles 3:5"
       ],
       "notes": "Son of counselor Ahithophel of Giloh and father of Bathsheba (mother of Nathan & Solomon).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bib_hadad_edom",
@@ -391,8 +368,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Fled Edom to Egypt, married the sister of Egyptian Queen Tahpenes, and fathered Genubath.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg_j1_rehoboam",
@@ -408,8 +384,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Son of Solomon & Naamah the Ammonitess; invaded by Pharaoh Shishak (Shoshenq I).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg_j2_abijah",
@@ -425,8 +400,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Son of Rehoboam & Queen Maacah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg_j3_asa",
@@ -442,8 +416,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Reforming king who defeated Zerah the Cushite.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg_j4_jehoshaphat",
@@ -459,8 +432,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Son of Asa & Azubah; allied with Ahab of Israel.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg_j5_jehoram",
@@ -476,8 +448,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Married Athaliah (daughter of Ahab & Jezebel), uniting the royal houses of Judah, Israel, and Sidon.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg_j6_ahaziah",
@@ -493,8 +464,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Son of Jehoram & Queen Athaliah; slain by Jehu; father of King Joash.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg_j7_joash",
@@ -510,8 +480,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Hidden in the Temple by Aunt Jehosheba & High Priest Jehoiada; father of King Amaziah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg_j8_uzziah",
@@ -527,8 +496,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "52-year reign attested in Aramaic Uzziah tablet; father of King Jotham.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg_j9_hezekiah",
@@ -544,8 +512,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Withstood Sennacherib's siege alongside Isaiah & Cushite Pharaoh Taharqa; ancestor of Prophet Zephaniah.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kg_j10_manasseh",
@@ -561,8 +528,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Longest-reigning king of Judah; vassal of Esarhaddon & Ashurbanipal.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg_j11_josiah",
@@ -578,8 +544,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Great Deuteronomic reformer; fell at Megiddo confronting Pharaoh Neco II (609 BCE).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kg_j12_jehoiakim_zedekiah",
@@ -595,8 +560,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Second son of Josiah; father of exiled King Jehoiachin.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg_j13_jehoiachin",
@@ -612,8 +576,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Son of Jehoiakim carried to Babylon (attested in Nebuchadnezzar's ration tablets!); father of 7 exilic sons including Shealtiel & Pedaiah.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kg_i1_jeroboam",
@@ -628,8 +591,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "First King of the Northern Kingdom of Israel (10 tribes); sheltered earlier by Pharaoh Shishak in Egypt.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kg_i2_baasha",
@@ -644,8 +606,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Founder of the second northern dynasty (Tribe of Issachar); father of Elah.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "kg_i3_omri_ahab",
@@ -660,8 +621,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Founder of Samaria ('Bit-Humria' in Assyrian records & Mesha Stele); father of King Ahab.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kg_i4_jehu",
@@ -676,8 +636,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Anointed by Elisha's prophet; bowed on Shalmaneser III's Black Obelisk ('Yaua son of Omri'); founded 5-king Jehu dynasty.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "kg_i5_hoshea",
@@ -692,8 +651,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Final king of Northern Israel before Samaria fell to Shalmaneser V / Sargon II (722 BCE — Assyrian Exile!).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "pri_eleazar_zadok",
@@ -709,8 +667,7 @@
         "1 Chronicles 6:8"
       ],
       "notes": "Son of Ahitub I (via Aaron -> Eleazar -> Phinehas -> Abishua -> Bukki -> Uzzi -> Zerahiah -> Meraioth -> Amariah); anointed Solomon.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pri_ezra_jaddua",
@@ -725,8 +682,7 @@
         "Nehemiah 8"
       ],
       "notes": "Direct son/descendant of First Temple High Priest Seraiah (Ezra 7:1); commissioned by Artaxerxes I to restore Torah law in Jerusalem.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "nt_john_baptist",
@@ -742,8 +698,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Son of Priest Zechariah (course of Abijah) and Elizabeth (kinswoman of Virgin Mary); baptized Jesus at the Jordan.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pro_elijah_elisha",
@@ -759,8 +714,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Confronted Ahab & Jezebel on Mt. Carmel and ascended in a whirlwind before Elisha.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pro_isaiah_zephaniah",
@@ -776,8 +730,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Prophesied under Kings Uzziah, Jotham, Ahaz, and Hezekiah; father of Shear-jashub & Maher-shalal-hash-baz.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pro_jeremiah_ezekiel",
@@ -792,8 +745,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Priestly prophet at Anathoth who witnessed 586 BCE fall of Jerusalem alongside scribe Baruch.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pro_daniel_nehemiah",
@@ -808,8 +760,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Exiled royal Judean youth who interpreted Nebuchadnezzar's and Belshazzar's visions and served into Cyrus's reign.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "pro_minor_prophets",
@@ -824,8 +775,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Prophesied during Jeroboam II's reign; married Gomer bat Diblaim.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "bib_esther_mordecai",
@@ -842,8 +792,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Descendant of Benjamite Kish/Shimei; cousin and adoptive guardian of Queen Esther opposite Haman the Agagite.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "nt_matthew_joseph",
@@ -858,8 +807,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Son of Jacob ben Matthan (Matthew 1:15-16); husband of the Virgin Mary and legal father of Jesus of Nazareth.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "nt_luke_mary",
@@ -875,8 +823,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Daughter of Joachim/Heli & Saint Anne, betrothed to Joseph of Nazareth, mother of Jesus Christ and kinswoman of Elizabeth.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "nt_jesus",
@@ -896,8 +843,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Born in Bethlehem of Mary (Luke 3 line) & legal son of Joseph (Matthew 1 line) during Caesar Augustus & Herod the Great; siblings include James the Just and Jude.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "nt_paul",
@@ -913,8 +859,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Born in Tarsus (Cilicia — cf. Cilix/Tarshish!) of the Tribe of Benjamin; carried the Judeo-Christian movement across Anatolia, Greece (Athens/Corinth), and Rome!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "nt_herodians",
@@ -932,8 +877,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Structural anchor uniting the Herodian rulers across Judea, Chalcis, Armenia (Tigranes V/VI), Cilicia, Emesa, and the Roman Senate.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "for_nebuchadnezzar",
@@ -949,8 +893,7 @@
         "Babylonian Chronicles"
       ],
       "notes": "Nebuchadnezzar II besieged Jerusalem (597 & 586 BCE), exiled Jehoiachin and Daniel, and built the Hanging Gardens/Ishtar Gate; succeeded by Evil-merodach (Amel-Marduk) who released King Jehoiachin!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "for_neo_assyria",
@@ -966,8 +909,7 @@
         "Ezra 4:10 (Osnappar)"
       ],
       "notes": "Tiglath-Pileser III (Pul) exacted tribute from Israel/Judah; Sennacherib besieged Hezekiah (Taylor Prism) before being slain by sons Adrammelech & Sharezer; Esarhaddon & Ashurbanipal (Osnappar) conquered Egypt (Taharqa)!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "for_hiram_syria_moab",
@@ -984,8 +926,7 @@
         "Tel Dan Stele"
       ],
       "notes": "Hiram of Tyre supplied cedar & craftsman Huram-Abi for Solomon's Temple; King Mesha of Moab's 840 BCE Stele mentions Omri, Israel & 'House of David'; King Hazael of Damascus (Tel Dan Stele) fought Jehoram & Ahaziah!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "for_pharaoh_neco",
@@ -1001,8 +942,7 @@
         "Adam2Jesus Chart"
       ],
       "notes": "Marched north to aid Assyria against Babylon, slaying King Josiah at Megiddo (609 BCE) and installing Jehoiakim; Herodotus credits Neco II with commissioning Phoenician sailors to circumnavigate Africa!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [

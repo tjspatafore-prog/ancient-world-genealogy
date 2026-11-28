@@ -15,8 +15,7 @@
         "Betham Tab. XCII"
       ],
       "notes": "Father of Solomon's ally King Hiram I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_hiram1",
@@ -31,8 +30,7 @@
         "Betham Tab. XCII"
       ],
       "notes": "Son of Abibaal; supplied cedar and craftsman Huram-Abi for Solomon's Temple.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls3_baalezer1",
@@ -47,8 +45,7 @@
         "Betham Tab. XCII"
       ],
       "notes": "Succeeded Hiram I through Abdastartus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_baalezer2",
@@ -63,8 +60,7 @@
         "Betham Tab. XCII"
       ],
       "notes": "Paid tribute to Shalmaneser III in 841 BCE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_mattan1",
@@ -79,8 +75,7 @@
         "Betham Tab. XCII"
       ],
       "notes": "Son of Baal-ezer II; father of Pygmalion and Elissa/Dido.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_pygmalion",
@@ -95,8 +90,7 @@
         "Betham Tab. XCII"
       ],
       "notes": "Reigned 47 years; sister Elissa/Dido founded Carthage in his 7th year (814 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_hamilcar_barca",
@@ -111,8 +105,7 @@
         "Betham Tab. LXXXVIII"
       ],
       "notes": "Father of Hannibal, Hasdrubal, and Mago Barca.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_hannibal_barca",
@@ -127,8 +120,7 @@
         "Livy XXI–XXX"
       ],
       "notes": "Eldest son of Hamilcar Barca; victor of Trebia, Trasimene & Cannae.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls3_hasdrubal_barca",
@@ -142,8 +134,7 @@
         "Livy XXVII"
       ],
       "notes": "Fell at the Battle of the Metaurus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_mago_barca",
@@ -157,8 +148,7 @@
         "Livy XXX"
       ],
       "notes": "Founded Port Mahon and fought in Italy.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_hasdrubal_gisco",
@@ -172,8 +162,7 @@
         "Livy XXIX–XXX"
       ],
       "notes": "Father of Sophonisba.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_sophonisba",
@@ -187,8 +176,7 @@
         "Livy XXX.12–15"
       ],
       "notes": "Married Numidian kings Syphax and Masinissa during the 2nd Punic War.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_gaia",
@@ -203,8 +191,7 @@
         "Betham Tab. XC–XCI"
       ],
       "notes": "Father of unifier King Masinissa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_masinissa",
@@ -219,8 +206,7 @@
         "Betham Tab. XC–XCI"
       ],
       "notes": "Allied with Scipio Africanus at Zama; father of Micipsa, Mastanabal & Gulussa.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls3_micipsa",
@@ -235,8 +221,7 @@
         "Betham Tab. XC–XCI"
       ],
       "notes": "Father of Adherbal & Hiempsal I; adopted nephew Jugurtha.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_jugurtha",
@@ -251,8 +236,7 @@
         "Betham Tab. XC–XCI"
       ],
       "notes": "Son of Mastanabal; resisted Rome in the Jugurthine War.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_juba1",
@@ -267,8 +251,7 @@
         "Betham Tab. XC–XCI"
       ],
       "notes": "Allied with Cato & Scipio at Thapsus; father of scholar-king Juba II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_ptolemy_mauretania",
@@ -283,8 +266,7 @@
         "Betham Tab. XC–XCI"
       ],
       "notes": "Son of King Juba II and Queen Cleopatra Selene II; grandson of Mark Antony & Cleopatra VII!",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls3_cleopatra_selene2",
@@ -300,8 +282,7 @@
         "Betham Tab. XCI"
       ],
       "notes": "Twin daughter of Cleopatra VII and Mark Antony; raised by Octavia Minor in Rome, wed King Juba II of Mauretania, and bore King Ptolemy of Mauretania.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls3_gyges",
@@ -317,8 +298,7 @@
         "Betham Tab. LXVI"
       ],
       "notes": "Overthrew Heraclid Candaules; allied with Assyria under Ashurbanipal.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_ardys",
@@ -334,8 +314,7 @@
         "Betham Tab. LXVI"
       ],
       "notes": "Son of Gyges.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_sadyattes",
@@ -351,8 +330,7 @@
         "Betham Tab. LXVI"
       ],
       "notes": "Father of Alyattes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_alyattes",
@@ -368,8 +346,7 @@
         "Betham Tab. LXVI"
       ],
       "notes": "Minted earliest electrum coins; wed daughter Aryenis to Median Crown Prince Astyages.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_croesus",
@@ -385,8 +362,7 @@
         "Betham Tab. LXVI"
       ],
       "notes": "Famed for wealth; fought Cyrus the Great at Thymbra & Sardis (546 BCE).",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls3_aryenis",
@@ -400,8 +376,7 @@
         "Herodotus I.74"
       ],
       "notes": "Married Astyages of Media to seal the Battle of the Eclipse peace treaty (585 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_seleucus1",
@@ -418,8 +393,7 @@
         "Betham Tab. CIII"
       ],
       "notes": "General of Alexander; wed Sogdian princess Apama.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls3_antiochus1",
@@ -436,8 +410,7 @@
         "Betham Tab. CIII"
       ],
       "notes": "Co-regent in Babylon & victor over Galatians.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_antiochus2",
@@ -454,8 +427,7 @@
         "Betham Tab. CIII"
       ],
       "notes": "Married Ptolemaic princess Berenice (Daniel 11:6 'King of the North').",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_seleucus2",
@@ -472,8 +444,7 @@
         "Betham Tab. CIII"
       ],
       "notes": "Father of Seleucus III & Antiochus III.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_antiochus3",
@@ -490,8 +461,7 @@
         "Betham Tab. CIII"
       ],
       "notes": "Restored Seleucid authority east to Bactria/India; wed daughter Cleopatra I Syra to Ptolemy V.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls3_seleucus4",
@@ -508,8 +478,7 @@
         "Betham Tab. CIII"
       ],
       "notes": "Dispatched Heliodorus to Jerusalem Temple.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_demetrius1_soter",
@@ -526,8 +495,7 @@
         "Betham Tab. CIII"
       ],
       "notes": "Authorized High Priest Alcimus against Judas Maccabeus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_apama",
@@ -541,8 +509,7 @@
         "Arrian Anabasis VII.4"
       ],
       "notes": "Daughter of Sogdian leader Spitamenes; sole Alexander-era queen marriage never repudiated.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_cleopatra1_syra",
@@ -557,8 +524,7 @@
         "Appian Syr. 5"
       ],
       "notes": "Introduced Seleucid marriage link and name Cleopatra into the Ptolemaic house.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_antiochus4",
@@ -573,8 +539,7 @@
         "Josephus Ant. XII.5"
       ],
       "notes": "Desecrated the Second Temple in 167 BCE, provoking Mattathias & Judas Maccabeus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_antiochus5",
@@ -588,8 +553,7 @@
         "1 Maccabees 6"
       ],
       "notes": "Young son of Antiochus IV.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_antigonus1",
@@ -605,8 +569,7 @@
         "Betham Tab. LXXVII"
       ],
       "notes": "Unifier of Asia until Battle of Ipsus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_demetrius_poliorcetes",
@@ -622,8 +585,7 @@
         "Betham Tab. LXXVII"
       ],
       "notes": "Father of Antigonus II Gonatas.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_antigonus2",
@@ -639,8 +601,7 @@
         "Betham Tab. LXXVII"
       ],
       "notes": "Son of Demetrius Poliorcetes.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_philip5",
@@ -656,8 +617,7 @@
         "Betham Tab. LXXVII"
       ],
       "notes": "Father of final king Perseus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_perseus_macedon",
@@ -673,8 +633,7 @@
         "Betham Tab. LXXVII"
       ],
       "notes": "Defeated by Aemilius Paullus at Pydna (168 BCE) and interned at Alba Fucens.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_pyrrhus_epirus",
@@ -689,8 +648,7 @@
         "Betham Tab. LXXXI"
       ],
       "notes": "Son of Aeacides; second cousin of Alexander the Great and renowned adversary of Rome ('Pyrrhic victory').",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls3_mithridates1",
@@ -705,8 +663,7 @@
         "Betham Tab. XCV"
       ],
       "notes": "Claimed Achaemenid Persian noble lineage.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_pharnaces1",
@@ -721,8 +678,7 @@
         "Betham Tab. XCV"
       ],
       "notes": "Captured Sinope.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_mithridates6",
@@ -737,8 +693,7 @@
         "Betham Tab. XCV"
       ],
       "notes": "Fought three Mithridatic Wars against Sulla, Lucullus & Pompey; father of Cleopatra of Pontus & Pharnaces II.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls3_pharnaces2",
@@ -753,8 +708,7 @@
         "Betham Tab. XCV"
       ],
       "notes": "Son of Mithridates VI defeated by Julius Caesar at Zela (47 BCE).",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_cleopatra_pontus",
@@ -769,8 +723,7 @@
         "Betham Tab. LXXXIII"
       ],
       "notes": "Daughter of Mithridates VI; married Tigranes II the Great of Armenia and bore Artavasdes II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_artaxias1",
@@ -785,8 +738,7 @@
         "Strabo XI"
       ],
       "notes": "Established Artaxiad Dynasty & capital Artaxata.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_tigranes2_great",
@@ -801,8 +753,7 @@
         "Strabo XI"
       ],
       "notes": "Built empire from Caspian to Syria; wed Cleopatra of Pontus.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls3_artavasdes2",
@@ -817,8 +768,7 @@
         "Strabo XI"
       ],
       "notes": "Scholarly son of Tigranes the Great & Cleopatra of Pontus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_diodotus1",
@@ -834,8 +784,7 @@
         "Betham Tab. LXVIII"
       ],
       "notes": "Broke away from Antiochus II in Bactria/Sogdia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_euthydemus1",
@@ -851,8 +800,7 @@
         "Betham Tab. LXVIII"
       ],
       "notes": "Father of Indo-Greek conqueror Demetrius I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_demetrius1_bactria",
@@ -868,8 +816,7 @@
         "Betham Tab. LXVIII"
       ],
       "notes": "Extended Hellenistic rule into Northwest India.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_menander1",
@@ -885,8 +832,7 @@
         "Betham Tab. LXVIII"
       ],
       "notes": "Central royal interlocutor of Buddhist classic Milinda Panha.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "cls3_aegialeus_sicyon",
@@ -901,8 +847,7 @@
         "Apollodorus II.i.1"
       ],
       "notes": "Son of Inachus in Apollodorus; placed by Eusebius at the dawn of Greek chronology as contemporary of Nimrod/Belus & Ninus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "cls3_abgar5_edessa",
@@ -918,8 +863,7 @@
         "Betham Tab. LXXI"
       ],
       "notes": "Abgarid king of Edessa prominent in early Syriac Christian historiography.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_king_latinus",
@@ -933,8 +877,7 @@
         "Dionysius Roman Antiquities I.57–64"
       ],
       "notes": "Welcomed Aeneas and gave daughter Lavinia in marriage.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_lavinia",
@@ -949,8 +892,7 @@
         "Virgil Aeneid VII"
       ],
       "notes": "Eponym of Lavinium; mother of Silvius Posthumus by Aeneas.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_ascanius_iulus",
@@ -965,8 +907,7 @@
         "Virgil Aeneid I"
       ],
       "notes": "Son of Aeneas & Trojan Creusa; built Alba Longa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_silvius",
@@ -982,8 +923,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Half-brother of Ascanius; ancestor of all Alban Silvii.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_aeneas_silvius",
@@ -999,8 +939,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Son of Silvius.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_latinus_silvius",
@@ -1016,8 +955,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Son of Aeneas Silvius.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_alba",
@@ -1033,8 +971,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Son of Latinus Silvius.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_atys_alba",
@@ -1050,8 +987,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Son of Alba.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_capys_alba",
@@ -1067,8 +1003,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Son of Atys.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_capetus",
@@ -1084,8 +1019,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Son of Capys.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_tiberinus",
@@ -1101,8 +1035,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Drowned in the Albula, thereafter named the Tiber River.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_agrippa_alba",
@@ -1118,8 +1051,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Son of Tiberinus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_romulus_silvius",
@@ -1135,8 +1067,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Son of Agrippa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_aventinus",
@@ -1152,8 +1083,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Buried on the Aventine Hill.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_procas",
@@ -1169,8 +1099,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Father of rightful heir Numitor and usurper Amulius.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_numitor",
@@ -1186,8 +1115,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Restored to Alba Longa's throne by grandsons Romulus & Remus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_rhea_silvia",
@@ -1203,8 +1131,7 @@
         "Eusebius Chronicle"
       ],
       "notes": "Mother of Rome's twin founders Romulus & Remus.",
-      "major": true,
-      "biblicalConnected": true
+      "major": true
     },
     {
       "id": "rom3_amulius",
@@ -1218,8 +1145,7 @@
         "Dionysius I.71–83"
       ],
       "notes": "Overthrew Numitor before being slain by Romulus & Remus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_remus",
@@ -1234,8 +1160,7 @@
         "Dionysius I.87"
       ],
       "notes": "Twin brother of Romulus born to Rhea Silvia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_numa_pompilius",
@@ -1251,8 +1176,7 @@
         "Betham Tab. CXII"
       ],
       "notes": "Instituted Roman religious calendar, temples & priestly colleges.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_tullus_hostilius",
@@ -1268,8 +1192,7 @@
         "Betham Tab. CXII"
       ],
       "notes": "Destroyed Alba Longa and incorporated its noble Alban clans into Rome.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_ancus_marcius",
@@ -1285,8 +1208,7 @@
         "Betham Tab. CXII"
       ],
       "notes": "Grandson of Numa Pompilius; built Sublician Bridge & Ostia port.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_tarquinius_priscus",
@@ -1302,8 +1224,7 @@
         "Betham Tab. CXII"
       ],
       "notes": "Initiated Circus Maximus & Cloaca Maxima.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_servius_tullius",
@@ -1319,8 +1240,7 @@
         "Betham Tab. CXII"
       ],
       "notes": "Reformed Roman centuriate classes; son-in-law of Tarquinius Priscus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_tarquinius_superbus",
@@ -1336,8 +1256,7 @@
         "Betham Tab. CXII"
       ],
       "notes": "Expelled in 509 BCE by Lucius Junius Brutus, inaugurating the Roman Republic.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_julius_caesar",
@@ -1352,8 +1271,7 @@
         "Plutarch Caesar"
       ],
       "notes": "Descendant of Gens Julia; crossed Rubicon 49 BCE, wed Cornelia/Calpurnia, fathered Julia & Ptolemy XV Caesarion, adopted Octavian.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_julia_minor",
@@ -1367,8 +1285,7 @@
         "Suetonius Augustus 4, 8"
       ],
       "notes": "Sister of Julius Caesar; wed Marcus Atius Balbus and bore Atia.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_atia",
@@ -1382,8 +1299,7 @@
         "Suetonius Augustus 4"
       ],
       "notes": "Daughter of Julia Minor & Balbus; wed Gaius Octavius and bore Octavia Minor & Augustus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_octavia_minor",
@@ -1398,8 +1314,7 @@
         "Plutarch Antony"
       ],
       "notes": "Elder sister of Augustus; bore Antonia Minor by Mark Antony — uniting Julian & Antonian lines in Caligula, Claudius, and Nero!",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_augustus",
@@ -1415,8 +1330,7 @@
         "Betham Tab. CXXI"
       ],
       "notes": "Adopted heir of Julius Caesar; ruled 27 BCE–14 CE during the birth of Jesus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_livia_drusilla",
@@ -1431,8 +1345,7 @@
         "Suetonius Tiberius"
       ],
       "notes": "Mother of Emperor Tiberius and General Drusus the Elder by Tiberius Claudius Nero; wed Augustus for 51 years.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_marcus_agrippa",
@@ -1447,8 +1360,7 @@
         "Suetonius Augustus 63"
       ],
       "notes": "Wed Augustus's daughter Julia the Elder, fathering Gaius, Lucius, Agrippina the Elder & Agrippa Postumus.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_julia_elder",
@@ -1462,8 +1374,7 @@
         "Suetonius Augustus 63–65"
       ],
       "notes": "Mother of Agrippina the Elder by Marcus Agrippa.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_drusus_elder",
@@ -1477,8 +1388,7 @@
         "Suetonius Claudius 1"
       ],
       "notes": "Brother of Emperor Tiberius; wed Antonia Minor and fathered Germanicus and Emperor Claudius.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_antonia_minor",
@@ -1493,8 +1403,7 @@
         "Josephus Ant. XVIII.6.6"
       ],
       "notes": "Befriended Berenice I & young Herod Agrippa I in Rome; bore Germanicus, Livilla & Emperor Claudius.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_germanicus",
@@ -1509,8 +1418,7 @@
         "Suetonius Caligula 1–7"
       ],
       "notes": "Son of Drusus the Elder & Antonia Minor; wed Agrippina the Elder, bearing Caligula & Agrippina the Younger.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_agrippina_elder",
@@ -1524,8 +1432,7 @@
         "Tacitus Annals I–VI"
       ],
       "notes": "Granddaughter of Augustus; mother of Emperor Caligula and Agrippina the Younger.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_agrippina_younger",
@@ -1540,8 +1447,7 @@
         "Suetonius Nero"
       ],
       "notes": "Great-granddaughter of Augustus; mother of Emperor Nero.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_constantius_chlorus",
@@ -1556,8 +1462,7 @@
         "Eusebius VC I"
       ],
       "notes": "Father of Constantine the Great by St. Helena.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_st_helena",
@@ -1572,8 +1477,7 @@
         "Chronicon Paschale"
       ],
       "notes": "Mother of first Christian Emperor Constantine I.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_constantine2",
@@ -1587,8 +1491,7 @@
         "Chronicon Paschale"
       ],
       "notes": "Ruled Gaul, Spain & Britain after 337 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_constantius2",
@@ -1602,8 +1505,7 @@
         "Chronicon Paschale"
       ],
       "notes": "Ruled the Eastern Roman Empire 337–361 CE.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_constans",
@@ -1617,8 +1519,7 @@
         "Chronicon Paschale"
       ],
       "notes": "Ruled Italy, Africa & Illyricum.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_arcadius",
@@ -1632,8 +1533,7 @@
         "Chronicon Paschale (Whitby p.80)"
       ],
       "notes": "Proclaimed Augustus by father Theodosius I at the Hebdomon in Constantinople (383 CE); father of Theodosius II.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_honorius",
@@ -1647,8 +1547,7 @@
         "Chronicon Paschale"
       ],
       "notes": "Son of Theodosius I & Aelia Flaccilla.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_galla_placidia",
@@ -1662,8 +1561,7 @@
         "Chronicon Paschale"
       ],
       "notes": "Daughter of Theodosius I & Galla; wed Visigothic King Athaulf and later Emperor Constantius III.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     },
     {
       "id": "rom3_valentinian3",
@@ -1677,8 +1575,7 @@
         "Chronicon Paschale"
       ],
       "notes": "Western Emperor during Attila's campaigns.",
-      "major": false,
-      "biblicalConnected": true
+      "major": false
     }
   ],
   "edges": [
