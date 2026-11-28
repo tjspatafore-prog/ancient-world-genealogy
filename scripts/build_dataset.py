@@ -1401,8 +1401,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Wave 14 Complete Source Library Sweep (v31.0)",
-            "version": "31.0.0",
+            "title": "Ancient World Genealogy Atlas — Complete Compendium & Downloadable Reports Edition (v32.0)",
+            "version": "32.0.0",
             "counts": {
                 "total": len(all_nodes),
                 "biblicalConnected": bib_count,

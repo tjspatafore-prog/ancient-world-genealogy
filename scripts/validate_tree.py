@@ -255,6 +255,36 @@ def main():
                 prefix = "  START: " if step_i == 0 else f"  --({edge['type']}: {edge['label']})--> "
                 print(f"{prefix}{nodes_by_id[nid]['name']}")
 
+    # Verify exhaustive downloadable reports (PDF, Markdown, CSV, JSONL + manifest)
+    import csv
+    reports_dir = Path(__file__).resolve().parent.parent / "reports"
+    manifest_path = reports_dir / "report_manifest.json"
+    if manifest_path.exists():
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        expected_n = len([n for n in nodes if n.get("biblicalConnected") is True])
+        assert manifest["total_biblical_nodes"] == expected_n, f"Manifest count {manifest['total_biblical_nodes']} != {expected_n}"
+
+        pdf_p = reports_dir / "Ancient_World_Genealogy_Complete_Report.pdf"
+        md_p = reports_dir / "Ancient_World_Genealogy_AI_Parsed.md"
+        csv_p = reports_dir / "Ancient_World_Genealogy_Data_Points.csv"
+        jsonl_p = reports_dir / "Ancient_World_Genealogy_AI_Records.jsonl"
+        for rp in (pdf_p, md_p, csv_p, jsonl_p):
+            assert rp.exists() and rp.stat().st_size > 1024, f"Missing/empty report file: {rp}"
+
+        with open(pdf_p, "rb") as pf:
+            assert pf.read(5) == b"%PDF-", "Invalid PDF header"
+        md_entries = sum(1 for line in md_p.read_text(encoding="utf-8").splitlines() if line.startswith("### ["))
+        assert md_entries == expected_n, f"Markdown entry count {md_entries} != {expected_n}"
+        with open(csv_p, "r", encoding="utf-8-sig", newline="") as cf:
+            csv_rows = sum(1 for _ in csv.DictReader(cf))
+        assert csv_rows == expected_n, f"CSV row count {csv_rows} != {expected_n}"
+        jsonl_rows = [json.loads(line) for line in jsonl_p.read_text(encoding="utf-8").splitlines() if line.strip()]
+        assert len(jsonl_rows) == expected_n, f"JSONL count {len(jsonl_rows)} != {expected_n}"
+        print(
+            f"\nREPORTS VERIFIED OK: PDF ({manifest['pdf_pages']}p, {manifest['files']['pdf']['human_size']}), "
+            f"Markdown ({md_entries:,}), CSV ({csv_rows:,}), JSONL ({len(jsonl_rows):,})"
+        )
+
 
 if __name__ == "__main__":
     main()
