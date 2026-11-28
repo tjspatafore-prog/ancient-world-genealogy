@@ -50,6 +50,7 @@ from modules import (
     mod51_wave9_gaelic_welsh_roman_nubia_deccan_crusaders,
     mod52_wave10_islamic_africa_steppe_ane_living2026,
     mod53_wave11_global_monarchs_queens_and_dynasties,
+    mod54_wave12_remaining_sources_deep_mine,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1315,6 +1316,7 @@ def main():
         mod51_wave9_gaelic_welsh_roman_nubia_deccan_crusaders.build_module(),
         mod52_wave10_islamic_africa_steppe_ane_living2026.build_module(),
         mod53_wave11_global_monarchs_queens_and_dynasties.build_module(),
+        mod54_wave12_remaining_sources_deep_mine.build_module(),
     ]
 
     for mod in modules:
@@ -1395,8 +1397,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Wave 11 Fast-Canvas Engine, Royalty & Monarchs Tab & Global Living 2026 Crowns (v28.0)",
-            "version": "28.0.0",
+            "title": "Ancient World Genealogy Atlas — Wave 12 Classical, Harivamsha, Shahnameh & Chronicles Deep Mine (v29.0)",
+            "version": "29.0.0",
             "counts": {
                 "total": len(all_nodes),
                 "biblicalConnected": bib_count,

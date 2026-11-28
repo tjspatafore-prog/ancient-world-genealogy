@@ -1,0 +1,2345 @@
+{
+  "module": "54_wave12_remaining_sources_deep_mine",
+  "title": "Wave 12: Remaining Sources Deep Mine (Nepos, Eutropius, Aurelius Victor, Curtius Rufus, Xenophon, Harivamsha, Shahnameh, Abdias, Africanus, Sayce & L.W. King)",
+  "nodes": [
+    {
+      "id": "cls12_aristides_the_just",
+      "name": "Aristides 'the Just' of Athens",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 530 - 468 BCE",
+      "role": "Athenian Archon, Strategos & Delian League Assessor",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)"
+      ],
+      "notes": "Athenian statesman famed in Cornelius Nepos for incorruptibility in assessing Delian League tribute alongside Themistocles.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_pausanias_sparta",
+      "name": "Regent Pausanias of Sparta",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 510 - 470 BCE",
+      "role": "Agiad Spartan Regent & Victor of Plataea",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)"
+      ],
+      "notes": "Commanded the allied Greek forces at Plataea (479 BCE); Nepos pairs his triumph and subsequent Byzantine intrigue.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_thrasybulus_athens",
+      "name": "Thrasybulus of Steiria",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 440 - 388 BCE",
+      "role": "Athenian Strategos & Restorer of Democracy",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)"
+      ],
+      "notes": "Led the overthrow of the Thirty Tyrants at Athens; celebrated in Nepos's gallery of civic liberators.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_conon_timotheus_athens",
+      "name": "Conon & Timotheus of Athens",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 444 - 354 BCE",
+      "role": "Father-Son Athenian Admirals & Commanders",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)"
+      ],
+      "notes": "Conon won Cnidus (394 BCE) rebuilding Athens' Long Walls; his son Timotheus secured the Second Athenian League.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_iphicrates_chabrias",
+      "name": "Iphicrates & Chabrias of Athens",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 418 - 353 BCE",
+      "role": "Peltast Tacticians & Commanders in Thrace and Egypt",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)"
+      ],
+      "notes": "Iphicrates wed King Cotys I's Thracian daughter; Chabrias commanded Pharaoh Nectanebo II's forces in Egypt.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_datames_cappadocia",
+      "name": "Satrap Datames of Cappadocia",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "c. 407 - 362 BCE",
+      "role": "Carian-Scythian Satrap & Ruler of Cappadocia",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)"
+      ],
+      "notes": "Nepos praises Datames, son of Camissares and a Scythian mother, as the ablest non-Greek general of his age.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_pelopidas_thebes",
+      "name": "Pelopidas of Thebes",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 410 - 364 BCE",
+      "role": "Theban Boeotarch & Leader of the Sacred Band",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)"
+      ],
+      "notes": "Co-architect of the Theban Hegemony with Epaminondas; fell victorious at Cynoscephalae.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_agesilaus2_sparta",
+      "name": "King Agesilaus II of Sparta",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "444 - 360 BCE",
+      "role": "Eurypontid King of Sparta & Egyptian Campaign Ally",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)",
+        "Xenophon, Expedition of Cyrus & Ten Thousand (1776)"
+      ],
+      "notes": "Propelled to the Spartan throne by Lysander; campaigned across Asia Minor and Egypt until age 84.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_dion_syracuse",
+      "name": "Dion of Syracuse",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "408 - 354 BCE",
+      "role": "Ruler of Syracuse & Brother-in-Law of Dionysius I",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)"
+      ],
+      "notes": "Overthrew Dionysius II of Syracuse with Plato's circle; detailed in Nepos's biography.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_timoleon_corinth",
+      "name": "Timoleon of Corinth",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "411 - 337 BCE",
+      "role": "Liberator of Sicily & Victor at the Crimissus",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)"
+      ],
+      "notes": "Sent from Corinth to expel Carthaginian and tyrannical rule across Sicily, restoring civic constitutions.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_phocion_atticus",
+      "name": "Phocion 'the Good' & Titus Pomponius Atticus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 402 BCE - 32 BCE",
+      "role": "Athenian Strategos & Roman-Athenian Bridge Biographer",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)"
+      ],
+      "notes": "Nepos pairs incorruptible Phocion with Titus Pomponius Atticus, Cicero's correspondent and Roman genealogist.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_xenophon_athens",
+      "name": "Xenophon of Erchia (Ten Thousand)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 430 - 355 BCE",
+      "role": "Athenian General, Socratic Historian & Author of Anabasis",
+      "sources": [
+        "Xenophon, Expedition of Cyrus & Ten Thousand (1776)"
+      ],
+      "notes": "Elected general after Cunaxa (401 BCE) to lead the Ten Thousand Greeks from Babylonia to the Black Sea.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_clearchus_sparta",
+      "name": "Clearchus of Sparta & Proxenus of Boeotia",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 450 - 401 BCE",
+      "role": "Mercenary Commanders of Cyrus the Younger",
+      "sources": [
+        "Xenophon, Expedition of Cyrus & Ten Thousand (1776)"
+      ],
+      "notes": "Recruited Greek hoplite regiments for Cyrus's march to Cunaxa; betrayed and executed by Tissaphernes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_seuthes2_thrace",
+      "name": "King Seuthes II of Odrysian Thrace",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 405 - 387 BCE",
+      "role": "Odrysian King of Thrace & Ally of the Ten Thousand",
+      "sources": [
+        "Xenophon, Expedition of Cyrus & Ten Thousand (1776)"
+      ],
+      "notes": "Reclaimed ancestral coastal Thrace with Xenophon's returning Ten Thousand mercenaries in 400/399 BCE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_hamilcar_barca",
+      "name": "Hamilcar Barca of Carthage",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "c. 275 - 228 BCE",
+      "role": "Carthaginian General, Ruler of Iberia & Father of Hannibal",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)"
+      ],
+      "notes": "Founder of Barcid Iberia and father of Hannibal, Hasdrubal, and Mago; administered oath of enmity to Hannibal.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_hasdrubal_barca",
+      "name": "Hasdrubal & Mago Barca",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 18,
+      "era": "245 - 203 BCE",
+      "role": "Barcid Commanders in Spain, Metaurus & Liguria",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)",
+        "Eutropius, Abridgment of Roman History (Watson 1853)",
+        "Aurelius Victor, Lives of the Illustrious Romans (1693)",
+        "Florus, Roman History (1675)"
+      ],
+      "notes": "Brothers of Hannibal who sustained the Carthaginian two-front campaigns in Hispania and northern Italy.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_cato_elder",
+      "name": "Marcus Porcius Cato 'the Elder'",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "234 - 149 BCE",
+      "role": "Roman Censor, Historian & Jurist",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)",
+        "Eutropius, Abridgment of Roman History (Watson 1853)",
+        "Aurelius Victor, Lives of the Illustrious Romans (1693)",
+        "Florus, Roman History (1675)"
+      ],
+      "notes": "First Latin prose historian (Origines); Nepos composed a dedicated life of Cato as moral exemplar.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_scipio_aemilianus",
+      "name": "Scipio Aemilianus Africanus Minor",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "185 - 129 BCE",
+      "role": "Roman Consul, Conqueror of Carthage (146 BCE) & Numantia",
+      "sources": [
+        "Eutropius, Abridgment of Roman History (Watson 1853)",
+        "Aurelius Victor, Lives of the Illustrious Romans (1693)",
+        "Florus, Roman History (1675)"
+      ],
+      "notes": "Adopted grandson of Scipio Africanus and biological son of Aemilius Paullus; ended the Third Punic War.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_gracchi_tiberius_gaius",
+      "name": "Tiberius & Gaius Gracchus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 163 - 121 BCE",
+      "role": "Tribunes of the Plebs & Grandsons of Scipio Africanus",
+      "sources": [
+        "Eutropius, Abridgment of Roman History (Watson 1853)",
+        "Aurelius Victor, Lives of the Illustrious Romans (1693)",
+        "Florus, Roman History (1675)"
+      ],
+      "notes": "Sons of Cornelia Africana whose agrarian and civic reforms opened the Late Roman Republic crises in Florus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_gaius_marius",
+      "name": "Gaius Marius (Seven-Time Consul)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "157 - 86 BCE",
+      "role": "Reformer of Roman Legions & Uncle-by-Marriage to Julius Caesar",
+      "sources": [
+        "Eutropius, Abridgment of Roman History (Watson 1853)",
+        "Aurelius Victor, Lives of the Illustrious Romans (1693)",
+        "Florus, Roman History (1675)"
+      ],
+      "notes": "Married Julia, aunt of Julius Caesar; defeated Jugurtha, the Teutones, and the Cimbri.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_cornelius_sulla",
+      "name": "Lucius Cornelius Sulla Felix",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "138 - 78 BCE",
+      "role": "Roman Dictator & Opponent of Mithridates VI and Marius",
+      "sources": [
+        "Eutropius, Abridgment of Roman History (Watson 1853)",
+        "Aurelius Victor, Lives of the Illustrious Romans (1693)",
+        "Florus, Roman History (1675)"
+      ],
+      "notes": "First Roman general to march on Rome; his constitutional settlements and civil wars dominate Eutropius Book V.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_pompey_magnus",
+      "name": "Gnaeus Pompeius Magnus (Pompey)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "106 - 48 BCE",
+      "role": "Roman Triumvir, Conqueror of the East & Son-in-Law of Caesar",
+      "sources": [
+        "Eutropius, Abridgment of Roman History (Watson 1853)",
+        "Aurelius Victor, Lives of the Illustrious Romans (1693)",
+        "Florus, Roman History (1675)"
+      ],
+      "notes": "Wed Julia Caesaris; reorganized Syria, Pontus, and Judea (63 BCE) before Pharsalus.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_titus_domitian",
+      "name": "Emperors Titus & Domitian (Flavian Sons)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "39 - 96 CE",
+      "role": "Flavian Roman Emperors (79 - 96 CE)",
+      "sources": [
+        "Eutropius, Abridgment of Roman History (Watson 1853)",
+        "Aurelius Victor, Lives of the Illustrious Romans (1693)",
+        "Florus, Roman History (1675)"
+      ],
+      "notes": "Sons of Vespasian profiled in Aurelius Victor and Eutropius for Jerusalem, Pompeii relief, and Danubian wars.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_nerva_antoninus_marcus",
+      "name": "Emperors Nerva, Antoninus Pius & Marcus Aurelius",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "30 - 180 CE",
+      "role": "Adoptive Nerva-Antonine Roman Emperors (96 - 180 CE)",
+      "sources": [
+        "Eutropius, Abridgment of Roman History (Watson 1853)",
+        "Aurelius Victor, Lives of the Illustrious Romans (1693)",
+        "Florus, Roman History (1675)"
+      ],
+      "notes": "Adoptive imperial succession linking Trajan and Hadrian down to philosopher-emperor Marcus Aurelius.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls12_probus_carinus_constantius",
+      "name": "Emperors Probus, Carus & Constantius I Chlorus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "c. 232 - 306 CE",
+      "role": "Illyrian Roman Emperors & Father of Constantine I",
+      "sources": [
+        "Eutropius, Abridgment of Roman History (Watson 1853)",
+        "Aurelius Victor, Lives of the Illustrious Romans (1693)",
+        "Florus, Roman History (1675)"
+      ],
+      "notes": "Restored the Rhine-Danube frontier between Aurelian, Diocletian, and Constantine I in Eutropius Book IX.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_hephaestion_amyntor",
+      "name": "Hephaestion son of Amyntor",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 356 - 324 BCE",
+      "role": "Chiliarch & Second-in-Command to Alexander the Great",
+      "sources": [
+        "Quintus Curtius Rufus, History of Alexander the Great"
+      ],
+      "notes": "Lifelong companion of Alexander; wed Drypetis, daughter of Darius III, in the Susa weddings (324 BCE).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_parmenion_philotes",
+      "name": "Parmenion & Philotas of Macedon",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 400 - 330 BCE",
+      "role": "Senior Marshal & Companion Cavalry Commander",
+      "sources": [
+        "Quintus Curtius Rufus, History of Alexander the Great"
+      ],
+      "notes": "Anchored Alexander's left flank at Granicus, Issus, and Gaugamela; purged in Drangiana in Curtius Rufus Book VI.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_cleitus_craterus",
+      "name": "Cleitus 'the Black' & Craterus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 17,
+      "era": "c. 375 - 321 BCE",
+      "role": "Macedonian Marshals & Guardian of the Royal House",
+      "sources": [
+        "Quintus Curtius Rufus, History of Alexander the Great",
+        "Henry Fynes Clinton, Fasti Hellenici Vol. 1"
+      ],
+      "notes": "Cleitus saved Alexander at Granicus; Craterus co-commanded the Macedonian homeland with Antipater.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_queen_roxana_alexander4",
+      "name": "Queen Roxana of Bactria & King Alexander IV",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 18,
+      "era": "c. 340 - 309 BCE",
+      "role": "Queen Consort of Alexander the Great & King of Macedon",
+      "sources": [
+        "Quintus Curtius Rufus, History of Alexander the Great",
+        "Henry Fynes Clinton, Fasti Hellenici Vol. 1"
+      ],
+      "notes": "Daughter of Oxyartes of Sogdiana; bore Alexander IV, last Argead king of the united empire.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_stateira_sisygambis",
+      "name": "Queen Stateira II & Queen Mother Sisygambis",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "c. 380 - 323 BCE",
+      "role": "Achaemenid Queen Consort of Alexander & Mother of Darius III",
+      "sources": [
+        "Quintus Curtius Rufus, History of Alexander the Great"
+      ],
+      "notes": "Curtius Rufus records Alexander's chivalrous adoption of Sisygambis as mother and marriage to Stateira II at Susa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_bessus_spitamenes",
+      "name": "King Bessus (Artaxerxes V) & Spitamenes of Sogdiana",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 17,
+      "era": "d. 329 - 328 BCE",
+      "role": "Satrap of Bactria & Sogdian Resistance Leader",
+      "sources": [
+        "Quintus Curtius Rufus, History of Alexander the Great"
+      ],
+      "notes": "Bessus claimed the Achaemenid diadem; Spitamenes's daughter Apama later married Seleucus I, founding the Seleucid line.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_king_porus_taxiles",
+      "name": "King Porus (Purushottama) & King Taxiles (Ambhi)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 17,
+      "era": "c. 350 - 317 BCE",
+      "role": "Monarchs of Paurava (Jhelum) & Taxila",
+      "sources": [
+        "Quintus Curtius Rufus, History of Alexander the Great"
+      ],
+      "notes": "Met Alexander across the Hydaspes (326 BCE) in Curtius Rufus Book VIII; Porus confirmed as sovereign of Punjab.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_perdiccas_regent",
+      "name": "Perdiccas the Regent (Chiliarch of Babylon)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 355 - 320 BCE",
+      "role": "First Regent of Alexander's Empire (323 - 320 BCE)",
+      "sources": [
+        "Quintus Curtius Rufus, History of Alexander the Great",
+        "Henry Fynes Clinton, Fasti Hellenici Vol. 1"
+      ],
+      "notes": "Received Alexander's signet ring at Babylon; led the coalition until his Nile campaign.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_antipater_cassander",
+      "name": "Regent Antipater & King Cassander of Macedon",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "397 - 297 BCE",
+      "role": "Antipatrid Regents & Kings of Macedonia",
+      "sources": [
+        "Henry Fynes Clinton, Fasti Hellenici Vol. 1"
+      ],
+      "notes": "Antipater governed Europe during Alexander's campaign; Cassander wed Thessalonike, sister of Alexander.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_antigonus_demetrius",
+      "name": "King Antigonus I Monophthalmus & Demetrius I Poliorcetes",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "382 - 283 BCE",
+      "role": "Kings & Founders of the Antigonid Dynasty of Macedon",
+      "sources": [
+        "Henry Fynes Clinton, Fasti Hellenici Vol. 1"
+      ],
+      "notes": "Master builders of Hellenistic siege warfare and progenitors of the Antigonid royal house until 168 BCE.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_lysimachus_thrace",
+      "name": "King Lysimachus of Thrace & Asia Minor",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 360 - 281 BCE",
+      "role": "Bodyguard of Alexander & King of Thrace",
+      "sources": [
+        "Quintus Curtius Rufus, History of Alexander the Great",
+        "Henry Fynes Clinton, Fasti Hellenici Vol. 1"
+      ],
+      "notes": "Wed Arsinoe II (daughter of Ptolemy I); defeated at Corupedion by Seleucus I in 281 BCE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_eumenes_cardia",
+      "name": "Eumenes of Cardia",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 362 - 316 BCE",
+      "role": "Chief Royal Secretary & Champion of the Argead House",
+      "sources": [
+        "Cornelius Nepos, Lives of Eminent Commanders (Watson 1853)",
+        "Quintus Curtius Rufus, History of Alexander the Great"
+      ],
+      "notes": "Greek secretary turned undefeated strategist in Asia Minor; profiled at length by Cornelius Nepos.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_antiochus1_soter",
+      "name": "King Antiochus I Soter & Queen Stratonice",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "324 - 261 BCE",
+      "role": "Second Seleucid King (of Half-Sogdian Descent)",
+      "sources": [
+        "Henry Fynes Clinton, Fasti Hellenici Vol. 1"
+      ],
+      "notes": "Son of Seleucus I and Apama (daughter of Spitamenes); bridged Greco-Macedonian and Central Asian royalty.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_antiochus3_great",
+      "name": "Emperor Antiochus III 'the Great'",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 241 - 187 BCE",
+      "role": "Seleucid Emperor & Restorer of the Eastern Anabasis",
+      "sources": [
+        "Henry Fynes Clinton, Fasti Hellenici Vol. 1"
+      ],
+      "notes": "Led the Seleucid expedition through Parthia, Bactria, and the Kabul valley (212 - 205 BCE).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_pyrrhus_epirus",
+      "name": "King Pyrrhus of Epirus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "319 - 272 BCE",
+      "role": "Aeacid King of Epirus & Maternal Cousin of Alexander",
+      "sources": [
+        "Henry Fynes Clinton, Fasti Hellenici Vol. 1",
+        "Eutropius, Abridgment of Roman History (Watson 1853)",
+        "Aurelius Victor, Lives of the Illustrious Romans (1693)",
+        "Florus, Roman History (1675)"
+      ],
+      "notes": "Fought Rome at Heraclea and Asculum before returning to contest Macedon and Sparta.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "alx12_demetrius1_bactria",
+      "name": "King Demetrius I of Bactria & Eucratides I",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 222 - 145 BCE",
+      "role": "Indo-Greek Kings of Bactria, Gandhara & Punjab",
+      "sources": [
+        "Henry Fynes Clinton, Fasti Hellenici Vol. 1"
+      ],
+      "notes": "Expanded Hellenistic kingdoms across the Hindu Kush into northern India, preceding Menander I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_vasudeva_devaki_rohini",
+      "name": "Vasudeva Anakadundubhi, Devaki & Rohini",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga (Epic Chronology)",
+      "role": "Yadava Parents of Krishna, Balarama & Subhadra",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Detailed in Harivamsha Vishnu Parva: Vasudeva of the Shurasena clan wed Devaki and Rohini, linking Mathura and Hastinapura.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_pradyumna_krishna",
+      "name": "Prince Pradyumna of Dvaraka",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Eldest Son of Krishna & Queen Rukmini; Vrishni Commander",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Harivamsha Vishnu Parva Chapters 99-109 relate Pradyumna's upbringing by Mayavati, slaying of Shambara, and defence of Dvaraka.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_aniruddha_usha",
+      "name": "Prince Aniruddha & Princess Usha of Sonitapura",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Son of Pradyumna & Daughter of King Banasura",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Grandson of Krishna whose marriage to Usha unified the Vrishni house of Dvaraka with Sonitapura (Tezpur, Assam).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_vajra_mathura",
+      "name": "King Vajra (Vajranabha) of Indraprastha & Mathura",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 15,
+      "era": "Late Dvapara / Early Kali Yuga",
+      "role": "Great-Grandson of Krishna & King of Mathura",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Installed by Arjuna over Mathura/Indraprastha after the Mausala passing of Dvaraka, preserving the Yadava lineage.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_samba_krishna",
+      "name": "Prince Samba, Son of Krishna & Jambavati",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Vrishni Prince & Son-in-Law of Duryodhana",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Wed Lakshmana, daughter of Kuru king Duryodhana, in Harivamsha before later epic tragedies.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_satyaki_yuyudhana",
+      "name": "Satyaki (Yuyudhana) of the Vrishni Clan",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Grandson of Sini & Pandava Charioteer Ally",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Disciple of Arjuna and undefeated Vrishni warrior across both Harivamsha and the Kurukshetra war.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_kritavarma_bhoja",
+      "name": "Kritavarma of the Bhoja Clan",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Son of Hridika & Commander of the Narayani Sena",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Bhoja Yadava general serving alongside Kuru forces while remaining kinsman to the Dvaraka house.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_akrura_gandini",
+      "name": "Akrura son of Shvaphalka",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Vrishni Elder & Custodian of the Syamantaka Jewel",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Brought Krishna and Balarama from Vrindavana to Mathura; central figure in the Syamantaka cycle.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_uddhava_vrishni",
+      "name": "Uddhava (Pavanavyadhi) of Vrishni",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Chief Counselor to Krishna & Cousin of the Yadavas",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Disciple of Brihaspati and recipient of Krishna's final discourse in epic and puranic tradition.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_rukmini_rukmis_vidarbha",
+      "name": "Queen Rukmini & King Rukmi of Vidarbha",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Principal Queen of Dvaraka & King of Bhojakata",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Children of King Bhishmaka of Vidarbha; Rukmini wed Krishna while Rukmi founded Bhojakata.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_jarasandha_sahadeva",
+      "name": "Emperor Jarasandha of Magadha & King Sahadeva",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Barhadratha Emperor of Girivraja (Rajagriha)",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Father-in-law of Kamsa whose eighteen sieges of Mathura prompted the Yadava migration to Dvaraka.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_shishupala_chedi",
+      "name": "King Shishupala of Chedi & King Dantavakra",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "King of Chedi & Cousin of Krishna",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Chedi and Karusha monarchs allied to Jarasandha and challenged Krishna at Yudhishthira's Rajasuya.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_kalayavana_muchukunda",
+      "name": "King Kalayavana & Sage-King Muchukunda",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Invader of Mathura & Ikshvaku Sovereign",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Harivamsha Vishnu Parva Ch. 57 narrates Krishna luring Kalayavana into Muchukunda's mountain cavern.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_narakasura_bhagadatta",
+      "name": "King Narakasura & King Bhagadatta of Pragjyotisha",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Monarchs of Pragjyotisha / Kamarupa (Assam)",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Harivamsha details Naraka's defeat at Pragjyotisha and Krishna's installation of Bhagadatta as ally.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_banasura_sonitapura",
+      "name": "King Banasura of Sonitapura",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Son of King Bali & Father-in-Law of Aniruddha",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Ruler of Sonitapura whose confrontation with Krishna ended in reconciliation through Usha and Aniruddha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "har12_paundraka_kashi",
+      "name": "Paundraka Vasudeva & King of Kashi",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 14,
+      "era": "Dvapara Yuga",
+      "role": "Eastern Claimant & Sovereign of Varanasi",
+      "sources": [
+        "Harivamsha (Prose English Translation, Vishnupurana & Bhavishyaparva)"
+      ],
+      "notes": "Harivamsha Bhavishya & Vishnu Parvas recount the war between Dvaraka and the Paundra-Kashi coalition.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_siyamak_hushang",
+      "name": "Prince Siyamak & Shah Hushang",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 14,
+      "era": "Pishdadian Age",
+      "role": "Son & Grandson of Gayomart; Pishdadian Shah",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Opening Pishdadian kings in Shahnameh Vol. 1 who instituted metalworking, irrigation, and the Sadeh festival.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_tahmuras_jamshid",
+      "name": "Shah Tahmuras & Shah Jamshid",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 14,
+      "era": "Pishdadian Golden Age",
+      "role": "Pishdadian Monarchs; Founders of Writing, Silk & Nowruz",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Tahmuras the Demon-Binder taught script; Jamshid ordered society into four estates and founded Nowruz.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_zahhak_kaveh",
+      "name": "Shah Zahhak of the Serpents & Kaveh the Blacksmith",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 14,
+      "era": "Pishdadian Crisis",
+      "role": "Tyrant Usurper & Champion of the Derafsh Kaviani Banner",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Kaveh raised his leather apron as Iran's royal standard to enthrone Fereydun against Zahhak.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_salm_tur_iraj",
+      "name": "Princes Salm, Tur & Iraj",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 14,
+      "era": "Tripartite Partition",
+      "role": "Three Princes of Fereydun (Rum, Turan & Iran)",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Divided the world among Rum (Salm), Turan (Tur), and Iran (Iraj), sparking the multi-generational Irano-Turanian feud.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_sam_nariman",
+      "name": "Paladins Nariman & Sam of Zabulistan",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 15,
+      "era": "Manuchehr Age",
+      "role": "Hereditary Champions of Sistan & Father of Zal",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Ancestors of Rostam who guarded the eastern marches of Iran from Zabulistan under Manuchehr.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_rudaba_kabuli",
+      "name": "Princess Rudaba of Kabul & King Mihrab",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 15,
+      "era": "Sistani Cycle",
+      "role": "Daughter of Kabuli King Mihrab & Mother of Rostam",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Descended through Sindukht and Mihrab; wed Zal and bore Rostam through the Simurgh's Caesarean counsel.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_tahmina_samangan",
+      "name": "Princess Tahmina of Samangan",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 15,
+      "era": "Kayanian Age",
+      "role": "Princess of Samangan, Bride of Rostam & Mother of Sohrab",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Sent Sohrab with the onyx armlet of Rostam in one of the most famous tragedies of Shahnameh Vol. 1.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_faramarz_banu_goshasp",
+      "name": "Faramarz & Banu Goshasp of Sistan",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "Kayanian Age",
+      "role": "Son & Warrior-Daughter of Rostam",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Heroic children of Rostam who led campaigns in India and upheld the house of Sam.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_kay_qobad",
+      "name": "Shah Kay Qobad",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 15,
+      "era": "Early Kayanian Age",
+      "role": "Founder & First Shah of the Kayanian Dynasty",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Descendant of Manuchehr fetched from Mount Alborz by young Rostam to restore the Iranian throne.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_kay_kavus",
+      "name": "Shah Kay Kavus",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 15,
+      "era": "Kayanian Age",
+      "role": "Kayanian Shah; Sovereign of Mazandaran & Hamavaran Wars",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Father of Siyavash and grandfather of Kay Khosrow in Shahnameh.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_siyavash_farangis",
+      "name": "Prince Siyavash & Princess Farangis",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "Kayanian Age",
+      "role": "Kayanian Crown Prince & Turanian Royal Bride",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Passed the ordeal of fire, built Siyavashgerd, wed Afrasiyab's daughter Farangis, and fathered Kay Khosrow.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_afrasiyab_turan",
+      "name": "King Afrasiyab of Turan",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 15,
+      "era": "Kayanian Age",
+      "role": "Descendant of Tur & Sovereign of Turan",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Heir of Tur son of Fereydun; grandfather of Kay Khosrow through Princess Farangis.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_tus_giv_gudarz",
+      "name": "Heroes Tus, Gudarz & Giv",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "Kayanian Age",
+      "role": "Generals of Iran & Rescuers of Kay Khosrow",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Tus son of Nowzar and Giv son of Gudarz rescued young Kay Khosrow from Turan across the Oxus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "shh12_lohrasp_goshtasp_esfandiyar",
+      "name": "Shahs Lohrasp, Goshtasp & Prince Esfandiyar",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 16,
+      "era": "Late Kayanian Age",
+      "role": "Kayanian Shahs & Royal Patrons of Zoroaster",
+      "sources": [
+        "Firdausi, The Shahnama of Firdausi Vol. 1"
+      ],
+      "notes": "Succeeded Kay Khosrow as designated heir, embraced the Avestan revelation of Zoroaster, and fought Rostam.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_clement_rome_abdias",
+      "name": "Pope Clement I of Rome & Abdias of Babylon",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st - 2nd Century CE",
+      "role": "Disciple of Peter & Compiler of Apostolic Acts",
+      "sources": [
+        "Abdias of Babylon, The Apostolical History"
+      ],
+      "notes": "Abdias is styled bishop of Babylon appointed by Simon and Jude; Clement transmits early Roman succession.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_linus_anacletus",
+      "name": "Bishops Linus & Anacletus (Cletus) of Rome",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "c. 67 - 92 CE",
+      "role": "Immediate Roman Episcopal Successors of Peter",
+      "sources": [
+        "Abdias of Babylon, The Apostolical History"
+      ],
+      "notes": "Early episcopal list linking Peter's Roman ministry to late first-century Rome.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_petronilla_rome",
+      "name": "St. Petronilla of Rome",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "1st Century CE",
+      "role": "Spiritual / Traditional Daughter of Apostle Peter",
+      "sources": [
+        "Abdias of Babylon, The Apostolical History"
+      ],
+      "notes": "Venerated in the Catacomb of Domitilla and profiled in Abdias's Petrine cycle.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_gondophares_indoparthia",
+      "name": "King Gondophares & Gad of Indo-Parthia",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 19,
+      "era": "c. 19 - 46 CE",
+      "role": "Indo-Parthian King of Taxila in the Acts of Thomas",
+      "sources": [
+        "Abdias of Babylon, The Apostolical History"
+      ],
+      "notes": "Numismatically attested Parthian monarch featured in Abdias Book IX's mission of St. Thomas.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_king_misdaeus_mygdonia",
+      "name": "King Misdaeus (Mazdai) & Queen Mygdonia",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "1st Century CE",
+      "role": "Indian King & Queen in the Martyrdom of Thomas",
+      "sources": [
+        "Abdias of Babylon, The Apostolical History"
+      ],
+      "notes": "Abdias Book IX places St. Thomas's final royal ministry in the household of King Misdaeus and Vizan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_king_polemius_armenia",
+      "name": "King Polymius & Astyages of India/Armenia",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 19,
+      "era": "1st Century CE",
+      "role": "Royal Brothers in the Bartholomew Cycle",
+      "sources": [
+        "Abdias of Babylon, The Apostolical History"
+      ],
+      "notes": "Abdias Book VIII recounts King Polymius's conversion before his brother Astyages arrested Bartholomew.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_king_egippus_ethiopia",
+      "name": "King Egippus, Hirtacus & Princess Ephigenia of Ethiopia",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "1st Century CE",
+      "role": "Nubian-Ethiopian Royal Converts of St. Matthew",
+      "sources": [
+        "Abdias of Babylon, The Apostolical History"
+      ],
+      "notes": "Abdias Book VII sets Matthew's mission in Nadaber among King Egippus, Candace's realm, and Princess Ephigenia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_king_xerxes_persia",
+      "name": "King Xerxes of Babylon & Persian Governors",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 19,
+      "era": "1st Century CE",
+      "role": "Mesopotamian Rulers in the Acts of Simon & Jude",
+      "sources": [
+        "Abdias of Babylon, The Apostolical History"
+      ],
+      "notes": "Abdias Book VI links Apostles Simon the Zealot and Jude Thaddeus to royal courts between Edessa and Babylon.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_queen_drusiana_ephesus",
+      "name": "Drusiana & Aristodemus of Ephesus",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "1st Century CE",
+      "role": "Ephesian Matron & Temple Priest in the Acts of John",
+      "sources": [
+        "Abdias of Babylon, The Apostolical History"
+      ],
+      "notes": "Abdias Book V links the Johannine circle at Ephesus to Domitian's Rome and Patmos.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_julius_africanus",
+      "name": "Sextus Julius Africanus of Emmaus",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "c. 160 - 240 CE",
+      "role": "Christian Chronographer & Envoy to Elagabalus",
+      "sources": [
+        "Ante-Nicene Fathers Vol. 6 (Julius Africanus, Gregory Thaumaturgus, Dionysius, Arnobius, Lactantius)"
+      ],
+      "notes": "Author of Chronographiai (ANF Vol. 6), harmonizing the Desposyni genealogies of Jesus with Greek Olympiads and Egyptian dynasties.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_gregory_thaumaturgus",
+      "name": "Gregory Thaumaturgus of Neocaesarea",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "c. 213 - 270 CE",
+      "role": "Bishop of Pontus & Disciple of Origen",
+      "sources": [
+        "Ante-Nicene Fathers Vol. 6 (Julius Africanus, Gregory Thaumaturgus, Dionysius, Arnobius, Lactantius)"
+      ],
+      "notes": "Pontic aristocrat and canonical writer in ANF Vol. 6 who evangelized Cappadocia and Pontus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_dionysius_alexandria",
+      "name": "Pope Dionysius the Great of Alexandria",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "c. 200 - 265 CE",
+      "role": "Patriarch of Alexandria & Scholar of Revelation",
+      "sources": [
+        "Ante-Nicene Fathers Vol. 6 (Julius Africanus, Gregory Thaumaturgus, Dionysius, Arnobius, Lactantius)"
+      ],
+      "notes": "Corresponded with Rome, Antioch, and Nepos in Egypt; preserved key third-century Alexandrian history in ANF Vol. 6.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_methodius_olympus",
+      "name": "Methodius of Olympus & Patara",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "d. c. 311 CE",
+      "role": "Lycian Bishop & Author of the Symposium",
+      "sources": [
+        "Ante-Nicene Fathers Vol. 6 (Julius Africanus, Gregory Thaumaturgus, Dionysius, Arnobius, Lactantius)"
+      ],
+      "notes": "Critiqued Origen's cosmology in Lycia; excerpted in ANF Vol. 6 before his martyrdom under Maximinus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_arnobius_sicca",
+      "name": "Arnobius of Sicca Veneria",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "c. 255 - 330 CE",
+      "role": "African Rhetorician & Teacher of Lactantius",
+      "sources": [
+        "Ante-Nicene Fathers Vol. 6 (Julius Africanus, Gregory Thaumaturgus, Dionysius, Arnobius, Lactantius)"
+      ],
+      "notes": "Wrote Seven Books Against the Heathen in Numidia; mentor to Lactantius in ANF Vol. 6.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_lactantius_nicomedia",
+      "name": "Lactantius (Lucius Caecilius Firmianus)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "c. 250 - 325 CE",
+      "role": "Christian Cicero & Tutor to Crispus son of Constantine",
+      "sources": [
+        "Ante-Nicene Fathers Vol. 6 (Julius Africanus, Gregory Thaumaturgus, Dionysius, Arnobius, Lactantius)"
+      ],
+      "notes": "Taught at Diocletian's Nicomedia before tutoring Constantine I's eldest son Crispus at Trier (ANF Vol. 6).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "apo12_pamphilus_caesarea",
+      "name": "St. Pamphilus of Caesarea & Pierius",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 19,
+      "era": "c. 240 - 309 CE",
+      "role": "Founder of the Library of Caesarea & Mentor of Eusebius",
+      "sources": [
+        "Ante-Nicene Fathers Vol. 6 (Julius Africanus, Gregory Thaumaturgus, Dionysius, Arnobius, Lactantius)"
+      ],
+      "notes": "Preserved Origen's Hexapla and Julius Africanus's manuscripts for Eusebius of Caesarea.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_sharru_kin_babylon",
+      "name": "Sargon & Naram-Sin of Agade (Chronicle of Early Kings)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 2334 - 2218 BCE",
+      "role": "Akkadian Kings in Neo-Babylonian Chronicles",
+      "sources": [
+        "L.W. King, Chronicles Concerning Early Babylonian Kings Vol. 1"
+      ],
+      "notes": "L.W. King Vol. 1 edits the Neo-Babylonian Chronicle of Early Kings recounting Sargon's Westland crossing and Naram-Sin's Magan expedition.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_shulgi_amar_sin_chronicle",
+      "name": "Kings Shulgi, Amar-Sin & Ibbi-Sin of Ur III",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 14,
+      "era": "c. 2094 - 2004 BCE",
+      "role": "Third Dynasty of Ur Kings in the Weidner / King Chronicles",
+      "sources": [
+        "L.W. King, Chronicles Concerning Early Babylonian Kings Vol. 1"
+      ],
+      "notes": "Linked to Marduk temple cult traditions in L.W. King's Chronicle of Early Kings.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_puzur_ashur1_assyria",
+      "name": "Kings Ilushuma & Puzur-Ashur I of Assyria",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "c. 2000 - 1945 BCE",
+      "role": "Old Assyrian Kings & Synchronism with Su-abu of Babylon",
+      "sources": [
+        "L.W. King, Chronicles Concerning Early Babylonian Kings Vol. 1"
+      ],
+      "notes": "L.W. King documents Ilushuma's synchronism with Su-abu/Sumu-abum of Babylon, anchoring early Mesopotamian chronology.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_ulamburiash_sealand",
+      "name": "King Ulamburiash & Ea-gamil of the Sealand",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "c. 1460 BCE",
+      "role": "Kassite King & Conqueror of the First Sealand Dynasty",
+      "sources": [
+        "L.W. King, Chronicles Concerning Early Babylonian Kings Vol. 1"
+      ],
+      "notes": "Brother of Kashtiliash III; ended the southern Sealand dynasty of Ea-gamil as preserved in L.W. King's Chronicle.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_karaindash_kassite",
+      "name": "Kings Karaindash & Kurigalzu I of Karduniash",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "c. 1415 - 1375 BCE",
+      "role": "Kassite Kings, Builders of Dur-Kurigalzu & Amarna Correspondents",
+      "sources": [
+        "L.W. King, Chronicles Concerning Early Babylonian Kings Vol. 1",
+        "A.H. Sayce, The Races of the Old Testament",
+        "Records of the Past Vol. 9 (Sayce ed.)"
+      ],
+      "notes": "Established diplomatic brotherhood with Egypt (Amenhotep III) and treaty frontiers with Ashur-bel-nisheshu.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_nazibugash_kurigalzu2",
+      "name": "Kings Nazibugash & Kurigalzu II of Babylon",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 15,
+      "era": "c. 1333 - 1308 BCE",
+      "role": "Kassite Kings in the Synchronistic Chronicle",
+      "sources": [
+        "L.W. King, Chronicles Concerning Early Babylonian Kings Vol. 1"
+      ],
+      "notes": "Enthroned following Ashur-uballit I's intervention after the assassination of Burnaburiash II's grandson.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_adad_nirari3_rimah",
+      "name": "King Adad-nirari III & Queen Sammuramat",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 16,
+      "era": "811 - 783 BCE",
+      "role": "Neo-Assyrian King & Queen Mother; Overlord of Damascus",
+      "sources": [
+        "A.H. Sayce, The Races of the Old Testament",
+        "Records of the Past Vol. 9 (Sayce ed.)"
+      ],
+      "notes": "Exact contemporary of Ben-hadad III and Jehoash of Israel; profiled in Sayce's Records of the Past.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_merodach_baladan2",
+      "name": "King Marduk-apla-iddina II (Merodach-Baladan)",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "c. 722 - 703 BCE",
+      "role": "Chaldean King of Babylon & Ally of Hezekiah",
+      "sources": [
+        "L.W. King, Chronicles Concerning Early Babylonian Kings Vol. 1",
+        "A.H. Sayce, The Races of the Old Testament",
+        "Records of the Past Vol. 9 (Sayce ed.)"
+      ],
+      "notes": "Contested Babylon repeatedly against Sargon II and Sennacherib; sent envoys to Jerusalem (2 Kings 20 / Isaiah 39).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_kandalanu_babylon",
+      "name": "King Kandalanu of Babylon",
+      "altNames": [],
+      "tradition": "mesopotamian",
+      "tier": 17,
+      "era": "647 - 627 BCE",
+      "role": "Vassal King of Babylon Prior to Nabopolassar",
+      "sources": [
+        "L.W. King, Chronicles Concerning Early Babylonian Kings Vol. 1"
+      ],
+      "notes": "Twenty-one-year reign bridging late Assyrian hegemony and Nabopolassar's Neo-Babylonian accession.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_sayce_hittite_syrian",
+      "name": "Syro-Hittite & Kheta Lineage (Sayce Ethnology)",
+      "altNames": [],
+      "tradition": "levant_egypt",
+      "tier": 14,
+      "era": "c. 1600 - 1100 BCE",
+      "role": "Canaanite-Hamitic / Anatolian Synthesis in Sayce",
+      "sources": [
+        "A.H. Sayce, The Races of the Old Testament",
+        "Records of the Past Vol. 9 (Sayce ed.)"
+      ],
+      "notes": "A.H. Sayce maps Egyptian Kheta, Assyrian Khatti, and biblical Heth/Canaan across northern Syria and Anatolia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_sayce_elamite_shushinak",
+      "name": "Elamite Anzanite & Susiana Line (Sayce Ethnology)",
+      "altNames": [],
+      "tradition": "iranian",
+      "tier": 14,
+      "era": "c. 2200 - 640 BCE",
+      "role": "Highland Elam & Susa Ethnic Stratum",
+      "sources": [
+        "A.H. Sayce, The Races of the Old Testament",
+        "Records of the Past Vol. 9 (Sayce ed.)"
+      ],
+      "notes": "Sayce contrasts Semitic-speaking Asshur and Aram with Turanian/Anzanite Susa under Genesis 10's geographical framework.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_sayce_kittim_ionian",
+      "name": "Kittim, Alashiya & Javan Aegean Stratum (Sayce)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "c. 1400 - 600 BCE",
+      "role": "Cypriot-Ionian Maritime Lineage under Japheth",
+      "sources": [
+        "A.H. Sayce, The Races of the Old Testament",
+        "Records of the Past Vol. 9 (Sayce ed.)"
+      ],
+      "notes": "Tracks Javan (Yavana/Ionian), Elishah (Alashiya), and Kittim (Kition in Cyprus) in Sayce's Races of the Old Testament.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_crawford_patriarchal_canon",
+      "name": "Crawford's Patriarchal Dynasties Canon (1877)",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 21,
+      "era": "1877 CE Historiography",
+      "role": "Dynastic-Age Interpretation of Antediluvian & Postdiluvian Eras",
+      "sources": [
+        "T.P. Crawford, The Patriarchal Dynasties from Adam to Abraham"
+      ],
+      "notes": "T.P. Crawford argued Genesis 5 & 11 patrilineages record both personal reigns and dynastic house spans bridging Noah to Abraham.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_hennepin_louis_missionary",
+      "name": "Father Louis Hennepin (Recollect Chronicler)",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 21,
+      "era": "1626 - c. 1705 CE",
+      "role": "Chronicler of Niagara Falls, Lake Superior & the Upper Mississippi",
+      "sources": [
+        "Louis Hennepin, A New Discovery of a Vast Country in America (1699)"
+      ],
+      "notes": "Flemish Franciscan explorer under La Salle who published the 1697/1699 London edition dedicated to William III and Louis XIV's frontier.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "arc12_la_salle_iroquois_envoy",
+      "name": "Rene-Robert Cavelier de La Salle & Great Lakes Sachems",
+      "altNames": [],
+      "tradition": "americas_pacific",
+      "tier": 21,
+      "era": "1643 - 1687 CE",
+      "role": "French Royal Explorer & Franco-Iroquois/Sioux Diplomatic Contact",
+      "sources": [
+        "Louis Hennepin, A New Discovery of a Vast Country in America (1699)"
+      ],
+      "notes": "Led the Griffon expedition with Hennepin and claimed Louisiana for Louis XIV, recording Dakota, Illinois, and Iroquois councils.",
+      "major": false,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "unb_grk_miltiades_themistocles",
+      "to": "cls12_aristides_the_just",
+      "type": "expansion",
+      "label": "Athenian Colleague (Nepos)"
+    },
+    {
+      "from": "unb_grk_miltiades_themistocles",
+      "to": "cls12_pausanias_sparta",
+      "type": "expansion",
+      "label": "Persian War Coalition (Nepos)"
+    },
+    {
+      "from": "unb_grk_alcibiades_lysander",
+      "to": "cls12_thrasybulus_athens",
+      "type": "expansion",
+      "label": "Athenian Civil Restoration (Nepos)"
+    },
+    {
+      "from": "cls12_thrasybulus_athens",
+      "to": "cls12_conon_timotheus_athens",
+      "type": "expansion",
+      "label": "Athenian Naval Continuity"
+    },
+    {
+      "from": "cls12_conon_timotheus_athens",
+      "to": "cls12_iphicrates_chabrias",
+      "type": "expansion",
+      "label": "Fourth-Century Strategoi"
+    },
+    {
+      "from": "per4_artaxerxes2",
+      "to": "cls12_datames_cappadocia",
+      "type": "expansion",
+      "label": "Satrap under Artaxerxes II (Nepos)"
+    },
+    {
+      "from": "unb_grk_epaminondas",
+      "to": "cls12_pelopidas_thebes",
+      "type": "expansion",
+      "label": "Theban Sacred Band Co-Leader"
+    },
+    {
+      "from": "unb_grk_alcibiades_lysander",
+      "to": "cls12_agesilaus2_sparta",
+      "type": "expansion",
+      "label": "Enthronement by Lysander"
+    },
+    {
+      "from": "cls12_iphicrates_chabrias",
+      "to": "cls12_dion_syracuse",
+      "type": "expansion",
+      "label": "Fourth-Century Greek Statesmen"
+    },
+    {
+      "from": "cls12_dion_syracuse",
+      "to": "cls12_timoleon_corinth",
+      "type": "expansion",
+      "label": "Sicilian Liberation Sequence"
+    },
+    {
+      "from": "cls12_dion_syracuse",
+      "to": "cls12_phocion_atticus",
+      "type": "expansion",
+      "label": "Nepos Biographical Bridge"
+    },
+    {
+      "from": "rom3_julius_caesar",
+      "to": "cls12_phocion_atticus",
+      "type": "expansion",
+      "label": "Late Republican Circle"
+    },
+    {
+      "from": "per4_cyrus_younger",
+      "to": "cls12_xenophon_athens",
+      "type": "expansion",
+      "label": "Anabasis Campaign (401 BCE)"
+    },
+    {
+      "from": "cls12_xenophon_athens",
+      "to": "cls12_clearchus_sparta",
+      "type": "expansion",
+      "label": "Ten Thousand Command"
+    },
+    {
+      "from": "cls12_xenophon_athens",
+      "to": "cls12_seuthes2_thrace",
+      "type": "expansion",
+      "label": "Thracian Alliance (Anabasis VII)"
+    },
+    {
+      "from": "cls3_hannibal_barca",
+      "to": "cls12_hamilcar_barca",
+      "type": "direct",
+      "label": "Father of Hannibal (Barcid Line)"
+    },
+    {
+      "from": "cls12_hamilcar_barca",
+      "to": "cls12_hasdrubal_barca",
+      "type": "direct",
+      "label": "Father of Hasdrubal & Mago"
+    },
+    {
+      "from": "mon_rom_scipio_africanus",
+      "to": "cls12_cato_elder",
+      "type": "expansion",
+      "label": "Roman Senatorial Rivalry & Era"
+    },
+    {
+      "from": "mon_rom_scipio_africanus",
+      "to": "cls12_scipio_aemilianus",
+      "type": "direct",
+      "label": "Adoptive Scipionic Lineage"
+    },
+    {
+      "from": "cls12_scipio_aemilianus",
+      "to": "cls12_gracchi_tiberius_gaius",
+      "type": "direct",
+      "label": "Grandsons of Scipio Africanus"
+    },
+    {
+      "from": "rom3_julius_caesar",
+      "to": "cls12_gaius_marius",
+      "type": "direct",
+      "label": "Marital Uncle (Julia Caesaris)"
+    },
+    {
+      "from": "cls12_gaius_marius",
+      "to": "cls12_cornelius_sulla",
+      "type": "expansion",
+      "label": "Roman Civil War Succession"
+    },
+    {
+      "from": "rom3_julius_caesar",
+      "to": "cls12_pompey_magnus",
+      "type": "direct",
+      "label": "First Triumvirate & Son-in-Law"
+    },
+    {
+      "from": "mon_rom_vespasian",
+      "to": "cls12_titus_domitian",
+      "type": "direct",
+      "label": "Sons of Emperor Vespasian"
+    },
+    {
+      "from": "mon_rom_trajan",
+      "to": "cls12_nerva_antoninus_marcus",
+      "type": "direct",
+      "label": "Adoptive Nerva-Antonine Dynasty"
+    },
+    {
+      "from": "mon_rom_hadrian",
+      "to": "cls12_nerva_antoninus_marcus",
+      "type": "direct",
+      "label": "Adoptive Predecessor to Antoninus & Marcus"
+    },
+    {
+      "from": "mon_rom_aurelian",
+      "to": "cls12_probus_carinus_constantius",
+      "type": "expansion",
+      "label": "Illyrian Imperial Restoration"
+    },
+    {
+      "from": "mon_rom_diocletian",
+      "to": "cls12_probus_carinus_constantius",
+      "type": "direct",
+      "label": "Tetrarchy Father of Constantine"
+    },
+    {
+      "from": "cls12_probus_carinus_constantius",
+      "to": "mon_rom_constantine1",
+      "type": "direct",
+      "label": "Father of Constantine the Great"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "alx12_hephaestion_amyntor",
+      "type": "expansion",
+      "label": "Chiliarch & Companion (Curtius)"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "alx12_parmenion_philotes",
+      "type": "expansion",
+      "label": "Royal Marshals (Curtius)"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "alx12_cleitus_craterus",
+      "type": "expansion",
+      "label": "Royal Bodyguards (Curtius)"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "alx12_queen_roxana_alexander4",
+      "type": "direct",
+      "label": "Marriage & Son Alexander IV"
+    },
+    {
+      "from": "per4_darius3",
+      "to": "alx12_stateira_sisygambis",
+      "type": "direct",
+      "label": "Daughter & Mother of Darius III"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "alx12_stateira_sisygambis",
+      "type": "direct",
+      "label": "Susa Royal Marriage"
+    },
+    {
+      "from": "per4_darius3",
+      "to": "alx12_bessus_spitamenes",
+      "type": "expansion",
+      "label": "Bactrian-Sogdian Successor Crisis"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "alx12_king_porus_taxiles",
+      "type": "expansion",
+      "label": "Hydaspes Campaign & Alliance"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "alx12_perdiccas_regent",
+      "type": "expansion",
+      "label": "Signet Ring Succession"
+    },
+    {
+      "from": "alx12_queen_roxana_alexander4",
+      "to": "alx12_perdiccas_regent",
+      "type": "expansion",
+      "label": "Regency over Alexander IV"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "alx12_antipater_cassander",
+      "type": "direct",
+      "label": "Marriage to Sister Thessalonike"
+    },
+    {
+      "from": "alx12_perdiccas_regent",
+      "to": "alx12_antigonus_demetrius",
+      "type": "expansion",
+      "label": "Diadochi Antigonid Rise"
+    },
+    {
+      "from": "grk_alexander",
+      "to": "alx12_lysimachus_thrace",
+      "type": "expansion",
+      "label": "Bodyguard & Thracian Crown"
+    },
+    {
+      "from": "egr_ptol_01_ptolemy_i_soter_berenice_i",
+      "to": "alx12_lysimachus_thrace",
+      "type": "direct",
+      "label": "Marriage to Arsinoe II"
+    },
+    {
+      "from": "alx12_perdiccas_regent",
+      "to": "alx12_eumenes_cardia",
+      "type": "expansion",
+      "label": "Argead Loyalist Coalition"
+    },
+    {
+      "from": "cls3_seleucus1",
+      "to": "alx12_antiochus1_soter",
+      "type": "direct",
+      "label": "Son of Seleucus I & Apama"
+    },
+    {
+      "from": "alx12_bessus_spitamenes",
+      "to": "alx12_antiochus1_soter",
+      "type": "direct",
+      "label": "Grandson of Spitamenes"
+    },
+    {
+      "from": "alx12_antiochus1_soter",
+      "to": "alx12_antiochus3_great",
+      "type": "direct",
+      "label": "Seleucid Royal Line"
+    },
+    {
+      "from": "alx12_antigonus_demetrius",
+      "to": "alx12_pyrrhus_epirus",
+      "type": "direct",
+      "label": "Allied / Rival Hellenistic House"
+    },
+    {
+      "from": "alx12_antiochus3_great",
+      "to": "alx12_demetrius1_bactria",
+      "type": "direct",
+      "label": "Bactrian Marriage Treaty (206 BCE)"
+    },
+    {
+      "from": "alx12_demetrius1_bactria",
+      "to": "cls_bactria_menander",
+      "type": "expansion",
+      "label": "Indo-Greek Dynastic Sequence"
+    },
+    {
+      "from": "ved_yadu",
+      "to": "har12_vasudeva_devaki_rohini",
+      "type": "direct",
+      "label": "Shurasena-Yadava Descent"
+    },
+    {
+      "from": "har12_vasudeva_devaki_rohini",
+      "to": "ved_krishna_balarama",
+      "type": "direct",
+      "label": "Parents of Krishna & Balarama"
+    },
+    {
+      "from": "ved_krishna_balarama",
+      "to": "har12_pradyumna_krishna",
+      "type": "direct",
+      "label": "Son of Krishna & Rukmini"
+    },
+    {
+      "from": "har12_pradyumna_krishna",
+      "to": "har12_aniruddha_usha",
+      "type": "direct",
+      "label": "Son of Pradyumna"
+    },
+    {
+      "from": "har12_aniruddha_usha",
+      "to": "har12_vajra_mathura",
+      "type": "direct",
+      "label": "Son of Aniruddha & Usha"
+    },
+    {
+      "from": "ved_krishna_balarama",
+      "to": "har12_samba_krishna",
+      "type": "direct",
+      "label": "Son of Krishna & Jambavati"
+    },
+    {
+      "from": "ved_krishna_balarama",
+      "to": "har12_satyaki_yuyudhana",
+      "type": "direct",
+      "label": "Vrishni Collateral Kinsman"
+    },
+    {
+      "from": "ved_yadu",
+      "to": "har12_kritavarma_bhoja",
+      "type": "direct",
+      "label": "Bhoja-Yadava Branch"
+    },
+    {
+      "from": "ved_yadu",
+      "to": "har12_akrura_gandini",
+      "type": "direct",
+      "label": "Vrishni-Shvaphalka Branch"
+    },
+    {
+      "from": "ved_krishna_balarama",
+      "to": "har12_uddhava_vrishni",
+      "type": "direct",
+      "label": "Vrishni Cousin & Counselor"
+    },
+    {
+      "from": "ved_krishna_balarama",
+      "to": "har12_rukmini_rukmis_vidarbha",
+      "type": "direct",
+      "label": "Queen Consort & Vidarbha Alliance"
+    },
+    {
+      "from": "indr_ail_16_ugrasena_king_kamsa_mathura",
+      "to": "har12_jarasandha_sahadeva",
+      "type": "direct",
+      "label": "Father-in-Law of Kamsa"
+    },
+    {
+      "from": "ved_bharata_kuru",
+      "to": "har12_jarasandha_sahadeva",
+      "type": "expansion",
+      "label": "Puru-Barhadratha Magadha Lineage"
+    },
+    {
+      "from": "ved_krishna_balarama",
+      "to": "har12_shishupala_chedi",
+      "type": "direct",
+      "label": "Maternal Aunt Shrutashrava"
+    },
+    {
+      "from": "ved_krishna_balarama",
+      "to": "har12_kalayavana_muchukunda",
+      "type": "expansion",
+      "label": "Mathura Siege Cycle (Harivamsha)"
+    },
+    {
+      "from": "ved_krishna_balarama",
+      "to": "har12_narakasura_bhagadatta",
+      "type": "expansion",
+      "label": "Pragjyotisha Succession"
+    },
+    {
+      "from": "ved_bharata_kuru",
+      "to": "har12_narakasura_bhagadatta",
+      "type": "expansion",
+      "label": "Kurukshetra Allied Monarch"
+    },
+    {
+      "from": "har12_aniruddha_usha",
+      "to": "har12_banasura_sonitapura",
+      "type": "direct",
+      "label": "Father-in-Law of Aniruddha"
+    },
+    {
+      "from": "ved_krishna_balarama",
+      "to": "har12_paundraka_kashi",
+      "type": "expansion",
+      "label": "Eastern Dvaraka Conflict (Harivamsha)"
+    },
+    {
+      "from": "ir_gayomart",
+      "to": "shh12_siyamak_hushang",
+      "type": "direct",
+      "label": "Son & Grandson of Gayomart"
+    },
+    {
+      "from": "shh12_siyamak_hushang",
+      "to": "shh12_tahmuras_jamshid",
+      "type": "direct",
+      "label": "Pishdadian Royal Succession"
+    },
+    {
+      "from": "shh12_tahmuras_jamshid",
+      "to": "shh12_zahhak_kaveh",
+      "type": "expansion",
+      "label": "Pishdadian Usurpation"
+    },
+    {
+      "from": "shh12_zahhak_kaveh",
+      "to": "ir_fereydun",
+      "type": "expansion",
+      "label": "Kaveh Enthrones Fereydun"
+    },
+    {
+      "from": "ir_fereydun",
+      "to": "shh12_salm_tur_iraj",
+      "type": "direct",
+      "label": "Three Sons of Fereydun"
+    },
+    {
+      "from": "shh12_salm_tur_iraj",
+      "to": "ir_manuchehr",
+      "type": "direct",
+      "label": "Grandson via Iraj"
+    },
+    {
+      "from": "ir_zal",
+      "to": "shh12_sam_nariman",
+      "type": "direct",
+      "label": "Father & Grandfather of Zal"
+    },
+    {
+      "from": "ir_zal",
+      "to": "shh12_rudaba_kabuli",
+      "type": "direct",
+      "label": "Marriage of Zal & Rudaba"
+    },
+    {
+      "from": "shh12_rudaba_kabuli",
+      "to": "ir_rostam",
+      "type": "direct",
+      "label": "Mother of Rostam"
+    },
+    {
+      "from": "ir_rostam",
+      "to": "shh12_tahmina_samangan",
+      "type": "direct",
+      "label": "Marriage at Samangan"
+    },
+    {
+      "from": "shh12_tahmina_samangan",
+      "to": "ir_sohrab",
+      "type": "direct",
+      "label": "Mother of Sohrab"
+    },
+    {
+      "from": "ir_rostam",
+      "to": "shh12_faramarz_banu_goshasp",
+      "type": "direct",
+      "label": "Children of Rostam"
+    },
+    {
+      "from": "ir_manuchehr",
+      "to": "shh12_kay_qobad",
+      "type": "direct",
+      "label": "Manuchehr Descent (Shahnameh)"
+    },
+    {
+      "from": "shh12_kay_qobad",
+      "to": "shh12_kay_kavus",
+      "type": "direct",
+      "label": "Father of Kay Kavus"
+    },
+    {
+      "from": "shh12_kay_kavus",
+      "to": "shh12_siyavash_farangis",
+      "type": "direct",
+      "label": "Father of Siyavash"
+    },
+    {
+      "from": "shh12_salm_tur_iraj",
+      "to": "shh12_afrasiyab_turan",
+      "type": "direct",
+      "label": "House of Tur"
+    },
+    {
+      "from": "shh12_afrasiyab_turan",
+      "to": "shh12_siyavash_farangis",
+      "type": "direct",
+      "label": "Daughter Farangis"
+    },
+    {
+      "from": "shh12_siyavash_farangis",
+      "to": "ir_kay_khosrow",
+      "type": "direct",
+      "label": "Parents of Kay Khosrow"
+    },
+    {
+      "from": "shh12_kay_kavus",
+      "to": "shh12_tus_giv_gudarz",
+      "type": "expansion",
+      "label": "Kayanian Marshals"
+    },
+    {
+      "from": "shh12_tus_giv_gudarz",
+      "to": "ir_kay_khosrow",
+      "type": "expansion",
+      "label": "Restoration of Kay Khosrow"
+    },
+    {
+      "from": "ir_kay_khosrow",
+      "to": "shh12_lohrasp_goshtasp_esfandiyar",
+      "type": "direct",
+      "label": "Designated Kayanian Succession"
+    },
+    {
+      "from": "shh12_lohrasp_goshtasp_esfandiyar",
+      "to": "ir_zoroaster",
+      "type": "expansion",
+      "label": "Royal Patronage of Zoroaster"
+    },
+    {
+      "from": "bib16_apo_01_apostle_simon_peter_cephas",
+      "to": "apo12_clement_rome_abdias",
+      "type": "expansion",
+      "label": "Roman Presbytery & Ordination"
+    },
+    {
+      "from": "bib16_apo_01_apostle_simon_peter_cephas",
+      "to": "apo12_linus_anacletus",
+      "type": "expansion",
+      "label": "Episcopal Succession of Rome"
+    },
+    {
+      "from": "bib16_apo_01_apostle_simon_peter_cephas",
+      "to": "apo12_petronilla_rome",
+      "type": "direct",
+      "label": "Petrine Household Tradition"
+    },
+    {
+      "from": "bib16_apo_08_apostle_thomas_didymus",
+      "to": "apo12_gondophares_indoparthia",
+      "type": "expansion",
+      "label": "Taxila Mission (Abdias IX)"
+    },
+    {
+      "from": "apo12_gondophares_indoparthia",
+      "to": "apo12_king_misdaeus_mygdonia",
+      "type": "expansion",
+      "label": "Apostolic Mission to India"
+    },
+    {
+      "from": "nt_jesus",
+      "to": "apo12_king_polemius_armenia",
+      "type": "expansion",
+      "label": "Bartholomew Mission (Abdias VIII)"
+    },
+    {
+      "from": "nt_jesus",
+      "to": "apo12_king_egippus_ethiopia",
+      "type": "expansion",
+      "label": "Matthew Mission in Ethiopia (Abdias VII)"
+    },
+    {
+      "from": "nt_jesus",
+      "to": "apo12_king_xerxes_persia",
+      "type": "expansion",
+      "label": "Simon & Jude in Babylon/Persia"
+    },
+    {
+      "from": "nt_jesus",
+      "to": "apo12_queen_drusiana_ephesus",
+      "type": "expansion",
+      "label": "Johannine Circle of Ephesus (Abdias V)"
+    },
+    {
+      "from": "nt_jesus",
+      "to": "apo12_julius_africanus",
+      "type": "expansion",
+      "label": "Chronographer of the Desposyni (ANF VI)"
+    },
+    {
+      "from": "apo12_julius_africanus",
+      "to": "apo12_gregory_thaumaturgus",
+      "type": "expansion",
+      "label": "Third-Century Patristic Corpus"
+    },
+    {
+      "from": "apo12_julius_africanus",
+      "to": "apo12_dionysius_alexandria",
+      "type": "expansion",
+      "label": "Alexandrian Chronological School"
+    },
+    {
+      "from": "apo12_dionysius_alexandria",
+      "to": "apo12_methodius_olympus",
+      "type": "expansion",
+      "label": "Eastern Patristic Succession"
+    },
+    {
+      "from": "apo12_julius_africanus",
+      "to": "apo12_arnobius_sicca",
+      "type": "expansion",
+      "label": "ANF Vol. 6 Patristic Bridge"
+    },
+    {
+      "from": "apo12_arnobius_sicca",
+      "to": "apo12_lactantius_nicomedia",
+      "type": "expansion",
+      "label": "Rhetorical Master & Pupil"
+    },
+    {
+      "from": "apo12_lactantius_nicomedia",
+      "to": "mon_rom_constantine1",
+      "type": "expansion",
+      "label": "Tutor of Crispus son of Constantine"
+    },
+    {
+      "from": "apo12_lactantius_nicomedia",
+      "to": "rom3_st_helena",
+      "type": "expansion",
+      "label": "Imperial Christian Court at Trier"
+    },
+    {
+      "from": "apo12_julius_africanus",
+      "to": "apo12_pamphilus_caesarea",
+      "type": "expansion",
+      "label": "Library of Caesarea Preservation"
+    },
+    {
+      "from": "mes_sargon",
+      "to": "arc12_sharru_kin_babylon",
+      "type": "expansion",
+      "label": "Babylonian Chronicle Attestation"
+    },
+    {
+      "from": "arc12_sharru_kin_babylon",
+      "to": "arc12_shulgi_amar_sin_chronicle",
+      "type": "expansion",
+      "label": "Chronicle of Early Kings Continuity"
+    },
+    {
+      "from": "mes_sargon",
+      "to": "arc12_puzur_ashur1_assyria",
+      "type": "expansion",
+      "label": "Early Assyro-Babylonian Synchronism"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "arc12_ulamburiash_sealand",
+      "type": "direct",
+      "label": "Kassite Royal Line"
+    },
+    {
+      "from": "bab_dyn3_kassite",
+      "to": "arc12_karaindash_kassite",
+      "type": "direct",
+      "label": "Kassite Royal Line"
+    },
+    {
+      "from": "eg_amenhotep3",
+      "to": "arc12_karaindash_kassite",
+      "type": "expansion",
+      "label": "Amarna Diplomatic Brotherhood"
+    },
+    {
+      "from": "arc12_karaindash_kassite",
+      "to": "arc12_nazibugash_kurigalzu2",
+      "type": "direct",
+      "label": "Synchronistic Kassite Succession"
+    },
+    {
+      "from": "ane10_ben_hadad3",
+      "to": "arc12_adad_nirari3_rimah",
+      "type": "expansion",
+      "label": "Damascus Tribute Stele (Rimah)"
+    },
+    {
+      "from": "aklr_neo_12_sennacherib_705_681_bce",
+      "to": "arc12_adad_nirari3_rimah",
+      "type": "direct",
+      "label": "Earlier Neo-Assyrian Line"
+    },
+    {
+      "from": "aklr_neo_12_sennacherib_705_681_bce",
+      "to": "arc12_merodach_baladan2",
+      "type": "expansion",
+      "label": "Babylonian-Chaldean Rivalry"
+    },
+    {
+      "from": "aklr_neo_12_sennacherib_705_681_bce",
+      "to": "arc12_kandalanu_babylon",
+      "type": "expansion",
+      "label": "Assyro-Babylonian Viceroyalty"
+    },
+    {
+      "from": "bib_ham",
+      "to": "arc12_sayce_hittite_syrian",
+      "type": "direct",
+      "label": "Heth / Hamitic Table of Nations (Sayce)"
+    },
+    {
+      "from": "bib_shem",
+      "to": "arc12_sayce_elamite_shushinak",
+      "type": "direct",
+      "label": "Elam / Shemitic Ethnology (Sayce)"
+    },
+    {
+      "from": "bib_japheth",
+      "to": "arc12_sayce_kittim_ionian",
+      "type": "direct",
+      "label": "Javan & Kittim Maritime Ethnology (Sayce)"
+    },
+    {
+      "from": "bib_noah",
+      "to": "arc12_crawford_patriarchal_canon",
+      "type": "expansion",
+      "label": "Patriarchal Chronological Canon"
+    },
+    {
+      "from": "bib_shem",
+      "to": "arc12_crawford_patriarchal_canon",
+      "type": "expansion",
+      "label": "Post-Flood Shemitic Span Analysis"
+    },
+    {
+      "from": "mon_fra_louis14",
+      "to": "arc12_hennepin_louis_missionary",
+      "type": "expansion",
+      "label": "Franco-American Royal Exploration"
+    },
+    {
+      "from": "arc12_hennepin_louis_missionary",
+      "to": "arc12_la_salle_iroquois_envoy",
+      "type": "expansion",
+      "label": "Mississippi & Great Lakes Expedition (1679-1699)"
+    },
+    {
+      "from": "mon_fra_louis14",
+      "to": "arc12_la_salle_iroquois_envoy",
+      "type": "expansion",
+      "label": "Louisiana Charter under Louis XIV"
+    }
+  ]
+}

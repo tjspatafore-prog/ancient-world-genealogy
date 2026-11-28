@@ -224,6 +224,12 @@ def main():
         ("unb_sea_mongkut_chulalongkorn", "asi11_thailand_rama10_2026", {"direct", "expansion", "cognate", "syncretic"}, "Chakri Siam -> King Bhumibol -> Living King Rama X of Thailand (2026)"),
         ("bib_ishmael", "ara11_saudi_salman_mbs_2026", {"direct", "expansion", "cognate", "syncretic"}, "Ishmael -> House of Saud -> Living King Salman & MBS (2026)"),
         ("mon_eng_victoria", "roy11_king_michael1_romania", {"direct", "expansion", "cognate", "syncretic"}, "Queen Victoria -> Queen Marie & King Michael I of Romania"),
+        ("bib_japheth", "cls12_scipio_aemilianus", {"direct", "expansion", "cognate", "syncretic"}, "Japheth -> Scipio Africanus -> Scipio Aemilianus (Eutropius/Florus)"),
+        ("bib_shem", "har12_vajra_mathura", {"direct", "expansion", "cognate", "syncretic"}, "Shem -> Krishna -> Pradyumna -> Aniruddha -> Vajra (Harivamsha)"),
+        ("bib_adam", "shh12_siyavash_farangis", {"direct", "expansion", "cognate", "syncretic"}, "Adam -> Gayomart -> Kay Qobad -> Kay Kavus -> Siyavash (Shahnameh)"),
+        ("bib_adam", "apo12_gondophares_indoparthia", {"direct", "expansion", "cognate", "syncretic"}, "Adam -> St. Thomas -> King Gondophares (Abdias IX)"),
+        ("bib_adam", "alx12_demetrius1_bactria", {"direct", "expansion", "cognate", "syncretic"}, "Adam -> Alexander -> Seleucus -> Antiochus III -> Demetrius I of Bactria"),
+        ("bib_adam", "arc12_merodach_baladan2", {"direct", "expansion", "cognate", "syncretic"}, "Adam -> Sennacherib -> Merodach-Baladan II (L.W. King Chronicles)"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")
