@@ -198,6 +198,16 @@ def main():
         ("burma_abhiraza_tagaung", "bur8_bayinnaung", {"direct", "expansion", "cognate", "syncretic"}, "Glass Palace Chronicle: Abhiraza -> Anawrahta -> Bayinnaung of Burma"),
         ("tib_nyatri_songtsen", "tib8_fifth_dalai_lama", {"direct", "expansion", "cognate", "syncretic"}, "Blue Annals: Nyatri Tsenpo -> Trisong Detsen -> Sakya Pandita -> 5th Dalai Lama"),
         ("mon_ott_suleiman1", "ott8_abdulmejid2_osmanoglu", {"direct", "expansion", "cognate", "syncretic"}, "Suleiman the Magnificent -> Hurrem -> Kosem -> Abdulhamid II -> Osmanoğlu (2026)"),
+        ("irl_niall_brian_boru", "mon_eng_james1", {"direct", "expansion", "cognate", "syncretic"}, "Niall/Fergus -> Kenneth MacAlpin -> Robert Bruce -> Mary Queen of Scots -> James VI & I"),
+        ("mon_fra_charles6", "mon_eng_henry7", {"direct", "expansion", "cognate", "syncretic"}, "Charles VI of France -> Catherine of Valois + Owen Tudor -> King Henry VII"),
+        ("mon_rom_septimius_severus", "mon_rom_severus_alexander", {"direct", "expansion", "cognate", "syncretic"}, "Septimius Severus + Syrian Empress Julia Domna -> Julia Maesa -> Severus Alexander"),
+        ("mon_rom_scipio_africanus", "mon_rom_gracchi", {"direct", "expansion", "cognate", "syncretic"}, "Scipio Africanus -> Cornelia Africana -> Tiberius & Gaius Gracchus"),
+        ("sud_cush_nuba_beja", "mon_isl_al_mamun", {"direct", "expansion", "cognate", "syncretic"}, "Christian Makuria: Qalidurut (Baqt 652) -> Georgios I -> Abbasid Caliph Al-Ma'mun"),
+        ("sud_funj_sennar", "nub9_darfur_sulayman_solong", {"direct", "expansion", "cognate", "syncretic"}, "Funj Sultanate: Amara Dunqas -> Badi II -> Keira Sultanate of Darfur"),
+        ("mon_ind_rajendra1", "sea_java_raden_wijaya", {"direct", "expansion", "cognate", "syncretic"}, "Rajendra Chola I (1025 Naval Expedition) -> Srivijaya & Majapahit"),
+        ("mon_por_manuel1", "chr6_sultan_mahmud_shah", {"direct", "expansion", "cognate", "syncretic"}, "Manuel I of Portugal -> Afonso de Albuquerque (1511) -> Sultan Mahmud Shah of Malacca"),
+        ("eur9_godfrey_bouillon", "byz8_manuel1_komnenos", {"direct", "expansion", "cognate", "syncretic"}, "Crusader Jerusalem: Melisende -> Amalric I + Maria Komnene -> Manuel I Komnenos"),
+        ("mon_esp_philip5", "eur9_felipe6_leonor_2026", {"direct", "expansion", "cognate", "syncretic"}, "Philip V -> Charles III -> Alfonso XIII -> Juan Carlos I -> Living King Felipe VI (2026)"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")

@@ -47,6 +47,7 @@ from modules import (
     mod48_wave6_global_royalty_person_by_person,
     mod49_wave7_graduated_empires_and_deep_bridges,
     mod50_wave8_byzantium_goths_franks_south_asia_ottomans,
+    mod51_wave9_gaelic_welsh_roman_nubia_deccan_crusaders,
 )
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -1309,6 +1310,7 @@ def main():
         mod48_wave6_global_royalty_person_by_person.build_module(),
         mod49_wave7_graduated_empires_and_deep_bridges.build_module(),
         mod50_wave8_byzantium_goths_franks_south_asia_ottomans.build_module(),
+        mod51_wave9_gaelic_welsh_roman_nubia_deccan_crusaders.build_module(),
     ]
 
     for mod in modules:
@@ -1389,8 +1391,8 @@ def main():
 
     compiled = {
         "metadata": {
-            "title": "Ancient World Genealogy Atlas — Wave 8 Byzantium, Goths, Merovingians, Kashmir/Lanka/Burma/Tibet & Ottoman Edition (v25.0)",
-            "version": "25.0.0",
+            "title": "Ancient World Genealogy Atlas — Wave 9 4,000-Node Milestone: Gaelic/Scottish, Welsh, Roman/Pausanias, Nubia, Deccan, Crusaders & Living Spain 2026 (v26.0)",
+            "version": "26.0.0",
             "counts": {
                 "total": len(all_nodes),
                 "biblicalConnected": bib_count,

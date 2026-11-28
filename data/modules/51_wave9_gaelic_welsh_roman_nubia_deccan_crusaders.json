@@ -1,0 +1,2994 @@
+{
+  "module": "51_wave9_gaelic_welsh_roman_nubia_deccan_crusaders",
+  "title": "Wave 9: Gaelic/Scottish, Welsh, Roman/Pausanias, Nubia/Funj, South India/Portuguese Asia, Crusaders/Medici & Living Spain 2026",
+  "nodes": [
+    {
+      "id": "gael9_tigernmas",
+      "name": "High King Tigernmas of Ireland (Introduced Gold Smelting, Four Masters)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 11,
+      "era": "Traditional Milesian Era",
+      "role": "High King of Ireland",
+      "sources": [
+        "Annals of the Four Masters",
+        "O'Hart Irish Pedigrees Vols. 1–2"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_ollom_fodla",
+      "name": "High King Ollom Fódla (Founder of Feis Temrach / Assembly of Tara)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 12,
+      "era": "Traditional Milesian Era",
+      "role": "Lawgiver High King",
+      "sources": [
+        "Annals of the Four Masters",
+        "O'Hart Irish Pedigrees Vols. 1–2"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_cimbaeth_macha",
+      "name": "High King Cimbáeth & Queen Macha Mong Ruad (Founders of Emain Macha)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 14,
+      "era": "c. 4th c. BCE",
+      "role": "High King & Sole Queen of Ireland",
+      "sources": [
+        "Annals of the Four Masters",
+        "O'Hart Irish Pedigrees Vols. 1–2"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_ugaine_mor",
+      "name": "High King Úgaine Mór (Ancestral Sovereign of Leinster & Tara)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 14,
+      "era": "Traditional Milesian Era",
+      "role": "High King of Ireland",
+      "sources": [
+        "Annals of the Four Masters",
+        "O'Hart Irish Pedigrees Vols. 1–2"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_labraid_loingsech",
+      "name": "High King Labraid Loingsech (Progenitor of the Laigin / Leinster Kings)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 14,
+      "era": "c. 3rd c. BCE",
+      "role": "Founder of Leinster",
+      "sources": [
+        "Annals of the Four Masters",
+        "O'Hart Irish Pedigrees Vols. 1–2"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_conn_ceadchathach",
+      "name": "High King Conn of the Hundred Battles (Conn Cétchathach, 2nd c. CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "2nd c. CE",
+      "role": "High King of Tara",
+      "sources": [
+        "Annals of the Four Masters",
+        "O'Hart Irish Pedigrees Vols. 1–2"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_art_mac_cuinn",
+      "name": "High King Art mac Cuinn (Father of Cormac mac Airt)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "c. 195–220 CE",
+      "role": "High King of Tara",
+      "sources": [
+        "Annals of the Four Masters",
+        "O'Hart Irish Pedigrees Vols. 1–2"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_cairbre_lifechair",
+      "name": "High King Cairbre Lifechair (Son of Cormac mac Airt, Battle of Gabhra)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "3rd c. CE",
+      "role": "High King of Tara",
+      "sources": [
+        "Annals of the Four Masters",
+        "Keating Foras Feasa"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, Keating Foras Feasa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_eochaid_mugmedon",
+      "name": "High King Eochaid Mugmedón (+ Mongfind & Cairenn; Father of Niall)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "4th c. CE",
+      "role": "High King of Tara",
+      "sources": [
+        "Annals of the Four Masters",
+        "Keating Foras Feasa"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, Keating Foras Feasa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_loegaire_patrick",
+      "name": "High King Lóegaire mac Néill (Met St. Patrick at Slane & Tara, 432 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "r. 428–458 CE",
+      "role": "High King of Ireland",
+      "sources": [
+        "Annals of the Four Masters",
+        "Keating Foras Feasa"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, Keating Foras Feasa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_conall_gulban",
+      "name": "Conall Gulban (Son of Niall; Founder of Cenél Conaill / Donegal)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "5th c. CE",
+      "role": "Progenitor of O'Donnell & St. Columba",
+      "sources": [
+        "O'Hart Vol. 1",
+        "Annals of the Four Masters"
+      ],
+      "notes": "Ancestral prince of Cenél Conaill.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_st_columba",
+      "name": "St. Columba / Colm Cille (Prince of Cenél Conaill & Abbot of Iona, 521–597 CE)",
+      "altNames": true,
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "521–597 CE",
+      "role": "Saint & Royal Missionary of Iona",
+      "sources": [
+        "Adomnán Life of Columba",
+        "O'Hart Vol. 1"
+      ],
+      "notes": "Great-great-grandson of Niall of the Nine Hostages; founded Iona and ordained King Áedán mac Gabráin of Dál Riata.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_eogan_mac_neill",
+      "name": "Éogan mac Néill (Son of Niall; Founder of Cenél nEógain / Ailech)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "5th c. CE",
+      "role": "Progenitor of O'Neill Dynasty",
+      "sources": [
+        "O'Hart Irish Pedigrees Vol. 1"
+      ],
+      "notes": "Founder of the Northern Uí Néill kings of Ailech & Tyrone.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_hugh_oneill",
+      "name": "Hugh O'Neill, 2nd Earl of Tyrone (The Great O'Neill, 1550–1616 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "c. 1550–1616 CE",
+      "role": "O'Neill Chief & Nine Years' War Leader",
+      "sources": [
+        "O'Hart Irish Pedigrees Vol. 1",
+        "Annals of the Four Masters"
+      ],
+      "notes": "Direct Cenél nEógain descendant of Niall of the Nine Hostages.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_mael_sechnaill2",
+      "name": "High King Máel Sechnaill II (Clontarf Contemporary & Predecessor/Successor, d. 1022 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "949–1022 CE",
+      "role": "High King of Ireland",
+      "sources": [
+        "Annals of the Four Masters",
+        "O'Hart Irish Pedigrees"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_turlough_oconnor",
+      "name": "High King Toirdelbach Ua Conchobair / Turlough O'Connor (1088–1156 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1088–1156 CE",
+      "role": "High King of Ireland (Connacht)",
+      "sources": [
+        "Annals of the Four Masters",
+        "O'Hart Irish Pedigrees"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_rory_oconnor",
+      "name": "High King Ruaidrí Ua Conchobair / Rory O'Connor (Last High King of Ireland, r. 1166–1186)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1116–1198 CE",
+      "role": "Last High King of Ireland",
+      "sources": [
+        "Annals of the Four Masters",
+        "O'Hart Irish Pedigrees"
+      ],
+      "notes": "Chronicle succession in Annals of the Four Masters, O'Hart Irish Pedigrees.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_aedan_mac_gabrain",
+      "name": "King Áedán mac Gabráin of Dál Riata (Ordained by St. Columba, r. 574–608 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 532–608 CE",
+      "role": "King of Dál Riata (Argyll & Antrim)",
+      "sources": [
+        "Adomnán",
+        "Lebor Gabála",
+        "O'Hart"
+      ],
+      "notes": "Grandson/descendant of Fergus Mór; consecrated king by St. Columba at Iona.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_malcolm2_scotland",
+      "name": "King Malcolm II of Scotland (victor at Carham 1018; r. 1005–1034 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 954–1034 CE",
+      "role": "King of Alba",
+      "sources": [
+        "Scottish Chronicles",
+        "Anderson 1732"
+      ],
+      "notes": "Chronicle succession in Scottish Chronicles, Anderson 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_duncan1",
+      "name": "King Duncan I of Scotland (Grandson of Malcolm II, r. 1034–1040 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1001–1040 CE",
+      "role": "King of Scotland",
+      "sources": [
+        "Scottish Chronicles",
+        "Anderson 1732"
+      ],
+      "notes": "Chronicle succession in Scottish Chronicles, Anderson 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_macbeth",
+      "name": "King Macbeth of Scotland (Mac Bethad mac Findláich, Mormaer of Moray, r. 1040–1057 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1005–1057 CE",
+      "role": "King of Scotland",
+      "sources": [
+        "Chronicle of Melrose",
+        "Howell 1685"
+      ],
+      "notes": "Cousin-successor of Duncan I; married Gruoch (granddaughter of Kenneth III).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_st_margaret_scotland",
+      "name": "Queen St. Margaret of Scotland (Wessex Princess; Mother of Scottish & English Lines, d. 1093 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1045–1093 CE",
+      "role": "Queen of Scots & Wessex Heiress",
+      "sources": [
+        "Howell 1685",
+        "Anderson Royal Genealogies 1732"
+      ],
+      "notes": "Chronicle succession in Howell 1685, Anderson Royal Genealogies 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_david1_scotland",
+      "name": "King St. David I of Scotland (Davidian Revolution, r. 1124–1153 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1084–1153 CE",
+      "role": "King of Scots",
+      "sources": [
+        "Howell 1685",
+        "Anderson Royal Genealogies 1732"
+      ],
+      "notes": "Chronicle succession in Howell 1685, Anderson Royal Genealogies 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_william_lion",
+      "name": "King William I the Lion of Scotland (Grandson of David I, r. 1165–1214 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1142–1214 CE",
+      "role": "King of Scots",
+      "sources": [
+        "Howell 1685",
+        "Anderson Royal Genealogies 1732"
+      ],
+      "notes": "Chronicle succession in Howell 1685, Anderson Royal Genealogies 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_alexander3_scotland",
+      "name": "King Alexander II → King Alexander III of Scotland (d. 1286 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1241–1286 CE",
+      "role": "Last Dunkeld King of Scots",
+      "sources": [
+        "Howell 1685",
+        "Anderson Royal Genealogies 1732"
+      ],
+      "notes": "Chronicle succession in Howell 1685, Anderson Royal Genealogies 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_marjorie_bruce_stewart",
+      "name": "Princess Marjorie Bruce (+ Walter Stewart; Mother of Robert II)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1296–1316 CE",
+      "role": "Daughter of Robert the Bruce & Stewart Ancestress",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "Chronicle succession in William Howell 1685, Anderson 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_robert2_stewart",
+      "name": "King Robert II of Scotland (1st Stewart Monarch, 1371–1390 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1316–1390 CE",
+      "role": "Founder of House of Stewart",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "Chronicle succession in William Howell 1685, Anderson 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_james1_scotland",
+      "name": "King James I → James II → James III of Scotland (1406–1488 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1394–1488 CE",
+      "role": "Stewart Kings of Scots",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "Chronicle succession in William Howell 1685, Anderson 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_james4_margaret_tudor",
+      "name": "King James IV (+ Queen Margaret Tudor, Daughter of Henry VII, 1488–1513)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1473–1513 CE",
+      "role": "King of Scots & Tudor Union",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "Chronicle succession in William Howell 1685, Anderson 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_james5_scotland",
+      "name": "King James V of Scotland (+ Mary of Guise, 1513–1542 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1512–1542 CE",
+      "role": "King of Scots",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "Chronicle succession in William Howell 1685, Anderson 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "gael9_mary_queen_scots",
+      "name": "Mary, Queen of Scots (+ Henry Stuart, Lord Darnley; 1542–1587)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1542–1587 CE",
+      "role": "Queen Regnant of Scotland",
+      "sources": [
+        "William Howell 1685",
+        "Anderson 1732"
+      ],
+      "notes": "Granddaughter of Henry VII & Margaret Tudor; mother of King James VI & I uniting Scotland and England.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "wal9_maelgwn_gwynedd",
+      "name": "King Maelgwn Gwynedd (6th c. High King of Britain in Gildas & Lloyd)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. c. 547 CE",
+      "role": "King of Gwynedd",
+      "sources": [
+        "J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf)"
+      ],
+      "notes": "Chronicle succession in J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "wal9_cadwallon_cadwaladr",
+      "name": "Kings Cadwallon ap Cadfan & Cadwaladr Fendigaid (7th c. Welsh Kings)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. 682 CE",
+      "role": "Kings of Gwynedd",
+      "sources": [
+        "J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf)"
+      ],
+      "notes": "Chronicle succession in J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "wal9_merfyn_frych",
+      "name": "King Merfyn Frych (+ Esyllt of Gwynedd; Father of Rhodri Mawr, d. 844 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. 844 CE",
+      "role": "King of Gwynedd",
+      "sources": [
+        "J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf)"
+      ],
+      "notes": "Chronicle succession in J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "wal9_rhys_ap_tewdwr",
+      "name": "King Rhys ap Tewdwr of Deheubarth (Killed 1093 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "d. 1093 CE",
+      "role": "Prince of Deheubarth",
+      "sources": [
+        "Lloyd History of Wales"
+      ],
+      "notes": "Chronicle succession in Lloyd History of Wales.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "wal9_nest_ferch_rhys",
+      "name": "Princess Nest ferch Rhys ('The Helen of Wales'; Ancestress of FitzGeralds & Tudors)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1085–c. 1140 CE",
+      "role": "Welsh Princess & Cambro-Norman Matriarch",
+      "sources": [
+        "Lloyd History of Wales"
+      ],
+      "notes": "Chronicle succession in Lloyd History of Wales.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "wal9_lord_rhys",
+      "name": "Rhys ap Gruffydd / The Lord Rhys (Founder of the National Eisteddfod, 1176 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1132–1197 CE",
+      "role": "Prince of Deheubarth",
+      "sources": [
+        "Lloyd History of Wales"
+      ],
+      "notes": "Chronicle succession in Lloyd History of Wales.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "wal9_joan_wales",
+      "name": "Princess Joan / Siwan (+ Llywelyn the Great; Daughter of King John of England)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1191–1237 CE",
+      "role": "Lady of Wales & Daughter of King John",
+      "sources": [
+        "Lloyd History of Wales"
+      ],
+      "notes": "Natural daughter of King John who wed Llywelyn the Great of Gwynedd.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "wal9_llywelyn_ap_gruffudd",
+      "name": "Prince Llywelyn ap Gruffudd ('Llywelyn the Last', Prince of Wales, d. 1282 CE)",
+      "altNames": true,
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1223–1282 CE",
+      "role": "Final Sovereign Prince of Wales",
+      "sources": [
+        "Lloyd History of Wales"
+      ],
+      "notes": "Grandson of Llywelyn the Great; last independent native Prince of Wales.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "wal9_owain_glyndwr",
+      "name": "Owain Glyndŵr (Last Native Prince of Wales, 1400–1415 CE)",
+      "altNames": true,
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "c. 1359–c. 1415 CE",
+      "role": "Prince of Wales (Powys Fadog & Deheubarth)",
+      "sources": [
+        "Lloyd History of Wales",
+        "Four Ancient Books of Wales"
+      ],
+      "notes": "Claimed royal descent from both Powys & Deheubarth; proclaimed Prince of Wales in 1400 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "wal9_catherine_valois",
+      "name": "Queen Catherine of Valois (+ Henry V → Henry VI; + Owen Tudor → Edmund Tudor)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1401–1437 CE",
+      "role": "Queen of England & Tudor Matriarch",
+      "sources": [
+        "William Howell 1685",
+        "Lloyd History of Wales"
+      ],
+      "notes": "Daughter of Charles VI of France; married Henry V of England and later Owen Tudor, mothering Henry VII's father Edmund Tudor.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_cornelia_africana",
+      "name": "Cornelia Africana (Daughter of Scipio Africanus; Mother of Tiberius & Gaius Gracchus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 189–c. 110 BCE",
+      "role": "Roman Republican Matron",
+      "sources": [
+        "Plutarch Gracchi",
+        "Livy"
+      ],
+      "notes": "Daughter of Scipio Africanus; renowned Roman matron who raised the Gracchi brothers.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_scipio_aemilianus",
+      "name": "Scipio Aemilianus Africanus (Adoptive Grandson of Scipio; Destroyer of Carthage 146 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "185–129 BCE",
+      "role": "Roman Consul & General",
+      "sources": [
+        "Polybius",
+        "Livy Epitome"
+      ],
+      "notes": "Biological son of Lucius Aemilius Paullus & patron of Polybius.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_aemilius_paullus",
+      "name": "Lucius Aemilius Paullus Macedonicus (Victor of Pydna 168 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 229–160 BCE",
+      "role": "Roman Consul",
+      "sources": [
+        "Plutarch Aemilius Paullus",
+        "Polybius"
+      ],
+      "notes": "Defeated Perseus of Macedon; biological father of Scipio Aemilianus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_polybius_historian",
+      "name": "Polybius of Megalopolis (c. 200–118 BCE; Mentor of Scipio Aemilianus)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 200–118 BCE",
+      "role": "Greek Historian of Rome",
+      "sources": [
+        "General History of Polybius"
+      ],
+      "notes": "Achaean statesman-hostage whose Histories chronicled Rome & Carthage.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_titus_livius",
+      "name": "Titus Livius / Livy of Patavium (59 BCE–17 CE; Author of Ab Urbe Condita)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "59 BCE–17 CE",
+      "role": "Roman Historian",
+      "sources": [
+        "Roman History by Titus Livius Vols. 1–6"
+      ],
+      "notes": "Preeminent historian of Rome from Aeneas & Romulus to Augustus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_cornelius_tacitus",
+      "name": "Publius Cornelius Tacitus (c. 56–120 CE; Senator & Author of Annals & Histories)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "c. 56–120 CE",
+      "role": "Roman Senator & Historian",
+      "sources": [
+        "Works of Cornelius Tacitus Vols. 1–4"
+      ],
+      "notes": "Chronicler of the Julio-Claudian & Flavian emperors and Germanic tribes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_julia_caesaris_pompey",
+      "name": "Julia Caesaris (Daughter of Julius Caesar; Wife of Pompey the Great, d. 54 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 76–54 BCE",
+      "role": "Roman Noblewoman",
+      "sources": [
+        "Plutarch Caesar & Pompey"
+      ],
+      "notes": "Her 59 BCE marriage to Pompey sealed the First Triumvirate.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_faustina_elder_younger",
+      "name": "Empresses Faustina the Elder (+ Antoninus Pius) & Faustina the Younger (+ Marcus Aurelius)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "100–175 CE",
+      "role": "Antonine Roman Empresses",
+      "sources": [
+        "Echard Roman History",
+        "Suetonius / SHA"
+      ],
+      "notes": "Transmitted Antonine imperial legitimacy to Marcus Aurelius & Commodus.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_julia_domna",
+      "name": "Empress Julia Domna of Emesa (+ Septimius Severus; Mother of Caracalla, d. 217 CE)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 19,
+      "era": "c. 160–217 CE",
+      "role": "Syrian Priest-Princess & Roman Augusta",
+      "sources": [
+        "Herodian",
+        "Echard Roman History Vol. 2"
+      ],
+      "notes": "Daughter of High Priest Julius Bassianus of Emesa (Homs, Syria); intellectual & imperial Augusta of the Severan dynasty.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_julia_maesa",
+      "name": "Julia Maesa of Emesa (Sister of Julia Domna; Grandmother of Elagabalus & Severus Alexander)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "c. 165–224 CE",
+      "role": "Severan Augusta",
+      "sources": [
+        "Herodian",
+        "Echard"
+      ],
+      "notes": "Engineered the 218 CE Severan restoration.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_julia_soaemias_mamaea",
+      "name": "Empresses Julia Soaemias & Julia Avita Mamaea (Mothers of Elagabalus & Severus Alexander)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "c. 180–235 CE",
+      "role": "Severan Empresses Regent",
+      "sources": [
+        "Herodian",
+        "Echard"
+      ],
+      "notes": "Daughters of Julia Maesa.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_lycaon_callisto",
+      "name": "King Lycaon of Arcadia & Callisto (Pausanias VIII.2–3)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 11,
+      "era": "Mythic Pelasgian Era",
+      "role": "Early Arcadian Line",
+      "sources": [
+        "Pausanias Description of Greece Books IV, V, VIII"
+      ],
+      "notes": "Chronicle succession in Pausanias Description of Greece Books IV, V, VIII.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_arcas_arcadia",
+      "name": "King Arcas of Arcadia (Eponym of Arcadia; Father of Azan & Apheidas)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 12,
+      "era": "Heroic Greek Era",
+      "role": "Eponymous King of Arcadia",
+      "sources": [
+        "Pausanias Description of Greece Books IV, V, VIII"
+      ],
+      "notes": "Chronicle succession in Pausanias Description of Greece Books IV, V, VIII.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_telephus_mysia",
+      "name": "King Telephus of Mysia (Son of Heracles & Auge of Tegea; Pausanias VIII.48)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 13,
+      "era": "Trojan War Era",
+      "role": "King of Mysia",
+      "sources": [
+        "Pausanias Description of Greece Books IV, V, VIII"
+      ],
+      "notes": "Chronicle succession in Pausanias Description of Greece Books IV, V, VIII.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_endymion_elis",
+      "name": "King Endymion of Elis (Son of Aethlius; Father of Epeius, Pausanias V.1)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 12,
+      "era": "Heroic Greek Era",
+      "role": "Early King of Elis",
+      "sources": [
+        "Pausanias Book V (Elis)"
+      ],
+      "notes": "Founder of Epean / Elian royal genealogy.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_oenomaus_hippodamia",
+      "name": "King Oenomaus of Pisa & Hippodamia (+ Pelops; Olympia Chariot Race)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 12,
+      "era": "Heroic Greek Era",
+      "role": "King of Pisa (Elis)",
+      "sources": [
+        "Pausanias Book V"
+      ],
+      "notes": "Father-in-law of Pelops.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_cresphontes_messenia",
+      "name": "King Cresphontes of Messenia (Heraclid Return & Partition of Peloponnese, Pausanias IV.3)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 14,
+      "era": "Heraclid Era",
+      "role": "1st Heraclid King of Messenia",
+      "sources": [
+        "Pausanias Book IV (Messenia)"
+      ],
+      "notes": "Descendant of Heracles who drew Messenia by lot.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_aristomenes_messenia",
+      "name": "Aristomenes of Messenia (Hero of the Second Messenian War, Pausanias IV.14–24)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 16,
+      "era": "7th c. BCE",
+      "role": "Messenian Hero & Aepytid Scion",
+      "sources": [
+        "Pausanias Book IV"
+      ],
+      "notes": "Led Messenian independence struggle against Sparta.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_gelon_hiero1",
+      "name": "Tyrants Gelon & Hiero I of Syracuse (Deinomenids, Victors of Himera 480 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "485–466 BCE",
+      "role": "Deinomenid Rulers of Syracuse",
+      "sources": [
+        "Diodorus Siculus",
+        "Polybius",
+        "Plutarch"
+      ],
+      "notes": "Chronicle succession in Diodorus Siculus, Polybius, Plutarch.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_dionysius1_syracuse",
+      "name": "Dionysius I & Dionysius II of Syracuse (405–344 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "405–344 BCE",
+      "role": "Tyrants of Syracuse",
+      "sources": [
+        "Diodorus Siculus",
+        "Polybius",
+        "Plutarch"
+      ],
+      "notes": "Chronicle succession in Diodorus Siculus, Polybius, Plutarch.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_timoleon_agathocles",
+      "name": "Timoleon & King Agathocles of Syracuse (344–289 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "344–289 BCE",
+      "role": "Liberator & King of Sicily",
+      "sources": [
+        "Diodorus Siculus",
+        "Polybius",
+        "Plutarch"
+      ],
+      "notes": "Chronicle succession in Diodorus Siculus, Polybius, Plutarch.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "cls9_hiero2_syracuse",
+      "name": "King Hiero II of Syracuse (Kinsman & Patron of Archimedes, 270–215 BCE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 18,
+      "era": "c. 308–215 BCE",
+      "role": "King of Syracuse",
+      "sources": [
+        "Diodorus Siculus",
+        "Polybius",
+        "Plutarch"
+      ],
+      "notes": [
+        "Polybius",
+        "Plutarch Marcellus"
+      ],
+      "major": "Ruler of Syracuse & kinsman-patron of mathematician Archimedes.",
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_silko_nobatia",
+      "name": "King Silko of Nobatia (Kalabsha Inscription, c. 450 CE; Defeated Blemmyes)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "c. 450 CE",
+      "role": "Christian/Early King of Nobatia",
+      "sources": [
+        "Arkell History of the Sudan",
+        "MacMichael Arabs in the Sudan Vol. 1"
+      ],
+      "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_qalidurut_baqt",
+      "name": "King Qalidurut of Makuria (652 CE Baqt Treaty at Dongola)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "fl. 652 CE",
+      "role": "King of Christian Makuria",
+      "sources": [
+        "Arkell History of the Sudan",
+        "MacMichael Arabs in the Sudan Vol. 1"
+      ],
+      "notes": "Successfully defended Dongola and concluded the 600-year Baqt Peace Treaty.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_merkurios_makuria",
+      "name": "King Merkurios of Makuria ('New Constantine', United Nobatia & Makuria, c. 697–710 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "r. c. 697–710 CE",
+      "role": "King of Makuria & Nobatia",
+      "sources": [
+        "Arkell History of the Sudan",
+        "MacMichael Arabs in the Sudan Vol. 1"
+      ],
+      "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_cyriacus_makuria",
+      "name": "King Cyriacus of Makuria (Marched on Fustat c. 745 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "8th c. CE",
+      "role": "King of Makuria",
+      "sources": [
+        "Arkell History of the Sudan",
+        "MacMichael Arabs in the Sudan Vol. 1"
+      ],
+      "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_georgios1_makuria",
+      "name": "King Georgios I of Makuria (836 CE Royal Embassy to Caliph Al-Mu'tasim / Al-Ma'mun)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 19,
+      "era": "c. 816–887 CE",
+      "role": "King of Makuria",
+      "sources": [
+        "Arkell History of the Sudan",
+        "MacMichael Arabs in the Sudan Vol. 1"
+      ],
+      "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_georgios2_solomon",
+      "name": "Kings Georgios II & Solomon of Makuria (10th–11th c. CE Golden Age)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "10th–11th c. CE",
+      "role": "Kings of Makuria",
+      "sources": [
+        "Arkell History of the Sudan",
+        "MacMichael Arabs in the Sudan Vol. 1"
+      ],
+      "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_david_makuria",
+      "name": "King David of Makuria & King Shekanda (1272–1276 CE vs Sultan Baybars)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "13th c. CE",
+      "role": "Late Makurian Kings",
+      "sources": [
+        "Arkell History of the Sudan",
+        "MacMichael Arabs in the Sudan Vol. 1"
+      ],
+      "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_siti_alodia",
+      "name": "King Siti of Makuria & Kings of Alodia / Soba (14th–15th c. CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 20,
+      "era": "14th–15th c. CE",
+      "role": "Final Christian Nubian Rulers",
+      "sources": [
+        "Arkell History of the Sudan",
+        "MacMichael Arabs in the Sudan Vol. 1"
+      ],
+      "notes": "Chronicle succession in Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_amara_dunqas",
+      "name": "Sultan Amara Dunqas (Founder of Funj Sultanate of Sennar, 1504–1534 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "r. 1504–1534 CE",
+      "role": "1st Sultan of Sennar",
+      "sources": [
+        "Funj Chronicle",
+        "Arkell History of Sudan"
+      ],
+      "notes": "Allied with Abdallab Arab chieftain Abdallah Jamma to establish the Funj Sultanate.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_abdallah_jamma",
+      "name": "Shaykh Abdallah Jamma & Shaykh Ajib al-Kafuta (Abdallab Arab Viceroys of Qerri)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1504–1611 CE",
+      "role": "Abdallab Viceroys of Northern Sudan",
+      "sources": [
+        "Funj Chronicle",
+        "Arkell History of Sudan"
+      ],
+      "notes": "Chronicle succession in Funj Chronicle, Arkell History of Sudan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_ajib_kafuta",
+      "name": "Sultan Dakin & Sultan Unsa I (Late 16th–17th c. Sennar)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "1568–1616 CE",
+      "role": "Funj Sultans",
+      "sources": [
+        "Funj Chronicle",
+        "Arkell History of Sudan"
+      ],
+      "notes": "Chronicle succession in Funj Chronicle, Arkell History of Sudan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_badi2_sennar",
+      "name": "Sultan Badi II Abu Diqn (Golden Age of Sennar Mosque, 1644–1681 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "r. 1644–1681 CE",
+      "role": "Sultan of Sennar",
+      "sources": [
+        "Funj Chronicle",
+        "Arkell History of Sudan"
+      ],
+      "notes": "Chronicle succession in Funj Chronicle, Arkell History of Sudan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_badi4_sennar",
+      "name": "Sultan Badi IV Abu Shulukh (Defeated Iyasu II of Ethiopia at Dindar 1744)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "r. 1724–1762 CE",
+      "role": "Sultan of Sennar",
+      "sources": [
+        "Funj Chronicle",
+        "Arkell History of Sudan"
+      ],
+      "notes": "Chronicle succession in Funj Chronicle, Arkell History of Sudan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_badi7_sennar",
+      "name": "Sultan Badi VII of Sennar (Final Funj Sultan, 1805–1821 CE)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "r. 1805–1821 CE",
+      "role": "Last Sultan of Sennar",
+      "sources": [
+        "Funj Chronicle",
+        "Arkell History of Sudan"
+      ],
+      "notes": "Chronicle succession in Funj Chronicle, Arkell History of Sudan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "nub9_darfur_sulayman_solong",
+      "name": "Sultan Sulayman Solong (Keira Founder of Darfur, 1603–1637 CE) → Sultan Ali Dinar (d. 1916)",
+      "altNames": [],
+      "tradition": "african",
+      "tier": 21,
+      "era": "17th–20th c. CE",
+      "role": "Keira Sultans of Darfur",
+      "sources": [
+        "MacMichael Vol. 1",
+        "Arkell History of Sudan"
+      ],
+      "notes": "Traditional Keira dynasty of Darfur claimed descent from Banu Hilal & Abbasid/Tunjur links.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_pulakeshin2",
+      "name": "Emperor Pulakeshin II of Vatapi (Badami Chalukya; Defeated Harsha & Diplomatic Envoy to Khosrow II)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "r. 610–642 CE",
+      "role": "Chalukya Emperor of the Deccan",
+      "sources": [
+        "Rickmers Chronology of India",
+        "Epigraphia Indica"
+      ],
+      "notes": "Checked Harshavardhana at the Narmada and exchanged embassies with Sasanian Persia.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_simhavishnu_mahendravarman",
+      "name": "Kings Simhavishnu & Mahendravarman I of Kanchi (Pallava Dynasty)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "575–630 CE",
+      "role": "Pallava Kings of Kanchipuram",
+      "sources": [
+        "Rickmers Chronology of India",
+        "Epigraphia Indica"
+      ],
+      "notes": "Chronicle succession in Rickmers Chronology of India, Epigraphia Indica.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_narasimhavarman1",
+      "name": "Narasimhavarman I Mamalla (Builder of Mahabalipuram Shore Monuments, 630–668 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "r. 630–668 CE",
+      "role": "Great Pallava King",
+      "sources": [
+        "Rickmers Chronology of India",
+        "Epigraphia Indica"
+      ],
+      "notes": "Chronicle succession in Rickmers Chronology of India, Epigraphia Indica.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_dantidurga_rashtrakuta",
+      "name": "Dantidurga → Krishna I (Ellora Kailasa Temple; Rashtrakuta Founders, 753–774 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "735–774 CE",
+      "role": "Rashtrakuta Founders",
+      "sources": [
+        "Rickmers Chronology of India",
+        "Epigraphia Indica"
+      ],
+      "notes": "Chronicle succession in Rickmers Chronology of India, Epigraphia Indica.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_amoghavarsha",
+      "name": "Emperor Amoghavarsha I Nrupatunga (Author of Kavirajamarga, 814–878 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "800–878 CE",
+      "role": "Rashtrakuta Emperor",
+      "sources": [
+        "Rickmers Chronology of India",
+        "Epigraphia Indica"
+      ],
+      "notes": "Chronicle succession in Rickmers Chronology of India, Epigraphia Indica.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_vijayalaya_aditya",
+      "name": "Vijayalaya Chola → Aditya I → Parantaka I (Imperial Chola Founders, 848–955 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "848–955 CE",
+      "role": "Chola Emperors",
+      "sources": [
+        "Rickmers Chronology of India",
+        "Chola Copper Plates"
+      ],
+      "notes": "Ancestors of Rajaraja Chola I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_kulottunga1",
+      "name": "Emperor Kulottunga Chola I (Eastern Chalukya–Chola Union, r. 1070–1122 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "1029–1122 CE",
+      "role": "Chalukya-Chola Emperor",
+      "sources": [
+        "Rickmers Chronology of India"
+      ],
+      "notes": "Grandson of Rajendra Chola I via his daughter Ammangadevi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_sundara_pandya",
+      "name": "Jatavarman Sundara Pandyan I (Second Pandyan Empire, r. 1251–1268 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "r. 1251–1268 CE",
+      "role": "Pandyan Emperor",
+      "sources": [
+        "Rickmers Chronology of India",
+        "Marco Polo"
+      ],
+      "notes": "Expanded Pandyan sovereignty from Madurai across Sri Lanka & South India.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_vishnuvardhana_hoysala",
+      "name": "King Vishnuvardhana of Hoysala (Belur & Halebidu, r. 1108–1152 CE) → Ballala III",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "1108–1343 CE",
+      "role": "Hoysala Kings",
+      "sources": [
+        "Rickmers Chronology of India"
+      ],
+      "notes": "Built Chennakesava Temple; bridged Karnataka power to Vijayanagara.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_rudrama_devi",
+      "name": "Rani Rudrama Devi of Warangal (Kakatiya Queen Regnant, r. 1262–1289 CE)",
+      "altNames": true,
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "r. 1262–1289 CE",
+      "role": "Kakatiya Sovereign Queen",
+      "sources": [
+        "Marco Polo",
+        "Rickmers Chronology of India"
+      ],
+      "notes": "One of India's few sovereign queens regnant; praised in Marco Polo's travels.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_harihara_bukka",
+      "name": "Harihara I & Bukka Raya I (Sangama Founders of Vijayanagara Empire, 1336 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "1336–1377 CE",
+      "role": "Founders of Vijayanagara",
+      "sources": [
+        "Rickmers Chronology",
+        "Portuguese Asia"
+      ],
+      "notes": "Former Hoysala/Kakatiya commanders who founded Vijayanagara at Hampi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_rama_raya_talikota",
+      "name": "Aliya Rama Raya & Venkatapati Deva Raya (Aravidu Dynasty after 1565)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1542–1614 CE",
+      "role": "Vijayanagara Regents & Aravidu Kings",
+      "sources": [
+        "Faria y Sousa Portuguese Asia"
+      ],
+      "notes": "Son-in-law of Krishnadevaraya; fell at Talikota (1565).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_chand_bibi",
+      "name": "Sultana Chand Bibi of Bijapur & Ahmadnagar (Defended Deccan vs Akbar, 1550–1599 CE)",
+      "altNames": true,
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1550–1599 CE",
+      "role": "Deccan Sovereign Warrior Queen",
+      "sources": [
+        "Faria y Sousa",
+        "Mughal Akbarnama"
+      ],
+      "notes": "Regent of both Bijapur and Ahmadnagar; famously defended Ahmadnagar against Akbar's forces.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_ibrahim_adil_shah2",
+      "name": "Sultan Ibrahim Adil Shah II of Bijapur (Author of Kitab-i-Nauras, 1580–1627 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1556–1627 CE",
+      "role": "Sultan of Bijapur",
+      "sources": [
+        "Mughal & Deccan Chronicles"
+      ],
+      "notes": "Nephew of Chand Bibi; patron of Deccan music & architecture.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_muhammad_quli_qutb",
+      "name": "Sultan Muhammad Quli Qutb Shah (Founder of Hyderabad & Charminar, 1580–1612 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1565–1612 CE",
+      "role": "Qutb Shahi Sultan of Golconda",
+      "sources": [
+        "Deccan Chronicles"
+      ],
+      "notes": "Founded the city of Hyderabad in 1591 CE.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_jijabai_shahaji",
+      "name": "Raja Shahaji Bhonsle & Rajmata Jijabai (Parents of Chhatrapati Shivaji)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1594–1674 CE",
+      "role": "Maratha Founders' Parents",
+      "sources": [
+        "Maratha Bakhar Chronicles"
+      ],
+      "notes": "Shahaji served Deccan sultanates; Jijabai (of Yadava Devagiri descent) raised Shivaji.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_sambhaji_rajaram",
+      "name": "Chhatrapati Sambhaji, Rajaram I & Maharani Tarabai (Maratha Resistance vs Aurangzeb)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1657–1761 CE",
+      "role": "Maratha Chhatrapatis & Regent Queen",
+      "sources": [
+        "Maratha Chronicles"
+      ],
+      "notes": "Sons & daughter-in-law of Shivaji who preserved Maratha sovereignty.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_shahu_baji_rao1",
+      "name": "Chhatrapati Shahu I & Peshwa Baji Rao I (Pan-Indian Maratha Confederacy, 1707–1740 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1682–1740 CE",
+      "role": "Maratha Sovereign & Peshwa",
+      "sources": [
+        "Maratha Chronicles"
+      ],
+      "notes": "Expanded Maratha rule across Central & Northern India.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_francisco_almeida",
+      "name": "Dom Francisco de Almeida (1st Viceroy of Portuguese India, 1505–1509 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1450–1510 CE",
+      "role": "1st Viceroy of Portuguese India",
+      "sources": [
+        "Faria y Sousa Portuguese Asia",
+        "History of Portugal 1726"
+      ],
+      "notes": "Chronicle succession in Faria y Sousa Portuguese Asia, History of Portugal 1726.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_afonso_albuquerque",
+      "name": "Afonso de Albuquerque (Goa 1510, Malacca 1511 & Hormuz; Governor of India)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1453–1515 CE",
+      "role": "Governor of Portuguese Asia",
+      "sources": [
+        "Faria y Sousa Portuguese Asia",
+        "History of Portugal 1726"
+      ],
+      "notes": "Captured Goa (1510) and Malacca (1511), linking European & Southeast Asian crowns.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_joao_de_castro",
+      "name": "Dom João de Castro (Viceroy of Portuguese India, 1545–1548 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1500–1548 CE",
+      "role": "Viceroy of Portuguese India",
+      "sources": [
+        "Faria y Sousa Portuguese Asia",
+        "History of Portugal 1726"
+      ],
+      "notes": "Chronicle succession in Faria y Sousa Portuguese Asia, History of Portugal 1726.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_zamorin_calicut",
+      "name": "Samoothiri / Zamorin of Calicut (Welcomed Vasco da Gama, 1498 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1498–1513 CE",
+      "role": "Sovereign of Kozhikode (Kerala)",
+      "sources": [
+        "Portuguese Asia",
+        "Calicut Chronicles"
+      ],
+      "notes": "Matrilineal Nediyiruppu Swaroopam ruler of the Malabar spice trade.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_bahadur_shah_gujarat",
+      "name": "Sultan Bahadur Shah of Gujarat (1526–1537 CE; Treaty of Bassein & Diu)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "r. 1526–1537 CE",
+      "role": "Sultan of Gujarat",
+      "sources": [
+        "Portuguese Asia",
+        "Mughal Humayunnama"
+      ],
+      "notes": "Opponent of Humayun and Portuguese Diu governorate.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ind9_st_francis_xavier",
+      "name": "St. Francis Xavier (Navarrese Noble & First Jesuit Envoy to Goa, Malacca & Japan, 1542–1552)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1506–1552 CE",
+      "role": "Basque-Navarrese Noble & Missionary",
+      "sources": [
+        "Portuguese Asia"
+      ],
+      "notes": "Travelled from Lisbon through Goa & Malacca to Kagoshima, Japan (1549).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_godfrey_bouillon",
+      "name": "Godfrey of Bouillon (Advocate of the Holy Sepulchre, 1099–1100 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1060–1100 CE",
+      "role": "1st Ruler of Crusader Jerusalem",
+      "sources": [
+        "William of Tyre",
+        "Modern Universal History Vols. 8–9"
+      ],
+      "notes": "Chronicle succession in William of Tyre, Modern Universal History Vols. 8–9.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_baldwin1_jerusalem",
+      "name": "King Baldwin I of Jerusalem (1100–1118 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1060s–1118 CE",
+      "role": "1st King of Jerusalem",
+      "sources": [
+        "William of Tyre",
+        "Modern Universal History Vols. 8–9"
+      ],
+      "notes": "Chronicle succession in William of Tyre, Modern Universal History Vols. 8–9.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_baldwin2_jerusalem",
+      "name": "King Baldwin II of Jerusalem (Bourcq, 1118–1131 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "d. 1131 CE",
+      "role": "King of Jerusalem",
+      "sources": [
+        "William of Tyre",
+        "Modern Universal History Vols. 8–9"
+      ],
+      "notes": "Chronicle succession in William of Tyre, Modern Universal History Vols. 8–9.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_melisende_fulk",
+      "name": "Queen Melisende of Jerusalem (+ King Fulk V of Anjou; Grandfather of Henry II of England)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1105–1161 CE",
+      "role": "Queen Regnant of Jerusalem",
+      "sources": [
+        "William of Tyre",
+        "Modern Universal History Vols. 8–9"
+      ],
+      "notes": "Melisende (Armenian-Frankish queen) & Fulk V of Anjou (father of Geoffrey Plantagenet -> Henry II).",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_amalric1_jerusalem",
+      "name": "King Amalric I of Jerusalem (+ Queen Maria Komnene, 1163–1174 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1136–1174 CE",
+      "role": "King of Jerusalem",
+      "sources": [
+        "William of Tyre",
+        "Modern Universal History Vols. 8–9"
+      ],
+      "notes": "Chronicle succession in William of Tyre, Modern Universal History Vols. 8–9.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_baldwin4_leper",
+      "name": "King Baldwin IV the Leper of Jerusalem (Victory at Montgisard, 1174–1185 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1161–1185 CE",
+      "role": "King of Jerusalem",
+      "sources": [
+        "William of Tyre",
+        "Modern Universal History Vols. 8–9"
+      ],
+      "notes": "Chronicle succession in William of Tyre, Modern Universal History Vols. 8–9.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_sibylla_isabella_jerusalem",
+      "name": "Queens Sibylla & Isabella I → Yolanda / Isabella II (+ Emperor Frederick II Hohenstaufen)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1160–1228 CE",
+      "role": "Heiresses of Jerusalem",
+      "sources": [
+        "William of Tyre",
+        "Modern Universal History Vols. 8–9"
+      ],
+      "notes": "Chronicle succession in William of Tyre, Modern Universal History Vols. 8–9.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_tancred_hauteville",
+      "name": "Tancred of Hauteville (Norman Nobleman of Cotentin; Ancestor of Kings of Sicily)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 980–1041 CE",
+      "role": "Hauteville Founder",
+      "sources": [
+        "Modern Universal History Vol. 10",
+        "Hauteville Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 10, Hauteville Chronicles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_robert_guiscard",
+      "name": "Robert Guiscard (Duke of Apulia & Calabria, 1059–1085 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1015–1085 CE",
+      "role": "Norman Duke of Apulia",
+      "sources": [
+        "Modern Universal History Vol. 10",
+        "Hauteville Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 10, Hauteville Chronicles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_roger1_sicily",
+      "name": "Count Roger I Bosso of Sicily (Brother of Robert Guiscard, 1071–1101 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "c. 1031–1101 CE",
+      "role": "Great Count of Sicily",
+      "sources": [
+        "Modern Universal History Vol. 10",
+        "Hauteville Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 10, Hauteville Chronicles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_roger2_sicily",
+      "name": "King Roger II of Sicily (Multicultural Norman-Arab-Byzantine Court at Palermo, 1130–1154)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1095–1154 CE",
+      "role": "1st King of Sicily",
+      "sources": [
+        "Modern Universal History Vol. 10",
+        "Hauteville Chronicles"
+      ],
+      "notes": "patronized al-Idrisi's Tabula Rogeriana and united Sicily & Southern Italy.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_constance_sicily",
+      "name": "Queen Constance of Sicily (+ HRE Emperor Henry VI; Mother of Frederick II, 1154–1198 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "1154–1198 CE",
+      "role": "Queen of Sicily & HRE Empress",
+      "sources": [
+        "Modern Universal History Vol. 10",
+        "Hauteville Chronicles"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 10, Hauteville Chronicles.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_cosimo_medici",
+      "name": "Cosimo de' Medici ('Pater Patriae' of Florence, 1389–1464 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1389–1464 CE",
+      "role": "Medici Founder of Florence",
+      "sources": [
+        "Modern Universal History Vol. 9–11",
+        "Anderson 1732"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 9–11, Anderson 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_lorenzo_magnificent",
+      "name": "Lorenzo de' Medici ('The Magnificent', Patron of Michelangelo & da Vinci, 1449–1492 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1449–1492 CE",
+      "role": "Ruler of Florence",
+      "sources": [
+        "Modern Universal History Vol. 9–11",
+        "Anderson 1732"
+      ],
+      "notes": "Architect of Italian Renaissance diplomacy & art.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_leo10_clement7",
+      "name": "Medici Popes Leo X & Clement VII → Alessandro & Duke Cosimo I de' Medici",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1475–1574 CE",
+      "role": "Medici Popes & Grand Dukes of Tuscany",
+      "sources": [
+        "Modern Universal History Vol. 9–11",
+        "Anderson 1732"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 9–11, Anderson 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_catherine_medici",
+      "name": "Queen Catherine de' Medici (+ King Henry II of France; Mother of 3 French Kings, 1519–1589)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1519–1589 CE",
+      "role": "Queen of France & Valois Matriarch",
+      "sources": [
+        "Modern Universal History Vol. 9–11",
+        "Anderson 1732"
+      ],
+      "notes": "Great-granddaughter of Lorenzo the Magnificent; wed Henry II of France.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_marie_medici",
+      "name": "Queen Marie de' Medici (+ King Henry IV of France; Mother of Louis XIII, 1575–1642)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1575–1642 CE",
+      "role": "Queen of France & Bourbon Matriarch",
+      "sources": [
+        "Modern Universal History Vol. 9–11",
+        "Anderson 1732"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 9–11, Anderson 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_francesco_ludovico_sforza",
+      "name": "Dukes Francesco I & Ludovico 'il Moro' Sforza of Milan (1450–1500 CE; Patrons of Leonardo)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1401–1508 CE",
+      "role": "Sforza Dukes of Milan",
+      "sources": [
+        "Modern Universal History Vol. 11"
+      ],
+      "notes": "Allies & marriage kin of the Medici and Gonzaga courts.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_william_silent",
+      "name": "William I the Silent, Prince of Orange (Founder of Dutch Republic, 1533–1584 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1533–1584 CE",
+      "role": "Father of the Netherlands",
+      "sources": [
+        "Modern Universal History Vol. 13",
+        "Anderson 1732"
+      ],
+      "notes": "Married Anna of Saxony & Louise de Coligny; ancestor of Dutch monarchs & British King William III.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_maurice_frederick_nassau",
+      "name": "Princes Maurice & Frederick Henry of Orange-Nassau (1567–1647 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1567–1647 CE",
+      "role": "Stadtholders of the Dutch Republic",
+      "sources": [
+        "Modern Universal History Vol. 13",
+        "Anderson 1732"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 13, Anderson 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_william2_orange",
+      "name": "Prince William II of Orange (+ Princess Mary Stuart, Daughter of Charles I, 1626–1650)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1626–1650 CE",
+      "role": "Prince of Orange & Father of William III",
+      "sources": [
+        "Modern Universal History Vol. 13",
+        "Anderson 1732"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 13, Anderson 1732.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_charles3_spain",
+      "name": "King Charles III → Charles IV → Ferdinand VII of Bourbon Spain (1759–1833 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1716–1833 CE",
+      "role": "Bourbon Kings of Spain",
+      "sources": [
+        "Almanach de Gotha",
+        "Casa Real de España"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Casa Real de España.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_isabella2_spain",
+      "name": "Queen Isabella II & King Alfonso XII of Spain (1833–1885 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1830–1885 CE",
+      "role": "Spanish Bourbon Monarchs",
+      "sources": [
+        "Almanach de Gotha",
+        "Casa Real de España"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Casa Real de España.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_alfonso13_spain",
+      "name": "King Alfonso XIII (+ Victoria Eugenie of Battenberg, Granddaughter of Queen Victoria, 1886–1941)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1886–1941 CE",
+      "role": "King of Spain",
+      "sources": [
+        "Almanach de Gotha",
+        "Casa Real de España"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Casa Real de España.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_juan_carlos1",
+      "name": "King Juan Carlos I (+ Queen Sofía of Greece, 1938–Present; r. 1975–2014)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1938–Present CE",
+      "role": "King Emeritus of Spain (Living 2026)",
+      "sources": [
+        "Almanach de Gotha",
+        "Casa Real de España"
+      ],
+      "notes": "Chronicle succession in Almanach de Gotha, Casa Real de España.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "eur9_felipe6_leonor_2026",
+      "name": "LIVING (2026): King Felipe VI of Spain & Princess Leonor of Asturias",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 21,
+      "era": "1968–Present CE",
+      "role": "Reigning King of Spain & Heir (Living 2026)",
+      "sources": [
+        "Almanach de Gotha",
+        "Casa Real de España"
+      ],
+      "notes": "Present-day reigning Bourbon monarch of Spain, carrying Capetian, Habsburg, Wessex & Windsor lines to 2026.",
+      "major": true,
+      "biblicalConnected": true
+    }
+  ],
+  "edges": [
+    {
+      "from": "irl_niall_brian_boru",
+      "to": "gael9_tigernmas",
+      "type": "direct",
+      "label": "Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2: succession"
+    },
+    {
+      "from": "gael9_tigernmas",
+      "to": "gael9_ollom_fodla",
+      "type": "direct",
+      "label": "Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2: succession"
+    },
+    {
+      "from": "gael9_ollom_fodla",
+      "to": "gael9_cimbaeth_macha",
+      "type": "direct",
+      "label": "Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2: succession"
+    },
+    {
+      "from": "gael9_cimbaeth_macha",
+      "to": "gael9_ugaine_mor",
+      "type": "direct",
+      "label": "Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2: succession"
+    },
+    {
+      "from": "gael9_ugaine_mor",
+      "to": "gael9_labraid_loingsech",
+      "type": "direct",
+      "label": "Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2: succession"
+    },
+    {
+      "from": "gael9_labraid_loingsech",
+      "to": "gael9_conn_ceadchathach",
+      "type": "direct",
+      "label": "Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2: succession"
+    },
+    {
+      "from": "gael9_conn_ceadchathach",
+      "to": "gael9_art_mac_cuinn",
+      "type": "direct",
+      "label": "Annals of the Four Masters, O'Hart Irish Pedigrees Vols. 1–2: succession"
+    },
+    {
+      "from": "gael9_art_mac_cuinn",
+      "to": "eur5_cormac_mac_airt",
+      "type": "direct",
+      "label": "Father of High King Cormac mac Airt"
+    },
+    {
+      "from": "eur5_cormac_mac_airt",
+      "to": "gael9_cairbre_lifechair",
+      "type": "direct",
+      "label": "Annals of the Four Masters, Keating Foras Feasa: succession"
+    },
+    {
+      "from": "gael9_cairbre_lifechair",
+      "to": "gael9_eochaid_mugmedon",
+      "type": "direct",
+      "label": "Annals of the Four Masters, Keating Foras Feasa: succession"
+    },
+    {
+      "from": "gael9_eochaid_mugmedon",
+      "to": "gael9_loegaire_patrick",
+      "type": "direct",
+      "label": "Annals of the Four Masters, Keating Foras Feasa: succession"
+    },
+    {
+      "from": "gael9_eochaid_mugmedon",
+      "to": "gael9_conall_gulban",
+      "type": "direct",
+      "label": "Brother / son line of Niall of the Nine Hostages"
+    },
+    {
+      "from": "gael9_conall_gulban",
+      "to": "gael9_st_columba",
+      "type": "direct",
+      "label": "Cenél Conaill pedigree (great-grandfather of St. Columba)"
+    },
+    {
+      "from": "gael9_eochaid_mugmedon",
+      "to": "gael9_eogan_mac_neill",
+      "type": "direct",
+      "label": "Northern Uí Néill line via Éogan mac Néill"
+    },
+    {
+      "from": "gael9_eogan_mac_neill",
+      "to": "gael9_hugh_oneill",
+      "type": "direct",
+      "label": "Cenél nEógain / O'Neill succession"
+    },
+    {
+      "from": "eur5_brian_boru",
+      "to": "gael9_mael_sechnaill2",
+      "type": "direct",
+      "label": "Annals of the Four Masters, O'Hart Irish Pedigrees: succession"
+    },
+    {
+      "from": "gael9_mael_sechnaill2",
+      "to": "gael9_turlough_oconnor",
+      "type": "direct",
+      "label": "Annals of the Four Masters, O'Hart Irish Pedigrees: succession"
+    },
+    {
+      "from": "gael9_turlough_oconnor",
+      "to": "gael9_rory_oconnor",
+      "type": "direct",
+      "label": "Annals of the Four Masters, O'Hart Irish Pedigrees: succession"
+    },
+    {
+      "from": "sco_fergus_macalpin",
+      "to": "gael9_aedan_mac_gabrain",
+      "type": "direct",
+      "label": "Dál Riata royal descent from Fergus Mór mac Erc"
+    },
+    {
+      "from": "gael9_st_columba",
+      "to": "gael9_aedan_mac_gabrain",
+      "type": "expansion",
+      "label": "574 CE Royal Ordination of King Áedán by St. Columba on Iona"
+    },
+    {
+      "from": "gael9_aedan_mac_gabrain",
+      "to": "eur5_kenneth_macalpin",
+      "type": "direct",
+      "label": "Dál Riata succession to King Kenneth I MacAlpin"
+    },
+    {
+      "from": "eur5_kenneth_macalpin",
+      "to": "gael9_malcolm2_scotland",
+      "type": "direct",
+      "label": "Scottish Chronicles, Anderson 1732: succession"
+    },
+    {
+      "from": "gael9_malcolm2_scotland",
+      "to": "gael9_duncan1",
+      "type": "direct",
+      "label": "Scottish Chronicles, Anderson 1732: succession"
+    },
+    {
+      "from": "gael9_malcolm2_scotland",
+      "to": "gael9_macbeth",
+      "type": "expansion",
+      "label": "Grandson-cousin succession (Kenneth II / III rivalry)"
+    },
+    {
+      "from": "gael9_duncan1",
+      "to": "eur5_malcolm3",
+      "type": "direct",
+      "label": "Father of King Malcolm III Canmore"
+    },
+    {
+      "from": "eur5_malcolm3",
+      "to": "gael9_st_margaret_scotland",
+      "type": "direct",
+      "label": "Howell 1685, Anderson Royal Genealogies 1732: succession"
+    },
+    {
+      "from": "gael9_st_margaret_scotland",
+      "to": "gael9_david1_scotland",
+      "type": "direct",
+      "label": "Howell 1685, Anderson Royal Genealogies 1732: succession"
+    },
+    {
+      "from": "gael9_david1_scotland",
+      "to": "gael9_william_lion",
+      "type": "direct",
+      "label": "Howell 1685, Anderson Royal Genealogies 1732: succession"
+    },
+    {
+      "from": "gael9_william_lion",
+      "to": "gael9_alexander3_scotland",
+      "type": "direct",
+      "label": "Howell 1685, Anderson Royal Genealogies 1732: succession"
+    },
+    {
+      "from": "mon_eng_edward_confessor",
+      "to": "gael9_st_margaret_scotland",
+      "type": "expansion",
+      "label": "Great-niece of St. Edward the Confessor (House of Wessex)"
+    },
+    {
+      "from": "gael9_alexander3_scotland",
+      "to": "eur5_robert_bruce",
+      "type": "expansion",
+      "label": "Dunkeld-Huntingdon inheritance claimed by Robert I the Bruce"
+    },
+    {
+      "from": "eur5_robert_bruce",
+      "to": "gael9_marjorie_bruce_stewart",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "gael9_marjorie_bruce_stewart",
+      "to": "gael9_robert2_stewart",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "gael9_robert2_stewart",
+      "to": "gael9_james1_scotland",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "gael9_james1_scotland",
+      "to": "gael9_james4_margaret_tudor",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "gael9_james4_margaret_tudor",
+      "to": "gael9_james5_scotland",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "gael9_james5_scotland",
+      "to": "gael9_mary_queen_scots",
+      "type": "direct",
+      "label": "William Howell 1685, Anderson 1732: succession"
+    },
+    {
+      "from": "mon_eng_henry7",
+      "to": "gael9_james4_margaret_tudor",
+      "type": "direct",
+      "label": "1503 CE Marriage of Thistle & Rose: Margaret Tudor (dau. of Henry VII) & James IV"
+    },
+    {
+      "from": "gael9_mary_queen_scots",
+      "to": "mon_eng_james1",
+      "type": "direct",
+      "label": "Mother of King James VI & I of Great Britain"
+    },
+    {
+      "from": "eur_wal_cunedda",
+      "to": "wal9_maelgwn_gwynedd",
+      "type": "direct",
+      "label": "J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf): succession"
+    },
+    {
+      "from": "wal9_maelgwn_gwynedd",
+      "to": "wal9_cadwallon_cadwaladr",
+      "type": "direct",
+      "label": "J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf): succession"
+    },
+    {
+      "from": "wal9_cadwallon_cadwaladr",
+      "to": "wal9_merfyn_frych",
+      "type": "direct",
+      "label": "J.E. Lloyd History of Wales (2edhistoryofwale01lloyuoft.pdf): succession"
+    },
+    {
+      "from": "wal9_merfyn_frych",
+      "to": "chr6_rhodri_mawr",
+      "type": "direct",
+      "label": "Father of Rhodri Mawr / Rhodri the Great"
+    },
+    {
+      "from": "chr6_hywel_dda",
+      "to": "wal9_rhys_ap_tewdwr",
+      "type": "direct",
+      "label": "Lloyd History of Wales: succession"
+    },
+    {
+      "from": "wal9_rhys_ap_tewdwr",
+      "to": "wal9_nest_ferch_rhys",
+      "type": "direct",
+      "label": "Lloyd History of Wales: succession"
+    },
+    {
+      "from": "wal9_nest_ferch_rhys",
+      "to": "wal9_lord_rhys",
+      "type": "direct",
+      "label": "Lloyd History of Wales: succession"
+    },
+    {
+      "from": "chr6_owain_gwynedd",
+      "to": "wal9_joan_wales",
+      "type": "expansion",
+      "label": "Marriage of Llywelyn the Great (grandson of Owain Gwynedd) & Princess Joan"
+    },
+    {
+      "from": "mon_eng_john",
+      "to": "wal9_joan_wales",
+      "type": "direct",
+      "label": "Father of Princess Joan / Siwan"
+    },
+    {
+      "from": "wal9_joan_wales",
+      "to": "wal9_llywelyn_ap_gruffudd",
+      "type": "direct",
+      "label": "Grandson Llywelyn ap Gruffudd"
+    },
+    {
+      "from": "wal9_lord_rhys",
+      "to": "wal9_owain_glyndwr",
+      "type": "expansion",
+      "label": "Deheubarth & Powys Fadog royal descent of Owain Glyndŵr"
+    },
+    {
+      "from": "mon_fra_charles6",
+      "to": "wal9_catherine_valois",
+      "type": "direct",
+      "label": "Daughter of King Charles VI of France"
+    },
+    {
+      "from": "mon_eng_henry5",
+      "to": "wal9_catherine_valois",
+      "type": "direct",
+      "label": "1420 CE Treaty of Troyes Royal Marriage: Henry V & Catherine of Valois"
+    },
+    {
+      "from": "chr6_owen_tudor",
+      "to": "wal9_catherine_valois",
+      "type": "direct",
+      "label": "Royal Marriage uniting Welsh Tudor house with Valois"
+    },
+    {
+      "from": "wal9_catherine_valois",
+      "to": "mon_eng_henry7",
+      "type": "direct",
+      "label": "Grandmother of King Henry VII Tudor via Edmund Tudor"
+    },
+    {
+      "from": "mon_rom_scipio_africanus",
+      "to": "cls9_cornelia_africana",
+      "type": "direct",
+      "label": "Daughter of Scipio Africanus"
+    },
+    {
+      "from": "cls9_cornelia_africana",
+      "to": "mon_rom_gracchi",
+      "type": "direct",
+      "label": "Mother of Tiberius & Gaius Gracchus"
+    },
+    {
+      "from": "mon_rom_scipio_africanus",
+      "to": "cls9_scipio_aemilianus",
+      "type": "direct",
+      "label": "Adoptive grandfather of Scipio Aemilianus"
+    },
+    {
+      "from": "cls9_aemilius_paullus",
+      "to": "cls9_scipio_aemilianus",
+      "type": "direct",
+      "label": "Biological father of Scipio Aemilianus"
+    },
+    {
+      "from": "cls9_scipio_aemilianus",
+      "to": "cls9_polybius_historian",
+      "type": "expansion",
+      "label": "Friend & chronicler of the Scipionic Circle"
+    },
+    {
+      "from": "cls9_polybius_historian",
+      "to": "cls9_titus_livius",
+      "type": "cognate",
+      "label": "Primary historical source used by Livy"
+    },
+    {
+      "from": "mon_rom_tiberius",
+      "to": "cls9_cornelius_tacitus",
+      "type": "expansion",
+      "label": "Principal historical subject of Tacitus Annals"
+    },
+    {
+      "from": "rom3_julius_caesar",
+      "to": "cls9_julia_caesaris_pompey",
+      "type": "direct",
+      "label": "Daughter of Julius Caesar"
+    },
+    {
+      "from": "cls9_julia_caesaris_pompey",
+      "to": "mon_rom_pompey_cicero",
+      "type": "direct",
+      "label": "59 BCE Marriage: Julia Caesaris & Pompey the Great"
+    },
+    {
+      "from": "mon_rom_antoninus_pius",
+      "to": "cls9_faustina_elder_younger",
+      "type": "direct",
+      "label": "Antonine Empress & daughter wife of Marcus Aurelius"
+    },
+    {
+      "from": "cls9_faustina_elder_younger",
+      "to": "mon_rom_marcus_aurelius",
+      "type": "direct",
+      "label": "Marriage & mother of Emperor Commodus"
+    },
+    {
+      "from": "mon_rom_septimius_severus",
+      "to": "cls9_julia_domna",
+      "type": "direct",
+      "label": "Marriage: Septimius Severus & Julia Domna of Emesa"
+    },
+    {
+      "from": "cls9_julia_domna",
+      "to": "mon_rom_caracalla",
+      "type": "direct",
+      "label": "Mother of Emperors Caracalla & Geta"
+    },
+    {
+      "from": "cls9_julia_domna",
+      "to": "cls9_julia_maesa",
+      "type": "direct",
+      "label": "Sisters of the Emesa royal-priestly house"
+    },
+    {
+      "from": "cls9_julia_maesa",
+      "to": "cls9_julia_soaemias_mamaea",
+      "type": "direct",
+      "label": "Daughters of Julia Maesa; mothers of Severan emperors"
+    },
+    {
+      "from": "cls9_julia_soaemias_mamaea",
+      "to": "mon_rom_elagabalus",
+      "type": "direct",
+      "label": "Mother of Emperor Elagabalus"
+    },
+    {
+      "from": "cls9_julia_soaemias_mamaea",
+      "to": "mon_rom_severus_alexander",
+      "type": "direct",
+      "label": "Mother of Emperor Severus Alexander"
+    },
+    {
+      "from": "grk_arcadia_pelasgus_atalanta",
+      "to": "cls9_lycaon_callisto",
+      "type": "direct",
+      "label": "Pausanias Description of Greece Books IV, V, VIII: succession"
+    },
+    {
+      "from": "cls9_lycaon_callisto",
+      "to": "cls9_arcas_arcadia",
+      "type": "direct",
+      "label": "Pausanias Description of Greece Books IV, V, VIII: succession"
+    },
+    {
+      "from": "cls9_arcas_arcadia",
+      "to": "cls9_telephus_mysia",
+      "type": "direct",
+      "label": "Pausanias Description of Greece Books IV, V, VIII: succession"
+    },
+    {
+      "from": "grk_heracles",
+      "to": "cls9_telephus_mysia",
+      "type": "direct",
+      "label": "Father Heracles & Princess Auge of Tegea"
+    },
+    {
+      "from": "grk_pelops_atreus",
+      "to": "cls9_endymion_elis",
+      "type": "expansion",
+      "label": "Pausanias Book V: Elian/Olympian royal house"
+    },
+    {
+      "from": "cls9_endymion_elis",
+      "to": "cls9_oenomaus_hippodamia",
+      "type": "expansion",
+      "label": "Elis/Pisa royal predecessors of Pelops"
+    },
+    {
+      "from": "cls9_oenomaus_hippodamia",
+      "to": "grk_pelops_atreus",
+      "type": "direct",
+      "label": "Marriage of Princess Hippodamia & Pelops"
+    },
+    {
+      "from": "grk_heracles",
+      "to": "cls9_cresphontes_messenia",
+      "type": "direct",
+      "label": "Heraclid descendant Cresphontes"
+    },
+    {
+      "from": "cls9_cresphontes_messenia",
+      "to": "cls9_aristomenes_messenia",
+      "type": "expansion",
+      "label": "Pausanias IV: Messenian royal hero tradition"
+    },
+    {
+      "from": "cls9_gelon_hiero1",
+      "to": "cls9_dionysius1_syracuse",
+      "type": "direct",
+      "label": "Diodorus Siculus, Polybius, Plutarch: succession"
+    },
+    {
+      "from": "cls9_dionysius1_syracuse",
+      "to": "cls9_timoleon_agathocles",
+      "type": "direct",
+      "label": "Diodorus Siculus, Polybius, Plutarch: succession"
+    },
+    {
+      "from": "cls9_timoleon_agathocles",
+      "to": "cls9_hiero2_syracuse",
+      "type": "direct",
+      "label": "Diodorus Siculus, Polybius, Plutarch: succession"
+    },
+    {
+      "from": "cls9_hiero2_syracuse",
+      "to": "unb_grk_archimedes",
+      "type": "expansion",
+      "label": "Kinsman & royal patron of Archimedes at Syracuse"
+    },
+    {
+      "from": "sud_cush_nuba_beja",
+      "to": "nub9_silko_nobatia",
+      "type": "direct",
+      "label": "Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1: succession"
+    },
+    {
+      "from": "nub9_silko_nobatia",
+      "to": "nub9_qalidurut_baqt",
+      "type": "direct",
+      "label": "Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1: succession"
+    },
+    {
+      "from": "nub9_qalidurut_baqt",
+      "to": "nub9_merkurios_makuria",
+      "type": "direct",
+      "label": "Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1: succession"
+    },
+    {
+      "from": "nub9_merkurios_makuria",
+      "to": "nub9_cyriacus_makuria",
+      "type": "direct",
+      "label": "Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1: succession"
+    },
+    {
+      "from": "nub9_cyriacus_makuria",
+      "to": "nub9_georgios1_makuria",
+      "type": "direct",
+      "label": "Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1: succession"
+    },
+    {
+      "from": "nub9_georgios1_makuria",
+      "to": "nub9_georgios2_solomon",
+      "type": "direct",
+      "label": "Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1: succession"
+    },
+    {
+      "from": "nub9_georgios2_solomon",
+      "to": "nub9_david_makuria",
+      "type": "direct",
+      "label": "Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1: succession"
+    },
+    {
+      "from": "nub9_david_makuria",
+      "to": "nub9_siti_alodia",
+      "type": "direct",
+      "label": "Arkell History of the Sudan, MacMichael Arabs in the Sudan Vol. 1: succession"
+    },
+    {
+      "from": "nub9_georgios1_makuria",
+      "to": "mon_isl_al_mamun",
+      "type": "expansion",
+      "label": "836 CE Abbasid–Makurian diplomatic embassy to Baghdad & Samarra"
+    },
+    {
+      "from": "nub9_david_makuria",
+      "to": "mon_isl_baybars",
+      "type": "expansion",
+      "label": "1272–1276 CE Mamluk–Nubian wars between King David and Sultan Baybars"
+    },
+    {
+      "from": "sud_funj_sennar",
+      "to": "nub9_amara_dunqas",
+      "type": "direct",
+      "label": "Funj Chronicle, Arkell History of Sudan: succession"
+    },
+    {
+      "from": "nub9_amara_dunqas",
+      "to": "nub9_abdallah_jamma",
+      "type": "direct",
+      "label": "Funj Chronicle, Arkell History of Sudan: succession"
+    },
+    {
+      "from": "nub9_abdallah_jamma",
+      "to": "nub9_ajib_kafuta",
+      "type": "direct",
+      "label": "Funj Chronicle, Arkell History of Sudan: succession"
+    },
+    {
+      "from": "nub9_ajib_kafuta",
+      "to": "nub9_badi2_sennar",
+      "type": "direct",
+      "label": "Funj Chronicle, Arkell History of Sudan: succession"
+    },
+    {
+      "from": "nub9_badi2_sennar",
+      "to": "nub9_badi4_sennar",
+      "type": "direct",
+      "label": "Funj Chronicle, Arkell History of Sudan: succession"
+    },
+    {
+      "from": "nub9_badi4_sennar",
+      "to": "nub9_badi7_sennar",
+      "type": "direct",
+      "label": "Funj Chronicle, Arkell History of Sudan: succession"
+    },
+    {
+      "from": "nub9_abdallah_jamma",
+      "to": "sud_jaaliyyin_abbas",
+      "type": "expansion",
+      "label": "Arab-Sudanese Ja'aliyyin & Abdallab alliance on the Main Nile"
+    },
+    {
+      "from": "nub9_amara_dunqas",
+      "to": "nub9_darfur_sulayman_solong",
+      "type": "expansion",
+      "label": "Westward Sudanese Islamic sultanates (Sennar & Darfur)"
+    },
+    {
+      "from": "mon_ind_harsha",
+      "to": "ind9_pulakeshin2",
+      "type": "direct",
+      "label": "Rickmers Chronology of India, Epigraphia Indica: succession"
+    },
+    {
+      "from": "ind9_pulakeshin2",
+      "to": "ind9_simhavishnu_mahendravarman",
+      "type": "direct",
+      "label": "Rickmers Chronology of India, Epigraphia Indica: succession"
+    },
+    {
+      "from": "ind9_simhavishnu_mahendravarman",
+      "to": "ind9_narasimhavarman1",
+      "type": "direct",
+      "label": "Rickmers Chronology of India, Epigraphia Indica: succession"
+    },
+    {
+      "from": "ind9_narasimhavarman1",
+      "to": "ind9_dantidurga_rashtrakuta",
+      "type": "direct",
+      "label": "Rickmers Chronology of India, Epigraphia Indica: succession"
+    },
+    {
+      "from": "ind9_dantidurga_rashtrakuta",
+      "to": "ind9_amoghavarsha",
+      "type": "direct",
+      "label": "Rickmers Chronology of India, Epigraphia Indica: succession"
+    },
+    {
+      "from": "ind9_vijayalaya_aditya",
+      "to": "mon_ind_rajaraja1",
+      "type": "direct",
+      "label": "Imperial Chola grandfather-to-grandson line"
+    },
+    {
+      "from": "mon_ind_rajendra1",
+      "to": "ind9_kulottunga1",
+      "type": "direct",
+      "label": "Grandson of Rajendra Chola I via daughter Ammangadevi"
+    },
+    {
+      "from": "mon_ind_rajendra1",
+      "to": "sea_java_raden_wijaya",
+      "type": "expansion",
+      "label": "1025 CE Chola Naval Expedition across Srivijaya & Malay Peninsula"
+    },
+    {
+      "from": "mon_ind_rajendra1",
+      "to": "ind9_sundara_pandya",
+      "type": "expansion",
+      "label": "Chola–Pandya South Indian sovereignty"
+    },
+    {
+      "from": "ind9_kulottunga1",
+      "to": "ind9_vishnuvardhana_hoysala",
+      "type": "expansion",
+      "label": "12th c. Karnataka–Tamil royal contemporaries"
+    },
+    {
+      "from": "ind9_sundara_pandya",
+      "to": "ind9_rudrama_devi",
+      "type": "expansion",
+      "label": "13th c. Deccan–South India contemporary sovereigns"
+    },
+    {
+      "from": "ind9_vishnuvardhana_hoysala",
+      "to": "ind9_harihara_bukka",
+      "type": "expansion",
+      "label": "Hoysala twilight -> Sangama founding of Vijayanagara (1336)"
+    },
+    {
+      "from": "ind9_harihara_bukka",
+      "to": "mon_ind_krishnadevaraya",
+      "type": "direct",
+      "label": "Vijayanagara imperial succession (Sangama -> Saluva -> Tuluva)"
+    },
+    {
+      "from": "mon_ind_krishnadevaraya",
+      "to": "ind9_rama_raya_talikota",
+      "type": "direct",
+      "label": "Son-in-law Aliya Rama Raya"
+    },
+    {
+      "from": "ind9_rama_raya_talikota",
+      "to": "ind9_chand_bibi",
+      "type": "expansion",
+      "label": "1565 Deccan Sultanate coalition"
+    },
+    {
+      "from": "ind9_chand_bibi",
+      "to": "mon_mug_akbar_ind",
+      "type": "expansion",
+      "label": "1596 Siege of Ahmadnagar: Chand Bibi vs Mughal Empire under Akbar"
+    },
+    {
+      "from": "ind9_chand_bibi",
+      "to": "ind9_ibrahim_adil_shah2",
+      "type": "direct",
+      "label": "Aunt & regent of Sultan Ibrahim Adil Shah II"
+    },
+    {
+      "from": "ind9_ibrahim_adil_shah2",
+      "to": "ind9_muhammad_quli_qutb",
+      "type": "expansion",
+      "label": "Deccan Sultanate alliance of Bijapur & Golconda-Hyderabad"
+    },
+    {
+      "from": "ind9_jijabai_shahaji",
+      "to": "mon_ind_shivaji",
+      "type": "direct",
+      "label": "Parents of Chhatrapati Shivaji"
+    },
+    {
+      "from": "mon_ind_shivaji",
+      "to": "ind9_sambhaji_rajaram",
+      "type": "direct",
+      "label": "Sons Sambhaji & Rajaram and Regent Tarabai"
+    },
+    {
+      "from": "ind9_sambhaji_rajaram",
+      "to": "ind9_shahu_baji_rao1",
+      "type": "direct",
+      "label": "Son of Sambhaji & Peshwa Baji Rao I"
+    },
+    {
+      "from": "mon_por_manuel1",
+      "to": "ind9_francisco_almeida",
+      "type": "direct",
+      "label": "Faria y Sousa Portuguese Asia, History of Portugal 1726: succession"
+    },
+    {
+      "from": "ind9_francisco_almeida",
+      "to": "ind9_afonso_albuquerque",
+      "type": "direct",
+      "label": "Faria y Sousa Portuguese Asia, History of Portugal 1726: succession"
+    },
+    {
+      "from": "ind9_afonso_albuquerque",
+      "to": "ind9_joao_de_castro",
+      "type": "direct",
+      "label": "Faria y Sousa Portuguese Asia, History of Portugal 1726: succession"
+    },
+    {
+      "from": "ind9_afonso_albuquerque",
+      "to": "chr6_sultan_mahmud_shah",
+      "type": "expansion",
+      "label": "1511 CE Capture of Malacca: Albuquerque vs Sultan Mahmud Shah"
+    },
+    {
+      "from": "fam6_vasco_da_gama",
+      "to": "ind9_zamorin_calicut",
+      "type": "expansion",
+      "label": "1498 CE Landfall at Calicut: Vasco da Gama & the Zamorin"
+    },
+    {
+      "from": "ind9_afonso_albuquerque",
+      "to": "ind9_bahadur_shah_gujarat",
+      "type": "expansion",
+      "label": "16th c. Portuguese-Gujarati maritime treaties at Diu"
+    },
+    {
+      "from": "ind9_joao_de_castro",
+      "to": "ind9_st_francis_xavier",
+      "type": "expansion",
+      "label": "1545–1548 Portuguese Goa patronage of St. Francis Xavier"
+    },
+    {
+      "from": "eur9_godfrey_bouillon",
+      "to": "eur9_baldwin1_jerusalem",
+      "type": "direct",
+      "label": "William of Tyre, Modern Universal History Vols. 8–9: succession"
+    },
+    {
+      "from": "eur9_baldwin1_jerusalem",
+      "to": "eur9_baldwin2_jerusalem",
+      "type": "direct",
+      "label": "William of Tyre, Modern Universal History Vols. 8–9: succession"
+    },
+    {
+      "from": "eur9_baldwin2_jerusalem",
+      "to": "eur9_melisende_fulk",
+      "type": "direct",
+      "label": "William of Tyre, Modern Universal History Vols. 8–9: succession"
+    },
+    {
+      "from": "eur9_melisende_fulk",
+      "to": "eur9_amalric1_jerusalem",
+      "type": "direct",
+      "label": "William of Tyre, Modern Universal History Vols. 8–9: succession"
+    },
+    {
+      "from": "eur9_amalric1_jerusalem",
+      "to": "eur9_baldwin4_leper",
+      "type": "direct",
+      "label": "William of Tyre, Modern Universal History Vols. 8–9: succession"
+    },
+    {
+      "from": "eur9_baldwin4_leper",
+      "to": "eur9_sibylla_isabella_jerusalem",
+      "type": "direct",
+      "label": "William of Tyre, Modern Universal History Vols. 8–9: succession"
+    },
+    {
+      "from": "eur9_melisende_fulk",
+      "to": "mon_eng_henry2",
+      "type": "direct",
+      "label": "Father of Geoffrey of Anjou & grandfather of King Henry II Plantagenet"
+    },
+    {
+      "from": "eur9_amalric1_jerusalem",
+      "to": "byz8_maria_komnene_jerusalem",
+      "type": "direct",
+      "label": "1167 CE Marriage: King Amalric I & Byzantine Princess Maria Komnene"
+    },
+    {
+      "from": "eur9_sibylla_isabella_jerusalem",
+      "to": "mon_hre_frederick2",
+      "type": "expansion",
+      "label": "1225 CE Marriage: Isabella II of Jerusalem wed HRE Emperor Frederick II"
+    },
+    {
+      "from": "mon_eng_william1",
+      "to": "eur9_tancred_hauteville",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 10, Hauteville Chronicles: succession"
+    },
+    {
+      "from": "eur9_tancred_hauteville",
+      "to": "eur9_robert_guiscard",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 10, Hauteville Chronicles: succession"
+    },
+    {
+      "from": "eur9_robert_guiscard",
+      "to": "eur9_roger1_sicily",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 10, Hauteville Chronicles: succession"
+    },
+    {
+      "from": "eur9_roger1_sicily",
+      "to": "eur9_roger2_sicily",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 10, Hauteville Chronicles: succession"
+    },
+    {
+      "from": "eur9_roger2_sicily",
+      "to": "eur9_constance_sicily",
+      "type": "expansion",
+      "label": "Modern Universal History Vol. 10, Hauteville Chronicles: succession"
+    },
+    {
+      "from": "eur9_constance_sicily",
+      "to": "mon_hre_frederick2",
+      "type": "direct",
+      "label": "Mother of Emperor Frederick II Hohenstaufen"
+    },
+    {
+      "from": "eur9_cosimo_medici",
+      "to": "eur9_lorenzo_magnificent",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9–11, Anderson 1732: succession"
+    },
+    {
+      "from": "eur9_lorenzo_magnificent",
+      "to": "eur9_leo10_clement7",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9–11, Anderson 1732: succession"
+    },
+    {
+      "from": "eur9_leo10_clement7",
+      "to": "eur9_catherine_medici",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9–11, Anderson 1732: succession"
+    },
+    {
+      "from": "eur9_catherine_medici",
+      "to": "eur9_marie_medici",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 9–11, Anderson 1732: succession"
+    },
+    {
+      "from": "eur9_lorenzo_magnificent",
+      "to": "eur9_francesco_ludovico_sforza",
+      "type": "expansion",
+      "label": "15th c. Florence–Milan Renaissance alliance"
+    },
+    {
+      "from": "eur9_catherine_medici",
+      "to": "mon_fra_henry2",
+      "type": "direct",
+      "label": "1533 CE Marriage: Catherine de' Medici & King Henry II of France"
+    },
+    {
+      "from": "eur9_marie_medici",
+      "to": "mon_fra_henry4",
+      "type": "direct",
+      "label": "1600 CE Marriage: Marie de' Medici & King Henry IV of France"
+    },
+    {
+      "from": "eur9_william_silent",
+      "to": "eur9_maurice_frederick_nassau",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13, Anderson 1732: succession"
+    },
+    {
+      "from": "eur9_maurice_frederick_nassau",
+      "to": "eur9_william2_orange",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 13, Anderson 1732: succession"
+    },
+    {
+      "from": "eur9_william2_orange",
+      "to": "mon_eng_william_mary",
+      "type": "direct",
+      "label": "Father of King William III of England & Orange"
+    },
+    {
+      "from": "mon_esp_philip5",
+      "to": "eur9_charles3_spain",
+      "type": "direct",
+      "label": "Almanach de Gotha, Casa Real de España: succession"
+    },
+    {
+      "from": "eur9_charles3_spain",
+      "to": "eur9_isabella2_spain",
+      "type": "direct",
+      "label": "Almanach de Gotha, Casa Real de España: succession"
+    },
+    {
+      "from": "eur9_isabella2_spain",
+      "to": "eur9_alfonso13_spain",
+      "type": "direct",
+      "label": "Almanach de Gotha, Casa Real de España: succession"
+    },
+    {
+      "from": "eur9_alfonso13_spain",
+      "to": "eur9_juan_carlos1",
+      "type": "direct",
+      "label": "Almanach de Gotha, Casa Real de España: succession"
+    },
+    {
+      "from": "eur9_juan_carlos1",
+      "to": "eur9_felipe6_leonor_2026",
+      "type": "direct",
+      "label": "Almanach de Gotha, Casa Real de España: succession"
+    }
+  ]
+}
