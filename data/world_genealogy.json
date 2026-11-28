@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "Ancient World Genealogy Atlas — Wave 7 Graduated Empires, Hittite/Mitanni/Elam/Nabataea & Living 2026 Edition (v24.0)",
-    "version": "24.0.0",
+    "title": "Ancient World Genealogy Atlas — Wave 8 Byzantium, Goths, Merovingians, Kashmir/Lanka/Burma/Tibet & Ottoman Edition (v25.0)",
+    "version": "25.0.0",
     "counts": {
-      "total": 3760,
-      "biblicalConnected": 3633,
+      "total": 3881,
+      "biblicalConnected": 3754,
       "pendingBridge": 110,
       "dna": 17
     },
@@ -302,6 +302,12 @@
         "title": "Wave 7: Graduated World Empires (92 Nodes) & Deep Ancient/Living Royal Bridges (Hittite, Mitanni, Elam, Nabataea, Japan 2026)",
         "nodes": 143,
         "edges": 175
+      },
+      {
+        "file": "50_wave8_byzantium_goths_franks_south_asia_ottomans",
+        "title": "Wave 8: Byzantium, Amali/Balti Goths, Merovingians, Kashmir/Lanka/Burma/Tibet, Ottomans & Midrashic-Arabic Chronicles",
+        "nodes": 121,
+        "edges": 160
       }
     ],
     "linkTypes": {
@@ -61834,6 +61840,1876 @@
       "notes": "Son of Spanish conquistador Sebastián Garcilaso de la Vega & Chimpu Ocllo; served in Philip II's Spanish army in Andalusia.",
       "major": false,
       "biblicalConnected": true
+    },
+    {
+      "id": "byz8_constantius2",
+      "name": "Emperor Constantius II (Son of Constantine the Great, 337–361 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "317–361 CE",
+      "role": "Roman Emperor",
+      "sources": [
+        "Ammianus Marcellinus",
+        "Echard Roman History Vol. 4"
+      ],
+      "notes": "Chronicle succession in Ammianus Marcellinus, Echard Roman History Vol. 4.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_valentinian1",
+      "name": "Emperor Valentinian I (Founder of Valentinian Dynasty, 364–375 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "321–375 CE",
+      "role": "Western Roman Emperor",
+      "sources": [
+        "Ammianus Marcellinus",
+        "Echard Roman History Vol. 4"
+      ],
+      "notes": "Chronicle succession in Ammianus Marcellinus, Echard Roman History Vol. 4.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_valens",
+      "name": "Emperor Valens (Eastern Roman Emperor, 364–378 CE; Battle of Adrianople)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "328–378 CE",
+      "role": "Eastern Roman Emperor",
+      "sources": [
+        "Ammianus Marcellinus",
+        "Echard Roman History Vol. 4"
+      ],
+      "notes": "Chronicle succession in Ammianus Marcellinus, Echard Roman History Vol. 4.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_gratian",
+      "name": "Emperor Gratian (Son of Valentinian I, 367–383 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "359–383 CE",
+      "role": "Western Roman Emperor",
+      "sources": [
+        "Ammianus Marcellinus",
+        "Echard Roman History Vol. 4"
+      ],
+      "notes": "Chronicle succession in Ammianus Marcellinus, Echard Roman History Vol. 4.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_theodosius2",
+      "name": "Emperor Theodosius II (Codex Theodosianus & Theodosian Walls, 408–450 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "401–450 CE",
+      "role": "Eastern Roman Emperor",
+      "sources": [
+        "Echard Roman History Vol. 4",
+        "Chronicon Paschale"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 4, Chronicon Paschale.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_pulcheria_marcian",
+      "name": "Empress St. Pulcheria (+ Emperor Marcian; Council of Chalcedon 451 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "399–457 CE",
+      "role": "Eastern Roman Augusta & Emperor",
+      "sources": [
+        "Echard Roman History Vol. 4",
+        "Chronicon Paschale"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 4, Chronicon Paschale.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_leo1_zeno",
+      "name": "Emperor Leo I the Thracian → Emperor Zeno & Ariadne (457–491 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "457–491 CE",
+      "role": "Leonid Dynasty Emperors",
+      "sources": [
+        "Echard Roman History Vol. 4",
+        "Chronicon Paschale"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 4, Chronicon Paschale.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_justin1",
+      "name": "Emperor Justin I (Uncle of Justinian I, 518–527 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "450–527 CE",
+      "role": "Founder of Justinianic Dynasty",
+      "sources": [
+        "Echard Roman History Vol. 4",
+        "Procopius"
+      ],
+      "notes": "Imperial commander elevated after Anastasius I; mentor and uncle of Justinian I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_justin2_maurice",
+      "name": "Emperor Justin II → Tiberius II → Emperor Maurice (565–602 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "565–602 CE",
+      "role": "Late Justinianic Emperors",
+      "sources": [
+        "Echard Roman History Vol. 4",
+        "Chronicon Paschale"
+      ],
+      "notes": "Nephew Justin II and generals Tiberius II & Maurice, whose daughter Maria wed Khosrow II of Persia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_constans2",
+      "name": "Emperor Constans II (Grandson of Heraclius, 641–668 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "630–668 CE",
+      "role": "Heraclian Emperor",
+      "sources": [
+        "Echard Roman History Vol. 4",
+        "Theophanes"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 4, Theophanes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_constantine4",
+      "name": "Emperor Constantine IV Pogonatos (First Arab Siege of Constantinople, 668–685 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "652–685 CE",
+      "role": "Heraclian Emperor",
+      "sources": [
+        "Echard Roman History Vol. 4",
+        "Theophanes"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 4, Theophanes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_justinian2",
+      "name": "Emperor Justinian II Rhinotmetos (685–711 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "668–711 CE",
+      "role": "Last Heraclian Emperor",
+      "sources": [
+        "Echard Roman History Vol. 4",
+        "Theophanes"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 4, Theophanes.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_constantine5",
+      "name": "Emperor Constantine V Kopronymos (Son of Leo III, 741–775 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "718–775 CE",
+      "role": "Isaurian Emperor",
+      "sources": [
+        "Echard Roman History Vol. 5"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_irene_athens",
+      "name": "Empress Irene of Athens (First Sole Female Byzantine Emperor, 797–802 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "c. 752–803 CE",
+      "role": "Byzantine Empress Regnant",
+      "sources": [
+        "Echard Roman History Vol. 5"
+      ],
+      "notes": "Restored icons (Nicaea II, 787 CE); exchanged marriage embassy with Charlemagne.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_theophilos_michael3",
+      "name": "Emperor Theophilos → Emperor Michael III (Amorian Dynasty, 829–867 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "829–867 CE",
+      "role": "Amorian Emperors",
+      "sources": [
+        "Echard Roman History Vol. 5"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_leo6_wise",
+      "name": "Emperor Leo VI the Wise (Basilika Law Code, 886–912 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 19,
+      "era": "866–912 CE",
+      "role": "Macedonian Emperor",
+      "sources": [
+        "Echard Roman History Vol. 5",
+        "De Administrando Imperio"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5, De Administrando Imperio.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_constantine7",
+      "name": "Emperor Constantine VII Porphyrogenitos (De Administrando Imperio, 913–959 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "905–959 CE",
+      "role": "Scholar Emperor",
+      "sources": [
+        "Echard Roman History Vol. 5",
+        "De Administrando Imperio"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5, De Administrando Imperio.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_romanos2",
+      "name": "Emperor Romanos II (+ Theophano; Father of Basil II, Anna & Theophanu, 959–963 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "938–963 CE",
+      "role": "Macedonian Emperor",
+      "sources": [
+        "Echard Roman History Vol. 5",
+        "De Administrando Imperio"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5, De Administrando Imperio.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_constantine8",
+      "name": "Emperor Constantine VIII (Brother of Basil II, 1025–1028 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "960–1028 CE",
+      "role": "Macedonian Emperor",
+      "sources": [
+        "Echard Roman History Vol. 5"
+      ],
+      "notes": "Younger son of Romanos II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_empress_zoe_theodora",
+      "name": "Empresses Zoë Porphyrogenita & Theodora (Final Macedonian Heiresses, 1028–1056 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "978–1056 CE",
+      "role": "Macedonian Empresses Regnant",
+      "sources": [
+        "Echard Roman History Vol. 5"
+      ],
+      "notes": "Daughters of Constantine VIII.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_anna_porphyrogenita",
+      "name": "Princess Anna Porphyrogenita (+ St. Vladimir the Great of Kiev, 988 CE)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 20,
+      "era": "963–1011 CE",
+      "role": "Byzantine Princess & Grand Princess of Kiev",
+      "sources": [
+        "Russian Primary Chronicle",
+        "Echard Roman History Vol. 5"
+      ],
+      "notes": "Sister of Emperor Basil II whose marriage to St. Vladimir Christianized Kievan Rus' and connected Byzantium directly into Europe's royal houses.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_theophanu_hre",
+      "name": "Empress Theophanu (+ Holy Roman Emperor Otto II, Mother of Otto III)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 20,
+      "era": "c. 955–991 CE",
+      "role": "Holy Roman Empress & Regent",
+      "sources": [
+        "Echard Roman History Vol. 5",
+        "Thietmar of Merseburg"
+      ],
+      "notes": "Byzantine imperial princess married to Otto II in 972 CE, transmitting Eastern imperial blood to the Ottonians.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_otto2_otto3",
+      "name": "Emperors Otto II (+ Theophanu) → Emperor Otto III of the Holy Roman Empire",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 20,
+      "era": "955–1002 CE",
+      "role": "Holy Roman Emperors",
+      "sources": [
+        "Modern Universal History Vol. 10"
+      ],
+      "notes": "Son & grandson of Otto I connecting Byzantine & Ottonian crowns.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_john2_komnenos",
+      "name": "Emperor John II Komnenos (Son of Alexios I, 1118–1143 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "1087–1143 CE",
+      "role": "Komnenian Emperor",
+      "sources": [
+        "Echard Roman History Vol. 5",
+        "Choniates"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5, Choniates.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_manuel1_komnenos",
+      "name": "Emperor Manuel I Komnenos (1143–1180 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "1118–1180 CE",
+      "role": "Komnenian Emperor",
+      "sources": [
+        "Echard Roman History Vol. 5",
+        "Choniates"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5, Choniates.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_andronikos1_isaac2",
+      "name": "Emperors Andronikos I Komnenos & Isaac II Angelos → Alexios III",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "1183–1204 CE",
+      "role": "Komnenoi & Angeloi Emperors",
+      "sources": [
+        "Echard Roman History Vol. 5",
+        "Choniates"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5, Choniates.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_theodore1_laskaris",
+      "name": "Emperor Theodore I Laskaris (Empire of Nicaea, 1205–1221 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "c. 1175–1221 CE",
+      "role": "Founder of Nicaean Empire",
+      "sources": [
+        "Echard Roman History Vol. 5",
+        "Choniates"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5, Choniates.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_maria_komnene_jerusalem",
+      "name": "Queen Maria Komnene of Jerusalem (Grandniece of Manuel I; Wed King Amalric I)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "c. 1154–1217 CE",
+      "role": "Queen of Jerusalem",
+      "sources": [
+        "William of Tyre",
+        "Echard Vol. 5"
+      ],
+      "notes": "Married King Amalric I of Jerusalem; mother of Queen Isabella I, uniting Komnenian & Crusader royal blood.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_andronikos2",
+      "name": "Emperor Andronikos II Palaiologos (1282–1328 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "1259–1332 CE",
+      "role": "Palaiologan Emperor",
+      "sources": [
+        "Echard Roman History Vol. 5"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_john5_palaiologos",
+      "name": "Emperor John V Palaiologos (1341–1391 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "1332–1391 CE",
+      "role": "Palaiologan Emperor",
+      "sources": [
+        "Echard Roman History Vol. 5"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_manuel2_palaiologos",
+      "name": "Emperor Manuel II Palaiologos (Diplomatic Tour to London & Paris, 1391–1425 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 21,
+      "era": "1350–1425 CE",
+      "role": "Palaiologan Emperor",
+      "sources": [
+        "Echard Roman History Vol. 5"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_john8_palaiologos",
+      "name": "Emperor John VIII Palaiologos (Council of Florence, 1425–1448 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 21,
+      "era": "1392–1448 CE",
+      "role": "Palaiologan Emperor",
+      "sources": [
+        "Echard Roman History Vol. 5"
+      ],
+      "notes": "Chronicle succession in Echard Roman History Vol. 5.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_thomas_palaiologos",
+      "name": "Despot Thomas Palaiologos of the Morea (Brother of Constantine XI; Father of Zoe/Sophia)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 21,
+      "era": "1409–1465 CE",
+      "role": "Despot of the Morea",
+      "sources": [
+        "Echard Roman History Vol. 5"
+      ],
+      "notes": "Younger son of Manuel II; carried Byzantine imperial inheritance to Rome & Moscow via daughter Sophia.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_john6_kantakouzenos",
+      "name": "Emperor John VI Kantakouzenos (1347–1354 CE)",
+      "altNames": [],
+      "tradition": "greek",
+      "tier": 20,
+      "era": "c. 1292–1383 CE",
+      "role": "Byzantine Emperor",
+      "sources": [
+        "Echard Vol. 5",
+        "Knolles Turkish History"
+      ],
+      "notes": "Father-in-law of John V Palaiologos & Ottoman Sultan Orhan Ghazi.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "byz8_theodora_kantakouzene",
+      "name": "Princess Theodora Kantakouzene (+ Ottoman Sultan Orhan Ghazi, 1346 CE)",
+      "altNames": true,
+      "tradition": "greek",
+      "tier": 20,
+      "era": "c. 1330–1396 CE",
+      "role": "Byzantine Princess & Ottoman Hatun",
+      "sources": [
+        "Kantakouzenos Historia",
+        "Knolles Turkish History"
+      ],
+      "notes": "1346 CE royal marriage between Byzantine Princess Theodora and Sultan Orhan, joining Palaiologan-Kantakouzenos & Ottoman lines.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_ostrogotha",
+      "name": "King Ostrogotha → Kniva (Early Gothic Monarchs of Scythia & Moesia)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "c. 240–270 CE",
+      "role": "Amali Gothic Founders",
+      "sources": [
+        "Jordanes Getica",
+        "Modern Universal History Vol. 8"
+      ],
+      "notes": "Chronicle succession in Jordanes Getica, Modern Universal History Vol. 8.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_ermanaric",
+      "name": "King Ermanaric the Great (Oium Gothic Empire on Dnieper & Black Sea, d. 376 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. 376 CE",
+      "role": "Amali High King",
+      "sources": [
+        "Jordanes Getica",
+        "Modern Universal History Vol. 8"
+      ],
+      "notes": "Chronicle succession in Jordanes Getica, Modern Universal History Vol. 8.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_valamir_theodemir",
+      "name": "King Valamir & King Theodemir (+ Ereleuva; Parents of Theoderic)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "5th c. CE",
+      "role": "Amali Ostrogothic Brothers",
+      "sources": [
+        "Jordanes Getica",
+        "Modern Universal History Vol. 8"
+      ],
+      "notes": "Chronicle succession in Jordanes Getica, Modern Universal History Vol. 8.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_theodoric_great",
+      "name": "King Theoderic the Great of Italy (+ Audofleda, Sister of Clovis I, 493–526 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "454–526 CE",
+      "role": "King of the Ostrogoths & Italy",
+      "sources": [
+        "Jordanes Getica",
+        "Modern Universal History Vol. 8"
+      ],
+      "notes": "Raised hostage at Constantinople; defeated Odoacer; married Clovis I's sister Audofleda.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_amalasuntha",
+      "name": "Queen Amalasuntha of the Ostrogoths (+ Eutharic; Daughter of Theoderic, d. 535 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 495–535 CE",
+      "role": "Ostrogothic Queen Regent",
+      "sources": [
+        "Jordanes Getica",
+        "Modern Universal History Vol. 8"
+      ],
+      "notes": "Chronicle succession in Jordanes Getica, Modern Universal History Vol. 8.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_totila",
+      "name": "King Totila / Baduila (Gothic Resistance vs Justinian & Belisarius, 541–552 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. 552 CE",
+      "role": "King of the Ostrogoths",
+      "sources": [
+        "Jordanes Getica",
+        "Modern Universal History Vol. 8"
+      ],
+      "notes": "Chronicle succession in Jordanes Getica, Modern Universal History Vol. 8.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_alaric1",
+      "name": "King Alaric I of the Visigoths (Balti Dynasty; Sack of Rome 410 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 370–410 CE",
+      "role": "1st King of the Visigoths",
+      "sources": [
+        "Jordanes Getica",
+        "Mariana General History of Spain 1699"
+      ],
+      "notes": "Balti dynasty king who captured Rome in 410 CE.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_ataulf",
+      "name": "King Ataulf (+ Empress Galla Placidia, 410–415 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "r. 410–415 CE",
+      "role": "King of the Visigoths",
+      "sources": [
+        "Jordanes Getica",
+        "Mariana General History of Spain 1699"
+      ],
+      "notes": "Chronicle succession in Jordanes Getica, Mariana General History of Spain 1699.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_theodoric1_visigoth",
+      "name": "King Theodoric I of Toulouse (Fell at Chalons vs Attila, 418–451 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "r. 418–451 CE",
+      "role": "Visigothic King of Toulouse",
+      "sources": [
+        "Jordanes Getica",
+        "Mariana General History of Spain 1699"
+      ],
+      "notes": "Chronicle succession in Jordanes Getica, Mariana General History of Spain 1699.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_euric",
+      "name": "King Euric (Code of Euric, 466–484 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 440–484 CE",
+      "role": "Visigothic King",
+      "sources": [
+        "Jordanes Getica",
+        "Mariana General History of Spain 1699"
+      ],
+      "notes": "Chronicle succession in Jordanes Getica, Mariana General History of Spain 1699.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_alaric2",
+      "name": "King Alaric II (+ Thiudigotho, Daughter of Theoderic the Great, 484–507 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "r. 484–507 CE",
+      "role": "Visigothic King",
+      "sources": [
+        "Jordanes Getica",
+        "Mariana General History of Spain 1699"
+      ],
+      "notes": "Chronicle succession in Jordanes Getica, Mariana General History of Spain 1699.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_leovigild",
+      "name": "King Leovigild of Toledo (Unified Visigothic Spain, 568–586 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "519–586 CE",
+      "role": "Visigothic King of Spain",
+      "sources": [
+        "Jordanes Getica",
+        "Mariana General History of Spain 1699"
+      ],
+      "notes": "Chronicle succession in Jordanes Getica, Mariana General History of Spain 1699.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "got8_wamba_witiza",
+      "name": "Kings Wamba, Erwig, Egica & Witiza (Late Visigothic Spain, 672–710 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "672–710 CE",
+      "role": "Late Visigothic Kings",
+      "sources": [
+        "Jordanes Getica",
+        "Mariana General History of Spain 1699"
+      ],
+      "notes": "Chronicle succession in Jordanes Getica, Mariana General History of Spain 1699.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_merovech",
+      "name": "King Merovech / Merovaeus (Eponym of the Merovingian Franks, fl. 448–457 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 18,
+      "era": "c. 411–457 CE",
+      "role": "Merovingian Founder",
+      "sources": [
+        "Gregory of Tours History of the Franks"
+      ],
+      "notes": "Chronicle succession in Gregory of Tours History of the Franks.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_childeric1",
+      "name": "King Childeric I (+ Queen Basina; Tomb at Tournai, d. 481 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 437–481 CE",
+      "role": "Salic Frankish King",
+      "sources": [
+        "Gregory of Tours History of the Franks"
+      ],
+      "notes": "Chronicle succession in Gregory of Tours History of the Franks.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_clotilde_burgundy",
+      "name": "Queen St. Clotilde of Burgundy (+ King Clovis I; Christianized the Franks)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 475–545 CE",
+      "role": "Queen of the Franks",
+      "sources": [
+        "Gregory of Tours"
+      ],
+      "notes": "Burgundian princess whose marriage to Clovis I led to the conversion of the Frankish kingdom.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_theuderic1",
+      "name": "King Theuderic I of Austrasia / Reims (Eldest Son of Clovis I, 511–534 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 485–534 CE",
+      "role": "Merovingian King of Austrasia",
+      "sources": [
+        "Gregory of Tours"
+      ],
+      "notes": "Son of Clovis I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_childebert1",
+      "name": "King Childebert I of Paris (Son of Clovis I & Clotilde, 511–558 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 496–558 CE",
+      "role": "Merovingian King of Paris",
+      "sources": [
+        "Gregory of Tours"
+      ],
+      "notes": "Son of Clovis I & St. Clotilde.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_sigebert1",
+      "name": "King Sigebert I of Austrasia (Son of Chlothar I, 561–575 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 535–575 CE",
+      "role": "Merovingian King",
+      "sources": [
+        "Gregory of Tours"
+      ],
+      "notes": "Married Visigothic princess Brunhilda.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_brunhilda_visigoth",
+      "name": "Queen Brunhilda of Austrasia (Visigothic Princess; Rival of Fredegund, d. 613 CE)",
+      "altNames": true,
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 543–613 CE",
+      "role": "Visigothic Princess & Frankish Queen Regent",
+      "sources": [
+        "Gregory of Tours",
+        "Fredegar"
+      ],
+      "notes": "Daughter of Visigothic King Athanagild; dominated Merovingian politics for 45 years.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_childebert2",
+      "name": "King Childebert II of Austrasia & Burgundy (Son of Sigebert I & Brunhilda, 575–596 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "570–596 CE",
+      "role": "Merovingian King",
+      "sources": [
+        "Gregory of Tours"
+      ],
+      "notes": "Son of Sigebert I & Brunhilda.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_chilperic1",
+      "name": "King Chilperic I of Neustria (Son of Chlothar I, 561–584 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 539–584 CE",
+      "role": "Merovingian King of Soissons",
+      "sources": [
+        "Gregory of Tours"
+      ],
+      "notes": "Husband of Queen Fredegund; father of Chlothar II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_fredegund",
+      "name": "Queen Fredegund of Neustria (Mother of Chlothar II, d. 597 CE)",
+      "altNames": true,
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "d. 597 CE",
+      "role": "Frankish Queen Regent",
+      "sources": [
+        "Gregory of Tours"
+      ],
+      "notes": "Arch-rival of Brunhilda; secured the Frankish throne for her son Chlothar II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_chlothar2",
+      "name": "King Chlothar II the Great (Reunited All Frankish Kingdoms 613 CE; Father of Dagobert I)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "584–629 CE",
+      "role": "King of All the Franks",
+      "sources": [
+        "Gregory of Tours",
+        "Fredegar"
+      ],
+      "notes": "Son of Chilperic I & Fredegund; reunited the Merovingian realm.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_childeric3",
+      "name": "King Childeric III (Final Merovingian King, Deposed 751 CE by Pepin the Short)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 717–754 CE",
+      "role": "Last Merovingian King",
+      "sources": [
+        "Royal Frankish Annals",
+        "Mézeray 1683"
+      ],
+      "notes": "Last Merovingian monarch before the Carolingian accession.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_pepin_landen",
+      "name": "St. Pepin of Landen (+ St. Arnulf of Metz; Pippinid Ancestor, d. 640 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 580–640 CE",
+      "role": "Mayor of the Palace of Austrasia",
+      "sources": [
+        "Fredegar",
+        "Mézeray 1683"
+      ],
+      "notes": "Advisor to Chlothar II & Dagobert I; grandfather of Pepin of Herstal.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mer8_pepin_herstal",
+      "name": "Pepin of Herstal (Duke of the Franks; Father of Charles Martel, d. 714 CE)",
+      "altNames": [],
+      "tradition": "europe_norse",
+      "tier": 19,
+      "era": "c. 635–714 CE",
+      "role": "Mayor of the Palace",
+      "sources": [
+        "Mézeray 1683",
+        "Modern Universal History Vol. 9"
+      ],
+      "notes": "United Austrasia & Neustria at Tertry (687 CE); father of Charles Martel.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kas8_jalauka",
+      "name": "King Jalauka of Kashmir (Son of Emperor Ashoka in Rajatarangini Book I)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 15,
+      "era": "3rd c. BCE",
+      "role": "King of Kashmir",
+      "sources": [
+        "Kalhana's Rajatarangini (M.A. Stein 1900)"
+      ],
+      "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kas8_kanishka_kashmir",
+      "name": "Hushka, Jushka & Kanishka of Kashmir (Turushka Kings, Rajatarangini I.168)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 17,
+      "era": "1st–2nd c. CE",
+      "role": "Kushan Kings of Kashmir",
+      "sources": [
+        "Kalhana's Rajatarangini (M.A. Stein 1900)"
+      ],
+      "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kas8_meghavahana",
+      "name": "King Meghavahana (Restorer of Gonanda Dynasty in Kashmir)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 18,
+      "era": "5th c. CE",
+      "role": "Gonandiya King of Kashmir",
+      "sources": [
+        "Kalhana's Rajatarangini (M.A. Stein 1900)"
+      ],
+      "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kas8_pravarasena2",
+      "name": "King Pravarasena II (Founder of Pravarapura / Srinagar, 6th c. CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "6th c. CE",
+      "role": "King of Kashmir",
+      "sources": [
+        "Kalhana's Rajatarangini (M.A. Stein 1900)"
+      ],
+      "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kas8_durlabhavardhana",
+      "name": "King Durlabhavardhana (Founder of Karkota Dynasty, Visited by Xuanzang, 625 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "r. 625–661 CE",
+      "role": "Founder of Karkota Dynasty",
+      "sources": [
+        "Kalhana's Rajatarangini (M.A. Stein 1900)"
+      ],
+      "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kas8_lalitaditya",
+      "name": "Emperor Lalitaditya Muktapida (Martand Sun Temple; Pan-Indian Empire, 724–760 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "r. 724–760 CE",
+      "role": "Great Emperor of Kashmir",
+      "sources": [
+        "Kalhana's Rajatarangini (M.A. Stein 1900)"
+      ],
+      "notes": "Most celebrated Karkota conqueror in Kalhana's Rajatarangini Book IV.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kas8_avantivarman",
+      "name": "King Avantivarman (Founder of Utpala Dynasty & Avantipur Temples, 855–883 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "r. 855–883 CE",
+      "role": "Founder of Utpala Dynasty",
+      "sources": [
+        "Kalhana's Rajatarangini (M.A. Stein 1900)"
+      ],
+      "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kas8_queen_didda",
+      "name": "Queen Didda of Kashmir (Sovereign Queen Regnant, 958–1003 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "c. 924–1003 CE",
+      "role": "Sovereign Queen of Kashmir",
+      "sources": [
+        "Kalhana's Rajatarangini (M.A. Stein 1900)"
+      ],
+      "notes": "Ruled Kashmir for nearly 45 years; scion of Lohara & Hindu Shahi houses.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kas8_sangramaraja",
+      "name": "King Sangramaraja (Nephew of Queen Didda; Founder of Lohara Dynasty, 1003–1028 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "r. 1003–1028 CE",
+      "role": "Founder of Lohara Dynasty",
+      "sources": [
+        "Kalhana's Rajatarangini (M.A. Stein 1900)"
+      ],
+      "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "kas8_kota_rani_shah_mir",
+      "name": "Queen Kota Rani → Sultan Shah Mir (14th c. Kashmir Transition)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "14th c. CE",
+      "role": "Final Hindu Queen & Shah Mir Founder",
+      "sources": [
+        "Kalhana's Rajatarangini (M.A. Stein 1900)"
+      ],
+      "notes": "Chronicle succession in Kalhana's Rajatarangini (M.A. Stein 1900).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "lka8_devanampiya_tissa",
+      "name": "King Devanampiya Tissa of Anuradhapura (Buddhist Envoy of Ashoka, 250–210 BCE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 15,
+      "era": "r. 250–210 BCE",
+      "role": "King of Sri Lanka",
+      "sources": [
+        "Mahavamsa & Culavamsa (Geiger)"
+      ],
+      "notes": "Chronicle succession in Mahavamsa & Culavamsa (Geiger).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "lka8_dutthagamani",
+      "name": "King Dutthagamani / Dutugemunu (Hero of Mahavamsa, 161–137 BCE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 17,
+      "era": "r. 161–137 BCE",
+      "role": "Great Unifier of Lanka",
+      "sources": [
+        "Mahavamsa & Culavamsa (Geiger)"
+      ],
+      "notes": "Reunified Sri Lanka; central hero of the Mahavamsa.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "lka8_vattagamani",
+      "name": "King Vattagamani Abhaya / Valagamba (Writing of the Pali Canon, 89–77 BCE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 17,
+      "era": "r. 89–77 BCE",
+      "role": "King of Sri Lanka",
+      "sources": [
+        "Mahavamsa & Culavamsa (Geiger)"
+      ],
+      "notes": "Chronicle succession in Mahavamsa & Culavamsa (Geiger).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "lka8_mahasena",
+      "name": "King Mahasena of Anuradhapura (Minneriya Tank & Jetavanaramaya, 277–304 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "r. 277–304 CE",
+      "role": "King of Sri Lanka",
+      "sources": [
+        "Mahavamsa & Culavamsa (Geiger)"
+      ],
+      "notes": "Chronicle succession in Mahavamsa & Culavamsa (Geiger).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "lka8_kashyapa_sigiriya",
+      "name": "King Kashyapa I of Sigiriya (473–495 CE) & King Dhatusena",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "r. 473–495 CE",
+      "role": "Builder of Sigiriya Rock Fortress",
+      "sources": [
+        "Mahavamsa & Culavamsa (Geiger)"
+      ],
+      "notes": "Chronicle succession in Mahavamsa & Culavamsa (Geiger).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "lka8_vijayabahu1",
+      "name": "King Vijayabahu I (Drove Out Cholas; Restored Polonnaruwa, 1055–1110 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "r. 1055–1110 CE",
+      "role": "King of Polonnaruwa",
+      "sources": [
+        "Mahavamsa & Culavamsa (Geiger)"
+      ],
+      "notes": "Chronicle succession in Mahavamsa & Culavamsa (Geiger).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "lka8_parakramabahu1",
+      "name": "King Parakramabahu I the Great (Polonnaruwa Zenith, 1153–1186 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "r. 1153–1186 CE",
+      "role": "Great King of Sri Lanka",
+      "sources": [
+        "Mahavamsa & Culavamsa (Geiger)"
+      ],
+      "notes": "Constructed Parakrama Samudra and sent expeditions to Burma and South India.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "lka8_nissanka_malla",
+      "name": "King Nissanka Malla of Polonnaruwa (Kalinga Dynasty, 1187–1196 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "r. 1187–1196 CE",
+      "role": "King of Sri Lanka",
+      "sources": [
+        "Mahavamsa & Culavamsa (Geiger)"
+      ],
+      "notes": "Chronicle succession in Mahavamsa & Culavamsa (Geiger).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "bur8_pyusawhti",
+      "name": "King Pyusawhti (Early Legendary Lineage of Pagan, Glass Palace Chronicle)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 15,
+      "era": "2nd–3rd c. CE",
+      "role": "Early Pagan Ancestor",
+      "sources": [
+        "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
+      ],
+      "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "bur8_anawrahta",
+      "name": "King Anawrahta of Pagan (1st Historical Unifier of Burma, 1044–1077 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1014–1077 CE",
+      "role": "Founder of Pagan Empire",
+      "sources": [
+        "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
+      ],
+      "notes": "Established Theravada Buddhism and unified Myanmar from Pagan.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "bur8_kyansittha",
+      "name": "King Kyansittha of Pagan (Built Ananda Temple; Envoy to China, 1084–1112 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "r. 1084–1112 CE",
+      "role": "Emperor of Pagan",
+      "sources": [
+        "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
+      ],
+      "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "bur8_alaungsithu",
+      "name": "King Alaungsithu / Sithu I (Grandson of Kyansittha, 1112–1167 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1090–1167 CE",
+      "role": "Emperor of Pagan",
+      "sources": [
+        "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
+      ],
+      "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "bur8_narathihapate",
+      "name": "King Narathihapate (Pagan Monarch During 1287 Mongol Campaigns)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 20,
+      "era": "1238–1287 CE",
+      "role": "Last Major Pagan King",
+      "sources": [
+        "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
+      ],
+      "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "bur8_tabinshwehti",
+      "name": "King Tabinshwehti of Toungoo (Reunified Burma, 1530–1550 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1516–1550 CE",
+      "role": "Toungoo Conqueror",
+      "sources": [
+        "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
+      ],
+      "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "bur8_bayinnaung",
+      "name": "Emperor Bayinnaung Kyawhtin Nawrahta (Largest SE Asian Empire, 1550–1581 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1516–1581 CE",
+      "role": "Toungoo Emperor",
+      "sources": [
+        "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
+      ],
+      "notes": "Built the largest empire in Southeast Asian history across Burma, Shan States, Lan Na & Ayutthaya.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "bur8_alaungpaya",
+      "name": "King Alaungpaya (Founder of Konbaung Dynasty, 1752–1760 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1714–1760 CE",
+      "role": "Founder of Konbaung Dynasty",
+      "sources": [
+        "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
+      ],
+      "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "bur8_mindon_min",
+      "name": "King Mindon Min (Founded Mandalay; 5th Buddhist Council, 1853–1878 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1808–1878 CE",
+      "role": "Konbaung King of Mandalay",
+      "sources": [
+        "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
+      ],
+      "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "bur8_king_thibaw",
+      "name": "King Thibaw Min & Queen Supayalat (Final Burmese Monarch, r. 1878–1885 CE)",
+      "altNames": [],
+      "tradition": "southeast_asia",
+      "tier": 21,
+      "era": "1859–1916 CE",
+      "role": "Last King of Burma",
+      "sources": [
+        "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin)"
+      ],
+      "notes": "Chronicle succession in Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "tib8_trisong_detsen",
+      "name": "Emperor Trisong Detsen (Founded Samye Monastery with Padmasambhava, 755–797 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "742–c. 800 CE",
+      "role": "Yarlung Dharma Emperor",
+      "sources": [
+        "The Blue Annals (George N. Roerich)"
+      ],
+      "notes": "Second great Dharma King of the Tibetan Empire; Tang princess mother Jincheng.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "tib8_ralpachen_langdarma",
+      "name": "Emperors Ralpachen & Langdarma (Final Yarlung Emperors, d. 842 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 19,
+      "era": "815–842 CE",
+      "role": "Late Yarlung Emperors",
+      "sources": [
+        "The Blue Annals (George N. Roerich)"
+      ],
+      "notes": "Chronicle succession in The Blue Annals (George N. Roerich).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "tib8_atisha_dromton",
+      "name": "Atiśa Dīpaṃkara & Dromtönpa (11th c. Revival in Blue Annals Book V)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "982–1064 CE",
+      "role": "Kadam Tradition Founders",
+      "sources": [
+        "The Blue Annals (George N. Roerich)"
+      ],
+      "notes": "Chronicle succession in The Blue Annals (George N. Roerich).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "tib8_marpa_milarepa",
+      "name": "Marpa Lotsawa & Jetsun Milarepa (Kagyu Lineage in Blue Annals Book VIII)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "1012–1135 CE",
+      "role": "Tibetan Buddhist Masters",
+      "sources": [
+        "The Blue Annals (George N. Roerich)"
+      ],
+      "notes": "Chronicle succession in The Blue Annals (George N. Roerich).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "tib8_sakya_pandita",
+      "name": "Sakya Pandita Kunga Gyaltsen & Drogön Chögyal Phagpa (Yuan Imperial Preceptors)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "1182–1280 CE",
+      "role": "Sakya Spiritual Sovereigns",
+      "sources": [
+        "The Blue Annals (George N. Roerich)"
+      ],
+      "notes": "Chronicle succession in The Blue Annals (George N. Roerich).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "tib8_tsongkhapa",
+      "name": "Je Tsongkhapa (Founder of Gelug School & Ganden, 1357–1419 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 20,
+      "era": "1357–1419 CE",
+      "role": "Gelug Founder",
+      "sources": [
+        "The Blue Annals (George N. Roerich)"
+      ],
+      "notes": "Chronicle succession in The Blue Annals (George N. Roerich).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "tib8_fifth_dalai_lama",
+      "name": "5th Dalai Lama Ngawang Lobsang Gyatso (Reunified Tibet & Built Potala, 1617–1682 CE)",
+      "altNames": [],
+      "tradition": "vedic",
+      "tier": 21,
+      "era": "1617–1682 CE",
+      "role": "Great Fifth Dalai Lama",
+      "sources": [
+        "The Blue Annals (George N. Roerich)"
+      ],
+      "notes": "Built the Potala Palace at Lhasa; spiritual & temporal ruler of unified Tibet.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_hurrem_sultan",
+      "name": "Hürrem Sultan / Roxelana (+ Sultan Suleiman the Magnificent; Mother of Selim II)",
+      "altNames": true,
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "c. 1502–1558 CE",
+      "role": "Haseki Sultan of Ottoman Empire",
+      "sources": [
+        "Knolles & Rycaut Vols. 1–3",
+        "Ottoman Imperial Registry"
+      ],
+      "notes": "Elevated Ottoman royal consort to legal empress; mother of Sultan Selim II & Mihrimah Sultan.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_mihrimah_sultan",
+      "name": "Mihrimah Sultan (Daughter of Suleiman I & Hürrem; Wife of Grand Vizier Rüstem Pasha)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1522–1578 CE",
+      "role": "Ottoman Imperial Princess",
+      "sources": [
+        "Ottoman Chronicles"
+      ],
+      "notes": "Influential Ottoman princess & daughter of Sultan Suleiman I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_nurbanu_safiye",
+      "name": "Valide Sultans Nurbanu Sultan (+ Selim II) & Safiye Sultan (+ Murad III)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1525–1619 CE",
+      "role": "Valide Sultans (Queen Mothers)",
+      "sources": [
+        "Knolles & Rycaut Vols. 2–3"
+      ],
+      "notes": "Led the Ottoman 'Sultanate of Women' alongside Selim II & Murad III.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_kosem_sultan",
+      "name": "Valide Sultan Kösem Sultan (+ Ahmed I; Mother of Murad IV & Ibrahim I, d. 1651)",
+      "altNames": true,
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "c. 1589–1651 CE",
+      "role": "Regent & Valide Sultan",
+      "sources": [
+        "Knolles & Rycaut Vol. 3"
+      ],
+      "notes": "Served twice as official regent (naib-i saltanat) of the Ottoman Empire.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_mehmed3",
+      "name": "Sultan Mehmed III (Son of Murad III; Siege of Eger, 1595–1603 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1566–1603 CE",
+      "role": "13th Ottoman Sultan",
+      "sources": [
+        "Knolles & Rycaut Vol. 2–3"
+      ],
+      "notes": "Son of Murad III & Safiye Sultan; father of Ahmed I & Mustafa I.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_osman2_mustafa1",
+      "name": "Sultans Mustafa I & Osman II the Young (1617–1623 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1591–1622 CE",
+      "role": "15th & 16th Ottoman Sultans",
+      "sources": [
+        "Knolles & Rycaut Vol. 3"
+      ],
+      "notes": "Brother & eldest son of Ahmed I preceding Murad IV.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_ibrahim1",
+      "name": "Sultan Ibrahim I (Son of Ahmed I & Kösem Sultan, 1640–1648 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1615–1648 CE",
+      "role": "18th Ottoman Sultan",
+      "sources": [
+        "Knolles & Rycaut Vol. 3"
+      ],
+      "notes": "Father of Mehmed IV, Suleiman II & Ahmed II.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_suleiman2_ahmed2_mustafa2",
+      "name": "Sultans Suleiman II, Ahmed II & Mustafa II (1687–1703 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1642–1703 CE",
+      "role": "20th–22nd Ottoman Sultans",
+      "sources": [
+        "Modern Universal History Vol. 3–4",
+        "Ottoman Registry"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 3–4, Ottoman Registry.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_ahmed3",
+      "name": "Sultan Ahmed III (Tulip Era; Son of Mehmed IV, 1703–1730 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1673–1736 CE",
+      "role": "23rd Ottoman Sultan",
+      "sources": [
+        "Modern Universal History Vol. 3–4",
+        "Ottoman Registry"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 3–4, Ottoman Registry.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_mahmud1_osman3_mustafa3",
+      "name": "Sultans Mahmud I, Osman III & Mustafa III (1730–1774 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1696–1774 CE",
+      "role": "24th–26th Ottoman Sultans",
+      "sources": [
+        "Modern Universal History Vol. 3–4",
+        "Ottoman Registry"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 3–4, Ottoman Registry.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_abdulhamid1",
+      "name": "Sultan Abdulhamid I (Son of Ahmed III, 1774–1789 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1725–1789 CE",
+      "role": "27th Ottoman Sultan",
+      "sources": [
+        "Modern Universal History Vol. 3–4",
+        "Ottoman Registry"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 3–4, Ottoman Registry.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_selim3",
+      "name": "Sultan Selim III (Nizam-i Cedid Reformer, 1789–1807 CE) & Mustafa IV",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1761–1808 CE",
+      "role": "28th–29th Ottoman Sultans",
+      "sources": [
+        "Modern Universal History Vol. 3–4",
+        "Ottoman Registry"
+      ],
+      "notes": "Chronicle succession in Modern Universal History Vol. 3–4, Ottoman Registry.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_abdulmejid1",
+      "name": "Sultan Abdulmejid I (Tanzimat Reforms; Son of Mahmud II, 1839–1861 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1823–1861 CE",
+      "role": "31st Ottoman Sultan",
+      "sources": [
+        "Ottoman Imperial Registry",
+        "Almanach de Gotha"
+      ],
+      "notes": "Chronicle succession in Ottoman Imperial Registry, Almanach de Gotha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_abdulaziz",
+      "name": "Sultan Abdulaziz (Son of Mahmud II; Visited London & Paris, 1861–1876 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1830–1876 CE",
+      "role": "32nd Ottoman Sultan",
+      "sources": [
+        "Ottoman Imperial Registry",
+        "Almanach de Gotha"
+      ],
+      "notes": "Chronicle succession in Ottoman Imperial Registry, Almanach de Gotha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_abdulhamid2",
+      "name": "Sultan Abdulhamid II (Son of Abdulmejid I, 1876–1909 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1842–1918 CE",
+      "role": "34th Ottoman Sultan",
+      "sources": [
+        "Ottoman Imperial Registry",
+        "Almanach de Gotha"
+      ],
+      "notes": "Final strong autocratic Ottoman Sultan; built the Hejaz Railway.",
+      "major": true,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_mehmed5",
+      "name": "Sultan Mehmed V Reşad (1909–1918 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1844–1918 CE",
+      "role": "35th Ottoman Sultan",
+      "sources": [
+        "Ottoman Imperial Registry",
+        "Almanach de Gotha"
+      ],
+      "notes": "Chronicle succession in Ottoman Imperial Registry, Almanach de Gotha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_mehmed6",
+      "name": "Sultan Mehmed VI Vahideddin (36th & Final Ottoman Sultan, 1918–1922 CE)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1861–1926 CE",
+      "role": "36th & Last Ottoman Sultan",
+      "sources": [
+        "Ottoman Imperial Registry",
+        "Almanach de Gotha"
+      ],
+      "notes": "Chronicle succession in Ottoman Imperial Registry, Almanach de Gotha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "ott8_abdulmejid2_osmanoglu",
+      "name": "Caliph Abdulmejid II & House of Osmanoğlu Descendants (Living 2026 Line)",
+      "altNames": [],
+      "tradition": "steppe",
+      "tier": 21,
+      "era": "1868–Present CE",
+      "role": "Modern Osmanoğlu Imperial House (Living 2026)",
+      "sources": [
+        "Ottoman Imperial Registry",
+        "Almanach de Gotha"
+      ],
+      "notes": "Chronicle succession in Ottoman Imperial Registry, Almanach de Gotha.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mid8_pirkei_eliezer_calendar",
+      "name": "Pirkei de-Rabbi Eliezer: Adam → Enoch → Shem Intercalation & 7-Epoch Covenant",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 3,
+      "era": "Extra-Biblical Midrash",
+      "role": "Intercalation & Patriarchal Transmission",
+      "sources": [
+        "Pirkei de-Rabbi Eliezer (bub_gb_DTpRAAAAYAAJ.pdf)"
+      ],
+      "notes": "Ch. 8–22 traces the sacred calendar secret handed from Adam through Enoch, Noah & Shem to Abraham & Moses.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mid8_pirkei_eliezer_nimrod_garments",
+      "name": "Pirkei de-Rabbi Eliezer: Adam's Skin Garments Passed via Noah → Ham → Nimrod → Esau",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 5,
+      "era": "Patriarchal Midrash",
+      "role": "Esau–Nimrod Garment & Sovereignty Motif",
+      "sources": [
+        "Pirkei de-Rabbi Eliezer Ch. 24",
+        "Sefer ha-Yashar"
+      ],
+      "notes": "Famous Midrashic link connecting Nimrod's hunting coat back to Adam and forward to Esau (Gen 25:27–34).",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mid8_pirkei_eliezer_ishmael_wives",
+      "name": "Pirkei de-Rabbi Eliezer Ch. 30: Ishmael's Wives ('Aisha / Fatima / Meribah) & Abraham's Visits",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 7,
+      "era": "Abrahamic Midrash",
+      "role": "Ishmael's Arabian Household",
+      "sources": [
+        "Pirkei de-Rabbi Eliezer Ch. 30"
+      ],
+      "notes": "Preserves parallel Islamic-Jewish tradition on Ishmael's two wives and Abraham's desert visits.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mid8_kitab_al_magall_adam_cave",
+      "name": "Apocrypha Arabica (Kitab al-Magall / Book of the Rolls): Adam → Seth → Noah Cave Treasures",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 2,
+      "era": "Christian Arabic Roll",
+      "role": "Arabic Cave of Treasures Patriarchs",
+      "sources": [
+        "Apocrypha Arabica (Gibson, apocryphaarabica00gibsuoft.pdf)"
+      ],
+      "notes": "10th-century Sinai Arabic manuscript closely parallel to Syriac Cave of Treasures tracing every patriarch from Adam to Christ.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mid8_kitab_al_magall_shem_melchizedek",
+      "name": "Kitab al-Magall: Shem & Melchizedek Guardians at Golgotha / Jerusalem",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 4,
+      "era": "Christian Arabic Roll",
+      "role": "Shem–Melchizedek Guardianship",
+      "sources": [
+        "Apocrypha Arabica (Gibson)"
+      ],
+      "notes": "Details Shem & Melchizedek carrying Adam's body to Jerusalem.",
+      "major": false,
+      "biblicalConnected": true
+    },
+    {
+      "id": "mid8_kitab_al_magall_mary_david",
+      "name": "Kitab al-Magall: 64-Generation Royal-Priestly Pedigree of Virgin Mary to King David",
+      "altNames": [],
+      "tradition": "biblical",
+      "tier": 14,
+      "era": "Christian Arabic Roll",
+      "role": "Arabic Davidic–Marian Genealogy",
+      "sources": [
+        "Apocrypha Arabica (Gibson)"
+      ],
+      "notes": "Constructs an explicit 64-generation stemma joining Judah, David, and Mary in Christian-Arabic tradition.",
+      "major": false,
+      "biblicalConnected": true
     }
   ],
   "edges": [
@@ -90180,6 +92056,966 @@
       "to": "esp7_inca_garcilaso",
       "type": "expansion",
       "label": "Post-Columbian Spanish Habsburg royal patent / court service (unconnected to pre-Columbian Pending Bridge graphs)"
+    },
+    {
+      "from": "mon_rom_constantine1",
+      "to": "byz8_constantius2",
+      "type": "direct",
+      "label": "Ammianus Marcellinus, Echard Roman History Vol. 4: succession"
+    },
+    {
+      "from": "byz8_constantius2",
+      "to": "byz8_valentinian1",
+      "type": "direct",
+      "label": "Ammianus Marcellinus, Echard Roman History Vol. 4: succession"
+    },
+    {
+      "from": "byz8_valentinian1",
+      "to": "byz8_valens",
+      "type": "direct",
+      "label": "Ammianus Marcellinus, Echard Roman History Vol. 4: succession"
+    },
+    {
+      "from": "byz8_valens",
+      "to": "byz8_gratian",
+      "type": "direct",
+      "label": "Ammianus Marcellinus, Echard Roman History Vol. 4: succession"
+    },
+    {
+      "from": "byz8_valentinian1",
+      "to": "mon_rom_theodosius1",
+      "type": "expansion",
+      "label": "Theodosius I married Galla, daughter of Valentinian I"
+    },
+    {
+      "from": "rom3_arcadius",
+      "to": "byz8_theodosius2",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 4, Chronicon Paschale: succession"
+    },
+    {
+      "from": "byz8_theodosius2",
+      "to": "byz8_pulcheria_marcian",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 4, Chronicon Paschale: succession"
+    },
+    {
+      "from": "byz8_pulcheria_marcian",
+      "to": "byz8_leo1_zeno",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 4, Chronicon Paschale: succession"
+    },
+    {
+      "from": "byz8_leo1_zeno",
+      "to": "byz8_justin1",
+      "type": "expansion",
+      "label": "Late Roman imperial transition (Leo I / Anastasius I -> Justin I)"
+    },
+    {
+      "from": "byz8_justin1",
+      "to": "mon_rom_justinian1",
+      "type": "direct",
+      "label": "Uncle and adoptive father of Emperor Justinian I"
+    },
+    {
+      "from": "mon_rom_justinian1",
+      "to": "byz8_justin2_maurice",
+      "type": "direct",
+      "label": "Nephew-to-son-in-law imperial succession"
+    },
+    {
+      "from": "mon_rom_heraclius",
+      "to": "byz8_constans2",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 4, Theophanes: succession"
+    },
+    {
+      "from": "byz8_constans2",
+      "to": "byz8_constantine4",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 4, Theophanes: succession"
+    },
+    {
+      "from": "byz8_constantine4",
+      "to": "byz8_justinian2",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 4, Theophanes: succession"
+    },
+    {
+      "from": "mon_rom_leo3",
+      "to": "byz8_constantine5",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5: succession"
+    },
+    {
+      "from": "byz8_constantine5",
+      "to": "byz8_irene_athens",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5: succession"
+    },
+    {
+      "from": "byz8_irene_athens",
+      "to": "byz8_theophilos_michael3",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5: succession"
+    },
+    {
+      "from": "byz8_irene_athens",
+      "to": "mon_fra_charlemagne",
+      "type": "expansion",
+      "label": "802 CE Imperial Marriage Proposal between Empress Irene and Emperor Charlemagne"
+    },
+    {
+      "from": "mon_rom_basil1",
+      "to": "byz8_leo6_wise",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5, De Administrando Imperio: succession"
+    },
+    {
+      "from": "byz8_leo6_wise",
+      "to": "byz8_constantine7",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5, De Administrando Imperio: succession"
+    },
+    {
+      "from": "byz8_constantine7",
+      "to": "byz8_romanos2",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5, De Administrando Imperio: succession"
+    },
+    {
+      "from": "byz8_romanos2",
+      "to": "mon_rom_basil2",
+      "type": "direct",
+      "label": "Father-to-son Macedonian succession"
+    },
+    {
+      "from": "byz8_romanos2",
+      "to": "byz8_constantine8",
+      "type": "direct",
+      "label": "Son of Romanos II"
+    },
+    {
+      "from": "byz8_constantine8",
+      "to": "byz8_empress_zoe_theodora",
+      "type": "direct",
+      "label": "Daughters of Constantine VIII"
+    },
+    {
+      "from": "byz8_romanos2",
+      "to": "byz8_anna_porphyrogenita",
+      "type": "direct",
+      "label": "Daughter of Romanos II & sister of Basil II"
+    },
+    {
+      "from": "byz8_anna_porphyrogenita",
+      "to": "rus_vladimir_great",
+      "type": "direct",
+      "label": "988 CE Royal Marriage: Anna Porphyrogenita & St. Vladimir of Kiev"
+    },
+    {
+      "from": "byz8_romanos2",
+      "to": "byz8_theophanu_hre",
+      "type": "expansion",
+      "label": "Byzantine Macedonian / Skleraina imperial niece"
+    },
+    {
+      "from": "mon_hre_otto1",
+      "to": "byz8_otto2_otto3",
+      "type": "direct",
+      "label": "Son Otto II & grandson Otto III of Otto the Great"
+    },
+    {
+      "from": "byz8_theophanu_hre",
+      "to": "byz8_otto2_otto3",
+      "type": "expansion",
+      "label": "972 CE Imperial Marriage: Byzantine Princess Theophanu & Emperor Otto II"
+    },
+    {
+      "from": "mon_rom_alexios1",
+      "to": "byz8_john2_komnenos",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5, Choniates: succession"
+    },
+    {
+      "from": "byz8_john2_komnenos",
+      "to": "byz8_manuel1_komnenos",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5, Choniates: succession"
+    },
+    {
+      "from": "byz8_manuel1_komnenos",
+      "to": "byz8_andronikos1_isaac2",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5, Choniates: succession"
+    },
+    {
+      "from": "byz8_andronikos1_isaac2",
+      "to": "byz8_theodore1_laskaris",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5, Choniates: succession"
+    },
+    {
+      "from": "byz8_manuel1_komnenos",
+      "to": "byz8_maria_komnene_jerusalem",
+      "type": "expansion",
+      "label": "Great-uncle of Queen Maria Komnene of Jerusalem (+ King Amalric I)"
+    },
+    {
+      "from": "byz8_theodore1_laskaris",
+      "to": "mon_rom_michael8",
+      "type": "expansion",
+      "label": "Empire of Nicaea -> Palaiologan restoration of Constantinople (1261)"
+    },
+    {
+      "from": "mon_rom_michael8",
+      "to": "byz8_andronikos2",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5: succession"
+    },
+    {
+      "from": "byz8_andronikos2",
+      "to": "byz8_john5_palaiologos",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5: succession"
+    },
+    {
+      "from": "byz8_john5_palaiologos",
+      "to": "byz8_manuel2_palaiologos",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5: succession"
+    },
+    {
+      "from": "byz8_manuel2_palaiologos",
+      "to": "byz8_john8_palaiologos",
+      "type": "direct",
+      "label": "Echard Roman History Vol. 5: succession"
+    },
+    {
+      "from": "byz8_manuel2_palaiologos",
+      "to": "byz8_thomas_palaiologos",
+      "type": "direct",
+      "label": "Son of Emperor Manuel II Palaiologos"
+    },
+    {
+      "from": "byz8_manuel2_palaiologos",
+      "to": "mon_rom_constantine11",
+      "type": "direct",
+      "label": "Son of Emperor Manuel II Palaiologos"
+    },
+    {
+      "from": "byz8_thomas_palaiologos",
+      "to": "roy6_sophia_palaiologina",
+      "type": "direct",
+      "label": "Father of Zoe / Sophia Palaiologina (+ Ivan III of Moscow)"
+    },
+    {
+      "from": "byz8_john5_palaiologos",
+      "to": "byz8_john6_kantakouzenos",
+      "type": "expansion",
+      "label": "Byzantine co-emperorship & marriage alliance"
+    },
+    {
+      "from": "byz8_john6_kantakouzenos",
+      "to": "byz8_theodora_kantakouzene",
+      "type": "direct",
+      "label": "Daughter of Emperor John VI Kantakouzenos"
+    },
+    {
+      "from": "byz8_theodora_kantakouzene",
+      "to": "mon_ott_orhan",
+      "type": "expansion",
+      "label": "1346 CE Royal Marriage: Theodora Kantakouzene wed Ottoman Sultan Orhan Ghazi"
+    },
+    {
+      "from": "goth_amali_theoderic",
+      "to": "got8_ostrogotha",
+      "type": "direct",
+      "label": "Jordanes Getica, Modern Universal History Vol. 8: succession"
+    },
+    {
+      "from": "got8_ostrogotha",
+      "to": "got8_ermanaric",
+      "type": "direct",
+      "label": "Jordanes Getica, Modern Universal History Vol. 8: succession"
+    },
+    {
+      "from": "got8_ermanaric",
+      "to": "got8_valamir_theodemir",
+      "type": "direct",
+      "label": "Jordanes Getica, Modern Universal History Vol. 8: succession"
+    },
+    {
+      "from": "got8_valamir_theodemir",
+      "to": "got8_theodoric_great",
+      "type": "direct",
+      "label": "Jordanes Getica, Modern Universal History Vol. 8: succession"
+    },
+    {
+      "from": "got8_theodoric_great",
+      "to": "got8_amalasuntha",
+      "type": "direct",
+      "label": "Jordanes Getica, Modern Universal History Vol. 8: succession"
+    },
+    {
+      "from": "got8_amalasuntha",
+      "to": "got8_totila",
+      "type": "direct",
+      "label": "Jordanes Getica, Modern Universal History Vol. 8: succession"
+    },
+    {
+      "from": "got8_theodoric_great",
+      "to": "mon_fra_clovis1",
+      "type": "expansion",
+      "label": "493 CE Royal Marriage: Theoderic the Great wed Audofleda, sister of King Clovis I"
+    },
+    {
+      "from": "got8_totila",
+      "to": "mon_rom_justinian1",
+      "type": "expansion",
+      "label": "Gothic War (535–554 CE): Totila vs Justinian I & Belisarius"
+    },
+    {
+      "from": "goth_amali_theoderic",
+      "to": "got8_alaric1",
+      "type": "direct",
+      "label": "Jordanes Getica, Mariana General History of Spain 1699: succession"
+    },
+    {
+      "from": "got8_alaric1",
+      "to": "got8_ataulf",
+      "type": "direct",
+      "label": "Jordanes Getica, Mariana General History of Spain 1699: succession"
+    },
+    {
+      "from": "got8_ataulf",
+      "to": "got8_theodoric1_visigoth",
+      "type": "direct",
+      "label": "Jordanes Getica, Mariana General History of Spain 1699: succession"
+    },
+    {
+      "from": "got8_theodoric1_visigoth",
+      "to": "got8_euric",
+      "type": "direct",
+      "label": "Jordanes Getica, Mariana General History of Spain 1699: succession"
+    },
+    {
+      "from": "got8_euric",
+      "to": "got8_alaric2",
+      "type": "direct",
+      "label": "Jordanes Getica, Mariana General History of Spain 1699: succession"
+    },
+    {
+      "from": "got8_alaric2",
+      "to": "got8_leovigild",
+      "type": "direct",
+      "label": "Jordanes Getica, Mariana General History of Spain 1699: succession"
+    },
+    {
+      "from": "got8_leovigild",
+      "to": "got8_wamba_witiza",
+      "type": "direct",
+      "label": "Jordanes Getica, Mariana General History of Spain 1699: succession"
+    },
+    {
+      "from": "got8_ataulf",
+      "to": "rom3_galla_placidia",
+      "type": "direct",
+      "label": "414 CE Marriage: King Ataulf & Roman Princess Galla Placidia"
+    },
+    {
+      "from": "got8_theodoric_great",
+      "to": "got8_alaric2",
+      "type": "expansion",
+      "label": "Marriage of Alaric II to Thiudigotho, daughter of Theoderic the Great"
+    },
+    {
+      "from": "got8_leovigild",
+      "to": "mon_esp_reccared1",
+      "type": "direct",
+      "label": "Father of King Reccared I of the Visigoths"
+    },
+    {
+      "from": "got8_wamba_witiza",
+      "to": "mon_esp_roderick",
+      "type": "expansion",
+      "label": "Late Visigothic succession to King Roderick"
+    },
+    {
+      "from": "eur_greg_merovingians",
+      "to": "mer8_merovech",
+      "type": "direct",
+      "label": "Gregory of Tours History of the Franks: succession"
+    },
+    {
+      "from": "mer8_merovech",
+      "to": "mer8_childeric1",
+      "type": "direct",
+      "label": "Gregory of Tours History of the Franks: succession"
+    },
+    {
+      "from": "mer8_childeric1",
+      "to": "mon_fra_clovis1",
+      "type": "direct",
+      "label": "Father of King Clovis I"
+    },
+    {
+      "from": "mon_fra_clovis1",
+      "to": "mer8_clotilde_burgundy",
+      "type": "direct",
+      "label": "Royal Marriage: Clovis I & St. Clotilde of Burgundy"
+    },
+    {
+      "from": "mon_fra_clovis1",
+      "to": "mer8_theuderic1",
+      "type": "direct",
+      "label": "Son of Clovis I"
+    },
+    {
+      "from": "mon_fra_clovis1",
+      "to": "mer8_childebert1",
+      "type": "direct",
+      "label": "Son of Clovis I & Clotilde"
+    },
+    {
+      "from": "mon_fra_chlothar1",
+      "to": "mer8_sigebert1",
+      "type": "direct",
+      "label": "Son of Chlothar I"
+    },
+    {
+      "from": "mer8_sigebert1",
+      "to": "mer8_brunhilda_visigoth",
+      "type": "direct",
+      "label": "Marriage of Sigebert I & Visigothic Princess Brunhilda"
+    },
+    {
+      "from": "esp_visigoths_reccared_roderick",
+      "to": "mer8_brunhilda_visigoth",
+      "type": "expansion",
+      "label": "Daughter of Visigothic King Athanagild"
+    },
+    {
+      "from": "mer8_brunhilda_visigoth",
+      "to": "mer8_childebert2",
+      "type": "direct",
+      "label": "Son of Sigebert I & Brunhilda"
+    },
+    {
+      "from": "mon_fra_chlothar1",
+      "to": "mer8_chilperic1",
+      "type": "direct",
+      "label": "Son of Chlothar I"
+    },
+    {
+      "from": "mer8_chilperic1",
+      "to": "mer8_fredegund",
+      "type": "direct",
+      "label": "Marriage of Chilperic I & Queen Fredegund"
+    },
+    {
+      "from": "mer8_fredegund",
+      "to": "mer8_chlothar2",
+      "type": "direct",
+      "label": "Son of Chilperic I & Fredegund"
+    },
+    {
+      "from": "mer8_chlothar2",
+      "to": "mon_fra_dagobert1",
+      "type": "direct",
+      "label": "Father of King Dagobert I"
+    },
+    {
+      "from": "mon_fra_dagobert1",
+      "to": "mer8_childeric3",
+      "type": "direct",
+      "label": "Late Merovingian royal descent to Childeric III"
+    },
+    {
+      "from": "mer8_chlothar2",
+      "to": "mer8_pepin_landen",
+      "type": "expansion",
+      "label": "Austrasian mayor under Chlothar II"
+    },
+    {
+      "from": "mer8_pepin_landen",
+      "to": "mer8_pepin_herstal",
+      "type": "direct",
+      "label": "Grandson (Arnulfing-Pippinid union)"
+    },
+    {
+      "from": "mer8_pepin_herstal",
+      "to": "mon_fra_charles_martel",
+      "type": "direct",
+      "label": "Father of Charles Martel"
+    },
+    {
+      "from": "kas_gonanda_ashoka",
+      "to": "kas8_jalauka",
+      "type": "direct",
+      "label": "Kalhana's Rajatarangini (M.A. Stein 1900): succession"
+    },
+    {
+      "from": "kas8_jalauka",
+      "to": "kas8_kanishka_kashmir",
+      "type": "direct",
+      "label": "Kalhana's Rajatarangini (M.A. Stein 1900): succession"
+    },
+    {
+      "from": "kas8_kanishka_kashmir",
+      "to": "kas8_meghavahana",
+      "type": "direct",
+      "label": "Kalhana's Rajatarangini (M.A. Stein 1900): succession"
+    },
+    {
+      "from": "kas8_meghavahana",
+      "to": "kas8_pravarasena2",
+      "type": "direct",
+      "label": "Kalhana's Rajatarangini (M.A. Stein 1900): succession"
+    },
+    {
+      "from": "kas8_pravarasena2",
+      "to": "kas8_durlabhavardhana",
+      "type": "direct",
+      "label": "Kalhana's Rajatarangini (M.A. Stein 1900): succession"
+    },
+    {
+      "from": "kas8_durlabhavardhana",
+      "to": "kas8_lalitaditya",
+      "type": "direct",
+      "label": "Kalhana's Rajatarangini (M.A. Stein 1900): succession"
+    },
+    {
+      "from": "kas8_lalitaditya",
+      "to": "kas8_avantivarman",
+      "type": "direct",
+      "label": "Kalhana's Rajatarangini (M.A. Stein 1900): succession"
+    },
+    {
+      "from": "kas8_avantivarman",
+      "to": "kas8_queen_didda",
+      "type": "direct",
+      "label": "Kalhana's Rajatarangini (M.A. Stein 1900): succession"
+    },
+    {
+      "from": "kas8_queen_didda",
+      "to": "kas8_sangramaraja",
+      "type": "direct",
+      "label": "Kalhana's Rajatarangini (M.A. Stein 1900): succession"
+    },
+    {
+      "from": "kas8_sangramaraja",
+      "to": "kas8_kota_rani_shah_mir",
+      "type": "direct",
+      "label": "Kalhana's Rajatarangini (M.A. Stein 1900): succession"
+    },
+    {
+      "from": "kas8_kota_rani_shah_mir",
+      "to": "chr6_mirza_haidar_dughlat",
+      "type": "expansion",
+      "label": "Kashmir sultanate period preceding Mirza Haidar Dughlat (1540)"
+    },
+    {
+      "from": "ind5_pandukabhaya",
+      "to": "lka8_devanampiya_tissa",
+      "type": "direct",
+      "label": "Mahavamsa & Culavamsa (Geiger): succession"
+    },
+    {
+      "from": "lka8_devanampiya_tissa",
+      "to": "lka8_dutthagamani",
+      "type": "direct",
+      "label": "Mahavamsa & Culavamsa (Geiger): succession"
+    },
+    {
+      "from": "lka8_dutthagamani",
+      "to": "lka8_vattagamani",
+      "type": "direct",
+      "label": "Mahavamsa & Culavamsa (Geiger): succession"
+    },
+    {
+      "from": "lka8_vattagamani",
+      "to": "lka8_mahasena",
+      "type": "direct",
+      "label": "Mahavamsa & Culavamsa (Geiger): succession"
+    },
+    {
+      "from": "lka8_mahasena",
+      "to": "lka8_kashyapa_sigiriya",
+      "type": "direct",
+      "label": "Mahavamsa & Culavamsa (Geiger): succession"
+    },
+    {
+      "from": "lka8_kashyapa_sigiriya",
+      "to": "lka8_vijayabahu1",
+      "type": "direct",
+      "label": "Mahavamsa & Culavamsa (Geiger): succession"
+    },
+    {
+      "from": "lka8_vijayabahu1",
+      "to": "lka8_parakramabahu1",
+      "type": "direct",
+      "label": "Mahavamsa & Culavamsa (Geiger): succession"
+    },
+    {
+      "from": "lka8_parakramabahu1",
+      "to": "lka8_nissanka_malla",
+      "type": "direct",
+      "label": "Mahavamsa & Culavamsa (Geiger): succession"
+    },
+    {
+      "from": "ind5_mahendra_sanghamitta",
+      "to": "lka8_devanampiya_tissa",
+      "type": "expansion",
+      "label": "Mahavamsa XIII: Emperor Ashoka's children Mahinda & Sanghamitta brought Buddhism & Bodhi Sapling to Tissa"
+    },
+    {
+      "from": "ceylon_vijaya_mahinda",
+      "to": "lka8_devanampiya_tissa",
+      "type": "cognate",
+      "label": "Same Sinhalese founder dynasty"
+    },
+    {
+      "from": "lka8_vijayabahu1",
+      "to": "mon_ind_rajendra1",
+      "type": "expansion",
+      "label": "11th c. Chola–Sinhalese conflicts & Kalinga royal marriages"
+    },
+    {
+      "from": "burma_abhiraza_tagaung",
+      "to": "bur8_pyusawhti",
+      "type": "direct",
+      "label": "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin): succession"
+    },
+    {
+      "from": "bur8_pyusawhti",
+      "to": "bur8_anawrahta",
+      "type": "direct",
+      "label": "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin): succession"
+    },
+    {
+      "from": "bur8_anawrahta",
+      "to": "bur8_kyansittha",
+      "type": "direct",
+      "label": "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin): succession"
+    },
+    {
+      "from": "bur8_kyansittha",
+      "to": "bur8_alaungsithu",
+      "type": "direct",
+      "label": "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin): succession"
+    },
+    {
+      "from": "bur8_alaungsithu",
+      "to": "bur8_narathihapate",
+      "type": "direct",
+      "label": "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin): succession"
+    },
+    {
+      "from": "bur8_narathihapate",
+      "to": "bur8_tabinshwehti",
+      "type": "direct",
+      "label": "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin): succession"
+    },
+    {
+      "from": "bur8_tabinshwehti",
+      "to": "bur8_bayinnaung",
+      "type": "direct",
+      "label": "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin): succession"
+    },
+    {
+      "from": "bur8_bayinnaung",
+      "to": "bur8_alaungpaya",
+      "type": "direct",
+      "label": "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin): succession"
+    },
+    {
+      "from": "bur8_alaungpaya",
+      "to": "bur8_mindon_min",
+      "type": "direct",
+      "label": "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin): succession"
+    },
+    {
+      "from": "bur8_mindon_min",
+      "to": "bur8_king_thibaw",
+      "type": "direct",
+      "label": "Glass Palace Chronicle of the Kings of Burma (Hmannan Yazawin): succession"
+    },
+    {
+      "from": "bur8_narathihapate",
+      "to": "mngr_imp_10_qubilai_qa_an_kublai_khan_fo",
+      "type": "expansion",
+      "label": "1277–1287 CE Yuan-Pagan campaigns under Kublai Khan"
+    },
+    {
+      "from": "bur8_bayinnaung",
+      "to": "unb_sea_naresuan",
+      "type": "expansion",
+      "label": "16th c. Toungoo–Ayutthaya royal rivalry & hostage-prince Naresuan at Pegu"
+    },
+    {
+      "from": "ind5_songtsen_gampo",
+      "to": "tib8_trisong_detsen",
+      "type": "direct",
+      "label": "The Blue Annals (George N. Roerich): succession"
+    },
+    {
+      "from": "tib8_trisong_detsen",
+      "to": "tib8_ralpachen_langdarma",
+      "type": "direct",
+      "label": "The Blue Annals (George N. Roerich): succession"
+    },
+    {
+      "from": "tib8_ralpachen_langdarma",
+      "to": "tib8_atisha_dromton",
+      "type": "direct",
+      "label": "The Blue Annals (George N. Roerich): succession"
+    },
+    {
+      "from": "tib8_atisha_dromton",
+      "to": "tib8_marpa_milarepa",
+      "type": "direct",
+      "label": "The Blue Annals (George N. Roerich): succession"
+    },
+    {
+      "from": "tib8_marpa_milarepa",
+      "to": "tib8_sakya_pandita",
+      "type": "direct",
+      "label": "The Blue Annals (George N. Roerich): succession"
+    },
+    {
+      "from": "tib8_sakya_pandita",
+      "to": "tib8_tsongkhapa",
+      "type": "direct",
+      "label": "The Blue Annals (George N. Roerich): succession"
+    },
+    {
+      "from": "tib8_tsongkhapa",
+      "to": "tib8_fifth_dalai_lama",
+      "type": "direct",
+      "label": "The Blue Annals (George N. Roerich): succession"
+    },
+    {
+      "from": "tib_nyatri_songtsen",
+      "to": "tib8_trisong_detsen",
+      "type": "expansion",
+      "label": "Blue Annals Book I: Yarlung royal lineage continuity"
+    },
+    {
+      "from": "tib8_sakya_pandita",
+      "to": "mngr_imp_10_qubilai_qa_an_kublai_khan_fo",
+      "type": "expansion",
+      "label": "1260 CE Patron-Priest Alliance: Drogön Phagpa named Imperial Preceptor (Guoshi) by Kublai Khan"
+    },
+    {
+      "from": "mon_ott_suleiman1",
+      "to": "ott8_hurrem_sultan",
+      "type": "direct",
+      "label": "Royal Marriage: Sultan Suleiman I & Hürrem Sultan"
+    },
+    {
+      "from": "ott8_hurrem_sultan",
+      "to": "mon_ott_selim2",
+      "type": "direct",
+      "label": "Mother of Sultan Selim II"
+    },
+    {
+      "from": "ott8_hurrem_sultan",
+      "to": "ott8_mihrimah_sultan",
+      "type": "direct",
+      "label": "Daughter of Suleiman I & Hürrem Sultan"
+    },
+    {
+      "from": "pc_ottoman_imperial_women",
+      "to": "ott8_hurrem_sultan",
+      "type": "cognate",
+      "label": "Ottoman Imperial Women individual expansion"
+    },
+    {
+      "from": "mon_ott_selim2",
+      "to": "ott8_nurbanu_safiye",
+      "type": "direct",
+      "label": "Consort & Valide lineage of Selim II & Murad III"
+    },
+    {
+      "from": "mon_ott_ahmed1",
+      "to": "ott8_kosem_sultan",
+      "type": "direct",
+      "label": "Consort of Sultan Ahmed I"
+    },
+    {
+      "from": "ott8_kosem_sultan",
+      "to": "mon_ott_murad4",
+      "type": "direct",
+      "label": "Mother of Sultan Murad IV"
+    },
+    {
+      "from": "mon_ott_murad3",
+      "to": "ott8_mehmed3",
+      "type": "direct",
+      "label": "Son of Murad III"
+    },
+    {
+      "from": "ott8_mehmed3",
+      "to": "mon_ott_ahmed1",
+      "type": "direct",
+      "label": "Son of Mehmed III"
+    },
+    {
+      "from": "mon_ott_ahmed1",
+      "to": "ott8_osman2_mustafa1",
+      "type": "direct",
+      "label": "Son/Brother succession of Ahmed I"
+    },
+    {
+      "from": "ott8_osman2_mustafa1",
+      "to": "mon_ott_murad4",
+      "type": "direct",
+      "label": "Succession to Murad IV (son of Ahmed I & Kösem)"
+    },
+    {
+      "from": "mon_ott_murad4",
+      "to": "ott8_ibrahim1",
+      "type": "direct",
+      "label": "Brother succession (sons of Ahmed I & Kösem)"
+    },
+    {
+      "from": "ott8_kosem_sultan",
+      "to": "ott8_ibrahim1",
+      "type": "direct",
+      "label": "Mother of Sultan Ibrahim I"
+    },
+    {
+      "from": "ott8_ibrahim1",
+      "to": "mon_ott_mehmed4",
+      "type": "direct",
+      "label": "Son of Sultan Ibrahim I"
+    },
+    {
+      "from": "mon_ott_mehmed4",
+      "to": "ott8_suleiman2_ahmed2_mustafa2",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 3–4, Ottoman Registry: succession"
+    },
+    {
+      "from": "ott8_suleiman2_ahmed2_mustafa2",
+      "to": "ott8_ahmed3",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 3–4, Ottoman Registry: succession"
+    },
+    {
+      "from": "ott8_ahmed3",
+      "to": "ott8_mahmud1_osman3_mustafa3",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 3–4, Ottoman Registry: succession"
+    },
+    {
+      "from": "ott8_mahmud1_osman3_mustafa3",
+      "to": "ott8_abdulhamid1",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 3–4, Ottoman Registry: succession"
+    },
+    {
+      "from": "ott8_abdulhamid1",
+      "to": "ott8_selim3",
+      "type": "direct",
+      "label": "Modern Universal History Vol. 3–4, Ottoman Registry: succession"
+    },
+    {
+      "from": "ott8_selim3",
+      "to": "mon_ott_mahmud2",
+      "type": "direct",
+      "label": "Half-cousin succession (sons of Abdulhamid I & Mustafa III)"
+    },
+    {
+      "from": "mon_ott_mahmud2",
+      "to": "ott8_abdulmejid1",
+      "type": "direct",
+      "label": "Ottoman Imperial Registry, Almanach de Gotha: succession"
+    },
+    {
+      "from": "ott8_abdulmejid1",
+      "to": "ott8_abdulaziz",
+      "type": "direct",
+      "label": "Ottoman Imperial Registry, Almanach de Gotha: succession"
+    },
+    {
+      "from": "ott8_abdulaziz",
+      "to": "ott8_abdulhamid2",
+      "type": "direct",
+      "label": "Ottoman Imperial Registry, Almanach de Gotha: succession"
+    },
+    {
+      "from": "ott8_abdulhamid2",
+      "to": "ott8_mehmed5",
+      "type": "direct",
+      "label": "Ottoman Imperial Registry, Almanach de Gotha: succession"
+    },
+    {
+      "from": "ott8_mehmed5",
+      "to": "ott8_mehmed6",
+      "type": "direct",
+      "label": "Ottoman Imperial Registry, Almanach de Gotha: succession"
+    },
+    {
+      "from": "ott8_mehmed6",
+      "to": "ott8_abdulmejid2_osmanoglu",
+      "type": "direct",
+      "label": "Ottoman Imperial Registry, Almanach de Gotha: succession"
+    },
+    {
+      "from": "bib_adam",
+      "to": "mid8_pirkei_eliezer_calendar",
+      "type": "expansion",
+      "label": "Pirkei de-Rabbi Eliezer Ch. 8: Adam received calendar wisdom"
+    },
+    {
+      "from": "bib_shem",
+      "to": "mid8_pirkei_eliezer_calendar",
+      "type": "expansion",
+      "label": "Transmitted through Noah & Shem to Abraham"
+    },
+    {
+      "from": "bib_nimrod",
+      "to": "mid8_pirkei_eliezer_nimrod_garments",
+      "type": "expansion",
+      "label": "Pirkei de-Rabbi Eliezer Ch. 24: Garments of Adam held by Nimrod"
+    },
+    {
+      "from": "bib_esau",
+      "to": "mid8_pirkei_eliezer_nimrod_garments",
+      "type": "expansion",
+      "label": "Esau slew Nimrod and inherited the royal hunting garments"
+    },
+    {
+      "from": "bib_ishmael",
+      "to": "mid8_pirkei_eliezer_ishmael_wives",
+      "type": "expansion",
+      "label": "Pirkei de-Rabbi Eliezer Ch. 30: Ishmael's desert wives"
+    },
+    {
+      "from": "bib_adam",
+      "to": "mid8_kitab_al_magall_adam_cave",
+      "type": "expansion",
+      "label": "Kitab al-Magall (Sinai Arabic): Cave of Treasures patriarchal roll"
+    },
+    {
+      "from": "bib_noah",
+      "to": "mid8_kitab_al_magall_adam_cave",
+      "type": "expansion",
+      "label": "Ark preservation of Adam's relics in Kitab al-Magall"
+    },
+    {
+      "from": "bib_shem",
+      "to": "mid8_kitab_al_magall_shem_melchizedek",
+      "type": "expansion",
+      "label": "Shem & Melchizedek guardianship in Kitab al-Magall"
+    },
+    {
+      "from": "jud_david",
+      "to": "mid8_kitab_al_magall_mary_david",
+      "type": "expansion",
+      "label": "Kitab al-Magall Arabic Davidic pedigree of Virgin Mary"
     }
   ]
 }

@@ -188,6 +188,16 @@ def main():
         ("grkr_aeo_12_neleus_of_pylos", "unb_grk_aristotle", {"direct", "expansion", "cognate", "syncretic"}, "Neleus of Pylos -> Solon -> Plato -> Aristotle -> Alexander"),
         ("chn_yandi", "unb_sea_gia_long", {"direct", "expansion", "cognate", "syncretic"}, "Shennong (Yandi) -> Lac Long Quan -> Dai Viet -> Emperor Gia Long"),
         ("ind_rishis_vasishtha_agastya", "unb_sea_jayavarman7", {"direct", "expansion", "cognate", "syncretic"}, "Vasishtha/Kaundinya -> Funan & Angkor -> Jayavarman VII"),
+        ("mon_rom_basil1", "rus_vladimir_great", {"direct", "expansion", "cognate", "syncretic"}, "Basil I -> Romanos II -> Anna Porphyrogenita + St. Vladimir of Kiev"),
+        ("mon_rom_michael8", "mon_ott_orhan", {"direct", "expansion", "cognate", "syncretic"}, "Michael VIII -> John VI Kantakouzenos -> Theodora + Sultan Orhan"),
+        ("mon_rom_basil1", "mon_hre_otto1", {"direct", "expansion", "cognate", "syncretic"}, "Byzantine Macedonian House -> Empress Theophanu -> Otto II & Otto I (HRE)"),
+        ("goth_amali_theoderic", "rom3_galla_placidia", {"direct", "expansion", "cognate", "syncretic"}, "Amali/Balti Goths -> Alaric I -> Ataulf + Empress Galla Placidia"),
+        ("eur_greg_merovingians", "mon_fra_charles_martel", {"direct", "expansion", "cognate", "syncretic"}, "Merovech -> Clovis I -> Chlothar I -> Chlothar II -> Pepin of Herstal -> Charles Martel"),
+        ("kas_gonanda_ashoka", "kas8_queen_didda", {"direct", "expansion", "cognate", "syncretic"}, "Kashmir Rajatarangini: Gonanda -> Lalitaditya -> Queen Didda"),
+        ("ceylon_vijaya_mahinda", "lka8_parakramabahu1", {"direct", "expansion", "cognate", "syncretic"}, "Mahavamsa: Vijaya -> Devanampiya Tissa -> Dutthagamani -> Parakramabahu I"),
+        ("burma_abhiraza_tagaung", "bur8_bayinnaung", {"direct", "expansion", "cognate", "syncretic"}, "Glass Palace Chronicle: Abhiraza -> Anawrahta -> Bayinnaung of Burma"),
+        ("tib_nyatri_songtsen", "tib8_fifth_dalai_lama", {"direct", "expansion", "cognate", "syncretic"}, "Blue Annals: Nyatri Tsenpo -> Trisong Detsen -> Sakya Pandita -> 5th Dalai Lama"),
+        ("mon_ott_suleiman1", "ott8_abdulmejid2_osmanoglu", {"direct", "expansion", "cognate", "syncretic"}, "Suleiman the Magnificent -> Hurrem -> Kosem -> Abdulhamid II -> Osmanoğlu (2026)"),
     ]
 
     print("\nSample Cross-Tradition Ancestry Paths:")
